@@ -1,0 +1,466 @@
+opened | open | verbo (pasado) | abrí, abrió | I finally opened my own café.
+people's | people | sustantivo (posesivo) | de otras personas, ajeno | I worked in other people's kitchens.
+kitchens | kitchen | sustantivo (plural) | cocinas | She has worked in many kitchens.
+getting | get | verbo (-ing) | levantándome (get up = levantarse) | I had been getting up at five.
+burning | burn | verbo (-ing) | quemando(me) | I had been burning my fingers.
+fingers | finger | sustantivo (plural) | dedos | Be careful with your fingers.
+pans | pan | sustantivo (plural) | sartenes, ollas | The pans were very hot.
+dreaming | dream | verbo (-ing) | soñando | I had been dreaming about this.
+hardly | - | adverbio | apenas, casi no | It hardly felt real.
+real | - | adjetivo | real | The moment felt real.
+inspired | inspire | verbo (pasado) | inspiró | My grandmother inspired me.
+child | - | sustantivo | niño, niña | When I was a child, I lived here.
+wake | - | verbo | despertarse | She would wake up early.
+everyone | - | pronombre | todos, todo el mundo | Everyone was still asleep.
+else | - | adverbio | más, otro (everyone else = todos los demás) | She woke before everyone else.
+bake | - | verbo | hornear | She would bake bread every day.
+whole | - | adjetivo | entero, todo | She baked for the whole street.
+neighbours | neighbour | sustantivo (plural) | vecinos | The neighbours knocked on her door.
+knock | - | verbo | tocar (la puerta), golpear | Please knock before you come in.
+door | - | sustantivo | puerta | Close the door, please.
+empty | - | adjetivo | vacío | They came with empty baskets.
+baskets | basket | sustantivo (plural) | canastas, cestas | The baskets were full of bread.
+extra | - | adjetivo / sustantivo | algo de más, adicional | She always gave a little extra.
+visitors | visitor | sustantivo (plural) | visitantes, visitas | A kitchen needs visitors.
+meant | mean | verbo (pasado) | quería decir | I didn't understand what she meant.
+these | this | determinante (plural) | estos, estas | These days I work a lot.
+routine | - | sustantivo | rutina | My morning routine is simple.
+hers | - | pronombre posesivo | el suyo, la suya (de ella) | My routine is similar to hers.
+i'll | I will | contracción (I + will) | yo (futuro / hábito) | I'll arrive at half past five.
+arrive | - | verbo | llegar | I usually arrive early.
+half | - | sustantivo | media, mitad (half past five = cinco y media) | It's half past five.
+switch | - | verbo | encender (switch on), apagar (switch off) | I switch on the machine.
+machine | - | sustantivo | máquina | The coffee machine is old.
+stand | - | verbo | estar de pie, pararse | I stand by the window.
+customers | customer | sustantivo (plural) | clientes | The first customers wait outside.
+outside | - | adverbio | afuera | They are waiting outside.
+regulars | regular | sustantivo (plural) | clientes habituales | The regulars know my name.
+tell | - | verbo | contar, decir | They tell me their problems.
+problems | problem | sustantivo (plural) | problemas | Everyone has problems.
+taken | take | verbo (participio) | quitado (take off = quitarse) | He hasn't taken off his coat.
+coats | coat | sustantivo (plural) | abrigos | Hang your coats here.
+partner | - | sustantivo | pareja, socio | My partner helps me in the café.
+complaining | complain | verbo (-ing) | quejándose | She is always complaining.
+strangers | stranger | sustantivo (plural) | desconocidos | Don't talk to strangers.
+mind | - | verbo | importar, molestar | I don't mind waiting.
+believe | - | verbo | creer | I believe you.
+come | - | verbo | venir | People come for the conversation.
+conversation | - | sustantivo | conversación | We had a long conversation.
+belongs | belong | verbo (3.ª persona) | pertenece | The café belongs to the bank.
+owe | - | verbo | deber (dinero) | I owe the bank a lot of money.
+admit | - | verbo | admitir | I have to admit I was wrong.
+plan | - | sustantivo | plan | Things don't always go to plan.
+serving | serve | verbo (-ing) | sirviendo | I will be serving breakfast.
+terrace | - | sustantivo | terraza | We ate on the terrace.
+entire | - | adjetivo | entero, total | I will pay back the entire loan.
+loan | - | sustantivo | préstamo | The bank gave me a loan.
+younger | young | adjetivo (comparativo) | menor, más joven | My younger brother studies business.
+brother | - | sustantivo | hermano | My brother lives in Cali.
+studying | study | verbo (-ing) | estudiando | He is studying business.
+business | - | sustantivo | negocios, empresa | She studies business.
+finished | finish | verbo (participio) | terminado | He will have finished his degree.
+degree | - | sustantivo | título universitario, carrera | She has a degree in law.
+helping | help | verbo (-ing) | ayudando | He will be helping me.
+accounts | account | sustantivo (plural) | cuentas, contabilidad | He helps me with the accounts.
+according | - | preposición | según (according to) | Things went according to plan.
+whenever | - | conjunción | cada vez que, siempre que | Call me whenever you want.
+smell | - | verbo | oler | I love to smell fresh bread.
+fresh | - | adjetivo | fresco, recién hecho | We sell fresh bread.
+standing | stand | verbo (-ing) | de pie, parada | She was standing in the kitchen.
+tiny | - | adjetivo | diminuto, muy pequeño | She had a tiny kitchen.
+university | - | sustantivo | universidad | We met at university.
+sent | send | verbo (pasado) | envió | My friend sent me a photo.
+photograph | - | sustantivo | fotografía | An old photograph of us.
+holding | hold | verbo (-ing) | sosteniendo | I was holding a letter.
+letter | - | sustantivo | carta | I received a letter.
+scholarship | - | sustantivo | beca | She won a scholarship.
+study | - | verbo | estudiar | I want to study architecture.
+architecture | - | sustantivo | arquitectura | He studied architecture.
+barcelona | - | nombre propio | Barcelona (ciudad de España) | I wanted to study in Barcelona.
+minute | - | sustantivo | minuto (at the last minute = a última hora) | I changed my mind at the last minute.
+stay | - | verbo | quedarse | I decided to stay.
+fallen | fall | verbo (participio) | caído (fall ill = enfermarse) | My father had fallen ill.
+ill | - | adjetivo | enfermo | He was very ill.
+photo | - | sustantivo | foto | Look at this photo.
+wonder | - | verbo | preguntarse | I wonder what would have happened.
+accepted | accept | verbo (participio) | aceptado | If I had accepted the offer...
+catalan | - | nombre propio / sustantivo | catalán (idioma) | I would have learned Catalan.
+designed | design | verbo (participio) | diseñado | He designed the building.
+buildings | building | sustantivo (plural) | edificios | Tall buildings.
+mediterranean | - | nombre propio | el Mediterráneo | A house by the Mediterranean.
+gone | go | verbo (participio) | ido | If I had gone to Spain...
+probably | - | adverbio | probablemente | I probably wouldn't be here.
+high | - | adjetivo | alto (high school = colegio de secundaria) | She teaches at a high school.
+substitute | - | adjetivo / sustantivo | suplente, sustituto | A substitute teacher.
+rainy | - | adjetivo | lluvioso | It was a rainy day.
+tuesday | - | nombre propio | martes | See you on Tuesday.
+wished | wish | verbo (pasado) | deseaba, ojalá (I wished I had = ojalá hubiera) | I wished I had been braver.
+braver | brave | adjetivo (comparativo) | más valiente | I wish I had been braver.
+hadn't | had not | contracción (had + not) | no había / no hubiera | I wish I hadn't listened.
+listened | listen | verbo (participio) | escuchado | I hadn't listened to her.
+fears | fear | sustantivo (plural) | miedos | Don't listen to your fears.
+lie | - | verbo | estar acostado (lie awake = estar desvelado) | I would lie awake at night.
+awake | - | adjetivo | despierto | I was awake all night.
+thinking | think | verbo (-ing) | pensando | I was thinking about it.
+terrible | - | adjetivo | terrible | It was a terrible mistake.
+recently | - | adverbio | recientemente | I recently changed jobs.
+differently | - | adverbio | de otra manera | I see things differently now.
+recovered | recover | verbo (pasado) | se recuperó | My father recovered quickly.
+known | know | verbo (participio) | sabido | He must have known.
+given | give | verbo (participio) | dado (give up = renunciar a) | I had given up a lot.
+stopped | stop | verbo (pasado) | dejó de | He never stopped thanking me.
+thanking | thank | verbo (-ing) | agradecer, dar las gracias | He kept thanking me.
+look | - | verbo | mirar (look after = cuidar) | He can't have been easy to look after.
+sell | - | verbo | vender | She might have had to sell the house.
+hand | - | sustantivo | mano (on the other hand = por otro lado) | On the other hand, he went abroad.
+abroad | - | adverbio | al extranjero, en el extranjero | He went abroad.
+confessed | confess | verbo (pasado) | confesó | He confessed the truth.
+sometimes | - | adverbio | a veces | Sometimes I feel sad.
+wishes | wish | verbo (3.ª persona) | desea, ojalá | He wishes he had stayed.
+less | little | adverbio (comparativo) | menos | If I'd been less restless...
+restless | - | adjetivo | inquieto | He was a restless man.
+wrote | write | verbo (pasado) | escribió | He wrote me a message.
+message | - | sustantivo | mensaje | I got your message.
+realise | - | verbo | darse cuenta | I didn't realise it was late.
+regret | - | sustantivo | arrepentimiento | I have no regrets.
+ourselves | - | pronombre reflexivo | (a) nosotros mismos | The stories we tell ourselves.
+perhaps | - | adverbio | quizás | Perhaps you are right.
+choose | - | verbo | elegir | I didn't choose that life.
+wonderful | - | adjetivo | maravilloso | It would have been wonderful.
+lonely | - | adjetivo | solitario, solo | He felt lonely abroad.
+peace | - | sustantivo | paz (at peace = en paz) | I am at peace with it.
+self | - | sustantivo | yo, uno mismo (younger self = mi yo más joven) | Talk to your younger self.
+simply | - | adverbio | simplemente | I would simply tell him to relax.
+worrying | worry | verbo (-ing) | preocuparse | Stop worrying so much.
+england | - | nombre propio | Inglaterra | A village in England.
+threatened | threaten | verbo (participio) | amenazado | The library was threatened with closure.
+closure | - | sustantivo | cierre | The closure of the library.
+nearly | - | adverbio | casi | Nearly two years.
+remain | - | verbo | permanecer, seguir | It will remain open.
+open | - | adjetivo | abierto | The library is open.
+anonymous | - | adjetivo | anónimo | An anonymous donor.
+donor | - | sustantivo | donante | The donor paid the debts.
+debts | debt | sustantivo (plural) | deudas | He paid off his debts.
+serves | serve | verbo (3.ª persona) | atiende, da servicio a | It serves three thousand residents.
+thousand | - | número | mil | Three thousand people.
+residents | resident | sustantivo (plural) | residentes, vecinos | Local residents protested.
+built | build | verbo (participio) | construido | It was built in 1902.
+oldest | old | adjetivo (superlativo) | el más antiguo | The oldest library in the region.
+officials | official | sustantivo (plural) | funcionarios | Local officials confirmed it.
+due | - | adjetivo | previsto (due to = previsto para) | It was due to be sold.
+sold | sell | verbo (participio) | vendido | The house was sold.
+property | - | sustantivo | inmobiliario, propiedad | A property developer.
+developer | - | sustantivo | promotor, constructora | The developer wanted the land.
+december | - | nombre propio | diciembre | In December.
+former | - | adjetivo | antiguo, ex | A former resident.
+resident | - | sustantivo | residente, habitante | A local resident.
+borrowed | borrow | verbo (pasado) | tomó prestado | He borrowed books there.
+books | book | sustantivo (plural) | libros | I love books.
+confirmed | confirm | verbo (participio) | confirmado | It has not been confirmed.
+reported | report | verbo (participio) | informado (is reported to = según se informa) | It is reported to be true.
+transferred | transfer | verbo (participio) | transferido | The money was transferred.
+lawyer | - | sustantivo | abogado | Call your lawyer.
+refused | refuse | verbo (pasado) | se negó | He refused to answer.
+reveal | - | verbo | revelar | He wouldn't reveal the name.
+details | detail | sustantivo (plural) | detalles | No further details.
+client | - | sustantivo | cliente | My client wants privacy.
+journalists | journalist | sustantivo (plural) | periodistas | He spoke to journalists.
+head | - | sustantivo / adjetivo | jefe, principal | The head librarian.
+librarian | - | sustantivo | bibliotecario | The librarian helped me.
+margaret | - | nombre propio | Margaret (nombre) | Margaret Collins is the librarian.
+collins | - | nombre propio | Collins (apellido) | Ms Collins spoke to us.
+admitted | admit | verbo (pasado) | admitió | She admitted she was tired.
+explained | explain | verbo (pasado) | explicó | She explained the problem.
+shelves | shelf | sustantivo (plural) | estantes | Empty the shelves.
+several | - | determinante | varios | Several books were lost.
+rare | - | adjetivo | raro, poco común | Rare books are expensive.
+packed | pack | verbo (participio) | empacado, guardado | The books were packed into boxes.
+boxes | box | sustantivo (plural) | cajas | Put them in boxes.
+done | do | verbo (participio) | hecho | Nothing could be done.
+monday | - | nombre propio | lunes | On Monday morning.
+received | receive | verbo (pasado) | recibí | I received a call.
+changed | change | verbo (pasado) | cambió | It changed everything.
+organised | organise | verbo (participio) | organizado | They had organised protests.
+protests | protest | sustantivo (plural) | protestas | There were many protests.
+collected | collect | verbo (participio) | recogido, reunido | They collected signatures.
+signatures | signature | sustantivo (plural) | firmas | Ten thousand signatures.
+celebrated | celebrate | verbo (pasado) | celebraron | They celebrated the news.
+news | - | sustantivo | noticia(s) | Good news!
+volunteer | - | sustantivo | voluntario | A volunteer helps at the library.
+whose | - | pronombre relativo | cuyo, cuya | A woman whose children read there.
+described | describe | verbo (pasado) | describió | She described it as a miracle.
+donation | - | sustantivo | donación | A generous donation.
+miracle | - | sustantivo | milagro | It was a miracle.
+warned | warn | verbo (pasado) | advirtió | He warned us about the risk.
+solved | solve | verbo (participio) | resuelto | The problem has not been solved.
+permanently | - | adverbio | permanentemente, definitivamente | It is closed permanently.
+urged | urge | verbo (pasado) | instó, pidió con insistencia | She urged the council to act.
+council | - | sustantivo | ayuntamiento, consejo municipal | The council will decide.
+guarantee | - | verbo | garantizar | We guarantee the funding.
+funding | - | sustantivo | financiación | The project needs funding.
+promised | promise | verbo (participio) | prometido | They have promised to help.
+review | - | verbo | revisar | We will review the budget.
+budget | - | sustantivo | presupuesto | The budget is small.
+spokesperson | - | sustantivo | portavoz | A spokesperson for the council.
+denied | deny | verbo (pasado) | negó | He denied the story.
+ever | - | adverbio | alguna vez, nunca (en negación) | Had it ever been considered?
+considered | consider | verbo (participio) | considerado | It was considered unimportant.
+unimportant | - | adjetivo | sin importancia | It is not unimportant.
+roof | - | sustantivo | techo, tejado | The roof is leaking.
+leaking | leak | verbo (-ing) | goteando, teniendo goteras | The roof has been leaking.
+repaired | repair | verbo (participio) | reparado | It will be repaired.
+spring | - | sustantivo | primavera | In the spring.
+expected | expect | verbo (participio) | se espera (is expected to) | It is expected to open soon.
+heating | - | sustantivo | calefacción | The heating is broken.
+system | - | sustantivo | sistema | A new heating system.
+replaced | replace | verbo (participio) | reemplazado (have something replaced) | We had the window replaced.
+winter | - | sustantivo | invierno | Before the winter.
+ms | - | abreviatura | Sra. (sin indicar estado civil) | Ms Collins is the librarian.
+painted | paint | verbo (participio) | pintado (have something painted = mandar pintar) | She had the room painted.
+redecorated | redecorate | verbo (participio) | redecorado | The room was redecorated.
+note | - | sustantivo | nota | He left a short note.
+payment | - | sustantivo | pago | The payment arrived.
+rumoured | rumour | verbo (participio) | se rumorea (it is rumoured) | It is rumoured that he is rich.
+contained | contain | verbo (pasado) | contenía | The note contained one sentence.
+sentence | - | sustantivo | frase, oración | Write one sentence.
+deserves | deserve | verbo (3.ª persona) | merece | Every town deserves a library.
+topics | topic | sustantivo (plural) | temas | Few topics are so divisive.
+divide | - | verbo | dividir | These topics divide people.
+teachers | teacher | sustantivo (plural) | profesores | Teachers work hard.
+homework | - | sustantivo | tarea (escolar) | Do your homework.
+abolished | abolish | verbo (participio) | abolido, suprimido | It should be abolished.
+insist | - | verbo | insistir | They insist that it is necessary.
+essential | - | adjetivo | esencial | Water is essential.
+opinion | - | sustantivo | opinión | In my opinion, it is useful.
+banned | ban | verbo (participio) | prohibido | Smoking is banned here.
+clearly | - | adverbio | claramente | It clearly needs to change.
+needs | need | verbo (3.ª persona) | necesita | It needs to be rethought.
+rethought | rethink | verbo (participio) | replanteado | The plan must be rethought.
+valid | - | adjetivo | válido | That is a valid point.
+completing | complete | verbo (-ing) | completando, haciendo | They spend hours completing exercises.
+exercises | exercise | sustantivo (plural) | ejercicios | Do the exercises.
+seem | - | verbo | parecer | They seem pointless.
+purpose | - | sustantivo | propósito, finalidad | What is the purpose?
+result | - | sustantivo | resultado (as a result = como resultado) | As a result, they are tired.
+pleasure | - | sustantivo | placer (for pleasure = por gusto) | I read for pleasure.
+rest | - | verbo | descansar | You need to rest.
+lead | - | verbo | llevar a, conducir (lead to) | Stress may lead to illness.
+stress | - | sustantivo | estrés | Too much stress is bad.
+health | - | sustantivo | salud | Health problems.
+particularly | - | adverbio | especialmente | Particularly among teenagers.
+among | - | preposición | entre (más de dos) | Among students.
+teenagers | teenager | sustantivo (plural) | adolescentes | Teenagers need sleep.
+moreover | - | adverbio | además | Moreover, it is expensive.
+inequality | - | sustantivo | desigualdad | Social inequality.
+throw | - | verbo | tirar, lanzar (throw away = desechar) | Don't throw it away.
+away | - | adverbio | lejos, fuera | Throw it away.
+extremely | - | adverbio | extremadamente | It is extremely useful.
+useful | - | adjetivo | útil | A useful tool.
+need | - | verbo | necesitar | Students need practice.
+practise | - | verbo | practicar | You must practise every day.
+order | - | sustantivo | orden (in order to = para) | In order to remember it.
+task | - | sustantivo | tarea | A short task.
+develop | - | verbo | desarrollar | Develop good habits.
+independence | - | sustantivo | independencia | It builds independence.
+despite | - | preposición | a pesar de | Despite the criticism.
+criticism | - | sustantivo | crítica | He accepted the criticism.
+spoken | speak | verbo (participio) | hablado | I have spoken to them.
+amount | - | sustantivo | cantidad | A small amount of work.
+regular | - | adjetivo | regular, periódico | Regular practice helps.
+none | - | pronombre | ninguno, nada | Better than none at all.
+itself | - | pronombre reflexivo | en sí mismo | Homework itself is not the problem.
+instead | - | adverbio | en lugar de (instead of) | Instead of long exercises...
+setting | set | verbo (-ing) | poner, asignar (tareas) | Setting homework every day.
+repetitive | - | adjetivo | repetitivo | A repetitive job.
+schools | school | sustantivo (plural) | escuelas, colegios | Schools could change.
+fewer | few | determinante (comparativo) | menos (contables) | Fewer tasks.
+creative | - | adjetivo | creativo | A creative idea.
+tasks | task | sustantivo (plural) | tareas | Creative tasks.
+copy | - | verbo | copiar | Don't copy your friend.
+instance | - | sustantivo | ejemplo (for instance = por ejemplo) | For instance, a project.
+pupils | pupil | sustantivo (plural) | alumnos | The pupils listened.
+interview | - | verbo / sustantivo | entrevistar; entrevista | Interview a grandparent.
+grandparent | - | sustantivo | abuelo, abuela | Talk to a grandparent.
+article | - | sustantivo | artículo | Read the article.
+form | - | verbo / sustantivo | formar(se); forma | Form your own opinion.
+whereas | - | conjunción | mientras que | Whereas some agree, others don't.
+feels | feel | verbo (3.ª persona) | se siente, parece | It feels like a punishment.
+punishment | - | sustantivo | castigo | It is not a punishment.
+motivating | - | adjetivo | motivador | A motivating task.
+admittedly | - | adverbio | hay que reconocer que | Admittedly, it is hard.
+require | - | verbo | requerir | It would require effort.
+effort | - | sustantivo | esfuerzo | It takes effort.
+overworked | - | adjetivo | con exceso de trabajo | Teachers are overworked.
+nevertheless | - | adverbio | sin embargo, no obstante | Nevertheless, it's worth it.
+worth | - | adjetivo | que vale la pena (worth + -ing) | It is worth trying.
+trying | try | verbo (-ing) | intentar | It's worth trying.
+banning | ban | verbo (-ing) | prohibir | Banning homework is a mistake.
+create | - | verbo | crear | It would create problems.
+solves | solve | verbo (3.ª persona) | resuelve | It solves nothing.
+reforming | reform | verbo (-ing) | reformar | Reforming the system.
+benefit | - | verbo | beneficiar | It could benefit everyone.
+pretty | - | adverbio | bastante | It's pretty good.
+passed | pass | verbo (participio) | aprobado | I had passed my exams.
+exams | exam | sustantivo (plural) | exámenes | Final exams.
+colours | colour | sustantivo (plural) | colores (with flying colours = con excelentes notas) | She passed with flying colours.
+hold | - | verbo | sostener, mantener (hold a conversation) | I can hold a conversation.
+anything | - | pronombre | cualquier cosa | We can talk about anything.
+colleague | - | sustantivo | colega, compañero de trabajo | A colleague helped me.
+manager | - | sustantivo | gerente, jefe | Our manager is strict.
+tough | - | adjetivo | duro (a tough cookie = persona dura) | She is a tough cookie.
+cookie | - | sustantivo | galleta | A chocolate cookie.
+rock | - | verbo | mecer (rock the boat = causar problemas) | Don't rock the boat.
+nodded | nod | verbo (pasado) | asintió con la cabeza | He smiled and nodded.
+clue | - | sustantivo | pista, idea (not have a clue = no tener ni idea) | I don't have a clue.
+knowing | know | verbo (-ing) | saber, conocer | Knowing words is not enough.
+words | word | sustantivo (plural) | palabras | Learn new words.
+native | - | adjetivo | nativo | Native speakers.
+put | - | verbo | poner (put off = posponer; put up with = aguantar) | I can't put up with the noise.
+random | - | adjetivo / sustantivo | al azar (at random) | Chosen at random.
+decision | - | sustantivo | decisión | Make a decision.
+attention | - | sustantivo | atención | Pay attention.
+risk | - | sustantivo | riesgo | Take a risk.
+catch | - | verbo | atrapar, pescar (catch a cold = resfriarse) | Don't catch a cold.
+combinations | combination | sustantivo (plural) | combinaciones | Word combinations.
+called | call | verbo (participio) | llamado | These are called collocations.
+collocations | collocation | sustantivo (plural) | colocaciones (combinaciones fijas de palabras) | Learn common collocations.
+hardest | hard | adjetivo (superlativo) | lo más difícil | The hardest part.
+master | - | verbo | dominar | Master the language.
+logical | - | adjetivo | lógico | There is no logical reason.
+reason | - | sustantivo | razón | What is the reason?
+why | - | adverbio | por qué | Why do we say that?
+heavy | - | adjetivo | pesado, fuerte (heavy rain) | Heavy rain.
+nobody | - | pronombre | nadie | Nobody knows.
+knows | know | verbo (3.ª persona) | sabe | Nobody knows why.
+phrasal | - | adjetivo | (phrasal verb = verbo compuesto con partícula) | Phrasal verbs are hard.
+verbs | verb | sustantivo (plural) | verbos | Irregular verbs.
+headache | - | sustantivo | dolor de cabeza, quebradero | It was a headache.
+kept | keep | verbo (pasado) | seguía (keep + -ing) | I kept mixing them up.
+mixing | mix | verbo (-ing) | confundir (mix up) | I kept mixing them up.
+landlord | - | sustantivo | casero, arrendador | My landlord is nice.
+noisy | - | adjetivo | ruidoso | A noisy dog.
+looked | look | verbo (pasado) | parecía, se veía | He looked confused.
+confused | - | adjetivo | confundido | I was confused.
+gradually | - | adverbio | poco a poco | It gradually improved.
+though | - | adverbio | sin embargo | Gradually, though, I learned.
+heard | hear | verbo (pasado) | oí | I heard a new word.
+unfamiliar | - | adjetivo | desconocido, poco familiar | An unfamiliar word.
+expression | - | sustantivo | expresión | A common expression.
+down | - | adverbio | abajo (write down = anotar) | Write it down.
+appeared | appear | verbo (pasado) | apareció | The word appeared twice.
+notice | - | verbo | notar, fijarse en | I started to notice it.
+root | - | sustantivo | raíz | The root of the word.
+rely | - | verbo | depender, confiar (rely on) | You can rely on me.
+build | - | verbo | construir, formar | Build new words.
+reliable | - | adjetivo | fiable, confiable | A reliable friend.
+unreliable | - | adjetivo | poco fiable | An unreliable car.
+reliability | - | sustantivo | fiabilidad | Reliability is important.
+reliance | - | sustantivo | dependencia | Reliance on technology.
+word | - | sustantivo | palabra (word family = familia de palabras) | A word family.
+families | family | sustantivo (plural) | familias | Word families.
+helped | help | verbo (pasado) | ayudó | It helped me a lot.
+expand | - | verbo | ampliar | Expand your vocabulary.
+lists | list | sustantivo (plural) | listas | Long lists of words.
+became | become | verbo (pasado) | se volvió | It became natural.
+considerably | - | adverbio | considerablemente | Considerably better.
+varied | - | adjetivo | variado | A varied diet.
+easier | easy | adjetivo (comparativo) | más fácil | It is easier now.
+jokes | joke | sustantivo (plural) | chistes | I understand the jokes.
+films | film | sustantivo (plural) | películas | British films.
+accent | - | sustantivo | acento | She has a nice accent.
+nowhere | - | adverbio | en ninguna parte (nowhere near = ni de lejos) | It's nowhere near as good.
+mean | - | verbo | querer decir | What do you mean?
+occasionally | - | adverbio | de vez en cuando | I occasionally use idioms.
+idioms | idiom | sustantivo (plural) | modismos | English idioms.
+myself | - | pronombre reflexivo | yo mismo | I use them myself.
+twice | - | adverbio | dos veces (without thinking twice = sin pensarlo) | Don't think twice.
+dear | - | adjetivo | estimado, querido | Dear Ms Rodríguez.
+rodríguez | - | nombre propio | Rodríguez (apellido) | Dear Ms Rodríguez.
+thank | - | verbo | agradecer | Thank you for coming.
+attending | attend | verbo (-ing) | asistir | Thank you for attending.
+position | - | sustantivo | puesto, cargo | The position of manager.
+project | - | sustantivo | proyecto | A new project.
+coordinator | - | sustantivo | coordinador | Project Coordinator.
+thursday | - | nombre propio | jueves | Last Thursday.
+behalf | - | sustantivo | en nombre de (on behalf of) | On behalf of the team.
+team | - | sustantivo | equipo | The whole team.
+meeting | meet | verbo (-ing) / sustantivo | conocer; reunión | We enjoyed meeting you.
+impressed | - | adjetivo | impresionado | We were impressed.
+experience | - | sustantivo | experiencia | Work experience.
+managing | manage | verbo (-ing) | gestionar, dirigir | Managing projects.
+international | - | adjetivo | internacional | International projects.
+projects | project | sustantivo (plural) | proyectos | Several projects.
+handled | handle | verbo (pasado perfecto) | manejado, gestionado | How you had handled it.
+previous | - | adjetivo | anterior | Your previous job.
+role | - | sustantivo | cargo, función | In your previous role.
+pleased | - | adjetivo | complacido, contento | I am pleased to inform you.
+inform | - | verbo | informar | We inform you that...
+selected | select | verbo (participio) | seleccionado | You have been selected.
+final | - | adjetivo | final | The final stage.
+stage | - | sustantivo | etapa, fase | The second stage.
+recruitment | - | sustantivo | selección de personal | The recruitment process.
+process | - | sustantivo | proceso | A long process.
+allow | - | verbo | permitir | Allow me to explain.
+explain | - | verbo | explicar | Let me explain.
+briefly | - | adverbio | brevemente | Explain briefly.
+involve | - | verbo | implicar, consistir en | What will it involve?
+fifteen-minute | - | adjetivo | de quince minutos | A fifteen-minute presentation.
+panel | - | sustantivo | jurado, comité | A panel of managers.
+senior | - | adjetivo | de alto nivel, sénior | Senior managers.
+managers | manager | sustantivo (plural) | gerentes | Three senior managers.
+topic | - | sustantivo | tema | The topic of the talk.
+email | - | sustantivo | correo electrónico | Send me an email.
+beforehand | - | adverbio | con antelación | Five days beforehand.
+prepare | - | verbo | preparar(se) | Time to prepare.
+following | - | preposición | después de, tras | Following the presentation.
+question-and-answer | - | adjetivo | de preguntas y respuestas | A question-and-answer session.
+session | - | sustantivo | sesión | A short session.
+current | - | adjetivo | actual | Current employees.
+coordinators | coordinator | sustantivo (plural) | coordinadores | Our coordinators.
+contribute | - | verbo | contribuir, aportar | Contribute to discussions.
+discussions | discussion | sustantivo (plural) | debates, discusiones | Team discussions.
+deal | - | verbo | manejar, afrontar (deal with) | Deal with problems.
+disagreements | disagreement | sustantivo (plural) | desacuerdos | Handle disagreements.
+summarise | - | verbo | resumir | Summarise the key points.
+items | item | sustantivo (plural) | puntos (action items = tareas acordadas) | Action items.
+worry | - | verbo | preocuparse | Don't worry.
+internal | - | adjetivo | interno | Internal rules.
+procedures | procedure | sustantivo (plural) | procedimientos | Company procedures.
+assessing | assess | verbo (-ing) | evaluando | We are assessing your skills.
+both | - | determinante | ambos | Both stages.
+stages | stage | sustantivo (plural) | etapas | Two stages.
+completed | complete | verbo (participio) | completado | Once completed.
+candidates | candidate | sustantivo (plural) | candidatos | All the candidates.
+within | - | preposición | dentro de | Within two weeks.
+successful | - | adjetivo | exitoso, seleccionado | Successful applicants.
+applicants | applicant | sustantivo (plural) | aspirantes, solicitantes | Many applicants.
+contacted | contact | verbo (participio) | contactado | You will be contacted.
+resources | resource | sustantivo (plural) | recursos (Human Resources = Recursos Humanos) | Human Resources.
+department | - | sustantivo | departamento | The HR department.
+provide | - | verbo | proporcionar | Provide details.
+regarding | - | preposición | respecto a, en cuanto a | Regarding the contract.
+contract | - | sustantivo | contrato | Sign the contract.
+salary | - | sustantivo | salario, sueldo | A good salary.
+date | - | sustantivo | fecha | The start date.
+grateful | - | adjetivo | agradecido | I would be grateful if...
+confirm | - | verbo | confirmar | Please confirm.
+availability | - | sustantivo | disponibilidad | Your availability.
+either | - | determinante | cualquiera de los dos (either ... or = o ... o) | Either Monday or Tuesday.
+th | - | sufijo | (terminación de números ordinales: 14th = 14) | The 14th of November.
+november | - | nombre propio | noviembre | In November.
+earliest | early | adjetivo (superlativo) | lo antes posible (at your earliest convenience) | At your earliest convenience.
+convenience | - | sustantivo | conveniencia (at your earliest convenience = cuanto antes) | At your earliest convenience.
+meantime | - | sustantivo | mientras tanto (in the meantime) | In the meantime, relax.
+hesitate | - | verbo | dudar | Do not hesitate to call.
+directly | - | adverbio | directamente | Contact me directly.
+below | - | adverbio | abajo, a continuación | The number below.
+forward | - | adverbio | adelante (look forward to = esperar con ganas) | I look forward to it.
+hearing | hear | verbo (-ing) | tener noticias (hear from) | I look forward to hearing from you.
+seeing | see | verbo (-ing) | ver | I look forward to seeing you.
+soon | - | adverbio | pronto | See you soon.
+regards | regard | sustantivo (plural) | saludos (Kind regards = Atentamente) | Kind regards.
+daniel | - | nombre propio | Daniel (nombre) | Daniel signed the email.
+whitaker | - | nombre propio | Whitaker (apellido) | Daniel Whitaker.
+operations | operation | sustantivo (plural) | operaciones | Head of Operations.
+northbridge | - | nombre propio | Northbridge (nombre de empresa) | Northbridge Consulting.
+consulting | - | sustantivo | consultoría | A consulting firm.
