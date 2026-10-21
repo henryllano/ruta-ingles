@@ -1,0 +1,183 @@
+fishing | fish | sustantivo / adjetivo | pesca, pesquero | A small fishing village.
+village | - | sustantivo | pueblo, aldea | She lives in a quiet village.
+born | bear | verbo (participio) | nacido (be born = nacer) | My grandmother was born here.
+come | - | verbo (participio) | venido (have come = haber venido) | I had come to rest.
+rest | - | verbo | descansar | I need to rest after work.
+university | - | sustantivo | universidad | She studies at university.
+wanted | want | verbo (pasado) | quería | What I really wanted was to escape.
+though | - | conjunción | aunque | I stayed, though I was tired.
+admitted | admit | verbo (participio) | admitido, reconocido | I would not have admitted it.
+escape | - | verbo | escapar, huir | I wanted to escape the city.
+anyone | - | pronombre | alguien, nadie (en negativas/inversión) | Rarely did anyone speak to me.
+during | - | preposición | durante | It rained during the night.
+those | that | determinante | esos, aquellos | During those first days.
+fishermen | fisherman | sustantivo (plural) | pescadores | The fishermen went out at dawn.
+nodded | nod | verbo (pasado) | asintió con la cabeza, saludó con la cabeza | He nodded politely.
+politely | - | adverbio | educadamente | She smiled politely.
+women | woman | sustantivo (plural) | mujeres | The women in the market smiled.
+market | - | sustantivo | mercado | We buy fish at the market.
+stranger | - | sustantivo | forastero, desconocido | I was a stranger there.
+grandmother's | grandmother | sustantivo (posesivo) | de la abuela | My grandmother's house.
+neighbour | - | sustantivo | vecino, vecina | Our neighbour is very kind.
+called | call | verbo (participio) | llamado (a woman called Rosa = una mujer llamada Rosa) | A dog called Max.
+rosa | - | nombre propio | Rosa (nombre de mujer) | Rosa invited me for coffee.
+broke | break | verbo (pasado) | rompió (break the silence = romper el silencio) | She broke the silence.
+silence | - | sustantivo | silencio | There was a long silence.
+invited | invite | verbo (pasado) | invitó | She invited me for coffee.
+began | begin | verbo (pasado) | empezó | It began as a polite visit.
+polite | - | adjetivo | cortés, educado | It was a polite visit.
+habit | - | sustantivo | costumbre, hábito | It turned into a habit.
+lasted | last | verbo (pasado) | duró | The visit lasted all summer.
+whole | - | adjetivo | entero, todo | The whole summer.
+summer | - | sustantivo | verano | We travel every summer.
+remembered | remember | verbo (pasado) | recordaba | She remembered every story.
+nobody | - | pronombre | nadie | Nobody told me that.
+else | - | adverbio | más, otro (nobody else = nadie más) | Nobody else knew.
+ever | - | adverbio | alguna vez, nunca (en negativas) | Nobody had ever told me.
+rowed | row | verbo (pasado) | remó | She rowed across the bay.
+across | - | preposición | a través de, al otro lado de | They swam across the river.
+bay | - | sustantivo | bahía | The boats are in the bay.
+fetch | - | verbo | ir a buscar, traer | Go and fetch a doctor.
+storm | - | sustantivo | tormenta | The storm lasted all night.
+assured | assure | verbo (pasado) | aseguró | She assured me it was true.
+courage | - | sustantivo | valentía, coraje | It took great courage.
+villagers | villager | sustantivo (plural) | habitantes del pueblo | The villagers still speak of it.
+seventy | - | número | setenta | Seventy years later.
+struck | strike | verbo (pasado) | llamó la atención, impresionó | What struck me most was her voice.
+story | - | sustantivo | historia, relato | Tell me a story.
+itself | - | pronombre | en sí mismo | Not the story itself.
+pauses | pause | sustantivo (plural) | pausas | She spoke with long pauses.
+each | - | determinante | cada | Each detail mattered.
+deserved | deserve | verbo (pasado) | merecía | Each detail deserved attention.
+strange | - | adjetivo | extraño | Strange as it may sound.
+listen | - | verbo | escuchar | I learned to listen.
+noise | - | sustantivo | ruido | The noise of the city.
+brought | bring | verbo (participio) | traído | The noise I had brought with me.
+constant | - | adjetivo | constante | A constant need to talk.
+need | - | sustantivo | necesidad | The need to fill every silence.
+fill | - | verbo | llenar | Fill the silence.
+gradually | - | adverbio | gradualmente, poco a poco | The noise gradually faded.
+faded | fade | verbo (pasado) | se desvaneció, se apagó | The excitement faded.
+stopped | stop | verbo (pasado) | dejé de, paré | I stopped talking.
+talking | talk | verbo (-ing) | hablar | Stop talking, please.
+begin | - | verbo | empezar | I began to understand.
+attention | - | sustantivo | atención (pay attention = prestar atención) | Pay attention to the details.
+august | - | nombre propio | agosto | By the end of August.
+greeting | greet | verbo (-ing) | saludando | They were greeting me by name.
+saving | save | verbo (-ing) | guardando, reservando | She was saving me a loaf.
+loaf | - | sustantivo | hogaza, barra de pan | The last loaf of bread.
+impossible | - | adjetivo | imposible | Leaving felt impossible.
+known | know | verbo (participio) | sabido (had I known = de haber sabido) | Had I known, I would have come.
+gone | go | verbo (participio) | ido | I would have gone earlier.
+suntan | - | sustantivo | bronceado | She came back with a suntan.
+collection | - | sustantivo | colección | A collection of photographs.
+photographs | photograph | sustantivo (plural) | fotografías | Old photographs of the family.
+sense | - | sustantivo | sentido, sensación | A sense of where I come from.
+centuries | century | sustantivo (plural) | siglos | For centuries, people have wondered.
+wondered | wonder | verbo (participio) | preguntado(se) | People have wondered about it.
+exist | - | verbo | existir | Does life exist on Mars?
+beyond | - | preposición | más allá de | Life beyond Earth.
+earth | - | nombre propio | la Tierra | Life on Earth.
+scientists | scientist | sustantivo (plural) | científicos | Scientists remain cautious.
+closer | close | adjetivo (comparativo) | más cerca | We are closer than ever.
+remain | - | verbo | seguir, permanecer | Most of them remain cautious.
+cautious | - | adjetivo | cauteloso, prudente | Be cautious with your claims.
+bold | - | adjetivo | audaz, atrevido | A bold claim.
+claims | claim | sustantivo (plural) | afirmaciones | Bold claims need evidence.
+ingredients | ingredient | sustantivo (plural) | ingredientes | The ingredients for life.
+surprisingly | - | adverbio | sorprendentemente | It is surprisingly common.
+appears | appear | verbo | parece | Water appears to be present.
+present | - | adjetivo | presente | Water is present on the moon.
+several | - | determinante | varios | Several moons have water.
+moons | moon | sustantivo (plural) | lunas | Jupiter has many moons.
+solar | - | adjetivo | solar | Our solar system.
+system | - | sustantivo | sistema | The solar system.
+thousands | thousand | sustantivo (plural) | miles | Thousands of planets.
+planets | planet | sustantivo (plural) | planetas | Distant planets.
+discovered | discover | verbo (participio) | descubierto | Planets have been discovered.
+orbiting | orbit | verbo (-ing) | orbitando, que orbitan | Planets orbiting distant stars.
+distant | - | adjetivo | lejano, distante | Distant stars.
+stars | star | sustantivo (plural) | estrellas | Look at the stars.
+these | this | determinante | estos, estas | These planets may have water.
+conditions | condition | sustantivo (plural) | condiciones | Conditions similar to Earth.
+similar | - | adjetivo | similar, parecido | Similar to those on Earth.
+assume | - | verbo | suponer, dar por hecho | Don't assume anything.
+suitable | - | adjetivo | adecuado, apropiado | Suitable conditions for life.
+automatically | - | adverbio | automáticamente | It doesn't happen automatically.
+lead | - | verbo | llevar a, conducir a | Good conditions may lead to life.
+organisms | organism | sustantivo (plural) | organismos | Living organisms.
+astronomer | - | sustantivo | astrónomo, astrónoma | As one astronomer put it.
+put | - | verbo (pasado) | dijo, expresó (as X put it = como dijo X) | As she put it, it's complicated.
+rule | - | verbo | rule out = descartar | We can't rule anything out.
+anything | - | pronombre | nada (en negativas), cualquier cosa | We can't rule anything out.
+carried | carry | verbo (participio) | get carried away = dejarse llevar, entusiasmarse | Don't get carried away.
+away | - | adverbio | (partícula) lejos; carried away = dejarse llevar | Don't get carried away.
+either | - | adverbio | tampoco | We shouldn't do that either.
+researchers | researcher | sustantivo (plural) | investigadores | Researchers detected a gas.
+detected | detect | verbo (pasado) | detectaron | They detected a strange gas.
+gas | - | sustantivo | gas | A gas in the atmosphere.
+atmosphere | - | sustantivo | atmósfera | The atmosphere of Venus.
+venus | - | nombre propio | Venus (planeta) | Venus is very hot.
+mostly | - | adverbio | principalmente, en su mayoría | It is mostly produced by bacteria.
+produced | produce | verbo (participio) | producido | Gas produced by bacteria.
+bacteria | - | sustantivo (plural) | bacterias | Some bacteria are useful.
+discovery | - | sustantivo | descubrimiento | An important discovery.
+headlines | headline | sustantivo (plural) | titulares (make headlines = ser noticia) | The news made headlines.
+world | - | sustantivo | mundo | Around the world.
+pointed | point | verbo (pasado) | point out = señalaron | Critics pointed out the error.
+volcanic | - | adjetivo | volcánico | Volcanic activity.
+activity | - | sustantivo | actividad | Volcanic activity.
+measurement | - | sustantivo | medición | The measurement was wrong.
+wrong | - | adjetivo | equivocado, erróneo | The result was wrong.
+studies | study | sustantivo (plural) | estudios | Later studies confirmed it.
+seemed | seem | verbo (pasado) | parecieron | They seemed to agree.
+confirm | - | verbo | confirmar | Studies seemed to confirm their doubts.
+initial | - | adjetivo | inicial | The initial excitement.
+excitement | - | sustantivo | entusiasmo, emoción | The excitement faded.
+result | - | sustantivo | resultado | Had the result been confirmed.
+confirmed | confirm | verbo (participio) | confirmado | The news was confirmed.
+discoveries | discovery | sustantivo (plural) | descubrimientos | Important discoveries.
+history | - | sustantivo | historia | In the history of science.
+insist | - | verbo | insistir, exigir | They insist that it be tested.
+claim | - | sustantivo | afirmación | Every claim must be tested.
+tested | test | verbo (participio) | probado, verificado | It must be tested.
+independently | - | adverbio | de forma independiente | Tested independently.
+announced | announce | verbo (participio) | anunciado | Before it is announced.
+essential | - | adjetivo | esencial | It is essential that we wait.
+scientific | - | adjetivo | científico | The scientific community.
+community | - | sustantivo | comunidad | The local community.
+sceptical | - | adjetivo | escéptico | Remain sceptical.
+single | - | adjetivo | solo, único | A single mistake.
+alarm | - | sustantivo | alarma (false alarm = falsa alarma) | It was a false alarm.
+trust | - | sustantivo / verbo | confianza; confiar | Public trust is important.
+signs | sign | sustantivo (plural) | señales, indicios | Signs of life.
+tiny | - | adjetivo | diminuto | Tiny organisms.
+intelligent | - | adjetivo | inteligente | Intelligent beings.
+beings | being | sustantivo (plural) | seres | Human beings.
+receive | - | verbo | recibir | Were we to receive a signal.
+signal | - | sustantivo | señal | A radio signal.
+civilisation | - | sustantivo | civilización | Another civilisation.
+hand | - | sustantivo | mano (on the other hand = por otro lado) | On the other hand, it is cheap.
+implications | implication | sustantivo (plural) | implicaciones | Enormous implications.
+philosophy | - | sustantivo | filosofía | She studies philosophy.
+religion | - | sustantivo | religión | Religion and science.
+enormous | - | adjetivo | enorme | An enormous difference.
+fearing | fear | verbo (-ing) | temiendo | Fearing the worst, she called.
+mean | - | verbo | significar | What does it mean?
+high | - | adjetivo | alto (it's high time = ya es hora de) | It's high time we left.
+invested | invest | verbo (pasado) | invirtiéramos | It's time we invested more.
+search | - | sustantivo | búsqueda | The search for life.
+whatever | - | determinante / pronombre | cualquiera que sea, sea cual sea | Whatever the outcome.
+outcome | - | sustantivo | resultado, desenlace | A good outcome.
+unlikely | - | adjetivo | improbable, poco probable | It is unlikely to rain.
+disappear | - | verbo | desaparecer | The question won't disappear.
+universe | - | sustantivo | universo | Alone in the universe.
+given | give | preposición / participio | dado, teniendo en cuenta | Given its size.
+immense | - | adjetivo | inmenso | An immense ocean.
+size | - | sustantivo | tamaño | Its immense size.
+improbable | - | adjetivo | improbable | That seems improbable.
+perhaps | - | adverbio | quizás | Perhaps we are alone.
+honest | - | adjetivo | honesto, sincero | The honest answer.
+simply | - | adverbio | simplemente | We simply do not know.
+worth | - | adjetivo | que vale la pena (be worth = valer la pena) | It is worth the effort.
+effort | - | sustantivo | esfuerzo | Worth the effort.

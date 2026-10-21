@@ -1,0 +1,327 @@
+module.exports = {
+title: "Planes e hipótesis",
+lessons: [
+{ id:"b1-u3-l1", title:"Formas de futuro: will, going to, presente continuo y presente simple", goal:"Escoger la forma de futuro correcta según si hablas de una decisión, un plan, un compromiso o un horario.",
+ theory:[
+  {p:"En inglés no hay un solo futuro. **will + verbo** se usa para **decisiones en el momento**, **promesas**, **ofrecimientos** y **predicciones basadas en opinión** (con think, probably, I'm sure)."},
+  {ex:[["The phone's ringing. I'll get it!","Está sonando el teléfono. ¡Yo contesto!"],["I promise I'll call you tonight.","Te prometo que te llamo esta noche."],["I think it will be a great party.","Creo que va a ser una gran fiesta."],["Don't worry, I'll help you with the boxes.","Tranquilo, yo te ayudo con las cajas."]]},
+  {p:"**be going to + verbo** expresa **intenciones** ya decididas antes de hablar y **predicciones con evidencia** (lo estás viendo venir)."},
+  {ex:[["I'm going to study medicine next year.","Voy a estudiar medicina el próximo año."],["Look at those clouds! It's going to rain.","¡Mira esas nubes! Va a llover."],["We're going to paint the kitchen this weekend.","Vamos a pintar la cocina este fin de semana."]]},
+  {p:"El **presente continuo** se usa para **planes ya acordados** (con fecha, hora, otra persona o reserva). El **presente simple** se usa para **horarios fijos**: trenes, vuelos, clases, películas."},
+  {ex:[["I'm meeting Laura at six tomorrow.","Me voy a ver con Laura mañana a las seis."],["We're flying to Cartagena on Friday.","Volamos a Cartagena el viernes."],["The train leaves at 7:15.","El tren sale a las 7:15."],["The course starts on Monday.","El curso empieza el lunes."]]},
+  {tip:"Error típico: 'Tomorrow I go to the dentist'. En español usamos el presente, pero en inglés un plan personal va en continuo o con going to: I'm going to the dentist tomorrow. Y nunca 'I will to go' ni 'I'm going to went'."}
+ ],
+ vocab:[
+  ["intend to","verbo","tener la intención de","I intend to finish the course this year."],["be about to","expresión","estar a punto de","Hurry up, the film is about to start."],
+  ["be due to","expresión","estar previsto que","The plane is due to land at noon."],["timetable","sustantivo","horario (de transporte, clases)","Check the bus timetable online."],
+  ["depart","verbo","salir, partir (formal)","Flight 205 departs from gate 12."],["take off","phrasal verb","despegar","The plane takes off at 9:40."],
+  ["book","verbo","reservar","I've booked a table for four."],["arrangement","sustantivo","plan acordado, arreglo","We've made arrangements for the weekend."],
+  ["weather forecast","colocación","pronóstico del tiempo","The weather forecast says it will be sunny."],["probably","adverbio","probablemente","I'll probably stay at home tonight."],
+  ["definitely","adverbio","definitivamente, seguro","I'm definitely going to apply."],["I bet","expresión","apuesto a que, seguro que","I bet she'll be late again."],
+  ["look forward to","phrasal verb","esperar con ilusión","I'm looking forward to the trip."],["the day after tomorrow","expresión","pasado mañana","We're leaving the day after tomorrow."],
+  ["in two weeks' time","expresión","dentro de dos semanas","The exam is in two weeks' time."],["get-together","sustantivo","reunión informal","We're having a family get-together on Sunday."],
+  ["farewell party","colocación","fiesta de despedida","They're throwing him a farewell party."],["pack","verbo","empacar, hacer la maleta","I'm going to pack tonight."],
+  ["promise","verbo","prometer","I promise I won't tell anyone."],["make up your mind","expresión","decidirse","Make up your mind! Pizza or pasta?"]
+ ],
+ dialogue:{title:"Planes para el puente festivo", scene:"Mateo y su compañera de trabajo Emily hablan en la cafetería sobre lo que van a hacer el fin de semana largo.", a:"Emily", b:"Mateo", lines:[
+  ["A","So, any plans for the long weekend?","Bueno, ¿algún plan para el puente?"],
+  ["B","Yes! I'm flying to Santa Marta with my sister on Friday. We booked the tickets last month.","¡Sí! Vuelo a Santa Marta con mi hermana el viernes. Compramos los tiquetes el mes pasado."],
+  ["A","Lucky you! What time does your flight leave?","¡Qué suerte! ¿A qué hora sale tu vuelo?"],
+  ["B","It departs at 6 a.m., so I'm going to pack tonight. I hate packing at the last minute.","Sale a las 6 de la mañana, así que voy a empacar esta noche. Odio empacar a última hora."],
+  ["A","Smart. What are you going to do there?","Inteligente. ¿Qué van a hacer allá?"],
+  ["B","We intend to visit Tayrona Park. And on Saturday night we're having dinner with some cousins.","Tenemos la intención de visitar el Parque Tayrona. Y el sábado en la noche vamos a cenar con unos primos."],
+  ["A","Sounds amazing. I bet you'll have a great time.","Suena increíble. Seguro que la van a pasar muy bien."],
+  ["B","I hope so, but the weather forecast says it's going to rain on Sunday.","Eso espero, pero el pronóstico dice que va a llover el domingo."],
+  ["A","Oh, it probably won't rain all day. What about the cat? Who's looking after him?","Ay, probablemente no llueva todo el día. ¿Y el gato? ¿Quién lo va a cuidar?"],
+  ["B","That's my problem. My neighbor was going to feed him, but now she's going away too.","Ese es mi problema. Mi vecina lo iba a alimentar, pero ahora ella también se va de viaje."],
+  ["A","Don't worry, I'll do it! I'm not going anywhere this weekend.","Tranquilo, ¡yo lo hago! No voy a ir a ningún lado este fin de semana."],
+  ["B","Really? Thank you so much! I promise I'll bring you something nice from the coast.","¿En serio? ¡Muchísimas gracias! Te prometo que te traigo algo bonito de la costa."],
+  ["A","Deal. Just leave me the keys before you go.","Trato hecho. Solo déjame las llaves antes de irte."],
+  ["B","I'll give them to you tomorrow at work. I'm definitely not going to forget!","Te las doy mañana en el trabajo. ¡Definitivamente no se me va a olvidar!"]
+ ]},
+ practice:[
+  {t:"mc",q:"—We don't have any milk. —Oh, I ___ some at the corner shop.",o:["'m buying","'ll buy","buy","'m going to buying"],a:1,x:"Decisión tomada en el momento → will."},
+  {t:"mc",q:"Look at that man on the ladder! He ___ fall.",o:["will","is going to","falls","is falling to"],a:1,x:"Predicción con evidencia → going to."},
+  {t:"mc",q:"The museum ___ at 9 a.m. every day, so we can go early.",o:["is opening","will open","opens","is going to open"],a:2},
+  {t:"fill",q:"I ___ Andrés for lunch tomorrow. We agreed yesterday. (meet, plan acordado)",ans:["'m meeting","am meeting","’m meeting"]},
+  {t:"listen",say:"I'm not sure what to do next year. I think I'll probably look for a new job, but I haven't made up my mind yet.",q:"¿Qué tan decidido está?",o:["Ya renunció","Todavía no se ha decidido","Ya tiene un trabajo nuevo","Va a estudiar en el exterior"],a:1},
+  {t:"oral",text:"I'm flying to Medellín on Friday, and I'm going to visit my grandparents."}
+ ],
+ more:[
+  {t:"order",words:["The","film","is","about","to","start."],es:"La película está a punto de empezar."},
+  {t:"order",words:["I'm","really","looking","forward","to","the","trip."],es:"Tengo muchas ganas del viaje."},
+  {t:"dict",say:"Our flight takes off at nine forty."},
+  {t:"dict",say:"I promise I'll call you as soon as I land."},
+  {t:"mc",q:"¿Cuál frase expresa un plan acordado con otra persona?",o:["I'll see the doctor.","I see the doctor tomorrow.","I'm seeing the doctor at four tomorrow.","I see the doctor at four."],a:2},
+  {t:"fill",q:"The exam is in two weeks' ___. (dentro de dos semanas)",ans:["time"]},
+  {t:"listen",say:"Attention please. The train to Bogotá departs from platform three at ten fifteen. Passengers for Tunja should change at Duitama.",q:"¿A qué hora sale el tren?",o:["A las 3:00","A las 10:50","A las 10:15","A las 3:15"],a:2},
+  {t:"write",q:"Cuéntale a un amigo tus planes para las próximas vacaciones (mínimo 60 palabras). Usa going to para intenciones, presente continuo para planes acordados, presente simple para un horario y will para una predicción o promesa.",min:60,keys:[["going to"],["i'm","we're","am","are"],["leaves","starts","departs","arrives","opens"],["will","'ll","probably","i think"]]}
+ ],
+ exam:{t:"mc",q:"—This bag is really heavy. —Give it to me. I ___ it for you.",o:["'m going to carry","carry","'ll carry","'m carrying"],a:2},
+ exam2:{t:"mc",q:"Hurry up! The bus ___ in five minutes.",o:["leaves","is leave","will leaving","going to leave"],a:0}
+},
+{ id:"b1-u3-l2", title:"Primer condicional y conectores de futuro", goal:"Hablar de situaciones posibles y sus consecuencias con if, unless, when, as soon as, until e in case.",
+ theory:[
+  {p:"El **primer condicional** habla de una situación **real o probable** en el futuro y su resultado: **If + presente simple, will + verbo**. El orden de las dos partes se puede invertir (sin coma)."},
+  {ex:[["If it rains, we'll stay at home.","Si llueve, nos quedamos en la casa."],["If you don't hurry, you'll miss the bus.","Si no te apuras, vas a perder el bus."],["I'll lend you my car if you need it.","Te presto el carro si lo necesitas."],["If you see Pablo, can you give him this?","Si ves a Pablo, ¿le puedes dar esto?"]]},
+  {p:"La parte del resultado también puede llevar un **imperativo** o un modal: **If you feel sick, call me.** / **If he studies, he might pass.**"},
+  {p:"**unless** = **if... not** (a menos que). **when** = cuando estás seguro de que va a pasar. **as soon as** = tan pronto como. **until** = hasta que. **in case** = por si acaso (precaución)."},
+  {ex:[["You'll fail unless you study. (= if you don't study)","Vas a perder a menos que estudies."],["I'll call you when I get home.","Te llamo cuando llegue a la casa."],["I'll text you as soon as the results come out.","Te escribo tan pronto salgan los resultados."],["Wait here until I come back.","Espera aquí hasta que vuelva."],["Take an umbrella in case it rains.","Lleva sombrilla por si llueve."]]},
+  {tip:"Después de if, unless, when, as soon as, until e in case NO se usa will, aunque hables del futuro: 'When I will arrive' está mal → When I arrive. Además, unless ya es negativo: no digas 'unless you don't study'."}
+ ],
+ vocab:[
+  ["unless","conector","a menos que","I won't go unless you come with me."],["in case","conector","por si acaso","Take some cash in case they don't accept cards."],
+  ["as long as","conector","siempre y cuando","You can borrow it as long as you return it."],["otherwise","conector","de lo contrario","Leave now, otherwise you'll be late."],
+  ["provided that","conector","con tal de que","I'll go provided that you drive."],["get fired","colocación","ser despedido","If you keep arriving late, you'll get fired."],
+  ["fail","verbo","perder, reprobar; fallar","If he doesn't study, he'll fail the exam."],["pass","verbo","aprobar, pasar (un examen)","She'll pass if she practices."],
+  ["warn","verbo","advertir","I'm warning you: it'll be expensive."],["consequence","sustantivo","consecuencia","Think about the consequences."],
+  ["likely","adjetivo","probable","It's likely to rain this afternoon."],["get lost","colocación","perderse","If you don't use GPS, you'll get lost."],
+  ["run late","expresión","ir con retraso","Sorry, I'm running late."],["catch a cold","colocación","resfriarse","Wear a jacket or you'll catch a cold."],
+  ["carry","verbo","llevar consigo, cargar","Always carry your ID."],["charger","sustantivo","cargador","Bring your charger in case your battery dies."],
+  ["spare","adjetivo","de repuesto, extra","Keep a spare key in the car."],["traffic jam","sustantivo","trancón","If we leave at five, we'll get stuck in a traffic jam."],
+  ["set an alarm","colocación","poner una alarma","I'll set an alarm so I don't oversleep."],["oversleep","verbo","quedarse dormido (no despertarse)","If I oversleep, I'll miss the flight."]
+ ],
+ dialogue:{title:"La noche antes de la entrevista", scene:"Daniela tiene una entrevista de trabajo mañana y su compañero de apartamento, Ryan, le da consejos prácticos.", a:"Ryan", b:"Daniela", lines:[
+  ["A","Are you ready for tomorrow?","¿Estás lista para mañana?"],
+  ["B","Almost. But I'm so nervous. If I oversleep, I'll lose the opportunity.","Casi. Pero estoy muy nerviosa. Si me quedo dormida, voy a perder la oportunidad."],
+  ["A","You won't oversleep if you set two alarms. That's what I always do.","No te vas a quedar dormida si pones dos alarmas. Eso es lo que yo siempre hago."],
+  ["B","Good idea. The interview is at eight, and the office is in the north.","Buena idea. La entrevista es a las ocho y la oficina queda en el norte."],
+  ["A","Then leave before seven, otherwise you'll get stuck in a traffic jam.","Entonces sal antes de las siete, de lo contrario vas a quedar atrapada en un trancón."],
+  ["B","Should I take the bus or a taxi?","¿Debería tomar el bus o un taxi?"],
+  ["A","Take a taxi unless you want to arrive all sweaty! And carry some cash in case the driver doesn't have a card machine.","¡Toma un taxi a menos que quieras llegar toda sudada! Y lleva efectivo por si el conductor no tiene datáfono."],
+  ["B","Ha ha, true. What if they ask me something I don't know?","Ja, ja, cierto. ¿Y si me preguntan algo que no sé?"],
+  ["A","If that happens, just be honest. They'll appreciate it as long as you stay calm.","Si pasa eso, sé honesta. Lo van a valorar siempre y cuando te mantengas tranquila."],
+  ["B","OK. And I'm going to print a spare copy of my CV in case they want one.","Bueno. Y voy a imprimir una copia extra de mi hoja de vida por si quieren una."],
+  ["A","Perfect. Don't forget your phone charger either.","Perfecto. Tampoco olvides el cargador del celular."],
+  ["B","Thanks, Ryan. I'll text you as soon as I finish.","Gracias, Ryan. Te escribo tan pronto termine."],
+  ["A","Great. I won't go to sleep until I hear from you! And if they offer you the job, we'll celebrate.","Genial. ¡No me voy a dormir hasta que sepa de ti! Y si te ofrecen el trabajo, celebramos."],
+  ["B","Deal! If I get it, dinner's on me.","¡Hecho! Si me lo dan, yo invito la cena."]
+ ]},
+ practice:[
+  {t:"mc",q:"If you ___ now, you'll catch the last train.",o:["will leave","leave","left","leaving"],a:1},
+  {t:"mc",q:"I'll call you as soon as I ___ the news.",o:["will hear","hear","heard","am hearing"],a:1,x:"Después de as soon as va presente simple, no will."},
+  {t:"mc",q:"You won't get in ___ you have a ticket.",o:["if","in case","unless","until"],a:2},
+  {t:"fill",q:"Take a jacket ___ ___ it gets cold tonight. (por si acaso)",ans:["in case"]},
+  {t:"listen",say:"If you finish the report before lunch, you can leave early today. Otherwise, you'll have to stay until six.",q:"¿Qué pasa si no termina el informe antes del almuerzo?",o:["Lo despiden","Se queda hasta las seis","Sale temprano","Lo termina mañana"],a:1},
+  {t:"oral",text:"If it rains tomorrow, we'll watch a movie at home."}
+ ],
+ more:[
+  {t:"order",words:["I","won't","go","unless","you","come","with","me."],es:"No voy a menos que vengas conmigo."},
+  {t:"order",words:["Wait","here","until","I","come","back."],es:"Espera aquí hasta que vuelva."},
+  {t:"dict",say:"Bring your charger in case your battery dies."},
+  {t:"dict",say:"If you keep arriving late, you'll get fired."},
+  {t:"mc",q:"¿Cuál está bien?",o:["When I will arrive, I'll call you.","When I arrive, I call you tomorrow.","When I arrive, I'll call you.","When I arrived, I'll call you."],a:2},
+  {t:"fill",q:"You can borrow my bike as ___ as you bring it back today. (siempre y cuando)",ans:["long"]},
+  {t:"listen",say:"I'm warning you: unless you book the hotel this week, there won't be any rooms left for the festival.",q:"¿Qué pasará si no reserva esta semana?",o:["El hotel será más barato","No habrá habitaciones","Cancelarán el festival","Le harán un descuento"],a:1},
+  {t:"write",q:"Escríbele un mensaje a un amigo que viene a visitar tu ciudad por primera vez (mínimo 60 palabras). Dale consejos y advertencias usando if, unless, in case y as soon as / when.",min:60,keys:[["if"],["unless"],["in case"],["as soon as","when","until"]]}
+ ],
+ exam:{t:"mc",q:"If she ___ hard, she'll pass the exam.",o:["will study","studies","studied","would study"],a:1},
+ exam2:{t:"mc",q:"We'll miss the flight ___ we leave right now.",o:["unless","if","in case","as soon as"],a:0}
+},
+{ id:"b1-u3-l3", title:"Segundo condicional: consejos e hipótesis", goal:"Imaginar situaciones irreales o poco probables y dar consejos con If I were you.",
+ theory:[
+  {p:"El **segundo condicional** habla de situaciones **imaginarias, irreales o poco probables** en el presente o el futuro: **If + pasado simple, would + verbo**. El pasado aquí NO habla del pasado: indica que la situación no es real."},
+  {ex:[["If I had more money, I would travel around the world.","Si tuviera más plata, viajaría por el mundo."],["If I won the lottery, I'd buy a house for my parents.","Si me ganara la lotería, les compraría una casa a mis papás."],["If she lived closer, we'd see each other more often.","Si ella viviera más cerca, nos veríamos más seguido."],["What would you do if you lost your job?","¿Qué harías si perdieras el trabajo?"]]},
+  {p:"Compara: **If I get the job, I'll move to Bogotá.** (es posible, me presenté) / **If I got a job in Japan, I'd move there.** (es muy poco probable, solo lo imagino)."},
+  {p:"Para **dar consejos** se usa **If I were you, I would / I wouldn't...** (Yo que tú / Yo en tu lugar). Con el verbo be se prefiere **were** para todas las personas, aunque en conversación informal también se oye was."},
+  {ex:[["If I were you, I'd talk to your boss.","Yo que tú, hablaría con tu jefe."],["If I were you, I wouldn't lend him money.","Yo en tu lugar, no le prestaría plata."],["If it were cheaper, I'd buy it.","Si fuera más barato, lo compraría."],["I could help you if I had more time.","Te podría ayudar si tuviera más tiempo."]]},
+  {tip:"Error típico: poner would en las dos partes. 'If I would have money, I would buy it' está mal → If I had money, I would buy it. Recuerda: would va en el resultado, nunca después de if. Could y might también sirven en el resultado."}
+ ],
+ vocab:[
+  ["If I were you","expresión","yo que tú, yo en tu lugar","If I were you, I'd accept the offer."],["imagine","verbo","imaginar","Imagine you could live anywhere."],
+  ["suppose","verbo","suponer","Suppose you found a wallet. What would you do?"],["win the lottery","colocación","ganarse la lotería","If I won the lottery, I'd stop working."],
+  ["afford","verbo","alcanzar a pagar, darse el lujo","I can't afford a new car."],["quit","verbo","renunciar, dejar","If I were you, I'd quit that job."],
+  ["dilemma","sustantivo","dilema","I'm facing a real dilemma."],["advice","sustantivo","consejo(s) (incontable)","Can you give me some advice?"],
+  ["take a risk","colocación","arriesgarse","Sometimes you have to take a risk."],["pay off","phrasal verb","dar resultado; saldar (una deuda)","All that hard work will pay off."],
+  ["debt","sustantivo","deuda","If I had no debt, I'd feel free."],["hypothetical","adjetivo","hipotético","It's just a hypothetical question."],
+  ["invisible","adjetivo","invisible","If I were invisible, I'd travel for free."],["superpower","sustantivo","superpoder","Which superpower would you choose?"],
+  ["desert island","colocación","isla desierta","What would you take to a desert island?"],["in your shoes","modismo","en tu lugar","If I were in your shoes, I'd say no."],
+  ["tempting","adjetivo","tentador","The offer is very tempting."],["consider","verbo","considerar","Would you consider moving abroad?"],
+  ["donate","verbo","donar","I'd donate half of the money."],["charity","sustantivo","organización benéfica, caridad","She gives money to charity."]
+ ],
+ dialogue:{title:"¿Acepto la oferta?", scene:"Felipe recibió una oferta de trabajo en otra ciudad y le pide consejo a su amiga Grace.", a:"Grace", b:"Felipe", lines:[
+  ["A","You look worried. What's up?","Te ves preocupado. ¿Qué pasa?"],
+  ["B","I have a dilemma. A company in Barranquilla offered me a job with a much better salary.","Tengo un dilema. Una empresa en Barranquilla me ofreció un trabajo con un salario mucho mejor."],
+  ["A","That sounds great! So what's the problem?","¡Eso suena genial! ¿Entonces cuál es el problema?"],
+  ["B","My whole family is here. If I moved, I wouldn't see them very often.","Toda mi familia está aquí. Si me mudara, no los vería muy seguido."],
+  ["A","I understand. But if you stayed in your current job, would you be happy?","Te entiendo. Pero si te quedaras en tu trabajo actual, ¿estarías feliz?"],
+  ["B","Honestly, no. I'm bored, and I can't afford to save anything with my salary.","La verdad, no. Estoy aburrido y no me alcanza para ahorrar nada con mi sueldo."],
+  ["A","Then if I were you, I'd take the risk. The offer is very tempting.","Entonces yo que tú, me arriesgaría. La oferta es muy tentadora."],
+  ["B","Maybe. But what would I do if I didn't like the city?","Puede ser. Pero ¿qué haría si no me gustara la ciudad?"],
+  ["A","You could always come back. It's not forever.","Siempre podrías volver. No es para siempre."],
+  ["B","True. And if I earned more, I could pay off my debt in a year.","Cierto. Y si ganara más, podría saldar mi deuda en un año."],
+  ["A","Exactly. Your parents would visit you too. Imagine having the beach so close!","Exacto. Tus papás también te visitarían. ¡Imagínate tener la playa tan cerca!"],
+  ["B","Ha ha, that would be nice. What would you do in my shoes, honestly?","Ja, ja, eso sería bueno. ¿Qué harías tú en mi lugar, sinceramente?"],
+  ["A","Honestly? I'd say yes tomorrow. I wouldn't think twice.","¿Sinceramente? Diría que sí mañana. No lo pensaría dos veces."],
+  ["B","OK. I'll consider it seriously tonight and call them tomorrow. Thanks for the advice!","Bueno. Lo voy a considerar en serio esta noche y los llamo mañana. ¡Gracias por el consejo!"]
+ ]},
+ practice:[
+  {t:"mc",q:"If I ___ more free time, I would learn to play the guitar.",o:["have","had","would have","will have"],a:1},
+  {t:"mc",q:"If I were you, I ___ that car. It's too expensive.",o:["won't buy","wouldn't buy","don't buy","didn't buy"],a:1},
+  {t:"mc",q:"¿Qué expresa 'If I won the lottery, I'd buy a farm'?",o:["Algo que pasó","Un plan seguro","Una situación imaginaria","Una costumbre"],a:2},
+  {t:"fill",q:"If I ___ you, I'd talk to her. (be, consejo)",ans:["were","was"]},
+  {t:"listen",say:"If I could live anywhere in the world, I'd choose a small town in Italy. I'd eat pasta every day and learn Italian.",q:"¿Dónde viviría?",o:["En una gran ciudad de Italia","En un pueblo pequeño de Italia","En una isla desierta","En Colombia"],a:1},
+  {t:"oral",text:"If I were you, I would accept the job offer."}
+ ],
+ more:[
+  {t:"order",words:["What","would","you","do","if","you","lost","your","job?"],es:"¿Qué harías si perdieras tu trabajo?"},
+  {t:"order",words:["I","can't","afford","a","new","phone."],es:"No me alcanza para un celular nuevo."},
+  {t:"dict",say:"If I had more money, I would donate some to charity."},
+  {t:"dict",say:"Sometimes you have to take a risk."},
+  {t:"mc",q:"¿Cuál está bien?",o:["If I would have time, I would help you.","If I had time, I would help you.","If I had time, I will help you.","If I have time, I would help you."],a:1},
+  {t:"fill",q:"If she lived closer, we ___ see each other more often. (veríamos)",ans:["would","'d","could"]},
+  {t:"listen",say:"Suppose you found a wallet with a lot of money in the street. I think most people would take it to the police, but some would keep it.",q:"Según el hablante, ¿qué haría la mayoría?",o:["Quedarse con la plata","Llevarla a la policía","Dejarla en la calle","Buscar al dueño en redes"],a:1},
+  {t:"write",q:"Un amigo quiere dejar la universidad para montar un negocio. Escríbele un mensaje con consejos e hipótesis (mínimo 70 palabras). Usa If I were you, would/wouldn't y al menos dos frases con if + pasado.",min:70,keys:[["if i were you","in your shoes"],["would","'d","wouldn't"],["if"],["could","might"]]}
+ ],
+ exam:{t:"mc",q:"If I ___ invisible, I would travel for free.",o:["am","will be","were","would be"],a:2},
+ exam2:{t:"mc",q:"—I feel sick. —If I were you, I ___ to the doctor.",o:["will go","would go","go","went"],a:1}
+},
+{ id:"b1-u3-l4", title:"Wish e If only para el presente", goal:"Expresar deseos sobre tu situación actual y cosas que te gustaría que fueran diferentes.",
+ theory:[
+  {p:"Para decir que te gustaría que tu situación **presente** fuera diferente, usa **I wish + pasado simple**. Igual que en el segundo condicional, el pasado indica que la situación **no es real**."},
+  {ex:[["I wish I had a car. (no tengo carro)","Ojalá tuviera carro."],["I wish I lived near the beach.","Ojalá viviera cerca de la playa."],["I wish I didn't have to work on Saturdays.","Ojalá no tuviera que trabajar los sábados."],["She wishes she knew more people here.","Ella quisiera conocer a más gente aquí."]]},
+  {p:"Con **could** expresas una **habilidad** que te gustaría tener, y con **were** hablas de estados (con todas las personas, aunque informalmente se oye was)."},
+  {ex:[["I wish I could speak French.","Ojalá pudiera hablar francés."],["I wish I could come to your party.","Ojalá pudiera ir a tu fiesta."],["I wish I were taller.","Ojalá fuera más alto."],["I wish it weren't so cold today.","Ojalá no hiciera tanto frío hoy."]]},
+  {p:"**If only...** significa lo mismo pero con **más emoción** (¡Si tan solo...!). Y **I wish + someone + would** se usa para **quejarte** del comportamiento de otra persona que quieres que cambie."},
+  {ex:[["If only I had more time!","¡Si tan solo tuviera más tiempo!"],["If only we could stay longer!","¡Si tan solo pudiéramos quedarnos más!"],["I wish my neighbors would turn the music down.","Ojalá los vecinos le bajaran a la música."]]},
+  {tip:"Error típico: traducir 'ojalá tenga' con wish + presente. 'I wish I have a car' está mal → I wish I had a car. Si el deseo es posible en el futuro, usa hope: I hope you have a great trip (ojalá te vaya muy bien)."}
+ ],
+ vocab:[
+  ["wish","verbo","desear, ojalá","I wish I had more free time."],["if only","expresión","si tan solo, ojalá","If only I could sleep a bit more!"],
+  ["hope","verbo","esperar (algo posible)","I hope it doesn't rain tomorrow."],["envy","verbo","envidiar","I envy people who can sing."],
+  ["jealous","adjetivo","celoso, envidioso","I'm so jealous of your holiday!"],["frustrated","adjetivo","frustrado","I feel frustrated with my English."],
+  ["lonely","adjetivo","solo (sentirse)","He feels lonely in the big city."],["crowded","adjetivo","lleno de gente","The metro is always crowded."],
+  ["noisy","adjetivo","ruidoso","I wish my street weren't so noisy."],["height","sustantivo","estatura, altura","I'm not happy with my height."],
+  ["leisure time","colocación","tiempo libre, de ocio","I don't have much leisure time."],["commute","sustantivo / verbo","trayecto diario al trabajo; desplazarse","My commute takes two hours."],
+  ["flatmate","sustantivo","compañero de apartamento","My flatmate never washes the dishes."],["get on with","phrasal verb","llevarse bien con","I wish I got on with my boss."],
+  ["fluent","adjetivo","fluido, con fluidez","I wish I were fluent in English."],["be stuck in","expresión","estar atrapado, estancado en","I'm stuck in a boring job."],
+  ["dream of","verbo","soñar con","I dream of living abroad."],["be fed up with","expresión","estar harto de","I'm fed up with this traffic."],
+  ["complain","verbo","quejarse","He's always complaining about his job."],["make ends meet","modismo","llegar a fin de mes (con la plata)","It's hard to make ends meet."]
+ ],
+ dialogue:{title:"Un lunes difícil", scene:"Sofía llega cansada a la oficina y habla con su compañero Tom, que siempre ve el lado positivo.", a:"Tom", b:"Sofía", lines:[
+  ["A","Good morning! You look exhausted.","¡Buenos días! Te ves agotada."],
+  ["B","I am. My commute took two hours today. I wish I lived closer to the office.","Lo estoy. Hoy me demoré dos horas en llegar. Ojalá viviera más cerca de la oficina."],
+  ["A","Two hours? That's terrible. Why don't you drive?","¿Dos horas? Qué horror. ¿Por qué no vienes en carro?"],
+  ["B","I wish I could, but I can't afford a car right now. And the bus is always so crowded.","Ojalá pudiera, pero ahora no me alcanza para un carro. Y el bus siempre está lleno."],
+  ["A","I understand. Did you at least sleep well?","Te entiendo. ¿Por lo menos dormiste bien?"],
+  ["B","Not at all. My neighbors had a party until 3 a.m. I wish they would think about other people!","Para nada. Mis vecinos tuvieron fiesta hasta las 3 de la mañana. ¡Ojalá pensaran en los demás!"],
+  ["A","Oh no. I'm lucky, my street isn't noisy at all.","Ay no. Yo tengo suerte, mi calle no es nada ruidosa."],
+  ["B","I'm so jealous! And on top of that, my flatmate never cleans the kitchen. I'm fed up with it.","¡Qué envidia! Y encima, mi compañera de apartamento nunca limpia la cocina. Estoy harta."],
+  ["A","Have you talked to her about it?","¿Ya hablaste con ella sobre eso?"],
+  ["B","Many times. I wish we got on better, but she just doesn't listen.","Muchas veces. Ojalá nos lleváramos mejor, pero ella simplemente no escucha."],
+  ["A","Well, look on the bright side: it's Monday, so the week can only get better!","Bueno, mira el lado bueno: es lunes, ¡así que la semana solo puede mejorar!"],
+  ["B","Ha ha. If only it were Friday already!","Ja, ja. ¡Si tan solo ya fuera viernes!"],
+  ["A","Come on, I'll buy you a coffee. That always helps.","Vamos, te invito a un café. Eso siempre ayuda."],
+  ["B","Thanks, Tom. I wish everyone were as nice as you.","Gracias, Tom. Ojalá todo el mundo fuera tan amable como tú."]
+ ]},
+ practice:[
+  {t:"mc",q:"I wish I ___ more money. Everything is so expensive.",o:["have","had","will have","would have"],a:1},
+  {t:"mc",q:"I wish I ___ speak Japanese. I love anime.",o:["can","could","will","would can"],a:1},
+  {t:"mc",q:"Tu hermano siempre deja la ropa en el piso y quieres que cambie:",o:["I wish he picks up his clothes.","I wish he would pick up his clothes.","I hope he picked up his clothes.","I wish he will pick up his clothes."],a:1},
+  {t:"fill",q:"I wish it ___ so hot today. (be, negativo)",ans:["weren't","wasn't","were not","was not"]},
+  {t:"listen",say:"I really like my job, but I wish I didn't have to work on Saturdays. I never have time to see my friends.",q:"¿Qué le gustaría cambiar?",o:["Su salario","Trabajar los sábados","Su jefe","Sus amigos"],a:1},
+  {t:"oral",text:"I wish I could travel more, but I don't have enough time."}
+ ],
+ more:[
+  {t:"order",words:["I","wish","I","were","fluent","in","English."],es:"Ojalá hablara inglés con fluidez."},
+  {t:"order",words:["If","only","we","could","stay","longer!"],es:"¡Si tan solo pudiéramos quedarnos más tiempo!"},
+  {t:"dict",say:"I'm fed up with this traffic."},
+  {t:"dict",say:"It's hard to make ends meet with this salary."},
+  {t:"mc",q:"¿Cuál expresa un deseo posible para el futuro?",o:["I wish you had a good trip.","I hope you have a good trip.","I wish you have a good trip.","If only you have a good trip."],a:1},
+  {t:"fill",q:"I wish I ___ on better with my boss. (get, me llevara)",ans:["got"]},
+  {t:"listen",say:"My cousin moved to Canada last year. She has a good job, but she feels lonely. She wishes she knew more people there.",q:"¿Cómo se siente la prima?",o:["Celosa","Sola","Frustrada con el trabajo","Feliz"],a:1},
+  {t:"write",q:"Escribe sobre tres cosas de tu vida actual que te gustaría que fueran diferentes y por qué (mínimo 60 palabras). Usa I wish + pasado, I wish I could e If only.",min:60,keys:[["i wish"],["could"],["if only"],["because","but","so"]]}
+ ],
+ exam:{t:"mc",q:"I don't have a garden. I wish I ___ one.",o:["have","had","will have","am having"],a:1},
+ exam2:{t:"mc",q:"I can't swim. If only I ___ swim!",o:["can","could","will","would"],a:1}
+},
+{ id:"b1-u3-l5", title:"Hacer planes y sugerencias", goal:"Proponer planes, reaccionar a sugerencias y aceptar o rechazar invitaciones con cortesía.",
+ theory:[
+  {p:"Hay varias formas de **sugerir** algo. Fíjate en lo que va después de cada una: **Let's + verbo**, **Shall we + verbo?**, **Why don't we + verbo?**, **We could + verbo**, **How about / What about + verbo-ing o sustantivo?**"},
+  {ex:[["Let's go to the cinema tonight.","Vamos a cine esta noche."],["Shall we order a pizza?","¿Pedimos una pizza?"],["Why don't we invite Juliana?","¿Por qué no invitamos a Juliana?"],["We could go hiking on Sunday.","Podríamos ir a caminar el domingo."],["How about going to the new Peruvian restaurant?","¿Qué tal si vamos al restaurante peruano nuevo?"],["Do you fancy a coffee? / Do you feel like going out?","¿Te provoca un café? / ¿Te dan ganas de salir?"]]},
+  {p:"Para **aceptar**: **Sounds good! / Good idea! / I'd love to. / Count me in! / That works for me.** Si no te importa: **It's up to you.** (como quieras)."},
+  {p:"Para **rechazar con cortesía**, en inglés casi nunca se dice solo 'No'. Se suaviza con una disculpa, una razón y una alternativa: **I'd love to, but... / I'm afraid I can't... / Maybe another time? / Can I take a rain check?**"},
+  {ex:[["I'd love to, but I'm working on Saturday.","Me encantaría, pero trabajo el sábado."],["I'm afraid I can't make it tonight. How about Thursday instead?","Me temo que no puedo esta noche. ¿Qué tal el jueves?"],["Thanks for asking, but I'm not really into horror films.","Gracias por invitarme, pero no me gustan mucho las de terror."]]},
+  {tip:"Error típico: 'How about go to the beach?' está mal → How about going to the beach? Y después de Let's y Why don't we va el verbo sin to: Let's go (no 'Let's to go'). Shall we se usa sobre todo en preguntas con I o we."}
+ ],
+ vocab:[
+  ["Shall we...?","expresión","¿...? (sugerencia: ¿vamos?, ¿pedimos?)","Shall we start?"],["How about...?","expresión","¿qué tal si...?","How about meeting at eight?"],
+  ["Why don't we...?","expresión","¿por qué no...?","Why don't we eat out tonight?"],["Let's...","expresión","vamos a..., hagamos...","Let's take a break."],
+  ["Do you fancy...?","expresión","¿te provoca...?","Do you fancy a drink after work?"],["feel like","expresión","tener ganas de","I don't feel like cooking tonight."],
+  ["I'd love to, but...","expresión","me encantaría, pero...","I'd love to, but I have plans."],["I'm afraid I can't","expresión","me temo que no puedo","I'm afraid I can't come on Friday."],
+  ["Sounds good!","expresión","¡Suena bien! ¡Listo!","—Pizza tonight? —Sounds good!"],["maybe another time","expresión","tal vez en otra ocasión","Thanks, maybe another time."],
+  ["take a rain check","modismo","dejarlo para otra ocasión","Can I take a rain check on dinner?"],["be up for","expresión","estar animado para","Are you up for a game of tennis?"],
+  ["count me in","modismo","cuenta conmigo, me apunto","A trip to the beach? Count me in!"],["suggest","verbo","sugerir","I suggest leaving early."],
+  ["suggestion","sustantivo","sugerencia","That's a great suggestion."],["turn down","phrasal verb","rechazar (una invitación, oferta)","She turned down the invitation."],
+  ["hang out","phrasal verb","parchar, pasar el rato","We usually hang out at the mall."],["That works for me","expresión","me sirve, me queda bien","Saturday at five? That works for me."],
+  ["It's up to you","expresión","como quieras, tú decides","Italian or Mexican? It's up to you."],["eat out","phrasal verb","comer afuera","Why don't we eat out tonight?"]
+ ],
+ dialogue:{title:"Organizando el sábado", scene:"Valentina y su amigo Jake intentan ponerse de acuerdo para hacer algo el fin de semana.", a:"Jake", b:"Valentina", lines:[
+  ["A","Hey, Vale! Are you free on Saturday? Shall we do something?","¡Hola, Vale! ¿Estás libre el sábado? ¿Hacemos algo?"],
+  ["B","Sure! What do you feel like doing?","¡Claro! ¿Qué te provoca hacer?"],
+  ["A","How about going hiking in the morning? There's a beautiful trail near La Calera.","¿Qué tal si vamos a caminar en la mañana? Hay un sendero muy bonito cerca de La Calera."],
+  ["B","I'd love to, but I'm afraid I can't on Saturday morning. I have an English class until twelve.","Me encantaría, pero me temo que no puedo el sábado en la mañana. Tengo clase de inglés hasta las doce."],
+  ["A","No problem. Why don't we go on Sunday instead?","No hay problema. ¿Por qué no vamos el domingo mejor?"],
+  ["B","Sunday works for me! Count me in. Shall we invite Andrés too?","¡El domingo me sirve! Me apunto. ¿Invitamos también a Andrés?"],
+  ["A","Good idea. He's always up for an adventure.","Buena idea. Él siempre está animado para una aventura."],
+  ["B","And what about Saturday afternoon? We could hang out after my class.","¿Y el sábado en la tarde? Podríamos parchar después de mi clase."],
+  ["A","Sounds good. Do you fancy watching the new horror movie?","Suena bien. ¿Te provoca ver la nueva película de terror?"],
+  ["B","Thanks, but I'm not really into horror films. How about a comedy?","Gracias, pero no me gustan mucho las de terror. ¿Qué tal una comedia?"],
+  ["A","Fine, it's up to you. And then let's eat out somewhere.","Listo, tú decides. Y después comamos afuera en algún lado."],
+  ["B","Perfect. I suggest that new Thai restaurant in Chapinero.","Perfecto. Te sugiero ese restaurante tailandés nuevo en Chapinero."],
+  ["A","Great suggestion. Let's meet at the cinema at three, then.","Muy buena sugerencia. Entonces nos vemos en el cine a las tres."],
+  ["B","Deal! See you on Saturday. I'll text Andrés about Sunday.","¡Hecho! Nos vemos el sábado. Yo le escribo a Andrés lo del domingo."]
+ ]},
+ practice:[
+  {t:"mc",q:"How about ___ to the beach this weekend?",o:["go","to go","going","we go"],a:2},
+  {t:"mc",q:"Why don't we ___ a taxi? It's raining.",o:["take","to take","taking","took"],a:0},
+  {t:"mc",q:"Rechazas una invitación con cortesía:",o:["No. I don't want.","I'd love to, but I'm busy that day.","Sounds good!","Count me in!"],a:1},
+  {t:"fill",q:"___ we order some food? I'm starving. (¿Pedimos...?)",ans:["Shall"]},
+  {t:"listen",say:"Thanks for the invitation, but I'm afraid I can't make it on Friday. My parents are visiting. Can I take a rain check?",q:"¿Por qué no puede ir el viernes?",o:["Tiene que trabajar","Lo visitan sus papás","Está enfermo","No le gusta el plan"],a:1},
+  {t:"oral",text:"Why don't we eat out tonight? I don't feel like cooking."}
+ ],
+ more:[
+  {t:"order",words:["Do","you","fancy","a","coffee","after","work?"],es:"¿Te provoca un café después del trabajo?"},
+  {t:"order",words:["She","turned","down","the","invitation."],es:"Ella rechazó la invitación."},
+  {t:"dict",say:"A trip to the beach? Count me in!"},
+  {t:"dict",say:"Saturday at five? That works for me."},
+  {t:"mc",q:"—Italian or Mexican food? —___ I'm happy with both.",o:["It's up to you.","I'm afraid I can't.","Let's not.","Maybe another time."],a:0},
+  {t:"fill",q:"Let's ___ (go) to the concert together.",ans:["go"]},
+  {t:"listen",say:"Let's not go to the mall today, it's always crowded on Saturdays. We could go to the park and have a picnic instead.",q:"¿Qué propone en vez del centro comercial?",o:["Ir a cine","Hacer un pícnic en el parque","Quedarse en la casa","Ir a la playa"],a:1},
+  {t:"write",q:"Escríbele un mensaje a un grupo de amigos para proponer un plan de fin de semana (mínimo 60 palabras). Haz al menos tres sugerencias diferentes y responde con cortesía a un amigo que no puede ir.",min:60,keys:[["let's","shall we","why don't we"],["how about","what about","we could"],["i'd love to","i'm afraid","maybe another time","rain check"],["sounds good","count me in","works for me","up to you"]]}
+ ],
+ exam:{t:"mc",q:"—Shall we go for a walk? —___ I'll get my jacket.",o:["I'm afraid I can't.","Sounds good!","Maybe another time.","It's a pity."],a:1},
+ exam2:{t:"mc",q:"What about ___ dinner at my place on Friday?",o:["have","to have","having","we have"],a:2}
+}
+],
+quiz:[
+ {t:"mc",q:"—I can't open this jar. —Give it to me. I ___ it.",o:["'m going to open","'ll open","open","'m opening"],a:1},
+ {t:"mc",q:"I ___ my cousins in Cali next weekend. We bought the tickets yesterday.",o:["visit","'ll visit","'m visiting","would visit"],a:2},
+ {t:"mc",q:"I won't go to the party ___ you come with me.",o:["if","unless","in case","as soon as"],a:1},
+ {t:"mc",q:"If I ___ you, I'd apologize to her.",o:["am","were","will be","would be"],a:1},
+ {t:"mc",q:"I wish I ___ play the piano.",o:["can","could","will","would"],a:1},
+ {t:"fill",q:"How about ___ (watch) a movie tonight?",ans:["watching"]},
+ {t:"listen",say:"If the weather is nice on Sunday, we'll have a barbecue in the garden. If it rains, we'll go to a restaurant instead.",q:"¿Qué harán si llueve?",o:["Un asado en el jardín","Ir a un restaurante","Cancelar todo","Ver películas en casa"],a:1},
+ {t:"listen",say:"I wish I didn't live so far from my office. If I lived closer, I could walk to work and sleep a bit longer.",q:"¿Qué podría hacer si viviera más cerca?",o:["Ir en carro","Caminar al trabajo","Trabajar desde casa","Salir más tarde del trabajo"],a:1},
+ {t:"write",q:"Escribe sobre tus planes para el próximo año y un sueño que tienes (mínimo 70 palabras). Usa going to o presente continuo, una frase con if + will, una con if + would y una con I wish.",min:70,keys:[["going to","i'm","will"],["if"],["would","'d"],["i wish","if only"]]},
+ {t:"oral",text:"If I won the lottery, I would travel around the world."},
+ {t:"oral",text:"I'd love to, but I'm afraid I can't come on Friday."}
+],
+pool:[
+ {t:"mc",q:"Look at those black clouds! It ___ rain.",o:["will","is going to","rains","would"],a:1},
+ {t:"mc",q:"The concert ___ at 8 p.m., so let's meet at seven.",o:["starts","is starting to","would start","start"],a:0},
+ {t:"mc",q:"I'll wait here until you ___ back.",o:["will come","come","came","would come"],a:1},
+ {t:"mc",q:"Take your charger ___ your phone dies.",o:["unless","in case","until","as long as"],a:1},
+ {t:"mc",q:"What ___ you do if you saw a ghost?",o:["will","would","do","did"],a:1},
+ {t:"mc",q:"I'm fed up with the rain. I wish it ___ sunny.",o:["is","were","will be","would"],a:1},
+ {t:"mc",q:"—Do you fancy going out tonight? —___ I'm too tired.",o:["Count me in!","Sounds good!","Maybe another time.","That works for me."],a:2},
+ {t:"fill",q:"If I had more time, I ___ learn to cook. (aprendería)",ans:["would","'d"]},
+ {t:"fill",q:"I'll call you as ___ as I get home. (tan pronto)",ans:["soon"]},
+ {t:"listen",say:"I'm meeting my friends at the café at six, and then we're going to see a play. The play starts at seven thirty.",q:"¿A qué hora empieza la obra?",o:["A las 6:00","A las 7:00","A las 7:30","A las 6:30"],a:2},
+ {t:"listen",say:"If I were you, I wouldn't buy that apartment. It's very noisy, and the neighborhood isn't safe at night.",q:"¿Qué le aconseja?",o:["Comprar el apartamento","No comprar el apartamento","Alquilarlo","Esperar un año"],a:1},
+ {t:"listen",say:"Why don't we go to the beach on Saturday? We could take the early bus and come back on Sunday afternoon.",q:"¿Cuándo regresarían?",o:["El sábado en la noche","El domingo en la tarde","El lunes","El domingo en la mañana"],a:1},
+ {t:"order",words:["If","only","I","had","more","free","time!"],es:"¡Si tan solo tuviera más tiempo libre!"},
+ {t:"oral",text:"Unless we leave now, we'll miss the train."},
+ {t:"oral",text:"How about going hiking on Sunday morning?"}
+]
+};

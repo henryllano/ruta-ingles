@@ -1,0 +1,325 @@
+module.exports = {
+title: "Condicionales y arrepentimientos",
+lessons: [
+{ id:"b2-u2-l1", title:"Tercer condicional", goal:"Imaginar cómo habría sido el pasado si algo hubiera pasado de otra manera.",
+ theory:[
+  {p:"El **tercer condicional** habla de situaciones **irreales del pasado**: algo que **no pasó** y su resultado imaginario. Estructura: **If + had + participio, would have + participio**."},
+  {ex:[["If I had left earlier, I wouldn't have missed the flight.","Si hubiera salido más temprano, no habría perdido el vuelo."],["If she hadn't called me, I would have forgotten the meeting.","Si ella no me hubiera llamado, se me habría olvidado la reunión."],["We would have won if the referee had seen the foul.","Habríamos ganado si el árbitro hubiera visto la falta."]]},
+  {p:"En lugar de **would have** puedes usar **could have** (habría podido) o **might have** (quizás habría) para expresar posibilidad en vez de certeza."},
+  {ex:[["If you had asked me, I could have helped you.","Si me hubieras preguntado, te habría podido ayudar."],["If we had taken a taxi, we might have arrived on time.","Si hubiéramos tomado un taxi, quizás habríamos llegado a tiempo."]]},
+  {p:"En registro formal se puede **invertir** y eliminar if: **Had I known** = If I had known. Y con sustantivos: **Had it not been for / If it hadn't been for** + sustantivo = de no haber sido por."},
+  {tip:"Error típico: 'If I would have known...' es incorrecto. Nunca va would en la parte del if: If I had known. Ojo con 'd: en If I'd known, I'd have called, el primer 'd es had y el segundo es would."}
+ ],
+ vocab:[
+  ["turning point","sustantivo","punto de quiebre, momento decisivo","Moving to Medellín was a turning point in my life."],["in hindsight","expresión","en retrospectiva, visto ahora","In hindsight, I should have accepted the offer."],
+  ["narrowly","adverbio","por poco, por un pelo","We narrowly avoided a serious accident."],["miss out on","phrasal verb","perderse (una oportunidad)","If I hadn't gone, I would have missed out on the best night ever."],
+  ["take a chance","colocación","arriesgarse","She took a chance and applied for the job abroad."],["sheer luck","colocación","pura suerte","It was sheer luck that we found the keys."],
+  ["a close call","modismo","un susto, algo que estuvo a punto de pasar","That was a close call; the truck almost hit us."],["end up","phrasal verb","terminar (haciendo o en un lugar)","We got lost and ended up in a tiny village."],
+  ["chain of events","colocación","cadena de sucesos","A strange chain of events brought them together."],["stumble upon","phrasal verb","toparse con, encontrar por casualidad","I stumbled upon an old photo of my parents."],
+  ["pass up","phrasal verb","dejar pasar, desaprovechar","Don't pass up a chance like that."],["make it","expresión","lograrlo; llegar a tiempo","If the train had been late, we wouldn't have made it."],
+  ["outcome","sustantivo","resultado, desenlace","Nobody could have predicted the outcome."],["unforeseen","adjetivo","imprevisto","Unforeseen problems delayed the project."],
+  ["overlook","verbo","pasar por alto","The inspector overlooked a small but important detail."],["alter","verbo","alterar, cambiar","One phone call altered the course of her career."],
+  ["had it not been for","expresión","de no haber sido por","Had it not been for your help, I would have failed."],["fate","sustantivo","destino","Some people say it was fate."],
+  ["slip one's mind","modismo","olvidársele a uno","Sorry, your birthday completely slipped my mind."],["go ahead with","phrasal verb","seguir adelante con","They went ahead with the wedding despite the storm."]
+ ],
+ dialogue:{title:"Cuestión de suerte", scene:"Daniela le cuenta a su colega Mark cómo un vuelo perdido le cambió la vida.", a:"Mark", b:"Daniela", lines:[
+  ["A","So how did you and Tom actually meet? You've never told me.","¿Y cómo se conocieron tú y Tom? Nunca me has contado."],
+  ["B","Honestly, it was sheer luck. I missed a connecting flight in Atlanta about six years ago.","La verdad, fue pura suerte. Perdí un vuelo de conexión en Atlanta hace como seis años."],
+  ["A","That sounds like a nightmare, not a love story.","Eso suena a pesadilla, no a historia de amor."],
+  ["B","It was, at first. If my first flight hadn't been delayed, I would have made the connection without any problem.","Al principio sí. Si mi primer vuelo no se hubiera retrasado, habría alcanzado la conexión sin problema."],
+  ["A","And then you ended up stuck at the airport?","¿Y terminaste atrapada en el aeropuerto?"],
+  ["B","Exactly. The airline put me in a hotel, and Tom was waiting in the same line at the reception desk.","Exacto. La aerolínea me mandó a un hotel, y Tom estaba en la misma fila de la recepción."],
+  ["A","What a chain of events! Did you start talking straight away?","¡Qué cadena de sucesos! ¿Empezaron a hablar de una?"],
+  ["B","Not really. He dropped his passport and I picked it up. If I hadn't noticed it, he might have lost it.","No mucho. A él se le cayó el pasaporte y yo lo recogí. Si yo no lo hubiera visto, quizás lo habría perdido."],
+  ["A","So you basically saved his trip.","O sea que básicamente le salvaste el viaje."],
+  ["B","He says so! He invited me for dinner to say thank you, and we talked until midnight.","¡Eso dice él! Me invitó a cenar para darme las gracias, y hablamos hasta la medianoche."],
+  ["A","Do you ever think about what would have happened if you'd caught that flight?","¿Alguna vez piensas qué habría pasado si hubieras alcanzado ese vuelo?"],
+  ["B","All the time. Had I arrived on time, we would never have met. In hindsight, that delay was a turning point.","Todo el tiempo. Si hubiera llegado a tiempo, nunca nos habríamos conocido. Visto ahora, ese retraso fue un punto de quiebre."],
+  ["A","Some people would call it fate.","Algunos lo llamarían destino."],
+  ["B","Maybe. But if he hadn't been so clumsy, I would have missed out on the best thing that ever happened to me!","Puede ser. ¡Pero si él no hubiera sido tan torpe, me habría perdido lo mejor que me ha pasado!"]
+ ]},
+ practice:[
+  {t:"mc",q:"If I ___ about the strike, I would have taken the bus.",o:["knew","would have known","had known","have known"],a:2},
+  {t:"mc",q:"If you had asked me, I ___ you with the move.",o:["would help","could have helped","had helped","can have helped"],a:1,x:"Resultado irreal en el pasado: could have + participio."},
+  {t:"mc",q:"___ it not been for the firefighters, the whole building would have burned down.",o:["If","Had","Has","Would"],a:1,x:"Inversión formal: Had it not been for = If it hadn't been for."},
+  {t:"fill",q:"If we had booked earlier, we ___ ___ a cheaper flight. (habríamos conseguido)",ans:["would have got","would have gotten","'d have got","'d have gotten"]},
+  {t:"listen",say:"If the driver hadn't braked at the last second, he would have hit the cyclist. It was a really close call.",q:"¿Qué pasó en realidad?",o:["El conductor atropelló al ciclista","El conductor frenó a tiempo","El ciclista se cayó solo","No había ningún ciclista"],a:1},
+  {t:"oral",text:"If I had known about the traffic, I would have left much earlier."}
+ ],
+ more:[
+  {t:"order",words:["If","she","hadn't","taken","a","chance,","she","would","never","have","succeeded."],es:"Si no se hubiera arriesgado, nunca habría tenido éxito."},
+  {t:"order",words:["Had","I","known,","I","would","have","called","you."],es:"Si lo hubiera sabido, te habría llamado."},
+  {t:"dict",say:"Sorry, the meeting completely slipped my mind."},
+  {t:"dict",say:"In hindsight, it was a turning point in my career."},
+  {t:"mc",q:"¿Cuál es correcta?",o:["If I would have studied, I would have passed.","If I had studied, I would have passed.","If I had studied, I would pass yesterday.","If I studied, I would have passed yesterday."],a:1},
+  {t:"fill",q:"Don't ___ ___ an opportunity like this; you may never get another one. (dejar pasar)",ans:["pass up"]},
+  {t:"listen",say:"We nearly cancelled the trip because of the weather, but we went ahead with it. If we had stayed at home, we would have missed out on the most amazing sunset.",q:"¿Qué decidieron hacer?",o:["Cancelar el viaje","Seguir adelante con el viaje","Quedarse en la casa","Cambiar de destino"],a:1},
+  {t:"write",q:"Piensa en una decisión o un accidente que cambió tu vida (mínimo 90 palabras). Explica qué pasó y cómo habría sido distinto con al menos cuatro frases en tercer condicional.",min:90,keys:[["if i had","if i hadn't","if we had","if we hadn't","had i","had it not been"],["would have","wouldn't have","would never have"],["could have","might have"],["in hindsight","turning point","end up","ended up","sheer luck"]]}
+ ],
+ exam:{t:"mc",q:"If they ___ the warning signs, the bridge wouldn't have collapsed.",o:["noticed","had noticed","would notice","have noticed"],a:1},
+ exam2:{t:"mc",q:"She ___ the exam if she had studied a bit harder.",o:["would pass","will have passed","would have passed","had passed"],a:2}
+},
+{ id:"b2-u2-l2", title:"Condicionales mixtos", goal:"Conectar un pasado imaginario con un presente imaginario, y al revés.",
+ theory:[
+  {p:"Los **condicionales mixtos** combinan tiempos porque la condición y el resultado están en **momentos diferentes**. El más común: **condición en el pasado → resultado en el presente**: **If + had + participio, would + verbo**."},
+  {ex:[["If I had studied medicine, I would be a doctor now.","Si hubiera estudiado medicina, ahora sería médico."],["If she hadn't moved to Canada, she wouldn't speak French so well.","Si no se hubiera ido a Canadá, no hablaría francés tan bien."],["If we had saved more money, we wouldn't be so stressed right now.","Si hubiéramos ahorrado más plata, no estaríamos tan estresados ahora."]]},
+  {p:"El segundo tipo: **condición presente o permanente → resultado en el pasado**: **If + pasado simple, would have + participio**. La condición es algo que es (o no es) verdad **en general**."},
+  {ex:[["If I weren't afraid of flying, I would have gone to the conference in Tokyo.","Si no le tuviera miedo a volar, habría ido a la conferencia en Tokio."],["If he were more organized, he wouldn't have missed the deadline.","Si fuera más organizado, no se le habría pasado la fecha límite."],["If I spoke German, I would have got that job.","Si hablara alemán, me habrían dado ese trabajo."]]},
+  {p:"Pista para identificarlos: busca marcadores de tiempo. **now, today, still, by now** apuntan al presente; **yesterday, last year, when I was young** apuntan al pasado."},
+  {tip:"No mezcles por mezclar: primero pregúntate CUÁNDO es la condición y CUÁNDO el resultado. 'If I had won the lottery last year, I would be rich now' es correcto; 'If I won the lottery last year...' no lo es."}
+ ],
+ vocab:[
+  ["career path","colocación","trayectoria profesional","Her career path changed completely after university."],["settle down","phrasal verb","establecerse, sentar cabeza","If he hadn't met Ana, he wouldn't have settled down."],
+  ["better off","adjetivo","en mejor situación","We would be better off if we had sold the car."],["worse off","adjetivo","en peor situación","Many families are worse off than they were a year ago."],
+  ["by now","expresión","a estas alturas, para ahora","If we'd left at six, we'd be there by now."],["take up","phrasal verb","empezar (una actividad o afición)","I took up the guitar when I was forty."],
+  ["drop out (of)","phrasal verb","abandonar (los estudios)","If he hadn't dropped out of college, he would have a degree now."],["pursue","verbo","seguir, perseguir (una meta)","She decided to pursue a career in law."],
+  ["fluent","adjetivo","fluido (en un idioma)","If I had lived in London, I'd be fluent by now."],["struggle","verbo","tener dificultades, luchar","They're still struggling to pay the rent."],
+  ["hold back","phrasal verb","frenar, contener","Fear of failure held him back for years."],["abroad","adverbio","en el exterior","She has been living abroad since 2019."],
+  ["scholarship","sustantivo","beca","If I hadn't got the scholarship, I couldn't have studied in Spain."],["look after","phrasal verb","cuidar","She looks after her younger brothers."],
+  ["wealthy","adjetivo","adinerado, rico","His family is quite wealthy."],["broke","adjetivo","sin un peso, pelado","I can't go out this weekend; I'm broke."],
+  ["stable","adjetivo","estable","He has a stable job with a good salary."],["mindset","sustantivo","mentalidad","Changing your mindset can change your life."],
+  ["upbringing","sustantivo","crianza, educación en casa","Her strict upbringing made her very disciplined."],["take for granted","colocación","dar por sentado, no valorar","We often take our health for granted."]
+ ],
+ dialogue:{title:"La vida que no fue", scene:"Felipe y su amiga Rachel, en un café de Bogotá, hablan de las decisiones que marcaron sus vidas.", a:"Rachel", b:"Felipe", lines:[
+  ["A","Do you ever wonder what your life would be like if you hadn't studied engineering?","¿Alguna vez te preguntas cómo sería tu vida si no hubieras estudiado ingeniería?"],
+  ["B","Constantly. If I had followed my heart, I would be a chef now, probably with my own restaurant.","Todo el tiempo. Si hubiera seguido mi corazón, ahora sería chef, seguramente con mi propio restaurante."],
+  ["A","Really? Why didn't you pursue it?","¿En serio? ¿Por qué no lo seguiste?"],
+  ["B","My upbringing, I guess. My parents wanted me to have a stable job, and I didn't want to let them down.","Por mi crianza, supongo. Mis papás querían que tuviera un trabajo estable, y yo no quería decepcionarlos."],
+  ["A","Well, financially you're much better off than most chefs I know.","Bueno, económicamente estás mucho mejor que la mayoría de chefs que conozco."],
+  ["B","True. But if I weren't so cautious, I would have taken the risk years ago.","Cierto. Pero si no fuera tan precavido, me habría arriesgado hace años."],
+  ["A","I know the feeling. If I hadn't dropped out of my master's, I'd be teaching at a university by now.","Te entiendo. Si no hubiera abandonado la maestría, a estas alturas estaría dando clases en una universidad."],
+  ["B","Why did you drop out?","¿Por qué la dejaste?"],
+  ["A","My mother got sick and someone had to look after her. I don't regret it, though.","Mi mamá se enfermó y alguien tenía que cuidarla. Pero no me arrepiento."],
+  ["B","Of course not. And if you hadn't come back, you wouldn't have your design company now.","Claro que no. Y si no te hubieras devuelto, ahora no tendrías tu empresa de diseño."],
+  ["A","That's the funny thing. If I were more of a planner, I would never have started it.","Eso es lo curioso. Si yo fuera más planificadora, nunca la habría empezado."],
+  ["B","Maybe it's not too late for me either. I could take up cooking classes at weekends.","Quizás tampoco sea tarde para mí. Podría empezar clases de cocina los fines de semana."],
+  ["A","Exactly! Stop letting fear hold you back.","¡Exacto! Deja de permitir que el miedo te frene."],
+  ["B","Deal. And if I open that restaurant one day, you're designing the logo!","Trato hecho. ¡Y si algún día abro ese restaurante, tú diseñas el logo!"]
+ ]},
+ practice:[
+  {t:"mc",q:"If I had accepted that job in Madrid, I ___ in Spain now.",o:["would have lived","would live","had lived","will live"],a:1,x:"Condición pasada, resultado presente (now): would + verbo."},
+  {t:"mc",q:"If she ___ so shy, she would have spoken at the meeting yesterday.",o:["weren't","hadn't been","wouldn't be","isn't"],a:0,x:"Rasgo permanente (presente) con resultado pasado."},
+  {t:"mc",q:"If we hadn't missed the train, we ___ at the hotel by now.",o:["would have been","would be","had been","were"],a:1},
+  {t:"fill",q:"If he ___ ___ out of university, he would have a degree now. (no hubiera abandonado)",ans:["hadn't dropped","had not dropped"]},
+  {t:"listen",say:"If my grandparents hadn't emigrated to Colombia in the fifties, I wouldn't be here and I definitely wouldn't speak Spanish.",q:"¿Qué hicieron los abuelos en los años cincuenta?",o:["Se fueron de Colombia","Emigraron a Colombia","Aprendieron español","Abrieron un negocio"],a:1},
+  {t:"oral",text:"If I had saved more money last year, I wouldn't be so broke now."}
+ ],
+ more:[
+  {t:"order",words:["If","I","weren't","so","lazy,","I","would","have","finished","it."],es:"Si no fuera tan perezoso, lo habría terminado."},
+  {t:"order",words:["We","would","be","better","off","if","we","had","sold","the","house."],es:"Estaríamos mejor si hubiéramos vendido la casa."},
+  {t:"dict",say:"Fear of failure held him back for years."},
+  {t:"dict",say:"We often take our health for granted."},
+  {t:"mc",q:"¿Qué frase es un condicional mixto (pasado → presente)?",o:["If I had seen him, I would have told him.","If I had taken the job, I would be living in Lima now.","If I see him, I will tell him.","If I saw him, I would tell him."],a:1},
+  {t:"fill",q:"If I had lived in London for five years, I would be ___ in English by now. (fluido)",ans:["fluent"]},
+  {t:"listen",say:"Laura is a nurse now, but if she hadn't got a scholarship, she would probably be working in her father's shop.",q:"Según el texto, ¿qué estaría haciendo Laura sin la beca?",o:["Estudiando enfermería","Trabajando en la tienda del papá","Viviendo en el exterior","Buscando trabajo"],a:1},
+  {t:"write",q:"Escribe sobre dos decisiones importantes de tu pasado y cómo sería tu vida hoy si hubieras decidido otra cosa (mínimo 90 palabras). Usa los dos tipos de condicional mixto.",min:90,keys:[["if i had","if i hadn't","if i'd"],["would be","wouldn't be","would have","would live","would work"],["if i were","if i weren't","if i was","if i didn't"],["now","today","by now","still"]]}
+ ],
+ exam:{t:"mc",q:"If I had learned to drive when I was younger, I ___ the bus to work every day now.",o:["wouldn't have taken","wouldn't take","hadn't taken","won't take"],a:1},
+ exam2:{t:"mc",q:"If he ___ more patient, he wouldn't have shouted at the kids last night.",o:["were","had been being","would be","has been"],a:0}
+},
+{ id:"b2-u2-l3", title:"Wish / If only y should have", goal:"Expresar arrepentimiento por el pasado y criticar lo que se hizo o no se hizo.",
+ theory:[
+  {p:"Para lamentar algo del **pasado** usa **wish / if only + pasado perfecto (had + participio)**. If only es más enfático y emotivo."},
+  {ex:[["I wish I had studied harder at school.","Ojalá hubiera estudiado más en el colegio."],["If only I hadn't sent that email!","¡Ojalá no hubiera mandado ese correo!"],["She wishes she had gone to the concert.","Ella quisiera haber ido al concierto."]]},
+  {p:"Compara: **wish + pasado simple** = deseo sobre el **presente** (I wish I had more time = ojalá tuviera más tiempo). **wish + pasado perfecto** = arrepentimiento sobre el **pasado** (I wish I had had more time = ojalá hubiera tenido más tiempo). **wish + would** = queja sobre lo que otro hace (I wish you would stop talking)."},
+  {p:"**should have / shouldn't have + participio** expresa crítica o arrepentimiento: lo que era buena idea y no se hizo, o lo que se hizo y no se debía. **ought to have** es lo mismo, un poco más formal."},
+  {ex:[["You should have told me the truth.","Me debiste haber dicho la verdad."],["I shouldn't have eaten so much.","No debí haber comido tanto."],["We ought to have booked a table.","Debimos haber reservado una mesa."]]},
+  {tip:"Errores típicos: 'I wish I would have known' (incorrecto, es I wish I had known) y escribir 'should of' en vez de should have: suenan parecido al hablar, pero solo should have es correcto. No uses 'must have' para criticar: You must have called = seguro llamaste."}
+ ],
+ vocab:[
+  ["if only","expresión","ojalá, si tan solo","If only I had listened to you!"],["wish","verbo","desear, lamentar que no","I wish I hadn't said that."],
+  ["should have + participio","expresión","debí / debió haber","You should have warned me."],["ought to have","expresión","debería haber (formal)","They ought to have consulted the team."],
+  ["blame oneself","colocación","culparse","Don't blame yourself; it wasn't your fault."],["let someone down","phrasal verb","decepcionar, quedarle mal a alguien","I'm sorry I let you down."],
+  ["speak one's mind","modismo","decir lo que uno piensa","I wish I had spoken my mind at the meeting."],["bite one's tongue","modismo","morderse la lengua, callarse","I should have bitten my tongue."],
+  ["cross the line","modismo","pasarse de la raya","That joke really crossed the line."],["owe someone an apology","colocación","deberle una disculpa a alguien","I think I owe you an apology."],
+  ["make amends","colocación","enmendar, compensar un daño","He tried to make amends by buying her flowers."],["own up to","phrasal verb","admitir, reconocer (una culpa)","She owned up to breaking the vase."],
+  ["careless","adjetivo","descuidado","It was careless of me to leave the door open."],["thoughtless","adjetivo","desconsiderado","That was a thoughtless comment."],
+  ["rash","adjetivo","precipitado, imprudente","I made a rash decision and sold my shares."],["overreact","verbo","exagerar, reaccionar de más","Maybe I overreacted a little."],
+  ["there's no use crying over spilled milk","modismo","a lo hecho, pecho","It's done; there's no use crying over spilled milk."],["learn the hard way","modismo","aprender a las malas","I learned the hard way to always back up my files."],
+  ["water under the bridge","modismo","agua pasada, cosa olvidada","Don't worry about the argument; it's water under the bridge."],["get carried away","expresión","dejarse llevar, entusiasmarse de más","I got carried away and spent all my savings."]
+ ],
+ dialogue:{title:"La fiesta de la oficina", scene:"El lunes, Santiago le pide consejo a su amiga Emily después de una fiesta de la empresa que salió mal.", a:"Emily", b:"Santiago", lines:[
+  ["A","You look terrible. Is this about Friday's party?","Te ves fatal. ¿Es por la fiesta del viernes?"],
+  ["B","Yes. I wish I had stayed at home. I got carried away and said some things I really regret.","Sí. Ojalá me hubiera quedado en la casa. Me dejé llevar y dije cosas de las que me arrepiento mucho."],
+  ["A","What exactly did you say?","¿Qué dijiste exactamente?"],
+  ["B","I made a joke about my manager's presentation in front of everyone. If only I had bitten my tongue!","Hice un chiste sobre la presentación de mi jefa delante de todos. ¡Ojalá me hubiera mordido la lengua!"],
+  ["A","Hmm. Was it a harmless joke or did it cross the line?","Mmm. ¿Fue un chiste inofensivo o te pasaste de la raya?"],
+  ["B","It crossed the line. I shouldn't have mentioned her mistakes with the budget.","Me pasé. No debí haber mencionado sus errores con el presupuesto."],
+  ["A","Well, you should have thought about that before your third glass of wine.","Bueno, debiste haber pensado en eso antes de la tercera copa de vino."],
+  ["B","I know, I know. It was careless and thoughtless. I wish someone had stopped me.","Ya sé, ya sé. Fue descuidado y desconsiderado. Ojalá alguien me hubiera parado."],
+  ["A","Look, there's no use crying over spilled milk. What matters is what you do now.","Mira, a lo hecho, pecho. Lo que importa es lo que hagas ahora."],
+  ["B","Should I pretend nothing happened?","¿Debería hacer como si nada hubiera pasado?"],
+  ["A","Definitely not. Own up to it. Tell her you owe her an apology and that you let her down.","Para nada. Reconócelo. Dile que le debes una disculpa y que le quedaste mal."],
+  ["B","You're right. I ought to have done it on Saturday, to be honest.","Tienes razón. Debí haberlo hecho el sábado, para ser sincero."],
+  ["A","Better late than never. If she's reasonable, it'll soon be water under the bridge.","Más vale tarde que nunca. Si ella es razonable, pronto será agua pasada."],
+  ["B","I hope so. I've definitely learned the hard way to keep my opinions to myself at parties.","Eso espero. Definitivamente aprendí a las malas a guardarme mis opiniones en las fiestas."]
+ ]},
+ practice:[
+  {t:"mc",q:"I failed the test. I wish I ___ more.",o:["studied","would study","had studied","have studied"],a:2},
+  {t:"mc",q:"It's freezing! We ___ brought our jackets.",o:["should have","must have","should","would have"],a:0},
+  {t:"mc",q:"If only I ___ that message to my ex. It was so embarrassing.",o:["didn't send","hadn't sent","wouldn't send","haven't sent"],a:1},
+  {t:"fill",q:"You ___ ___ told me you were vegetarian! I made chicken. (debiste haberme)",ans:["should have","ought to have","should've"]},
+  {t:"listen",say:"I really wish I hadn't lent my car to my cousin. He crashed it on the highway, and now I have to take the bus to work.",q:"¿De qué se arrepiente la persona?",o:["De haber comprado el carro","De haberle prestado el carro a su primo","De haber chocado en la autopista","De tomar el bus"],a:1},
+  {t:"oral",text:"If only I had listened to your advice, I wouldn't be in this mess."}
+ ],
+ more:[
+  {t:"order",words:["I","shouldn't","have","made","such","a","rash","decision."],es:"No debí haber tomado una decisión tan precipitada."},
+  {t:"order",words:["She","wishes","she","had","spoken","her","mind."],es:"Ella quisiera haber dicho lo que pensaba."},
+  {t:"dict",say:"I think I owe you an apology."},
+  {t:"dict",say:"Don't worry, it's water under the bridge."},
+  {t:"mc",q:"¿Cuál expresa un arrepentimiento sobre el PASADO?",o:["I wish I had a bigger flat.","I wish you would stop smoking.","I wish I had bought that flat.","I wish I lived closer."],a:2},
+  {t:"mc",q:"¿Cuál está bien escrita?",o:["You should of called me.","You should have called me.","You should called me.","You should had called me."],a:1},
+  {t:"listen",say:"The company ought to have tested the software properly before launching it. Now thousands of customers are complaining.",q:"¿Cuál es la crítica principal?",o:["El software es muy caro","No probaron bien el software antes de lanzarlo","Lanzaron el software muy tarde","Los clientes no saben usarlo"],a:1},
+  {t:"write",q:"Escribe sobre un error que cometiste o una oportunidad que dejaste pasar (mínimo 90 palabras). Usa wish o if only con pasado perfecto, should have y shouldn't have, y di qué aprendiste.",min:90,keys:[["i wish i had","i wish i hadn't","if only"],["should have","should've","ought to have"],["shouldn't have","should not have"],["learned","learnt","the hard way","lesson"]]}
+ ],
+ exam:{t:"mc",q:"I'm so tired. I wish I ___ to bed so late last night.",o:["didn't go","hadn't gone","wouldn't go","don't go"],a:1},
+ exam2:{t:"mc",q:"The roads were icy. You ___ driven so fast.",o:["mustn't have","shouldn't have","couldn't","wouldn't"],a:1}
+},
+{ id:"b2-u2-l4", title:"Deducción en pasado: must have, might have, can't have", goal:"Sacar conclusiones lógicas sobre lo que pasó a partir de la evidencia.",
+ theory:[
+  {p:"Para hacer **deducciones sobre el pasado** se usa **modal + have + participio**. El modal indica qué tan seguro estás."},
+  {ex:[["must have + participio (casi seguro que SÍ)","She must have left early; her car isn't here. (Seguro que salió temprano)"],["might / may / could have + participio (es posible)","He might have missed the bus. (Puede que haya perdido el bus)"],["can't / couldn't have + participio (casi seguro que NO)","They can't have finished already; they started ten minutes ago. (Imposible que ya hayan terminado)"]]},
+  {p:"Para deducir una **acción en progreso** en el pasado usa la forma continua: **must have been + -ing**."},
+  {ex:[["You must have been sleeping when I called.","Seguro estabas durmiendo cuando te llamé."],["He can't have been telling the truth.","Es imposible que estuviera diciendo la verdad."],["She may have been working late.","Puede que estuviera trabajando hasta tarde."]]},
+  {p:"Ojo: el contrario de **must have** en deducción NO es mustn't have, sino **can't have** o **couldn't have**. Y **couldn't have** también puede significar imposibilidad real: I couldn't have done it without you (no habría podido hacerlo sin ti)."},
+  {tip:"Errores típicos de hispanohablantes: 'must had' o 'must to have' (lo correcto es must have + participio) y traducir 'debió de' siempre como should have. 'Debió de salir' (suposición) = must have left; 'Debió salir' (crítica) = should have left."}
+ ],
+ vocab:[
+  ["clue","sustantivo","pista","The detective found an important clue."],["evidence","sustantivo","pruebas, evidencia (incontable)","There isn't enough evidence to arrest him."],
+  ["suspect","sustantivo / verbo","sospechoso; sospechar","The main suspect has disappeared."],["witness","sustantivo","testigo","A witness saw a man running away."],
+  ["alibi","sustantivo","coartada","He has a perfect alibi for that night."],["break in","phrasal verb","entrar a la fuerza","The thieves must have broken in through the window."],
+  ["footprint","sustantivo","huella (de pie o zapato)","There were muddy footprints on the carpet."],["assume","verbo","suponer, dar por hecho","I assumed you had already left."],
+  ["conclude","verbo","concluir, deducir","The police concluded that it was an accident."],["rule out","phrasal verb","descartar","We can't rule out the possibility of fraud."],
+  ["figure out","phrasal verb","descifrar, entender","I can't figure out how he got in."],["apparently","adverbio","al parecer, según dicen","Apparently, the alarm didn't go off."],
+  ["presumably","adverbio","presumiblemente, es de suponer","Presumably, he took the last train home."],["bound to","expresión","seguro que (va a)","With so many cameras, someone is bound to have seen something."],
+  ["puzzled","adjetivo","desconcertado, perplejo","She looked puzzled by the question."],["odd","adjetivo","raro, extraño","It's odd that nobody heard anything."],
+  ["account for","phrasal verb","explicar, justificar","How do you account for the missing money?"],["trace","sustantivo","rastro, huella","The ship vanished without a trace."],
+  ["vanish","verbo","desaparecer","The painting vanished from the museum overnight."],["plausible","adjetivo","verosímil, creíble","That's a plausible explanation."]
+ ],
+ dialogue:{title:"El misterio de la torta", scene:"Valentina y su compañero de apartamento, Josh, encuentran que la torta de cumpleaños desapareció de la nevera.", a:"Valentina", b:"Josh", lines:[
+  ["A","Josh, the birthday cake I bought for Sofía has vanished! It was in the fridge last night.","¡Josh, la torta de cumpleaños que compré para Sofía desapareció! Anoche estaba en la nevera."],
+  ["B","Don't look at me! I can't have eaten it; I was at my brother's place all night.","¡No me mires a mí! Es imposible que yo me la haya comido; pasé toda la noche donde mi hermano."],
+  ["A","That's a convenient alibi. But OK, someone must have taken it.","Qué coartada tan conveniente. Pero bueno, alguien se la tuvo que haber llevado."],
+  ["B","Let's think. Could Sofía have found it? Maybe she came home early.","Pensemos. ¿Será que Sofía la encontró? Quizás llegó temprano."],
+  ["A","She can't have found it. She's been in Cartagena since Thursday.","Imposible que la haya encontrado. Está en Cartagena desde el jueves."],
+  ["B","Hmm, that rules her out. What about Martín? He has a key, doesn't he?","Mmm, eso la descarta. ¿Y Martín? Él tiene llave, ¿cierto?"],
+  ["A","He does. And look, there are chocolate crumbs and muddy footprints by the door.","Sí. Y mira, hay boronas de chocolate y huellas de barro junto a la puerta."],
+  ["B","Muddy footprints? He must have come in after the rain, then. It was pouring at around midnight.","¿Huellas de barro? Entonces debió de entrar después del aguacero. Estaba lloviendo durísimo como a la medianoche."],
+  ["A","But Martín hates chocolate. It's odd. He couldn't have eaten the whole thing.","Pero Martín odia el chocolate. Es raro. No pudo haberse comido toda la torta."],
+  ["B","Maybe he didn't eat it. He might have taken it to the party at his office by mistake.","Quizás no se la comió. Puede que se la haya llevado por error a la fiesta de su oficina."],
+  ["A","That's actually plausible. He was organizing a farewell party today.","Eso suena creíble. Él estaba organizando una despedida hoy."],
+  ["B","So he must have assumed it was for his colleagues. Let's call him and figure this out.","Entonces seguro supuso que era para sus colegas. Llamémoslo y aclaremos esto."],
+  ["A","He's not answering. He must be at the party, presumably eating our cake!","No contesta. Debe de estar en la fiesta, ¡presumiblemente comiéndose nuestra torta!"],
+  ["B","Well, the bakery is bound to have another one. Come on, I'll pay for half.","Bueno, seguro la pastelería tiene otra. Vamos, yo pago la mitad."]
+ ]},
+ practice:[
+  {t:"mc",q:"The streets are wet. It ___ during the night.",o:["must rain","must have rained","can't have rained","should have rained"],a:1},
+  {t:"mc",q:"She ___ the email; I sent it to the wrong address.",o:["must have received","can't have received","should have received","must receive"],a:1,x:"Imposibilidad lógica en el pasado: can't have + participio."},
+  {t:"mc",q:"I'm not sure where Tom is. He ___ stuck in traffic.",o:["must get","can't have got","might have got","should get"],a:2},
+  {t:"fill",q:"You ___ ___ ___ exhausted after a twelve-hour shift. (seguro estabas)",ans:["must have been","must've been"]},
+  {t:"listen",say:"The window was broken from the inside, and there were no footprints in the garden. The thief can't have come from outside; it must have been someone who was already in the house.",q:"¿Qué concluye el detective?",o:["El ladrón entró por el jardín","El ladrón ya estaba dentro de la casa","No hubo robo","El ladrón rompió la ventana desde afuera"],a:1},
+  {t:"oral",text:"She must have forgotten about the meeting; she's never late."}
+ ],
+ more:[
+  {t:"order",words:["They","can't","have","gone","far","without","a","car."],es:"No pueden haber ido lejos sin carro."},
+  {t:"order",words:["He","must","have","been","sleeping","when","I","called."],es:"Seguro estaba durmiendo cuando lo llamé."},
+  {t:"dict",say:"The painting vanished without a trace."},
+  {t:"dict",say:"We can't rule out the possibility of fraud."},
+  {t:"mc",q:"Lo contrario de 'She must have known' (deducción) es:",o:["She mustn't have known.","She can't have known.","She shouldn't have known.","She needn't have known."],a:1},
+  {t:"fill",q:"I'm not sure, but they ___ ___ left already. (puede que hayan)",ans:["might have","may have","could have","might've"]},
+  {t:"listen",say:"Apparently, the alarm didn't go off. Either someone switched it off, or the batteries might have run out.",q:"¿Qué explicaciones se dan?",o:["Que no había alarma","Que alguien la apagó o se acabaron las baterías","Que la policía la desconectó","Que sonó demasiado tarde"],a:1},
+  {t:"write",q:"Imagina que llegas a tu casa y encuentras la puerta abierta, la sala desordenada y tu perro asustado (mínimo 90 palabras). Haz deducciones sobre lo que pasó con must have, might have, can't have y couldn't have.",min:90,keys:[["must have","must've"],["might have","may have","could have"],["can't have","couldn't have","cannot have"],["clue","evidence","footprints","apparently","presumably"]]}
+ ],
+ exam:{t:"mc",q:"Ana didn't answer the phone. She ___ in the shower.",o:["must have been","must be been","should have been","can't be"],a:0},
+ exam2:{t:"mc",q:"Paul ___ the car; he doesn't even have a licence.",o:["must have driven","can't have driven","should have driven","might drive"],a:1}
+},
+{ id:"b2-u2-l5", title:"Arrepentimiento y preferencias: I'd rather, it's time, regret", goal:"Expresar preferencias, urgencia, arrepentimiento y condiciones con estructuras de nivel avanzado.",
+ theory:[
+  {p:"**I'd rather (would rather)** expresa preferencia. Con el **mismo sujeto** va con el **infinitivo sin to**: I'd rather stay home. Con **otro sujeto** va con **pasado simple** (para presente o futuro) o **pasado perfecto** (para el pasado)."},
+  {ex:[["I'd rather walk than take a taxi.","Prefiero caminar que tomar un taxi."],["I'd rather you didn't smoke in here.","Preferiría que no fumaras aquí."],["I'd rather you hadn't told her my secret.","Hubiera preferido que no le contaras mi secreto."]]},
+  {p:"**It's time / It's high time / It's about time + sujeto + pasado simple** = ya es hora de que (con tono de crítica o urgencia). Sin sujeto: **It's time to + verbo**."},
+  {ex:[["It's high time you found a job.","Ya va siendo hora de que consigas trabajo."],["It's about time the government did something.","Ya era hora de que el gobierno hiciera algo."]]},
+  {p:"**regret + -ing** = arrepentirse de algo que **se hizo**: I regret leaving school so young. **regret not + -ing** = arrepentirse de no haberlo hecho. Ojo: **regret to + verbo** es formal y significa lamentar dar una noticia: We regret to inform you that... Y para condiciones: **supposing** (¿y si...?), **provided (that) / providing**, **as long as** (siempre y cuando), **on condition that**, todos seguidos de presente cuando hablan del futuro."},
+  {tip:"Error típico: 'I'd rather to stay' o 'It's time you go'. Lo correcto es I'd rather stay e It's time you went. Y con as long as / provided that no se usa will: As long as you finish (no 'you will finish') by Friday, it's fine."}
+ ],
+ vocab:[
+  ["I'd rather","expresión","preferiría, prefiero","I'd rather not talk about it."],["would sooner","expresión","preferiría (informal)","I'd sooner stay home than go to that party."],
+  ["it's high time","expresión","ya va siendo hora","It's high time we changed the rules."],["it's about time","expresión","ya era hora","It's about time you apologized."],
+  ["regret","verbo","arrepentirse de, lamentar","I regret not travelling more when I was young."],["supposing","conector","suponiendo que, ¿y si...?","Supposing you lost your job, what would you do?"],
+  ["provided that","conector","siempre que, con tal de que","You can borrow my car provided that you fill the tank."],["as long as","conector","siempre y cuando","You can stay as long as you keep quiet."],
+  ["on condition that","conector","con la condición de que","They agreed on condition that we paid in advance."],["otherwise","conector","de lo contrario, si no","Hurry up, otherwise we'll miss the bus."],
+  ["get round to","phrasal verb","sacar tiempo para, llegar a hacer","I never got round to calling him back."],["put off","phrasal verb","aplazar, posponer","Stop putting off your dentist appointment."],
+  ["procrastinate","verbo","procrastinar, dejar las cosas para después","I always procrastinate when I have to write reports."],["commit to","phrasal verb","comprometerse con","I'd rather not commit to anything yet."],
+  ["compromise","sustantivo / verbo","acuerdo intermedio; ceder","We reached a compromise after hours of discussion."],["dread","verbo","temer, tenerle pavor a","I dread speaking in public."],
+  ["cut down on","phrasal verb","reducir el consumo de","It's time you cut down on sugar."],["take the plunge","modismo","lanzarse, atreverse por fin","After years of doubt, she took the plunge and opened her café."],
+  ["make up one's mind","modismo","decidirse","You need to make up your mind by Friday."],["sooner or later","expresión","tarde o temprano","Sooner or later, you'll have to decide."]
+ ],
+ dialogue:{title:"¿Renunciar o no renunciar?", scene:"Natalia le cuenta a su hermano mayor, Kevin, que está pensando renunciar a su trabajo en un banco para montar una tienda en línea.", a:"Kevin", b:"Natalia", lines:[
+  ["A","So, have you finally made up your mind about the bank?","Bueno, ¿por fin te decidiste sobre lo del banco?"],
+  ["B","Almost. Honestly, I'd rather take a risk now than spend another ten years in an office I hate.","Casi. La verdad, prefiero arriesgarme ahora que pasar otros diez años en una oficina que odio."],
+  ["A","I get it. It's high time you did something you actually enjoy.","Te entiendo. Ya va siendo hora de que hagas algo que de verdad disfrutes."],
+  ["B","Thanks. I keep putting it off, though. I dread telling my boss.","Gracias. Pero lo sigo aplazando. Me da pavor decirle a mi jefe."],
+  ["A","Look, I regret staying at my first job for so long. I was miserable, and I only left because they closed the branch.","Mira, yo me arrepiento de haberme quedado tanto tiempo en mi primer trabajo. Era infeliz y solo me fui porque cerraron la sucursal."],
+  ["B","Really? You never told me that.","¿En serio? Nunca me lo habías contado."],
+  ["A","I'd rather you hadn't found out this way, but yes. I also regret not studying design when I had the chance.","Hubiera preferido que no te enteraras así, pero sí. También me arrepiento de no haber estudiado diseño cuando tuve la oportunidad."],
+  ["B","Supposing the online shop doesn't work, though? I have rent to pay.","¿Pero y si la tienda en línea no funciona? Tengo que pagar arriendo."],
+  ["A","You'll be fine as long as you have a plan B. How much have you saved?","Vas a estar bien siempre y cuando tengas un plan B. ¿Cuánto has ahorrado?"],
+  ["B","Enough for about eight months, provided that I cut down on eating out.","Lo suficiente para unos ocho meses, siempre que deje de comer tanto afuera."],
+  ["A","That's a decent cushion. What about a compromise? Ask to work part-time for a while.","Es un buen colchón. ¿Y si buscas un punto medio? Pide trabajar medio tiempo por un tiempo."],
+  ["B","They might accept on condition that I train my replacement. That could actually work.","Puede que acepten con la condición de que entrene a mi reemplazo. Eso podría funcionar."],
+  ["A","Exactly. Sooner or later you have to take the plunge, otherwise you'll always wonder 'what if'.","Exacto. Tarde o temprano tienes que lanzarte; si no, siempre te vas a preguntar '¿y si...?'."],
+  ["B","You're right. It's about time I stopped procrastinating. I'll talk to my boss on Monday.","Tienes razón. Ya era hora de que dejara de procrastinar. Hablo con mi jefe el lunes."]
+ ]},
+ practice:[
+  {t:"mc",q:"I'd rather you ___ my phone without asking.",o:["don't use","didn't use","not use","won't use"],a:1,x:"Otro sujeto después de I'd rather: pasado simple."},
+  {t:"mc",q:"It's high time we ___ a decision.",o:["make","made","will make","to make"],a:1},
+  {t:"mc",q:"I regret ___ more languages when I was a student.",o:["not to learn","not learning","don't learn","not learned"],a:1},
+  {t:"fill",q:"You can borrow my laptop as ___ ___ you're careful with it. (siempre y cuando)",ans:["long as"]},
+  {t:"listen",say:"I'd rather not go to the conference this year. It's too expensive, and I'd rather spend the money on a course.",q:"¿En qué prefiere gastar el dinero?",o:["En la conferencia","En un curso","En un viaje","En un computador"],a:1},
+  {t:"oral",text:"It's about time you stopped putting things off."}
+ ],
+ more:[
+  {t:"order",words:["I'd","rather","you","hadn't","told","him","the","truth."],es:"Hubiera preferido que no le dijeras la verdad."},
+  {t:"order",words:["You","can","come","provided","that","you","bring","something."],es:"Puedes venir siempre que traigas algo."},
+  {t:"dict",say:"Sooner or later, you'll have to make up your mind."},
+  {t:"dict",say:"I never got round to calling her back."},
+  {t:"mc",q:"¿Cuál es correcta?",o:["I'd rather to stay at home tonight.","I'd rather staying at home tonight.","I'd rather stay at home tonight.","I'd rather stayed at home tonight."],a:2},
+  {t:"mc",q:"'We regret to inform you that your flight has been cancelled' significa:",o:["Nos arrepentimos de haber cancelado tu vuelo","Lamentamos informarte que tu vuelo fue cancelado","Te informamos que puedes cancelar tu vuelo","Nos arrepentimos de informarte tarde"],a:1},
+  {t:"listen",say:"Supposing the bank refuses the loan, we could ask my parents. Otherwise, we'll have to put off the wedding until next year.",q:"¿Qué pasará si no consiguen el dinero?",o:["Cancelarán la boda","Aplazarán la boda hasta el próximo año","Se casarán en el banco","Venderán la casa"],a:1},
+  {t:"write",q:"Escríbele un correo a un amigo que lleva años aplazando una decisión importante (mínimo 100 palabras). Usa it's (high) time, I'd rather, regret + -ing y al menos dos conectores como as long as, provided that o supposing.",min:100,keys:[["it's time","it's high time","it's about time"],["i'd rather","i would rather","i'd sooner"],["regret"],["as long as","provided that","providing","supposing","on condition that"]]}
+ ],
+ exam:{t:"mc",q:"It's about time you ___ your room. It's a mess!",o:["clean","cleaned","will clean","are cleaning"],a:1},
+ exam2:{t:"mc",q:"You can use the car ___ you're back before midnight.",o:["unless","as long as","in case","supposing that not"],a:1}
+}
+],
+quiz:[
+ {t:"mc",q:"If the alarm ___ off, I wouldn't have overslept.",o:["went","had gone","would go","has gone"],a:1},
+ {t:"mc",q:"If I hadn't moved to Bogotá, I ___ my wife now.",o:["wouldn't have known","wouldn't know","didn't know","hadn't known"],a:1},
+ {t:"mc",q:"I wish I ___ that tattoo when I was eighteen.",o:["didn't get","hadn't got","wouldn't get","don't get"],a:1},
+ {t:"mc",q:"Her eyes are red. She ___ crying.",o:["must have been","should have been","can't have been","must be been"],a:0},
+ {t:"mc",q:"I'd rather you ___ anyone about this.",o:["don't tell","didn't tell","not tell","won't tell"],a:1},
+ {t:"fill",q:"He ___ ___ ___ the thief; he was in Miami that day. (es imposible que haya sido)",ans:["can't have been","couldn't have been","cannot have been"]},
+ {t:"listen",say:"If I had taken that job in Toronto, I would be earning twice as much now, but I would be far away from my family.",q:"¿Qué tendría esta persona si hubiera aceptado el trabajo?",o:["Más tiempo con su familia","El doble de salario","Un trabajo en Bogotá","Menos responsabilidades"],a:1},
+ {t:"listen",say:"You shouldn't have shared the report with the client before the manager approved it. Now we have to explain the mistakes.",q:"¿Cuál fue el error?",o:["No enviar el informe","Compartir el informe antes de la aprobación","Aprobar el informe sin leerlo","Llegar tarde a la reunión"],a:1},
+ {t:"write",q:"Escribe sobre un momento de tu vida que te habría gustado vivir de otra manera (mínimo 100 palabras). Usa tercer condicional o condicional mixto, wish o if only, should have y regret + -ing.",min:100,keys:[["if i had","if i hadn't","had i"],["would have","would be","wouldn't"],["i wish","if only"],["should have","shouldn't have","regret"]]},
+ {t:"oral",text:"If it hadn't been for your help, I would never have finished the project."},
+ {t:"oral",text:"It's high time we made a decision about the budget."}
+],
+pool:[
+ {t:"mc",q:"Had we ___ the instructions, we wouldn't have broken the machine.",o:["read","reading","to read","would read"],a:0},
+ {t:"mc",q:"If she were more confident, she ___ for the promotion last month.",o:["would apply","would have applied","had applied","applies"],a:1},
+ {t:"mc",q:"If only I ___ my passport at home! Now we can't board.",o:["didn't leave","hadn't left","wouldn't leave","don't leave"],a:1},
+ {t:"mc",q:"The lights are off. They ___ to bed already.",o:["must have gone","should have gone","can't have gone","must go"],a:0},
+ {t:"mc",q:"I regret ___ so rude to my teacher.",o:["to be","being","be","been"],a:1},
+ {t:"mc",q:"___ it rains tomorrow, will the match be cancelled?",o:["Supposing","Provided","Unless","As long"],a:0},
+ {t:"fill",q:"You ___ ___ apologized sooner; now she won't speak to you. (debiste haber)",ans:["should have","ought to have","should've"]},
+ {t:"fill",q:"It's time we ___ home; it's nearly midnight. (go, pasado)",ans:["went"]},
+ {t:"listen",say:"The museum guard can't have stolen the painting, because he was on holiday that week. The police think it might have been an inside job, though.",q:"¿Por qué no pudo ser el guarda?",o:["Estaba enfermo","Estaba de vacaciones","Tiene una coartada falsa","Estaba trabajando en otro museo"],a:1},
+ {t:"listen",say:"I'd rather we met at the office than at a café. It's quieter, and we can use the projector.",q:"¿Dónde prefiere reunirse?",o:["En un café","En la oficina","En un parque","En su casa"],a:1},
+ {t:"listen",say:"If he hadn't been so stubborn, he would still be working for the company. Instead, he quit after a stupid argument.",q:"¿Qué pasó con él?",o:["Lo ascendieron","Renunció después de una discusión","Lo trasladaron","Sigue trabajando en la empresa"],a:1},
+ {t:"order",words:["If","only","I","had","listened","to","you."],es:"Si tan solo te hubiera escuchado."},
+ {t:"order",words:["She","might","have","missed","the","last","train."],es:"Puede que haya perdido el último tren."},
+ {t:"oral",text:"I wish I had taken the plunge years ago."},
+ {t:"oral",text:"If I had studied abroad, I would be fluent in English by now."}
+]
+};
