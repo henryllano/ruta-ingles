@@ -538,10 +538,10 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="vocab.js?v=202610211256"></script>
-<script src="readings.js?v=202610211256"></script>
-<script src="dict.js?v=202610211256"></script>
-<script src="lessons.js?v=202610211256"></script>
+<script src="vocab.js?v=202610211303"></script>
+<script src="readings.js?v=202610211303"></script>
+<script src="dict.js?v=202610211303"></script>
+<script src="lessons.js?v=202610211303"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1143,9 +1143,18 @@ function openQuiz(L){
     save:(pct,passed)=>{const db=loadDB(),st=db.find(s=>s.id===S.student);if(st){st.quiz=st.quiz||{};const p=st.quiz[L]||{};st.quiz[L]={best:Math.max(pct,p.best||0),last:pct,passed:!!p.passed||passed,tries:(p.tries||0)+1,date:Date.now()};saveDB(db)}},
     again:()=>openQuiz(L)});
 }
+/* variedad entre intentos: se recuerdan las preguntas del último intento y se mezclan las opciones */
+const itemId=it=>it.t+"|"+(it.q||it.say||it.text||"");
+const shuffle=a=>a.map(x=>[Math.random(),x]).sort((p,q)=>p[0]-q[0]).map(x=>x[1]);
+function seenGet(key){const st=curStudent();return(st&&st.seen&&st.seen[key])||[]}
+function seenSet(key,ids){const db=loadDB(),st=db.find(s=>s.id===S.student);if(!st)return;st.seen=st.seen||{};st.seen[key]=ids;saveDB(db)}
+/* toma n preguntas de un banco: primero las que no salieron la vez anterior */
+function pickFresh(pool,n,seen){return[...shuffle(pool.filter(x=>!seen.includes(itemId(x)))),...shuffle(pool.filter(x=>seen.includes(itemId(x))))].slice(0,n)}
+function mixOptions(it){if(!it.o)return{...it};const idx=shuffle(it.o.map((_,i)=>i));return{...it,o:idx.map(i=>it.o[i]),a:idx.indexOf(it.a)}}
 function runSet(cfg){
   if(!unlocked(cfg.L))return;if(LVBACK!==cfg.L)LVBACK=null;OV="quiz";
-  Q={cfg,L:cfg.L,items:cfg.items,i:0,sel:null,plays:0,typed:"",said:"",err:null,noMic:false,ans:[],done:false};
+  if(cfg.seenKey&&curStudent())seenSet(cfg.seenKey,cfg.items.map(itemId));
+  Q={cfg,L:cfg.L,items:cfg.items.map(mixOptions),i:0,sel:null,plays:0,typed:"",said:"",err:null,noMic:false,ans:[],done:false};
   exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);body.style.maxWidth="";
   if(!curStudent())whoView(()=>qRender());else qRender();
 }
@@ -1166,13 +1175,14 @@ function qRender(){
     <div class="transcript ${Q.said?"has":""}" id="tr">${Q.said?esc(Q.said):"Lo que digas aparecerá aquí."}</div>
     ${Q.err?`<div class="warn">${Q.err==="not-allowed"?"El micrófono está bloqueado. En Chrome, toca el candado de la barra de direcciones y permite el micrófono. En la vista previa de Claude el micrófono no funciona.":Q.err==="unsupported"?"Este navegador no reconoce voz. Usa Google Chrome o Microsoft Edge.":"No te escuchamos. Acércate al micrófono e intenta otra vez."}</div>`:""}`;
   const words=t=>norm(t).length;
-  const ready=it.t==="fill"?Q.typed.trim():it.t==="write"?words(Q.typed)>=15:it.t==="oral"?(Q.said||Q.noMic):Q.sel!=null;
+  const minW=it.min||15;
+  const ready=it.t==="fill"?Q.typed.trim():it.t==="write"?words(Q.typed)>=minW:it.t==="oral"?(Q.said||Q.noMic):Q.sel!=null;
   h+=`<div class="ex-actions">${it.t==="oral"?`<button class="linkbtn" id="noMic">No puedo usar el micrófono (cuenta 0)</button>`:`<span class="note">Necesitas ${Q.cfg.pass} % para aprobar.</span>`}<button class="btn sun" id="next" ${ready?"":"disabled"}>${Q.i===n-1?"Ver resultado":"Siguiente"}</button></div>`;
   body.innerHTML=h;
   if(it.t==="listen"&&tts)$("play").onclick=()=>{Q.plays++;speakTTS(it.say);qRender()};
   body.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{Q.sel=+b.dataset.i;qRender();body.querySelector(`.opt[data-i="${Q.sel}"]`).focus()});
   if(it.t==="fill"){const f=$("fillIn");f.focus();f.oninput=()=>{Q.typed=f.value;$("next").disabled=!f.value.trim()};f.onkeydown=e=>{if(e.key==="Enter"&&f.value.trim())$("next").click()}}
-  if(it.t==="write"){const f=$("wrIn"),u=()=>{Q.typed=f.value;const c=words(f.value);$("wrWc").textContent=`${c} palabras · mínimo 15`;$("next").disabled=c<15};f.oninput=u;u();f.focus()}
+  if(it.t==="write"){const f=$("wrIn"),u=()=>{Q.typed=f.value;const c=words(f.value);$("wrWc").textContent=`${c} palabras · mínimo ${minW}`;$("next").disabled=c<minW};f.oninput=u;u();f.focus()}
   if(it.t==="oral"){
     $("oralHear").onclick=()=>speakTTS(it.text);
     $("noMic").onclick=()=>{stopRec();Q.noMic=true;Q.said="";qNext()};
@@ -1196,9 +1206,17 @@ function qNext(){
   const it=Q.items[Q.i];let pts=0,given="",acc=null;
   if(it.t==="mc"||it.t==="listen"){pts=Q.sel===it.a?1:0;given=it.o[Q.sel]}
   if(it.t==="fill"){const v=Q.typed.trim().toLowerCase().replace(/[.!?]+$/,"").replace(/\s+/g," ");pts=it.ans.includes(v)?1:0;given=Q.typed.trim()}
-  if(it.t==="write"){const tp=textPoints(Q.typed);pts=Math.min(1,tp/(100*(Q.L+1)));given=Q.typed.trim();acc=Math.round(pts*100)}
+  if(it.t==="write"){
+    /* mitad por la calidad del texto (reglas) y mitad por usar lo que pide la consigna */
+    const tp=Math.min(1,textPoints(Q.typed)/(100*(Q.L+1))),low=" "+Q.typed.toLowerCase().replace(/[’]/g,"'")+" ";
+    const hasK=k=>k==="ing"?/[a-z]{2,}ing\b/.test(low):low.includes(k);
+    const miss=(it.keys||[]).filter(g=>!g.some(hasK));
+    const cov=it.keys&&it.keys.length?1-miss.length/it.keys.length:tp;
+    pts=Math.round((tp*.5+cov*.5)*100)/100;given=Q.typed.trim();acc=Math.round(pts*100);
+    Q.ans.push({it,pts,given,acc,miss});
+  }
   if(it.t==="oral"){const a=Q.said?wordAcc(it.text,Q.said):0;pts=a>=.85?1:a>=.6?.5:0;given=Q.said||"(sin grabación)";acc=Math.round(a*100)}
-  Q.ans.push({it,pts,given,acc});
+  if(it.t!=="write")Q.ans.push({it,pts,given,acc});
   Q.i++;Q.sel=null;Q.plays=0;Q.typed="";Q.said="";Q.err=null;Q.noMic=false;
   if(Q.i>=Q.items.length){
     Q.done=true;Q.pct=Math.round(Q.ans.reduce((s,a)=>s+a.pts,0)/Q.items.length*100);Q.passed=Q.pct>=Q.cfg.pass;
@@ -1215,14 +1233,17 @@ function qResult(){
     return `<div class="sbar"><div class="shead"><span>${name} <small style="color:var(--mute);font-weight:600">(${a.length} ${a.length===1?"pregunta":"preguntas"})</small></span><span>${p} %</span></div><div class="tr"><i style="width:${p}%;background:${col}"></i></div></div>`};
   body.innerHTML=`<div class="result"><div class="rwho">${esc(c.title)} · ${esc(curStudent()?curStudent().name:"")}</div><div class="lv">${Q.pct} <span>%</span></div><p>${msg}</p></div>
     <div class="sbars">${sk(["mc","fill"],"Escritura","var(--sun)")}${sk(["write"],"Redacción","var(--mint)")}${sk(["listen"],"Escucha","var(--sky)")}${sk(["oral"],"Habla","var(--coral)")}</div>
+    ${c.topics?topicReport():""}
     <ul class="review">${Q.ans.map(a=>`<li class="${a.pts===1?"ok":a.pts>0?"half":""}">
       <div class="rq"><span class="tagline">${kind[a.it.t]}</span>${esc(a.it.t==="oral"?"Decir en voz alta: “"+a.it.text+"”":a.it.q)}</div>
       <div>Tu respuesta: <b>${esc(a.given||"—")}</b>${a.it.t==="oral"&&a.acc!=null&&a.given!=="(sin grabación)"?` · ${a.acc} % de palabras correctas`:""}${a.it.t==="write"?` · ${a.acc} % (estimación automática)`:""}</div>
+      ${a.it.t==="write"&&a.miss&&a.miss.length?`<div class="rx">Te faltó usar: ${a.miss.map(g=>esc(g.join(" / "))).join(" · ")}</div>`:""}
       ${a.pts<1&&a.it.t!=="write"?`<div>Correcta: <b>${esc(right(a))}</b></div>`:""}
       ${a.it.x&&a.pts<1?`<div class="rx">${esc(a.it.x)}</div>`:""}
       ${a.it.t==="listen"&&a.pts<1?`<div class="rx">El audio decía: “${esc(a.it.say)}”</div>`:""}</li>`).join("")}</ul>
     <div class="ex-actions"><button class="btn dark" id="qAgain">Repetir</button>${Q.passed&&c.next?`<button class="btn sun" id="qNextB">${esc(c.next.label)}</button>`:`<button class="btn sun" id="qBack">${LVBACK!=null?"Volver al temario":"Volver a los niveles"}</button>`}</div>`;
   $("qAgain").onclick=c.again;
+  body.querySelectorAll("[data-rep]").forEach(b=>b.onclick=()=>{const [u,k]=b.dataset.rep.split("-").map(Number);lessonView(Q.L,u,k)});
   if($("qNextB"))$("qNextB").onclick=c.next.go;
   if($("qBack"))$("qBack").onclick=()=>{if(LVBACK!=null)openLevel(LVBACK);else{closeExam();$("niveles").scrollIntoView({behavior:reduce?"auto":"smooth"})}};
 }
@@ -1487,7 +1508,7 @@ function finishReadAloud(){
 
 /* ================= temario por nivel ================= */
 const SYL=L=>(window.SYLLABUS||{})[L]||null;
-const lesKey=(L,u,k)=>`${L}-${u}-${k}`,uqKey=(L,u)=>`${L}-${u}-q`,finKey=L=>`${L}-final`;
+const lesKey=(L,u,k)=>{const l=SYL(L)&&SYL(L).units[u].lessons[k];return l&&l.id?`${L}-${l.id}`:`${L}-${u}-${k}`},uqKey=(L,u)=>`${L}-${u}-q`,finKey=L=>`${L}-final`;
 /* orden de estudio: lecciones de cada unidad, su quiz, y al final el examen */
 function sylSteps(L){const sy=SYL(L);if(!sy)return[];const out=[];let d=0;
   sy.units.forEach((u,ui)=>{u.lessons.forEach((l,k)=>out.push({type:"lesson",u:ui,k,day:++d,key:lesKey(L,ui,k),title:l.title}));out.push({type:"uquiz",u:ui,key:uqKey(L,ui),title:`Quiz de la unidad ${ui+1}`})});
@@ -1506,9 +1527,9 @@ function sylLevelHome(L){
     ${sy.units.map((u,ui)=>`<section class="unit"><div class="unit-h"><b>Unidad ${ui+1}</b><span>${esc(u.title)}</span><small>${u.lessons.filter((x,k)=>isDone(lesKey(L,ui,k))).length}/${u.lessons.length}</small></div>
       ${steps.filter(s=>s.u===ui).map(s=>`<button class="srow ${s.type}" data-key="${s.key}">
         <span class="sday">${s.type==="lesson"?`Día ${s.day}`:"Quiz"}</span>
-        <span class="stitle"><b>${esc(s.title)}</b>${s.type==="lesson"?`<small>${esc(sy.units[ui].lessons[s.k].goal)}${sy.units[ui].lessons[s.k].reading!=null?" · incluye lectura":""}</small>`:`<small>10 preguntas de escritura, escucha y habla sobre los temas de la unidad</small>`}</span>
+        <span class="stitle"><b>${esc(s.title)}</b>${s.type==="lesson"?`<small>${esc(sy.units[ui].lessons[s.k].goal)}${sy.units[ui].lessons[s.k].reading!=null?" · incluye lectura":""}</small>`:`<small>Escritura (gramática y una redacción corta), escucha y habla sobre los temas de la unidad</small>`}</span>
         ${pill(s.key)}</button>`).join("")}</section>`).join("")}
-    <section class="unit final"><button class="srow final" data-key="${finKey(L)}"><span class="sday">Final</span><span class="stitle"><b>Examen final ${LV[L].k}</b><small>Examen largo y completo de todo el nivel: escritura, escucha, habla y redacción. Con ${sy.final.pass} % apruebas el nivel.</small></span>${pill(finKey(L))}</button></section>
+    <section class="unit final"><button class="srow final" data-key="${finKey(L)}"><span class="sday">Final</span><span class="stitle"><b>Examen final ${LV[L].k}</b><small>Una pregunta de cada una de las ${sylSteps(L).filter(s=>s.type==="lesson").length} lecciones, escucha de cada unidad, habla y redacción. Con ${sy.final.pass} % apruebas el nivel.</small></span>${pill(finKey(L))}</button></section>
     <h3 style="font-size:24px;margin:34px 0 14px">Recursos del nivel</h3>
     <div class="tiles">
       <button class="tile" style="background:#C9E6FF" id="tRead"><b>Lecturas</b><span>Escucha los textos, toca cada palabra para ver su significado y califica tu pronunciación.</span><small>${rs.length} lecturas</small></button>
@@ -1551,16 +1572,36 @@ function lessonView(L,u,k){
     passMsg:"¡Lección aprobada! Sigue con la siguiente.",
     next:nxt?{label:nxt.type==="lesson"?`Ir al día ${nxt.day}`:`Ir al ${nxt.title.toLowerCase()}`,go:()=>openStep(L,nxt)}:null});
 }
-function unitQuiz(L,u){const sy=SYL(L),key=uqKey(L,u),nxt=nextStepAfter(L,key);
-  runSet({L,title:`Quiz unidad ${u+1} · ${LV[L].k}`,items:sy.units[u].quiz,pass:PASS,save:(p,ok)=>saveProg(key,p,ok),again:()=>unitQuiz(L,u),
+function unitQuiz(L,u){const sy=SYL(L),key=uqKey(L,u),nxt=nextStepAfter(L,key),un=sy.units[u];
+  /* mismo formato en cada intento (escritura, redacción, escucha, habla) pero con preguntas distintas del banco de la unidad */
+  const pool=[...un.quiz,...(un.pool||[])],seen=seenGet(key),by=t=>pool.filter(x=>t.includes(x.t)),want=t=>un.quiz.filter(x=>t.includes(x.t)).length;
+  const items=[...pickFresh(by(["mc","fill"]),want(["mc","fill"]),seen),...pickFresh(by(["listen"]),want(["listen"]),seen),...pickFresh(by(["write"]),want(["write"]),seen),...pickFresh(by(["oral"]),want(["oral"]),seen)];
+  runSet({L,title:`Quiz unidad ${u+1} · ${LV[L].k}`,items,seenKey:key,pass:PASS,save:(p,ok)=>saveProg(key,p,ok),again:()=>unitQuiz(L,u),
     passMsg:`¡Aprobaste la unidad ${u+1}!`,next:nxt?{label:nxt.type==="lesson"?`Empezar día ${nxt.day}`:nxt.title,go:()=>openStep(L,nxt)}:null})}
 function finalExam(L){const sy=SYL(L),f=sy.final,key=finKey(L),shuf=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
-  const pool=sy.units.flatMap(u=>shuf(u.quiz.filter(x=>x.t!=="oral")).slice(0,f.fromEachUnit));
-  const items=[...shuf([...pool,...f.extra.filter(x=>x.t==="mc"||x.t==="fill"||x.t==="listen")]),...f.extra.filter(x=>x.t==="oral"),...f.extra.filter(x=>x.t==="write")];
-  runSet({L,title:`Examen final ${LV[L].k}`,items,pass:f.pass,save:(p,ok)=>saveProg(key,p,ok),again:()=>finalExam(L),
+  /* una pregunta por cada lección (así el examen cubre todos los temas), una escucha por unidad, habla y redacción al final */
+  /* cada lección tiene dos versiones de su pregunta; se usa la que no salió en el intento anterior */
+  const seen=seenGet(key);let day=0;
+  const perLesson=sy.units.flatMap((u,ui)=>u.lessons.map((l,k)=>({...pickFresh([l.exam,l.exam2].filter(Boolean),1,seen)[0],_topic:`Día ${++day} · ${l.title}`,_ref:`${ui}-${k}`,_unit:ui})));
+  const listens=sy.units.flatMap((u,ui)=>pickFresh([...u.quiz,...(u.pool||[])].filter(x=>x.t==="listen"),f.listenPerUnit||1,seen).map(x=>({...x,_topic:`Unidad ${ui+1} · escucha`,_unit:ui})));
+  const allU=sy.units.flatMap(u=>[...u.quiz,...(u.pool||[])]),nOral=f.extra.filter(x=>x.t==="oral").length||2;
+  const extraL=pickFresh([...f.extra.filter(x=>x.t==="listen"),...allU.filter(x=>x.t==="listen"&&!listens.some(l=>itemId(l)===itemId(x)))],2,seen).map(x=>({...x,_topic:"Escucha general"}));
+  const orals=pickFresh([...f.extra,...allU].filter(x=>x.t==="oral"),nOral+1,seen).map(x=>({...x,_topic:"Habla"}));
+  const write=pickFresh([...f.extra,...allU].filter(x=>x.t==="write"),1,seen).map(x=>({...x,min:Math.max(x.min||0,30),_topic:"Redacción"}));
+  const items=[...shuf([...perLesson,...listens,...extraL]),...orals,...write];
+  runSet({L,title:`Examen final ${LV[L].k}`,items,seenKey:key,pass:f.pass,topics:true,save:(p,ok)=>saveProg(key,p,ok),again:()=>finalExam(L),
     passMsg:L<5?`¡Felicitaciones! Aprobaste ${LV[L].k}. Ya puedes pasar a ${LV[L+1].k}.`:"¡Felicitaciones! Completaste la ruta.",
-    failMsg:`Necesitas ${f.pass} % para aprobar ${LV[L].k}. Revisa las correcciones, repasa las lecciones donde fallaste y vuelve a intentarlo.`,
+    failMsg:`Necesitas ${f.pass} % para aprobar ${LV[L].k}. Mira abajo los temas donde fallaste, repasa esas lecciones y vuelve a intentarlo.`,
     next:L<5?{label:`Ir al nivel ${LV[L+1].k}`,go:()=>openLevel(L+1)}:null})}
+function topicReport(){
+  const sy=SYL(Q.L);if(!sy)return"";
+  const rows=sy.units.map((u,ui)=>{const its=Q.ans.filter(a=>a.it._unit===ui),p=its.length?Math.round(its.reduce((s,a)=>s+a.pts,0)/its.length*100):null;
+    const les=Q.ans.filter(a=>a.it._ref&&a.it._unit===ui).sort((x,y)=>+x.it._ref.split("-")[1]-+y.it._ref.split("-")[1]);
+    return `<div class="unit" style="margin:0"><div class="unit-h"><b>Unidad ${ui+1}</b><span>${esc(u.title)}</span><small>${p!=null?p+" %":""}</small></div>
+      ${les.map(a=>`<div class="srow" style="cursor:default;grid-template-columns:28px minmax(0,1fr) auto"><span style="font-weight:800;color:${a.pts>=1?"var(--ok)":"var(--coral)"}">${a.pts>=1?"✓":"✗"}</span><span class="stitle"><b>${esc(a.it._topic)}</b></span>${a.pts>=1?"":`<button class="chip" data-rep="${a.it._ref}">Repasar</button>`}</div>`).join("")}</div>`}).join("");
+  const weak=Q.ans.filter(a=>a.it._ref&&a.pts<1).length;
+  return `<h3 style="font-size:20px;margin:26px 0 6px">Resultado por tema</h3><p class="note" style="margin:0 0 12px">${weak?`Tienes ${weak} ${weak===1?"tema":"temas"} para repasar.`:"Respondiste bien todos los temas del nivel."}</p><div style="display:grid;gap:12px">${rows}</div>`;
+}
 
 renderWho();
 renderResults();
