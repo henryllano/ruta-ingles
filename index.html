@@ -247,6 +247,34 @@ footer b{color:#fff}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--mute);margin-top:12px}
 .legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
 
+/* temario */
+.unit{border:1px solid var(--line);border-radius:10px;margin-bottom:14px;overflow:hidden}
+.unit-h{display:flex;gap:10px;align-items:baseline;padding:14px 18px;background:var(--soft);flex-wrap:wrap}
+.unit-h b{font-family:var(--f-display);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--coral)}
+.unit-h span{font-family:var(--f-display);font-weight:700;font-size:18px}
+.unit-h small{margin-left:auto;font-weight:800;color:var(--mute)}
+.srow{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:14px;align-items:center;width:100%;padding:14px 18px;border-top:1px solid var(--line)}
+.srow:hover{background:var(--soft)}
+.srow:focus-visible{outline:3px solid var(--sky);outline-offset:-3px}
+.srow .sday{font-family:var(--f-display);font-weight:800;font-size:13px;color:var(--mute)}
+.srow.uquiz .sday,.srow.final .sday{color:var(--coral)}
+.srow .stitle b{display:block}
+.srow .stitle small{color:var(--mute);font-size:13px}
+.unit.final{border:2px solid var(--sun)}
+.unit.final .srow{border-top:0}
+@media (max-width:560px){.srow{grid-template-columns:48px minmax(0,1fr)}.srow .pill{grid-column:2}}
+.lsec{margin-top:30px}
+.lsec h3{display:flex;align-items:center;gap:10px;font-size:21px;margin-bottom:12px}
+.lsec h3 span{width:30px;height:30px;border-radius:50%;background:var(--sun);color:#1A2238;display:grid;place-items:center;font-size:14px}
+.lsec p{max-width:65ch}
+.extable{border:1px solid var(--line);border-radius:8px;overflow:hidden;margin:12px 0}
+.exrow{display:grid;grid-template-columns:32px minmax(0,1fr) minmax(0,1fr);gap:12px;align-items:center;padding:10px 14px;border-top:1px solid var(--line)}
+.exrow:first-child{border-top:0}
+.exrow span:nth-child(2){font-weight:700}
+.exrow span:nth-child(3){color:var(--mute)}
+@media (max-width:560px){.exrow{grid-template-columns:32px minmax(0,1fr)}.exrow span:nth-child(3){grid-column:2}}
+.tipbox{background:rgba(255,184,0,.14);border-left:5px solid var(--sun);border-radius:6px;padding:12px 16px;margin:12px 0}
+
 /* examen: presentación */
 .skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 @media (max-width:760px){.skills{grid-template-columns:1fr}}
@@ -496,9 +524,10 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="vocab.js"></script>
-<script src="readings.js"></script>
-<script src="dict.js"></script>
+<script src="vocab.js?v=202610211135"></script>
+<script src="readings.js?v=202610211135"></script>
+<script src="dict.js?v=202610211135"></script>
+<script src="lessons.js?v=202610211135"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -594,7 +623,9 @@ const cards=LV.map((l,i)=>{
     <div class="vz"><span class="qstat vstat"></span><button class="btn-v">Vocabulario</button></div>
     <div class="qz"><span class="qstat"></span><button class="btn-q">Hacer quiz</button></div>
     <div class="foot"><span class="hrs"></span><button class="pick">Fijar meta →</button></div></div>`;
-  c.querySelector(".btn-q").onclick=()=>openQuiz(i);
+  c.querySelector(".btn-q").onclick=()=>SYL(i)?openLevel(i):openQuiz(i);
+  c.querySelector(".pic").onclick=e=>{if(!e.target.closest(".swap"))openLevel(i)};c.querySelector(".pic").style.cursor="pointer";
+  c.querySelector("h3").onclick=()=>openLevel(i);c.querySelector("h3").style.cursor="pointer";
   c.querySelector(".btn-v").onclick=()=>openVocab(i);
   c.querySelector(".enter").onclick=()=>openLevel(i);
   c.querySelector(".pick").onclick=()=>{S.target=i;render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})};
@@ -632,6 +663,8 @@ function render(){
     c.querySelector(".vstat").innerHTML=`Vocabulario · <b>${vl}</b>/${vt} aprendidas`;
     const st=curStudent(),q=st&&st.quiz&&st.quiz[i],un=unlocked(i),qb=c.querySelector(".btn-q"),qs=c.querySelector(".qz .qstat");
     qb.disabled=!un;qb.textContent=q&&q.passed?"Repetir quiz":q?"Reintentar":"Hacer quiz";
+    if(SYL(i)){const ls=sylSteps(i).filter(x=>x.type==="lesson"),dn=ls.filter(x=>isDone(x.key)).length,fp=getProg(finKey(i));
+      qb.textContent="Ver temario";qs.className="qstat"+(fp&&fp.passed?" ok":"");qs.innerHTML=fp&&fp.passed?`${ICON_OK} Nivel aprobado · ${fp.best} %`:`Temario: <b style="color:var(--ink)">${dn}/${ls.length}</b> lecciones`;c.classList.toggle("locked",!un);return}
     qs.className="qstat"+(q&&q.passed?" ok":"");
     qs.innerHTML=q&&q.passed?`${ICON_OK} Aprobado · ${q.best} %`:!un?`${ICON_LOCK} Aprueba ${LV[i-1].k} para abrir`:q?`Último: ${q.last} % · necesitas 70 %`:"Quiz disponible";
     c.classList.toggle("locked",!un);
@@ -968,7 +1001,7 @@ function ensureStudent(name,email){const db=loadDB(),id=email?email.toLowerCase(
   st.name=name;if(email){st.email=email}st.quiz=st.quiz||{};saveDB(db);S.student=st.id;save();renderWho();return st}
 /* bloqueo progresivo de niveles: apagado mientras se revisa el contenido; cambiar a true para exigir aprobar el anterior */
 const LOCK_LEVELS=false;
-function unlocked(i){if(i===0||!LOCK_LEVELS)return true;const st=curStudent();return !!(st&&st.quiz&&st.quiz[i-1]&&st.quiz[i-1].passed)}
+function unlocked(i){if(i===0||!LOCK_LEVELS)return true;const st=curStudent();return !!(st&&((st.quiz&&st.quiz[i-1]&&st.quiz[i-1].passed)||(st.prog&&st.prog[(i-1)+"-final"]&&st.prog[(i-1)+"-final"].passed)))}
 function renderWho(){const st=curStudent(),b=$("whoBtn");
   b.innerHTML=st?`<b>${esc(st.name.trim()[0].toUpperCase())}</b><span>${esc(st.name.split(" ")[0])} · Cambiar</span>`:`<b>+</b><span>Registrarme</span>`;
   b.setAttribute("aria-label",st?`Estudiando como ${st.name}. Cambiar de persona`:"Registrarme")}
@@ -1064,30 +1097,48 @@ const QZ=[
 ];
 const PASS=70;
 let Q=null;
-function openQuiz(L){if(!unlocked(L))return;if(LVBACK!==L)LVBACK=null;OV="quiz";Q={L,i:0,sel:null,plays:0,typed:"",said:"",err:null,noMic:false,ans:[],done:false};
-  exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
-  if(!curStudent()||!curStudent().email)whoView(()=>{if(unlocked(L))qRender();else closeExam()});else qRender()}
+/* progreso genérico por clave: lecciones, quizzes de unidad, examen final */
+function getProg(key){const st=curStudent();return st&&st.prog&&st.prog[key]||null}
+function saveProg(key,pct,passed){const db=loadDB(),st=db.find(s=>s.id===S.student);if(!st)return;st.prog=st.prog||{};const p=st.prog[key]||{};
+  st.prog[key]={best:Math.max(pct,p.best||0),last:pct,passed:!!p.passed||passed,tries:(p.tries||0)+1,date:Date.now()};saveDB(db)}
+/* quiz de 10 preguntas de los niveles que aún no tienen temario */
+function openQuiz(L){
+  runSet({L,title:`Quiz ${LV[L].k}`,items:QZ[L],pass:PASS,
+    save:(pct,passed)=>{const db=loadDB(),st=db.find(s=>s.id===S.student);if(st){st.quiz=st.quiz||{};const p=st.quiz[L]||{};st.quiz[L]={best:Math.max(pct,p.best||0),last:pct,passed:!!p.passed||passed,tries:(p.tries||0)+1,date:Date.now()};saveDB(db)}},
+    again:()=>openQuiz(L)});
+}
+function runSet(cfg){
+  if(!unlocked(cfg.L))return;if(LVBACK!==cfg.L)LVBACK=null;OV="quiz";
+  Q={cfg,L:cfg.L,items:cfg.items,i:0,sel:null,plays:0,typed:"",said:"",err:null,noMic:false,ans:[],done:false};
+  exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);body.style.maxWidth="";
+  if(!curStudent()||!curStudent().email)whoView(()=>qRender());else qRender();
+}
 function qRender(){
-  const L=LV[Q.L];
-  $("exSteps").innerHTML=`<span class="on">Quiz ${L.k}</span>`+(Q.done?`<span class="done">Resultado</span>`:`<span>Pregunta ${Q.i+1} de 10</span>`);addBack();
+  const L=LV[Q.L],n=Q.items.length;
+  $("exSteps").innerHTML=`<span class="on">${esc(Q.cfg.title)}</span>`+(Q.done?`<span class="done">Resultado</span>`:`<span>Pregunta ${Q.i+1} de ${n}</span>`);addBack();
   exam.scrollTop=0;
   if(Q.done)return qResult();
-  const it=QZ[Q.L][Q.i],tts="speechSynthesis" in window;
-  const label={mc:"Escrito · elige la opción",fill:"Escrito · completa la frase",listen:"Escucha y responde",oral:"Oral · lee en voz alta"}[it.t];
-  let h=`<div class="progress"><i style="width:${Q.i*10}%"></i></div><div class="qmeta"><span>${label}</span><span>${L.k} · ${L.name}</span></div>`;
+  const it=Q.items[Q.i],tts="speechSynthesis" in window;
+  const label={mc:"Escrito · elige la opción",fill:"Escrito · completa la frase",listen:"Escucha y responde",oral:"Oral · dilo en voz alta",write:"Escritura · redacción"}[it.t];
+  let h=`<div class="progress"><i style="width:${Q.i/n*100}%"></i></div><div class="qmeta"><span>${label}</span><span>${L.k} · ${L.name}</span></div>`;
   if(it.t==="listen")h+=`<button class="play" id="play" ${Q.plays>=2?"disabled":""}><b>${ICON_PLAY}</b><span>${Q.plays?"Escuchar otra vez":"Escuchar audio"}<small>${2-Q.plays} reproducciones disponibles</small></span></button>${tts?"":`<div class="warn">Este navegador no tiene voz en inglés. Texto: “${esc(it.say)}”</div>`}`;
-  if(it.t==="mc"||it.t==="listen")h+=`<p class="qtext">${esc(it.q).replace("___",'<span class="blank"></span>')}</p><div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${Q.sel===i}" data-i="${i}"><i>${"ABC"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>`;
+  if(it.t==="mc"||it.t==="listen")h+=`<p class="qtext">${esc(it.q).replace("___",'<span class="blank"></span>')}</p><div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${Q.sel===i}" data-i="${i}"><i>${"ABCD"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>`;
   if(it.t==="fill")h+=`<p class="qtext">${esc(it.q).replace("___",'<span class="blank"></span>')}</p><label for="fillIn" class="note">Escribe la palabra que falta</label><br><input class="fillin" id="fillIn" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(Q.typed)}">`;
-  if(it.t==="oral")h+=`<p class="say">${esc(it.text)}</p><button class="rec" id="recBtn"><span class="dot"></span><span id="recLbl">${Q.said?"Grabar otra vez":"Grabar"}</span></button>
+  if(it.t==="write")h+=`<p class="qtext">${esc(it.q)}</p><textarea id="wrIn" style="min-height:200px;font-family:var(--f-body);font-size:16px" placeholder="My name is…">${esc(Q.typed)}</textarea><div class="wc" id="wrWc"></div>`;
+  if(it.t==="oral")h+=`<p class="say">${esc(it.text)}</p><button class="vplay" id="oralHear" style="width:auto;height:auto;border-radius:999px;padding:8px 16px;font-weight:800;gap:8px;display:inline-flex;margin-bottom:14px">${ICON_SPK}<span>Escuchar cómo se dice</span></button><br>
+    <button class="rec" id="recBtn"><span class="dot"></span><span id="recLbl">${Q.said?"Grabar otra vez":"Grabar"}</span></button>
     <div class="transcript ${Q.said?"has":""}" id="tr">${Q.said?esc(Q.said):"Lo que digas aparecerá aquí."}</div>
     ${Q.err?`<div class="warn">${Q.err==="not-allowed"?"El micrófono está bloqueado. En Chrome, toca el candado de la barra de direcciones y permite el micrófono. En la vista previa de Claude el micrófono no funciona.":Q.err==="unsupported"?"Este navegador no reconoce voz. Usa Google Chrome o Microsoft Edge.":"No te escuchamos. Acércate al micrófono e intenta otra vez."}</div>`:""}`;
-  const ready=it.t==="fill"?Q.typed.trim():it.t==="oral"?(Q.said||Q.noMic):Q.sel!=null;
-  h+=`<div class="ex-actions">${it.t==="oral"?`<button class="linkbtn" id="noMic">No puedo usar el micrófono (cuenta 0)</button>`:`<span class="note">Necesitas ${PASS} % para aprobar.</span>`}<button class="btn sun" id="next" ${ready?"":"disabled"}>${Q.i===9?"Ver resultado":"Siguiente"}</button></div>`;
+  const words=t=>norm(t).length;
+  const ready=it.t==="fill"?Q.typed.trim():it.t==="write"?words(Q.typed)>=15:it.t==="oral"?(Q.said||Q.noMic):Q.sel!=null;
+  h+=`<div class="ex-actions">${it.t==="oral"?`<button class="linkbtn" id="noMic">No puedo usar el micrófono (cuenta 0)</button>`:`<span class="note">Necesitas ${Q.cfg.pass} % para aprobar.</span>`}<button class="btn sun" id="next" ${ready?"":"disabled"}>${Q.i===n-1?"Ver resultado":"Siguiente"}</button></div>`;
   body.innerHTML=h;
   if(it.t==="listen"&&tts)$("play").onclick=()=>{Q.plays++;speakTTS(it.say);qRender()};
   body.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{Q.sel=+b.dataset.i;qRender();body.querySelector(`.opt[data-i="${Q.sel}"]`).focus()});
   if(it.t==="fill"){const f=$("fillIn");f.focus();f.oninput=()=>{Q.typed=f.value;$("next").disabled=!f.value.trim()};f.onkeydown=e=>{if(e.key==="Enter"&&f.value.trim())$("next").click()}}
+  if(it.t==="write"){const f=$("wrIn"),u=()=>{Q.typed=f.value;const c=words(f.value);$("wrWc").textContent=`${c} palabras · mínimo 15`;$("next").disabled=c<15};f.oninput=u;u();f.focus()}
   if(it.t==="oral"){
+    $("oralHear").onclick=()=>speakTTS(it.text);
     $("noMic").onclick=()=>{stopRec();Q.noMic=true;Q.said="";qNext()};
     $("recBtn").onclick=()=>{
       const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
@@ -1106,40 +1157,38 @@ function qRender(){
 }
 function qNext(){
   stopRec();try{speechSynthesis.cancel()}catch(e){}
-  const it=QZ[Q.L][Q.i];let pts=0,given="";
+  const it=Q.items[Q.i];let pts=0,given="",acc=null;
   if(it.t==="mc"||it.t==="listen"){pts=Q.sel===it.a?1:0;given=it.o[Q.sel]}
   if(it.t==="fill"){const v=Q.typed.trim().toLowerCase().replace(/[.!?]+$/,"").replace(/\s+/g," ");pts=it.ans.includes(v)?1:0;given=Q.typed.trim()}
-  if(it.t==="oral"){const a=Q.said?wordAcc(it.text,Q.said):0;pts=a>=.85?1:a>=.6?.5:0;given=Q.said||"(sin grabación)";it._acc=Math.round(a*100)}
-  Q.ans.push({it,pts,given,acc:it._acc});
+  if(it.t==="write"){const tp=textPoints(Q.typed);pts=Math.min(1,tp/(100*(Q.L+1)));given=Q.typed.trim();acc=Math.round(pts*100)}
+  if(it.t==="oral"){const a=Q.said?wordAcc(it.text,Q.said):0;pts=a>=.85?1:a>=.6?.5:0;given=Q.said||"(sin grabación)";acc=Math.round(a*100)}
+  Q.ans.push({it,pts,given,acc});
   Q.i++;Q.sel=null;Q.plays=0;Q.typed="";Q.said="";Q.err=null;Q.noMic=false;
-  if(Q.i>=10){
-    Q.done=true;Q.pct=Math.round(Q.ans.reduce((s,a)=>s+a.pts,0)*10);Q.passed=Q.pct>=PASS;
-    const db=loadDB(),st=db.find(s=>s.id===S.student);
-    if(st){st.quiz=st.quiz||{};const p=st.quiz[Q.L]||{};st.quiz[Q.L]={best:Math.max(Q.pct,p.best||0),last:Q.pct,passed:!!p.passed||Q.passed,tries:(p.tries||0)+1,date:Date.now()};saveDB(db)}
-    render();renderResults();
+  if(Q.i>=Q.items.length){
+    Q.done=true;Q.pct=Math.round(Q.ans.reduce((s,a)=>s+a.pts,0)/Q.items.length*100);Q.passed=Q.pct>=Q.cfg.pass;
+    Q.cfg.save(Q.pct,Q.passed);render();renderResults();
   }
   qRender();
 }
 function qResult(){
-  const L=LV[Q.L],next=LV[Q.L+1];
-  const msg=Q.passed?(next?`¡Aprobaste! Ya puedes presentar el quiz de ${next.k}.`:"¡Aprobaste el último nivel! Completaste la ruta hasta C2.")
-    :`Necesitas ${PASS} % para aprobar y desbloquear ${next?next.k:"el siguiente nivel"}. Repasa las correcciones y vuelve a intentarlo.`;
-  const right=a=>a.it.t==="oral"?a.it.text:a.it.t==="fill"?a.it.ans[0]:a.it.o[a.it.a];
-  const kind={mc:"Escrito",fill:"Escrito",listen:"Escucha",oral:"Oral"};
-  const sk=(types,name,c)=>{const a=Q.ans.filter(x=>types.includes(x.it.t)),p=Math.round(a.reduce((s,x)=>s+x.pts,0)/a.length*100);
-    return `<div class="sbar"><div class="shead"><span>${name} <small style="color:var(--mute);font-weight:600">(${a.length} preguntas)</small></span><span>${p} %</span></div><div class="tr"><i style="width:${p}%;background:${c}"></i></div></div>`};
-  body.innerHTML=`<div class="result"><div class="rwho">Quiz ${L.k} · ${esc(curStudent()?curStudent().name:"")}</div><div class="lv">${Q.pct} <span>%</span></div><p>${msg}</p></div>
-    <div class="sbars">${sk(["mc","fill"],"Escritura","var(--sun)")}${sk(["listen"],"Escucha","var(--sky)")}${sk(["oral"],"Habla","var(--coral)")}</div>
+  const c=Q.cfg;
+  const msg=Q.passed?(c.passMsg||"¡Aprobaste!"):(c.failMsg||`Necesitas ${c.pass} % para aprobar. Repasa las correcciones y vuelve a intentarlo.`);
+  const right=a=>a.it.t==="oral"?a.it.text:a.it.t==="fill"?a.it.ans[0]:a.it.t==="write"?"(texto libre)":a.it.o[a.it.a];
+  const kind={mc:"Escrito",fill:"Escrito",listen:"Escucha",oral:"Oral",write:"Redacción"};
+  const sk=(types,name,col)=>{const a=Q.ans.filter(x=>types.includes(x.it.t));if(!a.length)return"";const p=Math.round(a.reduce((s,x)=>s+x.pts,0)/a.length*100);
+    return `<div class="sbar"><div class="shead"><span>${name} <small style="color:var(--mute);font-weight:600">(${a.length} ${a.length===1?"pregunta":"preguntas"})</small></span><span>${p} %</span></div><div class="tr"><i style="width:${p}%;background:${col}"></i></div></div>`};
+  body.innerHTML=`<div class="result"><div class="rwho">${esc(c.title)} · ${esc(curStudent()?curStudent().name:"")}</div><div class="lv">${Q.pct} <span>%</span></div><p>${msg}</p></div>
+    <div class="sbars">${sk(["mc","fill"],"Escritura","var(--sun)")}${sk(["write"],"Redacción","var(--mint)")}${sk(["listen"],"Escucha","var(--sky)")}${sk(["oral"],"Habla","var(--coral)")}</div>
     <ul class="review">${Q.ans.map(a=>`<li class="${a.pts===1?"ok":a.pts>0?"half":""}">
-      <div class="rq"><span class="tagline">${kind[a.it.t]}</span>${esc(a.it.t==="oral"?"Lectura en voz alta":a.it.q)}</div>
-      <div>Tu respuesta: <b>${esc(a.given||"—")}</b>${a.it.t==="oral"&&a.acc!=null&&a.given!=="(sin grabación)"?` · ${a.acc} % de palabras correctas`:""}</div>
-      ${a.pts<1?`<div>Correcta: <b>${esc(right(a))}</b></div>`:""}
+      <div class="rq"><span class="tagline">${kind[a.it.t]}</span>${esc(a.it.t==="oral"?"Decir en voz alta: “"+a.it.text+"”":a.it.q)}</div>
+      <div>Tu respuesta: <b>${esc(a.given||"—")}</b>${a.it.t==="oral"&&a.acc!=null&&a.given!=="(sin grabación)"?` · ${a.acc} % de palabras correctas`:""}${a.it.t==="write"?` · ${a.acc} % (estimación automática)`:""}</div>
+      ${a.pts<1&&a.it.t!=="write"?`<div>Correcta: <b>${esc(right(a))}</b></div>`:""}
       ${a.it.x&&a.pts<1?`<div class="rx">${esc(a.it.x)}</div>`:""}
       ${a.it.t==="listen"&&a.pts<1?`<div class="rx">El audio decía: “${esc(a.it.say)}”</div>`:""}</li>`).join("")}</ul>
-    <div class="ex-actions"><button class="btn dark" id="qAgain">Repetir quiz</button>${Q.passed&&next?`<button class="btn sun" id="qNextLv">Ir al quiz de ${next.k}</button>`:`<button class="btn sun" id="qBack">Volver a los niveles</button>`}</div>`;
-  $("qAgain").onclick=()=>openQuiz(Q.L);
-  if($("qNextLv"))$("qNextLv").onclick=()=>openQuiz(Q.L+1);
-  if($("qBack"))$("qBack").onclick=()=>{closeExam();$("niveles").scrollIntoView({behavior:reduce?"auto":"smooth"})};
+    <div class="ex-actions"><button class="btn dark" id="qAgain">Repetir</button>${Q.passed&&c.next?`<button class="btn sun" id="qNextB">${esc(c.next.label)}</button>`:`<button class="btn sun" id="qBack">${LVBACK!=null?"Volver al temario":"Volver a los niveles"}</button>`}</div>`;
+  $("qAgain").onclick=c.again;
+  if($("qNextB"))$("qNextB").onclick=c.next.go;
+  if($("qBack"))$("qBack").onclick=()=>{if(LVBACK!=null)openLevel(LVBACK);else{closeExam();$("niveles").scrollIntoView({behavior:reduce?"auto":"smooth"})}};
 }
 
 /* ================= vocabulario por nivel ================= */
@@ -1216,18 +1265,20 @@ function openLevel(L){OV="level";LVBACK=L;exam.hidden=false;document.body.style.
   if(!curStudent())whoView(()=>lvHome(L));else lvHome(L)}
 function lvHome(L){
   const l=LV[L],st=curStudent(),q=st&&st.quiz&&st.quiz[L],rs=(window.READINGS||[])[L]||[],rd=rs.filter((r,i)=>readBest(L,i)!=null).length;
-  body.style.maxWidth="1000px";exam.scrollTop=0;
+  OV="level";stopReader();body.style.maxWidth="1000px";exam.scrollTop=0;
   $("exSteps").innerHTML=`<span class="on">Nivel ${l.k}</span><span>${l.name}</span>`;
   const img=IMG["lv"+L];
-  body.innerHTML=`<div class="lvhero">${img?`<img src="${img[0]}" alt="">`:""}<div><div class="eyebrow" style="color:var(--sun)">Nivel ${l.k} · ${hrs(l)} h acumuladas</div><h2>${l.name}</h2><p>${l.can}</p></div></div>
+  const hero=`<div class="lvhero">${img?`<img src="${img[0]}" alt="">`:""}<div><div class="eyebrow" style="color:var(--sun)">Nivel ${l.k} · ${hrs(l)} h acumuladas</div><h2>${l.name}</h2><p>${l.can}</p></div></div>`;
+  if(SYL(L)){body.innerHTML=hero+sylLevelHome(L);bindSylHome(L)}
+  else{body.innerHTML=hero+`<div class="tipbox" style="margin-bottom:22px"><b>Temario en preparación.</b> Mientras tanto puedes usar las lecturas, el vocabulario y el quiz de este nivel.</div>
     <div class="tiles">
       <button class="tile" style="background:#C9E6FF" id="tRead"><b>Lecturas</b><span>Escucha cada texto, toca las palabras para ver su significado y practica tu pronunciación.</span><small>${rs.length} lecturas · ${rd} leídas en voz alta</small></button>
       <button class="tile" style="background:#FFE7A3" id="tVoc"><b>Vocabulario</b><span>Palabras esenciales por categoría con significado, ejemplo y audio.</span><small>${learnedSet(L).size} de ${vocabOf(L).length} aprendidas</small></button>
       <button class="tile" style="background:#FFD3CC" id="tQuiz"><b>Quiz</b><span>10 preguntas de escritura, escucha y habla. Se aprueba con 70 %.</span><small>${q?(q.passed?`Aprobado · ${q.best} %`:`Último intento: ${q.last} %`):"Sin presentar"}</small></button>
     </div>`;
+    $("tQuiz").onclick=()=>openQuiz(L)}
   $("tRead").onclick=()=>readList(L);
   $("tVoc").onclick=()=>{body.style.maxWidth="";openVocab(L)};
-  $("tQuiz").onclick=()=>{body.style.maxWidth="";openQuiz(L)};
 }
 
 /* ================= lecturas ================= */
@@ -1359,6 +1410,83 @@ function finishReadAloud(){
     <p class="note" style="margin-top:14px">El puntaje mide qué tanto reconoció Chrome lo que dijiste. Habla claro, a ritmo normal y sin ruido de fondo.</p></div>`;
   if($("rBad"))$("rBad").onclick=e=>{const c=e.target.closest(".chip");if(c)speakTTS(c.dataset.w)};
 }
+
+/* ================= temario por nivel ================= */
+const SYL=L=>(window.SYLLABUS||{})[L]||null;
+const lesKey=(L,u,k)=>`${L}-${u}-${k}`,uqKey=(L,u)=>`${L}-${u}-q`,finKey=L=>`${L}-final`;
+/* orden de estudio: lecciones de cada unidad, su quiz, y al final el examen */
+function sylSteps(L){const sy=SYL(L);if(!sy)return[];const out=[];let d=0;
+  sy.units.forEach((u,ui)=>{u.lessons.forEach((l,k)=>out.push({type:"lesson",u:ui,k,day:++d,key:lesKey(L,ui,k),title:l.title}));out.push({type:"uquiz",u:ui,key:uqKey(L,ui),title:`Quiz de la unidad ${ui+1}`})});
+  out.push({type:"final",key:finKey(L),title:`Examen final ${LV[L].k}`});return out}
+const isDone=k=>{const p=getProg(k);return!!(p&&p.passed)};
+function openStep(L,s){if(s.type==="lesson")lessonView(L,s.u,s.k);else if(s.type==="uquiz")unitQuiz(L,s.u);else finalExam(L)}
+function nextStepAfter(L,key){const st=sylSteps(L),i=st.findIndex(s=>s.key===key);return st[i+1]||null}
+function sylLevelHome(L){
+  const sy=SYL(L),steps=sylSteps(L),lessons=steps.filter(s=>s.type==="lesson"),done=lessons.filter(s=>isDone(s.key)).length;
+  const nxt=steps.find(s=>!isDone(s.key))||steps[steps.length-1];
+  const pill=k=>{const p=getProg(k);return p?(p.passed?`<span class="pill" style="background:rgba(45,212,160,.18);color:var(--ok)">✓ ${p.best} %</span>`:`<span class="pill">${p.last} % · repetir</span>`):`<span class="pill">Pendiente</span>`};
+  const rs=(window.READINGS||[])[L]||[];
+  return `<div class="sbar" style="margin-bottom:18px"><div class="shead"><span>Tu avance en ${LV[L].k}</span><span>${done} de ${lessons.length} lecciones</span></div><div class="tr"><i style="width:${done/lessons.length*100}%;background:var(--ok)"></i></div></div>
+    <div class="examcta" style="margin:0 0 26px"><button class="btn sun" id="goNext">${isDone(nxt.key)?"Repasar":"Continuar"}: ${nxt.day?`Día ${nxt.day} · `:""}${esc(nxt.title)}</button><span class="note">${esc(sy.intro)}</span></div>
+    <h3 style="font-size:24px;margin-bottom:14px">Temario</h3>
+    ${sy.units.map((u,ui)=>`<section class="unit"><div class="unit-h"><b>Unidad ${ui+1}</b><span>${esc(u.title)}</span><small>${u.lessons.filter((x,k)=>isDone(lesKey(L,ui,k))).length}/${u.lessons.length}</small></div>
+      ${steps.filter(s=>s.u===ui).map(s=>`<button class="srow ${s.type}" data-key="${s.key}">
+        <span class="sday">${s.type==="lesson"?`Día ${s.day}`:"Quiz"}</span>
+        <span class="stitle"><b>${esc(s.title)}</b>${s.type==="lesson"?`<small>${esc(sy.units[ui].lessons[s.k].goal)}${sy.units[ui].lessons[s.k].reading!=null?" · incluye lectura":""}</small>`:`<small>10 preguntas de escritura, escucha y habla sobre los temas de la unidad</small>`}</span>
+        ${pill(s.key)}</button>`).join("")}</section>`).join("")}
+    <section class="unit final"><button class="srow final" data-key="${finKey(L)}"><span class="sday">Final</span><span class="stitle"><b>Examen final ${LV[L].k}</b><small>Examen largo y completo de todo el nivel: escritura, escucha, habla y redacción. Con ${sy.final.pass} % apruebas el nivel.</small></span>${pill(finKey(L))}</button></section>
+    <h3 style="font-size:24px;margin:34px 0 14px">Recursos del nivel</h3>
+    <div class="tiles">
+      <button class="tile" style="background:#C9E6FF" id="tRead"><b>Lecturas</b><span>Escucha los textos, toca cada palabra para ver su significado y califica tu pronunciación.</span><small>${rs.length} lecturas</small></button>
+      <button class="tile" style="background:#FFE7A3" id="tVoc"><b>Vocabulario</b><span>Todas las palabras del nivel por categoría, con audio y tarjetas.</span><small>${learnedSet(L).size} de ${vocabOf(L).length} aprendidas</small></button>
+    </div>`;
+}
+function bindSylHome(L){
+  const steps=sylSteps(L),nxt=steps.find(s=>!isDone(s.key))||steps[steps.length-1];
+  $("goNext").onclick=()=>openStep(L,nxt);
+  body.querySelectorAll(".srow").forEach(b=>b.onclick=()=>openStep(L,steps.find(s=>s.key===b.dataset.key)));
+}
+const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
+function wordInfo(w){const k=w.toLowerCase();for(let L=0;L<6;L++){const v=vocabOf(L).find(x=>x.w.toLowerCase()===k);if(v)return{w:v.w,pos:v.cat.replace(/s$/,"").replace(/e$/,"e"),m:v.m,e:v.e}}const d=dictLookup(w);return d?{w,pos:d.pos,m:d.m,e:d.e}:{w,pos:"",m:"",e:""}}
+function lessonView(L,u,k){
+  OV="level";stopReader();const sy=SYL(L),les=sy.units[u].lessons[k],steps=sylSteps(L),me=steps.find(s=>s.key===lesKey(L,u,k)),i=steps.indexOf(me);
+  const prev=steps.slice(0,i).reverse().find(s=>s.type==="lesson"),nxt=steps[i+1];
+  body.style.maxWidth="900px";exam.scrollTop=0;
+  $("exSteps").innerHTML=`<span class="on">Día ${me.day} · ${LV[L].k}</span><span>Unidad ${u+1}</span>`;addBack();
+  const p=getProg(me.key);
+  body.innerHTML=`<div class="eyebrow">Unidad ${u+1} · ${esc(sy.units[u].title)} · Día ${me.day}</div>
+    <h2 style="margin-top:6px">${esc(les.title)}</h2><p class="lead"><b>Objetivo:</b> ${esc(les.goal)}</p>
+    <section class="lsec"><h3><span>1</span>Explicación</h3>
+      ${les.theory.map(b=>b.p?`<p>${md(b.p)}</p>`:b.tip?`<div class="tipbox"><b>Ojo:</b> ${md(b.tip)}</div>`:b.ex?`<div class="extable">${b.ex.map(([en,es])=>`<div class="exrow"><button class="vplay" data-say="${esc(en)}" aria-label="Escuchar">${ICON_SPK}</button><span lang="en">${esc(en)}</span><span>${esc(es)}</span></div>`).join("")}</div>`:"").join("")}
+    </section>
+    <section class="lsec"><h3><span>2</span>Vocabulario del día</h3>
+      <div class="vgrid">${les.words.map(w=>{const x=wordInfo(w);return `<article class="vw"><div class="vt"><b lang="en">${esc(x.w)}</b><button class="vplay" data-say="${esc(x.w+(x.e?". "+x.e:""))}" aria-label="Escuchar">${ICON_SPK}</button></div>${x.pos?`<span class="pos" style="font-size:11px;font-weight:800;color:var(--mute)">${esc(x.pos)}</span>`:""}<div class="vm">${esc(x.m)}</div><p class="ve" lang="en">${esc(x.e)}</p></article>`}).join("")}</div>
+    </section>
+    ${les.reading!=null?`<section class="lsec"><h3><span>3</span>Lectura del día</h3><button class="ritem" id="lRead"><div><b lang="en">${esc(READINGS[L][les.reading].title)}</b><span>${esc(READINGS[L][les.reading].es)} · escúchala, toca las palabras y léela en voz alta</span></div><span class="pill">${readBest(L,les.reading)!=null?`Pronunciación ${readBest(L,les.reading)} %`:"Abrir"}</span></button></section>`:""}
+    <section class="lsec"><h3><span>${les.reading!=null?4:3}</span>Práctica calificada</h3>
+      <p>${les.practice.length} ejercicios de escritura, escucha y habla. Con ${PASS} % la lección queda aprobada.</p>
+      <div class="examcta" style="margin-top:6px"><button class="btn sun" id="lPrac">${p?(p.passed?"Repetir práctica":"Intentar otra vez"):"Empezar práctica"}</button>${p?`<span class="pill">${p.passed?"✓ Aprobada":"Último"} · ${p.passed?p.best:p.last} %</span>`:""}</div>
+    </section>
+    <div class="ex-actions" style="border-top:1px solid var(--line);padding-top:18px">${prev?`<button class="linkbtn" id="lPrev">← Día ${prev.day}</button>`:"<span></span>"}${nxt?`<button class="linkbtn" id="lNext">${nxt.type==="lesson"?`Día ${nxt.day}: ${esc(nxt.title)}`:esc(nxt.title)} →</button>`:""}</div>`;
+  body.querySelectorAll(".vplay[data-say]").forEach(b=>b.onclick=()=>speakTTS(b.dataset.say));
+  if($("lRead"))$("lRead").onclick=()=>reader(L,les.reading);
+  if($("lPrev"))$("lPrev").onclick=()=>openStep(L,prev);
+  if($("lNext"))$("lNext").onclick=()=>openStep(L,nxt);
+  $("lPrac").onclick=()=>runSet({L,title:`Día ${me.day} · ${les.title}`,items:les.practice,pass:PASS,
+    save:(pct,ok)=>saveProg(me.key,pct,ok),again:()=>$("lPrac")?$("lPrac").click():lessonView(L,u,k),
+    passMsg:"¡Lección aprobada! Sigue con la siguiente.",
+    next:nxt?{label:nxt.type==="lesson"?`Ir al día ${nxt.day}`:`Ir al ${nxt.title.toLowerCase()}`,go:()=>openStep(L,nxt)}:null});
+}
+function unitQuiz(L,u){const sy=SYL(L),key=uqKey(L,u),nxt=nextStepAfter(L,key);
+  runSet({L,title:`Quiz unidad ${u+1} · ${LV[L].k}`,items:sy.units[u].quiz,pass:PASS,save:(p,ok)=>saveProg(key,p,ok),again:()=>unitQuiz(L,u),
+    passMsg:`¡Aprobaste la unidad ${u+1}!`,next:nxt?{label:nxt.type==="lesson"?`Empezar día ${nxt.day}`:nxt.title,go:()=>openStep(L,nxt)}:null})}
+function finalExam(L){const sy=SYL(L),f=sy.final,key=finKey(L),shuf=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+  const pool=sy.units.flatMap(u=>shuf(u.quiz.filter(x=>x.t!=="oral")).slice(0,f.fromEachUnit));
+  const items=[...shuf([...pool,...f.extra.filter(x=>x.t==="mc"||x.t==="fill"||x.t==="listen")]),...f.extra.filter(x=>x.t==="oral"),...f.extra.filter(x=>x.t==="write")];
+  runSet({L,title:`Examen final ${LV[L].k}`,items,pass:f.pass,save:(p,ok)=>saveProg(key,p,ok),again:()=>finalExam(L),
+    passMsg:L<5?`¡Felicitaciones! Aprobaste ${LV[L].k}. Ya puedes pasar a ${LV[L+1].k}.`:"¡Felicitaciones! Completaste la ruta.",
+    failMsg:`Necesitas ${f.pass} % para aprobar ${LV[L].k}. Revisa las correcciones, repasa las lecciones donde fallaste y vuelve a intentarlo.`,
+    next:L<5?{label:`Ir al nivel ${LV[L+1].k}`,go:()=>openLevel(L+1)}:null})}
 
 renderWho();
 renderResults();
