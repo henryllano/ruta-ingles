@@ -901,7 +901,7 @@ const exam=$("exam"),body=$("exBody");
 function newExam(){X={step:0,name:"",email:"",idx:0,sel:null,plays:0,ans:{listen:[],written:[]},essay:"",sp:[],spSkip:false,spErr:null,result:null}}
 document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||""}
   OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender()}});
-function closeExam(){OV=null;LVBACK=null;if(typeof stopReader==="function")stopReader();body.style.maxWidth="";stopRec();try{speechSynthesis.cancel()}catch(e){}exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
+function closeExam(){OV=null;LVBACK=null;if(typeof stopReader==="function")stopReader();body.style.maxWidth="";stopRec();stopSpeak();exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
 function renderCloseBtn(confirm){$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
   if(confirm){$("exYes").onclick=closeExam;$("exNo").onclick=()=>renderCloseBtn(false)}else $("exClose").onclick=()=>needConfirm()?renderCloseBtn(true):closeExam()}
 let OV=null;
@@ -947,15 +947,32 @@ function stepMC(){
   body.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{X.sel=+b.dataset.i;exRender();body.querySelector(`.opt[data-i="${X.sel}"]`).focus()});
   $("next").onclick=()=>{
     X.ans[kind].push({lv:it.lv,ok:X.sel===it.a,it,given:it.o[X.sel]});
-    X.idx++;X.sel=null;X.plays=0;try{speechSynthesis.cancel()}catch(e){}
+    X.idx++;X.sel=null;X.plays=0;stopSpeak();
     const end=X.idx>=items.length,levelDone=end||items[X.idx].lv!==it.lv;
     if(levelDone){const a=X.ans[kind].filter(x=>x.lv===it.lv),acc=a.filter(x=>x.ok).length/a.length;
       if(end||acc<LEVEL_OK){go(X.step+1);return}}
     exRender();
   };
 }
-function speakTTS(t){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=.92;
-  const v=speechSynthesis.getVoices().find(v=>/^en[-_]US/i.test(v.lang));if(v)u.voice=v;speechSynthesis.speak(u)}catch(e){}}
+/* Chrome a veces no avisa cuando termina de hablar (o descarta la frase): se guarda la referencia
+   y se revisa cada medio segundo si la voz terminó, para que nada se quede esperando */
+let SPK=null;
+function speakU(u,done){
+  if(SPK){SPK.cancelled=true;clearInterval(SPK.poll);clearTimeout(SPK.guard)}
+  const job={u,done,finished:false,started:false,cancelled:false};SPK=job;
+  const fin=()=>{if(job.finished||job.cancelled)return;job.finished=true;clearInterval(job.poll);clearTimeout(job.guard);if(SPK===job)SPK=null;done&&done()};
+  u.addEventListener("start",()=>{job.started=true});u.addEventListener("end",fin);u.addEventListener("error",fin);
+  const est=1200+(u.text.split(/\s+/).length*520)/(u.rate||1);
+  try{if(speechSynthesis.speaking||speechSynthesis.pending)speechSynthesis.cancel()}catch(e){}
+  setTimeout(()=>{if(job.cancelled)return;try{speechSynthesis.speak(u)}catch(e){fin();return}
+    let t0=Date.now();
+    job.poll=setInterval(()=>{const busy=speechSynthesis.speaking||speechSynthesis.pending;if(busy)job.started=true;
+      if(job.started&&!busy)fin();else if(!job.started&&Date.now()-t0>3000)fin()},500);
+    job.guard=setTimeout(fin,est*2.5+3000)},80);
+}
+function stopSpeak(){if(SPK){SPK.cancelled=true;clearInterval(SPK.poll);clearTimeout(SPK.guard);SPK=null}try{speechSynthesis.cancel()}catch(e){}}
+function speakTTS(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=.92;
+  const v=speechSynthesis.getVoices().find(v=>/^en[-_]US/i.test(v.lang));if(v)u.voice=v;speakU(u)}catch(e){}}
 
 function stepEssay(){
   body.innerHTML=`<h2>Redacción corta</h2><p class="lead">Escribe en inglés entre 60 y 120 palabras. No uses traductor: queremos tu nivel real.</p>
@@ -1232,7 +1249,7 @@ function qRender(){
   $("next").onclick=qNext;
 }
 function qNext(){
-  stopRec();try{speechSynthesis.cancel()}catch(e){}
+  stopRec();stopSpeak();
   const it=Q.items[Q.i];let pts=0,given="",acc=null;
   if(it.t==="mc"||it.t==="listen"){pts=Q.sel===it.a?1:0;given=it.o[Q.sel]}
   if(it.t==="order"){given=Q.ord.picked.map(x=>x.w).join(" ");const nz=t=>t.toLowerCase().replace(/[.,!?¿¡]/g,"").replace(/\s+/g," ").trim();pts=nz(given)===nz(it.words.join(" "))?1:0;Q.ord=null}
@@ -1435,7 +1452,7 @@ function hl(k){const p=$("rText");if(!p)return;p.querySelectorAll(".w.now").forE
 function tokAt(ch){let k=null;for(let j=0;j<R.toks.length;j++){if(R.toks[j].s<=ch)k=j;else break}return k}
 function playReading(){
   if(!("speechSynthesis" in window)){$("rOut").innerHTML=`<div class="warn">Este navegador no tiene voz en inglés. Usa Google Chrome.</div>`;return}
-  stopReadAloud(false);R.playing=true;$("rPlay").textContent="❚❚ Pausar";speechSynthesis.cancel();speakSent();
+  stopReadAloud(false);R.playing=true;$("rPlay").textContent="❚❚ Pausar";stopSpeak();speakSent();
 }
 function speakSent(){
   if(!R||!R.playing)return;
@@ -1449,10 +1466,10 @@ function speakSent(){
   u.onstart=()=>{clearTimeout(R.timer);R.timer=setTimeout(fallback,450)};
   R.timer=setTimeout(fallback,900);
   u.onboundary=e=>{if(e.name&&e.name!=="word")return;gotBoundary=true;hl(tokAt(se.s+e.charIndex))};
-  u.onend=()=>{clearTimeout(R.timer);if(!R.playing)return;R.si++;speakSent()};
-  speechSynthesis.speak(u);
+  const onDone=()=>{clearTimeout(R.timer);if(!R||!R.playing)return;R.si++;speakSent()};
+  speakU(u,onDone);
 }
-function pauseReading(){if(!R)return;R.playing=false;clearTimeout(R.timer);try{speechSynthesis.cancel()}catch(e){}if($("rPlay"))$("rPlay").textContent="▶ Continuar"}
+function pauseReading(){if(!R)return;R.playing=false;clearTimeout(R.timer);stopSpeak();if($("rPlay"))$("rPlay").textContent="▶ Continuar"}
 function stopReader(){if(!R)return;pauseReading();stopReadAloud(false);const s=document.querySelector(".wsheet");if(s)s.remove();R=null}
 
 function wordSheet(k){
@@ -1630,9 +1647,9 @@ function lessonView(L,u,k){
 let D=null;
 function voicePair(){const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang));const us=vs.filter(v=>/^en[-_]US/i.test(v.lang));
   const a=us[0]||vs[0]||null,b=us.find(v=>v!==a)||vs.find(v=>v!==a)||null;return[a,b]}
-function sayLine(text,who,done){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=.92;const [va,vb]=voicePair();
-  const v=who==="A"?va:(vb||va);if(v)u.voice=v;if(who!=="A"&&!vb)u.pitch=1.35;u.onend=()=>done&&done();u.onerror=()=>done&&done();speechSynthesis.speak(u)}catch(e){done&&done()}}
-function stopDialog(){if(!D)return;D.stop=true;try{speechSynthesis.cancel()}catch(e){}if(D.rec){try{D.rec.abort()}catch(e){}}D=null}
+function sayLine(text,who,done){try{const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=.92;const [va,vb]=voicePair();
+  const v=who==="A"?va:(vb||va);if(v)u.voice=v;if(who!=="A"&&!vb)u.pitch=1.35;speakU(u,done)}catch(e){done&&done()}}
+function stopDialog(){if(!D)return;D.stop=true;stopSpeak();if(D.rec){try{D.rec.abort()}catch(e){}}D=null}
 function dialogView(dg){
   D={dg,showEs:false,mode:"read",i:-1,role:null,scores:{},stop:false,rec:null};
   const box=$("dlg");
@@ -1647,7 +1664,7 @@ function dialogView(dg){
         <span class="dwho">${esc(names[w])}</span><div class="bub"><span lang="en">${esc(en)}</span>${D.showEs?`<small>${esc(es)}</small>`:""}
         ${D.scores[j]!=null?`<em class="sc ${D.scores[j]>=80?"ok":D.scores[j]>=50?"mid":"bad"}">${D.scores[j]} %</em>`:""}</div></div>`).join("")}</div>
       <div id="dTurn"></div>`;
-    $("dPlay").onclick=()=>D.mode==="play"?(D.mode="read",D.i=-1,speechSynthesis.cancel(),draw()):playAll();
+    $("dPlay").onclick=()=>D.mode==="play"?(D.mode="read",D.i=-1,stopSpeak(),draw()):playAll();
     $("dEs").onclick=()=>{D.showEs=!D.showEs;draw()};
     $("dRoleA").onclick=()=>startRole("A");$("dRoleB").onclick=()=>startRole("B");
     box.querySelectorAll(".dline").forEach(el=>el.onclick=()=>{if(D.mode!=="read")return;const j=+el.dataset.j;sayLine(dg.lines[j][1],dg.lines[j][0])});
