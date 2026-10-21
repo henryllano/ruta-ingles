@@ -237,7 +237,7 @@ lessons: [
   {t:"write",q:"Escribe una propuesta breve (mínimo 120 palabras) para un proyecto innovador en tu comunidad. Usa al menos un verbo con -ise/-ify, uno con en-, una palabra con counter- y dos compuestos.",min:120,keys:[["prioritise","prioritize","clarify","intensify","diversify","jeopardise","jeopardize","marginalise","marginalize"],["enable","enrich","endanger","entitle","empower"],["counterproductive","counterpart","counterargument","counterbalance"],["groundbreaking","far-reaching","long-standing","short-sighted","breakthrough"]]}
  ],
  exam:{t:"mc",q:"Investors are advised to ___ their portfolios to reduce risk.",o:["diversify","diversise","endiverse","diversate"],a:0},
- exam2:{t:"mc",q:"The new law will ___ citizens to request their data from any company.",o:["entitle","enable","empower to","allow of"],a:1,x:"enable + persona + to + verbo; entitle se usa con 'to + sustantivo' o en pasiva (be entitled to)."}
+ exam2:{t:"mc",q:"The new law will ___ citizens to request their data from any company.",o:["enrich","enable","endanger","counterbalance"],a:1,x:"enable + persona + to + verbo = permitir, posibilitar."}
 },
 { id:"c1-u4-l5", title:"Registro formal e informal", goal:"Adaptar palabras y estructuras al contexto: del correo formal al mensaje entre amigos.",
  theory:[
