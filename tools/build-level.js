@@ -23,6 +23,8 @@ const checkItem = (it, where) => {
   if (it.t === "oral") need(it.text, `${where}: oral sin texto`);
   if (it.t === "write") need(it.q && it.min, `${where}: redacción incompleta`);
 };
+/* meta.readingMap = {idLección: índiceLectura} conecta cada lectura con su lección */
+units.forEach(u => u.lessons.forEach(l => { if (meta.readingMap && meta.readingMap[l.id] != null) l.reading = meta.readingMap[l.id]; }));
 const ids = new Set();
 units.forEach((u, ui) => {
   need(u.title && u.lessons && u.lessons.length === 5, `unidad ${ui + 1}: debe tener 5 lecciones`);

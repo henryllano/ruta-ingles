@@ -751,4 +751,218 @@ july | - | sustantivo | julio | My birthday is in July.
 again | - | adverbio | otra vez, de nuevo | Say it again, please.
 free | - | adjetivo | libre; gratis | In my free time I read.
 movies | movie | sustantivo (plural) | películas | We watch movies on Fridays.
+lived | live | verbo (pasado) | vivía, vivió | We lived in a small town.
+town | - | sustantivo | pueblo | A small town near the sea.
+woke | wake | verbo (pasado de wake) | despertó (woke up = se despertó) | He woke us up early.
+quickly | - | adverbio | rápidamente | Get dressed quickly.
+we're | we are | contracción (we + are) | nosotros estamos / vamos | We're going to the beach.
+going | go | verbo (-ing) | yendo (be going to = ir a) | We're going on a trip.
+adventure | - | sustantivo | aventura | It was a great adventure.
+lake | - | sustantivo | lago | A beautiful lake.
+cold | - | adjetivo | frío | The water was cold.
+other | - | determinante | otro, otros | There were no other people.
+boat | - | sustantivo | bote, lancha | We rented a boat.
+excited | - | adjetivo | emocionado | The kids were excited.
+nervous | - | adjetivo | nervioso | I'm nervous about the exam.
+couldn't | could not | contracción | no podía, no sabía | She couldn't swim.
+swim | - | verbo | nadar | Can you swim?
+crossing | cross | verbo (-ing) | cruzando | We were crossing the lake.
+suddenly | - | adverbio | de repente | Suddenly, it started to rain.
+rain | - | verbo / sustantivo | llover; lluvia | It started to rain.
+wind | - | sustantivo | viento | The wind was strong.
+strong | - | adjetivo | fuerte | A strong wind.
+moving | move | verbo (-ing) | moviéndose | The boat was moving a lot.
+lot | - | sustantivo | (a lot = mucho) | It moved a lot.
+screaming | scream | verbo (-ing) | gritando | She was screaming.
+crying | cry | verbo (-ing) | llorando | The baby was crying.
+laughing | laugh | verbo (-ing) | riéndose | Dad was laughing.
+finally | - | adverbio | finalmente | We finally arrived.
+side | - | sustantivo | lado | The other side of the lake.
+completely | - | adverbio | completamente | We were completely wet.
+wet | - | adjetivo | mojado | My clothes are wet.
+fire | - | sustantivo | fuego, fogata | We made a fire.
+ate | eat | verbo (pasado de eat) | comimos, comió | We ate sandwiches.
+sandwiches | sandwich | sustantivo (plural) | sándwiches | Ham sandwiches.
+tree | - | sustantivo | árbol | Under a big tree.
+sun | - | sustantivo | sol | The sun came out.
+came | come | verbo (pasado de come) | vino, salió (came out) | The sun came out.
+saw | see | verbo (pasado de see) | vimos, vio | We saw a rainbow.
+rainbow | - | sustantivo | arcoíris | A beautiful rainbow.
+exciting | - | adjetivo | emocionante | An exciting day.
+childhood | - | sustantivo | infancia, niñez | I had a happy childhood.
+still | - | adverbio | todavía | I still remember it.
+detail | - | sustantivo | detalle | Every detail.
+tatiana | - | nombre propio | Tatiana (nombre de mujer) | Tatiana lives in Bogotá.
+grew | grow | verbo (pasado de grow) | crecí (grew up = me crié) | I grew up in Cartagena.
+cartagena | - | nombre propio | Cartagena (ciudad de Colombia) | Cartagena is hot.
+caribbean | - | adjetivo | caribe, caribeño | The Caribbean coast.
+coast | - | sustantivo | costa | They live on the coast.
+hotter | hot | adjetivo comparativo | más caliente | It's hotter than Bogotá.
+colorful | - | adjetivo | colorido | Colorful houses.
+know | - | verbo | conocer, saber | I know this city.
+outgoing | - | adjetivo | extrovertido | People are outgoing.
+everywhere | - | adverbio | en todas partes | Music everywhere.
+famous | - | adjetivo | famoso (famous for = famoso por) | It's famous for its walls.
+walls | wall | sustantivo (plural) | murallas, paredes | The old walls.
+balconies | balcony | sustantivo (plural) | balcones | Balconies full of flowers.
+flowers | flower | sustantivo (plural) | flores | Beautiful flowers.
+lively | - | adjetivo | animado | A lively city.
+nightlife | - | sustantivo | vida nocturna | Great nightlife.
+too | - | adverbio | demasiado; también | It's too hot.
+hot | - | adjetivo | caliente, caluroso | It's very hot.
+tourists | tourist | sustantivo (plural) | turistas | Many tourists.
+moved | move | verbo (pasado) | me mudé, se mudó | I moved to Bogotá.
+bigger | big | adjetivo comparativo | más grande | Bogotá is bigger.
+colder | cold | adjetivo comparativo | más frío | It's colder here.
+thought | think | verbo (pasado de think) | pensé, creí | I thought it was easy.
+serious | - | adjetivo | serio | People are serious.
+shy | - | adjetivo | tímido | She's a bit shy.
+kind | - | adjetivo | amable | Very kind people.
+hard-working | - | adjetivo | trabajador | They're hard-working.
+museums | museum | sustantivo (plural) | museos | The best museums.
+country | - | sustantivo | país | In the country.
+interesting | - | adjetivo | interesante | Interesting restaurants.
+worse | bad | adjetivo comparativo | peor | The traffic is worse.
+changes | change | verbo (3.ª persona) | cambia | The weather changes.
+prefer | - | verbo | preferir | Which city do you prefer?
+better | good | adjetivo comparativo | mejor | It's better for my career.
+career | - | sustantivo | carrera profesional | My career is important.
+place | - | sustantivo | lugar | A beautiful place.
+heart | - | sustantivo | corazón | In my heart.
+celebrate | - | verbo | celebrar | We're going to celebrate.
+tenth | - | número ordinal | décimo | Our tenth anniversary.
+wedding | - | sustantivo | boda | Wedding anniversary.
+anniversary | - | sustantivo | aniversario | Happy anniversary!
+planning | plan | verbo (-ing) | planeando | We're planning a trip.
+special | - | adjetivo | especial | A special trip.
+peru | - | nombre propio | Perú | A trip to Peru.
+already | - | adverbio | ya | We have already booked.
+booked | book | verbo (participio) | reservado | We've booked the flights.
+flights | flight | sustantivo (plural) | vuelos | Cheap flights.
+flying | fly | verbo (-ing) | volando, viajando en avión | We're flying to Lima.
+lima | - | nombre propio | Lima (capital de Perú) | We're flying to Lima.
+fifteenth | - | número ordinal | decimoquinto (para fechas: el 15) | May fifteenth.
+staying | stay | verbo (-ing) | quedándonos | We're staying three nights.
+nights | night | sustantivo (plural) | noches | Three nights.
+cusco | - | nombre propio | Cusco (ciudad de Perú) | The old city of Cusco.
+think | - | verbo | pensar, creer | I think it will be long.
+long | - | adjetivo | largo | A long trip.
+views | view | sustantivo (plural) | vistas | Amazing views.
+amazing | - | adjetivo | increíble | The views are amazing.
+try | - | verbo | probar, intentar | Try the local food.
+local | - | adjetivo | local, típico | Local food.
+guinea | - | sustantivo | (guinea pig = cuy) | Guinea pig is typical in Peru.
+pig | - | sustantivo | cerdo (guinea pig = cuy) | A guinea pig.
+don't | do not | contracción | no | I don't think so.
+machu | - | nombre propio | (Machu Picchu, ruinas incas) | Machu Picchu is in Peru.
+picchu | - | nombre propio | (Machu Picchu) | We visited Machu Picchu.
+inca | - | adjetivo | inca | The Inca Trail.
+trail | - | sustantivo | sendero, camino | A mountain trail.
+group | - | sustantivo | grupo | A small group.
+doctor | - | sustantivo | médico | My doctor says...
+train | - | verbo | entrenar | I have to train.
+before | - | preposición | antes de | Before the trip.
+sure | - | adjetivo | seguro | I'm sure.
+sunrise | - | sustantivo | amanecer | We saw the sunrise.
+can't | can not | contracción | no puedo | I can't wait!
+wait | - | verbo | esperar (can't wait = no aguanto las ganas) | I can't wait!
+grandfather | - | sustantivo | abuelo | My grandfather is 82.
+antonio | - | nombre propio | Antonio (nombre de hombre) | Antonio is my grandfather.
+eighty-two | - | número | ochenta y dos | He's eighty-two.
+countries | country | sustantivo (plural) | países | Thirty countries.
+worked | work | verbo (pasado / participio) | trabajó, ha trabajado | He has worked as a cook.
+sailor | - | sustantivo | marinero | He was a sailor.
+taxi | - | sustantivo | taxi | A taxi driver.
+driver | - | sustantivo | conductor | A bus driver.
+thirty | - | número | treinta | Thirty countries.
+asia | - | nombre propio | Asia | He's never been to Asia.
+met | meet | verbo (pasado de meet) | conoció | He met my grandmother.
+grandmother | - | sustantivo | abuela | My grandmother.
+venezuela | - | nombre propio | Venezuela | In Venezuela.
+married | - | adjetivo | casado | They have been married for years.
+fifty-eight | - | número | cincuenta y ocho | Fifty-eight years.
+grandchildren | grandchild | sustantivo (plural) | nietos | Twelve grandchildren.
+great-grandchildren | - | sustantivo (plural) | bisnietos | Three great-grandchildren.
+did | do | verbo (pasado de do) | hizo | He did something incredible.
+something | - | pronombre | algo | Something incredible.
+incredible | - | adjetivo | increíble | An incredible story.
+use | - | verbo | usar | He learned to use a computer.
+computer | - | sustantivo | computador | A new computer.
+sends | send | verbo (3.ª persona) | envía | He sends emails.
+call | - | sustantivo / verbo | llamada; llamar | A video call.
+things | thing | sustantivo (plural) | cosas | New things.
+him | - | pronombre | a él, lo | I asked him.
+biggest | big | adjetivo superlativo | el más grande | His biggest achievement.
+achievement | - | sustantivo | logro | My biggest achievement.
+moment | - | sustantivo | momento | For a moment.
+secret | - | sustantivo | secreto | That's my secret.
+job | - | sustantivo | trabajo, empleo | My first job.
+hope | - | verbo | esperar (tener esperanza) | I hope so.
+ricardo | - | nombre propio | Ricardo (nombre de hombre) | Ricardo felt sick.
+feel | - | verbo | sentir(se) | He didn't feel well.
+hurt | - | verbo | doler | His back hurt.
+headaches | headache | sustantivo (plural) | dolores de cabeza | He had headaches.
+almost | - | adverbio | casi | Almost every day.
+fast | - | adjetivo | rápido (fast food = comida rápida) | Fast food.
+exercised | exercise | verbo (pasado) | hacía ejercicio | He never exercised.
+check-up | - | sustantivo | chequeo | A medical check-up.
+your | - | determinante posesivo | tu, su | Change your habits.
+habits | habit | sustantivo (plural) | hábitos | Bad habits.
+least | - | adverbio | (at least = al menos) | At least thirty minutes.
+shouldn't | should not | contracción | no deberías | You shouldn't smoke.
+sugar | - | sustantivo | azúcar | Too much sugar.
+salt | - | sustantivo | sal | Less salt.
+stop | - | verbo | dejar de, parar | Stop smoking.
+smoking | smoke | sustantivo / verbo (-ing) | fumar | Smoking is bad.
+immediately | - | adverbio | inmediatamente | Stop immediately.
+worried | - | adjetivo | preocupado | He was worried.
+follow | - | verbo | seguir | Follow her advice.
+advice | - | sustantivo | consejo | Good advice.
+hour | - | sustantivo | hora | An hour earlier.
+earlier | early | adverbio comparativo | más temprano | Get up earlier.
+own | - | adjetivo | propio | His own food.
+missed | miss | verbo (pasado) | extrañó | He missed his cigarettes.
+cigarettes | cigarette | sustantivo (plural) | cigarrillos | No more cigarettes.
+give | - | verbo | dar (give up = rendirse) | Don't give up.
+felt | feel | verbo (pasado de feel) | se sintió | He felt better.
+anymore | - | adverbio | ya no (en negativas) | It doesn't hurt anymore.
+disappeared | disappear | verbo (pasado) | desaparecieron | The pain disappeared.
+runs | run | verbo (3.ª persona) | corre | He runs every day.
+times | time | sustantivo (plural) | veces | Three times a week.
+lost | lose | verbo (pasado / participio) | perdió; perdido | He has lost weight. She was lost.
+kilos | kilo | sustantivo (plural) | kilos | Twelve kilos.
+everything | - | pronombre | todo | Change everything.
+friend | - | sustantivo | amigo, amiga | My friend Juliana.
+juliana | - | nombre propio | Juliana (nombre de mujer) | Juliana visited London.
+london | - | nombre propio | Londres | London is big.
+second | - | número ordinal | segundo | On her second day.
+explore | - | verbo | explorar | Explore the city.
+map | - | sustantivo | mapa | A paper map.
+enough | - | adjetivo / adverbio | suficiente | That's enough.
+battery | - | sustantivo | batería, pila | The battery died.
+died | die | verbo (pasado) | murió; se descargó (batería) | My phone died.
+realized | realize | verbo (pasado) | se dio cuenta | She realized she was lost.
+anybody | - | pronombre | nadie (negativas), alguien (preguntas) | She didn't know anybody.
+money | - | sustantivo | dinero | Not much money.
+help | - | sustantivo / verbo | ayuda; ayudar | Ask for help.
+walked | walk | verbo (pasado) | caminó, entró | She walked into a café.
+spoke | speak | verbo (pasado de speak) | habló | She spoke slowly.
+slowly | - | adverbio | despacio | Speak slowly.
+carefully | - | adverbio | con cuidado | Listen carefully.
+looking | look | verbo (-ing) | (looking for = buscando) | I'm looking for my hotel.
+hyde | - | nombre propio | (Hyde Park, parque de Londres) | Hyde Park is huge.
+smiled | smile | verbo (pasado) | sonrió | He smiled.
+number | - | sustantivo | número | Bus number nine.
+you'll | you will | contracción | estarás, llegarás (futuro) | You'll be there soon.
+twenty | - | número | veinte | Twenty minutes.
+lent | lend | verbo (pasado de lend) | prestó | He lent her his phone.
+woman | - | sustantivo | mujer | A woman helped her.
+offered | offer | verbo (pasado) | ofreció | She offered to help.
+easily | - | adverbio | fácilmente | She arrived easily.
+everybody | - | pronombre | todos | Everybody was kind.
+later | - | adverbio | después, más tarde | She told me later.
+carry | - | verbo | llevar consigo, cargar | I always carry a charger.
+charger | - | sustantivo | cargador | A phone charger.
+paper | - | sustantivo | papel | A paper map.
+case | - | sustantivo | caso (just in case = por si acaso) | Just in case.
 `;

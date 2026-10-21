@@ -1,4 +1,5 @@
 module.exports = {
+  readingMap: {"a2-u1-l4":0,"a2-u2-l4":1,"a2-u3-l5":2,"a2-u4-l5":3,"a2-u5-l2":4,"a2-u6-l5":5},
   intro: "En 30 lecciones (6 unidades de 5 días) vas a contar historias en pasado, comparar y describir, hablar de planes y del futuro, contar experiencias con el presente perfecto, hablar de salud y obligaciones, y resolver situaciones en tiendas y servicios. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
   final: {
     extra: [

@@ -15538,6 +15538,7 @@ window.SYLLABUS = {
        ],
        "a": 1
       },
+      "reading": 0,
       "words": []
      },
      {
@@ -17832,6 +17833,7 @@ window.SYLLABUS = {
        ],
        "a": 1
       },
+      "reading": 1,
       "words": []
      },
      {
@@ -20542,6 +20544,7 @@ window.SYLLABUS = {
        ],
        "a": 0
       },
+      "reading": 2,
       "words": []
      }
     ],
@@ -20814,6 +20817,6915 @@ window.SYLLABUS = {
      {
       "t": "oral",
       "text": "A round-trip ticket to Medellín, please."
+     }
+    ]
+   },
+   {
+    "title": "Experiencias",
+    "lessons": [
+     {
+      "id": "a2-u4-l1",
+      "title": "Presente perfecto: ever y never",
+      "goal": "Preguntar y contar experiencias de vida.",
+      "theory": [
+       {
+        "p": "El **presente perfecto** (have/has + participio) se usa para **experiencias de vida**, sin decir cuándo pasaron."
+       },
+       {
+        "ex": [
+         [
+          "I have visited Mexico.",
+          "He visitado México."
+         ],
+         [
+          "She has eaten sushi.",
+          "Ella ha comido sushi."
+         ],
+         [
+          "Have you ever been to Europe?",
+          "¿Alguna vez has estado en Europa?"
+         ],
+         [
+          "I've never flown in a plane.",
+          "Nunca he volado en avión."
+         ]
+        ]
+       },
+       {
+        "p": "El **participio**: en verbos regulares es igual al pasado (worked, visited). Los irregulares tienen su propia forma: **go → gone/been, see → seen, eat → eaten, do → done, write → written, take → taken, fly → flown, meet → met**."
+       },
+       {
+        "p": "**been** se usa para decir que fuiste y volviste: I've been to Spain (fui y volví). **gone** = se fue y sigue allá: She's gone to Spain."
+       },
+       {
+        "tip": "Ever se usa en preguntas (¿alguna vez?). Never ya es negativo: I've never seen it (no 'I haven't never')."
+       }
+      ],
+      "vocab": [
+       [
+        "have / has + participio",
+        "expresión",
+        "he / ha + participio",
+        "I have tried it."
+       ],
+       [
+        "ever",
+        "adverbio",
+        "alguna vez",
+        "Have you ever been to Brazil?"
+       ],
+       [
+        "never",
+        "adverbio",
+        "nunca",
+        "I've never seen snow."
+       ],
+       [
+        "been",
+        "verbo (participio de be / go)",
+        "estado; ido (y vuelto)",
+        "I've been to Peru."
+       ],
+       [
+        "seen",
+        "verbo (participio de see)",
+        "visto",
+        "Have you seen this movie?"
+       ],
+       [
+        "eaten",
+        "verbo (participio de eat)",
+        "comido",
+        "I've eaten octopus."
+       ],
+       [
+        "tried",
+        "verbo (participio de try)",
+        "probado",
+        "Have you tried arepas?"
+       ],
+       [
+        "done",
+        "verbo (participio de do)",
+        "hecho",
+        "I've never done yoga."
+       ],
+       [
+        "flown",
+        "verbo (participio de fly)",
+        "volado",
+        "She has flown to Japan."
+       ],
+       [
+        "met",
+        "verbo (participio de meet)",
+        "conocido",
+        "I've met a famous singer."
+       ],
+       [
+        "climbed",
+        "verbo (participio)",
+        "escalado",
+        "We've climbed a volcano."
+       ],
+       [
+        "ridden",
+        "verbo (participio de ride)",
+        "montado",
+        "Have you ridden a horse?"
+       ],
+       [
+        "swum",
+        "verbo (participio de swim)",
+        "nadado",
+        "I've swum with dolphins."
+       ],
+       [
+        "won",
+        "verbo (participio de win)",
+        "ganado",
+        "He has won a prize."
+       ],
+       [
+        "once / twice",
+        "adverbio",
+        "una vez / dos veces",
+        "I've been there twice."
+       ],
+       [
+        "three times",
+        "expresión",
+        "tres veces",
+        "She has seen it three times."
+       ],
+       [
+        "in my life",
+        "expresión",
+        "en mi vida",
+        "I've never been so happy in my life."
+       ],
+       [
+        "experience",
+        "sustantivo",
+        "experiencia",
+        "It was a great experience."
+       ],
+       [
+        "abroad",
+        "adverbio",
+        "en el exterior",
+        "Have you ever lived abroad?"
+       ],
+       [
+        "bungee jumping",
+        "sustantivo",
+        "salto bungee",
+        "I've never done bungee jumping."
+       ]
+      ],
+      "dialogue": {
+       "title": "El juego de '¿Alguna vez...?'",
+       "scene": "En una reunión de amigos, Tatiana y Ben juegan a preguntarse experiencias.",
+       "a": "Tatiana",
+       "b": "Ben",
+       "lines": [
+        [
+         "A",
+         "OK, my turn. Have you ever been to Europe?",
+         "Bueno, mi turno. ¿Alguna vez has estado en Europa?"
+        ],
+        [
+         "B",
+         "Yes, I have. I've been to Spain twice and to Italy once.",
+         "Sí. He estado dos veces en España y una en Italia."
+        ],
+        [
+         "A",
+         "Lucky you! I've never been to Europe. Have you ever eaten something strange?",
+         "¡Qué suerte! Yo nunca he ido a Europa. ¿Alguna vez has comido algo raro?"
+        ],
+        [
+         "B",
+         "Yes! I've eaten ants in Santander. They're called hormigas culonas.",
+         "¡Sí! He comido hormigas en Santander. Se llaman hormigas culonas."
+        ],
+        [
+         "A",
+         "Ugh! I've never tried them. Were they good?",
+         "¡Guácala! Nunca las he probado. ¿Estaban buenas?"
+        ],
+        [
+         "B",
+         "They were crunchy and salty. Not bad! Now you: have you ever met a famous person?",
+         "Crujientes y saladas. ¡No estaban mal! Ahora tú: ¿alguna vez has conocido a alguien famoso?"
+        ],
+        [
+         "A",
+         "Yes, I have. I met Juanes at the airport once!",
+         "¡Sí! ¡Una vez conocí a Juanes en el aeropuerto!"
+        ],
+        [
+         "B",
+         "No way! Did you take a photo?",
+         "¡No puede ser! ¿Te tomaste una foto?"
+        ],
+        [
+         "A",
+         "Of course! Have you ever done anything dangerous?",
+         "¡Claro! ¿Alguna vez has hecho algo peligroso?"
+        ],
+        [
+         "B",
+         "I've done bungee jumping in San Gil. It was scary but amazing.",
+         "Hice salto bungee en San Gil. Fue aterrador pero increíble."
+        ],
+        [
+         "A",
+         "Wow, I've never done that in my life. I'm too scared!",
+         "¡Wow, nunca he hecho eso en mi vida! ¡Me da mucho miedo!"
+        ],
+        [
+         "B",
+         "You should try it. It's an experience you'll never forget!",
+         "Deberías intentarlo. ¡Es una experiencia que nunca olvidarás!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Have you ___ been to Cartagena?",
+        "o": [
+         "never",
+         "ever",
+         "yet",
+         "already"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "I've never ___ sushi.",
+        "o": [
+         "ate",
+         "eaten",
+         "eat",
+         "eating"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "She ___ been to Brazil three times.",
+        "o": [
+         "have",
+         "has",
+         "is",
+         "did"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Have you ever ___ (see) a whale?",
+        "ans": [
+         "seen"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I've lived in three countries, but I've never lived in Asia.",
+        "q": "¿Dónde nunca ha vivido?",
+        "o": [
+         "Europa",
+         "Asia",
+         "América",
+         "África"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I've been to Mexico, but I've never been to Europe."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Have",
+         "you",
+         "ever",
+         "ridden",
+         "a",
+         "horse?"
+        ],
+        "es": "¿Alguna vez has montado a caballo?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "I've",
+         "never",
+         "flown",
+         "in",
+         "a",
+         "plane."
+        ],
+        "es": "Nunca he volado en avión."
+       },
+       {
+        "t": "dict",
+        "say": "Have you ever tried Peruvian food?"
+       },
+       {
+        "t": "dict",
+        "say": "She has been to Spain twice."
+       },
+       {
+        "t": "mc",
+        "q": "My sister isn't here. She ___ to London. (se fue y sigue allá)",
+        "o": [
+         "has been",
+         "has gone",
+         "have gone",
+         "is been"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I've ___ (meet) a lot of interesting people.",
+        "ans": [
+         "met"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Have you ever swum with dolphins? Yes, I have, in Mexico. It was amazing.",
+        "q": "¿Dónde nadó con delfines?",
+        "o": [
+         "Colombia",
+         "México",
+         "Brasil",
+         "Cuba"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre 3 cosas que has hecho y 3 que nunca has hecho (mínimo 35 palabras).",
+        "min": 35,
+        "keys": [
+         [
+          "i've",
+          "i have"
+         ],
+         [
+          "never"
+         ],
+         [
+          "been",
+          "seen",
+          "eaten",
+          "tried",
+          "done",
+          "flown",
+          "met"
+         ],
+         [
+          "but",
+          "and"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "—Have you ever been to Peru? —___",
+       "o": [
+        "Yes, I have.",
+        "Yes, I did.",
+        "Yes, I was.",
+        "Yes, I been."
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "I have never ___ (write) a poem.",
+       "ans": [
+        "written"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u4-l2",
+      "title": "Presente perfecto vs. pasado simple",
+      "goal": "Decidir cuándo usar el presente perfecto y cuándo el pasado simple.",
+      "theory": [
+       {
+        "p": "**Presente perfecto**: experiencia, **sin** decir cuándo. **Pasado simple**: cuando decimos **cuándo** pasó (yesterday, in 2015, last week, two days ago)."
+       },
+       {
+        "ex": [
+         [
+          "I've been to Paris. (experiencia)",
+          "He estado en París."
+         ],
+         [
+          "I went to Paris in 2019. (cuándo)",
+          "Fui a París en 2019."
+         ],
+         [
+          "Have you seen the new movie? — Yes, I saw it last weekend.",
+          "¿Has visto la nueva película? — Sí, la vi el fin de semana pasado."
+         ]
+        ]
+       },
+       {
+        "p": "Patrón muy común en conversación: se empieza con presente perfecto y se dan los detalles en **pasado simple**."
+       },
+       {
+        "ex": [
+         [
+          "Have you ever lost your passport? — Yes, I have. I lost it in Madrid. It was terrible.",
+          "¿Alguna vez has perdido tu pasaporte? — Sí. Lo perdí en Madrid. Fue terrible."
+         ]
+        ]
+       },
+       {
+        "tip": "Nunca uses el presente perfecto con una fecha o momento terminado: 'I have seen him yesterday' está mal. Es 'I saw him yesterday'."
+       }
+      ],
+      "vocab": [
+       [
+        "yesterday",
+        "adverbio",
+        "ayer",
+        "I saw him yesterday."
+       ],
+       [
+        "in 2019",
+        "expresión",
+        "en 2019",
+        "I went there in 2019."
+       ],
+       [
+        "last summer",
+        "expresión",
+        "el verano pasado",
+        "We traveled last summer."
+       ],
+       [
+        "two years ago",
+        "expresión",
+        "hace dos años",
+        "I moved two years ago."
+       ],
+       [
+        "when",
+        "adverbio",
+        "cuándo",
+        "When did you go?"
+       ],
+       [
+        "lose / lost / lost",
+        "verbo",
+        "perder",
+        "I've lost my wallet."
+       ],
+       [
+        "break / broke / broken",
+        "verbo",
+        "romper",
+        "I've broken my phone."
+       ],
+       [
+        "passport",
+        "sustantivo",
+        "pasaporte",
+        "I lost my passport."
+       ],
+       [
+        "wallet",
+        "sustantivo",
+        "billetera",
+        "My wallet was stolen."
+       ],
+       [
+        "steal / stole / stolen",
+        "verbo",
+        "robar",
+        "Someone stole my bag."
+       ],
+       [
+        "get lost",
+        "expresión",
+        "perderse",
+        "Have you ever got lost?"
+       ],
+       [
+        "miss a flight",
+        "expresión",
+        "perder un vuelo",
+        "I missed my flight once."
+       ],
+       [
+        "embarrassing",
+        "adjetivo",
+        "vergonzoso",
+        "It was so embarrassing!"
+       ],
+       [
+        "terrible",
+        "adjetivo",
+        "terrible",
+        "It was a terrible experience."
+       ],
+       [
+        "What happened?",
+        "expresión",
+        "¿Qué pasó?",
+        "You lost it? What happened?"
+       ],
+       [
+        "How did it happen?",
+        "expresión",
+        "¿Cómo pasó?",
+        "How did it happen?"
+       ],
+       [
+        "Where were you?",
+        "expresión",
+        "¿Dónde estabas?",
+        "Where were you when it happened?"
+       ],
+       [
+        "Really?",
+        "interjección",
+        "¿En serio?",
+        "Really? What did you do?"
+       ],
+       [
+        "luckily",
+        "adverbio",
+        "por suerte",
+        "Luckily, someone found it."
+       ],
+       [
+        "the police station",
+        "sustantivo",
+        "la estación de policía",
+        "I went to the police station."
+       ]
+      ],
+      "dialogue": {
+       "title": "Malas experiencias de viaje",
+       "scene": "Dos amigos, Pablo y Grace, comparan historias de viajes que salieron mal.",
+       "a": "Grace",
+       "b": "Pablo",
+       "lines": [
+        [
+         "A",
+         "Have you ever missed a flight?",
+         "¿Alguna vez has perdido un vuelo?"
+        ],
+        [
+         "B",
+         "Yes, I have. I missed a flight to Lima last year.",
+         "Sí. Perdí un vuelo a Lima el año pasado."
+        ],
+        [
+         "A",
+         "Oh no! What happened?",
+         "¡Oh no! ¿Qué pasó?"
+        ],
+        [
+         "B",
+         "There was a lot of traffic, and I arrived at the airport twenty minutes late.",
+         "Había mucho tráfico y llegué al aeropuerto veinte minutos tarde."
+        ],
+        [
+         "A",
+         "What did you do?",
+         "¿Qué hiciste?"
+        ],
+        [
+         "B",
+         "I bought another ticket. It was very expensive! Have you ever lost your luggage?",
+         "Compré otro tiquete. ¡Fue muy caro! ¿Alguna vez has perdido tu equipaje?"
+        ],
+        [
+         "A",
+         "Yes, twice! The first time was in Madrid in 2018.",
+         "¡Sí, dos veces! La primera vez fue en Madrid en 2018."
+        ],
+        [
+         "B",
+         "Did they find it?",
+         "¿Lo encontraron?"
+        ],
+        [
+         "A",
+         "Yes, they found it after three days. I wore the same clothes for three days!",
+         "Sí, lo encontraron después de tres días. ¡Usé la misma ropa tres días!"
+        ],
+        [
+         "B",
+         "Ha ha, that's embarrassing! Have you ever got lost in a city?",
+         "¡Ja, ja, qué vergüenza! ¿Alguna vez te has perdido en una ciudad?"
+        ],
+        [
+         "A",
+         "I've got lost many times. I have a terrible sense of direction.",
+         "Me he perdido muchas veces. Tengo muy mal sentido de la orientación."
+        ],
+        [
+         "B",
+         "Me too. Luckily, now we have maps on our phones!",
+         "Yo también. ¡Por suerte, ahora tenemos mapas en el celular!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I ___ to Peru in 2017.",
+        "o": [
+         "have been",
+         "went",
+         "have gone",
+         "go"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "___ you ever lost your keys?",
+        "o": [
+         "Did",
+         "Have",
+         "Were",
+         "Do"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "—Have you seen the movie? —Yes, I ___ it last night.",
+        "o": [
+         "have seen",
+         "saw",
+         "seen",
+         "see"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "When ___ you move to this city?",
+        "ans": [
+         "did"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I've broken my arm twice. The first time I fell off my bike when I was ten.",
+        "q": "¿Cómo se rompió el brazo la primera vez?",
+        "o": [
+         "Jugando fútbol",
+         "Se cayó de la bicicleta",
+         "En un accidente de carro",
+         "Esquiando"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I've been to Cartagena. I went there last December."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Someone",
+         "has",
+         "stolen",
+         "my",
+         "bag!"
+        ],
+        "es": "¡Alguien se robó mi bolso!"
+       },
+       {
+        "t": "order",
+        "words": [
+         "When",
+         "did",
+         "you",
+         "lose",
+         "it?"
+        ],
+        "es": "¿Cuándo lo perdiste?"
+       },
+       {
+        "t": "dict",
+        "say": "I've never missed a flight."
+       },
+       {
+        "t": "dict",
+        "say": "We moved here two years ago."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál está bien?",
+        "o": [
+         "I have seen him yesterday.",
+         "I saw him yesterday.",
+         "I have saw him yesterday.",
+         "I see him yesterday."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "She has ___ (break) her phone again.",
+        "ans": [
+         "broken"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Have you been to the new mall? Yes, I went there on Saturday, but it was too crowded.",
+        "q": "¿Qué problema tenía el centro comercial?",
+        "o": [
+         "Estaba cerrado",
+         "Estaba muy lleno",
+         "Era caro",
+         "Era pequeño"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Cuenta una mala experiencia que hayas tenido (mínimo 40 palabras). Empieza con presente perfecto y da detalles en pasado simple.",
+        "min": 40,
+        "keys": [
+         [
+          "i've",
+          "i have",
+          "have you ever"
+         ],
+         [
+          "was",
+          "were",
+          "went",
+          "lost",
+          "happened",
+          "did"
+         ],
+         [
+          "ago",
+          "last",
+          "in 20",
+          "when"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I ___ my wallet last week.",
+       "o": [
+        "have lost",
+        "lost",
+        "lose",
+        "have lose"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "—Have you ever been to Europe? —Yes, I ___ to France in 2020.",
+       "o": [
+        "have been",
+        "went",
+        "have gone",
+        "was go"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u4-l3",
+      "title": "Just, already y yet",
+      "goal": "Hablar de cosas que acabas de hacer, que ya hiciste o que aún no.",
+      "theory": [
+       {
+        "p": "Con el presente perfecto se usan:"
+       },
+       {
+        "ex": [
+         [
+          "just = acabar de: I've just finished.",
+          "Acabo de terminar."
+         ],
+         [
+          "already = ya (antes de lo esperado): She's already left.",
+          "Ella ya se fue."
+         ],
+         [
+          "yet (negativas) = todavía: I haven't eaten yet.",
+          "Todavía no he comido."
+         ],
+         [
+          "yet (preguntas) = ya: Have you called him yet?",
+          "¿Ya lo llamaste?"
+         ]
+        ]
+       },
+       {
+        "p": "Posición: **just** y **already** van entre have y el participio. **yet** va **al final** de la frase."
+       },
+       {
+        "ex": [
+         [
+          "The train has just arrived.",
+          "El tren acaba de llegar."
+         ],
+         [
+          "Have you done your homework yet? — Not yet.",
+          "¿Ya hiciste la tarea? — Todavía no."
+         ],
+         [
+          "I've already paid the bill.",
+          "Ya pagué la cuenta."
+         ]
+        ]
+       },
+       {
+        "tip": "En inglés americano también se oye el pasado simple con just/already (I just ate). En los exámenes, usa el presente perfecto."
+       }
+      ],
+      "vocab": [
+       [
+        "just",
+        "adverbio",
+        "acabar de",
+        "I've just arrived."
+       ],
+       [
+        "already",
+        "adverbio",
+        "ya",
+        "I've already eaten."
+       ],
+       [
+        "yet",
+        "adverbio",
+        "todavía (negativas); ya (preguntas)",
+        "Have you finished yet?"
+       ],
+       [
+        "not yet",
+        "expresión",
+        "todavía no",
+        "—Ready? —Not yet."
+       ],
+       [
+        "pack",
+        "verbo",
+        "empacar",
+        "Have you packed your bag?"
+       ],
+       [
+        "book",
+        "verbo",
+        "reservar",
+        "I've already booked the hotel."
+       ],
+       [
+        "print",
+        "verbo",
+        "imprimir",
+        "I've just printed the tickets."
+       ],
+       [
+        "charge",
+        "verbo",
+        "cargar (batería)",
+        "Have you charged your phone?"
+       ],
+       [
+        "do the dishes",
+        "expresión",
+        "lavar la loza",
+        "I've already done the dishes."
+       ],
+       [
+        "make the bed",
+        "expresión",
+        "tender la cama",
+        "Have you made your bed yet?"
+       ],
+       [
+        "take out the trash",
+        "expresión",
+        "sacar la basura",
+        "He hasn't taken out the trash yet."
+       ],
+       [
+        "water the plants",
+        "expresión",
+        "regar las plantas",
+        "I've just watered the plants."
+       ],
+       [
+        "feed the cat",
+        "expresión",
+        "darle comida al gato",
+        "Have you fed the cat?"
+       ],
+       [
+        "to-do list",
+        "sustantivo",
+        "lista de pendientes",
+        "Check your to-do list."
+       ],
+       [
+        "tick off",
+        "verbo",
+        "marcar como hecho",
+        "I've ticked off three things."
+       ],
+       [
+        "still",
+        "adverbio",
+        "todavía (afirmativas)",
+        "I still need to pack."
+       ],
+       [
+        "ready",
+        "adjetivo",
+        "listo",
+        "Are you ready yet?"
+       ],
+       [
+        "taxi",
+        "sustantivo",
+        "taxi",
+        "The taxi has just arrived!"
+       ],
+       [
+        "passport",
+        "sustantivo",
+        "pasaporte",
+        "Have you got your passport?"
+       ],
+       [
+        "Hurry up!",
+        "expresión",
+        "¡Apúrate!",
+        "Hurry up! We're late!"
+       ]
+      ],
+      "dialogue": {
+       "title": "Antes de salir de viaje",
+       "scene": "Felipe y su esposa Karen revisan la lista de pendientes antes de irse al aeropuerto.",
+       "a": "Karen",
+       "b": "Felipe",
+       "lines": [
+        [
+         "A",
+         "The taxi is coming in twenty minutes. Have you packed your suitcase yet?",
+         "El taxi viene en veinte minutos. ¿Ya empacaste tu maleta?"
+        ],
+        [
+         "B",
+         "Yes, I've already packed it. It's next to the door.",
+         "Sí, ya la empaqué. Está al lado de la puerta."
+        ],
+        [
+         "A",
+         "Great. Have you printed the boarding passes?",
+         "Genial. ¿Imprimiste los pases de abordar?"
+        ],
+        [
+         "B",
+         "I've just printed them. They're on the table.",
+         "Acabo de imprimirlos. Están en la mesa."
+        ],
+        [
+         "A",
+         "Perfect. Have you fed the cat?",
+         "Perfecto. ¿Le diste comida al gato?"
+        ],
+        [
+         "B",
+         "Not yet. I'll do it now. Have you called your mother?",
+         "Todavía no. Lo hago ahora. ¿Llamaste a tu mamá?"
+        ],
+        [
+         "A",
+         "Yes, I've already called her. She's going to water the plants while we're away.",
+         "Sí, ya la llamé. Ella va a regar las plantas mientras no estamos."
+        ],
+        [
+         "B",
+         "Good. Have you charged your phone?",
+         "Bien. ¿Cargaste tu celular?"
+        ],
+        [
+         "A",
+         "Oh no, I haven't charged it yet! Where's the charger?",
+         "¡Oh no, todavía no lo he cargado! ¿Dónde está el cargador?"
+        ],
+        [
+         "B",
+         "Here. And I still need to take out the trash.",
+         "Aquí. Y todavía tengo que sacar la basura."
+        ],
+        [
+         "A",
+         "Hurry up! Oh, the taxi has just arrived!",
+         "¡Apúrate! ¡Ay, el taxi acaba de llegar!"
+        ],
+        [
+         "B",
+         "OK, OK, I'm ready. Passports? ... Yes, I've got them. Let's go!",
+         "Bueno, bueno, estoy listo. ¿Pasaportes? ... Sí, los tengo. ¡Vámonos!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I've ___ finished my homework. (acabo de)",
+        "o": [
+         "yet",
+         "just",
+         "already yet",
+         "still"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Have you called the doctor ___?",
+        "o": [
+         "already",
+         "just",
+         "yet",
+         "still"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "She hasn't arrived ___.",
+        "o": [
+         "yet",
+         "already",
+         "just",
+         "still"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I've ___ paid the bill, so you don't need to. (ya)",
+        "ans": [
+         "already"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Have you booked the hotel yet? Yes, I've already booked it, and I've just bought the plane tickets.",
+        "q": "¿Qué acaba de comprar?",
+        "o": [
+         "El hotel",
+         "Los tiquetes de avión",
+         "Las maletas",
+         "Nada"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I've just finished work and I haven't had dinner yet."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Have",
+         "you",
+         "made",
+         "your",
+         "bed",
+         "yet?"
+        ],
+        "es": "¿Ya tendiste tu cama?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "train",
+         "has",
+         "just",
+         "arrived."
+        ],
+        "es": "El tren acaba de llegar."
+       },
+       {
+        "t": "dict",
+        "say": "I haven't taken out the trash yet."
+       },
+       {
+        "t": "dict",
+        "say": "We've already booked the hotel."
+       },
+       {
+        "t": "mc",
+        "q": "Posición correcta de yet:",
+        "o": [
+         "I haven't yet eaten.",
+         "I haven't eaten yet.",
+         "I yet haven't eaten.",
+         "Yet I haven't eaten."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "—Are you ready? —Not ___. Give me five minutes.",
+        "ans": [
+         "yet"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Mom, I've already done the dishes, but I haven't made my bed yet.",
+        "q": "¿Qué no ha hecho todavía?",
+        "o": [
+         "Lavar la loza",
+         "Tender la cama",
+         "Sacar la basura",
+         "Hacer tareas"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe tu lista de pendientes de hoy diciendo qué ya hiciste, qué acabas de hacer y qué todavía no (mínimo 30 palabras).",
+        "min": 30,
+        "keys": [
+         [
+          "already"
+         ],
+         [
+          "just"
+         ],
+         [
+          "yet"
+         ],
+         [
+          "i've",
+          "i have",
+          "i haven't"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "—Is John here? —No, he's ___ left.",
+       "o": [
+        "yet",
+        "already",
+        "still",
+        "ever"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Have you finished the report ___? (ya, en pregunta)",
+       "ans": [
+        "yet"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u4-l4",
+      "title": "For y since: ¿desde cuándo?",
+      "goal": "Decir cuánto tiempo llevas haciendo algo.",
+      "theory": [
+       {
+        "p": "Para algo que **empezó en el pasado y sigue ahora** se usa el presente perfecto con **for** o **since**."
+       },
+       {
+        "ex": [
+         [
+          "I've lived here for ten years.",
+          "Vivo aquí hace diez años."
+         ],
+         [
+          "She has worked at the bank since 2018.",
+          "Ella trabaja en el banco desde 2018."
+         ],
+         [
+          "How long have you known him?",
+          "¿Hace cuánto lo conoces?"
+         ],
+         [
+          "We've been married for twenty years.",
+          "Llevamos veinte años casados."
+         ]
+        ]
+       },
+       {
+        "p": "**for** + período de tiempo (for two weeks, for a long time). **since** + punto de inicio (since Monday, since 2010, since I was a child)."
+       },
+       {
+        "tip": "En español se dice 'vivo aquí hace diez años' (presente), pero en inglés NO: 'I live here for ten years' está mal. Es 'I've lived here for ten years'."
+       }
+      ],
+      "vocab": [
+       [
+        "for",
+        "preposición",
+        "por, durante (período)",
+        "I've worked here for five years."
+       ],
+       [
+        "since",
+        "preposición",
+        "desde (punto de inicio)",
+        "I've lived here since 2015."
+       ],
+       [
+        "How long...?",
+        "expresión",
+        "¿Hace cuánto...? / ¿Cuánto tiempo...?",
+        "How long have you studied English?"
+       ],
+       [
+        "known",
+        "verbo (participio de know)",
+        "conocido",
+        "I've known her since school."
+       ],
+       [
+        "married",
+        "adjetivo",
+        "casado",
+        "We've been married for ten years."
+       ],
+       [
+        "a long time",
+        "expresión",
+        "mucho tiempo",
+        "I haven't seen him for a long time."
+       ],
+       [
+        "ages",
+        "sustantivo (informal)",
+        "siglos, mucho tiempo",
+        "I haven't seen you for ages!"
+       ],
+       [
+        "since I was a child",
+        "expresión",
+        "desde que era niño",
+        "I've loved music since I was a child."
+       ],
+       [
+        "company",
+        "sustantivo",
+        "empresa",
+        "I've been at this company for years."
+       ],
+       [
+        "position",
+        "sustantivo",
+        "cargo",
+        "I've had this position since May."
+       ],
+       [
+        "experience",
+        "sustantivo",
+        "experiencia",
+        "I have five years of experience."
+       ],
+       [
+        "colleague",
+        "sustantivo",
+        "colega",
+        "We've been colleagues for a long time."
+       ],
+       [
+        "neighbor",
+        "sustantivo",
+        "vecino",
+        "He's been our neighbor since 2010."
+       ],
+       [
+        "own",
+        "verbo",
+        "ser dueño de",
+        "I've owned this car for six years."
+       ],
+       [
+        "member",
+        "sustantivo",
+        "miembro, socio",
+        "I've been a member since January."
+       ],
+       [
+        "recently",
+        "adverbio",
+        "recientemente",
+        "I've moved recently."
+       ],
+       [
+        "lately",
+        "adverbio",
+        "últimamente",
+        "I haven't slept well lately."
+       ],
+       [
+        "catch up",
+        "verbo",
+        "ponerse al día",
+        "Let's catch up!"
+       ],
+       [
+        "It's been a while!",
+        "expresión",
+        "¡Hace tiempo!",
+        "Hi! It's been a while!"
+       ],
+       [
+        "What have you been up to?",
+        "expresión",
+        "¿Qué has hecho? ¿En qué andas?",
+        "What have you been up to lately?"
+       ]
+      ],
+      "dialogue": {
+       "title": "Reencuentro con un viejo amigo",
+       "scene": "Natalia se encuentra en un supermercado con Leo, un amigo del colegio que no veía hace años.",
+       "a": "Natalia",
+       "b": "Leo",
+       "lines": [
+        [
+         "A",
+         "Leo? Is that you? I haven't seen you for ages!",
+         "¿Leo? ¿Eres tú? ¡No te veía hace siglos!"
+        ],
+        [
+         "B",
+         "Natalia! Wow, it's been a while! How long has it been?",
+         "¡Natalia! ¡Wow, hace tiempo! ¿Cuánto ha pasado?"
+        ],
+        [
+         "A",
+         "I think we haven't seen each other since we finished school. That's fifteen years!",
+         "Creo que no nos vemos desde que terminamos el colegio. ¡Son quince años!"
+        ],
+        [
+         "B",
+         "Unbelievable. So, what have you been up to?",
+         "Increíble. Entonces, ¿en qué andas?"
+        ],
+        [
+         "A",
+         "I've been a teacher for ten years. I work at a school in the north.",
+         "Llevo diez años como profesora. Trabajo en un colegio en el norte."
+        ],
+        [
+         "B",
+         "That's great. Are you married?",
+         "¡Qué bien! ¿Estás casada?"
+        ],
+        [
+         "A",
+         "Yes, I've been married for eight years. We have two kids. And you?",
+         "Sí, llevo ocho años casada. Tenemos dos hijos. ¿Y tú?"
+        ],
+        [
+         "B",
+         "I've lived in Canada since 2015, but I'm here on vacation.",
+         "Vivo en Canadá desde 2015, pero estoy aquí de vacaciones."
+        ],
+        [
+         "A",
+         "Canada! How long are you staying?",
+         "¡Canadá! ¿Cuánto tiempo te quedas?"
+        ],
+        [
+         "B",
+         "For three weeks. I've missed Colombian food so much!",
+         "Tres semanas. ¡He extrañado mucho la comida colombiana!"
+        ],
+        [
+         "A",
+         "Let's meet for lunch and catch up properly. Are you free on Sunday?",
+         "Almorcemos y nos ponemos al día bien. ¿Estás libre el domingo?"
+        ],
+        [
+         "B",
+         "Sure! I'll bring photos of my family. It's so good to see you!",
+         "¡Claro! Llevo fotos de mi familia. ¡Qué bueno verte!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I've lived in this city ___ 2012.",
+        "o": [
+         "for",
+         "since",
+         "ago",
+         "during"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "She's worked here ___ six months.",
+        "o": [
+         "since",
+         "for",
+         "ago",
+         "from"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'Vivo aquí hace 5 años' en inglés:",
+        "o": [
+         "I live here for 5 years.",
+         "I've lived here for 5 years.",
+         "I lived here since 5 years.",
+         "I'm living here 5 years ago."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "How ___ have you known your best friend?",
+        "ans": [
+         "long"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I've worked at this company since 2019, but I've only had this position for six months.",
+        "q": "¿Desde cuándo trabaja en la empresa?",
+        "o": [
+         "Seis meses",
+         "2019",
+         "2009",
+         "Diez años"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I've studied English for two years."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "How",
+         "long",
+         "have",
+         "you",
+         "lived",
+         "here?"
+        ],
+        "es": "¿Hace cuánto vives aquí?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "We've",
+         "been",
+         "married",
+         "for",
+         "twenty",
+         "years."
+        ],
+        "es": "Llevamos veinte años casados."
+       },
+       {
+        "t": "dict",
+        "say": "I haven't seen you for ages!"
+       },
+       {
+        "t": "dict",
+        "say": "I've known her since we were children."
+       },
+       {
+        "t": "mc",
+        "q": "I haven't slept well ___. (últimamente)",
+        "o": [
+         "lately",
+         "since",
+         "ago",
+         "for"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "He's been our neighbor ___ 2010.",
+        "ans": [
+         "since"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Hi, Marta! It's been a while! What have you been up to?",
+        "q": "¿Qué pregunta la persona?",
+        "o": [
+         "¿Dónde vives?",
+         "¿En qué andas?",
+         "¿Cuántos años tienes?",
+         "¿Qué hora es?"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre tu vida usando for y since (mínimo 35 palabras): dónde vives, tu trabajo o estudio, y a quién conoces hace mucho.",
+        "min": 35,
+        "keys": [
+         [
+          "for"
+         ],
+         [
+          "since"
+         ],
+         [
+          "i've",
+          "i have"
+         ],
+         [
+          "lived",
+          "worked",
+          "known",
+          "studied",
+          "been"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I've had this car ___ ten years.",
+       "o": [
+        "since",
+        "for",
+        "ago",
+        "during"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "We have known each other ___ we were at school.",
+       "o": [
+        "for",
+        "since",
+        "ago",
+        "when"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u4-l5",
+      "title": "Hablar de logros y experiencias",
+      "goal": "Contar tus logros y experiencias más importantes en una conversación.",
+      "theory": [
+       {
+        "p": "En una entrevista o al conocer a alguien es normal hablar de **logros** con presente perfecto, y dar **detalles** con pasado simple."
+       },
+       {
+        "ex": [
+         [
+          "I've worked in tourism for eight years.",
+          "Llevo ocho años trabajando en turismo."
+         ],
+         [
+          "I've organized events for 500 people.",
+          "He organizado eventos para 500 personas."
+         ],
+         [
+          "Last year I won the best employee award.",
+          "El año pasado gané el premio a mejor empleado."
+         ],
+         [
+          "I've learned a lot from that experience.",
+          "He aprendido mucho de esa experiencia."
+         ]
+        ]
+       },
+       {
+        "p": "Expresiones para hablar de **orgullo** y **resultados**: I'm proud of..., I managed to..., It helped me to..., The most important thing I've done is..."
+       },
+       {
+        "tip": "So far = hasta ahora: So far, I've visited twelve countries. Up to now significa lo mismo."
+       }
+      ],
+      "vocab": [
+       [
+        "achievement",
+        "sustantivo",
+        "logro",
+        "My biggest achievement is my family."
+       ],
+       [
+        "achieve",
+        "verbo",
+        "lograr",
+        "I've achieved my goals."
+       ],
+       [
+        "proud of",
+        "expresión",
+        "orgulloso de",
+        "I'm proud of my kids."
+       ],
+       [
+        "manage to",
+        "verbo",
+        "lograr (con esfuerzo)",
+        "I managed to finish on time."
+       ],
+       [
+        "award",
+        "sustantivo",
+        "premio, reconocimiento",
+        "She won an award."
+       ],
+       [
+        "prize",
+        "sustantivo",
+        "premio",
+        "He won first prize."
+       ],
+       [
+        "degree",
+        "sustantivo",
+        "título universitario",
+        "I have a degree in economics."
+       ],
+       [
+        "graduate",
+        "verbo",
+        "graduarse",
+        "I graduated in 2010."
+       ],
+       [
+        "promotion",
+        "sustantivo",
+        "ascenso",
+        "I got a promotion last year."
+       ],
+       [
+        "run a marathon",
+        "expresión",
+        "correr una maratón",
+        "I've run two marathons."
+       ],
+       [
+        "raise money",
+        "expresión",
+        "recaudar dinero",
+        "We raised money for charity."
+       ],
+       [
+        "volunteer",
+        "verbo / sustantivo",
+        "ser voluntario; voluntario",
+        "I've volunteered at a hospital."
+       ],
+       [
+        "so far",
+        "expresión",
+        "hasta ahora",
+        "So far, it's been great."
+       ],
+       [
+        "skills",
+        "sustantivo",
+        "habilidades",
+        "I've improved my skills."
+       ],
+       [
+        "improve",
+        "verbo",
+        "mejorar",
+        "My English has improved a lot."
+       ],
+       [
+        "challenge",
+        "sustantivo",
+        "reto",
+        "It was a big challenge."
+       ],
+       [
+        "experience in",
+        "expresión",
+        "experiencia en",
+        "I have experience in sales."
+       ],
+       [
+        "team",
+        "sustantivo",
+        "equipo",
+        "I've led a team of ten people."
+       ],
+       [
+        "lead / led / led",
+        "verbo",
+        "liderar",
+        "I've led many projects."
+       ],
+       [
+        "successful",
+        "adjetivo",
+        "exitoso",
+        "It was a successful project."
+       ]
+      ],
+      "dialogue": {
+       "title": "Entrevista para un trabajo en un hotel",
+       "scene": "La gerente de recursos humanos entrevista a Juliana para un puesto de coordinadora de eventos.",
+       "a": "Gerente",
+       "b": "Juliana",
+       "lines": [
+        [
+         "A",
+         "Tell me about your experience, Juliana.",
+         "Cuénteme de su experiencia, Juliana."
+        ],
+        [
+         "B",
+         "I've worked in tourism for eight years. I've been an events assistant since 2020.",
+         "Llevo ocho años trabajando en turismo. Soy asistente de eventos desde 2020."
+        ],
+        [
+         "A",
+         "What kind of events have you organized?",
+         "¿Qué tipo de eventos ha organizado?"
+        ],
+        [
+         "B",
+         "I've organized weddings, conferences and concerts. The biggest one had 800 guests.",
+         "He organizado bodas, conferencias y conciertos. El más grande tuvo 800 invitados."
+        ],
+        [
+         "A",
+         "Impressive. What is your biggest achievement?",
+         "Impresionante. ¿Cuál es su mayor logro?"
+        ],
+        [
+         "B",
+         "Last year I managed to organize an international conference in only one month.",
+         "El año pasado logré organizar una conferencia internacional en solo un mes."
+        ],
+        [
+         "A",
+         "Was it successful?",
+         "¿Fue exitosa?"
+        ],
+        [
+         "B",
+         "Yes, it was. We received excellent feedback, and I got a promotion after that.",
+         "Sí. Recibimos excelentes comentarios y me ascendieron después de eso."
+        ],
+        [
+         "A",
+         "Have you ever led a team?",
+         "¿Alguna vez ha liderado un equipo?"
+        ],
+        [
+         "B",
+         "Yes, I have. I've led a team of six people for two years.",
+         "Sí. He liderado un equipo de seis personas durante dos años."
+        ],
+        [
+         "A",
+         "And your English? Have you studied abroad?",
+         "¿Y su inglés? ¿Ha estudiado en el exterior?"
+        ],
+        [
+         "B",
+         "No, I haven't, but I've studied for three years and it has improved a lot. I'm very proud of that.",
+         "No, pero he estudiado tres años y ha mejorado mucho. Estoy muy orgullosa de eso."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I'm very proud ___ my children.",
+        "o": [
+         "for",
+         "of",
+         "with",
+         "about to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Last year I ___ a promotion.",
+        "o": [
+         "have got",
+         "got",
+         "get",
+         "have get"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "So far, I ___ three marathons.",
+        "o": [
+         "ran",
+         "have run",
+         "run",
+         "running"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I managed ___ finish the project on time.",
+        "ans": [
+         "to"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I've volunteered at a children's hospital for three years. It's the best thing I've ever done.",
+        "q": "¿Dónde es voluntaria?",
+        "o": [
+         "En un colegio",
+         "En un hospital de niños",
+         "En un albergue de animales",
+         "En una iglesia"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I've worked in sales for five years and I'm proud of my results."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "My",
+         "English",
+         "has",
+         "improved",
+         "a",
+         "lot."
+        ],
+        "es": "Mi inglés ha mejorado mucho."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "have",
+         "experience",
+         "in",
+         "customer",
+         "service."
+        ],
+        "es": "Tengo experiencia en servicio al cliente."
+       },
+       {
+        "t": "dict",
+        "say": "I graduated from university in 2012."
+       },
+       {
+        "t": "dict",
+        "say": "So far, I've visited ten countries."
+       },
+       {
+        "t": "mc",
+        "q": "'Recaudar dinero' es:",
+        "o": [
+         "raise money",
+         "rise money",
+         "collect up",
+         "make money"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "She has ___ (lead) the team since January.",
+        "ans": [
+         "led"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "My biggest challenge was learning English. I started at forty, and now I can work with international clients.",
+        "q": "¿A qué edad empezó a estudiar inglés?",
+        "o": [
+         "20",
+         "30",
+         "40",
+         "50"
+        ],
+        "a": 2
+       },
+       {
+        "t": "write",
+        "q": "Escribe un párrafo para una entrevista de trabajo sobre tu experiencia y tu mayor logro (mínimo 45 palabras).",
+        "min": 45,
+        "keys": [
+         [
+          "i've",
+          "i have"
+         ],
+         [
+          "for",
+          "since"
+         ],
+         [
+          "proud",
+          "achievement",
+          "managed"
+         ],
+         [
+          "last",
+          "in 20",
+          "ago"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "—What's your biggest achievement? —___",
+       "o": [
+        "I've learned English while working full time.",
+        "I achievement my goals.",
+        "I'm proud for my job.",
+        "I have achieve a promotion."
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I have experience ___ marketing.",
+       "o": [
+        "on",
+        "in",
+        "of",
+        "at"
+       ],
+       "a": 1
+      },
+      "reading": 3,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "Have you ever ___ to Mexico?",
+      "o": [
+       "went",
+       "been",
+       "gone to",
+       "be"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I ___ him at a party in 2015.",
+      "o": [
+       "have met",
+       "met",
+       "meet",
+       "have meet"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I haven't finished my homework ___.",
+      "o": [
+       "already",
+       "just",
+       "yet",
+       "still"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "She has worked here ___ three years.",
+      "o": [
+       "since",
+       "for",
+       "ago",
+       "during"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The movie has ___ started. Hurry up!",
+      "o": [
+       "yet",
+       "just",
+       "since",
+       "ever"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "We've lived in this house ___ 2008.",
+      "ans": [
+       "since"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "I've never been to Asia, but I've visited six countries in Europe.",
+      "q": "¿Cuántos países de Europa ha visitado?",
+      "o": [
+       "2",
+       "6",
+       "8",
+       "Ninguno"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Have you paid the rent yet? Yes, I paid it yesterday morning.",
+      "q": "¿Cuándo pagó el arriendo?",
+      "o": [
+       "Hoy",
+       "Ayer en la mañana",
+       "La semana pasada",
+       "No lo ha pagado"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe sobre tus experiencias de vida (mínimo 40 palabras): algo que has hecho muchas veces, algo que nunca has hecho y desde cuándo haces algo que te gusta.",
+      "min": 40,
+      "keys": [
+       [
+        "i've",
+        "i have"
+       ],
+       [
+        "never"
+       ],
+       [
+        "for",
+        "since"
+       ],
+       [
+        "was",
+        "went",
+        "did",
+        "last",
+        "ago"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I've lived in Bogotá for ten years and I've never been to the Amazon."
+     },
+     {
+      "t": "oral",
+      "text": "Have you ever met a famous person?"
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "She's ___ to the supermarket. She'll be back soon.",
+      "o": [
+       "been",
+       "gone",
+       "went",
+       "go"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I ___ my keys. I can't find them anywhere!",
+      "o": [
+       "lost",
+       "have lost",
+       "lose",
+       "am losing"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "—Have you had lunch yet? —___",
+      "o": [
+       "Yes, I've already had it.",
+       "Yes, I already have it yet.",
+       "Yes, I'm had.",
+       "Not already."
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "How long ___ you known your wife?",
+      "o": [
+       "did",
+       "have",
+       "are",
+       "do"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I've been here ___ two o'clock.",
+      "o": [
+       "for",
+       "since",
+       "ago",
+       "during"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "El participio de write es:",
+      "o": [
+       "wrote",
+       "written",
+       "writed",
+       "writing"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "I've never ___ (swim) in the ocean.",
+      "ans": [
+       "swum"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "I've ___ (just) arrived. Give me a minute.",
+      "ans": [
+       "just"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "My parents have been married for forty years. They met at university in 1983.",
+      "q": "¿Hace cuánto están casados?",
+      "o": [
+       "30 años",
+       "40 años",
+       "1983",
+       "20 años"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "I haven't called the bank yet because I've been very busy this week.",
+      "q": "¿Por qué no ha llamado al banco?",
+      "o": [
+       "Se le olvidó",
+       "Ha estado muy ocupado",
+       "El banco estaba cerrado",
+       "No tiene teléfono"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "So far, we've raised two thousand dollars for the children's hospital.",
+      "q": "¿Cuánto dinero han recaudado?",
+      "o": [
+       "$200",
+       "$2,000",
+       "$20,000",
+       "$12,000"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe un mensaje a un amigo que no ves hace tiempo contándole qué has hecho últimamente (mínimo 40 palabras).",
+      "min": 40,
+      "keys": [
+       [
+        "haven't seen",
+        "it's been",
+        "for ages",
+        "a while"
+       ],
+       [
+        "i've",
+        "i have"
+       ],
+       [
+        "just",
+        "already",
+        "yet",
+        "recently",
+        "lately"
+       ],
+       [
+        "since",
+        "for"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I've already done the dishes, but I haven't made my bed yet."
+     },
+     {
+      "t": "oral",
+      "text": "I've worked at this company since 2019."
+     },
+     {
+      "t": "oral",
+      "text": "I'm very proud of my family."
+     }
+    ]
+   },
+   {
+    "title": "Salud y obligaciones",
+    "lessons": [
+     {
+      "id": "a2-u5-l1",
+      "title": "El cuerpo y la salud",
+      "goal": "Decir qué te duele y cómo te sientes.",
+      "theory": [
+       {
+        "p": "Para preguntar qué le pasa a alguien: **What's the matter?** / **What's wrong?** / **Are you OK?**"
+       },
+       {
+        "p": "Para dolores se usa **have + a + ...ache** o **my ... hurts**:"
+       },
+       {
+        "ex": [
+         [
+          "I have a headache.",
+          "Tengo dolor de cabeza."
+         ],
+         [
+          "She has a stomachache.",
+          "Tiene dolor de estómago."
+         ],
+         [
+          "My back hurts.",
+          "Me duele la espalda."
+         ],
+         [
+          "My feet hurt.",
+          "Me duelen los pies."
+         ]
+        ]
+       },
+       {
+        "p": "Otras dolencias: **a cold** (gripa), **a fever** (fiebre), **a cough** (tos), **a sore throat** (dolor de garganta), **the flu** (influenza)."
+       },
+       {
+        "ex": [
+         [
+          "I feel sick.",
+          "Me siento mal / con náuseas."
+         ],
+         [
+          "I don't feel well.",
+          "No me siento bien."
+         ],
+         [
+          "I feel much better now.",
+          "Me siento mucho mejor ahora."
+         ]
+        ]
+       },
+       {
+        "tip": "En inglés el dolor 'es de la persona': My head hurts (no 'The head hurts me')."
+       }
+      ],
+      "vocab": [
+       [
+        "head",
+        "sustantivo",
+        "cabeza",
+        "My head hurts."
+       ],
+       [
+        "back",
+        "sustantivo",
+        "espalda",
+        "I have back pain."
+       ],
+       [
+        "stomach",
+        "sustantivo",
+        "estómago",
+        "My stomach hurts."
+       ],
+       [
+        "throat",
+        "sustantivo",
+        "garganta",
+        "I have a sore throat."
+       ],
+       [
+        "tooth / teeth",
+        "sustantivo",
+        "diente / dientes",
+        "I have a toothache."
+       ],
+       [
+        "arm",
+        "sustantivo",
+        "brazo",
+        "I broke my arm."
+       ],
+       [
+        "leg",
+        "sustantivo",
+        "pierna",
+        "My leg hurts."
+       ],
+       [
+        "knee",
+        "sustantivo",
+        "rodilla",
+        "I hurt my knee."
+       ],
+       [
+        "shoulder",
+        "sustantivo",
+        "hombro",
+        "My shoulder is sore."
+       ],
+       [
+        "headache",
+        "sustantivo",
+        "dolor de cabeza",
+        "I have a terrible headache."
+       ],
+       [
+        "stomachache",
+        "sustantivo",
+        "dolor de estómago",
+        "He has a stomachache."
+       ],
+       [
+        "cold",
+        "sustantivo",
+        "gripa, resfriado",
+        "I have a cold."
+       ],
+       [
+        "fever",
+        "sustantivo",
+        "fiebre",
+        "The baby has a fever."
+       ],
+       [
+        "cough",
+        "sustantivo / verbo",
+        "tos; toser",
+        "I have a bad cough."
+       ],
+       [
+        "sore",
+        "adjetivo",
+        "adolorido",
+        "I have a sore throat."
+       ],
+       [
+        "hurt",
+        "verbo",
+        "doler; lastimar",
+        "My feet hurt."
+       ],
+       [
+        "feel sick",
+        "expresión",
+        "sentirse mal, con náuseas",
+        "I feel sick."
+       ],
+       [
+        "What's the matter?",
+        "expresión",
+        "¿Qué te pasa?",
+        "You look pale. What's the matter?"
+       ],
+       [
+        "get better",
+        "expresión",
+        "mejorarse",
+        "Get better soon!"
+       ],
+       [
+        "pain",
+        "sustantivo",
+        "dolor",
+        "I have a lot of pain."
+       ]
+      ],
+      "dialogue": {
+       "title": "Llamando para avisar que está enfermo",
+       "scene": "Sebastián llama a su jefa, Ms. Clark, para decirle que no puede ir a trabajar.",
+       "a": "Ms. Clark",
+       "b": "Sebastián",
+       "lines": [
+        [
+         "A",
+         "Hello, Sebastián. Is everything OK?",
+         "Hola, Sebastián. ¿Todo bien?"
+        ],
+        [
+         "B",
+         "Good morning, Ms. Clark. I'm sorry, but I don't feel well today.",
+         "Buenos días, señora Clark. Lo siento, pero hoy no me siento bien."
+        ],
+        [
+         "A",
+         "Oh no. What's the matter?",
+         "Oh no. ¿Qué te pasa?"
+        ],
+        [
+         "B",
+         "I have a fever and a terrible headache. My throat is very sore too.",
+         "Tengo fiebre y un dolor de cabeza terrible. También me duele mucho la garganta."
+        ],
+        [
+         "A",
+         "That sounds like the flu. Have you been to the doctor?",
+         "Suena a influenza. ¿Has ido al médico?"
+        ],
+        [
+         "B",
+         "Not yet. I have an appointment at eleven.",
+         "Todavía no. Tengo cita a las once."
+        ],
+        [
+         "A",
+         "Good. Do you have a cough?",
+         "Bien. ¿Tienes tos?"
+        ],
+        [
+         "B",
+         "Yes, a little. And my whole body hurts.",
+         "Sí, un poco. Y me duele todo el cuerpo."
+        ],
+        [
+         "A",
+         "Stay at home today and tomorrow. Don't worry about the report.",
+         "Quédate en casa hoy y mañana. No te preocupes por el informe."
+        ],
+        [
+         "B",
+         "Thank you. I'll send it as soon as I feel better.",
+         "Gracias. Lo envío apenas me sienta mejor."
+        ],
+        [
+         "A",
+         "Drink lots of water and rest. Get better soon!",
+         "Toma mucha agua y descansa. ¡Que te mejores!"
+        ],
+        [
+         "B",
+         "Thank you very much. I'll call you tomorrow.",
+         "Muchas gracias. La llamo mañana."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I have a ___. My head hurts.",
+        "o": [
+         "stomachache",
+         "headache",
+         "backache",
+         "toothache"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "—___? —I have a cold.",
+        "o": [
+         "What's the matter?",
+         "How are you old?",
+         "What's your matter?",
+         "What do you have hurt?"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "My feet ___ after the walk.",
+        "o": [
+         "hurts",
+         "hurt",
+         "is hurting me",
+         "hurted"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I have a ___ throat. I can't talk. (adolorida)",
+        "ans": [
+         "sore"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I'm not going to the gym today. My knee hurts and I have a cold.",
+        "q": "¿Qué le duele?",
+        "o": [
+         "La espalda",
+         "La rodilla",
+         "El hombro",
+         "La cabeza"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I don't feel well. I have a fever and a sore throat."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "My",
+         "back",
+         "hurts",
+         "a",
+         "lot."
+        ],
+        "es": "Me duele mucho la espalda."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "feel",
+         "much",
+         "better",
+         "now."
+        ],
+        "es": "Me siento mucho mejor ahora."
+       },
+       {
+        "t": "dict",
+        "say": "The baby has a high fever."
+       },
+       {
+        "t": "dict",
+        "say": "Get better soon!"
+       },
+       {
+        "t": "mc",
+        "q": "'Gripa' en inglés es:",
+        "o": [
+         "a cold",
+         "a cool",
+         "a fever",
+         "a hot"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál está bien?",
+        "o": [
+         "The head hurts me.",
+         "My head hurts.",
+         "I hurt the head.",
+         "Me hurts the head."
+        ],
+        "a": 1
+       },
+       {
+        "t": "listen",
+        "say": "My son had a stomachache last night, but this morning he feels much better.",
+        "q": "¿Cómo está el hijo hoy?",
+        "o": [
+         "Peor",
+         "Mucho mejor",
+         "Igual",
+         "En el hospital"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un mensaje a tu jefe o profesor explicando que estás enfermo (mínimo 30 palabras).",
+        "min": 30,
+        "keys": [
+         [
+          "i don't feel well",
+          "i feel sick",
+          "i'm sick",
+          "i have"
+         ],
+         [
+          "headache",
+          "fever",
+          "cold",
+          "cough",
+          "sore",
+          "hurts",
+          "flu"
+         ],
+         [
+          "sorry"
+         ],
+         [
+          "doctor",
+          "home",
+          "rest"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I ate too much. I have a ___.",
+       "o": [
+        "headache",
+        "stomachache",
+        "sore throat",
+        "cough"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Le deseas a alguien que se mejore:",
+       "o": [
+        "Get better soon!",
+        "Be better now!",
+        "Make better!",
+        "Feel good soon you!"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u5-l2",
+      "title": "Should: dar consejos",
+      "goal": "Dar y pedir consejos con should y shouldn't.",
+      "theory": [
+       {
+        "p": "**should + verbo** = debería (consejo). **shouldn't** = no debería. Es igual para todas las personas."
+       },
+       {
+        "ex": [
+         [
+          "You should see a doctor.",
+          "Deberías ver a un médico."
+         ],
+         [
+          "You shouldn't eat so much sugar.",
+          "No deberías comer tanta azúcar."
+         ],
+         [
+          "What should I do?",
+          "¿Qué debería hacer?"
+         ],
+         [
+          "Should I call him?",
+          "¿Debería llamarlo?"
+         ]
+        ]
+       },
+       {
+        "p": "Otras formas de aconsejar: **Why don't you...?** (¿Por qué no...?), **If I were you, I'd...** (Yo en tu lugar...), **It's a good idea to...**"
+       },
+       {
+        "ex": [
+         [
+          "Why don't you take a break?",
+          "¿Por qué no tomas un descanso?"
+         ],
+         [
+          "If I were you, I'd go to bed early.",
+          "Yo en tu lugar me acostaría temprano."
+         ]
+        ]
+       },
+       {
+        "tip": "Después de should el verbo va sin to: You should rest (no 'should to rest')."
+       }
+      ],
+      "vocab": [
+       [
+        "should",
+        "verbo modal",
+        "debería",
+        "You should drink more water."
+       ],
+       [
+        "shouldn't",
+        "verbo modal",
+        "no debería",
+        "You shouldn't smoke."
+       ],
+       [
+        "advice",
+        "sustantivo",
+        "consejo (incontable)",
+        "Can you give me some advice?"
+       ],
+       [
+        "advise",
+        "verbo",
+        "aconsejar",
+        "The doctor advised me to rest."
+       ],
+       [
+        "rest",
+        "verbo / sustantivo",
+        "descansar; descanso",
+        "You should rest."
+       ],
+       [
+        "take medicine",
+        "expresión",
+        "tomar medicina",
+        "Take this medicine twice a day."
+       ],
+       [
+        "see a doctor",
+        "expresión",
+        "ir al médico",
+        "You should see a doctor."
+       ],
+       [
+        "stay in bed",
+        "expresión",
+        "quedarse en cama",
+        "Stay in bed today."
+       ],
+       [
+        "drink plenty of water",
+        "expresión",
+        "tomar mucha agua",
+        "Drink plenty of water."
+       ],
+       [
+        "get some sleep",
+        "expresión",
+        "dormir un poco",
+        "You should get some sleep."
+       ],
+       [
+        "exercise",
+        "verbo / sustantivo",
+        "hacer ejercicio",
+        "You should exercise more."
+       ],
+       [
+        "healthy diet",
+        "sustantivo",
+        "dieta saludable",
+        "Eat a healthy diet."
+       ],
+       [
+        "stress",
+        "sustantivo",
+        "estrés",
+        "I have a lot of stress."
+       ],
+       [
+        "stressed",
+        "adjetivo",
+        "estresado",
+        "I feel stressed."
+       ],
+       [
+        "relax",
+        "verbo",
+        "relajarse",
+        "You should relax."
+       ],
+       [
+        "take a break",
+        "expresión",
+        "tomar un descanso",
+        "Take a break from work."
+       ],
+       [
+        "Why don't you...?",
+        "expresión",
+        "¿Por qué no...?",
+        "Why don't you call her?"
+       ],
+       [
+        "If I were you...",
+        "expresión",
+        "Yo en tu lugar...",
+        "If I were you, I'd stay."
+       ],
+       [
+        "It's a good idea to...",
+        "expresión",
+        "Es buena idea...",
+        "It's a good idea to walk."
+       ],
+       [
+        "habit",
+        "sustantivo",
+        "hábito",
+        "Smoking is a bad habit."
+       ]
+      ],
+      "dialogue": {
+       "title": "Consejos para dormir mejor",
+       "scene": "Tomás le cuenta a su amiga Elena que no duerme bien. Ella le da consejos.",
+       "a": "Tomás",
+       "b": "Elena",
+       "lines": [
+        [
+         "A",
+         "I'm so tired. I haven't slept well for weeks.",
+         "Estoy muy cansado. Llevo semanas sin dormir bien."
+        ],
+        [
+         "B",
+         "Oh no. What time do you go to bed?",
+         "Oh no. ¿A qué hora te acuestas?"
+        ],
+        [
+         "A",
+         "Around one or two a.m. I watch series on my phone in bed.",
+         "Como a la una o dos de la mañana. Veo series en el celular en la cama."
+        ],
+        [
+         "B",
+         "You shouldn't use your phone in bed. The light keeps you awake.",
+         "No deberías usar el celular en la cama. La luz te mantiene despierto."
+        ],
+        [
+         "A",
+         "Really? What should I do?",
+         "¿En serio? ¿Qué debería hacer?"
+        ],
+        [
+         "B",
+         "You should read a book instead. And you should go to bed at the same time every night.",
+         "Deberías leer un libro en lugar de eso. Y deberías acostarte a la misma hora todas las noches."
+        ],
+        [
+         "A",
+         "OK. I also drink a lot of coffee. Is that a problem?",
+         "Bueno. También tomo mucho café. ¿Es un problema?"
+        ],
+        [
+         "B",
+         "Yes! You shouldn't drink coffee after three p.m.",
+         "¡Sí! No deberías tomar café después de las tres de la tarde."
+        ],
+        [
+         "A",
+         "Hmm, that's hard. I love coffee.",
+         "Mmm, eso es difícil. Me encanta el café."
+        ],
+        [
+         "B",
+         "Why don't you try herbal tea at night? And it's a good idea to exercise during the day.",
+         "¿Por qué no pruebas una aromática en la noche? Y es buena idea hacer ejercicio en el día."
+        ],
+        [
+         "A",
+         "If I do all that, will I sleep better?",
+         "Si hago todo eso, ¿dormiré mejor?"
+        ],
+        [
+         "B",
+         "I'm sure you will. And if I were you, I'd talk to a doctor if it doesn't improve.",
+         "Seguro que sí. Y yo en tu lugar hablaría con un médico si no mejora."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "You look tired. You ___ go to bed early.",
+        "o": [
+         "should",
+         "shouldn't",
+         "should to",
+         "must to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "You ___ eat so much fast food.",
+        "o": [
+         "should",
+         "shouldn't",
+         "should not to",
+         "don't should"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "—I have a toothache. —___",
+        "o": [
+         "You should see a dentist.",
+         "You should to see a dentist.",
+         "You see should a dentist.",
+         "Should you dentist."
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "If I ___ you, I'd take a break.",
+        "ans": [
+         "were"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "You're very stressed. Why don't you take a few days off and go to the beach?",
+        "q": "¿Qué le recomienda?",
+        "o": [
+         "Trabajar más",
+         "Tomar unos días libres e ir a la playa",
+         "Ir al médico",
+         "Dormir más"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "You should drink more water and get some sleep."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "should",
+         "I",
+         "do?"
+        ],
+        "es": "¿Qué debería hacer?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "You",
+         "shouldn't",
+         "drink",
+         "coffee",
+         "at",
+         "night."
+        ],
+        "es": "No deberías tomar café en la noche."
+       },
+       {
+        "t": "dict",
+        "say": "Can you give me some advice?"
+       },
+       {
+        "t": "dict",
+        "say": "Why don't you take a break?"
+       },
+       {
+        "t": "mc",
+        "q": "Advice es incontable. ¿Cuál está bien?",
+        "o": [
+         "an advice",
+         "some advice",
+         "two advices",
+         "a advices"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "It's a good idea ___ walk every day.",
+        "ans": [
+         "to"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "My doctor said I should eat more vegetables and I shouldn't eat so much salt.",
+        "q": "¿Qué no debería comer tanto?",
+        "o": [
+         "Verduras",
+         "Sal",
+         "Azúcar",
+         "Carne"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Un amigo está muy estresado por el trabajo. Escríbele un mensaje con 4 consejos (mínimo 35 palabras).",
+        "min": 35,
+        "keys": [
+         [
+          "you should"
+         ],
+         [
+          "you shouldn't",
+          "you should not"
+         ],
+         [
+          "why don't you",
+          "if i were you",
+          "it's a good idea"
+         ],
+         [
+          "relax",
+          "rest",
+          "sleep",
+          "exercise",
+          "break",
+          "walk"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "You ___ smoke. It's bad for your health.",
+       "o": [
+        "should",
+        "shouldn't",
+        "must to",
+        "don't should"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Can I give you some ___?",
+       "o": [
+        "advices",
+        "advice",
+        "advise",
+        "an advice"
+       ],
+       "a": 1
+      },
+      "reading": 4,
+      "words": []
+     },
+     {
+      "id": "a2-u5-l3",
+      "title": "Have to y don't have to",
+      "goal": "Hablar de obligaciones y de lo que no es necesario.",
+      "theory": [
+       {
+        "p": "**have to / has to + verbo** = tener que (obligación, a menudo por reglas o circunstancias)."
+       },
+       {
+        "ex": [
+         [
+          "I have to work on Saturdays.",
+          "Tengo que trabajar los sábados."
+         ],
+         [
+          "She has to wear a uniform.",
+          "Ella tiene que usar uniforme."
+         ],
+         [
+          "Do you have to get up early?",
+          "¿Tienes que levantarte temprano?"
+         ]
+        ]
+       },
+       {
+        "p": "**don't have to** = **no es necesario** (no es prohibición). En pasado: **had to** / **didn't have to**."
+       },
+       {
+        "ex": [
+         [
+          "You don't have to pay. It's free.",
+          "No tienes que pagar. Es gratis."
+         ],
+         [
+          "We didn't have to wait.",
+          "No tuvimos que esperar."
+         ],
+         [
+          "I had to call the police.",
+          "Tuve que llamar a la policía."
+         ]
+        ]
+       },
+       {
+        "tip": "'Don't have to' no significa 'no debes'. Significa que no es necesario: You don't have to come (puedes venir si quieres)."
+       }
+      ],
+      "vocab": [
+       [
+        "have to",
+        "verbo",
+        "tener que",
+        "I have to finish this today."
+       ],
+       [
+        "has to",
+        "verbo",
+        "tiene que",
+        "He has to work late."
+       ],
+       [
+        "don't have to",
+        "verbo",
+        "no tener que (no es necesario)",
+        "You don't have to bring anything."
+       ],
+       [
+        "had to",
+        "verbo",
+        "tuve / tuvo que",
+        "I had to wait an hour."
+       ],
+       [
+        "rule",
+        "sustantivo",
+        "regla",
+        "Those are the rules."
+       ],
+       [
+        "uniform",
+        "sustantivo",
+        "uniforme",
+        "Nurses have to wear a uniform."
+       ],
+       [
+        "shift",
+        "sustantivo",
+        "turno",
+        "I work the night shift."
+       ],
+       [
+        "overtime",
+        "sustantivo",
+        "horas extra",
+        "I had to work overtime."
+       ],
+       [
+        "deadline",
+        "sustantivo",
+        "fecha límite",
+        "We have to meet the deadline."
+       ],
+       [
+        "free of charge",
+        "expresión",
+        "gratis",
+        "Parking is free of charge."
+       ],
+       [
+        "necessary",
+        "adjetivo",
+        "necesario",
+        "It isn't necessary."
+       ],
+       [
+        "obligatory",
+        "adjetivo",
+        "obligatorio",
+        "Is it obligatory?"
+       ],
+       [
+        "permission",
+        "sustantivo",
+        "permiso",
+        "You have to ask for permission."
+       ],
+       [
+        "form",
+        "sustantivo",
+        "formulario",
+        "You have to fill in this form."
+       ],
+       [
+        "fill in",
+        "verbo",
+        "llenar (un formulario)",
+        "Please fill in the form."
+       ],
+       [
+        "sign",
+        "verbo",
+        "firmar",
+        "You have to sign here."
+       ],
+       [
+        "ID",
+        "sustantivo",
+        "documento de identidad",
+        "You have to show your ID."
+       ],
+       [
+        "chores",
+        "sustantivo",
+        "oficios de la casa",
+        "I have to do the chores."
+       ],
+       [
+        "commute",
+        "verbo / sustantivo",
+        "desplazarse al trabajo; trayecto",
+        "I have a long commute."
+       ],
+       [
+        "work from home",
+        "expresión",
+        "trabajar desde casa",
+        "I don't have to commute. I work from home."
+       ]
+      ],
+      "dialogue": {
+       "title": "El primer día en el trabajo nuevo",
+       "scene": "La supervisora, Andrea, le explica las reglas a Iván, un nuevo empleado de un supermercado.",
+       "a": "Andrea",
+       "b": "Iván",
+       "lines": [
+        [
+         "A",
+         "Welcome, Iván! Let me explain the rules. You have to arrive at seven thirty.",
+         "¡Bienvenido, Iván! Déjame explicarte las reglas. Tienes que llegar a las siete y media."
+        ],
+        [
+         "B",
+         "OK. Do I have to wear a uniform?",
+         "Bueno. ¿Tengo que usar uniforme?"
+        ],
+        [
+         "A",
+         "Yes, you do. You have to wear the green shirt and the cap.",
+         "Sí. Tienes que usar la camisa verde y la gorra."
+        ],
+        [
+         "B",
+         "Do I have to buy them?",
+         "¿Tengo que comprarlos?"
+        ],
+        [
+         "A",
+         "No, you don't have to buy anything. The company gives them to you.",
+         "No, no tienes que comprar nada. La empresa te los da."
+        ],
+        [
+         "B",
+         "Great. Do I have to work on weekends?",
+         "Genial. ¿Tengo que trabajar los fines de semana?"
+        ],
+        [
+         "A",
+         "You have to work every other Saturday, but you don't have to work on Sundays.",
+         "Tienes que trabajar un sábado sí y otro no, pero no tienes que trabajar los domingos."
+        ],
+        [
+         "B",
+         "Perfect. What about lunch?",
+         "Perfecto. ¿Y el almuerzo?"
+        ],
+        [
+         "A",
+         "You have a one-hour break. You don't have to bring food. There's a cafeteria.",
+         "Tienes una hora de descanso. No tienes que traer comida. Hay cafetería."
+        ],
+        [
+         "B",
+         "And if I'm sick?",
+         "¿Y si estoy enfermo?"
+        ],
+        [
+         "A",
+         "Then you have to call me before seven and bring a doctor's note.",
+         "Entonces tienes que llamarme antes de las siete y traer una incapacidad."
+        ],
+        [
+         "B",
+         "Understood. Thank you, Andrea. I think I'm going to like it here.",
+         "Entendido. Gracias, Andrea. Creo que me va a gustar trabajar aquí."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "My brother ___ work on Saturdays.",
+        "o": [
+         "have to",
+         "has to",
+         "have",
+         "must to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "You ___ pay. The concert is free.",
+        "o": [
+         "have to",
+         "don't have to",
+         "has to",
+         "mustn't to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Yesterday I ___ wait two hours at the bank.",
+        "o": [
+         "have to",
+         "had to",
+         "has to",
+         "must"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "___ you have to wear a uniform at work?",
+        "ans": [
+         "do"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I don't have to commute anymore because I work from home three days a week.",
+        "q": "¿Por qué ya no tiene que desplazarse?",
+        "o": [
+         "Perdió el trabajo",
+         "Trabaja desde casa",
+         "Compró un carro",
+         "Vive cerca"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I have to get up at six, but I don't have to work on Sundays."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "You",
+         "have",
+         "to",
+         "fill",
+         "in",
+         "this",
+         "form."
+        ],
+        "es": "Tiene que llenar este formulario."
+       },
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "didn't",
+         "have",
+         "to",
+         "wait."
+        ],
+        "es": "No tuvimos que esperar."
+       },
+       {
+        "t": "dict",
+        "say": "You have to show your ID."
+       },
+       {
+        "t": "dict",
+        "say": "She has to work the night shift."
+       },
+       {
+        "t": "mc",
+        "q": "'You don't have to come' significa:",
+        "o": [
+         "No debes venir.",
+         "No es necesario que vengas.",
+         "Está prohibido venir.",
+         "Tienes que venir."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Last week I ___ to work overtime. (tuve que)",
+        "ans": [
+         "had"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "At my school, students have to wear a uniform, but they don't have to wear a tie.",
+        "q": "¿Qué no tienen que usar?",
+        "o": [
+         "Uniforme",
+         "Corbata",
+         "Zapatos negros",
+         "Chaqueta"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Describe las obligaciones de tu trabajo o de tu casa (mínimo 35 palabras). Usa have to, has to y don't have to.",
+        "min": 35,
+        "keys": [
+         [
+          "have to",
+          "has to"
+         ],
+         [
+          "don't have to",
+          "doesn't have to"
+         ],
+         [
+          "every",
+          "on",
+          "at"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "It's Sunday tomorrow. I ___ get up early.",
+       "o": [
+        "have to",
+        "don't have to",
+        "must",
+        "has to"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "She ___ go to the hospital last night.",
+       "o": [
+        "has to",
+        "had to",
+        "have to",
+        "must"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u5-l4",
+      "title": "Must y mustn't: reglas y prohibiciones",
+      "goal": "Entender y explicar reglas y prohibiciones.",
+      "theory": [
+       {
+        "p": "**must + verbo** = deber (obligación fuerte, a menudo una regla o algo que el hablante considera necesario). **mustn't** = **prohibido**."
+       },
+       {
+        "ex": [
+         [
+          "You must wear a seatbelt.",
+          "Debe usar el cinturón de seguridad."
+         ],
+         [
+          "Passengers must show their tickets.",
+          "Los pasajeros deben mostrar su tiquete."
+         ],
+         [
+          "You mustn't smoke here.",
+          "Está prohibido fumar aquí."
+         ],
+         [
+          "You mustn't use your phone while driving.",
+          "No debes usar el celular mientras manejas."
+         ]
+        ]
+       },
+       {
+        "p": "Compara: **mustn't** = está prohibido. **don't have to** = no es necesario."
+       },
+       {
+        "ex": [
+         [
+          "You mustn't park here. (prohibido)",
+          "No puede parquear aquí."
+         ],
+         [
+          "You don't have to park here. There's another parking lot. (no es necesario)",
+          "No tiene que parquear aquí. Hay otro parqueadero."
+         ]
+        ]
+       },
+       {
+        "tip": "En avisos se usa mucho: No smoking, Do not enter, Keep off the grass (no pisar el césped)."
+       }
+      ],
+      "vocab": [
+       [
+        "must",
+        "verbo modal",
+        "deber (obligación)",
+        "You must be 18 to enter."
+       ],
+       [
+        "mustn't",
+        "verbo modal",
+        "prohibido, no debes",
+        "You mustn't touch the paintings."
+       ],
+       [
+        "allowed",
+        "adjetivo",
+        "permitido",
+        "Dogs aren't allowed."
+       ],
+       [
+        "forbidden",
+        "adjetivo",
+        "prohibido",
+        "Smoking is forbidden."
+       ],
+       [
+        "seatbelt",
+        "sustantivo",
+        "cinturón de seguridad",
+        "Fasten your seatbelt."
+       ],
+       [
+        "helmet",
+        "sustantivo",
+        "casco",
+        "You must wear a helmet."
+       ],
+       [
+        "speed limit",
+        "sustantivo",
+        "límite de velocidad",
+        "The speed limit is 60."
+       ],
+       [
+        "park",
+        "verbo",
+        "parquear",
+        "You mustn't park here."
+       ],
+       [
+        "fine",
+        "sustantivo",
+        "multa",
+        "I got a fine for speeding."
+       ],
+       [
+        "sign",
+        "sustantivo",
+        "aviso, letrero",
+        "Read the sign."
+       ],
+       [
+        "touch",
+        "verbo",
+        "tocar",
+        "Don't touch the paintings."
+       ],
+       [
+        "take photos",
+        "expresión",
+        "tomar fotos",
+        "You mustn't take photos."
+       ],
+       [
+        "feed",
+        "verbo",
+        "alimentar",
+        "Don't feed the animals."
+       ],
+       [
+        "littering",
+        "sustantivo",
+        "botar basura",
+        "No littering."
+       ],
+       [
+        "enter",
+        "verbo",
+        "entrar",
+        "Do not enter."
+       ],
+       [
+        "keep off",
+        "verbo",
+        "no pisar, mantenerse alejado",
+        "Keep off the grass."
+       ],
+       [
+        "silent mode",
+        "sustantivo",
+        "modo silencio",
+        "Phones must be on silent mode."
+       ],
+       [
+        "passenger",
+        "sustantivo",
+        "pasajero",
+        "Passengers must stay seated."
+       ],
+       [
+        "museum",
+        "sustantivo",
+        "museo",
+        "Food isn't allowed in the museum."
+       ],
+       [
+        "safety",
+        "sustantivo",
+        "seguridad",
+        "Safety is the most important thing."
+       ]
+      ],
+      "dialogue": {
+       "title": "Reglas en el museo",
+       "scene": "Un guía del museo le explica las reglas a un grupo de turistas. Habla con una visitante, Laura.",
+       "a": "Guía",
+       "b": "Laura",
+       "lines": [
+        [
+         "A",
+         "Welcome to the National Museum. Before we start, there are some rules.",
+         "Bienvenidos al Museo Nacional. Antes de empezar, hay algunas reglas."
+        ],
+        [
+         "B",
+         "OK. Can we take photos?",
+         "Bueno. ¿Podemos tomar fotos?"
+        ],
+        [
+         "A",
+         "You can take photos, but you mustn't use the flash. It damages the paintings.",
+         "Pueden tomar fotos, pero no deben usar el flash. Daña las pinturas."
+        ],
+        [
+         "B",
+         "Understood. Do we have to leave our bags somewhere?",
+         "Entendido. ¿Tenemos que dejar los bolsos en algún lugar?"
+        ],
+        [
+         "A",
+         "Yes, you must leave big bags in the lockers. Small bags are allowed.",
+         "Sí, deben dejar los bolsos grandes en los casilleros. Los pequeños están permitidos."
+        ],
+        [
+         "B",
+         "Is food allowed?",
+         "¿Se permite comida?"
+        ],
+        [
+         "A",
+         "No, you mustn't eat or drink in the rooms. There's a café on the first floor.",
+         "No, no deben comer ni beber en las salas. Hay un café en el primer piso."
+        ],
+        [
+         "B",
+         "And our phones?",
+         "¿Y los celulares?"
+        ],
+        [
+         "A",
+         "Phones must be on silent mode, please. And you mustn't touch the sculptures.",
+         "Los celulares deben estar en silencio, por favor. Y no deben tocar las esculturas."
+        ],
+        [
+         "B",
+         "Do we have to stay with the group?",
+         "¿Tenemos que quedarnos con el grupo?"
+        ],
+        [
+         "A",
+         "You don't have to, but it's a good idea. The museum is very big!",
+         "No es necesario, pero es buena idea. ¡El museo es muy grande!"
+        ],
+        [
+         "B",
+         "Ha ha, OK. We'll stay with you. Let's go!",
+         "Ja, ja, bueno. Nos quedamos con usted. ¡Vamos!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "You ___ smoke in the hospital.",
+        "o": [
+         "must",
+         "mustn't",
+         "don't have to",
+         "should to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Drivers ___ wear a seatbelt.",
+        "o": [
+         "must",
+         "mustn't",
+         "don't must",
+         "must to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "You ___ bring food. Lunch is included.",
+        "o": [
+         "mustn't",
+         "don't have to",
+         "must",
+         "has to"
+        ],
+        "a": 1,
+        "x": "No es necesario → don't have to."
+       },
+       {
+        "t": "fill",
+        "q": "Dogs aren't ___ in the restaurant. (permitidos)",
+        "ans": [
+         "allowed"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Passengers must keep their seatbelts on and mustn't use the toilets during landing.",
+        "q": "¿Qué está prohibido durante el aterrizaje?",
+        "o": [
+         "Usar el cinturón",
+         "Usar los baños",
+         "Hablar",
+         "Leer"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "You must wear a helmet, and you mustn't use your phone while driving."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "You",
+         "mustn't",
+         "touch",
+         "the",
+         "paintings."
+        ],
+        "es": "No debe tocar las pinturas."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Phones",
+         "must",
+         "be",
+         "on",
+         "silent",
+         "mode."
+        ],
+        "es": "Los celulares deben estar en silencio."
+       },
+       {
+        "t": "dict",
+        "say": "Smoking is not allowed here."
+       },
+       {
+        "t": "dict",
+        "say": "I got a fine for parking here."
+       },
+       {
+        "t": "mc",
+        "q": "Un aviso dice 'Keep off the grass'. Significa:",
+        "o": [
+         "Corte el césped",
+         "No pise el césped",
+         "Riegue el césped",
+         "Siéntese en el césped"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Diferencia: 'You mustn't go' vs 'You don't have to go':",
+        "o": [
+         "Prohibido / no es necesario",
+         "No es necesario / prohibido",
+         "Las dos son iguales",
+         "Las dos significan obligación"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "In this park you mustn't feed the animals, but you can take photos.",
+        "q": "¿Qué está prohibido en el parque?",
+        "o": [
+         "Tomar fotos",
+         "Alimentar a los animales",
+         "Caminar",
+         "Hablar"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe 5 reglas de tu casa, tu trabajo o tu edificio (mínimo 30 palabras). Usa must, mustn't y don't have to.",
+        "min": 30,
+        "keys": [
+         [
+          "must"
+         ],
+         [
+          "mustn't",
+          "must not"
+         ],
+         [
+          "don't have to",
+          "allowed"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Sign: 'No photos'. You ___ take photos.",
+       "o": [
+        "must",
+        "mustn't",
+        "don't have to",
+        "have to"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "You ___ be 18 to drive in Colombia.",
+       "o": [
+        "must",
+        "mustn't",
+        "don't have to",
+        "shouldn't"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u5-l5",
+      "title": "En la farmacia y en el médico",
+      "goal": "Pedir ayuda en la farmacia y entender las instrucciones del médico.",
+      "theory": [
+       {
+        "p": "En el **médico** te preguntan y te dan instrucciones:"
+       },
+       {
+        "ex": [
+         [
+          "What are your symptoms?",
+          "¿Cuáles son sus síntomas?"
+         ],
+         [
+          "How long have you had this pain?",
+          "¿Hace cuánto tiene este dolor?"
+         ],
+         [
+          "Are you allergic to anything?",
+          "¿Es alérgico a algo?"
+         ],
+         [
+          "I'll give you a prescription.",
+          "Le voy a dar una fórmula."
+         ]
+        ]
+       },
+       {
+        "p": "En la **farmacia**:"
+       },
+       {
+        "ex": [
+         [
+          "I need something for a headache.",
+          "Necesito algo para el dolor de cabeza."
+         ],
+         [
+          "Do I need a prescription?",
+          "¿Necesito fórmula médica?"
+         ],
+         [
+          "How often should I take it?",
+          "¿Cada cuánto debo tomarlo?"
+         ],
+         [
+          "Take two tablets every eight hours.",
+          "Tome dos pastillas cada ocho horas."
+         ],
+         [
+          "Take it after meals.",
+          "Tómelo después de las comidas."
+         ]
+        ]
+       },
+       {
+        "tip": "Prescription = fórmula médica (no 'prescripción'). Pharmacy (EE. UU.: drugstore) = droguería."
+       }
+      ],
+      "vocab": [
+       [
+        "pharmacy / drugstore",
+        "sustantivo",
+        "farmacia, droguería",
+        "Is there a pharmacy near here?"
+       ],
+       [
+        "pharmacist",
+        "sustantivo",
+        "farmaceuta",
+        "Ask the pharmacist."
+       ],
+       [
+        "prescription",
+        "sustantivo",
+        "fórmula médica",
+        "Do I need a prescription?"
+       ],
+       [
+        "symptoms",
+        "sustantivo",
+        "síntomas",
+        "What are your symptoms?"
+       ],
+       [
+        "tablet / pill",
+        "sustantivo",
+        "pastilla",
+        "Take one tablet a day."
+       ],
+       [
+        "syrup",
+        "sustantivo",
+        "jarabe",
+        "Cough syrup for children."
+       ],
+       [
+        "painkiller",
+        "sustantivo",
+        "analgésico",
+        "I need a painkiller."
+       ],
+       [
+        "antibiotics",
+        "sustantivo",
+        "antibióticos",
+        "The doctor gave me antibiotics."
+       ],
+       [
+        "allergic to",
+        "expresión",
+        "alérgico a",
+        "I'm allergic to penicillin."
+       ],
+       [
+        "side effects",
+        "sustantivo",
+        "efectos secundarios",
+        "Are there any side effects?"
+       ],
+       [
+        "every eight hours",
+        "expresión",
+        "cada ocho horas",
+        "Take it every eight hours."
+       ],
+       [
+        "after meals",
+        "expresión",
+        "después de las comidas",
+        "Take it after meals."
+       ],
+       [
+        "on an empty stomach",
+        "expresión",
+        "en ayunas",
+        "Don't take it on an empty stomach."
+       ],
+       [
+        "dose",
+        "sustantivo",
+        "dosis",
+        "Don't take more than the dose."
+       ],
+       [
+        "check-up",
+        "sustantivo",
+        "chequeo",
+        "I have a check-up on Monday."
+       ],
+       [
+        "blood test",
+        "sustantivo",
+        "examen de sangre",
+        "You need a blood test."
+       ],
+       [
+        "temperature",
+        "sustantivo",
+        "temperatura",
+        "Let me take your temperature."
+       ],
+       [
+        "examine",
+        "verbo",
+        "examinar",
+        "The doctor examined me."
+       ],
+       [
+        "insurance",
+        "sustantivo",
+        "seguro (médico)",
+        "Do you have health insurance?"
+       ],
+       [
+        "recover",
+        "verbo",
+        "recuperarse",
+        "You'll recover in a week."
+       ]
+      ],
+      "dialogue": {
+       "title": "En la farmacia",
+       "scene": "Mónica entra a una farmacia en Nueva York porque su hijo tiene tos.",
+       "a": "Farmaceuta",
+       "b": "Mónica",
+       "lines": [
+        [
+         "A",
+         "Hi there. How can I help you?",
+         "Hola. ¿En qué le puedo ayudar?"
+        ],
+        [
+         "B",
+         "Hi. My son has a bad cough and a sore throat. Do you have something for him?",
+         "Hola. Mi hijo tiene mucha tos y dolor de garganta. ¿Tiene algo para él?"
+        ],
+        [
+         "A",
+         "How old is he?",
+         "¿Cuántos años tiene?"
+        ],
+        [
+         "B",
+         "He's eight.",
+         "Tiene ocho."
+        ],
+        [
+         "A",
+         "Does he have a fever?",
+         "¿Tiene fiebre?"
+        ],
+        [
+         "B",
+         "A little. It was 38 degrees this morning.",
+         "Un poco. Tenía 38 grados esta mañana."
+        ],
+        [
+         "A",
+         "OK. This cough syrup is for children. You don't need a prescription.",
+         "Bueno. Este jarabe para la tos es para niños. No necesita fórmula."
+        ],
+        [
+         "B",
+         "How often should he take it?",
+         "¿Cada cuánto debe tomarlo?"
+        ],
+        [
+         "A",
+         "Ten milliliters every eight hours, after meals. He mustn't take more than three doses a day.",
+         "Diez mililitros cada ocho horas, después de las comidas. No debe tomar más de tres dosis al día."
+        ],
+        [
+         "B",
+         "Are there any side effects?",
+         "¿Tiene efectos secundarios?"
+        ],
+        [
+         "A",
+         "It can make him a bit sleepy. If the fever doesn't go down in two days, he should see a doctor.",
+         "Le puede dar un poco de sueño. Si la fiebre no baja en dos días, debe ver a un médico."
+        ],
+        [
+         "B",
+         "Thank you so much. How much is it?",
+         "Muchas gracias. ¿Cuánto cuesta?"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "'Fórmula médica' en inglés es:",
+        "o": [
+         "formula",
+         "prescription",
+         "recipe",
+         "receipt"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Take one tablet ___ eight hours.",
+        "o": [
+         "each",
+         "every",
+         "all",
+         "for"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "I'm allergic ___ penicillin.",
+        "o": [
+         "of",
+         "to",
+         "with",
+         "for"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "How often ___ I take this medicine?",
+        "ans": [
+         "should"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Take these antibiotics twice a day for seven days. Don't take them on an empty stomach.",
+        "q": "¿Por cuántos días debe tomar los antibióticos?",
+        "o": [
+         "2",
+         "5",
+         "7",
+         "10"
+        ],
+        "a": 2
+       },
+       {
+        "t": "oral",
+        "text": "I need something for a headache. Do I need a prescription?"
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Are",
+         "you",
+         "allergic",
+         "to",
+         "anything?"
+        ],
+        "es": "¿Es alérgico a algo?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "Take",
+         "it",
+         "after",
+         "meals."
+        ],
+        "es": "Tómelo después de las comidas."
+       },
+       {
+        "t": "dict",
+        "say": "What are your symptoms?"
+       },
+       {
+        "t": "dict",
+        "say": "You'll recover in a few days."
+       },
+       {
+        "t": "mc",
+        "q": "Analgésico en inglés:",
+        "o": [
+         "painkiller",
+         "killpain",
+         "antipain",
+         "sickkiller"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Are there any side ___? (efectos)",
+        "ans": [
+         "effects"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The doctor examined me and said I need a blood test and a lot of rest.",
+        "q": "¿Qué examen necesita?",
+        "o": [
+         "De orina",
+         "De sangre",
+         "Rayos X",
+         "Ninguno"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "How often should I take these tablets?"
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "—How often should I take it? —___",
+       "o": [
+        "Every six hours.",
+        "For six hours.",
+        "Six hours ago.",
+        "Since six hours."
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "listen",
+       "say": "Don't take more than four tablets a day, and don't drink alcohol with this medicine.",
+       "q": "¿Cuál es el máximo de pastillas al día?",
+       "o": [
+        "2",
+        "3",
+        "4",
+        "6"
+       ],
+       "a": 2
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "I have a ___ throat and a cough.",
+      "o": [
+       "sore",
+       "sour",
+       "hurt",
+       "pain"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "You ___ go to bed late. You have an exam tomorrow.",
+      "o": [
+       "should",
+       "shouldn't",
+       "must to",
+       "have"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "You ___ bring anything. We have everything.",
+      "o": [
+       "mustn't",
+       "don't have to",
+       "must",
+       "have to"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "You ___ use your phone during the exam. It's forbidden.",
+      "o": [
+       "don't have to",
+       "mustn't",
+       "shouldn't to",
+       "must"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Take this medicine ___ meals.",
+      "o": [
+       "after",
+       "later",
+       "since",
+       "for"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Yesterday I ___ to go to the hospital. (tuve que)",
+      "ans": [
+       "had"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "My back hurts a lot. I think I should stop working and see a physiotherapist.",
+      "q": "¿A quién cree que debe ver?",
+      "o": [
+       "Un dentista",
+       "Un fisioterapeuta",
+       "Un psicólogo",
+       "Un farmaceuta"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Employees must wear an ID card, but they don't have to wear a suit.",
+      "q": "¿Qué no es obligatorio?",
+      "o": [
+       "El carné",
+       "El traje",
+       "Los zapatos",
+       "La corbata y el carné"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Un amigo no se siente bien. Escríbele qué debe hacer y qué no, y qué reglas hay en el hospital (mínimo 40 palabras). Usa should, shouldn't, have to y mustn't.",
+      "min": 40,
+      "keys": [
+       [
+        "should"
+       ],
+       [
+        "shouldn't",
+        "should not"
+       ],
+       [
+        "have to",
+        "has to",
+        "must"
+       ],
+       [
+        "mustn't",
+        "must not",
+        "don't have to"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "What's the matter? You should see a doctor."
+     },
+     {
+      "t": "oral",
+      "text": "I have to work tomorrow, but I don't have to get up early."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "—What's the matter? —___",
+      "o": [
+       "My stomach hurts.",
+       "I'm matter.",
+       "I matter my head.",
+       "It hurts me the head."
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "She ___ wear a uniform at school.",
+      "o": [
+       "have to",
+       "has to",
+       "must to",
+       "have"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "You look stressed. ___ you take a break?",
+      "o": [
+       "Why don't",
+       "Why not",
+       "Should not",
+       "Do"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Passengers ___ stay seated during takeoff.",
+      "o": [
+       "must",
+       "mustn't",
+       "don't have to",
+       "should to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I'm allergic ___ cats.",
+      "o": [
+       "of",
+       "with",
+       "to",
+       "for"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "Dosis en inglés es:",
+      "o": [
+       "dose",
+       "doses only",
+       "dosage time",
+       "dosis"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "If I ___ you, I'd see a dentist.",
+      "ans": [
+       "were"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "You don't have ___ pay. It's free.",
+      "ans": [
+       "to"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "The doctor said I mustn't play football for six weeks because of my knee.",
+      "q": "¿Por cuánto tiempo no puede jugar fútbol?",
+      "o": [
+       "6 días",
+       "6 semanas",
+       "6 meses",
+       "2 semanas"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Take one tablet in the morning and one at night. Don't take it with milk.",
+      "q": "¿Con qué no debe tomarla?",
+      "o": [
+       "Agua",
+       "Leche",
+       "Jugo",
+       "Comida"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "I had to cancel my trip because I broke my leg.",
+      "q": "¿Por qué canceló el viaje?",
+      "o": [
+       "Por trabajo",
+       "Se rompió la pierna",
+       "Por el clima",
+       "Perdió el pasaporte"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe las instrucciones que te dio un médico la última vez que estuviste enfermo (mínimo 35 palabras).",
+      "min": 35,
+      "keys": [
+       [
+        "take",
+        "every",
+        "times a day"
+       ],
+       [
+        "should",
+        "must",
+        "have to"
+       ],
+       [
+        "shouldn't",
+        "mustn't",
+        "don't"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I don't feel well. My head hurts and I have a fever."
+     },
+     {
+      "t": "oral",
+      "text": "You mustn't smoke here, but you can smoke outside."
+     },
+     {
+      "t": "oral",
+      "text": "Take two tablets every eight hours after meals."
+     }
+    ]
+   },
+   {
+    "title": "Cantidades, condiciones y servicios",
+    "lessons": [
+     {
+      "id": "a2-u6-l1",
+      "title": "Much, many, a lot of, a few, a little",
+      "goal": "Hablar de cantidades con sustantivos contables e incontables.",
+      "theory": [
+       {
+        "p": "**Contables** (se pueden contar: apples, people, hours) e **incontables** (no se cuentan: water, money, time, information)."
+       },
+       {
+        "ex": [
+         [
+          "How many people are coming?",
+          "¿Cuántas personas vienen?"
+         ],
+         [
+          "How much money do you have?",
+          "¿Cuánto dinero tienes?"
+         ],
+         [
+          "There aren't many tourists.",
+          "No hay muchos turistas."
+         ],
+         [
+          "I don't have much time.",
+          "No tengo mucho tiempo."
+         ]
+        ]
+       },
+       {
+        "p": "**a lot of** sirve para los dos en afirmativo: a lot of people, a lot of water. **many / much** se usan más en preguntas y negativas."
+       },
+       {
+        "p": "**a few** (contables) y **a little** (incontables) = unos pocos / un poco: a few friends, a little sugar."
+       },
+       {
+        "tip": "Money, information, advice, furniture y news son incontables en inglés: no se dice 'informations' ni 'a news'."
+       }
+      ],
+      "vocab": [
+       [
+        "how many",
+        "expresión",
+        "cuántos",
+        "How many brothers do you have?"
+       ],
+       [
+        "how much",
+        "expresión",
+        "cuánto",
+        "How much water do you drink?"
+       ],
+       [
+        "much",
+        "determinante",
+        "mucho (incontable)",
+        "I don't have much time."
+       ],
+       [
+        "many",
+        "determinante",
+        "muchos (contable)",
+        "There aren't many people."
+       ],
+       [
+        "a lot of",
+        "expresión",
+        "mucho, muchos",
+        "She has a lot of friends."
+       ],
+       [
+        "a few",
+        "expresión",
+        "unos pocos",
+        "I have a few questions."
+       ],
+       [
+        "a little",
+        "expresión",
+        "un poco de",
+        "Add a little salt."
+       ],
+       [
+        "too much",
+        "expresión",
+        "demasiado",
+        "I ate too much."
+       ],
+       [
+        "too many",
+        "expresión",
+        "demasiados",
+        "There are too many cars."
+       ],
+       [
+        "enough",
+        "determinante",
+        "suficiente",
+        "We have enough chairs."
+       ],
+       [
+        "none",
+        "pronombre",
+        "ninguno, nada",
+        "None of my friends came."
+       ],
+       [
+        "information",
+        "sustantivo",
+        "información (incontable)",
+        "I need some information."
+       ],
+       [
+        "furniture",
+        "sustantivo",
+        "muebles (incontable)",
+        "We bought new furniture."
+       ],
+       [
+        "news",
+        "sustantivo",
+        "noticias (incontable)",
+        "The news is good."
+       ],
+       [
+        "traffic",
+        "sustantivo",
+        "tráfico",
+        "There's too much traffic."
+       ],
+       [
+        "recipe",
+        "sustantivo",
+        "receta (de cocina)",
+        "This recipe is easy."
+       ],
+       [
+        "flour",
+        "sustantivo",
+        "harina",
+        "Two cups of flour."
+       ],
+       [
+        "spoon",
+        "sustantivo",
+        "cuchara",
+        "A spoon of sugar."
+       ],
+       [
+        "cup",
+        "sustantivo",
+        "taza",
+        "A cup of milk."
+       ],
+       [
+        "ingredients",
+        "sustantivo",
+        "ingredientes",
+        "We need a few ingredients."
+       ]
+      ],
+      "dialogue": {
+       "title": "Haciendo pancakes",
+       "scene": "Lucas y su abuela, Nana, preparan pancakes el domingo en la mañana.",
+       "a": "Lucas",
+       "b": "Nana",
+       "lines": [
+        [
+         "A",
+         "Nana, how much flour do we need?",
+         "Abuela, ¿cuánta harina necesitamos?"
+        ],
+        [
+         "B",
+         "Two cups of flour. We have a lot of flour in the kitchen.",
+         "Dos tazas de harina. Tenemos mucha harina en la cocina."
+        ],
+        [
+         "A",
+         "How many eggs?",
+         "¿Cuántos huevos?"
+        ],
+        [
+         "B",
+         "Two eggs. How many eggs are there in the fridge?",
+         "Dos huevos. ¿Cuántos huevos hay en la nevera?"
+        ],
+        [
+         "A",
+         "Only a few. Three, I think.",
+         "Solo unos pocos. Tres, creo."
+        ],
+        [
+         "B",
+         "That's enough. Now, a little sugar. Not too much!",
+         "Es suficiente. Ahora, un poco de azúcar. ¡No demasiada!"
+        ],
+        [
+         "A",
+         "One spoon? Is that enough?",
+         "¿Una cuchara? ¿Es suficiente?"
+        ],
+        [
+         "B",
+         "Perfect. And we need some milk. How much milk is there?",
+         "Perfecto. Y necesitamos leche. ¿Cuánta leche hay?"
+        ],
+        [
+         "A",
+         "There isn't much milk. Just half a cup.",
+         "No hay mucha leche. Solo media taza."
+        ],
+        [
+         "B",
+         "Hmm, we need one cup. Go to the shop and buy some, please.",
+         "Mmm, necesitamos una taza. Ve a la tienda y compra, por favor."
+        ],
+        [
+         "A",
+         "OK! Do we need anything else? Maybe a few bananas?",
+         "¡Bueno! ¿Necesitamos algo más? ¿Tal vez unos bananos?"
+        ],
+        [
+         "B",
+         "Good idea! And a little honey. Pancakes with bananas and honey are the best!",
+         "¡Buena idea! Y un poco de miel. ¡Los pancakes con banano y miel son los mejores!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "How ___ money do you need?",
+        "o": [
+         "many",
+         "much",
+         "a few",
+         "lot"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "How ___ students are in your class?",
+        "o": [
+         "much",
+         "many",
+         "little",
+         "lot of"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "I have ___ friends in this city. (unos pocos)",
+        "o": [
+         "a little",
+         "a few",
+         "much",
+         "few of"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Add a ___ salt to the soup. (un poco)",
+        "ans": [
+         "little"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "There were too many people at the concert, so we left early.",
+        "q": "¿Por qué se fueron temprano?",
+        "o": [
+         "Hacía frío",
+         "Había demasiada gente",
+         "Estaba lloviendo",
+         "Era tarde"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "How many eggs do we need? And how much milk?"
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "don't",
+         "have",
+         "much",
+         "time",
+         "today."
+        ],
+        "es": "No tengo mucho tiempo hoy."
+       },
+       {
+        "t": "order",
+        "words": [
+         "There",
+         "are",
+         "too",
+         "many",
+         "cars",
+         "in",
+         "the",
+         "city."
+        ],
+        "es": "Hay demasiados carros en la ciudad."
+       },
+       {
+        "t": "dict",
+        "say": "I have a few questions."
+       },
+       {
+        "t": "dict",
+        "say": "We need a little more information."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál está bien?",
+        "o": [
+         "I need some informations.",
+         "I need some information.",
+         "I need an information.",
+         "I need many information."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "How ___ cups of coffee do you drink a day?",
+        "ans": [
+         "many"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "For this recipe you need two cups of flour, three eggs and a little butter.",
+        "q": "¿Cuántos huevos se necesitan?",
+        "o": [
+         "2",
+         "3",
+         "4",
+         "Ninguno"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe la receta de un plato que sepas preparar (mínimo 35 palabras). Usa a few, a little, some y how much/how many.",
+        "min": 35,
+        "keys": [
+         [
+          "a few",
+          "a little"
+         ],
+         [
+          "some",
+          "a lot of"
+         ],
+         [
+          "cup",
+          "spoon",
+          "grams",
+          "eggs",
+          "minutes"
+         ],
+         [
+          "first",
+          "then",
+          "after that",
+          "add",
+          "mix"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "There isn't ___ milk left.",
+       "o": [
+        "many",
+        "much",
+        "a few",
+        "few"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I have ___ questions for you.",
+       "o": [
+        "a little",
+        "a few",
+        "much",
+        "a little of"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u6-l2",
+      "title": "Something, anyone, nobody, everywhere",
+      "goal": "Usar pronombres indefinidos para personas, cosas y lugares.",
+      "theory": [
+       {
+        "p": "Los pronombres indefinidos se forman con **some-, any-, no-, every-** + **-thing** (cosa), **-one / -body** (persona), **-where** (lugar)."
+       },
+       {
+        "ex": [
+         [
+          "There's something in my eye.",
+          "Tengo algo en el ojo."
+         ],
+         [
+          "Somebody called you.",
+          "Alguien te llamó."
+         ],
+         [
+          "Is there anything to eat?",
+          "¿Hay algo de comer?"
+         ],
+         [
+          "I didn't see anyone.",
+          "No vi a nadie."
+         ],
+         [
+          "Nobody knows.",
+          "Nadie sabe."
+         ],
+         [
+          "Everybody is here.",
+          "Todos están aquí."
+         ],
+         [
+          "I looked everywhere.",
+          "Busqué por todas partes."
+         ]
+        ]
+       },
+       {
+        "p": "Reglas: **some-** en afirmativas (y ofrecimientos), **any-** en negativas y preguntas, **no-** ya es negativo (con verbo afirmativo)."
+       },
+       {
+        "tip": "No se usan dos negativos: 'I didn't see nobody' está mal. Es 'I didn't see anybody' o 'I saw nobody'."
+       }
+      ],
+      "vocab": [
+       [
+        "something",
+        "pronombre",
+        "algo",
+        "I want something to drink."
+       ],
+       [
+        "anything",
+        "pronombre",
+        "algo (preguntas) / nada (negativas)",
+        "Do you need anything?"
+       ],
+       [
+        "nothing",
+        "pronombre",
+        "nada",
+        "There's nothing in the fridge."
+       ],
+       [
+        "everything",
+        "pronombre",
+        "todo",
+        "Everything is ready."
+       ],
+       [
+        "someone / somebody",
+        "pronombre",
+        "alguien",
+        "Someone is at the door."
+       ],
+       [
+        "anyone / anybody",
+        "pronombre",
+        "alguien (preguntas) / nadie (negativas)",
+        "Is anybody home?"
+       ],
+       [
+        "no one / nobody",
+        "pronombre",
+        "nadie",
+        "Nobody answered."
+       ],
+       [
+        "everyone / everybody",
+        "pronombre",
+        "todos",
+        "Everybody loves pizza."
+       ],
+       [
+        "somewhere",
+        "adverbio",
+        "en algún lugar",
+        "My keys are somewhere here."
+       ],
+       [
+        "anywhere",
+        "adverbio",
+        "en ningún lugar / en cualquier lugar",
+        "I can't find it anywhere."
+       ],
+       [
+        "nowhere",
+        "adverbio",
+        "en ninguna parte",
+        "There's nowhere to park."
+       ],
+       [
+        "everywhere",
+        "adverbio",
+        "en todas partes",
+        "I looked everywhere."
+       ],
+       [
+        "look for",
+        "verbo",
+        "buscar",
+        "I'm looking for my glasses."
+       ],
+       [
+        "lost and found",
+        "sustantivo",
+        "objetos perdidos",
+        "Ask at the lost and found."
+       ],
+       [
+        "umbrella",
+        "sustantivo",
+        "paraguas",
+        "Somebody took my umbrella."
+       ],
+       [
+        "describe",
+        "verbo",
+        "describir",
+        "Can you describe it?"
+       ],
+       [
+        "leave behind",
+        "verbo",
+        "dejar olvidado",
+        "I left my bag behind."
+       ],
+       [
+        "notice",
+        "verbo",
+        "notar, darse cuenta",
+        "Did you notice anything?"
+       ],
+       [
+        "strange",
+        "adjetivo",
+        "extraño",
+        "Something strange happened."
+       ],
+       [
+        "Anything else?",
+        "expresión",
+        "¿Algo más?",
+        "Anything else? No, nothing else."
+       ]
+      ],
+      "dialogue": {
+       "title": "Algo raro en la casa",
+       "scene": "Sara llega a casa y le parece que alguien entró. Llama a su vecino, el señor Díaz.",
+       "a": "Sara",
+       "b": "Sr. Díaz",
+       "lines": [
+        [
+         "A",
+         "Mr. Díaz, sorry to bother you. I think somebody was in my apartment.",
+         "Señor Díaz, perdone la molestia. Creo que alguien entró a mi apartamento."
+        ],
+        [
+         "B",
+         "Really? Did you see anyone?",
+         "¿En serio? ¿Viste a alguien?"
+        ],
+        [
+         "A",
+         "No, I didn't see anybody, but the door was open.",
+         "No, no vi a nadie, pero la puerta estaba abierta."
+        ],
+        [
+         "B",
+         "Is anything missing?",
+         "¿Falta algo?"
+        ],
+        [
+         "A",
+         "I don't know. I looked everywhere, and everything seems OK.",
+         "No sé. Busqué por todas partes y todo parece estar bien."
+        ],
+        [
+         "B",
+         "Did you hear anything strange last night?",
+         "¿Escuchaste algo raro anoche?"
+        ],
+        [
+         "A",
+         "No, nothing. I wasn't here. I was at my sister's house.",
+         "No, nada. No estaba aquí. Estaba en la casa de mi hermana."
+        ],
+        [
+         "B",
+         "Wait, my wife said someone from the building company came this morning to fix something.",
+         "Espera, mi esposa dijo que alguien de la administración vino esta mañana a arreglar algo."
+        ],
+        [
+         "A",
+         "Oh! Maybe they came to fix the water heater. Nobody told me!",
+         "¡Ah! Tal vez vinieron a arreglar el calentador. ¡Nadie me avisó!"
+        ],
+        [
+         "B",
+         "Everyone got a message, but maybe you didn't see it.",
+         "Todos recibieron un mensaje, pero tal vez no lo viste."
+        ],
+        [
+         "A",
+         "You're right. Here it is. I feel so silly!",
+         "Tiene razón. Aquí está. ¡Me siento tan tonta!"
+        ],
+        [
+         "B",
+         "Don't worry. It's better to be careful. Do you need anything else?",
+         "Tranquila. Es mejor ser cuidadosa. ¿Necesitas algo más?"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Is there ___ in the fridge? I'm hungry.",
+        "o": [
+         "something",
+         "anything",
+         "nothing",
+         "everything"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "___ called you this morning. I don't know who.",
+        "o": [
+         "Somebody",
+         "Anybody",
+         "Nobody",
+         "Everybody"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I didn't see ___ at the office.",
+        "o": [
+         "nobody",
+         "anybody",
+         "somebody",
+         "everybody"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I can't find my keys ___. (en ningún lugar)",
+        "ans": [
+         "anywhere"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Everybody was at the meeting except Mr. Gómez. Nobody knows where he is.",
+        "q": "¿Quién no estaba en la reunión?",
+        "o": [
+         "Nadie",
+         "El señor Gómez",
+         "Todos",
+         "La jefa"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "There's nothing in the fridge. Let's order something."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Is",
+         "anybody",
+         "home?"
+        ],
+        "es": "¿Hay alguien en casa?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "looked",
+         "everywhere",
+         "for",
+         "my",
+         "glasses."
+        ],
+        "es": "Busqué mis gafas por todas partes."
+       },
+       {
+        "t": "dict",
+        "say": "Something strange happened last night."
+       },
+       {
+        "t": "dict",
+        "say": "Nobody answered the phone."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál está bien?",
+        "o": [
+         "I didn't buy nothing.",
+         "I didn't buy anything.",
+         "I bought anything.",
+         "I didn't buy something nothing."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Would you like ___ to drink? (algo, ofrecimiento)",
+        "ans": [
+         "something"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Excuse me, I left my bag somewhere in the train. Can you check the lost and found?",
+        "q": "¿Qué perdió?",
+        "o": [
+         "Su paraguas",
+         "Su bolso",
+         "Su teléfono",
+         "Su chaqueta"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Is there anything else? No, thanks, that's everything."
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "There's ___ at the door. Can you open it?",
+       "o": [
+        "anybody",
+        "somebody",
+        "nobody",
+        "everybody"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I looked for my phone, but I couldn't find it ___.",
+       "o": [
+        "somewhere",
+        "anywhere",
+        "nowhere",
+        "everywhere"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u6-l3",
+      "title": "Primer condicional",
+      "goal": "Hablar de situaciones reales o posibles y sus consecuencias.",
+      "theory": [
+       {
+        "p": "El **primer condicional** habla de algo **posible** en el futuro: **If + presente simple, will + verbo**."
+       },
+       {
+        "ex": [
+         [
+          "If it rains, we'll stay at home.",
+          "Si llueve, nos quedaremos en casa."
+         ],
+         [
+          "If you study, you'll pass the exam.",
+          "Si estudias, pasarás el examen."
+         ],
+         [
+          "I'll call you if I have time.",
+          "Te llamaré si tengo tiempo."
+         ],
+         [
+          "If you don't hurry, you'll miss the bus.",
+          "Si no te apuras, perderás el bus."
+         ]
+        ]
+       },
+       {
+        "p": "La parte con **if** puede ir al principio (con coma) o al final (sin coma). También se usa **unless** = a menos que (if not)."
+       },
+       {
+        "ex": [
+         [
+          "Unless you hurry, you'll be late.",
+          "A menos que te apures, llegarás tarde."
+         ]
+        ]
+       },
+       {
+        "tip": "No uses will después de if: 'If it will rain' está mal. Es 'If it rains'."
+       }
+      ],
+      "vocab": [
+       [
+        "if",
+        "conjunción",
+        "si (condición)",
+        "If you want, I'll help you."
+       ],
+       [
+        "unless",
+        "conjunción",
+        "a menos que",
+        "I won't go unless you come."
+       ],
+       [
+        "as soon as",
+        "expresión",
+        "tan pronto como",
+        "I'll call you as soon as I arrive."
+       ],
+       [
+        "when",
+        "conjunción",
+        "cuando",
+        "When I finish, I'll tell you."
+       ],
+       [
+        "pass an exam",
+        "expresión",
+        "pasar un examen",
+        "If you study, you'll pass the exam."
+       ],
+       [
+        "fail",
+        "verbo",
+        "perder, reprobar",
+        "If you don't study, you'll fail."
+       ],
+       [
+        "miss the bus",
+        "expresión",
+        "perder el bus",
+        "Hurry or you'll miss the bus."
+       ],
+       [
+        "get wet",
+        "expresión",
+        "mojarse",
+        "You'll get wet if you don't take an umbrella."
+       ],
+       [
+        "get lost",
+        "expresión",
+        "perderse",
+        "If you don't use a map, you'll get lost."
+       ],
+       [
+        "save",
+        "verbo",
+        "ahorrar",
+        "If we save, we'll buy a house."
+       ],
+       [
+        "spend",
+        "verbo",
+        "gastar",
+        "If you spend too much, you'll have problems."
+       ],
+       [
+        "promise",
+        "verbo",
+        "prometer",
+        "I promise I'll be careful."
+       ],
+       [
+        "warn",
+        "verbo",
+        "advertir",
+        "I'm warning you."
+       ],
+       [
+        "superstition",
+        "sustantivo",
+        "superstición",
+        "Do you believe in superstitions?"
+       ],
+       [
+        "bad luck",
+        "sustantivo",
+        "mala suerte",
+        "If you break a mirror, you'll have bad luck."
+       ],
+       [
+        "good luck",
+        "sustantivo",
+        "buena suerte",
+        "Good luck tomorrow!"
+       ],
+       [
+        "mirror",
+        "sustantivo",
+        "espejo",
+        "Don't break the mirror!"
+       ],
+       [
+        "probably",
+        "adverbio",
+        "probablemente",
+        "If it's sunny, we'll probably go to the beach."
+       ],
+       [
+        "in case",
+        "expresión",
+        "por si acaso",
+        "Take a jacket in case it gets cold."
+       ],
+       [
+        "deal",
+        "sustantivo",
+        "trato",
+        "If you wash the dishes, I'll cook. Deal?"
+       ]
+      ],
+      "dialogue": {
+       "title": "Negociando con un adolescente",
+       "scene": "Mariana quiere ir a una fiesta y negocia con su papá, Jorge.",
+       "a": "Mariana",
+       "b": "Papá",
+       "lines": [
+        [
+         "A",
+         "Dad, can I go to Valeria's party on Saturday?",
+         "Papá, ¿puedo ir a la fiesta de Valeria el sábado?"
+        ],
+        [
+         "B",
+         "If you finish your homework, you can go.",
+         "Si terminas tus tareas, puedes ir."
+        ],
+        [
+         "A",
+         "I'll finish it on Friday, I promise!",
+         "¡La termino el viernes, te lo prometo!"
+        ],
+        [
+         "B",
+         "OK. How will you get there?",
+         "Bueno. ¿Cómo vas a llegar?"
+        ],
+        [
+         "A",
+         "If you drive me, I'll wash your car on Sunday.",
+         "Si me llevas, te lavo el carro el domingo."
+        ],
+        [
+         "B",
+         "Ha ha, deal! What time will the party finish?",
+         "¡Ja, ja, trato hecho! ¿A qué hora termina la fiesta?"
+        ],
+        [
+         "A",
+         "At midnight. Can I stay until the end?",
+         "A medianoche. ¿Me puedo quedar hasta el final?"
+        ],
+        [
+         "B",
+         "You can stay until eleven. If you're late, you won't go to the next party.",
+         "Te puedes quedar hasta las once. Si llegas tarde, no irás a la próxima fiesta."
+        ],
+        [
+         "A",
+         "OK, eleven. I'll call you as soon as I'm ready.",
+         "Bueno, once. Te llamo apenas esté lista."
+        ],
+        [
+         "B",
+         "And take a jacket in case it gets cold.",
+         "Y lleva una chaqueta por si hace frío."
+        ],
+        [
+         "A",
+         "Dad! If I take a jacket, everybody will laugh at me!",
+         "¡Papá! ¡Si llevo chaqueta, todos se van a reír de mí!"
+        ],
+        [
+         "B",
+         "Unless you take a jacket, you're not going. Final decision!",
+         "A menos que lleves chaqueta, no vas. ¡Decisión final!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "If it ___ tomorrow, we'll cancel the picnic.",
+        "o": [
+         "will rain",
+         "rains",
+         "rained",
+         "raining"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "If you study hard, you ___ the exam.",
+        "o": [
+         "pass",
+         "will pass",
+         "passed",
+         "passing"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "I won't go ___ you come with me. (a menos que)",
+        "o": [
+         "if",
+         "unless",
+         "when",
+         "in case"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I'll call you as ___ as I arrive.",
+        "ans": [
+         "soon"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If we save two hundred dollars every month, we'll have enough for the trip in December.",
+        "q": "¿Cuánto van a ahorrar cada mes?",
+        "o": [
+         "$100",
+         "$200",
+         "$2,000",
+         "$20"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "If it's sunny tomorrow, we'll go to the beach."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "If",
+         "you",
+         "don't",
+         "hurry,",
+         "you'll",
+         "miss",
+         "the",
+         "bus."
+        ],
+        "es": "Si no te apuras, perderás el bus."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Take",
+         "an",
+         "umbrella",
+         "in",
+         "case",
+         "it",
+         "rains."
+        ],
+        "es": "Lleva un paraguas por si llueve."
+       },
+       {
+        "t": "dict",
+        "say": "If you break a mirror, you'll have bad luck."
+       },
+       {
+        "t": "dict",
+        "say": "I'll help you if you want."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál está bien?",
+        "o": [
+         "If it will rain, I'll stay home.",
+         "If it rains, I'll stay home.",
+         "If it rains, I stay will home.",
+         "If it rain, I'll stay home."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "If you ___ (not / sleep), you'll be tired tomorrow.",
+        "ans": [
+         "don't sleep",
+         "do not sleep"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If you take the metro, you'll get there in fifteen minutes. If you take a taxi, it'll take an hour.",
+        "q": "¿Cuánto se demora en metro?",
+        "o": [
+         "15 minutos",
+         "50 minutos",
+         "Una hora",
+         "5 minutos"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe 5 frases con el primer condicional sobre tus planes o supersticiones (mínimo 35 palabras).",
+        "min": 35,
+        "keys": [
+         [
+          "if"
+         ],
+         [
+          "will",
+          "'ll",
+          "won't"
+         ],
+         [
+          "unless",
+          "as soon as",
+          "in case",
+          "when"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "If you ___ me, I'll help you.",
+       "o": [
+        "will call",
+        "call",
+        "called",
+        "calling"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "We'll be late ___ we leave now.",
+       "o": [
+        "if",
+        "unless",
+        "as soon as",
+        "when"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u6-l4",
+      "title": "Adverbios de modo y phrasal verbs cotidianos",
+      "goal": "Decir cómo se hacen las cosas y usar phrasal verbs comunes.",
+      "theory": [
+       {
+        "p": "Los **adverbios de modo** dicen **cómo** se hace algo. Se forman con adjetivo + **-ly**: slow → slowly, careful → carefully, quiet → quietly, easy → easily."
+       },
+       {
+        "ex": [
+         [
+          "Please drive carefully.",
+          "Por favor maneja con cuidado."
+         ],
+         [
+          "She speaks English fluently.",
+          "Ella habla inglés con fluidez."
+         ],
+         [
+          "He works hard.",
+          "Él trabaja duro."
+         ],
+         [
+          "You play the guitar very well.",
+          "Tocas muy bien la guitarra."
+         ]
+        ]
+       },
+       {
+        "p": "Irregulares: **good → well**, **fast → fast**, **hard → hard**, **late → late**."
+       },
+       {
+        "p": "Los **phrasal verbs** (verbo + partícula) son muy comunes en el inglés diario:"
+       },
+       {
+        "ex": [
+         [
+          "turn on / turn off",
+          "encender / apagar"
+         ],
+         [
+          "pick up",
+          "recoger"
+         ],
+         [
+          "put on / take off",
+          "ponerse / quitarse"
+         ],
+         [
+          "look for",
+          "buscar"
+         ],
+         [
+          "give up",
+          "rendirse, dejar"
+         ],
+         [
+          "find out",
+          "averiguar, enterarse"
+         ],
+         [
+          "get up",
+          "levantarse"
+         ],
+         [
+          "go out",
+          "salir"
+         ]
+        ]
+       },
+       {
+        "tip": "No confundas: She's a good driver (adjetivo + sustantivo) / She drives well (verbo + adverbio)."
+       }
+      ],
+      "vocab": [
+       [
+        "slowly",
+        "adverbio",
+        "despacio",
+        "Please speak slowly."
+       ],
+       [
+        "quickly",
+        "adverbio",
+        "rápidamente",
+        "He ate quickly."
+       ],
+       [
+        "carefully",
+        "adverbio",
+        "con cuidado",
+        "Drive carefully."
+       ],
+       [
+        "quietly",
+        "adverbio",
+        "en voz baja, silenciosamente",
+        "Talk quietly, the baby is sleeping."
+       ],
+       [
+        "easily",
+        "adverbio",
+        "fácilmente",
+        "She passed easily."
+       ],
+       [
+        "well",
+        "adverbio",
+        "bien",
+        "You speak English well."
+       ],
+       [
+        "badly",
+        "adverbio",
+        "mal",
+        "I slept badly."
+       ],
+       [
+        "hard",
+        "adverbio",
+        "duro, mucho",
+        "He works hard."
+       ],
+       [
+        "fluently",
+        "adverbio",
+        "con fluidez",
+        "She speaks French fluently."
+       ],
+       [
+        "patiently",
+        "adverbio",
+        "con paciencia",
+        "He waited patiently."
+       ],
+       [
+        "turn on / off",
+        "verbo",
+        "encender / apagar",
+        "Turn off the lights."
+       ],
+       [
+        "pick up",
+        "verbo",
+        "recoger",
+        "I'll pick you up at six."
+       ],
+       [
+        "put on",
+        "verbo",
+        "ponerse (ropa)",
+        "Put on your jacket."
+       ],
+       [
+        "take off",
+        "verbo",
+        "quitarse; despegar",
+        "Take off your shoes."
+       ],
+       [
+        "give up",
+        "verbo",
+        "rendirse, dejar",
+        "Don't give up!"
+       ],
+       [
+        "find out",
+        "verbo",
+        "averiguar",
+        "I found out the truth."
+       ],
+       [
+        "go out",
+        "verbo",
+        "salir",
+        "We go out on Fridays."
+       ],
+       [
+        "look after",
+        "verbo",
+        "cuidar",
+        "I look after my grandmother."
+       ],
+       [
+        "throw away",
+        "verbo",
+        "botar",
+        "Don't throw away the bags."
+       ],
+       [
+        "fill in",
+        "verbo",
+        "llenar (formulario)",
+        "Fill in this form, please."
+       ]
+      ],
+      "dialogue": {
+       "title": "Clases de manejo",
+       "scene": "Paola toma su clase de manejo con el instructor, Mr. Kent.",
+       "a": "Mr. Kent",
+       "b": "Paola",
+       "lines": [
+        [
+         "A",
+         "OK, Paola. First, put on your seatbelt.",
+         "Bueno, Paola. Primero, ponte el cinturón."
+        ],
+        [
+         "B",
+         "Done. Should I turn on the engine?",
+         "Listo. ¿Enciendo el motor?"
+        ],
+        [
+         "A",
+         "Yes. Now drive slowly and carefully to the corner.",
+         "Sí. Ahora maneja despacio y con cuidado hasta la esquina."
+        ],
+        [
+         "B",
+         "Like this? Am I going too slowly?",
+         "¿Así? ¿Voy demasiado despacio?"
+        ],
+        [
+         "A",
+         "No, you're doing well. Now turn left. Check your mirrors first.",
+         "No, vas bien. Ahora gira a la izquierda. Primero mira los espejos."
+        ],
+        [
+         "B",
+         "Oh no, I always forget the mirrors!",
+         "¡Ay no, siempre olvido los espejos!"
+        ],
+        [
+         "A",
+         "Don't worry. You're learning quickly. Now stop the car gently.",
+         "Tranquila. Estás aprendiendo rápido. Ahora frena el carro suavemente."
+        ],
+        [
+         "B",
+         "Sorry! I stopped too hard.",
+         "¡Perdón! Frené muy duro."
+        ],
+        [
+         "A",
+         "It's OK. Breathe and try again. Don't give up.",
+         "Está bien. Respira e inténtalo otra vez. No te rindas."
+        ],
+        [
+         "B",
+         "I'm nervous. My husband drives so easily!",
+         "Estoy nerviosa. ¡Mi esposo maneja con tanta facilidad!"
+        ],
+        [
+         "A",
+         "He has more practice. If you practice hard, you'll pass the test easily.",
+         "Él tiene más práctica. Si practicas mucho, pasarás el examen fácilmente."
+        ],
+        [
+         "B",
+         "Thank you. Can we turn off the engine now? I need a coffee!",
+         "Gracias. ¿Podemos apagar el motor? ¡Necesito un café!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Please speak ___. I don't understand.",
+        "o": [
+         "slow",
+         "slowly",
+         "slower",
+         "slowness"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "She plays the piano very ___.",
+        "o": [
+         "good",
+         "well",
+         "goodly",
+         "better"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'Apaga la luz' es:",
+        "o": [
+         "Turn on the light.",
+         "Turn off the light.",
+         "Take off the light.",
+         "Put off the light."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I'll pick you ___ at the airport.",
+        "ans": [
+         "up"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Please walk quietly in the library and turn off your phones.",
+        "q": "¿Qué deben hacer con el celular?",
+        "o": [
+         "Cargarlo",
+         "Apagarlo",
+         "Ponerlo en la mesa",
+         "Guardarlo en el bolso"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Please drive carefully and don't give up."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "speaks",
+         "English",
+         "very",
+         "fluently."
+        ],
+        "es": "Ella habla inglés con mucha fluidez."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Take",
+         "off",
+         "your",
+         "shoes,",
+         "please."
+        ],
+        "es": "Quítate los zapatos, por favor."
+       },
+       {
+        "t": "dict",
+        "say": "I found out the truth yesterday."
+       },
+       {
+        "t": "dict",
+        "say": "He waited patiently for an hour."
+       },
+       {
+        "t": "mc",
+        "q": "Adverbio de hard:",
+        "o": [
+         "hardly",
+         "hard",
+         "hardy",
+         "more hard"
+        ],
+        "a": 1,
+        "x": "Hard es irregular: work hard. Hardly significa 'apenas'."
+       },
+       {
+        "t": "fill",
+        "q": "Who looks ___ your children when you work? (cuida)",
+        "ans": [
+         "after"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Don't throw away the boxes. We'll need them when we move next month.",
+        "q": "¿Para qué necesitarán las cajas?",
+        "o": [
+         "Para regalos",
+         "Para la mudanza",
+         "Para reciclar",
+         "Para guardar ropa"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Describe cómo haces 5 actividades (mínimo 30 palabras). Usa adverbios terminados en -ly y al menos dos phrasal verbs.",
+        "min": 30,
+        "keys": [
+         [
+          "ly"
+         ],
+         [
+          "well",
+          "hard",
+          "fast"
+         ],
+         [
+          "turn on",
+          "turn off",
+          "pick up",
+          "put on",
+          "take off",
+          "give up",
+          "find out",
+          "go out",
+          "look after",
+          "get up"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "He's a careful driver. He drives ___.",
+       "o": [
+        "careful",
+        "carefully",
+        "care",
+        "carefuly"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "It's cold. ___ your jacket.",
+       "o": [
+        "Put on",
+        "Take off",
+        "Turn on",
+        "Pick up"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "a2-u6-l5",
+      "title": "Pedir favores en el banco, el correo y por teléfono",
+      "goal": "Hacer peticiones corteses y resolver trámites.",
+      "theory": [
+       {
+        "p": "Para pedir algo con **cortesía**, de menos a más formal:"
+       },
+       {
+        "ex": [
+         [
+          "Can you help me?",
+          "¿Me puedes ayudar?"
+         ],
+         [
+          "Could you help me, please?",
+          "¿Me podría ayudar, por favor?"
+         ],
+         [
+          "Would you mind helping me?",
+          "¿Le importaría ayudarme?"
+         ],
+         [
+          "I'd like to open an account.",
+          "Quisiera abrir una cuenta."
+         ]
+        ]
+       },
+       {
+        "p": "Por **teléfono**:"
+       },
+       {
+        "ex": [
+         [
+          "Hello, could I speak to Mr. Ruiz, please?",
+          "Hola, ¿podría hablar con el señor Ruiz, por favor?"
+         ],
+         [
+          "Hold on, please. / One moment, please.",
+          "Espere un momento, por favor."
+         ],
+         [
+          "He's not available. Can I take a message?",
+          "No está disponible. ¿Le dejo un mensaje?"
+         ],
+         [
+          "Could you ask him to call me back?",
+          "¿Podría pedirle que me devuelva la llamada?"
+         ]
+        ]
+       },
+       {
+        "tip": "Would you mind + verbo-ing: Would you mind waiting? Para aceptar se dice 'No, not at all' (no me importa)."
+       }
+      ],
+      "vocab": [
+       [
+        "Could you...?",
+        "expresión",
+        "¿Podría...?",
+        "Could you repeat that?"
+       ],
+       [
+        "Would you mind...?",
+        "expresión",
+        "¿Le importaría...?",
+        "Would you mind closing the door?"
+       ],
+       [
+        "Not at all.",
+        "expresión",
+        "Para nada (no me importa).",
+        "—Would you mind? —Not at all."
+       ],
+       [
+        "open an account",
+        "expresión",
+        "abrir una cuenta",
+        "I'd like to open an account."
+       ],
+       [
+        "withdraw money",
+        "expresión",
+        "retirar dinero",
+        "I need to withdraw money."
+       ],
+       [
+        "deposit",
+        "verbo / sustantivo",
+        "consignar; depósito",
+        "I want to deposit this check."
+       ],
+       [
+        "transfer",
+        "verbo / sustantivo",
+        "transferir; transferencia",
+        "Can I transfer money online?"
+       ],
+       [
+        "cash machine / ATM",
+        "sustantivo",
+        "cajero automático",
+        "Is there an ATM near here?"
+       ],
+       [
+        "exchange rate",
+        "sustantivo",
+        "tasa de cambio",
+        "What's the exchange rate?"
+       ],
+       [
+        "send a package",
+        "expresión",
+        "enviar un paquete",
+        "I want to send a package to Spain."
+       ],
+       [
+        "stamp",
+        "sustantivo",
+        "estampilla",
+        "How much is a stamp?"
+       ],
+       [
+        "delivery",
+        "sustantivo",
+        "entrega, domicilio",
+        "Delivery takes three days."
+       ],
+       [
+        "hold on",
+        "verbo",
+        "esperar (en el teléfono)",
+        "Hold on, please."
+       ],
+       [
+        "call back",
+        "verbo",
+        "devolver la llamada",
+        "Can you call me back?"
+       ],
+       [
+        "take a message",
+        "expresión",
+        "tomar un mensaje",
+        "Can I take a message?"
+       ],
+       [
+        "available",
+        "adjetivo",
+        "disponible",
+        "She isn't available now."
+       ],
+       [
+        "extension",
+        "sustantivo",
+        "extensión",
+        "Extension 204, please."
+       ],
+       [
+        "appointment",
+        "sustantivo",
+        "cita",
+        "I'd like to make an appointment."
+       ],
+       [
+        "sign",
+        "verbo",
+        "firmar",
+        "Please sign here."
+       ],
+       [
+        "ID card",
+        "sustantivo",
+        "cédula, documento",
+        "Can I see your ID card?"
+       ]
+      ],
+      "dialogue": {
+       "title": "En el banco",
+       "scene": "Esteban acaba de mudarse a Toronto y va al banco a abrir una cuenta.",
+       "a": "Banquera",
+       "b": "Esteban",
+       "lines": [
+        [
+         "A",
+         "Good morning. How can I help you?",
+         "Buenos días. ¿En qué le puedo ayudar?"
+        ],
+        [
+         "B",
+         "Good morning. I'd like to open a bank account, please.",
+         "Buenos días. Quisiera abrir una cuenta bancaria, por favor."
+        ],
+        [
+         "A",
+         "Of course. Could I see your passport and your proof of address?",
+         "Claro. ¿Me permite su pasaporte y un comprobante de domicilio?"
+        ],
+        [
+         "B",
+         "Here's my passport. Would you mind if I show you the address on my phone?",
+         "Aquí está mi pasaporte. ¿Le importa si le muestro la dirección en mi celular?"
+        ],
+        [
+         "A",
+         "Not at all. That's fine. Is it a savings account or a checking account?",
+         "Para nada. Está bien. ¿Es una cuenta de ahorros o corriente?"
+        ],
+        [
+         "B",
+         "A savings account. Could you explain the fees, please?",
+         "De ahorros. ¿Me podría explicar las comisiones, por favor?"
+        ],
+        [
+         "A",
+         "There's no monthly fee. You can withdraw money from any of our ATMs for free.",
+         "No hay cuota mensual. Puede retirar dinero gratis de cualquiera de nuestros cajeros."
+        ],
+        [
+         "B",
+         "Great. Can I transfer money to Colombia online?",
+         "Genial. ¿Puedo transferir dinero a Colombia por internet?"
+        ],
+        [
+         "A",
+         "Yes, you can. The fee is fifteen dollars per transfer.",
+         "Sí. La comisión es de quince dólares por transferencia."
+        ],
+        [
+         "B",
+         "And what's the exchange rate today?",
+         "¿Y cuál es la tasa de cambio hoy?"
+        ],
+        [
+         "A",
+         "I'll check. Could you hold on a second? ... OK, please sign here and here.",
+         "Lo reviso. ¿Me espera un segundo? ... Bueno, por favor firme aquí y aquí."
+        ],
+        [
+         "B",
+         "Sure. Thank you for your help!",
+         "Claro. ¡Gracias por su ayuda!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ you help me, please? (formal)",
+        "o": [
+         "Could",
+         "Do",
+         "Are",
+         "Will to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Would you mind ___ the window?",
+        "o": [
+         "open",
+         "to open",
+         "opening",
+         "opened"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "—Would you mind waiting? —___",
+        "o": [
+         "Yes, I mind.",
+         "Not at all.",
+         "No, I'm not.",
+         "Yes, please."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Could you ask her to call me ___?",
+        "ans": [
+         "back"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I'm sorry, Ms. Pérez isn't available. Can I take a message?",
+        "q": "¿Qué ofrece la persona?",
+        "o": [
+         "Llamar luego",
+         "Tomar un mensaje",
+         "Pasar a otra extensión",
+         "Colgar"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Hello, could I speak to Mr. Ruiz, please?"
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I'd",
+         "like",
+         "to",
+         "send",
+         "a",
+         "package",
+         "to",
+         "Spain."
+        ],
+        "es": "Quisiera enviar un paquete a España."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Could",
+         "you",
+         "speak",
+         "more",
+         "slowly,",
+         "please?"
+        ],
+        "es": "¿Podría hablar más despacio, por favor?"
+       },
+       {
+        "t": "dict",
+        "say": "Hold on, please."
+       },
+       {
+        "t": "dict",
+        "say": "Is there an ATM near here?"
+       },
+       {
+        "t": "mc",
+        "q": "Cajero automático:",
+        "o": [
+         "ATM",
+         "cash box",
+         "money machine only",
+         "bank box"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I need to ___ two hundred dollars. (retirar)",
+        "ans": [
+         "withdraw"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The package will arrive in five working days. Delivery costs twelve dollars.",
+        "q": "¿Cuánto cuesta el envío?",
+        "o": [
+         "$5",
+         "$12",
+         "$20",
+         "$15"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo formal para pedir una cita o información a una empresa (mínimo 35 palabras). Usa could you, would you mind o I'd like.",
+        "min": 35,
+        "keys": [
+         [
+          "could you",
+          "would you mind",
+          "i'd like",
+          "i would like"
+         ],
+         [
+          "please"
+         ],
+         [
+          "dear",
+          "hello",
+          "good morning"
+         ],
+         [
+          "thank you",
+          "regards",
+          "best"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Al teléfono: '___, please. I'll transfer you.'",
+       "o": [
+        "Hold on",
+        "Hold off",
+        "Call back",
+        "Take on"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I'd like ___ an account.",
+       "o": [
+        "open",
+        "to open",
+        "opening",
+        "opened"
+       ],
+       "a": 1
+      },
+      "reading": 5,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "How ___ sugar do you want?",
+      "o": [
+       "many",
+       "much",
+       "a few",
+       "lots"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I didn't buy ___ at the market.",
+      "o": [
+       "nothing",
+       "anything",
+       "something",
+       "nobody"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "If you ___ hard, you'll pass.",
+      "o": [
+       "will study",
+       "study",
+       "studied",
+       "studying"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "He speaks English very ___.",
+      "o": [
+       "good",
+       "well",
+       "fluent",
+       "goodly"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Would you mind ___ me your pen?",
+      "o": [
+       "lend",
+       "to lend",
+       "lending",
+       "lent"
+      ],
+      "a": 2
+     },
+     {
+      "t": "fill",
+      "q": "I have a ___ friends in Canada. (unos pocos)",
+      "ans": [
+       "few"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "If the bank is closed, I'll use the ATM at the supermarket.",
+      "q": "¿Qué hará si el banco está cerrado?",
+      "o": [
+       "Volver mañana",
+       "Usar el cajero del supermercado",
+       "Llamar al banco",
+       "Pedir prestado"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Nobody was at home, so the delivery man left the package with my neighbor.",
+      "q": "¿Con quién dejaron el paquete?",
+      "o": [
+       "En la puerta",
+       "Con el vecino",
+       "En el correo",
+       "Lo devolvieron"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe un mensaje pidiéndole un favor a alguien y explicando qué pasará si te ayuda (mínimo 40 palabras). Usa could you, if + will y un adverbio en -ly.",
+      "min": 40,
+      "keys": [
+       [
+        "could you",
+        "would you mind",
+        "can you"
+       ],
+       [
+        "if"
+       ],
+       [
+        "will",
+        "'ll"
+       ],
+       [
+        "ly"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "If it rains tomorrow, I'll stay at home."
+     },
+     {
+      "t": "oral",
+      "text": "Could you call me back, please?"
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "There are too ___ cars in this city.",
+      "o": [
+       "much",
+       "many",
+       "little",
+       "few of"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Everybody ___ the answer.",
+      "o": [
+       "know",
+       "knows",
+       "are knowing",
+       "knowing"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I'll call you as soon as I ___.",
+      "o": [
+       "will arrive",
+       "arrive",
+       "arrived",
+       "arriving"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Please drive ___. The road is wet.",
+      "o": [
+       "careful",
+       "carefully",
+       "care",
+       "more care"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Can you ___ my children after school? (recoger)",
+      "o": [
+       "pick up",
+       "look for",
+       "take off",
+       "give up"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "—Can I take a message? —___",
+      "o": [
+       "Yes, please ask him to call me back.",
+       "Yes, I take it.",
+       "No, I'm message.",
+       "Hold on yourself."
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "There's ___ in the fridge. It's empty! (nada)",
+      "ans": [
+       "nothing"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Take a jacket in ___ it gets cold.",
+      "ans": [
+       "case"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Could you speak more slowly, please? My English isn't very good.",
+      "q": "¿Qué pide la persona?",
+      "o": [
+       "Que hable más fuerte",
+       "Que hable más despacio",
+       "Que repita en español",
+       "Que escriba"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "I'd like to send this package to Mexico. How long will delivery take?",
+      "q": "¿A dónde quiere enviar el paquete?",
+      "o": [
+       "España",
+       "México",
+       "Canadá",
+       "Perú"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "If you don't hurry, you'll miss the last train.",
+      "q": "¿Qué pasará si no se apura?",
+      "o": [
+       "Llegará temprano",
+       "Perderá el último tren",
+       "Se perderá",
+       "Pagará más"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe sobre lo que harás este fin de semana según el clima (mínimo 35 palabras). Usa al menos 3 frases con if.",
+      "min": 35,
+      "keys": [
+       [
+        "if"
+       ],
+       [
+        "will",
+        "'ll"
+       ],
+       [
+        "won't",
+        "unless",
+        "in case"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "How much money do you need? How many people are coming?"
+     },
+     {
+      "t": "oral",
+      "text": "Would you mind waiting a moment, please?"
+     },
+     {
+      "t": "oral",
+      "text": "I looked everywhere, but I couldn't find my keys anywhere."
      }
     ]
    }
