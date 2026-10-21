@@ -10,7 +10,8 @@ global.window = {};
 require(path.join(root, "lessons.js"));
 require(path.join(root, "readings.js"));
 const meta = require(path.join(dir, "meta.js"));
-const units = [1, 2, 3, 4, 5, 6].map(n => path.join(dir, `u${n}.js`)).filter(f => fs.existsSync(f)).map(f => require(f));
+const only = process.env.UNIT ? [+process.env.UNIT] : [1, 2, 3, 4, 5, 6];
+const units = only.map(n => path.join(dir, `u${n}.js`)).filter(f => fs.existsSync(f)).map(f => require(f));
 const problems = [];
 const need = (cond, msg) => { if (!cond) problems.push(msg); };
 const checkItem = (it, where) => {
@@ -56,6 +57,8 @@ if (fs.existsSync(path.join(dir, "readings.js"))) {
 need(meta.final && meta.final.extra && meta.final.extra.some(x => x.t === "write"), "meta: el examen final necesita redacción");
 (meta.final && meta.final.extra || []).forEach((it, i) => checkItem(it, `final extra #${i}`));
 if (problems.length) { console.error(problems.join("\n")); process.exit(1); }
+/* CHECK=1 solo valida (UNIT=n valida una unidad) sin escribir archivos */
+if (process.env.CHECK) { const ls = units.flatMap(u => u.lessons); console.log(`OK: ${units.length} unidades · ${ls.length} lecciones · ${ls.reduce((s, l) => s + l.vocab.length, 0)} palabras · ${ls.reduce((s, l) => s + l.practice.length + (l.more || []).length, 0)} ejercicios`); process.exit(0); }
 
 window.SYLLABUS[L] = { intro: meta.intro, units: units.map(u => ({ title: u.title, lessons: u.lessons, quiz: u.quiz, pool: u.pool })), final: { listenPerUnit: 1, pass: 70, ...meta.final } };
 const src = fs.readFileSync(path.join(root, "lessons.js"), "utf8");
