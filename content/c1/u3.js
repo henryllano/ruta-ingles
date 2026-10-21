@@ -1,0 +1,328 @@
+module.exports = {
+title: "Discurso académico y profesional",
+lessons: [
+{ id:"c1-u3-l1", title:"Nominalización y estilo escrito denso", goal:"Transformar verbos y adjetivos en sustantivos para escribir con la densidad y la objetividad del inglés académico y corporativo.",
+ theory:[
+  {p:"La **nominalización** convierte acciones (verbos) y cualidades (adjetivos) en **sustantivos**. Es la marca principal del inglés académico y de los informes profesionales: el texto se vuelve más **denso, impersonal y objetivo**, porque el foco pasa de **quién hace** a **qué ocurre**."},
+  {ex:[["The government decided to raise taxes, which angered voters. → The government's decision to raise taxes angered voters.","El gobierno decidió subir los impuestos, lo que enfureció a los votantes. → La decisión del gobierno de subir los impuestos enfureció a los votantes."],["We implemented the system slowly, so costs rose. → The slow implementation of the system led to a rise in costs.","Implementamos el sistema lentamente, así que los costos subieron. → La lenta implementación del sistema provocó un aumento de los costos."],["Customers are increasingly reluctant to share data. → There is growing reluctance among customers to share data.","Los clientes son cada vez más reacios a compartir datos. → Hay una creciente reticencia entre los clientes a compartir datos."]]},
+  {p:"Al nominalizar, los **adverbios se vuelven adjetivos** (slowly → slow implementation), el **sujeto pasa a ser un posesivo o un complemento con of / by** (the board approved → approval by the board), y las relaciones lógicas se expresan con **verbos de causa** en lugar de conjunciones: **lead to, result in, give rise to, bring about, stem from, account for**."},
+  {ex:[["Because demand fell, the factory closed. → The fall in demand resulted in the closure of the factory.","Como la demanda cayó, la fábrica cerró. → La caída de la demanda tuvo como resultado el cierre de la fábrica."],["Pollution has increased markedly since 2015. → There has been a marked increase in pollution since 2015.","La contaminación ha aumentado notablemente desde 2015. → Ha habido un aumento notable de la contaminación desde 2015."],["The problem arose because the staff relied too much on software. → The problem stemmed from an over-reliance on software.","El problema surgió porque el personal dependía demasiado del software. → El problema se originó en una dependencia excesiva del software."]]},
+  {p:"Ojo con las **preposiciones fijas** de los sustantivos: **an increase / a rise / a reduction / a decline in** (algo que cambia), pero **an increase of 5 %** (la cifra); **reliance on**, **demand for**, **the need for**, **an effect on**, **a solution to**, **access to**, **a reason for**."},
+  {tip:"Error típico del hispanohablante: calcar 'el aumento de los precios' como 'the increase of prices'. Lo correcto es 'the increase in prices'. Y no abuses: tres o cuatro sustantivos seguidos (the staff training programme evaluation report) vuelven el texto ilegible; la buena prosa académica equilibra densidad y claridad."}
+ ],
+ vocab:[
+  ["implementation","sustantivo","implementación, puesta en marcha","The implementation of the new policy was delayed by six months."],["assessment","sustantivo","evaluación, valoración","A thorough assessment of the risks is required before approval."],
+  ["reliance on","sustantivo","dependencia de","Our reliance on a single supplier left us vulnerable."],["reduction in","sustantivo","reducción de","The report recommends a sharp reduction in overtime."],
+  ["emergence","sustantivo","surgimiento, aparición","The emergence of remote work has reshaped city centres."],["acquisition","sustantivo","adquisición","The acquisition of the start-up was finalised in March."],
+  ["deterioration","sustantivo","deterioro","There has been a steady deterioration in working conditions."],["endorsement","sustantivo","respaldo, aval","The proposal received the full endorsement of the board."],
+  ["feasibility","sustantivo","viabilidad","A feasibility study will be completed before any investment."],["undertake","verbo","emprender, llevar a cabo","The firm undertook a complete restructuring of its operations."],
+  ["conduct a review","colocación","realizar una revisión","The committee will conduct a review of all expenses."],["give rise to","expresión","dar lugar a, originar","The merger gave rise to widespread uncertainty among staff."],
+  ["bring about","phrasal verb","provocar, ocasionar (un cambio)","Digital tools have brought about a shift in how we learn."],["stem from","phrasal verb","derivarse de, tener su origen en","Most complaints stem from poor communication."],
+  ["the extent to which","expresión","la medida en que","The study examines the extent to which income affects health."],["in the absence of","expresión","a falta de, en ausencia de","In the absence of reliable data, no conclusion can be drawn."],
+  ["prior to","preposición","antes de (formal)","All documents must be submitted prior to the meeting."],["a marked increase in","colocación","un aumento notable de","There has been a marked increase in online fraud."],
+  ["reluctance","sustantivo","renuencia, reticencia","Their reluctance to invest is understandable."],["shortcoming","sustantivo","deficiencia, falla","The audit exposed several shortcomings in the process."]
+ ],
+ dialogue:{title:"Puliendo el informe trimestral", scene:"Mariana, analista en una empresa de logística en Bogotá, revisa con su jefe británico, Graham, el borrador del informe para la junta directiva.", a:"Graham", b:"Mariana", lines:[
+  ["A","I've read your draft, Mariana. The content is solid, but the style feels a bit conversational for the board.","Leí tu borrador, Mariana. El contenido es sólido, pero el estilo se siente un poco coloquial para la junta."],
+  ["B","I was afraid of that. Which parts stood out?","Me temía eso. ¿Qué partes te llamaron la atención?"],
+  ["A","Take this sentence: 'We delivered late because the drivers relied too much on the old routing app.'","Mira esta frase: 'Entregamos tarde porque los conductores dependían demasiado de la vieja aplicación de rutas'."],
+  ["B","So I should nominalise it? Something like 'Delivery delays stemmed from an over-reliance on outdated routing software'?","¿Entonces debería nominalizarla? ¿Algo como 'Los retrasos en las entregas se originaron en una dependencia excesiva de un software de rutas obsoleto'?"],
+  ["A","Exactly. It shifts the focus from who did what to what actually happened, which is what the board cares about.","Exacto. Cambia el foco de quién hizo qué a lo que realmente pasó, que es lo que le importa a la junta."],
+  ["B","And here, where I wrote 'costs went up a lot', would 'there was a marked increase in costs' work better?","Y aquí, donde escribí 'los costos subieron mucho', ¿funcionaría mejor 'hubo un aumento notable de los costos'?"],
+  ["A","Much better. Just remember it's 'an increase in costs', not 'of costs'. 'Of' is for the figure: an increase of twelve per cent.","Mucho mejor. Solo recuerda que es 'an increase in costs', no 'of costs'. 'Of' es para la cifra: un aumento del doce por ciento."],
+  ["B","That's a mistake I make all the time, because in Spanish we say 'el aumento de'.","Ese es un error que cometo todo el tiempo, porque en español decimos 'el aumento de'."],
+  ["A","Very common. Now, the recommendation section: 'We should check if it's possible to buy a new system'.","Muy común. Ahora, la sección de recomendaciones: 'Deberíamos revisar si es posible comprar un sistema nuevo'."],
+  ["B","Let me try: 'We recommend that a feasibility study be conducted prior to the acquisition of a new system.'","Déjame intentar: 'Recomendamos que se realice un estudio de viabilidad antes de la adquisición de un sistema nuevo'."],
+  ["A","Perfect register. You might also mention the extent to which the delays affected customer retention.","Registro perfecto. También podrías mencionar la medida en que los retrasos afectaron la retención de clientes."],
+  ["B","Good idea. In the absence of hard data, though, I'd rather present it as an estimate.","Buena idea. Pero a falta de datos concretos, preferiría presentarlo como una estimación."],
+  ["A","Wise. One warning: don't overdo it. If every sentence is a chain of nouns, nobody will finish reading it.","Sensato. Una advertencia: no exageres. Si cada frase es una cadena de sustantivos, nadie va a terminar de leerlo."],
+  ["B","Understood. Dense, but still readable. I'll have the revised version on your desk by tomorrow morning.","Entendido. Denso, pero legible. Mañana en la mañana tendrás la versión revisada en tu escritorio."]
+ ]},
+ practice:[
+  {t:"mc",q:"Elige la versión nominalizada correcta de 'The company expanded rapidly, which worried investors.'",o:["The company's rapid expansion worried investors.","The company's rapidly expansion worried investors.","The rapid expanding of the company worried to investors.","The company expansion rapid worried investors."],a:0,x:"Al nominalizar, el adverbio (rapidly) se convierte en adjetivo (rapid)."},
+  {t:"mc",q:"There has been a significant reduction ___ carbon emissions since the new law came into force.",o:["of","in","on","for"],a:1,x:"reduction / increase / rise / decline + in + lo que cambia."},
+  {t:"mc",q:"Most of the conflicts within the team ___ a lack of clear leadership.",o:["give rise to","stem from","bring about","result in"],a:1,x:"stem from = tener su origen en (efecto ← causa). Las otras opciones van en dirección causa → efecto."},
+  {t:"fill",q:"The board gave its full ___ to the plan. (respaldo, de 'endorse')",ans:["endorsement"]},
+  {t:"listen",say:"The steady deterioration in customer satisfaction can largely be attributed to the company's reluctance to invest in staff training.",q:"Según el hablante, ¿a qué se debe el deterioro de la satisfacción del cliente?",o:["A la falta de productos nuevos","A la renuencia de la empresa a invertir en capacitación","A los precios demasiado altos","A un error del software de atención"],a:1},
+  {t:"oral",text:"The implementation of the new strategy gave rise to a marked increase in productivity."}
+ ],
+ more:[
+  {t:"order",words:["The","problem","stemmed","from","an","over-reliance","on","outdated","software."],es:"El problema se originó en una dependencia excesiva de un software obsoleto."},
+  {t:"order",words:["A","feasibility","study","must","be","conducted","prior","to","any","investment."],es:"Debe realizarse un estudio de viabilidad antes de cualquier inversión."},
+  {t:"dict",say:"In the absence of reliable data, no firm conclusion can be drawn."},
+  {t:"dict",say:"The audit exposed several shortcomings in the approval process."},
+  {t:"fill",q:"The study explores the ___ to which social media shapes political opinion. (medida)",ans:["extent"]},
+  {t:"mc",q:"¿Qué frase muestra un uso EXCESIVO de la nominalización?",o:["The decision to close the plant surprised analysts.","There was a sharp rise in demand.","The staff performance appraisal process review committee report was delayed.","The acquisition was finalised in May."],a:2,x:"Una cadena de cinco sustantivos seguidos dificulta la lectura."},
+  {t:"listen",say:"Prior to the acquisition, the firm had undertaken a full assessment of the target's liabilities, yet several shortcomings only emerged afterwards.",q:"¿Qué pasó a pesar de la evaluación previa?",o:["La adquisición se canceló","Algunas deficiencias solo aparecieron después","La empresa perdió todos sus clientes","Los pasivos resultaron ser menores"],a:1},
+  {t:"write",q:"Reescribe en estilo académico denso un párrafo (mínimo 120 palabras) sobre un problema de tu empresa o ciudad: explica sus causas y consecuencias usando al menos cinco nominalizaciones y verbos de causa como lead to, result in, give rise to o stem from.",min:120,keys:[["implementation","decision","reduction","increase","rise","decline","reliance"],["stem from","stems from","stemmed from","result in","resulted in","give rise to","gave rise to","lead to","led to","bring about","brought about"],["the extent to which","in the absence of","prior to"],["in","of","on"]]}
+ ],
+ exam:{t:"mc",q:"¿Cuál es la nominalización correcta de 'Prices rose sharply, so sales fell'?",o:["A sharp rise of prices led to a fall of sales.","A sharp rise in prices led to a fall in sales.","A sharply rise in prices led to a fall in sales.","Prices sharp rising led to the sales falling."],a:1},
+ exam2:{t:"mc",q:"Customer complaints largely ___ poor communication between departments.",o:["give rise to","bring about","stem from","account to"],a:2}
+},
+{ id:"c1-u3-l2", title:"Pasiva impersonal y distanciamiento", goal:"Presentar opiniones, rumores y hallazgos sin comprometerte personalmente, usando la pasiva con verbos de opinión y el lenguaje de cautela.",
+ theory:[
+  {p:"En textos académicos, periodísticos y corporativos se evita decir 'yo creo' o 'la gente dice'. En su lugar se usa la **pasiva impersonal** con verbos de opinión y reporte (**say, believe, think, consider, expect, report, suggest, estimate, allege, know**). Hay **dos estructuras**:"},
+  {ex:[["It + pasiva + that: It is believed that the virus originated in bats.","Se cree que el virus se originó en los murciélagos."],["Sujeto + pasiva + infinitivo: The virus is believed to have originated in bats.","Se cree que el virus se originó en los murciélagos."],["It has been suggested that the merger will cost jobs.","Se ha sugerido que la fusión costará empleos."],["There is believed to be a link between sleep and memory.","Se cree que existe un vínculo entre el sueño y la memoria."]]},
+  {p:"Con la estructura personal, el **infinitivo** indica el tiempo: **to + verbo** (simultáneo o futuro), **to be + -ing** (en curso), **to have + participio** (anterior)."},
+  {ex:[["The CEO is said to be considering resignation.","Se dice que el director general está considerando renunciar."],["The painting is thought to have been stolen in the 1990s.","Se cree que la pintura fue robada en los años noventa."],["Thousands are reported to have lost their homes.","Se informa que miles de personas perdieron sus hogares."],["There are thought to have been over 200 victims.","Se cree que hubo más de 200 víctimas."]]},
+  {p:"El **distanciamiento** se completa con **hedging** (lenguaje de cautela): **appear / seem / tend to**, **it would seem that**, **arguably**, **allegedly, reportedly, purportedly**, y modales como **may, might, could**. Así matizas tus afirmaciones y te proteges de acusaciones de exageración."},
+  {tip:"Error frecuente: traducir 'se dice que' como 'It is said him to be'. Las opciones válidas son 'It is said that he is...' o 'He is said to be...'. Y recuerda: 'There is said to be' (no 'There is said there is'). Con suggest no se usa la estructura personal: 'It has been suggested that...', nunca 'He has been suggested to...'."}
+ ],
+ vocab:[
+  ["allegedly","adverbio","supuestamente (sin pruebas)","The minister allegedly accepted bribes."],["reportedly","adverbio","según se informa","The company is reportedly planning layoffs."],
+  ["purportedly","adverbio","presuntamente, según se pretende","The letter was purportedly written by the founder."],["be deemed","verbo","ser considerado (formal)","The proposal was deemed too risky."],
+  ["be presumed","verbo","presumirse, darse por hecho","The missing hikers are presumed to be alive."],["be alleged to","verbo","acusarse de, alegarse que","He is alleged to have falsified the accounts."],
+  ["be estimated to","verbo","estimarse que","The project is estimated to cost 4 million dollars."],["be understood to","verbo","entenderse que, saberse que","The two firms are understood to be in talks."],
+  ["it is widely held that","expresión","es una opinión extendida que","It is widely held that inflation will ease next year."],["attribute (sth) to","verbo","atribuir algo a","The rise in sales was attributed to the new campaign."],
+  ["speculation","sustantivo","especulación","There is growing speculation about a merger."],["consensus","sustantivo","consenso","There is no consensus among experts."],
+  ["unsubstantiated","adjetivo","sin fundamento, no comprobado","These claims remain unsubstantiated."],["contend","verbo","sostener, afirmar (en un debate)","Critics contend that the policy is unfair."],
+  ["assert","verbo","afirmar categóricamente","The author asserts that the data were manipulated."],["anecdotal evidence","colocación","evidencia anecdótica","The claim is based on anecdotal evidence only."],
+  ["conclusive","adjetivo","concluyente","The results are far from conclusive."],["tentative","adjetivo","provisional, tentativo","We can only offer a tentative explanation."],
+  ["distance oneself from","expresión","desmarcarse de","The company distanced itself from the remarks."],["be reputed to","verbo","tener fama de","She is reputed to be the best surgeon in the city."]
+ ],
+ dialogue:{title:"Un comunicado delicado", scene:"Sofía, jefa de comunicaciones de una farmacéutica en Medellín, prepara con el abogado canadiense Daniel un comunicado sobre un rumor que circula en redes.", a:"Daniel", b:"Sofía", lines:[
+  ["A","Sofía, have you seen the post that's going viral? It claims our new drug causes memory loss.","Sofía, ¿viste la publicación que se está volviendo viral? Afirma que nuestro nuevo medicamento causa pérdida de memoria."],
+  ["B","I have. It's based purely on anecdotal evidence, but we need a statement out today.","Sí. Está basada solo en evidencia anecdótica, pero necesitamos sacar un comunicado hoy."],
+  ["A","Agreed. We have to be careful, though. We can't assert anything we can't prove.","De acuerdo. Pero tenemos que ser cuidadosos. No podemos afirmar nada que no podamos probar."],
+  ["B","My first draft says: 'People are saying the drug is dangerous, but this is false.'","Mi primer borrador dice: 'La gente está diciendo que el medicamento es peligroso, pero esto es falso'."],
+  ["A","Too direct. How about: 'It has been suggested on social media that the medication may affect memory'?","Demasiado directo. ¿Qué tal: 'Se ha sugerido en redes sociales que el medicamento podría afectar la memoria'?"],
+  ["B","That sounds more neutral. Then: 'These claims are, to date, unsubstantiated by any clinical data.'","Suena más neutral. Luego: 'Hasta la fecha, estas afirmaciones no están respaldadas por ningún dato clínico'."],
+  ["A","Good. And we should mention the trials. Over four thousand patients are estimated to have taken part, right?","Bien. Y deberíamos mencionar los ensayos. Se estima que participaron más de cuatro mil pacientes, ¿cierto?"],
+  ["B","Exactly four thousand two hundred. So we can be precise there: 'The drug was tested on 4,200 patients.'","Exactamente cuatro mil doscientos. Así que ahí podemos ser precisos: 'El medicamento se probó en 4.200 pacientes'."],
+  ["A","Even better. What about the influencer who started it? He's alleged to have links to a competitor.","Aún mejor. ¿Y el influenciador que lo empezó? Se dice que tiene vínculos con un competidor."],
+  ["B","I'd leave that out. If we accuse him, it looks defensive, and the link is only rumoured.","Yo dejaría eso por fuera. Si lo acusamos, parecemos a la defensiva, y el vínculo es solo un rumor."],
+  ["A","Fair enough. Should we say there is believed to be no link at all between the drug and memory loss?","Me parece bien. ¿Deberíamos decir que se cree que no existe ningún vínculo entre el medicamento y la pérdida de memoria?"],
+  ["B","'Believed' sounds weak. I'd say: 'No such link has been identified in any of the trials conducted to date.'","'Se cree' suena débil. Yo diría: 'No se ha identificado tal vínculo en ninguno de los ensayos realizados hasta la fecha'."],
+  ["A","Strong, but defensible. And we'll add that the matter is being reviewed by an independent panel.","Fuerte, pero defendible. Y añadimos que el asunto está siendo revisado por un panel independiente."],
+  ["B","Perfect. Let me redraft it and send it to legal within the hour.","Perfecto. Déjame reescribirlo y se lo mando a jurídica en menos de una hora."]
+ ]},
+ practice:[
+  {t:"mc",q:"The suspect is believed ___ the country last week.",o:["to leave","to have left","leaving","that he left"],a:1,x:"to have + participio para una acción anterior al momento en que se cree."},
+  {t:"mc",q:"___ that the economy will recover by the end of next year.",o:["It is expected","It expects","There is expected","It is expected to"],a:0},
+  {t:"mc",q:"There ___ to be more than ten thousand species still undiscovered in the Amazon.",o:["is thought","are thought","thinks","are thinking"],a:1,x:"There + be concuerda con el sustantivo plural: There are thought to be..."},
+  {t:"fill",q:"The CEO is said to be ___ (considerar) a merger with a rival firm.",ans:["considering"]},
+  {t:"listen",say:"The two companies are understood to be in advanced talks, although neither has confirmed the reports, and analysts remain cautious.",q:"¿Qué se sabe de las negociaciones?",o:["Que ya terminaron con un acuerdo","Que se entiende que están avanzadas, pero no se han confirmado","Que ambas empresas las confirmaron","Que los analistas están muy optimistas"],a:1},
+  {t:"oral",text:"It has been suggested that the new policy may have unintended consequences."}
+ ],
+ more:[
+  {t:"order",words:["The","painting","is","thought","to","have","been","stolen","in","1994."],es:"Se cree que la pintura fue robada en 1994."},
+  {t:"order",words:["There","is","believed","to","be","a","link","between","stress","and","illness."],es:"Se cree que existe un vínculo entre el estrés y la enfermedad."},
+  {t:"dict",say:"These claims remain unsubstantiated by any reliable evidence."},
+  {t:"dict",say:"The company has distanced itself from the remarks."},
+  {t:"mc",q:"¿Cuál de estas frases es INCORRECTA?",o:["He is said to be very wealthy.","It is said that he is very wealthy.","He has been suggested to resign.","It has been suggested that he should resign."],a:2,x:"Suggest no admite la estructura personal con infinitivo."},
+  {t:"fill",q:"The minister ___ accepted money from the contractor, but nothing has been proven. (supuestamente)",ans:["allegedly","reportedly"]},
+  {t:"listen",say:"Although it is widely held that remote workers are less productive, the data from our study appear to suggest the opposite, albeit tentatively.",q:"¿Qué sugieren los datos del estudio?",o:["Que los trabajadores remotos son menos productivos","Lo contrario de la creencia general, aunque de forma provisional","Que no hay ninguna diferencia","Que el estudio fue un fracaso"],a:1},
+  {t:"write",q:"Escribe una breve nota de prensa o un párrafo de informe (mínimo 120 palabras) sobre un rumor o hallazgo no confirmado en tu sector. Usa al menos tres estructuras de pasiva impersonal (It is believed that..., X is thought to have..., There is said to be...) y dos expresiones de cautela.",min:120,keys:[["it is believed","it is thought","it is said","it has been suggested","it is widely held","it is expected"],["is thought to","are thought to","is said to","are said to","is believed to","are believed to","is reported to","is estimated to"],["there is","there are"],["allegedly","reportedly","apparently","appear","seem","may","might","tentative"]]}
+ ],
+ exam:{t:"mc",q:"The fire ___ by a faulty cable, according to investigators.",o:["is believed to have been caused","is believed to cause","believes to have been caused","is believed that it caused"],a:0},
+ exam2:{t:"mc",q:"___ to be serious flaws in the original study.",o:["It is said","There are said","They are said there","There says"],a:1}
+},
+{ id:"c1-u3-l3", title:"Marcadores discursivos avanzados", goal:"Conectar ideas con precisión en ensayos, informes y reuniones usando marcadores de contraste, analogía, reformulación y referencia.",
+ theory:[
+  {p:"A nivel C1 ya no basta con **but, also, so**. Los marcadores avanzados hacen explícita la **relación lógica** entre ideas y le dan al texto un aire profesional. Agrúpalos por función:"},
+  {ex:[["Analogía — by the same token: Managers must listen to staff; by the same token, staff must voice concerns openly.","Del mismo modo: Los gerentes deben escuchar al personal; del mismo modo, el personal debe expresar sus inquietudes abiertamente."],["Contraste inverso — conversely: Higher rates attract savers; conversely, they discourage borrowers.","A la inversa: Las tasas más altas atraen a los ahorradores; a la inversa, desaniman a quienes piden préstamos."],["Causa/contexto — in light of: In light of recent events, the launch has been postponed.","En vista de: En vista de los acontecimientos recientes, el lanzamiento se ha aplazado."],["Tema — with regard to: With regard to your request, we will reply by Friday.","En cuanto a: En cuanto a su solicitud, responderemos el viernes."]]},
+  {p:"Para **conceder y luego matizar**: **that being said / that said / be that as it may / notwithstanding**. Para **reformular**: **to put it another way / in other words / that is to say**. Para **consecuencia**: **hence, thereby, as such, in turn**."},
+  {ex:[["The plan is ambitious. That being said, it is entirely achievable.","El plan es ambicioso. Dicho esto, es completamente alcanzable."],["Profits fell by 40 %. To put it another way, we lost almost half our margin.","Las utilidades cayeron un 40 %. Dicho de otro modo, perdimos casi la mitad del margen."],["The new tool automates billing, thereby reducing errors.","La nueva herramienta automatiza la facturación, reduciendo así los errores."],["The results were promising, albeit limited to a small sample.","Los resultados fueron prometedores, aunque limitados a una muestra pequeña."]]},
+  {p:"Fíjate en la **gramática** de cada uno: **in light of, with regard to, notwithstanding** van seguidos de **sustantivo**; **albeit** va con un adjetivo, adverbio o frase corta sin verbo conjugado; **thereby** va con **-ing**; **insofar as** introduce una **oración completa** (insofar as the data allow)."},
+  {tip:"Errores típicos: 'conversely' no es lo mismo que 'on the contrary'. Conversely presenta el caso inverso de algo cierto; on the contrary niega lo que se acaba de decir (—Was it boring? —On the contrary, it was fascinating). Y 'in regards to' es muy criticado en inglés formal: usa 'with regard to' o 'regarding'."}
+ ],
+ vocab:[
+  ["by the same token","conector","del mismo modo, por la misma razón","Prices may rise; by the same token, wages should too."],["conversely","conector","a la inversa, por el contrario","Some prefer stability; conversely, others thrive on change."],
+  ["in light of","preposición","en vista de, a la luz de","In light of the feedback, we revised the design."],["with regard to","preposición","en cuanto a, con respecto a","With regard to pricing, nothing has been decided."],
+  ["that being said","conector","dicho esto","The risks are real. That being said, the rewards are greater."],["to put it another way","conector","dicho de otro modo","To put it another way, we can't afford to wait."],
+  ["notwithstanding","preposición","no obstante, a pesar de","Notwithstanding these concerns, the plan was approved."],["insofar as","conector","en la medida en que","The model is useful insofar as the data are accurate."],
+  ["by contrast","conector","en cambio, en contraste","Sales in Lima grew; by contrast, Quito stagnated."],["on the contrary","conector","al contrario","It wasn't a failure. On the contrary, it was a success."],
+  ["hence","conector","de ahí, por lo tanto","Demand is seasonal, hence the variation in revenue."],["thereby","adverbio","con lo cual, de ese modo","They cut costs, thereby increasing margins."],
+  ["albeit","conector","aunque, si bien","The economy grew, albeit slowly."],["in turn","conector","a su vez","Higher wages boost spending, which in turn drives growth."],
+  ["as such","conector","como tal, por consiguiente","She is the project lead and, as such, signs off on budgets."],["in this respect","conector","en este sentido","In this respect, the two reports agree."],
+  ["to that end","conector","con ese fin","We aim to cut emissions; to that end, we've switched suppliers."],["needless to say","conector","huelga decir, ni hace falta decirlo","Needless to say, all data will remain confidential."],
+  ["by extension","conector","por extensión","The rule applies to staff and, by extension, to contractors."],["be that as it may","conector","sea como sea, aun así","Be that as it may, we still need a decision today."]
+ ],
+ dialogue:{title:"La reunión de estrategia", scene:"En una videollamada, la gerente regional Ana Lucía y el consultor estadounidense Brian discuten si abrir una nueva sede en Lima.", a:"Brian", b:"Ana Lucía", lines:[
+  ["A","Ana Lucía, in light of last quarter's figures, are you still in favour of opening the Lima office?","Ana Lucía, en vista de las cifras del último trimestre, ¿sigues a favor de abrir la oficina en Lima?"],
+  ["B","I am. Revenue in Bogotá dipped, admittedly. That being said, demand in Peru has grown for three consecutive quarters.","Sí. Los ingresos en Bogotá bajaron, lo admito. Dicho esto, la demanda en Perú ha crecido tres trimestres seguidos."],
+  ["A","Grown, albeit from a very low base. To put it another way, the absolute numbers are still small.","Ha crecido, aunque desde una base muy baja. Dicho de otro modo, las cifras absolutas siguen siendo pequeñas."],
+  ["B","True, but that's precisely the point. Small markets grow fast; conversely, mature markets like ours barely move.","Cierto, pero ese es justamente el punto. Los mercados pequeños crecen rápido; a la inversa, los maduros como el nuestro apenas se mueven."],
+  ["A","Fair. With regard to staffing, would you relocate people or hire locally?","Justo. En cuanto al personal, ¿trasladarías gente o contratarías localmente?"],
+  ["B","Mostly local hires. Local staff understand the market and, by the same token, clients trust them more.","Sobre todo contrataciones locales. El personal local entiende el mercado y, del mismo modo, los clientes confían más en él."],
+  ["A","Insofar as we can find the right people, I agree. Notwithstanding the costs, of course.","En la medida en que podamos encontrar a la gente adecuada, estoy de acuerdo. Sin contar los costos, claro."],
+  ["B","The costs are lower than you'd think. Rent in Miraflores is cheaper than in Chicó, hence our margin estimate.","Los costos son más bajos de lo que crees. El arriendo en Miraflores es más barato que en el Chicó, de ahí nuestro estimado de margen."],
+  ["A","So you're saying the office would be profitable in year one?","¿Entonces dices que la oficina sería rentable el primer año?"],
+  ["B","On the contrary, I expect losses in year one. But the investment would pay off by year three.","Al contrario, espero pérdidas el primer año. Pero la inversión se pagaría para el tercer año."],
+  ["A","Needless to say, the board will want a detailed projection before signing anything.","Huelga decir que la junta va a querer una proyección detallada antes de firmar cualquier cosa."],
+  ["B","Of course. To that end, I've asked finance to model three scenarios, thereby covering the worst case too.","Por supuesto. Con ese fin, le pedí a finanzas que modele tres escenarios, cubriendo así también el peor caso."],
+  ["A","Be that as it may, I'd still like to see a pilot first. A small team for six months.","Sea como sea, me gustaría ver primero un piloto. Un equipo pequeño por seis meses."],
+  ["B","That's reasonable. A pilot would reduce the risk and, in turn, make the board more willing to commit.","Es razonable. Un piloto reduciría el riesgo y, a su vez, haría que la junta estuviera más dispuesta a comprometerse."]
+ ]},
+ practice:[
+  {t:"mc",q:"___ the recent scandal, the company has decided to review its ethics policy.",o:["Conversely","In light of","By the same token","Albeit"],a:1,x:"In light of + sustantivo = en vista de."},
+  {t:"mc",q:"—Was the conference a waste of time? —___, it was the most useful event I've attended this year.",o:["Conversely","By contrast","On the contrary","By extension"],a:2,x:"On the contrary niega lo que se acaba de sugerir."},
+  {t:"mc",q:"The firm automated its warehouse, ___ cutting delivery times by half.",o:["thereby","hence","albeit","whereas"],a:0,x:"thereby + -ing expresa la consecuencia directa."},
+  {t:"fill",q:"The project was completed, ___ two months behind schedule. (aunque, si bien)",ans:["albeit"]},
+  {t:"listen",say:"The new tax will raise revenue in the short term. That being said, it may discourage foreign investment, which would, in turn, slow down growth.",q:"¿Qué riesgo menciona el hablante?",o:["Que el impuesto no recaude nada","Que desaliente la inversión extranjera y frene el crecimiento","Que aumente el desempleo de inmediato","Que los ciudadanos protesten"],a:1},
+  {t:"oral",text:"That being said, the evidence is far from conclusive. To put it another way, we need more data."}
+ ],
+ more:[
+  {t:"order",words:["With","regard","to","your","complaint,","we","will","reply","shortly."],es:"En cuanto a su queja, responderemos en breve."},
+  {t:"order",words:["Notwithstanding","these","concerns,","the","proposal","was","approved."],es:"A pesar de estas inquietudes, la propuesta fue aprobada."},
+  {t:"dict",say:"Needless to say, all personal data will remain confidential."},
+  {t:"dict",say:"The economy grew last year, albeit at a slower pace."},
+  {t:"mc",q:"Elige el marcador que presenta el caso inverso: 'Rising interest rates benefit savers; ___, they hurt borrowers.'",o:["by the same token","in this respect","conversely","to that end"],a:2},
+  {t:"fill",q:"We want to reach younger customers; to that ___, we have launched a TikTok campaign. (fin)",ans:["end"]},
+  {t:"listen",say:"The policy applies to all full-time employees and, by extension, to any contractor working on company premises.",q:"¿A quién se aplica también la política?",o:["Solo a los empleados de tiempo completo","A los contratistas que trabajan en las instalaciones","A los clientes","A los proveedores extranjeros"],a:1},
+  {t:"write",q:"Escribe un párrafo argumentativo (mínimo 130 palabras) sobre si las empresas deberían adoptar la semana laboral de cuatro días. Usa al menos seis marcadores de esta lección, incluyendo uno de contraste, uno de reformulación y uno de consecuencia.",min:130,keys:[["conversely","by contrast","on the contrary","notwithstanding","be that as it may"],["that being said","that said","albeit"],["to put it another way","in other words"],["hence","thereby","in turn","as such","to that end","in light of","with regard to","by the same token"]]}
+ ],
+ exam:{t:"mc",q:"The figures are encouraging. ___, we should not become complacent.",o:["By extension","That being said","Hence","To that end"],a:1},
+ exam2:{t:"mc",q:"Our costs dropped by 30 %. ___, we are now spending almost a third less.",o:["Conversely","Notwithstanding","To put it another way","In light of"],a:2}
+},
+{ id:"c1-u3-l4", title:"Elipsis y sustitución", goal:"Evitar repeticiones como lo hace un hablante experto, usando so/not, do so, one/ones y la elipsis después de auxiliares.",
+ theory:[
+  {p:"El inglés culto **no repite** lo que ya se entiende. Para ello usa **sustitución** (reemplazar con una palabra corta) y **elipsis** (omitir). Primero, **so / not** sustituyen una oración completa después de **think, hope, expect, suppose, believe, imagine, guess, be afraid, appear, seem**."},
+  {ex:[["—Will the client accept the offer? —I expect so.","—¿El cliente aceptará la oferta? —Supongo que sí."],["—Is the report ready? —I'm afraid not.","—¿Está listo el informe? —Me temo que no."],["—Will there be layoffs? —I hope not.","—¿Habrá despidos? —Espero que no."],["—Is he leaving? —So it seems. / It would appear so.","—¿Se va? —Eso parece."]]},
+  {p:"**do so** sustituye una **acción** ya mencionada (registro formal). **one / ones** sustituyen un **sustantivo contable**. **the former / the latter** se refieren al primero y al segundo de dos elementos."},
+  {ex:[["Applicants who wish to withdraw may do so in writing.","Los aspirantes que deseen retirarse pueden hacerlo por escrito."],["We considered two proposals and chose the cheaper one.","Consideramos dos propuestas y elegimos la más barata."],["The old contracts were simpler than the current ones.","Los contratos antiguos eran más sencillos que los actuales."],["Both Madrid and Lisbon bid; the latter won.","Madrid y Lisboa se postularon; ganó la segunda."]]},
+  {p:"**Elipsis después de auxiliares y modales**: se repite solo el auxiliar y se omite el resto. También se puede omitir después de **to** (I'd like to)."},
+  {ex:[["I haven't finished the analysis yet, but I will by Friday.","Todavía no he terminado el análisis, pero lo haré para el viernes."],["She said she would call the investors, and she has.","Dijo que llamaría a los inversionistas, y lo ha hecho."],["You don't have to attend, but I think you should.","No tienes que asistir, pero creo que deberías."],["—Can you lead the meeting? —I'd be happy to.","—¿Puedes dirigir la reunión? —Con mucho gusto."]]},
+  {tip:"Calcos típicos: 'I think yes' / 'I hope yes' → I think so / I hope so. 'I don't hope so' no existe → I hope not. Con think, lo natural en negativo es 'I don't think so' (más formal: 'I think not'). Y no uses 'one' con incontables: 'I prefer white wine to red' (no 'red one')."}
+ ],
+ vocab:[
+  ["do so","expresión","hacerlo (sustituye una acción)","Those who wish to comment may do so after the session."],["if so","expresión","de ser así, en ese caso","Is the data accurate? If so, we have a problem."],
+  ["if not","expresión","si no, de lo contrario","Can you confirm by noon? If not, we'll postpone."],["the former","expresión","el primero (de dos)","Of the two options, the former is cheaper."],
+  ["the latter","expresión","el segundo, este último (de dos)","Between speed and accuracy, the latter matters more."],["I suspect so","expresión","sospecho que sí","—Will they delay the launch? —I suspect so."],
+  ["I'm afraid not","expresión","me temo que no","—Is there any budget left? —I'm afraid not."],["I'd like to think so","expresión","quisiera pensar que sí","—Did the training help? —I'd like to think so."],
+  ["not necessarily","expresión","no necesariamente","—Is the cheapest option the worst? —Not necessarily."],["presumably so","expresión","es de suponer que sí","—Will legal review it? —Presumably so."],
+  ["as did","expresión","al igual que (con verbo pasado)","Sales rose in May, as did profits."],["the same goes for","expresión","lo mismo aplica a","Deadlines are strict, and the same goes for budgets."],
+  ["so it seems","expresión","eso parece","—They've cancelled the deal? —So it seems."],["likewise","adverbio","igualmente, de la misma manera","She thanked the team, and the CEO did likewise."],
+  ["vice versa","expresión","viceversa","Marketing supports sales, and vice versa."],["respectively","adverbio","respectivamente","Ana and Luis earned 5 % and 8 % respectively."],
+  ["the one in question","expresión","el (la) que nos ocupa, el (la) en cuestión","The contract in question expires in June."],["if need be","expresión","si fuera necesario","We can work over the weekend if need be."],
+  ["so much so that","expresión","tanto es así que","Demand was high, so much so that we ran out of stock."],["if anything","expresión","en todo caso, si acaso","The new design isn't worse; if anything, it's clearer."]
+ ],
+ dialogue:{title:"Antes de la auditoría", scene:"Camila, jefa de control interno, y su colega irlandés Patrick repasan pendientes un día antes de una auditoría externa.", a:"Patrick", b:"Camila", lines:[
+  ["A","Have the auditors confirmed the time for tomorrow?","¿Los auditores confirmaron la hora de mañana?"],
+  ["B","Not yet, but I expect they will this afternoon. If not, I'll call them first thing.","Todavía no, pero espero que lo hagan esta tarde. Si no, los llamo a primera hora."],
+  ["A","Good. Is the inventory reconciliation finished?","Bien. ¿Está terminada la conciliación del inventario?"],
+  ["B","I'm afraid not. Julián said he'd finish it by noon, but he hasn't.","Me temo que no. Julián dijo que la terminaría al mediodía, pero no lo ha hecho."],
+  ["A","Will he manage it before tonight?","¿Alcanzará a hacerlo antes de esta noche?"],
+  ["B","I'd like to think so. He can stay late if need be; he's offered to.","Quisiera pensar que sí. Puede quedarse hasta tarde si fuera necesario; se ofreció a hacerlo."],
+  ["A","And the two expense reports we flagged last week, the Cali one and the Barranquilla one?","¿Y los dos informes de gastos que marcamos la semana pasada, el de Cali y el de Barranquilla?"],
+  ["B","The former has been corrected. The latter is still missing three receipts.","El primero ya se corrigió. Al segundo todavía le faltan tres recibos."],
+  ["A","Is that a serious problem?","¿Es eso un problema grave?"],
+  ["B","Not necessarily. Auditors accept missing receipts if a manager signs a declaration, and ours has agreed to do so.","No necesariamente. Los auditores aceptan recibos faltantes si un gerente firma una declaración, y el nuestro aceptó hacerlo."],
+  ["A","Great. Did you update the access logs? Last year they asked for them, as did the regulator.","Genial. ¿Actualizaste los registros de acceso? El año pasado los pidieron, al igual que el regulador."],
+  ["B","I did, and I've prepared summary sheets for both. The old ones were too long, so I made new ones.","Sí, y preparé hojas de resumen para ambos. Las viejas eran demasiado largas, así que hice unas nuevas."],
+  ["A","Are we in better shape than last year, then?","¿Entonces estamos en mejor forma que el año pasado?"],
+  ["B","If anything, we're over-prepared. So much so that I might actually get some sleep tonight!","En todo caso, estamos sobrepreparados. ¡Tanto es así que de pronto hasta duermo esta noche!"]
+ ]},
+ practice:[
+  {t:"mc",q:"—Will the merger go ahead? —I don't know, but I ___.",o:["hope it","hope so","hope yes","am hoping it"],a:1},
+  {t:"mc",q:"—Is the system going to crash again? —I hope ___.",o:["not","no","don't","not so"],a:0,x:"'I don't hope so' no existe; se dice 'I hope not'."},
+  {t:"mc",q:"Employees who wish to work from home may ___ on Fridays.",o:["do it so","do so","make so","do this so"],a:1},
+  {t:"fill",q:"I haven't spoken to the director yet, but I ___ before the meeting. (lo haré)",ans:["will","'ll"]},
+  {t:"listen",say:"We received two bids for the contract. The first was cheaper, but the second offered better guarantees, so in the end we went with the latter.",q:"¿Qué oferta eligieron?",o:["La más barata","La segunda, con mejores garantías","Ninguna de las dos","Una tercera oferta"],a:1},
+  {t:"oral",text:"I haven't read the final version yet, but I will before tomorrow's meeting."}
+ ],
+ more:[
+  {t:"order",words:["Those","who","wish","to","leave","early","may","do","so."],es:"Quienes deseen salir temprano pueden hacerlo."},
+  {t:"order",words:["Revenue","rose","in","March,","as","did","operating","costs."],es:"Los ingresos subieron en marzo, al igual que los costos operativos."},
+  {t:"dict",say:"Of the two candidates, the latter seems more experienced."},
+  {t:"dict",say:"We can extend the deadline if need be."},
+  {t:"mc",q:"¿Qué oración usa la sustitución INCORRECTAMENTE?",o:["I prefer the blue folders to the red ones.","I prefer tea to coffee one.","This laptop is faster than the old one.","The new rules are stricter than the previous ones."],a:1,x:"One/ones solo sustituyen sustantivos contables; coffee aquí es incontable."},
+  {t:"fill",q:"—Has the shipment arrived? —So it ___. The tracking says 'delivered'. (parece)",ans:["seems","appears"]},
+  {t:"listen",say:"She promised she would present the findings to the board, and she has. If anything, her presentation exceeded our expectations.",q:"¿Qué pasó con la presentación?",o:["No la hizo","La hizo y superó las expectativas","La aplazó","Fue decepcionante"],a:1},
+  {t:"write",q:"Escribe un correo o un intercambio de mensajes (mínimo 120 palabras) entre dos colegas que revisan pendientes antes de un evento importante. Evita repeticiones usando so/not, do so, one/ones, the former/the latter y elipsis después de auxiliares.",min:120,keys:[["i think so","i hope so","i expect so","i'm afraid not","i hope not","i suspect so","so it seems"],["do so"],["one","ones","the former","the latter"],["will","have","has","should","did","would"]]}
+ ],
+ exam:{t:"mc",q:"—Will the CEO attend the conference? —I'm not sure, but I ___.",o:["think yes","think it","think so","think that"],a:2},
+ exam2:{t:"mc",q:"He said he would apologise to the client, and he ___.",o:["did it so","has","has done it so","has so"],a:1}
+},
+{ id:"c1-u3-l5", title:"Presentaciones de alto nivel", goal:"Estructurar una presentación, describir gráficos con precisión, enfatizar datos clave, hacer transiciones fluidas y manejar preguntas difíciles con profesionalismo.",
+ theory:[
+  {p:"Una presentación profesional en inglés se apoya en el **signposting**: frases que le indican a la audiencia **dónde está** y **hacia dónde va**. Úsalas para abrir, pasar de un punto a otro y cerrar."},
+  {ex:[["I'll be walking you through three key areas this morning.","Esta mañana les voy a explicar tres áreas clave."],["That brings me to my second point.","Eso me lleva a mi segundo punto."],["Let me now turn to the regional breakdown.","Ahora pasemos al desglose regional."],["To recap, there are two takeaways I'd like you to remember.","Para recapitular, hay dos conclusiones que quisiera que recordaran."]]},
+  {p:"Para **describir visualizaciones**, combina sustantivo + adjetivo o verbo + adverbio y usa preposiciones exactas: **rise by** (la diferencia) / **rise to** (el punto final) / **from... to**; **peak at**, **level off / plateau**, **plummet**, **surge**, **a steady decline**, **a slight dip**, **fluctuate**. Remite al gráfico: **As you can see from this bar chart... / The vertical axis shows...**"},
+  {ex:[["Sales rose by 15 % to 2.3 million.","Las ventas subieron un 15 % hasta 2,3 millones."],["Traffic peaked at 80,000 visits in July before levelling off.","El tráfico alcanzó su punto máximo de 80.000 visitas en julio antes de estabilizarse."],["Exports plummeted in the second quarter.","Las exportaciones se desplomaron en el segundo trimestre."],["What this chart clearly shows is a surge in mobile payments.","Lo que este gráfico muestra claramente es un aumento repentino de los pagos móviles."]]},
+  {p:"Para **enfatizar** usa oraciones hendidas e intensificadores: **What really stands out here is..., The crucial figure is..., Note that..., It is worth highlighting that..., a staggering 70 %**. Para **preguntas difíciles**: agradece, reformula, gana tiempo o redirige: **That's a fair point. / If I understand you correctly, you're asking... / I'll come back to that at the end. / That's beyond the scope of today's talk, but I'd be happy to follow up.**"},
+  {tip:"Error frecuente: 'The sales increased in 15 %'. En inglés la diferencia va con by: increased by 15 %. Y no digas 'Now I will speak about the next slide': suena plano. Mejor: 'Moving on to...' o 'This brings me to...'. Ante una pregunta que no sabes responder, nunca inventes: 'I don't have that figure to hand, but I'll get back to you by tomorrow' proyecta más seguridad."}
+ ],
+ vocab:[
+  ["walk (sb) through","phrasal verb","explicar paso a paso","Let me walk you through the main findings."],["signpost","verbo","señalizar, indicar la estructura","Good speakers signpost each section clearly."],
+  ["at a glance","expresión","de un vistazo","At a glance, the figures look encouraging."],["breakdown","sustantivo","desglose","Here is a breakdown of costs by region."],
+  ["account for","phrasal verb","representar (una proporción)","Online sales account for 40 % of revenue."],["plateau","verbo / sustantivo","estancarse; meseta","User growth has plateaued since June."],
+  ["surge","sustantivo / verbo","aumento repentino; dispararse","There was a surge in demand after the launch."],["plummet","verbo","desplomarse, caer en picada","Share prices plummeted after the announcement."],
+  ["a steady decline","colocación","una disminución constante","The chart shows a steady decline in absenteeism."],["peak at","verbo","alcanzar el máximo de","Downloads peaked at 2 million in December."],
+  ["drill down into","phrasal verb","profundizar en, analizar en detalle","Let's drill down into the figures for Medellín."],["key takeaway","sustantivo","conclusión clave","The key takeaway is that retention matters more than acquisition."],
+  ["to recap","conector","para recapitular","To recap, we've covered three main risks."],["bear with me","expresión","ténganme paciencia un momento","Bear with me while I open the spreadsheet."],
+  ["that's a fair point","expresión","es un punto válido","That's a fair point, and it deserves a closer look."],["beyond the scope of","expresión","fuera del alcance de","That question is beyond the scope of this presentation."],
+  ["I'll come back to that","expresión","volveré sobre eso","Good question. I'll come back to that at the end."],["hand over to","phrasal verb","ceder la palabra a","I'll now hand over to my colleague, Laura."],
+  ["pie chart","sustantivo","gráfico circular, de torta","The pie chart shows our market share."],["vertical axis","sustantivo","eje vertical","The vertical axis represents revenue in millions."]
+ ],
+ dialogue:{title:"Ensayo de la presentación a inversionistas", scene:"Valentina, directora financiera de una fintech colombiana, ensaya su presentación con Jonathan, asesor de comunicación, quien hace de inversionista exigente.", a:"Jonathan", b:"Valentina", lines:[
+  ["A","Whenever you're ready, Valentina. Pretend I'm the toughest investor in the room.","Cuando estés lista, Valentina. Imagina que soy el inversionista más exigente de la sala."],
+  ["B","Good morning, everyone. Over the next twenty minutes, I'll walk you through our growth, our margins and our plans for next year.","Buenos días a todos. En los próximos veinte minutos les explicaré nuestro crecimiento, nuestros márgenes y nuestros planes para el próximo año."],
+  ["A","Clear structure. Keep going.","Estructura clara. Continúa."],
+  ["B","As you can see from this chart, active users rose by 60 % to 1.2 million, peaking at 1.3 million in December.","Como pueden ver en este gráfico, los usuarios activos subieron un 60 % hasta 1,2 millones, con un máximo de 1,3 millones en diciembre."],
+  ["A","What do you want me to notice first?","¿Qué quieres que note primero?"],
+  ["B","What really stands out is retention. A staggering 78 % of users who joined in January are still active today.","Lo que realmente destaca es la retención. Un impresionante 78 % de los usuarios que se unieron en enero sigue activo hoy."],
+  ["A","Nice emphasis. Now the transition to costs.","Buen énfasis. Ahora la transición a los costos."],
+  ["B","That brings me to my second point: margins. This pie chart gives you a breakdown of our operating costs at a glance.","Eso me lleva a mi segundo punto: los márgenes. Este gráfico circular les da de un vistazo el desglose de nuestros costos operativos."],
+  ["A","Let me interrupt as an investor: why have customer acquisition costs surged if your product is so popular?","Déjame interrumpir como inversionista: ¿por qué se dispararon los costos de adquisición de clientes si su producto es tan popular?"],
+  ["B","That's a fair point. If I understand you correctly, you're asking whether our growth is sustainable without heavy marketing spend.","Es un punto válido. Si le entiendo bien, me pregunta si nuestro crecimiento es sostenible sin un gasto fuerte en mercadeo."],
+  ["A","Exactly. And don't dodge it.","Exacto. Y no la esquives."],
+  ["B","The surge was temporary and linked to our launch in Ecuador. Since then, acquisition costs have fallen steadily and are now below the industry average.","El aumento fue temporal y ligado a nuestro lanzamiento en Ecuador. Desde entonces, los costos de adquisición han bajado de forma constante y hoy están por debajo del promedio del sector."],
+  ["A","Strong answer. And if someone asks about your valuation compared to competitors?","Respuesta sólida. ¿Y si alguien pregunta por su valoración frente a la competencia?"],
+  ["B","I'd say that's beyond the scope of today's session, but I'd be happy to follow up individually.","Diría que eso está fuera del alcance de la sesión de hoy, pero con gusto lo conversamos individualmente."],
+  ["A","Perfect. Finish with your key takeaway.","Perfecto. Cierra con tu conclusión clave."],
+  ["B","To recap: we're growing fast, we're keeping our users, and our costs are coming down. Thank you, and I'll now hand over to our CEO.","Para recapitular: estamos creciendo rápido, conservamos a nuestros usuarios y nuestros costos están bajando. Gracias, y ahora le cedo la palabra a nuestro director general."]
+ ]},
+ practice:[
+  {t:"mc",q:"Revenue increased ___ 12 %, reaching 5 million dollars.",o:["in","by","of","with"],a:1,x:"rise / increase / fall + by + la diferencia; + to + el punto final."},
+  {t:"mc",q:"¿Qué frase es la mejor transición a un nuevo punto?",o:["Now I speak of the next slide.","That brings me to my next point.","Next slide is about money.","I go now to the costs."],a:1},
+  {t:"mc",q:"Alguien hace una pregunta que no puedes responder en ese momento. ¿Qué respuesta es más profesional?",o:["I don't know.","That's not important.","I don't have that figure to hand, but I'll get back to you by tomorrow.","Ask someone else."],a:2},
+  {t:"fill",q:"Online sales now account ___ almost half of our revenue. (representan)",ans:["for"]},
+  {t:"listen",say:"As you can see from the line graph, visits to the website plummeted in April, but they recovered steadily over the summer and peaked at ninety thousand in September.",q:"¿Cuándo llegaron las visitas a su punto máximo?",o:["En abril","Durante todo el verano","En septiembre","En diciembre"],a:2},
+  {t:"oral",text:"What really stands out here is the steady decline in operating costs."}
+ ],
+ more:[
+  {t:"order",words:["Let","me","walk","you","through","the","main","findings."],es:"Permítanme explicarles paso a paso los hallazgos principales."},
+  {t:"order",words:["That's","beyond","the","scope","of","today's","presentation."],es:"Eso está fuera del alcance de la presentación de hoy."},
+  {t:"dict",say:"The vertical axis shows revenue in millions of dollars."},
+  {t:"dict",say:"Bear with me while I open the spreadsheet."},
+  {t:"mc",q:"User numbers grew quickly until June and then stopped growing. Eligen el verbo correcto: 'User numbers ___ after June.'",o:["plummeted","surged","plateaued","peaked at"],a:2},
+  {t:"fill",q:"Good question. I'll ___ back to that at the end of the session. (volveré)",ans:["come","get"]},
+  {t:"listen",say:"If I understand you correctly, you're asking whether the decline in exports is permanent. That's a fair point, and I'll come back to it once we've looked at the regional breakdown.",q:"¿Qué hace la presentadora con la pregunta?",o:["La responde de inmediato","Dice que es irrelevante","La reformula y promete volver a ella después del desglose regional","Le pasa la pregunta a un colega"],a:2},
+  {t:"write",q:"Escribe el guion de la parte central de una presentación (mínimo 140 palabras) en la que describas un gráfico de resultados de tu empresa o sector. Incluye signposting, al menos cuatro verbos o sustantivos de tendencia con sus preposiciones, una frase de énfasis y una respuesta a una pregunta difícil.",min:140,keys:[["walk you through","that brings me to","moving on","let me now turn to","to recap"],["rose by","increased by","fell by","peaked at","plummeted","surge","plateau","steady decline","levelled off","leveled off"],["what really stands out","it is worth","note that","the key takeaway","the crucial"],["that's a fair point","if i understand you correctly","i'll come back to that","beyond the scope"]]}
+ ],
+ exam:{t:"mc",q:"Profits ___ 3.5 million in the third quarter, the highest figure in the company's history.",o:["peaked at","peaked by","peaked in","peaked to"],a:0},
+ exam2:{t:"mc",q:"Un asistente te hace una pregunta hostil. ¿Cuál es la mejor manera de empezar tu respuesta?",o:["You're wrong.","That's a fair point. If I understand you correctly, you're asking...","Next question, please.","I already explained that."],a:1}
+}
+],
+quiz:[
+ {t:"mc",q:"Elige la nominalización correcta: 'Because the company relied heavily on imports, it suffered when the peso fell.'",o:["The company's heavy reliance on imports made it vulnerable to the fall in the peso.","The company's heavily reliance of imports made it vulnerable to the fall of peso.","The heavy relying in imports of the company made it vulnerable.","The company's reliance heavy on imports made it vulnerable."],a:0},
+ {t:"mc",q:"The ancient city is thought ___ by an earthquake around 800 AD.",o:["to destroy","to have been destroyed","that it was destroyed","being destroyed"],a:1},
+ {t:"mc",q:"Demand for electric cars is growing; ___, sales of diesel vehicles are falling.",o:["by the same token","to that end","conversely","as such"],a:2},
+ {t:"mc",q:"—Are we going to miss the deadline? —I ___. We're making good progress.",o:["don't hope so","hope not","hope no","not hope"],a:1},
+ {t:"mc",q:"Mobile payments now ___ 65 % of all transactions.",o:["account for","account to","count for","amount for"],a:0},
+ {t:"fill",q:"The results are promising, ___ based on a small sample. (aunque)",ans:["albeit"]},
+ {t:"listen",say:"There are believed to have been serious irregularities in the tender process; in light of this, the contract has been suspended pending an independent review.",q:"¿Qué se ha decidido?",o:["Firmar el contrato de inmediato","Suspender el contrato hasta una revisión independiente","Despedir al equipo de compras","Repetir la licitación mañana"],a:1},
+ {t:"listen",say:"Let me now turn to the regional breakdown. As you can see, sales in the Caribbean region surged, whereas those in the south plateaued.",q:"¿Qué pasó con las ventas en el sur?",o:["Se dispararon","Se desplomaron","Se estancaron","Alcanzaron un máximo"],a:2},
+ {t:"write",q:"Escribe el resumen ejecutivo de un informe (mínimo 140 palabras) sobre un reto de tu empresa o sector. Usa nominalizaciones, al menos dos estructuras de pasiva impersonal, varios marcadores discursivos avanzados y evita repeticiones con sustitución o elipsis.",min:140,keys:[["implementation","reduction","increase","decline","reliance","assessment"],["it is believed","it has been suggested","is thought to","is estimated to","there is believed to be","is said to"],["that being said","conversely","in light of","with regard to","hence","thereby","albeit","to put it another way"],["do so","the former","the latter","one","ones"]]},
+ {t:"oral",text:"In light of these findings, it has been suggested that the project be postponed."},
+ {t:"oral",text:"That brings me to my second point. As you can see, profits rose by twelve per cent."}
+],
+pool:[
+ {t:"mc",q:"There has been a sharp increase ___ the number of applications this year.",o:["of","in","on","at"],a:1},
+ {t:"mc",q:"The fraud ___ for several years before it was discovered.",o:["is believed to have been going on","is believed to go on","believes to have gone on","is believed that it went on"],a:0},
+ {t:"mc",q:"The minister ___ to have accepted gifts from the contractor, though he denies it.",o:["alleges","is alleged","has alleged","alleged"],a:1},
+ {t:"mc",q:"___ your enquiry, I'm afraid the position has already been filled.",o:["Conversely","With regard to","Albeit","Hence"],a:1},
+ {t:"mc",q:"—Is the new manager any good? —___ He's only been here a week.",o:["I think yes.","It's too early to say, but I'd like to think so.","I hope yes.","I don't hope so."],a:1},
+ {t:"mc",q:"Visitor numbers ___ by 40 % after the floods, the worst drop on record.",o:["peaked","plummeted","plateaued","surged"],a:1},
+ {t:"fill",q:"The board rejected the proposal, ___ forcing the team to start again. (con lo cual)",ans:["thereby"]},
+ {t:"fill",q:"Staff who wish to attend the training may ___ so by registering online. (hacerlo)",ans:["do"]},
+ {t:"fill",q:"In the ___ of clear evidence, the court dismissed the case. (ausencia)",ans:["absence"]},
+ {t:"listen",say:"Of the two strategies, the former is cheaper but slower, whereas the latter requires more investment and delivers results almost immediately.",q:"¿Qué caracteriza a la segunda estrategia?",o:["Es más barata y lenta","Requiere más inversión y da resultados casi inmediatos","Es la más arriesgada","No requiere inversión"],a:1},
+ {t:"listen",say:"The decline in productivity stemmed largely from the deterioration in morale that followed the restructuring.",q:"¿De qué se originó la caída de la productividad?",o:["Del aumento de los salarios","Del deterioro de la moral tras la reestructuración","De un problema técnico","De la llegada de un nuevo director"],a:1},
+ {t:"oral",text:"The key takeaway is that retention matters far more than acquisition."},
+ {t:"oral",text:"The CEO is reported to be considering a merger with a regional competitor."},
+ {t:"order",words:["To","put","it","another","way,","we","cannot","afford","to","wait."],es:"Dicho de otro modo, no podemos darnos el lujo de esperar."},
+ {t:"order",words:["She","said","she","would","finish","the","report,","and","she","has."],es:"Dijo que terminaría el informe, y lo ha hecho."}
+]
+};
