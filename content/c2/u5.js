@@ -42,9 +42,9 @@ lessons: [
   ["A","A cogent speech, I'll grant her that. But we'll let the House decide.","Un discurso convincente, eso se lo reconozco. Pero dejaremos que la Cámara decida."]
  ]},
  practice:[
-  {t:"mc",q:"Un orador quiere rechazar con cortesía un punto de información. ¿Qué dice?",o:["Sit down, please.","Not at this time, thank you.","I refuse your point.","No point, sir."],a:1},
+  {t:"mc",q:"Un orador quiere rechazar con cortesía un punto de información. ¿Qué dice?",o:["Sit down, please.","I refuse your point.","No point, sir.","Not at this time, thank you."],a:3},
   {t:"mc",q:"'Your argument ___ legality with morality: something can be legal and still wrong.'",o:["conflates","concedes","rebuts","compounds"],a:0,x:"Conflate = mezclar dos conceptos distintos como si fueran uno."},
-  {t:"mc",q:"¿Cuál es una concesión estratégica bien formulada?",o:["You are totally wrong about everything.","I readily concede that costs are high; the real question is who should bear them.","I concede you, but no.","Maybe you are right, maybe not, who knows."],a:1},
+  {t:"mc",q:"¿Cuál es una concesión estratégica bien formulada?",o:["You are totally wrong about everything.","I concede you, but no.","I readily concede that costs are high; the real question is who should bear them.","Maybe you are right, maybe not, who knows."],a:2},
   {t:"fill",q:"Even if we accept the premise, it does not ___ that the policy is justified. (se sigue)",ans:["follow"]},
   {t:"listen",say:"I readily concede that the scheme has reduced emissions. But the previous speaker has conveniently ignored the fact that it has doubled fares for the poorest commuters.",q:"¿Qué estrategia usa el orador?",o:["Rechaza todos los datos del rival","Concede un punto y luego ataca uno más importante","Ofrece un punto de información","Pide que se apruebe la moción"],a:1},
   {t:"oral",text:"Let us grant, for the sake of argument, that the figures are accurate. Even so, it does not follow that a ban is the answer."}
@@ -54,13 +54,13 @@ lessons: [
   {t:"order",words:["I","rise","to","oppose","the","motion","on","three","grounds."],es:"Me levanto para oponerme a la moción por tres razones."},
   {t:"dict",say:"That is a straw man, and my opponent knows it."},
   {t:"dict",say:"The motion was carried by a narrow margin."},
-  {t:"mc",q:"'The question of cost is a ___; the real issue is safety.' (distracción)",o:["straw man","red herring","burden of proof","non sequitur"],a:1},
+  {t:"mc",q:"'The question of cost is a ___; the real issue is safety.' (distracción)",o:["straw man","burden of proof","non sequitur","red herring"],a:3},
   {t:"fill",q:"My opponent has ___ our proposal: we never suggested banning all cars. (tergiversado)",ans:["mischaracterized","mischaracterised"]},
-  {t:"listen",say:"Is the honourable member aware that the study she has just quoted was funded by the very industry it claims to evaluate?",q:"¿Qué intenta mostrar el punto de información?",o:["Que el estudio es demasiado antiguo","Que el estudio tiene un conflicto de interés","Que la oradora se pasó del tiempo","Que la moción está mal redactada"],a:1},
+  {t:"listen",say:"Is the honourable member aware that the study she has just quoted was funded by the very industry it claims to evaluate?",q:"¿Qué intenta mostrar el punto de información?",o:["Que el estudio es demasiado antiguo","Que la oradora se pasó del tiempo","Que el estudio tiene un conflicto de interés","Que la moción está mal redactada"],a:2},
   {t:"write",q:"Escribe un discurso breve de réplica (mínimo 150 palabras) contra la moción 'This House would make voting compulsory'. Dirígete al moderador, haz una concesión estratégica, señala al menos un fallo lógico del rival (suposición oculta, confusión de conceptos o salto lógico) y cierra pidiendo el voto.",min:150,keys:[["concede","grant","for the sake of argument"],["does not follow","conflate","rests on the assumption","straw man","burden of proof"],["madam speaker","mr speaker","madam chair","mr chairman"],["urge you","oppose the motion","reject the motion"]]}
  ],
  exam:{t:"mc",q:"'Even if we accept their figures, ___ that a ban is the right response.'",o:["it does not follow","it is not following","it doesn't follows","it follows not"],a:0},
- exam2:{t:"mc",q:"¿Qué significa 'The motion was carried'?",o:["La moción fue retirada","La moción fue aprobada","La moción fue aplazada","La moción fue rechazada"],a:1}
+ exam2:{t:"mc",q:"¿Qué significa 'The motion was carried'?",o:["La moción fue retirada","La moción fue aplazada","La moción fue rechazada","La moción fue aprobada"],a:3}
 },
 { id:"c2-u5-l2", title:"Implicatura y lo no dicho", goal:"Leer entre líneas, detectar lo que se insinúa y descifrar la cortesía indirecta británica.",
  theory:[
@@ -104,9 +104,9 @@ lessons: [
  practice:[
   {t:"mc",q:"En una reunión británica, alguien dice 'With the greatest respect, I think you've overlooked something.' ¿Qué quiere decir realmente?",o:["Lo admira profundamente","Cree que usted está equivocado","Quiere felicitarlo","No tiene opinión"],a:1},
   {t:"mc",q:"'I hear what you say' normalmente significa:",o:["Estoy totalmente de acuerdo","No le escuché bien","No estoy de acuerdo y no quiero seguir discutiendo","Repítalo, por favor"],a:2},
-  {t:"mc",q:"¿Qué verbo es correcto? 'From the tone of his email, I ___ that he was annoyed.'",o:["implied","inferred","insinuated","hinted"],a:1,x:"Quien escucha o lee infers (deduce); quien habla implies (insinúa)."},
+  {t:"mc",q:"¿Qué verbo es correcto? 'From the tone of his email, I ___ that he was annoyed.'",o:["implied","insinuated","hinted","inferred"],a:3,x:"Quien escucha o lee infers (deduce); quien habla implies (insinúa)."},
   {t:"fill",q:"The joke was completely ___ on him; he didn't even smile. (le pasó desapercibido)",ans:["lost"]},
-  {t:"listen",say:"Thanks for the draft. It's not bad at all, actually. Just a few minor points to look at before it goes out. I've left some comments, about forty or so.",q:"¿Qué se deduce realmente del comentario?",o:["El borrador está listo para enviarse","El borrador necesita bastante trabajo","El jefe no leyó el borrador","El borrador fue rechazado sin comentarios"],a:1},
+  {t:"listen",say:"Thanks for the draft. It's not bad at all, actually. Just a few minor points to look at before it goes out. I've left some comments, about forty or so.",q:"¿Qué se deduce realmente del comentario?",o:["El borrador necesita bastante trabajo","El borrador está listo para enviarse","El jefe no leyó el borrador","El borrador fue rechazado sin comentarios"],a:0},
   {t:"oral",text:"With the greatest respect, I'm not sure that's entirely what the figures suggest."}
  ],
  more:[
@@ -114,13 +114,13 @@ lessons: [
   {t:"order",words:["Are","you","implying","that","I","wasn't","honest?"],es:"¿Estás insinuando que no fui honesto?"},
   {t:"dict",say:"I'll certainly bear it in mind."},
   {t:"dict",say:"The subtext of her email was unmistakable."},
-  {t:"mc",q:"'She's very punctual' como única respuesta a '¿Es buena empleada?' es un ejemplo de:",o:["backhanded compliment","damning with faint praise","litotes","red herring"],a:1},
+  {t:"mc",q:"'She's very punctual' como única respuesta a '¿Es buena empleada?' es un ejemplo de:",o:["backhanded compliment","litotes","damning with faint praise","red herring"],a:2},
   {t:"mc",q:"¿Cuál es un ejemplo de litotes?",o:["It was a total disaster.","He's not the most patient person I've ever met.","You look great for your age.","I'll bear it in mind."],a:1},
-  {t:"listen",say:"I'm sure it's just me, but I couldn't quite find the section on costs. Perhaps you'd like to add it before Thursday?",q:"¿Qué está diciendo realmente la persona?",o:["Que ella misma se equivocó al leer","Que falta la sección de costos y hay que añadirla antes del jueves","Que el jueves no habrá reunión","Que los costos son demasiado altos"],a:1},
+  {t:"listen",say:"I'm sure it's just me, but I couldn't quite find the section on costs. Perhaps you'd like to add it before Thursday?",q:"¿Qué está diciendo realmente la persona?",o:["Que ella misma se equivocó al leer","Que el jueves no habrá reunión","Que los costos son demasiado altos","Que falta la sección de costos y hay que añadirla antes del jueves"],a:3},
   {t:"write",q:"Recibiste este correo de un cliente británico: 'Thanks for the proposal, a very brave approach. We'll certainly bear it in mind. Perhaps you'd like to revisit the budget section.' Escribe (mínimo 150 palabras) un análisis de lo que realmente quiere decir cada frase y una respuesta diplomática al cliente.",min:150,keys:[["imply","implies","implying","subtext","read between the lines"],["brave","bear it in mind","perhaps you'd like"],["infer","suggests","actually means","really means"],["revised","revise","revisit","amend"]]}
  ],
- exam:{t:"mc",q:"Un directivo británico dice: 'That's a very brave proposal.' Lo más probable es que piense que la propuesta es:",o:["valiente y admirable","arriesgada o poco sensata","aburrida","perfecta"],a:1},
- exam2:{t:"mc",q:"Elige la opción correcta: 'What exactly are you ___? That I'm lying?'",o:["inferring","implying","deducing","reading"],a:1}
+ exam:{t:"mc",q:"Un directivo británico dice: 'That's a very brave proposal.' Lo más probable es que piense que la propuesta es:",o:["valiente y admirable","aburrida","arriesgada o poco sensata","perfecta"],a:2},
+ exam2:{t:"mc",q:"Elige la opción correcta: 'What exactly are you ___? That I'm lying?'",o:["implying","inferring","deducing","reading"],a:0}
 },
 { id:"c2-u5-l3", title:"Variedades del inglés y acentos", goal:"Reconocer las diferencias de vocabulario, ortografía, gramática y pronunciación entre el inglés británico, estadounidense, australiano e indio.",
  theory:[
@@ -151,7 +151,7 @@ lessons: [
   ["A","In American English, yes. In Indian business English, it's 'get back to you'. Context is everything.","En inglés estadounidense, sí. En el inglés indio de negocios, es 'te respondo'. El contexto lo es todo."],
   ["B","Then Liam from Sydney asked if I could jump on a call 'this arvo', and I had no idea when that was.","Luego Liam, de Sídney, me preguntó si podía conectarme a una llamada 'this arvo', y no tenía idea de cuándo era eso."],
   ["A","This afternoon. Aussies shorten everything: arvo, brekkie, barbie. And everything ends with 'no worries'.","Esta tarde. Los australianos acortan todo: arvo, brekkie, barbie. Y todo termina con 'no worries'."],
-  ["B","I also noticed he ends every sentence going up, like a question. I kept answering things he hadn't asked!","¡También noté que termina cada frase subiendo el tono, como si fuera una pregunta. Seguía respondiendo cosas que no había preguntado!"],
+  ["B","I also noticed he ends every sentence going up, like a question. I kept answering things he hadn't asked!","También noté que termina cada frase subiendo el tono, como si fuera una pregunta. ¡Seguía respondiendo cosas que no había preguntado!"],
   ["A","That's upspeak. It doesn't mean he's unsure; it's just the tune of the accent.","Eso es upspeak. No significa que esté inseguro; es solo la melodía del acento."],
   ["B","The trickiest one was Harriet in London. She said she'd be away for a fortnight and that the office was on the first floor.","La más complicada fue Harriet, en Londres. Dijo que estaría fuera una quincena y que la oficina quedaba en el first floor."],
   ["A","Let me guess, you went to the ground floor?","Déjame adivinar, ¿fuiste a la planta baja?"],
@@ -162,11 +162,11 @@ lessons: [
   ["B","I reckon I am, as Liam would say. The good news is we all understand each other in the end.","Yo creo que sí, como diría Liam. La buena noticia es que al final todos nos entendemos."]
  ]},
  practice:[
-  {t:"mc",q:"¿Qué palabra británica corresponde a 'sidewalk'?",o:["pavement","path","lane","kerbside"],a:0},
-  {t:"mc",q:"Un colega de Bangalore escribe: 'Can we prepone the meeting?' Quiere:",o:["Cancelarla","Aplazarla","Adelantarla","Grabarla"],a:2},
-  {t:"mc",q:"Un acento 'rhotic' es aquel que:",o:["Omite la t entre vocales","Pronuncia la r después de vocal (car, hard)","Sube la entonación al final","Alarga todas las vocales"],a:1},
+  {t:"mc",q:"¿Qué palabra británica corresponde a 'sidewalk'?",o:["path","lane","kerbside","pavement"],a:3},
+  {t:"mc",q:"Un colega de Bangalore escribe: 'Can we prepone the meeting?' Quiere:",o:["Cancelarla","Adelantarla","Aplazarla","Grabarla"],a:1},
+  {t:"mc",q:"Un acento 'rhotic' es aquel que:",o:["Omite la t entre vocales","Sube la entonación al final","Pronuncia la r después de vocal (car, hard)","Alarga todas las vocales"],a:2},
   {t:"fill",q:"I'll be away for a ___, so back in two weeks. (quincena, BrE)",ans:["fortnight"]},
-  {t:"listen",say:"G'day! Are you free this arvo? We're having a barbie at Jono's place. Bring a few snags if you can. No worries if not!",q:"¿Qué le están proponiendo?",o:["Un desayuno mañana","Un asado esta tarde","Una reunión de trabajo","Un viaje el fin de semana"],a:1},
+  {t:"listen",say:"G'day! Are you free this arvo? We're having a barbie at Jono's place. Bring a few snags if you can. No worries if not!",q:"¿Qué le están proponiendo?",o:["Un desayuno mañana","Una reunión de trabajo","Un viaje el fin de semana","Un asado esta tarde"],a:3},
   {t:"oral",text:"English has become a global lingua franca, but its varieties remain mutually intelligible."}
  ],
  more:[
@@ -174,13 +174,13 @@ lessons: [
   {t:"order",words:["The","goal","is","to","be","intelligible,","not","to","sound","native."],es:"El objetivo es ser comprensible, no sonar como nativo."},
   {t:"dict",say:"She spoke with a slight Southern drawl."},
   {t:"dict",say:"I reckon we'll finish within a fortnight."},
-  {t:"mc",q:"¿Cuál es la ortografía británica estándar?",o:["analyze","analyse","analise","analize"],a:1,x:"En el Reino Unido -ize es aceptable en muchas palabras, pero analyse y paralyse siempre van con s."},
-  {t:"mc",q:"En el Reino Unido, 'pants' significa:",o:["pantalón","ropa interior","pantalón corto","medias"],a:1},
+  {t:"mc",q:"¿Cuál es la ortografía británica estándar?",o:["analyse","analyze","analise","analize"],a:0,x:"En el Reino Unido -ize es aceptable en muchas palabras, pero analyse y paralyse siempre van con s."},
+  {t:"mc",q:"En el Reino Unido, 'pants' significa:",o:["pantalón","pantalón corto","ropa interior","medias"],a:2},
   {t:"listen",say:"In most of the United States, the t in words like water and city sounds almost like a quick d, whereas many Londoners replace it with a glottal stop.",q:"¿Qué contraste describe el hablante?",o:["La r americana frente a la británica","La t suave americana frente a la t glotal londinense","Las vocales australianas frente a las indias","La entonación ascendente frente a la descendente"],a:1},
   {t:"write",q:"Escribe un texto (mínimo 150 palabras) comparando al menos tres variedades del inglés (británica, estadounidense, australiana o india). Incluye diferencias de vocabulario, pronunciación u ortografía con ejemplos concretos y explica por qué es importante reconocerlas en un entorno laboral internacional.",min:150,keys:[["british","uk","rp","received pronunciation"],["american","us","general american"],["australian","indian"],["vocabulary","pronunciation","spelling","accent"]]}
  ],
- exam:{t:"mc",q:"En inglés indio de negocios, 'Please revert at the earliest' significa:",o:["Vuelva a la versión anterior lo antes posible","Responda lo antes posible","Cancele lo antes posible","Venga lo antes posible"],a:1},
- exam2:{t:"mc",q:"Una británica dice 'My office is on the first floor.' ¿Dónde queda?",o:["En la planta baja","Un piso arriba de la planta baja","En el sótano","En el último piso"],a:1}
+ exam:{t:"mc",q:"En inglés indio de negocios, 'Please revert at the earliest' significa:",o:["Vuelva a la versión anterior lo antes posible","Cancele lo antes posible","Venga lo antes posible","Responda lo antes posible"],a:3},
+ exam2:{t:"mc",q:"Una británica dice 'My office is on the first floor.' ¿Dónde queda?",o:["En la planta baja","En el sótano","Un piso arriba de la planta baja","En el último piso"],a:2}
 },
 { id:"c2-u5-l4", title:"Slang y lenguaje coloquial actual", goal:"Entender el slang actual, su registro y su carga generacional, y saber cuándo no usarlo.",
  theory:[
@@ -222,11 +222,11 @@ lessons: [
   ["B","Bet. That's the most sensible thing I've heard all week.","Bet. Es lo más sensato que he oído en toda la semana."]
  ]},
  practice:[
-  {t:"mc",q:"Tu amigo dice: 'The new Marvel film was pretty mid.' ¿Qué opina?",o:["Que fue excelente","Que fue mediocre","Que fue muy largo","Que no la vio"],a:1},
-  {t:"mc",q:"¿En cuál de estas situaciones es MÁS apropiado usar 'no cap'?",o:["En una carta de presentación para un empleo","Hablando con un cliente nuevo","En un chat con amigos de tu edad que también lo usan","En un informe académico"],a:2},
-  {t:"mc",q:"'I can't afford to go out this weekend, I'm completely ___.' (BrE, sin plata)",o:["knackered","gutted","skint","chuffed"],a:2},
+  {t:"mc",q:"Tu amigo dice: 'The new Marvel film was pretty mid.' ¿Qué opina?",o:["Que fue mediocre","Que fue excelente","Que fue muy largo","Que no la vio"],a:0},
+  {t:"mc",q:"¿En cuál de estas situaciones es MÁS apropiado usar 'no cap'?",o:["En una carta de presentación para un empleo","Hablando con un cliente nuevo","En un informe académico","En un chat con amigos de tu edad que también lo usan"],a:3},
+  {t:"mc",q:"'I can't afford to go out this weekend, I'm completely ___.' (BrE, sin plata)",o:["knackered","skint","gutted","chuffed"],a:1},
   {t:"fill",q:"He stopped answering my messages; he totally ___ me. (desapareció sin explicación)",ans:["ghosted"]},
-  {t:"listen",say:"Okay, so spill the tea. Did he actually turn up? Because last time he ghosted you, and honestly, that whole situation was kind of sus.",q:"¿Qué quiere la persona que habla?",o:["Que le cuenten el chisme","Que le preparen un té","Que la acompañen a una cita","Que dejen de hablar del tema"],a:0},
+  {t:"listen",say:"Okay, so spill the tea. Did he actually turn up? Because last time he ghosted you, and honestly, that whole situation was kind of sus.",q:"¿Qué quiere la persona que habla?",o:["Que le preparen un té","Que la acompañen a una cita","Que le cuenten el chisme","Que dejen de hablar del tema"],a:2},
   {t:"oral",text:"I'm absolutely knackered and a bit gutted we lost, but I'm still chuffed with how we played."}
  ],
  more:[
@@ -234,13 +234,13 @@ lessons: [
   {t:"order",words:["You've","been","online","all","day;","go","touch","grass."],es:"Llevas todo el día conectado; desconéctate un rato."},
   {t:"dict",say:"She's still salty about losing the final."},
   {t:"dict",say:"I'm lowkey nervous about the interview."},
-  {t:"mc",q:"¿Qué significa 'I got the ick when he was rude to the waiter'?",o:["Me enfermé","Sentí rechazo repentino por él","Me dio risa","Me enamoré más"],a:1},
-  {t:"mc",q:"¿Por qué puede ser contraproducente que un adulto use mucho slang juvenil?",o:["Porque el slang es gramaticalmente incorrecto","Porque puede sonar forzado o 'cringe' y el slang envejece rápido","Porque está prohibido en inglés","Porque nadie lo entiende"],a:1},
-  {t:"listen",say:"Mate, I was gutted. I'd saved for months, then they cancelled the gig the night before. Now I'm skint and I've got nothing to show for it.",q:"¿Cómo se siente y en qué situación queda el hablante?",o:["Feliz y con dinero","Muy decepcionado y sin dinero","Cansado pero contento","Enojado pero con un reembolso"],a:1},
+  {t:"mc",q:"¿Qué significa 'I got the ick when he was rude to the waiter'?",o:["Me enfermé","Me dio risa","Me enamoré más","Sentí rechazo repentino por él"],a:3},
+  {t:"mc",q:"¿Por qué puede ser contraproducente que un adulto use mucho slang juvenil?",o:["Porque puede sonar forzado o 'cringe' y el slang envejece rápido","Porque el slang es gramaticalmente incorrecto","Porque está prohibido en inglés","Porque nadie lo entiende"],a:0},
+  {t:"listen",say:"Mate, I was gutted. I'd saved for months, then they cancelled the gig the night before. Now I'm skint and I've got nothing to show for it.",q:"¿Cómo se siente y en qué situación queda el hablante?",o:["Feliz y con dinero","Cansado pero contento","Muy decepcionado y sin dinero","Enojado pero con un reembolso"],a:2},
   {t:"write",q:"Escribe un texto (mínimo 150 palabras) dirigido a estudiantes de inglés hispanohablantes explicando qué es el slang, dando al menos cinco ejemplos actuales con su significado y explicando en qué situaciones conviene evitarlo y por qué.",min:150,keys:[["slang","informal","colloquial"],["no cap","lowkey","mid","slay","sus","salty","rizz","gutted","knackered","skint"],["avoid","inappropriate","not appropriate","formal"],["generation","generational","cringe","trying too hard","dated"]]}
  ],
- exam:{t:"mc",q:"'She's still ___ about not getting the promotion.' (resentida, ardida)",o:["salty","mid","sus","chuffed"],a:0},
- exam2:{t:"mc",q:"¿Cuál de estos contextos es el MENOS adecuado para el slang?",o:["Un chat de amigos","Un mensaje a tu hermano","Un correo a un posible empleador","Un comentario en redes entre conocidos"],a:2}
+ exam:{t:"mc",q:"'She's still ___ about not getting the promotion.' (resentida, ardida)",o:["mid","salty","sus","chuffed"],a:1},
+ exam2:{t:"mc",q:"¿Cuál de estos contextos es el MENOS adecuado para el slang?",o:["Un chat de amigos","Un mensaje a tu hermano","Un comentario en redes entre conocidos","Un correo a un posible empleador"],a:3}
 },
 { id:"c2-u5-l5", title:"Negociación intercultural", goal:"Negociar con personas de culturas de contexto alto y bajo, entender estilos directos e indirectos y reparar malentendidos.",
  theory:[
@@ -284,8 +284,8 @@ lessons: [
  ]},
  practice:[
   {t:"mc",q:"Un socio japonés dice: 'We will consider it very carefully. That would be rather difficult.' Lo más probable es que signifique:",o:["Acepta la propuesta","Necesita más tiempo para firmar","Rechaza la propuesta con cortesía","No entendió la propuesta"],a:2},
-  {t:"mc",q:"¿Cuál frase es mejor para reparar un malentendido?",o:["You clearly didn't listen.","I'm sorry if that came across as dismissive; it certainly wasn't my intention.","That's your problem, not mine.","I said it very clearly."],a:1},
-  {t:"mc",q:"En una cultura de contexto bajo, el significado del mensaje se encuentra sobre todo en:",o:["el silencio y los gestos","la relación previa entre las partes","las palabras explícitas","la jerarquía de los participantes"],a:2},
+  {t:"mc",q:"¿Cuál frase es mejor para reparar un malentendido?",o:["I'm sorry if that came across as dismissive; it certainly wasn't my intention.","You clearly didn't listen.","That's your problem, not mine.","I said it very clearly."],a:0},
+  {t:"mc",q:"En una cultura de contexto bajo, el significado del mensaje se encuentra sobre todo en:",o:["el silencio y los gestos","la relación previa entre las partes","la jerarquía de los participantes","las palabras explícitas"],a:3},
   {t:"fill",q:"We offered a compromise so that they could save ___ in front of their board. (las apariencias)",ans:["face"]},
   {t:"listen",say:"So, just to make sure I've understood correctly: you're happy with the price, but the delivery schedule is the main sticking point. Is that a fair summary?",q:"¿Qué está haciendo el negociador?",o:["Rechazando el precio","Parafraseando para verificar que entendió","Amenazando con retirarse","Cambiando de tema"],a:1},
   {t:"oral",text:"I think we may have been talking at cross purposes. Could you tell me a bit more about your main concerns?"}
@@ -295,21 +295,21 @@ lessons: [
   {t:"order",words:["I'm","afraid","my","words","were","misconstrued."],es:"Me temo que mis palabras se malinterpretaron."},
   {t:"dict",say:"An exclusivity clause would be a deal-breaker for us."},
   {t:"dict",say:"Let's have a coffee and clear the air."},
-  {t:"mc",q:"'Slightly', 'perhaps' y 'a bit' son típicos:",o:["upgraders","downgraders","deal-breakers","sticking points"],a:1},
+  {t:"mc",q:"'Slightly', 'perhaps' y 'a bit' son típicos:",o:["upgraders","deal-breakers","downgraders","sticking points"],a:2},
   {t:"fill",q:"Having a second offer on the table gave us much more ___ in the negotiation. (poder de negociación)",ans:["leverage"]},
-  {t:"listen",say:"I'll be honest with you. Our bottom line is a three-year contract. If that's not possible, we're prepared to walk away, although we'd much rather not.",q:"¿Cuál es la posición del negociador?",o:["Acepta cualquier duración de contrato","Exige un contrato de tres años y podría retirarse","Quiere un contrato de un año","Ya decidió abandonar la negociación"],a:1},
+  {t:"listen",say:"I'll be honest with you. Our bottom line is a three-year contract. If that's not possible, we're prepared to walk away, although we'd much rather not.",q:"¿Cuál es la posición del negociador?",o:["Acepta cualquier duración de contrato","Quiere un contrato de un año","Ya decidió abandonar la negociación","Exige un contrato de tres años y podría retirarse"],a:3},
   {t:"write",q:"Escribe un correo (mínimo 160 palabras) a un socio de una cultura de contexto alto después de una reunión tensa en la que fuiste demasiado directo. Reconoce el malentendido sin culpar al otro, parafrasea su posición, propone una solución de punto medio y sugiere una próxima conversación.",min:160,keys:[["came across","may not have expressed","misunderstanding","misconstrued"],["if i understood correctly","if i've understood correctly","as i understand","to clarify"],["halfway","common ground","compromise","trade-off"],["relationship","rapport","value"]]}
  ],
- exam:{t:"mc",q:"¿Qué significa 'to save face' en una negociación?",o:["Ahorrar dinero","Evitar quedar mal o perder prestigio","Ganar la negociación","Mostrar las emociones"],a:1},
- exam2:{t:"mc",q:"'I'm sorry if my comment came across ___ blunt; that wasn't my intention.'",o:["like","as","to","for"],a:1}
+ exam:{t:"mc",q:"¿Qué significa 'to save face' en una negociación?",o:["Evitar quedar mal o perder prestigio","Ahorrar dinero","Ganar la negociación","Mostrar las emociones"],a:0},
+ exam2:{t:"mc",q:"'I'm sorry if my comment came across ___ blunt; that wasn't my intention.'",o:["like","to","as","for"],a:2}
 }
 ],
 quiz:[
- {t:"mc",q:"En un debate, '___ that the scheme has reduced costs; the question is at what human price.' (concesión)",o:["I readily concede","I readily rebut","I firmly refute","I strongly deny"],a:0},
- {t:"mc",q:"'With the greatest respect, Minister…' en el Reino Unido suele introducir:",o:["Un elogio sincero","Un desacuerdo o una crítica","Una despedida","Un agradecimiento"],a:1},
- {t:"mc",q:"¿Cuál es el equivalente estadounidense de 'flat' y 'lift'?",o:["house / escalator","apartment / elevator","floor / stairs","suite / ramp"],a:1},
+ {t:"mc",q:"En un debate, '___ that the scheme has reduced costs; the question is at what human price.' (concesión)",o:["I readily rebut","I readily concede","I firmly refute","I strongly deny"],a:1},
+ {t:"mc",q:"'With the greatest respect, Minister…' en el Reino Unido suele introducir:",o:["Un elogio sincero","Una despedida","Un agradecimiento","Un desacuerdo o una crítica"],a:3},
+ {t:"mc",q:"¿Cuál es el equivalente estadounidense de 'flat' y 'lift'?",o:["house / escalator","floor / stairs","apartment / elevator","suite / ramp"],a:2},
  {t:"mc",q:"'He's got so much ___; everyone wants to date him.' (slang, carisma)",o:["rizz","ick","tea","cap"],a:0},
- {t:"mc",q:"En una negociación, el 'sticking point' es:",o:["El acuerdo final","El punto en el que no hay acuerdo y que bloquea el avance","La primera oferta","El descanso entre sesiones"],a:1},
+ {t:"mc",q:"En una negociación, el 'sticking point' es:",o:["El acuerdo final","La primera oferta","El descanso entre sesiones","El punto en el que no hay acuerdo y que bloquea el avance"],a:3},
  {t:"fill",q:"From the way she avoided my eyes, I ___ that something was wrong. (deduje)",ans:["inferred","gathered"]},
  {t:"listen",say:"With the greatest respect, I hear what you say, but I think we'll proceed with the original plan for now.",q:"¿Qué está comunicando realmente el hablante?",o:["Que adoptará la nueva propuesta","Que no está de acuerdo y mantendrá el plan original","Que no escuchó bien la propuesta","Que necesita más tiempo para decidir"],a:1},
  {t:"listen",say:"Point of information: is the speaker aware that the very report she cites recommends the opposite conclusion?",q:"¿Qué hace quien interrumpe?",o:["Felicita a la oradora","Pide tiempo adicional","Señala que el informe citado contradice a la oradora","Retira la moción"],a:2},
@@ -318,14 +318,14 @@ quiz:[
  {t:"oral",text:"I'm sorry if that came across as blunt; I simply meant that the deadline is tight."}
 ],
 pool:[
- {t:"mc",q:"'Saying the policy is fair because it is just ___ the question.' (da por sentado lo que quiere probar)",o:["begs","asks","raises","poses"],a:0},
+ {t:"mc",q:"'Saying the policy is fair because it is just ___ the question.' (da por sentado lo que quiere probar)",o:["asks","raises","poses","begs"],a:3},
  {t:"mc",q:"'Your figures have been ___: you've ignored the three worst years.'",o:["cherry-picked","conceded","carried","rebutted"],a:0},
- {t:"mc",q:"Un colega británico dice: 'I'll certainly bear it in mind.' Lo más probable es que:",o:["Lo haga inmediatamente","No piense hacerlo","Necesite más información","Esté entusiasmado"],a:1},
+ {t:"mc",q:"Un colega británico dice: 'I'll certainly bear it in mind.' Lo más probable es que:",o:["Lo haga inmediatamente","Necesite más información","No piense hacerlo","Esté entusiasmado"],a:2},
  {t:"mc",q:"'You're surprisingly good at maths for an arts student' es un ejemplo de:",o:["litotes","backhanded compliment","red herring","rebuttal"],a:1},
- {t:"mc",q:"¿Qué acento es 'non-rhotic'?",o:["General American","Received Pronunciation","El inglés escocés","El inglés irlandés"],a:1},
- {t:"mc",q:"Un australiano dice: 'Thanks heaps!' Tú respondes con naturalidad:",o:["No worries!","Do the needful!","With the greatest respect.","I hear what you say."],a:0},
- {t:"mc",q:"'I'm absolutely ___; I've been working since 5 a.m.' (BrE, agotado)",o:["skint","knackered","chuffed","salty"],a:1},
- {t:"mc",q:"En la negociación, 'meet someone halfway' significa:",o:["Reunirse a mitad de camino geográfico","Llegar a un punto medio o ceder ambas partes","Abandonar la negociación","Firmar la mitad del contrato"],a:1},
+ {t:"mc",q:"¿Qué acento es 'non-rhotic'?",o:["General American","El inglés escocés","El inglés irlandés","Received Pronunciation"],a:3},
+ {t:"mc",q:"Un australiano dice: 'Thanks heaps!' Tú respondes con naturalidad:",o:["Do the needful!","With the greatest respect.","No worries!","I hear what you say."],a:2},
+ {t:"mc",q:"'I'm absolutely ___; I've been working since 5 a.m.' (BrE, agotado)",o:["knackered","skint","chuffed","salty"],a:0},
+ {t:"mc",q:"En la negociación, 'meet someone halfway' significa:",o:["Reunirse a mitad de camino geográfico","Abandonar la negociación","Firmar la mitad del contrato","Llegar a un punto medio o ceder ambas partes"],a:3},
  {t:"fill",q:"There's always a ___ between speed and quality. (compensación)",ans:["trade-off","tradeoff","trade off"]},
  {t:"fill",q:"Can we ___ the meeting to Monday instead of Wednesday? (adelantar, inglés indio)",ans:["prepone"]},
  {t:"listen",say:"Honestly, the sequel was pretty mid. The first one absolutely slayed, but this one? Lowkey a waste of two hours.",q:"¿Qué opina el hablante de la secuela?",o:["Que fue mejor que la primera","Que fue mediocre y una pérdida de tiempo","Que fue demasiado corta","Que quiere volver a verla"],a:1},
