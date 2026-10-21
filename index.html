@@ -538,10 +538,10 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="vocab.js?v=202610211139"></script>
-<script src="readings.js?v=202610211139"></script>
-<script src="dict.js?v=202610211139"></script>
-<script src="lessons.js?v=202610211139"></script>
+<script src="vocab.js?v=202610211256"></script>
+<script src="readings.js?v=202610211256"></script>
+<script src="dict.js?v=202610211256"></script>
+<script src="lessons.js?v=202610211256"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -832,9 +832,12 @@ function textPoints(t){
   return Math.round(Math.max(0,Math.min(600,p)));
 }
 const norm=s=>(s.toLowerCase().match(/[a-z']+/g)||[]);
-function wordAcc(target,said){const a=norm(target),b=norm(said);if(!b.length)return 0;
+function wordAcc(target,said){
+  /* compara por piezas (cifras = palabras, contracciones = forma larga) para no castigar cómo escribe Chrome lo que oye */
+  const tok=t=>(t.match(/[A-Za-zÀ-ÿ0-9']+(?:-[A-Za-zÀ-ÿ0-9']+)*/g)||[]).flatMap(pieces);
+  const a=tok(target),b=tok(said);if(!b.length||!a.length)return 0;
   const d=Array.from({length:a.length+1},()=>new Array(b.length+1).fill(0));
-  for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=a[i-1]===b[j-1]?d[i-1][j-1]+1:Math.max(d[i-1][j],d[i][j-1]);
+  for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=same(a[i-1],b[j-1])?d[i-1][j-1]+1:Math.max(d[i-1][j],d[i][j-1]);
   return d[a.length][b.length]/a.length}
 function speakPoints(sp){
   const r=EX.speak.map((t,i)=>({t,v:sp[i]||""}));
@@ -1021,27 +1024,46 @@ function renderWho(){const st=curStudent(),b=$("whoBtn");
   b.setAttribute("aria-label",st?`Estudiando como ${st.name}. Cambiar de persona`:"Registrarme")}
 $("whoBtn").onclick=()=>{OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()};
 
-function whoView(after){
-  $("exSteps").innerHTML=`<span class="on">¿Quién estudia?</span>`;
-  const db=loadDB(),cur=S.student;
-  body.innerHTML=`<h2>¿Quién va a estudiar?</h2><p class="lead">Tu avance, tus quizzes y tus exámenes se guardan con tu nombre y tu correo.</p>
-  ${db.length?`<div class="opts" role="radiogroup" style="margin-bottom:30px">${db.map(s=>`<button class="opt" role="radio" aria-checked="${s.id===cur}" data-id="${esc(s.id)}"><i>${esc(s.name.trim()[0].toUpperCase())}</i><span><b>${esc(s.name)}</b><br><small style="color:var(--mute)">${esc(s.email||"Sin correo: elige y agrégalo abajo")}</small></span></button>`).join("")}</div>
-    <h3 style="font-size:18px;margin-bottom:14px">O regístrate como persona nueva</h3>`:""}
-  <form id="whoF" novalidate>
-    <div class="field"><label for="wName">Nombre completo</label><input id="wName" autocomplete="name" placeholder="Ej.: María Pérez"></div>
-    <div class="field"><label for="wMail">Correo electrónico</label><input id="wMail" type="email" autocomplete="email" placeholder="tucorreo@ejemplo.com"></div>
-    <p class="err" id="wErr"></p>
-    <div class="ex-actions"><span class="note">Solo se usa para identificarte dentro de la página.</span><button class="btn sun" type="submit">Registrarme</button></div>
-  </form>`;
-  const done=()=>{render();renderResults();after?after():closeExam()};
-  body.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>{const st=loadDB().find(s=>s.id===b.dataset.id);
-    if(st&&!st.email){$("wName").value=st.name;$("wMail").focus();$("wErr").textContent="Agrega tu correo para continuar.";return}
-    S.student=b.dataset.id;save();renderWho();done()});
-  $("whoF").onsubmit=e=>{e.preventDefault();const n=$("wName").value.trim(),m=$("wMail").value.trim();
-    if(n.length<2){$("wErr").textContent="Escribe tu nombre para continuar.";return}
-    if(!MAIL_RE.test(m)){$("wErr").textContent="Escribe un correo válido, por ejemplo nombre@gmail.com.";return}
-    ensureStudent(n,m);done()};
-  if(!db.length)$("wName").focus();
+/* entrar: si la persona ya existe se reconoce por nombre o correo y conserva su avance; si no, se registra */
+const keyName=t=>t.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().trim().replace(/\s+/g," ");
+function findStudent(q){const db=loadDB(),k=keyName(q);if(!k)return null;
+  return db.find(s=>(s.email||"").toLowerCase()===k)||db.find(s=>keyName(s.name)===k)||
+    (()=>{const m=db.filter(s=>keyName(s.name).split(" ")[0]===k);return m.length===1?m[0]:null})()}
+function whoView(after,step,pre){
+  $("exSteps").innerHTML=`<span class="on">${step==="new"?"Registro":"Entrar"}</span>`;
+  const db=loadDB(),done=()=>{render();renderResults();after?after():closeExam()};
+  const enter=st=>{S.student=st.id;save();renderWho();done()};
+  if(step==="new"){
+    body.innerHTML=`<h2>Crea tu perfil</h2><p class="lead">No encontramos a nadie con ese nombre. Regístrate una sola vez: después solo escribes tu nombre para entrar y seguir con tu avance.</p>
+    <form id="whoF" novalidate>
+      <div class="field"><label for="wName">Nombre completo</label><input id="wName" autocomplete="name" placeholder="Ej.: María Pérez" value="${esc(pre||"")}"></div>
+      <div class="field"><label for="wMail">Correo electrónico</label><input id="wMail" type="email" autocomplete="email" placeholder="tucorreo@ejemplo.com"></div>
+      <p class="err" id="wErr"></p>
+      <div class="ex-actions"><button class="linkbtn" type="button" id="wBack">← Ya tengo perfil</button><button class="btn sun" type="submit">Registrarme</button></div>
+    </form>`;
+    $("wBack").onclick=()=>whoView(after);
+    $(pre?"wMail":"wName").focus();
+    $("whoF").onsubmit=e=>{e.preventDefault();const n=$("wName").value.trim(),m=$("wMail").value.trim();
+      if(n.length<2){$("wErr").textContent="Escribe tu nombre para continuar.";return}
+      if(!MAIL_RE.test(m)){$("wErr").textContent="Escribe un correo válido, por ejemplo nombre@gmail.com.";return}
+      const ex=findStudent(m)||findStudent(n);if(ex){enter(ex);return}
+      ensureStudent(n,m);done()};
+    return;
+  }
+  body.innerHTML=`<h2>¡Hola! ¿Quién eres?</h2><p class="lead">Escribe tu nombre o tu correo. Si ya estás registrado, sigues donde ibas; si eres nuevo, te registras en un paso.</p>
+    ${db.length?`<div class="opts" style="margin-bottom:26px">${db.map(s=>`<button class="opt" data-id="${esc(s.id)}"><i>${esc(s.name.trim()[0].toUpperCase())}</i><span><b>Continuar como ${esc(s.name)}</b><br><small style="color:var(--mute)">${esc(s.email||"")}</small></span></button>`).join("")}</div>`:""}
+    <form id="whoF" novalidate>
+      <div class="field"><label for="wWho">Tu nombre o tu correo</label><input id="wWho" autocomplete="name" placeholder="Ej.: Henry o henry@gmail.com"></div>
+      <p class="err" id="wErr"></p>
+      <div class="ex-actions"><button class="linkbtn" type="button" id="wNew">Soy nuevo, quiero registrarme</button><button class="btn sun" type="submit">Entrar</button></div>
+    </form>`;
+  body.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>enter(db.find(s=>s.id===b.dataset.id)));
+  $("wNew").onclick=()=>whoView(after,"new");
+  $("wWho").focus();
+  $("whoF").onsubmit=e=>{e.preventDefault();const q=$("wWho").value.trim();
+    if(q.length<2){$("wErr").textContent="Escribe tu nombre o tu correo.";return}
+    const st=findStudent(q);if(st){enter(st);return}
+    whoView(after,"new",MAIL_RE.test(q)?"":q)};
 }
 
 /* ================= quizzes por nivel =================
@@ -1125,7 +1147,7 @@ function runSet(cfg){
   if(!unlocked(cfg.L))return;if(LVBACK!==cfg.L)LVBACK=null;OV="quiz";
   Q={cfg,L:cfg.L,items:cfg.items,i:0,sel:null,plays:0,typed:"",said:"",err:null,noMic:false,ans:[],done:false};
   exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);body.style.maxWidth="";
-  if(!curStudent()||!curStudent().email)whoView(()=>qRender());else qRender();
+  if(!curStudent())whoView(()=>qRender());else qRender();
 }
 function qRender(){
   const L=LV[Q.L],n=Q.items.length;
@@ -1387,23 +1409,48 @@ function wordSheet(k){
 }
 
 /* ---- leer en voz alta y calificar ---- */
-const nrm=w=>w.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[’']/g,"").replace(/[^a-z0-9-]/g,"");
+const nrm=w=>w.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[’']/g,"").replace(/[^a-z0-9-]/g,"");
 function lev(a,b){if(Math.abs(a.length-b.length)>2)return 9;const d=Array.from({length:a.length+1},(_,i)=>[i]);for(let j=1;j<=b.length;j++)d[0][j]=j;
   for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1));return d[a.length][b.length]}
-const same=(a,b)=>a===b||(a.length>4&&lev(a,b)<=1)||(a.replace(/-/g,"")===b.replace(/-/g,""));
+const same=(a,b)=>a===b||(a.length>4&&b.length>4&&lev(a,b)<=1);
+/* el reconocimiento de voz escribe números con cifras ("42") y a veces separa o junta contracciones */
+const NUM1=["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"],
+  NUM10=["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"];
+function numWords(n){if(n<20)return[NUM1[n]];if(n<100)return n%10?[NUM10[Math.floor(n/10)],NUM1[n%10]]:[NUM10[n/10]];
+  if(n<1000)return[NUM1[Math.floor(n/100)],"hundred",...(n%100?numWords(n%100):[])];
+  if(n<10000)return[...numWords(Math.floor(n/1000)),"thousand",...(n%1000?numWords(n%1000):[])];return[String(n)]}
+const CONTR={"i'm":"i am","you're":"you are","we're":"we are","they're":"they are","he's":"he is","she's":"she is","it's":"it is","that's":"that is","there's":"there is","what's":"what is",
+  "don't":"do not","doesn't":"does not","didn't":"did not","isn't":"is not","aren't":"are not","wasn't":"was not","weren't":"were not","can't":"can not","cannot":"can not",
+  "won't":"will not","wouldn't":"would not","i'd":"i would","i'll":"i will","you'll":"you will","let's":"let us","i've":"i have"};
+/* parte una palabra en piezas comparables: contracciones, guiones, cifras y posesivos */
+function pieces(w){
+  let x=w.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/’/g,"'").replace(/^'+|'+$/g,"");
+  if(CONTR[x])return CONTR[x].split(" ");
+  if(/^\d+$/.test(x))return numWords(+x);
+  x=x.replace(/'s$/,"");
+  return x.split("-").map(p=>p.replace(/[^a-z0-9]/g,"")).filter(Boolean);
+}
+/* alineación global (LCS) entre el texto y lo dicho: tolera palabras saltadas o mal reconocidas */
 function align(spoken){
-  /* recorre lo que dijo la persona y lo va emparejando con el texto, permitiendo saltos cortos */
-  const T=R.toks.map(t=>nrm(t.w)),said=spoken.split(/\s+/).map(nrm).filter(Boolean),ok=new Set();let p=0;
-  for(const w of said){
-    const parts=T[p]&&T[p].includes("-")?[w]:[w];
-    for(let j=p;j<Math.min(T.length,p+5);j++){if(same(T[j],parts[0])||(/^\d+$/.test(w)&&j===p)){ok.add(j);p=j+1;break}}
-  }
-  return{ok,p};
+  const T=[],owner=[];R.toks.forEach((t,k)=>pieces(t.w).forEach(p=>{T.push(p);owner.push(k)}));
+  const S=[];(spoken.match(/[A-Za-zÀ-ÿ0-9']+(?:-[A-Za-zÀ-ÿ0-9']+)*/g)||[]).forEach(w=>pieces(w).forEach(p=>S.push(p)));
+  /* LCS sobre sufijos y recorrido hacia adelante: ante empates prefiere la coincidencia más temprana en el texto */
+  const n=T.length,m=S.length,dp=Array.from({length:n+1},()=>new Uint16Array(m+1));
+  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)dp[i][j]=same(T[i],S[j])?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
+  const hit=new Set();let i=0,j=0;
+  while(i<n&&j<m){if(same(T[i],S[j])&&dp[i][j]===dp[i+1][j+1]+1){hit.add(i);i++;j++}else if(dp[i][j+1]>=dp[i+1][j])j++;else i++}
+  /* una palabra del texto cuenta como bien dicha si se reconoció al menos la mitad de sus piezas */
+  const tot={},got={};owner.forEach((k,p)=>{tot[k]=(tot[k]||0)+1;if(hit.has(p))got[k]=(got[k]||0)+1});
+  const ok=new Set(Object.keys(got).map(Number).filter(k=>got[k]*2>=tot[k]));
+  const last=ok.size?Math.max(...ok):-1;
+  return{ok,last};
 }
 function paintAlign(final){
-  const {ok,p}=align(R.finals+" "+(R.interim||""));R.ptr=p;
-  $("rText").querySelectorAll(".w").forEach(el=>{const k=+el.dataset.k;el.classList.toggle("ok",ok.has(k));el.classList.toggle("bad",k<p&&!ok.has(k));el.classList.toggle("cur",k===p&&!final)});
-  return ok;
+  const {ok,last}=align(R.finals+" "+(R.interim||""));
+  /* mientras lees solo se marca en verde; el rojo aparece al terminar y solo hasta donde alcanzaste a leer */
+  $("rText").querySelectorAll(".w").forEach(el=>{const k=+el.dataset.k;el.classList.toggle("ok",ok.has(k));el.classList.toggle("bad",final&&k<last&&!ok.has(k));el.classList.toggle("cur",!final&&k===last+1)});
+  if(!final){const c=$("rText").querySelector(".w.cur");if(c){const rc=c.getBoundingClientRect();if(rc.bottom>innerHeight-60)c.scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"})}}
+  return{ok,last};
 }
 function startReadAloud(){
   const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
@@ -1424,15 +1471,17 @@ function stopReadAloud(score){if(!R||!R.rec){if(R)R.recOn=false;return}R.recOn=f
 function finishReadAloud(){
   if(!R)return;const rec=R.rec;R.rec=null;if($("rRec")){$("rRec").classList.remove("on");$("rRecLbl").textContent="Leer otra vez"}
   if(!rec||R.scoreOnEnd===false){R.scoreOnEnd=undefined;return}
-  R.interim="";const ok=paintAlign(true),total=R.toks.length,pct=Math.round(ok.size/total*100);
-  if(!R.finals.trim()){$("rOut").innerHTML=`<div class="warn">No te escuchamos. Revisa el micrófono e intenta otra vez.</div>`;return}
-  saveRead(R.L,R.i,pct);render();
-  const bad=[...new Set(R.toks.filter((t,k)=>!ok.has(k)).map(t=>t.w))];
+  R.interim="";
+  if(!R.finals.trim()){$("rText").querySelectorAll(".w").forEach(el=>el.classList.remove("cur"));$("rOut").innerHTML=`<div class="warn">No te escuchamos. Revisa el micrófono e intenta otra vez.</div>`;return}
+  const {ok,last}=paintAlign(true),total=R.toks.length,read=last+1,pct=read?Math.round(ok.size/read*100):0,complete=read>=total-2;
+  /* el puntaje se calcula sobre lo que alcanzaste a leer; solo se guarda si leíste el texto completo */
+  if(complete)saveRead(R.L,R.i,pct);render();
+  const bad=[...new Set(R.toks.filter((t,k)=>k<last&&!ok.has(k)).map(t=>t.w))];
   const msg=pct>=90?"¡Excelente! Tu pronunciación se entiende muy bien.":pct>=75?"Muy bien. Repasa las palabras marcadas en rojo.":pct>=50?"Vas bien. Escucha el audio otra vez y practica las palabras en rojo.":"Sigue practicando: escucha primero a velocidad lenta y luego lee despacio.";
-  $("rOut").innerHTML=`<div class="rscore"><div class="shead" style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap"><span><b class="big2">${pct} %</b> de palabras reconocidas</span><span class="note">${ok.size} de ${total} palabras</span></div>
-    <p style="margin:8px 0 0">${msg}</p>
+  $("rOut").innerHTML=`<div class="rscore"><div class="shead" style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap"><span><b class="big2">${pct} %</b> de palabras bien pronunciadas</span><span class="note">${ok.size} de ${read} palabras leídas${complete?"":` · leíste ${read} de ${total}`}</span></div>
+    <p style="margin:8px 0 0">${msg}${complete?"":" Lee el texto completo para que tu puntaje quede guardado."}</p>
     ${bad.length?`<p class="note" style="margin-top:14px">Palabras para practicar (toca para escuchar):</p><div class="chips" id="rBad">${bad.slice(0,30).map(w=>`<button class="chip" data-w="${esc(w)}">${esc(w)}</button>`).join("")}</div>`:""}
-    <p class="note" style="margin-top:14px">El puntaje mide qué tanto reconoció Chrome lo que dijiste. Habla claro, a ritmo normal y sin ruido de fondo.</p></div>`;
+    <p class="note" style="margin-top:14px">El puntaje mide qué tanto reconoció Chrome lo que dijiste. Lee a tu ritmo, claro y sin ruido de fondo: la página te va siguiendo aunque te saltes o repitas alguna palabra.</p></div>`;
   if($("rBad"))$("rBad").onclick=e=>{const c=e.target.closest(".chip");if(c)speakTTS(c.dataset.w)};
 }
 
@@ -1516,5 +1565,5 @@ function finalExam(L){const sy=SYL(L),f=sy.final,key=finKey(L),shuf=a=>a.map(x=>
 renderWho();
 renderResults();
 render();
-if(!curStudent()||!curStudent().email){OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()}
+if(!curStudent()){OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()}
 </script>
