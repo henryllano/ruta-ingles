@@ -181,7 +181,266 @@ window.SYLLABUS = {
         "Nice to meet you."
        ],
        "a": 0
-      }
+      },
+      "vocab": [
+       [
+        "hello",
+        "interjección",
+        "hola",
+        "Hello! How are you?"
+       ],
+       [
+        "hi",
+        "interjección",
+        "hola (informal)",
+        "Hi, Ana!"
+       ],
+       [
+        "good morning",
+        "expresión",
+        "buenos días",
+        "Good morning, Mr. Pérez."
+       ],
+       [
+        "good afternoon",
+        "expresión",
+        "buenas tardes",
+        "Good afternoon, everyone."
+       ],
+       [
+        "good evening",
+        "expresión",
+        "buenas noches (al llegar)",
+        "Good evening! Welcome."
+       ],
+       [
+        "good night",
+        "expresión",
+        "buenas noches (al despedirse)",
+        "Good night, see you tomorrow."
+       ],
+       [
+        "goodbye",
+        "interjección",
+        "adiós",
+        "Goodbye, have a nice day!"
+       ],
+       [
+        "bye",
+        "interjección",
+        "chao",
+        "Bye! See you."
+       ],
+       [
+        "see you later",
+        "expresión",
+        "nos vemos más tarde",
+        "Bye, see you later!"
+       ],
+       [
+        "see you tomorrow",
+        "expresión",
+        "hasta mañana",
+        "See you tomorrow at work."
+       ],
+       [
+        "How are you?",
+        "expresión",
+        "¿Cómo estás?",
+        "Hi, Carlos! How are you?"
+       ],
+       [
+        "I'm fine",
+        "expresión",
+        "estoy bien",
+        "I'm fine, thanks."
+       ],
+       [
+        "thank you",
+        "expresión",
+        "gracias",
+        "Thank you very much!"
+       ],
+       [
+        "thanks",
+        "interjección",
+        "gracias (informal)",
+        "Thanks, see you!"
+       ],
+       [
+        "and you?",
+        "expresión",
+        "¿y tú?",
+        "I'm fine. And you?"
+       ],
+       [
+        "very well",
+        "expresión",
+        "muy bien",
+        "I'm very well, thank you."
+       ],
+       [
+        "not bad",
+        "expresión",
+        "no tan mal, más o menos",
+        "—How are you? —Not bad."
+       ],
+       [
+        "Have a nice day!",
+        "expresión",
+        "¡Que tengas un buen día!",
+        "Thanks, have a nice day!"
+       ],
+       [
+        "welcome",
+        "adjetivo / interjección",
+        "bienvenido",
+        "Welcome to the class!"
+       ],
+       [
+        "everyone",
+        "pronombre",
+        "todos",
+        "Good morning, everyone!"
+       ]
+      ],
+      "dialogue": {
+       "title": "En la oficina por la mañana",
+       "scene": "Sara llega a la oficina y saluda a su compañero Tom. Más tarde se despiden.",
+       "a": "Sara",
+       "b": "Tom",
+       "lines": [
+        [
+         "A",
+         "Good morning, Tom!",
+         "¡Buenos días, Tom!"
+        ],
+        [
+         "B",
+         "Good morning, Sara! How are you?",
+         "¡Buenos días, Sara! ¿Cómo estás?"
+        ],
+        [
+         "A",
+         "I'm fine, thanks. And you?",
+         "Bien, gracias. ¿Y tú?"
+        ],
+        [
+         "B",
+         "I'm very well, thank you.",
+         "Muy bien, gracias."
+        ],
+        [
+         "A",
+         "Is Mr. Brown here today?",
+         "¿El señor Brown está hoy?"
+        ],
+        [
+         "B",
+         "Yes, he is. He's in his office.",
+         "Sí. Está en su oficina."
+        ],
+        [
+         "A",
+         "Great. Thank you, Tom.",
+         "Genial. Gracias, Tom."
+        ],
+        [
+         "B",
+         "You're welcome.",
+         "De nada."
+        ],
+        [
+         "A",
+         "Well, it's six o'clock. Goodbye, Tom!",
+         "Bueno, son las seis. ¡Adiós, Tom!"
+        ],
+        [
+         "B",
+         "Bye, Sara! Have a nice evening.",
+         "¡Chao, Sara! Que tengas buena noche."
+        ],
+        [
+         "A",
+         "Thanks, you too. See you tomorrow!",
+         "Gracias, igualmente. ¡Hasta mañana!"
+        ],
+        [
+         "B",
+         "See you tomorrow. Good night!",
+         "Hasta mañana. ¡Buenas noches!"
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "How",
+         "are",
+         "you",
+         "today?"
+        ],
+        "es": "¿Cómo estás hoy?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "I'm",
+         "fine,",
+         "thank",
+         "you."
+        ],
+        "es": "Estoy bien, gracias."
+       },
+       {
+        "t": "dict",
+        "say": "Good morning, how are you?"
+       },
+       {
+        "t": "dict",
+        "say": "See you tomorrow."
+       },
+       {
+        "t": "mc",
+        "q": "—Thank you! —___",
+        "o": [
+         "You're welcome.",
+         "Good night.",
+         "I'm fine.",
+         "See you."
+        ],
+        "a": 0,
+        "x": "A thank you se responde You're welcome (de nada)."
+       },
+       {
+        "t": "mc",
+        "q": "Llegas a una fiesta a las 8 p.m.:",
+        "o": [
+         "Good night!",
+         "Good evening!",
+         "Good afternoon!",
+         "Goodbye!"
+        ],
+        "a": 1
+       },
+       {
+        "t": "listen",
+        "say": "Hi Paul! I'm not bad, thanks. And you?",
+        "q": "¿Cómo está la persona?",
+        "o": [
+         "Muy mal",
+         "No tan mal",
+         "Excelente",
+         "Cansada"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Good evening! I'm very well, thank you."
+       }
+      ]
      },
      {
       "title": "El verbo to be y presentarte",
@@ -343,7 +602,261 @@ window.SYLLABUS = {
         "be"
        ],
        "a": 2
-      }
+      },
+      "vocab": [
+       [
+        "I am",
+        "verbo (be)",
+        "yo soy / estoy",
+        "I am a student."
+       ],
+       [
+        "you are",
+        "verbo (be)",
+        "tú eres / estás",
+        "You are my friend."
+       ],
+       [
+        "he is",
+        "verbo (be)",
+        "él es / está",
+        "He is a doctor."
+       ],
+       [
+        "she is",
+        "verbo (be)",
+        "ella es / está",
+        "She is happy."
+       ],
+       [
+        "it is",
+        "verbo (be)",
+        "es / está (cosa)",
+        "It is a big house."
+       ],
+       [
+        "we are",
+        "verbo (be)",
+        "nosotros somos / estamos",
+        "We are in class."
+       ],
+       [
+        "they are",
+        "verbo (be)",
+        "ellos son / están",
+        "They are teachers."
+       ],
+       [
+        "name",
+        "sustantivo",
+        "nombre",
+        "My name is Henry."
+       ],
+       [
+        "first name",
+        "sustantivo",
+        "nombre (de pila)",
+        "My first name is Laura."
+       ],
+       [
+        "last name",
+        "sustantivo",
+        "apellido",
+        "My last name is Gómez."
+       ],
+       [
+        "student",
+        "sustantivo",
+        "estudiante",
+        "I am a new student."
+       ],
+       [
+        "teacher",
+        "sustantivo",
+        "profesor, profesora",
+        "She is my English teacher."
+       ],
+       [
+        "friend",
+        "sustantivo",
+        "amigo, amiga",
+        "This is my friend Ana."
+       ],
+       [
+        "classmate",
+        "sustantivo",
+        "compañero de clase",
+        "He is my classmate."
+       ],
+       [
+        "nice to meet you",
+        "expresión",
+        "mucho gusto",
+        "Hi, I'm Tom. Nice to meet you."
+       ],
+       [
+        "What's your name?",
+        "expresión",
+        "¿Cómo te llamas?",
+        "Hello! What's your name?"
+       ],
+       [
+        "this is",
+        "expresión",
+        "este es / esta es (para presentar)",
+        "This is my husband, Carlos."
+       ],
+       [
+        "Mr.",
+        "sustantivo",
+        "señor",
+        "Good morning, Mr. Smith."
+       ],
+       [
+        "Mrs.",
+        "sustantivo",
+        "señora",
+        "Mrs. Jones is our teacher."
+       ],
+       [
+        "new",
+        "adjetivo",
+        "nuevo",
+        "I'm a new student."
+       ]
+      ],
+      "dialogue": {
+       "title": "El primer día de clase",
+       "scene": "Ana entra a su primera clase de inglés y conoce a Mark, otro estudiante.",
+       "a": "Ana",
+       "b": "Mark",
+       "lines": [
+        [
+         "A",
+         "Hi! Is this the English class?",
+         "¡Hola! ¿Esta es la clase de inglés?"
+        ],
+        [
+         "B",
+         "Yes, it is. Are you a new student?",
+         "Sí. ¿Eres estudiante nueva?"
+        ],
+        [
+         "A",
+         "Yes, I am. My name is Ana. What's your name?",
+         "Sí. Me llamo Ana. ¿Cómo te llamas?"
+        ],
+        [
+         "B",
+         "I'm Mark. Nice to meet you, Ana.",
+         "Soy Mark. Mucho gusto, Ana."
+        ],
+        [
+         "A",
+         "Nice to meet you too.",
+         "Mucho gusto también."
+        ],
+        [
+         "B",
+         "What's your last name?",
+         "¿Cuál es tu apellido?"
+        ],
+        [
+         "A",
+         "My last name is Romero. And you?",
+         "Mi apellido es Romero. ¿Y tú?"
+        ],
+        [
+         "B",
+         "My last name is Wilson.",
+         "Mi apellido es Wilson."
+        ],
+        [
+         "A",
+         "Who is the teacher?",
+         "¿Quién es el profesor?"
+        ],
+        [
+         "B",
+         "The teacher is Mrs. Davis. She is very nice.",
+         "La profesora es la señora Davis. Es muy amable."
+        ],
+        [
+         "A",
+         "Great! And who are they?",
+         "¡Genial! ¿Y ellos quiénes son?"
+        ],
+        [
+         "B",
+         "They are our classmates, Leo and Kim. Come, this is Ana!",
+         "Son nuestros compañeros, Leo y Kim. ¡Vengan, ella es Ana!"
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "My",
+         "name",
+         "is",
+         "Ana."
+        ],
+        "es": "Mi nombre es Ana."
+       },
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "is",
+         "my",
+         "teacher."
+        ],
+        "es": "Ella es mi profesora."
+       },
+       {
+        "t": "dict",
+        "say": "Nice to meet you."
+       },
+       {
+        "t": "dict",
+        "say": "We are new students."
+       },
+       {
+        "t": "mc",
+        "q": "Leo and Kim ___ my classmates.",
+        "o": [
+         "is",
+         "am",
+         "are",
+         "be"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "___ is my friend, Pedro. (presentando)",
+        "ans": [
+         "this"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Hello, I'm Mrs. Davis and I'm your new English teacher.",
+        "q": "¿Quién es la señora Davis?",
+        "o": [
+         "Una estudiante",
+         "La nueva profesora de inglés",
+         "La directora",
+         "Una amiga"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Hi, my name is Henry. What's your name?"
+       }
+      ]
      },
      {
       "id": "a1-alfabeto",
@@ -509,7 +1022,273 @@ window.SYLLABUS = {
         "I am Gómez"
        ],
        "a": 0
-      }
+      },
+      "vocab": [
+       [
+        "alphabet",
+        "sustantivo",
+        "alfabeto",
+        "The English alphabet has 26 letters."
+       ],
+       [
+        "letter",
+        "sustantivo",
+        "letra; carta",
+        "A is the first letter."
+       ],
+       [
+        "spell",
+        "verbo",
+        "deletrear",
+        "How do you spell your name?"
+       ],
+       [
+        "phone number",
+        "sustantivo",
+        "número de teléfono",
+        "What's your phone number?"
+       ],
+       [
+        "email address",
+        "sustantivo",
+        "dirección de correo",
+        "My email address is ana@mail.com."
+       ],
+       [
+        "at",
+        "preposición",
+        "arroba (@) en un correo",
+        "henry at gmail dot com"
+       ],
+       [
+        "dot",
+        "sustantivo",
+        "punto (en un correo o página web)",
+        "gmail dot com"
+       ],
+       [
+        "address",
+        "sustantivo",
+        "dirección",
+        "What's your address?"
+       ],
+       [
+        "street",
+        "sustantivo",
+        "calle",
+        "I live on Main Street."
+       ],
+       [
+        "zero / oh",
+        "número",
+        "cero",
+        "My number is three, oh, one..."
+       ],
+       [
+        "double",
+        "adjetivo",
+        "doble (para letras o números repetidos)",
+        "Anna: A, double N, A."
+       ],
+       [
+        "capital letter",
+        "sustantivo",
+        "mayúscula",
+        "Write your name with a capital letter."
+       ],
+       [
+        "repeat",
+        "verbo",
+        "repetir",
+        "Can you repeat that, please?"
+       ],
+       [
+        "slowly",
+        "adverbio",
+        "despacio",
+        "Can you speak slowly, please?"
+       ],
+       [
+        "sorry?",
+        "interjección",
+        "¿perdón? (cuando no oíste)",
+        "Sorry? Can you repeat?"
+       ],
+       [
+        "form",
+        "sustantivo",
+        "formulario",
+        "Please complete this form."
+       ],
+       [
+        "write",
+        "verbo",
+        "escribir",
+        "Write your email here."
+       ],
+       [
+        "Can you spell that?",
+        "expresión",
+        "¿Puede deletrearlo?",
+        "Gómez? Can you spell that?"
+       ],
+       [
+        "age",
+        "sustantivo",
+        "edad",
+        "Name, age and address, please."
+       ],
+       [
+        "number",
+        "sustantivo",
+        "número",
+        "What's your house number?"
+       ]
+      ],
+      "dialogue": {
+       "title": "Inscripción en el gimnasio",
+       "scene": "Carlos se inscribe en un gimnasio y la recepcionista llena un formulario.",
+       "a": "Recepcionista",
+       "b": "Carlos",
+       "lines": [
+        [
+         "A",
+         "Good afternoon. Can I have your name, please?",
+         "Buenas tardes. ¿Me da su nombre, por favor?"
+        ],
+        [
+         "B",
+         "Yes. My name is Carlos Quintero.",
+         "Sí. Me llamo Carlos Quintero."
+        ],
+        [
+         "A",
+         "Sorry? Can you spell your last name?",
+         "¿Perdón? ¿Puede deletrear su apellido?"
+        ],
+        [
+         "B",
+         "Sure. Q-U-I-N-T-E-R-O.",
+         "Claro. Q-U-I-N-T-E-R-O."
+        ],
+        [
+         "A",
+         "Thank you. What's your phone number?",
+         "Gracias. ¿Cuál es su número de teléfono?"
+        ],
+        [
+         "B",
+         "It's three one oh, five five five, two eight nine four.",
+         "Es el 310 555 2894."
+        ],
+        [
+         "A",
+         "Can you repeat that slowly, please?",
+         "¿Puede repetirlo despacio, por favor?"
+        ],
+        [
+         "B",
+         "Three, one, oh. Five, five, five. Two, eight, nine, four.",
+         "Tres, uno, cero. Cinco, cinco, cinco. Dos, ocho, nueve, cuatro."
+        ],
+        [
+         "A",
+         "Perfect. And your email address?",
+         "Perfecto. ¿Y su correo?"
+        ],
+        [
+         "B",
+         "It's carlos dot q at gmail dot com.",
+         "Es carlos.q@gmail.com."
+        ],
+        [
+         "A",
+         "Great. And how old are you?",
+         "Genial. ¿Y cuántos años tiene?"
+        ],
+        [
+         "B",
+         "I'm forty-one.",
+         "Tengo cuarenta y uno."
+        ],
+        [
+         "A",
+         "Thank you, Mr. Quintero. Welcome to the gym!",
+         "Gracias, señor Quintero. ¡Bienvenido al gimnasio!"
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "How",
+         "do",
+         "you",
+         "spell",
+         "your",
+         "name?"
+        ],
+        "es": "¿Cómo se deletrea tu nombre?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "Can",
+         "you",
+         "repeat",
+         "that,",
+         "please?"
+        ],
+        "es": "¿Puede repetir eso, por favor?"
+       },
+       {
+        "t": "dict",
+        "say": "My email is ana at gmail dot com."
+       },
+       {
+        "t": "dict",
+        "say": "Can you speak slowly, please?"
+       },
+       {
+        "t": "mc",
+        "q": "Anna se deletrea:",
+        "o": [
+         "A, N, A",
+         "A, double N, A",
+         "A, N, N, N, A",
+         "Double A, N"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "La letra J suena:",
+        "o": [
+         "jota",
+         "yei",
+         "ji",
+         "ai"
+        ],
+        "a": 1
+       },
+       {
+        "t": "listen",
+        "say": "My last name is Ortiz. O-R-T-I-Z.",
+        "q": "¿Cómo se escribe el apellido?",
+        "o": [
+         "Ortis",
+         "Ortiz",
+         "Hortiz",
+         "Ortíz con H"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "My phone number is three one oh, five five five, one two three four."
+       }
+      ]
      },
      {
       "title": "Países y nacionalidades",
@@ -658,7 +1437,262 @@ window.SYLLABUS = {
        "ans": [
         "are"
        ]
-      }
+      },
+      "vocab": [
+       [
+        "country",
+        "sustantivo",
+        "país",
+        "Colombia is a beautiful country."
+       ],
+       [
+        "nationality",
+        "sustantivo",
+        "nacionalidad",
+        "What's your nationality?"
+       ],
+       [
+        "Colombian",
+        "adjetivo",
+        "colombiano",
+        "I'm Colombian."
+       ],
+       [
+        "Mexican",
+        "adjetivo",
+        "mexicano",
+        "Tacos are Mexican food."
+       ],
+       [
+        "American",
+        "adjetivo",
+        "estadounidense",
+        "He's American, from Texas."
+       ],
+       [
+        "Canadian",
+        "adjetivo",
+        "canadiense",
+        "My teacher is Canadian."
+       ],
+       [
+        "Spanish",
+        "adjetivo",
+        "español",
+        "Paella is Spanish food."
+       ],
+       [
+        "English",
+        "adjetivo / sustantivo",
+        "inglés",
+        "She's English, from London."
+       ],
+       [
+        "Brazilian",
+        "adjetivo",
+        "brasileño",
+        "My friend is Brazilian."
+       ],
+       [
+        "Peruvian",
+        "adjetivo",
+        "peruano",
+        "Ceviche is Peruvian."
+       ],
+       [
+        "Italian",
+        "adjetivo",
+        "italiano",
+        "I love Italian food."
+       ],
+       [
+        "French",
+        "adjetivo",
+        "francés",
+        "She speaks French."
+       ],
+       [
+        "city",
+        "sustantivo",
+        "ciudad",
+        "Cali is a big city."
+       ],
+       [
+        "capital",
+        "sustantivo",
+        "capital",
+        "Lima is the capital of Peru."
+       ],
+       [
+        "from",
+        "preposición",
+        "de (origen)",
+        "I'm from Medellín."
+       ],
+       [
+        "Where are you from?",
+        "expresión",
+        "¿De dónde eres?",
+        "Where are you from, Paolo?"
+       ],
+       [
+        "live",
+        "verbo",
+        "vivir",
+        "I live in Bogotá."
+       ],
+       [
+        "speak",
+        "verbo",
+        "hablar (un idioma)",
+        "I speak Spanish and a little English."
+       ],
+       [
+        "language",
+        "sustantivo",
+        "idioma",
+        "English is a useful language."
+       ],
+       [
+        "a little",
+        "expresión",
+        "un poco",
+        "I speak a little English."
+       ]
+      ],
+      "dialogue": {
+       "title": "Conociendo a alguien en un hostal",
+       "scene": "Laura conoce a Ben en la cocina de un hostal en Cartagena.",
+       "a": "Laura",
+       "b": "Ben",
+       "lines": [
+        [
+         "A",
+         "Hi! I'm Laura. Are you new here?",
+         "¡Hola! Soy Laura. ¿Eres nuevo aquí?"
+        ],
+        [
+         "B",
+         "Hi, Laura. Yes, I am. I'm Ben.",
+         "Hola, Laura. Sí. Soy Ben."
+        ],
+        [
+         "A",
+         "Nice to meet you, Ben. Where are you from?",
+         "Mucho gusto, Ben. ¿De dónde eres?"
+        ],
+        [
+         "B",
+         "I'm from Canada, from Toronto. And you?",
+         "Soy de Canadá, de Toronto. ¿Y tú?"
+        ],
+        [
+         "A",
+         "I'm Colombian. I'm from Medellín.",
+         "Soy colombiana. Soy de Medellín."
+        ],
+        [
+         "B",
+         "Medellín! Is it a big city?",
+         "¡Medellín! ¿Es una ciudad grande?"
+        ],
+        [
+         "A",
+         "Yes, it is. It's beautiful. Do you speak Spanish?",
+         "Sí. Es hermosa. ¿Hablas español?"
+        ],
+        [
+         "B",
+         "A little. I speak English and French.",
+         "Un poco. Hablo inglés y francés."
+        ],
+        [
+         "A",
+         "French? Wow! Is your family French?",
+         "¿Francés? ¡Wow! ¿Tu familia es francesa?"
+        ],
+        [
+         "B",
+         "My mother is French, but my father is Canadian.",
+         "Mi mamá es francesa, pero mi papá es canadiense."
+        ],
+        [
+         "A",
+         "Cool! Are your friends here too?",
+         "¡Qué bien! ¿Tus amigos también están aquí?"
+        ],
+        [
+         "B",
+         "Yes, they are. They're Australian. They're at the beach.",
+         "Sí. Son australianos. Están en la playa."
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Where",
+         "are",
+         "you",
+         "from?"
+        ],
+        "es": "¿De dónde eres?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "speak",
+         "a",
+         "little",
+         "English."
+        ],
+        "es": "Hablo un poco de inglés."
+       },
+       {
+        "t": "dict",
+        "say": "I'm from Colombia."
+       },
+       {
+        "t": "dict",
+        "say": "My mother is French."
+       },
+       {
+        "t": "mc",
+        "q": "He's from Brazil. He's ___.",
+        "o": [
+         "Brazil",
+         "Brazilian",
+         "brazilian",
+         "Brasilero"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I ___ Spanish and English. (hablo)",
+        "ans": [
+         "speak"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "My name is Yuki. I'm Japanese, but I live in Mexico City.",
+        "q": "¿Dónde vive Yuki?",
+        "o": [
+         "Japón",
+         "Ciudad de México",
+         "Lima",
+         "Toronto"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I'm Colombian and I speak Spanish and a little English."
+       }
+      ]
      },
      {
       "title": "Números del 0 al 20 y la edad",
@@ -802,7 +1836,263 @@ window.SYLLABUS = {
         "What age he has?"
        ],
        "a": 1
-      }
+      },
+      "vocab": [
+       [
+        "one, two, three",
+        "número",
+        "uno, dos, tres",
+        "I have three sisters."
+       ],
+       [
+        "four, five, six",
+        "número",
+        "cuatro, cinco, seis",
+        "She is six years old."
+       ],
+       [
+        "seven, eight, nine",
+        "número",
+        "siete, ocho, nueve",
+        "My son is nine."
+       ],
+       [
+        "ten, eleven, twelve",
+        "número",
+        "diez, once, doce",
+        "There are twelve months."
+       ],
+       [
+        "thirteen, fourteen, fifteen",
+        "número",
+        "trece, catorce, quince",
+        "My daughter is fifteen."
+       ],
+       [
+        "sixteen, seventeen",
+        "número",
+        "dieciséis, diecisiete",
+        "He is seventeen."
+       ],
+       [
+        "eighteen, nineteen, twenty",
+        "número",
+        "dieciocho, diecinueve, veinte",
+        "I'm twenty years old."
+       ],
+       [
+        "thirty, forty, fifty",
+        "número",
+        "treinta, cuarenta, cincuenta",
+        "My father is fifty."
+       ],
+       [
+        "sixty, seventy, eighty, ninety",
+        "número",
+        "sesenta, setenta, ochenta, noventa",
+        "My grandmother is eighty."
+       ],
+       [
+        "How old are you?",
+        "expresión",
+        "¿Cuántos años tienes?",
+        "How old are you, Tom?"
+       ],
+       [
+        "years old",
+        "expresión",
+        "años (de edad)",
+        "I'm thirty-five years old."
+       ],
+       [
+        "age",
+        "sustantivo",
+        "edad",
+        "What's your age?"
+       ],
+       [
+        "baby",
+        "sustantivo",
+        "bebé",
+        "The baby is one year old."
+       ],
+       [
+        "child",
+        "sustantivo",
+        "niño, niña",
+        "She is a child. She's eight."
+       ],
+       [
+        "teenager",
+        "sustantivo",
+        "adolescente",
+        "My son is a teenager."
+       ],
+       [
+        "adult",
+        "sustantivo",
+        "adulto",
+        "Adults pay ten dollars."
+       ],
+       [
+        "young",
+        "adjetivo",
+        "joven",
+        "My teacher is young."
+       ],
+       [
+        "old",
+        "adjetivo",
+        "viejo, mayor",
+        "My dog is old."
+       ],
+       [
+        "birthday",
+        "sustantivo",
+        "cumpleaños",
+        "Today is my birthday!"
+       ],
+       [
+        "Happy birthday!",
+        "expresión",
+        "¡Feliz cumpleaños!",
+        "Happy birthday, Mom!"
+       ]
+      ],
+      "dialogue": {
+       "title": "Una fiesta de cumpleaños",
+       "scene": "En la fiesta de cumpleaños de la hija de Marta, una vecina, Julie, conversa con ella.",
+       "a": "Julie",
+       "b": "Marta",
+       "lines": [
+        [
+         "A",
+         "Happy birthday to your daughter! How old is she?",
+         "¡Feliz cumpleaños a tu hija! ¿Cuántos años cumple?"
+        ],
+        [
+         "B",
+         "Thank you! She's seven today.",
+         "¡Gracias! Hoy cumple siete."
+        ],
+        [
+         "A",
+         "Seven! And your son? How old is he?",
+         "¡Siete! ¿Y tu hijo? ¿Cuántos años tiene?"
+        ],
+        [
+         "B",
+         "He's thirteen. He's a teenager now!",
+         "Tiene trece. ¡Ya es un adolescente!"
+        ],
+        [
+         "A",
+         "Wow. How many children are here?",
+         "Wow. ¿Cuántos niños hay aquí?"
+        ],
+        [
+         "B",
+         "There are fifteen children and twelve adults.",
+         "Hay quince niños y doce adultos."
+        ],
+        [
+         "A",
+         "That's a big party! Is your mother here?",
+         "¡Qué fiesta tan grande! ¿Tu mamá está aquí?"
+        ],
+        [
+         "B",
+         "Yes, she is. She's over there. She's seventy-two.",
+         "Sí. Está allá. Tiene setenta y dos."
+        ],
+        [
+         "A",
+         "She looks young!",
+         "¡Se ve joven!"
+        ],
+        [
+         "B",
+         "Thank you! And how old is your baby?",
+         "¡Gracias! ¿Y cuántos tiene tu bebé?"
+        ],
+        [
+         "A",
+         "He's ten months old.",
+         "Tiene diez meses."
+        ],
+        [
+         "B",
+         "He's beautiful. Come, have some cake!",
+         "Es hermoso. ¡Ven, come torta!"
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "How",
+         "old",
+         "is",
+         "your",
+         "son?"
+        ],
+        "es": "¿Cuántos años tiene tu hijo?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "am",
+         "forty",
+         "years",
+         "old."
+        ],
+        "es": "Tengo cuarenta años."
+       },
+       {
+        "t": "dict",
+        "say": "She is fifteen years old."
+       },
+       {
+        "t": "dict",
+        "say": "Happy birthday to you!"
+       },
+       {
+        "t": "mc",
+        "q": "Ochenta y seis es:",
+        "o": [
+         "sixty-eight",
+         "eighty-six",
+         "eighteen six",
+         "eight-six"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "My baby is ten ___ old. (meses)",
+        "ans": [
+         "months"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "My grandfather is ninety-one and my grandmother is eighty-seven.",
+        "q": "¿Cuántos años tiene la abuela?",
+        "o": [
+         "78",
+         "87",
+         "91",
+         "19"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "My son is thirteen and my daughter is seven."
+       }
+      ]
      }
     ],
     "quiz": [

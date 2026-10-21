@@ -289,6 +289,27 @@ footer b{color:#fff}
 .vgroup{scroll-margin-top:72px}.vgroup h4{scroll-margin-top:72px}
 @media (max-width:860px){.vlayout{grid-template-columns:minmax(0,1fr)}.vindex{position:static;max-height:none}}
 
+/* lección completa */
+.ltoc{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 4px}
+.ltoc a{font-weight:700;font-size:13px;padding:6px 12px;border-radius:999px;background:var(--soft);color:var(--ink);text-decoration:none}
+.ltoc a:hover{background:var(--sun);color:#1A2238}
+.lsec{scroll-margin-top:72px}
+.lsec h3 .mins{margin-left:auto;font-size:13px;color:var(--mute);font-family:var(--f-body);font-weight:700}
+.vgh{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--coral);margin:18px 0 10px;font-family:var(--f-display)}
+.dctrl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.dlines{display:flex;flex-direction:column;gap:10px}
+.dline{display:flex;flex-direction:column;max-width:80%;cursor:pointer}
+.dline.a{align-self:flex-start}.dline.b{align-self:flex-end;align-items:flex-end}
+.dline .dwho{font-size:12px;font-weight:800;color:var(--mute);margin:0 8px 2px}
+.dline .bub{padding:10px 14px;border-radius:14px;background:var(--soft);font-size:16px;position:relative;display:flex;flex-direction:column;gap:4px}
+.dline.b .bub{background:rgba(59,169,255,.14)}
+.dline.now .bub{outline:3px solid var(--sun)}
+.dline .bub small{color:var(--mute);font-size:13px}
+.dline .sc{font-style:normal;font-weight:800;font-size:12px}.sc.ok{color:var(--ok)}.sc.mid{color:#B7791F}.sc.bad{color:var(--coral)}
+.turn{margin-top:16px;border:2px solid var(--sun);border-radius:10px;padding:14px 16px}
+.obuilt{min-height:54px;border:2px dashed var(--line);border-radius:8px;padding:10px;display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;align-items:center}
+.chip.on{background:var(--sun);border-color:var(--sun);color:#1A2238}
+
 /* examen: presentación */
 .skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 @media (max-width:760px){.skills{grid-template-columns:1fr}}
@@ -538,10 +559,10 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="vocab.js?v=202610211303"></script>
-<script src="readings.js?v=202610211303"></script>
-<script src="dict.js?v=202610211303"></script>
-<script src="lessons.js?v=202610211303"></script>
+<script src="vocab.js?v=202610211347"></script>
+<script src="readings.js?v=202610211347"></script>
+<script src="dict.js?v=202610211347"></script>
+<script src="lessons.js?v=202610211347"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1164,10 +1185,16 @@ function qRender(){
   exam.scrollTop=0;
   if(Q.done)return qResult();
   const it=Q.items[Q.i],tts="speechSynthesis" in window;
-  const label={mc:"Escrito · elige la opción",fill:"Escrito · completa la frase",listen:"Escucha y responde",oral:"Oral · dilo en voz alta",write:"Escritura · redacción"}[it.t];
+  const label={mc:"Escrito · elige la opción",fill:"Escrito · completa la frase",listen:"Escucha y responde",oral:"Oral · dilo en voz alta",write:"Escritura · redacción",order:"Escrito · ordena la frase",dict:"Dictado · escucha y escribe"}[it.t];
   let h=`<div class="progress"><i style="width:${Q.i/n*100}%"></i></div><div class="qmeta"><span>${label}</span><span>${L.k} · ${L.name}</span></div>`;
   if(it.t==="listen")h+=`<button class="play" id="play" ${Q.plays>=2?"disabled":""}><b>${ICON_PLAY}</b><span>${Q.plays?"Escuchar otra vez":"Escuchar audio"}<small>${2-Q.plays} reproducciones disponibles</small></span></button>${tts?"":`<div class="warn">Este navegador no tiene voz en inglés. Texto: “${esc(it.say)}”</div>`}`;
   if(it.t==="mc"||it.t==="listen")h+=`<p class="qtext">${esc(it.q).replace("___",'<span class="blank"></span>')}</p><div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${Q.sel===i}" data-i="${i}"><i>${"ABCD"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>`;
+  if(it.t==="order"){if(!Q.ord)Q.ord={bank:shuffle(it.words.map((w,i)=>({w,i}))),picked:[]};
+    h+=`<p class="qtext">Ordena las palabras${it.es?`: <span style="font-weight:600;color:var(--mute)">“${esc(it.es)}”</span>`:""}</p>
+    <div class="obuilt" id="oBuilt">${Q.ord.picked.length?Q.ord.picked.map((x,j)=>`<button class="chip on" data-p="${j}">${esc(x.w)}</button>`).join(""):`<span class="note">Toca las palabras en orden</span>`}</div>
+    <div class="chips" id="oBank">${Q.ord.bank.map((x,j)=>Q.ord.picked.includes(x)?"":`<button class="chip" data-b="${j}">${esc(x.w)}</button>`).join("")}</div>`}
+  if(it.t==="dict")h+=`<button class="play" id="play" ${Q.plays>=3?"disabled":""}><b>${ICON_PLAY}</b><span>${Q.plays?"Escuchar otra vez":"Escuchar la frase"}<small>${3-Q.plays} reproducciones disponibles</small></span></button>
+    <label for="fillIn" class="note">Escribe exactamente lo que escuchas</label><br><input class="fillin" id="fillIn" style="max-width:100%;width:100%" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(Q.typed)}">`;
   if(it.t==="fill")h+=`<p class="qtext">${esc(it.q).replace("___",'<span class="blank"></span>')}</p><label for="fillIn" class="note">Escribe la palabra que falta</label><br><input class="fillin" id="fillIn" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(Q.typed)}">`;
   if(it.t==="write")h+=`<p class="qtext">${esc(it.q)}</p><textarea id="wrIn" style="min-height:200px;font-family:var(--f-body);font-size:16px" placeholder="My name is…">${esc(Q.typed)}</textarea><div class="wc" id="wrWc"></div>`;
   if(it.t==="oral")h+=`<p class="say">${esc(it.text)}</p><button class="vplay" id="oralHear" style="width:auto;height:auto;border-radius:999px;padding:8px 16px;font-weight:800;gap:8px;display:inline-flex;margin-bottom:14px">${ICON_SPK}<span>Escuchar cómo se dice</span></button><br>
@@ -1176,11 +1203,14 @@ function qRender(){
     ${Q.err?`<div class="warn">${Q.err==="not-allowed"?"El micrófono está bloqueado. En Chrome, toca el candado de la barra de direcciones y permite el micrófono. En la vista previa de Claude el micrófono no funciona.":Q.err==="unsupported"?"Este navegador no reconoce voz. Usa Google Chrome o Microsoft Edge.":"No te escuchamos. Acércate al micrófono e intenta otra vez."}</div>`:""}`;
   const words=t=>norm(t).length;
   const minW=it.min||15;
-  const ready=it.t==="fill"?Q.typed.trim():it.t==="write"?words(Q.typed)>=minW:it.t==="oral"?(Q.said||Q.noMic):Q.sel!=null;
+  const ready=it.t==="order"?Q.ord.picked.length===it.words.length:it.t==="dict"?Q.typed.trim()&&Q.plays>0:it.t==="fill"?Q.typed.trim():it.t==="write"?words(Q.typed)>=minW:it.t==="oral"?(Q.said||Q.noMic):Q.sel!=null;
   h+=`<div class="ex-actions">${it.t==="oral"?`<button class="linkbtn" id="noMic">No puedo usar el micrófono (cuenta 0)</button>`:`<span class="note">Necesitas ${Q.cfg.pass} % para aprobar.</span>`}<button class="btn sun" id="next" ${ready?"":"disabled"}>${Q.i===n-1?"Ver resultado":"Siguiente"}</button></div>`;
   body.innerHTML=h;
   if(it.t==="listen"&&tts)$("play").onclick=()=>{Q.plays++;speakTTS(it.say);qRender()};
   body.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{Q.sel=+b.dataset.i;qRender();body.querySelector(`.opt[data-i="${Q.sel}"]`).focus()});
+  if(it.t==="order"){$("oBank").onclick=e=>{const b=e.target.closest("[data-b]");if(!b)return;Q.ord.picked.push(Q.ord.bank[+b.dataset.b]);qRender()};
+    $("oBuilt").onclick=e=>{const b=e.target.closest("[data-p]");if(!b)return;Q.ord.picked.splice(+b.dataset.p,1);qRender()}}
+  if(it.t==="dict"){$("play").onclick=()=>{Q.plays++;speakTTS(it.say);qRender()};const f=$("fillIn");f.oninput=()=>{Q.typed=f.value;$("next").disabled=!(f.value.trim()&&Q.plays>0)};if(Q.plays)f.focus()}
   if(it.t==="fill"){const f=$("fillIn");f.focus();f.oninput=()=>{Q.typed=f.value;$("next").disabled=!f.value.trim()};f.onkeydown=e=>{if(e.key==="Enter"&&f.value.trim())$("next").click()}}
   if(it.t==="write"){const f=$("wrIn"),u=()=>{Q.typed=f.value;const c=words(f.value);$("wrWc").textContent=`${c} palabras · mínimo ${minW}`;$("next").disabled=c<minW};f.oninput=u;u();f.focus()}
   if(it.t==="oral"){
@@ -1205,6 +1235,8 @@ function qNext(){
   stopRec();try{speechSynthesis.cancel()}catch(e){}
   const it=Q.items[Q.i];let pts=0,given="",acc=null;
   if(it.t==="mc"||it.t==="listen"){pts=Q.sel===it.a?1:0;given=it.o[Q.sel]}
+  if(it.t==="order"){given=Q.ord.picked.map(x=>x.w).join(" ");const nz=t=>t.toLowerCase().replace(/[.,!?¿¡]/g,"").replace(/\s+/g," ").trim();pts=nz(given)===nz(it.words.join(" "))?1:0;Q.ord=null}
+  if(it.t==="dict"){given=Q.typed.trim();const a=wordAcc(it.say,given);pts=a>=.95?1:a>=.75?.5:0;acc=Math.round(a*100)}
   if(it.t==="fill"){const v=Q.typed.trim().toLowerCase().replace(/[.!?]+$/,"").replace(/\s+/g," ");pts=it.ans.includes(v)?1:0;given=Q.typed.trim()}
   if(it.t==="write"){
     /* mitad por la calidad del texto (reglas) y mitad por usar lo que pide la consigna */
@@ -1217,7 +1249,7 @@ function qNext(){
   }
   if(it.t==="oral"){const a=Q.said?wordAcc(it.text,Q.said):0;pts=a>=.85?1:a>=.6?.5:0;given=Q.said||"(sin grabación)";acc=Math.round(a*100)}
   if(it.t!=="write")Q.ans.push({it,pts,given,acc});
-  Q.i++;Q.sel=null;Q.plays=0;Q.typed="";Q.said="";Q.err=null;Q.noMic=false;
+  Q.i++;Q.sel=null;Q.plays=0;Q.typed="";Q.said="";Q.err=null;Q.noMic=false;Q.ord=null;
   if(Q.i>=Q.items.length){
     Q.done=true;Q.pct=Math.round(Q.ans.reduce((s,a)=>s+a.pts,0)/Q.items.length*100);Q.passed=Q.pct>=Q.cfg.pass;
     Q.cfg.save(Q.pct,Q.passed);render();renderResults();
@@ -1227,15 +1259,15 @@ function qNext(){
 function qResult(){
   const c=Q.cfg;
   const msg=Q.passed?(c.passMsg||"¡Aprobaste!"):(c.failMsg||`Necesitas ${c.pass} % para aprobar. Repasa las correcciones y vuelve a intentarlo.`);
-  const right=a=>a.it.t==="oral"?a.it.text:a.it.t==="fill"?a.it.ans[0]:a.it.t==="write"?"(texto libre)":a.it.o[a.it.a];
-  const kind={mc:"Escrito",fill:"Escrito",listen:"Escucha",oral:"Oral",write:"Redacción"};
+  const right=a=>a.it.t==="order"?a.it.words.join(" "):a.it.t==="dict"?a.it.say:a.it.t==="oral"?a.it.text:a.it.t==="fill"?a.it.ans[0]:a.it.t==="write"?"(texto libre)":a.it.o[a.it.a];
+  const kind={mc:"Escrito",fill:"Escrito",order:"Ordenar",listen:"Escucha",dict:"Dictado",oral:"Oral",write:"Redacción"};
   const sk=(types,name,col)=>{const a=Q.ans.filter(x=>types.includes(x.it.t));if(!a.length)return"";const p=Math.round(a.reduce((s,x)=>s+x.pts,0)/a.length*100);
     return `<div class="sbar"><div class="shead"><span>${name} <small style="color:var(--mute);font-weight:600">(${a.length} ${a.length===1?"pregunta":"preguntas"})</small></span><span>${p} %</span></div><div class="tr"><i style="width:${p}%;background:${col}"></i></div></div>`};
   body.innerHTML=`<div class="result"><div class="rwho">${esc(c.title)} · ${esc(curStudent()?curStudent().name:"")}</div><div class="lv">${Q.pct} <span>%</span></div><p>${msg}</p></div>
-    <div class="sbars">${sk(["mc","fill"],"Escritura","var(--sun)")}${sk(["write"],"Redacción","var(--mint)")}${sk(["listen"],"Escucha","var(--sky)")}${sk(["oral"],"Habla","var(--coral)")}</div>
+    <div class="sbars">${sk(["mc","fill","order"],"Escritura","var(--sun)")}${sk(["write"],"Redacción","var(--mint)")}${sk(["listen","dict"],"Escucha","var(--sky)")}${sk(["oral"],"Habla","var(--coral)")}</div>
     ${c.topics?topicReport():""}
     <ul class="review">${Q.ans.map(a=>`<li class="${a.pts===1?"ok":a.pts>0?"half":""}">
-      <div class="rq"><span class="tagline">${kind[a.it.t]}</span>${esc(a.it.t==="oral"?"Decir en voz alta: “"+a.it.text+"”":a.it.q)}</div>
+      <div class="rq"><span class="tagline">${kind[a.it.t]}</span>${esc(a.it.t==="oral"?"Decir en voz alta: “"+a.it.text+"”":a.it.t==="order"?"Ordenar: "+(a.it.es||""):a.it.t==="dict"?"Dictado":a.it.q)}</div>
       <div>Tu respuesta: <b>${esc(a.given||"—")}</b>${a.it.t==="oral"&&a.acc!=null&&a.given!=="(sin grabación)"?` · ${a.acc} % de palabras correctas`:""}${a.it.t==="write"?` · ${a.acc} % (estimación automática)`:""}</div>
       ${a.it.t==="write"&&a.miss&&a.miss.length?`<div class="rx">Te faltó usar: ${a.miss.map(g=>esc(g.join(" / "))).join(" · ")}</div>`:""}
       ${a.pts<1&&a.it.t!=="write"?`<div>Correcta: <b>${esc(right(a))}</b></div>`:""}
@@ -1251,7 +1283,11 @@ function qResult(){
 /* ================= vocabulario por nivel ================= */
 const VCACHE={};
 function vocabOf(L){if(VCACHE[L])return VCACHE[L];const src=(window.VOCAB||[])[L]||{};
-  return VCACHE[L]=Object.entries(src).flatMap(([cat,txt])=>txt.trim().split("\n").map(l=>{const [w,m,e,t]=l.split("|").map(s=>(s||"").trim());return{cat,w,m,e,t}}))}
+  const base=vocabBase(L),seen=new Set(base.map(x=>x.w.toLowerCase())),sy=(window.SYLLABUS||{})[L];let d=0;
+  if(sy)sy.units.forEach(u=>u.lessons.forEach(l=>{d++;(l.vocab||[]).forEach(([w,pos,m,e])=>{if(seen.has(w.toLowerCase()))return;seen.add(w.toLowerCase());base.push({cat:POSCAT(pos),w,m,e,t:`Día ${d} · ${l.title}`})})}));
+  return VCACHE[L]=base}
+function vocabBase(L){const src=(window.VOCAB||[])[L]||{};
+  return Object.entries(src).flatMap(([cat,txt])=>txt.trim().split("\n").map(l=>{const [w,m,e,t]=l.split("|").map(s=>(s||"").trim());return{cat,w,m,e,t}}))}
 function learnedSet(L){const st=curStudent();return new Set((st&&st.vocab&&st.vocab[L])||[])}
 function setLearned(L,w,on){const db=loadDB(),st=db.find(s=>s.id===S.student);if(!st)return;st.vocab=st.vocab||{};
   const s=new Set(st.vocab[L]||[]);on?s.add(w):s.delete(w);st.vocab[L]=[...s];saveDB(db)}
@@ -1306,11 +1342,12 @@ function vList(){
   box.querySelectorAll(".vplay").forEach(b=>b.onclick=()=>speakTTS(b.dataset.say));
   box.querySelectorAll(".vchk input").forEach(i=>i.onchange=()=>{setLearned(V.L,i.dataset.w,i.checked);i.closest(".vw").classList.toggle("on",i.checked);vProgress();render()});
 }
+function vCardsBack(){if(V&&V.back){const b=V.back;V=null;b()}else{V.mode="list";vRender()}}
 function vCards(){
   const total=V.deck.length;
   if(V.k>=total){body.innerHTML=`<div class="flash"><div class="fw">¡Listo!</div><p class="fm">Sabías ${V.known} de ${total} palabras.</p><p class="fe">Las que marcaste como sabidas quedaron como aprendidas.</p>
-    <div class="btns"><button class="btn dark" id="vAgain">Otra ronda</button><button class="btn sun" id="vBackList">Volver a la lista</button></div></div>`;
-    $("vAgain").onclick=()=>{V.mode="list";vRender();$("vPractice").click()};$("vBackList").onclick=()=>{V.mode="list";vRender()};return}
+    <div class="btns"><button class="btn dark" id="vAgain">Otra ronda</button><button class="btn sun" id="vBackList">${V.back?"Volver a la lección":"Volver a la lista"}</button></div></div>`;
+    $("vAgain").onclick=()=>{if(V.back){V.deck=shuffle(V.deck);V.k=0;V.known=0;V.show=false;vCards()}else{V.mode="list";vRender();$("vPractice").click()}};$("vBackList").onclick=vCardsBack;return}
   const w=V.deck[V.k];
   body.innerHTML=`<div class="progress"><i style="width:${V.k/total*100}%"></i></div>
     <div class="qmeta"><span>${esc(w.cat)}${w.t?" · "+esc(w.t):""}</span><span>Tarjeta ${V.k+1} de ${total}</span></div>
@@ -1318,9 +1355,9 @@ function vCards(){
       <button class="vplay" id="fPlay" style="width:46px;height:46px" aria-label="Escuchar">${ICON_SPK}</button>
       ${V.show?`<div class="fm">${esc(w.m)}</div><p class="fe" lang="en">${esc(w.e)}</p>`:`<p class="fe">¿Qué significa? Piénsalo y luego revisa.</p>`}
       <div class="btns">${V.show?`<button class="btn dark" id="fNo">No la sabía</button><button class="btn sun" id="fYes">La sabía</button>`:`<button class="btn sun" id="fShow">Ver significado</button>`}</div></div>
-    <div class="ex-actions"><button class="linkbtn" id="fExit">Volver a la lista</button><span></span></div>`;
+    <div class="ex-actions"><button class="linkbtn" id="fExit">${V.back?"← Volver a la lección":"Volver a la lista"}</button><span></span></div>`;
   $("fPlay").onclick=()=>speakTTS(w.w+". "+(V.show?w.e:""));
-  $("fExit").onclick=()=>{V.mode="list";vRender()};
+  $("fExit").onclick=vCardsBack;
   if($("fShow"))$("fShow").onclick=()=>{V.show=true;vCards();$("fYes").focus()};
   if($("fYes"))$("fYes").onclick=()=>{setLearned(V.L,w.w,true);V.known++;V.k++;V.show=false;render();vCards()};
   if($("fNo"))$("fNo").onclick=()=>{V.k++;V.show=false;vCards()};
@@ -1543,34 +1580,103 @@ function bindSylHome(L){
 }
 const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
 function wordInfo(w){const k=w.toLowerCase();for(let L=0;L<6;L++){const v=vocabOf(L).find(x=>x.w.toLowerCase()===k);if(v)return{w:v.w,pos:v.cat.replace(/s$/,"").replace(/e$/,"e"),m:v.m,e:v.e}}const d=dictLookup(w);return d?{w,pos:d.pos,m:d.m,e:d.e}:{w,pos:"",m:"",e:""}}
+/* ================= lección completa (45–60 min) ================= */
+const POSCAT=p=>{p=(p||"").toLowerCase();return p.startsWith("verbo")?"Verbos":p.startsWith("sustantivo")?"Sustantivos":p.startsWith("adjetivo")?"Adjetivos":p.startsWith("adverbio")?"Adverbios":
+  /preposici|conjunci|conector/.test(p)?"Preposiciones y conectores":/pronombre|pregunta|posesivo|determinante/.test(p)?"Pronombres y preguntas":/número|numero|ordinal/.test(p)?"Números, tiempo y colores":"Expresiones"};
+function lesVocab(les){return(les.vocab||[]).map(([w,pos,m,e])=>({w,pos,m,e}))}
 function lessonView(L,u,k){
-  OV="level";stopReader();const sy=SYL(L),les=sy.units[u].lessons[k],steps=sylSteps(L),me=steps.find(s=>s.key===lesKey(L,u,k)),i=steps.indexOf(me);
+  OV="level";stopReader();stopDialog();const sy=SYL(L),les=sy.units[u].lessons[k],steps=sylSteps(L),me=steps.find(s=>s.key===lesKey(L,u,k)),i=steps.indexOf(me);
   const prev=steps.slice(0,i).reverse().find(s=>s.type==="lesson"),nxt=steps[i+1];
-  body.style.maxWidth="900px";exam.scrollTop=0;
+  body.style.maxWidth="920px";exam.scrollTop=0;
   $("exSteps").innerHTML=`<span class="on">Día ${me.day} · ${LV[L].k}</span><span>Unidad ${u+1}</span>`;addBack();
-  const p=getProg(me.key);
+  const p=getProg(me.key),voc=lesVocab(les),learned=learnedSet(L),prac=[...les.practice,...(les.more||[])];
+  const groups=[...new Set(voc.map(v=>POSCAT(v.pos)))];
+  let n=0;const sec=(t,min)=>`<h3><span>${++n}</span>${t}${min?`<small class="mins">≈ ${min} min</small>`:""}</h3>`;
+  const total=(voc.length?12:4)+8+(les.dialogue?12:0)+(les.reading!=null?8:0)+Math.max(6,Math.round(prac.length*1.1));
   body.innerHTML=`<div class="eyebrow">Unidad ${u+1} · ${esc(sy.units[u].title)} · Día ${me.day}</div>
-    <h2 style="margin-top:6px">${esc(les.title)}</h2><p class="lead"><b>Objetivo:</b> ${esc(les.goal)}</p>
-    <section class="lsec"><h3><span>1</span>Explicación</h3>
+    <h2 style="margin-top:6px">${esc(les.title)}</h2><p class="lead"><b>Objetivo:</b> ${esc(les.goal)}<br><span class="pill" style="margin-top:8px">Tiempo de estudio: ≈ ${total} min</span></p>
+    <nav class="ltoc">${["Vocabulario","Explicación",les.dialogue?"Conversación":"",les.reading!=null?"Lectura":"","Práctica"].filter(Boolean).map((t,j)=>`<a href="#ls-${j}" data-go="ls-${j}">${j+1}. ${t}</a>`).join("")}</nav>
+    <section class="lsec" id="ls-0">${sec("Vocabulario del día",voc.length?12:4)}
+      ${voc.length?`<p>${voc.length} palabras y frases nuevas. Escúchalas, lee el ejemplo y marca las que ya te sabes. Luego practícalas con tarjetas.</p>
+      ${groups.map(g=>`<h4 class="vgh">${g}</h4><div class="vgrid">${voc.filter(v=>POSCAT(v.pos)===g).map(v=>`<article class="vw ${learned.has(v.w)?"on":""}"><div class="vt"><b lang="en">${esc(v.w)}</b><button class="vplay" data-say="${esc(v.w+". "+v.e)}" aria-label="Escuchar">${ICON_SPK}</button></div><span class="pos" style="font-size:11px;font-weight:800;color:var(--mute)">${esc(v.pos)}</span><div class="vm">${esc(v.m)}</div><p class="ve" lang="en">${esc(v.e)}</p><label class="vchk"><input type="checkbox" data-w="${esc(v.w)}" ${learned.has(v.w)?"checked":""}> La aprendí</label></article>`).join("")}</div>`).join("")}
+      <div class="examcta"><button class="btn dark" id="lCards">Practicar estas ${voc.length} palabras con tarjetas</button></div>`
+      :`<div class="vgrid">${les.words.map(w=>{const x=wordInfo(w);return `<article class="vw"><div class="vt"><b lang="en">${esc(x.w)}</b><button class="vplay" data-say="${esc(x.w+(x.e?". "+x.e:""))}" aria-label="Escuchar">${ICON_SPK}</button></div><div class="vm">${esc(x.m)}</div><p class="ve" lang="en">${esc(x.e)}</p></article>`}).join("")}</div>`}
+    </section>
+    <section class="lsec" id="ls-1">${sec("Explicación",8)}
       ${les.theory.map(b=>b.p?`<p>${md(b.p)}</p>`:b.tip?`<div class="tipbox"><b>Ojo:</b> ${md(b.tip)}</div>`:b.ex?`<div class="extable">${b.ex.map(([en,es])=>`<div class="exrow"><button class="vplay" data-say="${esc(en)}" aria-label="Escuchar">${ICON_SPK}</button><span lang="en">${esc(en)}</span><span>${esc(es)}</span></div>`).join("")}</div>`:"").join("")}
     </section>
-    <section class="lsec"><h3><span>2</span>Vocabulario del día</h3>
-      <div class="vgrid">${les.words.map(w=>{const x=wordInfo(w);return `<article class="vw"><div class="vt"><b lang="en">${esc(x.w)}</b><button class="vplay" data-say="${esc(x.w+(x.e?". "+x.e:""))}" aria-label="Escuchar">${ICON_SPK}</button></div>${x.pos?`<span class="pos" style="font-size:11px;font-weight:800;color:var(--mute)">${esc(x.pos)}</span>`:""}<div class="vm">${esc(x.m)}</div><p class="ve" lang="en">${esc(x.e)}</p></article>`}).join("")}</div>
-    </section>
-    ${les.reading!=null?`<section class="lsec"><h3><span>3</span>Lectura del día</h3><button class="ritem" id="lRead"><div><b lang="en">${esc(READINGS[L][les.reading].title)}</b><span>${esc(READINGS[L][les.reading].es)} · escúchala, toca las palabras y léela en voz alta</span></div><span class="pill">${readBest(L,les.reading)!=null?`Pronunciación ${readBest(L,les.reading)} %`:"Abrir"}</span></button></section>`:""}
-    <section class="lsec"><h3><span>${les.reading!=null?4:3}</span>Práctica calificada</h3>
-      <p>${les.practice.length} ejercicios de escritura, escucha y habla. Con ${PASS} % la lección queda aprobada.</p>
+    ${les.dialogue?`<section class="lsec" id="ls-2">${sec("Conversación: "+esc(les.dialogue.title),12)}<div id="dlg"></div></section>`:""}
+    ${les.reading!=null?`<section class="lsec" id="ls-${les.dialogue?3:2}">${sec("Lectura del día",8)}<button class="ritem" id="lRead"><div><b lang="en">${esc(READINGS[L][les.reading].title)}</b><span>${esc(READINGS[L][les.reading].es)} · escúchala, toca las palabras y léela en voz alta</span></div><span class="pill">${readBest(L,les.reading)!=null?`Pronunciación ${readBest(L,les.reading)} %`:"Abrir"}</span></button></section>`:""}
+    <section class="lsec" id="ls-${["",les.dialogue,les.reading!=null].filter(Boolean).length+1}">${sec("Práctica calificada",Math.max(6,Math.round(prac.length*1.1)))}
+      <p>${prac.length} ejercicios de escritura, escucha y habla${prac.some(x=>x.t==="order")?", ordenar frases":""}${prac.some(x=>x.t==="dict")?" y dictado":""}. Con ${PASS} % la lección queda aprobada.</p>
       <div class="examcta" style="margin-top:6px"><button class="btn sun" id="lPrac">${p?(p.passed?"Repetir práctica":"Intentar otra vez"):"Empezar práctica"}</button>${p?`<span class="pill">${p.passed?"✓ Aprobada":"Último"} · ${p.passed?p.best:p.last} %</span>`:""}</div>
     </section>
     <div class="ex-actions" style="border-top:1px solid var(--line);padding-top:18px">${prev?`<button class="linkbtn" id="lPrev">← Día ${prev.day}</button>`:"<span></span>"}${nxt?`<button class="linkbtn" id="lNext">${nxt.type==="lesson"?`Día ${nxt.day}: ${esc(nxt.title)}`:esc(nxt.title)} →</button>`:""}</div>`;
   body.querySelectorAll(".vplay[data-say]").forEach(b=>b.onclick=()=>speakTTS(b.dataset.say));
+  body.querySelector(".ltoc").onclick=e=>{const a=e.target.closest("a[data-go]");if(!a)return;e.preventDefault();$(a.dataset.go).scrollIntoView({behavior:reduce?"auto":"smooth"})};
+  body.querySelectorAll(".vchk input").forEach(x=>x.onchange=()=>{setLearned(L,x.dataset.w,x.checked);x.closest(".vw").classList.toggle("on",x.checked);render()});
+  if($("lCards"))$("lCards").onclick=()=>{OV="vocab";V={L,cat:"Todas",q:"",order:"tema",mode:"cards",deck:shuffle(voc.map(v=>({...v,cat:POSCAT(v.pos),t:"Día "+me.day}))),k:0,show:false,known:0,back:()=>lessonView(L,u,k)};vRender()};
+  if(les.dialogue)dialogView(les.dialogue);
   if($("lRead"))$("lRead").onclick=()=>reader(L,les.reading);
   if($("lPrev"))$("lPrev").onclick=()=>openStep(L,prev);
   if($("lNext"))$("lNext").onclick=()=>openStep(L,nxt);
-  $("lPrac").onclick=()=>runSet({L,title:`Día ${me.day} · ${les.title}`,items:les.practice,pass:PASS,
-    save:(pct,ok)=>saveProg(me.key,pct,ok),again:()=>$("lPrac")?$("lPrac").click():lessonView(L,u,k),
+  $("lPrac").onclick=()=>runSet({L,title:`Día ${me.day} · ${les.title}`,items:prac,pass:PASS,
+    save:(pct,ok)=>saveProg(me.key,pct,ok),again:()=>lessonView(L,u,k),
     passMsg:"¡Lección aprobada! Sigue con la siguiente.",
     next:nxt?{label:nxt.type==="lesson"?`Ir al día ${nxt.day}`:`Ir al ${nxt.title.toLowerCase()}`,go:()=>openStep(L,nxt)}:null});
+}
+
+/* ---- conversación: audio a dos voces, traducción y juego de rol ---- */
+let D=null;
+function voicePair(){const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang));const us=vs.filter(v=>/^en[-_]US/i.test(v.lang));
+  const a=us[0]||vs[0]||null,b=us.find(v=>v!==a)||vs.find(v=>v!==a)||null;return[a,b]}
+function sayLine(text,who,done){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=.92;const [va,vb]=voicePair();
+  const v=who==="A"?va:(vb||va);if(v)u.voice=v;if(who!=="A"&&!vb)u.pitch=1.35;u.onend=()=>done&&done();u.onerror=()=>done&&done();speechSynthesis.speak(u)}catch(e){done&&done()}}
+function stopDialog(){if(!D)return;D.stop=true;try{speechSynthesis.cancel()}catch(e){}if(D.rec){try{D.rec.abort()}catch(e){}}D=null}
+function dialogView(dg){
+  D={dg,showEs:false,mode:"read",i:-1,role:null,scores:{},stop:false,rec:null};
+  const box=$("dlg");
+  const draw=()=>{if(!D)return;const names={A:dg.a,B:dg.b};
+    box.innerHTML=`<p class="note" style="margin-top:0">${esc(dg.scene)}</p>
+      <div class="dctrl"><button class="btn sun" id="dPlay">${D.mode==="play"?"❚❚ Detener":"▶ Escuchar la conversación"}</button>
+        <button class="chip" id="dEs" aria-pressed="${D.showEs}">Traducción</button>
+        <button class="chip" id="dRoleA" aria-pressed="${D.mode==="role"&&D.role==="A"}">Practicar como ${esc(dg.a)}</button>
+        <button class="chip" id="dRoleB" aria-pressed="${D.mode==="role"&&D.role==="B"}">Practicar como ${esc(dg.b)}</button></div>
+      <div class="dlines">${dg.lines.map(([w,en,es],j)=>`<div class="dline ${w==="A"?"a":"b"} ${D.i===j?"now":""}" data-j="${j}">
+        <span class="dwho">${esc(names[w])}</span><div class="bub"><span lang="en">${esc(en)}</span>${D.showEs?`<small>${esc(es)}</small>`:""}
+        ${D.scores[j]!=null?`<em class="sc ${D.scores[j]>=80?"ok":D.scores[j]>=50?"mid":"bad"}">${D.scores[j]} %</em>`:""}</div></div>`).join("")}</div>
+      <div id="dTurn"></div>`;
+    $("dPlay").onclick=()=>D.mode==="play"?(D.mode="read",D.i=-1,speechSynthesis.cancel(),draw()):playAll();
+    $("dEs").onclick=()=>{D.showEs=!D.showEs;draw()};
+    $("dRoleA").onclick=()=>startRole("A");$("dRoleB").onclick=()=>startRole("B");
+    box.querySelectorAll(".dline").forEach(el=>el.onclick=()=>{if(D.mode!=="read")return;const j=+el.dataset.j;sayLine(dg.lines[j][1],dg.lines[j][0])});
+    if(D.mode==="role")turnUI();
+  };
+  const playAll=()=>{D.mode="play";D.i=0;draw();const step=()=>{if(!D||D.stop||D.mode!=="play")return;if(D.i>=dg.lines.length){D.mode="read";D.i=-1;draw();return}
+    draw();const l=dg.lines[D.i];sayLine(l[1],l[0],()=>{if(!D||D.mode!=="play")return;D.i++;setTimeout(step,250)})};step()};
+  const startRole=r=>{D.mode="role";D.role=r;D.i=0;D.scores={};draw();advance()};
+  const advance=()=>{if(!D||D.stop||D.mode!=="role")return;
+    if(D.i>=dg.lines.length){const mine=Object.values(D.scores),avg=mine.length?Math.round(mine.reduce((a,b)=>a+b,0)/mine.length):0;D.mode="read";D.i=-1;draw();
+      $("dTurn").innerHTML=`<div class="rscore"><b class="big2">${avg} %</b> de tus líneas bien dichas. ${avg>=80?"¡Muy bien!":"Escucha la conversación otra vez y repite tus líneas."}</div>`;return}
+    draw();const l=dg.lines[D.i];
+    if(l[0]!==D.role)sayLine(l[1],l[0],()=>{if(!D||D.mode!=="role")return;D.i++;setTimeout(advance,300)});
+  };
+  const turnUI=()=>{const l=dg.lines[D.i];if(!l||l[0]!==D.role){$("dTurn").innerHTML="";return}
+    $("dTurn").innerHTML=`<div class="turn"><b>Tu turno:</b> <span lang="en">${esc(l[1])}</span>
+      <div class="btns" style="margin-top:10px"><button class="rec" id="dRec"><span class="dot"></span><span id="dRecL">Grabar mi línea</span></button><button class="vplay" id="dHear" style="width:auto;height:auto;border-radius:999px;padding:8px 14px;font-weight:800;gap:6px;display:inline-flex">${ICON_SPK}<span>Escucharla</span></button><button class="linkbtn" id="dSkip">Saltar</button></div><div class="note" id="dHeard"></div></div>`;
+    $("dHear").onclick=()=>sayLine(l[1],D.role);
+    $("dSkip").onclick=()=>{D.scores[D.i]=0;D.i++;advance()};
+    $("dRec").onclick=()=>{const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+      if(!SR){$("dHeard").textContent="Este navegador no reconoce voz. Usa Google Chrome.";return}
+      if(D.rec){try{D.rec.stop()}catch(e){}return}
+      const rec=new SR();D.rec=rec;rec.lang="en-US";rec.interimResults=true;let fin="";
+      rec.onresult=e=>{let t="";for(let x=0;x<e.results.length;x++)t+=e.results[x][0].transcript+" ";fin=t;$("dHeard").textContent="Escuché: "+t};
+      rec.onerror=e=>{if(e.error==="not-allowed")$("dHeard").textContent="El micrófono está bloqueado. Permítelo en el candado de la barra de direcciones."};
+      rec.onend=()=>{if(!D)return;D.rec=null;if(!fin.trim()){$("dRecL")&&($("dRecL").textContent="Grabar otra vez");return}
+        D.scores[D.i]=Math.round(wordAcc(l[1],fin)*100);D.i++;advance()};
+      try{rec.start();$("dRec").classList.add("on");$("dRecL").textContent="Detener"}catch(e){D.rec=null}};
+  };
+  draw();
 }
 function unitQuiz(L,u){const sy=SYL(L),key=uqKey(L,u),nxt=nextStepAfter(L,key),un=sy.units[u];
   /* mismo formato en cada intento (escritura, redacción, escucha, habla) pero con preguntas distintas del banco de la unidad */
