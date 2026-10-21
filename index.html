@@ -173,6 +173,34 @@ footer b{color:#fff}
 .review .rx{color:var(--mute)}
 .tagline{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--soft);color:var(--mute);margin-right:6px}
 
+/* vocabulario */
+.vz{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 12px;border-radius:6px;border:1px dashed var(--line);flex-wrap:wrap}
+.vz .qstat b{color:var(--ink)}
+.btn-v{all:unset;cursor:pointer;font-family:var(--f-display);font-weight:800;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:8px 14px;border-radius:4px;border:2px solid var(--ink);color:var(--ink)}
+.btn-v:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.vhead{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin:18px 0}
+.vsearch{flex:1 1 220px;padding:12px 14px;border:2px solid var(--line);border-radius:8px;background:var(--bg);font-size:15px}
+.vsearch:focus{border-color:var(--sun);outline:none}
+.vgroup{margin-top:28px}
+.vgroup h3{font-size:20px;margin-bottom:4px}
+.vgroup h4{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:18px 0 10px;font-family:var(--f-display)}
+.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.vw{border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,background .2s}
+.vw.on{border-color:var(--ok);background:rgba(45,212,160,.08)}
+.vw .vt{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.vw .vt b{font-family:var(--f-display);font-size:18px;line-height:1.25}
+.vplay{all:unset;cursor:pointer;flex:none;width:32px;height:32px;border-radius:50%;background:var(--sun);display:grid;place-items:center}
+.vplay svg{width:14px;height:14px}
+.vplay:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.vw .vm{font-weight:700;color:var(--coral)}
+.vw .ve{margin:0;font-size:14px;color:var(--mute);font-style:italic}
+.vchk{display:flex;gap:8px;align-items:center;font-size:13px;font-weight:700;cursor:pointer;margin-top:auto;padding-top:6px}
+.vchk input{width:18px;height:18px;accent-color:var(--ok)}
+.flash{border-radius:12px;background:var(--soft);padding:clamp(24px,5vw,48px);text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}
+.flash .fw{font-family:var(--f-display);font-weight:800;font-size:clamp(34px,6vw,56px);line-height:1.1}
+.flash .fm{font-size:22px;font-weight:700;color:var(--coral)}
+.flash .fe{font-style:italic;color:var(--mute);margin:0}
+
 /* examen: presentación */
 .skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 @media (max-width:760px){.skills{grid-template-columns:1fr}}
@@ -422,6 +450,7 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
+<script src="vocab.js"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -513,9 +542,11 @@ const cardsEl=$("cards");
 const cards=LV.map((l,i)=>{
   const c=document.createElement("article");c.className="card";
   c.innerHTML=`<div class="pic"></div><div class="body"><h3>${l.name}</h3><p>${l.can}</p>
+    <div class="vz"><span class="qstat vstat"></span><button class="btn-v">Vocabulario</button></div>
     <div class="qz"><span class="qstat"></span><button class="btn-q">Hacer quiz</button></div>
     <div class="foot"><span class="hrs"></span><button class="pick">Fijar meta →</button></div></div>`;
   c.querySelector(".btn-q").onclick=()=>openQuiz(i);
+  c.querySelector(".btn-v").onclick=()=>openVocab(i);
   c.querySelector(".pick").onclick=()=>{S.target=i;render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})};
   cardsEl.appendChild(c);return c;
 });
@@ -547,7 +578,9 @@ function render(){
   $("fromLbl").textContent=from;$("sFrom").textContent="Partiendo "+from;$("fromReset").hidden=!S.startPts;
   cards.forEach((c,i)=>{const seg=hrs(LV[i])-(i?hrs(LV[i-1]):0);
     c.querySelector(".hrs").innerHTML=`${hrs(LV[i])} h <small>(+${seg})</small>`;
-    const st=curStudent(),q=st&&st.quiz&&st.quiz[i],un=unlocked(i),qb=c.querySelector(".btn-q"),qs=c.querySelector(".qstat");
+    const vt=vocabOf(i).length,vl=learnedSet(i).size;
+    c.querySelector(".vstat").innerHTML=`Vocabulario · <b>${vl}</b>/${vt} aprendidas`;
+    const st=curStudent(),q=st&&st.quiz&&st.quiz[i],un=unlocked(i),qb=c.querySelector(".btn-q"),qs=c.querySelector(".qz .qstat");
     qb.disabled=!un;qb.textContent=q&&q.passed?"Repetir quiz":q?"Reintentar":"Hacer quiz";
     qs.className="qstat"+(q&&q.passed?" ok":"");
     qs.innerHTML=q&&q.passed?`${ICON_OK} Aprobado · ${q.best} %`:!un?`${ICON_LOCK} Aprueba ${LV[i-1].k} para abrir`:q?`Último: ${q.last} % · necesitas 70 %`:"Quiz disponible";
@@ -737,7 +770,7 @@ $("resBody").addEventListener("click",e=>{const b=e.target.closest("button");if(
   if(b.dataset.plan){S.startPts=+b.dataset.plan;S.target=Math.max(S.target,Math.min(5,lvOf(S.startPts).i+1));render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})}
   if(b.dataset.ask){pendingDel=b.dataset.ask;renderResults()}
   if("cancel" in b.dataset){pendingDel=null;renderResults()}
-  if(b.dataset.del){const [id,ri]=b.dataset.del.split("|"),db=loadDB(),st=db.find(s=>s.id===id);if(st){st.results.splice(+ri,1)}saveDB(db.filter(s=>s.results.length||Object.keys(s.quiz||{}).length));pendingDel=null;renderResults()}
+  if(b.dataset.del){const [id,ri]=b.dataset.del.split("|"),db=loadDB(),st=db.find(s=>s.id===id);if(st){st.results.splice(+ri,1)}saveDB(db.filter(s=>s.results.length||Object.keys(s.quiz||{}).length||Object.keys(s.vocab||{}).length));pendingDel=null;renderResults()}
 });
 
 /* ================= flujo del examen ================= */
@@ -747,7 +780,7 @@ const exam=$("exam"),body=$("exBody");
 function newExam(){X={step:0,name:"",email:"",idx:0,sel:null,plays:0,ans:{listen:[],written:[]},essay:"",sp:[],spSkip:false,spErr:null,result:null}}
 document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||""}
   OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender()}});
-function closeExam(){OV=null;stopRec();try{speechSynthesis.cancel()}catch(e){}exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
+function closeExam(){OV=null;body.style.maxWidth="";stopRec();try{speechSynthesis.cancel()}catch(e){}exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
 function renderCloseBtn(confirm){$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
   if(confirm){$("exYes").onclick=closeExam;$("exNo").onclick=()=>renderCloseBtn(false)}else $("exClose").onclick=()=>needConfirm()?renderCloseBtn(true):closeExam()}
 let OV=null;
@@ -1055,6 +1088,73 @@ function qResult(){
   $("qAgain").onclick=()=>openQuiz(Q.L);
   if($("qNextLv"))$("qNextLv").onclick=()=>openQuiz(Q.L+1);
   if($("qBack"))$("qBack").onclick=()=>{closeExam();$("niveles").scrollIntoView({behavior:reduce?"auto":"smooth"})};
+}
+
+/* ================= vocabulario por nivel ================= */
+const VCACHE={};
+function vocabOf(L){if(VCACHE[L])return VCACHE[L];const src=(window.VOCAB||[])[L]||{};
+  return VCACHE[L]=Object.entries(src).flatMap(([cat,txt])=>txt.trim().split("\n").map(l=>{const [w,m,e,t]=l.split("|").map(s=>(s||"").trim());return{cat,w,m,e,t}}))}
+function learnedSet(L){const st=curStudent();return new Set((st&&st.vocab&&st.vocab[L])||[])}
+function setLearned(L,w,on){const db=loadDB(),st=db.find(s=>s.id===S.student);if(!st)return;st.vocab=st.vocab||{};
+  const s=new Set(st.vocab[L]||[]);on?s.add(w):s.delete(w);st.vocab[L]=[...s];saveDB(db)}
+const ICON_SPK=`<svg viewBox="0 0 24 24" fill="#1A2238"><path d="M3 9v6h4l5 5V4L7 9z"/><path d="M16 8.5a5 5 0 0 1 0 7" stroke="#1A2238" stroke-width="2" fill="none"/></svg>`;
+let V=null;
+function openVocab(L){OV="vocab";V={L,cat:"Todas",q:"",mode:"list",deck:[],k:0,show:false,known:0};
+  exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
+  if(!curStudent())whoView(vRender);else vRender()}
+function vRender(){
+  const L=LV[V.L],words=vocabOf(V.L);
+  $("exSteps").innerHTML=`<span class="on">Vocabulario ${L.k}</span><span>${L.name}</span>`;
+  exam.scrollTop=0;
+  if(V.mode==="cards")return vCards();
+  const cats=["Todas",...new Set(words.map(w=>w.cat))];
+  body.style.maxWidth="1100px";
+  body.innerHTML=`<h2>Vocabulario ${L.k} · ${L.name}</h2>
+    <p class="lead">${words.length} palabras y expresiones esenciales de este nivel. Toca el parlante para oír la palabra y el ejemplo, y marca las que ya te sabes.</p>
+    <div class="sbar"><div class="shead"><span>Tu avance</span><span id="vProg"></span></div><div class="tr"><i id="vBar" style="background:var(--ok)"></i></div></div>
+    <div class="vhead"><div class="chips" id="vCats">${cats.map(c=>`<button class="chip" data-c="${esc(c)}" aria-pressed="${c===V.cat}">${esc(c)}</button>`).join("")}</div></div>
+    <div class="vhead"><input class="vsearch" id="vQ" type="search" placeholder="Buscar en inglés o en español…" value="${esc(V.q)}" aria-label="Buscar palabra"><button class="btn sun" id="vPractice">Practicar con tarjetas</button></div>
+    <div id="vList"></div>`;
+  $("vCats").onclick=e=>{const b=e.target.closest(".chip");if(!b)return;V.cat=b.dataset.c;$("vCats").querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===b));vList()};
+  $("vQ").oninput=e=>{V.q=e.target.value.toLowerCase().trim();vList()};
+  $("vPractice").onclick=()=>{const learned=learnedSet(V.L),pool=vShown();let deck=pool.filter(w=>!learned.has(w.w));if(!deck.length)deck=pool.slice();
+    V.deck=deck.sort(()=>Math.random()-.5).slice(0,20);V.k=0;V.show=false;V.known=0;V.mode="cards";vRender()};
+  vList();
+}
+/* al buscar se busca en todas las categorías */
+function vShown(){return vocabOf(V.L).filter(w=>V.q?(w.w+" "+w.m).toLowerCase().includes(V.q):(V.cat==="Todas"||w.cat===V.cat))}
+function vProgress(){const t=vocabOf(V.L).length,n=learnedSet(V.L).size;$("vProg").textContent=`${n} de ${t} aprendidas`;$("vBar").style.width=(n/t*100)+"%"}
+function vList(){
+  const learned=learnedSet(V.L),shown=vShown(),box=$("vList");vProgress();
+  if(!shown.length){box.innerHTML=`<p class="empty">No hay palabras que coincidan con “${esc(V.q)}”.</p>`;return}
+  const card=w=>`<article class="vw ${learned.has(w.w)?"on":""}"><div class="vt"><b lang="en">${esc(w.w)}</b><button class="vplay" data-say="${esc(w.w+". "+w.e)}" aria-label="Escuchar ${esc(w.w)}">${ICON_SPK}</button></div>
+    <div class="vm">${esc(w.m)}</div><p class="ve" lang="en">${esc(w.e)}</p>
+    <label class="vchk"><input type="checkbox" data-w="${esc(w.w)}" ${learned.has(w.w)?"checked":""}> La aprendí</label></article>`;
+  const cats=[...new Set(shown.map(w=>w.cat))];
+  box.innerHTML=cats.map(c=>{const ws=shown.filter(w=>w.cat===c),temas=[...new Set(ws.map(w=>w.t))];
+    return `<section class="vgroup"><h3>${esc(c)} <small style="color:var(--mute);font-weight:600;font-size:14px">(${ws.length})</small></h3>
+      ${temas.map(t=>`${t?`<h4>${esc(t)}</h4>`:""}<div class="vgrid">${ws.filter(w=>w.t===t).map(card).join("")}</div>`).join("")}</section>`}).join("");
+  box.querySelectorAll(".vplay").forEach(b=>b.onclick=()=>speakTTS(b.dataset.say));
+  box.querySelectorAll(".vchk input").forEach(i=>i.onchange=()=>{setLearned(V.L,i.dataset.w,i.checked);i.closest(".vw").classList.toggle("on",i.checked);vProgress();render()});
+}
+function vCards(){
+  const total=V.deck.length;
+  if(V.k>=total){body.innerHTML=`<div class="flash"><div class="fw">¡Listo!</div><p class="fm">Sabías ${V.known} de ${total} palabras.</p><p class="fe">Las que marcaste como sabidas quedaron como aprendidas.</p>
+    <div class="btns"><button class="btn dark" id="vAgain">Otra ronda</button><button class="btn sun" id="vBackList">Volver a la lista</button></div></div>`;
+    $("vAgain").onclick=()=>{V.mode="list";vRender();$("vPractice").click()};$("vBackList").onclick=()=>{V.mode="list";vRender()};return}
+  const w=V.deck[V.k];
+  body.innerHTML=`<div class="progress"><i style="width:${V.k/total*100}%"></i></div>
+    <div class="qmeta"><span>${esc(w.cat)}${w.t?" · "+esc(w.t):""}</span><span>Tarjeta ${V.k+1} de ${total}</span></div>
+    <div class="flash"><div class="fw" lang="en">${esc(w.w)}</div>
+      <button class="vplay" id="fPlay" style="width:46px;height:46px" aria-label="Escuchar">${ICON_SPK}</button>
+      ${V.show?`<div class="fm">${esc(w.m)}</div><p class="fe" lang="en">${esc(w.e)}</p>`:`<p class="fe">¿Qué significa? Piénsalo y luego revisa.</p>`}
+      <div class="btns">${V.show?`<button class="btn dark" id="fNo">No la sabía</button><button class="btn sun" id="fYes">La sabía</button>`:`<button class="btn sun" id="fShow">Ver significado</button>`}</div></div>
+    <div class="ex-actions"><button class="linkbtn" id="fExit">Volver a la lista</button><span></span></div>`;
+  $("fPlay").onclick=()=>speakTTS(w.w+". "+(V.show?w.e:""));
+  $("fExit").onclick=()=>{V.mode="list";vRender()};
+  if($("fShow"))$("fShow").onclick=()=>{V.show=true;vCards();$("fYes").focus()};
+  if($("fYes"))$("fYes").onclick=()=>{setLearned(V.L,w.w,true);V.known++;V.k++;V.show=false;render();vCards()};
+  if($("fNo"))$("fNo").onclick=()=>{V.k++;V.show=false;vCards()};
 }
 
 renderWho();
