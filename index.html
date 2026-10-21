@@ -1638,6 +1638,7 @@ function dialogView(dg){
   const box=$("dlg");
   const draw=()=>{if(!D)return;const names={A:dg.a,B:dg.b};
     box.innerHTML=`<p class="note" style="margin-top:0">${esc(dg.scene)}</p>
+      ${D.mode==="role"?`<div class="tipbox"><b>Modo práctica: tú eres ${esc(names[D.role])}.</b> La app dice las líneas de ${esc(names[D.role==="A"?"B":"A"])}. Cuando sea tu turno, aparece tu línea con el botón <b>Grabar</b>: dila en voz alta y verás tu porcentaje.</div>`:""}
       <div class="dctrl"><button class="btn sun" id="dPlay">${D.mode==="play"?"❚❚ Detener":"▶ Escuchar la conversación"}</button>
         <button class="chip" id="dEs" aria-pressed="${D.showEs}">Traducción</button>
         <button class="chip" id="dRoleA" aria-pressed="${D.mode==="role"&&D.role==="A"}">Practicar como ${esc(dg.a)}</button>
@@ -1653,15 +1654,18 @@ function dialogView(dg){
     if(D.mode==="role")turnUI();
   };
   const playAll=()=>{D.mode="play";D.i=0;draw();const step=()=>{if(!D||D.stop||D.mode!=="play")return;if(D.i>=dg.lines.length){D.mode="read";D.i=-1;draw();return}
-    draw();const l=dg.lines[D.i];sayLine(l[1],l[0],()=>{if(!D||D.mode!=="play")return;D.i++;setTimeout(step,250)})};step()};
+    draw();const cl=box.querySelector(".dline.now");if(cl){const r=cl.getBoundingClientRect();if(r.bottom>innerHeight-40||r.top<80)cl.scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"})}
+    const l=dg.lines[D.i];sayLine(l[1],l[0],()=>{if(!D||D.mode!=="play")return;D.i++;setTimeout(step,250)})};step()};
   const startRole=r=>{D.mode="role";D.role=r;D.i=0;D.scores={};draw();advance()};
   const advance=()=>{if(!D||D.stop||D.mode!=="role")return;
     if(D.i>=dg.lines.length){const mine=Object.values(D.scores),avg=mine.length?Math.round(mine.reduce((a,b)=>a+b,0)/mine.length):0;D.mode="read";D.i=-1;draw();
       $("dTurn").innerHTML=`<div class="rscore"><b class="big2">${avg} %</b> de tus líneas bien dichas. ${avg>=80?"¡Muy bien!":"Escucha la conversación otra vez y repite tus líneas."}</div>`;return}
     draw();const l=dg.lines[D.i];
+    if(l[0]!==D.role){const cl=box.querySelector(".dline.now");if(cl){const r=cl.getBoundingClientRect();if(r.bottom>innerHeight-40||r.top<80)cl.scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"})}}
     if(l[0]!==D.role)sayLine(l[1],l[0],()=>{if(!D||D.mode!=="role")return;D.i++;setTimeout(advance,300)});
   };
   const turnUI=()=>{const l=dg.lines[D.i];if(!l||l[0]!==D.role){$("dTurn").innerHTML="";return}
+    const cur=box.querySelector(`.dline[data-j="${D.i}"]`);if(cur)cur.insertAdjacentElement("afterend",$("dTurn"));
     $("dTurn").innerHTML=`<div class="turn"><b>Tu turno:</b> <span lang="en">${esc(l[1])}</span>
       <div class="btns" style="margin-top:10px"><button class="rec" id="dRec"><span class="dot"></span><span id="dRecL">Grabar mi línea</span></button><button class="vplay" id="dHear" style="width:auto;height:auto;border-radius:999px;padding:8px 14px;font-weight:800;gap:6px;display:inline-flex">${ICON_SPK}<span>Escucharla</span></button><button class="linkbtn" id="dSkip">Saltar</button></div><div class="note" id="dHeard"></div></div>`;
     $("dHear").onclick=()=>sayLine(l[1],D.role);
@@ -1675,6 +1679,7 @@ function dialogView(dg){
       rec.onend=()=>{if(!D)return;D.rec=null;if(!fin.trim()){$("dRecL")&&($("dRecL").textContent="Grabar otra vez");return}
         D.scores[D.i]=Math.round(wordAcc(l[1],fin)*100);D.i++;advance()};
       try{rec.start();$("dRec").classList.add("on");$("dRecL").textContent="Detener"}catch(e){D.rec=null}};
+    $("dTurn").scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"});
   };
   draw();
 }
