@@ -577,4 +577,178 @@ bear | - | verbo | tener, guardar (bear resemblance = parecerse) | It bears no r
 little | - | determinante | poco | Little time left.
 resemblance | - | sustantivo | parecido, semejanza | A strong resemblance.
 past | - | sustantivo | pasado | In the past.
+daniela | - | nombre propio | Daniela (nombre de mujer) | Daniela is a nurse.
+gómez | - | nombre propio | Gómez (apellido) | Mrs. Gómez is my neighbour.
+forty-two | - | número | cuarenta y dos | She is forty-two.
+colombia | - | nombre propio | Colombia | I'm from Colombia.
+bogotá | - | nombre propio | Bogotá (capital de Colombia) | Bogotá is a big city.
+capital | - | adjetivo / sustantivo | capital | Lima is the capital of Peru.
+nurse | - | sustantivo | enfermero, enfermera | My sister is a nurse.
+hospital | - | sustantivo | hospital | He works in a hospital.
+andrés | - | nombre propio | Andrés (nombre de hombre) | Andrés is an engineer.
+forty-five | - | número | cuarenta y cinco | It costs forty-five dollars.
+engineer | - | sustantivo | ingeniero, ingeniera | My brother is an engineer.
+today | - | adverbio | hoy | Today is Monday.
+class | - | sustantivo | clase | My English class is at six.
+her | - | determinante posesivo / pronombre | su (de ella); la, a ella | Her name is Emily.
+emily | - | nombre propio | Emily (nombre de mujer) | Emily is from Canada.
+she | - | pronombre | ella | She is my teacher.
+twelve | - | número | doce | There are twelve months in a year.
+sofía | - | nombre propio | Sofía (nombre de mujer) | Sofía is twenty-three.
+cali | - | nombre propio | Cali (ciudad de Colombia) | Cali is hot.
+twenty-three | - | número | veintitrés | I'm twenty-three years old.
+mario | - | nombre propio | Mario (nombre de hombre) | Mario is from Medellín.
+sixty | - | número | sesenta | My father is sixty.
+happy | - | adjetivo | feliz, contento | I'm very happy today.
+student | - | sustantivo | estudiante | I'm an English student.
+asks | ask | verbo (3.ª persona) | pregunta | She asks a question.
+say | - | verbo | decir | What do you say?
+i'm | i am | contracción (I + am) | yo soy, yo estoy | I'm from Colombia.
+says | say | verbo (3.ª persona) | dice | He says hello.
+meet | - | verbo | conocer (a alguien), encontrarse | Nice to meet you.
+school | - | sustantivo | escuela, colegio | My kids go to school by bus.
+tall | - | adjetivo | alto | My brother is very tall.
+black | - | adjetivo | negro | He has black hair.
+hair | - | sustantivo | pelo, cabello | She has long hair.
+tomás | - | nombre propio | Tomás (nombre de hombre) | Tomás loves football.
+loves | love | verbo (3.ª persona) | ama, le encanta | She loves music.
+football | - | sustantivo | fútbol | We play football on Saturdays.
+valentina | - | nombre propio | Valentina (nombre de mujer) | Valentina is seven.
+likes | like | verbo (3.ª persona) | le gusta | He likes pizza.
+dancing | dance | sustantivo / verbo (-ing) | bailar, el baile | I love dancing.
+dog | - | sustantivo | perro | We have a small dog.
+his | - | determinante posesivo | su (de él) | His name is Max.
+max | - | nombre propio | Max (nombre) | Max is our dog.
+bedrooms | bedroom | sustantivo (plural) | habitaciones, alcobas | The house has three bedrooms.
+kitchen | - | sustantivo | cocina | Mom is in the kitchen.
+garden | - | sustantivo | jardín | We have a nice garden.
+same | - | adjetivo | mismo | We live in the same city.
+mother | - | sustantivo | mamá, madre | My mother is a teacher.
+sixty-five | - | número | sesenta y cinco | My mother is sixty-five.
+father | - | sustantivo | papá, padre | My father works in a bank.
+sixty-eight | - | número | sesenta y ocho | He is sixty-eight.
+together | - | adverbio | juntos | We have lunch together.
+cooks | cook | verbo (3.ª persona) | cocina | My mother cooks very well.
+beans | bean | sustantivo (plural) | fríjoles | Rice and beans.
+tells | tell | verbo (3.ª persona) | cuenta, dice | He tells funny stories.
+funny | - | adjetivo | chistoso, divertido | My dad is very funny.
+stories | story | sustantivo (plural) | historias, cuentos | I love his stories.
+ana | - | nombre propio | Ana (nombre de mujer) | Ana lives in Spain.
+spain | - | nombre propio | España | Madrid is in Spain.
+talk | - | verbo | hablar, conversar | We talk every day.
+phone | - | sustantivo | teléfono, celular | Where is my phone?
+dressed | dress | adjetivo / participio | vestido (get dressed = vestirse) | I get dressed after my shower.
+prefers | prefer | verbo (3.ª persona) | prefiere | She prefers tea.
+fruit | - | sustantivo | fruta | I eat fruit every day.
+tea | - | sustantivo | té | A cup of tea, please.
+always | - | adverbio | siempre | I always walk to work.
+full | - | adjetivo | lleno | The bus is full.
+center | - | sustantivo | centro (en Reino Unido: centre) | The city center is busy.
+answer | - | verbo | responder, contestar | Answer the phone, please.
+emails | email | sustantivo (plural) | correos electrónicos | I answer emails every morning.
+meetings | meeting | sustantivo (plural) | reuniones | I have two meetings today.
+doesn't | does not | contracción (does + not) | no (con he, she, it) | She doesn't like coffee.
+like | - | verbo | gustar | I like music.
+cooking | cook | sustantivo / verbo (-ing) | cocinar | I love cooking.
+washes | wash | verbo (3.ª persona) | lava | He washes the car.
+dishes | dish | sustantivo (plural) | platos (wash the dishes = lavar la loza) | I wash the dishes after dinner.
+or | - | conjunción | o | Tea or coffee?
+mondays | monday | sustantivo (plural) | los lunes | I go to the gym on Mondays.
+wednesdays | wednesday | sustantivo (plural) | los miércoles | We have class on Wednesdays.
+gym | - | sustantivo | gimnasio | I go to the gym after work.
+late | - | adverbio / adjetivo | tarde | Sorry, I'm late.
+early | - | adverbio | temprano | I get up early.
+friday | - | sustantivo | viernes | See you on Friday.
+pedro | - | nombre propio | Pedro (nombre de hombre) | Pedro likes pizza.
+marta | - | nombre propio | Marta (nombre de mujer) | Marta loves pasta.
+italian | - | adjetivo | italiano | Italian food is delicious.
+good | - | adjetivo | bueno | Good morning!
+here | - | adverbio | aquí (here is = aquí está) | Here is the menu.
+menu | - | sustantivo | carta, menú | Can I see the menu?
+looks | look | verbo (3.ª persona) | mira (look at = mirar) | He looks at the menu.
+pizzas | pizza | sustantivo (plural) | pizzas | They sell pizzas.
+pasta | - | sustantivo | pasta | I love pasta.
+salads | salad | sustantivo (plural) | ensaladas | Fresh salads.
+fish | - | sustantivo | pescado, pez | I don't eat fish.
+i'd | i would | contracción (I + would) | yo quisiera (I'd like) | I'd like a coffee, please.
+pizza | - | sustantivo | pizza | A pizza with cheese.
+mushrooms | mushroom | sustantivo (plural) | champiñones | Pizza with mushrooms.
+please | - | adverbio | por favor | A coffee, please.
+tomato | - | sustantivo | tomate | Tomato soup.
+sauce | - | sustantivo | salsa | Tomato sauce.
+glasses | glass | sustantivo (plural) | vasos; gafas | Two glasses of water.
+orange | - | sustantivo / adjetivo | naranja | Orange juice.
+juice | - | sustantivo | jugo | A glass of juice.
+food | - | sustantivo | comida | The food is great.
+dessert | - | sustantivo | postre | What's for dessert?
+wants | want | verbo (3.ª persona) | quiere | She wants a new phone.
+isn't | is not | contracción (is + not) | no es, no está; no hay (there isn't) | It isn't cold.
+any | - | determinante | ningún, nada de (en negativas); algo de (en preguntas) | There isn't any milk.
+ice | - | sustantivo | hielo (ice cream = helado) | Water with ice.
+cream | - | sustantivo | crema (ice cream = helado) | Chocolate ice cream.
+brings | bring | verbo (3.ª persona) | trae | The waiter brings the food.
+dollars | dollar | sustantivo (plural) | dólares | It costs ten dollars.
+that's | that is | contracción (that + is) | eso es | That's great!
+pay | - | verbo | pagar | Can I pay by card?
+neighbourhood | - | sustantivo | barrio | My neighbourhood is quiet.
+north | - | sustantivo | norte | The north of the city.
+apartment | - | sustantivo | apartamento | I live in an apartment.
+fifth | - | número ordinal | quinto | The fifth floor.
+floor | - | sustantivo | piso | My office is on the third floor.
+building | - | sustantivo | edificio | A tall building.
+living | - | adjetivo | (living room = sala) | The living room is big.
+room | - | sustantivo | habitación, cuarto (living room = sala) | My room is small.
+bathroom | - | sustantivo | baño | Where is the bathroom?
+window | - | sustantivo | ventana | Open the window.
+see | - | verbo | ver | I can see the sea.
+places | place | sustantivo (plural) | lugares | Nice places to visit.
+supermarket | - | sustantivo | supermercado | I go to the supermarket on Saturdays.
+corner | - | sustantivo | esquina | The bank is on the corner.
+bakery | - | sustantivo | panadería | I buy bread at the bakery.
+trees | tree | sustantivo (plural) | árboles | The park has big trees.
+playground | - | sustantivo | parque infantil | The children are at the playground.
+play | - | verbo | jugar | Children play in the park.
+afternoon | - | sustantivo | tarde | Good afternoon!
+bank | - | sustantivo | banco | The bank opens at nine.
+pharmacy | - | sustantivo | droguería, farmacia | Is there a pharmacy near here?
+restaurants | restaurant | sustantivo (plural) | restaurantes | There are two restaurants.
+street | - | sustantivo | calle | I live on this street.
+church | - | sustantivo | iglesia | The church is very old.
+library | - | sustantivo | biblioteca | I study at the library.
+it's | it is | contracción (it + is) | es, está | It's easy.
+easy | - | adjetivo | fácil | This exercise is easy.
+square | - | sustantivo | plaza | The main square.
+straight | - | adverbio | derecho, recto (go straight = siga derecho) | Go straight for two blocks.
+blocks | block | sustantivo (plural) | cuadras | Walk two blocks.
+turn | - | verbo | girar, voltear | Turn left at the corner.
+right | - | sustantivo / adverbio | derecha; (right now = ahora mismo) | It's on the right.
+raining | rain | verbo (-ing) | lloviendo | It's raining.
+sitting | sit | verbo (-ing) | sentado, sentándose | I'm sitting on the sofa.
+sofa | - | sustantivo | sofá | The cat is on the sofa.
+writing | write | verbo (-ing) | escribiendo | I'm writing an email.
+notebook | - | sustantivo | cuaderno | Write it in your notebook.
+radio | - | sustantivo | radio | He listens to the radio.
+playing | play | verbo (-ing) | jugando | The kids are playing.
+video | - | sustantivo / adjetivo | video (video games = videojuegos) | A funny video.
+games | game | sustantivo (plural) | juegos | Video games.
+reading | read | verbo (-ing) | leyendo; leer | She's reading a book.
+sleeping | sleep | verbo (-ing) | durmiendo | The baby is sleeping.
+under | - | preposición | debajo de | The dog is under the table.
+table | - | sustantivo | mesa | The keys are on the table.
+weekend | - | sustantivo | fin de semana | Have a nice weekend!
+beach | - | sustantivo | playa | We went to the beach.
+santa | - | nombre propio | (Santa Marta, ciudad de Colombia) | Santa Marta has beautiful beaches.
+water | - | sustantivo | agua | The water is cold.
+warm | - | adjetivo | tibio, cálido | The water is warm.
+swimming | swim | sustantivo / verbo (-ing) | nadar, natación | I love swimming.
+walking | walk | sustantivo / verbo (-ing) | caminar | Walking is good for you.
+days | day | sustantivo (plural) | días | Two days ago.
+wasn't | was not | contracción (was + not) | no era, no estaba | It wasn't expensive.
+month | - | sustantivo | mes | Next month.
+birthday | - | sustantivo | cumpleaños | Happy birthday!
+twentieth | - | número ordinal | vigésimo (para fechas: el 20) | July twentieth.
+july | - | sustantivo | julio | My birthday is in July.
+again | - | adverbio | otra vez, de nuevo | Say it again, please.
+free | - | adjetivo | libre; gratis | In my free time I read.
+movies | movie | sustantivo (plural) | películas | We watch movies on Fridays.
 `;

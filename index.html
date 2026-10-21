@@ -275,6 +275,20 @@ footer b{color:#fff}
 @media (max-width:560px){.exrow{grid-template-columns:32px minmax(0,1fr)}.exrow span:nth-child(3){grid-column:2}}
 .tipbox{background:rgba(255,184,0,.14);border-left:5px solid var(--sun);border-radius:6px;padding:12px 16px;margin:12px 0}
 
+.vlayout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px;align-items:start}
+.vindex{position:sticky;top:72px;max-height:calc(100vh - 100px);overflow:auto;border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--bg)}
+.vi-h{display:block;font-family:var(--f-display);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin-bottom:10px}
+.vi-list{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px}
+.vi-list ul{list-style:none;padding:4px 0 0 4px;margin:0;display:flex;flex-direction:column;gap:3px}
+.vindex a{color:var(--ink);text-decoration:none;font-weight:700;font-size:14px;display:flex;justify-content:space-between;gap:8px}
+.vindex ul a{font-weight:600;color:var(--mute);font-size:13px}
+.vindex a:hover{color:var(--coral)}
+.vindex a small{font-weight:700;color:var(--mute);font-size:12px}
+.vi-letters{display:flex;flex-wrap:wrap;gap:6px}
+.vi-letters a{width:32px;height:32px;border-radius:6px;background:var(--soft);justify-content:center;align-items:center}
+.vgroup{scroll-margin-top:72px}.vgroup h4{scroll-margin-top:72px}
+@media (max-width:860px){.vlayout{grid-template-columns:minmax(0,1fr)}.vindex{position:static;max-height:none}}
+
 /* examen: presentación */
 .skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 @media (max-width:760px){.skills{grid-template-columns:1fr}}
@@ -524,10 +538,10 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="vocab.js?v=202610211135"></script>
-<script src="readings.js?v=202610211135"></script>
-<script src="dict.js?v=202610211135"></script>
-<script src="lessons.js?v=202610211135"></script>
+<script src="vocab.js?v=202610211139"></script>
+<script src="readings.js?v=202610211139"></script>
+<script src="dict.js?v=202610211139"></script>
+<script src="lessons.js?v=202610211139"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1200,7 +1214,7 @@ function setLearned(L,w,on){const db=loadDB(),st=db.find(s=>s.id===S.student);if
   const s=new Set(st.vocab[L]||[]);on?s.add(w):s.delete(w);st.vocab[L]=[...s];saveDB(db)}
 const ICON_SPK=`<svg viewBox="0 0 24 24" fill="#1A2238"><path d="M3 9v6h4l5 5V4L7 9z"/><path d="M16 8.5a5 5 0 0 1 0 7" stroke="#1A2238" stroke-width="2" fill="none"/></svg>`;
 let V=null;
-function openVocab(L){if(LVBACK!==L)LVBACK=null;OV="vocab";V={L,cat:"Todas",q:"",mode:"list",deck:[],k:0,show:false,known:0};
+function openVocab(L){if(LVBACK!==L)LVBACK=null;OV="vocab";V={L,cat:"Todas",q:"",order:"tema",mode:"list",deck:[],k:0,show:false,known:0};
   exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
   if(!curStudent())whoView(vRender);else vRender()}
 function vRender(){
@@ -1208,33 +1222,44 @@ function vRender(){
   $("exSteps").innerHTML=`<span class="on">Vocabulario ${L.k}</span><span>${L.name}</span>`;addBack();
   exam.scrollTop=0;
   if(V.mode==="cards")return vCards();
-  const cats=["Todas",...new Set(words.map(w=>w.cat))];
-  body.style.maxWidth="1100px";
+  body.style.maxWidth="1180px";
   body.innerHTML=`<h2>Vocabulario ${L.k} · ${L.name}</h2>
-    <p class="lead">${words.length} palabras y expresiones esenciales de este nivel. Toca el parlante para oír la palabra y el ejemplo, y marca las que ya te sabes.</p>
+    <p class="lead">${words.length} palabras y expresiones esenciales de este nivel, organizadas por tipo de palabra y por tema. Usa el índice para ir a cada sección, toca el parlante para oír la palabra y el ejemplo, y marca las que ya te sabes.</p>
     <div class="sbar"><div class="shead"><span>Tu avance</span><span id="vProg"></span></div><div class="tr"><i id="vBar" style="background:var(--ok)"></i></div></div>
-    <div class="vhead"><div class="chips" id="vCats">${cats.map(c=>`<button class="chip" data-c="${esc(c)}" aria-pressed="${c===V.cat}">${esc(c)}</button>`).join("")}</div></div>
-    <div class="vhead"><input class="vsearch" id="vQ" type="search" placeholder="Buscar en inglés o en español…" value="${esc(V.q)}" aria-label="Buscar palabra"><button class="btn sun" id="vPractice">Practicar con tarjetas</button></div>
-    <div id="vList"></div>`;
-  $("vCats").onclick=e=>{const b=e.target.closest(".chip");if(!b)return;V.cat=b.dataset.c;$("vCats").querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===b));vList()};
+    <div class="vhead"><input class="vsearch" id="vQ" type="search" placeholder="Buscar en inglés o en español…" value="${esc(V.q)}" aria-label="Buscar palabra">
+      <div class="chips" id="vOrder"><button class="chip" data-o="tema" aria-pressed="${V.order!=="az"}">Por tema</button><button class="chip" data-o="az" aria-pressed="${V.order==="az"}">De la A a la Z</button></div>
+      <button class="btn sun" id="vPractice">Practicar con tarjetas</button></div>
+    <div class="vlayout"><nav class="vindex" id="vIdx" aria-label="Índice del vocabulario"></nav><div id="vList" style="min-width:0"></div></div>`;
   $("vQ").oninput=e=>{V.q=e.target.value.toLowerCase().trim();vList()};
+  $("vOrder").onclick=e=>{const b=e.target.closest(".chip");if(!b)return;V.order=b.dataset.o;$("vOrder").querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===b));vList()};
   $("vPractice").onclick=()=>{const learned=learnedSet(V.L),pool=vShown();let deck=pool.filter(w=>!learned.has(w.w));if(!deck.length)deck=pool.slice();
     V.deck=deck.sort(()=>Math.random()-.5).slice(0,20);V.k=0;V.show=false;V.known=0;V.mode="cards";vRender()};
   vList();
 }
-/* al buscar se busca en todas las categorías */
-function vShown(){return vocabOf(V.L).filter(w=>V.q?(w.w+" "+w.m).toLowerCase().includes(V.q):(V.cat==="Todas"||w.cat===V.cat))}
+function vShown(){return vocabOf(V.L).filter(w=>!V.q||(w.w+" "+w.m).toLowerCase().includes(V.q))}
 function vProgress(){const t=vocabOf(V.L).length,n=learnedSet(V.L).size;$("vProg").textContent=`${n} de ${t} aprendidas`;$("vBar").style.width=(n/t*100)+"%"}
 function vList(){
-  const learned=learnedSet(V.L),shown=vShown(),box=$("vList");vProgress();
-  if(!shown.length){box.innerHTML=`<p class="empty">No hay palabras que coincidan con “${esc(V.q)}”.</p>`;return}
+  const learned=learnedSet(V.L),shown=vShown(),box=$("vList"),idx=$("vIdx");vProgress();
+  if(!shown.length){box.innerHTML=`<p class="empty">No hay palabras que coincidan con “${esc(V.q)}”.</p>`;idx.innerHTML="";return}
   const card=w=>`<article class="vw ${learned.has(w.w)?"on":""}"><div class="vt"><b lang="en">${esc(w.w)}</b><button class="vplay" data-say="${esc(w.w+". "+w.e)}" aria-label="Escuchar ${esc(w.w)}">${ICON_SPK}</button></div>
     <div class="vm">${esc(w.m)}</div><p class="ve" lang="en">${esc(w.e)}</p>
     <label class="vchk"><input type="checkbox" data-w="${esc(w.w)}" ${learned.has(w.w)?"checked":""}> La aprendí</label></article>`;
-  const cats=[...new Set(shown.map(w=>w.cat))];
-  box.innerHTML=cats.map(c=>{const ws=shown.filter(w=>w.cat===c),temas=[...new Set(ws.map(w=>w.t))];
-    return `<section class="vgroup"><h3>${esc(c)} <small style="color:var(--mute);font-weight:600;font-size:14px">(${ws.length})</small></h3>
-      ${temas.map(t=>`${t?`<h4>${esc(t)}</h4>`:""}<div class="vgrid">${ws.filter(w=>w.t===t).map(card).join("")}</div>`).join("")}</section>`}).join("");
+  const cnt=ws=>{const n=ws.filter(w=>learned.has(w.w)).length;return `<small>${n}/${ws.length}</small>`};
+  if(V.order==="az"){
+    const sorted=shown.slice().sort((a,b)=>a.w.localeCompare(b.w,"en",{sensitivity:"base"}));
+    const letters=[...new Set(sorted.map(w=>w.w[0].toUpperCase()))];
+    idx.innerHTML=`<b class="vi-h">Índice A–Z</b><div class="vi-letters">${letters.map(l=>`<a href="#va-${l}" data-go="va-${l}">${l}</a>`).join("")}</div>`;
+    box.innerHTML=letters.map(l=>{const ws=sorted.filter(w=>w.w[0].toUpperCase()===l);
+      return `<section class="vgroup" id="va-${l}"><h3>${l} <small style="color:var(--mute);font-weight:600;font-size:14px">(${ws.length})</small></h3><div class="vgrid">${ws.map(w=>card({...w,e:w.e})).join("")}</div></section>`}).join("");
+  }else{
+    const cats=[...new Set(shown.map(w=>w.cat))];
+    idx.innerHTML=`<b class="vi-h">Índice</b><ol class="vi-list">${cats.map((c,ci)=>{const ws=shown.filter(w=>w.cat===c),temas=[...new Set(ws.map(w=>w.t))].filter(Boolean);
+      return `<li><a href="#vc-${ci}" data-go="vc-${ci}">${esc(c)} ${cnt(ws)}</a>${temas.length?`<ul>${temas.map((t,ti)=>`<li><a href="#vc-${ci}-${ti}" data-go="vc-${ci}-${ti}">${esc(t)} ${cnt(ws.filter(w=>w.t===t))}</a></li>`).join("")}</ul>`:""}</li>`}).join("")}</ol>`;
+    box.innerHTML=cats.map((c,ci)=>{const ws=shown.filter(w=>w.cat===c),temas=[...new Set(ws.map(w=>w.t))];
+      return `<section class="vgroup" id="vc-${ci}"><h3>${ci+1}. ${esc(c)} <small style="color:var(--mute);font-weight:600;font-size:14px">(${ws.length})</small></h3>
+        ${temas.map(t=>`${t?`<h4 id="vc-${ci}-${[...new Set(ws.map(w=>w.t))].filter(Boolean).indexOf(t)}">${esc(t)}</h4>`:""}<div class="vgrid">${ws.filter(w=>w.t===t).map(card).join("")}</div>`).join("")}</section>`}).join("");
+  }
+  idx.onclick=e=>{const a=e.target.closest("a[data-go]");if(!a)return;e.preventDefault();const t=$(a.dataset.go);if(t)t.scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"})};
   box.querySelectorAll(".vplay").forEach(b=>b.onclick=()=>speakTTS(b.dataset.say));
   box.querySelectorAll(".vchk input").forEach(i=>i.onchange=()=>{setLearned(V.L,i.dataset.w,i.checked);i.closest(".vw").classList.toggle("on",i.checked);vProgress();render()});
 }

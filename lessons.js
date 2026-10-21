@@ -69,6 +69,7 @@ window.SYLLABUS = {
         {tip:"Error muy común: decir 'I have 35 years'. Lo correcto es 'I am 35'."},
         {p:"Las decenas: twenty (20), thirty (30), forty (40), fifty (50). Se combinan con guion: thirty-five (35), forty-two (42)."}
       ],
+      reading: 0,
       words: ["one, two, three, four, five","six, seven, eight, nine, ten","eleven, twelve, twenty, thirty","how old","year"],
       practice: [
         {t:"mc",q:"¿Cómo dices 'Tengo 30 años'?",o:["I have 30 years.","I am 30 years old.","I have 30 old.","I'm 30 years."],a:1,x:"La edad va con be: I am 30 years old."},
@@ -100,8 +101,8 @@ window.SYLLABUS = {
         {p:"Para decir 'el carro de Carlos' se usa **'s**: **Carlos's car**, **my sister's name**."},
         {tip:"His es de él y her es de ella, sin importar si la cosa es masculina o femenina: his mother (la mamá de él)."}
       ],
+      reading: 1,
       words: ["mother","father","brother","sister","son","daughter","husband","wife","children","my","your","his","her","our","their"],
-      reading: 0,
       practice: [
         {t:"mc",q:"Ana is married. ___ husband is Carlos.",o:["His","Her","Their","Our"],a:1,x:"Ana es mujer → her husband."},
         {t:"mc",q:"Pedro and Lucía have a son. ___ son is five.",o:["Their","His","Her","Your"],a:0,x:"De ellos → their."},
@@ -198,8 +199,8 @@ window.SYLLABUS = {
         {ex:[["I get up at six.","Me levanto a las seis."],["I have breakfast at seven.","Desayuno a las siete."],["I go to bed at ten.","Me acuesto a las diez."]]},
         {tip:"Para 'desayunar, almorzar, cenar' se usa have: have breakfast, have lunch, have dinner."}
       ],
+      reading: 2,
       words: ["time","get up","breakfast","lunch","dinner","morning","afternoon","night"],
-      reading: 1,
       practice: [
         {t:"mc",q:"7:30 en inglés es:",o:["half past seven","seven half","half to seven","thirty seven"],a:0,x:"Y media = half past."},
         {t:"mc",q:"I get up ___ six o'clock.",o:["in","on","at","to"],a:2,x:"Con la hora → at."},
@@ -294,6 +295,7 @@ window.SYLLABUS = {
         {p:"**I'd like** (I would like) es la forma amable de decir 'quiero'. 'I want' puede sonar brusco."},
         {tip:"En Estados Unidos la cuenta se dice check; en Reino Unido, bill."}
       ],
+      reading: 3,
       words: ["I'd like…","Please","Thank you / Thanks","restaurant","How much is it?"],
       practice: [
         {t:"mc",q:"La forma más amable de pedir es:",o:["I want a coffee.","Give me a coffee.","I'd like a coffee, please.","Coffee now."],a:2},
@@ -367,6 +369,7 @@ window.SYLLABUS = {
         {ex:[["Excuse me, where is the station?","Disculpe, ¿dónde está la estación?"],["Is there a bank near here?","¿Hay un banco cerca?"],["Go straight.","Siga derecho."],["Turn left / Turn right.","Gire a la izquierda / derecha."],["It's on the left / on the right.","Está a la izquierda / derecha."],["It's on the corner.","Está en la esquina."]]},
         {tip:"Empieza siempre con Excuse me para sonar amable."}
       ],
+      reading: 4,
       words: ["Excuse me","Where are you from?","street","city","near"],
       practice: [
         {t:"mc",q:"'Gire a la derecha' es:",o:["Turn left","Go straight","Turn right","Stop right"],a:2},
@@ -460,6 +463,7 @@ window.SYLLABUS = {
         {p:"Palabras de tiempo pasado: **yesterday** (ayer), **last week** (la semana pasada), **last year**, **two days ago** (hace dos días)."},
         {tip:"Este tema es el puente hacia A2, donde aprenderás el pasado de todos los verbos."}
       ],
+      reading: 5,
       words: ["yesterday","be","tired","happy","home"],
       practice: [
         {t:"mc",q:"I ___ sick yesterday.",o:["were","was","am","is"],a:1},
