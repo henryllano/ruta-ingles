@@ -348,7 +348,7 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
     <div class="head">
       <div class="eyebrow">Niveles</div>
       <h2>Elige hasta dónde quieres llegar</h2>
-      <p>Cada nivel tiene un quiz de 10 preguntas: escrito, escucha y oral. Necesitas 70 % para aprobarlo y desbloquear el siguiente nivel.</p>
+      <p>Cada nivel tiene un quiz de 10 preguntas: escrito, escucha y oral. Necesitas 70 % para aprobarlo.</p>
     </div>
     <div class="cards" id="cards"></div>
   </div></section>
@@ -916,7 +916,9 @@ function ensureStudent(name,email){const db=loadDB(),id=email?email.toLowerCase(
   let st=db.find(x=>x.id===id)||db.find(x=>x.name.toLowerCase()===name.toLowerCase()&&!x.email);
   if(!st){st={id,name,email,results:[],quiz:{}};db.push(st)}
   st.name=name;if(email){st.email=email}st.quiz=st.quiz||{};saveDB(db);S.student=st.id;save();renderWho();return st}
-function unlocked(i){if(i===0)return true;const st=curStudent();return !!(st&&st.quiz&&st.quiz[i-1]&&st.quiz[i-1].passed)}
+/* bloqueo progresivo de niveles: apagado mientras se revisa el contenido; cambiar a true para exigir aprobar el anterior */
+const LOCK_LEVELS=false;
+function unlocked(i){if(i===0||!LOCK_LEVELS)return true;const st=curStudent();return !!(st&&st.quiz&&st.quiz[i-1]&&st.quiz[i-1].passed)}
 function renderWho(){const st=curStudent(),b=$("whoBtn");
   b.innerHTML=st?`<b>${esc(st.name.trim()[0].toUpperCase())}</b><span>${esc(st.name.split(" ")[0])} · Cambiar</span>`:`<b>+</b><span>Registrarme</span>`;
   b.setAttribute("aria-label",st?`Estudiando como ${st.name}. Cambiar de persona`:"Registrarme")}
