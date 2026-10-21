@@ -310,6 +310,17 @@ footer b{color:#fff}
 .obuilt{min-height:54px;border:2px dashed var(--line);border-radius:8px;padding:10px;display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;align-items:center}
 .chip.on{background:var(--sun);border-color:var(--sun);color:#1A2238}
 
+.dline.myturn .bub{outline:3px solid var(--coral);box-shadow:0 0 0 6px rgba(255,107,90,.15)}
+.dline.myturn .dwho{color:var(--coral)}
+.bact{display:flex;align-items:center;gap:8px;margin-top:6px}
+.mmic{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:6px;background:var(--coral);color:#fff;font-weight:800;font-size:12px;padding:5px 12px 5px 8px;border-radius:999px}
+.mmic svg{width:16px;height:16px}
+.mmic.on{animation:pulse 1s infinite}
+.mspk{all:unset;cursor:pointer;width:28px;height:28px;border-radius:50%;background:var(--sun);display:grid;place-items:center}
+.mspk svg{width:13px;height:13px}
+.mmic:focus-visible,.mspk:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.heard{font-style:italic}
+
 /* examen: presentación */
 .skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 @media (max-width:760px){.skills{grid-template-columns:1fr}}
@@ -1650,53 +1661,55 @@ function voicePair(){const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.t
 function sayLine(text,who,done){try{const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=.92;const [va,vb]=voicePair();
   const v=who==="A"?va:(vb||va);if(v)u.voice=v;if(who!=="A"&&!vb)u.pitch=1.35;speakU(u,done)}catch(e){done&&done()}}
 function stopDialog(){if(!D)return;D.stop=true;stopSpeak();if(D.rec){try{D.rec.abort()}catch(e){}}D=null}
+const ICON_MIC=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>`;
 function dialogView(dg){
-  D={dg,showEs:false,mode:"read",i:-1,role:null,scores:{},stop:false,rec:null};
-  const box=$("dlg");
-  const draw=()=>{if(!D)return;const names={A:dg.a,B:dg.b};
+  D={dg,showEs:false,mode:"read",i:-1,role:null,scores:{},heard:{},recJ:null,stop:false,rec:null};
+  const box=$("dlg"),names={A:dg.a,B:dg.b};
+  const draw=()=>{if(!D)return;
+    const mine=w=>D.mode==="role"&&w===D.role;
     box.innerHTML=`<p class="note" style="margin-top:0">${esc(dg.scene)}</p>
-      ${D.mode==="role"?`<div class="tipbox"><b>Modo práctica: tú eres ${esc(names[D.role])}.</b> La app dice las líneas de ${esc(names[D.role==="A"?"B":"A"])}. Cuando sea tu turno, aparece tu línea con el botón <b>Grabar</b>: dila en voz alta y verás tu porcentaje.</div>`:""}
+      ${D.mode==="role"?`<div class="tipbox"><b>Modo práctica: tú eres ${esc(names[D.role])}.</b> La app dice las líneas de ${esc(names[D.role==="A"?"B":"A"])}. Cuando te toque, tu línea se ilumina: toca su <b>micrófono</b>, dila en voz alta y verás tu porcentaje. Puedes repetir cualquiera de tus líneas tocando su micrófono otra vez.</div>`:""}
       <div class="dctrl"><button class="btn sun" id="dPlay">${D.mode==="play"?"❚❚ Detener":"▶ Escuchar la conversación"}</button>
         <button class="chip" id="dEs" aria-pressed="${D.showEs}">Traducción</button>
         <button class="chip" id="dRoleA" aria-pressed="${D.mode==="role"&&D.role==="A"}">Practicar como ${esc(dg.a)}</button>
         <button class="chip" id="dRoleB" aria-pressed="${D.mode==="role"&&D.role==="B"}">Practicar como ${esc(dg.b)}</button></div>
-      <div class="dlines">${dg.lines.map(([w,en,es],j)=>`<div class="dline ${w==="A"?"a":"b"} ${D.i===j?"now":""}" data-j="${j}">
-        <span class="dwho">${esc(names[w])}</span><div class="bub"><span lang="en">${esc(en)}</span>${D.showEs?`<small>${esc(es)}</small>`:""}
-        ${D.scores[j]!=null?`<em class="sc ${D.scores[j]>=80?"ok":D.scores[j]>=50?"mid":"bad"}">${D.scores[j]} %</em>`:""}</div></div>`).join("")}</div>
+      <div class="dlines">${dg.lines.map(([w,en,es],j)=>{const turn=mine(w)&&D.i===j,sc=D.scores[j];
+        return `<div class="dline ${w==="A"?"a":"b"} ${D.i===j?"now":""} ${turn?"myturn":""}" data-j="${j}">
+        <span class="dwho">${esc(names[w])}${turn?" · tu turno":""}</span>
+        <div class="bub"><span lang="en">${esc(en)}</span>${D.showEs?`<small>${esc(es)}</small>`:""}
+          ${mine(w)?`<span class="bact"><button class="mmic ${D.recJ===j?"on":""}" data-rec="${j}" aria-label="Grabar esta línea">${ICON_MIC}<span>${D.recJ===j?"Detener":sc!=null?"Repetir":"Grabar"}</span></button><button class="mspk" data-hear="${j}" aria-label="Escuchar esta línea">${ICON_SPK}</button>${sc!=null?`<em class="sc ${sc>=80?"ok":sc>=50?"mid":"bad"}">${sc} %</em>`:""}</span>`:""}
+          ${mine(w)&&D.heard[j]?`<small class="heard">Escuché: “${esc(D.heard[j])}”</small>`:""}
+        </div></div>`}).join("")}</div>
       <div id="dTurn"></div>`;
     $("dPlay").onclick=()=>D.mode==="play"?(D.mode="read",D.i=-1,stopSpeak(),draw()):playAll();
     $("dEs").onclick=()=>{D.showEs=!D.showEs;draw()};
     $("dRoleA").onclick=()=>startRole("A");$("dRoleB").onclick=()=>startRole("B");
-    box.querySelectorAll(".dline").forEach(el=>el.onclick=()=>{if(D.mode!=="read")return;const j=+el.dataset.j;sayLine(dg.lines[j][1],dg.lines[j][0])});
-    if(D.mode==="role")turnUI();
+    box.querySelectorAll(".dline").forEach(el=>el.onclick=e=>{if(e.target.closest("button"))return;if(D.mode!=="read")return;const j=+el.dataset.j;sayLine(dg.lines[j][1],dg.lines[j][0])});
+    box.querySelectorAll("[data-rec]").forEach(b=>b.onclick=()=>recordLine(+b.dataset.rec));
+    box.querySelectorAll("[data-hear]").forEach(b=>b.onclick=()=>{const j=+b.dataset.hear;sayLine(dg.lines[j][1],D.role)});
   };
+  const follow=()=>{const cl=box.querySelector(".dline.now");if(cl){const r=cl.getBoundingClientRect();if(r.bottom>innerHeight-60||r.top<80)cl.scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"})}};
   const playAll=()=>{D.mode="play";D.i=0;draw();const step=()=>{if(!D||D.stop||D.mode!=="play")return;if(D.i>=dg.lines.length){D.mode="read";D.i=-1;draw();return}
-    draw();const cl=box.querySelector(".dline.now");if(cl){const r=cl.getBoundingClientRect();if(r.bottom>innerHeight-40||r.top<80)cl.scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"})}
-    const l=dg.lines[D.i];sayLine(l[1],l[0],()=>{if(!D||D.mode!=="play")return;D.i++;setTimeout(step,250)})};step()};
-  const startRole=r=>{D.mode="role";D.role=r;D.i=0;D.scores={};draw();advance()};
+    draw();follow();const l=dg.lines[D.i];sayLine(l[1],l[0],()=>{if(!D||D.mode!=="play")return;D.i++;setTimeout(step,250)})};step()};
+  const startRole=r=>{stopSpeak();D.mode="role";D.role=r;D.i=0;D.scores={};D.heard={};$("dTurn").innerHTML="";draw();advance()};
   const advance=()=>{if(!D||D.stop||D.mode!=="role")return;
-    if(D.i>=dg.lines.length){const mine=Object.values(D.scores),avg=mine.length?Math.round(mine.reduce((a,b)=>a+b,0)/mine.length):0;D.mode="read";D.i=-1;draw();
-      $("dTurn").innerHTML=`<div class="rscore"><b class="big2">${avg} %</b> de tus líneas bien dichas. ${avg>=80?"¡Muy bien!":"Escucha la conversación otra vez y repite tus líneas."}</div>`;return}
-    draw();const l=dg.lines[D.i];
-    if(l[0]!==D.role){const cl=box.querySelector(".dline.now");if(cl){const r=cl.getBoundingClientRect();if(r.bottom>innerHeight-40||r.top<80)cl.scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"})}}
+    if(D.i>=dg.lines.length){const vals=Object.values(D.scores),avg=vals.length?Math.round(vals.reduce((a,b)=>a+b,0)/vals.length):0;D.i=-1;draw();
+      $("dTurn").innerHTML=`<div class="rscore"><b class="big2">${avg} %</b> de tus líneas bien dichas. ${avg>=80?"¡Muy bien!":"Escucha la conversación otra vez y repite las líneas con menos porcentaje."}</div>`;$("dTurn").scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"});return}
+    draw();follow();const l=dg.lines[D.i];
     if(l[0]!==D.role)sayLine(l[1],l[0],()=>{if(!D||D.mode!=="role")return;D.i++;setTimeout(advance,300)});
   };
-  const turnUI=()=>{const l=dg.lines[D.i];if(!l||l[0]!==D.role){$("dTurn").innerHTML="";return}
-    const cur=box.querySelector(`.dline[data-j="${D.i}"]`);if(cur)cur.insertAdjacentElement("afterend",$("dTurn"));
-    $("dTurn").innerHTML=`<div class="turn"><b>Tu turno:</b> <span lang="en">${esc(l[1])}</span>
-      <div class="btns" style="margin-top:10px"><button class="rec" id="dRec"><span class="dot"></span><span id="dRecL">Grabar mi línea</span></button><button class="vplay" id="dHear" style="width:auto;height:auto;border-radius:999px;padding:8px 14px;font-weight:800;gap:6px;display:inline-flex">${ICON_SPK}<span>Escucharla</span></button><button class="linkbtn" id="dSkip">Saltar</button></div><div class="note" id="dHeard"></div></div>`;
-    $("dHear").onclick=()=>sayLine(l[1],D.role);
-    $("dSkip").onclick=()=>{D.scores[D.i]=0;D.i++;advance()};
-    $("dRec").onclick=()=>{const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-      if(!SR){$("dHeard").textContent="Este navegador no reconoce voz. Usa Google Chrome.";return}
-      if(D.rec){try{D.rec.stop()}catch(e){}return}
-      const rec=new SR();D.rec=rec;rec.lang="en-US";rec.interimResults=true;let fin="";
-      rec.onresult=e=>{let t="";for(let x=0;x<e.results.length;x++)t+=e.results[x][0].transcript+" ";fin=t;$("dHeard").textContent="Escuché: "+t};
-      rec.onerror=e=>{if(e.error==="not-allowed")$("dHeard").textContent="El micrófono está bloqueado. Permítelo en el candado de la barra de direcciones."};
-      rec.onend=()=>{if(!D)return;D.rec=null;if(!fin.trim()){$("dRecL")&&($("dRecL").textContent="Grabar otra vez");return}
-        D.scores[D.i]=Math.round(wordAcc(l[1],fin)*100);D.i++;advance()};
-      try{rec.start();$("dRec").classList.add("on");$("dRecL").textContent="Detener"}catch(e){D.rec=null}};
-    $("dTurn").scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"});
+  /* graba una línea propia: si es la que toca, al terminar sigue la conversación; si es otra, solo actualiza su puntaje */
+  const recordLine=j=>{
+    const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+    if(!SR){D.heard[j]="(Este navegador no reconoce voz. Usa Google Chrome.)";draw();return}
+    if(D.rec){try{D.rec.stop()}catch(e){}return}
+    stopSpeak();const rec=new SR();D.rec=rec;D.recJ=j;rec.lang="en-US";rec.interimResults=true;let fin="";
+    rec.onresult=e=>{let t="";for(let x=0;x<e.results.length;x++)t+=e.results[x][0].transcript+" ";fin=t.trim();const h=box.querySelector(`.dline[data-j="${j}"] .heard`);if(h)h.textContent=`Escuché: “${fin}”`;else{D.heard[j]=fin;draw()}};
+    rec.onerror=e=>{if(e.error==="not-allowed")D.heard[j]="(El micrófono está bloqueado: permítelo en el candado de la barra de direcciones.)"};
+    rec.onend=()=>{if(!D)return;D.rec=null;D.recJ=null;
+      if(fin){D.heard[j]=fin;D.scores[j]=Math.round(wordAcc(dg.lines[j][1],fin)*100);if(j===D.i){D.i++;draw();setTimeout(advance,400);return}}
+      draw()};
+    try{rec.start();draw()}catch(e){D.rec=null;D.recJ=null}
   };
   draw();
 }
