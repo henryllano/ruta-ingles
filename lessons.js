@@ -42657,5 +42657,30552 @@ window.SYLLABUS = {
     }
    ]
   }
+ },
+ "3": {
+  "intro": "En 30 lecciones (6 unidades de 5 días) vas a dominar los tiempos avanzados, los condicionales mixtos y los arrepentimientos, la voz pasiva avanzada y los verbos de reporte, la argumentación con conectores, las colocaciones y los phrasal verbs, y el inglés profesional para reuniones, correos y entrevistas. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
+  "units": [
+   {
+    "title": "Tiempos avanzados",
+    "lessons": [
+     {
+      "id": "b2-u1-l1",
+      "title": "Past perfect continuous y causas en el pasado",
+      "goal": "Explicar qué llevaba tiempo pasando antes de un momento del pasado y justificar situaciones con sus causas.",
+      "theory": [
+       {
+        "p": "El **past perfect continuous** (**had been + verbo-ing**) describe una acción **prolongada** que venía ocurriendo **hasta** (o justo antes de) un momento del pasado. Equivale al español **'llevaba + tiempo + gerundio'** o **'había estado + gerundio'**."
+       },
+       {
+        "ex": [
+         [
+          "By the time the manager arrived, we had been waiting for over an hour.",
+          "Para cuando llegó el gerente, llevábamos más de una hora esperando."
+         ],
+         [
+          "She had been working at the firm for a decade when she was finally promoted.",
+          "Llevaba una década trabajando en la firma cuando por fin la ascendieron."
+         ],
+         [
+          "How long had you been living in Medellín before you moved abroad?",
+          "¿Cuánto tiempo llevabas viviendo en Medellín antes de irte al exterior?"
+         ]
+        ]
+       },
+       {
+        "p": "Se usa muchísimo para **explicar causas**: un resultado visible en el pasado se justifica con lo que **había estado pasando**. Fíjate en la lógica: efecto en pasado simple + causa en past perfect continuous."
+       },
+       {
+        "ex": [
+         [
+          "His eyes were red because he had been crying.",
+          "Tenía los ojos rojos porque había estado llorando."
+         ],
+         [
+          "The streets were flooded; it had been raining all night.",
+          "Las calles estaban inundadas; había estado lloviendo toda la noche."
+         ],
+         [
+          "I was worn out because I had been pulling all-nighters to meet the deadline.",
+          "Estaba agotado porque llevaba varias noches trasnochando para cumplir el plazo."
+         ]
+        ]
+       },
+       {
+        "p": "**Contraste clave**: el **past perfect simple** (had done) destaca la acción **terminada** o el **resultado / la cantidad**; el **continuo** (had been doing) destaca la **duración** o la actividad en sí, aunque no haya terminado. **She had written three reports** (cantidad, terminados) vs **She had been writing reports all morning** (actividad prolongada)."
+       },
+       {
+        "tip": "Error típico: 'I was working there for five years when I quit' suena raro en inglés. Para una duración hasta un punto del pasado usa had been: I had been working there for five years when I quit. Y recuerda: los verbos de estado (know, own, believe) no van en continuo: I had known her for years (no 'had been knowing')."
+       }
+      ],
+      "vocab": [
+       [
+        "had been + -ing",
+        "expresión",
+        "había estado / llevaba + gerundio",
+        "We had been driving for hours when the engine failed."
+       ],
+       [
+        "drenched",
+        "adjetivo",
+        "empapado, ensopado",
+        "We were drenched because we had been walking in the rain."
+       ],
+       [
+        "worn out",
+        "adjetivo",
+        "agotado, rendido",
+        "She was worn out after weeks of overtime."
+       ],
+       [
+        "out of breath",
+        "expresión",
+        "sin aliento, jadeando",
+        "He was out of breath because he had been running."
+       ],
+       [
+        "swollen",
+        "adjetivo",
+        "hinchado",
+        "Her ankle was swollen after the long hike."
+       ],
+       [
+        "rehearse",
+        "verbo",
+        "ensayar",
+        "The band had been rehearsing for months before the tour."
+       ],
+       [
+        "pile up",
+        "phrasal verb",
+        "acumularse, amontonarse",
+        "Unpaid bills had been piling up on his desk."
+       ],
+       [
+        "overdue",
+        "adjetivo",
+        "atrasado, vencido",
+        "The rent was three weeks overdue."
+       ],
+       [
+        "for hours on end",
+        "expresión",
+        "durante horas seguidas",
+        "They had been arguing for hours on end."
+       ],
+       [
+        "pull an all-nighter",
+        "modismo",
+        "trasnochar (estudiando o trabajando)",
+        "I pulled an all-nighter before the exam."
+       ],
+       [
+        "burn out",
+        "phrasal verb",
+        "quemarse, agotarse por exceso de trabajo",
+        "He burned out after years of seventy-hour weeks."
+       ],
+       [
+        "resentment",
+        "sustantivo",
+        "resentimiento",
+        "Resentment had been building up for years."
+       ],
+       [
+        "simmer",
+        "verbo",
+        "estar latente, cocinarse a fuego lento",
+        "Tension had been simmering in the office for months."
+       ],
+       [
+        "leak",
+        "verbo",
+        "gotear, filtrarse",
+        "Water had been leaking through the ceiling all week."
+       ],
+       [
+        "stain",
+        "sustantivo",
+        "mancha",
+        "There was a dark stain on the carpet."
+       ],
+       [
+        "suspicion",
+        "sustantivo",
+        "sospecha",
+        "Her suspicions had been growing for weeks."
+       ],
+       [
+        "evidence",
+        "sustantivo",
+        "pruebas, evidencia",
+        "The evidence suggested he had been lying."
+       ],
+       [
+        "account for",
+        "phrasal verb",
+        "explicar, justificar",
+        "That accounts for the delay."
+       ],
+       [
+        "no wonder",
+        "expresión",
+        "con razón, no es de extrañar",
+        "No wonder you were exhausted!"
+       ],
+       [
+        "that explains why",
+        "expresión",
+        "eso explica por qué",
+        "That explains why the printer kept jamming."
+       ]
+      ],
+      "dialogue": {
+       "title": "La renuncia inesperada",
+       "scene": "Mariana le pregunta a su colega Tom por qué el jefe de diseño renunció de un día para otro.",
+       "a": "Mariana",
+       "b": "Tom",
+       "lines": [
+        [
+         "A",
+         "Did you hear that Julian resigned on Friday? Nobody saw it coming.",
+         "¿Supiste que Julián renunció el viernes? Nadie se lo esperaba."
+        ],
+        [
+         "B",
+         "Honestly, I wasn't that surprised. Tension had been simmering in his team for months.",
+         "Sinceramente, no me sorprendió tanto. La tensión llevaba meses latente en su equipo."
+        ],
+        [
+         "A",
+         "Really? He always seemed so calm in meetings.",
+         "¿En serio? Siempre parecía muy tranquilo en las reuniones."
+        ],
+        [
+         "B",
+         "On the surface, yes. But he had been working seventy-hour weeks since the merger.",
+         "En apariencia, sí. Pero llevaba semanas de setenta horas desde la fusión."
+        ],
+        [
+         "A",
+         "No wonder he looked so worn out lately. I thought he'd just been sleeping badly.",
+         "Con razón se veía tan agotado últimamente. Pensé que solo había estado durmiendo mal."
+        ],
+        [
+         "B",
+         "That too. He told me he had been pulling all-nighters to fix the client's website.",
+         "Eso también. Me contó que había estado trasnochando para arreglar la página del cliente."
+        ],
+        [
+         "A",
+         "That explains why the deadline kept moving. Had anyone offered him extra help?",
+         "Eso explica por qué el plazo se seguía corriendo. ¿Alguien le había ofrecido ayuda extra?"
+        ],
+        [
+         "B",
+         "He had been asking for two more designers since January, but management kept postponing it.",
+         "Llevaba desde enero pidiendo dos diseñadores más, pero la gerencia lo seguía aplazando."
+        ],
+        [
+         "A",
+         "So the resentment had been piling up for a while.",
+         "O sea que el resentimiento se había ido acumulando hace rato."
+        ],
+        [
+         "B",
+         "Exactly. And on Thursday he found out they had been interviewing people for his position behind his back.",
+         "Exacto. Y el jueves se enteró de que habían estado entrevistando gente para su cargo a sus espaldas."
+        ],
+        [
+         "A",
+         "You're kidding! That accounts for the sudden resignation.",
+         "¡No me digas! Eso explica la renuncia tan repentina."
+        ],
+        [
+         "B",
+         "Apparently he had been considering leaving anyway, but that was the last straw.",
+         "Al parecer ya venía pensando en irse, pero eso fue la gota que rebosó la copa."
+        ],
+        [
+         "A",
+         "I feel bad. I had been complaining about his slow replies without knowing any of this.",
+         "Me siento mal. Había estado quejándome de que respondía lento sin saber nada de esto."
+        ],
+        [
+         "B",
+         "Don't beat yourself up. Most of us had no idea how burned out he was.",
+         "No te castigues. La mayoría no teníamos idea de lo quemado que estaba."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "When I finally found the café, my friends ___ for forty minutes.",
+        "o": [
+         "waited",
+         "had been waiting",
+         "have been waiting",
+         "were waited"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Her hands were covered in paint because she ___ the fence.",
+        "o": [
+         "had been painting",
+         "has painted",
+         "was paint",
+         "paints"
+        ],
+        "a": 0,
+        "x": "Resultado visible en el pasado (manos con pintura) + causa prolongada → had been painting."
+       },
+       {
+        "t": "mc",
+        "q": "By noon, she ___ five reports, so she took a break.",
+        "o": [
+         "had been writing",
+         "had written",
+         "has been writing",
+         "was writing"
+        ],
+        "a": 1,
+        "x": "Cantidad terminada (five reports) → past perfect simple."
+       },
+       {
+        "t": "fill",
+        "q": "How long had you ___ (study) English before you moved to Toronto?",
+        "ans": [
+         "been studying"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The kitchen floor was soaking wet when we got home. It turned out the dishwasher had been leaking all afternoon.",
+        "q": "¿Por qué estaba mojado el piso de la cocina?",
+        "o": [
+         "Alguien había trapeado",
+         "El lavaplatos había estado goteando",
+         "Había entrado la lluvia",
+         "Se había roto una tubería del baño"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "He was out of breath because he had been running to catch the last train."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "had",
+         "been",
+         "driving",
+         "for",
+         "hours",
+         "when",
+         "the",
+         "engine",
+         "failed."
+        ],
+        "es": "Llevábamos horas manejando cuando falló el motor."
+       },
+       {
+        "t": "order",
+        "words": [
+         "No",
+         "wonder",
+         "you",
+         "were",
+         "exhausted",
+         "after",
+         "that",
+         "week!"
+        ],
+        "es": "¡Con razón estabas agotado después de esa semana!"
+       },
+       {
+        "t": "dict",
+        "say": "Unpaid bills had been piling up on his desk for months."
+       },
+       {
+        "t": "dict",
+        "say": "Tension had been simmering in the office long before the merger."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "I had been knowing him for years.",
+         "I had known him for years.",
+         "I was knowing him for years.",
+         "I have been knowing him for years."
+        ],
+        "a": 1,
+        "x": "Know es verbo de estado: no se usa en continuo."
+       },
+       {
+        "t": "fill",
+        "q": "She had been ___ (rehearse) her speech for days, so she felt confident.",
+        "ans": [
+         "rehearsing"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "By the time the investigators arrived, the accountant had been transferring money to a private account for nearly two years.",
+        "q": "¿Cuánto tiempo llevaba el contador transfiriendo dinero?",
+        "o": [
+         "Unos meses",
+         "Casi dos años",
+         "Una semana",
+         "Cinco años"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Describe una situación del pasado en la que alguien (tú u otra persona) llegó al límite: un trabajo, un viaje o una relación (mínimo 90 palabras). Explica las causas con past perfect continuous y contrástalo al menos una vez con el past perfect simple.",
+        "min": 90,
+        "keys": [
+         [
+          "had been"
+         ],
+         [
+          "ing"
+         ],
+         [
+          "because",
+          "since",
+          "no wonder",
+          "that explains why"
+         ],
+         [
+          "for",
+          "since",
+          "by the time",
+          "when"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The ground was wet because it ___ all night.",
+       "o": [
+        "has rained",
+        "had been raining",
+        "was raining",
+        "rains"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "She ___ at the company for twelve years when she decided to start her own business.",
+       "o": [
+        "had been working",
+        "has been working",
+        "was working",
+        "works"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u1-l2",
+      "title": "Future continuous y future perfect",
+      "goal": "Hablar de acciones en progreso o ya terminadas en un momento concreto del futuro y hacer planes con precisión.",
+      "theory": [
+       {
+        "p": "El **future continuous** (**will be + -ing**) describe una acción que **estará en progreso** en un momento concreto del futuro. También sirve para hablar de **planes ya establecidos** y para hacer **preguntas corteses** sobre los planes de otra persona."
+       },
+       {
+        "ex": [
+         [
+          "At this time tomorrow, I'll be flying over the Atlantic.",
+          "Mañana a esta hora estaré volando sobre el Atlántico."
+         ],
+         [
+          "Don't call at eight; we'll be having dinner with the clients.",
+          "No llames a las ocho; estaremos cenando con los clientes."
+         ],
+         [
+          "Will you be using the meeting room this afternoon?",
+          "¿Vas a usar la sala de reuniones esta tarde? (pregunta cortés)"
+         ]
+        ]
+       },
+       {
+        "p": "El **future perfect** (**will have + participio**) indica que algo **ya habrá terminado** antes de un momento futuro. Casi siempre va con **by** (para), **by then**, **by the time** o **before**."
+       },
+       {
+        "ex": [
+         [
+          "By 2030, we will have paid off the mortgage.",
+          "Para 2030 ya habremos terminado de pagar la hipoteca."
+         ],
+         [
+          "By the time you get here, the meeting will have finished.",
+          "Para cuando llegues, la reunión ya habrá terminado."
+         ],
+         [
+          "Will you have finished the report by Friday?",
+          "¿Habrás terminado el informe para el viernes?"
+         ]
+        ]
+       },
+       {
+        "p": "El **future perfect continuous** (**will have been + -ing**) mide la **duración** hasta un punto futuro: **In June, I will have been working here for ten years.** (En junio cumpliré diez años trabajando aquí)."
+       },
+       {
+        "tip": "Después de by the time, when, before y as soon as se usa presente, no will: By the time you arrive (no 'will arrive'), we'll have left. Y ojo con by: by Friday = a más tardar el viernes; until Friday = hasta el viernes (de forma continua)."
+       }
+      ],
+      "vocab": [
+       [
+        "by then",
+        "expresión",
+        "para entonces",
+        "By then, we'll have moved to Bogotá."
+       ],
+       [
+        "deadline",
+        "sustantivo",
+        "fecha límite, plazo",
+        "We'll have met the deadline by Monday."
+       ],
+       [
+        "milestone",
+        "sustantivo",
+        "hito",
+        "Reaching a million users will be a major milestone."
+       ],
+       [
+        "wrap up",
+        "phrasal verb",
+        "concluir, cerrar",
+        "We'll have wrapped up the project by June."
+       ],
+       [
+        "hand in",
+        "phrasal verb",
+        "entregar",
+        "Will you have handed in your thesis by then?"
+       ],
+       [
+        "pay off",
+        "phrasal verb",
+        "terminar de pagar; dar fruto",
+        "All that effort will pay off."
+       ],
+       [
+        "mortgage",
+        "sustantivo",
+        "hipoteca, crédito hipotecario",
+        "They'll have paid off the mortgage by 2035."
+       ],
+       [
+        "settle in",
+        "phrasal verb",
+        "instalarse, adaptarse",
+        "By next month, you'll have settled in."
+       ],
+       [
+        "in a decade's time",
+        "expresión",
+        "dentro de una década",
+        "In a decade's time, cars will be driving themselves."
+       ],
+       [
+        "this time next year",
+        "expresión",
+        "el próximo año por esta época",
+        "This time next year, I'll be living in Lisbon."
+       ],
+       [
+        "well under way",
+        "colocación",
+        "bien avanzado, en marcha",
+        "By then, construction will be well under way."
+       ],
+       [
+        "on track",
+        "expresión",
+        "bien encaminado, según lo previsto",
+        "We're on track to finish by May."
+       ],
+       [
+        "fall behind",
+        "phrasal verb",
+        "atrasarse, quedarse atrás",
+        "If we fall behind, we won't have finished by July."
+       ],
+       [
+        "catch up on",
+        "phrasal verb",
+        "ponerse al día con",
+        "I'll be catching up on emails all morning."
+       ],
+       [
+        "phase",
+        "sustantivo",
+        "fase, etapa",
+        "The second phase will have begun by then."
+       ],
+       [
+        "roll out",
+        "phrasal verb",
+        "implementar, lanzar",
+        "We'll be rolling out the new app in March."
+       ],
+       [
+        "retire",
+        "verbo",
+        "jubilarse, pensionarse",
+        "By 2040, my parents will have retired."
+       ],
+       [
+        "foresee",
+        "verbo",
+        "prever",
+        "I don't foresee any major delays."
+       ],
+       [
+        "projection",
+        "sustantivo",
+        "proyección, pronóstico",
+        "According to our projections, sales will have doubled."
+       ],
+       [
+        "stakeholder",
+        "sustantivo",
+        "parte interesada",
+        "The stakeholders will be expecting a full update."
+       ]
+      ],
+      "dialogue": {
+       "title": "El cronograma del lanzamiento",
+       "scene": "Diego, gerente de proyecto, revisa con su jefa Rachel el cronograma de lanzamiento de una aplicación.",
+       "a": "Rachel",
+       "b": "Diego",
+       "lines": [
+        [
+         "A",
+         "Diego, the board will be expecting a clear timeline on Monday. Where do we stand?",
+         "Diego, la junta va a estar esperando un cronograma claro el lunes. ¿Cómo vamos?"
+        ],
+        [
+         "B",
+         "We're on track. By the end of this month, we'll have completed the testing phase.",
+         "Vamos bien encaminados. Para fin de mes, habremos terminado la fase de pruebas."
+        ],
+        [
+         "A",
+         "Good. And when will we be rolling out the app to the public?",
+         "Bien. ¿Y cuándo vamos a lanzar la aplicación al público?"
+        ],
+        [
+         "B",
+         "If nothing goes wrong, we'll be launching it in the second week of April.",
+         "Si nada sale mal, la estaremos lanzando la segunda semana de abril."
+        ],
+        [
+         "A",
+         "Do you foresee any problems that could make us fall behind?",
+         "¿Prevés algún problema que nos pueda atrasar?"
+        ],
+        [
+         "B",
+         "Only one. The payment provider won't have finished the integration until late March.",
+         "Solo uno. El proveedor de pagos no habrá terminado la integración hasta finales de marzo."
+        ],
+        [
+         "A",
+         "That's cutting it close. Will the marketing team have prepared the campaign by then?",
+         "Eso está muy justo. ¿El equipo de mercadeo habrá preparado la campaña para entonces?"
+        ],
+        [
+         "B",
+         "Yes, Sofía told me they'll have wrapped up the videos before the integration is ready.",
+         "Sí, Sofía me dijo que habrán terminado los videos antes de que la integración esté lista."
+        ],
+        [
+         "A",
+         "Great. I'll be travelling to Mexico City next week, so I'll need weekly updates by email.",
+         "Perfecto. Voy a estar de viaje en Ciudad de México la próxima semana, así que necesito actualizaciones semanales por correo."
+        ],
+        [
+         "B",
+         "No problem. Will you be checking your messages while you're there?",
+         "Sin problema. ¿Vas a estar revisando tus mensajes mientras estás allá?"
+        ],
+        [
+         "A",
+         "Every evening. By the time I get back, I'd like to see the final projections.",
+         "Todas las noches. Para cuando vuelva, me gustaría ver las proyecciones finales."
+        ],
+        [
+         "B",
+         "You will. And by June, we'll have been working on this app for exactly two years.",
+         "Las verás. Y en junio cumpliremos exactamente dos años trabajando en esta aplicación."
+        ],
+        [
+         "A",
+         "Two years! Reaching launch will be a huge milestone for the whole team.",
+         "¡Dos años! Llegar al lanzamiento va a ser un hito enorme para todo el equipo."
+        ],
+        [
+         "B",
+         "Definitely. Hopefully all those late nights will finally pay off.",
+         "Sin duda. Ojalá todas esas noches de trasnocho por fin den fruto."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Don't phone me at 10 a.m. tomorrow. I ___ an interview.",
+        "o": [
+         "will have done",
+         "will be doing",
+         "have done",
+         "am do"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "By the end of the year, she ___ her degree.",
+        "o": [
+         "will be finishing",
+         "will have finished",
+         "finishes",
+         "has finished"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "By the time you ___, we will have left.",
+        "o": [
+         "will arrive",
+         "arrive",
+         "will have arrived",
+         "are arriving to"
+        ],
+        "a": 1,
+        "x": "Después de by the time se usa presente simple, no will."
+       },
+       {
+        "t": "fill",
+        "q": "This time next week, I'll ___ (lie) on a beach in San Andrés.",
+        "ans": [
+         "be lying"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "By the time the new hospital opens in 2028, the city will have spent almost three hundred million dollars on the project.",
+        "q": "¿Cuándo abrirá el nuevo hospital?",
+        "o": [
+         "En 2025",
+         "En 2028",
+         "En 2030",
+         "Ya está abierto"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "By the end of next year, we will have paid off the entire mortgage."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Will",
+         "you",
+         "be",
+         "using",
+         "the",
+         "car",
+         "this",
+         "evening?"
+        ],
+        "es": "¿Vas a usar el carro esta noche?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "By",
+         "then,",
+         "the",
+         "project",
+         "will",
+         "be",
+         "well",
+         "under",
+         "way."
+        ],
+        "es": "Para entonces, el proyecto estará bien avanzado."
+       },
+       {
+        "t": "dict",
+        "say": "This time next year, I'll be living in Lisbon."
+       },
+       {
+        "t": "dict",
+        "say": "We'll have wrapped up the project before the deadline."
+       },
+       {
+        "t": "mc",
+        "q": "In June, I ___ here for ten years.",
+        "o": [
+         "will work",
+         "will be working",
+         "will have been working",
+         "am working"
+        ],
+        "a": 2,
+        "x": "Duración hasta un punto futuro → future perfect continuous."
+       },
+       {
+        "t": "fill",
+        "q": "Will you have ___ (hand) in the report by Friday?",
+        "ans": [
+         "handed"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I won't be able to join the call at three because I'll be giving a presentation to the stakeholders, but I'll have read the proposal by then.",
+        "q": "¿Qué estará haciendo a las tres?",
+        "o": [
+         "Leyendo la propuesta",
+         "Dando una presentación",
+         "Volando",
+         "Almorzando con clientes"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Imagina tu vida dentro de diez años (mínimo 90 palabras). Explica qué estarás haciendo en un día normal (future continuous) y qué metas ya habrás alcanzado (future perfect). Usa by, by then o by the time.",
+        "min": 90,
+        "keys": [
+         [
+          "will be",
+          "'ll be"
+         ],
+         [
+          "will have",
+          "'ll have"
+         ],
+         [
+          "by then",
+          "by the time",
+          "by 20",
+          "by the end"
+         ],
+         [
+          "ing"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "By 2035, scientists ___ a cure for this disease, I hope.",
+       "o": [
+        "will be finding",
+        "will have found",
+        "have found",
+        "are finding"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "At 9 p.m. tonight, I ___ the match with my brothers.",
+       "o": [
+        "will have watched",
+        "will be watching",
+        "watched",
+        "have watched"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u1-l3",
+      "title": "Hábitos: will, would, used to, be used to y get used to",
+      "goal": "Describir costumbres presentes y pasadas con matices, y distinguir entre estar acostumbrado y acostumbrarse.",
+      "theory": [
+       {
+        "p": "**will + verbo** puede describir un **hábito o comportamiento típico en el presente**, y **would** su equivalente **en el pasado**. Suenan más descriptivos y literarios que el presente o el pasado simple."
+       },
+       {
+        "ex": [
+         [
+          "My grandfather will sit on the porch for hours, watching the traffic go by.",
+          "Mi abuelo suele sentarse en el corredor durante horas, viendo pasar los carros."
+         ],
+         [
+          "When we were kids, my mother would wake us up singing.",
+          "Cuando éramos niños, mi mamá nos despertaba cantando."
+         ],
+         [
+          "He'll always offer to help, even when he's exhausted.",
+          "Siempre se ofrece a ayudar, aunque esté agotado."
+         ]
+        ]
+       },
+       {
+        "p": "Si se **acentúa** will o would al hablar (en texto: She WILL leave...), expresa **fastidio** por un hábito irritante: **He will keep interrupting me!** (¡No hace sino interrumpirme!)."
+       },
+       {
+        "p": "**Tres estructuras que se confunden**: **used to + verbo** = hábito o estado pasado que ya no existe. **be used to + -ing / sustantivo** = **estar acostumbrado**. **get used to + -ing / sustantivo** = **acostumbrarse** (el proceso)."
+       },
+       {
+        "ex": [
+         [
+          "I used to live in Cartagena.",
+          "Antes vivía en Cartagena."
+         ],
+         [
+          "I'm used to living in a hot climate.",
+          "Estoy acostumbrado a vivir en clima caliente."
+         ],
+         [
+          "It took me months to get used to the cold in London.",
+          "Me tomó meses acostumbrarme al frío de Londres."
+         ],
+         [
+          "You'll soon get used to driving on the left.",
+          "Pronto te acostumbrarás a manejar por la izquierda."
+         ]
+        ]
+       },
+       {
+        "tip": "En be used to y get used to, to es preposición, así que va seguida de -ing: I'm used to working late (no 'I'm used to work late'). Recuerda también que would no sirve para estados: I used to have a dog (no 'I would have a dog')."
+       }
+      ],
+      "vocab": [
+       [
+        "be used to",
+        "expresión",
+        "estar acostumbrado a (+ -ing)",
+        "I'm used to getting up at five."
+       ],
+       [
+        "get used to",
+        "expresión",
+        "acostumbrarse a (+ -ing)",
+        "She never got used to the noise."
+       ],
+       [
+        "adjust to",
+        "verbo",
+        "adaptarse a",
+        "It took him a while to adjust to the new schedule."
+       ],
+       [
+        "tend to",
+        "verbo",
+        "tender a, soler",
+        "People tend to work longer hours in big cities."
+       ],
+       [
+        "creature of habit",
+        "modismo",
+        "animal de costumbres",
+        "My dad is a real creature of habit."
+       ],
+       [
+        "make a point of",
+        "expresión",
+        "esforzarse por, tener como norma",
+        "She makes a point of calling her mother every day."
+       ],
+       [
+        "break a habit",
+        "colocación",
+        "dejar un hábito",
+        "It's hard to break a habit you've had for years."
+       ],
+       [
+        "kick the habit",
+        "modismo",
+        "dejar un vicio",
+        "He finally kicked the habit after ten years of smoking."
+       ],
+       [
+        "nag",
+        "verbo",
+        "cantaletear, fastidiar",
+        "She will nag me about my diet."
+       ],
+       [
+        "infuriating",
+        "adjetivo",
+        "exasperante",
+        "He has an infuriating habit of being late."
+       ],
+       [
+        "commute",
+        "sustantivo",
+        "trayecto diario al trabajo",
+        "My commute takes ninety minutes each way."
+       ],
+       [
+        "jet lag",
+        "sustantivo",
+        "desfase horario",
+        "I never get used to jet lag."
+       ],
+       [
+        "hectic",
+        "adjetivo",
+        "agitado, frenético",
+        "Life in New York is hectic."
+       ],
+       [
+        "culture shock",
+        "sustantivo",
+        "choque cultural",
+        "Culture shock hit me during the first month."
+       ],
+       [
+        "homesick",
+        "adjetivo",
+        "nostálgico (por estar lejos de casa)",
+        "I was terribly homesick at first."
+       ],
+       [
+        "invariably",
+        "adverbio",
+        "invariablemente, siempre",
+        "He invariably arrives ten minutes early."
+       ],
+       [
+        "as a rule",
+        "expresión",
+        "por norma general",
+        "As a rule, I don't check emails on Sundays."
+       ],
+       [
+        "more often than not",
+        "expresión",
+        "la mayoría de las veces",
+        "More often than not, the train is late."
+       ],
+       [
+        "every so often",
+        "expresión",
+        "de vez en cuando",
+        "Every so often, we'll go out for dinner."
+       ],
+       [
+        "second nature",
+        "modismo",
+        "algo automático, natural",
+        "Driving on the left became second nature."
+       ]
+      ],
+      "dialogue": {
+       "title": "La vida en Edimburgo",
+       "scene": "Valentina, que lleva un año viviendo en Escocia, habla por videollamada con su amigo canadiense Ethan sobre cómo se ha adaptado.",
+       "a": "Ethan",
+       "b": "Valentina",
+       "lines": [
+        [
+         "A",
+         "So, a whole year in Edinburgh! Have you got used to the weather yet?",
+         "¡Bueno, un año entero en Edimburgo! ¿Ya te acostumbraste al clima?"
+        ],
+        [
+         "B",
+         "Not really. I'm used to sunshine all year round, so the grey winters were a shock.",
+         "No mucho. Estoy acostumbrada a tener sol todo el año, así que los inviernos grises fueron un golpe."
+        ],
+        [
+         "A",
+         "I can imagine. Were you homesick at first?",
+         "Me imagino. ¿Al principio sentías nostalgia?"
+        ],
+        [
+         "B",
+         "Terribly. I would call my mum every night and cry. Culture shock is real.",
+         "Muchísima. Llamaba a mi mamá todas las noches y lloraba. El choque cultural es real."
+        ],
+        [
+         "A",
+         "And now? What does a normal day look like?",
+         "¿Y ahora? ¿Cómo es un día normal?"
+        ],
+        [
+         "B",
+         "As a rule, I'll walk to the office, even when it's raining. The commute is only twenty minutes.",
+         "Por lo general camino a la oficina, aunque esté lloviendo. El trayecto es de solo veinte minutos."
+        ],
+        [
+         "A",
+         "In the rain? You used to take a taxi for two blocks in Bogotá!",
+         "¿Bajo la lluvia? ¡En Bogotá cogías taxi para dos cuadras!"
+        ],
+        [
+         "B",
+         "I know! Now walking has become second nature. People here tend to walk everywhere.",
+         "¡Ya sé! Ahora caminar se me volvió automático. La gente aquí suele caminar a todas partes."
+        ],
+        [
+         "A",
+         "What was the hardest thing to adjust to?",
+         "¿Qué fue lo más difícil de asimilar?"
+        ],
+        [
+         "B",
+         "Dinner at six. I was used to eating at eight or nine, so I'd be starving at bedtime.",
+         "Comer a las seis. Estaba acostumbrada a cenar a las ocho o nueve, así que me moría de hambre a la hora de dormir."
+        ],
+        [
+         "A",
+         "Ha! And your flatmate? You mentioned she had some annoying habits.",
+         "¡Ja! ¿Y tu compañera de apartamento? Me contaste que tenía unas mañas molestas."
+        ],
+        [
+         "B",
+         "Oh, she will leave her wet towels on the sofa. It's infuriating! But she's lovely otherwise.",
+         "Uy, no hace sino dejar las toallas mojadas en el sofá. ¡Es exasperante! Pero por lo demás es un amor."
+        ],
+        [
+         "A",
+         "Do you think you'll ever get used to living so far from home?",
+         "¿Crees que algún día te acostumbrarás a vivir tan lejos de casa?"
+        ],
+        [
+         "B",
+         "More often than not, I feel at home now. Every so often I miss arepas, but I'm getting there.",
+         "La mayoría de las veces ya me siento en casa. De vez en cuando extraño las arepas, pero voy por buen camino."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I've lived in Bogotá for years, so I ___ the altitude.",
+        "o": [
+         "used to",
+         "am used to",
+         "get used",
+         "use to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "It took me months to ___ working night shifts.",
+        "o": [
+         "used to",
+         "get used to",
+         "be use to",
+         "use to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "When we were children, my grandmother ___ us stories by the fire.",
+        "o": [
+         "was used to tell",
+         "would tell",
+         "is used to telling",
+         "gets used to telling"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "She's not used to ___ (drive) in such heavy traffic.",
+        "ans": [
+         "driving"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "When I first moved to Japan, I couldn't get used to bowing to everyone, but after a few months it became second nature.",
+        "q": "¿Qué le costó al principio?",
+        "o": [
+         "La comida",
+         "Hacer reverencias",
+         "El transporte público",
+         "El idioma escrito"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "It took me a long time to get used to living on my own."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "He",
+         "will",
+         "keep",
+         "interrupting",
+         "me",
+         "in",
+         "meetings!"
+        ],
+        "es": "¡No hace sino interrumpirme en las reuniones!"
+       },
+       {
+        "t": "order",
+        "words": [
+         "I'm",
+         "not",
+         "used",
+         "to",
+         "working",
+         "from",
+         "home."
+        ],
+        "es": "No estoy acostumbrado a trabajar desde la casa."
+       },
+       {
+        "t": "dict",
+        "say": "My father is a real creature of habit."
+       },
+       {
+        "t": "dict",
+        "say": "Every so often, we'll go out for dinner on a Friday."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál expresa un estado pasado que ya no existe?",
+        "o": [
+         "I would have a dog.",
+         "I used to have a dog.",
+         "I'm used to having a dog.",
+         "I get used to have a dog."
+        ],
+        "a": 1,
+        "x": "Would no se usa con estados como have (poseer)."
+       },
+       {
+        "t": "fill",
+        "q": "He finally ___ the habit after ten years of smoking. (dejó el vicio, modismo)",
+        "ans": [
+         "kicked"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "My new boss will invariably send emails at midnight. At first it was infuriating, but now I'm used to ignoring them until the morning.",
+        "q": "¿Qué hace ahora con los correos de medianoche?",
+        "o": [
+         "Los responde de inmediato",
+         "Los ignora hasta la mañana",
+         "Se queja con recursos humanos",
+         "Apaga el celular"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre una época de cambio en tu vida: una mudanza, un trabajo nuevo o la universidad (mínimo 90 palabras). Explica a qué estabas acostumbrado, qué te costó acostumbrarte y qué solías hacer antes. Usa used to, be used to, get used to y would.",
+        "min": 90,
+        "keys": [
+         [
+          "used to"
+         ],
+         [
+          "am used to",
+          "was used to",
+          "'m used to",
+          "not used to"
+         ],
+         [
+          "get used to",
+          "got used to",
+          "getting used to"
+         ],
+         [
+          "would",
+          "'d"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "After a year in Canada, she finally ___ the long, dark winters.",
+       "o": [
+        "used to",
+        "got used to",
+        "would",
+        "is use to"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I'm used to ___ up early for work.",
+       "o": [
+        "get",
+        "getting",
+        "got",
+        "be get"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u1-l4",
+      "title": "Verbos de estado vs. verbos de acción",
+      "goal": "Usar correctamente los verbos que no admiten continuo y reconocer los que cambian de significado según el tiempo verbal.",
+      "theory": [
+       {
+        "p": "Los **verbos de estado** expresan opiniones, sentimientos, posesión, sentidos o estados mentales, y **normalmente no se usan en forma continua**: know, believe, understand, own, belong, need, prefer, seem, contain, deserve. Decimos **I understand** (no 'I'm understanding') y **This book belongs to me** (no 'is belonging')."
+       },
+       {
+        "p": "Algunos verbos tienen un **significado de estado** y otro **de acción**, y **en continuo cambian de sentido**:"
+       },
+       {
+        "ex": [
+         [
+          "I think it's a good idea. / I'm thinking about changing jobs.",
+          "Creo que es buena idea (opinión). / Estoy pensando en cambiar de trabajo (proceso)."
+         ],
+         [
+          "She has two cars. / She's having lunch with a client.",
+          "Tiene dos carros (posesión). / Está almorzando con un cliente (actividad)."
+         ],
+         [
+          "I see what you mean. / I'm seeing the doctor tomorrow.",
+          "Entiendo lo que quieres decir. / Mañana tengo cita con el médico."
+         ],
+         [
+          "This soup tastes amazing. / The chef is tasting the soup.",
+          "Esta sopa sabe increíble. / El chef está probando la sopa."
+         ],
+         [
+          "The baby weighs four kilos. / The nurse is weighing the baby.",
+          "El bebé pesa cuatro kilos. / La enfermera está pesando al bebé."
+         ]
+        ]
+       },
+       {
+        "p": "**be** también cambia: **He is rude** (es grosero, rasgo permanente) vs **He is being rude** (se está comportando de forma grosera, ahora). Lo mismo con **appear** (parecer vs aparecer / actuar) y **look** (parecer vs mirar)."
+       },
+       {
+        "ex": [
+         [
+          "You're being very stubborn today.",
+          "Hoy estás muy terco (comportamiento temporal)."
+         ],
+         [
+          "She appears to be upset. / She's appearing in a new series.",
+          "Parece estar molesta. / Está actuando en una serie nueva."
+         ],
+         [
+          "Are you seeing anyone?",
+          "¿Estás saliendo con alguien?"
+         ]
+        ]
+       },
+       {
+        "tip": "Los hispanohablantes suelen decir 'I'm agreeing with you' o 'I'm needing help'. Lo correcto es I agree with you y I need help. El famoso I'm loving it es publicidad informal: en un examen, usa I love it."
+       }
+      ],
+      "vocab": [
+       [
+        "state verb",
+        "sustantivo",
+        "verbo de estado",
+        "Know is a state verb."
+       ],
+       [
+        "dynamic verb",
+        "sustantivo",
+        "verbo de acción",
+        "Run is a dynamic verb."
+       ],
+       [
+        "consider",
+        "verbo",
+        "considerar; estar pensando en",
+        "We're considering moving to Spain."
+       ],
+       [
+        "weigh up",
+        "phrasal verb",
+        "sopesar",
+        "I'm still weighing up the pros and cons."
+       ],
+       [
+        "appear",
+        "verbo",
+        "parecer; aparecer, actuar",
+        "He appears to be confused."
+       ],
+       [
+        "be being",
+        "expresión",
+        "estar comportándose (de cierta forma)",
+        "You're being unreasonable."
+       ],
+       [
+        "have a word with",
+        "expresión",
+        "hablar (en privado) con alguien",
+        "I'm having a word with my manager later."
+       ],
+       [
+        "taste",
+        "verbo",
+        "saber a; probar",
+        "It tastes of cinnamon."
+       ],
+       [
+        "smell",
+        "verbo",
+        "oler a; oler (acción)",
+        "Why are you smelling the milk?"
+       ],
+       [
+        "see someone",
+        "expresión",
+        "salir con alguien",
+        "She's been seeing someone from work."
+       ],
+       [
+        "look into",
+        "phrasal verb",
+        "investigar, revisar",
+        "We're looking into the complaint."
+       ],
+       [
+        "mind",
+        "verbo",
+        "importar, molestar",
+        "I don't mind waiting."
+       ],
+       [
+        "owe",
+        "verbo",
+        "deber (dinero o un favor)",
+        "I owe you an apology."
+       ],
+       [
+        "belong to",
+        "verbo",
+        "pertenecer a",
+        "This land belongs to my family."
+       ],
+       [
+        "resemble",
+        "verbo",
+        "parecerse a",
+        "She strongly resembles her grandmother."
+       ],
+       [
+        "deserve",
+        "verbo",
+        "merecer",
+        "You deserve a promotion."
+       ],
+       [
+        "doubt",
+        "verbo",
+        "dudar",
+        "I doubt he'll accept the offer."
+       ],
+       [
+        "be fond of",
+        "expresión",
+        "tenerle cariño a; gustarle",
+        "I'm very fond of my old teachers."
+       ],
+       [
+        "stubborn",
+        "adjetivo",
+        "terco",
+        "Stop being so stubborn!"
+       ],
+       [
+        "reluctant",
+        "adjetivo",
+        "reacio",
+        "She seems reluctant to sign the contract."
+       ]
+      ],
+      "dialogue": {
+       "title": "La cena de aniversario",
+       "scene": "Andrés cocina para la cena de aniversario de sus padres y su amiga Chloe lo ayuda en la cocina.",
+       "a": "Chloe",
+       "b": "Andrés",
+       "lines": [
+        [
+         "A",
+         "It smells incredible in here. What are you making?",
+         "Huele increíble aquí. ¿Qué estás preparando?"
+        ],
+        [
+         "B",
+         "Ajiaco, my grandmother's recipe. I'm tasting it now, but I think it needs more guascas.",
+         "Ajiaco, la receta de mi abuela. Lo estoy probando ahora, pero creo que le faltan guascas."
+        ],
+        [
+         "A",
+         "Let me try. Hmm, it tastes perfect to me. You're being too hard on yourself.",
+         "Déjame probar. Mmm, a mí me sabe perfecto. Estás siendo muy duro contigo mismo."
+        ],
+        [
+         "B",
+         "Maybe. My parents are very fond of this dish, and I want everything to be perfect tonight.",
+         "Puede ser. A mis papás les encanta este plato y quiero que todo salga perfecto esta noche."
+        ],
+        [
+         "A",
+         "Thirty-five years married! What are you giving them?",
+         "¡Treinta y cinco años de casados! ¿Qué les vas a regalar?"
+        ],
+        [
+         "B",
+         "I'm considering a weekend in Villa de Leyva, but I'm still weighing up the options.",
+         "Estoy considerando un fin de semana en Villa de Leyva, pero todavía estoy sopesando las opciones."
+        ],
+        [
+         "A",
+         "That sounds lovely. Do you know if they've been there before?",
+         "Suena precioso. ¿Sabes si ya han ido?"
+        ],
+        [
+         "B",
+         "I doubt it. My dad always says he doesn't mind where they go, as long as they're together.",
+         "Lo dudo. Mi papá siempre dice que no le importa a dónde vayan, siempre y cuando estén juntos."
+        ],
+        [
+         "A",
+         "Aww. By the way, is your sister coming? I heard she's seeing someone new.",
+         "Aww. A propósito, ¿viene tu hermana? Oí que está saliendo con alguien nuevo."
+        ],
+        [
+         "B",
+         "She is! He's coming tonight too. Apparently he strongly resembles a young Carlos Vives.",
+         "¡Sí! Él también viene esta noche. Al parecer se parece muchísimo a un Carlos Vives joven."
+        ],
+        [
+         "A",
+         "Ha! Now I really want to meet him. Are you having a word with him before dinner?",
+         "¡Ja! Ahora sí quiero conocerlo. ¿Vas a hablar con él antes de la cena?"
+        ],
+        [
+         "B",
+         "No, I'm not being the protective brother this time. She deserves to be happy.",
+         "No, esta vez no voy a hacer el papel de hermano sobreprotector. Ella merece ser feliz."
+        ],
+        [
+         "A",
+         "Very mature of you. Now, what do you need me to do?",
+         "Muy maduro de tu parte. Bueno, ¿qué necesitas que haga?"
+        ],
+        [
+         "B",
+         "Could you weigh the flour for the dessert? The recipe says it should weigh exactly 250 grams.",
+         "¿Podrías pesar la harina para el postre? La receta dice que debe pesar exactamente 250 gramos."
+        ],
+        [
+         "A",
+         "On it. I see you've thought of everything!",
+         "Ya mismo. ¡Veo que pensaste en todo!"
+        ],
+        [
+         "B",
+         "I hope so. I owe them so much; tonight is my way of saying thank you.",
+         "Eso espero. Les debo tanto; esta noche es mi forma de darles las gracias."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I ___ what you mean, but I don't agree.",
+        "o": [
+         "am seeing",
+         "see",
+         "am see",
+         "have been seeing"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "We ___ about selling the apartment and moving abroad.",
+        "o": [
+         "think",
+         "are thinking",
+         "thinks",
+         "are think"
+        ],
+        "a": 1,
+        "x": "Think en continuo = proceso de considerar algo."
+       },
+       {
+        "t": "mc",
+        "q": "Why ___ so rude to your sister today? It's not like you.",
+        "o": [
+         "are you",
+         "are you being",
+         "do you be",
+         "have you being"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "This laptop ___ (belong) to the company, so you can't take it home.",
+        "ans": [
+         "belongs"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Sorry, I can't talk right now. I'm having dinner with some clients, but I'll call you back as soon as I'm free.",
+        "q": "¿Qué está haciendo la persona?",
+        "o": [
+         "Está en una reunión virtual",
+         "Está cenando con clientes",
+         "Está manejando",
+         "Está en el médico"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I'm seeing my dentist on Thursday, so I can't make the meeting."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "appears",
+         "to",
+         "be",
+         "reluctant",
+         "to",
+         "sign",
+         "the",
+         "contract."
+        ],
+        "es": "Parece estar reacia a firmar el contrato."
+       },
+       {
+        "t": "order",
+        "words": [
+         "We're",
+         "looking",
+         "into",
+         "your",
+         "complaint",
+         "right",
+         "now."
+        ],
+        "es": "Estamos revisando su queja en este momento."
+       },
+       {
+        "t": "dict",
+        "say": "This soup tastes of ginger and lime."
+       },
+       {
+        "t": "dict",
+        "say": "I'm still weighing up the pros and cons."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "I'm needing your help.",
+         "I need your help.",
+         "I'm need your help.",
+         "I am needed your help."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'She is having a baby' significa:",
+        "o": [
+         "Tiene un bebé (posesión)",
+         "Va a tener / está teniendo un bebé",
+         "Está cargando un bebé",
+         "Le gustan los bebés"
+        ],
+        "a": 1
+       },
+       {
+        "t": "listen",
+        "say": "My brother is usually very generous, but he's being incredibly stubborn about paying for the trip. I doubt he'll change his mind.",
+        "q": "¿Cómo describe al hermano normalmente?",
+        "o": [
+         "Terco",
+         "Generoso",
+         "Tímido",
+         "Despistado"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Describe a una persona cercana (mínimo 90 palabras): cómo es normalmente y cómo se está comportando o qué está haciendo en esta etapa de su vida. Usa al menos tres verbos que cambian de significado (think, have, see, be, taste, look) en forma simple y continua.",
+        "min": 90,
+        "keys": [
+         [
+          "think",
+          "thinks",
+          "is thinking",
+          "'s thinking",
+          "am thinking"
+         ],
+         [
+          "has",
+          "have",
+          "is having",
+          "'s having"
+         ],
+         [
+          "is being",
+          "are being",
+          "'s being"
+         ],
+         [
+          "see",
+          "sees",
+          "seeing",
+          "looks",
+          "appears"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The chef ___ the sauce to check if it needs more salt.",
+       "o": [
+        "tastes",
+        "is tasting",
+        "taste",
+        "is taste"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I ___ this jacket costs too much.",
+       "o": [
+        "am thinking",
+        "think",
+        "thinking",
+        "am think"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u1-l5",
+      "title": "Narrar con intensificadores y estructuras avanzadas",
+      "goal": "Contar historias con más fuerza usando intensificadores, adverbios como barely y hardly, e inversiones narrativas.",
+      "theory": [
+       {
+        "p": "Los **intensificadores** dependen del tipo de adjetivo. Con adjetivos **graduables** (tired, cold, angry) usa **very, extremely, incredibly, really**. Con adjetivos **extremos** o no graduables (exhausted, freezing, furious, devastated) usa **absolutely, utterly, completely, totally**. **Really** e **incredibly** funcionan con ambos."
+       },
+       {
+        "ex": [
+         [
+          "I was extremely tired. / I was absolutely exhausted.",
+          "Estaba muy cansado. / Estaba totalmente agotado."
+         ],
+         [
+          "The news left her utterly devastated.",
+          "La noticia la dejó completamente devastada."
+         ],
+         [
+          "The view was incredibly beautiful.",
+          "La vista era increíblemente hermosa."
+         ]
+        ]
+       },
+       {
+        "p": "**barely, hardly** y **scarcely** significan **'casi no' / 'apenas'** y ya son negativos: **nunca** van con not. Se combinan con **any, ever, can / could**: **I could hardly breathe.** (Casi no podía respirar). **There was barely any light.** (Casi no había luz)."
+       },
+       {
+        "p": "En la narración formal o dramática se usa la **inversión** (auxiliar antes del sujeto) tras expresiones negativas: **No sooner had I... than**, **Hardly had I... when**, **Little did I know (that)...**, **Never before had I...**"
+       },
+       {
+        "ex": [
+         [
+          "No sooner had we sat down than the lights went out.",
+          "Apenas nos sentamos, se fue la luz."
+         ],
+         [
+          "Hardly had I closed my eyes when the phone rang.",
+          "Apenas cerré los ojos, sonó el teléfono."
+         ],
+         [
+          "Little did she know that he had been following her.",
+          "Ella no tenía ni idea de que él la había estado siguiendo."
+         ],
+         [
+          "Never before had I felt so utterly alone.",
+          "Nunca antes me había sentido tan completamente solo."
+         ]
+        ]
+       },
+       {
+        "tip": "Errores típicos: 'very exhausted' o 'absolutely tired' (combinación incorrecta), 'I couldn't hardly see' (doble negación) y confundir hard (duro, con esfuerzo) con hardly (casi no): He works hard (trabaja duro) vs He hardly works (casi no trabaja). Ojo: no sooner va con than, pero hardly va con when."
+       }
+      ],
+      "vocab": [
+       [
+        "utterly",
+        "adverbio",
+        "completamente, absolutamente",
+        "The plan was utterly ridiculous."
+       ],
+       [
+        "incredibly",
+        "adverbio",
+        "increíblemente",
+        "The hike was incredibly steep."
+       ],
+       [
+        "barely",
+        "adverbio",
+        "apenas, casi no",
+        "I could barely see the road."
+       ],
+       [
+        "hardly",
+        "adverbio",
+        "casi no, apenas",
+        "We hardly ever speak now."
+       ],
+       [
+        "scarcely",
+        "adverbio",
+        "apenas (más formal)",
+        "She had scarcely arrived when the trouble began."
+       ],
+       [
+        "no sooner... than",
+        "conector",
+        "apenas... cuando, tan pronto como",
+        "No sooner had I left than it started to pour."
+       ],
+       [
+        "hardly... when",
+        "conector",
+        "apenas... cuando",
+        "Hardly had we started when the power went out."
+       ],
+       [
+        "little did I know",
+        "expresión",
+        "no tenía ni idea de que",
+        "Little did I know my life was about to change."
+       ],
+       [
+        "never before had I",
+        "expresión",
+        "nunca antes había (yo)",
+        "Never before had I seen such a storm."
+       ],
+       [
+        "deeply",
+        "adverbio",
+        "profundamente",
+        "We were deeply moved by her speech."
+       ],
+       [
+        "bitterly",
+        "adverbio",
+        "amargamente, profundamente",
+        "The fans were bitterly disappointed."
+       ],
+       [
+        "highly",
+        "adverbio",
+        "sumamente, muy",
+        "It's highly unlikely that they'll come back."
+       ],
+       [
+        "painfully",
+        "adverbio",
+        "dolorosamente, terriblemente",
+        "The service was painfully slow."
+       ],
+       [
+        "eerie",
+        "adjetivo",
+        "inquietante, espeluznante",
+        "There was an eerie silence in the house."
+       ],
+       [
+        "pitch-black",
+        "adjetivo",
+        "oscuro como boca de lobo",
+        "The corridor was pitch-black."
+       ],
+       [
+        "petrified",
+        "adjetivo",
+        "petrificado, muerto del susto",
+        "I was absolutely petrified."
+       ],
+       [
+        "stunned",
+        "adjetivo",
+        "atónito, pasmado",
+        "We were utterly stunned by the news."
+       ],
+       [
+        "creak",
+        "verbo",
+        "crujir, rechinar",
+        "The floorboards creaked under my feet."
+       ],
+       [
+        "out of the blue",
+        "modismo",
+        "de la nada, de repente",
+        "Out of the blue, she called me after ten years."
+       ],
+       [
+        "to my horror",
+        "expresión",
+        "para mi horror",
+        "To my horror, the door was open."
+       ]
+      ],
+      "dialogue": {
+       "title": "La noche en la finca",
+       "scene": "En una fogata, Camila le cuenta a su amigo irlandés Liam lo que le pasó una noche en una finca del Eje Cafetero.",
+       "a": "Liam",
+       "b": "Camila",
+       "lines": [
+        [
+         "A",
+         "Go on, Camila, tell me the story about the farmhouse. Everyone says it's incredibly creepy.",
+         "Dale, Camila, cuéntame la historia de la finca. Todos dicen que es increíblemente escalofriante."
+        ],
+        [
+         "B",
+         "OK. It was my first night there, and the house was utterly silent. An eerie kind of silence.",
+         "Bueno. Era mi primera noche allá y la casa estaba en completo silencio. Un silencio inquietante."
+        ],
+        [
+         "A",
+         "Were you alone?",
+         "¿Estabas sola?"
+        ],
+        [
+         "B",
+         "Completely. My cousins had gone to town, and there was barely any phone signal.",
+         "Completamente. Mis primos se habían ido al pueblo y casi no había señal de celular."
+        ],
+        [
+         "A",
+         "That alone would make me nervous.",
+         "Solo eso ya me pondría nervioso."
+        ],
+        [
+         "B",
+         "No sooner had I turned off the light than I heard the floorboards creaking in the corridor.",
+         "Apenas apagué la luz, oí crujir el piso de madera en el corredor."
+        ],
+        [
+         "A",
+         "No way! What did you do?",
+         "¡No puede ser! ¿Qué hiciste?"
+        ],
+        [
+         "B",
+         "I was absolutely petrified. I could hardly breathe, let alone move.",
+         "Estaba muerta del susto. Casi no podía respirar, mucho menos moverme."
+        ],
+        [
+         "A",
+         "Did you go and check?",
+         "¿Fuiste a revisar?"
+        ],
+        [
+         "B",
+         "Eventually. The corridor was pitch-black, and to my horror, the front door was wide open.",
+         "Al final sí. El corredor estaba oscuro como boca de lobo y, para mi horror, la puerta principal estaba abierta de par en par."
+        ],
+        [
+         "A",
+         "Oh, I'm getting chills. And then?",
+         "Uy, me están dando escalofríos. ¿Y luego?"
+        ],
+        [
+         "B",
+         "Hardly had I reached the door when something brushed against my leg. Never before had I screamed so loud.",
+         "Apenas llegué a la puerta, algo me rozó la pierna. Nunca antes había gritado tan duro."
+        ],
+        [
+         "A",
+         "What was it?",
+         "¿Qué era?"
+        ],
+        [
+         "B",
+         "Little did I know that the neighbours' dog had been sleeping inside all evening. It had pushed the door open.",
+         "No tenía ni idea de que el perro de los vecinos había estado durmiendo adentro toda la noche. Había empujado la puerta."
+        ],
+        [
+         "A",
+         "Ha! So the ghost was a dog. I'm bitterly disappointed!",
+         "¡Ja! O sea que el fantasma era un perro. ¡Qué desilusión tan grande!"
+        ],
+        [
+         "B",
+         "Laugh all you want. I was utterly stunned, and I barely slept for the rest of the week!",
+         "Ríete todo lo que quieras. Quedé completamente pasmada, ¡y casi no dormí el resto de la semana!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "After the marathon, I was ___ exhausted.",
+        "o": [
+         "very",
+         "absolutely",
+         "a bit",
+         "fairly"
+        ],
+        "a": 1,
+        "x": "Exhausted es un adjetivo extremo → absolutely / utterly."
+       },
+       {
+        "t": "mc",
+        "q": "It was so dark that I could ___ see my own hands.",
+        "o": [
+         "hard",
+         "hardly",
+         "not hardly",
+         "no hardly"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "No sooner had we arrived ___ it started to pour.",
+        "o": [
+         "when",
+         "than",
+         "that",
+         "then"
+        ],
+        "a": 1,
+        "x": "No sooner... than; hardly... when."
+       },
+       {
+        "t": "fill",
+        "q": "Little ___ I know that the job offer would change my life. (did / sabía)",
+        "ans": [
+         "did"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Hardly had the plane taken off when the captain announced that we had to return to the airport because of a technical problem.",
+        "q": "¿Cuándo hizo el anuncio el capitán?",
+        "o": [
+         "Antes de despegar",
+         "Justo después de despegar",
+         "Al aterrizar",
+         "A mitad del vuelo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Never before had I felt so utterly alone in such a crowded city."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "There",
+         "was",
+         "barely",
+         "any",
+         "food",
+         "left",
+         "in",
+         "the",
+         "fridge."
+        ],
+        "es": "Casi no quedaba comida en la nevera."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Out",
+         "of",
+         "the",
+         "blue,",
+         "she",
+         "called",
+         "me",
+         "after",
+         "ten",
+         "years."
+        ],
+        "es": "De la nada, me llamó después de diez años."
+       },
+       {
+        "t": "dict",
+        "say": "There was an eerie silence in the empty house."
+       },
+       {
+        "t": "dict",
+        "say": "We were bitterly disappointed by the final result."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "I couldn't hardly sleep.",
+         "I could hardly sleep.",
+         "I hardly couldn't sleep.",
+         "I could hard sleep."
+        ],
+        "a": 1,
+        "x": "Hardly ya es negativo: no se combina con not."
+       },
+       {
+        "t": "fill",
+        "q": "It's ___ unlikely that the company will hire new staff this year. (sumamente)",
+        "ans": [
+         "highly"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The service at the restaurant was painfully slow, and to our horror, the waiter dropped the birthday cake right in front of us.",
+        "q": "¿Qué pasó con la torta de cumpleaños?",
+        "o": [
+         "Llegó tarde",
+         "Se le cayó al mesero",
+         "Estaba quemada",
+         "Era de otra persona"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Cuenta una experiencia que te asustó o sorprendió muchísimo (mínimo 100 palabras). Usa al menos tres intensificadores bien combinados (absolutely, utterly, incredibly...), barely o hardly, y una estructura con inversión (No sooner had I..., Hardly had I..., Little did I know..., Never before had I...).",
+        "min": 100,
+        "keys": [
+         [
+          "absolutely",
+          "utterly",
+          "incredibly",
+          "completely",
+          "deeply",
+          "bitterly"
+         ],
+         [
+          "barely",
+          "hardly",
+          "scarcely"
+         ],
+         [
+          "no sooner",
+          "hardly had",
+          "little did",
+          "never before"
+         ],
+         [
+          "had"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The film was ___ brilliant; I'd watch it again tomorrow.",
+       "o": [
+        "very",
+        "fairly",
+        "absolutely",
+        "a little"
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___ had I closed the door when I realized my keys were inside.",
+       "o": [
+        "No sooner",
+        "Hardly",
+        "Little",
+        "Never"
+       ],
+       "a": 1,
+       "x": "Hardly... when; no sooner... than."
+      },
+      "reading": 0,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "Her voice was hoarse because she ___ at the concert all night.",
+      "o": [
+       "has shouted",
+       "had been shouting",
+       "was shouted",
+       "shouts"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "By the time we get to the stadium, the match ___.",
+      "o": [
+       "will be starting",
+       "will have started",
+       "has started",
+       "is starting"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Will you ___ the printer this afternoon? I need to print some contracts.",
+      "o": [
+       "have used",
+       "be using",
+       "using",
+       "used"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I've lived here for ten years, so I'm used to ___ in this neighbourhood.",
+      "o": [
+       "live",
+       "living",
+       "lived",
+       "have lived"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Which sentence is correct?",
+      "o": [
+       "I'm knowing the answer.",
+       "She's having a lot of money.",
+       "He's being very difficult today.",
+       "This bag is belonging to me."
+      ],
+      "a": 2
+     },
+     {
+      "t": "fill",
+      "q": "I was ___ (completamente) devastated when I heard the news.",
+      "ans": [
+       "utterly",
+       "absolutely",
+       "completely",
+       "totally"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "This time next month, I'll be starting my new job in Montreal, and by Christmas I'll have found a flat near the office.",
+      "q": "¿Qué habrá hecho para Navidad?",
+      "o": [
+       "Empezar su nuevo trabajo",
+       "Encontrar un apartamento",
+       "Volver a Colombia",
+       "Renunciar"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "No sooner had the guests arrived than the power went out, so we had dinner by candlelight.",
+      "q": "¿Qué pasó apenas llegaron los invitados?",
+      "o": [
+       "Empezó a llover",
+       "Se fue la luz",
+       "Se quemó la cena",
+       "Llegó la policía"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe un relato personal (mínimo 110 palabras) sobre un gran cambio en tu vida: qué llevabas tiempo haciendo antes (past perfect continuous), a qué te tuviste que acostumbrar (get used to / be used to) y dónde te ves en cinco años (future continuous o future perfect). Incluye al menos un intensificador.",
+      "min": 110,
+      "keys": [
+       [
+        "had been"
+       ],
+       [
+        "get used to",
+        "got used to",
+        "am used to",
+        "was used to",
+        "'m used to"
+       ],
+       [
+        "will be",
+        "will have",
+        "'ll be",
+        "'ll have"
+       ],
+       [
+        "absolutely",
+        "utterly",
+        "incredibly",
+        "barely",
+        "hardly"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "By the time I retire, I will have been working in this industry for forty years."
+     },
+     {
+      "t": "oral",
+      "text": "Little did I know that my neighbour had been listening to the whole conversation."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "They were exhausted because they ___ the house all weekend.",
+      "o": [
+       "had been painting",
+       "have painted",
+       "paint",
+       "were paint"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I ___ in this company for fifteen years next March.",
+      "o": [
+       "will work",
+       "will have been working",
+       "am working",
+       "have worked"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "My uncle ___ always fall asleep in front of the TV after lunch.",
+      "o": [
+       "will",
+       "is used to",
+       "gets",
+       "used"
+      ],
+      "a": 0,
+      "x": "Will para un hábito típico del presente."
+     },
+     {
+      "t": "mc",
+      "q": "She ___ her new boss's direct style yet, but she's trying.",
+      "o": [
+       "isn't used to",
+       "didn't use to",
+       "wouldn't",
+       "isn't using to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "What ___ about? You look worried.",
+      "o": [
+       "do you think",
+       "are you thinking",
+       "you think",
+       "are you think"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The exam was ___ difficult; almost nobody passed.",
+      "o": [
+       "absolutely",
+       "incredibly",
+       "utterly",
+       "completely"
+      ],
+      "a": 1,
+      "x": "Difficult es graduable: incredibly, no absolutely."
+     },
+     {
+      "t": "fill",
+      "q": "He works so little that he ___ ever finishes on time. (casi nunca)",
+      "ans": [
+       "hardly",
+       "barely",
+       "scarcely"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Don't worry, you'll soon get used to ___ (work) remotely.",
+      "ans": [
+       "working"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "When the firefighters finally arrived, the fire had been burning for almost three hours and the building was completely destroyed.",
+      "q": "¿Cuánto tiempo llevaba el incendio cuando llegaron los bomberos?",
+      "o": [
+       "Media hora",
+       "Casi tres horas",
+       "Toda la noche",
+       "Diez minutos"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Please don't call between two and four tomorrow. I'll be sitting my final exam, but by five I'll have finished and I'll call you back.",
+      "q": "¿Por qué no se le puede llamar entre las dos y las cuatro?",
+      "o": [
+       "Estará durmiendo",
+       "Estará presentando un examen",
+       "Estará viajando",
+       "Estará en una entrevista"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "I used to hate spicy food, but after living in Mexico for two years, I'm completely used to it. Now I can't eat without chili.",
+      "q": "¿Qué cambió en esta persona?",
+      "o": [
+       "Dejó de comer picante",
+       "Se acostumbró a la comida picante",
+       "Aprendió a cocinar",
+       "Se mudó de México"
+      ],
+      "a": 1
+     },
+     {
+      "t": "order",
+      "words": [
+       "The",
+       "nurse",
+       "is",
+       "weighing",
+       "the",
+       "baby",
+       "right",
+       "now."
+      ],
+      "es": "La enfermera está pesando al bebé en este momento."
+     },
+     {
+      "t": "order",
+      "words": [
+       "Never",
+       "before",
+       "had",
+       "I",
+       "seen",
+       "such",
+       "a",
+       "storm."
+      ],
+      "es": "Nunca antes había visto una tormenta así."
+     },
+     {
+      "t": "oral",
+      "text": "This time next year, I'll be living abroad and I'll have finished my master's degree."
+     },
+     {
+      "t": "oral",
+      "text": "It took me months to get used to the hectic pace of life in the city."
+     }
+    ]
+   },
+   {
+    "title": "Condicionales y arrepentimientos",
+    "lessons": [
+     {
+      "id": "b2-u2-l1",
+      "title": "Tercer condicional",
+      "goal": "Imaginar cómo habría sido el pasado si algo hubiera pasado de otra manera.",
+      "theory": [
+       {
+        "p": "El **tercer condicional** habla de situaciones **irreales del pasado**: algo que **no pasó** y su resultado imaginario. Estructura: **If + had + participio, would have + participio**."
+       },
+       {
+        "ex": [
+         [
+          "If I had left earlier, I wouldn't have missed the flight.",
+          "Si hubiera salido más temprano, no habría perdido el vuelo."
+         ],
+         [
+          "If she hadn't called me, I would have forgotten the meeting.",
+          "Si ella no me hubiera llamado, se me habría olvidado la reunión."
+         ],
+         [
+          "We would have won if the referee had seen the foul.",
+          "Habríamos ganado si el árbitro hubiera visto la falta."
+         ]
+        ]
+       },
+       {
+        "p": "En lugar de **would have** puedes usar **could have** (habría podido) o **might have** (quizás habría) para expresar posibilidad en vez de certeza."
+       },
+       {
+        "ex": [
+         [
+          "If you had asked me, I could have helped you.",
+          "Si me hubieras preguntado, te habría podido ayudar."
+         ],
+         [
+          "If we had taken a taxi, we might have arrived on time.",
+          "Si hubiéramos tomado un taxi, quizás habríamos llegado a tiempo."
+         ]
+        ]
+       },
+       {
+        "p": "En registro formal se puede **invertir** y eliminar if: **Had I known** = If I had known. Y con sustantivos: **Had it not been for / If it hadn't been for** + sustantivo = de no haber sido por."
+       },
+       {
+        "tip": "Error típico: 'If I would have known...' es incorrecto. Nunca va would en la parte del if: If I had known. Ojo con 'd: en If I'd known, I'd have called, el primer 'd es had y el segundo es would."
+       }
+      ],
+      "vocab": [
+       [
+        "turning point",
+        "sustantivo",
+        "punto de quiebre, momento decisivo",
+        "Moving to Medellín was a turning point in my life."
+       ],
+       [
+        "in hindsight",
+        "expresión",
+        "en retrospectiva, visto ahora",
+        "In hindsight, I should have accepted the offer."
+       ],
+       [
+        "narrowly",
+        "adverbio",
+        "por poco, por un pelo",
+        "We narrowly avoided a serious accident."
+       ],
+       [
+        "miss out on",
+        "phrasal verb",
+        "perderse (una oportunidad)",
+        "If I hadn't gone, I would have missed out on the best night ever."
+       ],
+       [
+        "take a chance",
+        "colocación",
+        "arriesgarse",
+        "She took a chance and applied for the job abroad."
+       ],
+       [
+        "sheer luck",
+        "colocación",
+        "pura suerte",
+        "It was sheer luck that we found the keys."
+       ],
+       [
+        "a close call",
+        "modismo",
+        "un susto, algo que estuvo a punto de pasar",
+        "That was a close call; the truck almost hit us."
+       ],
+       [
+        "end up",
+        "phrasal verb",
+        "terminar (haciendo o en un lugar)",
+        "We got lost and ended up in a tiny village."
+       ],
+       [
+        "chain of events",
+        "colocación",
+        "cadena de sucesos",
+        "A strange chain of events brought them together."
+       ],
+       [
+        "stumble upon",
+        "phrasal verb",
+        "toparse con, encontrar por casualidad",
+        "I stumbled upon an old photo of my parents."
+       ],
+       [
+        "pass up",
+        "phrasal verb",
+        "dejar pasar, desaprovechar",
+        "Don't pass up a chance like that."
+       ],
+       [
+        "make it",
+        "expresión",
+        "lograrlo; llegar a tiempo",
+        "If the train had been late, we wouldn't have made it."
+       ],
+       [
+        "outcome",
+        "sustantivo",
+        "resultado, desenlace",
+        "Nobody could have predicted the outcome."
+       ],
+       [
+        "unforeseen",
+        "adjetivo",
+        "imprevisto",
+        "Unforeseen problems delayed the project."
+       ],
+       [
+        "overlook",
+        "verbo",
+        "pasar por alto",
+        "The inspector overlooked a small but important detail."
+       ],
+       [
+        "alter",
+        "verbo",
+        "alterar, cambiar",
+        "One phone call altered the course of her career."
+       ],
+       [
+        "had it not been for",
+        "expresión",
+        "de no haber sido por",
+        "Had it not been for your help, I would have failed."
+       ],
+       [
+        "fate",
+        "sustantivo",
+        "destino",
+        "Some people say it was fate."
+       ],
+       [
+        "slip one's mind",
+        "modismo",
+        "olvidársele a uno",
+        "Sorry, your birthday completely slipped my mind."
+       ],
+       [
+        "go ahead with",
+        "phrasal verb",
+        "seguir adelante con",
+        "They went ahead with the wedding despite the storm."
+       ]
+      ],
+      "dialogue": {
+       "title": "Cuestión de suerte",
+       "scene": "Daniela le cuenta a su colega Mark cómo un vuelo perdido le cambió la vida.",
+       "a": "Mark",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "So how did you and Tom actually meet? You've never told me.",
+         "¿Y cómo se conocieron tú y Tom? Nunca me has contado."
+        ],
+        [
+         "B",
+         "Honestly, it was sheer luck. I missed a connecting flight in Atlanta about six years ago.",
+         "La verdad, fue pura suerte. Perdí un vuelo de conexión en Atlanta hace como seis años."
+        ],
+        [
+         "A",
+         "That sounds like a nightmare, not a love story.",
+         "Eso suena a pesadilla, no a historia de amor."
+        ],
+        [
+         "B",
+         "It was, at first. If my first flight hadn't been delayed, I would have made the connection without any problem.",
+         "Al principio sí. Si mi primer vuelo no se hubiera retrasado, habría alcanzado la conexión sin problema."
+        ],
+        [
+         "A",
+         "And then you ended up stuck at the airport?",
+         "¿Y terminaste atrapada en el aeropuerto?"
+        ],
+        [
+         "B",
+         "Exactly. The airline put me in a hotel, and Tom was waiting in the same line at the reception desk.",
+         "Exacto. La aerolínea me mandó a un hotel, y Tom estaba en la misma fila de la recepción."
+        ],
+        [
+         "A",
+         "What a chain of events! Did you start talking straight away?",
+         "¡Qué cadena de sucesos! ¿Empezaron a hablar de una?"
+        ],
+        [
+         "B",
+         "Not really. He dropped his passport and I picked it up. If I hadn't noticed it, he might have lost it.",
+         "No mucho. A él se le cayó el pasaporte y yo lo recogí. Si yo no lo hubiera visto, quizás lo habría perdido."
+        ],
+        [
+         "A",
+         "So you basically saved his trip.",
+         "O sea que básicamente le salvaste el viaje."
+        ],
+        [
+         "B",
+         "He says so! He invited me for dinner to say thank you, and we talked until midnight.",
+         "¡Eso dice él! Me invitó a cenar para darme las gracias, y hablamos hasta la medianoche."
+        ],
+        [
+         "A",
+         "Do you ever think about what would have happened if you'd caught that flight?",
+         "¿Alguna vez piensas qué habría pasado si hubieras alcanzado ese vuelo?"
+        ],
+        [
+         "B",
+         "All the time. Had I arrived on time, we would never have met. In hindsight, that delay was a turning point.",
+         "Todo el tiempo. Si hubiera llegado a tiempo, nunca nos habríamos conocido. Visto ahora, ese retraso fue un punto de quiebre."
+        ],
+        [
+         "A",
+         "Some people would call it fate.",
+         "Algunos lo llamarían destino."
+        ],
+        [
+         "B",
+         "Maybe. But if he hadn't been so clumsy, I would have missed out on the best thing that ever happened to me!",
+         "Puede ser. ¡Pero si él no hubiera sido tan torpe, me habría perdido lo mejor que me ha pasado!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "If I ___ about the strike, I would have taken the bus.",
+        "o": [
+         "knew",
+         "would have known",
+         "had known",
+         "have known"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "If you had asked me, I ___ you with the move.",
+        "o": [
+         "would help",
+         "could have helped",
+         "had helped",
+         "can have helped"
+        ],
+        "a": 1,
+        "x": "Resultado irreal en el pasado: could have + participio."
+       },
+       {
+        "t": "mc",
+        "q": "___ it not been for the firefighters, the whole building would have burned down.",
+        "o": [
+         "If",
+         "Had",
+         "Has",
+         "Would"
+        ],
+        "a": 1,
+        "x": "Inversión formal: Had it not been for = If it hadn't been for."
+       },
+       {
+        "t": "fill",
+        "q": "If we had booked earlier, we ___ ___ a cheaper flight. (habríamos conseguido)",
+        "ans": [
+         "would have got",
+         "would have gotten",
+         "'d have got",
+         "'d have gotten"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If the driver hadn't braked at the last second, he would have hit the cyclist. It was a really close call.",
+        "q": "¿Qué pasó en realidad?",
+        "o": [
+         "El conductor atropelló al ciclista",
+         "El conductor frenó a tiempo",
+         "El ciclista se cayó solo",
+         "No había ningún ciclista"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "If I had known about the traffic, I would have left much earlier."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "If",
+         "she",
+         "hadn't",
+         "taken",
+         "a",
+         "chance,",
+         "she",
+         "would",
+         "never",
+         "have",
+         "succeeded."
+        ],
+        "es": "Si no se hubiera arriesgado, nunca habría tenido éxito."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Had",
+         "I",
+         "known,",
+         "I",
+         "would",
+         "have",
+         "called",
+         "you."
+        ],
+        "es": "Si lo hubiera sabido, te habría llamado."
+       },
+       {
+        "t": "dict",
+        "say": "Sorry, the meeting completely slipped my mind."
+       },
+       {
+        "t": "dict",
+        "say": "In hindsight, it was a turning point in my career."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "If I would have studied, I would have passed.",
+         "If I had studied, I would have passed.",
+         "If I had studied, I would pass yesterday.",
+         "If I studied, I would have passed yesterday."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Don't ___ ___ an opportunity like this; you may never get another one. (dejar pasar)",
+        "ans": [
+         "pass up"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We nearly cancelled the trip because of the weather, but we went ahead with it. If we had stayed at home, we would have missed out on the most amazing sunset.",
+        "q": "¿Qué decidieron hacer?",
+        "o": [
+         "Cancelar el viaje",
+         "Seguir adelante con el viaje",
+         "Quedarse en la casa",
+         "Cambiar de destino"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Piensa en una decisión o un accidente que cambió tu vida (mínimo 90 palabras). Explica qué pasó y cómo habría sido distinto con al menos cuatro frases en tercer condicional.",
+        "min": 90,
+        "keys": [
+         [
+          "if i had",
+          "if i hadn't",
+          "if we had",
+          "if we hadn't",
+          "had i",
+          "had it not been"
+         ],
+         [
+          "would have",
+          "wouldn't have",
+          "would never have"
+         ],
+         [
+          "could have",
+          "might have"
+         ],
+         [
+          "in hindsight",
+          "turning point",
+          "end up",
+          "ended up",
+          "sheer luck"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "If they ___ the warning signs, the bridge wouldn't have collapsed.",
+       "o": [
+        "noticed",
+        "had noticed",
+        "would notice",
+        "have noticed"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "She ___ the exam if she had studied a bit harder.",
+       "o": [
+        "would pass",
+        "will have passed",
+        "would have passed",
+        "had passed"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u2-l2",
+      "title": "Condicionales mixtos",
+      "goal": "Conectar un pasado imaginario con un presente imaginario, y al revés.",
+      "theory": [
+       {
+        "p": "Los **condicionales mixtos** combinan tiempos porque la condición y el resultado están en **momentos diferentes**. El más común: **condición en el pasado → resultado en el presente**: **If + had + participio, would + verbo**."
+       },
+       {
+        "ex": [
+         [
+          "If I had studied medicine, I would be a doctor now.",
+          "Si hubiera estudiado medicina, ahora sería médico."
+         ],
+         [
+          "If she hadn't moved to Canada, she wouldn't speak French so well.",
+          "Si no se hubiera ido a Canadá, no hablaría francés tan bien."
+         ],
+         [
+          "If we had saved more money, we wouldn't be so stressed right now.",
+          "Si hubiéramos ahorrado más plata, no estaríamos tan estresados ahora."
+         ]
+        ]
+       },
+       {
+        "p": "El segundo tipo: **condición presente o permanente → resultado en el pasado**: **If + pasado simple, would have + participio**. La condición es algo que es (o no es) verdad **en general**."
+       },
+       {
+        "ex": [
+         [
+          "If I weren't afraid of flying, I would have gone to the conference in Tokyo.",
+          "Si no le tuviera miedo a volar, habría ido a la conferencia en Tokio."
+         ],
+         [
+          "If he were more organized, he wouldn't have missed the deadline.",
+          "Si fuera más organizado, no se le habría pasado la fecha límite."
+         ],
+         [
+          "If I spoke German, I would have got that job.",
+          "Si hablara alemán, me habrían dado ese trabajo."
+         ]
+        ]
+       },
+       {
+        "p": "Pista para identificarlos: busca marcadores de tiempo. **now, today, still, by now** apuntan al presente; **yesterday, last year, when I was young** apuntan al pasado."
+       },
+       {
+        "tip": "No mezcles por mezclar: primero pregúntate CUÁNDO es la condición y CUÁNDO el resultado. 'If I had won the lottery last year, I would be rich now' es correcto; 'If I won the lottery last year...' no lo es."
+       }
+      ],
+      "vocab": [
+       [
+        "career path",
+        "colocación",
+        "trayectoria profesional",
+        "Her career path changed completely after university."
+       ],
+       [
+        "settle down",
+        "phrasal verb",
+        "establecerse, sentar cabeza",
+        "If he hadn't met Ana, he wouldn't have settled down."
+       ],
+       [
+        "better off",
+        "adjetivo",
+        "en mejor situación",
+        "We would be better off if we had sold the car."
+       ],
+       [
+        "worse off",
+        "adjetivo",
+        "en peor situación",
+        "Many families are worse off than they were a year ago."
+       ],
+       [
+        "by now",
+        "expresión",
+        "a estas alturas, para ahora",
+        "If we'd left at six, we'd be there by now."
+       ],
+       [
+        "take up",
+        "phrasal verb",
+        "empezar (una actividad o afición)",
+        "I took up the guitar when I was forty."
+       ],
+       [
+        "drop out (of)",
+        "phrasal verb",
+        "abandonar (los estudios)",
+        "If he hadn't dropped out of college, he would have a degree now."
+       ],
+       [
+        "pursue",
+        "verbo",
+        "seguir, perseguir (una meta)",
+        "She decided to pursue a career in law."
+       ],
+       [
+        "fluent",
+        "adjetivo",
+        "fluido (en un idioma)",
+        "If I had lived in London, I'd be fluent by now."
+       ],
+       [
+        "struggle",
+        "verbo",
+        "tener dificultades, luchar",
+        "They're still struggling to pay the rent."
+       ],
+       [
+        "hold back",
+        "phrasal verb",
+        "frenar, contener",
+        "Fear of failure held him back for years."
+       ],
+       [
+        "abroad",
+        "adverbio",
+        "en el exterior",
+        "She has been living abroad since 2019."
+       ],
+       [
+        "scholarship",
+        "sustantivo",
+        "beca",
+        "If I hadn't got the scholarship, I couldn't have studied in Spain."
+       ],
+       [
+        "look after",
+        "phrasal verb",
+        "cuidar",
+        "She looks after her younger brothers."
+       ],
+       [
+        "wealthy",
+        "adjetivo",
+        "adinerado, rico",
+        "His family is quite wealthy."
+       ],
+       [
+        "broke",
+        "adjetivo",
+        "sin un peso, pelado",
+        "I can't go out this weekend; I'm broke."
+       ],
+       [
+        "stable",
+        "adjetivo",
+        "estable",
+        "He has a stable job with a good salary."
+       ],
+       [
+        "mindset",
+        "sustantivo",
+        "mentalidad",
+        "Changing your mindset can change your life."
+       ],
+       [
+        "upbringing",
+        "sustantivo",
+        "crianza, educación en casa",
+        "Her strict upbringing made her very disciplined."
+       ],
+       [
+        "take for granted",
+        "colocación",
+        "dar por sentado, no valorar",
+        "We often take our health for granted."
+       ]
+      ],
+      "dialogue": {
+       "title": "La vida que no fue",
+       "scene": "Felipe y su amiga Rachel, en un café de Bogotá, hablan de las decisiones que marcaron sus vidas.",
+       "a": "Rachel",
+       "b": "Felipe",
+       "lines": [
+        [
+         "A",
+         "Do you ever wonder what your life would be like if you hadn't studied engineering?",
+         "¿Alguna vez te preguntas cómo sería tu vida si no hubieras estudiado ingeniería?"
+        ],
+        [
+         "B",
+         "Constantly. If I had followed my heart, I would be a chef now, probably with my own restaurant.",
+         "Todo el tiempo. Si hubiera seguido mi corazón, ahora sería chef, seguramente con mi propio restaurante."
+        ],
+        [
+         "A",
+         "Really? Why didn't you pursue it?",
+         "¿En serio? ¿Por qué no lo seguiste?"
+        ],
+        [
+         "B",
+         "My upbringing, I guess. My parents wanted me to have a stable job, and I didn't want to let them down.",
+         "Por mi crianza, supongo. Mis papás querían que tuviera un trabajo estable, y yo no quería decepcionarlos."
+        ],
+        [
+         "A",
+         "Well, financially you're much better off than most chefs I know.",
+         "Bueno, económicamente estás mucho mejor que la mayoría de chefs que conozco."
+        ],
+        [
+         "B",
+         "True. But if I weren't so cautious, I would have taken the risk years ago.",
+         "Cierto. Pero si no fuera tan precavido, me habría arriesgado hace años."
+        ],
+        [
+         "A",
+         "I know the feeling. If I hadn't dropped out of my master's, I'd be teaching at a university by now.",
+         "Te entiendo. Si no hubiera abandonado la maestría, a estas alturas estaría dando clases en una universidad."
+        ],
+        [
+         "B",
+         "Why did you drop out?",
+         "¿Por qué la dejaste?"
+        ],
+        [
+         "A",
+         "My mother got sick and someone had to look after her. I don't regret it, though.",
+         "Mi mamá se enfermó y alguien tenía que cuidarla. Pero no me arrepiento."
+        ],
+        [
+         "B",
+         "Of course not. And if you hadn't come back, you wouldn't have your design company now.",
+         "Claro que no. Y si no te hubieras devuelto, ahora no tendrías tu empresa de diseño."
+        ],
+        [
+         "A",
+         "That's the funny thing. If I were more of a planner, I would never have started it.",
+         "Eso es lo curioso. Si yo fuera más planificadora, nunca la habría empezado."
+        ],
+        [
+         "B",
+         "Maybe it's not too late for me either. I could take up cooking classes at weekends.",
+         "Quizás tampoco sea tarde para mí. Podría empezar clases de cocina los fines de semana."
+        ],
+        [
+         "A",
+         "Exactly! Stop letting fear hold you back.",
+         "¡Exacto! Deja de permitir que el miedo te frene."
+        ],
+        [
+         "B",
+         "Deal. And if I open that restaurant one day, you're designing the logo!",
+         "Trato hecho. ¡Y si algún día abro ese restaurante, tú diseñas el logo!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "If I had accepted that job in Madrid, I ___ in Spain now.",
+        "o": [
+         "would have lived",
+         "would live",
+         "had lived",
+         "will live"
+        ],
+        "a": 1,
+        "x": "Condición pasada, resultado presente (now): would + verbo."
+       },
+       {
+        "t": "mc",
+        "q": "If she ___ so shy, she would have spoken at the meeting yesterday.",
+        "o": [
+         "weren't",
+         "hadn't been",
+         "wouldn't be",
+         "isn't"
+        ],
+        "a": 0,
+        "x": "Rasgo permanente (presente) con resultado pasado."
+       },
+       {
+        "t": "mc",
+        "q": "If we hadn't missed the train, we ___ at the hotel by now.",
+        "o": [
+         "would have been",
+         "would be",
+         "had been",
+         "were"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "If he ___ ___ out of university, he would have a degree now. (no hubiera abandonado)",
+        "ans": [
+         "hadn't dropped",
+         "had not dropped"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If my grandparents hadn't emigrated to Colombia in the fifties, I wouldn't be here and I definitely wouldn't speak Spanish.",
+        "q": "¿Qué hicieron los abuelos en los años cincuenta?",
+        "o": [
+         "Se fueron de Colombia",
+         "Emigraron a Colombia",
+         "Aprendieron español",
+         "Abrieron un negocio"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "If I had saved more money last year, I wouldn't be so broke now."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "If",
+         "I",
+         "weren't",
+         "so",
+         "lazy,",
+         "I",
+         "would",
+         "have",
+         "finished",
+         "it."
+        ],
+        "es": "Si no fuera tan perezoso, lo habría terminado."
+       },
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "would",
+         "be",
+         "better",
+         "off",
+         "if",
+         "we",
+         "had",
+         "sold",
+         "the",
+         "house."
+        ],
+        "es": "Estaríamos mejor si hubiéramos vendido la casa."
+       },
+       {
+        "t": "dict",
+        "say": "Fear of failure held him back for years."
+       },
+       {
+        "t": "dict",
+        "say": "We often take our health for granted."
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué frase es un condicional mixto (pasado → presente)?",
+        "o": [
+         "If I had seen him, I would have told him.",
+         "If I had taken the job, I would be living in Lima now.",
+         "If I see him, I will tell him.",
+         "If I saw him, I would tell him."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "If I had lived in London for five years, I would be ___ in English by now. (fluido)",
+        "ans": [
+         "fluent"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Laura is a nurse now, but if she hadn't got a scholarship, she would probably be working in her father's shop.",
+        "q": "Según el texto, ¿qué estaría haciendo Laura sin la beca?",
+        "o": [
+         "Estudiando enfermería",
+         "Trabajando en la tienda del papá",
+         "Viviendo en el exterior",
+         "Buscando trabajo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre dos decisiones importantes de tu pasado y cómo sería tu vida hoy si hubieras decidido otra cosa (mínimo 90 palabras). Usa los dos tipos de condicional mixto.",
+        "min": 90,
+        "keys": [
+         [
+          "if i had",
+          "if i hadn't",
+          "if i'd"
+         ],
+         [
+          "would be",
+          "wouldn't be",
+          "would have",
+          "would live",
+          "would work"
+         ],
+         [
+          "if i were",
+          "if i weren't",
+          "if i was",
+          "if i didn't"
+         ],
+         [
+          "now",
+          "today",
+          "by now",
+          "still"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "If I had learned to drive when I was younger, I ___ the bus to work every day now.",
+       "o": [
+        "wouldn't have taken",
+        "wouldn't take",
+        "hadn't taken",
+        "won't take"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "If he ___ more patient, he wouldn't have shouted at the kids last night.",
+       "o": [
+        "were",
+        "had been being",
+        "would be",
+        "has been"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u2-l3",
+      "title": "Wish / If only y should have",
+      "goal": "Expresar arrepentimiento por el pasado y criticar lo que se hizo o no se hizo.",
+      "theory": [
+       {
+        "p": "Para lamentar algo del **pasado** usa **wish / if only + pasado perfecto (had + participio)**. If only es más enfático y emotivo."
+       },
+       {
+        "ex": [
+         [
+          "I wish I had studied harder at school.",
+          "Ojalá hubiera estudiado más en el colegio."
+         ],
+         [
+          "If only I hadn't sent that email!",
+          "¡Ojalá no hubiera mandado ese correo!"
+         ],
+         [
+          "She wishes she had gone to the concert.",
+          "Ella quisiera haber ido al concierto."
+         ]
+        ]
+       },
+       {
+        "p": "Compara: **wish + pasado simple** = deseo sobre el **presente** (I wish I had more time = ojalá tuviera más tiempo). **wish + pasado perfecto** = arrepentimiento sobre el **pasado** (I wish I had had more time = ojalá hubiera tenido más tiempo). **wish + would** = queja sobre lo que otro hace (I wish you would stop talking)."
+       },
+       {
+        "p": "**should have / shouldn't have + participio** expresa crítica o arrepentimiento: lo que era buena idea y no se hizo, o lo que se hizo y no se debía. **ought to have** es lo mismo, un poco más formal."
+       },
+       {
+        "ex": [
+         [
+          "You should have told me the truth.",
+          "Me debiste haber dicho la verdad."
+         ],
+         [
+          "I shouldn't have eaten so much.",
+          "No debí haber comido tanto."
+         ],
+         [
+          "We ought to have booked a table.",
+          "Debimos haber reservado una mesa."
+         ]
+        ]
+       },
+       {
+        "tip": "Errores típicos: 'I wish I would have known' (incorrecto, es I wish I had known) y escribir 'should of' en vez de should have: suenan parecido al hablar, pero solo should have es correcto. No uses 'must have' para criticar: You must have called = seguro llamaste."
+       }
+      ],
+      "vocab": [
+       [
+        "if only",
+        "expresión",
+        "ojalá, si tan solo",
+        "If only I had listened to you!"
+       ],
+       [
+        "wish",
+        "verbo",
+        "desear, lamentar que no",
+        "I wish I hadn't said that."
+       ],
+       [
+        "should have + participio",
+        "expresión",
+        "debí / debió haber",
+        "You should have warned me."
+       ],
+       [
+        "ought to have",
+        "expresión",
+        "debería haber (formal)",
+        "They ought to have consulted the team."
+       ],
+       [
+        "blame oneself",
+        "colocación",
+        "culparse",
+        "Don't blame yourself; it wasn't your fault."
+       ],
+       [
+        "let someone down",
+        "phrasal verb",
+        "decepcionar, quedarle mal a alguien",
+        "I'm sorry I let you down."
+       ],
+       [
+        "speak one's mind",
+        "modismo",
+        "decir lo que uno piensa",
+        "I wish I had spoken my mind at the meeting."
+       ],
+       [
+        "bite one's tongue",
+        "modismo",
+        "morderse la lengua, callarse",
+        "I should have bitten my tongue."
+       ],
+       [
+        "cross the line",
+        "modismo",
+        "pasarse de la raya",
+        "That joke really crossed the line."
+       ],
+       [
+        "owe someone an apology",
+        "colocación",
+        "deberle una disculpa a alguien",
+        "I think I owe you an apology."
+       ],
+       [
+        "make amends",
+        "colocación",
+        "enmendar, compensar un daño",
+        "He tried to make amends by buying her flowers."
+       ],
+       [
+        "own up to",
+        "phrasal verb",
+        "admitir, reconocer (una culpa)",
+        "She owned up to breaking the vase."
+       ],
+       [
+        "careless",
+        "adjetivo",
+        "descuidado",
+        "It was careless of me to leave the door open."
+       ],
+       [
+        "thoughtless",
+        "adjetivo",
+        "desconsiderado",
+        "That was a thoughtless comment."
+       ],
+       [
+        "rash",
+        "adjetivo",
+        "precipitado, imprudente",
+        "I made a rash decision and sold my shares."
+       ],
+       [
+        "overreact",
+        "verbo",
+        "exagerar, reaccionar de más",
+        "Maybe I overreacted a little."
+       ],
+       [
+        "there's no use crying over spilled milk",
+        "modismo",
+        "a lo hecho, pecho",
+        "It's done; there's no use crying over spilled milk."
+       ],
+       [
+        "learn the hard way",
+        "modismo",
+        "aprender a las malas",
+        "I learned the hard way to always back up my files."
+       ],
+       [
+        "water under the bridge",
+        "modismo",
+        "agua pasada, cosa olvidada",
+        "Don't worry about the argument; it's water under the bridge."
+       ],
+       [
+        "get carried away",
+        "expresión",
+        "dejarse llevar, entusiasmarse de más",
+        "I got carried away and spent all my savings."
+       ]
+      ],
+      "dialogue": {
+       "title": "La fiesta de la oficina",
+       "scene": "El lunes, Santiago le pide consejo a su amiga Emily después de una fiesta de la empresa que salió mal.",
+       "a": "Emily",
+       "b": "Santiago",
+       "lines": [
+        [
+         "A",
+         "You look terrible. Is this about Friday's party?",
+         "Te ves fatal. ¿Es por la fiesta del viernes?"
+        ],
+        [
+         "B",
+         "Yes. I wish I had stayed at home. I got carried away and said some things I really regret.",
+         "Sí. Ojalá me hubiera quedado en la casa. Me dejé llevar y dije cosas de las que me arrepiento mucho."
+        ],
+        [
+         "A",
+         "What exactly did you say?",
+         "¿Qué dijiste exactamente?"
+        ],
+        [
+         "B",
+         "I made a joke about my manager's presentation in front of everyone. If only I had bitten my tongue!",
+         "Hice un chiste sobre la presentación de mi jefa delante de todos. ¡Ojalá me hubiera mordido la lengua!"
+        ],
+        [
+         "A",
+         "Hmm. Was it a harmless joke or did it cross the line?",
+         "Mmm. ¿Fue un chiste inofensivo o te pasaste de la raya?"
+        ],
+        [
+         "B",
+         "It crossed the line. I shouldn't have mentioned her mistakes with the budget.",
+         "Me pasé. No debí haber mencionado sus errores con el presupuesto."
+        ],
+        [
+         "A",
+         "Well, you should have thought about that before your third glass of wine.",
+         "Bueno, debiste haber pensado en eso antes de la tercera copa de vino."
+        ],
+        [
+         "B",
+         "I know, I know. It was careless and thoughtless. I wish someone had stopped me.",
+         "Ya sé, ya sé. Fue descuidado y desconsiderado. Ojalá alguien me hubiera parado."
+        ],
+        [
+         "A",
+         "Look, there's no use crying over spilled milk. What matters is what you do now.",
+         "Mira, a lo hecho, pecho. Lo que importa es lo que hagas ahora."
+        ],
+        [
+         "B",
+         "Should I pretend nothing happened?",
+         "¿Debería hacer como si nada hubiera pasado?"
+        ],
+        [
+         "A",
+         "Definitely not. Own up to it. Tell her you owe her an apology and that you let her down.",
+         "Para nada. Reconócelo. Dile que le debes una disculpa y que le quedaste mal."
+        ],
+        [
+         "B",
+         "You're right. I ought to have done it on Saturday, to be honest.",
+         "Tienes razón. Debí haberlo hecho el sábado, para ser sincero."
+        ],
+        [
+         "A",
+         "Better late than never. If she's reasonable, it'll soon be water under the bridge.",
+         "Más vale tarde que nunca. Si ella es razonable, pronto será agua pasada."
+        ],
+        [
+         "B",
+         "I hope so. I've definitely learned the hard way to keep my opinions to myself at parties.",
+         "Eso espero. Definitivamente aprendí a las malas a guardarme mis opiniones en las fiestas."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I failed the test. I wish I ___ more.",
+        "o": [
+         "studied",
+         "would study",
+         "had studied",
+         "have studied"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "It's freezing! We ___ brought our jackets.",
+        "o": [
+         "should have",
+         "must have",
+         "should",
+         "would have"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "If only I ___ that message to my ex. It was so embarrassing.",
+        "o": [
+         "didn't send",
+         "hadn't sent",
+         "wouldn't send",
+         "haven't sent"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "You ___ ___ told me you were vegetarian! I made chicken. (debiste haberme)",
+        "ans": [
+         "should have",
+         "ought to have",
+         "should've"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I really wish I hadn't lent my car to my cousin. He crashed it on the highway, and now I have to take the bus to work.",
+        "q": "¿De qué se arrepiente la persona?",
+        "o": [
+         "De haber comprado el carro",
+         "De haberle prestado el carro a su primo",
+         "De haber chocado en la autopista",
+         "De tomar el bus"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "If only I had listened to your advice, I wouldn't be in this mess."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "shouldn't",
+         "have",
+         "made",
+         "such",
+         "a",
+         "rash",
+         "decision."
+        ],
+        "es": "No debí haber tomado una decisión tan precipitada."
+       },
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "wishes",
+         "she",
+         "had",
+         "spoken",
+         "her",
+         "mind."
+        ],
+        "es": "Ella quisiera haber dicho lo que pensaba."
+       },
+       {
+        "t": "dict",
+        "say": "I think I owe you an apology."
+       },
+       {
+        "t": "dict",
+        "say": "Don't worry, it's water under the bridge."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál expresa un arrepentimiento sobre el PASADO?",
+        "o": [
+         "I wish I had a bigger flat.",
+         "I wish you would stop smoking.",
+         "I wish I had bought that flat.",
+         "I wish I lived closer."
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál está bien escrita?",
+        "o": [
+         "You should of called me.",
+         "You should have called me.",
+         "You should called me.",
+         "You should had called me."
+        ],
+        "a": 1
+       },
+       {
+        "t": "listen",
+        "say": "The company ought to have tested the software properly before launching it. Now thousands of customers are complaining.",
+        "q": "¿Cuál es la crítica principal?",
+        "o": [
+         "El software es muy caro",
+         "No probaron bien el software antes de lanzarlo",
+         "Lanzaron el software muy tarde",
+         "Los clientes no saben usarlo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre un error que cometiste o una oportunidad que dejaste pasar (mínimo 90 palabras). Usa wish o if only con pasado perfecto, should have y shouldn't have, y di qué aprendiste.",
+        "min": 90,
+        "keys": [
+         [
+          "i wish i had",
+          "i wish i hadn't",
+          "if only"
+         ],
+         [
+          "should have",
+          "should've",
+          "ought to have"
+         ],
+         [
+          "shouldn't have",
+          "should not have"
+         ],
+         [
+          "learned",
+          "learnt",
+          "the hard way",
+          "lesson"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I'm so tired. I wish I ___ to bed so late last night.",
+       "o": [
+        "didn't go",
+        "hadn't gone",
+        "wouldn't go",
+        "don't go"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "The roads were icy. You ___ driven so fast.",
+       "o": [
+        "mustn't have",
+        "shouldn't have",
+        "couldn't",
+        "wouldn't"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u2-l4",
+      "title": "Deducción en pasado: must have, might have, can't have",
+      "goal": "Sacar conclusiones lógicas sobre lo que pasó a partir de la evidencia.",
+      "theory": [
+       {
+        "p": "Para hacer **deducciones sobre el pasado** se usa **modal + have + participio**. El modal indica qué tan seguro estás."
+       },
+       {
+        "ex": [
+         [
+          "must have + participio (casi seguro que SÍ)",
+          "She must have left early; her car isn't here. (Seguro que salió temprano)"
+         ],
+         [
+          "might / may / could have + participio (es posible)",
+          "He might have missed the bus. (Puede que haya perdido el bus)"
+         ],
+         [
+          "can't / couldn't have + participio (casi seguro que NO)",
+          "They can't have finished already; they started ten minutes ago. (Imposible que ya hayan terminado)"
+         ]
+        ]
+       },
+       {
+        "p": "Para deducir una **acción en progreso** en el pasado usa la forma continua: **must have been + -ing**."
+       },
+       {
+        "ex": [
+         [
+          "You must have been sleeping when I called.",
+          "Seguro estabas durmiendo cuando te llamé."
+         ],
+         [
+          "He can't have been telling the truth.",
+          "Es imposible que estuviera diciendo la verdad."
+         ],
+         [
+          "She may have been working late.",
+          "Puede que estuviera trabajando hasta tarde."
+         ]
+        ]
+       },
+       {
+        "p": "Ojo: el contrario de **must have** en deducción NO es mustn't have, sino **can't have** o **couldn't have**. Y **couldn't have** también puede significar imposibilidad real: I couldn't have done it without you (no habría podido hacerlo sin ti)."
+       },
+       {
+        "tip": "Errores típicos de hispanohablantes: 'must had' o 'must to have' (lo correcto es must have + participio) y traducir 'debió de' siempre como should have. 'Debió de salir' (suposición) = must have left; 'Debió salir' (crítica) = should have left."
+       }
+      ],
+      "vocab": [
+       [
+        "clue",
+        "sustantivo",
+        "pista",
+        "The detective found an important clue."
+       ],
+       [
+        "evidence",
+        "sustantivo",
+        "pruebas, evidencia (incontable)",
+        "There isn't enough evidence to arrest him."
+       ],
+       [
+        "suspect",
+        "sustantivo / verbo",
+        "sospechoso; sospechar",
+        "The main suspect has disappeared."
+       ],
+       [
+        "witness",
+        "sustantivo",
+        "testigo",
+        "A witness saw a man running away."
+       ],
+       [
+        "alibi",
+        "sustantivo",
+        "coartada",
+        "He has a perfect alibi for that night."
+       ],
+       [
+        "break in",
+        "phrasal verb",
+        "entrar a la fuerza",
+        "The thieves must have broken in through the window."
+       ],
+       [
+        "footprint",
+        "sustantivo",
+        "huella (de pie o zapato)",
+        "There were muddy footprints on the carpet."
+       ],
+       [
+        "assume",
+        "verbo",
+        "suponer, dar por hecho",
+        "I assumed you had already left."
+       ],
+       [
+        "conclude",
+        "verbo",
+        "concluir, deducir",
+        "The police concluded that it was an accident."
+       ],
+       [
+        "rule out",
+        "phrasal verb",
+        "descartar",
+        "We can't rule out the possibility of fraud."
+       ],
+       [
+        "figure out",
+        "phrasal verb",
+        "descifrar, entender",
+        "I can't figure out how he got in."
+       ],
+       [
+        "apparently",
+        "adverbio",
+        "al parecer, según dicen",
+        "Apparently, the alarm didn't go off."
+       ],
+       [
+        "presumably",
+        "adverbio",
+        "presumiblemente, es de suponer",
+        "Presumably, he took the last train home."
+       ],
+       [
+        "bound to",
+        "expresión",
+        "seguro que (va a)",
+        "With so many cameras, someone is bound to have seen something."
+       ],
+       [
+        "puzzled",
+        "adjetivo",
+        "desconcertado, perplejo",
+        "She looked puzzled by the question."
+       ],
+       [
+        "odd",
+        "adjetivo",
+        "raro, extraño",
+        "It's odd that nobody heard anything."
+       ],
+       [
+        "account for",
+        "phrasal verb",
+        "explicar, justificar",
+        "How do you account for the missing money?"
+       ],
+       [
+        "trace",
+        "sustantivo",
+        "rastro, huella",
+        "The ship vanished without a trace."
+       ],
+       [
+        "vanish",
+        "verbo",
+        "desaparecer",
+        "The painting vanished from the museum overnight."
+       ],
+       [
+        "plausible",
+        "adjetivo",
+        "verosímil, creíble",
+        "That's a plausible explanation."
+       ]
+      ],
+      "dialogue": {
+       "title": "El misterio de la torta",
+       "scene": "Valentina y su compañero de apartamento, Josh, encuentran que la torta de cumpleaños desapareció de la nevera.",
+       "a": "Valentina",
+       "b": "Josh",
+       "lines": [
+        [
+         "A",
+         "Josh, the birthday cake I bought for Sofía has vanished! It was in the fridge last night.",
+         "¡Josh, la torta de cumpleaños que compré para Sofía desapareció! Anoche estaba en la nevera."
+        ],
+        [
+         "B",
+         "Don't look at me! I can't have eaten it; I was at my brother's place all night.",
+         "¡No me mires a mí! Es imposible que yo me la haya comido; pasé toda la noche donde mi hermano."
+        ],
+        [
+         "A",
+         "That's a convenient alibi. But OK, someone must have taken it.",
+         "Qué coartada tan conveniente. Pero bueno, alguien se la tuvo que haber llevado."
+        ],
+        [
+         "B",
+         "Let's think. Could Sofía have found it? Maybe she came home early.",
+         "Pensemos. ¿Será que Sofía la encontró? Quizás llegó temprano."
+        ],
+        [
+         "A",
+         "She can't have found it. She's been in Cartagena since Thursday.",
+         "Imposible que la haya encontrado. Está en Cartagena desde el jueves."
+        ],
+        [
+         "B",
+         "Hmm, that rules her out. What about Martín? He has a key, doesn't he?",
+         "Mmm, eso la descarta. ¿Y Martín? Él tiene llave, ¿cierto?"
+        ],
+        [
+         "A",
+         "He does. And look, there are chocolate crumbs and muddy footprints by the door.",
+         "Sí. Y mira, hay boronas de chocolate y huellas de barro junto a la puerta."
+        ],
+        [
+         "B",
+         "Muddy footprints? He must have come in after the rain, then. It was pouring at around midnight.",
+         "¿Huellas de barro? Entonces debió de entrar después del aguacero. Estaba lloviendo durísimo como a la medianoche."
+        ],
+        [
+         "A",
+         "But Martín hates chocolate. It's odd. He couldn't have eaten the whole thing.",
+         "Pero Martín odia el chocolate. Es raro. No pudo haberse comido toda la torta."
+        ],
+        [
+         "B",
+         "Maybe he didn't eat it. He might have taken it to the party at his office by mistake.",
+         "Quizás no se la comió. Puede que se la haya llevado por error a la fiesta de su oficina."
+        ],
+        [
+         "A",
+         "That's actually plausible. He was organizing a farewell party today.",
+         "Eso suena creíble. Él estaba organizando una despedida hoy."
+        ],
+        [
+         "B",
+         "So he must have assumed it was for his colleagues. Let's call him and figure this out.",
+         "Entonces seguro supuso que era para sus colegas. Llamémoslo y aclaremos esto."
+        ],
+        [
+         "A",
+         "He's not answering. He must be at the party, presumably eating our cake!",
+         "No contesta. Debe de estar en la fiesta, ¡presumiblemente comiéndose nuestra torta!"
+        ],
+        [
+         "B",
+         "Well, the bakery is bound to have another one. Come on, I'll pay for half.",
+         "Bueno, seguro la pastelería tiene otra. Vamos, yo pago la mitad."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The streets are wet. It ___ during the night.",
+        "o": [
+         "must rain",
+         "must have rained",
+         "can't have rained",
+         "should have rained"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "She ___ the email; I sent it to the wrong address.",
+        "o": [
+         "must have received",
+         "can't have received",
+         "should have received",
+         "must receive"
+        ],
+        "a": 1,
+        "x": "Imposibilidad lógica en el pasado: can't have + participio."
+       },
+       {
+        "t": "mc",
+        "q": "I'm not sure where Tom is. He ___ stuck in traffic.",
+        "o": [
+         "must get",
+         "can't have got",
+         "might have got",
+         "should get"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "You ___ ___ ___ exhausted after a twelve-hour shift. (seguro estabas)",
+        "ans": [
+         "must have been",
+         "must've been"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The window was broken from the inside, and there were no footprints in the garden. The thief can't have come from outside; it must have been someone who was already in the house.",
+        "q": "¿Qué concluye el detective?",
+        "o": [
+         "El ladrón entró por el jardín",
+         "El ladrón ya estaba dentro de la casa",
+         "No hubo robo",
+         "El ladrón rompió la ventana desde afuera"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "She must have forgotten about the meeting; she's never late."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "They",
+         "can't",
+         "have",
+         "gone",
+         "far",
+         "without",
+         "a",
+         "car."
+        ],
+        "es": "No pueden haber ido lejos sin carro."
+       },
+       {
+        "t": "order",
+        "words": [
+         "He",
+         "must",
+         "have",
+         "been",
+         "sleeping",
+         "when",
+         "I",
+         "called."
+        ],
+        "es": "Seguro estaba durmiendo cuando lo llamé."
+       },
+       {
+        "t": "dict",
+        "say": "The painting vanished without a trace."
+       },
+       {
+        "t": "dict",
+        "say": "We can't rule out the possibility of fraud."
+       },
+       {
+        "t": "mc",
+        "q": "Lo contrario de 'She must have known' (deducción) es:",
+        "o": [
+         "She mustn't have known.",
+         "She can't have known.",
+         "She shouldn't have known.",
+         "She needn't have known."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I'm not sure, but they ___ ___ left already. (puede que hayan)",
+        "ans": [
+         "might have",
+         "may have",
+         "could have",
+         "might've"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Apparently, the alarm didn't go off. Either someone switched it off, or the batteries might have run out.",
+        "q": "¿Qué explicaciones se dan?",
+        "o": [
+         "Que no había alarma",
+         "Que alguien la apagó o se acabaron las baterías",
+         "Que la policía la desconectó",
+         "Que sonó demasiado tarde"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Imagina que llegas a tu casa y encuentras la puerta abierta, la sala desordenada y tu perro asustado (mínimo 90 palabras). Haz deducciones sobre lo que pasó con must have, might have, can't have y couldn't have.",
+        "min": 90,
+        "keys": [
+         [
+          "must have",
+          "must've"
+         ],
+         [
+          "might have",
+          "may have",
+          "could have"
+         ],
+         [
+          "can't have",
+          "couldn't have",
+          "cannot have"
+         ],
+         [
+          "clue",
+          "evidence",
+          "footprints",
+          "apparently",
+          "presumably"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Ana didn't answer the phone. She ___ in the shower.",
+       "o": [
+        "must have been",
+        "must be been",
+        "should have been",
+        "can't be"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Paul ___ the car; he doesn't even have a licence.",
+       "o": [
+        "must have driven",
+        "can't have driven",
+        "should have driven",
+        "might drive"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u2-l5",
+      "title": "Arrepentimiento y preferencias: I'd rather, it's time, regret",
+      "goal": "Expresar preferencias, urgencia, arrepentimiento y condiciones con estructuras de nivel avanzado.",
+      "theory": [
+       {
+        "p": "**I'd rather (would rather)** expresa preferencia. Con el **mismo sujeto** va con el **infinitivo sin to**: I'd rather stay home. Con **otro sujeto** va con **pasado simple** (para presente o futuro) o **pasado perfecto** (para el pasado)."
+       },
+       {
+        "ex": [
+         [
+          "I'd rather walk than take a taxi.",
+          "Prefiero caminar que tomar un taxi."
+         ],
+         [
+          "I'd rather you didn't smoke in here.",
+          "Preferiría que no fumaras aquí."
+         ],
+         [
+          "I'd rather you hadn't told her my secret.",
+          "Hubiera preferido que no le contaras mi secreto."
+         ]
+        ]
+       },
+       {
+        "p": "**It's time / It's high time / It's about time + sujeto + pasado simple** = ya es hora de que (con tono de crítica o urgencia). Sin sujeto: **It's time to + verbo**."
+       },
+       {
+        "ex": [
+         [
+          "It's high time you found a job.",
+          "Ya va siendo hora de que consigas trabajo."
+         ],
+         [
+          "It's about time the government did something.",
+          "Ya era hora de que el gobierno hiciera algo."
+         ]
+        ]
+       },
+       {
+        "p": "**regret + -ing** = arrepentirse de algo que **se hizo**: I regret leaving school so young. **regret not + -ing** = arrepentirse de no haberlo hecho. Ojo: **regret to + verbo** es formal y significa lamentar dar una noticia: We regret to inform you that... Y para condiciones: **supposing** (¿y si...?), **provided (that) / providing**, **as long as** (siempre y cuando), **on condition that**, todos seguidos de presente cuando hablan del futuro."
+       },
+       {
+        "tip": "Error típico: 'I'd rather to stay' o 'It's time you go'. Lo correcto es I'd rather stay e It's time you went. Y con as long as / provided that no se usa will: As long as you finish (no 'you will finish') by Friday, it's fine."
+       }
+      ],
+      "vocab": [
+       [
+        "I'd rather",
+        "expresión",
+        "preferiría, prefiero",
+        "I'd rather not talk about it."
+       ],
+       [
+        "would sooner",
+        "expresión",
+        "preferiría (informal)",
+        "I'd sooner stay home than go to that party."
+       ],
+       [
+        "it's high time",
+        "expresión",
+        "ya va siendo hora",
+        "It's high time we changed the rules."
+       ],
+       [
+        "it's about time",
+        "expresión",
+        "ya era hora",
+        "It's about time you apologized."
+       ],
+       [
+        "regret",
+        "verbo",
+        "arrepentirse de, lamentar",
+        "I regret not travelling more when I was young."
+       ],
+       [
+        "supposing",
+        "conector",
+        "suponiendo que, ¿y si...?",
+        "Supposing you lost your job, what would you do?"
+       ],
+       [
+        "provided that",
+        "conector",
+        "siempre que, con tal de que",
+        "You can borrow my car provided that you fill the tank."
+       ],
+       [
+        "as long as",
+        "conector",
+        "siempre y cuando",
+        "You can stay as long as you keep quiet."
+       ],
+       [
+        "on condition that",
+        "conector",
+        "con la condición de que",
+        "They agreed on condition that we paid in advance."
+       ],
+       [
+        "otherwise",
+        "conector",
+        "de lo contrario, si no",
+        "Hurry up, otherwise we'll miss the bus."
+       ],
+       [
+        "get round to",
+        "phrasal verb",
+        "sacar tiempo para, llegar a hacer",
+        "I never got round to calling him back."
+       ],
+       [
+        "put off",
+        "phrasal verb",
+        "aplazar, posponer",
+        "Stop putting off your dentist appointment."
+       ],
+       [
+        "procrastinate",
+        "verbo",
+        "procrastinar, dejar las cosas para después",
+        "I always procrastinate when I have to write reports."
+       ],
+       [
+        "commit to",
+        "phrasal verb",
+        "comprometerse con",
+        "I'd rather not commit to anything yet."
+       ],
+       [
+        "compromise",
+        "sustantivo / verbo",
+        "acuerdo intermedio; ceder",
+        "We reached a compromise after hours of discussion."
+       ],
+       [
+        "dread",
+        "verbo",
+        "temer, tenerle pavor a",
+        "I dread speaking in public."
+       ],
+       [
+        "cut down on",
+        "phrasal verb",
+        "reducir el consumo de",
+        "It's time you cut down on sugar."
+       ],
+       [
+        "take the plunge",
+        "modismo",
+        "lanzarse, atreverse por fin",
+        "After years of doubt, she took the plunge and opened her café."
+       ],
+       [
+        "make up one's mind",
+        "modismo",
+        "decidirse",
+        "You need to make up your mind by Friday."
+       ],
+       [
+        "sooner or later",
+        "expresión",
+        "tarde o temprano",
+        "Sooner or later, you'll have to decide."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Renunciar o no renunciar?",
+       "scene": "Natalia le cuenta a su hermano mayor, Kevin, que está pensando renunciar a su trabajo en un banco para montar una tienda en línea.",
+       "a": "Kevin",
+       "b": "Natalia",
+       "lines": [
+        [
+         "A",
+         "So, have you finally made up your mind about the bank?",
+         "Bueno, ¿por fin te decidiste sobre lo del banco?"
+        ],
+        [
+         "B",
+         "Almost. Honestly, I'd rather take a risk now than spend another ten years in an office I hate.",
+         "Casi. La verdad, prefiero arriesgarme ahora que pasar otros diez años en una oficina que odio."
+        ],
+        [
+         "A",
+         "I get it. It's high time you did something you actually enjoy.",
+         "Te entiendo. Ya va siendo hora de que hagas algo que de verdad disfrutes."
+        ],
+        [
+         "B",
+         "Thanks. I keep putting it off, though. I dread telling my boss.",
+         "Gracias. Pero lo sigo aplazando. Me da pavor decirle a mi jefe."
+        ],
+        [
+         "A",
+         "Look, I regret staying at my first job for so long. I was miserable, and I only left because they closed the branch.",
+         "Mira, yo me arrepiento de haberme quedado tanto tiempo en mi primer trabajo. Era infeliz y solo me fui porque cerraron la sucursal."
+        ],
+        [
+         "B",
+         "Really? You never told me that.",
+         "¿En serio? Nunca me lo habías contado."
+        ],
+        [
+         "A",
+         "I'd rather you hadn't found out this way, but yes. I also regret not studying design when I had the chance.",
+         "Hubiera preferido que no te enteraras así, pero sí. También me arrepiento de no haber estudiado diseño cuando tuve la oportunidad."
+        ],
+        [
+         "B",
+         "Supposing the online shop doesn't work, though? I have rent to pay.",
+         "¿Pero y si la tienda en línea no funciona? Tengo que pagar arriendo."
+        ],
+        [
+         "A",
+         "You'll be fine as long as you have a plan B. How much have you saved?",
+         "Vas a estar bien siempre y cuando tengas un plan B. ¿Cuánto has ahorrado?"
+        ],
+        [
+         "B",
+         "Enough for about eight months, provided that I cut down on eating out.",
+         "Lo suficiente para unos ocho meses, siempre que deje de comer tanto afuera."
+        ],
+        [
+         "A",
+         "That's a decent cushion. What about a compromise? Ask to work part-time for a while.",
+         "Es un buen colchón. ¿Y si buscas un punto medio? Pide trabajar medio tiempo por un tiempo."
+        ],
+        [
+         "B",
+         "They might accept on condition that I train my replacement. That could actually work.",
+         "Puede que acepten con la condición de que entrene a mi reemplazo. Eso podría funcionar."
+        ],
+        [
+         "A",
+         "Exactly. Sooner or later you have to take the plunge, otherwise you'll always wonder 'what if'.",
+         "Exacto. Tarde o temprano tienes que lanzarte; si no, siempre te vas a preguntar '¿y si...?'."
+        ],
+        [
+         "B",
+         "You're right. It's about time I stopped procrastinating. I'll talk to my boss on Monday.",
+         "Tienes razón. Ya era hora de que dejara de procrastinar. Hablo con mi jefe el lunes."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I'd rather you ___ my phone without asking.",
+        "o": [
+         "don't use",
+         "didn't use",
+         "not use",
+         "won't use"
+        ],
+        "a": 1,
+        "x": "Otro sujeto después de I'd rather: pasado simple."
+       },
+       {
+        "t": "mc",
+        "q": "It's high time we ___ a decision.",
+        "o": [
+         "make",
+         "made",
+         "will make",
+         "to make"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "I regret ___ more languages when I was a student.",
+        "o": [
+         "not to learn",
+         "not learning",
+         "don't learn",
+         "not learned"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "You can borrow my laptop as ___ ___ you're careful with it. (siempre y cuando)",
+        "ans": [
+         "long as"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I'd rather not go to the conference this year. It's too expensive, and I'd rather spend the money on a course.",
+        "q": "¿En qué prefiere gastar el dinero?",
+        "o": [
+         "En la conferencia",
+         "En un curso",
+         "En un viaje",
+         "En un computador"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "It's about time you stopped putting things off."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I'd",
+         "rather",
+         "you",
+         "hadn't",
+         "told",
+         "him",
+         "the",
+         "truth."
+        ],
+        "es": "Hubiera preferido que no le dijeras la verdad."
+       },
+       {
+        "t": "order",
+        "words": [
+         "You",
+         "can",
+         "come",
+         "provided",
+         "that",
+         "you",
+         "bring",
+         "something."
+        ],
+        "es": "Puedes venir siempre que traigas algo."
+       },
+       {
+        "t": "dict",
+        "say": "Sooner or later, you'll have to make up your mind."
+       },
+       {
+        "t": "dict",
+        "say": "I never got round to calling her back."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "I'd rather to stay at home tonight.",
+         "I'd rather staying at home tonight.",
+         "I'd rather stay at home tonight.",
+         "I'd rather stayed at home tonight."
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "'We regret to inform you that your flight has been cancelled' significa:",
+        "o": [
+         "Nos arrepentimos de haber cancelado tu vuelo",
+         "Lamentamos informarte que tu vuelo fue cancelado",
+         "Te informamos que puedes cancelar tu vuelo",
+         "Nos arrepentimos de informarte tarde"
+        ],
+        "a": 1
+       },
+       {
+        "t": "listen",
+        "say": "Supposing the bank refuses the loan, we could ask my parents. Otherwise, we'll have to put off the wedding until next year.",
+        "q": "¿Qué pasará si no consiguen el dinero?",
+        "o": [
+         "Cancelarán la boda",
+         "Aplazarán la boda hasta el próximo año",
+         "Se casarán en el banco",
+         "Venderán la casa"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escríbele un correo a un amigo que lleva años aplazando una decisión importante (mínimo 100 palabras). Usa it's (high) time, I'd rather, regret + -ing y al menos dos conectores como as long as, provided that o supposing.",
+        "min": 100,
+        "keys": [
+         [
+          "it's time",
+          "it's high time",
+          "it's about time"
+         ],
+         [
+          "i'd rather",
+          "i would rather",
+          "i'd sooner"
+         ],
+         [
+          "regret"
+         ],
+         [
+          "as long as",
+          "provided that",
+          "providing",
+          "supposing",
+          "on condition that"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "It's about time you ___ your room. It's a mess!",
+       "o": [
+        "clean",
+        "cleaned",
+        "will clean",
+        "are cleaning"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "You can use the car ___ you're back before midnight.",
+       "o": [
+        "unless",
+        "as long as",
+        "in case",
+        "supposing that not"
+       ],
+       "a": 1
+      },
+      "reading": 1,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "If the alarm ___ off, I wouldn't have overslept.",
+      "o": [
+       "went",
+       "had gone",
+       "would go",
+       "has gone"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "If I hadn't moved to Bogotá, I ___ my wife now.",
+      "o": [
+       "wouldn't have known",
+       "wouldn't know",
+       "didn't know",
+       "hadn't known"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I wish I ___ that tattoo when I was eighteen.",
+      "o": [
+       "didn't get",
+       "hadn't got",
+       "wouldn't get",
+       "don't get"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Her eyes are red. She ___ crying.",
+      "o": [
+       "must have been",
+       "should have been",
+       "can't have been",
+       "must be been"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I'd rather you ___ anyone about this.",
+      "o": [
+       "don't tell",
+       "didn't tell",
+       "not tell",
+       "won't tell"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "He ___ ___ ___ the thief; he was in Miami that day. (es imposible que haya sido)",
+      "ans": [
+       "can't have been",
+       "couldn't have been",
+       "cannot have been"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "If I had taken that job in Toronto, I would be earning twice as much now, but I would be far away from my family.",
+      "q": "¿Qué tendría esta persona si hubiera aceptado el trabajo?",
+      "o": [
+       "Más tiempo con su familia",
+       "El doble de salario",
+       "Un trabajo en Bogotá",
+       "Menos responsabilidades"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "You shouldn't have shared the report with the client before the manager approved it. Now we have to explain the mistakes.",
+      "q": "¿Cuál fue el error?",
+      "o": [
+       "No enviar el informe",
+       "Compartir el informe antes de la aprobación",
+       "Aprobar el informe sin leerlo",
+       "Llegar tarde a la reunión"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe sobre un momento de tu vida que te habría gustado vivir de otra manera (mínimo 100 palabras). Usa tercer condicional o condicional mixto, wish o if only, should have y regret + -ing.",
+      "min": 100,
+      "keys": [
+       [
+        "if i had",
+        "if i hadn't",
+        "had i"
+       ],
+       [
+        "would have",
+        "would be",
+        "wouldn't"
+       ],
+       [
+        "i wish",
+        "if only"
+       ],
+       [
+        "should have",
+        "shouldn't have",
+        "regret"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "If it hadn't been for your help, I would never have finished the project."
+     },
+     {
+      "t": "oral",
+      "text": "It's high time we made a decision about the budget."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "Had we ___ the instructions, we wouldn't have broken the machine.",
+      "o": [
+       "read",
+       "reading",
+       "to read",
+       "would read"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "If she were more confident, she ___ for the promotion last month.",
+      "o": [
+       "would apply",
+       "would have applied",
+       "had applied",
+       "applies"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "If only I ___ my passport at home! Now we can't board.",
+      "o": [
+       "didn't leave",
+       "hadn't left",
+       "wouldn't leave",
+       "don't leave"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The lights are off. They ___ to bed already.",
+      "o": [
+       "must have gone",
+       "should have gone",
+       "can't have gone",
+       "must go"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I regret ___ so rude to my teacher.",
+      "o": [
+       "to be",
+       "being",
+       "be",
+       "been"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "___ it rains tomorrow, will the match be cancelled?",
+      "o": [
+       "Supposing",
+       "Provided",
+       "Unless",
+       "As long"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "You ___ ___ apologized sooner; now she won't speak to you. (debiste haber)",
+      "ans": [
+       "should have",
+       "ought to have",
+       "should've"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "It's time we ___ home; it's nearly midnight. (go, pasado)",
+      "ans": [
+       "went"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "The museum guard can't have stolen the painting, because he was on holiday that week. The police think it might have been an inside job, though.",
+      "q": "¿Por qué no pudo ser el guarda?",
+      "o": [
+       "Estaba enfermo",
+       "Estaba de vacaciones",
+       "Tiene una coartada falsa",
+       "Estaba trabajando en otro museo"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "I'd rather we met at the office than at a café. It's quieter, and we can use the projector.",
+      "q": "¿Dónde prefiere reunirse?",
+      "o": [
+       "En un café",
+       "En la oficina",
+       "En un parque",
+       "En su casa"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "If he hadn't been so stubborn, he would still be working for the company. Instead, he quit after a stupid argument.",
+      "q": "¿Qué pasó con él?",
+      "o": [
+       "Lo ascendieron",
+       "Renunció después de una discusión",
+       "Lo trasladaron",
+       "Sigue trabajando en la empresa"
+      ],
+      "a": 1
+     },
+     {
+      "t": "order",
+      "words": [
+       "If",
+       "only",
+       "I",
+       "had",
+       "listened",
+       "to",
+       "you."
+      ],
+      "es": "Si tan solo te hubiera escuchado."
+     },
+     {
+      "t": "order",
+      "words": [
+       "She",
+       "might",
+       "have",
+       "missed",
+       "the",
+       "last",
+       "train."
+      ],
+      "es": "Puede que haya perdido el último tren."
+     },
+     {
+      "t": "oral",
+      "text": "I wish I had taken the plunge years ago."
+     },
+     {
+      "t": "oral",
+      "text": "If I had studied abroad, I would be fluent in English by now."
+     }
+    ]
+   },
+   {
+    "title": "Información y noticias",
+    "lessons": [
+     {
+      "id": "b2-u3-l1",
+      "title": "Pasiva avanzada: It is said that… / He is believed to…",
+      "goal": "Transmitir información y rumores con distancia, como en las noticias, usando la pasiva impersonal y la pasiva con gerundio e infinitivo.",
+      "theory": [
+       {
+        "p": "Con verbos de opinión o información (**say, believe, think, report, expect, know, claim, consider, estimate**) el inglés formal usa dos estructuras para no decir **quién** afirma algo: **It + is said + that + oración** o **Sujeto + is said + to + infinitivo**. Ambas equivalen al español 'se dice que…', 'se cree que…'."
+       },
+       {
+        "ex": [
+         [
+          "It is said that the minister will resign.",
+          "Se dice que el ministro va a renunciar."
+         ],
+         [
+          "The minister is said to be considering his resignation.",
+          "Se dice que el ministro está considerando su renuncia."
+         ],
+         [
+          "It is estimated that 2 million people watched the debate.",
+          "Se calcula que 2 millones de personas vieron el debate."
+         ],
+         [
+          "The painting is thought to be worth a fortune.",
+          "Se cree que el cuadro vale una fortuna."
+         ]
+        ]
+       },
+       {
+        "p": "El **infinitivo** marca la relación de tiempo con el verbo de reporte: **to + verbo** (al mismo tiempo), **to be + -ing** (acción en curso) y **to have + participio** (acción anterior). Si el reporte es pasado, se cambia el primer verbo: **It was believed that… / He was believed to…**"
+       },
+       {
+        "ex": [
+         [
+          "The suspect is believed to be hiding in the mountains.",
+          "Se cree que el sospechoso se está escondiendo en las montañas."
+         ],
+         [
+          "The thieves are reported to have escaped through the roof.",
+          "Se informa que los ladrones escaparon por el techo."
+         ],
+         [
+          "At the time, the ship was thought to have sunk near the coast.",
+          "En ese entonces se creía que el barco se había hundido cerca de la costa."
+         ],
+         [
+          "There are said to be over 300 species in the area.",
+          "Se dice que hay más de 300 especies en la zona."
+         ]
+        ]
+       },
+       {
+        "p": "La pasiva también aparece después de verbos que piden **gerundio** (**being + participio**) o **infinitivo** (**to be + participio**), y en forma perfecta (**having been / to have been + participio**). Así hablas de cosas que te hacen otros."
+       },
+       {
+        "ex": [
+         [
+          "I can't stand being interrupted when I'm talking.",
+          "No soporto que me interrumpan cuando estoy hablando."
+         ],
+         [
+          "She expects to be promoted next year.",
+          "Ella espera que la asciendan el próximo año."
+         ],
+         [
+          "He denied having been bribed.",
+          "Negó que lo hubieran sobornado."
+         ],
+         [
+          "Nobody likes to be told what to do.",
+          "A nadie le gusta que le digan qué hacer."
+         ]
+        ]
+       },
+       {
+        "tip": "Error típico de hispanohablantes: 'He is said that he is rich' ✗. Elige una sola estructura: It is said that he is rich ✓ o He is said to be rich ✓. Y nunca traduzcas 'se dice' como 'It says' cuando hablas de rumores: 'it says' es para textos (The sign says…)."
+       }
+      ],
+      "vocab": [
+       [
+        "allegedly",
+        "adverbio",
+        "presuntamente",
+        "The mayor allegedly accepted money from the company."
+       ],
+       [
+        "reportedly",
+        "adverbio",
+        "según informes, al parecer",
+        "The singer has reportedly cancelled her tour."
+       ],
+       [
+        "supposedly",
+        "adverbio",
+        "supuestamente",
+        "The bridge was supposedly safe."
+       ],
+       [
+        "rumour / rumor",
+        "sustantivo",
+        "rumor",
+        "There's a rumour that the factory will close."
+       ],
+       [
+        "claim",
+        "verbo / sustantivo",
+        "afirmar; afirmación",
+        "The company claims to have solved the problem."
+       ],
+       [
+        "whereabouts",
+        "sustantivo",
+        "paradero",
+        "His whereabouts are still unknown."
+       ],
+       [
+        "flee",
+        "verbo",
+        "huir (fled, fled)",
+        "The driver fled the scene of the accident."
+       ],
+       [
+        "suspect",
+        "sustantivo",
+        "sospechoso",
+        "The suspect is believed to be armed."
+       ],
+       [
+        "be on the run",
+        "expresión",
+        "estar prófugo",
+        "Two prisoners are still on the run."
+       ],
+       [
+        "the authorities",
+        "sustantivo",
+        "las autoridades",
+        "The authorities have not confirmed the news."
+       ],
+       [
+        "sources",
+        "sustantivo",
+        "fuentes (informativas)",
+        "Sources close to the president say he is unwell."
+       ],
+       [
+        "widely believed",
+        "colocación",
+        "ampliamente aceptado, se cree en general",
+        "It is widely believed that the election was fair."
+       ],
+       [
+        "estimate",
+        "verbo",
+        "calcular, estimar",
+        "The damage is estimated to cost millions."
+       ],
+       [
+        "assume",
+        "verbo",
+        "suponer, dar por hecho",
+        "It was assumed that the plane had crashed."
+       ],
+       [
+        "be expected to",
+        "expresión",
+        "se espera que",
+        "Prices are expected to rise again."
+       ],
+       [
+        "unconfirmed",
+        "adjetivo",
+        "no confirmado",
+        "There are unconfirmed reports of injuries."
+       ],
+       [
+        "evidence",
+        "sustantivo",
+        "pruebas, evidencia (incontable)",
+        "There is no evidence that he was involved."
+       ],
+       [
+        "investigation",
+        "sustantivo",
+        "investigación",
+        "An investigation is being carried out."
+       ],
+       [
+        "release",
+        "verbo",
+        "liberar; publicar, divulgar",
+        "The hostages are said to have been released."
+       ],
+       [
+        "cover up",
+        "phrasal verb",
+        "encubrir, tapar",
+        "The scandal was covered up for years."
+       ]
+      ],
+      "dialogue": {
+       "title": "El empresario desaparecido",
+       "scene": "En la sala de redacción, la periodista Daniela revisa con su editor Mark una noticia que todavía no está confirmada.",
+       "a": "Mark",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "Daniela, what have we got on the Ferreira story? Everyone's talking about it.",
+         "Daniela, ¿qué tenemos de la historia de Ferreira? Todo el mundo está hablando de eso."
+        ],
+        [
+         "B",
+         "Not much that's confirmed. He's reported to have left the country on Friday night.",
+         "No mucho confirmado. Se informa que salió del país el viernes por la noche."
+        ],
+        [
+         "A",
+         "Reported by whom? We can't just say he fled.",
+         "¿Informado por quién? No podemos simplemente decir que huyó."
+        ],
+        [
+         "B",
+         "Two sources at the airport. They say he was seen boarding a private jet.",
+         "Dos fuentes en el aeropuerto. Dicen que lo vieron abordando un jet privado."
+        ],
+        [
+         "A",
+         "And the money? There's a rumour that millions have disappeared from the company.",
+         "¿Y la plata? Hay un rumor de que desaparecieron millones de la empresa."
+        ],
+        [
+         "B",
+         "It's estimated that about forty million dollars are missing, but that's still unconfirmed.",
+         "Se calcula que faltan unos cuarenta millones de dólares, pero eso todavía no está confirmado."
+        ],
+        [
+         "A",
+         "Then we write 'allegedly' and 'is believed to'. I don't want us to be sued.",
+         "Entonces escribimos 'presuntamente' y 'se cree que'. No quiero que nos demanden."
+        ],
+        [
+         "B",
+         "Agreed. What about his whereabouts? Some people think he's in Panama.",
+         "De acuerdo. ¿Y su paradero? Algunos creen que está en Panamá."
+        ],
+        [
+         "A",
+         "Is there any evidence of that, or is it just speculation?",
+         "¿Hay alguna prueba de eso o es pura especulación?"
+        ],
+        [
+         "B",
+         "Just speculation. He's thought to have a house there, but nobody has seen him.",
+         "Pura especulación. Se cree que tiene una casa allá, pero nadie lo ha visto."
+        ],
+        [
+         "A",
+         "Have the authorities said anything?",
+         "¿Las autoridades han dicho algo?"
+        ],
+        [
+         "B",
+         "Only that an investigation is being carried out. A statement is expected to be released tomorrow.",
+         "Solo que se está adelantando una investigación. Se espera que publiquen un comunicado mañana."
+        ],
+        [
+         "A",
+         "Good. And the employees? They must hate being kept in the dark.",
+         "Bien. ¿Y los empleados? Deben odiar que los tengan en la oscuridad."
+        ],
+        [
+         "B",
+         "They're furious. Some of them claim the board knew and covered it up.",
+         "Están furiosos. Algunos afirman que la junta sabía y lo encubrió."
+        ],
+        [
+         "A",
+         "That's a serious claim. Let's not print it until it's been checked by legal.",
+         "Esa es una afirmación seria. No la publiquemos hasta que la revise el equipo jurídico."
+        ],
+        [
+         "B",
+         "Of course. I'll have the draft ready in an hour, with every claim attributed to a source.",
+         "Claro. Tendré el borrador listo en una hora, con cada afirmación atribuida a una fuente."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The suspect ___ to be hiding somewhere in the city.",
+        "o": [
+         "is said that",
+         "is believed",
+         "believes",
+         "it is believed"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "It ___ that the company will announce job cuts next week.",
+        "o": [
+         "is expected",
+         "expects",
+         "is expecting",
+         "has expected to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The painting is thought ___ in the fire, but nobody knows for sure.",
+        "o": [
+         "to destroy",
+         "to be destroying",
+         "to have been destroyed",
+         "having destroyed"
+        ],
+        "a": 2,
+        "x": "Acción anterior y pasiva → to have been + participio."
+       },
+       {
+        "t": "fill",
+        "q": "I really hate ___ ___ what to do by people I don't know. (que me digan)",
+        "ans": [
+         "being told"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Two prisoners who escaped on Sunday are still on the run. They are believed to be heading towards the border, and the public has been warned not to approach them.",
+        "q": "¿Hacia dónde se cree que van los prófugos?",
+        "o": [
+         "Hacia la capital",
+         "Hacia la frontera",
+         "Hacia la costa",
+         "Hacia el aeropuerto"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "The thieves are reported to have escaped through the roof before the police arrived."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "minister",
+         "is",
+         "said",
+         "to",
+         "be",
+         "considering",
+         "his",
+         "resignation."
+        ],
+        "es": "Se dice que el ministro está considerando su renuncia."
+       },
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "is",
+         "widely",
+         "believed",
+         "that",
+         "the",
+         "scandal",
+         "was",
+         "covered",
+         "up."
+        ],
+        "es": "En general se cree que el escándalo fue encubierto."
+       },
+       {
+        "t": "dict",
+        "say": "His whereabouts are still unknown."
+       },
+       {
+        "t": "dict",
+        "say": "There are unconfirmed reports of injuries."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál frase es correcta?",
+        "o": [
+         "He is said that he is very rich.",
+         "It is said him to be very rich.",
+         "He is said to be very rich.",
+         "It says that he is very rich."
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "There are said ___ ___ more than fifty people trapped in the building. (que hay)",
+        "ans": [
+         "to be"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The singer has reportedly cancelled the rest of her tour. According to sources close to her, she is exhausted and expects to be given at least six months off.",
+        "q": "Según las fuentes, ¿por qué canceló la gira?",
+        "o": [
+         "Por problemas con su disquera",
+         "Porque está agotada",
+         "Porque está embarazada",
+         "Por las bajas ventas"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe una breve noticia (mínimo 90 palabras) sobre un hecho no confirmado: un robo, una desaparición o un rumor sobre una celebridad. Usa la pasiva impersonal (It is said / He is believed to…), al menos un infinitivo perfecto y palabras como allegedly o reportedly.",
+        "min": 90,
+        "keys": [
+         [
+          "it is said",
+          "it is believed",
+          "it is reported",
+          "it is thought",
+          "it is estimated"
+         ],
+         [
+          "is said to",
+          "is believed to",
+          "are thought to",
+          "is reported to",
+          "are believed to",
+          "is thought to"
+         ],
+         [
+          "to have"
+         ],
+         [
+          "allegedly",
+          "reportedly",
+          "supposedly",
+          "unconfirmed"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The CEO ___ to have left the country last night.",
+       "o": [
+        "is thought",
+        "thinks",
+        "is thinking",
+        "it is thought"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "She was furious about ___ during the interview.",
+       "o": [
+        "interrupting",
+        "being interrupted",
+        "to interrupt",
+        "been interrupted"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u3-l2",
+      "title": "Causativo: have/get something done",
+      "goal": "Decir que otra persona hace algo por ti y pedir o convencer a alguien de que haga algo.",
+      "theory": [
+       {
+        "p": "El **causativo** se usa cuando **no haces tú mismo** la acción, sino que alguien la hace por ti (normalmente un profesional). Estructura: **have + objeto + participio**. En español decimos 'me corté el pelo' aunque lo cortó el peluquero; en inglés eso es **I had my hair cut**."
+       },
+       {
+        "ex": [
+         [
+          "I had my hair cut yesterday.",
+          "Me hice cortar el pelo ayer."
+         ],
+         [
+          "We're having the kitchen renovated.",
+          "Nos están remodelando la cocina."
+         ],
+         [
+          "She has her car serviced every six months.",
+          "Ella le hace el mantenimiento al carro cada seis meses."
+         ],
+         [
+          "You should have that tooth checked.",
+          "Deberías hacerte revisar esa muela."
+         ]
+        ]
+       },
+       {
+        "p": "**get + objeto + participio** significa lo mismo pero es más **informal**, y a veces sugiere esfuerzo o urgencia. El causativo también describe **experiencias negativas** que alguien te causó: **I had my phone stolen** (me robaron el celular)."
+       },
+       {
+        "ex": [
+         [
+          "I need to get my laptop fixed before Monday.",
+          "Necesito que me arreglen el portátil antes del lunes."
+         ],
+         [
+          "They finally got the documents translated.",
+          "Por fin lograron que les tradujeran los documentos."
+         ],
+         [
+          "He had his wallet stolen on the bus.",
+          "Le robaron la billetera en el bus."
+         ],
+         [
+          "We had our flight cancelled at the last minute.",
+          "Nos cancelaron el vuelo a última hora."
+         ]
+        ]
+       },
+       {
+        "p": "Para decir que **convences o pides** a una persona que haga algo: **get + persona + to + infinitivo** y **have + persona + infinitivo sin to** (más de jefe o cliente). Con **make + persona + infinitivo** obligas a alguien."
+       },
+       {
+        "ex": [
+         [
+          "I got my brother to help me move.",
+          "Convencí a mi hermano de que me ayudara con el trasteo."
+         ],
+         [
+          "I'll have the technician call you this afternoon.",
+          "Haré que el técnico lo llame esta tarde."
+         ],
+         [
+          "Can you get someone to look at the printer?",
+          "¿Puedes conseguir que alguien le eche un ojo a la impresora?"
+         ],
+         [
+          "The editor made us rewrite the whole article.",
+          "El editor nos hizo reescribir todo el artículo."
+         ]
+        ]
+       },
+       {
+        "tip": "Cuidado con el orden: I had cut my hair (pasado perfecto: me lo corté yo) ≠ I had my hair cut (causativo: me lo cortaron). El objeto va SIEMPRE antes del participio. Y con get + persona va to: I got him to sign ✓ (no 'I got him sign')."
+       }
+      ],
+      "vocab": [
+       [
+        "have something done",
+        "expresión",
+        "mandar a hacer algo",
+        "We had the house painted."
+       ],
+       [
+        "get something done",
+        "expresión",
+        "lograr que te hagan algo (informal)",
+        "I must get my eyes tested."
+       ],
+       [
+        "get someone to do",
+        "expresión",
+        "convencer a alguien de hacer algo",
+        "I got my boss to give me Friday off."
+       ],
+       [
+        "service",
+        "verbo",
+        "hacer mantenimiento (carro, máquina)",
+        "I need to have my car serviced."
+       ],
+       [
+        "renovate",
+        "verbo",
+        "remodelar, renovar",
+        "They're having their flat renovated."
+       ],
+       [
+        "redecorate",
+        "verbo",
+        "volver a decorar, pintar",
+        "We had the living room redecorated."
+       ],
+       [
+        "install",
+        "verbo",
+        "instalar",
+        "We had solar panels installed."
+       ],
+       [
+        "upgrade",
+        "verbo / sustantivo",
+        "mejorar, actualizar; actualización",
+        "I had my phone's memory upgraded."
+       ],
+       [
+        "back up",
+        "phrasal verb",
+        "hacer copia de seguridad",
+        "Get your files backed up before the repair."
+       ],
+       [
+        "wipe",
+        "verbo",
+        "borrar (por completo)",
+        "They wiped all my data by mistake."
+       ],
+       [
+        "proofread",
+        "verbo",
+        "corregir (un texto)",
+        "I had the article proofread by a colleague."
+       ],
+       [
+        "fact-check",
+        "verbo",
+        "verificar datos",
+        "Every story is fact-checked before publication."
+       ],
+       [
+        "quote",
+        "sustantivo",
+        "cotización, presupuesto",
+        "Get a quote before you agree to the repair."
+       ],
+       [
+        "under warranty",
+        "expresión",
+        "en garantía",
+        "The laptop is still under warranty."
+       ],
+       [
+        "tailor",
+        "sustantivo",
+        "sastre",
+        "I had my suit altered by a tailor."
+       ],
+       [
+        "alter",
+        "verbo",
+        "modificar, hacer arreglos (ropa)",
+        "These trousers need to be altered."
+       ],
+       [
+        "dye",
+        "verbo",
+        "teñir",
+        "She had her hair dyed blue."
+       ],
+       [
+        "check-up",
+        "sustantivo",
+        "chequeo médico",
+        "I'm having a check-up on Friday."
+       ],
+       [
+        "talk someone into",
+        "phrasal verb",
+        "convencer a alguien de algo",
+        "She talked me into buying a new phone."
+       ],
+       [
+        "hassle",
+        "sustantivo",
+        "molestia, lío",
+        "Getting it repaired was a real hassle."
+       ]
+      ],
+      "dialogue": {
+       "title": "Una semana de trámites",
+       "scene": "Felipe le cuenta a su compañera Grace todo lo que tuvo que mandar a arreglar después de que le robaran la maleta.",
+       "a": "Grace",
+       "b": "Felipe",
+       "lines": [
+        [
+         "A",
+         "You look exhausted, Felipe. Rough week?",
+         "Te ves agotado, Felipe. ¿Semana difícil?"
+        ],
+        [
+         "B",
+         "Terrible. I had my bag stolen at the bus station on Monday, with my laptop inside.",
+         "Terrible. El lunes me robaron la maleta en la terminal de buses, con el portátil adentro."
+        ],
+        [
+         "A",
+         "Oh no! Did you have your files backed up?",
+         "¡Ay no! ¿Tenías una copia de seguridad de tus archivos?"
+        ],
+        [
+         "B",
+         "Most of them, thankfully. But I had to get my bank cards cancelled and have new keys made.",
+         "La mayoría, por suerte. Pero tuve que hacer cancelar las tarjetas y mandar a hacer llaves nuevas."
+        ],
+        [
+         "A",
+         "What a hassle. Did you get the locks changed too?",
+         "Qué lío. ¿También hiciste cambiar las cerraduras?"
+        ],
+        [
+         "B",
+         "Yes, my landlord had a locksmith come the same day. I got him to pay for half of it.",
+         "Sí, el dueño del apartamento hizo venir a un cerrajero el mismo día. Logré que pagara la mitad."
+        ],
+        [
+         "A",
+         "Nice negotiating! And what are you using for work now?",
+         "¡Buena negociación! ¿Y qué estás usando para trabajar ahora?"
+        ],
+        [
+         "B",
+         "My old laptop. I'm having it upgraded so it can run the editing software.",
+         "Mi portátil viejo. Le están haciendo una actualización para que corra el programa de edición."
+        ],
+        [
+         "A",
+         "Is it worth it? Upgrades can be expensive.",
+         "¿Vale la pena? Las actualizaciones pueden ser caras."
+        ],
+        [
+         "B",
+         "I got three quotes, and it's much cheaper than buying a new one.",
+         "Pedí tres cotizaciones, y es mucho más barato que comprar uno nuevo."
+        ],
+        [
+         "A",
+         "Smart. By the way, did you finish the report for the client?",
+         "Inteligente. A propósito, ¿terminaste el informe para el cliente?"
+        ],
+        [
+         "B",
+         "Almost. I'm going to have it proofread by Lucía and get the figures fact-checked.",
+         "Casi. Voy a hacer que Lucía lo corrija y que verifiquen las cifras."
+        ],
+        [
+         "A",
+         "Good idea. Last time, the boss made us redo the whole thing because of one mistake.",
+         "Buena idea. La última vez el jefe nos hizo rehacer todo por un solo error."
+        ],
+        [
+         "B",
+         "I remember. That's why I'm not taking any risks this time.",
+         "Me acuerdo. Por eso esta vez no me voy a arriesgar."
+        ],
+        [
+         "A",
+         "And what about you? Are you going to the police station to report it?",
+         "¿Y tú? ¿Vas a ir a la estación de policía a denunciarlo?"
+        ],
+        [
+         "B",
+         "I already did. They said I'd be lucky to get the laptop back, but at least I'll have the report for the insurance.",
+         "Ya fui. Me dijeron que tendría suerte si recuperaba el portátil, pero al menos tendré la denuncia para el seguro."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I don't cut my own hair. I ___ every month.",
+        "o": [
+         "cut my hair",
+         "have my hair cut",
+         "have cut my hair",
+         "get cut my hair"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "We ___ our roof repaired after the storm last week.",
+        "o": [
+         "had",
+         "made",
+         "did",
+         "let"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I finally got the mechanic ___ the car properly.",
+        "o": [
+         "check",
+         "checked",
+         "to check",
+         "checking"
+        ],
+        "a": 2,
+        "x": "get + persona + to + infinitivo."
+       },
+       {
+        "t": "fill",
+        "q": "She had her passport ___ at the airport. (stolen / robaron)",
+        "ans": [
+         "stolen"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We're having the kitchen renovated, so for the next three weeks we'll be eating out or ordering food. The builders say it should be finished by the end of the month.",
+        "q": "¿Por qué van a comer afuera?",
+        "o": [
+         "Porque se dañó la estufa",
+         "Porque les están remodelando la cocina",
+         "Porque están de vacaciones",
+         "Porque se mudaron"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I need to get my laptop fixed before the presentation on Monday."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "had",
+         "solar",
+         "panels",
+         "installed",
+         "last",
+         "year."
+        ],
+        "es": "El año pasado mandamos a instalar paneles solares."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I'll",
+         "have",
+         "the",
+         "technician",
+         "call",
+         "you",
+         "this",
+         "afternoon."
+        ],
+        "es": "Haré que el técnico lo llame esta tarde."
+       },
+       {
+        "t": "dict",
+        "say": "The laptop is still under warranty."
+       },
+       {
+        "t": "dict",
+        "say": "Every story is fact-checked before publication."
+       },
+       {
+        "t": "mc",
+        "q": "'I had cut my hair' significa:",
+        "o": [
+         "Me hice cortar el pelo",
+         "Yo mismo me había cortado el pelo",
+         "Me van a cortar el pelo",
+         "Me cortan el pelo siempre"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "She talked me ___ buying a more expensive phone. (convenció de)",
+        "ans": [
+         "into"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I had my suit altered by a tailor for the wedding, but when I picked it up, the trousers were too short. He had to fix them again for free.",
+        "q": "¿Cuál fue el problema con el traje?",
+        "o": [
+         "La chaqueta era muy grande",
+         "Los pantalones quedaron muy cortos",
+         "Era del color equivocado",
+         "Lo perdieron"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo a un amigo (mínimo 90 palabras) contándole todo lo que tienes que mandar a hacer este mes (casa, carro, salud, tecnología) y a quién vas a convencer de que te ayude. Usa have/get something done, get someone to do y una experiencia negativa (I had my … stolen/cancelled).",
+        "min": 90,
+        "keys": [
+         [
+          "have my",
+          "had my",
+          "having my",
+          "having the",
+          "had the",
+          "have the"
+         ],
+         [
+          "get my",
+          "got my",
+          "getting my",
+          "get the",
+          "got the"
+         ],
+         [
+          "to help",
+          "to do",
+          "to fix",
+          "to pay",
+          "to lend",
+          "got him to",
+          "got her to",
+          "get him to",
+          "get her to"
+         ],
+         [
+          "stolen",
+          "cancelled",
+          "canceled",
+          "broken",
+          "damaged"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "My eyesight is getting worse. I need to ___.",
+       "o": [
+        "test my eyes",
+        "have tested my eyes",
+        "have my eyes tested",
+        "have my eyes test"
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I couldn't get my neighbour ___ the music down.",
+       "o": [
+        "turn",
+        "to turn",
+        "turned",
+        "turning"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u3-l3",
+      "title": "Verbos de reporte avanzados y sus patrones",
+      "goal": "Resumir lo que alguien dijo con verbos precisos (accuse, deny, admit, insist, blame, recommend) y la estructura correcta de cada uno.",
+      "theory": [
+       {
+        "p": "En vez de repetir siempre **said** o **told**, el inglés de nivel B2 usa **verbos de reporte** que resumen la intención del hablante. Lo difícil es que cada verbo exige **su propio patrón** gramatical, y casi nunca coincide con el español."
+       },
+       {
+        "p": "**Verbo + -ing**: **deny, admit, recommend, suggest, regret**. **Verbo + preposición + -ing**: **insist on, apologize for, object to, confess to**. **Verbo + persona + preposición + -ing**: **accuse sb of, blame sb for, congratulate sb on**."
+       },
+       {
+        "ex": [
+         [
+          "He denied taking the money.",
+          "Negó haber tomado el dinero."
+         ],
+         [
+          "She admitted making a mistake.",
+          "Admitió haber cometido un error."
+         ],
+         [
+          "The doctor recommended resting for a week.",
+          "El médico recomendó descansar una semana."
+         ],
+         [
+          "They insisted on paying for dinner.",
+          "Insistieron en pagar la cena."
+         ],
+         [
+          "The police accused him of lying.",
+          "La policía lo acusó de mentir."
+         ],
+         [
+          "She blamed the driver for the accident.",
+          "Culpó al conductor del accidente."
+         ]
+        ]
+       },
+       {
+        "p": "**Verbo + to + infinitivo**: **agree, refuse, threaten, promise, offer**. **Verbo + persona + to + infinitivo**: **warn, urge, persuade, remind, advise**. **Verbo + that**: **point out, acknowledge, insist, admit, deny**."
+       },
+       {
+        "ex": [
+         [
+          "The workers threatened to go on strike.",
+          "Los trabajadores amenazaron con irse a paro."
+         ],
+         [
+          "The minister refused to answer the question.",
+          "El ministro se negó a responder la pregunta."
+         ],
+         [
+          "Experts urged the public to stay calm.",
+          "Los expertos instaron al público a mantener la calma."
+         ],
+         [
+          "She pointed out that the figures were wrong.",
+          "Señaló que las cifras estaban mal."
+         ]
+        ]
+       },
+       {
+        "tip": "Errores típicos: 'He denied to take it' ✗ → He denied taking it ✓. 'She recommended me to buy' ✗ → She recommended buying / She recommended that I buy ✓. 'They accused him to steal' ✗ → accused him of stealing ✓. Para un hecho anterior puedes usar having + participio: He denied having seen her."
+       }
+      ],
+      "vocab": [
+       [
+        "accuse someone of",
+        "expresión",
+        "acusar a alguien de",
+        "They accused her of leaking the documents."
+       ],
+       [
+        "deny",
+        "verbo",
+        "negar",
+        "The senator denied receiving any payment."
+       ],
+       [
+        "admit",
+        "verbo",
+        "admitir, reconocer",
+        "He admitted breaking the window."
+       ],
+       [
+        "insist on",
+        "verbo",
+        "insistir en",
+        "She insisted on seeing the manager."
+       ],
+       [
+        "blame someone for",
+        "expresión",
+        "culpar a alguien de",
+        "Don't blame me for the delay."
+       ],
+       [
+        "recommend",
+        "verbo",
+        "recomendar",
+        "I recommend booking in advance."
+       ],
+       [
+        "urge",
+        "verbo",
+        "instar, exhortar",
+        "The WHO urged governments to act quickly."
+       ],
+       [
+        "warn",
+        "verbo",
+        "advertir",
+        "They warned us not to drink the water."
+       ],
+       [
+        "threaten",
+        "verbo",
+        "amenazar",
+        "The union threatened to strike."
+       ],
+       [
+        "refuse",
+        "verbo",
+        "negarse a",
+        "He refused to comment on the case."
+       ],
+       [
+        "persuade",
+        "verbo",
+        "persuadir, convencer",
+        "I persuaded her to apply for the job."
+       ],
+       [
+        "apologize for",
+        "verbo",
+        "disculparse por",
+        "The airline apologized for the delay."
+       ],
+       [
+        "congratulate someone on",
+        "expresión",
+        "felicitar a alguien por",
+        "We congratulated him on winning the award."
+       ],
+       [
+        "acknowledge",
+        "verbo",
+        "reconocer (algo incómodo)",
+        "The company acknowledged that mistakes had been made."
+       ],
+       [
+        "point out",
+        "phrasal verb",
+        "señalar, hacer notar",
+        "She pointed out that the deadline had passed."
+       ],
+       [
+        "reassure",
+        "verbo",
+        "tranquilizar, asegurar",
+        "The pilot reassured the passengers."
+       ],
+       [
+        "object to",
+        "verbo",
+        "oponerse a, objetar",
+        "Residents objected to building a new airport."
+       ],
+       [
+        "confess to",
+        "verbo",
+        "confesar",
+        "He confessed to stealing the car."
+       ],
+       [
+        "remind",
+        "verbo",
+        "recordarle (a alguien)",
+        "Remind me to call the lawyer."
+       ],
+       [
+        "allegation",
+        "sustantivo",
+        "acusación, denuncia",
+        "He has denied all the allegations."
+       ]
+      ],
+      "dialogue": {
+       "title": "La rueda de prensa del alcalde",
+       "scene": "Los periodistas Natalia y Kevin resumen en directo lo que dijo el alcalde en una tensa rueda de prensa.",
+       "a": "Kevin",
+       "b": "Natalia",
+       "lines": [
+        [
+         "A",
+         "Natalia, you were in the room. How did the mayor respond to the allegations?",
+         "Natalia, tú estabas en la sala. ¿Cómo respondió el alcalde a las acusaciones?"
+        ],
+        [
+         "B",
+         "He flatly denied receiving any money from the construction company.",
+         "Negó rotundamente haber recibido dinero de la constructora."
+        ],
+        [
+         "A",
+         "But the opposition has accused him of awarding them the contract without a tender.",
+         "Pero la oposición lo ha acusado de adjudicarles el contrato sin licitación."
+        ],
+        [
+         "B",
+         "Yes, and he admitted signing the contract, but he insisted on calling it an emergency decision.",
+         "Sí, y admitió haber firmado el contrato, pero insistió en llamarlo una decisión de emergencia."
+        ],
+        [
+         "A",
+         "Did he apologize for anything?",
+         "¿Pidió disculpas por algo?"
+        ],
+        [
+         "B",
+         "He apologized for not explaining the decision sooner. That's all.",
+         "Pidió disculpas por no haber explicado la decisión antes. Nada más."
+        ],
+        [
+         "A",
+         "Who does he blame for the scandal?",
+         "¿A quién culpa del escándalo?"
+        ],
+        [
+         "B",
+         "He blamed the previous administration for leaving the bridge in such bad condition.",
+         "Culpó a la administración anterior por dejar el puente en tan mal estado."
+        ],
+        [
+         "A",
+         "Interesting. Did anyone ask whether he would resign?",
+         "Interesante. ¿Alguien le preguntó si iba a renunciar?"
+        ],
+        [
+         "B",
+         "Several reporters did. He refused to answer and threatened to end the press conference.",
+         "Varios periodistas lo hicieron. Se negó a responder y amenazó con terminar la rueda de prensa."
+        ],
+        [
+         "A",
+         "Wow. And what about the comptroller's office?",
+         "Uy. ¿Y la Contraloría?"
+        ],
+        [
+         "B",
+         "A spokesperson pointed out that the investigation is still at an early stage.",
+         "Una vocera señaló que la investigación todavía está en una etapa inicial."
+        ],
+        [
+         "A",
+         "Did they recommend suspending the contract in the meantime?",
+         "¿Recomendaron suspender el contrato mientras tanto?"
+        ],
+        [
+         "B",
+         "They did. They urged the city council to freeze all payments until the audit is finished.",
+         "Sí. Instaron al concejo a congelar todos los pagos hasta que termine la auditoría."
+        ],
+        [
+         "A",
+         "Thank you, Natalia. We'll keep our viewers updated as the story develops.",
+         "Gracias, Natalia. Mantendremos informados a nuestros televidentes a medida que avance la historia."
+        ],
+        [
+         "B",
+         "Thanks, Kevin. Back to the studio.",
+         "Gracias, Kevin. Volvemos al estudio."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The suspect denied ___ the victim before.",
+        "o": [
+         "to meet",
+         "meeting",
+         "that meet",
+         "of meeting"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "The coach blamed the referee ___ the defeat.",
+        "o": [
+         "of",
+         "about",
+         "for",
+         "on"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "Doctors have urged people ___ outdoor exercise during the heatwave.",
+        "o": [
+         "avoiding",
+         "to avoid",
+         "avoid",
+         "for avoiding"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "The police accused him ___ ___ about where he had been. (de mentir)",
+        "ans": [
+         "of lying"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The airline has apologized for the delays and has offered to refund passengers whose flights were cancelled. However, it refused to say when normal service would resume.",
+        "q": "¿Qué se negó a decir la aerolínea?",
+        "o": [
+         "Por qué hubo retrasos",
+         "Cuándo volverá a la normalidad el servicio",
+         "Cuánto dinero devolverá",
+         "Cuántos vuelos se cancelaron"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "The minister denied having received any money and refused to resign."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "insisted",
+         "on",
+         "speaking",
+         "to",
+         "the",
+         "manager."
+        ],
+        "es": "Ella insistió en hablar con el gerente."
+       },
+       {
+        "t": "order",
+        "words": [
+         "They",
+         "congratulated",
+         "her",
+         "on",
+         "winning",
+         "the",
+         "award."
+        ],
+        "es": "La felicitaron por ganar el premio."
+       },
+       {
+        "t": "dict",
+        "say": "He has denied all the allegations."
+       },
+       {
+        "t": "dict",
+        "say": "The union threatened to go on strike."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál frase es correcta?",
+        "o": [
+         "She recommended me to buy a new phone.",
+         "She recommended buying a new phone.",
+         "She recommended to buy a new phone.",
+         "She recommended me buying a new phone."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'Don't touch the cable!' he said to us. → He ___ us not to touch the cable.",
+        "o": [
+         "denied",
+         "admitted",
+         "warned",
+         "apologized"
+        ],
+        "a": 2
+       },
+       {
+        "t": "listen",
+        "say": "At first the student insisted that he had written the essay himself, but when the teacher showed him the evidence, he admitted copying it from the internet.",
+        "q": "¿Qué admitió finalmente el estudiante?",
+        "o": [
+         "Que no había hecho el ensayo",
+         "Que copió el ensayo de internet",
+         "Que su hermano lo escribió",
+         "Que entregó tarde el ensayo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Resume una discusión, entrevista o rueda de prensa (real o inventada) en forma de noticia (mínimo 100 palabras). No uses said: usa al menos seis verbos de reporte de esta lección con su patrón correcto (deny + -ing, accuse of, blame for, insist on, refuse to, urge…).",
+        "min": 100,
+        "keys": [
+         [
+          "denied",
+          "admitted",
+          "recommended"
+         ],
+         [
+          "accused",
+          "blamed",
+          "apologized",
+          "apologised",
+          "congratulated"
+         ],
+         [
+          "insisted on",
+          "objected to",
+          "confessed to"
+         ],
+         [
+          "refused to",
+          "threatened to",
+          "urged",
+          "warned",
+          "persuaded"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "After hours of questioning, he finally admitted ___ the documents.",
+       "o": [
+        "to steal",
+        "stealing",
+        "of stealing",
+        "steal"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Residents have accused the company ___ the river.",
+       "o": [
+        "for polluting",
+        "to pollute",
+        "of polluting",
+        "polluting"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u3-l4",
+      "title": "Relativas explicativas, which y participle clauses",
+      "goal": "Añadir información extra con elegancia y condensar ideas como en la prensa escrita.",
+      "theory": [
+       {
+        "p": "Las **relativas explicativas** (non-defining) añaden información **extra** que se podría quitar sin cambiar el sentido. Van **entre comas**, usan **who, which, whose, where, when** y **nunca that**, y el pronombre **no se puede omitir**."
+       },
+       {
+        "ex": [
+         [
+          "My sister, who lives in Medellín, is a journalist.",
+          "Mi hermana, que vive en Medellín, es periodista."
+         ],
+         [
+          "The report, which was published on Monday, has caused a scandal.",
+          "El informe, que se publicó el lunes, ha causado un escándalo."
+         ],
+         [
+          "Gabriel García Márquez, whose novels are read worldwide, was born in Aracataca.",
+          "Gabriel García Márquez, cuyas novelas se leen en todo el mundo, nació en Aracataca."
+         ],
+         [
+          "Compara: The journalist who broke the story won a prize. (especificativa, sin comas: cuál periodista)",
+          "El periodista que destapó la historia ganó un premio."
+         ]
+        ]
+       },
+       {
+        "p": "**which** puede referirse a **toda la oración anterior**, como 'lo cual' o 'lo que' en español. Siempre va después de coma. Aquí no se puede usar **what** ni **that**."
+       },
+       {
+        "ex": [
+         [
+          "The train was cancelled, which meant we had to take a taxi.",
+          "Cancelaron el tren, lo cual significó que tuvimos que tomar un taxi."
+         ],
+         [
+          "He didn't call me back, which was really annoying.",
+          "No me devolvió la llamada, lo que fue muy molesto."
+         ],
+         [
+          "Prices have doubled, which is why people are angry.",
+          "Los precios se han duplicado, razón por la cual la gente está furiosa."
+         ]
+        ]
+       },
+       {
+        "p": "Las **participle clauses** reducen una relativa o una subordinada: **-ing** (sentido activo o simultáneo), **participio** (sentido pasivo) y **having + participio** (acción anterior). Son muy típicas en noticias."
+       },
+       {
+        "ex": [
+         [
+          "People living near the river were evacuated. (= who live)",
+          "Las personas que viven cerca del río fueron evacuadas."
+         ],
+         [
+          "The bridge, built in 1950, is now unsafe. (= which was built)",
+          "El puente, construido en 1950, ahora es inseguro."
+         ],
+         [
+          "Having lost the election, the president stepped down.",
+          "Tras perder las elecciones, el presidente renunció."
+         ],
+         [
+          "Founded in 1911, the newspaper is one of the oldest in the country.",
+          "Fundado en 1911, el periódico es uno de los más antiguos del país."
+         ]
+        ]
+       },
+       {
+        "tip": "Error típico: 'The president, that won the election, …' ✗ → who ✓. 'He was late, what made me angry' ✗ → which ✓. Y en una participle clause el sujeto debe ser el mismo: 'Walking to work, the rain started' ✗ (la lluvia no caminaba) → Walking to work, I got caught in the rain ✓."
+       }
+      ],
+      "vocab": [
+       [
+        "renowned",
+        "adjetivo",
+        "reconocido, célebre",
+        "She is a renowned scientist."
+       ],
+       [
+        "pioneer",
+        "sustantivo",
+        "pionero",
+        "He was a pioneer of Colombian television."
+       ],
+       [
+        "founder",
+        "sustantivo",
+        "fundador",
+        "The founder, who is now 80, still works every day."
+       ],
+       [
+        "legacy",
+        "sustantivo",
+        "legado",
+        "Her legacy will inspire future generations."
+       ],
+       [
+        "award-winning",
+        "adjetivo",
+        "galardonado",
+        "The award-winning film was shot in Bogotá."
+       ],
+       [
+        "acclaimed",
+        "adjetivo",
+        "aclamado",
+        "His acclaimed novel has been translated into 30 languages."
+       ],
+       [
+        "outspoken",
+        "adjetivo",
+        "franco, que habla sin rodeos",
+        "She is an outspoken critic of the government."
+       ],
+       [
+        "controversial",
+        "adjetivo",
+        "polémico",
+        "The decision, which was controversial, was later reversed."
+       ],
+       [
+        "step down",
+        "phrasal verb",
+        "renunciar a un cargo, hacerse a un lado",
+        "The director stepped down after the scandal."
+       ],
+       [
+        "take over",
+        "phrasal verb",
+        "asumir el control, tomar el mando",
+        "Having taken over the company, she cut costs."
+       ],
+       [
+        "upbringing",
+        "sustantivo",
+        "crianza, educación en casa",
+        "He had a strict upbringing."
+       ],
+       [
+        "achievement",
+        "sustantivo",
+        "logro",
+        "It was her greatest achievement."
+       ],
+       [
+        "milestone",
+        "sustantivo",
+        "hito",
+        "The agreement is a milestone for the region."
+       ],
+       [
+        "setback",
+        "sustantivo",
+        "revés, contratiempo",
+        "The project suffered a serious setback."
+       ],
+       [
+        "much to my surprise",
+        "expresión",
+        "para mi sorpresa",
+        "Much to my surprise, he agreed."
+       ],
+       [
+        "which is why",
+        "conector",
+        "razón por la cual",
+        "He lied, which is why nobody trusts him."
+       ],
+       [
+        "having said that",
+        "conector",
+        "dicho esto, aun así",
+        "It's expensive. Having said that, it's worth it."
+       ],
+       [
+        "given that",
+        "conector",
+        "dado que",
+        "Given that he has no experience, it's a risk."
+       ],
+       [
+        "be in charge of",
+        "expresión",
+        "estar a cargo de",
+        "She is in charge of the investigation."
+       ],
+       [
+        "turn down",
+        "phrasal verb",
+        "rechazar (una oferta)",
+        "He turned down the offer, which surprised everyone."
+       ]
+      ],
+      "dialogue": {
+       "title": "El perfil de una científica",
+       "scene": "Isabel y su colega británico Tom preparan el perfil de una científica colombiana para la revista del domingo.",
+       "a": "Tom",
+       "b": "Isabel",
+       "lines": [
+        [
+         "A",
+         "So, who exactly is Dr. Rojas? I've only read the headline.",
+         "Entonces, ¿quién es exactamente la doctora Rojas? Solo he leído el titular."
+        ],
+        [
+         "B",
+         "She's a renowned biologist, born in Pasto, whose research on frogs has changed the way we study diseases.",
+         "Es una bióloga reconocida, nacida en Pasto, cuya investigación sobre ranas ha cambiado la forma de estudiar las enfermedades."
+        ],
+        [
+         "A",
+         "Frogs? That sounds controversial.",
+         "¿Ranas? Suena polémico."
+        ],
+        [
+         "B",
+         "It was at first. Her early work, which was rejected by three journals, is now considered a milestone.",
+         "Al principio lo fue. Sus primeros trabajos, que fueron rechazados por tres revistas, ahora se consideran un hito."
+        ],
+        [
+         "A",
+         "How should we start the profile? With her upbringing?",
+         "¿Cómo empezamos el perfil? ¿Con su crianza?"
+        ],
+        [
+         "B",
+         "Yes. Raised by her grandmother on a farm, she spent her childhood catching frogs in the river.",
+         "Sí. Criada por su abuela en una finca, pasó la infancia atrapando ranas en el río."
+        ],
+        [
+         "A",
+         "Lovely. And the setbacks? Readers like to know about the difficult moments.",
+         "Precioso. ¿Y los reveses? A los lectores les gusta saber de los momentos difíciles."
+        ],
+        [
+         "B",
+         "Having lost her funding in 2015, she almost gave up, which is something she rarely talks about.",
+         "Tras perder su financiación en 2015, casi se rindió, lo cual es algo de lo que casi nunca habla."
+        ],
+        [
+         "A",
+         "What made her keep going?",
+         "¿Qué hizo que siguiera adelante?"
+        ],
+        [
+         "B",
+         "A university in Germany offered her a job, which she turned down because she wanted to stay in Colombia.",
+         "Una universidad en Alemania le ofreció un puesto, que ella rechazó porque quería quedarse en Colombia."
+        ],
+        [
+         "A",
+         "Much to everyone's surprise, I imagine.",
+         "Para sorpresa de todos, me imagino."
+        ],
+        [
+         "B",
+         "Exactly. Now she's in charge of a lab employing over forty young researchers.",
+         "Exacto. Ahora está a cargo de un laboratorio que emplea a más de cuarenta investigadores jóvenes."
+        ],
+        [
+         "A",
+         "Is she outspoken about funding for science?",
+         "¿Habla abiertamente sobre la financiación de la ciencia?"
+        ],
+        [
+         "B",
+         "Very. She criticized the government's budget last year, which made her quite popular with students.",
+         "Mucho. Criticó el presupuesto del gobierno el año pasado, lo que la hizo bastante popular entre los estudiantes."
+        ],
+        [
+         "A",
+         "Given that she's so busy, will she have time for a photo shoot?",
+         "Dado que está tan ocupada, ¿tendrá tiempo para una sesión de fotos?"
+        ],
+        [
+         "B",
+         "She agreed to one on Friday. Having said that, she wants the frogs in the picture too!",
+         "Aceptó una el viernes. Dicho esto, ¡quiere que las ranas también salgan en la foto!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "My boss, ___ has worked here for 20 years, is retiring.",
+        "o": [
+         "that",
+         "which",
+         "who",
+         "whose"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "The flight was delayed for six hours, ___ meant we missed the wedding.",
+        "o": [
+         "what",
+         "that",
+         "which",
+         "who"
+        ],
+        "a": 2,
+        "x": "which se refiere a toda la oración anterior (lo cual)."
+       },
+       {
+        "t": "mc",
+        "q": "___ the contract, the company started hiring new staff.",
+        "o": [
+         "Having signed",
+         "Signed",
+         "Have signed",
+         "Being signed"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The museum, ___ collection includes over 5,000 pieces, reopens tomorrow. (cuya)",
+        "ans": [
+         "whose"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The new metro line, which was supposed to open in 2024, has been delayed again, which means residents living in the south will have to keep using buses for at least two more years.",
+        "q": "¿Qué consecuencia tiene el retraso?",
+        "o": [
+         "Los buses serán gratis",
+         "Los habitantes del sur seguirán usando buses",
+         "El metro cerrará otra línea",
+         "Se construirá una autopista"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "The report, which was published on Monday, has caused a huge scandal."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "He",
+         "lied",
+         "to",
+         "the",
+         "press,",
+         "which",
+         "is",
+         "why",
+         "nobody",
+         "trusts",
+         "him."
+        ],
+        "es": "Le mintió a la prensa, razón por la cual nadie le cree."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Founded",
+         "in",
+         "1911,",
+         "the",
+         "newspaper",
+         "is",
+         "one",
+         "of",
+         "the",
+         "oldest",
+         "in",
+         "the",
+         "country."
+        ],
+        "es": "Fundado en 1911, el periódico es uno de los más antiguos del país."
+       },
+       {
+        "t": "dict",
+        "say": "The director stepped down after the scandal."
+       },
+       {
+        "t": "dict",
+        "say": "Much to my surprise, he turned down the offer."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál frase es correcta?",
+        "o": [
+         "Bogotá, that is the capital, is very high.",
+         "Bogotá, which is the capital, is very high.",
+         "Bogotá which is the capital is very high.",
+         "Bogotá, what is the capital, is very high."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Passengers ___ (travel) to the coast should expect delays. (participle clause)",
+        "ans": [
+         "travelling",
+         "traveling"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Built in the nineteenth century, the old station had been abandoned for decades. Having been restored by a group of local architects, it now houses a library and a café.",
+        "q": "¿Qué hay ahora en la antigua estación?",
+        "o": [
+         "Un hotel y un restaurante",
+         "Una biblioteca y un café",
+         "Un museo de trenes",
+         "Oficinas del gobierno"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un breve perfil (mínimo 100 palabras) de una persona que admires (artista, científico, deportista o familiar). Incluye al menos dos relativas explicativas con comas, un which que se refiera a toda la oración y dos participle clauses (-ing, participio o having + participio).",
+        "min": 100,
+        "keys": [
+         [
+          "who",
+          "whose",
+          "where"
+         ],
+         [
+          "which"
+         ],
+         [
+          "having"
+         ],
+         [
+          "born",
+          "raised",
+          "known",
+          "founded",
+          "built",
+          "living",
+          "working",
+          "growing"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "She won the scholarship, ___ made her parents very proud.",
+       "o": [
+        "what",
+        "that",
+        "which",
+        "who"
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Mr. Díaz, ___ son is a famous actor, lives next door.",
+       "o": [
+        "who",
+        "whose",
+        "which",
+        "that"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u3-l5",
+      "title": "Noticias, ciencia y tecnología: titulares y resúmenes",
+      "goal": "Entender el lenguaje periodístico y los titulares en inglés, y resumir una noticia de ciencia o tecnología con tus propias palabras.",
+      "theory": [
+       {
+        "p": "Los **titulares** (headlines) tienen su propia gramática: **omiten artículos y el verbo be**, usan **presente simple para hechos pasados**, **to + infinitivo para el futuro** y el **participio solo para la pasiva**."
+       },
+       {
+        "ex": [
+         [
+          "PRESIDENT VISITS CHINA = The president has visited China.",
+          "El presidente visita China (ya lo hizo)."
+         ],
+         [
+          "MINISTER TO RESIGN = The minister is going to resign.",
+          "El ministro va a renunciar."
+         ],
+         [
+          "TEN HURT IN BUS CRASH = Ten people were hurt in a bus crash.",
+          "Diez heridos en choque de bus."
+         ],
+         [
+          "SCIENTISTS FIND NEW SPECIES IN AMAZON",
+          "Científicos descubren nueva especie en la Amazonía."
+         ]
+        ]
+       },
+       {
+        "p": "La prensa usa **palabras cortas** y dramáticas que en el habla normal sonarían raras: **probe** (investigación), **vow** (prometer), **slam** (criticar duramente), **bid** (intento), **row** (pelea, polémica), **axe** (recortar, eliminar), **quit** (renunciar), **hit** (afectar gravemente)."
+       },
+       {
+        "ex": [
+         [
+          "GOVERNMENT SLAMS TECH GIANT OVER DATA BREACH",
+          "El gobierno critica duramente al gigante tecnológico por filtración de datos."
+         ],
+         [
+          "POLICE LAUNCH PROBE INTO HOSPITAL HACK",
+          "La policía abre investigación por ataque informático a hospital."
+         ],
+         [
+          "CEO VOWS TO FIGHT BACK",
+          "El director ejecutivo promete contraatacar."
+         ],
+         [
+          "FACTORY TO AXE 500 JOBS",
+          "La fábrica eliminará 500 puestos de trabajo."
+         ]
+        ]
+       },
+       {
+        "p": "Para **resumir** una noticia: empieza con la idea principal (**The article reports that… / According to…**), da los datos clave (quién, qué, dónde, cuándo, por qué), menciona las reacciones (**Critics argue that… / Experts warn that…**) y cierra con las consecuencias (**As a result… / It remains to be seen whether…**). Usa tus palabras, no copies frases."
+       },
+       {
+        "ex": [
+         [
+          "The article reports that a team of Colombian researchers has developed a cheaper malaria test.",
+          "El artículo informa que un equipo de investigadores colombianos ha desarrollado una prueba de malaria más barata."
+         ],
+         [
+          "According to the study, the test is 95% accurate.",
+          "Según el estudio, la prueba es 95 % precisa."
+         ],
+         [
+          "Critics argue that more clinical trials are needed.",
+          "Los críticos sostienen que se necesitan más ensayos clínicos."
+         ],
+         [
+          "It remains to be seen whether it will be approved.",
+          "Está por verse si será aprobada."
+         ]
+        ]
+       },
+       {
+        "tip": "No confundas: news es incontable y va en singular (The news is good ✓, no 'the news are'); una noticia = a piece of news o a news story. Y 'actually' no es 'actualmente' (currently): Currently, AI is used in hospitals ✓."
+       }
+      ],
+      "vocab": [
+       [
+        "headline",
+        "sustantivo",
+        "titular",
+        "The story made the headlines all over the world."
+       ],
+       [
+        "breaking news",
+        "expresión",
+        "noticia de última hora",
+        "We interrupt this programme for breaking news."
+       ],
+       [
+        "coverage",
+        "sustantivo",
+        "cubrimiento (periodístico)",
+        "The media coverage of the trial was huge."
+       ],
+       [
+        "outlet",
+        "sustantivo",
+        "medio de comunicación",
+        "Several news outlets reported the story."
+       ],
+       [
+        "eyewitness",
+        "sustantivo",
+        "testigo presencial",
+        "Eyewitnesses described a loud explosion."
+       ],
+       [
+        "probe",
+        "sustantivo / verbo",
+        "investigación; investigar (prensa)",
+        "A probe into the hack has been launched."
+       ],
+       [
+        "vow",
+        "verbo",
+        "prometer solemnemente",
+        "The president vowed to tackle corruption."
+       ],
+       [
+        "slam",
+        "verbo",
+        "criticar duramente (prensa)",
+        "Doctors slammed the new health policy."
+       ],
+       [
+        "bid",
+        "sustantivo",
+        "intento, oferta",
+        "The city has made a bid to host the Olympics."
+       ],
+       [
+        "row",
+        "sustantivo",
+        "polémica, pelea (UK)",
+        "A row has broken out over the new tax."
+       ],
+       [
+        "breakthrough",
+        "sustantivo",
+        "gran avance",
+        "Scientists have made a major breakthrough in cancer research."
+       ],
+       [
+        "cutting-edge",
+        "adjetivo",
+        "de vanguardia",
+        "The hospital uses cutting-edge technology."
+       ],
+       [
+        "findings",
+        "sustantivo",
+        "hallazgos, resultados",
+        "The findings were published in Nature."
+       ],
+       [
+        "peer-reviewed",
+        "adjetivo",
+        "revisado por pares",
+        "Only peer-reviewed studies were included."
+       ],
+       [
+        "clinical trial",
+        "colocación",
+        "ensayo clínico",
+        "The vaccine is now in clinical trials."
+       ],
+       [
+        "data breach",
+        "colocación",
+        "filtración de datos",
+        "The data breach affected two million users."
+       ],
+       [
+        "misinformation",
+        "sustantivo",
+        "desinformación",
+        "Misinformation spreads faster than the truth."
+       ],
+       [
+        "clickbait",
+        "sustantivo",
+        "contenido sensacionalista para obtener clics",
+        "That headline is pure clickbait."
+       ],
+       [
+        "bias",
+        "sustantivo",
+        "sesgo, parcialidad",
+        "Every newspaper has some political bias."
+       ],
+       [
+        "in a nutshell",
+        "modismo",
+        "en pocas palabras",
+        "In a nutshell, the study shows that sleep matters."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Avance científico o clickbait?",
+       "scene": "Andrea, estudiante de comunicación, y su compañero de clase Ryan analizan una noticia viral sobre inteligencia artificial para una tarea.",
+       "a": "Ryan",
+       "b": "Andrea",
+       "lines": [
+        [
+         "A",
+         "Have you seen this headline? 'AI TO REPLACE HALF OF ALL DOCTORS BY 2030'.",
+         "¿Viste este titular? 'LA IA REEMPLAZARÁ A LA MITAD DE LOS MÉDICOS PARA 2030'."
+        ],
+        [
+         "B",
+         "I have. It's all over social media, but it sounds like clickbait to me.",
+         "Sí. Está por todas las redes, pero a mí me suena a clickbait."
+        ],
+        [
+         "A",
+         "Why? It says it's based on a study.",
+         "¿Por qué? Dice que se basa en un estudio."
+        ],
+        [
+         "B",
+         "Let's check. According to the article, the findings were published by a tech company, not in a peer-reviewed journal.",
+         "Revisemos. Según el artículo, los hallazgos los publicó una empresa de tecnología, no una revista revisada por pares."
+        ],
+        [
+         "A",
+         "So there could be some bias. They probably want to sell their software.",
+         "Entonces podría haber sesgo. Seguramente quieren vender su software."
+        ],
+        [
+         "B",
+         "Exactly. And if you read the whole thing, the study only says AI could help doctors with some routine tasks.",
+         "Exacto. Y si lees todo, el estudio solo dice que la IA podría ayudar a los médicos con algunas tareas rutinarias."
+        ],
+        [
+         "A",
+         "That's very different from replacing them!",
+         "¡Eso es muy distinto a reemplazarlos!"
+        ],
+        [
+         "B",
+         "It is. That's how misinformation spreads. People share the headline without reading the article.",
+         "Así es. Así se propaga la desinformación. La gente comparte el titular sin leer el artículo."
+        ],
+        [
+         "A",
+         "OK, so for our assignment, how do we summarize it properly?",
+         "Bueno, para nuestra tarea, ¿cómo lo resumimos bien?"
+        ],
+        [
+         "B",
+         "First the main idea: the article reports that a company claims AI could automate some medical tasks.",
+         "Primero la idea principal: el artículo informa que una empresa afirma que la IA podría automatizar algunas tareas médicas."
+        ],
+        [
+         "A",
+         "Then the reactions. There's a quote here where a doctors' association slams the study as exaggerated.",
+         "Luego las reacciones. Aquí hay una cita en la que una asociación médica critica duramente el estudio por exagerado."
+        ],
+        [
+         "B",
+         "Good. We should also mention that the software is still in clinical trials.",
+         "Bien. También deberíamos mencionar que el software todavía está en ensayos clínicos."
+        ],
+        [
+         "A",
+         "And to finish? Something like 'it remains to be seen whether…'?",
+         "¿Y para terminar? ¿Algo como 'está por verse si…'?"
+        ],
+        [
+         "B",
+         "Perfect: it remains to be seen whether hospitals will actually use this cutting-edge technology.",
+         "Perfecto: está por verse si los hospitales realmente usarán esta tecnología de vanguardia."
+        ],
+        [
+         "A",
+         "In a nutshell: a real breakthrough, but not the revolution the headline promises.",
+         "En pocas palabras: un avance real, pero no la revolución que promete el titular."
+        ],
+        [
+         "B",
+         "Exactly. And let's compare the coverage in two or three other outlets before we hand it in.",
+         "Exacto. Y comparemos el cubrimiento en otros dos o tres medios antes de entregarlo."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The headline 'MINISTER TO QUIT' means:",
+        "o": [
+         "The minister has quit.",
+         "The minister is going to quit.",
+         "The minister wants to quit.",
+         "The minister quit years ago."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "In a headline, 'FIVE INJURED IN FACTORY FIRE' means five people ___ injured.",
+        "o": [
+         "are going to be",
+         "were",
+         "will be",
+         "want to be"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'SENATOR SLAMS NEW LAW' means the senator ___ the new law.",
+        "o": [
+         "approved",
+         "signed",
+         "strongly criticized",
+         "voted for"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "The news ___ (be) better than we expected.",
+        "ans": [
+         "is",
+         "was"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Scientists in Brazil have made a breakthrough in the fight against dengue. According to their findings, which were published in a peer-reviewed journal, a new vaccine reduced infections by eighty percent in clinical trials.",
+        "q": "¿Cuánto redujo las infecciones la vacuna?",
+        "o": [
+         "Un 18 %",
+         "Un 50 %",
+         "Un 80 %",
+         "Un 95 %"
+        ],
+        "a": 2
+       },
+       {
+        "t": "oral",
+        "text": "According to the article, the data breach affected more than two million users."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "remains",
+         "to",
+         "be",
+         "seen",
+         "whether",
+         "the",
+         "plan",
+         "will",
+         "work."
+        ],
+        "es": "Está por verse si el plan funcionará."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "president",
+         "vowed",
+         "to",
+         "tackle",
+         "corruption."
+        ],
+        "es": "El presidente prometió combatir la corrupción."
+       },
+       {
+        "t": "dict",
+        "say": "Several news outlets reported the story."
+       },
+       {
+        "t": "dict",
+        "say": "Misinformation spreads faster than the truth."
+       },
+       {
+        "t": "mc",
+        "q": "'POLICE LAUNCH PROBE INTO BANK HACK'. 'Probe' significa:",
+        "o": [
+         "prueba",
+         "investigación",
+         "multa",
+         "arresto"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es la mejor forma de empezar el resumen de una noticia?",
+        "o": [
+         "I think this news are very interesting.",
+         "The article reports that a new app can detect skin cancer.",
+         "Actually, the news says many things.",
+         "In this news, they are talking about it."
+        ],
+        "a": 1
+       },
+       {
+        "t": "listen",
+        "say": "Breaking news: a major social media company has confirmed a data breach affecting millions of users. The government has launched a probe, and the company has vowed to compensate anyone whose personal information was leaked.",
+        "q": "¿Qué prometió la empresa?",
+        "o": [
+         "Cerrar la plataforma",
+         "Compensar a los afectados",
+         "Despedir al director",
+         "Cambiar de nombre"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Elige una noticia reciente de ciencia o tecnología (o invéntala) y escribe un resumen (mínimo 110 palabras) como el de la lección: idea principal, datos clave, reacciones de expertos o críticos y consecuencias. Incluye al menos un titular en estilo periodístico al principio.",
+        "min": 110,
+        "keys": [
+         [
+          "the article reports",
+          "according to",
+          "the study",
+          "the report"
+         ],
+         [
+          "experts",
+          "critics",
+          "scientists",
+          "researchers"
+         ],
+         [
+          "argue",
+          "warn",
+          "claim",
+          "believe",
+          "point out"
+         ],
+         [
+          "it remains to be seen",
+          "as a result",
+          "in a nutshell",
+          "consequently",
+          "in conclusion"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The headline 'COMPANY TO AXE 300 JOBS' means the company ___.",
+       "o": [
+        "has created 300 jobs",
+        "is going to cut 300 jobs",
+        "has saved 300 jobs",
+        "cut 300 jobs years ago"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "A study that has been checked by other experts before publication is:",
+       "o": [
+        "clickbait",
+        "biased",
+        "peer-reviewed",
+        "breaking news"
+       ],
+       "a": 2
+      },
+      "reading": 2,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "The escaped prisoner ___ to be hiding in the jungle.",
+      "o": [
+       "is believed",
+       "believes",
+       "it is believed",
+       "is believing"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I'm going to ___ before the trip.",
+      "o": [
+       "have serviced the car",
+       "have the car serviced",
+       "have the car service",
+       "service have the car"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The manager apologized ___ the mistake on the invoice.",
+      "o": [
+       "of",
+       "about making",
+       "for",
+       "to"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "The vaccine, ___ was developed in Cuba, is now used in ten countries.",
+      "o": [
+       "that",
+       "which",
+       "who",
+       "what"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "'PRIME MINISTER TO VISIT BOGOTÁ' means the prime minister ___ Bogotá.",
+      "o": [
+       "visited",
+       "has visited",
+       "is going to visit",
+       "visits every year"
+      ],
+      "a": 2
+     },
+     {
+      "t": "fill",
+      "q": "He denied ___ (take) the money from the safe.",
+      "ans": [
+       "taking",
+       "having taken"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "The CEO, who had been under pressure for months, has finally stepped down. He is reported to have accepted a job at a rival company, which has surprised many investors.",
+      "q": "¿Qué se informa sobre el director ejecutivo?",
+      "o": [
+       "Que se jubiló",
+       "Que aceptó un trabajo en una empresa rival",
+       "Que fue arrestado",
+       "Que compró la empresa"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Having lost their phones at the concert, the two friends got a stranger to call a taxi for them, which was the only way they could get home.",
+      "q": "¿Cómo lograron volver a casa?",
+      "o": [
+       "Caminando",
+       "Un desconocido les llamó un taxi",
+       "La policía los llevó",
+       "Encontraron sus celulares"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe una noticia completa (mínimo 110 palabras) sobre un escándalo o un descubrimiento. Empieza con un titular. Usa la pasiva impersonal (is said to / it is believed that), al menos tres verbos de reporte con su patrón correcto, una relativa explicativa y un which que se refiera a toda la oración.",
+      "min": 110,
+      "keys": [
+       [
+        "is said to",
+        "is believed to",
+        "is thought to",
+        "is reported to",
+        "it is said",
+        "it is believed",
+        "it is reported",
+        "it is thought"
+       ],
+       [
+        "denied",
+        "admitted",
+        "accused",
+        "blamed",
+        "insisted",
+        "refused",
+        "urged"
+       ],
+       [
+        "who",
+        "whose",
+        "which"
+       ],
+       [
+        "which means",
+        "which is why",
+        "which has",
+        "which was",
+        "which made"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "It is widely believed that the scandal was covered up for years."
+     },
+     {
+      "t": "oral",
+      "text": "I had my phone stolen, which meant I couldn't call anyone."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "It ___ that over a thousand people attended the protest.",
+      "o": [
+       "is estimated",
+       "estimates",
+       "is estimating",
+       "has estimate"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The ship is thought ___ near the coast in 1708.",
+      "o": [
+       "to sink",
+       "to have sunk",
+       "sinking",
+       "to be sunk"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "She got her assistant ___ the flights for the conference.",
+      "o": [
+       "book",
+       "booked",
+       "to book",
+       "booking"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "The teacher warned the students ___ during the exam.",
+      "o": [
+       "not talking",
+       "not to talk",
+       "to not talking",
+       "for not talking"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "___ by millions of people, the video went viral overnight.",
+      "o": [
+       "Watching",
+       "Watched",
+       "Having watched",
+       "To watch"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "A 'breakthrough' in science is:",
+      "o": [
+       "un fracaso",
+       "un gran avance",
+       "un ensayo clínico",
+       "una filtración de datos"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "The opposition blamed the government ___ the rise in unemployment.",
+      "ans": [
+       "for"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "We're having our house ___ (paint) next week.",
+      "ans": [
+       "painted"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "My grandfather, ___ was a pilot, told amazing stories. (que, persona)",
+      "ans": [
+       "who"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Experts have urged the public not to share the video, which is believed to contain false information about the vaccine.",
+      "q": "¿Qué pidieron los expertos?",
+      "o": [
+       "Que se vacunen todos",
+       "Que no compartan el video",
+       "Que denuncien el video a la policía",
+       "Que vean el video completo"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Residents living near the airport have objected to building a third runway. They insist on being consulted before any decision is made.",
+      "q": "¿En qué insisten los residentes?",
+      "o": [
+       "En que cierren el aeropuerto",
+       "En que los consulten antes de decidir",
+       "En recibir una compensación",
+       "En que construyan rápido la pista"
+      ],
+      "a": 1
+     },
+     {
+      "t": "oral",
+      "text": "The minister refused to answer any questions about the allegations."
+     },
+     {
+      "t": "oral",
+      "text": "Founded in 1950, the company is now one of the largest in Latin America."
+     },
+     {
+      "t": "order",
+      "words": [
+       "She",
+       "is",
+       "said",
+       "to",
+       "have",
+       "won",
+       "the",
+       "lottery",
+       "twice."
+      ],
+      "es": "Se dice que ella se ganó la lotería dos veces."
+     },
+     {
+      "t": "order",
+      "words": [
+       "I",
+       "persuaded",
+       "my",
+       "father",
+       "to",
+       "have",
+       "his",
+       "eyes",
+       "tested."
+      ],
+      "es": "Convencí a mi papá de que se hiciera examinar los ojos."
+     }
+    ]
+   },
+   {
+    "title": "Argumentar",
+    "lessons": [
+     {
+      "id": "b2-u4-l1",
+      "title": "Contraste y concesión",
+      "goal": "Contrastar ideas y reconocer argumentos contrarios con although, despite, whereas, however y nevertheless.",
+      "theory": [
+       {
+        "p": "**Although** y **even though** van seguidos de una **oración completa** (sujeto + verbo). **Even though** es más enfático: equivale a 'aun cuando' o 'a pesar de que de verdad'. **Though** al final de la frase es informal: It was cheap, though."
+       },
+       {
+        "ex": [
+         [
+          "Although the flat was small, it was very comfortable.",
+          "Aunque el apartamento era pequeño, era muy cómodo."
+         ],
+         [
+          "Even though she had studied all night, she failed the exam.",
+          "Aunque había estudiado toda la noche, perdió el examen."
+         ],
+         [
+          "I enjoyed the trip, although the weather was terrible.",
+          "Disfruté el viaje, aunque el clima fue terrible."
+         ]
+        ]
+       },
+       {
+        "p": "**Despite** e **in spite of** son **preposiciones**: van con un **sustantivo**, un **verbo en -ing** o **the fact that + oración**. Nunca se dice 'despite of'."
+       },
+       {
+        "ex": [
+         [
+          "Despite the rain, the match went ahead.",
+          "A pesar de la lluvia, el partido se jugó."
+         ],
+         [
+          "In spite of feeling ill, he went to work.",
+          "A pesar de sentirse mal, fue a trabajar."
+         ],
+         [
+          "Despite the fact that prices rose, sales increased.",
+          "A pesar de que los precios subieron, las ventas aumentaron."
+         ]
+        ]
+       },
+       {
+        "p": "**Whereas** (o **while**) contrasta **dos hechos** dentro de la misma oración. **However** y **nevertheless** (más formal) conectan **dos oraciones**: van al inicio de la segunda seguidos de coma, o después de punto y coma. Ejemplos: **My brother loves the city, whereas I prefer the countryside.** / **The plan is expensive. However, it will save us money in the long run.** / **The risks were high; nevertheless, they decided to invest.**"
+       },
+       {
+        "tip": "Error típico: 'Although it was late, but we stayed.' En inglés no se combinan although y but: usa solo uno. Tampoco escribas 'It was late, however we stayed' en un texto formal: usa punto o punto y coma antes de however."
+       }
+      ],
+      "vocab": [
+       [
+        "albeit",
+        "conector",
+        "aunque, si bien (formal, + adjetivo o frase corta)",
+        "The results were positive, albeit limited."
+       ],
+       [
+        "admittedly",
+        "adverbio",
+        "hay que reconocer que",
+        "Admittedly, the plan has some weaknesses."
+       ],
+       [
+        "nonetheless",
+        "adverbio",
+        "sin embargo, aun así",
+        "The task was hard; nonetheless, we finished it."
+       ],
+       [
+        "even so",
+        "expresión",
+        "aun así",
+        "It was expensive. Even so, we bought it."
+       ],
+       [
+        "all the same",
+        "expresión",
+        "de todas formas",
+        "I know it's risky. All the same, I want to try."
+       ],
+       [
+        "on the contrary",
+        "expresión",
+        "al contrario",
+        "It wasn't boring. On the contrary, it was fascinating."
+       ],
+       [
+        "conversely",
+        "adverbio",
+        "a la inversa, por el contrario",
+        "Some prices rose; conversely, others fell sharply."
+       ],
+       [
+        "by contrast",
+        "expresión",
+        "en cambio, en contraste",
+        "By contrast, rural areas are growing slowly."
+       ],
+       [
+        "notwithstanding",
+        "preposición",
+        "no obstante, a pesar de (muy formal)",
+        "Notwithstanding the delays, the project was a success."
+       ],
+       [
+        "regardless of",
+        "preposición",
+        "independientemente de",
+        "Everyone is welcome, regardless of age."
+       ],
+       [
+        "drawback",
+        "sustantivo",
+        "desventaja, inconveniente",
+        "The main drawback is the cost."
+       ],
+       [
+        "downside",
+        "sustantivo",
+        "lado negativo",
+        "The downside of the job is the long hours."
+       ],
+       [
+        "upside",
+        "sustantivo",
+        "lado positivo",
+        "The upside is that you can work from anywhere."
+       ],
+       [
+        "trade-off",
+        "sustantivo",
+        "compromiso entre ventajas y desventajas",
+        "There is always a trade-off between price and quality."
+       ],
+       [
+        "outweigh",
+        "verbo",
+        "pesar más que, superar",
+        "The benefits outweigh the risks."
+       ],
+       [
+        "be that as it may",
+        "expresión",
+        "sea como sea, aun así",
+        "Be that as it may, we still need a decision."
+       ],
+       [
+        "mixed feelings",
+        "colocación",
+        "sentimientos encontrados",
+        "I have mixed feelings about moving abroad."
+       ],
+       [
+        "contradict",
+        "verbo",
+        "contradecir",
+        "The new data contradicts the previous study."
+       ],
+       [
+        "striking contrast",
+        "colocación",
+        "contraste llamativo",
+        "There is a striking contrast between the two cities."
+       ],
+       [
+        "much as",
+        "conector",
+        "por mucho que",
+        "Much as I like him, I can't agree with him."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Comprar o seguir arrendando?",
+       "scene": "Daniela y su pareja Ethan discuten si comprar un apartamento en Laureles, Medellín.",
+       "a": "Ethan",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "So, have you made up your mind about the flat in Laureles?",
+         "Bueno, ¿ya te decidiste sobre el apartamento en Laureles?"
+        ],
+        [
+         "B",
+         "Not really. Although I love the location, I'm worried about the price.",
+         "No mucho. Aunque me encanta la ubicación, me preocupa el precio."
+        ],
+        [
+         "A",
+         "I get that. Despite the high price, I still think it's a solid investment.",
+         "Te entiendo. A pesar del precio alto, sigo pensando que es una buena inversión."
+        ],
+        [
+         "B",
+         "Maybe. The upside is that we'd stop paying rent. The downside is a thirty-year mortgage.",
+         "Puede ser. Lo bueno es que dejaríamos de pagar arriendo. Lo malo es una hipoteca a treinta años."
+        ],
+        [
+         "A",
+         "True, but rents keep going up, whereas a fixed-rate mortgage stays the same.",
+         "Cierto, pero los arriendos siguen subiendo, mientras que una hipoteca de tasa fija se mantiene igual."
+        ],
+        [
+         "B",
+         "That's a fair point. Nevertheless, it's a huge commitment for people our age.",
+         "Es un buen punto. No obstante, es un compromiso enorme para gente de nuestra edad."
+        ],
+        [
+         "A",
+         "Admittedly, it's a big step. Even so, we've been saving for years.",
+         "Hay que reconocer que es un gran paso. Aun así, llevamos años ahorrando."
+        ],
+        [
+         "B",
+         "Even though we've saved a lot, we'd still need a loan for most of it.",
+         "Aunque hemos ahorrado mucho, igual necesitaríamos un préstamo para la mayor parte."
+        ],
+        [
+         "A",
+         "Sure. But the benefits outweigh the drawbacks, don't you think?",
+         "Claro. Pero los beneficios pesan más que las desventajas, ¿no crees?"
+        ],
+        [
+         "B",
+         "I have mixed feelings. In spite of all the advantages, I'm afraid of losing our flexibility.",
+         "Tengo sentimientos encontrados. A pesar de todas las ventajas, me da miedo perder nuestra flexibilidad."
+        ],
+        [
+         "A",
+         "What do you mean exactly?",
+         "¿A qué te refieres exactamente?"
+        ],
+        [
+         "B",
+         "If one of us got a job abroad, we couldn't just leave. By contrast, renting lets us move whenever we want.",
+         "Si a uno de los dos le saliera un trabajo en el exterior, no podríamos simplemente irnos. En cambio, arrendar nos permite mudarnos cuando queramos."
+        ],
+        [
+         "A",
+         "Much as I hate to admit it, you're right about that. It's a trade-off.",
+         "Por mucho que me cueste admitirlo, en eso tienes razón. Es un tira y afloje entre ventajas y desventajas."
+        ],
+        [
+         "B",
+         "Exactly. However, I'm not saying no. Let's visit it again on Saturday and decide then.",
+         "Exacto. Sin embargo, no estoy diciendo que no. Volvamos a verlo el sábado y decidimos ahí."
+        ],
+        [
+         "A",
+         "Deal. Regardless of what we decide, at least we'll have thought it through.",
+         "Trato hecho. Independientemente de lo que decidamos, por lo menos lo habremos pensado bien."
+        ],
+        [
+         "B",
+         "Agreed. All the same, I have to admit that balcony is amazing!",
+         "De acuerdo. De todas formas, tengo que admitir que ese balcón es espectacular."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ the heavy traffic, we arrived on time.",
+        "o": [
+         "Although",
+         "Despite",
+         "However",
+         "Whereas"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "___ he had a good salary, he was always short of money.",
+        "o": [
+         "Despite",
+         "In spite of",
+         "Even though",
+         "Nevertheless"
+        ],
+        "a": 2,
+        "x": "Even though va seguido de una oración (he had...)."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "Despite of the cold, we went out.",
+         "In spite the cold, we went out.",
+         "Despite the cold, we went out.",
+         "Although the cold, we went out."
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "In spite ___ being exhausted, she finished the report. (de)",
+        "ans": [
+         "of"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The new phone has an excellent camera. However, the battery barely lasts a day, so I'm thinking of returning it.",
+        "q": "¿Cuál es el problema del teléfono?",
+        "o": [
+         "La cámara es mala",
+         "La batería dura muy poco",
+         "Es demasiado caro",
+         "Es muy pesado"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Although the plan is expensive, the benefits clearly outweigh the drawbacks."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Despite",
+         "the",
+         "fact",
+         "that",
+         "it",
+         "rained,",
+         "we",
+         "enjoyed",
+         "the",
+         "trip."
+        ],
+        "es": "A pesar de que llovió, disfrutamos el viaje."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "prefer",
+         "tea,",
+         "whereas",
+         "my",
+         "wife",
+         "loves",
+         "coffee."
+        ],
+        "es": "Yo prefiero el té, mientras que a mi esposa le encanta el café."
+       },
+       {
+        "t": "dict",
+        "say": "Admittedly, it is a big step."
+       },
+       {
+        "t": "dict",
+        "say": "The benefits outweigh the drawbacks."
+       },
+       {
+        "t": "mc",
+        "q": "The project was risky. ___, the board approved it.",
+        "o": [
+         "Although",
+         "Despite",
+         "Nevertheless",
+         "Whereas"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "Even ___ I've lived here for years, I still get lost downtown. (aunque)",
+        "ans": [
+         "though"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Whereas most of my colleagues prefer working from home, I find the office much more productive, despite the long commute.",
+        "q": "¿Qué prefiere quien habla?",
+        "o": [
+         "Trabajar desde casa",
+         "Trabajar en la oficina",
+         "Trabajar en un café",
+         "Trabajar medio tiempo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un párrafo (mínimo 90 palabras) sobre las ventajas y desventajas de vivir en una gran ciudad. Usa al menos cuatro conectores distintos de contraste o concesión.",
+        "min": 90,
+        "keys": [
+         [
+          "although",
+          "even though"
+         ],
+         [
+          "despite",
+          "in spite of"
+         ],
+         [
+          "however",
+          "nevertheless",
+          "nonetheless"
+         ],
+         [
+          "whereas",
+          "while",
+          "by contrast"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ feeling nervous, she gave an excellent presentation.",
+       "o": [
+        "Although",
+        "In spite of",
+        "However",
+        "Even though"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Prices went up sharply. ___, demand remained strong.",
+       "o": [
+        "Although",
+        "Despite",
+        "However",
+        "Whereas"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u4-l2",
+      "title": "Causa, consecuencia y propósito",
+      "goal": "Explicar por qué pasa algo, qué efectos tiene y con qué fin se hace.",
+      "theory": [
+       {
+        "p": "**Causa**: **because** + oración; **because of / due to / owing to** + sustantivo (**due to** y **owing to** son más formales). Si sigue una oración, usa **due to the fact that**. **Consecuencia**: **as a result**, **consequently** y **therefore** inician una nueva oración o van tras punto y coma; **as a result of** + sustantivo presenta la causa."
+       },
+       {
+        "ex": [
+         [
+          "The flight was cancelled due to bad weather.",
+          "El vuelo fue cancelado debido al mal tiempo."
+         ],
+         [
+          "Owing to a technical problem, the meeting was postponed.",
+          "Debido a un problema técnico, la reunión se aplazó."
+         ],
+         [
+          "The company cut costs. As a result, 200 people lost their jobs.",
+          "La empresa recortó costos. Como resultado, 200 personas perdieron su empleo."
+         ],
+         [
+          "He didn't back up his files; consequently, he lost months of work.",
+          "No hizo copia de sus archivos; en consecuencia, perdió meses de trabajo."
+         ],
+         [
+          "As a result of the strike, schools were closed for a week.",
+          "Como consecuencia de la huelga, los colegios cerraron una semana."
+         ]
+        ]
+       },
+       {
+        "p": "**Propósito**: **to / in order to / so as to + verbo** cuando el sujeto es el mismo. **So that + sujeto + can / could / will / would** cuando hay otro sujeto o necesitas un modal. Negativo: **in order not to / so as not to + verbo**."
+       },
+       {
+        "ex": [
+         [
+          "She moved to Bogotá in order to find a better job.",
+          "Se mudó a Bogotá para encontrar un mejor trabajo."
+         ],
+         [
+          "We left early so as not to miss the bus.",
+          "Salimos temprano para no perder el bus."
+         ],
+         [
+          "I'll send you the slides so that you can review them before the meeting.",
+          "Te enviaré las diapositivas para que las puedas revisar antes de la reunión."
+         ],
+         [
+          "He spoke slowly so that everyone would understand.",
+          "Habló despacio para que todos entendieran."
+         ]
+        ]
+       },
+       {
+        "tip": "Error típico de hispanohablantes: 'for + verbo' para expresar propósito ('I came here for study'). Lo correcto es 'I came here to study'. Y due to no va con una oración: 'due to it was late' es incorrecto; di 'because it was late' o 'due to the late hour'."
+       }
+      ],
+      "vocab": [
+       [
+        "stem from",
+        "phrasal verb",
+        "derivarse de, tener origen en",
+        "Most of the problems stem from poor planning."
+       ],
+       [
+        "give rise to",
+        "expresión",
+        "dar lugar a, provocar",
+        "The decision gave rise to protests."
+       ],
+       [
+        "lead to",
+        "verbo",
+        "llevar a, causar",
+        "Stress can lead to health problems."
+       ],
+       [
+        "trigger",
+        "verbo",
+        "desencadenar",
+        "The announcement triggered a fall in prices."
+       ],
+       [
+        "bring about",
+        "phrasal verb",
+        "provocar, ocasionar (un cambio)",
+        "The internet brought about huge changes."
+       ],
+       [
+        "result in",
+        "verbo",
+        "tener como resultado",
+        "The error resulted in a huge loss."
+       ],
+       [
+        "on account of",
+        "preposición",
+        "a causa de (formal)",
+        "The game was cancelled on account of the storm."
+       ],
+       [
+        "thanks to",
+        "preposición",
+        "gracias a",
+        "Thanks to your help, we finished on time."
+       ],
+       [
+        "hence",
+        "adverbio",
+        "de ahí, por eso (formal)",
+        "The road is narrow, hence the traffic."
+       ],
+       [
+        "thus",
+        "adverbio",
+        "así, por lo tanto (formal)",
+        "Costs fell, thus increasing profits."
+       ],
+       [
+        "therefore",
+        "adverbio",
+        "por lo tanto",
+        "He was ill and therefore missed the exam."
+       ],
+       [
+        "side effect",
+        "sustantivo",
+        "efecto secundario",
+        "Tiredness is a common side effect."
+       ],
+       [
+        "knock-on effect",
+        "colocación",
+        "efecto dominó",
+        "The strike had a knock-on effect on exports."
+       ],
+       [
+        "root cause",
+        "colocación",
+        "causa principal, causa de fondo",
+        "We need to find the root cause of the problem."
+       ],
+       [
+        "contributing factor",
+        "colocación",
+        "factor que contribuye",
+        "Diet is a contributing factor in heart disease."
+       ],
+       [
+        "with a view to",
+        "expresión",
+        "con miras a",
+        "They met with a view to signing a deal."
+       ],
+       [
+        "so as not to",
+        "expresión",
+        "para no",
+        "I whispered so as not to wake the baby."
+       ],
+       [
+        "in case",
+        "conector",
+        "por si acaso",
+        "Take an umbrella in case it rains."
+       ],
+       [
+        "for fear of",
+        "expresión",
+        "por miedo a",
+        "She didn't speak for fear of making mistakes."
+       ],
+       [
+        "outcome",
+        "sustantivo",
+        "resultado, desenlace",
+        "We are waiting for the outcome of the vote."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Por qué se retrasó el lanzamiento?",
+       "scene": "Mariana, gerente de proyecto en una empresa de software de Bogotá, le explica a su director inglés, Graham, por qué se aplazó el lanzamiento de la app.",
+       "a": "Graham",
+       "b": "Mariana",
+       "lines": [
+        [
+         "A",
+         "Mariana, I need to understand why the app launch has been pushed back again.",
+         "Mariana, necesito entender por qué se volvió a aplazar el lanzamiento de la app."
+        ],
+        [
+         "B",
+         "Of course. The main delay was due to a security issue we found during testing.",
+         "Claro. El retraso principal se debió a un problema de seguridad que encontramos durante las pruebas."
+        ],
+        [
+         "A",
+         "What kind of issue?",
+         "¿Qué tipo de problema?"
+        ],
+        [
+         "B",
+         "A bug in the payment system. Owing to the risk for customers, we decided not to launch until it was fixed.",
+         "Una falla en el sistema de pagos. Debido al riesgo para los clientes, decidimos no lanzar hasta que se corrigiera."
+        ],
+        [
+         "A",
+         "That makes sense. But what was the root cause?",
+         "Tiene sentido. Pero ¿cuál fue la causa de fondo?"
+        ],
+        [
+         "B",
+         "It stemmed from an outdated library. Consequently, we had to rewrite part of the code.",
+         "Se originó en una librería desactualizada. En consecuencia, tuvimos que reescribir parte del código."
+        ],
+        [
+         "A",
+         "And has that had a knock-on effect on other teams?",
+         "¿Y eso ha tenido un efecto dominó en otros equipos?"
+        ],
+        [
+         "B",
+         "Unfortunately, yes. As a result, the marketing campaign has also been postponed.",
+         "Desafortunadamente, sí. Como resultado, la campaña de mercadeo también se aplazó."
+        ],
+        [
+         "A",
+         "I see. What are you doing so as to avoid this in the future?",
+         "Ya veo. ¿Qué están haciendo para evitar esto en el futuro?"
+        ],
+        [
+         "B",
+         "We've hired an external auditor in order to review the code every month.",
+         "Contratamos un auditor externo para que revise el código cada mes."
+        ],
+        [
+         "A",
+         "Good. And what about the new deadline?",
+         "Bien. ¿Y la nueva fecha límite?"
+        ],
+        [
+         "B",
+         "We're aiming for March 15th. We've added two developers so that we can meet it.",
+         "Apuntamos al 15 de marzo. Sumamos dos desarrolladores para poder cumplirla."
+        ],
+        [
+         "A",
+         "Won't the extra developers increase the budget?",
+         "¿Los desarrolladores adicionales no van a aumentar el presupuesto?"
+        ],
+        [
+         "B",
+         "Slightly, but thanks to the delay, we've also saved on server costs, so the overall impact is small.",
+         "Un poco, pero gracias al retraso también ahorramos en costos de servidores, así que el impacto total es pequeño."
+        ],
+        [
+         "A",
+         "Fine. Please send me a written summary so that I can update the board.",
+         "Bien. Por favor envíame un resumen por escrito para que yo pueda informar a la junta."
+        ],
+        [
+         "B",
+         "I'll do it today, with a view to having everything approved by Friday.",
+         "Lo hago hoy, con miras a tener todo aprobado para el viernes."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The match was postponed ___ heavy rain.",
+        "o": [
+         "because",
+         "due to",
+         "so that",
+         "in order to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "She saved money ___ she could travel to Japan.",
+        "o": [
+         "in order to",
+         "so as to",
+         "so that",
+         "due to"
+        ],
+        "a": 2,
+        "x": "So that + sujeto + could."
+       },
+       {
+        "t": "mc",
+        "q": "He didn't prepare for the interview. ___, he didn't get the job.",
+        "o": [
+         "Owing to",
+         "Consequently",
+         "So as to",
+         "Because of"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "We left early so as ___ to miss the train. (no)",
+        "ans": [
+         "not"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Owing to a sharp increase in fuel prices, the airline has decided to raise ticket prices by fifteen percent.",
+        "q": "¿Por qué subirán los tiquetes?",
+        "o": [
+         "Por una huelga de pilotos",
+         "Por el aumento del precio del combustible",
+         "Por la apertura de nuevas rutas",
+         "Por el mal clima"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "The meeting was cancelled due to a technical problem, so we rescheduled it for Monday."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "moved",
+         "abroad",
+         "in",
+         "order",
+         "to",
+         "improve",
+         "her",
+         "English."
+        ],
+        "es": "Se fue a vivir al exterior para mejorar su inglés."
+       },
+       {
+        "t": "order",
+        "words": [
+         "As",
+         "a",
+         "result,",
+         "the",
+         "company",
+         "lost",
+         "many",
+         "clients."
+        ],
+        "es": "Como resultado, la empresa perdió muchos clientes."
+       },
+       {
+        "t": "dict",
+        "say": "The delay stemmed from a technical problem."
+       },
+       {
+        "t": "dict",
+        "say": "Take an umbrella in case it rains."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "I came here for learn English.",
+         "I came here to learn English.",
+         "I came here for to learn English.",
+         "I came here so that learn English."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "The road was closed ___ to an accident. (debido)",
+        "ans": [
+         "due",
+         "owing"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We've installed solar panels so that we can reduce our electricity bills and, hopefully, our carbon footprint.",
+        "q": "¿Para qué instalaron paneles solares?",
+        "o": [
+         "Para vender energía",
+         "Para reducir la factura de la luz",
+         "Para decorar la casa",
+         "Porque era obligatorio"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un texto (mínimo 90 palabras) sobre un problema de tu ciudad (tráfico, contaminación, inseguridad...): explica sus causas, sus consecuencias y qué se debería hacer y con qué propósito.",
+        "min": 90,
+        "keys": [
+         [
+          "due to",
+          "owing to",
+          "because of",
+          "because"
+         ],
+         [
+          "as a result",
+          "consequently",
+          "therefore"
+         ],
+         [
+          "in order to",
+          "so as to",
+          "so that"
+         ],
+         [
+          "lead to",
+          "result in",
+          "cause",
+          "stem from"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Many flights were delayed ___ the storm.",
+       "o": [
+        "because",
+        "owing to",
+        "so that",
+        "consequently"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I'm writing everything down ___ I don't forget anything.",
+       "o": [
+        "so that",
+        "in order to",
+        "due to",
+        "as a result"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u4-l3",
+      "title": "El ensayo de opinión",
+      "goal": "Organizar un ensayo de opinión con introducción, párrafos de argumentos y conclusión.",
+      "theory": [
+       {
+        "p": "Un **ensayo de opinión** (opinion essay) suele tener **4 o 5 párrafos**: **introducción**, **2 o 3 párrafos de argumentos** y **conclusión**. El registro es **formal**: sin contracciones (it is, no it's) y sin expresiones coloquiales. La **introducción** presenta el tema de forma general y termina con tu **tesis** (thesis statement): tu postura clara."
+       },
+       {
+        "ex": [
+         [
+          "It is widely held that social media brings people together.",
+          "Se suele afirmar que las redes sociales unen a las personas."
+         ],
+         [
+          "In this essay, I will argue that university education should be free.",
+          "En este ensayo argumentaré que la educación universitaria debería ser gratuita."
+         ],
+         [
+          "I firmly believe that the benefits of remote work outweigh its disadvantages.",
+          "Creo firmemente que los beneficios del trabajo remoto superan sus desventajas."
+         ]
+        ]
+       },
+       {
+        "p": "**Párrafos de argumentos**: cada uno empieza con una **topic sentence** (la idea principal), seguida de **explicación y ejemplos o datos**. Conecta con **Firstly / To begin with, Furthermore, Moreover, What is more, In addition**. Un buen ensayo B2 incluye un **contraargumento** y su **refutación**: **Some people argue that... However, ...**"
+       },
+       {
+        "ex": [
+         [
+          "Firstly, free education would give everyone the same opportunities.",
+          "En primer lugar, la educación gratuita les daría a todos las mismas oportunidades."
+         ],
+         [
+          "Furthermore, a more educated population benefits the whole economy.",
+          "Además, una población más educada beneficia a toda la economía."
+         ],
+         [
+          "Some people argue that it would be too expensive. However, the long-term returns are considerable.",
+          "Algunos argumentan que sería demasiado costoso. Sin embargo, los beneficios a largo plazo son considerables."
+         ]
+        ]
+       },
+       {
+        "p": "**Conclusión**: resume tus argumentos con otras palabras y **reafirma tu opinión** (In conclusion, To sum up, All things considered). No introduzcas ideas nuevas."
+       },
+       {
+        "tip": "Errores típicos: 'In my opinion, I think...' (redundante: usa uno solo); 'Firstable' (no existe: es Firstly o First of all); y empezar la conclusión con un argumento nuevo."
+       }
+      ],
+      "vocab": [
+       [
+        "thesis statement",
+        "sustantivo",
+        "tesis, postura principal del ensayo",
+        "Your thesis statement should be clear."
+       ],
+       [
+        "topic sentence",
+        "sustantivo",
+        "oración temática (idea principal del párrafo)",
+        "Start each paragraph with a topic sentence."
+       ],
+       [
+        "body paragraph",
+        "sustantivo",
+        "párrafo de desarrollo",
+        "The essay has three body paragraphs."
+       ],
+       [
+        "supporting evidence",
+        "colocación",
+        "pruebas que respaldan",
+        "Use statistics as supporting evidence."
+       ],
+       [
+        "counterargument",
+        "sustantivo",
+        "contraargumento",
+        "Mention at least one counterargument."
+       ],
+       [
+        "rebuttal",
+        "sustantivo",
+        "refutación",
+        "Her rebuttal was very convincing."
+       ],
+       [
+        "firmly believe",
+        "colocación",
+        "creer firmemente",
+        "I firmly believe that education should be free."
+       ],
+       [
+        "it is widely held that",
+        "expresión",
+        "se suele afirmar que",
+        "It is widely held that money brings happiness."
+       ],
+       [
+        "furthermore",
+        "conector",
+        "además (formal)",
+        "Furthermore, the policy is unfair."
+       ],
+       [
+        "moreover",
+        "conector",
+        "además, es más (formal)",
+        "Moreover, it would create jobs."
+       ],
+       [
+        "what is more",
+        "expresión",
+        "lo que es más",
+        "What is more, it is environmentally friendly."
+       ],
+       [
+        "in addition",
+        "expresión",
+        "además, adicionalmente",
+        "In addition, it saves time."
+       ],
+       [
+        "firstly",
+        "adverbio",
+        "en primer lugar",
+        "Firstly, let us consider the costs."
+       ],
+       [
+        "to begin with",
+        "expresión",
+        "para empezar",
+        "To begin with, the idea is too expensive."
+       ],
+       [
+        "last but not least",
+        "expresión",
+        "por último, pero no menos importante",
+        "Last but not least, it improves health."
+       ],
+       [
+        "in conclusion",
+        "expresión",
+        "en conclusión",
+        "In conclusion, the benefits are clear."
+       ],
+       [
+        "to sum up",
+        "expresión",
+        "en resumen",
+        "To sum up, both sides have valid points."
+       ],
+       [
+        "all things considered",
+        "expresión",
+        "considerándolo todo",
+        "All things considered, it was a good decision."
+       ],
+       [
+        "draw a conclusion",
+        "colocación",
+        "sacar una conclusión",
+        "It is too early to draw a conclusion."
+       ],
+       [
+        "take a stance",
+        "colocación",
+        "tomar una postura",
+        "You need to take a stance on the issue."
+       ]
+      ],
+      "dialogue": {
+       "title": "Revisando el borrador",
+       "scene": "La profesora Catherine revisa con su estudiante Julián el borrador de un ensayo sobre si se deberían prohibir los celulares en los colegios.",
+       "a": "Catherine",
+       "b": "Julián",
+       "lines": [
+        [
+         "A",
+         "Julián, I've read your draft. The topic is great, but the structure needs some work.",
+         "Julián, leí tu borrador. El tema es muy bueno, pero la estructura necesita trabajo."
+        ],
+        [
+         "B",
+         "Really? I thought it was quite clear.",
+         "¿En serio? Pensé que estaba bastante claro."
+        ],
+        [
+         "A",
+         "Your ideas are clear, but your introduction doesn't have a thesis statement. I can't tell what your position is.",
+         "Tus ideas son claras, pero tu introducción no tiene tesis. No logro saber cuál es tu postura."
+        ],
+        [
+         "B",
+         "Oh. So I should take a stance right at the beginning?",
+         "Ah. ¿Entonces debo tomar una postura desde el principio?"
+        ],
+        [
+         "A",
+         "Exactly. Something like: 'I firmly believe that mobile phones should be banned in schools.'",
+         "Exacto. Algo como: 'Creo firmemente que los celulares deberían prohibirse en los colegios'."
+        ],
+        [
+         "B",
+         "Got it. What about the body paragraphs?",
+         "Entendido. ¿Y los párrafos de desarrollo?"
+        ],
+        [
+         "A",
+         "Each one needs a topic sentence. Right now, your second paragraph mixes three different ideas.",
+         "Cada uno necesita una oración temática. Ahora mismo, tu segundo párrafo mezcla tres ideas diferentes."
+        ],
+        [
+         "B",
+         "So, one main idea per paragraph, with supporting evidence.",
+         "O sea, una idea principal por párrafo, con pruebas que la respalden."
+        ],
+        [
+         "A",
+         "That's right. Statistics or real examples work really well. And use linkers: to begin with, furthermore, moreover...",
+         "Así es. Las estadísticas o los ejemplos reales funcionan muy bien. Y usa conectores: to begin with, furthermore, moreover..."
+        ],
+        [
+         "B",
+         "I used 'and also' a lot. I guess that's too informal.",
+         "Usé mucho 'and also'. Supongo que es demasiado informal."
+        ],
+        [
+         "A",
+         "It is, a bit. Also, avoid contractions. Write 'do not' instead of 'don't'.",
+         "Un poco, sí. Además, evita las contracciones. Escribe 'do not' en lugar de 'don't'."
+        ],
+        [
+         "B",
+         "OK. Should I mention the opposite opinion?",
+         "Bueno. ¿Debo mencionar la opinión contraria?"
+        ],
+        [
+         "A",
+         "Definitely. Include a counterargument, for example that phones can be useful for research, and then write a rebuttal.",
+         "Definitivamente. Incluye un contraargumento, por ejemplo que los celulares pueden ser útiles para investigar, y luego escribe una refutación."
+        ],
+        [
+         "B",
+         "And in the conclusion, do I just repeat everything?",
+         "¿Y en la conclusión simplemente repito todo?"
+        ],
+        [
+         "A",
+         "Not exactly. Summarize your main points in different words, restate your opinion and don't add new arguments.",
+         "No exactamente. Resume tus puntos principales con otras palabras, reafirma tu opinión y no agregues argumentos nuevos."
+        ],
+        [
+         "B",
+         "All things considered, I think I need to rewrite most of it!",
+         "Considerándolo todo, ¡creo que tengo que reescribir casi todo!"
+        ],
+        [
+         "A",
+         "Not most of it, just reorganize it. Send me the new version by Monday.",
+         "No casi todo, solo reorganízalo. Mándame la nueva versión a más tardar el lunes."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "¿Dónde va normalmente la tesis (thesis statement)?",
+        "o": [
+         "Al final de la introducción",
+         "En la conclusión",
+         "En medio del segundo párrafo",
+         "En el título"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es más apropiada para un ensayo formal?",
+        "o": [
+         "Plus, it's way cheaper.",
+         "What is more, it is considerably cheaper.",
+         "And also it's cheaper, you know.",
+         "Besides, it's super cheap."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué NO se debe hacer en la conclusión?",
+        "o": [
+         "Resumir los argumentos",
+         "Reafirmar la opinión",
+         "Introducir un argumento nuevo",
+         "Usar 'To sum up'"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "___ but not least, public transport reduces pollution. (por último, pero no menos importante)",
+        "ans": [
+         "Last",
+         "last"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Some people argue that video games make children violent. However, there is little scientific evidence to support this claim.",
+        "q": "¿Qué dice el texto sobre la evidencia?",
+        "o": [
+         "Hay mucha evidencia",
+         "Hay poca evidencia científica",
+         "Nunca se ha estudiado",
+         "Los estudios lo confirman"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "In this essay, I will argue that university education should be free for everyone."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "firmly",
+         "believe",
+         "that",
+         "cities",
+         "should",
+         "ban",
+         "cars."
+        ],
+        "es": "Creo firmemente que las ciudades deberían prohibir los carros."
+       },
+       {
+        "t": "order",
+        "words": [
+         "All",
+         "things",
+         "considered,",
+         "the",
+         "advantages",
+         "are",
+         "greater."
+        ],
+        "es": "Considerándolo todo, las ventajas son mayores."
+       },
+       {
+        "t": "dict",
+        "say": "To begin with, it is far more affordable."
+       },
+       {
+        "t": "dict",
+        "say": "In conclusion, the government should take action."
+       },
+       {
+        "t": "mc",
+        "q": "'Firstable' es un error. Lo correcto es:",
+        "o": [
+         "Firstly",
+         "First able",
+         "At first",
+         "Firstful"
+        ],
+        "a": 0,
+        "x": "At first significa 'al principio' (en una historia), no 'en primer lugar'."
+       },
+       {
+        "t": "fill",
+        "q": "Each body paragraph should start with a ___ sentence. (oración temática)",
+        "ans": [
+         "topic"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "To sum up, although online learning has some drawbacks, I am convinced that its flexibility makes it the best option for working adults.",
+        "q": "¿Cuál es la opinión final del autor?",
+        "o": [
+         "El aprendizaje en línea no sirve",
+         "Es la mejor opción para adultos que trabajan",
+         "Solo sirve para niños",
+         "Es demasiado costoso"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un ensayo de opinión corto (mínimo 120 palabras) sobre: '¿Deberían prohibirse los celulares en los colegios?'. Incluye una introducción con tesis, dos argumentos, un contraargumento con su refutación y una conclusión.",
+        "min": 120,
+        "keys": [
+         [
+          "i firmly believe",
+          "in my opinion",
+          "i would argue",
+          "in this essay"
+         ],
+         [
+          "firstly",
+          "to begin with",
+          "furthermore",
+          "moreover",
+          "what is more",
+          "in addition"
+         ],
+         [
+          "some people argue",
+          "it could be argued",
+          "however",
+          "although"
+         ],
+         [
+          "in conclusion",
+          "to sum up",
+          "all things considered",
+          "overall"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "¿Qué contiene normalmente el final de la introducción de un ensayo de opinión?",
+       "o": [
+        "Un ejemplo personal largo",
+        "La tesis o postura del autor",
+        "La refutación del contraargumento",
+        "Un resumen de todos los argumentos"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Some people argue that taxes should be lower. ___, this would reduce funding for public services.",
+       "o": [
+        "Furthermore",
+        "However",
+        "Moreover",
+        "To begin with"
+       ],
+       "a": 1
+      },
+      "reading": 3,
+      "words": []
+     },
+     {
+      "id": "b2-u4-l4",
+      "title": "Debatir y negociar",
+      "goal": "Interrumpir con cortesía, refutar, ceder y proponer compromisos en un debate o una negociación.",
+      "theory": [
+       {
+        "p": "En inglés, **interrumpir con cortesía** se hace con frases suavizadas: **Sorry to interrupt, but...**, **Can I just come in here?**, **If I could just add something...** Para **no dejarte interrumpir**: **Hold on, let me finish.** o **If I could just finish my point...**"
+       },
+       {
+        "p": "Para **refutar** sin sonar agresivo, primero reconoce y luego contradice: **I take your point, but...**, **I see what you mean; however...**, **With all due respect, I'm not sure that's the case.** Para **ceder** (conceder un punto): **Fair enough.**, **You've got a point there.**, **I'll give you that.**"
+       },
+       {
+        "ex": [
+         [
+          "I take your point, but the figures tell a different story.",
+          "Entiendo tu punto, pero las cifras cuentan otra historia."
+         ],
+         [
+          "With all due respect, that's not entirely accurate.",
+          "Con todo respeto, eso no es del todo exacto."
+         ],
+         [
+          "Fair enough. I'll give you that the deadline is tight.",
+          "Me parece justo. Te concedo que el plazo es ajustado."
+         ]
+        ]
+       },
+       {
+        "p": "Para **proponer compromisos**: **What if we...?**, **How about if we...?**, **Would you be willing to...?**, **We could meet you halfway on...**, **I could agree to that, provided that / as long as...**"
+       },
+       {
+        "ex": [
+         [
+          "What if we split the shipping costs?",
+          "¿Qué tal si dividimos los costos de envío?"
+         ],
+         [
+          "Would you be willing to extend the deadline by a week?",
+          "¿Estaría dispuesto a extender el plazo una semana?"
+         ],
+         [
+          "I could accept that price, provided that you deliver within ten days.",
+          "Podría aceptar ese precio, siempre y cuando entreguen en diez días."
+         ]
+        ]
+       },
+       {
+        "tip": "Ojo: 'I don't agree with you' suena muy directo en una negociación; suaviza con 'I'm not sure I agree' o 'I see it slightly differently'. Y discuss es hablar de un tema, no pelear: discutir en el sentido de pelear es argue."
+       }
+      ],
+      "vocab": [
+       [
+        "interrupt",
+        "verbo",
+        "interrumpir",
+        "Sorry, I didn't mean to interrupt you."
+       ],
+       [
+        "sorry to interrupt, but...",
+        "expresión",
+        "perdón que interrumpa, pero...",
+        "Sorry to interrupt, but we're running out of time."
+       ],
+       [
+        "Can I just come in here?",
+        "expresión",
+        "¿Puedo intervenir aquí?",
+        "Can I just come in here? I have some data on that."
+       ],
+       [
+        "hold on a second",
+        "expresión",
+        "espera un momento",
+        "Hold on a second, that's not what we agreed."
+       ],
+       [
+        "I take your point",
+        "expresión",
+        "entiendo tu punto",
+        "I take your point, but it's too expensive."
+       ],
+       [
+        "with all due respect",
+        "expresión",
+        "con todo respeto",
+        "With all due respect, I think you're mistaken."
+       ],
+       [
+        "refute",
+        "verbo",
+        "refutar",
+        "She refuted every argument he made."
+       ],
+       [
+        "concede",
+        "verbo",
+        "conceder, admitir",
+        "He conceded that the plan had flaws."
+       ],
+       [
+        "meet someone halfway",
+        "modismo",
+        "llegar a un punto medio",
+        "We could meet you halfway on the price."
+       ],
+       [
+        "common ground",
+        "colocación",
+        "puntos en común",
+        "Let's try to find some common ground."
+       ],
+       [
+        "compromise",
+        "sustantivo / verbo",
+        "acuerdo intermedio; ceder ambas partes",
+        "We reached a compromise after hours of talks."
+       ],
+       [
+        "counteroffer",
+        "sustantivo",
+        "contraoferta",
+        "They rejected our counteroffer."
+       ],
+       [
+        "deal-breaker",
+        "sustantivo",
+        "condición innegociable que rompe un acuerdo",
+        "The lack of a warranty is a deal-breaker."
+       ],
+       [
+        "non-negotiable",
+        "adjetivo",
+        "no negociable",
+        "Safety standards are non-negotiable."
+       ],
+       [
+        "the bottom line",
+        "modismo",
+        "lo esencial, en definitiva",
+        "The bottom line is that we need more money."
+       ],
+       [
+        "What if we...?",
+        "expresión",
+        "¿Qué tal si...?",
+        "What if we postponed the launch?"
+       ],
+       [
+        "fair enough",
+        "expresión",
+        "me parece justo, vale",
+        "Fair enough, let's do it your way."
+       ],
+       [
+        "win-win",
+        "adjetivo",
+        "beneficioso para ambas partes",
+        "It's a win-win situation."
+       ],
+       [
+        "back down",
+        "phrasal verb",
+        "ceder, echarse para atrás",
+        "Neither side was willing to back down."
+       ],
+       [
+        "if I could just finish",
+        "expresión",
+        "si me deja terminar",
+        "If I could just finish my point, then you can reply."
+       ]
+      ],
+      "dialogue": {
+       "title": "Negociando un contrato",
+       "scene": "Valentina, gerente de compras de una cadena de cafés en Bogotá, negocia con Mark, proveedor estadounidense de máquinas de café.",
+       "a": "Mark",
+       "b": "Valentina",
+       "lines": [
+        [
+         "A",
+         "So, as I said, our price is twelve thousand dollars per machine, including installation.",
+         "Bueno, como le decía, nuestro precio es de doce mil dólares por máquina, con instalación incluida."
+        ],
+        [
+         "B",
+         "Thank you, Mark. Sorry to interrupt, but does that include maintenance?",
+         "Gracias, Mark. Perdón que lo interrumpa, pero ¿eso incluye el mantenimiento?"
+        ],
+        [
+         "A",
+         "Only for the first six months. After that...",
+         "Solo durante los primeros seis meses. Después de eso..."
+        ],
+        [
+         "B",
+         "Can I just come in here? Six months is very short for equipment at this price.",
+         "¿Puedo intervenir aquí? Seis meses es muy poco para un equipo de este precio."
+        ],
+        [
+         "A",
+         "If I could just finish my point... After that, maintenance costs four hundred dollars a month.",
+         "Si me deja terminar... Después de eso, el mantenimiento cuesta cuatrocientos dólares al mes."
+        ],
+        [
+         "B",
+         "I see. With all due respect, our current supplier offers two years of free maintenance.",
+         "Entiendo. Con todo respeto, nuestro proveedor actual ofrece dos años de mantenimiento gratis."
+        ],
+        [
+         "A",
+         "I take your point, but their machines are much less reliable than ours.",
+         "Entiendo su punto, pero sus máquinas son mucho menos confiables que las nuestras."
+        ],
+        [
+         "B",
+         "That may be true. Still, maintenance is a deal-breaker for us. It's non-negotiable.",
+         "Puede ser. Aun así, el mantenimiento es una condición indispensable para nosotros. No es negociable."
+        ],
+        [
+         "A",
+         "Fair enough. What if we extended free maintenance to eighteen months?",
+         "Me parece justo. ¿Qué tal si extendemos el mantenimiento gratis a dieciocho meses?"
+        ],
+        [
+         "B",
+         "That's a step in the right direction. How about if we ordered thirty machines instead of twenty? Would you be willing to offer two years then?",
+         "Es un paso en la dirección correcta. ¿Y si pedimos treinta máquinas en vez de veinte? ¿Estaría dispuesto a ofrecer dos años en ese caso?"
+        ],
+        [
+         "A",
+         "Thirty machines... I could agree to that, provided that you sign a three-year contract.",
+         "Treinta máquinas... Podría aceptarlo, siempre y cuando firmen un contrato a tres años."
+        ],
+        [
+         "B",
+         "Hold on a second. Three years is a long commitment. Could we meet halfway at two years?",
+         "Espere un momento. Tres años es un compromiso largo. ¿Podríamos llegar a un punto medio de dos años?"
+        ],
+        [
+         "A",
+         "Two years and thirty machines? Let me think... OK. But I won't back down on the price.",
+         "¿Dos años y treinta máquinas? Déjeme pensar... Está bien. Pero no voy a ceder en el precio."
+        ],
+        [
+         "B",
+         "I'll give you that. The price is fair if maintenance is included.",
+         "Eso se lo concedo. El precio es justo si el mantenimiento está incluido."
+        ],
+        [
+         "A",
+         "Great. So the bottom line is thirty machines, two years of maintenance and a two-year contract.",
+         "Perfecto. Entonces, en definitiva: treinta máquinas, dos años de mantenimiento y un contrato a dos años."
+        ],
+        [
+         "B",
+         "Exactly. I think we've found some common ground. It's a win-win deal.",
+         "Exacto. Creo que encontramos puntos en común. Es un acuerdo en el que ganamos los dos."
+        ],
+        [
+         "A",
+         "I agree. I'll send you the revised offer in writing this afternoon.",
+         "De acuerdo. Le envío la oferta revisada por escrito esta tarde."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Quieres interrumpir con cortesía en una reunión:",
+        "o": [
+         "Stop talking, please.",
+         "Sorry to interrupt, but could I add something?",
+         "You're wrong, listen to me.",
+         "Wait, me first."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Refutas con cortesía:",
+        "o": [
+         "That's a stupid idea.",
+         "I take your point, but I see it slightly differently.",
+         "No. Next point.",
+         "You don't know what you're talking about."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'Meet someone halfway' significa:",
+        "o": [
+         "Encontrarse físicamente en la mitad del camino",
+         "Llegar a un punto medio en el que ambos ceden",
+         "Rendirse por completo",
+         "Cancelar la reunión"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "With all due ___, I don't think that's accurate. (respeto)",
+        "ans": [
+         "respect"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I could agree to a lower price, provided that you pay within thirty days instead of ninety.",
+        "q": "¿Con qué condición aceptaría un precio más bajo?",
+        "o": [
+         "Que compren más unidades",
+         "Que paguen en treinta días",
+         "Que firmen por tres años",
+         "Que recojan el pedido ellos mismos"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I take your point, but with all due respect, I see it slightly differently."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "if",
+         "we",
+         "split",
+         "the",
+         "cost",
+         "fifty-fifty?"
+        ],
+        "es": "¿Qué tal si dividimos el costo mitad y mitad?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "Would",
+         "you",
+         "be",
+         "willing",
+         "to",
+         "extend",
+         "the",
+         "deadline?"
+        ],
+        "es": "¿Estaría dispuesto a extender el plazo?"
+       },
+       {
+        "t": "dict",
+        "say": "Fair enough, you've got a point there."
+       },
+       {
+        "t": "dict",
+        "say": "Delivery time is a deal-breaker for us."
+       },
+       {
+        "t": "mc",
+        "q": "'Back down' significa:",
+        "o": [
+         "Ceder, echarse para atrás en una postura",
+         "Bajar las escaleras",
+         "Apoyar a alguien",
+         "Insistir todavía más"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Hold ___, let me finish my point. (espera)",
+        "ans": [
+         "on"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "With all due respect, the figures you mentioned are from last year. This year, our costs have gone up by almost twenty percent.",
+        "q": "¿Qué objeta quien habla?",
+        "o": [
+         "Que las cifras son del año pasado",
+         "Que el precio es demasiado bajo",
+         "Que no lo dejaron hablar",
+         "Que el contrato es muy largo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un diálogo o un correo de negociación (mínimo 100 palabras) en el que pidas un descuento a un proveedor: refuta su oferta inicial con cortesía, cede en algún punto y propón un compromiso.",
+        "min": 100,
+        "keys": [
+         [
+          "i take your point",
+          "i see what you mean",
+          "with all due respect",
+          "i'm not sure"
+         ],
+         [
+          "fair enough",
+          "you've got a point",
+          "i'll give you that"
+         ],
+         [
+          "what if",
+          "how about",
+          "would you be willing"
+         ],
+         [
+          "provided that",
+          "as long as",
+          "meet halfway",
+          "compromise"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Para proponer un compromiso dices:",
+       "o": [
+        "That's non-negotiable.",
+        "What if we met halfway on the price?",
+        "Let me finish, please.",
+        "I totally disagree."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Para ceder (conceder) un punto dices:",
+       "o": [
+        "With all due respect...",
+        "Sorry to interrupt...",
+        "Fair enough, I'll give you that.",
+        "Hold on a second."
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u4-l5",
+      "title": "Matizar: hedging básico",
+      "goal": "Suavizar tus afirmaciones con tend to, it seems that, arguably, to some extent e I'd say.",
+      "theory": [
+       {
+        "p": "**Matizar** (hedging) es suavizar una afirmación para no sonar absoluto. En inglés académico y profesional es fundamental: suena más **prudente, educado y creíble**. Compara: **Young people are addicted to their phones.** (tajante) / **Young people tend to spend a lot of time on their phones.** (matizado)."
+       },
+       {
+        "p": "Herramientas básicas: **tend to + verbo** (tender a, soler), **it seems / it appears that + oración** (parece que), **arguably** (podría decirse que), **to some extent / to a certain degree** (hasta cierto punto) e **I'd say** (yo diría)."
+       },
+       {
+        "ex": [
+         [
+          "Children tend to learn languages faster than adults.",
+          "Los niños tienden a aprender idiomas más rápido que los adultos."
+         ],
+         [
+          "It seems that the new policy isn't working.",
+          "Parece que la nueva política no está funcionando."
+         ],
+         [
+          "Arguably, it is the best novel of the century.",
+          "Podría decirse que es la mejor novela del siglo."
+         ],
+         [
+          "To some extent, I agree with you.",
+          "Hasta cierto punto, estoy de acuerdo contigo."
+         ],
+         [
+          "I'd say the meeting went quite well.",
+          "Yo diría que la reunión salió bastante bien."
+         ]
+        ]
+       },
+       {
+        "p": "También matizan los **modales** (may, might, could), adverbios como **probably, generally, relatively, somewhat** y verbos como **suggest** o **indicate** en lugar de **prove**."
+       },
+       {
+        "ex": [
+         [
+          "The results suggest that the treatment may be effective.",
+          "Los resultados sugieren que el tratamiento puede ser eficaz."
+         ],
+         [
+          "Prices are relatively high in this area.",
+          "Los precios son relativamente altos en esta zona."
+         ],
+         [
+          "The plan could be somewhat risky.",
+          "El plan podría ser algo arriesgado."
+         ]
+        ]
+       },
+       {
+        "tip": "Apparently no significa 'en apariencia': significa 'según parece, por lo visto' (lo que se dice). Y no matices de más: 'It might possibly perhaps be...' suena inseguro. Un matiz por afirmación suele bastar."
+       }
+      ],
+      "vocab": [
+       [
+        "tend to",
+        "verbo",
+        "tender a, soler",
+        "People tend to spend more in December."
+       ],
+       [
+        "it seems that",
+        "expresión",
+        "parece que",
+        "It seems that nobody read the email."
+       ],
+       [
+        "it appears that",
+        "expresión",
+        "al parecer, parece que (más formal)",
+        "It appears that the files were deleted."
+       ],
+       [
+        "arguably",
+        "adverbio",
+        "podría decirse que",
+        "She is arguably the best player in the team."
+       ],
+       [
+        "to some extent",
+        "expresión",
+        "hasta cierto punto",
+        "To some extent, the crisis was predictable."
+       ],
+       [
+        "to a certain degree",
+        "expresión",
+        "en cierta medida",
+        "I agree with him to a certain degree."
+       ],
+       [
+        "I'd say",
+        "expresión",
+        "yo diría",
+        "I'd say it will take about two weeks."
+       ],
+       [
+        "presumably",
+        "adverbio",
+        "es de suponer que",
+        "Presumably, the shop is closed on Sundays."
+       ],
+       [
+        "apparently",
+        "adverbio",
+        "según parece, por lo visto",
+        "Apparently, the boss is leaving."
+       ],
+       [
+        "likely",
+        "adjetivo",
+        "probable",
+        "It's likely that prices will rise."
+       ],
+       [
+        "seemingly",
+        "adverbio",
+        "aparentemente, en apariencia",
+        "It was a seemingly simple task."
+       ],
+       [
+        "somewhat",
+        "adverbio",
+        "algo, un tanto",
+        "The results were somewhat disappointing."
+       ],
+       [
+        "relatively",
+        "adverbio",
+        "relativamente",
+        "The exam was relatively easy."
+       ],
+       [
+        "generally speaking",
+        "expresión",
+        "en términos generales",
+        "Generally speaking, the service is good."
+       ],
+       [
+        "by and large",
+        "modismo",
+        "en general, en líneas generales",
+        "By and large, the trip was a success."
+       ],
+       [
+        "as far as I know",
+        "expresión",
+        "que yo sepa",
+        "As far as I know, the meeting is still on."
+       ],
+       [
+        "it could be argued that",
+        "expresión",
+        "se podría argumentar que",
+        "It could be argued that cars should be banned downtown."
+       ],
+       [
+        "suggest",
+        "verbo",
+        "sugerir, indicar",
+        "The data suggests a change in habits."
+       ],
+       [
+        "indicate",
+        "verbo",
+        "indicar, señalar",
+        "Early results indicate a slight improvement."
+       ],
+       [
+        "in most cases",
+        "expresión",
+        "en la mayoría de los casos",
+        "In most cases, the problem is easy to fix."
+       ]
+      ],
+      "dialogue": {
+       "title": "Analizando la encuesta",
+       "scene": "Sofía y su colega Liam preparan una presentación sobre los resultados de una encuesta de satisfacción de clientes.",
+       "a": "Liam",
+       "b": "Sofía",
+       "lines": [
+        [
+         "A",
+         "Have you had a look at the survey results?",
+         "¿Ya miraste los resultados de la encuesta?"
+        ],
+        [
+         "B",
+         "Yes. Overall, it seems that customers are fairly happy with the new app.",
+         "Sí. En general, parece que los clientes están bastante contentos con la nueva app."
+        ],
+        [
+         "A",
+         "Fairly happy? The average score is 4.2 out of 5. I'd say they love it!",
+         "¿Bastante contentos? El puntaje promedio es 4,2 sobre 5. ¡Yo diría que les encanta!"
+        ],
+        [
+         "B",
+         "Maybe, but we should be careful. Only about ten percent of users answered.",
+         "Puede ser, pero debemos tener cuidado. Solo respondió alrededor del diez por ciento de los usuarios."
+        ],
+        [
+         "A",
+         "True. So we can't say that all our customers are satisfied.",
+         "Cierto. Entonces no podemos decir que todos nuestros clientes están satisfechos."
+        ],
+        [
+         "B",
+         "Exactly. It would be safer to say that the users who responded tend to rate it positively.",
+         "Exacto. Sería más prudente decir que los usuarios que respondieron tienden a calificarla positivamente."
+        ],
+        [
+         "A",
+         "OK. And what about the complaints?",
+         "Bueno. ¿Y las quejas?"
+        ],
+        [
+         "B",
+         "Most of them are about delivery times. To some extent, that isn't even an app problem.",
+         "La mayoría son sobre los tiempos de entrega. Hasta cierto punto, eso ni siquiera es un problema de la app."
+        ],
+        [
+         "A",
+         "Arguably, it's the biggest issue we have right now.",
+         "Podría decirse que es el mayor problema que tenemos ahora mismo."
+        ],
+        [
+         "B",
+         "Agreed. The data suggests that late deliveries are the main reason people cancel.",
+         "De acuerdo. Los datos sugieren que las entregas tardías son la razón principal por la que la gente cancela."
+        ],
+        [
+         "A",
+         "Presumably, that's why the cancellation rate went up in July?",
+         "¿Es de suponer que por eso subió la tasa de cancelación en julio?"
+        ],
+        [
+         "B",
+         "That's likely, yes. Apparently, the logistics team had staff shortages that month.",
+         "Es probable, sí. Por lo visto, el equipo de logística tuvo falta de personal ese mes."
+        ],
+        [
+         "A",
+         "So, generally speaking, the app is doing well, but delivery is somewhat behind.",
+         "Entonces, en términos generales, a la app le va bien, pero las entregas están algo rezagadas."
+        ],
+        [
+         "B",
+         "I'd say that's a fair summary. By and large, the trend is positive.",
+         "Yo diría que es un resumen justo. En líneas generales, la tendencia es positiva."
+        ],
+        [
+         "A",
+         "Should we recommend hiring more drivers?",
+         "¿Deberíamos recomendar contratar más conductores?"
+        ],
+        [
+         "B",
+         "As far as I know, that's already being discussed. We could suggest it as one possible solution.",
+         "Que yo sepa, eso ya se está discutiendo. Podríamos sugerirlo como una posible solución."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "¿Cuál suena más matizada?",
+        "o": [
+         "Everyone hates the new design.",
+         "It seems that many users dislike the new design.",
+         "The new design is a total disaster.",
+         "Nobody likes the new design."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "People in big cities ___ walk faster than people in small towns.",
+        "o": [
+         "tend to",
+         "tend",
+         "are tend to",
+         "tending"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "'To some extent' significa:",
+        "o": [
+         "Totalmente",
+         "Hasta cierto punto",
+         "En absoluto",
+         "Al final"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "It ___ that the meeting has been cancelled. (parece)",
+        "ans": [
+         "seems",
+         "appears"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Arguably, the most important skill for the future is not coding, but the ability to keep learning throughout your life.",
+        "q": "Según quien habla, ¿cuál podría ser la habilidad más importante?",
+        "o": [
+         "Programar",
+         "Seguir aprendiendo toda la vida",
+         "Hablar varios idiomas",
+         "Trabajar en equipo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "To some extent, I'd say the results are quite encouraging."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Teenagers",
+         "tend",
+         "to",
+         "sleep",
+         "less",
+         "than",
+         "they",
+         "should."
+        ],
+        "es": "Los adolescentes tienden a dormir menos de lo que deberían."
+       },
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "appears",
+         "that",
+         "prices",
+         "will",
+         "rise",
+         "again."
+        ],
+        "es": "Parece que los precios volverán a subir."
+       },
+       {
+        "t": "dict",
+        "say": "Arguably, it is the best film of the decade."
+       },
+       {
+        "t": "dict",
+        "say": "By and large, the feedback was positive."
+       },
+       {
+        "t": "mc",
+        "q": "'Apparently' significa:",
+        "o": [
+         "En apariencia física",
+         "Según parece, por lo visto",
+         "Claramente",
+         "Afortunadamente"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I'd ___ that the plan is risky but worth trying. (diría)",
+        "ans": [
+         "say"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The study suggests that people who work from home tend to be more productive, although the results are somewhat limited.",
+        "q": "¿Cómo describe quien habla los resultados del estudio?",
+        "o": [
+         "Definitivos",
+         "Algo limitados",
+         "Falsos",
+         "Sorprendentes"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un párrafo (mínimo 90 palabras) sobre los hábitos de los jóvenes con la tecnología, matizando tus afirmaciones para no sonar absoluto.",
+        "min": 90,
+        "keys": [
+         [
+          "tend to",
+          "tends to"
+         ],
+         [
+          "it seems",
+          "it appears",
+          "apparently",
+          "seemingly"
+         ],
+         [
+          "arguably",
+          "i'd say",
+          "it could be argued"
+         ],
+         [
+          "to some extent",
+          "to a certain degree",
+          "generally",
+          "by and large",
+          "somewhat"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "¿Qué frase está matizada correctamente?",
+       "o": [
+        "Politicians always lie.",
+        "Politicians tend to avoid direct answers.",
+        "All politicians are liars.",
+        "Politicians lie every single time."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___, this is the most serious problem the country faces.",
+       "o": [
+        "Arguable",
+        "Arguably",
+        "Argue",
+        "Arguing"
+       ],
+       "a": 1
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "___ the fact that he was exhausted, he kept working until midnight.",
+      "o": [
+       "Although",
+       "Despite",
+       "However",
+       "Even though"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The event was cancelled ___ low ticket sales.",
+      "o": [
+       "owing to",
+       "so as to",
+       "consequently",
+       "so that"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "She took notes ___ that she wouldn't forget anything. (para que)",
+      "ans": [
+       "so"
+      ]
+     },
+     {
+      "t": "mc",
+      "q": "En la conclusión de un ensayo de opinión debes:",
+      "o": [
+       "Presentar un argumento nuevo",
+       "Resumir y reafirmar tu opinión",
+       "Contar una anécdota larga",
+       "Hacer muchas preguntas"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "—This price is too high for us. —___",
+      "o": [
+       "That's your problem.",
+       "How about if we offered free delivery?",
+       "Sorry to interrupt.",
+       "I'd say no."
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Young people ___ spend more time online than older generations.",
+      "o": [
+       "tend to",
+       "tends",
+       "are tending",
+       "tend"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Although the new policy was designed to reduce traffic, it seems that congestion has actually increased owing to the rise in delivery vehicles.",
+      "q": "¿Qué ha pasado con la congestión?",
+      "o": [
+       "Ha disminuido",
+       "Ha aumentado",
+       "Sigue igual",
+       "Desapareció"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "I take your point about the budget, but what if we postponed the launch until January so as to have more time for testing?",
+      "q": "¿Qué propone quien habla?",
+      "o": [
+       "Cancelar el lanzamiento",
+       "Aplazar el lanzamiento hasta enero",
+       "Aumentar el presupuesto",
+       "Lanzar mañana mismo"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe un ensayo de opinión (mínimo 120 palabras) sobre si el transporte público debería ser gratuito. Presenta tu tesis, da dos argumentos con causas y consecuencias, reconoce un argumento contrario y concluye. Matiza al menos una afirmación.",
+      "min": 120,
+      "keys": [
+       [
+        "i firmly believe",
+        "in my opinion",
+        "i would argue",
+        "in this essay"
+       ],
+       [
+        "although",
+        "however",
+        "despite",
+        "nevertheless",
+        "whereas"
+       ],
+       [
+        "due to",
+        "as a result",
+        "consequently",
+        "therefore",
+        "in order to"
+       ],
+       [
+        "in conclusion",
+        "to sum up",
+        "all things considered"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "Even though it was risky, the decision turned out to be a good one."
+     },
+     {
+      "t": "oral",
+      "text": "To some extent, the problem stems from a lack of investment."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "___ she earns a good salary, she can't afford a flat in the city centre.",
+      "o": [
+       "Despite",
+       "Even though",
+       "In spite of",
+       "However"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The streets were flooded. ___, many people couldn't get to work.",
+      "o": [
+       "As a result",
+       "Due to",
+       "Owing to",
+       "So as to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "He studied every weekend ___ pass the entrance exam.",
+      "o": [
+       "so that",
+       "in order to",
+       "due to",
+       "because"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "¿Cuál es una buena topic sentence?",
+      "o": [
+       "And another thing is also cars.",
+       "Firstly, public transport significantly reduces air pollution.",
+       "I don't know what to say about this.",
+       "Pollution, cars, buses, trains."
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Para no dejarte interrumpir dices:",
+      "o": [
+       "If I could just finish my point...",
+       "Fair enough.",
+       "What if we...?",
+       "I'll give you that."
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "'By and large' significa:",
+      "o": [
+       "En general",
+       "Por mucho tiempo",
+       "De lejos",
+       "Sin ninguna duda"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "In spite ___ the noise, the baby slept all night.",
+      "ans": [
+       "of"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "The project failed ___ to a lack of funding. (debido)",
+      "ans": [
+       "due",
+       "owing"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "It could be ___ that technology isolates people. (argumentado)",
+      "ans": [
+       "argued"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "My sister is very outgoing, whereas I'm rather shy and prefer staying at home with a good book.",
+      "q": "¿Cómo es quien habla?",
+      "o": [
+       "Muy extrovertido",
+       "Más bien tímido",
+       "Muy deportista",
+       "Muy hablador"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Owing to the rising cost of living, many young people tend to live with their parents until their thirties.",
+      "q": "¿Por qué muchos jóvenes viven con sus padres?",
+      "o": [
+       "Porque les gusta",
+       "Por el alto costo de vida",
+       "Por tradición familiar",
+       "Porque estudian lejos"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Fair enough, you've got a point about the deadline. Would you be willing to accept a smaller order instead?",
+      "q": "¿Qué pide quien habla?",
+      "o": [
+       "Un plazo más largo",
+       "Que acepten un pedido más pequeño",
+       "Un descuento mayor",
+       "Cancelar el pedido"
+      ],
+      "a": 1
+     },
+     {
+      "t": "oral",
+      "text": "Nevertheless, the benefits clearly outweigh the drawbacks."
+     },
+     {
+      "t": "oral",
+      "text": "With all due respect, I'm not sure I agree with that."
+     },
+     {
+      "t": "order",
+      "words": [
+       "In",
+       "conclusion,",
+       "the",
+       "government",
+       "should",
+       "invest",
+       "more",
+       "in",
+       "education."
+      ],
+      "es": "En conclusión, el gobierno debería invertir más en educación."
+     }
+    ]
+   },
+   {
+    "title": "Ampliar el vocabulario",
+    "lessons": [
+     {
+      "id": "b2-u5-l1",
+      "title": "Colocaciones: las palabras que van juntas",
+      "goal": "Combinar verbos, adjetivos y sustantivos como lo hace un hablante nativo (make a decision, heavy traffic, strong coffee).",
+      "theory": [
+       {
+        "p": "Una **colocación** es una combinación de palabras que los nativos usan siempre juntas. No hay una regla lógica: se dice **make a decision** pero **do research**, **heavy traffic** pero **strong coffee**. Traducir palabra por palabra del español es la causa número uno de errores en este punto (no se dice 'take a decision' en inglés estándar americano ni 'strong traffic')."
+       },
+       {
+        "p": "**make** suele indicar **crear o producir** algo (make a plan, make progress, make an effort, make a complaint, make a mess). **do** se usa para **tareas, trabajo y actividades** en general (do research, do the shopping, do damage, do someone a favour, do your best)."
+       },
+       {
+        "ex": [
+         [
+          "We've made a lot of progress since the last meeting.",
+          "Hemos avanzado mucho desde la última reunión."
+         ],
+         [
+          "She's doing research on renewable energy.",
+          "Ella está investigando sobre energía renovable."
+         ],
+         [
+          "Could you do me a favour and check this report?",
+          "¿Me harías el favor de revisar este informe?"
+         ],
+         [
+          "The storm did a lot of damage to the crops.",
+          "La tormenta causó muchos daños a los cultivos."
+         ]
+        ]
+       },
+       {
+        "p": "**take** y **have** también forman colocaciones fijas: **take responsibility for**, **take advantage of**, **take something into account**, **take a risk**; **have a go** (intentarlo), **have second thoughts** (dudar, arrepentirse), **have an argument**. En inglés no se 'toma' una decisión ni se 'hace' una pregunta con make: **ask a question**."
+       },
+       {
+        "p": "Las colocaciones **adjetivo + sustantivo** y **adverbio + adjetivo** dan precisión y suenan muy naturales: **heavy traffic / heavy rain / a heavy smoker**, **strong coffee / a strong accent**, **high expectations**, **fierce competition**, **bitterly disappointed**, **deeply concerned**."
+       },
+       {
+        "ex": [
+         [
+          "There was heavy traffic on the way to the airport.",
+          "Había mucho tráfico camino al aeropuerto."
+         ],
+         [
+          "I need a cup of strong coffee before the meeting.",
+          "Necesito un café cargado antes de la reunión."
+         ],
+         [
+          "The fans were bitterly disappointed by the result.",
+          "Los hinchas quedaron profundamente decepcionados con el resultado."
+         ]
+        ]
+       },
+       {
+        "tip": "Errores típicos: 'make a research' (→ do research), 'strong rain' (→ heavy rain), 'big traffic' (→ heavy traffic), 'do a mistake' (→ make a mistake), 'take a coffee' (mejor → have a coffee). Aprende las colocaciones como bloques, no palabra por palabra."
+       }
+      ],
+      "vocab": [
+       [
+        "make a decision",
+        "colocación",
+        "tomar una decisión",
+        "We need to make a decision by Friday."
+       ],
+       [
+        "make progress",
+        "colocación",
+        "avanzar, progresar",
+        "She has made remarkable progress in her English."
+       ],
+       [
+        "make an effort",
+        "colocación",
+        "esforzarse",
+        "He made an effort to be polite, even though he was furious."
+       ],
+       [
+        "make a complaint",
+        "colocación",
+        "poner una queja",
+        "Several guests made a complaint about the noise."
+       ],
+       [
+        "do research",
+        "colocación",
+        "investigar",
+        "Before investing, do some research on the company."
+       ],
+       [
+        "do damage",
+        "colocación",
+        "causar daños",
+        "The flood did serious damage to the old bridge."
+       ],
+       [
+        "do someone a favour",
+        "colocación",
+        "hacerle un favor a alguien",
+        "Could you do me a favour and water my plants?"
+       ],
+       [
+        "take responsibility for",
+        "colocación",
+        "asumir la responsabilidad de",
+        "The manager took full responsibility for the delay."
+       ],
+       [
+        "take advantage of",
+        "colocación",
+        "aprovechar",
+        "Take advantage of the discount while it lasts."
+       ],
+       [
+        "take into account",
+        "colocación",
+        "tener en cuenta",
+        "We have to take the costs into account."
+       ],
+       [
+        "have second thoughts",
+        "colocación",
+        "tener dudas, arrepentirse",
+        "I'm having second thoughts about moving abroad."
+       ],
+       [
+        "have a go",
+        "colocación",
+        "intentarlo",
+        "I've never surfed, but I'd love to have a go."
+       ],
+       [
+        "heavy traffic",
+        "colocación",
+        "tráfico pesado, trancón",
+        "Heavy traffic made us miss the first half of the match."
+       ],
+       [
+        "strong coffee",
+        "colocación",
+        "café cargado",
+        "He can't start the day without strong coffee."
+       ],
+       [
+        "a heavy smoker",
+        "colocación",
+        "un fumador empedernido",
+        "My uncle was a heavy smoker for thirty years."
+       ],
+       [
+        "high expectations",
+        "colocación",
+        "altas expectativas",
+        "Her parents have very high expectations of her."
+       ],
+       [
+        "fierce competition",
+        "colocación",
+        "competencia feroz",
+        "There's fierce competition for jobs in the tech sector."
+       ],
+       [
+        "bitterly disappointed",
+        "colocación",
+        "profundamente decepcionado",
+        "We were bitterly disappointed with the service."
+       ],
+       [
+        "meet a deadline",
+        "colocación",
+        "cumplir con un plazo",
+        "The team worked all weekend to meet the deadline."
+       ],
+       [
+        "a narrow escape",
+        "colocación",
+        "salvarse por poco",
+        "The driver had a narrow escape when his car slid off the road."
+       ]
+      ],
+      "dialogue": {
+       "title": "La decisión del año",
+       "scene": "Mariana y su colega Ethan toman un café antes de una reunión importante sobre un nuevo proyecto en la empresa.",
+       "a": "Ethan",
+       "b": "Mariana",
+       "lines": [
+        [
+         "A",
+         "You look exhausted. Rough night?",
+         "Te ves agotada. ¿Mala noche?"
+        ],
+        [
+         "B",
+         "Terrible. There was heavy traffic on the way home, and then I stayed up late doing research for today's presentation.",
+         "Terrible. Había un trancón tremendo de camino a la casa, y luego me quedé hasta tarde investigando para la presentación de hoy."
+        ],
+        [
+         "A",
+         "Well, this strong coffee should help. So, have the directors made a decision about the Bogotá office yet?",
+         "Bueno, este café cargado debería ayudar. ¿Y los directivos ya tomaron una decisión sobre la oficina de Bogotá?"
+        ],
+        [
+         "B",
+         "Not yet. Apparently, some of them are having second thoughts because of the costs.",
+         "Todavía no. Al parecer, algunos están dudando por los costos."
+        ],
+        [
+         "A",
+         "I'm not surprised. There's fierce competition in that market, and they have very high expectations.",
+         "No me sorprende. Hay una competencia feroz en ese mercado, y ellos tienen expectativas muy altas."
+        ],
+        [
+         "B",
+         "Exactly. That's why my presentation has to take every risk into account.",
+         "Exacto. Por eso mi presentación tiene que tener en cuenta cada riesgo."
+        ],
+        [
+         "A",
+         "Have we made any real progress with the local partners?",
+         "¿Hemos avanzado de verdad con los socios locales?"
+        ],
+        [
+         "B",
+         "Some. They've made a real effort to reduce their prices, but we still need to meet a very tight deadline.",
+         "Algo. Han hecho un esfuerzo real por bajar los precios, pero aún tenemos que cumplir un plazo muy ajustado."
+        ],
+        [
+         "A",
+         "And what happened with the client who made a complaint last month?",
+         "¿Y qué pasó con el cliente que puso la queja el mes pasado?"
+        ],
+        [
+         "B",
+         "Our team took full responsibility for the mistake and offered a refund. He was bitterly disappointed at first, but he's calmed down.",
+         "Nuestro equipo asumió toda la responsabilidad por el error y ofreció un reembolso. Al principio estaba muy decepcionado, pero ya se calmó."
+        ],
+        [
+         "A",
+         "Good. That kind of thing can do a lot of damage to a company's reputation.",
+         "Bien. Ese tipo de cosas puede hacerle mucho daño a la reputación de una empresa."
+        ],
+        [
+         "B",
+         "Tell me about it. Listen, could you do me a favour? Could you check my figures before the meeting?",
+         "Ni me digas. Oye, ¿me harías un favor? ¿Podrías revisar mis cifras antes de la reunión?"
+        ],
+        [
+         "A",
+         "Of course. Let's take advantage of the next twenty minutes and go through them together.",
+         "Claro. Aprovechemos los próximos veinte minutos y las revisamos juntos."
+        ],
+        [
+         "B",
+         "Thanks, Ethan. If this goes well, I might even have a go at leading the new office.",
+         "Gracias, Ethan. Si esto sale bien, de pronto hasta me animo a dirigir la nueva oficina."
+        ],
+        [
+         "A",
+         "You should! You'd be perfect for it.",
+         "¡Deberías! Serías perfecta para eso."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Before buying the house, we ___ a lot of research on the neighbourhood.",
+        "o": [
+         "made",
+         "did",
+         "took",
+         "had"
+        ],
+        "a": 1,
+        "x": "Con research se usa do: do research."
+       },
+       {
+        "t": "mc",
+        "q": "There was ___ traffic on the highway, so we arrived two hours late.",
+        "o": [
+         "strong",
+         "big",
+         "heavy",
+         "hard"
+        ],
+        "a": 2,
+        "x": "La colocación correcta es heavy traffic."
+       },
+       {
+        "t": "mc",
+        "q": "The CEO refused to ___ responsibility for the failure of the project.",
+        "o": [
+         "make",
+         "do",
+         "have",
+         "take"
+        ],
+        "a": 3
+       },
+       {
+        "t": "fill",
+        "q": "Don't worry if you make a mistake; just ___ a go. (inténtalo)",
+        "ans": [
+         "have"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The company had a narrow escape last year. A competitor almost bought it, but the founders made a last-minute decision to accept a loan from the bank instead.",
+        "q": "¿Qué decidieron los fundadores?",
+        "o": [
+         "Vender la empresa",
+         "Aceptar un préstamo del banco",
+         "Cerrar la empresa",
+         "Contratar a un competidor"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "We need to take all the costs into account before we make a final decision."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "has",
+         "made",
+         "remarkable",
+         "progress",
+         "this",
+         "year."
+        ],
+        "es": "Ella ha avanzado notablemente este año."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I'm",
+         "having",
+         "second",
+         "thoughts",
+         "about",
+         "the",
+         "new",
+         "job."
+        ],
+        "es": "Estoy teniendo dudas sobre el nuevo trabajo."
+       },
+       {
+        "t": "dict",
+        "say": "The storm did serious damage to the coast."
+       },
+       {
+        "t": "dict",
+        "say": "We worked all weekend to meet the deadline."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál de estas colocaciones es INCORRECTA?",
+        "o": [
+         "strong coffee",
+         "heavy rain",
+         "strong traffic",
+         "high expectations"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "Several passengers made a ___ about the delay. (queja)",
+        "ans": [
+         "complaint"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I was bitterly disappointed with the hotel. The room was dirty, and when I tried to make a complaint, nobody took it seriously.",
+        "q": "¿Qué pasó cuando intentó quejarse?",
+        "o": [
+         "Le dieron otra habitación",
+         "Nadie lo tomó en serio",
+         "Le devolvieron el dinero",
+         "Llamaron al gerente"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo a un colega (mínimo 90 palabras) contándole cómo va un proyecto difícil. Usa al menos seis colocaciones con make, do, take y have, y dos de adjetivo + sustantivo.",
+        "min": 90,
+        "keys": [
+         [
+          "make a decision",
+          "made a decision",
+          "make progress",
+          "made progress",
+          "make an effort",
+          "made an effort"
+         ],
+         [
+          "do research",
+          "did research",
+          "doing research",
+          "do damage",
+          "do me a favour",
+          "do me a favor"
+         ],
+         [
+          "take into account",
+          "take advantage",
+          "take responsibility",
+          "took responsibility"
+         ],
+         [
+          "heavy traffic",
+          "high expectations",
+          "fierce competition",
+          "strong coffee",
+          "bitterly disappointed"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I'd like to ___ a complaint about the service I received yesterday.",
+       "o": [
+        "do",
+        "make",
+        "take",
+        "have"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "He's been a ___ smoker since he was a teenager.",
+       "o": [
+        "strong",
+        "big",
+        "heavy",
+        "hard"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u5-l2",
+      "title": "Formación de palabras: prefijos y sufijos",
+      "goal": "Multiplicar tu vocabulario creando palabras nuevas con prefijos (un-, dis-, mis-, over-) y sufijos (-ment, -ness, -ity, -able, -ful, -less).",
+      "theory": [
+       {
+        "p": "Con unos pocos **prefijos y sufijos** puedes entender y crear cientos de palabras. Los **prefijos** cambian el **significado**; los **sufijos** suelen cambiar la **categoría** (verbo → sustantivo, sustantivo → adjetivo)."
+       },
+       {
+        "p": "**Prefijos negativos y de significado:** **un-** (unaware, unreliable, unexpected), **dis-** (dishonest, disagree, disapprove), **mis-** = hacer algo **mal** (misunderstand, misinterpret, misleading), **over-** = **demasiado** (overwork, overcrowded, overestimate)."
+       },
+       {
+        "ex": [
+         [
+          "The instructions were misleading, so many people misunderstood them.",
+          "Las instrucciones eran engañosas, así que mucha gente las entendió mal."
+         ],
+         [
+          "My parents strongly disapprove of my new tattoo.",
+          "Mis papás desaprueban rotundamente mi nuevo tatuaje."
+         ],
+         [
+          "The buses are overcrowded during rush hour.",
+          "Los buses van repletos en hora pico."
+         ]
+        ]
+       },
+       {
+        "p": "**Sufijos para sustantivos:** **-ment** (achieve → achievement, commit → commitment), **-ness** (aware → awareness, weak → weakness), **-ity** (flexible → flexibility, curious → curiosity). **Sufijos para adjetivos:** **-able** = que se puede (afford → affordable, manage → manageable), **-ful** = lleno de (thoughtful, resourceful), **-less** = sin (pointless, reckless)."
+       },
+       {
+        "ex": [
+         [
+          "Getting this degree was my greatest achievement.",
+          "Obtener este título fue mi mayor logro."
+         ],
+         [
+          "It's pointless to argue with him.",
+          "No tiene sentido discutir con él."
+         ],
+         [
+          "That was very thoughtful of you.",
+          "Fue muy considerado de tu parte."
+         ]
+        ]
+       },
+       {
+        "tip": "Ojo con la ortografía: happy → happiness (y → i), curious → curiosity (se pierde la u), able → ability. Y no todos los adjetivos aceptan un-: se dice dishonest (no 'unhonest') e impossible (no 'unpossible'). Ante la duda, consulta el diccionario."
+       }
+      ],
+      "vocab": [
+       [
+        "unreliable",
+        "adjetivo",
+        "poco confiable, que falla",
+        "The internet connection here is completely unreliable."
+       ],
+       [
+        "unaware",
+        "adjetivo",
+        "sin saberlo, ajeno a",
+        "Most users are unaware of how their data is used."
+       ],
+       [
+        "dishonest",
+        "adjetivo",
+        "deshonesto",
+        "It would be dishonest to hide the results from the client."
+       ],
+       [
+        "disapprove of",
+        "verbo",
+        "desaprobar, no estar de acuerdo con",
+        "Her grandmother disapproves of her lifestyle."
+       ],
+       [
+        "misleading",
+        "adjetivo",
+        "engañoso",
+        "The advert was misleading about the real price."
+       ],
+       [
+        "misinterpret",
+        "verbo",
+        "malinterpretar",
+        "He misinterpreted my silence as agreement."
+       ],
+       [
+        "overwhelmed",
+        "adjetivo",
+        "abrumado, desbordado",
+        "I felt overwhelmed by the amount of work."
+       ],
+       [
+        "overcrowded",
+        "adjetivo",
+        "sobrepoblado, repleto",
+        "Many prisons in the region are overcrowded."
+       ],
+       [
+        "achievement",
+        "sustantivo",
+        "logro",
+        "Running a marathon was a huge achievement for her."
+       ],
+       [
+        "commitment",
+        "sustantivo",
+        "compromiso",
+        "The job requires a strong commitment to the team."
+       ],
+       [
+        "awareness",
+        "sustantivo",
+        "conciencia, sensibilización",
+        "The campaign aims to raise awareness of mental health."
+       ],
+       [
+        "weakness",
+        "sustantivo",
+        "debilidad, punto débil",
+        "My biggest weakness is that I'm too impatient."
+       ],
+       [
+        "flexibility",
+        "sustantivo",
+        "flexibilidad",
+        "Remote work gives employees more flexibility."
+       ],
+       [
+        "curiosity",
+        "sustantivo",
+        "curiosidad",
+        "Out of curiosity, how much did you pay for it?"
+       ],
+       [
+        "affordable",
+        "adjetivo",
+        "asequible, a buen precio",
+        "It's hard to find affordable housing in the city centre."
+       ],
+       [
+        "manageable",
+        "adjetivo",
+        "manejable",
+        "Break the project into manageable tasks."
+       ],
+       [
+        "resourceful",
+        "adjetivo",
+        "recursivo, ingenioso",
+        "She's resourceful and always finds a solution."
+       ],
+       [
+        "thoughtful",
+        "adjetivo",
+        "considerado, atento",
+        "It was thoughtful of you to call my mother."
+       ],
+       [
+        "pointless",
+        "adjetivo",
+        "inútil, sin sentido",
+        "It's pointless to complain now; the decision is final."
+       ],
+       [
+        "reckless",
+        "adjetivo",
+        "imprudente, temerario",
+        "He was fined for reckless driving."
+       ]
+      ],
+      "dialogue": {
+       "title": "Preparando la entrevista",
+       "scene": "Sofía tiene una entrevista de trabajo mañana y practica las preguntas con su amigo Liam, que trabaja en recursos humanos.",
+       "a": "Liam",
+       "b": "Sofía",
+       "lines": [
+        [
+         "A",
+         "OK, let's start with a classic: what's your greatest achievement so far?",
+         "Bueno, empecemos con un clásico: ¿cuál ha sido tu mayor logro hasta ahora?"
+        ],
+        [
+         "B",
+         "I'd say organizing a conference for three hundred people with a really small budget. I had to be very resourceful.",
+         "Diría que organizar un congreso para trescientas personas con un presupuesto muy pequeño. Tuve que ser muy recursiva."
+        ],
+        [
+         "A",
+         "Good answer. Be specific, though. Saying 'it was great' is pointless; give them numbers.",
+         "Buena respuesta. Pero sé específica. Decir 'fue genial' no sirve de nada; dales cifras."
+        ],
+        [
+         "B",
+         "Right. We kept the tickets affordable and still made a profit of fifteen percent.",
+         "Cierto. Mantuvimos las entradas a buen precio y aun así tuvimos una ganancia del quince por ciento."
+        ],
+        [
+         "A",
+         "Much better. Now, the dreaded one: what's your biggest weakness?",
+         "Mucho mejor. Ahora la temida: ¿cuál es tu mayor debilidad?"
+        ],
+        [
+         "B",
+         "Honestly? I sometimes feel overwhelmed when I have too many projects at the same time.",
+         "¿Sinceramente? A veces me siento abrumada cuando tengo demasiados proyectos al tiempo."
+        ],
+        [
+         "A",
+         "That's fine, but explain what you do about it. Otherwise, they might misinterpret it.",
+         "Está bien, pero explica qué haces al respecto. Si no, lo pueden malinterpretar."
+        ],
+        [
+         "B",
+         "I break everything into manageable tasks and set clear priorities every morning.",
+         "Divido todo en tareas manejables y defino prioridades claras cada mañana."
+        ],
+        [
+         "A",
+         "Perfect. They'll also ask about flexibility. The role involves a lot of travel.",
+         "Perfecto. También te van a preguntar por la flexibilidad. El cargo implica viajar mucho."
+        ],
+        [
+         "B",
+         "I'm fine with that. I was unaware that travelling was part of it, but I actually like the idea.",
+         "No tengo problema. No sabía que viajar era parte del cargo, pero en realidad me gusta la idea."
+        ],
+        [
+         "A",
+         "Great. And never say anything dishonest or misleading about your previous employer, even if they were unreliable.",
+         "Genial. Y nunca digas nada deshonesto ni engañoso sobre tu empleador anterior, aunque hayan sido poco confiables."
+        ],
+        [
+         "B",
+         "Don't worry. My old boss disapproved of almost everything I did, but I'll keep it professional.",
+         "Tranquilo. Mi exjefe desaprobaba casi todo lo que yo hacía, pero me voy a mantener profesional."
+        ],
+        [
+         "A",
+         "Good. Finally, show some curiosity: ask them about the company's commitment to training.",
+         "Bien. Por último, muestra algo de curiosidad: pregúntales por el compromiso de la empresa con la capacitación."
+        ],
+        [
+         "B",
+         "Brilliant idea. Thanks, Liam. That was really thoughtful of you to help me tonight.",
+         "Excelente idea. Gracias, Liam. Fue muy considerado de tu parte ayudarme esta noche."
+        ],
+        [
+         "A",
+         "Any time. Just don't do anything reckless, like arriving late!",
+         "Cuando quieras. ¡Solo no hagas nada imprudente, como llegar tarde!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The advert said 'free', but you had to pay for delivery. It was really ___.",
+        "o": [
+         "misleading",
+         "unleading",
+         "disleading",
+         "overleading"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I'm sorry, I think you ___ what I said. I didn't mean it that way.",
+        "o": [
+         "disunderstood",
+         "misunderstood",
+         "ununderstood",
+         "overunderstood"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Elige el sustantivo de 'aware':",
+        "o": [
+         "awarement",
+         "awarity",
+         "awareness",
+         "awareful"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "Graduating with honours was a great ___ for my family. (achieve → sustantivo)",
+        "ans": [
+         "achievement"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The new apartments are supposed to be affordable, but most young people still can't buy one. The prices are completely unrealistic.",
+        "q": "¿Qué problema menciona sobre los apartamentos?",
+        "o": [
+         "Están muy lejos",
+         "Los precios no son realistas",
+         "Son demasiado pequeños",
+         "No tienen parqueadero"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I sometimes feel overwhelmed, so I break my work into manageable tasks."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "It's",
+         "pointless",
+         "to",
+         "argue",
+         "with",
+         "him",
+         "about",
+         "politics."
+        ],
+        "es": "No tiene sentido discutir de política con él."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Most",
+         "people",
+         "are",
+         "unaware",
+         "of",
+         "the",
+         "risks."
+        ],
+        "es": "La mayoría de la gente no conoce los riesgos."
+       },
+       {
+        "t": "dict",
+        "say": "He was fined for reckless driving."
+       },
+       {
+        "t": "dict",
+        "say": "Remote work gives us more flexibility."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcto?",
+        "o": [
+         "unhonest",
+         "dishonest",
+         "mishonest",
+         "inhonest"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "The train service is so ___ that I never know when I'll arrive. (reliable → negativo)",
+        "ans": [
+         "unreliable"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Thank you for the flowers. It was really thoughtful of you, especially since I know how busy you've been this week.",
+        "q": "¿Por qué agradece la persona?",
+        "o": [
+         "Por una llamada",
+         "Por unas flores",
+         "Por una cena",
+         "Por un libro"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Describe tu mayor logro y tu mayor debilidad como si estuvieras en una entrevista (mínimo 90 palabras). Usa al menos ocho palabras con prefijos o sufijos de esta lección.",
+        "min": 90,
+        "keys": [
+         [
+          "achievement",
+          "commitment"
+         ],
+         [
+          "weakness",
+          "awareness",
+          "flexibility",
+          "curiosity"
+         ],
+         [
+          "overwhelmed",
+          "unaware",
+          "unreliable",
+          "misunderstood",
+          "disapprove"
+         ],
+         [
+          "manageable",
+          "resourceful",
+          "thoughtful",
+          "affordable",
+          "pointless"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Her ___ to the project impressed everyone; she worked every weekend.",
+       "o": [
+        "commitness",
+        "commitment",
+        "commitity",
+        "commitful"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "The city centre is always ___; there are far too many people.",
+       "o": [
+        "miscrowded",
+        "uncrowded",
+        "overcrowded",
+        "discrowded"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u5-l3",
+      "title": "Phrasal verbs avanzados",
+      "goal": "Usar con precisión phrasal verbs de nivel B2 (come up with, put up with, look into, get away with, turn down, bring about) y saber dónde va el objeto.",
+      "theory": [
+       {
+        "p": "Un **phrasal verb** es verbo + partícula (y a veces dos partículas) con un significado que a menudo **no se deduce** de sus partes. En el nivel B2 se espera que uses phrasal verbs en vez de verbos más formales cuando hablas: **look into** en lugar de investigate, **turn down** en lugar de reject."
+       },
+       {
+        "ex": [
+         [
+          "We need to come up with a better solution.",
+          "Tenemos que idear una mejor solución."
+         ],
+         [
+          "I can't put up with this noise any longer.",
+          "No soporto más este ruido."
+         ],
+         [
+          "The police are looking into the complaint.",
+          "La policía está investigando la denuncia."
+         ],
+         [
+          "He thought he could get away with lying.",
+          "Creyó que podía salirse con la suya mintiendo."
+         ],
+         [
+          "She turned down the job offer.",
+          "Ella rechazó la oferta de trabajo."
+         ],
+         [
+          "The new law brought about major changes.",
+          "La nueva ley provocó cambios importantes."
+         ]
+        ]
+       },
+       {
+        "p": "**Separables:** el objeto puede ir en medio o al final (**turn down the offer / turn the offer down**, **call off the meeting / call it off**). Si el objeto es un **pronombre**, va **obligatoriamente en medio**: turn **it** down (no 'turn down it'). **Inseparables:** el objeto siempre va al final (**look into the problem**, **run into an old friend**, **come across a photo**)."
+       },
+       {
+        "p": "Los phrasal verbs de **tres palabras** nunca se separan: **come up with an idea**, **put up with someone**, **get away with something**, **live up to expectations**, **cut down on sugar**, **catch up on sleep**, **go through with a plan**."
+       },
+       {
+        "ex": [
+         [
+          "The film didn't live up to my expectations.",
+          "La película no estuvo a la altura de mis expectativas."
+         ],
+         [
+          "I'm trying to cut down on coffee.",
+          "Estoy tratando de reducir el café."
+         ],
+         [
+          "Our plans to buy the house fell through.",
+          "Nuestros planes de comprar la casa se cayeron."
+         ]
+        ]
+       },
+       {
+        "tip": "Error típico: 'I can't support this noise' (support = apoyar). Para 'soportar' usa put up with o stand. Y cuidado: get away (escaparse) no es lo mismo que get away with (salirse con la suya)."
+       }
+      ],
+      "vocab": [
+       [
+        "come up with",
+        "phrasal verb",
+        "idear, ocurrírsele a uno",
+        "She came up with a brilliant marketing idea."
+       ],
+       [
+        "put up with",
+        "phrasal verb",
+        "aguantar, soportar",
+        "I don't know how you put up with your noisy neighbours."
+       ],
+       [
+        "look into",
+        "phrasal verb",
+        "investigar, estudiar",
+        "The bank promised to look into the missing payment."
+       ],
+       [
+        "get away with",
+        "phrasal verb",
+        "salirse con la suya",
+        "He cheated in the exam and got away with it."
+       ],
+       [
+        "turn down",
+        "phrasal verb",
+        "rechazar",
+        "They turned down our proposal without explanation."
+       ],
+       [
+        "bring about",
+        "phrasal verb",
+        "provocar, ocasionar",
+        "Technology has brought about huge social changes."
+       ],
+       [
+        "carry out",
+        "phrasal verb",
+        "llevar a cabo, realizar",
+        "The researchers carried out a survey of 2,000 people."
+       ],
+       [
+        "figure out",
+        "phrasal verb",
+        "descifrar, entender",
+        "I can't figure out how this software works."
+       ],
+       [
+        "come across",
+        "phrasal verb",
+        "encontrarse con (por casualidad)",
+        "I came across some old letters in the attic."
+       ],
+       [
+        "put off",
+        "phrasal verb",
+        "aplazar, posponer",
+        "Stop putting off the dentist appointment."
+       ],
+       [
+        "call off",
+        "phrasal verb",
+        "cancelar",
+        "The match was called off because of the storm."
+       ],
+       [
+        "run into",
+        "phrasal verb",
+        "toparse con (alguien o un problema)",
+        "We ran into some technical problems during the launch."
+       ],
+       [
+        "live up to",
+        "phrasal verb",
+        "estar a la altura de",
+        "The hotel didn't live up to the reviews."
+       ],
+       [
+        "catch up on",
+        "phrasal verb",
+        "ponerse al día con",
+        "I spent Sunday catching up on emails."
+       ],
+       [
+        "fall through",
+        "phrasal verb",
+        "fracasar, caerse (un plan)",
+        "The deal fell through at the last minute."
+       ],
+       [
+        "point out",
+        "phrasal verb",
+        "señalar, hacer notar",
+        "She pointed out several errors in the contract."
+       ],
+       [
+        "go through with",
+        "phrasal verb",
+        "llevar adelante (algo difícil)",
+        "He was nervous, but he went through with the surgery."
+       ],
+       [
+        "cut down on",
+        "phrasal verb",
+        "reducir el consumo de",
+        "The doctor told me to cut down on salt."
+       ],
+       [
+        "stand out",
+        "phrasal verb",
+        "destacarse, sobresalir",
+        "Her CV really stood out from the rest."
+       ],
+       [
+        "back down",
+        "phrasal verb",
+        "echarse para atrás, ceder",
+        "The union refused to back down."
+       ]
+      ],
+      "dialogue": {
+       "title": "Problemas con el apartamento",
+       "scene": "Daniela lleva meses peleando con el administrador de su edificio y se lo cuenta a su vecino Marcus en el ascensor.",
+       "a": "Marcus",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "Hi, Daniela! Any news about the water leak in your bathroom?",
+         "¡Hola, Daniela! ¿Alguna novedad sobre la gotera de tu baño?"
+        ],
+        [
+         "B",
+         "Nothing. I've put up with it for three months, and the administrator keeps putting off the repairs.",
+         "Nada. Llevo tres meses aguantándola, y el administrador sigue aplazando los arreglos."
+        ],
+        [
+         "A",
+         "Unbelievable. Did you make a formal complaint?",
+         "Increíble. ¿Pusiste una queja formal?"
+        ],
+        [
+         "B",
+         "Twice. He promised to look into it, but nothing happened. He thinks he can get away with ignoring us.",
+         "Dos veces. Prometió estudiar el caso, pero no pasó nada. Cree que puede salirse con la suya ignorándonos."
+        ],
+        [
+         "A",
+         "Well, I ran into Mrs. Clarke from the fourth floor yesterday. She has the same problem.",
+         "Pues ayer me encontré a la señora Clarke del cuarto piso. Tiene el mismo problema."
+        ],
+        [
+         "B",
+         "Really? Then maybe we should come up with a plan together.",
+         "¿En serio? Entonces tal vez deberíamos idear un plan juntos."
+        ],
+        [
+         "A",
+         "Exactly. We could call a residents' meeting. If enough people complain, he won't be able to back down so easily.",
+         "Exacto. Podríamos convocar una reunión de residentes. Si se queja suficiente gente, no va a poder zafarse tan fácil."
+        ],
+        [
+         "B",
+         "Good idea. I also came across a law that says repairs must be carried out within thirty days.",
+         "Buena idea. También encontré una ley que dice que los arreglos se deben realizar en un plazo de treinta días."
+        ],
+        [
+         "A",
+         "Perfect. You should point that out at the meeting. That could bring about some real changes.",
+         "Perfecto. Deberías señalar eso en la reunión. Eso podría provocar cambios de verdad."
+        ],
+        [
+         "B",
+         "I just hope they don't call off the meeting like last time.",
+         "Solo espero que no cancelen la reunión como la vez pasada."
+        ],
+        [
+         "A",
+         "What happened last time?",
+         "¿Qué pasó la vez pasada?"
+        ],
+        [
+         "B",
+         "The administrator said the room wasn't available. I still can't figure out why.",
+         "El administrador dijo que el salón no estaba disponible. Todavía no logro entender por qué."
+        ],
+        [
+         "A",
+         "Typical. By the way, didn't you want to move out? What happened to that flat in Chapinero?",
+         "Típico. Por cierto, ¿no te querías mudar? ¿Qué pasó con el apartamento en Chapinero?"
+        ],
+        [
+         "B",
+         "The deal fell through. And honestly, I turned down another one because it didn't live up to the photos.",
+         "El negocio se cayó. Y la verdad, rechacé otro porque no estaba a la altura de las fotos."
+        ],
+        [
+         "A",
+         "Then let's fight for this one. I'll talk to the neighbours tonight.",
+         "Entonces luchemos por este. Esta noche hablo con los vecinos."
+        ],
+        [
+         "B",
+         "Thanks, Marcus. I'm going to go through with this, even if it takes months.",
+         "Gracias, Marcus. Voy a llevar esto hasta el final, aunque tome meses."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "They offered me a promotion, but I ___ because it meant moving to another city.",
+        "o": [
+         "turned down it",
+         "turned it down",
+         "turned it off",
+         "turned down"
+        ],
+        "a": 1,
+        "x": "Con pronombre, el objeto va en medio: turn it down."
+       },
+       {
+        "t": "mc",
+        "q": "I don't know how she ___ her boss's terrible moods.",
+        "o": [
+         "puts up with",
+         "puts off",
+         "puts up",
+         "puts out"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The insurance company promised to ___ the accident.",
+        "o": [
+         "look after",
+         "look into",
+         "look up",
+         "look forward"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "We need to ___ up with a new name for the product. (idear)",
+        "ans": [
+         "come"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The concert was called off at the last minute because the singer had lost her voice. The organizers promised to refund every ticket.",
+        "q": "¿Por qué se canceló el concierto?",
+        "o": [
+         "Por la lluvia",
+         "Porque la cantante perdió la voz",
+         "Porque no vendieron boletas",
+         "Por un problema técnico"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "He thought he could get away with it, but the police looked into the case."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "new",
+         "policy",
+         "brought",
+         "about",
+         "important",
+         "changes."
+        ],
+        "es": "La nueva política provocó cambios importantes."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "came",
+         "across",
+         "some",
+         "old",
+         "photos",
+         "yesterday."
+        ],
+        "es": "Ayer me encontré unas fotos viejas."
+       },
+       {
+        "t": "dict",
+        "say": "The deal fell through at the last minute."
+       },
+       {
+        "t": "dict",
+        "say": "I'm trying to cut down on sugar."
+       },
+       {
+        "t": "mc",
+        "q": "The film was good, but it didn't ___ all the hype.",
+        "o": [
+         "live up to",
+         "catch up on",
+         "put up with",
+         "come up with"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I can't figure ___ how to install this app.",
+        "ans": [
+         "out"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I spent the whole weekend catching up on work, so I didn't have time to see my friends or even go to the gym.",
+        "q": "¿Qué hizo el fin de semana?",
+        "o": [
+         "Salió con amigos",
+         "Se puso al día con el trabajo",
+         "Fue al gimnasio",
+         "Viajó"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Cuenta un problema que tuviste con una empresa, un vecino o un servicio y cómo lo resolviste (mínimo 100 palabras). Usa al menos seis phrasal verbs de esta lección.",
+        "min": 100,
+        "keys": [
+         [
+          "put up with",
+          "put off",
+          "turn down",
+          "turned down"
+         ],
+         [
+          "look into",
+          "looked into",
+          "figure out",
+          "figured out"
+         ],
+         [
+          "come up with",
+          "came up with",
+          "carry out",
+          "carried out"
+         ],
+         [
+          "get away with",
+          "bring about",
+          "brought about",
+          "fall through",
+          "fell through",
+          "back down"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The scientists ___ an experiment to test the new vaccine.",
+       "o": [
+        "carried out",
+        "carried on",
+        "brought about",
+        "put off"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I can't believe he cheated and ___ it.",
+       "o": [
+        "got away",
+        "got away with",
+        "got over",
+        "got by"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u5-l4",
+      "title": "Modismos frecuentes (idioms)",
+      "goal": "Entender y usar con naturalidad los modismos más comunes del inglés (piece of cake, break the ice, hit the nail on the head, once in a blue moon).",
+      "theory": [
+       {
+        "p": "Un **modismo** (idiom) es una expresión cuyo significado **no es literal**. 'It's a piece of cake' no habla de pasteles: significa que algo es **facilísimo**, como nuestro 'pan comido'. Los nativos los usan todo el tiempo en conversaciones, series y reuniones de trabajo."
+       },
+       {
+        "ex": [
+         [
+          "The exam was a piece of cake.",
+          "El examen fue pan comido."
+         ],
+         [
+          "He told a joke to break the ice.",
+          "Contó un chiste para romper el hielo."
+         ],
+         [
+          "You've hit the nail on the head.",
+          "Diste en el clavo."
+         ],
+         [
+          "I only eat fast food once in a blue moon.",
+          "Como comida rápida muy de vez en cuando."
+         ]
+        ]
+       },
+       {
+        "p": "Muchos modismos tienen **equivalente en español**, pero con otra imagen: **cost an arm and a leg** (costar un ojo de la cara), **spill the beans** (soltar la sopa, contar el secreto), **beat around the bush** (andarse con rodeos), **get cold feet** (echarse para atrás por nervios), **by the skin of your teeth** (por un pelo)."
+       },
+       {
+        "p": "Otros describen **situaciones**: **the last straw** (la gota que rebosó la copa), **a blessing in disguise** (no hay mal que por bien no venga), **the ball is in your court** (la pelota está en tu cancha), **in hot water** (en problemas), **a long shot** (algo poco probable), **call it a day** (dar por terminado el día de trabajo)."
+       },
+       {
+        "ex": [
+         [
+          "Losing that job was a blessing in disguise.",
+          "Perder ese trabajo fue una bendición disfrazada."
+         ],
+         [
+          "Let's call it a day; we're all exhausted.",
+          "Dejémoslo así por hoy; todos estamos agotados."
+         ],
+         [
+          "Stop beating around the bush and tell me the truth.",
+          "Deja de andarte con rodeos y dime la verdad."
+         ]
+        ]
+       },
+       {
+        "tip": "Los modismos son fijos: no cambies las palabras ('a piece of pie', 'break the ice cube'). Solo se conjuga el verbo: she got cold feet, he's sitting on the fence. Y úsalos con moderación: en un correo formal suenan demasiado coloquiales."
+       }
+      ],
+      "vocab": [
+       [
+        "a piece of cake",
+        "modismo",
+        "pan comido, muy fácil",
+        "The driving test was a piece of cake."
+       ],
+       [
+        "break the ice",
+        "modismo",
+        "romper el hielo",
+        "A quick game helped to break the ice at the workshop."
+       ],
+       [
+        "hit the nail on the head",
+        "modismo",
+        "dar en el clavo",
+        "You hit the nail on the head when you said we lacked a plan."
+       ],
+       [
+        "once in a blue moon",
+        "modismo",
+        "muy de vez en cuando",
+        "We go to the theatre once in a blue moon."
+       ],
+       [
+        "cost an arm and a leg",
+        "modismo",
+        "costar un ojo de la cara",
+        "Their wedding must have cost an arm and a leg."
+       ],
+       [
+        "under the weather",
+        "modismo",
+        "indispuesto, enfermito",
+        "I'm feeling a bit under the weather today."
+       ],
+       [
+        "the last straw",
+        "modismo",
+        "la gota que rebosó la copa",
+        "When he missed the meeting again, it was the last straw."
+       ],
+       [
+        "a blessing in disguise",
+        "modismo",
+        "no hay mal que por bien no venga",
+        "Failing that exam was a blessing in disguise."
+       ],
+       [
+        "call it a day",
+        "modismo",
+        "dejarlo por hoy, terminar",
+        "We've done enough; let's call it a day."
+       ],
+       [
+        "get cold feet",
+        "modismo",
+        "echarse para atrás por nervios",
+        "She got cold feet the night before the wedding."
+       ],
+       [
+        "spill the beans",
+        "modismo",
+        "soltar la sopa, revelar un secreto",
+        "Come on, spill the beans! Who's your new boyfriend?"
+       ],
+       [
+        "sit on the fence",
+        "modismo",
+        "no tomar partido",
+        "You can't sit on the fence forever; choose a side."
+       ],
+       [
+        "cut corners",
+        "modismo",
+        "hacer las cosas a la carrera o mal para ahorrar",
+        "The builders cut corners, and now the roof leaks."
+       ],
+       [
+        "bite off more than you can chew",
+        "modismo",
+        "abarcar más de lo que se puede",
+        "I bit off more than I could chew with three jobs."
+       ],
+       [
+        "the ball is in your court",
+        "modismo",
+        "la pelota está en tu cancha",
+        "We've made our offer; the ball is in your court now."
+       ],
+       [
+        "go the extra mile",
+        "modismo",
+        "hacer más de lo que se espera",
+        "Our best employees always go the extra mile."
+       ],
+       [
+        "in hot water",
+        "modismo",
+        "en problemas",
+        "He's in hot water for leaking the report."
+       ],
+       [
+        "a long shot",
+        "modismo",
+        "algo poco probable",
+        "It's a long shot, but you might get the scholarship."
+       ],
+       [
+        "beat around the bush",
+        "modismo",
+        "andarse con rodeos",
+        "Don't beat around the bush; just tell me."
+       ],
+       [
+        "by the skin of your teeth",
+        "modismo",
+        "por un pelo, a duras penas",
+        "He passed the exam by the skin of his teeth."
+       ]
+      ],
+      "dialogue": {
+       "title": "El primer día de Nathan",
+       "scene": "Nathan acaba de entrar a trabajar en una agencia de publicidad en Medellín. Su compañera Catalina le explica cómo funcionan las cosas, con muchos modismos.",
+       "a": "Catalina",
+       "b": "Nathan",
+       "lines": [
+        [
+         "A",
+         "So, how's your first week going? Is it a piece of cake so far?",
+         "Bueno, ¿cómo va tu primera semana? ¿Ha sido pan comido hasta ahora?"
+        ],
+        [
+         "B",
+         "Not exactly. I think I bit off more than I could chew when I offered to lead the new campaign.",
+         "No exactamente. Creo que abarqué más de lo que podía cuando me ofrecí a dirigir la nueva campaña."
+        ],
+        [
+         "A",
+         "Ha! Everyone does that in their first week. At least you broke the ice with the team.",
+         "¡Ja! Todo el mundo hace eso la primera semana. Por lo menos rompiste el hielo con el equipo."
+        ],
+        [
+         "B",
+         "I hope so. By the way, is the boss always this strict? I nearly got in hot water for arriving five minutes late.",
+         "Eso espero. Por cierto, ¿el jefe siempre es así de estricto? Casi me meto en problemas por llegar cinco minutos tarde."
+        ],
+        [
+         "A",
+         "Only on Mondays. He usually doesn't beat around the bush, but he appreciates people who go the extra mile.",
+         "Solo los lunes. Normalmente no se anda con rodeos, pero valora a la gente que hace más de lo que se espera."
+        ],
+        [
+         "B",
+         "Good to know. And what about the client from yesterday? He couldn't decide on anything.",
+         "Bueno saberlo. ¿Y el cliente de ayer? No se decidía por nada."
+        ],
+        [
+         "A",
+         "Oh, he always sits on the fence. You hit the nail on the head when you told him he needed a clear message.",
+         "Ay, ese nunca toma partido. Diste en el clavo cuando le dijiste que necesitaba un mensaje claro."
+        ],
+        [
+         "B",
+         "Really? I was worried I'd been too direct.",
+         "¿En serio? Me preocupaba haber sido demasiado directo."
+        ],
+        [
+         "A",
+         "Not at all. Now the ball is in his court. If he wants the campaign, he has to approve the budget.",
+         "Para nada. Ahora la pelota está en su cancha. Si quiere la campaña, tiene que aprobar el presupuesto."
+        ],
+        [
+         "B",
+         "Is it a big budget?",
+         "¿Es un presupuesto grande?"
+        ],
+        [
+         "A",
+         "Huge. A TV advert during the football final costs an arm and a leg, so we can't cut corners.",
+         "Enorme. Un comercial de televisión durante la final de fútbol cuesta un ojo de la cara, así que no podemos hacer nada a medias."
+        ],
+        [
+         "B",
+         "Do you think they'll actually do it? It sounds like a long shot.",
+         "¿Crees que de verdad lo hagan? Suena poco probable."
+        ],
+        [
+         "A",
+         "Maybe. Last year another client got cold feet at the last minute and cancelled everything.",
+         "Tal vez. El año pasado otro cliente se echó para atrás a última hora y canceló todo."
+        ],
+        [
+         "B",
+         "That must have been the last straw for the team.",
+         "Esa debió ser la gota que rebosó la copa para el equipo."
+        ],
+        [
+         "A",
+         "It was, but it turned out to be a blessing in disguise. We found a much better client a week later.",
+         "Lo fue, pero resultó ser una bendición disfrazada. Una semana después encontramos un cliente mucho mejor."
+        ],
+        [
+         "B",
+         "Interesting. Well, I'm feeling a bit under the weather. Do you mind if I call it a day?",
+         "Interesante. Bueno, me siento un poco indispuesto. ¿Te molesta si lo dejo por hoy?"
+        ],
+        [
+         "A",
+         "Go home and rest. And don't worry, you're doing great!",
+         "Ve a la casa y descansa. Y tranquilo, ¡lo estás haciendo muy bien!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I hardly ever go to the cinema; I go ___.",
+        "o": [
+         "once in a blue moon",
+         "a piece of cake",
+         "under the weather",
+         "in hot water"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Don't ___. Tell me directly what the problem is.",
+        "o": [
+         "break the ice",
+         "beat around the bush",
+         "call it a day",
+         "spill the beans"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'He passed by the skin of his teeth' significa que:",
+        "o": [
+         "Pasó con la nota más alta",
+         "Pasó por muy poco",
+         "No pasó",
+         "Hizo trampa"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "That new phone costs an arm and a ___! (cuesta un ojo de la cara)",
+        "ans": [
+         "leg"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "At first, losing my job felt like a disaster. But it was a blessing in disguise, because it gave me the courage to start my own business.",
+        "q": "¿Qué resultó de perder el trabajo?",
+        "o": [
+         "Se deprimió",
+         "Empezó su propio negocio",
+         "Se mudó de país",
+         "Volvió a estudiar"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "You hit the nail on the head. That's exactly what I was thinking."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "got",
+         "cold",
+         "feet",
+         "before",
+         "the",
+         "wedding."
+        ],
+        "es": "Ella se echó para atrás antes de la boda."
+       },
+       {
+        "t": "order",
+        "words": [
+         "We've",
+         "done",
+         "enough",
+         "work,",
+         "so",
+         "let's",
+         "call",
+         "it",
+         "a",
+         "day."
+        ],
+        "es": "Ya trabajamos suficiente, así que dejémoslo por hoy."
+       },
+       {
+        "t": "dict",
+        "say": "I'm feeling a bit under the weather today."
+       },
+       {
+        "t": "dict",
+        "say": "The ball is in your court now."
+       },
+       {
+        "t": "mc",
+        "q": "When you reveal a secret, you:",
+        "o": [
+         "break the ice",
+         "spill the beans",
+         "cut corners",
+         "go the extra mile"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "He was late again, and that was the last ___. I fired him. (la gota que rebosó la copa)",
+        "ans": [
+         "straw"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The builders cut corners to save money, and now the walls have cracks everywhere. The owner is furious.",
+        "q": "¿Qué hicieron los constructores?",
+        "o": [
+         "Trabajaron más de la cuenta",
+         "Hicieron un trabajo mediocre para ahorrar",
+         "Terminaron antes de tiempo",
+         "Usaron materiales caros"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Cuenta una experiencia (un trabajo, un viaje, un examen) usando al menos cinco modismos de esta lección de forma natural (mínimo 100 palabras).",
+        "min": 100,
+        "keys": [
+         [
+          "piece of cake",
+          "break the ice",
+          "broke the ice"
+         ],
+         [
+          "hit the nail on the head",
+          "once in a blue moon",
+          "under the weather"
+         ],
+         [
+          "blessing in disguise",
+          "the last straw",
+          "cold feet",
+          "in hot water"
+         ],
+         [
+          "call it a day",
+          "the ball is in",
+          "go the extra mile",
+          "by the skin of"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Our teacher played a game on the first day to ___.",
+       "o": [
+        "break the ice",
+        "spill the beans",
+        "cut corners",
+        "hit the nail"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Learning to ride a bike was ___ for her; she did it in one afternoon.",
+       "o": [
+        "a long shot",
+        "the last straw",
+        "a piece of cake",
+        "in hot water"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u5-l5",
+      "title": "Comparativos avanzados",
+      "goal": "Matizar comparaciones con the more... the more, far/much/a bit + comparativo, nowhere near as... as y twice as... as.",
+      "theory": [
+       {
+        "p": "En B2 no basta con decir 'bigger than'. Necesitas **matizar** cuánto más o cuánto menos. Para eso se ponen modificadores **antes del comparativo**: **far / much / a lot / considerably / significantly** (mucho más), **a bit / a little / slightly / marginally** (un poco más)."
+       },
+       {
+        "ex": [
+         [
+          "The new model is far more efficient than the old one.",
+          "El modelo nuevo es muchísimo más eficiente que el viejo."
+         ],
+         [
+          "Living in Medellín is much cheaper than living in London.",
+          "Vivir en Medellín es mucho más barato que vivir en Londres."
+         ],
+         [
+          "This route is slightly longer, but it's safer.",
+          "Esta ruta es un poco más larga, pero es más segura."
+         ]
+        ]
+       },
+       {
+        "p": "La estructura **the + comparativo..., the + comparativo** expresa que dos cosas cambian **juntas** (cuanto más..., más...): **The more you practise, the better you get.** También existe la versión corta: **the sooner, the better** (cuanto antes, mejor). Para un cambio progresivo usa **comparativo + and + comparativo**: **It's getting harder and harder.**"
+       },
+       {
+        "ex": [
+         [
+          "The more I read about it, the less I understand.",
+          "Cuanto más leo sobre eso, menos entiendo."
+         ],
+         [
+          "The older you get, the wiser you become.",
+          "Cuanto más viejo eres, más sabio te vuelves."
+         ],
+         [
+          "Prices are getting higher and higher.",
+          "Los precios están cada vez más altos."
+         ]
+        ]
+       },
+       {
+        "p": "Con **as... as** también se matiza: **nowhere near as / not nearly as** (ni de lejos tan), **just as / every bit as** (igual de), y las **multiplicaciones**: **twice as expensive as** (el doble de caro que), **three times as big as**, **half as fast as** (la mitad de rápido)."
+       },
+       {
+        "ex": [
+         [
+          "The sequel is nowhere near as good as the original.",
+          "La secuela no es ni de lejos tan buena como la original."
+         ],
+         [
+          "A flight to Cartagena costs twice as much as the bus.",
+          "Un vuelo a Cartagena cuesta el doble que el bus."
+         ],
+         [
+          "She's every bit as talented as her sister.",
+          "Ella es igual de talentosa que su hermana."
+         ]
+        ]
+       },
+       {
+        "tip": "Nunca uses very con comparativos: 'very more expensive' es incorrecto → much / far more expensive. Y no digas 'the more you practise, more you learn': el segundo the es obligatorio. Recuerda también: twice as big as (no 'two times bigger as')."
+       }
+      ],
+      "vocab": [
+       [
+        "the more..., the more...",
+        "expresión",
+        "cuanto más..., más...",
+        "The more you save now, the more relaxed you'll feel later."
+       ],
+       [
+        "the sooner, the better",
+        "expresión",
+        "cuanto antes, mejor",
+        "Send me the contract; the sooner, the better."
+       ],
+       [
+        "far + comparativo",
+        "adverbio",
+        "muchísimo más",
+        "Cycling is far healthier than driving."
+       ],
+       [
+        "much + comparativo",
+        "adverbio",
+        "mucho más",
+        "The exam was much easier than I expected."
+       ],
+       [
+        "a bit + comparativo",
+        "expresión",
+        "un poco más",
+        "Could you speak a bit more slowly, please?"
+       ],
+       [
+        "slightly",
+        "adverbio",
+        "ligeramente",
+        "Sales were slightly higher this quarter."
+       ],
+       [
+        "considerably",
+        "adverbio",
+        "considerablemente",
+        "Life in the capital is considerably more expensive."
+       ],
+       [
+        "significantly",
+        "adverbio",
+        "significativamente",
+        "The new system is significantly faster."
+       ],
+       [
+        "marginally",
+        "adverbio",
+        "mínimamente, apenas",
+        "The second option is marginally cheaper."
+       ],
+       [
+        "even + comparativo",
+        "adverbio",
+        "aún más, todavía más",
+        "Today is hot, but tomorrow will be even hotter."
+       ],
+       [
+        "way + comparativo",
+        "adverbio",
+        "muchísimo más (informal)",
+        "This phone is way better than my old one."
+       ],
+       [
+        "by far",
+        "expresión",
+        "de lejos",
+        "It's by far the best restaurant in town."
+       ],
+       [
+        "nowhere near as... as",
+        "expresión",
+        "ni de lejos tan... como",
+        "The remake is nowhere near as scary as the original."
+       ],
+       [
+        "not nearly as... as",
+        "expresión",
+        "no tan... ni de cerca",
+        "He's not nearly as confident as he seems."
+       ],
+       [
+        "twice as... as",
+        "expresión",
+        "el doble de... que",
+        "Our new office is twice as big as the old one."
+       ],
+       [
+        "half as... as",
+        "expresión",
+        "la mitad de... que",
+        "The train is half as expensive as the plane."
+       ],
+       [
+        "every bit as... as",
+        "expresión",
+        "igual de... que (enfático)",
+        "The local team is every bit as good as the champions."
+       ],
+       [
+        "just as... as",
+        "expresión",
+        "igual de... que",
+        "Online classes can be just as effective as face-to-face ones."
+       ],
+       [
+        "increasingly",
+        "adverbio",
+        "cada vez más",
+        "It's becoming increasingly difficult to find a parking space."
+       ],
+       [
+        "more and more / harder and harder",
+        "expresión",
+        "cada vez más (cambio progresivo)",
+        "Exams are getting harder and harder every year."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Bogotá o Barcelona?",
+       "scene": "Valentina recibió una oferta de trabajo en Barcelona y la compara con su trabajo actual en Bogotá mientras habla con su amigo Oliver por videollamada.",
+       "a": "Oliver",
+       "b": "Valentina",
+       "lines": [
+        [
+         "A",
+         "So, have you decided? Are you taking the job in Barcelona?",
+         "¿Y qué? ¿Ya decidiste? ¿Vas a aceptar el trabajo en Barcelona?"
+        ],
+        [
+         "B",
+         "Not yet. The more I think about it, the more confused I get.",
+         "Todavía no. Cuanto más lo pienso, más me confundo."
+        ],
+        [
+         "A",
+         "Well, let's compare. The salary is better, isn't it?",
+         "Bueno, comparemos. El sueldo es mejor, ¿no?"
+        ],
+        [
+         "B",
+         "It's far better. They're offering almost twice as much as I earn here.",
+         "Muchísimo mejor. Me están ofreciendo casi el doble de lo que gano aquí."
+        ],
+        [
+         "A",
+         "That sounds amazing. But isn't Barcelona much more expensive than Bogotá?",
+         "Suena increíble. ¿Pero Barcelona no es mucho más cara que Bogotá?"
+        ],
+        [
+         "B",
+         "Yes, rent is considerably higher. A small flat there costs three times as much as my apartment here.",
+         "Sí, el arriendo es considerablemente más alto. Un apartamento pequeño allá cuesta tres veces lo que vale mi apartamento aquí."
+        ],
+        [
+         "A",
+         "So in the end, you'd only be slightly better off financially.",
+         "Entonces al final, económicamente solo estarías un poco mejor."
+        ],
+        [
+         "B",
+         "Exactly. And the job itself is nowhere near as creative as what I do now.",
+         "Exacto. Y el trabajo en sí no es ni de lejos tan creativo como lo que hago ahora."
+        ],
+        [
+         "A",
+         "Hmm. What about your career, though? An international company would look way better on your CV.",
+         "Mmm. ¿Pero y tu carrera? Una empresa internacional se vería muchísimo mejor en tu hoja de vida."
+        ],
+        [
+         "B",
+         "That's true. It's by far the biggest company in the sector, and it's becoming increasingly hard to grow here.",
+         "Es verdad. Es de lejos la empresa más grande del sector, y cada vez es más difícil crecer aquí."
+        ],
+        [
+         "A",
+         "And the lifestyle? The beach, the food...",
+         "¿Y el estilo de vida? La playa, la comida..."
+        ],
+        [
+         "B",
+         "Honestly, I think the food in Bogotá is every bit as good! But I'd love to live near the sea.",
+         "¡Sinceramente, creo que la comida en Bogotá es igual de buena! Pero me encantaría vivir cerca del mar."
+        ],
+        [
+         "A",
+         "What does your family say?",
+         "¿Qué dice tu familia?"
+        ],
+        [
+         "B",
+         "My mum is getting more and more worried. She says the further away I am, the less she'll see me.",
+         "Mi mamá está cada vez más preocupada. Dice que entre más lejos esté, menos me va a ver."
+        ],
+        [
+         "A",
+         "That's natural. But flights are getting cheaper, and you could visit every few months.",
+         "Es normal. Pero los vuelos están cada vez más baratos, y podrías visitarlos cada pocos meses."
+        ],
+        [
+         "B",
+         "You're right. They want an answer by Friday, so the sooner I decide, the better.",
+         "Tienes razón. Quieren una respuesta para el viernes, así que cuanto antes decida, mejor."
+        ],
+        [
+         "A",
+         "Whatever you choose, I'm sure you'll be just as successful there as you are here.",
+         "Escojas lo que escojas, estoy seguro de que te va a ir igual de bien allá que aquí."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The more you exercise, ___ you'll feel.",
+        "o": [
+         "better",
+         "the better",
+         "the best",
+         "more better"
+        ],
+        "a": 1,
+        "x": "En la estructura 'the more..., the...' el segundo the es obligatorio."
+       },
+       {
+        "t": "mc",
+        "q": "This laptop is ___ more powerful than the one I had before.",
+        "o": [
+         "very",
+         "far",
+         "too",
+         "so"
+        ],
+        "a": 1,
+        "x": "Very no se usa con comparativos; usa far, much o a lot."
+       },
+       {
+        "t": "mc",
+        "q": "The sequel was ___ as good as the first film; I was really disappointed.",
+        "o": [
+         "nowhere near",
+         "every bit",
+         "just",
+         "twice"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "A taxi costs ___ as much as the bus, so it's double the price. (el doble)",
+        "ans": [
+         "twice"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The new metro line is significantly faster than the bus. A journey that used to take an hour now takes only twenty-five minutes.",
+        "q": "¿Cuánto dura ahora el viaje?",
+        "o": [
+         "Una hora",
+         "Cuarenta minutos",
+         "Veinticinco minutos",
+         "Quince minutos"
+        ],
+        "a": 2
+       },
+       {
+        "t": "oral",
+        "text": "The more I practise, the more confident I feel when I speak English."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "It's",
+         "by",
+         "far",
+         "the",
+         "best",
+         "book",
+         "I've",
+         "ever",
+         "read."
+        ],
+        "es": "Es de lejos el mejor libro que he leído."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "sooner",
+         "we",
+         "leave,",
+         "the",
+         "better."
+        ],
+        "es": "Cuanto antes nos vayamos, mejor."
+       },
+       {
+        "t": "dict",
+        "say": "Prices are getting higher and higher."
+       },
+       {
+        "t": "dict",
+        "say": "Our new flat is twice as big as the old one."
+       },
+       {
+        "t": "mc",
+        "q": "Elige la frase correcta:",
+        "o": [
+         "She's two times taller as me.",
+         "She's twice as tall as me.",
+         "She's twice taller as me.",
+         "She's double as tall than me."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Today is cold, but tomorrow will be ___ colder. (aún más)",
+        "ans": [
+         "even"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Online courses can be just as effective as traditional classes, but only if students are disciplined. The less you organize your time, the less you learn.",
+        "q": "Según el texto, ¿de qué depende la eficacia de los cursos en línea?",
+        "o": [
+         "Del precio",
+         "De la disciplina del estudiante",
+         "Del profesor",
+         "De la conexión a internet"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Compara dos ciudades, trabajos o estilos de vida que conozcas (mínimo 100 palabras). Usa the more... the more, al menos dos modificadores (far, much, slightly...) y una estructura con as... as (nowhere near as, twice as, just as).",
+        "min": 100,
+        "keys": [
+         [
+          "the more",
+          "the less",
+          "the better",
+          "the sooner"
+         ],
+         [
+          "far",
+          "much",
+          "slightly",
+          "considerably",
+          "significantly",
+          "a bit"
+         ],
+         [
+          "nowhere near as",
+          "not nearly as",
+          "twice as",
+          "just as",
+          "every bit as",
+          "half as"
+         ],
+         [
+          "than"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ you start saving, the more money you'll have when you retire.",
+       "o": [
+        "The earliest",
+        "Earlier",
+        "The earlier",
+        "More early"
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "My brother earns three times ___ I do.",
+       "o": [
+        "as much as",
+        "more as",
+        "as many than",
+        "much than"
+       ],
+       "a": 0
+      },
+      "reading": 4,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "The government has promised to ___ more research into the disease.",
+      "o": [
+       "make",
+       "do",
+       "take",
+       "have"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The instructions were so ___ that nobody knew what to do.",
+      "o": [
+       "misleading",
+       "unleading",
+       "overleading",
+       "disleading"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I was offered the job, but I ___ because the salary was too low.",
+      "o": [
+       "turned down it",
+       "turned it down",
+       "turned it up",
+       "turned up it"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Don't ___; tell me what really happened.",
+      "o": [
+       "beat around the bush",
+       "break the ice",
+       "call it a day",
+       "go the extra mile"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The longer you wait, ___ it will be to fix the problem.",
+      "o": [
+       "harder",
+       "the hardest",
+       "the harder",
+       "more hard"
+      ],
+      "a": 2
+     },
+     {
+      "t": "fill",
+      "q": "I can't put up ___ this noise any longer.",
+      "ans": [
+       "with"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Our new office is twice as big as the old one, but the rent is only slightly higher, so the move was definitely worth it.",
+      "q": "¿Cómo es el arriendo de la nueva oficina?",
+      "o": [
+       "El doble de caro",
+       "Solo un poco más alto",
+       "Más barato",
+       "Igual"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "The project almost fell through because the main investor got cold feet, but in the end we came up with a new plan and found another partner.",
+      "q": "¿Qué casi hace fracasar el proyecto?",
+      "o": [
+       "Un error técnico",
+       "El inversionista principal se echó para atrás",
+       "La competencia feroz",
+       "Un plazo muy corto"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe una reseña de un producto, un restaurante o un servicio (mínimo 110 palabras). Usa al menos dos colocaciones, dos phrasal verbs, un modismo y un comparativo avanzado.",
+      "min": 110,
+      "keys": [
+       [
+        "high expectations",
+        "make a complaint",
+        "made a complaint",
+        "take into account",
+        "heavy traffic",
+        "strong coffee",
+        "bitterly disappointed"
+       ],
+       [
+        "live up to",
+        "turn down",
+        "come across",
+        "put up with",
+        "point out",
+        "figure out",
+        "stand out"
+       ],
+       [
+        "piece of cake",
+        "cost an arm and a leg",
+        "once in a blue moon",
+        "hit the nail on the head",
+        "the last straw",
+        "blessing in disguise"
+       ],
+       [
+        "far",
+        "much",
+        "nowhere near",
+        "twice as",
+        "the more",
+        "slightly"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "It's a long shot, but the more we practise, the better our chances are."
+     },
+     {
+      "t": "oral",
+      "text": "The film didn't live up to my expectations; it was nowhere near as good as the book."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "We have to ___ a decision before the end of the month.",
+      "o": [
+       "do",
+       "take",
+       "make",
+       "have"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "Some customers try to ___ the free trial and then cancel.",
+      "o": [
+       "take advantage of",
+       "take part of",
+       "make use with",
+       "do advantage of"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Elige la palabra con el prefijo correcto: 'no estar de acuerdo con algo'",
+      "o": [
+       "misapprove",
+       "unapprove",
+       "disapprove",
+       "overapprove"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "Her ___ to learn new things makes her a great employee.",
+      "o": [
+       "willingful",
+       "willingness",
+       "willingity",
+       "willingment"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The match was ___ because of the heavy rain.",
+      "o": [
+       "called off",
+       "called up",
+       "put up",
+       "brought about"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I'm feeling a bit ___, so I'll stay at home today.",
+      "o": [
+       "in hot water",
+       "under the weather",
+       "on the fence",
+       "once in a blue moon"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The new design is ___ better than the previous one.",
+      "o": [
+       "very",
+       "a lot",
+       "too",
+       "so"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "The police are looking ___ the robbery. (investigando)",
+      "ans": [
+       "into"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "It's ___ to keep arguing; he'll never change his mind. (point → sin sentido)",
+      "ans": [
+       "pointless"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Public transport here is nowhere ___ as efficient as in Europe.",
+      "ans": [
+       "near"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "I hardly ever eat dessert. I only have a piece of chocolate cake once in a blue moon, usually on my birthday.",
+      "q": "¿Con qué frecuencia come postre?",
+      "o": [
+       "Todos los días",
+       "Muy de vez en cuando",
+       "Los fines de semana",
+       "Nunca"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "The new manager has brought about a lot of changes. She is far more organized than her predecessor, and the team feels significantly less stressed.",
+      "q": "¿Cómo se siente el equipo ahora?",
+      "o": [
+       "Más estresado",
+       "Igual que antes",
+       "Mucho menos estresado",
+       "Desmotivado"
+      ],
+      "a": 2
+     },
+     {
+      "t": "oral",
+      "text": "She came up with a brilliant idea that brought about real change."
+     },
+     {
+      "t": "oral",
+      "text": "The more you read in English, the more vocabulary you learn."
+     },
+     {
+      "t": "order",
+      "words": [
+       "The",
+       "team",
+       "made",
+       "a",
+       "real",
+       "effort",
+       "to",
+       "meet",
+       "the",
+       "deadline."
+      ],
+      "es": "El equipo hizo un verdadero esfuerzo por cumplir el plazo."
+     }
+    ]
+   },
+   {
+    "title": "Inglés profesional",
+    "lessons": [
+     {
+      "id": "b2-u6-l1",
+      "title": "Reuniones y presentaciones",
+      "goal": "Abrir una reunión, ceder la palabra, señalizar las partes de una presentación y manejar preguntas con seguridad.",
+      "theory": [
+       {
+        "p": "Una reunión o presentación profesional en inglés sigue una **estructura muy señalizada**: el público necesita saber en qué punto estás. Para **abrir** se usan fórmulas como **Shall we get started?**, **Let's kick off with...** o **The purpose of today's meeting is to...**. Para presentar el plan: **I've divided my talk into three parts.**"
+       },
+       {
+        "ex": [
+         [
+          "Thanks for coming, everyone. Shall we get started?",
+          "Gracias a todos por venir. ¿Empezamos?"
+         ],
+         [
+          "The purpose of today's meeting is to agree on the budget for next quarter.",
+          "El propósito de la reunión de hoy es acordar el presupuesto del próximo trimestre."
+         ],
+         [
+          "I've divided my presentation into three main sections.",
+          "He dividido mi presentación en tres secciones principales."
+         ],
+         [
+          "I'd now like to hand over to Paula, who will walk you through the figures.",
+          "Ahora quisiera cederle la palabra a Paula, quien les explicará las cifras."
+         ]
+        ]
+       },
+       {
+        "p": "Para **señalizar** el paso de una parte a otra: **Moving on to...**, **That brings me to...**, **Let's turn now to...**. Para **volver** a algo: **Going back to what I said earlier...**. Para **cerrar**: **To sum up...**, **To wrap up...**, **The key takeaway is...**."
+       },
+       {
+        "ex": [
+         [
+          "Moving on to the second item on the agenda, the new hiring policy.",
+          "Pasando al segundo punto del orden del día, la nueva política de contratación."
+         ],
+         [
+          "That brings me to my final point.",
+          "Eso me lleva a mi último punto."
+         ],
+         [
+          "To sum up, we need to cut costs without affecting quality.",
+          "En resumen, necesitamos recortar costos sin afectar la calidad."
+         ],
+         [
+          "I'm afraid we're getting sidetracked. Let's get back to the main issue.",
+          "Me temo que nos estamos desviando. Volvamos al tema principal."
+         ]
+        ]
+       },
+       {
+        "p": "Para **manejar preguntas**: agradece (**That's a very good question**), gana tiempo (**Let me think about that for a moment**), reformula (**If I understand you correctly, you're asking whether...**) y, si no sabes, sé honesto (**I don't have that information to hand, but I'll get back to you on that**)."
+       },
+       {
+        "tip": "Error típico: decir 'I will present you the project'. En inglés se dice **I'm going to present the project to you** o **I'd like to walk you through the project**. Tampoco digas 'Do you have any doubt?': lo natural es **Are there any questions?** o **Does anyone have any questions?** (doubt implica desconfianza)."
+       }
+      ],
+      "vocab": [
+       [
+        "chair a meeting",
+        "colocación",
+        "presidir/moderar una reunión",
+        "Diana will chair the meeting while the director is away."
+       ],
+       [
+        "agenda",
+        "sustantivo",
+        "orden del día",
+        "Let's stick to the agenda, please."
+       ],
+       [
+        "kick off",
+        "phrasal verb",
+        "arrancar, dar inicio",
+        "Let's kick off with a quick update from each team."
+       ],
+       [
+        "hand over to",
+        "phrasal verb",
+        "ceder la palabra a",
+        "I'll now hand over to Jorge for the financial report."
+       ],
+       [
+        "walk someone through",
+        "expresión",
+        "explicarle algo a alguien paso a paso",
+        "Can you walk us through the new process?"
+       ],
+       [
+        "moving on to",
+        "expresión",
+        "pasando a",
+        "Moving on to the next item, the training schedule."
+       ],
+       [
+        "that brings me to",
+        "expresión",
+        "eso me lleva a",
+        "That brings me to the question of funding."
+       ],
+       [
+        "to sum up",
+        "expresión",
+        "en resumen",
+        "To sum up, the pilot was a success."
+       ],
+       [
+        "key takeaway",
+        "colocación",
+        "idea clave, conclusión principal",
+        "The key takeaway is that clients want speed."
+       ],
+       [
+        "get sidetracked",
+        "expresión",
+        "desviarse del tema",
+        "We got sidetracked and ran out of time."
+       ],
+       [
+        "run over time",
+        "expresión",
+        "pasarse del tiempo",
+        "Sorry, the meeting ran over time."
+       ],
+       [
+        "action points",
+        "sustantivo",
+        "tareas acordadas, compromisos",
+        "Let's review the action points before we finish."
+       ],
+       [
+        "follow up on",
+        "phrasal verb",
+        "hacer seguimiento a",
+        "I'll follow up on this with the legal team."
+       ],
+       [
+        "get back to someone",
+        "phrasal verb",
+        "responderle a alguien más tarde",
+        "I'll get back to you on that by Friday."
+       ],
+       [
+        "to hand",
+        "expresión",
+        "a la mano, disponible",
+        "I don't have the exact figures to hand."
+       ],
+       [
+        "raise a point",
+        "colocación",
+        "plantear un punto",
+        "Andrea raised an interesting point about costs."
+       ],
+       [
+        "bear in mind",
+        "expresión",
+        "tener en cuenta",
+        "Bear in mind that the deadline is fixed."
+       ],
+       [
+        "handout",
+        "sustantivo",
+        "material impreso que se reparte",
+        "You'll find the data in the handout."
+       ],
+       [
+        "wrap up",
+        "phrasal verb",
+        "concluir, cerrar",
+        "Let's wrap up with a summary."
+       ],
+       [
+        "any other business (AOB)",
+        "expresión",
+        "varios (último punto del orden del día)",
+        "Is there any other business before we close?"
+       ]
+      ],
+      "dialogue": {
+       "title": "La reunión de seguimiento trimestral",
+       "scene": "Natalia preside la reunión del equipo comercial y le cede la palabra a Ethan, que presenta los resultados del trimestre.",
+       "a": "Natalia",
+       "b": "Ethan",
+       "lines": [
+        [
+         "A",
+         "Good morning, everyone, and thanks for joining. Shall we get started? The purpose of today's meeting is to review our third-quarter results.",
+         "Buenos días a todos y gracias por conectarse. ¿Empezamos? El propósito de la reunión de hoy es revisar los resultados del tercer trimestre."
+        ],
+        [
+         "A",
+         "We've got three items on the agenda, so let's try not to run over time. Ethan, I'll hand over to you.",
+         "Tenemos tres puntos en el orden del día, así que intentemos no pasarnos del tiempo. Ethan, te cedo la palabra."
+        ],
+        [
+         "B",
+         "Thanks, Natalia. I've divided my presentation into three parts: sales figures, customer feedback and next steps.",
+         "Gracias, Natalia. He dividido mi presentación en tres partes: cifras de ventas, opiniones de los clientes y próximos pasos."
+        ],
+        [
+         "B",
+         "Let me start by walking you through the figures. As you can see on this slide, revenue rose by eight percent.",
+         "Permítanme empezar explicándoles las cifras. Como pueden ver en esta diapositiva, los ingresos subieron un ocho por ciento."
+        ],
+        [
+         "A",
+         "Sorry to interrupt, Ethan, but is that compared to last quarter or to last year?",
+         "Perdón la interrupción, Ethan, pero ¿eso es comparado con el trimestre pasado o con el año pasado?"
+        ],
+        [
+         "B",
+         "That's a very good question. It's compared to the same quarter last year. Bear in mind that this year we had two fewer salespeople.",
+         "Muy buena pregunta. Es comparado con el mismo trimestre del año pasado. Tengan en cuenta que este año tuvimos dos vendedores menos."
+        ],
+        [
+         "B",
+         "Moving on to customer feedback, the main complaint was delivery times, which brings me to my final point.",
+         "Pasando a las opiniones de los clientes, la queja principal fueron los tiempos de entrega, lo cual me lleva a mi último punto."
+        ],
+        [
+         "A",
+         "Before you continue, Sergio has raised a point in the chat about the new logistics provider.",
+         "Antes de que sigas, Sergio planteó un punto en el chat sobre el nuevo proveedor de logística."
+        ],
+        [
+         "B",
+         "Right. I'm afraid I don't have their contract details to hand, but I'll follow up on that and get back to you by Thursday.",
+         "Claro. Me temo que no tengo a la mano los detalles de su contrato, pero le haré seguimiento a eso y les respondo a más tardar el jueves."
+        ],
+        [
+         "A",
+         "Perfect. Let's not get sidetracked, then. Please go ahead with the next steps.",
+         "Perfecto. Entonces no nos desviemos. Por favor, sigue con los próximos pasos."
+        ],
+        [
+         "B",
+         "Our proposal is to open a second warehouse in Barranquilla, which should cut delivery times by about two days.",
+         "Nuestra propuesta es abrir una segunda bodega en Barranquilla, lo cual debería reducir los tiempos de entrega en unos dos días."
+        ],
+        [
+         "B",
+         "To sum up, sales are strong, but the key takeaway is that we need to improve logistics if we want to keep growing.",
+         "En resumen, las ventas van bien, pero la idea clave es que tenemos que mejorar la logística si queremos seguir creciendo."
+        ],
+        [
+         "A",
+         "Thank you, Ethan, that was very clear. Does anyone have any questions before we wrap up?",
+         "Gracias, Ethan, fue muy claro. ¿Alguien tiene preguntas antes de cerrar?"
+        ],
+        [
+         "B",
+         "If there are no questions, I'll send round the slides and a handout with the detailed figures.",
+         "Si no hay preguntas, les envío las diapositivas y un documento con las cifras detalladas."
+        ],
+        [
+         "A",
+         "Great. So, the action points are: Ethan follows up with logistics, and I'll present the warehouse proposal to the board. Any other business?",
+         "Excelente. Entonces, los compromisos son: Ethan hace seguimiento con logística y yo presento la propuesta de la bodega a la junta. ¿Algún otro asunto?"
+        ],
+        [
+         "B",
+         "Nothing from me. Thanks, everyone.",
+         "Nada de mi parte. Gracias a todos."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "You want to pass to the next part of your talk. You say:",
+        "o": [
+         "Next to this, the budget.",
+         "Moving on to the budget.",
+         "Passing to the budget.",
+         "Following with the budget."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Which is the most natural way to invite questions?",
+        "o": [
+         "Do you have any doubt?",
+         "Are there doubts?",
+         "Does anyone have any questions?",
+         "Who has doubts?"
+        ],
+        "a": 2,
+        "x": "Doubt implica desconfianza; para invitar preguntas se dice questions."
+       },
+       {
+        "t": "mc",
+        "q": "You don't know the answer to a question. The most professional reply is:",
+        "o": [
+         "I don't know, sorry.",
+         "That's not my problem.",
+         "No idea, next question.",
+         "I'm not sure off the top of my head, but I'll get back to you on that."
+        ],
+        "a": 3
+       },
+       {
+        "t": "fill",
+        "q": "I'd now like to hand ___ to Marta, who will present the results. (ceder la palabra)",
+        "ans": [
+         "over"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I'm afraid we're running out of time, so let's skip the third item on the agenda and discuss it at next week's meeting.",
+        "q": "¿Qué van a hacer con el tercer punto?",
+        "o": [
+         "Discutirlo ahora rápidamente",
+         "Eliminarlo definitivamente",
+         "Tratarlo en la reunión de la próxima semana",
+         "Enviarlo por correo hoy"
+        ],
+        "a": 2
+       },
+       {
+        "t": "oral",
+        "text": "I've divided my presentation into three parts, and I'll take questions at the end."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "That",
+         "brings",
+         "me",
+         "to",
+         "my",
+         "final",
+         "point."
+        ],
+        "es": "Eso me lleva a mi último punto."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Let's",
+         "not",
+         "get",
+         "sidetracked",
+         "by",
+         "minor",
+         "details."
+        ],
+        "es": "No nos desviemos con detalles menores."
+       },
+       {
+        "t": "dict",
+        "say": "I don't have the exact figures to hand."
+       },
+       {
+        "t": "dict",
+        "say": "Let's review the action points before we wrap up."
+       },
+       {
+        "t": "mc",
+        "q": "'Presidir una reunión' es:",
+        "o": [
+         "chair a meeting",
+         "sit a meeting",
+         "direct a meeting on",
+         "lead on a meeting"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "To ___ up, the project is on schedule and under budget. (en resumen)",
+        "ans": [
+         "sum"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If I understand you correctly, you're asking whether the new software will be ready before the end of the year. The honest answer is that it depends on the supplier.",
+        "q": "¿De qué depende que el software esté listo?",
+        "o": [
+         "Del presupuesto",
+         "Del proveedor",
+         "Del equipo de ventas",
+         "De la junta directiva"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe la apertura y el cierre de una presentación sobre un proyecto de tu trabajo o estudio (mínimo 90 palabras). Presenta el objetivo, anuncia las partes, usa al menos dos señalizadores para pasar de una parte a otra y termina con un resumen y una invitación a preguntas.",
+        "min": 90,
+        "keys": [
+         [
+          "purpose",
+          "i've divided",
+          "i have divided",
+          "i'd like to",
+          "i would like to"
+         ],
+         [
+          "moving on",
+          "that brings me to",
+          "let's turn to",
+          "next"
+         ],
+         [
+          "to sum up",
+          "to wrap up",
+          "in summary",
+          "key takeaway"
+         ],
+         [
+          "questions",
+          "get back to you"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "You've finished the first part of your talk. Which phrase signals the transition?",
+       "o": [
+        "To sum up, let's start.",
+        "That brings me to the second part.",
+        "I'll get back to you on that.",
+        "Any other business?"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Someone asks a question you can't answer right now. You say:",
+       "o": [
+        "I'll get back to you on that.",
+        "I'll get over you on that.",
+        "I'll get through you with that.",
+        "I'll get on you about that."
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u6-l2",
+      "title": "Correos formales de queja y solicitud",
+      "goal": "Redactar correos formales de queja y de solicitud con el registro adecuado y cortesía indirecta.",
+      "theory": [
+       {
+        "p": "Un correo formal en inglés es **más indirecto** que en español. En lugar de exigir, se usan **estructuras de cortesía**: **I would appreciate it if you could...**, **I would be grateful if you could...**, **Could you possibly...?**, **I was wondering whether...**. El efecto es firme pero educado."
+       },
+       {
+        "ex": [
+         [
+          "I would appreciate it if you could send me a full refund.",
+          "Le agradecería que me enviara un reembolso total."
+         ],
+         [
+          "I would be grateful if you could confirm receipt of this email.",
+          "Le agradecería que confirmara la recepción de este correo."
+         ],
+         [
+          "I was wondering whether it would be possible to extend the deadline.",
+          "Quisiera saber si sería posible ampliar el plazo."
+         ],
+         [
+          "Could you possibly let me know by Friday?",
+          "¿Podría hacerme saber, por favor, antes del viernes?"
+         ]
+        ]
+       },
+       {
+        "p": "**Estructura de una queja**: 1) motivo (**I am writing to complain about / to express my dissatisfaction with...**), 2) hechos con fechas y números de pedido, 3) consecuencias (**This has caused considerable inconvenience**), 4) lo que pides (**I would therefore ask you to...**), 5) cierre (**I look forward to hearing from you at your earliest convenience**)."
+       },
+       {
+        "ex": [
+         [
+          "I am writing with regard to order no. 4521, which I placed on 3 May.",
+          "Le escribo en relación con el pedido n.º 4521, que hice el 3 de mayo."
+         ],
+         [
+          "Despite several calls to your helpline, the issue has not been resolved.",
+          "A pesar de varias llamadas a su línea de ayuda, el problema no se ha resuelto."
+         ],
+         [
+          "I would therefore ask you to replace the faulty item or reimburse me in full.",
+          "Por lo tanto, le solicito que reemplace el artículo defectuoso o me reembolse el total."
+         ]
+        ]
+       },
+       {
+        "p": "**Registro**: evita contracciones (I am, no I'm), phrasal verbs muy coloquiales (get, sort out) y signos de exclamación. Prefiere verbos formales: **receive** (no get), **resolve** (no fix), **request** (no ask for), **inform** (no tell). Saludo: **Dear Mr/Ms + apellido** → cierre **Yours sincerely**; **Dear Sir or Madam** → **Yours faithfully** (inglés británico)."
+       },
+       {
+        "tip": "Ojo: es **I would appreciate it if...** (con it) y no 'I would appreciate if...'. Además, 'I'm writing you' es incorrecto en inglés británico formal: di **I am writing to you** o simplemente **I am writing to...**. Y 'I hope you are fine' suena raro: usa **I hope this email finds you well**."
+       }
+      ],
+      "vocab": [
+       [
+        "I would appreciate it if",
+        "expresión",
+        "le agradecería que",
+        "I would appreciate it if you could reply soon."
+       ],
+       [
+        "I would be grateful if",
+        "expresión",
+        "le estaría agradecido si",
+        "I would be grateful if you could send the invoice."
+       ],
+       [
+        "express dissatisfaction",
+        "colocación",
+        "manifestar inconformidad",
+        "I am writing to express my dissatisfaction with your service."
+       ],
+       [
+        "with regard to",
+        "conector",
+        "en relación con",
+        "With regard to your request, we are happy to help."
+       ],
+       [
+        "at your earliest convenience",
+        "expresión",
+        "a la mayor brevedad posible",
+        "Please reply at your earliest convenience."
+       ],
+       [
+        "considerable inconvenience",
+        "colocación",
+        "molestias considerables",
+        "The delay caused me considerable inconvenience."
+       ],
+       [
+        "faulty",
+        "adjetivo",
+        "defectuoso",
+        "The charger I received was faulty."
+       ],
+       [
+        "reimburse",
+        "verbo",
+        "reembolsar",
+        "The airline agreed to reimburse the costs."
+       ],
+       [
+        "refund",
+        "sustantivo",
+        "reembolso",
+        "I am requesting a full refund."
+       ],
+       [
+        "compensation",
+        "sustantivo",
+        "indemnización, compensación",
+        "We are entitled to compensation for the delay."
+       ],
+       [
+        "resolve",
+        "verbo",
+        "resolver",
+        "The matter has still not been resolved."
+       ],
+       [
+        "rectify",
+        "verbo",
+        "corregir, subsanar",
+        "Please rectify this error as soon as possible."
+       ],
+       [
+        "outstanding",
+        "adjetivo",
+        "pendiente (de pago o solución)",
+        "There is still an outstanding balance of $200."
+       ],
+       [
+        "escalate",
+        "verbo",
+        "escalar (un caso a un nivel superior)",
+        "If necessary, I will escalate this complaint."
+       ],
+       [
+        "enclose / attach",
+        "verbo",
+        "adjuntar",
+        "Please find attached a copy of the receipt."
+       ],
+       [
+        "in a timely manner",
+        "expresión",
+        "oportunamente",
+        "The issue was not dealt with in a timely manner."
+       ],
+       [
+        "be entitled to",
+        "expresión",
+        "tener derecho a",
+        "Customers are entitled to a replacement."
+       ],
+       [
+        "confirm receipt",
+        "colocación",
+        "confirmar recibido",
+        "Kindly confirm receipt of this letter."
+       ],
+       [
+        "Yours faithfully",
+        "expresión",
+        "atentamente (a destinatario desconocido)",
+        "Yours faithfully, Laura Méndez"
+       ],
+       [
+        "take legal action",
+        "colocación",
+        "emprender acciones legales",
+        "I may be forced to take legal action."
+       ]
+      ],
+      "dialogue": {
+       "title": "Redactando una queja formal",
+       "scene": "Mariana le pide ayuda a su colega británico Oliver para escribir una queja a una aerolínea que perdió su maleta.",
+       "a": "Mariana",
+       "b": "Oliver",
+       "lines": [
+        [
+         "A",
+         "Oliver, can you check my email to the airline? I wrote: 'I want my money back now!'",
+         "Oliver, ¿me revisas el correo para la aerolínea? Escribí: 'Quiero que me devuelvan mi plata ya'."
+        ],
+        [
+         "B",
+         "I understand you're angry, but that sounds too aggressive. You'll get better results with a more formal tone.",
+         "Entiendo que estés brava, pero eso suena demasiado agresivo. Vas a obtener mejores resultados con un tono más formal."
+        ],
+        [
+         "A",
+         "So how should I start?",
+         "¿Entonces cómo debería empezar?"
+        ],
+        [
+         "B",
+         "Start with the reason: 'I am writing to complain about the loss of my luggage on flight AV245 on 12 June.'",
+         "Empieza con el motivo: 'Le escribo para quejarme por la pérdida de mi equipaje en el vuelo AV245 del 12 de junio'."
+        ],
+        [
+         "A",
+         "OK. Then I explain that I had to buy clothes for a business trip, right?",
+         "Listo. Luego explico que tuve que comprar ropa para un viaje de trabajo, ¿cierto?"
+        ],
+        [
+         "B",
+         "Exactly. Say that this caused you considerable inconvenience, and mention that you have enclosed the receipts.",
+         "Exacto. Di que esto te causó molestias considerables y menciona que adjuntaste los recibos."
+        ],
+        [
+         "A",
+         "And instead of 'I want my money back', what do I write?",
+         "¿Y en vez de 'quiero que me devuelvan la plata', qué escribo?"
+        ],
+        [
+         "B",
+         "Try 'I would appreciate it if you could reimburse me for these expenses.' It's polite but firm.",
+         "Prueba con 'Les agradecería que me reembolsaran estos gastos'. Es cortés pero firme."
+        ],
+        [
+         "A",
+         "I also called them three times and nobody resolved anything.",
+         "También los llamé tres veces y nadie resolvió nada."
+        ],
+        [
+         "B",
+         "Then add: 'Despite several calls to your customer service line, the matter has not been resolved in a timely manner.'",
+         "Entonces agrega: 'A pesar de varias llamadas a su línea de servicio al cliente, el asunto no se ha resuelto oportunamente'."
+        ],
+        [
+         "A",
+         "Should I say I'll take legal action?",
+         "¿Debería decir que voy a emprender acciones legales?"
+        ],
+        [
+         "B",
+         "Not yet. You could say that if the issue is not rectified within fourteen days, you will escalate the complaint.",
+         "Todavía no. Podrías decir que si el problema no se corrige en catorce días, escalarás la queja."
+        ],
+        [
+         "A",
+         "Good idea. I've read that passengers are entitled to compensation for delayed baggage too.",
+         "Buena idea. Leí que los pasajeros también tienen derecho a una compensación por equipaje demorado."
+        ],
+        [
+         "B",
+         "Then mention it, and finish with 'I look forward to hearing from you at your earliest convenience.'",
+         "Entonces menciónalo y termina con 'Quedo atenta a su respuesta a la mayor brevedad posible'."
+        ],
+        [
+         "A",
+         "And should I sign off with 'Kisses' like I do in Spanish?",
+         "¿Y me despido con 'Besos' como en español?"
+        ],
+        [
+         "B",
+         "Definitely not! Since you don't know the person's name, use 'Yours faithfully'.",
+         "¡Para nada! Como no sabes el nombre de la persona, usa 'Yours faithfully'."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Which sentence is correct and formal?",
+        "o": [
+         "I would appreciate if you send me the form.",
+         "I would appreciate it if you could send me the form.",
+         "I appreciate you send me the form.",
+         "I would appreciate that you sending me the form."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "You start a letter with 'Dear Sir or Madam'. You finish with:",
+        "o": [
+         "Yours faithfully",
+         "Best wishes",
+         "Cheers",
+         "Love"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Which verb is more appropriate in a formal complaint?",
+        "o": [
+         "We got your message.",
+         "We have received your message.",
+         "We grabbed your message.",
+         "We picked up your message."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I am writing to express my ___ with the service I received. (inconformidad)",
+        "ans": [
+         "dissatisfaction"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Dear Ms Carter, I am writing with regard to invoice number 3087. It appears that I have been charged twice for the same service, and I would be grateful if you could rectify this error.",
+        "q": "¿Cuál es el problema?",
+        "o": [
+         "El servicio fue malo",
+         "Le cobraron dos veces",
+         "La factura no llegó",
+         "El pago fue rechazado"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I would be grateful if you could confirm receipt of this email at your earliest convenience."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Please",
+         "find",
+         "attached",
+         "a",
+         "copy",
+         "of",
+         "the",
+         "receipt."
+        ],
+        "es": "Adjunto encontrará una copia del recibo."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "matter",
+         "has",
+         "still",
+         "not",
+         "been",
+         "resolved."
+        ],
+        "es": "El asunto todavía no se ha resuelto."
+       },
+       {
+        "t": "dict",
+        "say": "I am entitled to a full refund."
+       },
+       {
+        "t": "dict",
+        "say": "The item I received was faulty."
+       },
+       {
+        "t": "mc",
+        "q": "'Saldo pendiente' en un correo formal es:",
+        "o": [
+         "pending money",
+         "outstanding balance",
+         "waiting balance",
+         "remaining account"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I was ___ whether it would be possible to change my booking. (me preguntaba / quisiera saber)",
+        "ans": [
+         "wondering"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Should the problem not be resolved within ten working days, I will have no choice but to escalate this complaint to the consumer protection authority.",
+        "q": "¿Qué hará si no se resuelve en diez días hábiles?",
+        "o": [
+         "Cancelará su cuenta",
+         "Pedirá un descuento",
+         "Escalará la queja a la autoridad de protección al consumidor",
+         "Escribirá una reseña negativa"
+        ],
+        "a": 2
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo formal de queja a una empresa que te vendió un producto defectuoso (mínimo 100 palabras). Explica el motivo, da detalles (fecha, número de pedido), menciona las molestias y solicita una solución con cortesía indirecta. Cierra de forma adecuada.",
+        "min": 100,
+        "keys": [
+         [
+          "i am writing to",
+          "i am writing with regard to",
+          "i am writing in connection with"
+         ],
+         [
+          "faulty",
+          "defective",
+          "damaged",
+          "not working"
+         ],
+         [
+          "i would appreciate it if",
+          "i would be grateful if",
+          "could you possibly"
+         ],
+         [
+          "i look forward to",
+          "yours faithfully",
+          "yours sincerely"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Choose the most appropriate request for a formal email.",
+       "o": [
+        "Send me the refund now.",
+        "I want the refund immediately!",
+        "I would appreciate it if you could process my refund.",
+        "Give me my refund, please."
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "I would be ___ if you could send me further information. (agradecido)",
+       "ans": [
+        "grateful"
+       ]
+      },
+      "reading": 5,
+      "words": []
+     },
+     {
+      "id": "b2-u6-l3",
+      "title": "Entrevistas y logros",
+      "goal": "Describir tus logros con cifras y verbos de acción, y responder preguntas difíciles de una entrevista de trabajo.",
+      "theory": [
+       {
+        "p": "En una entrevista en inglés no basta con decir 'I was responsible for...'. Lo que convence son los **verbos de logro** y los **resultados medibles**: **I led a team of six**, **I implemented a new system**, **I managed to reduce costs by 15%**, **I achieved all my targets**."
+       },
+       {
+        "ex": [
+         [
+          "I led a team of eight developers on a two-year project.",
+          "Lideré un equipo de ocho desarrolladores en un proyecto de dos años."
+         ],
+         [
+          "I implemented a new CRM, which cut response times by 30%.",
+          "Implementé un nuevo CRM, lo que redujo los tiempos de respuesta en un 30 %."
+         ],
+         [
+          "We managed to increase sales from 2 to 3.5 million dollars.",
+          "Logramos aumentar las ventas de 2 a 3,5 millones de dólares."
+         ],
+         [
+          "I consistently exceeded my quarterly targets.",
+          "Superé de forma constante mis metas trimestrales."
+         ]
+        ]
+       },
+       {
+        "p": "**Cifras**: increase/reduce **by** (la diferencia) vs. **from... to** (los valores). **Sales rose by 20%** (subieron un 20 %). **Costs fell from $50,000 to $40,000.** **Manage to + infinitivo** = lograr algo difícil; **succeed in + -ing** = lo mismo. **Achieve** va con un sustantivo (achieve a goal), no con infinitivo."
+       },
+       {
+        "ex": [
+         [
+          "Customer satisfaction went up by twelve points.",
+          "La satisfacción del cliente subió doce puntos."
+         ],
+         [
+          "I succeeded in reducing staff turnover.",
+          "Logré reducir la rotación de personal."
+         ],
+         [
+          "We achieved our goal three months ahead of schedule.",
+          "Alcanzamos nuestra meta tres meses antes de lo previsto."
+         ]
+        ]
+       },
+       {
+        "p": "**Preguntas difíciles**: para 'What's your greatest weakness?' menciona una debilidad real pero manejable y lo que haces para mejorar (**I tend to... , so I've started...**). Para 'Tell me about a time you failed' usa el método **STAR**: Situation, Task, Action, Result. Para 'Why should we hire you?' conecta tus logros con las necesidades de la empresa."
+       },
+       {
+        "tip": "Error típico: 'I achieved to finish the project' es incorrecto. Di **I managed to finish the project** o **I succeeded in finishing the project**. Y 'I have five years of experience in sales' está bien, pero no 'I have experience of five years'."
+       }
+      ],
+      "vocab": [
+       [
+        "achieve",
+        "verbo",
+        "lograr, alcanzar (+ sustantivo)",
+        "She achieved excellent results in her first year."
+       ],
+       [
+        "manage to",
+        "verbo",
+        "lograr (algo difícil)",
+        "We managed to finish under budget."
+       ],
+       [
+        "lead / led / led",
+        "verbo",
+        "liderar, dirigir",
+        "I led the migration to the cloud."
+       ],
+       [
+        "implement",
+        "verbo",
+        "implementar",
+        "They implemented a new quality policy."
+       ],
+       [
+        "oversee",
+        "verbo",
+        "supervisar",
+        "I oversaw a budget of two million dollars."
+       ],
+       [
+        "streamline",
+        "verbo",
+        "simplificar, agilizar (procesos)",
+        "We streamlined the approval process."
+       ],
+       [
+        "boost",
+        "verbo",
+        "impulsar, aumentar",
+        "The campaign boosted online sales."
+       ],
+       [
+        "exceed a target",
+        "colocación",
+        "superar una meta",
+        "I exceeded my sales target by 25%."
+       ],
+       [
+        "track record",
+        "sustantivo",
+        "historial comprobado, trayectoria",
+        "She has a proven track record in sales."
+       ],
+       [
+        "ahead of schedule",
+        "expresión",
+        "antes de lo previsto",
+        "The project was delivered ahead of schedule."
+       ],
+       [
+        "stakeholder",
+        "sustantivo",
+        "parte interesada",
+        "I kept all stakeholders informed."
+       ],
+       [
+        "cross-functional team",
+        "colocación",
+        "equipo multidisciplinario",
+        "I coordinated a cross-functional team."
+       ],
+       [
+        "staff turnover",
+        "colocación",
+        "rotación de personal",
+        "We reduced staff turnover by half."
+       ],
+       [
+        "spearhead",
+        "verbo",
+        "encabezar, liderar (una iniciativa)",
+        "He spearheaded the company's expansion into Peru."
+       ],
+       [
+        "work under pressure",
+        "colocación",
+        "trabajar bajo presión",
+        "I work well under pressure."
+       ],
+       [
+        "shortcoming",
+        "sustantivo",
+        "defecto, punto débil",
+        "One of my shortcomings is impatience."
+       ],
+       [
+        "setback",
+        "sustantivo",
+        "revés, contratiempo",
+        "Despite some setbacks, we met the deadline."
+       ],
+       [
+        "hands-on",
+        "adjetivo",
+        "práctico, que se involucra directamente",
+        "I have hands-on experience with SAP."
+       ],
+       [
+        "play a key role in",
+        "expresión",
+        "desempeñar un papel clave en",
+        "She played a key role in the merger."
+       ],
+       [
+        "be a good fit",
+        "expresión",
+        "encajar bien (en un puesto o empresa)",
+        "I believe I'd be a good fit for this role."
+       ]
+      ],
+      "dialogue": {
+       "title": "La entrevista para gerente de proyectos",
+       "scene": "Rebecca, directora de recursos humanos, entrevista a Santiago para un puesto de gerente de proyectos en una empresa de tecnología.",
+       "a": "Rebecca",
+       "b": "Santiago",
+       "lines": [
+        [
+         "A",
+         "Thanks for coming in, Santiago. Could you start by telling me a bit about your current role?",
+         "Gracias por venir, Santiago. ¿Podrías empezar contándome un poco sobre tu cargo actual?"
+        ],
+        [
+         "B",
+         "Of course. For the last four years I've been working as a project coordinator at a logistics company in Medellín, where I oversee a team of twelve.",
+         "Claro. Durante los últimos cuatro años he trabajado como coordinador de proyectos en una empresa de logística en Medellín, donde superviso un equipo de doce personas."
+        ],
+        [
+         "A",
+         "And what would you say is your greatest achievement there?",
+         "¿Y cuál dirías que es tu mayor logro allí?"
+        ],
+        [
+         "B",
+         "I'd say leading the implementation of a new tracking system. We managed to cut delivery errors by forty percent in just six months.",
+         "Diría que liderar la implementación de un nuevo sistema de rastreo. Logramos reducir los errores de entrega en un cuarenta por ciento en solo seis meses."
+        ],
+        [
+         "A",
+         "That's impressive. How did you get people on board? Changes like that often meet resistance.",
+         "Es impresionante. ¿Cómo lograste que la gente se sumara? Cambios así a menudo encuentran resistencia."
+        ],
+        [
+         "B",
+         "I organized hands-on workshops and kept all the stakeholders informed at every stage. As a result, the system was up and running ahead of schedule.",
+         "Organicé talleres prácticos y mantuve informadas a todas las partes interesadas en cada etapa. Como resultado, el sistema estuvo funcionando antes de lo previsto."
+        ],
+        [
+         "A",
+         "Let's move on to something more challenging. Tell me about a time when a project didn't go as planned.",
+         "Pasemos a algo más desafiante. Cuéntame de una ocasión en que un proyecto no salió como se planeó."
+        ],
+        [
+         "B",
+         "Sure. Last year a key supplier went bankrupt two weeks before a launch. It was a serious setback.",
+         "Claro. El año pasado un proveedor clave quebró dos semanas antes de un lanzamiento. Fue un revés serio."
+        ],
+        [
+         "A",
+         "What did you do?",
+         "¿Qué hiciste?"
+        ],
+        [
+         "B",
+         "I put together a cross-functional team, we found two alternative suppliers, and in the end we only delayed the launch by five days.",
+         "Armé un equipo multidisciplinario, encontramos dos proveedores alternativos y al final solo retrasamos el lanzamiento cinco días."
+        ],
+        [
+         "A",
+         "And what's your greatest weakness?",
+         "¿Y cuál es tu mayor debilidad?"
+        ],
+        [
+         "B",
+         "I tend to take on too much myself. I've learned to delegate more, and that has actually boosted my team's motivation.",
+         "Tiendo a asumir demasiadas cosas yo mismo. He aprendido a delegar más, y eso de hecho ha aumentado la motivación de mi equipo."
+        ],
+        [
+         "A",
+         "Good. Finally, why do you think you'd be a good fit for this position?",
+         "Bien. Por último, ¿por qué crees que encajarías bien en este puesto?"
+        ],
+        [
+         "B",
+         "You need someone with a track record of streamlining processes under pressure, and that's exactly what I've been doing for the past four years.",
+         "Ustedes necesitan a alguien con trayectoria comprobada en agilizar procesos bajo presión, y eso es exactamente lo que he hecho durante los últimos cuatro años."
+        ],
+        [
+         "A",
+         "Thank you, Santiago. We'll be in touch by the end of next week.",
+         "Gracias, Santiago. Nos comunicaremos contigo a finales de la próxima semana."
+        ],
+        [
+         "B",
+         "Thank you for your time. I look forward to hearing from you.",
+         "Gracias por su tiempo. Quedo atento a su respuesta."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "After a lot of effort, I ___ convince the client to renew the contract.",
+        "o": [
+         "achieved to",
+         "managed to",
+         "succeeded to",
+         "reached to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Sales increased ___ 15% last year, from $2 million ___ $2.3 million.",
+        "o": [
+         "in / until",
+         "of / at",
+         "by / to",
+         "with / for"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "Which answer to 'What's your greatest weakness?' is the most effective?",
+        "o": [
+         "I don't have any weaknesses.",
+         "I'm a perfectionist, so I never make mistakes.",
+         "I hate working with other people.",
+         "I used to struggle with public speaking, so I joined a presentation course and now I present every month."
+        ],
+        "a": 3
+       },
+       {
+        "t": "fill",
+        "q": "She ___ a team of twenty engineers during the project. (lideró, pasado de lead)",
+        "ans": [
+         "led"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "In my previous job, I implemented a new onboarding programme, and as a result, staff turnover fell from thirty to twelve percent in one year.",
+        "q": "¿Cuál fue el resultado del programa?",
+        "o": [
+         "La rotación subió al treinta por ciento",
+         "La rotación bajó del treinta al doce por ciento",
+         "Contrataron a doce personas",
+         "Las ventas subieron un treinta por ciento"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I managed to reduce costs by twenty percent while keeping our clients satisfied."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "have",
+         "a",
+         "proven",
+         "track",
+         "record",
+         "in",
+         "sales."
+        ],
+        "es": "Tengo una trayectoria comprobada en ventas."
+       },
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "delivered",
+         "the",
+         "project",
+         "ahead",
+         "of",
+         "schedule."
+        ],
+        "es": "Entregamos el proyecto antes de lo previsto."
+       },
+       {
+        "t": "dict",
+        "say": "I exceeded my target by twenty-five percent."
+       },
+       {
+        "t": "dict",
+        "say": "Despite some setbacks, we met the deadline."
+       },
+       {
+        "t": "mc",
+        "q": "'Agilizar un proceso' es:",
+        "o": [
+         "boost a process",
+         "streamline a process",
+         "spearhead a process",
+         "oversee a process"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I succeeded in ___ (reduce) waiting times at the call centre.",
+        "ans": [
+         "reducing"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "What I'm looking for is a role where I can use my experience in data analysis, and from what I've read, your company is expanding its analytics department.",
+        "q": "¿Por qué le interesa la empresa?",
+        "o": [
+         "Porque paga mejor",
+         "Porque está ampliando su área de análisis de datos",
+         "Porque queda cerca de su casa",
+         "Porque busca un cargo sin experiencia"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Prepara tu respuesta a 'Tell me about your greatest professional achievement' (mínimo 100 palabras). Usa el método STAR: describe la situación, tu tarea, las acciones que tomaste y el resultado con cifras concretas. Incluye al menos tres verbos de logro.",
+        "min": 100,
+        "keys": [
+         [
+          "led",
+          "implemented",
+          "managed to",
+          "achieved",
+          "oversaw",
+          "streamlined"
+         ],
+         [
+          "percent",
+          "%",
+          "by",
+          "from"
+         ],
+         [
+          "as a result",
+          "in the end",
+          "consequently",
+          "which"
+         ],
+         [
+          "team",
+          "project",
+          "client",
+          "stakeholders"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Which sentence is correct?",
+       "o": [
+        "I achieved to double our customer base.",
+        "I managed to double our customer base.",
+        "I succeeded to double our customer base.",
+        "I managed doubling our customer base."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Profits rose ___ 10% compared to last year.",
+       "o": [
+        "by",
+        "in",
+        "of",
+        "on"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u6-l4",
+      "title": "Instrucciones y procesos",
+      "goal": "Dar instrucciones claras y describir procesos técnicos con secuenciadores, imperativos y voz pasiva.",
+      "theory": [
+       {
+        "p": "Para **dar instrucciones** se usa el **imperativo** (sin sujeto): **Open the file**, **Don't press the red button**. Para suavizarlo o enfatizar: **Make sure you...**, **Be sure to...**, **Remember to...**, **Avoid + -ing**. Los **secuenciadores** ordenan los pasos: **First of all, Next, Then, After that, Once that's done, Finally**."
+       },
+       {
+        "ex": [
+         [
+          "First of all, make sure the device is switched off.",
+          "Antes que nada, asegúrese de que el dispositivo esté apagado."
+         ],
+         [
+          "Once that's done, insert the card and wait for the green light.",
+          "Una vez hecho eso, inserte la tarjeta y espere la luz verde."
+         ],
+         [
+          "Avoid opening the cover while the machine is running.",
+          "Evite abrir la tapa mientras la máquina esté funcionando."
+         ],
+         [
+          "Be sure to save your changes before you log out.",
+          "Asegúrese de guardar los cambios antes de cerrar sesión."
+         ]
+        ]
+       },
+       {
+        "p": "Para **describir un proceso** (cómo se fabrica, cómo funciona un trámite) se usa la **voz pasiva**, porque importa la acción y no quién la hace: **The beans are picked by hand. They are then washed and dried in the sun.** Observa la posición de **then**: entre el auxiliar y el participio."
+       },
+       {
+        "ex": [
+         [
+          "The coffee beans are harvested, sorted and dried.",
+          "Los granos de café se cosechan, se seleccionan y se secan."
+         ],
+         [
+          "The application is reviewed and then sent to the manager for approval.",
+          "La solicitud se revisa y luego se envía al gerente para su aprobación."
+         ],
+         [
+          "After being roasted, the beans are ground and packed.",
+          "Después de ser tostados, los granos se muelen y se empacan."
+         ]
+        ]
+       },
+       {
+        "p": "**Once / after / before + -ing** reemplazan una oración completa cuando el sujeto es el mismo: **After entering your password, click 'Next'** (= after you have entered...). **Once** + presente o presente perfecto = 'una vez que': **Once you have registered, you will receive an email.** No uses will después de once/when/after: 'Once you will finish' es incorrecto."
+       },
+       {
+        "tip": "Error típico de hispanohablantes: 'After to finish, close the window'. Después de una preposición (after, before, without) el verbo va en **-ing**: **After finishing, close the window.** Otro error: 'The coffee is producted'. El participio es **produced**."
+       }
+      ],
+      "vocab": [
+       [
+        "first of all",
+        "conector",
+        "antes que nada, en primer lugar",
+        "First of all, unplug the machine."
+       ],
+       [
+        "once that's done",
+        "expresión",
+        "una vez hecho eso",
+        "Once that's done, restart your computer."
+       ],
+       [
+        "make sure",
+        "expresión",
+        "asegurarse de",
+        "Make sure the lid is closed."
+       ],
+       [
+        "be sure to",
+        "expresión",
+        "no dejar de, asegurarse de",
+        "Be sure to read the safety instructions."
+       ],
+       [
+        "avoid + -ing",
+        "expresión",
+        "evitar",
+        "Avoid touching the screen with wet hands."
+       ],
+       [
+        "subsequently",
+        "adverbio",
+        "posteriormente",
+        "The samples are subsequently analyzed."
+       ],
+       [
+        "prior to",
+        "preposición",
+        "antes de (formal)",
+        "Prior to installation, check the voltage."
+       ],
+       [
+        "stage",
+        "sustantivo",
+        "etapa, fase",
+        "At this stage, the beans are dried."
+       ],
+       [
+        "harvest",
+        "verbo",
+        "cosechar",
+        "The coffee is harvested between October and December."
+       ],
+       [
+        "sort",
+        "verbo",
+        "clasificar, seleccionar",
+        "The beans are sorted by size."
+       ],
+       [
+        "grind / ground / ground",
+        "verbo",
+        "moler",
+        "The beans are ground just before packing."
+       ],
+       [
+        "assemble",
+        "verbo",
+        "ensamblar, montar",
+        "The parts are assembled in Mexico."
+       ],
+       [
+        "store",
+        "verbo",
+        "almacenar",
+        "The product must be stored in a cool place."
+       ],
+       [
+        "dispose of",
+        "phrasal verb",
+        "desechar",
+        "Dispose of the batteries safely."
+       ],
+       [
+        "troubleshoot",
+        "verbo",
+        "diagnosticar y resolver fallas",
+        "Follow these steps to troubleshoot the printer."
+       ],
+       [
+        "plug in / unplug",
+        "phrasal verb",
+        "conectar / desconectar",
+        "Unplug the device before cleaning it."
+       ],
+       [
+        "press and hold",
+        "colocación",
+        "mantener presionado",
+        "Press and hold the power button for ten seconds."
+       ],
+       [
+        "approval",
+        "sustantivo",
+        "aprobación",
+        "The request is sent for approval."
+       ],
+       [
+        "step-by-step",
+        "adjetivo",
+        "paso a paso",
+        "Here is a step-by-step guide."
+       ],
+       [
+        "in turn",
+        "expresión",
+        "a su vez",
+        "The data is checked, and in turn sent to the client."
+       ]
+      ],
+      "dialogue": {
+       "title": "Capacitación en la planta de café",
+       "scene": "Liam, un comprador canadiense, visita una trilladora de café en el Huila. Daniela, jefe de producción, le explica el proceso.",
+       "a": "Liam",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "Thanks for the tour, Daniela. Could you explain the whole process, from the farm to the bag?",
+         "Gracias por el recorrido, Daniela. ¿Podrías explicarme todo el proceso, desde la finca hasta la bolsa?"
+        ],
+        [
+         "B",
+         "Of course. First of all, the coffee cherries are harvested by hand. Only the ripe ones are picked.",
+         "Claro. Antes que nada, las cerezas de café se cosechan a mano. Solo se recogen las maduras."
+        ],
+        [
+         "A",
+         "By hand? Isn't that very slow?",
+         "¿A mano? ¿No es muy lento?"
+        ],
+        [
+         "B",
+         "It is, but it guarantees quality. After being picked, the cherries are taken to the wet mill, where the pulp is removed.",
+         "Lo es, pero garantiza la calidad. Después de ser recogidas, las cerezas se llevan al beneficiadero, donde se les quita la pulpa."
+        ],
+        [
+         "A",
+         "And what happens at the next stage?",
+         "¿Y qué pasa en la siguiente etapa?"
+        ],
+        [
+         "B",
+         "The beans are fermented for about eighteen hours. They are then washed and dried in the sun or in mechanical dryers.",
+         "Los granos se fermentan unas dieciocho horas. Luego se lavan y se secan al sol o en secadoras mecánicas."
+        ],
+        [
+         "A",
+         "How do you know when they're dry enough?",
+         "¿Cómo saben cuándo están suficientemente secos?"
+        ],
+        [
+         "B",
+         "We measure the moisture. Once it reaches eleven percent, the beans are stored in sacks and sent here.",
+         "Medimos la humedad. Una vez llega al once por ciento, los granos se almacenan en costales y se envían aquí."
+        ],
+        [
+         "A",
+         "So what exactly do you do in this plant?",
+         "¿Y qué hacen exactamente en esta planta?"
+        ],
+        [
+         "B",
+         "Here the outer layer is removed, and subsequently the beans are sorted by size, density and colour.",
+         "Aquí se retira la capa exterior y posteriormente los granos se clasifican por tamaño, densidad y color."
+        ],
+        [
+         "A",
+         "Are the defective beans thrown away?",
+         "¿Los granos defectuosos se botan?"
+        ],
+        [
+         "B",
+         "They're separated and sold for the local market. Prior to export, every batch is tested by our cupping team.",
+         "Se separan y se venden en el mercado local. Antes de exportar, cada lote es evaluado por nuestro equipo de catación."
+        ],
+        [
+         "A",
+         "Can I try the machine? What should I do?",
+         "¿Puedo probar la máquina? ¿Qué debería hacer?"
+        ],
+        [
+         "B",
+         "Sure. Make sure your gloves are on. Then press and hold the green button until the belt starts moving.",
+         "Claro. Asegúrate de tener puestos los guantes. Luego mantén presionado el botón verde hasta que la banda empiece a moverse."
+        ],
+        [
+         "A",
+         "Like this? And after checking the sample, do I write the results here?",
+         "¿Así? ¿Y después de revisar la muestra, escribo los resultados aquí?"
+        ],
+        [
+         "B",
+         "Exactly. And be sure to avoid touching the belt while it's running. Safety first!",
+         "Exacto. Y asegúrate de no tocar la banda mientras esté en movimiento. ¡La seguridad primero!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "After ___ the form, click 'Submit'.",
+        "o": [
+         "to complete",
+         "complete",
+         "completing",
+         "completed"
+        ],
+        "a": 2,
+        "x": "Después de una preposición (after) el verbo va en -ing."
+       },
+       {
+        "t": "mc",
+        "q": "The bananas ___ when they are still green.",
+        "o": [
+         "pick",
+         "are picked",
+         "are picking",
+         "have pick"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Once you ___ your account, you will receive a confirmation email.",
+        "o": [
+         "will create",
+         "have created",
+         "will have create",
+         "are create"
+        ],
+        "a": 1,
+        "x": "Después de once no se usa will."
+       },
+       {
+        "t": "fill",
+        "q": "The parts are ___ (ensamblar, participio) in a factory near Bogotá.",
+        "ans": [
+         "assembled"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "To reset the router, first unplug it from the wall. Wait thirty seconds, then plug it back in and press and hold the reset button for ten seconds.",
+        "q": "¿Cuánto tiempo se debe esperar después de desconectarlo?",
+        "o": [
+         "Diez segundos",
+         "Treinta segundos",
+         "Un minuto",
+         "Cinco minutos"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Once that's done, the beans are sorted by size and stored in a cool place."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Make",
+         "sure",
+         "the",
+         "device",
+         "is",
+         "switched",
+         "off."
+        ],
+        "es": "Asegúrese de que el dispositivo esté apagado."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "samples",
+         "are",
+         "then",
+         "sent",
+         "to",
+         "the",
+         "lab."
+        ],
+        "es": "Luego las muestras se envían al laboratorio."
+       },
+       {
+        "t": "dict",
+        "say": "Avoid touching the screen with wet hands."
+       },
+       {
+        "t": "dict",
+        "say": "Prior to installation, check the voltage."
+       },
+       {
+        "t": "mc",
+        "q": "Where does 'then' go? 'The milk ___ heated ___ to 72 degrees.'",
+        "o": [
+         "then is / —",
+         "is / then",
+         "is then / —",
+         "— / is then"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "Please ___ of the used batteries in the special container. (desechar)",
+        "ans": [
+         "dispose"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Your visa application is first checked by an officer. If any documents are missing, it is returned to you. Otherwise, it is processed within fifteen working days.",
+        "q": "¿Qué pasa si faltan documentos?",
+        "o": [
+         "Se rechaza para siempre",
+         "Se procesa igual",
+         "Se le devuelve al solicitante",
+         "Se cobra una multa"
+        ],
+        "a": 2
+       },
+       {
+        "t": "write",
+        "q": "Describe el proceso de producción de un producto típico de tu región (arepa, panela, café, chocolate, etc.) o un trámite de tu trabajo (mínimo 90 palabras). Usa la voz pasiva, al menos cuatro secuenciadores y una estructura con once o after + -ing.",
+        "min": 90,
+        "keys": [
+         [
+          "is",
+          "are"
+         ],
+         [
+          "first",
+          "then",
+          "next",
+          "after that",
+          "finally",
+          "subsequently"
+         ],
+         [
+          "once",
+          "after"
+         ],
+         [
+          "ed",
+          "made",
+          "ground",
+          "sent"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Which sentence correctly describes a process?",
+       "o": [
+        "The cocoa beans are dried and then roasted.",
+        "The cocoa beans dry and then are roast.",
+        "The cocoa beans are drying and then roasted are.",
+        "The cocoa beans dried and then roasting."
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___ the machine, read the safety manual carefully.",
+       "o": [
+        "Before to use",
+        "Before using",
+        "Before use of",
+        "Before you will use"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u6-l5",
+      "title": "Gerundio e infinitivo con cambio de significado",
+      "goal": "Distinguir los verbos que cambian de significado según vayan con -ing o con to + infinitivo.",
+      "theory": [
+       {
+        "p": "Algunos verbos aceptan **-ing** y **to + infinitivo**, pero el **significado cambia**. La regla general: **-ing** mira hacia algo que **ya pasó o que está en curso**; **to + infinitivo** mira hacia algo **posterior o pendiente**."
+       },
+       {
+        "ex": [
+         [
+          "I remember locking the door. (lo recuerdo: la cerré)",
+          "Recuerdo haber cerrado la puerta."
+         ],
+         [
+          "Remember to lock the door. (no te olvides: hazlo después)",
+          "Acuérdate de cerrar la puerta."
+         ],
+         [
+          "I'll never forget meeting the CEO. (recuerdo de algo vivido)",
+          "Nunca olvidaré cuando conocí al presidente de la empresa."
+         ],
+         [
+          "I forgot to send the report. (no lo hice)",
+          "Se me olvidó enviar el informe."
+         ]
+        ]
+       },
+       {
+        "p": "**Stop + -ing** = dejar de hacer algo; **stop + to** = detenerse **para** hacer otra cosa. **Try + to** = esforzarse por lograr algo difícil; **try + -ing** = probar algo como experimento. **Regret + -ing** = arrepentirse de algo pasado; **regret + to inform/say/tell** = lamentar comunicar algo (muy formal)."
+       },
+       {
+        "ex": [
+         [
+          "She stopped smoking last year.",
+          "Ella dejó de fumar el año pasado."
+         ],
+         [
+          "On the way to work, he stopped to buy a coffee.",
+          "De camino al trabajo, paró a comprar un café."
+         ],
+         [
+          "I tried to open the file, but it was corrupted.",
+          "Intenté abrir el archivo, pero estaba dañado."
+         ],
+         [
+          "If the app freezes, try restarting your phone.",
+          "Si la aplicación se congela, prueba reiniciar el celular."
+         ],
+         [
+          "We regret to inform you that your application has been unsuccessful.",
+          "Lamentamos informarle que su solicitud no fue aceptada."
+         ],
+         [
+          "I regret not studying English earlier.",
+          "Me arrepiento de no haber estudiado inglés antes."
+         ]
+        ]
+       },
+       {
+        "p": "**Mean + to** = tener la intención de; **mean + -ing** = implicar, significar. **Go on + -ing** = seguir haciendo lo mismo; **go on + to** = pasar a hacer algo nuevo después."
+       },
+       {
+        "ex": [
+         [
+          "I meant to call you, but I was too busy.",
+          "Tenía la intención de llamarte, pero estaba muy ocupado."
+         ],
+         [
+          "The new job means moving to Cartagena.",
+          "El nuevo trabajo implica mudarse a Cartagena."
+         ],
+         [
+          "He went on talking even though nobody was listening.",
+          "Siguió hablando aunque nadie lo escuchaba."
+         ],
+         [
+          "After the introduction, she went on to explain the budget.",
+          "Después de la introducción, pasó a explicar el presupuesto."
+         ]
+        ]
+       },
+       {
+        "tip": "Error clásico: 'I stopped to smoke' cuando quieres decir 'dejé de fumar'. Eso significa ¡que paraste PARA fumar! Lo correcto es **I stopped smoking**. Y 'I regret to tell you that...' anuncia malas noticias, no expresa arrepentimiento."
+       }
+      ],
+      "vocab": [
+       [
+        "remember + -ing",
+        "expresión",
+        "recordar algo que ya pasó",
+        "I remember signing the contract."
+       ],
+       [
+        "remember to",
+        "expresión",
+        "acordarse de hacer algo (pendiente)",
+        "Remember to update the spreadsheet."
+       ],
+       [
+        "forget to",
+        "expresión",
+        "olvidar hacer algo",
+        "Don't forget to attach the file."
+       ],
+       [
+        "never forget + -ing",
+        "expresión",
+        "no olvidar nunca algo vivido",
+        "I'll never forget giving my first presentation."
+       ],
+       [
+        "stop + -ing",
+        "expresión",
+        "dejar de hacer algo",
+        "Please stop interrupting me."
+       ],
+       [
+        "stop to",
+        "expresión",
+        "detenerse para hacer otra cosa",
+        "We stopped to have lunch."
+       ],
+       [
+        "try to",
+        "expresión",
+        "esforzarse por, intentar",
+        "I tried to fix the bug, but I couldn't."
+       ],
+       [
+        "try + -ing",
+        "expresión",
+        "probar (como experimento)",
+        "Try clearing your browser cache."
+       ],
+       [
+        "regret + -ing",
+        "expresión",
+        "arrepentirse de",
+        "I regret accepting that offer."
+       ],
+       [
+        "regret to inform",
+        "expresión",
+        "lamentar informar (formal)",
+        "We regret to inform you that the flight is cancelled."
+       ],
+       [
+        "mean to",
+        "expresión",
+        "tener la intención de",
+        "I didn't mean to offend anyone."
+       ],
+       [
+        "mean + -ing",
+        "expresión",
+        "implicar, significar",
+        "Accepting the promotion means travelling a lot."
+       ],
+       [
+        "go on + -ing",
+        "expresión",
+        "seguir haciendo",
+        "She went on working until midnight."
+       ],
+       [
+        "go on to",
+        "expresión",
+        "pasar a (hacer algo nuevo)",
+        "He went on to become the CEO."
+       ],
+       [
+        "can't help + -ing",
+        "expresión",
+        "no poder evitar",
+        "I can't help laughing at his jokes."
+       ],
+       [
+        "it's no use + -ing",
+        "expresión",
+        "no sirve de nada",
+        "It's no use complaining now."
+       ],
+       [
+        "be worth + -ing",
+        "expresión",
+        "valer la pena",
+        "This course is worth taking."
+       ],
+       [
+        "need + -ing",
+        "expresión",
+        "necesitar ser (sentido pasivo)",
+        "The printer needs fixing."
+       ],
+       [
+        "quit",
+        "verbo",
+        "dejar (un hábito, un trabajo)",
+        "He quit drinking coffee."
+       ],
+       [
+        "on purpose",
+        "expresión",
+        "a propósito",
+        "I didn't do it on purpose."
+       ]
+      ],
+      "dialogue": {
+       "title": "Un lunes complicado en la oficina",
+       "scene": "Valentina y su compañero Aaron conversan en la cocina de la oficina después de una mañana caótica.",
+       "a": "Aaron",
+       "b": "Valentina",
+       "lines": [
+        [
+         "A",
+         "You look stressed, Valentina. What's going on?",
+         "Te ves estresada, Valentina. ¿Qué pasa?"
+        ],
+        [
+         "B",
+         "I forgot to send the proposal to the client on Friday. I could have sworn I'd done it!",
+         "Se me olvidó enviarle la propuesta al cliente el viernes. ¡Habría jurado que lo había hecho!"
+        ],
+        [
+         "A",
+         "Are you sure? I remember seeing an email from you on Friday afternoon.",
+         "¿Segura? Recuerdo haber visto un correo tuyo el viernes por la tarde."
+        ],
+        [
+         "B",
+         "That was a different one. I meant to send the proposal right after, but then my boss called me into a meeting.",
+         "Ese era otro. Tenía la intención de enviar la propuesta justo después, pero entonces mi jefe me llamó a una reunión."
+        ],
+        [
+         "A",
+         "Have you tried calling the client to explain?",
+         "¿Has probado llamar al cliente para explicarle?"
+        ],
+        [
+         "B",
+         "I tried to reach him all morning, but his phone was off. In the end I stopped to write him a long apology.",
+         "Intenté contactarlo toda la mañana, pero tenía el teléfono apagado. Al final paré para escribirle una larga disculpa."
+        ],
+        [
+         "A",
+         "Well, it's no use worrying about it now. These things happen.",
+         "Bueno, no sirve de nada preocuparse por eso ahora. Esas cosas pasan."
+        ],
+        [
+         "B",
+         "I know, but I can't help feeling guilty. Losing this client would mean missing our quarterly target.",
+         "Lo sé, pero no puedo evitar sentirme culpable. Perder este cliente implicaría no cumplir nuestra meta trimestral."
+        ],
+        [
+         "A",
+         "Did he reply?",
+         "¿Te respondió?"
+        ],
+        [
+         "B",
+         "Yes, ten minutes ago. He said, 'We regret to inform you that we have chosen another supplier.' Just kidding! He said it was fine.",
+         "Sí, hace diez minutos. Dijo: 'Lamentamos informarle que elegimos otro proveedor'. ¡Mentiras! Dijo que no había problema."
+        ],
+        [
+         "A",
+         "You scared me! So what did he say exactly?",
+         "¡Me asustaste! ¿Entonces qué dijo exactamente?"
+        ],
+        [
+         "B",
+         "He said he hadn't even had time to read it, and then he went on to ask about a second project.",
+         "Dijo que ni siquiera había tenido tiempo de leerla y luego pasó a preguntar por un segundo proyecto."
+        ],
+        [
+         "A",
+         "That's great news! Honestly, you should stop checking your email at midnight. You work too much.",
+         "¡Qué buena noticia! En serio, deberías dejar de revisar el correo a medianoche. Trabajas demasiado."
+        ],
+        [
+         "B",
+         "You're right. I regret not taking a proper holiday this year.",
+         "Tienes razón. Me arrepiento de no haber tomado unas vacaciones de verdad este año."
+        ],
+        [
+         "A",
+         "Then remember to ask for some days off before December. It's definitely worth trying.",
+         "Entonces acuérdate de pedir unos días libres antes de diciembre. Definitivamente vale la pena intentarlo."
+        ],
+        [
+         "B",
+         "I will. And next time, I'll set a reminder so I don't forget to send anything important!",
+         "Lo haré. ¡Y la próxima vez voy a poner un recordatorio para no olvidar enviar nada importante!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "My doctor told me to stop ___ so much sugar.",
+        "o": [
+         "to eat",
+         "eating",
+         "eat",
+         "to eating"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "I'm sure I gave you the keys. I clearly remember ___ them to you.",
+        "o": [
+         "giving",
+         "to give",
+         "give",
+         "to giving"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "If the computer is slow, try ___ some programs.",
+        "o": [
+         "to closing",
+         "close",
+         "closing",
+         "closed"
+        ],
+        "a": 2,
+        "x": "Try + -ing = probar algo como experimento o posible solución."
+       },
+       {
+        "t": "fill",
+        "q": "Sorry, I didn't mean ___ (hurt) your feelings.",
+        "ans": [
+         "to hurt"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We regret to inform you that, due to a technical problem, today's webinar has been postponed until next Tuesday.",
+        "q": "¿Qué se comunica?",
+        "o": [
+         "Que el seminario web se canceló definitivamente",
+         "Que el seminario web se aplazó hasta el próximo martes",
+         "Que alguien se arrepiente de algo",
+         "Que el seminario web empieza más temprano"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I'll never forget giving my first presentation in English."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Don't",
+         "forget",
+         "to",
+         "attach",
+         "the",
+         "invoice."
+        ],
+        "es": "No olvides adjuntar la factura."
+       },
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "went",
+         "on",
+         "to",
+         "become",
+         "the",
+         "director."
+        ],
+        "es": "Ella luego llegó a ser la directora."
+       },
+       {
+        "t": "dict",
+        "say": "It's no use complaining about it now."
+       },
+       {
+        "t": "dict",
+        "say": "The new job means moving to another city."
+       },
+       {
+        "t": "mc",
+        "q": "On the way home, we stopped ___ some bread.",
+        "o": [
+         "buying",
+         "to buy",
+         "buy",
+         "bought"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I regret not ___ (accept) that job offer in London.",
+        "ans": [
+         "accepting"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "After explaining the sales figures, the manager went on to present the plan for next year, which included opening two new branches.",
+        "q": "¿Qué hizo el gerente después de explicar las cifras?",
+        "o": [
+         "Siguió explicando las cifras",
+         "Pasó a presentar el plan del próximo año",
+         "Cerró dos sucursales",
+         "Terminó la reunión"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre una decisión importante de tu vida profesional o académica (mínimo 90 palabras). Usa al menos cinco de estos verbos con el significado correcto: remember, forget, stop, try, regret, mean, go on.",
+        "min": 90,
+        "keys": [
+         [
+          "remember",
+          "forget"
+         ],
+         [
+          "regret",
+          "mean",
+          "meant"
+         ],
+         [
+          "stopped",
+          "stop",
+          "try",
+          "tried"
+         ],
+         [
+          "ing"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Which sentence means 'Dejé de fumar'?",
+       "o": [
+        "I stopped to smoke.",
+        "I stopped smoking.",
+        "I stopped smoke.",
+        "I stopped for smoke."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "The promotion is great, but it means ___ every weekend.",
+       "o": [
+        "to work",
+        "working",
+        "work",
+        "worked"
+       ],
+       "a": 1
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "You've finished presenting the figures and want to go to the next part. You say:",
+      "o": [
+       "To sum up, the figures.",
+       "Moving on to the next point, our marketing plan.",
+       "I'll get back to you on the figures.",
+       "Any other business?"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Choose the correct formal sentence.",
+      "o": [
+       "I would appreciate if you reply soon.",
+       "I would appreciate it if you could reply soon.",
+       "I appreciate you to reply soon.",
+       "I'd appreciate that you replying soon."
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "After months of negotiations, we finally ___ sign the agreement.",
+      "o": [
+       "achieved to",
+       "managed to",
+       "succeeded to",
+       "reached"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Once the oranges ___, they are washed and squeezed.",
+      "o": [
+       "have been picked",
+       "will be picked",
+       "will have picked",
+       "are picking"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Don't forget ___ (lock) the office when you leave.",
+      "ans": [
+       "to lock"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Sales increased ___ 30%, from 10,000 to 13,000 units. (preposición)",
+      "ans": [
+       "by"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Dear Mr Torres, I am writing with regard to my order number 7712. Although I paid for express delivery, the parcel arrived ten days late, and I would therefore request a refund of the delivery charge.",
+      "q": "¿Qué pide la persona?",
+      "o": [
+       "Un producto nuevo",
+       "El reembolso del costo de envío",
+       "La cancelación del pedido",
+       "Un descuento en la próxima compra"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "First, the raw materials are inspected. After passing the quality check, they are mixed, heated and then poured into moulds.",
+      "q": "¿Qué pasa justo después del control de calidad?",
+      "o": [
+       "Se empacan",
+       "Se mezclan",
+       "Se vierten en moldes",
+       "Se inspeccionan de nuevo"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe un correo formal a una empresa solicitando una entrevista o información sobre una vacante (mínimo 110 palabras). Presenta tus logros con cifras y verbos de logro, haz tu solicitud con cortesía indirecta y cierra adecuadamente.",
+      "min": 110,
+      "keys": [
+       [
+        "i am writing to",
+        "i am writing with regard to",
+        "i am writing in connection with"
+       ],
+       [
+        "led",
+        "managed to",
+        "achieved",
+        "implemented",
+        "oversaw"
+       ],
+       [
+        "i would appreciate it if",
+        "i would be grateful if",
+        "i was wondering whether",
+        "i was wondering if"
+       ],
+       [
+        "i look forward to",
+        "yours sincerely",
+        "yours faithfully"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I'd now like to hand over to my colleague, who will walk you through the figures."
+     },
+     {
+      "t": "oral",
+      "text": "I remember sending the email, but I forgot to attach the file."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "Which phrase is used to close a presentation?",
+      "o": [
+       "Let's kick off with...",
+       "To wrap up...",
+       "Moving on to...",
+       "I'll hand over to..."
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "'Le escribo en relación con su anuncio' es:",
+      "o": [
+       "I write you about your ad.",
+       "I am writing with regard to your advertisement.",
+       "I am writing for your advertisement.",
+       "I writing to your advertisement."
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Which verb fits? 'I ___ a team of fifteen people across three countries.'",
+      "o": [
+       "achieved",
+       "oversaw",
+       "exceeded",
+       "boosted"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I tried ___ the door, but it was locked.",
+      "o": [
+       "opening",
+       "to open",
+       "open",
+       "opened"
+      ],
+      "a": 1,
+      "x": "Try to = esforzarse por algo que no se logró."
+     },
+     {
+      "t": "mc",
+      "q": "The cars ___ in Brazil and then exported to Colombia.",
+      "o": [
+       "assemble",
+       "are assembled",
+       "are assembling",
+       "assembled are"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "We ___ to inform you that the position has been filled. (lamentamos)",
+      "ans": [
+       "regret"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "After ___ (log) in, select 'My account'.",
+      "ans": [
+       "logging"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "I'll follow ___ on this and get back to you tomorrow. (hacer seguimiento)",
+      "ans": [
+       "up"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Moving on to the third item on the agenda, I'd like to discuss the results of the customer survey, which we received last Monday.",
+      "q": "¿Qué se va a discutir?",
+      "o": [
+       "El presupuesto",
+       "Los resultados de la encuesta a clientes",
+       "La nueva contratación",
+       "El horario de la reunión"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "In my last job, I spearheaded a digital campaign that boosted online sales by forty-five percent in only three months.",
+      "q": "¿Cuánto aumentaron las ventas en línea?",
+      "o": [
+       "Un cuatro por ciento",
+       "Un quince por ciento",
+       "Un cuarenta y cinco por ciento",
+       "Un tres por ciento"
+      ],
+      "a": 2
+     },
+     {
+      "t": "listen",
+      "say": "I meant to finish the report yesterday, but I had to stop to help a colleague with an urgent problem.",
+      "q": "¿Por qué no terminó el informe?",
+      "o": [
+       "Porque se le olvidó",
+       "Porque paró para ayudar a un colega",
+       "Porque dejó de trabajar en él",
+       "Porque no quería hacerlo"
+      ],
+      "a": 1
+     },
+     {
+      "t": "order",
+      "words": [
+       "I",
+       "would",
+       "be",
+       "grateful",
+       "if",
+       "you",
+       "could",
+       "reply."
+      ],
+      "es": "Le agradecería que respondiera."
+     },
+     {
+      "t": "order",
+      "words": [
+       "The",
+       "beans",
+       "are",
+       "then",
+       "washed",
+       "and",
+       "dried."
+      ],
+      "es": "Luego los granos se lavan y se secan."
+     },
+     {
+      "t": "oral",
+      "text": "To sum up, we managed to exceed our targets despite several setbacks."
+     },
+     {
+      "t": "oral",
+      "text": "Once the samples have been tested, they are sent to the client for approval."
+     }
+    ]
+   }
+  ],
+  "final": {
+   "listenPerUnit": 1,
+   "pass": 70,
+   "extra": [
+    {
+     "t": "listen",
+     "say": "If the company had invested in new technology five years ago, it wouldn't be struggling to compete today.",
+     "q": "¿Cuál es la situación actual de la empresa?",
+     "o": [
+      "Es líder del mercado",
+      "Tiene dificultades para competir",
+      "Acaba de invertir en tecnología",
+      "Va a cerrar mañana"
+     ],
+     "a": 1
+    },
+    {
+     "t": "listen",
+     "say": "By the time the report is published next month, the team will have been working on it for almost a year.",
+     "q": "¿Cuánto tiempo habrá trabajado el equipo en el informe?",
+     "o": [
+      "Un mes",
+      "Seis meses",
+      "Casi un año",
+      "Dos años"
+     ],
+     "a": 2
+    },
+    {
+     "t": "oral",
+     "text": "Had I known about the traffic, I would have left much earlier."
+    },
+    {
+     "t": "oral",
+     "text": "Although the plan seems risky, I'm convinced it will pay off in the long run."
+    },
+    {
+     "t": "write",
+     "q": "Escribe un ensayo de opinión (mínimo 120 palabras) sobre si el trabajo remoto debería ser la norma: presenta tu postura, da dos argumentos con conectores, reconoce un argumento contrario y concluye.",
+     "min": 120,
+     "keys": [
+      [
+       "in my opinion",
+       "i believe",
+       "from my point of view",
+       "i would argue"
+      ],
+      [
+       "however",
+       "although",
+       "nevertheless",
+       "on the other hand",
+       "despite"
+      ],
+      [
+       "furthermore",
+       "moreover",
+       "in addition",
+       "what is more"
+      ],
+      [
+       "in conclusion",
+       "to sum up",
+       "all in all",
+       "overall"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "4": {
+  "intro": "En 30 lecciones (6 unidades de 5 días) vas a dar énfasis con inversión y oraciones hendidas, matizar con modales avanzados y el subjuntivo, estructurar discursos académicos y profesionales, manejar registro, colocaciones y modismos, persuadir y negociar con diplomacia, y debatir temas de sociedad, ciencia y cultura. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
+  "units": [
+   {
+    "title": "Énfasis y estilo",
+    "lessons": [
+     {
+      "id": "c1-u1-l1",
+      "title": "Inversión negativa y restrictiva",
+      "goal": "Dar fuerza y formalidad a tus frases invirtiendo sujeto y auxiliar después de expresiones negativas o restrictivas.",
+      "theory": [
+       {
+        "p": "Cuando una frase empieza con una expresión **negativa o restrictiva** (never, rarely, seldom, not only, hardly, no sooner, only when, under no circumstances...), el orden cambia como en una pregunta: **expresión + auxiliar + sujeto + verbo**. Es típico del inglés **formal, escrito o retórico**, y en lo oral suena enfático o dramático."
+       },
+       {
+        "ex": [
+         [
+          "Never have I seen such a blatant disregard for the rules.",
+          "Nunca había visto un desprecio tan descarado por las normas."
+         ],
+         [
+          "Rarely do we receive complaints of this magnitude.",
+          "Rara vez recibimos quejas de esta magnitud."
+         ],
+         [
+          "Not only did she lead the project, but she also secured the funding.",
+          "No solo dirigió el proyecto, sino que además consiguió la financiación."
+         ],
+         [
+          "Under no circumstances should you share your password.",
+          "Bajo ninguna circunstancia debe compartir su contraseña."
+         ]
+        ]
+       },
+       {
+        "p": "**Hardly / Scarcely / Barely ... when** y **No sooner ... than** expresan que una cosa pasó **inmediatamente después** de otra. Van casi siempre con **pasado perfecto** en la primera parte: **Hardly had I sat down when the phone rang. / No sooner had we arrived than it started to pour.** Ojo: hardly va con **when**, no sooner va con **than**."
+       },
+       {
+        "p": "Con **Only + expresión de tiempo** (Only when, Only after, Only then, Only by) y **Not until**, la inversión va en la **oración principal**, no en la subordinada: **Only when the audit was completed did we realize the extent of the damage. / Not until I read the report did I understand.** Otras expresiones que invierten: **At no time, On no account, In no way, Little (did I know), Nowhere, By no means**."
+       },
+       {
+        "ex": [
+         [
+          "Only after the merger did the real problems emerge.",
+          "Solo después de la fusión surgieron los verdaderos problemas."
+         ],
+         [
+          "Little did they know that the files had been leaked.",
+          "Poco sabían ellos que los archivos se habían filtrado."
+         ],
+         [
+          "At no time was the client's data at risk.",
+          "En ningún momento estuvieron en riesgo los datos del cliente."
+         ]
+        ]
+       },
+       {
+        "tip": "Error típico: 'Never I have seen...' o 'Only when the audit was completed we realized...'. Recuerda el auxiliar (do/does/did si no hay otro) y que en Only when/Not until se invierte la segunda parte. Y no abuses: en una charla casual 'I've never seen that' es lo natural."
+       }
+      ],
+      "vocab": [
+       [
+        "seldom",
+        "adverbio",
+        "rara vez (formal)",
+        "Seldom does a company recover so quickly."
+       ],
+       [
+        "scarcely",
+        "adverbio",
+        "apenas, casi no",
+        "Scarcely had the meeting begun when the power failed."
+       ],
+       [
+        "no sooner ... than",
+        "conector",
+        "apenas... cuando, tan pronto como",
+        "No sooner had I hung up than she called again."
+       ],
+       [
+        "under no circumstances",
+        "expresión",
+        "bajo ninguna circunstancia",
+        "Under no circumstances should the door be left open."
+       ],
+       [
+        "on no account",
+        "expresión",
+        "de ninguna manera, por ningún motivo",
+        "On no account must you disclose the figures."
+       ],
+       [
+        "at no time",
+        "expresión",
+        "en ningún momento",
+        "At no time did anyone warn us."
+       ],
+       [
+        "in no way",
+        "expresión",
+        "de ningún modo",
+        "In no way does this affect your contract."
+       ],
+       [
+        "by no means",
+        "expresión",
+        "de ninguna manera, en absoluto",
+        "The problem is by no means solved."
+       ],
+       [
+        "little did I know",
+        "expresión",
+        "poco me imaginaba, no tenía ni idea",
+        "Little did I know that it would change my life."
+       ],
+       [
+        "not until",
+        "conector",
+        "no fue sino hasta (que)",
+        "Not until midnight did they reach a deal."
+       ],
+       [
+        "only then",
+        "expresión",
+        "solo entonces",
+        "Only then did I grasp what was at stake."
+       ],
+       [
+        "nowhere else",
+        "expresión",
+        "en ningún otro lugar",
+        "Nowhere else will you find such talent."
+       ],
+       [
+        "unprecedented",
+        "adjetivo",
+        "sin precedentes",
+        "The breach was on an unprecedented scale."
+       ],
+       [
+        "staggering",
+        "adjetivo",
+        "asombroso, abrumador (cifra)",
+        "The losses were staggering."
+       ],
+       [
+        "overwhelmed",
+        "adjetivo",
+        "abrumado, desbordado",
+        "The help desk was overwhelmed with calls."
+       ],
+       [
+        "disclose",
+        "verbo",
+        "revelar, divulgar",
+        "The firm refused to disclose the details."
+       ],
+       [
+        "tamper with",
+        "phrasal verb",
+        "manipular, alterar (indebidamente)",
+        "Someone had tampered with the logs."
+       ],
+       [
+        "jeopardize",
+        "verbo",
+        "poner en peligro",
+        "This could jeopardize the whole deal."
+       ],
+       [
+        "breach",
+        "sustantivo",
+        "violación, brecha (de seguridad, contrato)",
+        "They reported a data breach."
+       ],
+       [
+        "oversight",
+        "sustantivo",
+        "descuido, omisión; supervisión",
+        "It was a serious oversight."
+       ]
+      ],
+      "dialogue": {
+       "title": "La filtración de datos",
+       "scene": "Mariana, jefa de ciberseguridad, informa a su director, Richard, sobre una filtración en la empresa.",
+       "a": "Richard",
+       "b": "Mariana",
+       "lines": [
+        [
+         "A",
+         "Mariana, I've just read your preliminary report. How serious is this, honestly?",
+         "Mariana, acabo de leer tu informe preliminar. Honestamente, ¿qué tan grave es esto?"
+        ],
+        [
+         "B",
+         "I won't sugarcoat it. Never in my twelve years here have I seen a breach on this scale.",
+         "No se lo voy a endulzar. En mis doce años aquí nunca había visto una filtración de esta magnitud."
+        ],
+        [
+         "A",
+         "When did you first notice something was wrong?",
+         "¿Cuándo notaron por primera vez que algo andaba mal?"
+        ],
+        [
+         "B",
+         "On Tuesday night. No sooner had we restored the server than the alerts started going off again.",
+         "El martes en la noche. Apenas restauramos el servidor, las alertas empezaron a sonar otra vez."
+        ],
+        [
+         "A",
+         "And was the client data exposed?",
+         "¿Y quedaron expuestos los datos de los clientes?"
+        ],
+        [
+         "B",
+         "Partly. Not only did they access the billing system, but they also tampered with the audit logs.",
+         "En parte. No solo accedieron al sistema de facturación, sino que además manipularon los registros de auditoría."
+        ],
+        [
+         "A",
+         "That's staggering. How on earth did nobody catch it?",
+         "Eso es abrumador. ¿Cómo es posible que nadie lo detectara?"
+        ],
+        [
+         "B",
+         "It was an oversight on our side. Only after we compared the backups did we realize the logs had been altered.",
+         "Fue un descuido de nuestra parte. Solo después de comparar las copias de seguridad nos dimos cuenta de que habían alterado los registros."
+        ],
+        [
+         "A",
+         "Right. What do we tell the press?",
+         "Bien. ¿Qué le decimos a la prensa?"
+        ],
+        [
+         "B",
+         "As little as possible for now. Under no circumstances should anyone disclose figures until legal has reviewed them.",
+         "Lo menos posible por ahora. Bajo ninguna circunstancia debe nadie revelar cifras hasta que el área jurídica las revise."
+        ],
+        [
+         "A",
+         "Agreed. But we can't stay silent for long, or we'll jeopardize our credibility.",
+         "De acuerdo. Pero no podemos guardar silencio mucho tiempo, o pondremos en peligro nuestra credibilidad."
+        ],
+        [
+         "B",
+         "Absolutely. I'd suggest a statement saying that at no time were passwords compromised, which is true.",
+         "Totalmente. Sugeriría un comunicado diciendo que en ningún momento se comprometieron las contraseñas, lo cual es cierto."
+        ],
+        [
+         "A",
+         "Good. Is the problem contained, at least?",
+         "Bien. ¿Al menos el problema está contenido?"
+        ],
+        [
+         "B",
+         "Contained, yes, but by no means solved. The team is completely overwhelmed.",
+         "Contenido, sí, pero de ninguna manera resuelto. El equipo está completamente desbordado."
+        ],
+        [
+         "A",
+         "Then bring in the external consultants. Little did I imagine we'd need them this year.",
+         "Entonces traigan a los consultores externos. Poco me imaginaba que los necesitaríamos este año."
+        ],
+        [
+         "B",
+         "Neither did I. I'll call them first thing tomorrow and keep you posted.",
+         "Yo tampoco. Los llamo mañana a primera hora y lo mantengo informado."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Never ___ such an unprofessional response from a supplier.",
+        "o": [
+         "I have received",
+         "have I received",
+         "I received",
+         "did I received"
+        ],
+        "a": 1,
+        "x": "Después de Never al inicio: auxiliar + sujeto + participio."
+       },
+       {
+        "t": "mc",
+        "q": "Hardly had the CEO finished his speech ___ the protesters stormed the stage.",
+        "o": [
+         "than",
+         "that",
+         "when",
+         "then"
+        ],
+        "a": 2,
+        "x": "Hardly/Scarcely ... when; No sooner ... than."
+       },
+       {
+        "t": "mc",
+        "q": "Only when the results were published ___ the scale of the problem.",
+        "o": [
+         "we understood",
+         "did we understand",
+         "we did understand",
+         "understood we"
+        ],
+        "a": 1,
+        "x": "Con Only when la inversión va en la oración principal."
+       },
+       {
+        "t": "fill",
+        "q": "No sooner had we signed the contract ___ the supplier raised its prices. (que, en esta estructura)",
+        "ans": [
+         "than"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Not only did the consultants miss the deadline, but they also charged us twice for the same report.",
+        "q": "¿Qué hicieron los consultores además de incumplir el plazo?",
+        "o": [
+         "Renunciaron al proyecto",
+         "Cobraron dos veces el mismo informe",
+         "Perdieron el informe",
+         "Pidieron más tiempo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Under no circumstances should confidential documents leave this building."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Seldom",
+         "does",
+         "the",
+         "board",
+         "approve",
+         "such",
+         "a",
+         "risky",
+         "proposal."
+        ],
+        "es": "Rara vez la junta aprueba una propuesta tan arriesgada."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Little",
+         "did",
+         "she",
+         "know",
+         "what",
+         "was",
+         "about",
+         "to",
+         "happen."
+        ],
+        "es": "Poco sabía ella lo que estaba a punto de pasar."
+       },
+       {
+        "t": "dict",
+        "say": "At no time was the client's information at risk."
+       },
+       {
+        "t": "dict",
+        "say": "Not until the following morning did we hear the news."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál de estas frases es correcta?",
+        "o": [
+         "Rarely we see such dedication.",
+         "Rarely do we see such dedication.",
+         "Rarely see we such dedication.",
+         "Rarely we do see such dedication."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "On no ___ must you leave the patient unattended. (cuenta, en la expresión 'por ningún motivo')",
+        "ans": [
+         "account"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Scarcely had the new manager arrived when half of the team handed in their resignation.",
+        "q": "¿Qué pasó apenas llegó el nuevo gerente?",
+        "o": [
+         "El equipo lo felicitó",
+         "La mitad del equipo renunció",
+         "Le subieron el sueldo a todos",
+         "Cambiaron la oficina"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un comunicado formal (mínimo 120 palabras) dirigido a los empleados de una empresa tras un incidente grave (filtración, accidente, error financiero). Usa al menos cuatro inversiones distintas para dar énfasis y tono formal.",
+        "min": 120,
+        "keys": [
+         [
+          "never have",
+          "rarely",
+          "seldom",
+          "little did"
+         ],
+         [
+          "not only"
+         ],
+         [
+          "under no circumstances",
+          "on no account",
+          "at no time",
+          "in no way"
+         ],
+         [
+          "only when",
+          "only after",
+          "not until",
+          "no sooner",
+          "hardly had",
+          "scarcely had"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "No sooner ___ the office than it began to snow heavily.",
+       "o": [
+        "I had left",
+        "had I left",
+        "I left",
+        "did I leave"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Not until the auditors arrived ___ how much money had disappeared.",
+       "o": [
+        "we realized",
+        "did we realize",
+        "we did realize",
+        "had realized we"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u1-l2",
+      "title": "Oraciones hendidas (cleft sentences)",
+      "goal": "Poner el foco en la información que más importa con It was... that, What... is, All... is y The reason why.",
+      "theory": [
+       {
+        "p": "Una **oración hendida** (cleft sentence) divide una idea en dos partes para **resaltar un elemento**. En español hacemos algo parecido con 'Fue X quien...', 'Lo que necesito es...'. Es una herramienta clave para **corregir, contrastar y enfocar** tanto al hablar como al escribir."
+       },
+       {
+        "p": "**It + be + elemento + that/who...** resalta una persona, cosa, momento o lugar. Sirve mucho para **corregir** un malentendido: **It wasn't the budget that worried me; it was the timeline.** Con personas puedes usar **who**: **It was Laura who spotted the mistake.**"
+       },
+       {
+        "ex": [
+         [
+          "It was in Cartagena that they first met.",
+          "Fue en Cartagena donde se conocieron."
+         ],
+         [
+          "It's not the money that bothers me, it's the attitude.",
+          "No es la plata lo que me molesta, es la actitud."
+         ],
+         [
+          "It was only when I moved abroad that I appreciated my family.",
+          "Fue solo cuando me fui al exterior que valoré a mi familia."
+         ]
+        ]
+       },
+       {
+        "p": "**What + sujeto + verbo + is/was...** (pseudo-cleft) pone el foco al final: **What I need is a break. / What surprised me was her honesty.** Con acciones se usa **do**: **What we did was call the client directly.** Variantes muy naturales: **All I want is..., The thing (that) I love is..., The reason (why) I left was that..., The place where..., The person who...**"
+       },
+       {
+        "ex": [
+         [
+          "What really annoys me is the lack of communication.",
+          "Lo que de verdad me molesta es la falta de comunicación."
+         ],
+         [
+          "All I'm asking for is a little respect.",
+          "Lo único que pido es un poco de respeto."
+         ],
+         [
+          "The reason why I resigned was that I felt undervalued.",
+          "La razón por la que renuncié fue que me sentía poco valorado."
+         ],
+         [
+          "What happened was (that) the server crashed.",
+          "Lo que pasó fue que el servidor se cayó."
+         ]
+        ]
+       },
+       {
+        "tip": "No traduzcas 'Lo que' como 'That what' ni digas 'The reason is because'. Lo correcto: What I need is... / The reason is that... Y recuerda: 'It was me who...' es lo normal en inglés hablado; 'It was I who...' es muy formal."
+       }
+      ],
+      "vocab": [
+       [
+        "it dawned on me",
+        "expresión",
+        "caí en cuenta, me di cuenta (de repente)",
+        "It dawned on me that I had been wrong."
+       ],
+       [
+        "what struck me",
+        "expresión",
+        "lo que me llamó la atención",
+        "What struck me was how calm she was."
+       ],
+       [
+        "the thing is",
+        "expresión",
+        "el asunto es que, lo que pasa es que",
+        "The thing is, we're running out of time."
+       ],
+       [
+        "the crux (of the matter)",
+        "sustantivo",
+        "el meollo (del asunto)",
+        "The crux of the matter is trust."
+       ],
+       [
+        "bottleneck",
+        "sustantivo",
+        "cuello de botella",
+        "Approval is the main bottleneck."
+       ],
+       [
+        "pinpoint",
+        "verbo",
+        "identificar con precisión",
+        "We couldn't pinpoint the cause."
+       ],
+       [
+        "underlying",
+        "adjetivo",
+        "subyacente, de fondo",
+        "The underlying problem is poor planning."
+       ],
+       [
+        "root cause",
+        "colocación",
+        "causa raíz",
+        "Let's find the root cause."
+       ],
+       [
+        "stem from",
+        "phrasal verb",
+        "derivarse de, tener origen en",
+        "The conflict stems from a misunderstanding."
+       ],
+       [
+        "hinge on",
+        "phrasal verb",
+        "depender (crucialmente) de",
+        "Everything hinges on the client's decision."
+       ],
+       [
+        "grievance",
+        "sustantivo",
+        "queja formal, agravio",
+        "Staff raised several grievances."
+       ],
+       [
+        "bear the brunt (of)",
+        "modismo",
+        "llevar la peor parte",
+        "Junior staff bore the brunt of the cuts."
+       ],
+       [
+        "overlook",
+        "verbo",
+        "pasar por alto",
+        "We overlooked a key detail."
+       ],
+       [
+        "acknowledge",
+        "verbo",
+        "reconocer, admitir",
+        "She acknowledged her mistake."
+       ],
+       [
+        "take issue with",
+        "expresión",
+        "discrepar de, objetar",
+        "I take issue with that remark."
+       ],
+       [
+        "resent",
+        "verbo",
+        "resentir, tomar a mal",
+        "He resented being ignored."
+       ],
+       [
+        "merely",
+        "adverbio",
+        "simplemente, meramente",
+        "I was merely asking a question."
+       ],
+       [
+        "all it takes",
+        "expresión",
+        "basta con, solo hace falta",
+        "All it takes is one careless email."
+       ],
+       [
+        "fall through the cracks",
+        "modismo",
+        "quedarse sin atender, pasarse por alto",
+        "Some requests fell through the cracks."
+       ],
+       [
+        "get to the bottom of",
+        "modismo",
+        "llegar al fondo de",
+        "We need to get to the bottom of this."
+       ]
+      ],
+      "dialogue": {
+       "title": "Una conversación difícil",
+       "scene": "Javier, líder de equipo, habla con Emily, una diseñadora que está pensando en renunciar.",
+       "a": "Javier",
+       "b": "Emily",
+       "lines": [
+        [
+         "A",
+         "Emily, thanks for coming in. I've heard you're thinking of leaving, and I'd like to understand why.",
+         "Emily, gracias por venir. Supe que estás pensando en irte y quisiera entender por qué."
+        ],
+        [
+         "B",
+         "I appreciate that. The thing is, it's not the workload that bothers me. I actually enjoy being busy.",
+         "Lo agradezco. Lo que pasa es que no es la carga de trabajo lo que me molesta. De hecho, me gusta estar ocupada."
+        ],
+        [
+         "A",
+         "So what is it, then?",
+         "¿Entonces qué es?"
+        ],
+        [
+         "B",
+         "What really gets to me is that my ideas keep falling through the cracks. I pitch something, and nothing happens.",
+         "Lo que de verdad me afecta es que mis ideas siempre se quedan sin atender. Propongo algo y no pasa nada."
+        ],
+        [
+         "A",
+         "I see. Can you give me an example?",
+         "Entiendo. ¿Me puedes dar un ejemplo?"
+        ],
+        [
+         "B",
+         "The redesign of the app. It was me who proposed it in March, but it was Kevin who got the credit in June.",
+         "El rediseño de la app. Fui yo quien lo propuso en marzo, pero fue Kevin quien se llevó el crédito en junio."
+        ],
+        [
+         "A",
+         "I wasn't aware of that, and I acknowledge it was unfair. What struck me in your last review was how motivated you seemed.",
+         "No sabía eso, y reconozco que fue injusto. Lo que me llamó la atención en tu última evaluación fue lo motivada que parecías."
+        ],
+        [
+         "B",
+         "I was. It only dawned on me recently that I've been doing the same tasks for two years.",
+         "Lo estaba. Apenas hace poco caí en cuenta de que llevo dos años haciendo las mismas tareas."
+        ],
+        [
+         "A",
+         "So the underlying issue is growth, not just recognition?",
+         "¿Entonces el problema de fondo es el crecimiento, no solo el reconocimiento?"
+        ],
+        [
+         "B",
+         "Exactly. All I'm asking for is a chance to lead a project from start to finish.",
+         "Exacto. Lo único que pido es la oportunidad de liderar un proyecto de principio a fin."
+        ],
+        [
+         "A",
+         "That's fair. I'd say the bottleneck is the approval process; that's where good ideas die.",
+         "Es justo. Yo diría que el cuello de botella es el proceso de aprobación; ahí es donde mueren las buenas ideas."
+        ],
+        [
+         "B",
+         "I take issue with that a little. I think the root cause is that nobody owns the decisions.",
+         "Discrepo un poco. Creo que la causa raíz es que nadie se hace cargo de las decisiones."
+        ],
+        [
+         "A",
+         "Fair point. What I'll do is speak to the director this week about giving you the new client portal.",
+         "Buen punto. Lo que voy a hacer es hablar con el director esta semana para que te asignen el nuevo portal de clientes."
+        ],
+        [
+         "B",
+         "That would make a real difference. The reason I came today was that I didn't want to leave without trying.",
+         "Eso marcaría una verdadera diferencia. La razón por la que vine hoy fue que no quería irme sin intentarlo."
+        ],
+        [
+         "A",
+         "And I'm glad you did. Let's get to the bottom of this together.",
+         "Y me alegra que lo hicieras. Lleguemos juntos al fondo de esto."
+        ],
+        [
+         "B",
+         "Deal. Thanks for listening, Javier.",
+         "Trato hecho. Gracias por escuchar, Javier."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ I need right now is a long holiday.",
+        "o": [
+         "That",
+         "Which",
+         "What",
+         "It"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "It was my sister ___ convinced me to apply for the scholarship.",
+        "o": [
+         "which",
+         "who",
+         "what",
+         "whom she"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "The reason I declined the offer ___ the salary was too low.",
+        "o": [
+         "was because",
+         "was that",
+         "is why",
+         "was what"
+        ],
+        "a": 1,
+        "x": "The reason ... is/was that (no 'because')."
+       },
+       {
+        "t": "fill",
+        "q": "___ I want is for you to be honest with me. (Lo único que)",
+        "ans": [
+         "All"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "It wasn't the price that put me off the apartment; it was the noise from the motorway.",
+        "q": "¿Qué hizo que no le gustara el apartamento?",
+        "o": [
+         "El precio",
+         "El ruido de la autopista",
+         "El tamaño",
+         "La ubicación lejana"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "What really surprised me was how quickly they reached an agreement."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "was",
+         "only",
+         "then",
+         "that",
+         "I",
+         "realized",
+         "my",
+         "mistake."
+        ],
+        "es": "Fue solo entonces cuando me di cuenta de mi error."
+       },
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "we",
+         "did",
+         "was",
+         "call",
+         "the",
+         "client",
+         "directly."
+        ],
+        "es": "Lo que hicimos fue llamar directamente al cliente."
+       },
+       {
+        "t": "dict",
+        "say": "The crux of the matter is that nobody takes responsibility."
+       },
+       {
+        "t": "dict",
+        "say": "All it takes is one careless mistake."
+       },
+       {
+        "t": "mc",
+        "q": "Transforma: 'The delays worry me.' → ___",
+        "o": [
+         "What worries me is the delays.",
+         "What worry me are the delays it.",
+         "It worries me what the delays.",
+         "That worries me is the delays."
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The conflict seems to ___ from a simple misunderstanding. (derivarse, phrasal verb)",
+        "ans": [
+         "stem"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "What happened was that the supplier sent the wrong parts, so the whole production line stopped for two days.",
+        "q": "¿Por qué se detuvo la línea de producción?",
+        "o": [
+         "Por una huelga",
+         "Porque el proveedor envió piezas equivocadas",
+         "Por un corte de luz",
+         "Porque faltaba personal"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo (mínimo 120 palabras) a tu jefe explicando un problema en tu trabajo o estudio y lo que propones. Usa al menos tres tipos de oraciones hendidas (It is/was... that, What... is, All... is, The reason why...).",
+        "min": 120,
+        "keys": [
+         [
+          "it is",
+          "it was",
+          "it's not",
+          "it wasn't"
+         ],
+         [
+          "what i",
+          "what we",
+          "what really"
+         ],
+         [
+          "all i",
+          "all we",
+          "the reason",
+          "the thing"
+         ],
+         [
+          "propose",
+          "suggest",
+          "would like",
+          "recommend"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ was in 2019 that the company started exporting to Asia.",
+       "o": [
+        "What",
+        "It",
+        "That",
+        "There"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "What I don't understand ___ why nobody told us earlier.",
+       "o": [
+        "it is",
+        "is",
+        "that",
+        "what"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u1-l3",
+      "title": "Do enfático y otros recursos de énfasis",
+      "goal": "Intensificar, contradecir y expresar emociones con do enfático, the very, by far, whatsoever, on earth y otros intensificadores.",
+      "theory": [
+       {
+        "p": "El **do enfático** (do/does/did + verbo base en una afirmación) sirve para **insistir, contradecir o conceder**: **I do understand your concern. / She did call you, I saw her. / I don't like the plan, but I do think we should try it.** Al hablar, el auxiliar se pronuncia con fuerza. En imperativo suena cortés y cálido: **Do sit down. / Do let me know.**"
+       },
+       {
+        "ex": [
+         [
+          "You may not believe it, but I did send the email.",
+          "Puede que no lo creas, pero sí envié el correo."
+         ],
+         [
+          "He doesn't say much, but he does care about his team.",
+          "No habla mucho, pero sí le importa su equipo."
+         ],
+         [
+          "Do help yourself to some coffee.",
+          "Sírvase café, con toda confianza."
+         ]
+        ]
+       },
+       {
+        "p": "Intensificadores clave: **the very** (= el mismísimo, justo ese): **This is the very book I was looking for. / at the very beginning**. **by far** con superlativos y comparativos: **by far the best, by far more expensive**. **whatsoever / at all** refuerzan negativas: **I have no doubt whatsoever. / There's no evidence at all.** **on earth / ever** refuerzan preguntas: **What on earth are you doing? / Why ever would you say that?**"
+       },
+       {
+        "ex": [
+         [
+          "She is by far the most talented player on the team.",
+          "Ella es de lejos la jugadora más talentosa del equipo."
+         ],
+         [
+          "We had no problems whatsoever.",
+          "No tuvimos ningún problema en absoluto."
+         ],
+         [
+          "How on earth did you manage that?",
+          "¿Cómo diablos lograste eso?"
+         ],
+         [
+          "At that very moment, the lights went out.",
+          "En ese preciso instante, se fue la luz."
+         ]
+        ]
+       },
+       {
+        "p": "Otros recursos: **sheer** (puro: sheer luck, the sheer size), **utterly / downright** (totalmente, francamente: utterly exhausted, downright rude), **not in the slightest** (para nada), **every single / not a single** (cada uno sin excepción / ni uno solo), y adjetivos extremos con **absolutely** (absolutely furious), nunca con 'very'."
+       },
+       {
+        "tip": "Error típico: 'very delicious' o 'very exhausted'. Con adjetivos extremos usa absolutely, utterly o really. Y whatsoever va siempre después del sustantivo en frases negativas: no interest whatsoever (no 'whatsoever interest')."
+       }
+      ],
+      "vocab": [
+       [
+        "whatsoever",
+        "adverbio",
+        "en absoluto, para nada (refuerza negación)",
+        "I have no complaints whatsoever."
+       ],
+       [
+        "on earth",
+        "expresión",
+        "diablos, demonios (en preguntas)",
+        "Where on earth have you been?"
+       ],
+       [
+        "the very",
+        "expresión",
+        "el mismísimo, justamente ese",
+        "That's the very reason I called."
+       ],
+       [
+        "by far",
+        "expresión",
+        "de lejos, con mucho",
+        "It was by far the worst meal I've had."
+       ],
+       [
+        "in the slightest",
+        "expresión",
+        "en lo más mínimo",
+        "I'm not worried in the slightest."
+       ],
+       [
+        "utterly",
+        "adverbio",
+        "totalmente, completamente",
+        "The plan was utterly ridiculous."
+       ],
+       [
+        "downright",
+        "adverbio",
+        "francamente, rotundamente (negativo)",
+        "The waiter was downright rude."
+       ],
+       [
+        "sheer",
+        "adjetivo",
+        "puro, mero; enorme",
+        "It was sheer luck."
+       ],
+       [
+        "every single",
+        "expresión",
+        "cada uno, sin excepción",
+        "Every single dish was cold."
+       ],
+       [
+        "not a single",
+        "expresión",
+        "ni un solo",
+        "Not a single person apologized."
+       ],
+       [
+        "a far cry from",
+        "modismo",
+        "muy distinto de, nada que ver con",
+        "The film is a far cry from the book."
+       ],
+       [
+        "hands down",
+        "modismo",
+        "sin duda, indiscutiblemente",
+        "It's hands down the best pizza in Bogotá."
+       ],
+       [
+        "second to none",
+        "modismo",
+        "insuperable, el mejor",
+        "Their service is second to none."
+       ],
+       [
+        "beyond belief",
+        "expresión",
+        "increíble, inconcebible",
+        "The queue was long beyond belief."
+       ],
+       [
+        "to say the least",
+        "expresión",
+        "por no decir algo peor, como mínimo",
+        "It was disappointing, to say the least."
+       ],
+       [
+        "for the life of me",
+        "modismo",
+        "por más que lo intento",
+        "For the life of me, I can't remember his name."
+       ],
+       [
+        "indeed",
+        "adverbio",
+        "en efecto, de hecho (enfático)",
+        "It was a very good year indeed."
+       ],
+       [
+        "the last thing",
+        "expresión",
+        "lo último (que querría)",
+        "The last thing I need is more stress."
+       ],
+       [
+        "nowhere near",
+        "expresión",
+        "ni de cerca, para nada",
+        "It's nowhere near as good as last time."
+       ],
+       [
+        "flabbergasted",
+        "adjetivo",
+        "atónito, boquiabierto",
+        "I was absolutely flabbergasted."
+       ]
+      ],
+      "dialogue": {
+       "title": "La reseña del restaurante",
+       "scene": "Sebastián y su amiga Chloe comentan una cena muy esperada que salió terrible, mientras él escribe una reseña en línea.",
+       "a": "Chloe",
+       "b": "Sebastián",
+       "lines": [
+        [
+         "A",
+         "So, are you really going to write that review? You do realize the owner might read it.",
+         "Entonces, ¿de verdad vas a escribir esa reseña? Sí te das cuenta de que el dueño podría leerla."
+        ],
+        [
+         "B",
+         "I do, and that's the very reason I'm writing it. Somebody has to tell him.",
+         "Claro que sí, y esa es justamente la razón por la que la escribo. Alguien tiene que decírselo."
+        ],
+        [
+         "A",
+         "Fair enough. I have to admit it was a far cry from what we expected.",
+         "Está bien. Tengo que admitir que no tuvo nada que ver con lo que esperábamos."
+        ],
+        [
+         "B",
+         "A far cry? It was by far the worst meal I've had this year. Every single dish arrived cold.",
+         "¿Nada que ver? Fue de lejos la peor comida que he tenido este año. Cada uno de los platos llegó frío."
+        ],
+        [
+         "A",
+         "And the waiter was downright rude when you mentioned it.",
+         "Y el mesero fue francamente grosero cuando se lo mencionaste."
+        ],
+        [
+         "B",
+         "Exactly. Not a single person apologized. What on earth were they thinking?",
+         "Exacto. Ni una sola persona se disculpó. ¿En qué demonios estaban pensando?"
+        ],
+        [
+         "A",
+         "To be fair, the dessert was good. I did enjoy the passion fruit mousse.",
+         "Para ser justos, el postre estaba bueno. El mousse de maracuyá sí lo disfruté."
+        ],
+        [
+         "B",
+         "OK, the mousse was decent, I'll grant you that. But it was nowhere near worth eighty thousand pesos.",
+         "Bueno, el mousse estaba aceptable, eso te lo concedo. Pero ni de cerca valía ochenta mil pesos."
+        ],
+        [
+         "A",
+         "True. I was flabbergasted when I saw the bill.",
+         "Cierto. Quedé boquiabierta cuando vi la cuenta."
+        ],
+        [
+         "B",
+         "And the sheer arrogance of charging for bread nobody ordered! It's beyond belief.",
+         "¡Y la pura arrogancia de cobrar un pan que nadie pidió! Es increíble."
+        ],
+        [
+         "A",
+         "Still, don't be cruel. The last thing you want is to sound like a troll.",
+         "Aun así, no seas cruel. Lo último que quieres es sonar como un troll."
+        ],
+        [
+         "B",
+         "I'm not angry in the slightest. I'll be honest, but polite. Listen: 'The setting is lovely, but the service was disappointing, to say the least.'",
+         "No estoy bravo en lo más mínimo. Seré honesto, pero educado. Escucha: 'El lugar es encantador, pero el servicio fue decepcionante, por no decir algo peor.'"
+        ],
+        [
+         "A",
+         "That's good. Balanced, but clear.",
+         "Está bien. Equilibrado, pero claro."
+        ],
+        [
+         "B",
+         "And I'll add that their old place on Calle 85 was second to none. For the life of me, I can't understand what happened.",
+         "Y voy a añadir que su antiguo local de la Calle 85 era insuperable. Por más que lo pienso, no entiendo qué pasó."
+        ],
+        [
+         "A",
+         "Maybe they changed chefs. Anyway, next time I'm choosing the restaurant.",
+         "Tal vez cambiaron de chef. En fin, la próxima vez yo escojo el restaurante."
+        ],
+        [
+         "B",
+         "Deal. You do have better taste than me, indeed.",
+         "Trato hecho. Tú sí tienes mejor gusto que yo, de hecho."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "—You never listen to me! —That's not true. I ___ listen; I just don't always agree.",
+        "o": [
+         "am",
+         "do",
+         "did to",
+         "does"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "This is ___ the most difficult exam I've ever taken.",
+        "o": [
+         "by far",
+         "far by",
+         "very far",
+         "so far"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "There is no evidence ___ that the product is harmful.",
+        "o": [
+         "whatever",
+         "whatsoever",
+         "however",
+         "whichever"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Why ___ earth would anyone pay that much for a phone? (en)",
+        "ans": [
+         "on"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I'm not bothered in the slightest about the delay. What does worry me is the lack of communication.",
+        "q": "¿Qué le preocupa realmente al hablante?",
+        "o": [
+         "El retraso",
+         "La falta de comunicación",
+         "El precio",
+         "La calidad del producto"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I do appreciate your help, but I'd rather do it myself."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "That",
+         "is",
+         "the",
+         "very",
+         "reason",
+         "I",
+         "called",
+         "you."
+        ],
+        "es": "Esa es justamente la razón por la que te llamé."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Not",
+         "a",
+         "single",
+         "person",
+         "offered",
+         "to",
+         "help."
+        ],
+        "es": "Ni una sola persona se ofreció a ayudar."
+       },
+       {
+        "t": "dict",
+        "say": "It was sheer luck that nobody got hurt."
+       },
+       {
+        "t": "dict",
+        "say": "The new version is nowhere near as reliable as the old one."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál combinación es correcta?",
+        "o": [
+         "very exhausted",
+         "absolutely exhausted",
+         "absolutely tired",
+         "very furious"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "The service was disappointing, to say the ___. (menos)",
+        "ans": [
+         "least"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "For the life of me, I can't remember where I parked the car. I've checked every single level of the garage.",
+        "q": "¿Qué ha hecho el hablante?",
+        "o": [
+         "Llamar a la policía",
+         "Revisar todos los pisos del parqueadero",
+         "Tomar un taxi",
+         "Olvidar las llaves"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe una reseña (mínimo 120 palabras) de un restaurante, película o servicio que te haya decepcionado o encantado. Usa do enfático y al menos cuatro recursos de énfasis (by far, the very, whatsoever, on earth, sheer, utterly, every single...).",
+        "min": 120,
+        "keys": [
+         [
+          "do ",
+          "does ",
+          "did "
+         ],
+         [
+          "by far",
+          "the very",
+          "sheer",
+          "utterly",
+          "downright"
+         ],
+         [
+          "whatsoever",
+          "at all",
+          "in the slightest",
+          "not a single",
+          "every single"
+         ],
+         [
+          "on earth",
+          "to say the least",
+          "beyond belief",
+          "second to none",
+          "nowhere near"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I have no intention ___ of apologizing.",
+       "o": [
+        "whatsoever",
+        "however",
+        "by far",
+        "on earth"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "He doesn't talk much, but he ___ care about his students.",
+       "o": [
+        "is",
+        "does",
+        "do",
+        "did to"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u1-l4",
+      "title": "Fronting y orden de palabras marcado",
+      "goal": "Colocar al inicio de la frase lo que quieres destacar, con estructuras como Strange as it may seem, Much as I like... y Gone are the days.",
+      "theory": [
+       {
+        "p": "El **fronting** consiste en mover al principio un elemento que normalmente va después, para **destacarlo, contrastar o dar ritmo**. Es frecuente en escritura cuidada, discursos y periodismo, y aporta un estilo muy C1."
+       },
+       {
+        "p": "**Adjetivo/adverbio + as/though + sujeto + verbo** expresa **concesión** (= aunque): **Strange as it may seem, I miss the rain. / Tired as she was, she kept working. / Try as I might, I couldn't open it.** **Much as + sujeto + verbo** = por mucho que: **Much as I like him, I can't trust him.**"
+       },
+       {
+        "ex": [
+         [
+          "Strange as it may seem, I actually enjoy commuting.",
+          "Por extraño que parezca, de verdad disfruto el trayecto al trabajo."
+         ],
+         [
+          "Much as I love Bogotá, I couldn't live there again.",
+          "Por mucho que ame Bogotá, no podría volver a vivir allá."
+         ],
+         [
+          "Hard as we tried, we couldn't change his mind.",
+          "Por más que lo intentamos, no pudimos hacerle cambiar de opinión."
+         ]
+        ]
+       },
+       {
+        "p": "Con **expresiones de lugar o movimiento** y verbos como be, come, go, stand, lie, se invierte sujeto y verbo (sin auxiliar): **Gone are the days when... / Here comes the bus. / In the corner stood an old piano. / Such was the noise that we couldn't hear.** También puedes adelantar el objeto para contrastar: **That I can understand; what I can't accept is the lie.**"
+       },
+       {
+        "ex": [
+         [
+          "Gone are the days when you could rent a flat without a guarantor.",
+          "Atrás quedaron los días en que podías arrendar un apartamento sin fiador."
+         ],
+         [
+          "Such was her success that she opened three more shops.",
+          "Tal fue su éxito que abrió tres tiendas más."
+         ],
+         [
+          "At the end of the street stood a crumbling old mansion.",
+          "Al final de la calle se alzaba una vieja mansión en ruinas."
+         ]
+        ]
+       },
+       {
+        "tip": "Ojo con el orden: es 'Strange as it may seem' (no 'As strange it may seem' en este patrón) y 'Gone are the days' (no 'Gone the days are'). Si el sujeto es un pronombre, no se invierte: 'Here it comes', no 'Here comes it'."
+       }
+      ],
+      "vocab": [
+       [
+        "strange as it may seem",
+        "expresión",
+        "por extraño que parezca",
+        "Strange as it may seem, I prefer winter."
+       ],
+       [
+        "much as",
+        "conector",
+        "por mucho que, aunque",
+        "Much as I admire her, I disagree."
+       ],
+       [
+        "gone are the days (when)",
+        "expresión",
+        "atrás quedaron los días (en que)",
+        "Gone are the days when phones were just phones."
+       ],
+       [
+        "try as I might",
+        "expresión",
+        "por más que lo intente/intentara",
+        "Try as I might, I couldn't sleep."
+       ],
+       [
+        "be that as it may",
+        "expresión",
+        "sea como sea, aun así",
+        "Be that as it may, we must decide today."
+       ],
+       [
+        "come what may",
+        "expresión",
+        "pase lo que pase",
+        "Come what may, I'll be there."
+       ],
+       [
+        "such was ... that",
+        "conector",
+        "tal era/fue... que",
+        "Such was the demand that they ran out."
+       ],
+       [
+        "bygone",
+        "adjetivo",
+        "pasado, de antaño",
+        "It reminded me of a bygone era."
+       ],
+       [
+        "cherish",
+        "verbo",
+        "atesorar, apreciar mucho",
+        "I cherish those memories."
+       ],
+       [
+        "dwindle",
+        "verbo",
+        "menguar, disminuir poco a poco",
+        "The population has dwindled."
+       ],
+       [
+        "thrive",
+        "verbo",
+        "prosperar, florecer",
+        "Small businesses are thriving here."
+       ],
+       [
+        "bustling",
+        "adjetivo",
+        "bullicioso, lleno de vida",
+        "It's a bustling market town."
+       ],
+       [
+        "quaint",
+        "adjetivo",
+        "pintoresco, con encanto antiguo",
+        "We stayed in a quaint little village."
+       ],
+       [
+        "relentless",
+        "adjetivo",
+        "implacable, incesante",
+        "The traffic is relentless."
+       ],
+       [
+        "reluctantly",
+        "adverbio",
+        "a regañadientes, de mala gana",
+        "She reluctantly agreed to move."
+       ],
+       [
+        "wistful",
+        "adjetivo",
+        "nostálgico, melancólico",
+        "He gave a wistful smile."
+       ],
+       [
+        "uproot",
+        "verbo",
+        "desarraigar",
+        "It's hard to uproot your family."
+       ],
+       [
+        "put down roots",
+        "modismo",
+        "echar raíces, establecerse",
+        "We finally put down roots in Manizales."
+       ],
+       [
+        "a sense of belonging",
+        "colocación",
+        "sentido de pertenencia",
+        "I've never had such a sense of belonging."
+       ],
+       [
+        "so much for",
+        "modismo",
+        "hasta ahí llegó, adiós a (ironía)",
+        "So much for a quiet weekend!"
+       ]
+      ],
+      "dialogue": {
+       "title": "Volver al pueblo",
+       "scene": "Catalina, que vivió diez años en Londres, le cuenta a su amigo Daniel por qué decidió regresar a su pueblo natal en el Eje Cafetero.",
+       "a": "Daniel",
+       "b": "Catalina",
+       "lines": [
+        [
+         "A",
+         "I still can't believe you left London. Weren't you happy there?",
+         "Todavía no puedo creer que te hayas ido de Londres. ¿No eras feliz allá?"
+        ],
+        [
+         "B",
+         "I was, in many ways. Much as I loved the city, I never quite felt I belonged.",
+         "Lo era, en muchos sentidos. Por mucho que amara la ciudad, nunca sentí del todo que perteneciera."
+        ],
+        [
+         "A",
+         "But it's such a bustling place. There's always something going on.",
+         "Pero es un lugar tan lleno de vida. Siempre está pasando algo."
+        ],
+        [
+         "B",
+         "Exactly, and the pace is relentless. Strange as it may seem, I started missing the silence of the mountains.",
+         "Exacto, y el ritmo es implacable. Por extraño que parezca, empecé a extrañar el silencio de las montañas."
+        ],
+        [
+         "A",
+         "The silence? You used to complain the town was boring!",
+         "¿El silencio? ¡Tú te quejabas de que el pueblo era aburrido!"
+        ],
+        [
+         "B",
+         "I know. Gone are the days when I thought happiness was a busy calendar.",
+         "Lo sé. Atrás quedaron los días en que pensaba que la felicidad era una agenda llena."
+        ],
+        [
+         "A",
+         "And was it hard to uproot yourself after ten years?",
+         "¿Y fue difícil desarraigarte después de diez años?"
+        ],
+        [
+         "B",
+         "Very. Try as I might, I couldn't fit my whole life into four suitcases.",
+         "Mucho. Por más que lo intenté, no logré meter toda mi vida en cuatro maletas."
+        ],
+        [
+         "A",
+         "Ha! And how does the town look now? People say it's changed.",
+         "¡Ja! ¿Y cómo se ve el pueblo ahora? Dicen que ha cambiado."
+        ],
+        [
+         "B",
+         "It has. The coffee farms are dwindling, but small cafés and hostels are thriving. Tourists love how quaint it is.",
+         "Sí. Las fincas cafeteras están disminuyendo, pero los cafés y hostales pequeños prosperan. A los turistas les encanta lo pintoresco que es."
+        ],
+        [
+         "A",
+         "So much for the sleepy town we grew up in!",
+         "¡Adiós al pueblo dormido en el que crecimos!"
+        ],
+        [
+         "B",
+         "Partly, yes. But on the main square still stands the old bakery where we used to buy pandebono.",
+         "En parte, sí. Pero en la plaza principal todavía está la vieja panadería donde comprábamos pandebono."
+        ],
+        [
+         "A",
+         "Now you're making me wistful. Do you think you'll stay for good?",
+         "Ahora me estás poniendo nostálgico. ¿Crees que te vas a quedar para siempre?"
+        ],
+        [
+         "B",
+         "I'd like to put down roots here. Such was my sense of belonging on the first day back that I nearly cried.",
+         "Me gustaría echar raíces aquí. Tal fue mi sentido de pertenencia el primer día de regreso que casi lloro."
+        ],
+        [
+         "A",
+         "Well, it's a risk, but be that as it may, I think you made the right call.",
+         "Bueno, es un riesgo, pero sea como sea, creo que tomaste la decisión correcta."
+        ],
+        [
+         "B",
+         "Thanks. Come what may, I'll cherish having done both: leaving and coming back.",
+         "Gracias. Pase lo que pase, voy a atesorar haber hecho las dos cosas: irme y volver."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ as it may seem, I've never been to the beach.",
+        "o": [
+         "Strangely",
+         "Strange",
+         "As strange",
+         "So strange"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "___ I respect your opinion, I can't support this proposal.",
+        "o": [
+         "Much as",
+         "So much",
+         "As much",
+         "Much like"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Gone ___ the days when everyone wrote letters by hand.",
+        "o": [
+         "is",
+         "are",
+         "were being",
+         "have"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Tired ___ she was, she finished the report before midnight. (como, en la estructura concesiva)",
+        "ans": [
+         "as",
+         "though"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Such was the enthusiasm of the crowd that the band played for another hour.",
+        "q": "¿Qué consecuencia tuvo el entusiasmo del público?",
+        "o": [
+         "Cancelaron el concierto",
+         "La banda tocó una hora más",
+         "Hubo un accidente",
+         "Subieron el precio de las boletas"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Much as I love this city, I couldn't live here forever."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Try",
+         "as",
+         "I",
+         "might,",
+         "I",
+         "couldn't",
+         "forget",
+         "her",
+         "face."
+        ],
+        "es": "Por más que lo intenté, no pude olvidar su cara."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Gone",
+         "are",
+         "the",
+         "days",
+         "of",
+         "cheap",
+         "flights."
+        ],
+        "es": "Atrás quedaron los días de los vuelos baratos."
+       },
+       {
+        "t": "dict",
+        "say": "Strange as it may seem, I actually miss the rain."
+       },
+       {
+        "t": "dict",
+        "say": "Be that as it may, we still have to make a decision."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál frase es correcta?",
+        "o": [
+         "Here comes it.",
+         "Here it comes.",
+         "Here does it come.",
+         "Here it does come."
+        ],
+        "a": 1,
+        "x": "Con pronombre sujeto no se invierte."
+       },
+       {
+        "t": "fill",
+        "q": "We wanted a quiet weekend, but the neighbours had a party. So ___ for relaxing! (hasta ahí llegó, ironía)",
+        "ans": [
+         "much"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Gone are the days when you had to queue at the bank. Nowadays almost everything is done on your phone.",
+        "q": "¿Qué ha cambiado según el hablante?",
+        "o": [
+         "Ya no hay que hacer fila en el banco",
+         "Los bancos cobran más",
+         "Los celulares son más caros",
+         "Hay más bancos que antes"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un texto reflexivo (mínimo 120 palabras) sobre cómo ha cambiado tu ciudad o tu forma de vida en los últimos años. Usa al menos cuatro estructuras de fronting (Strange as it may seem, Much as, Gone are the days, Try as I might, Such was... that, Be that as it may).",
+        "min": 120,
+        "keys": [
+         [
+          "strange as",
+          "much as",
+          "hard as",
+          "tired as"
+         ],
+         [
+          "gone are the days"
+         ],
+         [
+          "try as i might",
+          "such was",
+          "be that as it may",
+          "come what may"
+         ],
+         [
+          "nowadays",
+          "these days",
+          "used to",
+          "no longer"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ as I like my job, I sometimes dream of quitting.",
+       "o": [
+        "Much",
+        "So",
+        "Such",
+        "Very"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___ the storm that all flights were cancelled.",
+       "o": [
+        "So was",
+        "Such was",
+        "Such it was",
+        "As was"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u1-l5",
+      "title": "Narración matizada",
+      "goal": "Contar historias con estilo combinando tiempos narrativos, el futuro en el pasado y recursos de ritmo y suspenso.",
+      "theory": [
+       {
+        "p": "Una buena narración C1 **combina tiempos** con intención: **pasado simple** para los hechos, **continuo** para el fondo, **pasado perfecto (continuo)** para retroceder (**She had been waiting for hours**), y a veces el **presente histórico** para dar inmediatez en anécdotas orales: **So I'm standing there, and this guy walks in...**"
+       },
+       {
+        "p": "El **futuro en el pasado** describe lo que, desde un momento pasado, todavía iba a ocurrir: **would** (I knew he would call), **was/were going to** (planes o predicciones: We were going to leave, but it rained), **was about to / was on the point of** (a punto de), y **was to** (destino, formal: She was to become the first female mayor). **was to have + participio** = algo planeado que no ocurrió: **The ceremony was to have taken place in May.**"
+       },
+       {
+        "ex": [
+         [
+          "I had no idea that this trip would change my life.",
+          "No tenía idea de que este viaje me cambiaría la vida."
+         ],
+         [
+          "We were going to sell the house, but then prices collapsed.",
+          "Íbamos a vender la casa, pero entonces los precios se desplomaron."
+         ],
+         [
+          "I was just about to hang up when she finally answered.",
+          "Estaba a punto de colgar cuando por fin contestó."
+         ],
+         [
+          "Years later, the young clerk was to become the company's CEO.",
+          "Años después, el joven empleado llegaría a ser el presidente de la empresa."
+         ]
+        ]
+       },
+       {
+        "p": "**Ritmo y estilo**: alterna frases largas descriptivas con frases **cortas** para crear tensión (**Then the door opened.**); adelanta información con **foreshadowing** (Little did I know...); usa verbos precisos (stumble, glance, creep) en vez de genéricos (walk, look); y cierra con una reflexión: **In hindsight..., Looking back...**"
+       },
+       {
+        "ex": [
+         [
+          "The house had been empty for years. Or so we thought.",
+          "La casa llevaba años vacía. O eso creíamos."
+         ],
+         [
+          "She glanced at the clock. Midnight. He was never late.",
+          "Miró de reojo el reloj. Medianoche. Él nunca llegaba tarde."
+         ]
+        ]
+       },
+       {
+        "tip": "No mezcles tiempos sin razón: si empiezas en pasado, mantente en pasado salvo un cambio intencional. Y recuerda que 'would' en narración no es condicional aquí: 'I knew she would win' = sabía que ganaría."
+       }
+      ],
+      "vocab": [
+       [
+        "on the verge of",
+        "expresión",
+        "al borde de, a punto de",
+        "She was on the verge of tears."
+       ],
+       [
+        "be about to",
+        "expresión",
+        "estar a punto de",
+        "I was about to leave when he arrived."
+       ],
+       [
+        "was to (+ verbo)",
+        "expresión",
+        "estaba destinado a, llegaría a",
+        "He was to regret that decision."
+       ],
+       [
+        "fateful",
+        "adjetivo",
+        "fatídico, decisivo",
+        "It was a fateful evening."
+       ],
+       [
+        "ominous",
+        "adjetivo",
+        "amenazante, de mal agüero",
+        "There was an ominous silence."
+       ],
+       [
+        "foreshadow",
+        "verbo",
+        "presagiar, anticipar",
+        "The opening scene foreshadows the ending."
+       ],
+       [
+        "unfold",
+        "verbo",
+        "desarrollarse, desplegarse (hechos)",
+        "We watched the events unfold."
+       ],
+       [
+        "in hindsight",
+        "expresión",
+        "en retrospectiva, visto en perspectiva",
+        "In hindsight, we should have left earlier."
+       ],
+       [
+        "a turn of events",
+        "colocación",
+        "un giro de los acontecimientos",
+        "In a surprising turn of events, he resigned."
+       ],
+       [
+        "unbeknownst to",
+        "preposición",
+        "sin que lo supiera",
+        "Unbeknownst to me, she had read the letter."
+       ],
+       [
+        "linger",
+        "verbo",
+        "quedarse, persistir",
+        "The smell of smoke lingered for days."
+       ],
+       [
+        "eerie",
+        "adjetivo",
+        "inquietante, espeluznante",
+        "The village was eerie at night."
+       ],
+       [
+        "stumble upon",
+        "phrasal verb",
+        "toparse con, encontrar por casualidad",
+        "I stumbled upon an old diary."
+       ],
+       [
+        "dread",
+        "verbo / sustantivo",
+        "temer; pavor",
+        "I dreaded opening the envelope."
+       ],
+       [
+        "plot twist",
+        "sustantivo",
+        "giro argumental",
+        "The plot twist took everyone by surprise."
+       ],
+       [
+        "gripping",
+        "adjetivo",
+        "atrapante, apasionante",
+        "It's a gripping story."
+       ],
+       [
+        "vivid",
+        "adjetivo",
+        "vívido",
+        "She gave a vivid description."
+       ],
+       [
+        "catch a glimpse of",
+        "colocación",
+        "alcanzar a ver",
+        "I caught a glimpse of a figure."
+       ],
+       [
+        "pace",
+        "sustantivo",
+        "ritmo",
+        "The pace of the story is perfect."
+       ],
+       [
+        "flashback",
+        "sustantivo",
+        "escena retrospectiva",
+        "The novel opens with a flashback."
+       ]
+      ],
+      "dialogue": {
+       "title": "El taller de escritura",
+       "scene": "Valentina lleva un cuento a su editor, Patrick, y juntos discuten cómo mejorar la narración.",
+       "a": "Patrick",
+       "b": "Valentina",
+       "lines": [
+        [
+         "A",
+         "I've read your story, Valentina. The idea is gripping, but the pace drags in the middle.",
+         "Leí tu cuento, Valentina. La idea es atrapante, pero el ritmo decae en la mitad."
+        ],
+        [
+         "B",
+         "I was afraid you'd say that. I was going to cut the part about the grandmother, but I couldn't bring myself to do it.",
+         "Temía que dijeras eso. Iba a cortar la parte de la abuela, pero no fui capaz."
+        ],
+        [
+         "A",
+         "Don't cut it; move it. What if it became a flashback just before the climax?",
+         "No la cortes; muévela. ¿Y si se convirtiera en un flashback justo antes del clímax?"
+        ],
+        [
+         "B",
+         "Interesting. So the reader learns what had happened to her only when it really matters.",
+         "Interesante. Así el lector se entera de lo que le había pasado solo cuando de verdad importa."
+        ],
+        [
+         "A",
+         "Exactly. And the opening needs more tension. Right now you explain everything in the first page.",
+         "Exacto. Y el comienzo necesita más tensión. Ahora mismo explicas todo en la primera página."
+        ],
+        [
+         "B",
+         "What would you suggest?",
+         "¿Qué sugerirías?"
+        ],
+        [
+         "A",
+         "Foreshadow instead of explaining. Something like: 'That was the night the house would finally give up its secret.'",
+         "Presagia en lugar de explicar. Algo como: 'Esa fue la noche en que la casa por fin revelaría su secreto.'"
+        ],
+        [
+         "B",
+         "I love that. It's ominous without giving anything away.",
+         "Me encanta. Es inquietante sin revelar nada."
+        ],
+        [
+         "A",
+         "Also, vary your sentences. After a long, vivid description, hit the reader with something short. 'Then the lights went out.'",
+         "Además, varía tus frases. Después de una descripción larga y vívida, golpea al lector con algo corto. 'Entonces se fue la luz.'"
+        ],
+        [
+         "B",
+         "Right. I noticed I use 'walked' and 'looked' constantly.",
+         "Cierto. Me di cuenta de que uso 'walked' y 'looked' todo el tiempo."
+        ],
+        [
+         "A",
+         "Try more precise verbs: she stumbled upon the letter, she caught a glimpse of a shadow, the smell lingered.",
+         "Prueba verbos más precisos: se topó con la carta, alcanzó a ver una sombra, el olor persistía."
+        ],
+        [
+         "B",
+         "And the ending? Some readers said the plot twist came out of nowhere.",
+         "¿Y el final? Algunos lectores dijeron que el giro argumental salió de la nada."
+        ],
+        [
+         "A",
+         "Because nothing prepares us for it. Plant a clue earlier. Unbeknownst to the narrator, her brother had been reading her diary all along.",
+         "Porque nada nos prepara para él. Siembra una pista antes. Sin que la narradora lo supiera, su hermano había estado leyendo su diario todo el tiempo."
+        ],
+        [
+         "B",
+         "That changes everything. In hindsight, the eerie scene in the attic could be that clue.",
+         "Eso lo cambia todo. En retrospectiva, la escena inquietante del ático podría ser esa pista."
+        ],
+        [
+         "A",
+         "Precisely. I was about to suggest the same thing. You're on the verge of something really good here.",
+         "Precisamente. Estaba a punto de sugerir lo mismo. Estás al borde de algo muy bueno aquí."
+        ],
+        [
+         "B",
+         "Thank you, Patrick. I'll rewrite it this weekend, even if I dread starting again.",
+         "Gracias, Patrick. Lo reescribo este fin de semana, aunque me aterre empezar de nuevo."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I had a feeling that something terrible ___ happen that night.",
+        "o": [
+         "will",
+         "would",
+         "is going to",
+         "has to"
+        ],
+        "a": 1,
+        "x": "Futuro visto desde el pasado → would."
+       },
+       {
+        "t": "mc",
+        "q": "We ___ move to Canada, but my father fell ill, so we stayed.",
+        "o": [
+         "were going to",
+         "are going to",
+         "would have",
+         "will"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Nobody could have guessed that the shy girl from Pasto ___ become a famous writer.",
+        "o": [
+         "is to",
+         "was to",
+         "had to",
+         "was being"
+        ],
+        "a": 1,
+        "x": "was to = destino, lo que llegaría a pasar."
+       },
+       {
+        "t": "fill",
+        "q": "I was just ___ to leave when the phone rang. (a punto de)",
+        "ans": [
+         "about"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "By the time the rescue team reached the cabin, the climbers had been waiting in the freezing cold for almost two days.",
+        "q": "¿Cuánto tiempo llevaban esperando los escaladores?",
+        "o": [
+         "Dos horas",
+         "Casi dos días",
+         "Una semana",
+         "Toda la noche"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Little did I know that this fateful evening would change my life forever."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "was",
+         "on",
+         "the",
+         "verge",
+         "of",
+         "giving",
+         "up."
+        ],
+        "es": "Estaba a punto de rendirse."
+       },
+       {
+        "t": "order",
+        "words": [
+         "In",
+         "hindsight,",
+         "we",
+         "should",
+         "have",
+         "listened",
+         "to",
+         "him."
+        ],
+        "es": "En retrospectiva, debimos haberlo escuchado."
+       },
+       {
+        "t": "dict",
+        "say": "Then the lights went out, and an eerie silence filled the room."
+       },
+       {
+        "t": "dict",
+        "say": "I stumbled upon an old letter in my grandmother's drawer."
+       },
+       {
+        "t": "mc",
+        "q": "The wedding was to have taken place in June. Significa que la boda:",
+        "o": [
+         "se celebró en junio",
+         "estaba planeada para junio pero no se hizo",
+         "se celebrará en junio",
+         "se celebró antes de junio"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "___ to me, my colleagues had organized a surprise party. (Sin que yo lo supiera)",
+        "ans": [
+         "Unbeknownst",
+         "Unbeknown"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "So I'm standing at the bus stop, minding my own business, and this man walks up to me and asks if I'm his long-lost cousin.",
+        "q": "¿Qué tiempo verbal usa el hablante para darle inmediatez a la anécdota?",
+        "o": [
+         "Pasado perfecto",
+         "Presente histórico",
+         "Futuro",
+         "Pasado continuo solamente"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un relato breve (mínimo 140 palabras) sobre un día que resultó decisivo en tu vida o en la de un personaje. Combina pasado simple, continuo y perfecto, usa el futuro en el pasado (would, was going to, was about to, was to) y alterna frases largas y cortas para crear suspenso.",
+        "min": 140,
+        "keys": [
+         [
+          "had",
+          "had been"
+         ],
+         [
+          "would",
+          "was going to",
+          "were going to",
+          "was about to",
+          "was to"
+         ],
+         [
+          "was",
+          "were"
+         ],
+         [
+          "in hindsight",
+          "looking back",
+          "little did i know",
+          "unbeknownst"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I was ___ to give up when I finally found the answer.",
+       "o": [
+        "about",
+        "going",
+        "on",
+        "verge"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "At the time, she had no idea that he ___ one day become her husband.",
+       "o": [
+        "will",
+        "would",
+        "is going to",
+        "has"
+       ],
+       "a": 1
+      },
+      "reading": 0,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "Not only ___ the deadline, but they also exceeded the budget.",
+      "o": [
+       "they missed",
+       "did they miss",
+       "they did miss",
+       "missed they"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "It was the lack of transparency ___ upset the shareholders most.",
+      "o": [
+       "what",
+       "that",
+       "which it",
+       "who"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "She is ___ the best negotiator in the company.",
+      "o": [
+       "by far",
+       "far by",
+       "so far",
+       "very far"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "___ as it may seem, I've never tasted ajiaco.",
+      "o": [
+       "Strange",
+       "Strangely",
+       "As strange",
+       "How strange"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "We ___ buy a flat in the city centre, but prices went up dramatically.",
+      "o": [
+       "were going to",
+       "are going to",
+       "will",
+       "would have to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Hardly had I closed my eyes ___ the baby started crying. (cuando)",
+      "ans": [
+       "when"
+      ]
+     },
+     {
+      "t": "write",
+      "q": "Escribe un artículo de opinión (mínimo 130 palabras) sobre un cambio importante en la sociedad de los últimos años (trabajo remoto, redes sociales, ciudades). Usa inversión, una oración hendida, un recurso de énfasis y una estructura de fronting.",
+      "min": 130,
+      "keys": [
+       [
+        "never have",
+        "rarely",
+        "not only",
+        "only when",
+        "little did",
+        "seldom"
+       ],
+       [
+        "what i",
+        "what really",
+        "it is",
+        "it was",
+        "all we",
+        "the reason"
+       ],
+       [
+        "by far",
+        "the very",
+        "whatsoever",
+        "on earth",
+        "sheer",
+        "utterly"
+       ],
+       [
+        "gone are the days",
+        "much as",
+        "strange as",
+        "such was",
+        "be that as it may"
+       ]
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "What worried the investors wasn't the size of the loss, but the fact that the company had tried to hide it.",
+      "q": "¿Qué preocupó realmente a los inversionistas?",
+      "o": [
+       "El tamaño de la pérdida",
+       "Que la empresa intentara ocultar la pérdida",
+       "La caída de las ventas",
+       "El cambio de gerente"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Much as I enjoyed living abroad, gone are the days when I could move every two years. I want to put down roots now.",
+      "q": "¿Qué quiere hacer ahora el hablante?",
+      "o": [
+       "Mudarse cada dos años",
+       "Echar raíces",
+       "Viajar más",
+       "Volver a estudiar"
+      ],
+      "a": 1
+     },
+     {
+      "t": "oral",
+      "text": "Never have I seen such a breathtaking view."
+     },
+     {
+      "t": "oral",
+      "text": "What I need right now is a little time to think."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "Only after the investigation ___ the truth.",
+      "o": [
+       "we learned",
+       "did we learn",
+       "we did learn",
+       "learned we"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Under no circumstances ___ open this door.",
+      "o": [
+       "you should",
+       "should you",
+       "you must",
+       "must"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "All I want ___ a quiet place to work.",
+      "o": [
+       "are",
+       "is",
+       "it is",
+       "that"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The reason she left ___ she felt undervalued.",
+      "o": [
+       "was because",
+       "was that",
+       "is why",
+       "was what"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I ___ tell you about the meeting. You just forgot!",
+      "o": [
+       "did",
+       "do",
+       "was",
+       "have to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Try ___ I might, I couldn't convince him.",
+      "o": [
+       "so",
+       "as",
+       "though as",
+       "much"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "Where ___ earth did you find that hat? (en)",
+      "ans": [
+       "on"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "___ are the days when nobody had a mobile phone. (Atrás quedaron)",
+      "ans": [
+       "Gone"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "In ___, I should have accepted the first offer. (en retrospectiva)",
+      "ans": [
+       "hindsight"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "No sooner had the guests arrived than the power went out, so we ended up having dinner by candlelight.",
+      "q": "¿Cómo terminaron cenando?",
+      "o": [
+       "En un restaurante",
+       "A la luz de las velas",
+       "En el jardín",
+       "Sin invitados"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "It was only when I read the letter for the second time that I understood she had been saying goodbye.",
+      "q": "¿Cuándo entendió el mensaje de la carta?",
+      "o": [
+       "Al leerla por primera vez",
+       "Al leerla por segunda vez",
+       "Cuando ella lo llamó",
+       "Nunca lo entendió"
+      ],
+      "a": 1
+     },
+     {
+      "t": "oral",
+      "text": "Strange as it may seem, I actually enjoy working on Sundays."
+     },
+     {
+      "t": "oral",
+      "text": "I was about to leave when she finally called."
+     },
+     {
+      "t": "order",
+      "words": [
+       "Rarely",
+       "have",
+       "I",
+       "felt",
+       "so",
+       "welcome."
+      ],
+      "es": "Rara vez me he sentido tan bienvenido."
+     },
+     {
+      "t": "order",
+      "words": [
+       "It",
+       "was",
+       "Laura",
+       "who",
+       "spotted",
+       "the",
+       "mistake."
+      ],
+      "es": "Fue Laura quien detectó el error."
+     }
+    ]
+   },
+   {
+    "title": "Matices y probabilidad",
+    "lessons": [
+     {
+      "id": "c1-u2-l1",
+      "title": "Modales avanzados: necesidad, probabilidad y oportunidades perdidas",
+      "goal": "Distinguir needn't have de didn't need to y expresar grados de certeza y reproches con precisión.",
+      "theory": [
+       {
+        "p": "**needn't have + participio** significa que **hiciste algo que no era necesario** (esfuerzo desperdiciado). **didn't need to + infinitivo** solo dice que **no era necesario**, y normalmente implica que **no lo hiciste**."
+       },
+       {
+        "ex": [
+         [
+          "You needn't have brought a gift; it was only an informal get-together.",
+          "No tenías que haber traído regalo (y lo trajiste); era solo una reunión informal."
+         ],
+         [
+          "We didn't need to book a table, so we just turned up.",
+          "No necesitábamos reservar, así que simplemente llegamos."
+         ],
+         [
+          "I needn't have stayed up revising: the exam was postponed.",
+          "No había necesidad de trasnochar estudiando: aplazaron el examen."
+         ]
+        ]
+       },
+       {
+        "p": "Para graduar la **probabilidad**: **be bound to** (es casi seguro que), **be likely / unlikely to** (es probable / improbable que), **may well** (es muy posible que) y **could / might have + participio** (pudo haber pasado, pero no sabemos o no pasó)."
+       },
+       {
+        "ex": [
+         [
+          "With this traffic, they're bound to be late.",
+          "Con este tráfico, seguro que llegan tarde."
+         ],
+         [
+          "Interest rates are unlikely to fall before the elections.",
+          "Es poco probable que bajen las tasas de interés antes de las elecciones."
+         ],
+         [
+          "She may well have misunderstood the instructions.",
+          "Es muy posible que haya malinterpretado las instrucciones."
+         ],
+         [
+          "You could have warned me! I looked like a fool.",
+          "¡Me hubieras podido avisar! Quedé como un tonto."
+         ]
+        ]
+       },
+       {
+        "p": "**might as well / may as well + infinitivo** expresa que, a falta de una opción mejor, **da lo mismo hacer algo** o **más vale hacerlo**: The last bus has gone, so we might as well walk. También sirve para resignarse con humor: I might as well have stayed in bed."
+       },
+       {
+        "tip": "Errores típicos: 'He is probable to come' es incorrecto; di He is likely to come o It is probable that he will come. 'Pudo haber' = could have / might have; 'debió de' (deducción) = must have; 'debió haber' (reproche) = should have. Y needn't have nunca lleva 'to': no digas 'needn't to have'."
+       }
+      ],
+      "vocab": [
+       [
+        "needn't have + participio",
+        "expresión",
+        "no había necesidad de (pero se hizo)",
+        "You needn't have cooked so much food."
+       ],
+       [
+        "didn't need to",
+        "expresión",
+        "no era necesario (y no se hizo)",
+        "I didn't need to show my ID at the door."
+       ],
+       [
+        "be bound to",
+        "expresión",
+        "ser casi seguro que",
+        "Prices are bound to rise after the tax reform."
+       ],
+       [
+        "be likely to",
+        "expresión",
+        "ser probable que",
+        "The project is likely to run over budget."
+       ],
+       [
+        "may well",
+        "expresión",
+        "es muy posible que",
+        "The court may well overturn the ruling."
+       ],
+       [
+        "might as well",
+        "expresión",
+        "más vale, da lo mismo",
+        "Since we're here, we might as well have a look."
+       ],
+       [
+        "could have + participio",
+        "expresión",
+        "pudo / hubiera podido (+ participio)",
+        "You could have told me you were leaving."
+       ],
+       [
+        "in all likelihood",
+        "expresión",
+        "con toda probabilidad",
+        "In all likelihood, the merger will go ahead."
+       ],
+       [
+        "the odds are that",
+        "expresión",
+        "lo más probable es que",
+        "The odds are that nobody will notice."
+       ],
+       [
+        "a foregone conclusion",
+        "modismo",
+        "algo cantado, un resultado previsible",
+        "The election result was a foregone conclusion."
+       ],
+       [
+        "on the off chance",
+        "expresión",
+        "por si acaso, por si de pronto",
+        "I called on the off chance that she was still in the office."
+       ],
+       [
+        "a long shot",
+        "modismo",
+        "algo con pocas probabilidades",
+        "It's a long shot, but it's worth applying."
+       ],
+       [
+        "conceivably",
+        "adverbio",
+        "posiblemente, cabe la posibilidad",
+        "The delay could conceivably last for weeks."
+       ],
+       [
+        "superfluous",
+        "adjetivo",
+        "innecesario, superfluo",
+        "Half of the paperwork turned out to be superfluous."
+       ],
+       [
+        "hindsight",
+        "sustantivo",
+        "retrospectiva (con el diario del lunes)",
+        "With hindsight, we should have waited."
+       ],
+       [
+        "squander",
+        "verbo",
+        "desperdiciar, despilfarrar",
+        "They squandered a golden opportunity."
+       ],
+       [
+        "fret",
+        "verbo",
+        "preocuparse en exceso, angustiarse",
+        "There's no need to fret about the deadline."
+       ],
+       [
+        "pan out",
+        "phrasal verb",
+        "resultar, salir (un plan)",
+        "Let's see how things pan out."
+       ],
+       [
+        "fluke",
+        "sustantivo",
+        "chiripa, golpe de suerte",
+        "Their victory was a complete fluke."
+       ],
+       [
+        "a wasted trip",
+        "colocación",
+        "un viaje en vano",
+        "The office was closed, so it was a wasted trip."
+       ]
+      ],
+      "dialogue": {
+       "title": "La reunión que nunca fue",
+       "scene": "Mariana y su colega Thomas comentan una reunión con un cliente que se canceló a última hora.",
+       "a": "Thomas",
+       "b": "Mariana",
+       "lines": [
+        [
+         "A",
+         "You look exhausted. Did you manage to finish the presentation?",
+         "Te ves agotada. ¿Alcanzaste a terminar la presentación?"
+        ],
+        [
+         "B",
+         "I stayed up until three polishing every slide, and this morning the client cancelled. I needn't have bothered.",
+         "Me quedé despierta hasta las tres puliendo cada diapositiva, y esta mañana el cliente canceló. No había necesidad de matarme así."
+        ],
+        [
+         "A",
+         "That's maddening. They could have let us know yesterday.",
+         "Qué rabia. Nos hubieran podido avisar ayer."
+        ],
+        [
+         "B",
+         "Exactly. At least you didn't need to come in early, did you?",
+         "Exacto. Por lo menos tú no tuviste que venir temprano, ¿o sí?"
+        ],
+        [
+         "A",
+         "No, luckily I was working from home. So what happens now? Are they likely to reschedule?",
+         "No, por suerte estaba trabajando desde la casa. ¿Y ahora qué? ¿Es probable que reprogramen?"
+        ],
+        [
+         "B",
+         "They may well reschedule for next week, but in all likelihood they're talking to our competitors too.",
+         "Es muy posible que reprogramen para la próxima semana, pero con toda probabilidad también están hablando con la competencia."
+        ],
+        [
+         "A",
+         "Well, if they are, they're bound to compare prices. We should sharpen our offer.",
+         "Bueno, si es así, seguro que van a comparar precios. Deberíamos afinar la oferta."
+        ],
+        [
+         "B",
+         "Agreed. With hindsight, we should have sent them a draft proposal last month.",
+         "De acuerdo. En retrospectiva, debimos haberles enviado un borrador de propuesta el mes pasado."
+        ],
+        [
+         "A",
+         "Don't fret about it. Nobody could have predicted they'd move so fast.",
+         "No te angusties por eso. Nadie hubiera podido prever que se moverían tan rápido."
+        ],
+        [
+         "B",
+         "I know, but I hate squandering an opportunity like this one.",
+         "Lo sé, pero odio desperdiciar una oportunidad como esta."
+        ],
+        [
+         "A",
+         "It hasn't been squandered yet. Why don't you email the director on the off chance that she's free on Friday?",
+         "Todavía no se ha desperdiciado. ¿Por qué no le escribes a la directora por si de pronto tiene libre el viernes?"
+        ],
+        [
+         "B",
+         "It's a long shot, but I might as well try. The slides are ready, after all.",
+         "Es poco probable, pero da lo mismo intentarlo. Las diapositivas ya están listas, al fin y al cabo."
+        ],
+        [
+         "A",
+         "See? Last night's effort may not have been superfluous after all.",
+         "¿Ves? A lo mejor el esfuerzo de anoche no fue en vano después de todo."
+        ],
+        [
+         "B",
+         "Let's hope so. If it pans out, the first round of coffee is on me.",
+         "Ojalá. Si sale bien, la primera ronda de café la invito yo."
+        ],
+        [
+         "A",
+         "Deal. And if it doesn't, we'll call it a fluke and move on.",
+         "Trato hecho. Y si no, diremos que fue mala suerte y seguimos adelante."
+        ],
+        [
+         "B",
+         "Spoken like a true optimist.",
+         "Hablaste como un verdadero optimista."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I ___ taken a taxi; the hotel was just around the corner. (lo tomé, pero no hacía falta)",
+        "o": [
+         "didn't need to have",
+         "needn't have",
+         "mustn't have",
+         "couldn't have"
+        ],
+        "a": 1,
+        "x": "needn't have + participio = lo hiciste y no era necesario."
+       },
+       {
+        "t": "mc",
+        "q": "Given the weather forecast, the outdoor concert is ___ be cancelled.",
+        "o": [
+         "probable to",
+         "bound to",
+         "bound that",
+         "likely that"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "The museum was free on Sundays, so we ___ buy tickets.",
+        "o": [
+         "needn't have bought",
+         "didn't need to",
+         "mustn't",
+         "couldn't have"
+        ],
+        "a": 1,
+        "x": "No era necesario y no se compraron → didn't need to."
+       },
+       {
+        "t": "fill",
+        "q": "We've missed the last train, so we might ___ well spend the night here. (da lo mismo)",
+        "ans": [
+         "as"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I needn't have printed all those reports. In the end, the board only wanted a two-page summary, which I could have written in an hour.",
+        "q": "¿Qué quería realmente la junta?",
+        "o": [
+         "Todos los informes impresos",
+         "Un resumen de dos páginas",
+         "Una presentación oral",
+         "Un informe de una hora"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "With hindsight, we needn't have worried; the negotiations were bound to succeed."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "may",
+         "well",
+         "have",
+         "misunderstood",
+         "the",
+         "instructions."
+        ],
+        "es": "Es muy posible que haya malinterpretado las instrucciones."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "result",
+         "was",
+         "a",
+         "foregone",
+         "conclusion."
+        ],
+        "es": "El resultado era algo cantado."
+       },
+       {
+        "t": "dict",
+        "say": "Their victory was a complete fluke."
+       },
+       {
+        "t": "dict",
+        "say": "You could have told me you were leaving."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál frase es correcta?",
+        "o": [
+         "He is probable to resign.",
+         "He is likely to resign.",
+         "He is bound that he resigns.",
+         "It is likely him to resign."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "In all ___, the merger will be approved by the end of the year. (con toda probabilidad)",
+        "ans": [
+         "likelihood"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The odds are that the company will relocate, but it could conceivably stay if the city offers better tax incentives.",
+        "q": "¿Qué podría hacer que la empresa se quede?",
+        "o": [
+         "Un nuevo director",
+         "Mejores incentivos tributarios",
+         "Una fusión",
+         "Más empleados"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre una situación en la que te esforzaste o preocupaste sin necesidad y otra en la que perdiste una oportunidad (mínimo 120 palabras). Usa needn't have, didn't need to, could have y al menos dos expresiones de probabilidad.",
+        "min": 120,
+        "keys": [
+         [
+          "needn't have",
+          "need not have"
+         ],
+         [
+          "didn't need to",
+          "did not need to"
+         ],
+         [
+          "could have",
+          "might have"
+         ],
+         [
+          "bound to",
+          "likely to",
+          "may well",
+          "in all likelihood",
+          "might as well"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "You ___ washed the dishes; we have a dishwasher. (pero los lavaste)",
+       "o": [
+        "didn't need to",
+        "needn't have",
+        "mustn't have",
+        "shouldn't"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "With so many experts on the panel, someone ___ point out the flaw in the study.",
+       "o": [
+        "is bound to",
+        "is probable to",
+        "may well to",
+        "might as well"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u2-l2",
+      "title": "Hedging: el lenguaje tentativo",
+      "goal": "Suavizar afirmaciones y mostrar cautela académica y profesional sin sonar inseguro.",
+      "theory": [
+       {
+        "p": "El **hedging** consiste en **matizar** lo que afirmas para no sonar dogmático. En inglés académico y profesional es casi obligatorio: una afirmación absoluta ('This proves that...') suena ingenua o arrogante."
+       },
+       {
+        "p": "Recursos principales: verbos como **appear to / seem to / tend to**, la fórmula impersonal **it would seem that**, expresiones como **there is some evidence that**, **it is widely assumed that** y adverbios como **presumably, arguably, apparently**."
+       },
+       {
+        "ex": [
+         [
+          "The new drug appears to reduce symptoms in most patients.",
+          "El nuevo medicamento parece reducir los síntomas en la mayoría de los pacientes."
+         ],
+         [
+          "It would seem that the policy has had little effect.",
+          "Al parecer, la política ha tenido poco efecto."
+         ],
+         [
+          "There is some evidence that sleep deprivation affects memory.",
+          "Hay ciertos indicios de que la falta de sueño afecta la memoria."
+         ],
+         [
+          "It is widely assumed that remote work lowers productivity, but the data are mixed.",
+          "Se suele dar por hecho que el trabajo remoto baja la productividad, pero los datos son contradictorios."
+         ],
+         [
+          "Presumably, the delay was caused by the strike.",
+          "Es de suponer que el retraso se debió a la huelga."
+         ]
+        ]
+       },
+       {
+        "p": "También puedes matizar la **cantidad** y el **grado**: **to some extent, by and large, in most cases, a considerable number of**. Y usar modales: **may, might, could** en lugar de will o is."
+       },
+       {
+        "ex": [
+         [
+          "To some extent, the crisis was predictable.",
+          "Hasta cierto punto, la crisis era previsible."
+         ],
+         [
+          "By and large, the feedback has been positive.",
+          "En general, los comentarios han sido positivos."
+         ],
+         [
+          "These findings could indicate a broader trend.",
+          "Estos hallazgos podrían indicar una tendencia más amplia."
+         ]
+        ]
+       },
+       {
+        "tip": "No exageres: apilar demasiados matices ('It might possibly perhaps seem...') suena evasivo. Con uno o dos basta. Ojo: presumably no es 'presumiblemente' en el sentido de 'presumido'; significa 'es de suponer'. Y evidence es incontable: some evidence, a piece of evidence, nunca 'an evidence' ni 'evidences'."
+       }
+      ],
+      "vocab": [
+       [
+        "appear to",
+        "expresión",
+        "parecer (+ infinitivo)",
+        "The results appear to confirm our hypothesis."
+       ],
+       [
+        "would seem",
+        "expresión",
+        "al parecer, parecería",
+        "It would seem that the figures were miscalculated."
+       ],
+       [
+        "there is some evidence that",
+        "expresión",
+        "hay ciertos indicios de que",
+        "There is some evidence that the treatment works."
+       ],
+       [
+        "it is widely assumed that",
+        "expresión",
+        "se suele dar por hecho que",
+        "It is widely assumed that bilingual children learn faster."
+       ],
+       [
+        "presumably",
+        "adverbio",
+        "es de suponer, supuestamente",
+        "Presumably, the files were deleted by mistake."
+       ],
+       [
+        "arguably",
+        "adverbio",
+        "posiblemente, se podría decir que",
+        "She is arguably the best novelist of her generation."
+       ],
+       [
+        "tend to",
+        "expresión",
+        "tender a, soler",
+        "Older users tend to prefer phone support."
+       ],
+       [
+        "to some extent",
+        "expresión",
+        "hasta cierto punto",
+        "To some extent, the criticism is justified."
+       ],
+       [
+        "by and large",
+        "expresión",
+        "en general, por lo general",
+        "By and large, the reforms have worked."
+       ],
+       [
+        "allegedly",
+        "adverbio",
+        "presuntamente",
+        "The minister allegedly accepted bribes."
+       ],
+       [
+        "tentative",
+        "adjetivo",
+        "provisional, tentativo",
+        "We reached a tentative agreement."
+       ],
+       [
+        "inconclusive",
+        "adjetivo",
+        "no concluyente",
+        "The evidence remains inconclusive."
+       ],
+       [
+        "plausible",
+        "adjetivo",
+        "verosímil, creíble",
+        "That's a plausible explanation."
+       ],
+       [
+        "caveat",
+        "sustantivo",
+        "salvedad, advertencia",
+        "One caveat: the sample was very small."
+       ],
+       [
+        "it remains to be seen",
+        "expresión",
+        "está por verse",
+        "It remains to be seen whether the plan will work."
+       ],
+       [
+        "as far as I can tell",
+        "expresión",
+        "por lo que veo, hasta donde sé",
+        "As far as I can tell, nobody has complained."
+       ],
+       [
+        "somewhat",
+        "adverbio",
+        "algo, un tanto",
+        "The report is somewhat misleading."
+       ],
+       [
+        "suggest",
+        "verbo",
+        "indicar, sugerir (datos)",
+        "The data suggest a link between the two."
+       ],
+       [
+        "shed light on",
+        "colocación",
+        "arrojar luz sobre",
+        "The study sheds light on consumer behavior."
+       ],
+       [
+        "err on the side of caution",
+        "modismo",
+        "pecar de prudente",
+        "We'd rather err on the side of caution."
+       ]
+      ],
+      "dialogue": {
+       "title": "Revisando el informe",
+       "scene": "La investigadora Catalina revisa con su jefe Martin el borrador de un informe sobre el trabajo remoto antes de enviarlo a la junta directiva.",
+       "a": "Martin",
+       "b": "Catalina",
+       "lines": [
+        [
+         "A",
+         "I've read your draft. The analysis is solid, but some of the claims sound a bit too categorical.",
+         "Leí tu borrador. El análisis es sólido, pero algunas afirmaciones suenan demasiado categóricas."
+        ],
+        [
+         "B",
+         "Which ones? I thought the data were pretty clear.",
+         "¿Cuáles? Pensé que los datos eran bastante claros."
+        ],
+        [
+         "A",
+         "Here, for instance: 'Remote work increases productivity.' The survey only covered two departments.",
+         "Aquí, por ejemplo: 'El trabajo remoto aumenta la productividad'. La encuesta solo cubrió dos departamentos."
+        ],
+        [
+         "B",
+         "Fair point. I could say 'Remote work appears to increase productivity, at least in the departments surveyed.'",
+         "Tienes razón. Podría decir 'El trabajo remoto parece aumentar la productividad, al menos en los departamentos encuestados'."
+        ],
+        [
+         "A",
+         "Much better. And add a caveat about the sample size.",
+         "Mucho mejor. Y agrega una salvedad sobre el tamaño de la muestra."
+        ],
+        [
+         "B",
+         "Done. What about the section on employee wellbeing?",
+         "Listo. ¿Y la sección sobre el bienestar de los empleados?"
+        ],
+        [
+         "A",
+         "It's plausible, but the evidence is inconclusive. I'd write 'There is some evidence that...' rather than 'This shows that...'.",
+         "Es verosímil, pero la evidencia no es concluyente. Yo escribiría 'Hay ciertos indicios de que...' en vez de 'Esto demuestra que...'."
+        ],
+        [
+         "B",
+         "I see. And for the paragraph on managers, maybe 'It is widely assumed that managers resist remote work, but our findings suggest otherwise.'",
+         "Entiendo. Y para el párrafo sobre los gerentes, quizás 'Se suele dar por hecho que los gerentes se resisten al trabajo remoto, pero nuestros hallazgos indican lo contrario'."
+        ],
+        [
+         "A",
+         "Perfect. That way you challenge the assumption without overstating your case.",
+         "Perfecto. Así cuestionas el supuesto sin exagerar tu argumento."
+        ],
+        [
+         "B",
+         "Won't the board think we're being evasive, though?",
+         "Pero, ¿la junta no va a pensar que estamos siendo evasivos?"
+        ],
+        [
+         "A",
+         "Not if you're specific. By and large, directors trust cautious reports more than enthusiastic ones.",
+         "No si eres específica. En general, los directivos confían más en los informes prudentes que en los entusiastas."
+        ],
+        [
+         "B",
+         "That makes sense. Presumably they've seen plenty of consultants promising miracles.",
+         "Tiene sentido. Es de suponer que han visto muchos consultores prometiendo milagros."
+        ],
+        [
+         "A",
+         "Exactly. Arguably, our credibility is the most valuable thing in this report.",
+         "Exacto. Se podría decir que nuestra credibilidad es lo más valioso de este informe."
+        ],
+        [
+         "B",
+         "Then I'll err on the side of caution throughout. Whether they approve the pilot scheme remains to be seen.",
+         "Entonces voy a pecar de prudente en todo el texto. Está por verse si aprueban el plan piloto."
+        ],
+        [
+         "A",
+         "As far as I can tell, they're leaning towards yes. Send it over when it's ready.",
+         "Por lo que veo, se inclinan por el sí. Mándamelo cuando esté listo."
+        ],
+        [
+         "B",
+         "I'll have it on your desk by tomorrow morning.",
+         "Lo tendrás en tu escritorio mañana por la mañana."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "¿Cuál es la versión más matizada (hedged)?",
+        "o": [
+         "This proves that the vaccine is safe.",
+         "The vaccine is definitely safe.",
+         "The data would seem to indicate that the vaccine is safe.",
+         "Everybody knows the vaccine is safe."
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "There is ___ evidence that the scheme has reduced crime.",
+        "o": [
+         "an",
+         "some",
+         "many",
+         "a few"
+        ],
+        "a": 1,
+        "x": "evidence es incontable."
+       },
+       {
+        "t": "mc",
+        "q": "The suspect ___ broke into the building at midnight. (presuntamente)",
+        "o": [
+         "arguably",
+         "presumably",
+         "allegedly",
+         "somewhat"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "It is widely ___ that young people don't read newspapers. (se da por hecho)",
+        "ans": [
+         "assumed",
+         "believed"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Although the results appear to support the hypothesis, the sample was relatively small, so further research is needed before any firm conclusions can be drawn.",
+        "q": "¿Por qué no se pueden sacar conclusiones firmes todavía?",
+        "o": [
+         "Porque los resultados contradicen la hipótesis",
+         "Porque la muestra era relativamente pequeña",
+         "Porque la investigación fue cancelada",
+         "Porque no hubo resultados"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "It would seem that, by and large, the new policy has been well received."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "results",
+         "appear",
+         "to",
+         "confirm",
+         "our",
+         "hypothesis."
+        ],
+        "es": "Los resultados parecen confirmar nuestra hipótesis."
+       },
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "remains",
+         "to",
+         "be",
+         "seen",
+         "whether",
+         "the",
+         "plan",
+         "will",
+         "work."
+        ],
+        "es": "Está por verse si el plan funcionará."
+       },
+       {
+        "t": "dict",
+        "say": "One caveat: the sample was very small."
+       },
+       {
+        "t": "dict",
+        "say": "The evidence remains inconclusive."
+       },
+       {
+        "t": "mc",
+        "q": "'Hasta cierto punto' es:",
+        "o": [
+         "by and large",
+         "to some extent",
+         "as far as I can tell",
+         "presumably"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Older customers ___ to prefer talking to a real person. (suelen)",
+        "ans": [
+         "tend"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "She is arguably the most influential economist of her generation, although some of her early predictions turned out to be somewhat inaccurate.",
+        "q": "¿Qué se dice de sus primeras predicciones?",
+        "o": [
+         "Que fueron totalmente exactas",
+         "Que resultaron algo inexactas",
+         "Que nunca se publicaron",
+         "Que la hicieron famosa"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un párrafo de estilo académico (mínimo 120 palabras) sobre el efecto de las redes sociales en la salud mental de los adolescentes. Presenta los datos con cautela, incluye una salvedad y evita afirmaciones absolutas.",
+        "min": 120,
+        "keys": [
+         [
+          "appear to",
+          "seem to",
+          "would seem",
+          "tend to"
+         ],
+         [
+          "there is some evidence",
+          "it is widely assumed",
+          "it is widely believed",
+          "the data suggest"
+         ],
+         [
+          "presumably",
+          "arguably",
+          "to some extent",
+          "by and large"
+         ],
+         [
+          "caveat",
+          "however",
+          "although",
+          "inconclusive",
+          "remains to be seen"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "¿Qué frase expresa una idea con cautela académica?",
+       "o": [
+        "Social media destroys teenagers' brains.",
+        "It would seem that heavy social media use may affect concentration.",
+        "Social media always causes depression.",
+        "It is a fact that phones are bad."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___, the missing documents were taken by someone with access to the office. (es de suponer)",
+       "o": [
+        "Presumably",
+        "Allegedly that",
+        "By and large",
+        "To some extent"
+       ],
+       "a": 0
+      },
+      "reading": 1,
+      "words": []
+     },
+     {
+      "id": "c1-u2-l3",
+      "title": "El subjuntivo y las estructuras formales",
+      "goal": "Usar el subjuntivo inglés tras verbos y adjetivos de exigencia, y fórmulas formales fijas.",
+      "theory": [
+       {
+        "p": "Después de verbos como **insist, recommend, suggest, demand, propose, request, urge** + **that**, el inglés formal usa el **subjuntivo**: el **verbo en forma base**, sin -s y sin cambio de tiempo, para todas las personas."
+       },
+       {
+        "ex": [
+         [
+          "The doctor insisted that he be admitted immediately.",
+          "El médico insistió en que lo hospitalizaran de inmediato."
+         ],
+         [
+          "We recommend that every employee complete the training.",
+          "Recomendamos que todo empleado complete la capacitación."
+         ],
+         [
+          "The union demanded that the decision be reversed.",
+          "El sindicato exigió que se revocara la decisión."
+         ]
+        ]
+       },
+       {
+        "p": "Lo mismo ocurre con adjetivos de importancia o necesidad: **it is vital / essential / crucial / imperative / important that** + sujeto + verbo base. La negación es **not + verbo base**: It is essential that the data not be shared."
+       },
+       {
+        "ex": [
+         [
+          "It is vital that she receive the documents before Monday.",
+          "Es fundamental que ella reciba los documentos antes del lunes."
+         ],
+         [
+          "It is imperative that the patient not eat anything after midnight.",
+          "Es imprescindible que el paciente no coma nada después de la medianoche."
+         ]
+        ]
+       },
+       {
+        "p": "Hay **fórmulas fijas** que conservan el subjuntivo: **if need be** (si hace falta), **suffice it to say** (baste decir), **be that as it may** (sea como fuere), **come what may** (pase lo que pase), **so be it** (que así sea), **far be it from me to** (lejos de mí...)."
+       },
+       {
+        "ex": [
+         [
+          "We'll work through the weekend if need be.",
+          "Trabajaremos el fin de semana si hace falta."
+         ],
+         [
+          "Suffice it to say that the meeting did not go well.",
+          "Baste decir que la reunión no salió bien."
+         ],
+         [
+          "Be that as it may, the deadline cannot be extended.",
+          "Sea como fuere, el plazo no se puede ampliar."
+         ]
+        ]
+       },
+       {
+        "tip": "En inglés británico informal también se oye should: They insisted that he should leave. Pero nunca digas 'I suggest you to call' (calco del español): di I suggest (that) you call o I suggest calling. Y no conjugues: 'It's vital that he receives' es aceptable en el habla británica, pero en registro formal se prefiere 'that he receive'."
+       }
+      ],
+      "vocab": [
+       [
+        "insist that",
+        "expresión",
+        "insistir en que",
+        "She insisted that he apologize in person."
+       ],
+       [
+        "recommend that",
+        "expresión",
+        "recomendar que",
+        "The auditors recommend that the policy be revised."
+       ],
+       [
+        "it is vital that",
+        "expresión",
+        "es fundamental que",
+        "It is vital that everyone be informed."
+       ],
+       [
+        "it is imperative that",
+        "expresión",
+        "es imprescindible que",
+        "It is imperative that the report be accurate."
+       ],
+       [
+        "if need be",
+        "expresión",
+        "si hace falta",
+        "I'll call him myself if need be."
+       ],
+       [
+        "suffice it to say",
+        "expresión",
+        "baste decir",
+        "Suffice it to say, he wasn't invited again."
+       ],
+       [
+        "be that as it may",
+        "conector",
+        "sea como fuere",
+        "Be that as it may, we must proceed."
+       ],
+       [
+        "come what may",
+        "expresión",
+        "pase lo que pase",
+        "Come what may, I'll support you."
+       ],
+       [
+        "far be it from me to",
+        "expresión",
+        "lejos de mí (+ infinitivo)",
+        "Far be it from me to criticize, but this is wrong."
+       ],
+       [
+        "so be it",
+        "expresión",
+        "que así sea, pues bien",
+        "If they want a fight, so be it."
+       ],
+       [
+        "demand",
+        "verbo",
+        "exigir",
+        "The residents demanded that the factory be closed."
+       ],
+       [
+        "urge",
+        "verbo",
+        "instar, exhortar",
+        "We urge that the matter be dealt with promptly."
+       ],
+       [
+        "stipulate",
+        "verbo",
+        "estipular",
+        "The contract stipulates that payment be made in advance."
+       ],
+       [
+        "mandatory",
+        "adjetivo",
+        "obligatorio",
+        "Attendance is mandatory for all staff."
+       ],
+       [
+        "waive",
+        "verbo",
+        "renunciar a, eximir de",
+        "The bank agreed to waive the fee."
+       ],
+       [
+        "lest",
+        "conector",
+        "no sea que, para que no",
+        "He spoke quietly lest he wake the baby."
+       ],
+       [
+        "heaven forbid",
+        "expresión",
+        "Dios no lo quiera",
+        "Heaven forbid that anyone should find out."
+       ],
+       [
+        "as it were",
+        "expresión",
+        "por así decirlo",
+        "He was, as it were, a prisoner of his own success."
+       ],
+       [
+        "compliance",
+        "sustantivo",
+        "cumplimiento (de normas)",
+        "Compliance with the new rules is required."
+       ],
+       [
+        "at the discretion of",
+        "colocación",
+        "a criterio de",
+        "Refunds are at the discretion of the manager."
+       ]
+      ],
+      "dialogue": {
+       "title": "El comité de ética",
+       "scene": "La abogada Daniela Restrepo y el director de operaciones Graham preparan las recomendaciones de un comité tras un incidente de seguridad de datos.",
+       "a": "Graham",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "So, what is the committee going to recommend?",
+         "Entonces, ¿qué va a recomendar el comité?"
+        ],
+        [
+         "B",
+         "First, we recommend that every employee complete a data protection course within thirty days.",
+         "Primero, recomendamos que todo empleado complete un curso de protección de datos dentro de treinta días."
+        ],
+        [
+         "A",
+         "Thirty days is tight. Is it mandatory?",
+         "Treinta días es poco tiempo. ¿Es obligatorio?"
+        ],
+        [
+         "B",
+         "Absolutely. It is imperative that nobody handle client files without the certificate.",
+         "Totalmente. Es imprescindible que nadie maneje archivos de clientes sin el certificado."
+        ],
+        [
+         "A",
+         "Far be it from me to question the committee, but some departments are already overloaded.",
+         "Lejos de mí cuestionar al comité, pero algunos departamentos ya están sobrecargados."
+        ],
+        [
+         "B",
+         "Be that as it may, the regulator insisted that we act before the next audit.",
+         "Sea como fuere, el ente regulador insistió en que actuemos antes de la próxima auditoría."
+        ],
+        [
+         "A",
+         "Understood. What else?",
+         "Entendido. ¿Qué más?"
+        ],
+        [
+         "B",
+         "The contract with our IT provider stipulates that any breach be reported within 24 hours. That clearly didn't happen.",
+         "El contrato con nuestro proveedor de tecnología estipula que cualquier brecha se reporte dentro de 24 horas. Eso claramente no ocurrió."
+        ],
+        [
+         "A",
+         "Suffice it to say that I had a very uncomfortable call with their CEO.",
+         "Baste decir que tuve una llamada muy incómoda con su director general."
+        ],
+        [
+         "B",
+         "I can imagine. We're also going to demand that they waive this year's maintenance fee.",
+         "Me imagino. También vamos a exigir que renuncien a la tarifa de mantenimiento de este año."
+        ],
+        [
+         "A",
+         "They'll refuse, I'm sure. And if they do?",
+         "Se van a negar, estoy seguro. ¿Y si lo hacen?"
+        ],
+        [
+         "B",
+         "Then we'll terminate the contract, if need be. Compliance isn't optional.",
+         "Entonces terminaremos el contrato, si hace falta. El cumplimiento no es opcional."
+        ],
+        [
+         "A",
+         "If that's what it takes, so be it. It's vital that the clients regain their trust in us.",
+         "Si eso es lo que se necesita, que así sea. Es fundamental que los clientes recuperen la confianza en nosotros."
+        ],
+        [
+         "B",
+         "I agree. I'll draft the letter carefully, lest they accuse us of breaching the agreement ourselves.",
+         "Estoy de acuerdo. Redactaré la carta con cuidado, no sea que nos acusen de incumplir el acuerdo nosotros mismos."
+        ],
+        [
+         "A",
+         "Good. Come what may, I want this resolved before the end of the quarter.",
+         "Bien. Pase lo que pase, quiero esto resuelto antes de que termine el trimestre."
+        ],
+        [
+         "B",
+         "You'll have the final recommendations on Thursday.",
+         "Tendrás las recomendaciones finales el jueves."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The board recommended that the CEO ___ immediately.",
+        "o": [
+         "resigns",
+         "resign",
+         "resigned",
+         "to resign"
+        ],
+        "a": 1,
+        "x": "Subjuntivo: verbo base para todas las personas."
+       },
+       {
+        "t": "mc",
+        "q": "It is essential that the samples ___ kept at a low temperature.",
+        "o": [
+         "are",
+         "be",
+         "will be",
+         "being"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál frase es correcta?",
+        "o": [
+         "I suggest you to call the lawyer.",
+         "I suggest that you call the lawyer.",
+         "I suggest you calling the lawyer.",
+         "I suggest to you call the lawyer."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "We'll hire extra staff if ___ be. (si hace falta)",
+        "ans": [
+         "need"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The inspector insisted that the restaurant be closed until the kitchen had been completely renovated and all staff had received hygiene training.",
+        "q": "¿Hasta cuándo debía permanecer cerrado el restaurante?",
+        "o": [
+         "Hasta el fin de semana",
+         "Hasta renovar la cocina y capacitar al personal",
+         "Hasta pagar una multa",
+         "Hasta contratar un nuevo chef"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "It is imperative that every member of staff be informed before the changes take effect."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "union",
+         "demanded",
+         "that",
+         "the",
+         "decision",
+         "be",
+         "reversed."
+        ],
+        "es": "El sindicato exigió que se revocara la decisión."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Suffice",
+         "it",
+         "to",
+         "say",
+         "that",
+         "he",
+         "wasn't",
+         "invited",
+         "again."
+        ],
+        "es": "Baste decir que no lo volvieron a invitar."
+       },
+       {
+        "t": "dict",
+        "say": "Be that as it may, we must proceed."
+       },
+       {
+        "t": "dict",
+        "say": "Come what may, I'll support you."
+       },
+       {
+        "t": "mc",
+        "q": "Negación del subjuntivo: It is vital that the information ___ leaked.",
+        "o": [
+         "doesn't be",
+         "not be",
+         "isn't being",
+         "won't"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "He whispered ___ he wake the children. (no fuera que)",
+        "ans": [
+         "lest"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Far be it from me to tell you how to run your business, but I would strongly urge that you get legal advice before signing anything.",
+        "q": "¿Qué le aconseja el hablante?",
+        "o": [
+         "Firmar cuanto antes",
+         "Buscar asesoría legal antes de firmar",
+         "Vender el negocio",
+         "Cambiar de socio"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Redacta un memorando formal para el personal de una empresa (mínimo 130 palabras) con nuevas normas de seguridad. Usa al menos tres estructuras con subjuntivo y dos fórmulas fijas de la lección.",
+        "min": 130,
+        "keys": [
+         [
+          "recommend that",
+          "insist that",
+          "demand that",
+          "request that",
+          "urge that"
+         ],
+         [
+          "it is vital that",
+          "it is essential that",
+          "it is imperative that",
+          "it is crucial that"
+         ],
+         [
+          "if need be",
+          "suffice it to say",
+          "be that as it may",
+          "come what may"
+         ],
+         [
+          "mandatory",
+          "compliance",
+          "stipulate"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The committee insisted that she ___ present at the hearing.",
+       "o": [
+        "is",
+        "was",
+        "be",
+        "will be"
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___ that the project was a disaster from start to finish.",
+       "o": [
+        "Suffice it to say",
+        "Suffice to saying",
+        "It suffices say",
+        "Sufficient saying"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u2-l4",
+      "title": "Condicionales avanzados: inversión y alternativas a if",
+      "goal": "Formular hipótesis con inversión formal, but for, otherwise, supposing y otras alternativas a if.",
+      "theory": [
+       {
+        "p": "En registro formal se puede **eliminar if** e **invertir** sujeto y auxiliar: **Should you** (1.er condicional, si por casualidad), **Were I / Were it** (2.º), **Had they** (3.º). El significado no cambia; solo sube el registro."
+       },
+       {
+        "ex": [
+         [
+          "Should you require further information, please contact our office.",
+          "Si llegara a necesitar más información, comuníquese con nuestra oficina."
+         ],
+         [
+          "Were I in your position, I would accept the offer.",
+          "Si yo estuviera en tu lugar, aceptaría la oferta."
+         ],
+         [
+          "Had they invested earlier, they would have made a fortune.",
+          "Si hubieran invertido antes, habrían hecho una fortuna."
+         ],
+         [
+          "Were the government to raise taxes, consumption would fall.",
+          "Si el gobierno subiera los impuestos, el consumo caería."
+         ]
+        ]
+       },
+       {
+        "p": "La negación invertida no se contrae: **Had it not been for** (no 'Hadn't it been for'), **Were it not for**, **Should it not arrive**."
+       },
+       {
+        "p": "Alternativas a if: **but for + sustantivo** (de no ser por), **if it weren't / hadn't been for** (si no fuera / hubiera sido por), **otherwise** (de lo contrario), **supposing / suppose** (suponiendo que), **provided / providing that** (siempre y cuando), **assuming that**, **in the event that**."
+       },
+       {
+        "ex": [
+         [
+          "But for your help, we would never have finished on time.",
+          "De no ser por tu ayuda, nunca habríamos terminado a tiempo."
+         ],
+         [
+          "If it weren't for the music, the film would be unbearable.",
+          "Si no fuera por la música, la película sería insoportable."
+         ],
+         [
+          "Leave now; otherwise you'll miss the flight.",
+          "Sal ya; de lo contrario vas a perder el vuelo."
+         ],
+         [
+          "Supposing the client says no, what's our plan B?",
+          "Suponiendo que el cliente diga que no, ¿cuál es nuestro plan B?"
+         ]
+        ]
+       },
+       {
+        "tip": "Error frecuente: 'If I would have known...' es incorrecto; di If I had known o Had I known. Con but for no uses verbo conjugado: but for the rain (no 'but for it rained'). Y otherwise va después de una oración completa, no en lugar de if: 'Otherwise you study, you'll fail' es incorrecto."
+       }
+      ],
+      "vocab": [
+       [
+        "should you",
+        "expresión",
+        "si llegara(s) a, en caso de que",
+        "Should you change your mind, let us know."
+       ],
+       [
+        "were I",
+        "expresión",
+        "si yo fuera / estuviera",
+        "Were I the manager, I'd cut the budget."
+       ],
+       [
+        "had they",
+        "expresión",
+        "si ellos hubieran",
+        "Had they listened, none of this would have happened."
+       ],
+       [
+        "but for",
+        "preposición",
+        "de no ser por",
+        "But for the referee, we would have won."
+       ],
+       [
+        "otherwise",
+        "adverbio",
+        "de lo contrario, si no",
+        "Save the file; otherwise you'll lose it."
+       ],
+       [
+        "if it weren't for",
+        "expresión",
+        "si no fuera por",
+        "If it weren't for her, I'd have quit."
+       ],
+       [
+        "were it not for",
+        "expresión",
+        "si no fuera por (formal)",
+        "Were it not for the subsidies, the farm would close."
+       ],
+       [
+        "had it not been for",
+        "expresión",
+        "si no hubiera sido por",
+        "Had it not been for the alarm, we would have died."
+       ],
+       [
+        "supposing",
+        "conector",
+        "suponiendo que",
+        "Supposing you won the lottery, what would you do?"
+       ],
+       [
+        "provided that",
+        "conector",
+        "siempre y cuando",
+        "You can borrow it provided that you return it."
+       ],
+       [
+        "assuming that",
+        "conector",
+        "suponiendo que, dando por hecho que",
+        "Assuming that the data are correct, we're in trouble."
+       ],
+       [
+        "in the event that",
+        "conector",
+        "en caso de que",
+        "In the event that the flight is cancelled, you'll be refunded."
+       ],
+       [
+        "barring",
+        "preposición",
+        "salvo, a menos que haya",
+        "Barring any delays, we'll arrive at noon."
+       ],
+       [
+        "on condition that",
+        "conector",
+        "con la condición de que",
+        "He agreed on condition that his name be kept secret."
+       ],
+       [
+        "even if",
+        "conector",
+        "aun si, aunque",
+        "Even if it rains, the match will go ahead."
+       ],
+       [
+        "what if",
+        "expresión",
+        "¿y si...?",
+        "What if they find out?"
+       ],
+       [
+        "contingency plan",
+        "colocación",
+        "plan de contingencia",
+        "We need a contingency plan."
+       ],
+       [
+        "fallback",
+        "sustantivo",
+        "alternativa de respaldo",
+        "Freelancing is my fallback if this job ends."
+       ],
+       [
+        "hypothetically",
+        "adverbio",
+        "hipotéticamente",
+        "Hypothetically, could we sue them?"
+       ],
+       [
+        "in the absence of",
+        "colocación",
+        "a falta de, en ausencia de",
+        "In the absence of evidence, he was released."
+       ]
+      ],
+      "dialogue": {
+       "title": "El plan B",
+       "scene": "Sofía, gerente de un festival de música en Medellín, y su socio británico Oliver revisan qué hacer si algo sale mal el día del evento.",
+       "a": "Oliver",
+       "b": "Sofía",
+       "lines": [
+        [
+         "A",
+         "Let's go through the risks one more time. Supposing it pours with rain on Saturday?",
+         "Repasemos los riesgos una vez más. ¿Suponiendo que llueva a cántaros el sábado?"
+        ],
+        [
+         "B",
+         "Should it rain, we'll move the main acts to the covered stage. That's our contingency plan.",
+         "Si llegara a llover, pasaremos los artistas principales a la tarima cubierta. Ese es nuestro plan de contingencia."
+        ],
+        [
+         "A",
+         "And if the headliner cancels? Last year that almost ruined everything.",
+         "¿Y si el artista principal cancela? El año pasado eso casi arruina todo."
+        ],
+        [
+         "B",
+         "Had we had a fallback last year, we wouldn't have lost so much money. This time we've got two reserve bands.",
+         "Si hubiéramos tenido una alternativa el año pasado, no habríamos perdido tanta plata. Esta vez tenemos dos bandas de reserva."
+        ],
+        [
+         "A",
+         "Good. Were I in charge of ticketing, I'd also offer partial refunds, just in case.",
+         "Bien. Si yo estuviera a cargo de la boletería, también ofrecería reembolsos parciales, por si acaso."
+        ],
+        [
+         "B",
+         "We do, provided that people request them before the gates open.",
+         "Los ofrecemos, siempre y cuando la gente los solicite antes de que abran las puertas."
+        ],
+        [
+         "A",
+         "What about security? I've heard the police may be short-staffed that weekend.",
+         "¿Y la seguridad? Oí que la policía puede estar corta de personal ese fin de semana."
+        ],
+        [
+         "B",
+         "In the event that they can't send enough officers, the private company will double its staff.",
+         "En caso de que no puedan enviar suficientes agentes, la empresa privada duplicará su personal."
+        ],
+        [
+         "A",
+         "That'll be expensive.",
+         "Eso va a salir caro."
+        ],
+        [
+         "B",
+         "It will, but otherwise we'd risk losing our licence. Barring a disaster, the budget can absorb it.",
+         "Sí, pero de lo contrario nos arriesgaríamos a perder el permiso. Salvo un desastre, el presupuesto lo puede absorber."
+        ],
+        [
+         "A",
+         "Honestly, but for your planning, this festival wouldn't exist.",
+         "Sinceramente, de no ser por tu planeación, este festival no existiría."
+        ],
+        [
+         "B",
+         "And if it weren't for your contacts, we'd have no international artists. It's teamwork.",
+         "Y si no fuera por tus contactos, no tendríamos artistas internacionales. Es trabajo en equipo."
+        ],
+        [
+         "A",
+         "Hypothetically, what if ticket sales are lower than expected?",
+         "Hipotéticamente, ¿y si la venta de boletas es más baja de lo esperado?"
+        ],
+        [
+         "B",
+         "Assuming that we sell at least seventy percent, we break even. Even if we don't, the sponsors have guaranteed a minimum.",
+         "Suponiendo que vendamos al menos el setenta por ciento, quedamos tablas. Aun si no, los patrocinadores garantizaron un mínimo."
+        ],
+        [
+         "A",
+         "Then I think we're ready. Had you told me two years ago that we'd get here, I wouldn't have believed you.",
+         "Entonces creo que estamos listos. Si me hubieras dicho hace dos años que llegaríamos hasta aquí, no te lo habría creído."
+        ],
+        [
+         "B",
+         "Neither would I. Now let's just hope the weather behaves.",
+         "Yo tampoco. Ahora solo esperemos que el clima colabore."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ you need any assistance, our staff will be happy to help.",
+        "o": [
+         "Were",
+         "Had",
+         "Should",
+         "Would"
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "___ I known about the strike, I would have taken another route.",
+        "o": [
+         "If",
+         "Had",
+         "Should",
+         "Were"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "___ his quick reaction, the child would have been hurt.",
+        "o": [
+         "But for",
+         "Otherwise",
+         "Unless",
+         "Provided"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "___ it not been for the GPS, we would have got lost. (si no hubiera sido por)",
+        "ans": [
+         "Had",
+         "had"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Were the central bank to raise interest rates again, many small businesses would struggle to repay their loans, and unemployment could rise sharply.",
+        "q": "Según el hablante, ¿qué pasaría si el banco central subiera las tasas otra vez?",
+        "o": [
+         "Las pequeñas empresas crecerían",
+         "A muchas pequeñas empresas les costaría pagar sus préstamos",
+         "El desempleo bajaría",
+         "Los préstamos serían más baratos"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Had it not been for your support, I would never have finished my degree."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Were",
+         "I",
+         "in",
+         "your",
+         "position,",
+         "I",
+         "would",
+         "accept",
+         "the",
+         "offer."
+        ],
+        "es": "Si yo estuviera en tu lugar, aceptaría la oferta."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Should",
+         "you",
+         "change",
+         "your",
+         "mind,",
+         "let",
+         "us",
+         "know."
+        ],
+        "es": "Si llegas a cambiar de opinión, avísanos."
+       },
+       {
+        "t": "dict",
+        "say": "Barring any delays, we'll arrive at noon."
+       },
+       {
+        "t": "dict",
+        "say": "Save the file; otherwise you'll lose it."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál frase es correcta?",
+        "o": [
+         "If I would have known, I would have come.",
+         "Hadn't it been for you, I'd have failed.",
+         "Had I known, I would have come.",
+         "Should I would know, I'd tell you."
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "You can use my car ___ that you fill up the tank. (siempre y cuando)",
+        "ans": [
+         "provided",
+         "providing"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If it weren't for my grandmother, who looked after my kids every afternoon, I could never have gone back to university.",
+        "q": "¿Qué hizo posible que volviera a la universidad?",
+        "o": [
+         "Una beca",
+         "Que su abuela cuidara a sus hijos",
+         "Un trabajo de medio tiempo",
+         "Clases en línea"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre una decisión importante de tu vida (mínimo 130 palabras): qué habría pasado si hubieras elegido otra cosa y qué harías hoy en distintas situaciones hipotéticas. Usa al menos dos inversiones y dos alternativas a if.",
+        "min": 130,
+        "keys": [
+         [
+          "had i",
+          "had it not been",
+          "had we"
+         ],
+         [
+          "were i",
+          "were it not",
+          "should you",
+          "should i"
+         ],
+         [
+          "but for",
+          "if it weren't for",
+          "if it hadn't been for",
+          "otherwise"
+         ],
+         [
+          "supposing",
+          "provided that",
+          "assuming",
+          "in the event that",
+          "even if"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ the government to ban cars in the city centre, air quality would improve dramatically.",
+       "o": [
+        "Should",
+        "Were",
+        "Had",
+        "If"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Hurry up; ___ we'll miss the opening speech.",
+       "o": [
+        "unless",
+        "but for",
+        "otherwise",
+        "provided"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u2-l5",
+      "title": "El futuro en el pasado y los planes truncados",
+      "goal": "Narrar lo que iba a pasar, lo que estuvo a punto de pasar y los planes que no se cumplieron.",
+      "theory": [
+       {
+        "p": "El **futuro en el pasado** mira hacia adelante desde un momento pasado: **was going to** (iba a), **was about to** (estaba a punto de), **was on the point of + -ing** (estaba a punto de, más formal), **was due to** (estaba previsto que) y **would** (en estilo narrativo)."
+       },
+       {
+        "ex": [
+         [
+          "I was about to leave when the phone rang.",
+          "Estaba a punto de salir cuando sonó el teléfono."
+         ],
+         [
+          "She was on the point of resigning when they offered her a promotion.",
+          "Estaba a punto de renunciar cuando le ofrecieron un ascenso."
+         ],
+         [
+          "The plane was due to land at six, but it was diverted.",
+          "Estaba previsto que el avión aterrizara a las seis, pero lo desviaron."
+         ]
+        ]
+       },
+       {
+        "p": "Para **planes que no se cumplieron**: **was to have + participio** (formal: estaba previsto que... pero no ocurrió), **was supposed to** (se suponía que), **would have liked to** (me habría gustado) y **was going to... but**."
+       },
+       {
+        "ex": [
+         [
+          "The minister was to have opened the bridge, but she fell ill.",
+          "La ministra iba a inaugurar el puente, pero se enfermó."
+         ],
+         [
+          "We were supposed to sign the contract yesterday.",
+          "Se suponía que firmábamos el contrato ayer."
+         ],
+         [
+          "I would have liked to say goodbye to her.",
+          "Me habría gustado despedirme de ella."
+         ]
+        ]
+       },
+       {
+        "p": "**was / were to + infinitivo** (sin have) en narración expresa **destino**: algo que efectivamente pasó después. Es muy literario: **He left Bogotá in 1985; he was never to return.** (nunca habría de volver)."
+       },
+       {
+        "tip": "Ojo: 'I would have liked to have said' (doble perfecto) es común pero se considera redundante; mejor I would have liked to say o I would like to have said. Y no confundas was to have gone (no fue) con was to go (destino o plan sin saber el desenlace). En español 'iba a' sirve para todo; en inglés elige según el matiz."
+       }
+      ],
+      "vocab": [
+       [
+        "was to have + participio",
+        "expresión",
+        "estaba previsto que (pero no pasó)",
+        "The concert was to have taken place in May."
+       ],
+       [
+        "was about to",
+        "expresión",
+        "estaba a punto de",
+        "We were about to give up when help arrived."
+       ],
+       [
+        "was on the point of",
+        "expresión",
+        "estaba a punto de (+ -ing)",
+        "He was on the point of selling the company."
+       ],
+       [
+        "would have liked to",
+        "expresión",
+        "me / le habría gustado",
+        "She would have liked to study medicine."
+       ],
+       [
+        "was due to",
+        "expresión",
+        "estaba previsto que",
+        "The report was due to be published in June."
+       ],
+       [
+        "was supposed to",
+        "expresión",
+        "se suponía que",
+        "You were supposed to call me."
+       ],
+       [
+        "was never to",
+        "expresión",
+        "nunca habría de (destino)",
+        "She was never to see her homeland again."
+       ],
+       [
+        "on the verge of",
+        "colocación",
+        "al borde de, a punto de",
+        "The company was on the verge of bankruptcy."
+       ],
+       [
+        "fall through",
+        "phrasal verb",
+        "fracasar, venirse abajo (un plan)",
+        "The deal fell through at the last minute."
+       ],
+       [
+        "call off",
+        "phrasal verb",
+        "cancelar, suspender",
+        "They called off the wedding."
+       ],
+       [
+        "put on hold",
+        "colocación",
+        "dejar en pausa, aplazar",
+        "The project has been put on hold."
+       ],
+       [
+        "shelve",
+        "verbo",
+        "archivar, engavetar (un plan)",
+        "The government shelved the reform."
+       ],
+       [
+        "scrap",
+        "verbo",
+        "descartar, desechar",
+        "They scrapped the plan altogether."
+       ],
+       [
+        "at the eleventh hour",
+        "modismo",
+        "a última hora",
+        "The strike was averted at the eleventh hour."
+       ],
+       [
+        "the best-laid plans",
+        "modismo",
+        "hasta los planes mejor trazados (fallan)",
+        "The best-laid plans often go wrong."
+       ],
+       [
+        "pipe dream",
+        "modismo",
+        "sueño imposible, quimera",
+        "Owning a house here is a pipe dream."
+       ],
+       [
+        "derail",
+        "verbo",
+        "descarrilar, frustrar",
+        "The scandal derailed his campaign."
+       ],
+       [
+        "it wasn't meant to be",
+        "expresión",
+        "no estaba de Dios, no tenía que ser",
+        "We tried, but it wasn't meant to be."
+       ],
+       [
+        "be set to",
+        "expresión",
+        "estar a punto de, estar previsto",
+        "The firm was set to expand into Asia."
+       ],
+       [
+        "come to nothing",
+        "expresión",
+        "quedar en nada",
+        "All our efforts came to nothing."
+       ]
+      ],
+      "dialogue": {
+       "title": "El restaurante que no fue",
+       "scene": "Julián le cuenta a su amiga canadiense Emily por qué nunca abrió el restaurante que había planeado durante años.",
+       "a": "Emily",
+       "b": "Julián",
+       "lines": [
+        [
+         "A",
+         "Weren't you going to open a restaurant in Cartagena? Last time we spoke, it was all you talked about.",
+         "¿No ibas a abrir un restaurante en Cartagena? La última vez que hablamos, era de lo único que hablabas."
+        ],
+        [
+         "B",
+         "I was. In fact, it was to have opened last December, but the whole thing fell through.",
+         "Sí. De hecho, estaba previsto que abriera en diciembre pasado, pero todo se vino abajo."
+        ],
+        [
+         "A",
+         "What happened? You'd found the perfect location, hadn't you?",
+         "¿Qué pasó? Habías encontrado el local perfecto, ¿no?"
+        ],
+        [
+         "B",
+         "I had. We were about to sign the lease when the owner decided to sell the building instead.",
+         "Sí. Estábamos a punto de firmar el contrato de arriendo cuando el dueño decidió vender el edificio."
+        ],
+        [
+         "A",
+         "At the last minute? That's awful.",
+         "¿A última hora? Qué horror."
+        ],
+        [
+         "B",
+         "Literally at the eleventh hour. The renovation was due to start the following Monday.",
+         "Literalmente a última hora. La remodelación estaba programada para empezar el lunes siguiente."
+        ],
+        [
+         "A",
+         "Couldn't you find another place?",
+         "¿No pudiste encontrar otro lugar?"
+        ],
+        [
+         "B",
+         "We looked, but my business partner was on the point of moving to Spain, and without her investment it was a pipe dream.",
+         "Buscamos, pero mi socia estaba a punto de mudarse a España, y sin su inversión era una quimera."
+        ],
+        [
+         "A",
+         "So you put it on hold?",
+         "¿Entonces lo dejaste en pausa?"
+        ],
+        [
+         "B",
+         "At first, yes. Then the bank called off the loan, and we scrapped the plan altogether.",
+         "Al principio, sí. Luego el banco canceló el préstamo y descartamos el plan por completo."
+        ],
+        [
+         "A",
+         "I'm so sorry. You must have been devastated.",
+         "Lo siento mucho. Debiste haber quedado destrozado."
+        ],
+        [
+         "B",
+         "I was. I would have liked to at least try for a year. All that work came to nothing.",
+         "Sí. Me habría gustado al menos intentarlo un año. Todo ese trabajo quedó en nada."
+        ],
+        [
+         "A",
+         "Well, the best-laid plans, as they say...",
+         "Bueno, hasta los planes mejor trazados, como dicen..."
+        ],
+        [
+         "B",
+         "Exactly. Maybe it wasn't meant to be. And funnily enough, I was supposed to be cooking for tourists, but now I'm teaching cooking classes online.",
+         "Exacto. Quizás no tenía que ser. Y curiosamente, se suponía que iba a cocinar para turistas, pero ahora doy clases de cocina en línea."
+        ],
+        [
+         "A",
+         "And how's that going?",
+         "¿Y cómo te va con eso?"
+        ],
+        [
+         "B",
+         "Surprisingly well. Next month I'm set to launch my own course. This time nothing is going to derail it.",
+         "Sorprendentemente bien. El próximo mes lanzo mi propio curso. Esta vez nada lo va a frustrar."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I ___ leave the house when I remembered I'd left the oven on.",
+        "o": [
+         "was about to",
+         "was due",
+         "would have liked",
+         "am about to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The ceremony ___ held in the cathedral, but it was moved because of the earthquake.",
+        "o": [
+         "was to be having",
+         "was to have been",
+         "would be",
+         "was on the point of"
+        ],
+        "a": 1,
+        "x": "was to have + participio = plan previsto que no se cumplió."
+       },
+       {
+        "t": "mc",
+        "q": "She was on the point ___ the job when they offered her a raise.",
+        "o": [
+         "to quit",
+         "of quitting",
+         "quitting",
+         "for quit"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "We were ___ to arrive at nine, but the train was delayed. (se suponía)",
+        "ans": [
+         "supposed",
+         "meant"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The two companies were set to merge in January, but the deal fell through when regulators raised concerns about competition.",
+        "q": "¿Por qué no se realizó la fusión?",
+        "o": [
+         "Por falta de dinero",
+         "Porque los reguladores expresaron preocupaciones sobre la competencia",
+         "Porque un director renunció",
+         "Porque se aplazó a enero"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I would have liked to stay longer, but my flight was due to leave at six."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "deal",
+         "fell",
+         "through",
+         "at",
+         "the",
+         "last",
+         "minute."
+        ],
+        "es": "El negocio se vino abajo a último minuto."
+       },
+       {
+        "t": "order",
+        "words": [
+         "He",
+         "left",
+         "the",
+         "country",
+         "and",
+         "was",
+         "never",
+         "to",
+         "return."
+        ],
+        "es": "Se fue del país y nunca habría de volver."
+       },
+       {
+        "t": "dict",
+        "say": "The project has been put on hold."
+       },
+       {
+        "t": "dict",
+        "say": "All our efforts came to nothing."
+       },
+       {
+        "t": "mc",
+        "q": "'Estaba al borde de la quiebra' es:",
+        "o": [
+         "It was on the verge of bankruptcy.",
+         "It was due to bankruptcy.",
+         "It was set bankruptcy.",
+         "It was about bankruptcy."
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The government decided to ___ the reform until after the elections. (engavetar, archivar)",
+        "ans": [
+         "shelve",
+         "postpone"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "My grandfather was to have studied law in Bogotá, but his father fell ill, so he stayed on the farm. He would have liked to be a judge.",
+        "q": "¿Por qué el abuelo no estudió derecho?",
+        "o": [
+         "No lo aceptaron en la universidad",
+         "Su padre se enfermó y se quedó en la finca",
+         "Prefirió ser juez",
+         "No tenía dinero"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Cuenta la historia de un plan importante que no se cumplió (tuyo o de alguien que conozcas) (mínimo 130 palabras). Explica qué iba a pasar, qué estuvo a punto de ocurrir, por qué fracasó y qué te habría gustado hacer.",
+        "min": 130,
+        "keys": [
+         [
+          "was to have",
+          "were to have",
+          "was due to",
+          "was set to"
+         ],
+         [
+          "was about to",
+          "were about to",
+          "on the point of",
+          "on the verge of"
+         ],
+         [
+          "would have liked to"
+         ],
+         [
+          "fell through",
+          "called off",
+          "put on hold",
+          "scrapped",
+          "came to nothing"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The new airport ___ opened in 2020, but construction is still unfinished.",
+       "o": [
+        "was to have",
+        "was about to",
+        "would have liked to",
+        "was on the point of"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I ___ to meet the author, but she left before I could speak to her.",
+       "o": [
+        "would have liked",
+        "was to have",
+        "was on the point",
+        "was due"
+       ],
+       "a": 0
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "You ___ cooked; we had already eaten at the restaurant. (pero cocinaste)",
+      "o": [
+       "didn't need to",
+       "needn't have",
+       "mustn't have",
+       "couldn't"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "¿Cuál frase usa hedging de manera adecuada?",
+      "o": [
+       "This study proves everything.",
+       "There is some evidence that the policy has reduced inequality.",
+       "The policy obviously works for everyone.",
+       "Nobody can deny these facts."
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The lawyer recommended that her client ___ silent.",
+      "o": [
+       "remains",
+       "remain",
+       "remained",
+       "to remain"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "___ you have any questions, do not hesitate to contact us.",
+      "o": [
+       "Were",
+       "Had",
+       "Should",
+       "If you"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "The match ___ been played on Sunday, but it was postponed because of the storm.",
+      "o": [
+       "was to have",
+       "was about to",
+       "would have liked to",
+       "was due"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "___ for the firefighters, the whole building would have burned down. (de no ser por)",
+      "ans": [
+       "But",
+       "but"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "It would seem that the new tax has had little impact on consumption, although it remains to be seen whether this trend will continue next year.",
+      "q": "¿Qué dice el hablante sobre el nuevo impuesto?",
+      "o": [
+       "Que redujo mucho el consumo",
+       "Que al parecer ha tenido poco impacto en el consumo",
+       "Que se eliminará el próximo año",
+       "Que aumentó los precios"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "We were on the point of buying the house when the inspection revealed serious structural problems, so we pulled out at the eleventh hour.",
+      "q": "¿Por qué no compraron la casa?",
+      "o": [
+       "El precio subió",
+       "La inspección reveló problemas estructurales graves",
+       "El banco negó el crédito",
+       "El dueño cambió de opinión"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe un texto (mínimo 140 palabras) sobre un proyecto profesional o personal que no salió como esperabas. Explica qué estaba previsto, qué habría pasado en otras circunstancias, qué recomendarías a alguien en tu situación y matiza tus conclusiones.",
+      "min": 140,
+      "keys": [
+       [
+        "was to have",
+        "was about to",
+        "was due to",
+        "was supposed to",
+        "would have liked to"
+       ],
+       [
+        "had i",
+        "were i",
+        "but for",
+        "otherwise",
+        "if it weren't for",
+        "if it hadn't been for"
+       ],
+       [
+        "recommend that",
+        "it is vital that",
+        "it is essential that",
+        "insist that"
+       ],
+       [
+        "needn't have",
+        "bound to",
+        "may well",
+        "appear to",
+        "would seem",
+        "presumably",
+        "arguably"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "Were I in charge, I would insist that every decision be made transparently."
+     },
+     {
+      "t": "oral",
+      "text": "With hindsight, we needn't have worried; the plan was bound to work."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "We ___ hurried; the meeting started forty minutes late. (nos apuramos sin necesidad)",
+      "o": [
+       "needn't have",
+       "didn't need to",
+       "mustn't have",
+       "couldn't have"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Given his track record, he ___ win the next election.",
+      "o": [
+       "may well",
+       "might as well",
+       "needn't",
+       "is probable to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "___, the treatment has been successful, although there have been a few exceptions. (en general)",
+      "o": [
+       "By and large",
+       "As it were",
+       "Lest",
+       "Barring"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "It is crucial that the contract ___ signed before Friday.",
+      "o": [
+       "is",
+       "be",
+       "will be",
+       "to be"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "___ it not for the scholarship, I couldn't afford university.",
+      "o": [
+       "Had",
+       "Should",
+       "Were",
+       "If"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "I ___ on the point of calling you when you walked in.",
+      "o": [
+       "am",
+       "was",
+       "would",
+       "had"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "Suffice it to ___ that the negotiations were a disaster. (decir)",
+      "ans": [
+       "say"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "The flight was ___ to land at noon, but it was diverted to Cali. (estaba previsto)",
+      "ans": [
+       "due",
+       "scheduled",
+       "supposed"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "There is some evidence that people who learn a second language later in life tend to develop stronger problem-solving skills, but the findings are still somewhat inconclusive.",
+      "q": "¿Cómo describe el hablante los hallazgos?",
+      "o": [
+       "Totalmente comprobados",
+       "Todavía algo inconclusos",
+       "Falsos",
+       "Irrelevantes"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Had the engineers followed the safety protocol, the bridge would not have collapsed, and the company would have avoided millions in compensation.",
+      "q": "¿Qué habría evitado el colapso del puente?",
+      "o": [
+       "Más presupuesto",
+       "Que los ingenieros siguieran el protocolo de seguridad",
+       "Un mejor diseño",
+       "Menos tráfico"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "The festival was to have featured over fifty artists, but it was called off a week before because of the storm warnings.",
+      "q": "¿Qué pasó con el festival?",
+      "o": [
+       "Se realizó con cincuenta artistas",
+       "Se canceló una semana antes por alertas de tormenta",
+       "Se aplazó un mes",
+       "Se trasladó a otra ciudad"
+      ],
+      "a": 1
+     },
+     {
+      "t": "oral",
+      "text": "It is essential that the patient not be moved until the doctor arrives."
+     },
+     {
+      "t": "oral",
+      "text": "Should the situation change, we will inform you immediately."
+     },
+     {
+      "t": "order",
+      "words": [
+       "It",
+       "would",
+       "seem",
+       "that",
+       "the",
+       "figures",
+       "were",
+       "miscalculated."
+      ],
+      "es": "Al parecer, las cifras se calcularon mal."
+     },
+     {
+      "t": "order",
+      "words": [
+       "But",
+       "for",
+       "your",
+       "help,",
+       "we",
+       "would",
+       "have",
+       "failed."
+      ],
+      "es": "De no ser por tu ayuda, habríamos fracasado."
+     }
+    ]
+   },
+   {
+    "title": "Discurso académico y profesional",
+    "lessons": [
+     {
+      "id": "c1-u3-l1",
+      "title": "Nominalización y estilo escrito denso",
+      "goal": "Transformar verbos y adjetivos en sustantivos para escribir con la densidad y la objetividad del inglés académico y corporativo.",
+      "theory": [
+       {
+        "p": "La **nominalización** convierte acciones (verbos) y cualidades (adjetivos) en **sustantivos**. Es la marca principal del inglés académico y de los informes profesionales: el texto se vuelve más **denso, impersonal y objetivo**, porque el foco pasa de **quién hace** a **qué ocurre**."
+       },
+       {
+        "ex": [
+         [
+          "The government decided to raise taxes, which angered voters. → The government's decision to raise taxes angered voters.",
+          "El gobierno decidió subir los impuestos, lo que enfureció a los votantes. → La decisión del gobierno de subir los impuestos enfureció a los votantes."
+         ],
+         [
+          "We implemented the system slowly, so costs rose. → The slow implementation of the system led to a rise in costs.",
+          "Implementamos el sistema lentamente, así que los costos subieron. → La lenta implementación del sistema provocó un aumento de los costos."
+         ],
+         [
+          "Customers are increasingly reluctant to share data. → There is growing reluctance among customers to share data.",
+          "Los clientes son cada vez más reacios a compartir datos. → Hay una creciente reticencia entre los clientes a compartir datos."
+         ]
+        ]
+       },
+       {
+        "p": "Al nominalizar, los **adverbios se vuelven adjetivos** (slowly → slow implementation), el **sujeto pasa a ser un posesivo o un complemento con of / by** (the board approved → approval by the board), y las relaciones lógicas se expresan con **verbos de causa** en lugar de conjunciones: **lead to, result in, give rise to, bring about, stem from, account for**."
+       },
+       {
+        "ex": [
+         [
+          "Because demand fell, the factory closed. → The fall in demand resulted in the closure of the factory.",
+          "Como la demanda cayó, la fábrica cerró. → La caída de la demanda tuvo como resultado el cierre de la fábrica."
+         ],
+         [
+          "Pollution has increased markedly since 2015. → There has been a marked increase in pollution since 2015.",
+          "La contaminación ha aumentado notablemente desde 2015. → Ha habido un aumento notable de la contaminación desde 2015."
+         ],
+         [
+          "The problem arose because the staff relied too much on software. → The problem stemmed from an over-reliance on software.",
+          "El problema surgió porque el personal dependía demasiado del software. → El problema se originó en una dependencia excesiva del software."
+         ]
+        ]
+       },
+       {
+        "p": "Ojo con las **preposiciones fijas** de los sustantivos: **an increase / a rise / a reduction / a decline in** (algo que cambia), pero **an increase of 5 %** (la cifra); **reliance on**, **demand for**, **the need for**, **an effect on**, **a solution to**, **access to**, **a reason for**."
+       },
+       {
+        "tip": "Error típico del hispanohablante: calcar 'el aumento de los precios' como 'the increase of prices'. Lo correcto es 'the increase in prices'. Y no abuses: tres o cuatro sustantivos seguidos (the staff training programme evaluation report) vuelven el texto ilegible; la buena prosa académica equilibra densidad y claridad."
+       }
+      ],
+      "vocab": [
+       [
+        "implementation",
+        "sustantivo",
+        "implementación, puesta en marcha",
+        "The implementation of the new policy was delayed by six months."
+       ],
+       [
+        "assessment",
+        "sustantivo",
+        "evaluación, valoración",
+        "A thorough assessment of the risks is required before approval."
+       ],
+       [
+        "reliance on",
+        "sustantivo",
+        "dependencia de",
+        "Our reliance on a single supplier left us vulnerable."
+       ],
+       [
+        "reduction in",
+        "sustantivo",
+        "reducción de",
+        "The report recommends a sharp reduction in overtime."
+       ],
+       [
+        "emergence",
+        "sustantivo",
+        "surgimiento, aparición",
+        "The emergence of remote work has reshaped city centres."
+       ],
+       [
+        "acquisition",
+        "sustantivo",
+        "adquisición",
+        "The acquisition of the start-up was finalised in March."
+       ],
+       [
+        "deterioration",
+        "sustantivo",
+        "deterioro",
+        "There has been a steady deterioration in working conditions."
+       ],
+       [
+        "endorsement",
+        "sustantivo",
+        "respaldo, aval",
+        "The proposal received the full endorsement of the board."
+       ],
+       [
+        "feasibility",
+        "sustantivo",
+        "viabilidad",
+        "A feasibility study will be completed before any investment."
+       ],
+       [
+        "undertake",
+        "verbo",
+        "emprender, llevar a cabo",
+        "The firm undertook a complete restructuring of its operations."
+       ],
+       [
+        "conduct a review",
+        "colocación",
+        "realizar una revisión",
+        "The committee will conduct a review of all expenses."
+       ],
+       [
+        "give rise to",
+        "expresión",
+        "dar lugar a, originar",
+        "The merger gave rise to widespread uncertainty among staff."
+       ],
+       [
+        "bring about",
+        "phrasal verb",
+        "provocar, ocasionar (un cambio)",
+        "Digital tools have brought about a shift in how we learn."
+       ],
+       [
+        "stem from",
+        "phrasal verb",
+        "derivarse de, tener su origen en",
+        "Most complaints stem from poor communication."
+       ],
+       [
+        "the extent to which",
+        "expresión",
+        "la medida en que",
+        "The study examines the extent to which income affects health."
+       ],
+       [
+        "in the absence of",
+        "expresión",
+        "a falta de, en ausencia de",
+        "In the absence of reliable data, no conclusion can be drawn."
+       ],
+       [
+        "prior to",
+        "preposición",
+        "antes de (formal)",
+        "All documents must be submitted prior to the meeting."
+       ],
+       [
+        "a marked increase in",
+        "colocación",
+        "un aumento notable de",
+        "There has been a marked increase in online fraud."
+       ],
+       [
+        "reluctance",
+        "sustantivo",
+        "renuencia, reticencia",
+        "Their reluctance to invest is understandable."
+       ],
+       [
+        "shortcoming",
+        "sustantivo",
+        "deficiencia, falla",
+        "The audit exposed several shortcomings in the process."
+       ]
+      ],
+      "dialogue": {
+       "title": "Puliendo el informe trimestral",
+       "scene": "Mariana, analista en una empresa de logística en Bogotá, revisa con su jefe británico, Graham, el borrador del informe para la junta directiva.",
+       "a": "Graham",
+       "b": "Mariana",
+       "lines": [
+        [
+         "A",
+         "I've read your draft, Mariana. The content is solid, but the style feels a bit conversational for the board.",
+         "Leí tu borrador, Mariana. El contenido es sólido, pero el estilo se siente un poco coloquial para la junta."
+        ],
+        [
+         "B",
+         "I was afraid of that. Which parts stood out?",
+         "Me temía eso. ¿Qué partes te llamaron la atención?"
+        ],
+        [
+         "A",
+         "Take this sentence: 'We delivered late because the drivers relied too much on the old routing app.'",
+         "Mira esta frase: 'Entregamos tarde porque los conductores dependían demasiado de la vieja aplicación de rutas'."
+        ],
+        [
+         "B",
+         "So I should nominalise it? Something like 'Delivery delays stemmed from an over-reliance on outdated routing software'?",
+         "¿Entonces debería nominalizarla? ¿Algo como 'Los retrasos en las entregas se originaron en una dependencia excesiva de un software de rutas obsoleto'?"
+        ],
+        [
+         "A",
+         "Exactly. It shifts the focus from who did what to what actually happened, which is what the board cares about.",
+         "Exacto. Cambia el foco de quién hizo qué a lo que realmente pasó, que es lo que le importa a la junta."
+        ],
+        [
+         "B",
+         "And here, where I wrote 'costs went up a lot', would 'there was a marked increase in costs' work better?",
+         "Y aquí, donde escribí 'los costos subieron mucho', ¿funcionaría mejor 'hubo un aumento notable de los costos'?"
+        ],
+        [
+         "A",
+         "Much better. Just remember it's 'an increase in costs', not 'of costs'. 'Of' is for the figure: an increase of twelve per cent.",
+         "Mucho mejor. Solo recuerda que es 'an increase in costs', no 'of costs'. 'Of' es para la cifra: un aumento del doce por ciento."
+        ],
+        [
+         "B",
+         "That's a mistake I make all the time, because in Spanish we say 'el aumento de'.",
+         "Ese es un error que cometo todo el tiempo, porque en español decimos 'el aumento de'."
+        ],
+        [
+         "A",
+         "Very common. Now, the recommendation section: 'We should check if it's possible to buy a new system'.",
+         "Muy común. Ahora, la sección de recomendaciones: 'Deberíamos revisar si es posible comprar un sistema nuevo'."
+        ],
+        [
+         "B",
+         "Let me try: 'We recommend that a feasibility study be conducted prior to the acquisition of a new system.'",
+         "Déjame intentar: 'Recomendamos que se realice un estudio de viabilidad antes de la adquisición de un sistema nuevo'."
+        ],
+        [
+         "A",
+         "Perfect register. You might also mention the extent to which the delays affected customer retention.",
+         "Registro perfecto. También podrías mencionar la medida en que los retrasos afectaron la retención de clientes."
+        ],
+        [
+         "B",
+         "Good idea. In the absence of hard data, though, I'd rather present it as an estimate.",
+         "Buena idea. Pero a falta de datos concretos, preferiría presentarlo como una estimación."
+        ],
+        [
+         "A",
+         "Wise. One warning: don't overdo it. If every sentence is a chain of nouns, nobody will finish reading it.",
+         "Sensato. Una advertencia: no exageres. Si cada frase es una cadena de sustantivos, nadie va a terminar de leerlo."
+        ],
+        [
+         "B",
+         "Understood. Dense, but still readable. I'll have the revised version on your desk by tomorrow morning.",
+         "Entendido. Denso, pero legible. Mañana en la mañana tendrás la versión revisada en tu escritorio."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Elige la versión nominalizada correcta de 'The company expanded rapidly, which worried investors.'",
+        "o": [
+         "The company's rapid expansion worried investors.",
+         "The company's rapidly expansion worried investors.",
+         "The rapid expanding of the company worried to investors.",
+         "The company expansion rapid worried investors."
+        ],
+        "a": 0,
+        "x": "Al nominalizar, el adverbio (rapidly) se convierte en adjetivo (rapid)."
+       },
+       {
+        "t": "mc",
+        "q": "There has been a significant reduction ___ carbon emissions since the new law came into force.",
+        "o": [
+         "of",
+         "in",
+         "on",
+         "for"
+        ],
+        "a": 1,
+        "x": "reduction / increase / rise / decline + in + lo que cambia."
+       },
+       {
+        "t": "mc",
+        "q": "Most of the conflicts within the team ___ a lack of clear leadership.",
+        "o": [
+         "give rise to",
+         "stem from",
+         "bring about",
+         "result in"
+        ],
+        "a": 1,
+        "x": "stem from = tener su origen en (efecto ← causa). Las otras opciones van en dirección causa → efecto."
+       },
+       {
+        "t": "fill",
+        "q": "The board gave its full ___ to the plan. (respaldo, de 'endorse')",
+        "ans": [
+         "endorsement"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The steady deterioration in customer satisfaction can largely be attributed to the company's reluctance to invest in staff training.",
+        "q": "Según el hablante, ¿a qué se debe el deterioro de la satisfacción del cliente?",
+        "o": [
+         "A la falta de productos nuevos",
+         "A la renuencia de la empresa a invertir en capacitación",
+         "A los precios demasiado altos",
+         "A un error del software de atención"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "The implementation of the new strategy gave rise to a marked increase in productivity."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "problem",
+         "stemmed",
+         "from",
+         "an",
+         "over-reliance",
+         "on",
+         "outdated",
+         "software."
+        ],
+        "es": "El problema se originó en una dependencia excesiva de un software obsoleto."
+       },
+       {
+        "t": "order",
+        "words": [
+         "A",
+         "feasibility",
+         "study",
+         "must",
+         "be",
+         "conducted",
+         "prior",
+         "to",
+         "any",
+         "investment."
+        ],
+        "es": "Debe realizarse un estudio de viabilidad antes de cualquier inversión."
+       },
+       {
+        "t": "dict",
+        "say": "In the absence of reliable data, no firm conclusion can be drawn."
+       },
+       {
+        "t": "dict",
+        "say": "The audit exposed several shortcomings in the approval process."
+       },
+       {
+        "t": "fill",
+        "q": "The study explores the ___ to which social media shapes political opinion. (medida)",
+        "ans": [
+         "extent"
+        ]
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué frase muestra un uso EXCESIVO de la nominalización?",
+        "o": [
+         "The decision to close the plant surprised analysts.",
+         "There was a sharp rise in demand.",
+         "The staff performance appraisal process review committee report was delayed.",
+         "The acquisition was finalised in May."
+        ],
+        "a": 2,
+        "x": "Una cadena de cinco sustantivos seguidos dificulta la lectura."
+       },
+       {
+        "t": "listen",
+        "say": "Prior to the acquisition, the firm had undertaken a full assessment of the target's liabilities, yet several shortcomings only emerged afterwards.",
+        "q": "¿Qué pasó a pesar de la evaluación previa?",
+        "o": [
+         "La adquisición se canceló",
+         "Algunas deficiencias solo aparecieron después",
+         "La empresa perdió todos sus clientes",
+         "Los pasivos resultaron ser menores"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Reescribe en estilo académico denso un párrafo (mínimo 120 palabras) sobre un problema de tu empresa o ciudad: explica sus causas y consecuencias usando al menos cinco nominalizaciones y verbos de causa como lead to, result in, give rise to o stem from.",
+        "min": 120,
+        "keys": [
+         [
+          "implementation",
+          "decision",
+          "reduction",
+          "increase",
+          "rise",
+          "decline",
+          "reliance"
+         ],
+         [
+          "stem from",
+          "stems from",
+          "stemmed from",
+          "result in",
+          "resulted in",
+          "give rise to",
+          "gave rise to",
+          "lead to",
+          "led to",
+          "bring about",
+          "brought about"
+         ],
+         [
+          "the extent to which",
+          "in the absence of",
+          "prior to"
+         ],
+         [
+          "in",
+          "of",
+          "on"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "¿Cuál es la nominalización correcta de 'Prices rose sharply, so sales fell'?",
+       "o": [
+        "A sharp rise of prices led to a fall of sales.",
+        "A sharp rise in prices led to a fall in sales.",
+        "A sharply rise in prices led to a fall in sales.",
+        "Prices sharp rising led to the sales falling."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Customer complaints largely ___ poor communication between departments.",
+       "o": [
+        "give rise to",
+        "bring about",
+        "stem from",
+        "account to"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u3-l2",
+      "title": "Pasiva impersonal y distanciamiento",
+      "goal": "Presentar opiniones, rumores y hallazgos sin comprometerte personalmente, usando la pasiva con verbos de opinión y el lenguaje de cautela.",
+      "theory": [
+       {
+        "p": "En textos académicos, periodísticos y corporativos se evita decir 'yo creo' o 'la gente dice'. En su lugar se usa la **pasiva impersonal** con verbos de opinión y reporte (**say, believe, think, consider, expect, report, suggest, estimate, allege, know**). Hay **dos estructuras**:"
+       },
+       {
+        "ex": [
+         [
+          "It + pasiva + that: It is believed that the virus originated in bats.",
+          "Se cree que el virus se originó en los murciélagos."
+         ],
+         [
+          "Sujeto + pasiva + infinitivo: The virus is believed to have originated in bats.",
+          "Se cree que el virus se originó en los murciélagos."
+         ],
+         [
+          "It has been suggested that the merger will cost jobs.",
+          "Se ha sugerido que la fusión costará empleos."
+         ],
+         [
+          "There is believed to be a link between sleep and memory.",
+          "Se cree que existe un vínculo entre el sueño y la memoria."
+         ]
+        ]
+       },
+       {
+        "p": "Con la estructura personal, el **infinitivo** indica el tiempo: **to + verbo** (simultáneo o futuro), **to be + -ing** (en curso), **to have + participio** (anterior)."
+       },
+       {
+        "ex": [
+         [
+          "The CEO is said to be considering resignation.",
+          "Se dice que el director general está considerando renunciar."
+         ],
+         [
+          "The painting is thought to have been stolen in the 1990s.",
+          "Se cree que la pintura fue robada en los años noventa."
+         ],
+         [
+          "Thousands are reported to have lost their homes.",
+          "Se informa que miles de personas perdieron sus hogares."
+         ],
+         [
+          "There are thought to have been over 200 victims.",
+          "Se cree que hubo más de 200 víctimas."
+         ]
+        ]
+       },
+       {
+        "p": "El **distanciamiento** se completa con **hedging** (lenguaje de cautela): **appear / seem / tend to**, **it would seem that**, **arguably**, **allegedly, reportedly, purportedly**, y modales como **may, might, could**. Así matizas tus afirmaciones y te proteges de acusaciones de exageración."
+       },
+       {
+        "tip": "Error frecuente: traducir 'se dice que' como 'It is said him to be'. Las opciones válidas son 'It is said that he is...' o 'He is said to be...'. Y recuerda: 'There is said to be' (no 'There is said there is'). Con suggest no se usa la estructura personal: 'It has been suggested that...', nunca 'He has been suggested to...'."
+       }
+      ],
+      "vocab": [
+       [
+        "allegedly",
+        "adverbio",
+        "supuestamente (sin pruebas)",
+        "The minister allegedly accepted bribes."
+       ],
+       [
+        "reportedly",
+        "adverbio",
+        "según se informa",
+        "The company is reportedly planning layoffs."
+       ],
+       [
+        "purportedly",
+        "adverbio",
+        "presuntamente, según se pretende",
+        "The letter was purportedly written by the founder."
+       ],
+       [
+        "be deemed",
+        "verbo",
+        "ser considerado (formal)",
+        "The proposal was deemed too risky."
+       ],
+       [
+        "be presumed",
+        "verbo",
+        "presumirse, darse por hecho",
+        "The missing hikers are presumed to be alive."
+       ],
+       [
+        "be alleged to",
+        "verbo",
+        "acusarse de, alegarse que",
+        "He is alleged to have falsified the accounts."
+       ],
+       [
+        "be estimated to",
+        "verbo",
+        "estimarse que",
+        "The project is estimated to cost 4 million dollars."
+       ],
+       [
+        "be understood to",
+        "verbo",
+        "entenderse que, saberse que",
+        "The two firms are understood to be in talks."
+       ],
+       [
+        "it is widely held that",
+        "expresión",
+        "es una opinión extendida que",
+        "It is widely held that inflation will ease next year."
+       ],
+       [
+        "attribute (sth) to",
+        "verbo",
+        "atribuir algo a",
+        "The rise in sales was attributed to the new campaign."
+       ],
+       [
+        "speculation",
+        "sustantivo",
+        "especulación",
+        "There is growing speculation about a merger."
+       ],
+       [
+        "consensus",
+        "sustantivo",
+        "consenso",
+        "There is no consensus among experts."
+       ],
+       [
+        "unsubstantiated",
+        "adjetivo",
+        "sin fundamento, no comprobado",
+        "These claims remain unsubstantiated."
+       ],
+       [
+        "contend",
+        "verbo",
+        "sostener, afirmar (en un debate)",
+        "Critics contend that the policy is unfair."
+       ],
+       [
+        "assert",
+        "verbo",
+        "afirmar categóricamente",
+        "The author asserts that the data were manipulated."
+       ],
+       [
+        "anecdotal evidence",
+        "colocación",
+        "evidencia anecdótica",
+        "The claim is based on anecdotal evidence only."
+       ],
+       [
+        "conclusive",
+        "adjetivo",
+        "concluyente",
+        "The results are far from conclusive."
+       ],
+       [
+        "tentative",
+        "adjetivo",
+        "provisional, tentativo",
+        "We can only offer a tentative explanation."
+       ],
+       [
+        "distance oneself from",
+        "expresión",
+        "desmarcarse de",
+        "The company distanced itself from the remarks."
+       ],
+       [
+        "be reputed to",
+        "verbo",
+        "tener fama de",
+        "She is reputed to be the best surgeon in the city."
+       ]
+      ],
+      "dialogue": {
+       "title": "Un comunicado delicado",
+       "scene": "Sofía, jefa de comunicaciones de una farmacéutica en Medellín, prepara con el abogado canadiense Daniel un comunicado sobre un rumor que circula en redes.",
+       "a": "Daniel",
+       "b": "Sofía",
+       "lines": [
+        [
+         "A",
+         "Sofía, have you seen the post that's going viral? It claims our new drug causes memory loss.",
+         "Sofía, ¿viste la publicación que se está volviendo viral? Afirma que nuestro nuevo medicamento causa pérdida de memoria."
+        ],
+        [
+         "B",
+         "I have. It's based purely on anecdotal evidence, but we need a statement out today.",
+         "Sí. Está basada solo en evidencia anecdótica, pero necesitamos sacar un comunicado hoy."
+        ],
+        [
+         "A",
+         "Agreed. We have to be careful, though. We can't assert anything we can't prove.",
+         "De acuerdo. Pero tenemos que ser cuidadosos. No podemos afirmar nada que no podamos probar."
+        ],
+        [
+         "B",
+         "My first draft says: 'People are saying the drug is dangerous, but this is false.'",
+         "Mi primer borrador dice: 'La gente está diciendo que el medicamento es peligroso, pero esto es falso'."
+        ],
+        [
+         "A",
+         "Too direct. How about: 'It has been suggested on social media that the medication may affect memory'?",
+         "Demasiado directo. ¿Qué tal: 'Se ha sugerido en redes sociales que el medicamento podría afectar la memoria'?"
+        ],
+        [
+         "B",
+         "That sounds more neutral. Then: 'These claims are, to date, unsubstantiated by any clinical data.'",
+         "Suena más neutral. Luego: 'Hasta la fecha, estas afirmaciones no están respaldadas por ningún dato clínico'."
+        ],
+        [
+         "A",
+         "Good. And we should mention the trials. Over four thousand patients are estimated to have taken part, right?",
+         "Bien. Y deberíamos mencionar los ensayos. Se estima que participaron más de cuatro mil pacientes, ¿cierto?"
+        ],
+        [
+         "B",
+         "Exactly four thousand two hundred. So we can be precise there: 'The drug was tested on 4,200 patients.'",
+         "Exactamente cuatro mil doscientos. Así que ahí podemos ser precisos: 'El medicamento se probó en 4.200 pacientes'."
+        ],
+        [
+         "A",
+         "Even better. What about the influencer who started it? He's alleged to have links to a competitor.",
+         "Aún mejor. ¿Y el influenciador que lo empezó? Se dice que tiene vínculos con un competidor."
+        ],
+        [
+         "B",
+         "I'd leave that out. If we accuse him, it looks defensive, and the link is only rumoured.",
+         "Yo dejaría eso por fuera. Si lo acusamos, parecemos a la defensiva, y el vínculo es solo un rumor."
+        ],
+        [
+         "A",
+         "Fair enough. Should we say there is believed to be no link at all between the drug and memory loss?",
+         "Me parece bien. ¿Deberíamos decir que se cree que no existe ningún vínculo entre el medicamento y la pérdida de memoria?"
+        ],
+        [
+         "B",
+         "'Believed' sounds weak. I'd say: 'No such link has been identified in any of the trials conducted to date.'",
+         "'Se cree' suena débil. Yo diría: 'No se ha identificado tal vínculo en ninguno de los ensayos realizados hasta la fecha'."
+        ],
+        [
+         "A",
+         "Strong, but defensible. And we'll add that the matter is being reviewed by an independent panel.",
+         "Fuerte, pero defendible. Y añadimos que el asunto está siendo revisado por un panel independiente."
+        ],
+        [
+         "B",
+         "Perfect. Let me redraft it and send it to legal within the hour.",
+         "Perfecto. Déjame reescribirlo y se lo mando a jurídica en menos de una hora."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The suspect is believed ___ the country last week.",
+        "o": [
+         "to leave",
+         "to have left",
+         "leaving",
+         "that he left"
+        ],
+        "a": 1,
+        "x": "to have + participio para una acción anterior al momento en que se cree."
+       },
+       {
+        "t": "mc",
+        "q": "___ that the economy will recover by the end of next year.",
+        "o": [
+         "It is expected",
+         "It expects",
+         "There is expected",
+         "It is expected to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "There ___ to be more than ten thousand species still undiscovered in the Amazon.",
+        "o": [
+         "is thought",
+         "are thought",
+         "thinks",
+         "are thinking"
+        ],
+        "a": 1,
+        "x": "There + be concuerda con el sustantivo plural: There are thought to be..."
+       },
+       {
+        "t": "fill",
+        "q": "The CEO is said to be ___ (considerar) a merger with a rival firm.",
+        "ans": [
+         "considering"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The two companies are understood to be in advanced talks, although neither has confirmed the reports, and analysts remain cautious.",
+        "q": "¿Qué se sabe de las negociaciones?",
+        "o": [
+         "Que ya terminaron con un acuerdo",
+         "Que se entiende que están avanzadas, pero no se han confirmado",
+         "Que ambas empresas las confirmaron",
+         "Que los analistas están muy optimistas"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "It has been suggested that the new policy may have unintended consequences."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "painting",
+         "is",
+         "thought",
+         "to",
+         "have",
+         "been",
+         "stolen",
+         "in",
+         "1994."
+        ],
+        "es": "Se cree que la pintura fue robada en 1994."
+       },
+       {
+        "t": "order",
+        "words": [
+         "There",
+         "is",
+         "believed",
+         "to",
+         "be",
+         "a",
+         "link",
+         "between",
+         "stress",
+         "and",
+         "illness."
+        ],
+        "es": "Se cree que existe un vínculo entre el estrés y la enfermedad."
+       },
+       {
+        "t": "dict",
+        "say": "These claims remain unsubstantiated by any reliable evidence."
+       },
+       {
+        "t": "dict",
+        "say": "The company has distanced itself from the remarks."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál de estas frases es INCORRECTA?",
+        "o": [
+         "He is said to be very wealthy.",
+         "It is said that he is very wealthy.",
+         "He has been suggested to resign.",
+         "It has been suggested that he should resign."
+        ],
+        "a": 2,
+        "x": "Suggest no admite la estructura personal con infinitivo."
+       },
+       {
+        "t": "fill",
+        "q": "The minister ___ accepted money from the contractor, but nothing has been proven. (supuestamente)",
+        "ans": [
+         "allegedly",
+         "reportedly"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Although it is widely held that remote workers are less productive, the data from our study appear to suggest the opposite, albeit tentatively.",
+        "q": "¿Qué sugieren los datos del estudio?",
+        "o": [
+         "Que los trabajadores remotos son menos productivos",
+         "Lo contrario de la creencia general, aunque de forma provisional",
+         "Que no hay ninguna diferencia",
+         "Que el estudio fue un fracaso"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe una breve nota de prensa o un párrafo de informe (mínimo 120 palabras) sobre un rumor o hallazgo no confirmado en tu sector. Usa al menos tres estructuras de pasiva impersonal (It is believed that..., X is thought to have..., There is said to be...) y dos expresiones de cautela.",
+        "min": 120,
+        "keys": [
+         [
+          "it is believed",
+          "it is thought",
+          "it is said",
+          "it has been suggested",
+          "it is widely held",
+          "it is expected"
+         ],
+         [
+          "is thought to",
+          "are thought to",
+          "is said to",
+          "are said to",
+          "is believed to",
+          "are believed to",
+          "is reported to",
+          "is estimated to"
+         ],
+         [
+          "there is",
+          "there are"
+         ],
+         [
+          "allegedly",
+          "reportedly",
+          "apparently",
+          "appear",
+          "seem",
+          "may",
+          "might",
+          "tentative"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The fire ___ by a faulty cable, according to investigators.",
+       "o": [
+        "is believed to have been caused",
+        "is believed to cause",
+        "believes to have been caused",
+        "is believed that it caused"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___ to be serious flaws in the original study.",
+       "o": [
+        "It is said",
+        "There are said",
+        "They are said there",
+        "There says"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u3-l3",
+      "title": "Marcadores discursivos avanzados",
+      "goal": "Conectar ideas con precisión en ensayos, informes y reuniones usando marcadores de contraste, analogía, reformulación y referencia.",
+      "theory": [
+       {
+        "p": "A nivel C1 ya no basta con **but, also, so**. Los marcadores avanzados hacen explícita la **relación lógica** entre ideas y le dan al texto un aire profesional. Agrúpalos por función:"
+       },
+       {
+        "ex": [
+         [
+          "Analogía — by the same token: Managers must listen to staff; by the same token, staff must voice concerns openly.",
+          "Del mismo modo: Los gerentes deben escuchar al personal; del mismo modo, el personal debe expresar sus inquietudes abiertamente."
+         ],
+         [
+          "Contraste inverso — conversely: Higher rates attract savers; conversely, they discourage borrowers.",
+          "A la inversa: Las tasas más altas atraen a los ahorradores; a la inversa, desaniman a quienes piden préstamos."
+         ],
+         [
+          "Causa/contexto — in light of: In light of recent events, the launch has been postponed.",
+          "En vista de: En vista de los acontecimientos recientes, el lanzamiento se ha aplazado."
+         ],
+         [
+          "Tema — with regard to: With regard to your request, we will reply by Friday.",
+          "En cuanto a: En cuanto a su solicitud, responderemos el viernes."
+         ]
+        ]
+       },
+       {
+        "p": "Para **conceder y luego matizar**: **that being said / that said / be that as it may / notwithstanding**. Para **reformular**: **to put it another way / in other words / that is to say**. Para **consecuencia**: **hence, thereby, as such, in turn**."
+       },
+       {
+        "ex": [
+         [
+          "The plan is ambitious. That being said, it is entirely achievable.",
+          "El plan es ambicioso. Dicho esto, es completamente alcanzable."
+         ],
+         [
+          "Profits fell by 40 %. To put it another way, we lost almost half our margin.",
+          "Las utilidades cayeron un 40 %. Dicho de otro modo, perdimos casi la mitad del margen."
+         ],
+         [
+          "The new tool automates billing, thereby reducing errors.",
+          "La nueva herramienta automatiza la facturación, reduciendo así los errores."
+         ],
+         [
+          "The results were promising, albeit limited to a small sample.",
+          "Los resultados fueron prometedores, aunque limitados a una muestra pequeña."
+         ]
+        ]
+       },
+       {
+        "p": "Fíjate en la **gramática** de cada uno: **in light of, with regard to, notwithstanding** van seguidos de **sustantivo**; **albeit** va con un adjetivo, adverbio o frase corta sin verbo conjugado; **thereby** va con **-ing**; **insofar as** introduce una **oración completa** (insofar as the data allow)."
+       },
+       {
+        "tip": "Errores típicos: 'conversely' no es lo mismo que 'on the contrary'. Conversely presenta el caso inverso de algo cierto; on the contrary niega lo que se acaba de decir (—Was it boring? —On the contrary, it was fascinating). Y 'in regards to' es muy criticado en inglés formal: usa 'with regard to' o 'regarding'."
+       }
+      ],
+      "vocab": [
+       [
+        "by the same token",
+        "conector",
+        "del mismo modo, por la misma razón",
+        "Prices may rise; by the same token, wages should too."
+       ],
+       [
+        "conversely",
+        "conector",
+        "a la inversa, por el contrario",
+        "Some prefer stability; conversely, others thrive on change."
+       ],
+       [
+        "in light of",
+        "preposición",
+        "en vista de, a la luz de",
+        "In light of the feedback, we revised the design."
+       ],
+       [
+        "with regard to",
+        "preposición",
+        "en cuanto a, con respecto a",
+        "With regard to pricing, nothing has been decided."
+       ],
+       [
+        "that being said",
+        "conector",
+        "dicho esto",
+        "The risks are real. That being said, the rewards are greater."
+       ],
+       [
+        "to put it another way",
+        "conector",
+        "dicho de otro modo",
+        "To put it another way, we can't afford to wait."
+       ],
+       [
+        "notwithstanding",
+        "preposición",
+        "no obstante, a pesar de",
+        "Notwithstanding these concerns, the plan was approved."
+       ],
+       [
+        "insofar as",
+        "conector",
+        "en la medida en que",
+        "The model is useful insofar as the data are accurate."
+       ],
+       [
+        "by contrast",
+        "conector",
+        "en cambio, en contraste",
+        "Sales in Lima grew; by contrast, Quito stagnated."
+       ],
+       [
+        "on the contrary",
+        "conector",
+        "al contrario",
+        "It wasn't a failure. On the contrary, it was a success."
+       ],
+       [
+        "hence",
+        "conector",
+        "de ahí, por lo tanto",
+        "Demand is seasonal, hence the variation in revenue."
+       ],
+       [
+        "thereby",
+        "adverbio",
+        "con lo cual, de ese modo",
+        "They cut costs, thereby increasing margins."
+       ],
+       [
+        "albeit",
+        "conector",
+        "aunque, si bien",
+        "The economy grew, albeit slowly."
+       ],
+       [
+        "in turn",
+        "conector",
+        "a su vez",
+        "Higher wages boost spending, which in turn drives growth."
+       ],
+       [
+        "as such",
+        "conector",
+        "como tal, por consiguiente",
+        "She is the project lead and, as such, signs off on budgets."
+       ],
+       [
+        "in this respect",
+        "conector",
+        "en este sentido",
+        "In this respect, the two reports agree."
+       ],
+       [
+        "to that end",
+        "conector",
+        "con ese fin",
+        "We aim to cut emissions; to that end, we've switched suppliers."
+       ],
+       [
+        "needless to say",
+        "conector",
+        "huelga decir, ni hace falta decirlo",
+        "Needless to say, all data will remain confidential."
+       ],
+       [
+        "by extension",
+        "conector",
+        "por extensión",
+        "The rule applies to staff and, by extension, to contractors."
+       ],
+       [
+        "be that as it may",
+        "conector",
+        "sea como sea, aun así",
+        "Be that as it may, we still need a decision today."
+       ]
+      ],
+      "dialogue": {
+       "title": "La reunión de estrategia",
+       "scene": "En una videollamada, la gerente regional Ana Lucía y el consultor estadounidense Brian discuten si abrir una nueva sede en Lima.",
+       "a": "Brian",
+       "b": "Ana Lucía",
+       "lines": [
+        [
+         "A",
+         "Ana Lucía, in light of last quarter's figures, are you still in favour of opening the Lima office?",
+         "Ana Lucía, en vista de las cifras del último trimestre, ¿sigues a favor de abrir la oficina en Lima?"
+        ],
+        [
+         "B",
+         "I am. Revenue in Bogotá dipped, admittedly. That being said, demand in Peru has grown for three consecutive quarters.",
+         "Sí. Los ingresos en Bogotá bajaron, lo admito. Dicho esto, la demanda en Perú ha crecido tres trimestres seguidos."
+        ],
+        [
+         "A",
+         "Grown, albeit from a very low base. To put it another way, the absolute numbers are still small.",
+         "Ha crecido, aunque desde una base muy baja. Dicho de otro modo, las cifras absolutas siguen siendo pequeñas."
+        ],
+        [
+         "B",
+         "True, but that's precisely the point. Small markets grow fast; conversely, mature markets like ours barely move.",
+         "Cierto, pero ese es justamente el punto. Los mercados pequeños crecen rápido; a la inversa, los maduros como el nuestro apenas se mueven."
+        ],
+        [
+         "A",
+         "Fair. With regard to staffing, would you relocate people or hire locally?",
+         "Justo. En cuanto al personal, ¿trasladarías gente o contratarías localmente?"
+        ],
+        [
+         "B",
+         "Mostly local hires. Local staff understand the market and, by the same token, clients trust them more.",
+         "Sobre todo contrataciones locales. El personal local entiende el mercado y, del mismo modo, los clientes confían más en él."
+        ],
+        [
+         "A",
+         "Insofar as we can find the right people, I agree. Notwithstanding the costs, of course.",
+         "En la medida en que podamos encontrar a la gente adecuada, estoy de acuerdo. Sin contar los costos, claro."
+        ],
+        [
+         "B",
+         "The costs are lower than you'd think. Rent in Miraflores is cheaper than in Chicó, hence our margin estimate.",
+         "Los costos son más bajos de lo que crees. El arriendo en Miraflores es más barato que en el Chicó, de ahí nuestro estimado de margen."
+        ],
+        [
+         "A",
+         "So you're saying the office would be profitable in year one?",
+         "¿Entonces dices que la oficina sería rentable el primer año?"
+        ],
+        [
+         "B",
+         "On the contrary, I expect losses in year one. But the investment would pay off by year three.",
+         "Al contrario, espero pérdidas el primer año. Pero la inversión se pagaría para el tercer año."
+        ],
+        [
+         "A",
+         "Needless to say, the board will want a detailed projection before signing anything.",
+         "Huelga decir que la junta va a querer una proyección detallada antes de firmar cualquier cosa."
+        ],
+        [
+         "B",
+         "Of course. To that end, I've asked finance to model three scenarios, thereby covering the worst case too.",
+         "Por supuesto. Con ese fin, le pedí a finanzas que modele tres escenarios, cubriendo así también el peor caso."
+        ],
+        [
+         "A",
+         "Be that as it may, I'd still like to see a pilot first. A small team for six months.",
+         "Sea como sea, me gustaría ver primero un piloto. Un equipo pequeño por seis meses."
+        ],
+        [
+         "B",
+         "That's reasonable. A pilot would reduce the risk and, in turn, make the board more willing to commit.",
+         "Es razonable. Un piloto reduciría el riesgo y, a su vez, haría que la junta estuviera más dispuesta a comprometerse."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ the recent scandal, the company has decided to review its ethics policy.",
+        "o": [
+         "Conversely",
+         "In light of",
+         "By the same token",
+         "Albeit"
+        ],
+        "a": 1,
+        "x": "In light of + sustantivo = en vista de."
+       },
+       {
+        "t": "mc",
+        "q": "—Was the conference a waste of time? —___, it was the most useful event I've attended this year.",
+        "o": [
+         "Conversely",
+         "By contrast",
+         "On the contrary",
+         "By extension"
+        ],
+        "a": 2,
+        "x": "On the contrary niega lo que se acaba de sugerir."
+       },
+       {
+        "t": "mc",
+        "q": "The firm automated its warehouse, ___ cutting delivery times by half.",
+        "o": [
+         "thereby",
+         "hence",
+         "albeit",
+         "whereas"
+        ],
+        "a": 0,
+        "x": "thereby + -ing expresa la consecuencia directa."
+       },
+       {
+        "t": "fill",
+        "q": "The project was completed, ___ two months behind schedule. (aunque, si bien)",
+        "ans": [
+         "albeit"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The new tax will raise revenue in the short term. That being said, it may discourage foreign investment, which would, in turn, slow down growth.",
+        "q": "¿Qué riesgo menciona el hablante?",
+        "o": [
+         "Que el impuesto no recaude nada",
+         "Que desaliente la inversión extranjera y frene el crecimiento",
+         "Que aumente el desempleo de inmediato",
+         "Que los ciudadanos protesten"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "That being said, the evidence is far from conclusive. To put it another way, we need more data."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "With",
+         "regard",
+         "to",
+         "your",
+         "complaint,",
+         "we",
+         "will",
+         "reply",
+         "shortly."
+        ],
+        "es": "En cuanto a su queja, responderemos en breve."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Notwithstanding",
+         "these",
+         "concerns,",
+         "the",
+         "proposal",
+         "was",
+         "approved."
+        ],
+        "es": "A pesar de estas inquietudes, la propuesta fue aprobada."
+       },
+       {
+        "t": "dict",
+        "say": "Needless to say, all personal data will remain confidential."
+       },
+       {
+        "t": "dict",
+        "say": "The economy grew last year, albeit at a slower pace."
+       },
+       {
+        "t": "mc",
+        "q": "Elige el marcador que presenta el caso inverso: 'Rising interest rates benefit savers; ___, they hurt borrowers.'",
+        "o": [
+         "by the same token",
+         "in this respect",
+         "conversely",
+         "to that end"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "We want to reach younger customers; to that ___, we have launched a TikTok campaign. (fin)",
+        "ans": [
+         "end"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The policy applies to all full-time employees and, by extension, to any contractor working on company premises.",
+        "q": "¿A quién se aplica también la política?",
+        "o": [
+         "Solo a los empleados de tiempo completo",
+         "A los contratistas que trabajan en las instalaciones",
+         "A los clientes",
+         "A los proveedores extranjeros"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un párrafo argumentativo (mínimo 130 palabras) sobre si las empresas deberían adoptar la semana laboral de cuatro días. Usa al menos seis marcadores de esta lección, incluyendo uno de contraste, uno de reformulación y uno de consecuencia.",
+        "min": 130,
+        "keys": [
+         [
+          "conversely",
+          "by contrast",
+          "on the contrary",
+          "notwithstanding",
+          "be that as it may"
+         ],
+         [
+          "that being said",
+          "that said",
+          "albeit"
+         ],
+         [
+          "to put it another way",
+          "in other words"
+         ],
+         [
+          "hence",
+          "thereby",
+          "in turn",
+          "as such",
+          "to that end",
+          "in light of",
+          "with regard to",
+          "by the same token"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The figures are encouraging. ___, we should not become complacent.",
+       "o": [
+        "By extension",
+        "That being said",
+        "Hence",
+        "To that end"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Our costs dropped by 30 %. ___, we are now spending almost a third less.",
+       "o": [
+        "Conversely",
+        "Notwithstanding",
+        "To put it another way",
+        "In light of"
+       ],
+       "a": 2
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u3-l4",
+      "title": "Elipsis y sustitución",
+      "goal": "Evitar repeticiones como lo hace un hablante experto, usando so/not, do so, one/ones y la elipsis después de auxiliares.",
+      "theory": [
+       {
+        "p": "El inglés culto **no repite** lo que ya se entiende. Para ello usa **sustitución** (reemplazar con una palabra corta) y **elipsis** (omitir). Primero, **so / not** sustituyen una oración completa después de **think, hope, expect, suppose, believe, imagine, guess, be afraid, appear, seem**."
+       },
+       {
+        "ex": [
+         [
+          "—Will the client accept the offer? —I expect so.",
+          "—¿El cliente aceptará la oferta? —Supongo que sí."
+         ],
+         [
+          "—Is the report ready? —I'm afraid not.",
+          "—¿Está listo el informe? —Me temo que no."
+         ],
+         [
+          "—Will there be layoffs? —I hope not.",
+          "—¿Habrá despidos? —Espero que no."
+         ],
+         [
+          "—Is he leaving? —So it seems. / It would appear so.",
+          "—¿Se va? —Eso parece."
+         ]
+        ]
+       },
+       {
+        "p": "**do so** sustituye una **acción** ya mencionada (registro formal). **one / ones** sustituyen un **sustantivo contable**. **the former / the latter** se refieren al primero y al segundo de dos elementos."
+       },
+       {
+        "ex": [
+         [
+          "Applicants who wish to withdraw may do so in writing.",
+          "Los aspirantes que deseen retirarse pueden hacerlo por escrito."
+         ],
+         [
+          "We considered two proposals and chose the cheaper one.",
+          "Consideramos dos propuestas y elegimos la más barata."
+         ],
+         [
+          "The old contracts were simpler than the current ones.",
+          "Los contratos antiguos eran más sencillos que los actuales."
+         ],
+         [
+          "Both Madrid and Lisbon bid; the latter won.",
+          "Madrid y Lisboa se postularon; ganó la segunda."
+         ]
+        ]
+       },
+       {
+        "p": "**Elipsis después de auxiliares y modales**: se repite solo el auxiliar y se omite el resto. También se puede omitir después de **to** (I'd like to)."
+       },
+       {
+        "ex": [
+         [
+          "I haven't finished the analysis yet, but I will by Friday.",
+          "Todavía no he terminado el análisis, pero lo haré para el viernes."
+         ],
+         [
+          "She said she would call the investors, and she has.",
+          "Dijo que llamaría a los inversionistas, y lo ha hecho."
+         ],
+         [
+          "You don't have to attend, but I think you should.",
+          "No tienes que asistir, pero creo que deberías."
+         ],
+         [
+          "—Can you lead the meeting? —I'd be happy to.",
+          "—¿Puedes dirigir la reunión? —Con mucho gusto."
+         ]
+        ]
+       },
+       {
+        "tip": "Calcos típicos: 'I think yes' / 'I hope yes' → I think so / I hope so. 'I don't hope so' no existe → I hope not. Con think, lo natural en negativo es 'I don't think so' (más formal: 'I think not'). Y no uses 'one' con incontables: 'I prefer white wine to red' (no 'red one')."
+       }
+      ],
+      "vocab": [
+       [
+        "do so",
+        "expresión",
+        "hacerlo (sustituye una acción)",
+        "Those who wish to comment may do so after the session."
+       ],
+       [
+        "if so",
+        "expresión",
+        "de ser así, en ese caso",
+        "Is the data accurate? If so, we have a problem."
+       ],
+       [
+        "if not",
+        "expresión",
+        "si no, de lo contrario",
+        "Can you confirm by noon? If not, we'll postpone."
+       ],
+       [
+        "the former",
+        "expresión",
+        "el primero (de dos)",
+        "Of the two options, the former is cheaper."
+       ],
+       [
+        "the latter",
+        "expresión",
+        "el segundo, este último (de dos)",
+        "Between speed and accuracy, the latter matters more."
+       ],
+       [
+        "I suspect so",
+        "expresión",
+        "sospecho que sí",
+        "—Will they delay the launch? —I suspect so."
+       ],
+       [
+        "I'm afraid not",
+        "expresión",
+        "me temo que no",
+        "—Is there any budget left? —I'm afraid not."
+       ],
+       [
+        "I'd like to think so",
+        "expresión",
+        "quisiera pensar que sí",
+        "—Did the training help? —I'd like to think so."
+       ],
+       [
+        "not necessarily",
+        "expresión",
+        "no necesariamente",
+        "—Is the cheapest option the worst? —Not necessarily."
+       ],
+       [
+        "presumably so",
+        "expresión",
+        "es de suponer que sí",
+        "—Will legal review it? —Presumably so."
+       ],
+       [
+        "as did",
+        "expresión",
+        "al igual que (con verbo pasado)",
+        "Sales rose in May, as did profits."
+       ],
+       [
+        "the same goes for",
+        "expresión",
+        "lo mismo aplica a",
+        "Deadlines are strict, and the same goes for budgets."
+       ],
+       [
+        "so it seems",
+        "expresión",
+        "eso parece",
+        "—They've cancelled the deal? —So it seems."
+       ],
+       [
+        "likewise",
+        "adverbio",
+        "igualmente, de la misma manera",
+        "She thanked the team, and the CEO did likewise."
+       ],
+       [
+        "vice versa",
+        "expresión",
+        "viceversa",
+        "Marketing supports sales, and vice versa."
+       ],
+       [
+        "respectively",
+        "adverbio",
+        "respectivamente",
+        "Ana and Luis earned 5 % and 8 % respectively."
+       ],
+       [
+        "the one in question",
+        "expresión",
+        "el (la) que nos ocupa, el (la) en cuestión",
+        "The contract in question expires in June."
+       ],
+       [
+        "if need be",
+        "expresión",
+        "si fuera necesario",
+        "We can work over the weekend if need be."
+       ],
+       [
+        "so much so that",
+        "expresión",
+        "tanto es así que",
+        "Demand was high, so much so that we ran out of stock."
+       ],
+       [
+        "if anything",
+        "expresión",
+        "en todo caso, si acaso",
+        "The new design isn't worse; if anything, it's clearer."
+       ]
+      ],
+      "dialogue": {
+       "title": "Antes de la auditoría",
+       "scene": "Camila, jefa de control interno, y su colega irlandés Patrick repasan pendientes un día antes de una auditoría externa.",
+       "a": "Patrick",
+       "b": "Camila",
+       "lines": [
+        [
+         "A",
+         "Have the auditors confirmed the time for tomorrow?",
+         "¿Los auditores confirmaron la hora de mañana?"
+        ],
+        [
+         "B",
+         "Not yet, but I expect they will this afternoon. If not, I'll call them first thing.",
+         "Todavía no, pero espero que lo hagan esta tarde. Si no, los llamo a primera hora."
+        ],
+        [
+         "A",
+         "Good. Is the inventory reconciliation finished?",
+         "Bien. ¿Está terminada la conciliación del inventario?"
+        ],
+        [
+         "B",
+         "I'm afraid not. Julián said he'd finish it by noon, but he hasn't.",
+         "Me temo que no. Julián dijo que la terminaría al mediodía, pero no lo ha hecho."
+        ],
+        [
+         "A",
+         "Will he manage it before tonight?",
+         "¿Alcanzará a hacerlo antes de esta noche?"
+        ],
+        [
+         "B",
+         "I'd like to think so. He can stay late if need be; he's offered to.",
+         "Quisiera pensar que sí. Puede quedarse hasta tarde si fuera necesario; se ofreció a hacerlo."
+        ],
+        [
+         "A",
+         "And the two expense reports we flagged last week, the Cali one and the Barranquilla one?",
+         "¿Y los dos informes de gastos que marcamos la semana pasada, el de Cali y el de Barranquilla?"
+        ],
+        [
+         "B",
+         "The former has been corrected. The latter is still missing three receipts.",
+         "El primero ya se corrigió. Al segundo todavía le faltan tres recibos."
+        ],
+        [
+         "A",
+         "Is that a serious problem?",
+         "¿Es eso un problema grave?"
+        ],
+        [
+         "B",
+         "Not necessarily. Auditors accept missing receipts if a manager signs a declaration, and ours has agreed to do so.",
+         "No necesariamente. Los auditores aceptan recibos faltantes si un gerente firma una declaración, y el nuestro aceptó hacerlo."
+        ],
+        [
+         "A",
+         "Great. Did you update the access logs? Last year they asked for them, as did the regulator.",
+         "Genial. ¿Actualizaste los registros de acceso? El año pasado los pidieron, al igual que el regulador."
+        ],
+        [
+         "B",
+         "I did, and I've prepared summary sheets for both. The old ones were too long, so I made new ones.",
+         "Sí, y preparé hojas de resumen para ambos. Las viejas eran demasiado largas, así que hice unas nuevas."
+        ],
+        [
+         "A",
+         "Are we in better shape than last year, then?",
+         "¿Entonces estamos en mejor forma que el año pasado?"
+        ],
+        [
+         "B",
+         "If anything, we're over-prepared. So much so that I might actually get some sleep tonight!",
+         "En todo caso, estamos sobrepreparados. ¡Tanto es así que de pronto hasta duermo esta noche!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "—Will the merger go ahead? —I don't know, but I ___.",
+        "o": [
+         "hope it",
+         "hope so",
+         "hope yes",
+         "am hoping it"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "—Is the system going to crash again? —I hope ___.",
+        "o": [
+         "not",
+         "no",
+         "don't",
+         "not so"
+        ],
+        "a": 0,
+        "x": "'I don't hope so' no existe; se dice 'I hope not'."
+       },
+       {
+        "t": "mc",
+        "q": "Employees who wish to work from home may ___ on Fridays.",
+        "o": [
+         "do it so",
+         "do so",
+         "make so",
+         "do this so"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "I haven't spoken to the director yet, but I ___ before the meeting. (lo haré)",
+        "ans": [
+         "will",
+         "'ll"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We received two bids for the contract. The first was cheaper, but the second offered better guarantees, so in the end we went with the latter.",
+        "q": "¿Qué oferta eligieron?",
+        "o": [
+         "La más barata",
+         "La segunda, con mejores garantías",
+         "Ninguna de las dos",
+         "Una tercera oferta"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I haven't read the final version yet, but I will before tomorrow's meeting."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Those",
+         "who",
+         "wish",
+         "to",
+         "leave",
+         "early",
+         "may",
+         "do",
+         "so."
+        ],
+        "es": "Quienes deseen salir temprano pueden hacerlo."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Revenue",
+         "rose",
+         "in",
+         "March,",
+         "as",
+         "did",
+         "operating",
+         "costs."
+        ],
+        "es": "Los ingresos subieron en marzo, al igual que los costos operativos."
+       },
+       {
+        "t": "dict",
+        "say": "Of the two candidates, the latter seems more experienced."
+       },
+       {
+        "t": "dict",
+        "say": "We can extend the deadline if need be."
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué oración usa la sustitución INCORRECTAMENTE?",
+        "o": [
+         "I prefer the blue folders to the red ones.",
+         "I prefer tea to coffee one.",
+         "This laptop is faster than the old one.",
+         "The new rules are stricter than the previous ones."
+        ],
+        "a": 1,
+        "x": "One/ones solo sustituyen sustantivos contables; coffee aquí es incontable."
+       },
+       {
+        "t": "fill",
+        "q": "—Has the shipment arrived? —So it ___. The tracking says 'delivered'. (parece)",
+        "ans": [
+         "seems",
+         "appears"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "She promised she would present the findings to the board, and she has. If anything, her presentation exceeded our expectations.",
+        "q": "¿Qué pasó con la presentación?",
+        "o": [
+         "No la hizo",
+         "La hizo y superó las expectativas",
+         "La aplazó",
+         "Fue decepcionante"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo o un intercambio de mensajes (mínimo 120 palabras) entre dos colegas que revisan pendientes antes de un evento importante. Evita repeticiones usando so/not, do so, one/ones, the former/the latter y elipsis después de auxiliares.",
+        "min": 120,
+        "keys": [
+         [
+          "i think so",
+          "i hope so",
+          "i expect so",
+          "i'm afraid not",
+          "i hope not",
+          "i suspect so",
+          "so it seems"
+         ],
+         [
+          "do so"
+         ],
+         [
+          "one",
+          "ones",
+          "the former",
+          "the latter"
+         ],
+         [
+          "will",
+          "have",
+          "has",
+          "should",
+          "did",
+          "would"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "—Will the CEO attend the conference? —I'm not sure, but I ___.",
+       "o": [
+        "think yes",
+        "think it",
+        "think so",
+        "think that"
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "He said he would apologise to the client, and he ___.",
+       "o": [
+        "did it so",
+        "has",
+        "has done it so",
+        "has so"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u3-l5",
+      "title": "Presentaciones de alto nivel",
+      "goal": "Estructurar una presentación, describir gráficos con precisión, enfatizar datos clave, hacer transiciones fluidas y manejar preguntas difíciles con profesionalismo.",
+      "theory": [
+       {
+        "p": "Una presentación profesional en inglés se apoya en el **signposting**: frases que le indican a la audiencia **dónde está** y **hacia dónde va**. Úsalas para abrir, pasar de un punto a otro y cerrar."
+       },
+       {
+        "ex": [
+         [
+          "I'll be walking you through three key areas this morning.",
+          "Esta mañana les voy a explicar tres áreas clave."
+         ],
+         [
+          "That brings me to my second point.",
+          "Eso me lleva a mi segundo punto."
+         ],
+         [
+          "Let me now turn to the regional breakdown.",
+          "Ahora pasemos al desglose regional."
+         ],
+         [
+          "To recap, there are two takeaways I'd like you to remember.",
+          "Para recapitular, hay dos conclusiones que quisiera que recordaran."
+         ]
+        ]
+       },
+       {
+        "p": "Para **describir visualizaciones**, combina sustantivo + adjetivo o verbo + adverbio y usa preposiciones exactas: **rise by** (la diferencia) / **rise to** (el punto final) / **from... to**; **peak at**, **level off / plateau**, **plummet**, **surge**, **a steady decline**, **a slight dip**, **fluctuate**. Remite al gráfico: **As you can see from this bar chart... / The vertical axis shows...**"
+       },
+       {
+        "ex": [
+         [
+          "Sales rose by 15 % to 2.3 million.",
+          "Las ventas subieron un 15 % hasta 2,3 millones."
+         ],
+         [
+          "Traffic peaked at 80,000 visits in July before levelling off.",
+          "El tráfico alcanzó su punto máximo de 80.000 visitas en julio antes de estabilizarse."
+         ],
+         [
+          "Exports plummeted in the second quarter.",
+          "Las exportaciones se desplomaron en el segundo trimestre."
+         ],
+         [
+          "What this chart clearly shows is a surge in mobile payments.",
+          "Lo que este gráfico muestra claramente es un aumento repentino de los pagos móviles."
+         ]
+        ]
+       },
+       {
+        "p": "Para **enfatizar** usa oraciones hendidas e intensificadores: **What really stands out here is..., The crucial figure is..., Note that..., It is worth highlighting that..., a staggering 70 %**. Para **preguntas difíciles**: agradece, reformula, gana tiempo o redirige: **That's a fair point. / If I understand you correctly, you're asking... / I'll come back to that at the end. / That's beyond the scope of today's talk, but I'd be happy to follow up.**"
+       },
+       {
+        "tip": "Error frecuente: 'The sales increased in 15 %'. En inglés la diferencia va con by: increased by 15 %. Y no digas 'Now I will speak about the next slide': suena plano. Mejor: 'Moving on to...' o 'This brings me to...'. Ante una pregunta que no sabes responder, nunca inventes: 'I don't have that figure to hand, but I'll get back to you by tomorrow' proyecta más seguridad."
+       }
+      ],
+      "vocab": [
+       [
+        "walk (sb) through",
+        "phrasal verb",
+        "explicar paso a paso",
+        "Let me walk you through the main findings."
+       ],
+       [
+        "signpost",
+        "verbo",
+        "señalizar, indicar la estructura",
+        "Good speakers signpost each section clearly."
+       ],
+       [
+        "at a glance",
+        "expresión",
+        "de un vistazo",
+        "At a glance, the figures look encouraging."
+       ],
+       [
+        "breakdown",
+        "sustantivo",
+        "desglose",
+        "Here is a breakdown of costs by region."
+       ],
+       [
+        "account for",
+        "phrasal verb",
+        "representar (una proporción)",
+        "Online sales account for 40 % of revenue."
+       ],
+       [
+        "plateau",
+        "verbo / sustantivo",
+        "estancarse; meseta",
+        "User growth has plateaued since June."
+       ],
+       [
+        "surge",
+        "sustantivo / verbo",
+        "aumento repentino; dispararse",
+        "There was a surge in demand after the launch."
+       ],
+       [
+        "plummet",
+        "verbo",
+        "desplomarse, caer en picada",
+        "Share prices plummeted after the announcement."
+       ],
+       [
+        "a steady decline",
+        "colocación",
+        "una disminución constante",
+        "The chart shows a steady decline in absenteeism."
+       ],
+       [
+        "peak at",
+        "verbo",
+        "alcanzar el máximo de",
+        "Downloads peaked at 2 million in December."
+       ],
+       [
+        "drill down into",
+        "phrasal verb",
+        "profundizar en, analizar en detalle",
+        "Let's drill down into the figures for Medellín."
+       ],
+       [
+        "key takeaway",
+        "sustantivo",
+        "conclusión clave",
+        "The key takeaway is that retention matters more than acquisition."
+       ],
+       [
+        "to recap",
+        "conector",
+        "para recapitular",
+        "To recap, we've covered three main risks."
+       ],
+       [
+        "bear with me",
+        "expresión",
+        "ténganme paciencia un momento",
+        "Bear with me while I open the spreadsheet."
+       ],
+       [
+        "that's a fair point",
+        "expresión",
+        "es un punto válido",
+        "That's a fair point, and it deserves a closer look."
+       ],
+       [
+        "beyond the scope of",
+        "expresión",
+        "fuera del alcance de",
+        "That question is beyond the scope of this presentation."
+       ],
+       [
+        "I'll come back to that",
+        "expresión",
+        "volveré sobre eso",
+        "Good question. I'll come back to that at the end."
+       ],
+       [
+        "hand over to",
+        "phrasal verb",
+        "ceder la palabra a",
+        "I'll now hand over to my colleague, Laura."
+       ],
+       [
+        "pie chart",
+        "sustantivo",
+        "gráfico circular, de torta",
+        "The pie chart shows our market share."
+       ],
+       [
+        "vertical axis",
+        "sustantivo",
+        "eje vertical",
+        "The vertical axis represents revenue in millions."
+       ]
+      ],
+      "dialogue": {
+       "title": "Ensayo de la presentación a inversionistas",
+       "scene": "Valentina, directora financiera de una fintech colombiana, ensaya su presentación con Jonathan, asesor de comunicación, quien hace de inversionista exigente.",
+       "a": "Jonathan",
+       "b": "Valentina",
+       "lines": [
+        [
+         "A",
+         "Whenever you're ready, Valentina. Pretend I'm the toughest investor in the room.",
+         "Cuando estés lista, Valentina. Imagina que soy el inversionista más exigente de la sala."
+        ],
+        [
+         "B",
+         "Good morning, everyone. Over the next twenty minutes, I'll walk you through our growth, our margins and our plans for next year.",
+         "Buenos días a todos. En los próximos veinte minutos les explicaré nuestro crecimiento, nuestros márgenes y nuestros planes para el próximo año."
+        ],
+        [
+         "A",
+         "Clear structure. Keep going.",
+         "Estructura clara. Continúa."
+        ],
+        [
+         "B",
+         "As you can see from this chart, active users rose by 60 % to 1.2 million, peaking at 1.3 million in December.",
+         "Como pueden ver en este gráfico, los usuarios activos subieron un 60 % hasta 1,2 millones, con un máximo de 1,3 millones en diciembre."
+        ],
+        [
+         "A",
+         "What do you want me to notice first?",
+         "¿Qué quieres que note primero?"
+        ],
+        [
+         "B",
+         "What really stands out is retention. A staggering 78 % of users who joined in January are still active today.",
+         "Lo que realmente destaca es la retención. Un impresionante 78 % de los usuarios que se unieron en enero sigue activo hoy."
+        ],
+        [
+         "A",
+         "Nice emphasis. Now the transition to costs.",
+         "Buen énfasis. Ahora la transición a los costos."
+        ],
+        [
+         "B",
+         "That brings me to my second point: margins. This pie chart gives you a breakdown of our operating costs at a glance.",
+         "Eso me lleva a mi segundo punto: los márgenes. Este gráfico circular les da de un vistazo el desglose de nuestros costos operativos."
+        ],
+        [
+         "A",
+         "Let me interrupt as an investor: why have customer acquisition costs surged if your product is so popular?",
+         "Déjame interrumpir como inversionista: ¿por qué se dispararon los costos de adquisición de clientes si su producto es tan popular?"
+        ],
+        [
+         "B",
+         "That's a fair point. If I understand you correctly, you're asking whether our growth is sustainable without heavy marketing spend.",
+         "Es un punto válido. Si le entiendo bien, me pregunta si nuestro crecimiento es sostenible sin un gasto fuerte en mercadeo."
+        ],
+        [
+         "A",
+         "Exactly. And don't dodge it.",
+         "Exacto. Y no la esquives."
+        ],
+        [
+         "B",
+         "The surge was temporary and linked to our launch in Ecuador. Since then, acquisition costs have fallen steadily and are now below the industry average.",
+         "El aumento fue temporal y ligado a nuestro lanzamiento en Ecuador. Desde entonces, los costos de adquisición han bajado de forma constante y hoy están por debajo del promedio del sector."
+        ],
+        [
+         "A",
+         "Strong answer. And if someone asks about your valuation compared to competitors?",
+         "Respuesta sólida. ¿Y si alguien pregunta por su valoración frente a la competencia?"
+        ],
+        [
+         "B",
+         "I'd say that's beyond the scope of today's session, but I'd be happy to follow up individually.",
+         "Diría que eso está fuera del alcance de la sesión de hoy, pero con gusto lo conversamos individualmente."
+        ],
+        [
+         "A",
+         "Perfect. Finish with your key takeaway.",
+         "Perfecto. Cierra con tu conclusión clave."
+        ],
+        [
+         "B",
+         "To recap: we're growing fast, we're keeping our users, and our costs are coming down. Thank you, and I'll now hand over to our CEO.",
+         "Para recapitular: estamos creciendo rápido, conservamos a nuestros usuarios y nuestros costos están bajando. Gracias, y ahora le cedo la palabra a nuestro director general."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Revenue increased ___ 12 %, reaching 5 million dollars.",
+        "o": [
+         "in",
+         "by",
+         "of",
+         "with"
+        ],
+        "a": 1,
+        "x": "rise / increase / fall + by + la diferencia; + to + el punto final."
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué frase es la mejor transición a un nuevo punto?",
+        "o": [
+         "Now I speak of the next slide.",
+         "That brings me to my next point.",
+         "Next slide is about money.",
+         "I go now to the costs."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Alguien hace una pregunta que no puedes responder en ese momento. ¿Qué respuesta es más profesional?",
+        "o": [
+         "I don't know.",
+         "That's not important.",
+         "I don't have that figure to hand, but I'll get back to you by tomorrow.",
+         "Ask someone else."
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "Online sales now account ___ almost half of our revenue. (representan)",
+        "ans": [
+         "for"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "As you can see from the line graph, visits to the website plummeted in April, but they recovered steadily over the summer and peaked at ninety thousand in September.",
+        "q": "¿Cuándo llegaron las visitas a su punto máximo?",
+        "o": [
+         "En abril",
+         "Durante todo el verano",
+         "En septiembre",
+         "En diciembre"
+        ],
+        "a": 2
+       },
+       {
+        "t": "oral",
+        "text": "What really stands out here is the steady decline in operating costs."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Let",
+         "me",
+         "walk",
+         "you",
+         "through",
+         "the",
+         "main",
+         "findings."
+        ],
+        "es": "Permítanme explicarles paso a paso los hallazgos principales."
+       },
+       {
+        "t": "order",
+        "words": [
+         "That's",
+         "beyond",
+         "the",
+         "scope",
+         "of",
+         "today's",
+         "presentation."
+        ],
+        "es": "Eso está fuera del alcance de la presentación de hoy."
+       },
+       {
+        "t": "dict",
+        "say": "The vertical axis shows revenue in millions of dollars."
+       },
+       {
+        "t": "dict",
+        "say": "Bear with me while I open the spreadsheet."
+       },
+       {
+        "t": "mc",
+        "q": "User numbers grew quickly until June and then stopped growing. Elige el verbo correcto: 'User numbers ___ after June.'",
+        "o": [
+         "plummeted",
+         "surged",
+         "plateaued",
+         "peaked at"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "Good question. I'll ___ back to that at the end of the session. (volveré)",
+        "ans": [
+         "come",
+         "get"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If I understand you correctly, you're asking whether the decline in exports is permanent. That's a fair point, and I'll come back to it once we've looked at the regional breakdown.",
+        "q": "¿Qué hace la presentadora con la pregunta?",
+        "o": [
+         "La responde de inmediato",
+         "Dice que es irrelevante",
+         "La reformula y promete volver a ella después del desglose regional",
+         "Le pasa la pregunta a un colega"
+        ],
+        "a": 2
+       },
+       {
+        "t": "write",
+        "q": "Escribe el guion de la parte central de una presentación (mínimo 140 palabras) en la que describas un gráfico de resultados de tu empresa o sector. Incluye signposting, al menos cuatro verbos o sustantivos de tendencia con sus preposiciones, una frase de énfasis y una respuesta a una pregunta difícil.",
+        "min": 140,
+        "keys": [
+         [
+          "walk you through",
+          "that brings me to",
+          "moving on",
+          "let me now turn to",
+          "to recap"
+         ],
+         [
+          "rose by",
+          "increased by",
+          "fell by",
+          "peaked at",
+          "plummeted",
+          "surge",
+          "plateau",
+          "steady decline",
+          "levelled off",
+          "leveled off"
+         ],
+         [
+          "what really stands out",
+          "it is worth",
+          "note that",
+          "the key takeaway",
+          "the crucial"
+         ],
+         [
+          "that's a fair point",
+          "if i understand you correctly",
+          "i'll come back to that",
+          "beyond the scope"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Profits ___ 3.5 million in the third quarter, the highest figure in the company's history.",
+       "o": [
+        "peaked at",
+        "peaked by",
+        "peaked in",
+        "peaked to"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Un asistente te hace una pregunta hostil. ¿Cuál es la mejor manera de empezar tu respuesta?",
+       "o": [
+        "You're wrong.",
+        "That's a fair point. If I understand you correctly, you're asking...",
+        "Next question, please.",
+        "I already explained that."
+       ],
+       "a": 1
+      },
+      "reading": 2,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "Elige la nominalización correcta: 'Because the company relied heavily on imports, it suffered when the peso fell.'",
+      "o": [
+       "The company's heavy reliance on imports made it vulnerable to the fall in the peso.",
+       "The company's heavily reliance of imports made it vulnerable to the fall of peso.",
+       "The heavy relying in imports of the company made it vulnerable.",
+       "The company's reliance heavy on imports made it vulnerable."
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The ancient city is thought ___ by an earthquake around 800 AD.",
+      "o": [
+       "to destroy",
+       "to have been destroyed",
+       "that it was destroyed",
+       "being destroyed"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Demand for electric cars is growing; ___, sales of diesel vehicles are falling.",
+      "o": [
+       "by the same token",
+       "to that end",
+       "conversely",
+       "as such"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "—Are we going to miss the deadline? —I ___. We're making good progress.",
+      "o": [
+       "don't hope so",
+       "hope not",
+       "hope no",
+       "not hope"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Mobile payments now ___ 65 % of all transactions.",
+      "o": [
+       "account for",
+       "account to",
+       "count for",
+       "amount for"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "The results are promising, ___ based on a small sample. (aunque)",
+      "ans": [
+       "albeit"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "There are believed to have been serious irregularities in the tender process; in light of this, the contract has been suspended pending an independent review.",
+      "q": "¿Qué se ha decidido?",
+      "o": [
+       "Firmar el contrato de inmediato",
+       "Suspender el contrato hasta una revisión independiente",
+       "Despedir al equipo de compras",
+       "Repetir la licitación mañana"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Let me now turn to the regional breakdown. As you can see, sales in the Caribbean region surged, whereas those in the south plateaued.",
+      "q": "¿Qué pasó con las ventas en el sur?",
+      "o": [
+       "Se dispararon",
+       "Se desplomaron",
+       "Se estancaron",
+       "Alcanzaron un máximo"
+      ],
+      "a": 2
+     },
+     {
+      "t": "write",
+      "q": "Escribe el resumen ejecutivo de un informe (mínimo 140 palabras) sobre un reto de tu empresa o sector. Usa nominalizaciones, al menos dos estructuras de pasiva impersonal, varios marcadores discursivos avanzados y evita repeticiones con sustitución o elipsis.",
+      "min": 140,
+      "keys": [
+       [
+        "implementation",
+        "reduction",
+        "increase",
+        "decline",
+        "reliance",
+        "assessment"
+       ],
+       [
+        "it is believed",
+        "it has been suggested",
+        "is thought to",
+        "is estimated to",
+        "there is believed to be",
+        "is said to"
+       ],
+       [
+        "that being said",
+        "conversely",
+        "in light of",
+        "with regard to",
+        "hence",
+        "thereby",
+        "albeit",
+        "to put it another way"
+       ],
+       [
+        "do so",
+        "the former",
+        "the latter",
+        "one",
+        "ones"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "In light of these findings, it has been suggested that the project be postponed."
+     },
+     {
+      "t": "oral",
+      "text": "That brings me to my second point. As you can see, profits rose by twelve per cent."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "There has been a sharp increase ___ the number of applications this year.",
+      "o": [
+       "of",
+       "in",
+       "on",
+       "at"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The fraud ___ for several years before it was discovered.",
+      "o": [
+       "is believed to have been going on",
+       "is believed to go on",
+       "believes to have gone on",
+       "is believed that it went on"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The minister ___ to have accepted gifts from the contractor, though he denies it.",
+      "o": [
+       "alleges",
+       "is alleged",
+       "has alleged",
+       "alleged"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "___ your enquiry, I'm afraid the position has already been filled.",
+      "o": [
+       "Conversely",
+       "With regard to",
+       "Albeit",
+       "Hence"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "—Is the new manager any good? —___ He's only been here a week.",
+      "o": [
+       "I think yes.",
+       "It's too early to say, but I'd like to think so.",
+       "I hope yes.",
+       "I don't hope so."
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Visitor numbers ___ by 40 % after the floods, the worst drop on record.",
+      "o": [
+       "peaked",
+       "plummeted",
+       "plateaued",
+       "surged"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "The board rejected the proposal, ___ forcing the team to start again. (con lo cual)",
+      "ans": [
+       "thereby"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Staff who wish to attend the training may ___ so by registering online. (hacerlo)",
+      "ans": [
+       "do"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "In the ___ of clear evidence, the court dismissed the case. (ausencia)",
+      "ans": [
+       "absence"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Of the two strategies, the former is cheaper but slower, whereas the latter requires more investment and delivers results almost immediately.",
+      "q": "¿Qué caracteriza a la segunda estrategia?",
+      "o": [
+       "Es más barata y lenta",
+       "Requiere más inversión y da resultados casi inmediatos",
+       "Es la más arriesgada",
+       "No requiere inversión"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "The decline in productivity stemmed largely from the deterioration in morale that followed the restructuring.",
+      "q": "¿De qué se originó la caída de la productividad?",
+      "o": [
+       "Del aumento de los salarios",
+       "Del deterioro de la moral tras la reestructuración",
+       "De un problema técnico",
+       "De la llegada de un nuevo director"
+      ],
+      "a": 1
+     },
+     {
+      "t": "oral",
+      "text": "The key takeaway is that retention matters far more than acquisition."
+     },
+     {
+      "t": "oral",
+      "text": "The CEO is reported to be considering a merger with a regional competitor."
+     },
+     {
+      "t": "order",
+      "words": [
+       "To",
+       "put",
+       "it",
+       "another",
+       "way,",
+       "we",
+       "cannot",
+       "afford",
+       "to",
+       "wait."
+      ],
+      "es": "Dicho de otro modo, no podemos darnos el lujo de esperar."
+     },
+     {
+      "t": "order",
+      "words": [
+       "She",
+       "said",
+       "she",
+       "would",
+       "finish",
+       "the",
+       "report,",
+       "and",
+       "she",
+       "has."
+      ],
+      "es": "Dijo que terminaría el informe, y lo ha hecho."
+     }
+    ]
+   },
+   {
+    "title": "Vocabulario avanzado",
+    "lessons": [
+     {
+      "id": "c1-u4-l1",
+      "title": "Colocaciones de nivel C1",
+      "goal": "Combinar adverbios con adjetivos y verbos con sustantivos como lo hace un hablante nativo culto.",
+      "theory": [
+       {
+        "p": "Una **colocación** es una combinación de palabras que 'suenan bien juntas' por costumbre, no por lógica. En C1 ya no basta con **very disappointed**: se espera **bitterly disappointed**, **deeply rooted** o **highly controversial**. Usar el adverbio correcto es lo que distingue un inglés preciso de uno simplemente correcto."
+       },
+       {
+        "ex": [
+         [
+          "The fans were bitterly disappointed by the result.",
+          "Los hinchas quedaron profundamente decepcionados con el resultado."
+         ],
+         [
+          "Corruption is deeply rooted in the system.",
+          "La corrupción está profundamente arraigada en el sistema."
+         ],
+         [
+          "The decision proved highly controversial.",
+          "La decisión resultó sumamente polémica."
+         ],
+         [
+          "I am fully aware of the risks involved.",
+          "Soy plenamente consciente de los riesgos que implica."
+         ],
+         [
+          "It was painfully obvious that he had not prepared.",
+          "Era dolorosamente evidente que no se había preparado."
+         ]
+        ]
+       },
+       {
+        "p": "El segundo gran grupo es **verbo + sustantivo**. Aquí el español traduce casi siempre con 'hacer', 'tener' o 'sacar', pero el inglés exige un verbo concreto: **pose a threat** (representar una amenaza), **draw a conclusion** (sacar una conclusión), **reach a consensus** (llegar a un consenso), **strike a balance** (encontrar un equilibrio), **meet a deadline** (cumplir un plazo)."
+       },
+       {
+        "ex": [
+         [
+          "Rising sea levels pose a serious threat to coastal cities.",
+          "El aumento del nivel del mar representa una grave amenaza para las ciudades costeras."
+         ],
+         [
+          "It is too early to draw any firm conclusions.",
+          "Es demasiado pronto para sacar conclusiones firmes."
+         ],
+         [
+          "The committee failed to reach a consensus.",
+          "El comité no logró llegar a un consenso."
+         ],
+         [
+          "We need to strike a balance between growth and sustainability.",
+          "Tenemos que encontrar un equilibrio entre el crecimiento y la sostenibilidad."
+         ]
+        ]
+       },
+       {
+        "p": "Errores típicos de hispanohablantes: **make a conclusion** (✗) → **draw/reach a conclusion**; **do a threat** (✗) → **pose a threat**; **arrive to a consensus** (✗) → **reach a consensus**; **strongly disappointed** (✗, poco natural) → **bitterly/deeply disappointed**."
+       },
+       {
+        "tip": "No memorices palabras sueltas: aprende 'paquetes'. Cuando encuentres un adjetivo nuevo, pregúntate qué adverbio lo acompaña normalmente (widely acknowledged, strictly forbidden, utterly ridiculous). Un diccionario de colocaciones (Oxford Collocations) es tu mejor aliado en C1."
+       }
+      ],
+      "vocab": [
+       [
+        "bitterly disappointed",
+        "colocación",
+        "profundamente decepcionado",
+        "She was bitterly disappointed not to be shortlisted."
+       ],
+       [
+        "deeply rooted",
+        "colocación",
+        "profundamente arraigado",
+        "These prejudices are deeply rooted in our culture."
+       ],
+       [
+        "highly controversial",
+        "colocación",
+        "sumamente polémico",
+        "The reform remains highly controversial."
+       ],
+       [
+        "fully aware",
+        "colocación",
+        "plenamente consciente",
+        "We are fully aware of the implications."
+       ],
+       [
+        "utterly ridiculous",
+        "colocación",
+        "completamente absurdo",
+        "The accusation is utterly ridiculous."
+       ],
+       [
+        "painfully obvious",
+        "colocación",
+        "dolorosamente evidente",
+        "It was painfully obvious that the plan would fail."
+       ],
+       [
+        "widely acknowledged",
+        "colocación",
+        "ampliamente reconocido",
+        "It is widely acknowledged that the system is outdated."
+       ],
+       [
+        "strictly forbidden",
+        "colocación",
+        "terminantemente prohibido",
+        "Smoking is strictly forbidden on the premises."
+       ],
+       [
+        "heavily criticised",
+        "colocación",
+        "duramente criticado",
+        "The minister was heavily criticised for his remarks."
+       ],
+       [
+        "sorely tempted",
+        "colocación",
+        "muy tentado",
+        "I was sorely tempted to resign on the spot."
+       ],
+       [
+        "pose a threat",
+        "colocación",
+        "representar una amenaza",
+        "Misinformation poses a threat to democracy."
+       ],
+       [
+        "draw a conclusion",
+        "colocación",
+        "sacar una conclusión",
+        "What conclusions can we draw from the data?"
+       ],
+       [
+        "reach a consensus",
+        "colocación",
+        "llegar a un consenso",
+        "After hours of debate, they reached a consensus."
+       ],
+       [
+        "strike a balance",
+        "colocación",
+        "encontrar un equilibrio",
+        "It is hard to strike a balance between work and family."
+       ],
+       [
+        "meet a deadline",
+        "colocación",
+        "cumplir un plazo",
+        "We worked all weekend to meet the deadline."
+       ],
+       [
+        "raise awareness",
+        "colocación",
+        "crear conciencia, sensibilizar",
+        "The campaign aims to raise awareness of mental health."
+       ],
+       [
+        "bear responsibility",
+        "colocación",
+        "asumir la responsabilidad",
+        "The company must bear responsibility for the spill."
+       ],
+       [
+        "harbour doubts",
+        "colocación",
+        "albergar dudas",
+        "Many voters still harbour doubts about the candidate."
+       ],
+       [
+        "wield influence",
+        "colocación",
+        "ejercer influencia",
+        "Lobbyists wield considerable influence in Congress."
+       ],
+       [
+        "pay tribute to",
+        "colocación",
+        "rendir homenaje a",
+        "The president paid tribute to the victims."
+       ]
+      ],
+      "dialogue": {
+       "title": "El informe del proyecto piloto",
+       "scene": "Daniela, analista de una ONG en Bogotá, revisa con su jefe Graham los resultados de un programa de reciclaje antes de presentarlos a la junta.",
+       "a": "Graham",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "So, Daniela, what conclusions can we draw from the pilot so far?",
+         "Bueno, Daniela, ¿qué conclusiones podemos sacar del piloto hasta ahora?"
+        ],
+        [
+         "B",
+         "Frankly, the results are mixed. Participation was high in the north, but I was bitterly disappointed with the figures from the south.",
+         "Francamente, los resultados son mixtos. La participación fue alta en el norte, pero los números del sur me decepcionaron profundamente."
+        ],
+        [
+         "A",
+         "Any idea why the gap is so wide?",
+         "¿Alguna idea de por qué la brecha es tan grande?"
+        ],
+        [
+         "B",
+         "Partly infrastructure, but also habits. The idea that waste is someone else's problem is deeply rooted in some neighbourhoods.",
+         "En parte infraestructura, pero también hábitos. La idea de que la basura es problema de otro está muy arraigada en algunos barrios."
+        ],
+        [
+         "A",
+         "I'm fully aware of that. But the board will want to know whether the project is worth extending.",
+         "Soy plenamente consciente de eso. Pero la junta va a querer saber si vale la pena ampliar el proyecto."
+        ],
+        [
+         "B",
+         "I'd argue it is. If we cut it now, the illegal dumps in the south will continue to pose a serious threat to public health.",
+         "Yo diría que sí. Si lo cortamos ahora, los botaderos ilegales del sur seguirán representando una grave amenaza para la salud pública."
+        ],
+        [
+         "A",
+         "That's a fair point. Still, some board members harbour doubts about the cost.",
+         "Es un argumento válido. Aun así, algunos miembros de la junta albergan dudas sobre el costo."
+        ],
+        [
+         "B",
+         "Then we need to strike a balance: keep the north running as it is and redesign the southern campaign to raise awareness door to door.",
+         "Entonces tenemos que encontrar un equilibrio: mantener el norte como está y rediseñar la campaña del sur para sensibilizar puerta a puerta."
+        ],
+        [
+         "A",
+         "Door to door? That sounds labour-intensive. Can we realistically meet the deadline for the report?",
+         "¿Puerta a puerta? Suena muy intensivo en mano de obra. ¿Podemos cumplir de verdad el plazo del informe?"
+        ],
+        [
+         "B",
+         "If I start on the draft tonight, yes. It's painfully obvious that more leaflets won't change anything.",
+         "Si empiezo el borrador esta noche, sí. Es dolorosamente evidente que más volantes no van a cambiar nada."
+        ],
+        [
+         "A",
+         "Agreed. And let's be careful with the wording. The previous report was heavily criticised for being too optimistic.",
+         "De acuerdo. Y cuidemos la redacción. El informe anterior fue duramente criticado por ser demasiado optimista."
+        ],
+        [
+         "B",
+         "Understood. I'll present the weaknesses openly. We should bear responsibility for what didn't work.",
+         "Entendido. Presentaré las debilidades abiertamente. Debemos asumir la responsabilidad de lo que no funcionó."
+        ],
+        [
+         "A",
+         "Good. And I'd like to pay tribute to the volunteers in the introduction. They did an extraordinary job.",
+         "Bien. Y me gustaría rendir homenaje a los voluntarios en la introducción. Hicieron un trabajo extraordinario."
+        ],
+        [
+         "B",
+         "Absolutely. Hopefully the board will reach a consensus at the first meeting this time.",
+         "Por supuesto. Ojalá esta vez la junta llegue a un consenso en la primera reunión."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "After weeks of negotiation, the two parties finally ___ a consensus.",
+        "o": [
+         "made",
+         "did",
+         "reached",
+         "arrived"
+        ],
+        "a": 2,
+        "x": "La colocación es reach a consensus; 'arrive to a consensus' es un calco del español."
+       },
+       {
+        "t": "mc",
+        "q": "Elige el adverbio más natural: The team was ___ disappointed with the draw.",
+        "o": [
+         "strongly",
+         "bitterly",
+         "heavily",
+         "widely"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Unregulated AI could ___ a serious threat to privacy.",
+        "o": [
+         "pose",
+         "do",
+         "put",
+         "give"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "It is too early to ___ any definitive conclusions from such a small sample. (sacar)",
+        "ans": [
+         "draw",
+         "reach"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Although the policy was heavily criticised at first, it is now widely acknowledged that it saved thousands of lives.",
+        "q": "¿Qué se reconoce ahora sobre la política?",
+        "o": [
+         "Que fue un fracaso total",
+         "Que salvó miles de vidas",
+         "Que nunca fue criticada",
+         "Que costó demasiado dinero"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "We need to strike a balance between economic growth and environmental protection."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Smoking",
+         "is",
+         "strictly",
+         "forbidden",
+         "anywhere",
+         "on",
+         "the",
+         "premises."
+        ],
+        "es": "Fumar está terminantemente prohibido en cualquier parte de las instalaciones."
+       },
+       {
+        "t": "order",
+        "words": [
+         "These",
+         "beliefs",
+         "are",
+         "deeply",
+         "rooted",
+         "in",
+         "rural",
+         "communities."
+        ],
+        "es": "Estas creencias están profundamente arraigadas en las comunidades rurales."
+       },
+       {
+        "t": "dict",
+        "say": "The minister was heavily criticised for his remarks."
+       },
+       {
+        "t": "dict",
+        "say": "Many voters still harbour doubts about the reform."
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué combinación NO es una colocación natural?",
+        "o": [
+         "fully aware",
+         "utterly ridiculous",
+         "highly controversial",
+         "bitterly obvious"
+        ],
+        "a": 3,
+        "x": "Se dice painfully obvious, no bitterly obvious."
+       },
+       {
+        "t": "fill",
+        "q": "The government must ___ responsibility for the delays. (asumir)",
+        "ans": [
+         "bear",
+         "take",
+         "accept"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The campaign was designed to raise awareness of domestic violence, but critics argue that it failed to reach the communities most at risk.",
+        "q": "¿Qué critican de la campaña?",
+        "o": [
+         "Que era demasiado cara",
+         "Que no llegó a las comunidades más vulnerables",
+         "Que no creó conciencia en nadie",
+         "Que duró muy poco tiempo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un párrafo de opinión (mínimo 120 palabras) sobre un problema social de tu ciudad. Usa al menos cuatro colocaciones de la lección: dos de adverbio + adjetivo y dos de verbo + sustantivo.",
+        "min": 120,
+        "keys": [
+         [
+          "deeply rooted",
+          "highly controversial",
+          "widely acknowledged",
+          "painfully obvious",
+          "bitterly disappointed",
+          "fully aware"
+         ],
+         [
+          "pose a threat",
+          "poses a threat",
+          "posed a threat"
+         ],
+         [
+          "strike a balance",
+          "reach a consensus",
+          "raise awareness",
+          "draw a conclusion",
+          "bear responsibility"
+         ],
+         [
+          "however",
+          "nevertheless",
+          "therefore",
+          "although"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The study's authors were careful not to ___ conclusions too hastily.",
+       "o": [
+        "make",
+        "draw",
+        "do",
+        "take out"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "It is ___ acknowledged that early education has long-term benefits.",
+       "o": [
+        "widely",
+        "bitterly",
+        "heavily",
+        "sorely"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u4-l2",
+      "title": "Phrasal verbs y sus equivalentes formales",
+      "goal": "Elegir entre un phrasal verb y su equivalente latino según el registro del texto.",
+      "theory": [
+       {
+        "p": "Casi todos los **phrasal verbs** comunes tienen un **equivalente de origen latino** más formal. Los phrasal verbs dominan en la conversación y en los correos entre colegas; los verbos latinos predominan en informes, artículos académicos, contratos y comunicaciones oficiales. Para el hispanohablante es una ventaja: el verbo formal suele parecerse al español (postpone = posponer, encounter = encontrarse con)."
+       },
+       {
+        "ex": [
+         [
+          "We had to put off the meeting. → The meeting has been postponed.",
+          "Tuvimos que aplazar la reunión. → La reunión ha sido aplazada."
+         ],
+         [
+          "She brought up an interesting point. → She raised an interesting point.",
+          "Ella planteó un punto interesante."
+         ],
+         [
+          "I came across an old letter. → Researchers encountered unexpected difficulties.",
+          "Me encontré una carta vieja. → Los investigadores se toparon con dificultades inesperadas."
+         ],
+         [
+          "They're looking into the complaint. → The authorities are investigating the complaint.",
+          "Están investigando la queja."
+         ]
+        ]
+       },
+       {
+        "p": "El error más común en C1 no es usar mal un phrasal verb, sino **mezclar registros**: un informe que dice 'The board turned down the proposal and we'll sort out the budget later' suena demasiado coloquial. La versión formal: **'The board rejected the proposal, and the budget will be addressed at a later date.'** Al revés, decir 'Shall we postpone our encounter?' a un amigo suena rígido y extraño."
+       },
+       {
+        "ex": [
+         [
+          "carry out → conduct",
+          "llevar a cabo: The survey was conducted in 2024."
+         ],
+         [
+          "find out → ascertain / discover",
+          "averiguar: We need to ascertain the cause."
+         ],
+         [
+          "set up → establish",
+          "crear, fundar: The fund was established in 1998."
+         ],
+         [
+          "cut down on → reduce",
+          "reducir: Patients should reduce their sugar intake."
+         ],
+         [
+          "leave out → omit",
+          "omitir: Several key details were omitted."
+         ]
+        ]
+       },
+       {
+        "p": "Ojo: no todo phrasal verb tiene un equivalente exacto. **Put up with** = tolerate, pero con matiz de resignación; **make up** = constitute/comprise solo en el sentido de 'componer' (Women make up 60% of the staff), no en el de 'inventar' o 'reconciliarse'. Revisa siempre el **significado concreto**."
+       },
+       {
+        "tip": "Truco para informes y ensayos: escribe primero tu borrador con naturalidad y luego busca los phrasal verbs. Pregúntate: ¿esto lo leerá un jurado, un cliente o un comité? Si es así, cámbialo por su equivalente formal. En un chat de WhatsApp, haz lo contrario."
+       }
+      ],
+      "vocab": [
+       [
+        "put off → postpone",
+        "phrasal verb",
+        "aplazar",
+        "The launch has been postponed until further notice."
+       ],
+       [
+        "bring up → raise",
+        "phrasal verb",
+        "plantear (un tema)",
+        "She raised the issue of funding at the meeting."
+       ],
+       [
+        "come across → encounter",
+        "phrasal verb",
+        "toparse con",
+        "We encountered several technical obstacles."
+       ],
+       [
+        "look into → investigate",
+        "phrasal verb",
+        "investigar, examinar",
+        "The ombudsman is investigating the complaint."
+       ],
+       [
+        "carry out → conduct",
+        "phrasal verb",
+        "llevar a cabo",
+        "The interviews were conducted by an external firm."
+       ],
+       [
+        "find out → ascertain",
+        "phrasal verb",
+        "averiguar, determinar",
+        "It is difficult to ascertain the exact cause."
+       ],
+       [
+        "set up → establish",
+        "phrasal verb",
+        "crear, establecer",
+        "The foundation was established in 1985."
+       ],
+       [
+        "cut down on → reduce",
+        "phrasal verb",
+        "reducir",
+        "Households are urged to reduce their energy consumption."
+       ],
+       [
+        "turn down → reject / decline",
+        "phrasal verb",
+        "rechazar",
+        "The council declined the invitation."
+       ],
+       [
+        "point out → indicate",
+        "phrasal verb",
+        "señalar",
+        "The report indicates a sharp decline in sales."
+       ],
+       [
+        "make up → constitute",
+        "phrasal verb",
+        "constituir, componer",
+        "Migrants constitute a quarter of the workforce."
+       ],
+       [
+        "deal with → address",
+        "phrasal verb",
+        "abordar, tratar",
+        "The new law fails to address the root causes."
+       ],
+       [
+        "get rid of → eliminate",
+        "phrasal verb",
+        "eliminar, deshacerse de",
+        "The aim is to eliminate unnecessary paperwork."
+       ],
+       [
+        "back up → corroborate",
+        "phrasal verb",
+        "respaldar, corroborar",
+        "No evidence was found to corroborate his claims."
+       ],
+       [
+        "call off → cancel",
+        "phrasal verb",
+        "cancelar",
+        "The match was cancelled due to adverse weather."
+       ],
+       [
+        "figure out → determine",
+        "phrasal verb",
+        "determinar, descifrar",
+        "Engineers are trying to determine what went wrong."
+       ],
+       [
+        "hold up → delay",
+        "phrasal verb",
+        "retrasar",
+        "Construction was delayed by heavy rain."
+       ],
+       [
+        "go over → review",
+        "phrasal verb",
+        "revisar",
+        "The committee will review the proposal next month."
+       ],
+       [
+        "leave out → omit",
+        "phrasal verb",
+        "omitir",
+        "Crucial information was omitted from the contract."
+       ],
+       [
+        "put up with → tolerate",
+        "phrasal verb",
+        "tolerar, aguantar",
+        "Employees should not have to tolerate harassment."
+       ]
+      ],
+      "dialogue": {
+       "title": "Del borrador al informe oficial",
+       "scene": "Mateo escribió un informe para un cliente en Londres y su colega británica Fiona lo ayuda a darle un registro más formal.",
+       "a": "Fiona",
+       "b": "Mateo",
+       "lines": [
+        [
+         "A",
+         "I've read your draft, Mateo. The content's solid, but the tone is a bit too chatty for a client report.",
+         "Leí tu borrador, Mateo. El contenido es sólido, pero el tono es un poco demasiado conversacional para un informe a un cliente."
+        ],
+        [
+         "B",
+         "Really? I thought using phrasal verbs made it sound more natural.",
+         "¿En serio? Pensé que usar phrasal verbs lo hacía sonar más natural."
+        ],
+        [
+         "A",
+         "In an email to me, absolutely. But look at this: 'We looked into the problem and found out that the supplier had held up the delivery.'",
+         "En un correo para mí, sin duda. Pero mira esto: 'Investigamos el problema y averiguamos que el proveedor había retrasado la entrega'."
+        ],
+        [
+         "B",
+         "What's wrong with that?",
+         "¿Qué tiene de malo?"
+        ],
+        [
+         "A",
+         "Nothing grammatically. But a formal version would be: 'We investigated the issue and ascertained that the delivery had been delayed by the supplier.'",
+         "Nada gramaticalmente. Pero una versión formal sería: 'Investigamos el asunto y determinamos que la entrega había sido retrasada por el proveedor'."
+        ],
+        [
+         "B",
+         "I see. So it's not just the verbs, it's the passive as well.",
+         "Ya veo. Entonces no son solo los verbos, también la voz pasiva."
+        ],
+        [
+         "A",
+         "Exactly. The passive shifts the focus to the facts rather than the people.",
+         "Exacto. La pasiva pone el foco en los hechos y no en las personas."
+        ],
+        [
+         "B",
+         "What about this sentence? 'The client turned down our first offer, so we had to put off the launch.'",
+         "¿Y esta oración? 'El cliente rechazó nuestra primera oferta, así que tuvimos que aplazar el lanzamiento'."
+        ],
+        [
+         "A",
+         "Try 'declined' and 'postpone'. 'Following the client's decision to decline our initial offer, the launch was postponed.'",
+         "Prueba con 'declined' y 'postpone'. 'Tras la decisión del cliente de rechazar nuestra oferta inicial, el lanzamiento fue aplazado'."
+        ],
+        [
+         "B",
+         "That sounds far more professional. Funny, because 'postpone' is almost the same word in Spanish.",
+         "Suena mucho más profesional. Curioso, porque 'postpone' es casi la misma palabra en español."
+        ],
+        [
+         "A",
+         "That's your secret weapon. Latin-based verbs are often easier for you than phrasal verbs.",
+         "Esa es tu arma secreta. Los verbos de origen latino a menudo te resultan más fáciles que los phrasal verbs."
+        ],
+        [
+         "B",
+         "Should I get rid of every single phrasal verb, then?",
+         "¿Entonces debo eliminar todos los phrasal verbs?"
+        ],
+        [
+         "A",
+         "No, that would sound robotic. Just be consistent. And don't leave out the methodology section. The client specifically raised that point.",
+         "No, sonaría robótico. Solo sé coherente. Y no omitas la sección de metodología. El cliente planteó ese punto específicamente."
+        ],
+        [
+         "B",
+         "Noted. I'll go over the whole thing tonight and send you the revised version tomorrow.",
+         "Anotado. Revisaré todo esta noche y te mando la versión corregida mañana."
+        ],
+        [
+         "A",
+         "Perfect. I'll review it first thing, before it goes to the director.",
+         "Perfecto. La reviso a primera hora, antes de que le llegue al director."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Versión formal: 'They carried out a survey of 2,000 households.'",
+        "o": [
+         "They made a survey...",
+         "They conducted a survey...",
+         "They did out a survey...",
+         "They realised a survey..."
+        ],
+        "a": 1,
+        "x": "'Realise' no significa 'realizar'; es un falso amigo."
+       },
+       {
+        "t": "mc",
+        "q": "En un informe oficial, ¿cuál sustituye mejor a 'put off'?",
+        "o": [
+         "postpone",
+         "cancel",
+         "reject",
+         "delay out"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "'Women make up 60% of the workforce.' Equivalente formal:",
+        "o": [
+         "Women invent 60%...",
+         "Women constitute 60%...",
+         "Women reconcile 60%...",
+         "Women compose up 60%..."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "The new legislation fails to ___ the underlying causes of poverty. (abordar = deal with)",
+        "ans": [
+         "address",
+         "tackle"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Due to unforeseen circumstances, the conference has been postponed, and a new date will be announced in due course.",
+        "q": "¿Qué pasó con la conferencia?",
+        "o": [
+         "Se canceló definitivamente",
+         "Se aplazó y se anunciará una nueva fecha",
+         "Se adelantó una semana",
+         "Se trasladó a otra ciudad"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "The committee will review the proposal and address any concerns raised by the staff."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "match",
+         "was",
+         "cancelled",
+         "due",
+         "to",
+         "adverse",
+         "weather."
+        ],
+        "es": "El partido fue cancelado por mal tiempo."
+       },
+       {
+        "t": "order",
+        "words": [
+         "No",
+         "evidence",
+         "was",
+         "found",
+         "to",
+         "corroborate",
+         "his",
+         "claims."
+        ],
+        "es": "No se encontró evidencia que corroborara sus afirmaciones."
+       },
+       {
+        "t": "dict",
+        "say": "Crucial information was omitted from the contract."
+       },
+       {
+        "t": "dict",
+        "say": "The foundation was established in nineteen eighty-five."
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué frase mezcla registros de forma inapropiada?",
+        "o": [
+         "The proposal was rejected by the board.",
+         "We'll sort it out, so the matter will be addressed in due course.",
+         "The cause has yet to be determined.",
+         "Several issues were raised during the session."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Employees should not have to ___ discrimination of any kind. (put up with, formal)",
+        "ans": [
+         "tolerate",
+         "endure"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Hey, I came across your old notebook while I was clearing out the garage. Do you want me to get rid of it or keep it?",
+        "q": "¿Qué tipo de registro usa el hablante y qué pregunta?",
+        "o": [
+         "Formal; si debe investigar el cuaderno",
+         "Informal; si debe botar o guardar el cuaderno",
+         "Formal; si debe aplazar la limpieza",
+         "Informal; si debe comprar un cuaderno nuevo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Reescribe en registro formal este mensaje y amplíalo hasta un informe breve (mínimo 120 palabras): 'We looked into why sales went down. We found out the supplier held up deliveries, so we called off the promotion and put off the launch.' Sustituye todos los phrasal verbs por sus equivalentes formales.",
+        "min": 120,
+        "keys": [
+         [
+          "investigated",
+          "examined"
+         ],
+         [
+          "ascertained",
+          "determined",
+          "established",
+          "discovered"
+         ],
+         [
+          "delayed",
+          "postponed",
+          "cancelled"
+         ],
+         [
+          "decreased",
+          "declined",
+          "fell",
+          "reduction"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Elige la versión más formal: 'They turned down the offer.'",
+       "o": [
+        "They put down the offer.",
+        "They declined the offer.",
+        "They turned off the offer.",
+        "They refused down the offer."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Equivalente formal de 'come across' en 'We came across several problems':",
+       "o": [
+        "encountered",
+        "crossed",
+        "met up",
+        "discovered out"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u4-l3",
+      "title": "Modismos y metáforas",
+      "goal": "Entender y usar con naturalidad los modismos y metáforas que aparecen en la prensa, los negocios y la política.",
+      "theory": [
+       {
+        "p": "En C1 los **modismos** ya no son frases curiosas para memorizar, sino herramientas para opinar con precisión. Aparecen a diario en titulares, columnas y reuniones: **the tip of the iceberg** (la punta del iceberg), **a double-edged sword** (un arma de doble filo), **pull strings** (mover palancas/influencias), **at a crossroads** (en una encrucijada)."
+       },
+       {
+        "ex": [
+         [
+          "The cases reported so far are just the tip of the iceberg.",
+          "Los casos denunciados hasta ahora son solo la punta del iceberg."
+         ],
+         [
+          "Social media is a double-edged sword for young people.",
+          "Las redes sociales son un arma de doble filo para los jóvenes."
+         ],
+         [
+          "Her uncle pulled some strings to get her the job.",
+          "Su tío movió palancas para conseguirle el trabajo."
+         ],
+         [
+          "The country is at a crossroads.",
+          "El país está en una encrucijada."
+         ]
+        ]
+       },
+       {
+        "p": "Muchos modismos tienen equivalente directo en español (the tip of the iceberg), pero otros **engañan**: **pull strings** no es 'tirar de las cuerdas', sino usar contactos; **cut corners** es 'hacer algo a la ligera para ahorrar'; **sit on the fence** es 'no tomar partido'; **the last straw** es 'la gota que rebosó la copa'."
+       },
+       {
+        "ex": [
+         [
+          "The builders cut corners, and the roof collapsed.",
+          "Los constructores hicieron todo a la ligera y el techo se cayó."
+         ],
+         [
+          "You can't sit on the fence forever; you have to choose.",
+          "No puedes quedarte en la mitad para siempre; tienes que elegir."
+         ],
+         [
+          "Losing the contract was a blessing in disguise.",
+          "Perder el contrato fue una bendición disfrazada (no hay mal que por bien no venga)."
+         ],
+         [
+          "Nobody wanted to mention the elephant in the room: the budget.",
+          "Nadie quería mencionar el tema incómodo que todos evitaban: el presupuesto."
+         ]
+        ]
+       },
+       {
+        "p": "Más allá de los modismos fijos, el inglés culto usa **metáforas conceptuales**: los problemas 'crecen' (a wave of protests, a flood of complaints), las discusiones son 'batallas' (to defend a position, to shoot down an argument) y las políticas son 'caminos' (a slippery slope, a dead end). Reconocerlas te ayuda a entender textos densos."
+       },
+       {
+        "tip": "No sobrecargues: un modismo bien colocado da fuerza a un ensayo o a una intervención; cinco seguidos suenan forzados. Y respeta la forma fija: se dice a drop in the ocean, no 'a drop in the sea'; a can of worms, no 'a box of worms'."
+       }
+      ],
+      "vocab": [
+       [
+        "the tip of the iceberg",
+        "modismo",
+        "la punta del iceberg",
+        "The fraud we uncovered is only the tip of the iceberg."
+       ],
+       [
+        "a double-edged sword",
+        "modismo",
+        "un arma de doble filo",
+        "Fame can be a double-edged sword."
+       ],
+       [
+        "pull strings",
+        "modismo",
+        "mover palancas, usar influencias",
+        "He pulled strings to get a meeting with the minister."
+       ],
+       [
+        "at a crossroads",
+        "modismo",
+        "en una encrucijada",
+        "After graduating, I found myself at a crossroads."
+       ],
+       [
+        "a blessing in disguise",
+        "modismo",
+        "no hay mal que por bien no venga",
+        "Being made redundant was a blessing in disguise."
+       ],
+       [
+        "cut corners",
+        "modismo",
+        "hacer algo a la ligera para ahorrar",
+        "The contractor cut corners on safety."
+       ],
+       [
+        "the elephant in the room",
+        "modismo",
+        "el tema incómodo que todos evitan",
+        "Inflation was the elephant in the room."
+       ],
+       [
+        "a level playing field",
+        "modismo",
+        "igualdad de condiciones",
+        "Small firms want a level playing field."
+       ],
+       [
+        "move the goalposts",
+        "modismo",
+        "cambiar las reglas a mitad de camino",
+        "Every time we agree, they move the goalposts."
+       ],
+       [
+        "a drop in the ocean",
+        "modismo",
+        "una gota en el océano",
+        "The donation is a drop in the ocean."
+       ],
+       [
+        "bite the bullet",
+        "modismo",
+        "hacer de tripas corazón",
+        "We'll have to bite the bullet and raise prices."
+       ],
+       [
+        "on thin ice",
+        "modismo",
+        "en una situación delicada",
+        "After that mistake, he's on thin ice."
+       ],
+       [
+        "open a can of worms",
+        "modismo",
+        "destapar un problema complicado",
+        "Changing the pension system would open a can of worms."
+       ],
+       [
+        "sit on the fence",
+        "modismo",
+        "no tomar partido",
+        "Politicians often sit on the fence on divisive issues."
+       ],
+       [
+        "a grey area",
+        "modismo",
+        "una zona gris",
+        "The legality of the app is a grey area."
+       ],
+       [
+        "a vicious circle",
+        "modismo",
+        "un círculo vicioso",
+        "Poverty and poor health form a vicious circle."
+       ],
+       [
+        "the last straw",
+        "modismo",
+        "la gota que rebosó la copa",
+        "The pay cut was the last straw."
+       ],
+       [
+        "a slippery slope",
+        "modismo",
+        "una pendiente resbaladiza",
+        "Censorship is a slippery slope."
+       ],
+       [
+        "back to the drawing board",
+        "modismo",
+        "volver a empezar desde cero",
+        "The design failed, so it's back to the drawing board."
+       ],
+       [
+        "steal someone's thunder",
+        "modismo",
+        "robarle el protagonismo a alguien",
+        "She stole my thunder by announcing it first."
+       ]
+      ],
+      "dialogue": {
+       "title": "La oferta de trabajo",
+       "scene": "Camila le pide consejo a su mentor Richard sobre si aceptar un puesto en una multinacional o quedarse en la startup que fundó con amigos.",
+       "a": "Richard",
+       "b": "Camila",
+       "lines": [
+        [
+         "A",
+         "You look like you've got a lot on your mind. What's going on?",
+         "Te ves con muchas cosas en la cabeza. ¿Qué pasa?"
+        ],
+        [
+         "B",
+         "I'm at a crossroads, Richard. A multinational has offered me a director's position.",
+         "Estoy en una encrucijada, Richard. Una multinacional me ofreció un cargo de directora."
+        ],
+        [
+         "A",
+         "Congratulations! But I take it you're not jumping for joy.",
+         "¡Felicitaciones! Pero supongo que no estás saltando de la alegría."
+        ],
+        [
+         "B",
+         "Not exactly. The salary is great, but it's a double-edged sword: I'd have far less freedom.",
+         "No exactamente. El salario es excelente, pero es un arma de doble filo: tendría mucha menos libertad."
+        ],
+        [
+         "A",
+         "And the startup? Last time we spoke, things were tense.",
+         "¿Y la startup? La última vez que hablamos, las cosas estaban tensas."
+        ],
+        [
+         "B",
+         "They still are. Our main investor keeps moving the goalposts. Every quarter there's a new target.",
+         "Siguen así. Nuestro principal inversionista cambia las reglas todo el tiempo. Cada trimestre hay una meta nueva."
+        ],
+        [
+         "A",
+         "That sounds exhausting. Is that the real reason you're considering leaving?",
+         "Suena agotador. ¿Esa es la verdadera razón por la que estás pensando en irte?"
+        ],
+        [
+         "B",
+         "Partly. And honestly, the late payments to staff are just the tip of the iceberg.",
+         "En parte. Y sinceramente, los pagos atrasados al personal son solo la punta del iceberg."
+        ],
+        [
+         "A",
+         "Have you raised it with your co-founders, or is it the elephant in the room?",
+         "¿Lo has hablado con tus socios, o es el tema que todos evitan?"
+        ],
+        [
+         "B",
+         "The elephant in the room, definitely. Nobody wants to open that can of worms.",
+         "El tema que todos evitan, definitivamente. Nadie quiere destapar ese problema."
+        ],
+        [
+         "A",
+         "Well, you can't sit on the fence for much longer. When do they need an answer?",
+         "Bueno, no puedes quedarte sin decidir mucho tiempo más. ¿Cuándo necesitan una respuesta?"
+        ],
+        [
+         "B",
+         "By Friday. And I know for a fact that my old boss pulled some strings to get me the interview, so I'd hate to let him down.",
+         "Para el viernes. Y sé con certeza que mi exjefe movió palancas para conseguirme la entrevista, así que no quisiera quedarle mal."
+        ],
+        [
+         "A",
+         "That shouldn't be the deciding factor. What matters is where you'll grow.",
+         "Eso no debería ser lo decisivo. Lo que importa es dónde vas a crecer."
+        ],
+        [
+         "B",
+         "You're right. Maybe I just need to bite the bullet and have that conversation with my partners first.",
+         "Tienes razón. Tal vez simplemente tengo que hacer de tripas corazón y hablar primero con mis socios."
+        ],
+        [
+         "A",
+         "I think so. Whatever happens, it might turn out to be a blessing in disguise.",
+         "Creo que sí. Pase lo que pase, puede que resulte ser una bendición disfrazada."
+        ],
+        [
+         "B",
+         "Let's hope so. Thanks, Richard. I feel much clearer already.",
+         "Ojalá. Gracias, Richard. Ya me siento mucho más clara."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The 50 complaints we received are probably just ___; many victims never report anything.",
+        "o": [
+         "a drop in the ocean",
+         "the tip of the iceberg",
+         "a blessing in disguise",
+         "the last straw"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'He pulled strings to get his son into the school' significa que:",
+        "o": [
+         "Lo obligó a estudiar",
+         "Usó sus contactos e influencias",
+         "Pagó la matrícula a cuotas",
+         "Lo inscribió a última hora"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "The constant overtime was bad, but the pay cut was ___. I resigned the next day.",
+        "o": [
+         "the last straw",
+         "a grey area",
+         "a level playing field",
+         "on thin ice"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Small businesses are demanding a level playing ___ with large corporations. (campo)",
+        "ans": [
+         "field"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Artificial intelligence is a double-edged sword: it can speed up medical diagnoses, but it can also be used to spread disinformation on a massive scale.",
+        "q": "¿Por qué se describe la IA como un arma de doble filo?",
+        "o": [
+         "Porque es muy costosa y lenta",
+         "Porque acelera diagnósticos pero también difunde desinformación",
+         "Porque solo sirve en medicina",
+         "Porque nadie sabe usarla bien"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Our company is at a crossroads, and we can't afford to sit on the fence any longer."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Losing",
+         "that",
+         "contract",
+         "turned",
+         "out",
+         "to",
+         "be",
+         "a",
+         "blessing",
+         "in",
+         "disguise."
+        ],
+        "es": "Perder ese contrato resultó ser una bendición disfrazada."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "prototype",
+         "failed,",
+         "so",
+         "it's",
+         "back",
+         "to",
+         "the",
+         "drawing",
+         "board."
+        ],
+        "es": "El prototipo falló, así que hay que empezar desde cero."
+       },
+       {
+        "t": "dict",
+        "say": "The contractor cut corners on safety."
+       },
+       {
+        "t": "dict",
+        "say": "Poverty and poor health form a vicious circle."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es la forma correcta del modismo?",
+        "o": [
+         "open a box of worms",
+         "open a can of worms",
+         "open a bag of worms",
+         "open a tin of snakes"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "After missing three deadlines, Tom is skating on thin ___ with his manager. (hielo)",
+        "ans": [
+         "ice"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Critics warn that allowing surveillance cameras in classrooms is a slippery slope that could eventually lead to monitoring students at home.",
+        "q": "¿Qué temen los críticos?",
+        "o": [
+         "Que las cámaras sean muy caras",
+         "Que la medida lleve gradualmente a vigilar a los estudiantes en casa",
+         "Que los profesores renuncien",
+         "Que las cámaras no funcionen"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe una columna de opinión (mínimo 130 palabras) sobre una decisión importante que enfrenta tu país o tu empresa. Usa al menos cuatro modismos de la lección de forma natural.",
+        "min": 130,
+        "keys": [
+         [
+          "at a crossroads",
+          "the tip of the iceberg",
+          "a double-edged sword",
+          "the elephant in the room"
+         ],
+         [
+          "pull strings",
+          "cut corners",
+          "move the goalposts",
+          "bite the bullet",
+          "sit on the fence"
+         ],
+         [
+          "a vicious circle",
+          "a slippery slope",
+          "a grey area",
+          "a level playing field",
+          "a drop in the ocean"
+         ],
+         [
+          "however",
+          "nevertheless",
+          "ultimately",
+          "in my view"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Tourism is ___ for the island: it brings money but damages the ecosystem.",
+       "o": [
+        "a double-edged sword",
+        "the last straw",
+        "a blessing in disguise",
+        "back to the drawing board"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Every time we meet their demands, they ___ and ask for more.",
+       "o": [
+        "pull strings",
+        "move the goalposts",
+        "bite the bullet",
+        "sit on the fence"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u4-l4",
+      "title": "Formación de palabras avanzada",
+      "goal": "Ampliar tu vocabulario con prefijos, sufijos, compuestos y cambios de clase de palabra.",
+      "theory": [
+       {
+        "p": "En C1 puedes multiplicar tu vocabulario si dominas la **formación de palabras**. Los sufijos **-ise/-ize** y **-ify** convierten sustantivos y adjetivos en verbos: priority → **prioritise**, margin → **marginalise**, clear → **clarify**, intense → **intensify**, diverse → **diversify**. (En inglés británico se acepta -ise y -ize; en estadounidense, solo -ize.)"
+       },
+       {
+        "ex": [
+         [
+          "We need to prioritise the most urgent cases.",
+          "Tenemos que priorizar los casos más urgentes."
+         ],
+         [
+          "One mistake could jeopardise the entire deal.",
+          "Un solo error podría poner en peligro todo el negocio."
+         ],
+         [
+          "Could you clarify what you mean?",
+          "¿Podría aclarar a qué se refiere?"
+         ],
+         [
+          "Farmers are diversifying into tourism.",
+          "Los agricultores están diversificando hacia el turismo."
+         ]
+        ]
+       },
+       {
+        "p": "Los prefijos **en-/em-** también crean verbos con el sentido de 'poner en un estado': danger → **endanger**, rich → **enrich**, able → **enable**, title → **entitle**, power → **empower**. El prefijo **counter-** expresa oposición o equivalencia: **counterargument**, **counterproductive**, **counterbalance**, **counterpart** (homólogo)."
+       },
+       {
+        "ex": [
+         [
+          "The new software enables staff to work remotely.",
+          "El nuevo software permite al personal trabajar a distancia."
+         ],
+         [
+          "Pesticides endanger local wildlife.",
+          "Los pesticidas ponen en peligro la fauna local."
+         ],
+         [
+          "Punishing students harshly can be counterproductive.",
+          "Castigar con dureza a los estudiantes puede ser contraproducente."
+         ],
+         [
+          "The minister met her French counterpart.",
+          "La ministra se reunió con su homólogo francés."
+         ]
+        ]
+       },
+       {
+        "p": "El sufijo **-wise** añadido a un sustantivo significa 'en cuanto a': **cost-wise**, **time-wise**, **career-wise**. Es útil pero **informal**: en un ensayo, mejor 'in terms of cost'. Los **compuestos** dan densidad a la prosa culta: **groundbreaking** (pionero), **far-reaching** (de gran alcance), **long-standing** (de larga data), **short-sighted** (miope, sin visión), **breakthrough** (avance decisivo)."
+       },
+       {
+        "p": "Por último, el inglés cambia la **clase de palabra** con facilidad y sin sufijo (conversión): to **access** a file, a **must**-have, to **chair** a meeting, the **haves and have-nots**. Y muchas palabras cambian el acento al pasar de sustantivo a verbo: a **RE**cord / to re**CORD**, an **IN**crease / to in**CREASE**."
+       },
+       {
+        "tip": "Error típico: crear verbos con -ify o -ise que no existen por analogía con el español (✗ 'to prioritate', ✗ 'to clearify'). Si dudas, revisa el diccionario. Y recuerda: entitle a alguien TO algo (You are entitled to a refund)."
+       }
+      ],
+      "vocab": [
+       [
+        "prioritise",
+        "verbo",
+        "priorizar",
+        "Hospitals must prioritise the most critical patients."
+       ],
+       [
+        "jeopardise",
+        "verbo",
+        "poner en peligro",
+        "A scandal could jeopardise his career."
+       ],
+       [
+        "marginalise",
+        "verbo",
+        "marginar",
+        "Rural communities have long been marginalised."
+       ],
+       [
+        "clarify",
+        "verbo",
+        "aclarar",
+        "Could you clarify your position on this?"
+       ],
+       [
+        "intensify",
+        "verbo",
+        "intensificar",
+        "The storm is expected to intensify overnight."
+       ],
+       [
+        "diversify",
+        "verbo",
+        "diversificar",
+        "Investors are advised to diversify their portfolios."
+       ],
+       [
+        "enable",
+        "verbo",
+        "permitir, posibilitar",
+        "Technology enables us to work from anywhere."
+       ],
+       [
+        "endanger",
+        "verbo",
+        "poner en peligro",
+        "Reckless driving endangers lives."
+       ],
+       [
+        "enrich",
+        "verbo",
+        "enriquecer",
+        "Travel enriches our understanding of the world."
+       ],
+       [
+        "entitle",
+        "verbo",
+        "dar derecho a",
+        "Members are entitled to a discount."
+       ],
+       [
+        "counterproductive",
+        "adjetivo",
+        "contraproducente",
+        "Banning phones entirely may be counterproductive."
+       ],
+       [
+        "counterpart",
+        "sustantivo",
+        "homólogo, contraparte",
+        "She will meet her Chilean counterpart tomorrow."
+       ],
+       [
+        "counterargument",
+        "sustantivo",
+        "contraargumento",
+        "A good essay anticipates the main counterargument."
+       ],
+       [
+        "counterbalance",
+        "verbo",
+        "contrarrestar, compensar",
+        "Higher taxes were counterbalanced by new subsidies."
+       ],
+       [
+        "cost-wise",
+        "adverbio",
+        "en cuanto a costos",
+        "Cost-wise, the second option is far better."
+       ],
+       [
+        "groundbreaking",
+        "adjetivo",
+        "pionero, innovador",
+        "Her research was truly groundbreaking."
+       ],
+       [
+        "far-reaching",
+        "adjetivo",
+        "de gran alcance",
+        "The reform will have far-reaching consequences."
+       ],
+       [
+        "long-standing",
+        "adjetivo",
+        "de larga data",
+        "They have a long-standing rivalry."
+       ],
+       [
+        "short-sighted",
+        "adjetivo",
+        "miope, sin visión de futuro",
+        "Cutting the education budget is short-sighted."
+       ],
+       [
+        "breakthrough",
+        "sustantivo",
+        "avance decisivo",
+        "Scientists have made a major breakthrough."
+       ]
+      ],
+      "dialogue": {
+       "title": "La propuesta para el comité",
+       "scene": "Julián y su colega canadiense Megan preparan la presentación de un nuevo proyecto de energía solar para comunidades rurales.",
+       "a": "Megan",
+       "b": "Julián",
+       "lines": [
+        [
+         "A",
+         "Julián, before we finalise the slides, can you clarify the main objective for me?",
+         "Julián, antes de terminar las diapositivas, ¿me puedes aclarar el objetivo principal?"
+        ],
+        [
+         "B",
+         "Sure. The idea is to enable rural schools to generate their own electricity.",
+         "Claro. La idea es permitir que las escuelas rurales generen su propia electricidad."
+        ],
+        [
+         "A",
+         "And why rural schools specifically?",
+         "¿Y por qué precisamente escuelas rurales?"
+        ],
+        [
+         "B",
+         "Because those communities have been marginalised for decades. Many still depend on diesel generators.",
+         "Porque esas comunidades han sido marginadas durante décadas. Muchas todavía dependen de generadores diésel."
+        ],
+        [
+         "A",
+         "Right. And cost-wise, how does solar compare?",
+         "Bien. ¿Y en cuanto a costos, cómo se compara la solar?"
+        ],
+        [
+         "B",
+         "The initial investment is higher, but the savings counterbalance it within four years.",
+         "La inversión inicial es más alta, pero el ahorro la compensa en cuatro años."
+        ],
+        [
+         "A",
+         "The committee will raise the obvious counterargument: why not just extend the national grid?",
+         "El comité va a plantear el contraargumento obvio: ¿por qué no simplemente extender la red nacional?"
+        ],
+        [
+         "B",
+         "Extending the grid to the mountains would take fifteen years. Waiting that long would be incredibly short-sighted.",
+         "Extender la red a las montañas tomaría quince años. Esperar tanto sería tremendamente miope."
+        ],
+        [
+         "A",
+         "Good. Make sure you say that. What about the battery technology?",
+         "Bien. Asegúrate de decir eso. ¿Y la tecnología de las baterías?"
+        ],
+        [
+         "B",
+         "That's the exciting part. There's been a real breakthrough in low-cost storage this year.",
+         "Esa es la parte emocionante. Este año hubo un verdadero avance en almacenamiento de bajo costo."
+        ],
+        [
+         "A",
+         "Then we should prioritise that slide. It could be the most persuasive one.",
+         "Entonces deberíamos darle prioridad a esa diapositiva. Podría ser la más persuasiva."
+        ],
+        [
+         "B",
+         "Agreed. But we mustn't oversell it. Exaggerating could jeopardise our credibility.",
+         "De acuerdo. Pero no debemos exagerar. Exagerar podría poner en peligro nuestra credibilidad."
+        ],
+        [
+         "A",
+         "Fair point. Overpromising would be counterproductive with this committee.",
+         "Buen punto. Prometer de más sería contraproducente con este comité."
+        ],
+        [
+         "B",
+         "Exactly. And let's mention that our counterpart in Peru has already tested the model.",
+         "Exacto. Y mencionemos que nuestra contraparte en Perú ya probó el modelo."
+        ],
+        [
+         "A",
+         "Great. If they approve it, the impact could be far-reaching.",
+         "Excelente. Si lo aprueban, el impacto podría ser de gran alcance."
+        ],
+        [
+         "B",
+         "Let's hope so. It would be groundbreaking for the region.",
+         "Ojalá. Sería algo pionero para la región."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Verbo a partir de 'intense':",
+        "o": [
+         "intensate",
+         "intensify",
+         "intensise",
+         "enintense"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "The two foreign ministers met their ___ from Brazil to discuss trade.",
+        "o": [
+         "counterparts",
+         "counterarguments",
+         "counterbalances",
+         "counteracts"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Strict punishment often turns out to be ___: students simply hide their mistakes.",
+        "o": [
+         "far-reaching",
+         "groundbreaking",
+         "counterproductive",
+         "long-standing"
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "All employees are ___ to twenty days of paid leave. (tienen derecho)",
+        "ans": [
+         "entitled"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The discovery has been described as a genuine breakthrough, and experts believe it will have far-reaching implications for cancer treatment.",
+        "q": "¿Qué opinan los expertos del descubrimiento?",
+        "o": [
+         "Que es poco relevante",
+         "Que tendrá implicaciones de gran alcance en el tratamiento del cáncer",
+         "Que es demasiado caro",
+         "Que ya se conocía"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Cutting funding for research would be short-sighted and could jeopardise future breakthroughs."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Technology",
+         "enables",
+         "us",
+         "to",
+         "work",
+         "from",
+         "almost",
+         "anywhere."
+        ],
+        "es": "La tecnología nos permite trabajar desde casi cualquier lugar."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "two",
+         "countries",
+         "have",
+         "a",
+         "long-standing",
+         "border",
+         "dispute."
+        ],
+        "es": "Los dos países tienen una disputa fronteriza de larga data."
+       },
+       {
+        "t": "dict",
+        "say": "Farmers are diversifying into tourism."
+       },
+       {
+        "t": "dict",
+        "say": "Reckless driving endangers lives."
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué opción es más apropiada para un ensayo académico?",
+        "o": [
+         "Cost-wise, the plan is cheaper.",
+         "In terms of cost, the plan is more economical.",
+         "The plan is cheaper money-wise.",
+         "Price-wise it's a no-brainer."
+        ],
+        "a": 1,
+        "x": "-wise es informal; en textos formales usa in terms of."
+       },
+       {
+        "t": "fill",
+        "q": "Rural communities have long been ___ by central government. (marginar, participio)",
+        "ans": [
+         "marginalised",
+         "marginalized"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Time-wise we're fine, but budget-wise we'll need to prioritise and cut at least two of the planned activities.",
+        "q": "¿Cuál es el problema principal?",
+        "o": [
+         "El tiempo",
+         "El presupuesto",
+         "El personal",
+         "La ubicación"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe una propuesta breve (mínimo 120 palabras) para un proyecto innovador en tu comunidad. Usa al menos un verbo con -ise/-ify, uno con en-, una palabra con counter- y dos compuestos.",
+        "min": 120,
+        "keys": [
+         [
+          "prioritise",
+          "prioritize",
+          "clarify",
+          "intensify",
+          "diversify",
+          "jeopardise",
+          "jeopardize",
+          "marginalise",
+          "marginalize"
+         ],
+         [
+          "enable",
+          "enrich",
+          "endanger",
+          "entitle",
+          "empower"
+         ],
+         [
+          "counterproductive",
+          "counterpart",
+          "counterargument",
+          "counterbalance"
+         ],
+         [
+          "groundbreaking",
+          "far-reaching",
+          "long-standing",
+          "short-sighted",
+          "breakthrough"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Investors are advised to ___ their portfolios to reduce risk.",
+       "o": [
+        "diversify",
+        "diversise",
+        "endiverse",
+        "diversate"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "The new law will ___ citizens to request their data from any company.",
+       "o": [
+        "enrich",
+        "enable",
+        "endanger",
+        "counterbalance"
+       ],
+       "a": 1,
+       "x": "enable + persona + to + verbo = permitir, posibilitar."
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u4-l5",
+      "title": "Registro formal e informal",
+      "goal": "Adaptar palabras y estructuras al contexto: del correo formal al mensaje entre amigos.",
+      "theory": [
+       {
+        "p": "El **registro** es el grado de formalidad de un texto. En C1 se espera que pases de uno a otro con naturalidad. El registro **formal** prefiere palabras latinas (**require, obtain, sufficient, commence, assistance**), la voz pasiva, frases completas sin contracciones y fórmulas fijas. El **informal** usa palabras cortas (**need, get, enough, start, help**), contracciones, phrasal verbs y frases cortadas."
+       },
+       {
+        "ex": [
+         [
+          "Formal: I am writing to enquire about the vacancy.",
+          "Le escribo para solicitar información sobre la vacante."
+         ],
+         [
+          "Informal: Just wanted to ask about the job.",
+          "Solo quería preguntar por el trabajo."
+         ],
+         [
+          "Formal: I would be grateful if you could send me further details.",
+          "Le agradecería que me enviara más detalles."
+         ],
+         [
+          "Informal: Could you send me a bit more info?",
+          "¿Me mandas un poco más de info?"
+         ]
+        ]
+       },
+       {
+        "p": "Fórmulas clave del **correo formal**: abrir con **Dear Mr/Ms + apellido** (o Dear Sir or Madam), conectar con **Further to** / **With regard to**, pedir con **I would be grateful if...** o **Could you kindly...**, adjuntar con **Please find attached**, y cerrar con **I look forward to hearing from you** + **Yours sincerely** (si sabes el nombre) o **Yours faithfully** (si no lo sabes, uso británico)."
+       },
+       {
+        "ex": [
+         [
+          "Further to our telephone conversation, please find attached the signed contract.",
+          "En relación con nuestra conversación telefónica, adjunto el contrato firmado."
+         ],
+         [
+          "We apologise for any inconvenience this may cause.",
+          "Lamentamos cualquier inconveniente que esto pueda ocasionar."
+         ],
+         [
+          "Please acknowledge receipt of this letter.",
+          "Por favor, confirme el recibo de esta carta."
+         ],
+         [
+          "Your application will be processed in due course.",
+          "Su solicitud será procesada a su debido tiempo."
+         ]
+        ]
+       },
+       {
+        "p": "En el **mensaje informal** todo cambia: **Hi Sam / Hey!**, **Thanks a lot for...**, **Any chance you could...?**, **Give me a shout if...**, **Can't wait to catch up!**, y cierres como **Cheers**, **Take care** o **Speak soon**. Error frecuente del hispanohablante: escribir correos formales demasiado directos ('I want the information') o demasiado floridos y largos, traduciendo fórmulas del español ('Reciba un cordial saludo' ✗ 'Receive a cordial greeting')."
+       },
+       {
+        "tip": "La cortesía en inglés formal se construye con distancia: modales en pasado (could, would), preguntas indirectas (I was wondering whether...) y suavizadores (kindly, at your earliest convenience). 'I need the report tomorrow' es correcto pero brusco; 'I would be grateful if you could send the report by tomorrow' es lo esperado."
+       }
+      ],
+      "vocab": [
+       [
+        "I am writing to enquire about",
+        "expresión",
+        "le escribo para solicitar información sobre",
+        "I am writing to enquire about the position advertised."
+       ],
+       [
+        "I would be grateful if you could",
+        "expresión",
+        "le agradecería que",
+        "I would be grateful if you could confirm the date."
+       ],
+       [
+        "at your earliest convenience",
+        "expresión",
+        "a la mayor brevedad posible",
+        "Please reply at your earliest convenience."
+       ],
+       [
+        "please find attached",
+        "expresión",
+        "adjunto encontrará",
+        "Please find attached my CV."
+       ],
+       [
+        "further to",
+        "preposición",
+        "en relación con, a raíz de",
+        "Further to your email, I can confirm the booking."
+       ],
+       [
+        "with regard to",
+        "preposición",
+        "con respecto a",
+        "With regard to your complaint, we have opened an inquiry."
+       ],
+       [
+        "in due course",
+        "expresión",
+        "a su debido tiempo",
+        "You will be notified in due course."
+       ],
+       [
+        "we apologise for any inconvenience",
+        "expresión",
+        "lamentamos las molestias",
+        "We apologise for any inconvenience caused."
+       ],
+       [
+        "acknowledge receipt of",
+        "expresión",
+        "acusar recibo de",
+        "We acknowledge receipt of your application."
+       ],
+       [
+        "kindly",
+        "adverbio",
+        "amablemente, por favor (formal)",
+        "Kindly complete the attached form."
+       ],
+       [
+        "assistance",
+        "sustantivo",
+        "ayuda, asistencia (formal)",
+        "Thank you for your assistance in this matter."
+       ],
+       [
+        "commence",
+        "verbo",
+        "comenzar (formal)",
+        "The ceremony will commence at 10 a.m."
+       ],
+       [
+        "sufficient",
+        "adjetivo",
+        "suficiente (formal)",
+        "There is insufficient evidence to proceed."
+       ],
+       [
+        "obtain",
+        "verbo",
+        "obtener (formal)",
+        "Visitors must obtain a permit in advance."
+       ],
+       [
+        "require",
+        "verbo",
+        "requerir, necesitar (formal)",
+        "Applicants are required to submit two references."
+       ],
+       [
+        "drop someone a line",
+        "expresión",
+        "escribirle a alguien unas líneas",
+        "Drop me a line when you get to Madrid."
+       ],
+       [
+        "give me a shout",
+        "expresión",
+        "avísame, pégame un grito",
+        "Give me a shout if you need anything."
+       ],
+       [
+        "catch up",
+        "phrasal verb",
+        "ponerse al día",
+        "Let's grab a coffee and catch up."
+       ],
+       [
+        "Yours sincerely / faithfully",
+        "expresión",
+        "atentamente (con / sin nombre)",
+        "Yours faithfully, Andrea Ruiz."
+       ],
+       [
+        "Cheers",
+        "expresión",
+        "gracias; chao (informal, británico)",
+        "Cheers for the help, mate!"
+       ]
+      ],
+      "dialogue": {
+       "title": "Dos correos, dos tonos",
+       "scene": "Sofía tiene que escribir dos mensajes el mismo día: uno a una universidad en Edimburgo y otro a su amigo Liam. Su compañero de trabajo Jason la ayuda con el tono.",
+       "a": "Jason",
+       "b": "Sofía",
+       "lines": [
+        [
+         "A",
+         "You look stressed. What are you working on?",
+         "Te ves estresada. ¿En qué estás trabajando?"
+        ],
+        [
+         "B",
+         "Two emails. One to the University of Edinburgh about a master's programme, and another to my friend Liam.",
+         "Dos correos. Uno a la Universidad de Edimburgo sobre una maestría y otro a mi amigo Liam."
+        ],
+        [
+         "A",
+         "Let me see the formal one. 'Hello, I want information about the master's and I need it quickly.' Hmm.",
+         "Déjame ver el formal. 'Hola, quiero información sobre la maestría y la necesito rápido'. Mmm."
+        ],
+        [
+         "B",
+         "Too direct?",
+         "¿Demasiado directo?"
+        ],
+        [
+         "A",
+         "A bit. Start with 'Dear Sir or Madam' and then 'I am writing to enquire about the MSc in Data Science.'",
+         "Un poco. Empieza con 'Dear Sir or Madam' y luego 'I am writing to enquire about the MSc in Data Science'."
+        ],
+        [
+         "B",
+         "OK. And instead of 'I need it quickly'?",
+         "Bien. ¿Y en vez de 'la necesito rápido'?"
+        ],
+        [
+         "A",
+         "'I would be grateful if you could send me further details at your earliest convenience.'",
+         "'I would be grateful if you could send me further details at your earliest convenience'."
+        ],
+        [
+         "B",
+         "That's so much more polite. Should I mention my scholarship deadline?",
+         "Es mucho más cortés. ¿Debo mencionar el plazo de mi beca?"
+        ],
+        [
+         "A",
+         "Yes, but formally: 'I am required to submit my application by 15 March, so any assistance would be greatly appreciated.'",
+         "Sí, pero formalmente: 'Debo presentar mi solicitud antes del 15 de marzo, así que cualquier ayuda sería muy apreciada'."
+        ],
+        [
+         "B",
+         "Perfect. And to close, 'Yours sincerely'?",
+         "Perfecto. ¿Y para cerrar, 'Yours sincerely'?"
+        ],
+        [
+         "A",
+         "Since you don't know the person's name, 'Yours faithfully' is the traditional British choice. And add 'Please find attached my CV.'",
+         "Como no sabes el nombre de la persona, 'Yours faithfully' es la opción tradicional británica. Y agrega 'Please find attached my CV'."
+        ],
+        [
+         "B",
+         "Great. Now the one for Liam: 'Dear Liam, I would be grateful if you could inform me whether you will be available on Saturday.'",
+         "Genial. Ahora el de Liam: 'Querido Liam, le agradecería que me informara si estará disponible el sábado'."
+        ],
+        [
+         "A",
+         "Ha! Now you've gone too far the other way. He'll think you're angry with him.",
+         "¡Ja! Ahora te fuiste al otro extremo. Va a pensar que estás brava con él."
+        ],
+        [
+         "B",
+         "Oops. So what would you write?",
+         "Uy. ¿Entonces qué escribirías tú?"
+        ],
+        [
+         "A",
+         "Something like: 'Hey Liam! Any chance you're free on Saturday? Would be great to catch up. Give me a shout. Cheers!'",
+         "Algo como: '¡Hola Liam! ¿Será que estás libre el sábado? Sería genial ponernos al día. Avísame. ¡Chao!'"
+        ],
+        [
+         "B",
+         "Two emails, two completely different languages. I'm starting to see what register really means.",
+         "Dos correos, dos idiomas completamente distintos. Empiezo a entender lo que de verdad significa el registro."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Cierre correcto de un correo formal que empieza con 'Dear Sir or Madam':",
+        "o": [
+         "Cheers",
+         "Yours faithfully",
+         "Best wishes, mate",
+         "Love"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Equivalente formal de 'We need more money to start the project':",
+        "o": [
+         "We require additional funding to commence the project.",
+         "We want more cash to kick off the project.",
+         "We need extra money for start the project.",
+         "We are needing more money to begin."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué frase es apropiada en un mensaje a un amigo?",
+        "o": [
+         "Kindly confirm your attendance.",
+         "I acknowledge receipt of your message.",
+         "Give me a shout if you fancy a drink.",
+         "Further to your correspondence..."
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "Please find ___ a copy of the invoice. (adjunto)",
+        "ans": [
+         "attached",
+         "enclosed"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Dear Ms Turner, further to our meeting last Tuesday, I would be grateful if you could confirm the revised delivery schedule at your earliest convenience.",
+        "q": "¿Qué le pide el remitente a la señora Turner?",
+        "o": [
+         "Que cancele la reunión del martes",
+         "Que confirme el nuevo cronograma de entregas lo antes posible",
+         "Que le envíe una factura",
+         "Que lo llame por teléfono"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "I am writing to enquire about the position advertised on your website."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "apologise",
+         "for",
+         "any",
+         "inconvenience",
+         "this",
+         "may",
+         "cause."
+        ],
+        "es": "Lamentamos cualquier inconveniente que esto pueda causar."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "look",
+         "forward",
+         "to",
+         "hearing",
+         "from",
+         "you."
+        ],
+        "es": "Quedo atento a su respuesta."
+       },
+       {
+        "t": "dict",
+        "say": "Kindly complete the attached form."
+       },
+       {
+        "t": "dict",
+        "say": "Let's grab a coffee and catch up soon."
+       },
+       {
+        "t": "mc",
+        "q": "Versión formal de 'Thanks for your help':",
+        "o": [
+         "Cheers for helping out.",
+         "Thank you for your assistance.",
+         "Thanks a bunch!",
+         "Ta for the help."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Your application will be reviewed and you will be contacted in due ___. (a su debido tiempo)",
+        "ans": [
+         "course"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Hey, it's Nico. Just dropping you a line to say I'm back in town. We should catch up soon. Give me a shout when you're free!",
+        "q": "¿Qué quiere Nico?",
+        "o": [
+         "Pedir dinero prestado",
+         "Verse pronto para ponerse al día",
+         "Cancelar una reunión de trabajo",
+         "Enviar un documento"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo formal (mínimo 120 palabras) a una empresa para quejarte de un producto defectuoso y solicitar un reembolso. Usa fórmulas de apertura, petición cortés y cierre formal.",
+        "min": 120,
+        "keys": [
+         [
+          "dear sir or madam",
+          "dear mr",
+          "dear ms"
+         ],
+         [
+          "i am writing to",
+          "with regard to",
+          "further to"
+         ],
+         [
+          "i would be grateful if",
+          "could you kindly",
+          "at your earliest convenience"
+         ],
+         [
+          "yours faithfully",
+          "yours sincerely",
+          "i look forward to hearing from you"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "En un correo formal, ¿cuál es la petición más apropiada?",
+       "o": [
+        "Send me the details now.",
+        "I want the details.",
+        "I would be grateful if you could send me the details.",
+        "Can u send the details?"
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Si conoces el nombre del destinatario (Dear Mr Hughes), el cierre británico tradicional es:",
+       "o": [
+        "Yours faithfully",
+        "Yours sincerely",
+        "Cheers",
+        "Kind of regards"
+       ],
+       "a": 1
+      },
+      "reading": 3,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "Climate change ___ a serious threat to food security in the region.",
+      "o": [
+       "makes",
+       "does",
+       "poses",
+       "puts"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "Equivalente formal de 'look into' en 'The police are looking into the case':",
+      "o": [
+       "investigating",
+       "seeing into",
+       "examining out",
+       "watching"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The donation was generous, but compared with the scale of the crisis it's just ___.",
+      "o": [
+       "the tip of the iceberg",
+       "a drop in the ocean",
+       "a double-edged sword",
+       "the last straw"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Banning all homework could prove ___, as students would lose valuable practice.",
+      "o": [
+       "counterproductive",
+       "counterpart",
+       "groundbreaking",
+       "entitled"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "¿Qué expresión es apropiada en un correo formal?",
+      "o": [
+       "Give me a shout",
+       "Drop me a line",
+       "Please find attached",
+       "Cheers"
+      ],
+      "a": 2
+     },
+     {
+      "t": "fill",
+      "q": "Scientists hope to make a major ___ in Alzheimer's research. (avance decisivo)",
+      "ans": [
+       "breakthrough"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "The minister insisted that the incident was isolated, but journalists suspect it is just the tip of the iceberg.",
+      "q": "¿Qué sospechan los periodistas?",
+      "o": [
+       "Que el incidente fue inventado",
+       "Que es solo una pequeña parte de un problema mayor",
+       "Que el ministro renunciará",
+       "Que el problema ya se resolvió"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "We regret to inform you that the workshop has been postponed. We apologise for any inconvenience and will contact you in due course.",
+      "q": "¿Qué tipo de mensaje es y qué comunica?",
+      "o": [
+       "Informal; invita a un taller",
+       "Formal; informa que el taller se aplazó",
+       "Informal; cancela una fiesta",
+       "Formal; confirma la fecha del taller"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe un correo formal (mínimo 130 palabras) al director de tu empresa proponiendo un cambio en la política de teletrabajo. Usa al menos dos colocaciones C1, un modismo, dos verbos formales en lugar de phrasal verbs y fórmulas de correo formal.",
+      "min": 130,
+      "keys": [
+       [
+        "strike a balance",
+        "pose a threat",
+        "raise awareness",
+        "fully aware",
+        "widely acknowledged",
+        "reach a consensus"
+       ],
+       [
+        "a double-edged sword",
+        "the tip of the iceberg",
+        "at a crossroads",
+        "a level playing field",
+        "bite the bullet"
+       ],
+       [
+        "address",
+        "establish",
+        "conduct",
+        "review",
+        "reduce",
+        "postpone"
+       ],
+       [
+        "i would be grateful if",
+        "i am writing to",
+        "yours sincerely",
+        "i look forward to hearing from you"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "The decision proved highly controversial and was heavily criticised by the opposition."
+     },
+     {
+      "t": "oral",
+      "text": "I would be grateful if you could clarify the terms of the contract at your earliest convenience."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "After months of talks, the negotiators failed to ___ a balance between both demands.",
+      "o": [
+       "make",
+       "strike",
+       "hit out",
+       "do"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Elige el adverbio natural: I am ___ aware that this plan has weaknesses.",
+      "o": [
+       "fully",
+       "bitterly",
+       "heavily",
+       "sorely"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Versión formal: 'They set up the company in 2010.'",
+      "o": [
+       "They installed the company in 2010.",
+       "The company was established in 2010.",
+       "They put up the company in 2010.",
+       "The company was set in 2010."
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "'Sit on the fence' significa:",
+      "o": [
+       "Descansar un rato",
+       "No tomar partido",
+       "Vigilar a alguien",
+       "Hacer trampa"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Which verb comes from 'danger'?",
+      "o": [
+       "dangerise",
+       "endanger",
+       "dangerify",
+       "counterdanger"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "En un mensaje informal a un amigo, ¿cómo cierras?",
+      "o": [
+       "Yours faithfully",
+       "Cheers",
+       "I acknowledge receipt",
+       "Kindly reply"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "Applicants are ___ to provide two references. (se les exige)",
+      "ans": [
+       "required",
+       "expected",
+       "asked"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "The government was accused of cutting ___ on hospital construction. (hacer a la ligera)",
+      "ans": [
+       "corners"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Could you ___ what you meant by 'flexible hours'? (aclarar)",
+      "ans": [
+       "clarify",
+       "explain"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Cost-wise the proposal is attractive, but several board members harbour doubts about its long-term viability.",
+      "q": "¿Qué dudas tienen algunos miembros de la junta?",
+      "o": [
+       "Sobre el costo inicial",
+       "Sobre su viabilidad a largo plazo",
+       "Sobre la fecha de lanzamiento",
+       "Sobre el equipo responsable"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Losing my job felt like a disaster at the time, but it turned out to be a blessing in disguise: I finally started my own business.",
+      "q": "¿Qué resultó de perder el trabajo?",
+      "o": [
+       "Se deprimió durante años",
+       "Fundó su propia empresa",
+       "Volvió a la misma empresa",
+       "Se mudó al extranjero"
+      ],
+      "a": 1
+     },
+     {
+      "t": "order",
+      "words": [
+       "The",
+       "meeting",
+       "has",
+       "been",
+       "postponed",
+       "until",
+       "further",
+       "notice."
+      ],
+      "es": "La reunión ha sido aplazada hasta nuevo aviso."
+     },
+     {
+      "t": "order",
+      "words": [
+       "It",
+       "is",
+       "widely",
+       "acknowledged",
+       "that",
+       "the",
+       "system",
+       "is",
+       "outdated."
+      ],
+      "es": "Es ampliamente reconocido que el sistema está obsoleto."
+     },
+     {
+      "t": "oral",
+      "text": "Our company is at a crossroads, and short-sighted decisions could jeopardise everything we have built."
+     },
+     {
+      "t": "oral",
+      "text": "Further to our conversation, please find attached the revised proposal."
+     }
+    ]
+   },
+   {
+    "title": "Persuadir y negociar",
+    "lessons": [
+     {
+      "id": "c1-u5-l1",
+      "title": "Argumentar y refutar",
+      "goal": "Reconocer lo válido de un argumento contrario y refutarlo con precisión y elegancia.",
+      "theory": [
+       {
+        "p": "En un debate de nivel C1 no basta con decir **I don't agree**. Lo natural es **conceder primero** y **refutar después**: reconoces la parte válida de la otra postura y luego introduces tu objeción. Esta estructura (**concesión + contraste**) te hace sonar razonable y mucho más persuasivo."
+       },
+       {
+        "ex": [
+         [
+          "I take your point, but the figures simply don't support that conclusion.",
+          "Entiendo lo que dices, pero las cifras sencillamente no respaldan esa conclusión."
+         ],
+         [
+          "Granted, the scheme is expensive, yet it would pay for itself within five years.",
+          "Es cierto que el plan es costoso; aun así, se pagaría solo en cinco años."
+         ],
+         [
+          "Admittedly, there are risks. That said, doing nothing is riskier still.",
+          "Hay que admitir que hay riesgos. Dicho esto, no hacer nada es aún más arriesgado."
+         ],
+         [
+          "While I appreciate the logic, that argument doesn't hold water.",
+          "Aunque aprecio la lógica, ese argumento no se sostiene."
+         ]
+        ]
+       },
+       {
+        "p": "Para **refutar** con fuerza sin ser grosero, ataca el **argumento**, no a la persona: **That argument doesn't hold water**, **The premise is flawed**, **That's a sweeping generalization**, **That doesn't necessarily follow**. Para señalar que algo es irrelevante: **That's beside the point** o **That's a separate issue**."
+       },
+       {
+        "ex": [
+         [
+          "That doesn't necessarily follow. Correlation isn't causation.",
+          "Eso no se deduce necesariamente. Correlación no es causalidad."
+         ],
+         [
+          "With respect, that's beside the point; we're discussing safety, not cost.",
+          "Con todo respeto, eso no viene al caso; estamos hablando de seguridad, no de costos."
+         ],
+         [
+          "The whole case rests on a flawed premise.",
+          "Todo el planteamiento se basa en una premisa equivocada."
+         ]
+        ]
+       },
+       {
+        "p": "**Granted** funciona como 'concedo que': **Granted, X; yet/but Y**. También existe **Granted that...** (dado que, aun admitiendo que). **Yet** a principio de cláusula equivale a un 'sin embargo' más enfático y formal que **but**. Otros conectores de concesión: **admittedly**, **to be fair**, **even so**, **be that as it may** (sea como sea)."
+       },
+       {
+        "tip": "Error típico: traducir 'tienes razón en parte' como 'you have part of reason'. Di: You have a point o There's some truth in that. Y ojo: 'argument' en inglés también significa 'discusión/pelea'; en un debate formal prefiere point, case o line of reasoning si hay ambigüedad."
+       }
+      ],
+      "vocab": [
+       [
+        "I take your point, but...",
+        "expresión",
+        "entiendo lo que dices, pero...",
+        "I take your point, but the evidence suggests otherwise."
+       ],
+       [
+        "hold water",
+        "modismo",
+        "sostenerse, ser sólido (un argumento)",
+        "His explanation simply doesn't hold water."
+       ],
+       [
+        "granted",
+        "conector",
+        "es cierto que, concedo que",
+        "Granted, it's risky, yet the potential rewards are enormous."
+       ],
+       [
+        "yet",
+        "conector",
+        "sin embargo, aun así",
+        "The plan is ambitious, yet entirely feasible."
+       ],
+       [
+        "concede",
+        "verbo",
+        "conceder, admitir",
+        "I'll concede that the timing was unfortunate."
+       ],
+       [
+        "rebut",
+        "verbo",
+        "refutar, rebatir",
+        "She rebutted every claim with hard data."
+       ],
+       [
+        "counterargument",
+        "sustantivo",
+        "contraargumento",
+        "Anticipate the counterargument before your opponent raises it."
+       ],
+       [
+        "flawed",
+        "adjetivo",
+        "defectuoso, con fallas",
+        "The methodology of the study was deeply flawed."
+       ],
+       [
+        "premise",
+        "sustantivo",
+        "premisa",
+        "The entire argument rests on a false premise."
+       ],
+       [
+        "sweeping generalization",
+        "colocación",
+        "generalización excesiva",
+        "Saying all young people are lazy is a sweeping generalization."
+       ],
+       [
+        "by the same token",
+        "conector",
+        "por la misma razón, del mismo modo",
+        "By the same token, we should hold managers accountable too."
+       ],
+       [
+        "that's beside the point",
+        "expresión",
+        "eso no viene al caso",
+        "Whether he's popular is beside the point."
+       ],
+       [
+        "compelling",
+        "adjetivo",
+        "convincente, contundente",
+        "She made a compelling case for reform."
+       ],
+       [
+        "far-fetched",
+        "adjetivo",
+        "rebuscado, poco creíble",
+        "The idea that sales will triple seems far-fetched."
+       ],
+       [
+        "untenable",
+        "adjetivo",
+        "insostenible",
+        "Their position became untenable once the emails were leaked."
+       ],
+       [
+        "straw man",
+        "sustantivo",
+        "falacia del hombre de paja",
+        "That's a straw man; nobody suggested abolishing the tax."
+       ],
+       [
+        "play devil's advocate",
+        "modismo",
+        "hacer de abogado del diablo",
+        "Let me play devil's advocate for a moment."
+       ],
+       [
+        "substantiate",
+        "verbo",
+        "fundamentar, respaldar con pruebas",
+        "Can you substantiate that claim?"
+       ],
+       [
+        "to put it another way",
+        "expresión",
+        "dicho de otro modo",
+        "To put it another way, we can't afford to wait."
+       ],
+       [
+        "the crux of the matter",
+        "colocación",
+        "el meollo del asunto",
+        "The crux of the matter is who pays for it."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Trabajo remoto para todos?",
+       "scene": "En un foro de la universidad, Valeria y Daniel debaten si las empresas deberían volver a exigir trabajo presencial.",
+       "a": "Valeria",
+       "b": "Daniel",
+       "lines": [
+        [
+         "A",
+         "The evidence is clear: remote work has boosted productivity across the board.",
+         "La evidencia es clara: el trabajo remoto ha aumentado la productividad en todos los ámbitos."
+        ],
+        [
+         "B",
+         "I take your point, but 'across the board' is a sweeping generalization. Productivity rose in some sectors and fell in others.",
+         "Entiendo lo que dices, pero 'en todos los ámbitos' es una generalización excesiva. La productividad subió en algunos sectores y bajó en otros."
+        ],
+        [
+         "A",
+         "Granted, the picture isn't uniform, yet the overall trend is undeniably positive.",
+         "Es cierto que el panorama no es uniforme; aun así, la tendencia general es innegablemente positiva."
+        ],
+        [
+         "B",
+         "Can you substantiate that? Most of those studies rely on employees rating their own performance.",
+         "¿Puedes respaldar eso? La mayoría de esos estudios se basan en que los empleados califican su propio desempeño."
+        ],
+        [
+         "A",
+         "Some do, admittedly. But several large firms have published hard output data too.",
+         "Algunos sí, hay que admitirlo. Pero varias empresas grandes también han publicado datos concretos de producción."
+        ],
+        [
+         "B",
+         "Fair enough. Even so, productivity isn't the crux of the matter. What about mentoring junior staff?",
+         "Me parece justo. Aun así, la productividad no es el meollo del asunto. ¿Qué pasa con la mentoría al personal junior?"
+        ],
+        [
+         "A",
+         "That argument doesn't quite hold water. Mentoring can be done perfectly well online.",
+         "Ese argumento no se sostiene del todo. La mentoría se puede hacer perfectamente en línea."
+        ],
+        [
+         "B",
+         "Can it, though? Much of what juniors learn comes from overhearing conversations, not from scheduled calls.",
+         "¿De verdad? Mucho de lo que aprenden los juniors viene de escuchar conversaciones, no de llamadas programadas."
+        ],
+        [
+         "A",
+         "Let me play devil's advocate: by the same token, offices are full of distractions that hinder learning.",
+         "Déjame hacer de abogada del diablo: por la misma razón, las oficinas están llenas de distracciones que dificultan el aprendizaje."
+        ],
+        [
+         "B",
+         "That's a compelling point, I'll concede that. But nobody is suggesting we abolish remote work altogether.",
+         "Es un punto convincente, lo admito. Pero nadie está proponiendo que eliminemos el trabajo remoto por completo."
+        ],
+        [
+         "A",
+         "Then what exactly are you proposing?",
+         "¿Entonces qué es exactamente lo que propones?"
+        ],
+        [
+         "B",
+         "To put it another way, a hybrid model: flexibility for experienced staff, more presence for newcomers.",
+         "Dicho de otro modo, un modelo híbrido: flexibilidad para el personal con experiencia y más presencialidad para los recién llegados."
+        ],
+        [
+         "A",
+         "Mandating presence only for juniors seems unfair to me, but I can see the logic behind it.",
+         "Exigir presencialidad solo a los juniors me parece injusto, pero entiendo la lógica que hay detrás."
+        ],
+        [
+         "B",
+         "Well, if we both agree a blanket return to the office is untenable, we've found some common ground.",
+         "Bueno, si ambos estamos de acuerdo en que un regreso total a la oficina es insostenible, ya encontramos algo en común."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___, the policy has its drawbacks, yet it remains the best option available.",
+        "o": [
+         "Granted",
+         "Despite",
+         "Although of",
+         "In spite"
+        ],
+        "a": 0,
+        "x": "Granted introduce una concesión: 'es cierto que...'."
+       },
+       {
+        "t": "mc",
+        "q": "Saying that every politician is corrupt is ___.",
+        "o": [
+         "a compelling case",
+         "a sweeping generalization",
+         "the crux of the matter",
+         "a counteroffer"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es la refutación más natural y cortés en un debate formal?",
+        "o": [
+         "You are wrong, totally.",
+         "I take your point, but the data suggest otherwise.",
+         "You have part of reason.",
+         "Your argument is stupid."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "That argument simply doesn't hold ___. (no se sostiene)",
+        "ans": [
+         "water"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Admittedly, the new metro line will cause disruption for two years. Even so, the long-term benefits for commuters far outweigh the short-term inconvenience.",
+        "q": "¿Cuál es la postura del hablante?",
+        "o": [
+         "Se opone a la línea de metro por las molestias",
+         "Reconoce las molestias pero apoya el proyecto",
+         "Cree que no habrá ninguna molestia",
+         "Prefiere aplazar el proyecto dos años"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Granted, the scheme is expensive, yet it would pay for itself within five years."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "whole",
+         "argument",
+         "rests",
+         "on",
+         "a",
+         "flawed",
+         "premise."
+        ],
+        "es": "Todo el argumento se basa en una premisa errónea."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Whether",
+         "he",
+         "is",
+         "popular",
+         "is",
+         "beside",
+         "the",
+         "point."
+        ],
+        "es": "Si él es popular o no, no viene al caso."
+       },
+       {
+        "t": "dict",
+        "say": "I'll concede that the timing was unfortunate."
+       },
+       {
+        "t": "dict",
+        "say": "Can you substantiate that claim with any evidence?"
+       },
+       {
+        "t": "mc",
+        "q": "'Nobody said we should ban cars entirely; that's a ___.' (falacia de exagerar la postura contraria)",
+        "o": [
+         "straw man",
+         "premise",
+         "blind spot",
+         "bottom line"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Let me play devil's ___ for a moment. (abogado del diablo)",
+        "ans": [
+         "advocate"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I appreciate the logic behind your proposal, but it doesn't necessarily follow that cutting taxes will create more jobs. The evidence from the last decade is mixed at best.",
+        "q": "¿Qué objeta el hablante?",
+        "o": [
+         "Que bajar impuestos vaya a crear empleo necesariamente",
+         "Que la propuesta sea ilógica en todo",
+         "Que la evidencia sea totalmente positiva",
+         "Que el desempleo haya bajado"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un párrafo argumentativo (mínimo 120 palabras) respondiendo a esta afirmación: 'Las redes sociales hacen más daño que bien'. Concede al menos un punto de la postura contraria y luego refútala con conectores de concesión y contraste.",
+        "min": 120,
+        "keys": [
+         [
+          "granted",
+          "admittedly",
+          "to be fair",
+          "i take your point"
+         ],
+         [
+          "yet",
+          "even so",
+          "that said",
+          "nevertheless",
+          "be that as it may"
+         ],
+         [
+          "doesn't hold water",
+          "does not hold water",
+          "flawed",
+          "generalization",
+          "doesn't necessarily follow"
+         ],
+         [
+          "to put it another way",
+          "the crux",
+          "by the same token",
+          "ultimately"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I take your point, ___ the evidence simply doesn't support it.",
+       "o": [
+        "but",
+        "so",
+        "because",
+        "granted"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Su explicación no se sostiene: 'His explanation doesn't ___.'",
+       "o": [
+        "hold water",
+        "hold the line",
+        "carry weight on",
+        "stand water"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u5-l2",
+      "title": "Negociar: posiciones, concesiones y acuerdos",
+      "goal": "Defender tu posición, ofrecer concesiones condicionales y cerrar un acuerdo con lenguaje profesional.",
+      "theory": [
+       {
+        "p": "Una negociación avanza en fases: **fijar posiciones**, **explorar intereses**, **intercambiar concesiones** y **cerrar**. La clave en inglés es que **ninguna concesión se da gratis**: siempre se ata a una condición con **provided that**, **as long as**, **on condition that** o **if... then**."
+       },
+       {
+        "ex": [
+         [
+          "We'd be prepared to extend the warranty, provided that you commit to a three-year contract.",
+          "Estaríamos dispuestos a extender la garantía, siempre y cuando ustedes se comprometan a un contrato de tres años."
+         ],
+         [
+          "We could consider a lower price on condition that payment is made upfront.",
+          "Podríamos considerar un precio más bajo con la condición de que el pago se haga por adelantado."
+         ],
+         [
+          "If you were able to increase the volume, we might be able to meet you halfway on delivery costs.",
+          "Si ustedes pudieran aumentar el volumen, quizás podríamos encontrarnos a mitad de camino en los costos de envío."
+         ]
+        ]
+       },
+       {
+        "p": "Observa el uso de **would, could, might** y del **pasado hipotético** (If you were able to...). Suavizan la oferta y la presentan como algo negociable, no como una promesa firme. Compara: **We will give you 10%** (compromiso) vs. **We'd be prepared to look at 10%** (tanteo). Después de **provided that / as long as** va **presente**, aunque hables del futuro: provided that you **sign** (no 'will sign')."
+       },
+       {
+        "p": "El **BATNA** (Best Alternative To a Negotiated Agreement) es tu mejor alternativa si no hay acuerdo; conocerlo te da **leverage** (poder de negociación) y te dice cuándo **walk away** (retirarte). El **bottom line** es tu límite, y un **deal-breaker** es aquello que haría fracasar el trato."
+       },
+       {
+        "ex": [
+         [
+          "That's non-negotiable, I'm afraid.",
+          "Me temo que eso no es negociable."
+         ],
+         [
+          "I think we're close. Shall we hammer out the details?",
+          "Creo que estamos cerca. ¿Concretamos los detalles?"
+         ],
+         [
+          "So, to confirm, we have a deal subject to legal review.",
+          "Entonces, para confirmar, tenemos un acuerdo sujeto a revisión legal."
+         ]
+        ]
+       },
+       {
+        "tip": "No digas 'we are disposed to' para 'estamos dispuestos a': di we're prepared to o we're willing to. Y 'negociable' sí existe (negotiable), pero 'ofrecer una concesión' es make a concession, no 'do a concession'."
+       }
+      ],
+      "vocab": [
+       [
+        "BATNA",
+        "sustantivo",
+        "mejor alternativa a un acuerdo negociado",
+        "Our BATNA is to switch to a local supplier."
+       ],
+       [
+        "provided that",
+        "conector",
+        "siempre y cuando, con tal de que",
+        "We'll sign, provided that the price is fixed for two years."
+       ],
+       [
+        "be prepared to",
+        "expresión",
+        "estar dispuesto a",
+        "We'd be prepared to cover the shipping costs."
+       ],
+       [
+        "leverage",
+        "sustantivo",
+        "poder de negociación, influencia",
+        "Having other offers gives us considerable leverage."
+       ],
+       [
+        "concession",
+        "sustantivo",
+        "concesión",
+        "We've already made significant concessions on price."
+       ],
+       [
+        "bottom line",
+        "modismo",
+        "límite mínimo; lo esencial",
+        "Our bottom line is a 15% margin."
+       ],
+       [
+        "meet someone halfway",
+        "modismo",
+        "llegar a un punto medio",
+        "Could you meet us halfway on the delivery date?"
+       ],
+       [
+        "deal-breaker",
+        "sustantivo",
+        "condición que rompe el trato",
+        "Exclusivity is a deal-breaker for us."
+       ],
+       [
+        "counteroffer",
+        "sustantivo",
+        "contraoferta",
+        "They rejected our bid and made a counteroffer."
+       ],
+       [
+        "on condition that",
+        "conector",
+        "con la condición de que",
+        "They agreed on condition that the terms remain confidential."
+       ],
+       [
+        "walk away",
+        "phrasal verb",
+        "retirarse (de una negociación)",
+        "If they don't move on price, we'll walk away."
+       ],
+       [
+        "sweeten the deal",
+        "modismo",
+        "hacer más atractiva la oferta",
+        "They sweetened the deal with free training."
+       ],
+       [
+        "non-negotiable",
+        "adjetivo",
+        "no negociable",
+        "The deadline is non-negotiable."
+       ],
+       [
+        "hammer out",
+        "phrasal verb",
+        "negociar a fondo, concretar",
+        "It took us weeks to hammer out an agreement."
+       ],
+       [
+        "common ground",
+        "colocación",
+        "puntos en común",
+        "Let's start with the areas where we have common ground."
+       ],
+       [
+        "strike a deal",
+        "colocación",
+        "cerrar un trato",
+        "We finally struck a deal at midnight."
+       ],
+       [
+        "win-win",
+        "adjetivo",
+        "beneficioso para ambas partes",
+        "We're looking for a win-win solution."
+       ],
+       [
+        "in return",
+        "expresión",
+        "a cambio",
+        "What would you offer in return?"
+       ],
+       [
+        "tentative",
+        "adjetivo",
+        "provisional, tentativo",
+        "We've reached a tentative agreement."
+       ],
+       [
+        "binding",
+        "adjetivo",
+        "vinculante",
+        "This document is not legally binding."
+       ]
+      ],
+      "dialogue": {
+       "title": "Renegociar con el proveedor",
+       "scene": "Mauricio, gerente de compras de una cadena de cafés en Medellín, negocia por videollamada con Rachel, directora comercial de un proveedor de empaques.",
+       "a": "Rachel",
+       "b": "Mauricio",
+       "lines": [
+        [
+         "A",
+         "Thanks for making time, Mauricio. I understand you'd like to revisit the terms of our contract.",
+         "Gracias por sacar el tiempo, Mauricio. Entiendo que quieres revisar los términos de nuestro contrato."
+        ],
+        [
+         "B",
+         "That's right. Frankly, the 12% price increase you've proposed is difficult for us to absorb.",
+         "Así es. Francamente, el aumento de precio del 12 % que propusieron es difícil de asumir para nosotros."
+        ],
+        [
+         "A",
+         "I appreciate that. Our raw material costs have risen sharply, though, so there's limited room for maneuver.",
+         "Lo entiendo. Sin embargo, nuestros costos de materia prima han subido mucho, así que el margen de maniobra es limitado."
+        ],
+        [
+         "B",
+         "I understand, but I should be transparent: we've received a competitive offer from a local supplier.",
+         "Lo entiendo, pero debo ser transparente: recibimos una oferta competitiva de un proveedor local."
+        ],
+        [
+         "A",
+         "I see. Would you be able to share what they're offering?",
+         "Ya veo. ¿Podrías compartir lo que les están ofreciendo?"
+        ],
+        [
+         "B",
+         "Not in detail, but it's significantly below your new rate. That said, we value the quality and reliability you provide.",
+         "No en detalle, pero está bastante por debajo de su nueva tarifa. Dicho esto, valoramos la calidad y la confiabilidad que ustedes nos dan."
+        ],
+        [
+         "A",
+         "Well, we'd be prepared to limit the increase to 7%, provided that you extend the contract to three years.",
+         "Bueno, estaríamos dispuestos a limitar el aumento al 7 %, siempre y cuando extiendan el contrato a tres años."
+        ],
+        [
+         "B",
+         "Three years is a long commitment. Could you meet us halfway, say, 5% over two years?",
+         "Tres años es un compromiso largo. ¿Podrían llegar a un punto medio, digamos, 5 % a dos años?"
+        ],
+        [
+         "A",
+         "5% is below our bottom line, I'm afraid. What could you offer in return if we went to 6%?",
+         "Me temo que el 5 % está por debajo de nuestro límite. ¿Qué nos podrían ofrecer a cambio si llegáramos al 6 %?"
+        ],
+        [
+         "B",
+         "If you went to 6%, we could increase our order volume by around 20%, which should offset your costs.",
+         "Si llegaran al 6 %, podríamos aumentar nuestro volumen de pedidos en cerca de un 20 %, lo que debería compensar sus costos."
+        ],
+        [
+         "A",
+         "That's interesting. Would you also be willing to commit to quarterly rather than monthly payments in advance?",
+         "Eso es interesante. ¿También estarían dispuestos a comprometerse a pagos trimestrales anticipados en vez de mensuales?"
+        ],
+        [
+         "B",
+         "Upfront payment is a deal-breaker for our finance team, unfortunately. Standard thirty-day terms would have to stay.",
+         "Lamentablemente, el pago anticipado es una condición inaceptable para nuestro equipo financiero. Los plazos estándar de treinta días tendrían que mantenerse."
+        ],
+        [
+         "A",
+         "Understood. Then let's say 6%, two years, a 20% volume increase and thirty-day terms. Can we live with that?",
+         "Entendido. Entonces digamos 6 %, dos años, un aumento del 20 % en volumen y plazos de treinta días. ¿Podemos aceptar eso?"
+        ],
+        [
+         "B",
+         "I think we can. Let's call it a tentative agreement, subject to sign-off from our legal team.",
+         "Creo que sí. Llamémoslo un acuerdo provisional, sujeto a la aprobación de nuestro equipo legal."
+        ],
+        [
+         "A",
+         "Perfect. I'll send over a draft so we can hammer out the remaining details next week.",
+         "Perfecto. Te envío un borrador para que concretemos los detalles pendientes la próxima semana."
+        ],
+        [
+         "B",
+         "Great. I'm glad we managed to strike a deal that works for both sides.",
+         "Excelente. Me alegra que hayamos logrado cerrar un trato que funcione para ambas partes."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "We'd be prepared to lower the price, provided that you ___ a larger order.",
+        "o": [
+         "will place",
+         "place",
+         "would place",
+         "are placing to"
+        ],
+        "a": 1,
+        "x": "Después de provided that se usa presente aunque se hable del futuro."
+       },
+       {
+        "t": "mc",
+        "q": "Your best alternative if no agreement is reached is your:",
+        "o": [
+         "bottom line",
+         "BATNA",
+         "deal-breaker",
+         "counteroffer"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es la oferta más diplomática y condicional?",
+        "o": [
+         "We give you 10%.",
+         "We will give you 10% and that's it.",
+         "We could look at 10% if you were able to commit to two years.",
+         "10% or nothing."
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "Could you meet us ___ on the delivery date? (a mitad de camino)",
+        "ans": [
+         "halfway",
+         "half way"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We'd be willing to waive the installation fee, on condition that you sign the contract before the end of the month.",
+        "q": "¿Qué condición pone el hablante?",
+        "o": [
+         "Pagar la instalación por adelantado",
+         "Firmar antes de fin de mes",
+         "Comprar más unidades",
+         "Renovar por dos años"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "We'd be prepared to extend the warranty, provided that you commit to a three-year contract."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Exclusivity",
+         "is",
+         "a",
+         "deal-breaker",
+         "for",
+         "us,",
+         "I'm",
+         "afraid."
+        ],
+        "es": "Me temo que la exclusividad es una condición inaceptable para nosotros."
+       },
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "could",
+         "you",
+         "offer",
+         "in",
+         "return?"
+        ],
+        "es": "¿Qué podrían ofrecer a cambio?"
+       },
+       {
+        "t": "dict",
+        "say": "We finally struck a deal after weeks of talks."
+       },
+       {
+        "t": "dict",
+        "say": "This document is not legally binding."
+       },
+       {
+        "t": "mc",
+        "q": "They made the offer more attractive with free training. They ___ the deal.",
+        "o": [
+         "sweetened",
+         "hammered",
+         "walked",
+         "broke"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "If they don't move on price, we'll walk ___. (retirarnos)",
+        "ans": [
+         "away"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Our bottom line is a twelve percent margin. Anything below that, and we'd rather walk away and stick with our current distributor.",
+        "q": "¿Qué hará el hablante si el margen es menor al 12 %?",
+        "o": [
+         "Aceptará de todos modos",
+         "Se retirará y seguirá con su distribuidor actual",
+         "Pedirá más tiempo",
+         "Hará una contraoferta del 10 %"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo (mínimo 120 palabras) a un cliente o proveedor proponiendo los términos de un acuerdo: reconoce su posición, ofrece al menos dos concesiones condicionales, señala algo que no es negociable y propone los siguientes pasos para cerrar el trato.",
+        "min": 120,
+        "keys": [
+         [
+          "provided that",
+          "as long as",
+          "on condition that",
+          "if you were"
+         ],
+         [
+          "prepared to",
+          "willing to",
+          "could consider",
+          "might be able"
+         ],
+         [
+          "non-negotiable",
+          "bottom line",
+          "deal-breaker"
+         ],
+         [
+          "in return",
+          "tentative",
+          "strike a deal",
+          "next steps",
+          "hammer out"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "We'll accept the terms as long as the price ___ fixed for two years.",
+       "o": [
+        "will remain",
+        "remains",
+        "would remain",
+        "remaining"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Estaríamos dispuestos a cubrir el envío: 'We'd be ___ to cover the shipping costs.'",
+       "o": [
+        "disposed",
+        "prepared",
+        "agreeing",
+        "predisposed"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u5-l3",
+      "title": "Dar y recibir feedback constructivo",
+      "goal": "Señalar problemas de desempeño con tacto y responder a críticas sin ponerte a la defensiva.",
+      "theory": [
+       {
+        "p": "En la cultura profesional anglosajona, la crítica directa ('Your report is bad') suena agresiva. Se usa el **softening**: modales (**might, could**), preguntas indirectas, adverbios que reducen (**slightly, a bit, a tad**) y verbos de opinión (**I wonder, I feel, it seems**). El mensaje es igual de claro, pero se recibe mucho mejor."
+       },
+       {
+        "ex": [
+         [
+          "I wonder if you might consider shortening the introduction.",
+          "Me pregunto si podrías considerar acortar la introducción."
+         ],
+         [
+          "It might be worth double-checking the figures before it goes out.",
+          "Valdría la pena revisar las cifras otra vez antes de enviarlo."
+         ],
+         [
+          "The slides came across as a tad crowded.",
+          "Las diapositivas se veían un poquito recargadas."
+         ],
+         [
+          "Have you thought about involving the design team earlier?",
+          "¿Has pensado en involucrar antes al equipo de diseño?"
+         ]
+        ]
+       },
+       {
+        "p": "El **sandwich approach** pone la crítica entre dos comentarios positivos: **elogio específico → área de mejora → ánimo**. Para que funcione, el elogio debe ser **concreto** y la mejora **actionable** (algo que la persona pueda hacer). Evita el 'but' que borra el elogio; usa **and** o una frase nueva: 'Your analysis was excellent. **One thing that could make it even stronger is**...'"
+       },
+       {
+        "ex": [
+         [
+          "Your research was thorough. One area for improvement might be the structure, and I'm sure the next draft will be outstanding.",
+          "Tu investigación fue exhaustiva. Un aspecto por mejorar podría ser la estructura, y estoy seguro de que el próximo borrador será sobresaliente."
+         ],
+         [
+          "Thanks, that's really useful. I'll take it on board.",
+          "Gracias, eso es muy útil. Lo voy a tener en cuenta."
+         ],
+         [
+          "Fair comment. Could you give me an example of where that happened?",
+          "Comentario justo. ¿Me podrías dar un ejemplo de dónde pasó eso?"
+         ]
+        ]
+       },
+       {
+        "p": "Al **recibir** feedback: agradece, pide ejemplos concretos y evita justificarte de inmediato. Frases útiles: **That's food for thought**, **I hadn't picked up on that**, **I'll take that on board**, **What would you suggest I do differently?**"
+       },
+       {
+        "tip": "Ojo con 'constructive critic': critic es la persona (crítico). Lo correcto es constructive criticism o constructive feedback. Feedback es incontable: some feedback, a piece of feedback, nunca 'a feedback' ni 'feedbacks'."
+       }
+      ],
+      "vocab": [
+       [
+        "constructive criticism",
+        "colocación",
+        "crítica constructiva",
+        "She's always open to constructive criticism."
+       ],
+       [
+        "I wonder if you might consider...",
+        "expresión",
+        "me pregunto si podrías considerar...",
+        "I wonder if you might consider a different approach."
+       ],
+       [
+        "sandwich approach",
+        "colocación",
+        "técnica del sándwich (elogio-crítica-elogio)",
+        "He used the sandwich approach in the appraisal."
+       ],
+       [
+        "soften",
+        "verbo",
+        "suavizar",
+        "Try to soften the message without diluting it."
+       ],
+       [
+        "room for improvement",
+        "colocación",
+        "margen de mejora",
+        "There's still some room for improvement in your timing."
+       ],
+       [
+        "come across as",
+        "phrasal verb",
+        "dar la impresión de, parecer",
+        "The email came across as rather abrupt."
+       ],
+       [
+        "food for thought",
+        "modismo",
+        "algo para reflexionar",
+        "Your comments have given me food for thought."
+       ],
+       [
+        "pick up on",
+        "phrasal verb",
+        "notar, darse cuenta de",
+        "I hadn't picked up on that problem."
+       ],
+       [
+        "take something on board",
+        "modismo",
+        "tener en cuenta, aceptar (una sugerencia)",
+        "I'll take your suggestions on board."
+       ],
+       [
+        "fair comment",
+        "expresión",
+        "comentario justo, tienes razón",
+        "Fair comment; I'll rewrite that section."
+       ],
+       [
+        "a tad",
+        "adverbio",
+        "un poquito",
+        "The ending felt a tad rushed."
+       ],
+       [
+        "actionable",
+        "adjetivo",
+        "concreto y aplicable",
+        "Good feedback is specific and actionable."
+       ],
+       [
+        "blind spot",
+        "sustantivo",
+        "punto ciego",
+        "Time management is my blind spot."
+       ],
+       [
+        "defensive",
+        "adjetivo",
+        "a la defensiva",
+        "Try not to get defensive when people criticize your work."
+       ],
+       [
+        "nitpick",
+        "verbo",
+        "buscarle defectos a todo",
+        "I don't want to nitpick, but there are a few typos."
+       ],
+       [
+        "commend",
+        "verbo",
+        "elogiar, felicitar formalmente",
+        "I'd like to commend you on the way you handled the client."
+       ],
+       [
+        "overstep",
+        "verbo",
+        "extralimitarse",
+        "I hope I'm not overstepping, but may I make a suggestion?"
+       ],
+       [
+        "rein in",
+        "phrasal verb",
+        "moderar, controlar",
+        "You might want to rein in the jargon a little."
+       ],
+       [
+        "well-received",
+        "adjetivo",
+        "bien recibido, bien acogido",
+        "Your presentation was very well-received."
+       ],
+       [
+        "it might be worth -ing",
+        "expresión",
+        "valdría la pena...",
+        "It might be worth asking the client first."
+       ]
+      ],
+      "dialogue": {
+       "title": "La evaluación de desempeño",
+       "scene": "Catalina, líder de un equipo de marketing en Bogotá, da feedback a Owen sobre la presentación que hizo ante un cliente importante.",
+       "a": "Catalina",
+       "b": "Owen",
+       "lines": [
+        [
+         "A",
+         "Owen, thanks for coming in. I wanted to give you some feedback on Tuesday's pitch.",
+         "Owen, gracias por venir. Quería darte algo de feedback sobre la presentación del martes."
+        ],
+        [
+         "B",
+         "Sure. I'm a bit nervous, to be honest. How do you think it went?",
+         "Claro. Para ser sincero, estoy un poco nervioso. ¿Cómo crees que salió?"
+        ],
+        [
+         "A",
+         "Overall, very well. Your market research was outstanding, and the client clearly picked up on that.",
+         "En general, muy bien. Tu investigación de mercado fue sobresaliente y el cliente claramente lo notó."
+        ],
+        [
+         "B",
+         "That's a relief. I put a lot of work into it.",
+         "Qué alivio. Le dediqué mucho trabajo."
+        ],
+        [
+         "A",
+         "It showed. There are just a couple of areas where I think there's some room for improvement.",
+         "Se notó. Solo hay un par de aspectos en los que creo que hay margen de mejora."
+        ],
+        [
+         "B",
+         "Go ahead. I'd rather know.",
+         "Adelante. Prefiero saberlo."
+        ],
+        [
+         "A",
+         "The slides came across as a tad crowded. I wonder if you might consider limiting each one to a single key message.",
+         "Las diapositivas se veían un poquito recargadas. Me pregunto si podrías considerar limitar cada una a un solo mensaje clave."
+        ],
+        [
+         "B",
+         "Fair comment. I was worried about leaving things out, so I crammed everything in.",
+         "Comentario justo. Me preocupaba dejar cosas por fuera, así que lo metí todo."
+        ],
+        [
+         "A",
+         "That's understandable. It might be worth putting the detail in a handout instead.",
+         "Es comprensible. Valdría la pena poner los detalles en un documento aparte."
+        ],
+        [
+         "B",
+         "Good idea. Was there anything else?",
+         "Buena idea. ¿Hubo algo más?"
+        ],
+        [
+         "A",
+         "Just one thing, and I don't want to nitpick: when the client questioned the budget, you seemed slightly defensive.",
+         "Solo una cosa, y no quiero ser quisquillosa: cuando el cliente cuestionó el presupuesto, te vi un poco a la defensiva."
+        ],
+        [
+         "B",
+         "Really? I hadn't realized. That's probably a blind spot of mine. What would you suggest I do differently?",
+         "¿En serio? No me había dado cuenta. Probablemente es un punto ciego mío. ¿Qué me sugieres hacer diferente?"
+        ],
+        [
+         "A",
+         "Try acknowledging the concern first, something like 'That's a valid question', before you explain the figures.",
+         "Intenta reconocer primero la inquietud, algo como 'Es una pregunta válida', antes de explicar las cifras."
+        ],
+        [
+         "B",
+         "That's really helpful. I'll definitely take it on board for the next pitch.",
+         "Eso me sirve mucho. Sin duda lo voy a tener en cuenta para la próxima presentación."
+        ],
+        [
+         "A",
+         "Great. And honestly, the client's email this morning was very positive, so you should be proud of it.",
+         "Excelente. Y sinceramente, el correo del cliente de esta mañana fue muy positivo, así que deberías estar orgulloso."
+        ],
+        [
+         "B",
+         "Thanks, Catalina. I appreciate you being so constructive about it.",
+         "Gracias, Catalina. Te agradezco que hayas sido tan constructiva."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "¿Cuál es la forma más suave y profesional de sugerir un cambio?",
+        "o": [
+         "Change the introduction.",
+         "Your introduction is wrong.",
+         "I wonder if you might consider shortening the introduction.",
+         "You must shorten the introduction."
+        ],
+        "a": 2
+       },
+       {
+        "t": "mc",
+        "q": "Feedback es un sustantivo incontable. ¿Cuál es correcta?",
+        "o": [
+         "She gave me a feedback.",
+         "She gave me some useful feedback.",
+         "She gave me many feedbacks.",
+         "She gave me a useful feedbacks."
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "The email ___ as rather abrupt, even though he didn't mean it that way.",
+        "o": [
+         "came across",
+         "came over",
+         "came up",
+         "came in"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Thanks for the suggestion; I'll take it on ___. (lo tendré en cuenta)",
+        "ans": [
+         "board"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Your report was well structured and the data were spot on. One thing that could make it even stronger is a clearer executive summary, and I'm confident the next version will be excellent.",
+        "q": "¿Qué técnica usa el hablante?",
+        "o": [
+         "Crítica directa sin elogios",
+         "La técnica del sándwich",
+         "Solo elogios",
+         "Una amenaza velada"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "It might be worth double-checking the figures before the report goes out."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "There's",
+         "still",
+         "some",
+         "room",
+         "for",
+         "improvement",
+         "in",
+         "your",
+         "timing."
+        ],
+        "es": "Todavía hay algo de margen de mejora en tu manejo del tiempo."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "hadn't",
+         "picked",
+         "up",
+         "on",
+         "that",
+         "problem."
+        ],
+        "es": "No me había dado cuenta de ese problema."
+       },
+       {
+        "t": "dict",
+        "say": "Your comments have given me food for thought."
+       },
+       {
+        "t": "dict",
+        "say": "I'd like to commend you on the way you handled the client."
+       },
+       {
+        "t": "mc",
+        "q": "'Moderar la jerga' es:",
+        "o": [
+         "rein in the jargon",
+         "rein out the jargon",
+         "rain on the jargon",
+         "reign over the jargon"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The ending felt a ___ rushed. (un poquito)",
+        "ans": [
+         "tad",
+         "bit",
+         "little bit"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I hope I'm not overstepping, but I noticed that the junior staff rarely speak up in your meetings. Have you thought about asking them directly for their views?",
+        "q": "¿Qué sugiere el hablante?",
+        "o": [
+         "Despedir al personal junior",
+         "Pedirles su opinión directamente",
+         "Cancelar las reuniones",
+         "Que el jefe hable menos de su vida"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe el feedback (mínimo 120 palabras) que le darías a un compañero sobre un informe o una presentación con aspectos buenos y otros por mejorar. Usa la técnica del sándwich y al menos tres recursos para suavizar la crítica.",
+        "min": 120,
+        "keys": [
+         [
+          "i wonder if",
+          "might consider",
+          "it might be worth",
+          "have you thought about"
+         ],
+         [
+          "room for improvement",
+          "one thing that could",
+          "area for improvement"
+         ],
+         [
+          "a tad",
+          "slightly",
+          "a bit",
+          "a little"
+         ],
+         [
+          "well-received",
+          "commend",
+          "outstanding",
+          "excellent",
+          "great job"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Elige la crítica mejor suavizada:",
+       "o": [
+        "Your slides are terrible.",
+        "The slides seemed a tad crowded; it might be worth simplifying them.",
+        "Simplify your slides now.",
+        "Nobody understood your slides."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Al recibir una crítica justa, respondes: '___. I'll rewrite that section.'",
+       "o": [
+        "Fair comment",
+        "Fair critic",
+        "Just comment",
+        "Right criticism"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u5-l4",
+      "title": "Liderar reuniones",
+      "goal": "Moderar una reunión, mantener el foco, resumir acuerdos y asignar tareas con claridad.",
+      "theory": [
+       {
+        "p": "Quien **chairs** (preside) una reunión tiene cuatro funciones: **abrir y fijar objetivos**, **dar y controlar la palabra**, **mantener el foco** y **cerrar con acuerdos y responsables**. Cada fase tiene expresiones fijas que conviene dominar."
+       },
+       {
+        "ex": [
+         [
+          "Shall we make a start? The aim today is to agree on the launch date.",
+          "¿Empezamos? El objetivo de hoy es acordar la fecha de lanzamiento."
+         ],
+         [
+          "Lucía, would you like to come in here?",
+          "Lucía, ¿quieres intervenir aquí?"
+         ],
+         [
+          "Sorry to cut in, but could we let Tom finish?",
+          "Perdón por interrumpir, pero ¿podemos dejar que Tom termine?"
+         ],
+         [
+          "I'm conscious of the time, so let's move on to item three.",
+          "Soy consciente de la hora, así que pasemos al punto tres."
+         ]
+        ]
+       },
+       {
+        "p": "Para **mantener el foco** sin ser brusco: **That's a good point, but it's slightly outside the scope of today's meeting**, **Can we park that for now and circle back to it later?**, **Let's not go off on a tangent**. 'Park' significa dejar un tema 'en el parqueadero' para otra ocasión."
+       },
+       {
+        "p": "Para **cerrar**: resume (**So, to recap, we've agreed that...**), asigna responsables y plazos (**Ana, could you take ownership of the budget and get back to us by Friday?**) y confirma el seguimiento (**I'll circulate the minutes and the action items this afternoon**)."
+       },
+       {
+        "ex": [
+         [
+          "To recap, we've agreed to postpone the launch until March.",
+          "Para resumir, acordamos aplazar el lanzamiento hasta marzo."
+         ],
+         [
+          "Who's going to follow up on the supplier issue?",
+          "¿Quién le va a hacer seguimiento al tema del proveedor?"
+         ],
+         [
+          "Is there any other business? If not, let's wrap up.",
+          "¿Hay algún otro tema? Si no, cerremos."
+         ]
+        ]
+       },
+       {
+        "tip": "'Agenda' en inglés es el orden del día de una reunión, no tu libreta personal (eso es diary o planner). Y 'acta' se dice minutes, siempre en plural: take the minutes. 'Asistir a una reunión' es attend a meeting, nunca 'assist a meeting' (assist = ayudar)."
+       }
+      ],
+      "vocab": [
+       [
+        "chair",
+        "verbo",
+        "presidir, moderar (una reunión)",
+        "Who's going to chair tomorrow's meeting?"
+       ],
+       [
+        "agenda item",
+        "colocación",
+        "punto del orden del día",
+        "Let's move on to the next agenda item."
+       ],
+       [
+        "stay on track",
+        "expresión",
+        "mantener el rumbo, no desviarse",
+        "We need to stay on track if we want to finish by noon."
+       ],
+       [
+        "digress",
+        "verbo",
+        "desviarse del tema",
+        "Sorry, I digress. Back to the budget."
+       ],
+       [
+        "park",
+        "verbo",
+        "dejar (un tema) para después",
+        "Let's park that question until next week."
+       ],
+       [
+        "take the floor",
+        "colocación",
+        "tomar la palabra",
+        "Marta, would you like to take the floor?"
+       ],
+       [
+        "recap",
+        "verbo",
+        "resumir, recapitular",
+        "Let me quickly recap what we've agreed."
+       ],
+       [
+        "action item",
+        "sustantivo",
+        "tarea pendiente asignada",
+        "There are four action items from today's call."
+       ],
+       [
+        "minutes",
+        "sustantivo",
+        "acta (de una reunión)",
+        "Could someone take the minutes?"
+       ],
+       [
+        "follow up on",
+        "phrasal verb",
+        "hacer seguimiento a",
+        "I'll follow up on that with the legal team."
+       ],
+       [
+        "consensus",
+        "sustantivo",
+        "consenso",
+        "We need to reach a consensus before Friday."
+       ],
+       [
+        "any other business",
+        "expresión",
+        "otros asuntos, varios (AOB)",
+        "Is there any other business before we close?"
+       ],
+       [
+        "touch base",
+        "modismo",
+        "ponerse en contacto brevemente",
+        "Let's touch base again on Thursday."
+       ],
+       [
+        "take ownership of",
+        "colocación",
+        "hacerse responsable de",
+        "Could you take ownership of the client report?"
+       ],
+       [
+        "circle back",
+        "phrasal verb",
+        "retomar (un tema) más tarde",
+        "We'll circle back to pricing at the end."
+       ],
+       [
+        "wrap up",
+        "phrasal verb",
+        "concluir, cerrar",
+        "Let's wrap up; we're running out of time."
+       ],
+       [
+        "to that end",
+        "conector",
+        "con ese fin",
+        "We want to cut costs. To that end, we'll review all contracts."
+       ],
+       [
+        "go off on a tangent",
+        "modismo",
+        "irse por las ramas",
+        "Let's not go off on a tangent here."
+       ],
+       [
+        "bring someone in",
+        "phrasal verb",
+        "dar la palabra a alguien, incluirlo",
+        "I'd like to bring Sam in, as he's the expert."
+       ],
+       [
+        "for the sake of time",
+        "expresión",
+        "por cuestión de tiempo",
+        "For the sake of time, let's skip item four."
+       ]
+      ],
+      "dialogue": {
+       "title": "La reunión de lanzamiento",
+       "scene": "Jimena dirige una reunión del equipo de producto. Patrick, del área de ventas, tiende a desviarse del tema.",
+       "a": "Jimena",
+       "b": "Patrick",
+       "lines": [
+        [
+         "A",
+         "Right, shall we make a start? The aim today is to agree on a launch date and assign the remaining tasks.",
+         "Bueno, ¿empezamos? El objetivo de hoy es acordar una fecha de lanzamiento y asignar las tareas pendientes."
+        ],
+        [
+         "B",
+         "Before we do, can I raise something about last quarter's commission structure?",
+         "Antes de eso, ¿puedo mencionar algo sobre la estructura de comisiones del trimestre pasado?"
+        ],
+        [
+         "A",
+         "I'd rather we stayed on track, Patrick. Could we park that and touch base about it separately?",
+         "Preferiría que no nos desviáramos, Patrick. ¿Podemos dejar eso para después y hablarlo por aparte?"
+        ],
+        [
+         "B",
+         "Fair enough. It's not urgent.",
+         "Me parece bien. No es urgente."
+        ],
+        [
+         "A",
+         "Thanks. So, first agenda item: the launch date. The development team is suggesting the fifteenth of March.",
+         "Gracias. Entonces, primer punto: la fecha de lanzamiento. El equipo de desarrollo sugiere el quince de marzo."
+        ],
+        [
+         "B",
+         "That's too late for us. Our biggest trade fair is at the end of February, and we'd love to showcase it there.",
+         "Eso es muy tarde para nosotros. Nuestra feria comercial más grande es a finales de febrero y nos encantaría mostrarlo allí."
+        ],
+        [
+         "A",
+         "I see. Let me bring Wei in here, since she's leading development. Is February realistic?",
+         "Ya veo. Déjenme darle la palabra a Wei, ya que ella lidera el desarrollo. ¿Es realista febrero?"
+        ],
+        [
+         "B",
+         "While she checks, I should mention that our competitors launched their app at that fair two years ago, and it was a disaster because...",
+         "Mientras ella revisa, debería mencionar que nuestros competidores lanzaron su app en esa feria hace dos años y fue un desastre porque..."
+        ],
+        [
+         "A",
+         "Sorry to cut in, Patrick, but I'm conscious of the time. Let's not go off on a tangent.",
+         "Perdón por interrumpir, Patrick, pero soy consciente de la hora. No nos vayamos por las ramas."
+        ],
+        [
+         "B",
+         "Sorry, I digress. Go ahead.",
+         "Perdón, me desvié. Adelante."
+        ],
+        [
+         "A",
+         "Wei says a demo version could be ready by February, with the full release in March. Can we reach a consensus on that?",
+         "Wei dice que una versión demo podría estar lista para febrero, con el lanzamiento completo en marzo. ¿Podemos llegar a un consenso sobre eso?"
+        ],
+        [
+         "B",
+         "That works for sales. A demo at the fair would generate plenty of interest.",
+         "Eso le sirve a ventas. Una demo en la feria generaría mucho interés."
+        ],
+        [
+         "A",
+         "Great. So, to recap: demo version at the February fair, full launch on the fifteenth of March.",
+         "Excelente. Entonces, para resumir: versión demo en la feria de febrero y lanzamiento completo el quince de marzo."
+        ],
+        [
+         "B",
+         "And who'll take ownership of the marketing materials for the fair?",
+         "¿Y quién se va a encargar del material de marketing para la feria?"
+        ],
+        [
+         "A",
+         "Could you take that on, Patrick, and follow up with the design agency by Friday?",
+         "¿Podrías encargarte tú, Patrick, y hacerle seguimiento a la agencia de diseño antes del viernes?"
+        ],
+        [
+         "B",
+         "Happy to. And can we circle back to my commission question next week?",
+         "Con gusto. ¿Y podemos retomar mi pregunta sobre las comisiones la próxima semana?"
+        ],
+        [
+         "A",
+         "Absolutely. I'll circulate the minutes and the action items this afternoon. Any other business? No? Then let's wrap up.",
+         "Por supuesto. Esta tarde envío el acta y las tareas asignadas. ¿Algún otro tema? ¿No? Entonces cerremos."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Para dejar un tema para después, quien modera dice:",
+        "o": [
+         "Let's park that for now.",
+         "Let's garage that now.",
+         "Let's stop that forever.",
+         "Let's parking that."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Who's going to ___ the minutes today?",
+        "o": [
+         "do",
+         "take",
+         "make",
+         "write up to"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "'Asistir a una reunión' en inglés es:",
+        "o": [
+         "assist a meeting",
+         "attend a meeting",
+         "assist to a meeting",
+         "attend to a meeting"
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "So, to ___, we've agreed to postpone the launch. (resumir)",
+        "ans": [
+         "recap",
+         "sum up",
+         "summarize",
+         "summarise"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I'm conscious of the time, so for the sake of time, let's skip item four and move straight on to the budget. We can circle back to item four next week.",
+        "q": "¿Qué decide la moderadora?",
+        "o": [
+         "Cancelar la reunión",
+         "Saltar el punto cuatro y retomarlo la próxima semana",
+         "Discutir solo el punto cuatro",
+         "Alargar la reunión una hora"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Sorry to cut in, but could we let Tom finish his point?"
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Could",
+         "you",
+         "take",
+         "ownership",
+         "of",
+         "the",
+         "client",
+         "report?"
+        ],
+        "es": "¿Podrías hacerte responsable del informe del cliente?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "Let's",
+         "not",
+         "go",
+         "off",
+         "on",
+         "a",
+         "tangent."
+        ],
+        "es": "No nos vayamos por las ramas."
+       },
+       {
+        "t": "dict",
+        "say": "Let's move on to the next agenda item."
+       },
+       {
+        "t": "dict",
+        "say": "I'll circulate the minutes this afternoon."
+       },
+       {
+        "t": "mc",
+        "q": "Is there any other ___ before we close?",
+        "o": [
+         "business",
+         "matter of",
+         "subjects",
+         "affairs to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "We want to reduce costs. To that ___, we'll review all our contracts. (con ese fin)",
+        "ans": [
+         "end"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Before we wrap up, let me go through the action items. Diego will follow up on the supplier issue, and Hannah will draft the proposal by Wednesday.",
+        "q": "¿Qué tiene que hacer Hannah?",
+        "o": [
+         "Hacer seguimiento al proveedor",
+         "Redactar la propuesta para el miércoles",
+         "Enviar el acta",
+         "Moderar la próxima reunión"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe el correo de seguimiento (mínimo 120 palabras) que enviarías después de presidir una reunión: resume las decisiones, menciona un tema que quedó pendiente y asigna al menos tres tareas con responsable y plazo.",
+        "min": 120,
+        "keys": [
+         [
+          "to recap",
+          "we agreed",
+          "we've agreed",
+          "it was agreed"
+         ],
+         [
+          "action items",
+          "take ownership",
+          "follow up",
+          "responsible for"
+         ],
+         [
+          "park",
+          "circle back",
+          "next meeting",
+          "touch base"
+         ],
+         [
+          "minutes",
+          "by friday",
+          "by monday",
+          "deadline",
+          "by the end of"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Sorry, I ___. Let's get back to the budget.",
+       "o": [
+        "digress",
+        "park",
+        "chair",
+        "wrap"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "Al cerrar, quien preside resume: 'So, ___, we've agreed on a March launch.'",
+       "o": [
+        "to recap",
+        "to digress",
+        "to park",
+        "to touch base"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u5-l5",
+      "title": "Conflicto y diplomacia",
+      "goal": "Desescalar tensiones, usar lenguaje indirecto y gestionar quejas con disculpas formales y soluciones.",
+      "theory": [
+       {
+        "p": "Para **desescalar** un conflicto, el primer paso es **validar** la emoción del otro sin necesariamente darle la razón: **I can see why you're frustrated**, **I understand where you're coming from**. Luego cambias el foco al **problema** y a la **solución**: **Let's see what we can do to put this right**."
+       },
+       {
+        "ex": [
+         [
+          "I completely understand your frustration, and I'd like to resolve this today.",
+          "Entiendo totalmente su frustración y quisiera resolver esto hoy mismo."
+         ],
+         [
+          "I can see where you're coming from. Let's look at the options.",
+          "Entiendo su punto de vista. Miremos las opciones."
+         ],
+         [
+          "Perhaps we could take a step back and look at the facts.",
+          "Quizás podríamos dar un paso atrás y mirar los hechos."
+         ]
+        ]
+       },
+       {
+        "p": "El **lenguaje indirecto** (diplomático) usa pasiva, preguntas, modales y verbos en pasado para restar dureza. Compara: **You made a mistake** → **It seems there's been a mistake**; **You're wrong** → **I'm not sure I'd entirely agree**; **I want a refund** → **I was hoping we could discuss a refund**. La **pasiva** quita la culpa a la persona: **The order was sent to the wrong address**."
+       },
+       {
+        "p": "Una **disculpa formal** completa tiene cuatro partes: **disculpa** (Please accept our sincere apologies for...), **responsabilidad** (We take full responsibility / This was an oversight on our part), **solución** (We will rectify the situation by...) y **gesto** (As a goodwill gesture, we'd like to offer...). En contextos formales, **regrettably** y **we regret to inform you** suenan más profesionales que **sorry**."
+       },
+       {
+        "ex": [
+         [
+          "Please accept our sincere apologies for any inconvenience this may have caused.",
+          "Le rogamos que acepte nuestras más sinceras disculpas por cualquier inconveniente que esto haya podido causar."
+         ],
+         [
+          "This was an oversight on our part, and we take full responsibility.",
+          "Fue un descuido de nuestra parte y asumimos toda la responsabilidad."
+         ],
+         [
+          "As a goodwill gesture, we'd like to offer you a full refund.",
+          "Como gesto de buena voluntad, quisiéramos ofrecerle un reembolso total."
+         ]
+        ]
+       },
+       {
+        "tip": "'With all due respect' (con todo respeto) suele anunciar un desacuerdo fuerte; en inglés puede sonar incluso más tenso que en español, así que úsalo con cuidado. Y ojo: 'molestia' en una disculpa es inconvenience, no 'molestation', que significa abuso."
+       }
+      ],
+      "vocab": [
+       [
+        "de-escalate",
+        "verbo",
+        "desescalar, calmar (un conflicto)",
+        "Her calm tone helped de-escalate the situation."
+       ],
+       [
+        "defuse",
+        "verbo",
+        "desactivar, apaciguar (una tensión)",
+        "A joke helped defuse the tension in the room."
+       ],
+       [
+        "grievance",
+        "sustantivo",
+        "queja formal, agravio",
+        "Employees can raise a grievance with HR."
+       ],
+       [
+        "rectify",
+        "verbo",
+        "rectificar, corregir",
+        "We'll rectify the error as soon as possible."
+       ],
+       [
+        "inconvenience",
+        "sustantivo",
+        "molestia, inconveniente",
+        "We apologize for any inconvenience caused."
+       ],
+       [
+        "regrettably",
+        "adverbio",
+        "lamentablemente",
+        "Regrettably, the event has been cancelled."
+       ],
+       [
+        "oversight",
+        "sustantivo",
+        "descuido, omisión",
+        "The missing invoice was an oversight on our part."
+       ],
+       [
+        "heated",
+        "adjetivo",
+        "acalorado",
+        "The discussion became rather heated."
+       ],
+       [
+        "tactful",
+        "adjetivo",
+        "diplomático, con tacto",
+        "She gave a tactful reply to an awkward question."
+       ],
+       [
+        "bury the hatchet",
+        "modismo",
+        "hacer las paces",
+        "It's time we buried the hatchet and moved on."
+       ],
+       [
+        "clear the air",
+        "modismo",
+        "aclarar las cosas, limar asperezas",
+        "We need a meeting to clear the air."
+       ],
+       [
+        "see where someone is coming from",
+        "expresión",
+        "entender el punto de vista de alguien",
+        "I can see where you're coming from."
+       ],
+       [
+        "escalate",
+        "verbo",
+        "agravarse; elevar (a un superior)",
+        "If it isn't resolved, I'll escalate the matter to management."
+       ],
+       [
+        "goodwill gesture",
+        "colocación",
+        "gesto de buena voluntad",
+        "As a goodwill gesture, we've upgraded your room."
+       ],
+       [
+        "sincere apologies",
+        "colocación",
+        "sinceras disculpas",
+        "Please accept our sincere apologies."
+       ],
+       [
+        "take full responsibility",
+        "colocación",
+        "asumir toda la responsabilidad",
+        "The company takes full responsibility for the delay."
+       ],
+       [
+        "address a complaint",
+        "colocación",
+        "atender una queja",
+        "We aim to address every complaint within 48 hours."
+       ],
+       [
+        "be at odds with",
+        "expresión",
+        "estar en desacuerdo con, chocar con",
+        "The two departments are often at odds with each other."
+       ],
+       [
+        "tread carefully",
+        "modismo",
+        "andar con pies de plomo",
+        "You'll need to tread carefully with this client."
+       ],
+       [
+        "with all due respect",
+        "expresión",
+        "con todo respeto",
+        "With all due respect, I think you've misunderstood."
+       ]
+      ],
+      "dialogue": {
+       "title": "Un huésped muy molesto",
+       "scene": "Andrés, gerente de un hotel en Cartagena, atiende a Megan, una huésped furiosa porque su reserva para un evento corporativo salió mal.",
+       "a": "Megan",
+       "b": "Andrés",
+       "lines": [
+        [
+         "A",
+         "I need to speak to the manager. This is completely unacceptable!",
+         "Necesito hablar con el gerente. ¡Esto es completamente inaceptable!"
+        ],
+        [
+         "B",
+         "I'm the manager, Andrés Ríos. I can see you're upset. Please, tell me what's happened.",
+         "Yo soy el gerente, Andrés Ríos. Veo que está molesta. Por favor, cuénteme qué pasó."
+        ],
+        [
+         "A",
+         "I booked a conference room for forty people, and it's been given to another group. My clients arrive in an hour!",
+         "Reservé una sala de conferencias para cuarenta personas y se la dieron a otro grupo. ¡Mis clientes llegan en una hora!"
+        ],
+        [
+         "B",
+         "I completely understand your frustration. That should never have happened, and I'd like to put it right immediately.",
+         "Entiendo totalmente su frustración. Eso nunca debió pasar y quisiera solucionarlo de inmediato."
+        ],
+        [
+         "A",
+         "Frankly, I've been passed from one person to another for twenty minutes. Nobody seems to know anything.",
+         "Francamente, llevo veinte minutos pasando de una persona a otra. Nadie parece saber nada."
+        ],
+        [
+         "B",
+         "Please accept my sincere apologies. It seems the booking was entered twice, and that was an oversight on our part.",
+         "Le ruego que acepte mis sinceras disculpas. Al parecer, la reserva se registró dos veces y fue un descuido de nuestra parte."
+        ],
+        [
+         "A",
+         "An oversight? With all due respect, this could cost me a very important contract.",
+         "¿Un descuido? Con todo respeto, esto me podría costar un contrato muy importante."
+        ],
+        [
+         "B",
+         "I can see where you're coming from, and we take full responsibility. Let me tell you what we can do.",
+         "Entiendo su punto de vista y asumimos toda la responsabilidad. Permítame contarle lo que podemos hacer."
+        ],
+        [
+         "A",
+         "Go on.",
+         "Continúe."
+        ],
+        [
+         "B",
+         "Our rooftop terrace seats fifty and has full audiovisual equipment. We can have it ready within forty minutes.",
+         "Nuestra terraza en la azotea tiene capacidad para cincuenta personas y cuenta con equipo audiovisual completo. Podemos tenerla lista en cuarenta minutos."
+        ],
+        [
+         "A",
+         "The terrace? Won't it be too hot at this time of day?",
+         "¿La terraza? ¿No hará demasiado calor a esta hora?"
+        ],
+        [
+         "B",
+         "It's fully shaded and air-cooled, but I'd be happy to show it to you first so you can decide for yourself.",
+         "Tiene sombra completa y ventilación refrigerada, pero con gusto se la muestro primero para que usted misma decida."
+        ],
+        [
+         "A",
+         "All right. I suppose that might work.",
+         "Está bien. Supongo que podría funcionar."
+        ],
+        [
+         "B",
+         "And as a goodwill gesture, we'd like to offer the room hire free of charge, along with a complimentary coffee break for your guests.",
+         "Y como gesto de buena voluntad, quisiéramos ofrecerle el alquiler del espacio sin costo, junto con un refrigerio de cortesía para sus invitados."
+        ],
+        [
+         "A",
+         "Well, that's very generous. I appreciate you dealing with this so quickly.",
+         "Bueno, eso es muy generoso. Le agradezco que haya resuelto esto tan rápido."
+        ],
+        [
+         "B",
+         "It's the least we can do. I'll also look into how this happened so that it doesn't happen again.",
+         "Es lo mínimo que podemos hacer. También voy a investigar cómo pasó esto para que no se repita."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Versión más diplomática de 'You sent the wrong product':",
+        "o": [
+         "You're useless.",
+         "It seems the wrong product was sent.",
+         "You always send the wrong product.",
+         "Send the right product now."
+        ],
+        "a": 1,
+        "x": "La pasiva y 'it seems' evitan culpar directamente a la persona."
+       },
+       {
+        "t": "mc",
+        "q": "Please accept our sincere apologies for any ___ caused.",
+        "o": [
+         "molestation",
+         "inconvenience",
+         "disturbance to",
+         "incommodity"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Para validar la emoción de un cliente molesto, dices:",
+        "o": [
+         "Calm down.",
+         "That's not my problem.",
+         "I can see why you're frustrated.",
+         "You're overreacting."
+        ],
+        "a": 2
+       },
+       {
+        "t": "fill",
+        "q": "As a goodwill ___, we'd like to offer you a free night. (gesto)",
+        "ans": [
+         "gesture"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Regrettably, due to an administrative oversight, your order was dispatched to the wrong address. We take full responsibility and will send a replacement by express delivery at no extra cost.",
+        "q": "¿Qué ofrece la empresa?",
+        "o": [
+         "Un reembolso parcial",
+         "Un reemplazo por envío exprés sin costo",
+         "Un descuento en la próxima compra",
+         "Que el cliente recoja el pedido"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "This was an oversight on our part, and we take full responsibility."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "can",
+         "see",
+         "where",
+         "you're",
+         "coming",
+         "from."
+        ],
+        "es": "Entiendo su punto de vista."
+       },
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "need",
+         "a",
+         "meeting",
+         "to",
+         "clear",
+         "the",
+         "air."
+        ],
+        "es": "Necesitamos una reunión para aclarar las cosas."
+       },
+       {
+        "t": "dict",
+        "say": "We'll rectify the error as soon as possible."
+       },
+       {
+        "t": "dict",
+        "say": "A joke helped defuse the tension in the room."
+       },
+       {
+        "t": "mc",
+        "q": "After years of rivalry, the two partners finally ___.",
+        "o": [
+         "buried the hatchet",
+         "cleared the hatchet",
+         "escalated the air",
+         "trod the hatchet"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Versión indirecta de 'I want a refund':",
+        "o": [
+         "Give me my money.",
+         "I was hoping we could discuss a refund.",
+         "I demand a refund now.",
+         "Refund, please, fast."
+        ],
+        "a": 1
+       },
+       {
+        "t": "listen",
+        "say": "I'm not sure I'd entirely agree with that. Perhaps we could take a step back and look at what actually happened before deciding who's to blame.",
+        "q": "¿Qué propone el hablante?",
+        "o": [
+         "Culpar al otro de inmediato",
+         "Revisar los hechos antes de culpar a alguien",
+         "Terminar la conversación",
+         "Escalar el caso al gerente"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe una respuesta formal (mínimo 130 palabras) a la queja de un cliente cuyo pedido llegó tarde y dañado. Incluye las cuatro partes de una disculpa formal: disculpa, responsabilidad, solución y gesto de buena voluntad, con lenguaje indirecto y diplomático.",
+        "min": 130,
+        "keys": [
+         [
+          "sincere apologies",
+          "we apologize",
+          "please accept"
+         ],
+         [
+          "take full responsibility",
+          "oversight",
+          "on our part"
+         ],
+         [
+          "rectify",
+          "put this right",
+          "replacement",
+          "resolve"
+         ],
+         [
+          "goodwill gesture",
+          "as a gesture",
+          "complimentary",
+          "refund",
+          "inconvenience"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "La forma más diplomática de señalar un error ajeno:",
+       "o": [
+        "You made a mistake.",
+        "It seems there's been a mistake.",
+        "Your mistake is obvious.",
+        "Mistake! Fix it."
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "This was an ___ on our part, and we apologize.",
+       "o": [
+        "oversight",
+        "overlook",
+        "oversee",
+        "overstep"
+       ],
+       "a": 0
+      },
+      "reading": 4,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "___, the proposal is costly; yet the long-term savings are undeniable.",
+      "o": [
+       "Granted",
+       "Provided",
+       "Despite",
+       "Unless"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "We'd be prepared to offer free delivery, provided that you ___ at least 500 units.",
+      "o": [
+       "will order",
+       "order",
+       "would order",
+       "ordering"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "I wonder if you ___ consider a different approach to the client.",
+      "o": [
+       "might",
+       "must",
+       "shall",
+       "will to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I'm conscious of the time. Can we ___ that issue and circle back to it later?",
+      "o": [
+       "park",
+       "chair",
+       "digress",
+       "recap"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Please accept our sincere apologies for the ___ caused.",
+      "o": [
+       "molestation",
+       "inconvenience",
+       "oversight of",
+       "grievances to"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "That argument doesn't hold ___. (no se sostiene)",
+      "ans": [
+       "water"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "We could consider a five percent discount, on condition that the contract is extended to three years. That said, the delivery schedule is non-negotiable.",
+      "q": "¿Qué es lo que NO se puede negociar?",
+      "o": [
+       "El descuento",
+       "La duración del contrato",
+       "El calendario de entregas",
+       "El precio base"
+      ],
+      "a": 2
+     },
+     {
+      "t": "listen",
+      "say": "So, to recap, we've agreed to postpone the launch until April. Luis will follow up with the agency, and I'll circulate the minutes tomorrow morning.",
+      "q": "¿Quién enviará el acta?",
+      "o": [
+       "Luis",
+       "La agencia",
+       "La persona que preside la reunión",
+       "Nadie"
+      ],
+      "a": 2
+     },
+     {
+      "t": "write",
+      "q": "Escribe un texto (mínimo 140 palabras) en el que, como jefe de proyecto, respondes a un colega que rechaza tu propuesta en una reunión: concede uno de sus puntos, refuta otro, propone una concesión condicional para llegar a un acuerdo y cierra resumiendo los siguientes pasos.",
+      "min": 140,
+      "keys": [
+       [
+        "i take your point",
+        "granted",
+        "admittedly",
+        "i can see where"
+       ],
+       [
+        "yet",
+        "that said",
+        "even so",
+        "doesn't hold water",
+        "does not hold water"
+       ],
+       [
+        "provided that",
+        "as long as",
+        "on condition that",
+        "prepared to"
+       ],
+       [
+        "to recap",
+        "action items",
+        "follow up",
+        "next steps"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I take your point, but that argument doesn't quite hold water."
+     },
+     {
+      "t": "oral",
+      "text": "As a goodwill gesture, we'd like to offer you a full refund."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "Saying that all bankers are greedy is a ___.",
+      "o": [
+       "compelling case",
+       "sweeping generalization",
+       "goodwill gesture",
+       "binding deal"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "If we can't agree on price, our ___ is to switch to another supplier.",
+      "o": [
+       "BATNA",
+       "agenda item",
+       "blind spot",
+       "grievance"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The presentation came ___ as a little disorganized.",
+      "o": [
+       "across",
+       "over",
+       "through",
+       "along"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "'Acta de la reunión' en inglés es:",
+      "o": [
+       "the act",
+       "the minutes",
+       "the agenda",
+       "the records of"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "Versión más diplomática de 'You're wrong':",
+      "o": [
+       "You have no idea.",
+       "I'm not sure I'd entirely agree.",
+       "That's stupid.",
+       "No, no, no."
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "Could you meet us ___ on the price? (a mitad de camino)",
+      "ans": [
+       "halfway",
+       "half way"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Thanks, that's really useful. I'll take it on ___.",
+      "ans": [
+       "board"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "We finally ___ a deal after three rounds of talks. (cerramos, pasado)",
+      "ans": [
+       "struck"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Granted, the new software is harder to learn, yet once the team is trained, it should save us around ten hours a week.",
+      "q": "¿Qué ventaja menciona el hablante?",
+      "o": [
+       "Es más fácil de aprender",
+       "Ahorrará unas diez horas por semana",
+       "Es más barato",
+       "No requiere capacitación"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Your analysis was excellent. One thing that could make it even stronger is adding a few concrete examples. I'm sure the final version will be very well received.",
+      "q": "¿Qué le recomienda mejorar?",
+      "o": [
+       "El análisis",
+       "Agregar ejemplos concretos",
+       "La ortografía",
+       "La extensión"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "I understand your frustration, and regrettably, the flight has been cancelled. We'll rebook you on the next available flight and cover your hotel tonight.",
+      "q": "¿Qué ofrece la aerolínea?",
+      "o": [
+       "Un reembolso total",
+       "Un nuevo vuelo y el hotel de esta noche",
+       "Solo un vale de comida",
+       "Nada"
+      ],
+      "a": 1
+     },
+     {
+      "t": "oral",
+      "text": "We'd be prepared to lower the price, provided that you commit to a two-year contract."
+     },
+     {
+      "t": "oral",
+      "text": "Could we park that for now and circle back to it at the end of the meeting?"
+     },
+     {
+      "t": "order",
+      "words": [
+       "It",
+       "might",
+       "be",
+       "worth",
+       "asking",
+       "the",
+       "client",
+       "first."
+      ],
+      "es": "Valdría la pena preguntarle primero al cliente."
+     },
+     {
+      "t": "order",
+      "words": [
+       "It's",
+       "time",
+       "we",
+       "buried",
+       "the",
+       "hatchet."
+      ],
+      "es": "Ya es hora de que hagamos las paces."
+     }
+    ]
+   },
+   {
+    "title": "Temas de sociedad",
+    "lessons": [
+     {
+      "id": "c1-u6-l1",
+      "title": "Medio ambiente y sostenibilidad con inversión",
+      "goal": "Debatir sobre la crisis climática y la sostenibilidad usando la inversión enfática para dar fuerza a tus argumentos.",
+      "theory": [
+       {
+        "p": "En el debate ambiental, la **inversión negativa** da peso y tono formal a una afirmación. Tras un adverbio negativo o restrictivo al inicio (**Not only, Never, Rarely, Seldom, Little, Under no circumstances, Only when, Not until**) el auxiliar va **antes** del sujeto, como en una pregunta."
+       },
+       {
+        "ex": [
+         [
+          "Not only are emissions rising, but biodiversity is also collapsing at an alarming rate.",
+          "No solo están aumentando las emisiones, sino que la biodiversidad también se está desplomando a un ritmo alarmante."
+         ],
+         [
+          "Rarely has a single policy had such a profound impact on air quality.",
+          "Pocas veces una sola política ha tenido un impacto tan profundo en la calidad del aire."
+         ],
+         [
+          "Little did they realize that the wetlands were acting as a natural flood barrier.",
+          "Poco se imaginaban que los humedales estaban actuando como una barrera natural contra las inundaciones."
+         ]
+        ]
+       },
+       {
+        "p": "Con **Only when / Only after / Not until** la inversión va en la **cláusula principal**, no en la primera: **Only when the river dried up did the authorities take action.** (y no 'Only when did the river dry up...')."
+       },
+       {
+        "ex": [
+         [
+          "Only after the drought had devastated the harvest did the government declare an emergency.",
+          "Solo después de que la sequía hubiera arrasado la cosecha declaró el gobierno una emergencia."
+         ],
+         [
+          "Not until we put a price on carbon will companies change their behaviour.",
+          "No será sino hasta que le pongamos precio al carbono que las empresas cambien su comportamiento."
+         ]
+        ]
+       },
+       {
+        "p": "La **inversión condicional** reemplaza a **if** en registro formal: **Should** (if + presente), **Were** (if + were) y **Had** (if + had). Es muy frecuente en informes y discursos."
+       },
+       {
+        "ex": [
+         [
+          "Should temperatures rise by more than two degrees, entire ecosystems could disappear.",
+          "Si las temperaturas subieran más de dos grados, ecosistemas enteros podrían desaparecer."
+         ],
+         [
+          "Had we acted a decade ago, the damage would have been far less severe.",
+          "De haber actuado hace una década, el daño habría sido mucho menos grave."
+         ],
+         [
+          "Were governments to phase out fossil fuel subsidies, renewables would become far more competitive.",
+          "Si los gobiernos eliminaran gradualmente los subsidios a los combustibles fósiles, las renovables serían mucho más competitivas."
+         ]
+        ]
+       },
+       {
+        "tip": "Error típico: olvidar el auxiliar. Con presente o pasado simple necesitas do/does/did: 'Never did I imagine...' (no 'Never I imagined...'). Y la forma negativa de la condicional invertida no se contrae: 'Had it not been for...' (no 'Hadn't it been for...')."
+       }
+      ],
+      "vocab": [
+       [
+        "carbon footprint",
+        "colocación",
+        "huella de carbono",
+        "Few people know how to calculate their carbon footprint accurately."
+       ],
+       [
+        "mitigate",
+        "verbo",
+        "mitigar, atenuar",
+        "Reforestation can help mitigate the effects of climate change."
+       ],
+       [
+        "deplete",
+        "verbo",
+        "agotar (recursos)",
+        "Intensive farming has severely depleted the soil."
+       ],
+       [
+        "irreversible",
+        "adjetivo",
+        "irreversible",
+        "Some of the damage to coral reefs may already be irreversible."
+       ],
+       [
+        "phase out",
+        "phrasal verb",
+        "eliminar gradualmente",
+        "The country plans to phase out coal by 2035."
+       ],
+       [
+        "renewable energy",
+        "colocación",
+        "energía renovable",
+        "Investment in renewable energy has tripled in a decade."
+       ],
+       [
+        "greenwashing",
+        "sustantivo",
+        "lavado verde, ecopostureo",
+        "The campaign was dismissed as pure greenwashing."
+       ],
+       [
+        "tipping point",
+        "sustantivo",
+        "punto de no retorno",
+        "Scientists warn that the Amazon is nearing a tipping point."
+       ],
+       [
+        "biodiversity loss",
+        "colocación",
+        "pérdida de biodiversidad",
+        "Biodiversity loss threatens food security worldwide."
+       ],
+       [
+        "offset",
+        "verbo / sustantivo",
+        "compensar; compensación",
+        "Airlines claim to offset their emissions by planting trees."
+       ],
+       [
+        "circular economy",
+        "colocación",
+        "economía circular",
+        "A circular economy keeps materials in use for as long as possible."
+       ],
+       [
+        "take a toll on",
+        "expresión",
+        "pasar factura a, afectar gravemente",
+        "Mining has taken a heavy toll on local rivers."
+       ],
+       [
+        "curb",
+        "verbo",
+        "frenar, controlar",
+        "Strict measures are needed to curb deforestation."
+       ],
+       [
+        "pristine",
+        "adjetivo",
+        "virgen, intacto",
+        "The island's pristine beaches attract thousands of tourists."
+       ],
+       [
+        "landfill",
+        "sustantivo",
+        "relleno sanitario, vertedero",
+        "Most plastic still ends up in landfill."
+       ],
+       [
+        "drought-stricken",
+        "adjetivo",
+        "azotado por la sequía",
+        "Aid was sent to drought-stricken regions in La Guajira."
+       ],
+       [
+        "stakeholder",
+        "sustantivo",
+        "parte interesada, actor",
+        "All stakeholders must be involved in the transition."
+       ],
+       [
+        "in the long run",
+        "expresión",
+        "a largo plazo",
+        "In the long run, clean energy is cheaper."
+       ],
+       [
+        "pay lip service to",
+        "modismo",
+        "apoyar solo de boquilla",
+        "Many firms pay lip service to sustainability."
+       ],
+       [
+        "come at a cost",
+        "expresión",
+        "tener un precio, implicar sacrificios",
+        "Rapid growth often comes at a cost to the environment."
+       ]
+      ],
+      "dialogue": {
+       "title": "Debate en el concejo municipal",
+       "scene": "Mariana, ingeniera ambiental, discute con Graham, asesor de una empresa minera, durante un foro público en Santa Marta.",
+       "a": "Graham",
+       "b": "Mariana",
+       "lines": [
+        [
+         "A",
+         "With respect, the project will create over two thousand jobs. Surely that counts for something.",
+         "Con todo respeto, el proyecto creará más de dos mil empleos. Seguramente eso cuenta para algo."
+        ],
+        [
+         "B",
+         "It does, but not only would the mine deplete the aquifer, it would also take a toll on every farm downstream.",
+         "Claro, pero no solo agotaría la mina el acuífero, sino que también le pasaría factura a cada finca río abajo."
+        ],
+        [
+         "A",
+         "Our environmental impact study suggests the effects can be mitigated.",
+         "Nuestro estudio de impacto ambiental sugiere que los efectos se pueden mitigar."
+        ],
+        [
+         "B",
+         "Rarely have I read a study so vague about water. Where exactly would the waste go? Into a landfill by the river?",
+         "Pocas veces he leído un estudio tan vago sobre el agua. ¿A dónde iría exactamente el desecho? ¿A un vertedero junto al río?"
+        ],
+        [
+         "A",
+         "We would offset any damage by restoring twice the area we use.",
+         "Compensaríamos cualquier daño restaurando el doble del área que usemos."
+        ],
+        [
+         "B",
+         "Offsetting sounds lovely on a brochure, but you can't recreate a pristine ecosystem with a few rows of saplings. That's greenwashing.",
+         "Compensar suena muy bonito en un folleto, pero no se puede recrear un ecosistema virgen con unas cuantas hileras de arbolitos. Eso es lavado verde."
+        ],
+        [
+         "A",
+         "That's a little unfair. We've committed to phasing out diesel machinery by 2030.",
+         "Eso es un poco injusto. Nos hemos comprometido a eliminar gradualmente la maquinaria diésel para 2030."
+        ],
+        [
+         "B",
+         "I'll grant you that. But had the company consulted local stakeholders from the outset, we wouldn't be having this argument now.",
+         "Eso se lo concedo. Pero de haber consultado la empresa a las partes interesadas desde el principio, no estaríamos teniendo esta discusión ahora."
+        ],
+        [
+         "A",
+         "Fair enough. We should have been more transparent.",
+         "Es justo. Deberíamos haber sido más transparentes."
+        ],
+        [
+         "B",
+         "And should the aquifer drop below a critical level, the damage would be irreversible. There's no undo button for that.",
+         "Y si el acuífero bajara de un nivel crítico, el daño sería irreversible. Para eso no hay botón de deshacer."
+        ],
+        [
+         "A",
+         "So what would you propose? Simply blocking development isn't an option for a region with this much unemployment.",
+         "¿Entonces qué propone? Simplemente bloquear el desarrollo no es una opción para una región con tanto desempleo."
+        ],
+        [
+         "B",
+         "Invest in renewable energy and a circular economy. In the long run, they create more stable jobs.",
+         "Invertir en energía renovable y en economía circular. A largo plazo, generan empleos más estables."
+        ],
+        [
+         "A",
+         "Those jobs won't appear overnight, though.",
+         "Aunque esos empleos no van a aparecer de la noche a la mañana."
+        ],
+        [
+         "B",
+         "No, they won't. But only when we stop paying lip service to sustainability will they appear at all.",
+         "No, no lo harán. Pero solo cuando dejemos de apoyar la sostenibilidad de boquilla aparecerán siquiera."
+        ],
+        [
+         "A",
+         "I'll take that back to the board. I can't promise anything, but I'll make the case.",
+         "Le llevaré eso a la junta directiva. No puedo prometer nada, pero presentaré el argumento."
+        ],
+        [
+         "B",
+         "That's all I ask. Never has this region needed honest decisions more than now.",
+         "Es todo lo que pido. Nunca ha necesitado esta región decisiones honestas más que ahora."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Not only ___ the policy reduce emissions, but it also created jobs.",
+        "o": [
+         "did",
+         "does it",
+         "it did",
+         "has"
+        ],
+        "a": 0,
+        "x": "Not only + auxiliar + sujeto + verbo base: Not only did the policy reduce..."
+       },
+       {
+        "t": "mc",
+        "q": "Only when the river flooded the town ___ to invest in flood defences.",
+        "o": [
+         "the council decided",
+         "did the council decide",
+         "decided the council",
+         "the council did decide"
+        ],
+        "a": 1,
+        "x": "Con Only when, la inversión va en la cláusula principal."
+       },
+       {
+        "t": "mc",
+        "q": "___ we acted sooner, the glacier might still exist.",
+        "o": [
+         "If",
+         "Should",
+         "Had",
+         "Were"
+        ],
+        "a": 2,
+        "x": "Had + sujeto + participio = If we had acted (tercer condicional invertido)."
+       },
+       {
+        "t": "fill",
+        "q": "The government plans to ___ out coal-fired power stations by 2035. (eliminar gradualmente)",
+        "ans": [
+         "phase"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Little did the residents know that the factory had been dumping chemicals into the river for nearly a decade, contaminating the very water they used to irrigate their crops.",
+        "q": "¿Qué no sabían los habitantes?",
+        "o": [
+         "Que la fábrica iba a cerrar",
+         "Que la fábrica llevaba casi una década vertiendo químicos al río",
+         "Que el río se iba a secar",
+         "Que sus cultivos eran orgánicos"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Rarely have we seen such a dramatic loss of biodiversity in so short a time."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Under",
+         "no",
+         "circumstances",
+         "should",
+         "we",
+         "ignore",
+         "the",
+         "warnings",
+         "of",
+         "scientists."
+        ],
+        "es": "Bajo ninguna circunstancia deberíamos ignorar las advertencias de los científicos."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Had",
+         "it",
+         "not",
+         "been",
+         "for",
+         "the",
+         "volunteers,",
+         "the",
+         "beach",
+         "would",
+         "still",
+         "be",
+         "covered",
+         "in",
+         "plastic."
+        ],
+        "es": "De no haber sido por los voluntarios, la playa seguiría cubierta de plástico."
+       },
+       {
+        "t": "dict",
+        "say": "Intensive farming has severely depleted the soil."
+       },
+       {
+        "t": "dict",
+        "say": "Many companies pay lip service to sustainability."
+       },
+       {
+        "t": "mc",
+        "q": "'Ecopostureo' o publicidad ambiental engañosa se dice:",
+        "o": [
+         "greenwashing",
+         "offsetting",
+         "landfill",
+         "tipping point"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "___ temperatures continue to rise, coastal cities will face severe flooding. (si llegaran a, inversión formal)",
+        "ans": [
+         "Should",
+         "should"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Were governments to remove fossil fuel subsidies tomorrow, solar and wind power would immediately become the cheapest options in most markets.",
+        "q": "¿Qué pasaría, según el hablante, si se eliminaran los subsidios?",
+        "o": [
+         "Subiría el precio de la energía solar",
+         "La energía solar y eólica serían las más baratas",
+         "Los gobiernos perderían dinero",
+         "Los combustibles fósiles serían más competitivos"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un texto de opinión (mínimo 130 palabras) sobre la medida ambiental más urgente para Colombia. Usa al menos dos inversiones negativas (Not only, Rarely, Only when...) y una condicional invertida (Should, Were, Had), con vocabulario de la lección.",
+        "min": 130,
+        "keys": [
+         [
+          "not only",
+          "rarely",
+          "never",
+          "only when",
+          "little",
+          "under no circumstances",
+          "seldom"
+         ],
+         [
+          "should",
+          "were",
+          "had"
+         ],
+         [
+          "mitigate",
+          "curb",
+          "phase out",
+          "deplete",
+          "offset"
+         ],
+         [
+          "in the long run",
+          "tipping point",
+          "carbon footprint",
+          "renewable energy",
+          "circular economy"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Seldom ___ such a clear consensus among climate scientists.",
+       "o": [
+        "we have seen",
+        "have we seen",
+        "we saw",
+        "did we seen"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___ the authorities to ban single-use plastics, ocean pollution would fall significantly.",
+       "o": [
+        "If",
+        "Should",
+        "Were",
+        "Had"
+       ],
+       "a": 2,
+       "x": "Were + sujeto + to + verbo = If the authorities banned..."
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u6-l2",
+      "title": "Tecnología y ética con condicionales mixtos",
+      "goal": "Discutir los dilemas éticos de la IA, la privacidad y las redes sociales relacionando causas pasadas con consecuencias presentes (y viceversa).",
+      "theory": [
+       {
+        "p": "Los **condicionales mixtos** combinan tiempos distintos en las dos cláusulas. El más común une una **condición pasada** irreal con una **consecuencia presente**: **If + past perfect, would + verbo base**."
+       },
+       {
+        "ex": [
+         [
+          "If social media platforms had been regulated earlier, we wouldn't be dealing with so much misinformation now.",
+          "Si las plataformas de redes sociales se hubieran regulado antes, no estaríamos lidiando con tanta desinformación ahora."
+         ],
+         [
+          "If I hadn't accepted those cookies, the ads wouldn't be following me everywhere.",
+          "Si no hubiera aceptado esas cookies, los anuncios no me estarían persiguiendo por todas partes."
+         ]
+        ]
+       },
+       {
+        "p": "El otro tipo une una **condición presente** (un rasgo permanente o situación general) con una **consecuencia pasada**: **If + past simple, would have + participio**."
+       },
+       {
+        "ex": [
+         [
+          "If she weren't so cautious about her privacy, she would have signed up for the app.",
+          "Si ella no fuera tan cuidadosa con su privacidad, se habría inscrito en la aplicación."
+         ],
+         [
+          "If the algorithm were truly neutral, it wouldn't have rejected all those applicants.",
+          "Si el algoritmo fuera realmente neutral, no habría rechazado a todos esos aspirantes."
+         ]
+        ]
+       },
+       {
+        "p": "También puedes usar **could / might** en la consecuencia, o la **inversión** para un tono más formal: **Had the data been encrypted, millions of users would not be at risk today.**"
+       },
+       {
+        "tip": "Error típico de hispanohablantes: 'If I would have known...'. En la cláusula con if nunca va would: If I had known, I wouldn't be here (no 'If I would have known'). Piensa en qué momento ocurre cada parte: ¿la condición es pasada o presente? ¿y el resultado?"
+       }
+      ],
+      "vocab": [
+       [
+        "data breach",
+        "colocación",
+        "filtración de datos",
+        "The data breach exposed the personal details of two million customers."
+       ],
+       [
+        "surveillance",
+        "sustantivo",
+        "vigilancia",
+        "Facial recognition has raised fears of mass surveillance."
+       ],
+       [
+        "algorithmic bias",
+        "colocación",
+        "sesgo algorítmico",
+        "Algorithmic bias can reinforce existing inequalities."
+       ],
+       [
+        "opt out of",
+        "phrasal verb",
+        "darse de baja de, excluirse de",
+        "Users should be able to opt out of data collection easily."
+       ],
+       [
+        "informed consent",
+        "colocación",
+        "consentimiento informado",
+        "Few users give truly informed consent when they click 'accept'."
+       ],
+       [
+        "echo chamber",
+        "sustantivo",
+        "cámara de eco",
+        "Social media can trap us in an echo chamber of like-minded views."
+       ],
+       [
+        "misinformation",
+        "sustantivo",
+        "desinformación (información falsa)",
+        "Misinformation spread rapidly during the elections."
+       ],
+       [
+        "deepfake",
+        "sustantivo",
+        "video o audio falso hecho con IA",
+        "The deepfake of the senator went viral within hours."
+       ],
+       [
+        "accountable",
+        "adjetivo",
+        "responsable (que rinde cuentas)",
+        "Tech companies must be held accountable for harmful content."
+       ],
+       [
+        "encrypt",
+        "verbo",
+        "cifrar, encriptar",
+        "Messages are encrypted end to end."
+       ],
+       [
+        "intrusive",
+        "adjetivo",
+        "invasivo",
+        "Many people find personalized ads intrusive."
+       ],
+       [
+        "safeguard",
+        "verbo / sustantivo",
+        "proteger; salvaguarda",
+        "We need legal safeguards against the misuse of AI."
+       ],
+       [
+        "double-edged sword",
+        "modismo",
+        "arma de doble filo",
+        "Artificial intelligence is a double-edged sword."
+       ],
+       [
+        "blur the line between",
+        "expresión",
+        "desdibujar la frontera entre",
+        "AI-generated art blurs the line between creativity and imitation."
+       ],
+       [
+        "monetize",
+        "verbo",
+        "monetizar, sacar dinero de",
+        "Platforms monetize our attention."
+       ],
+       [
+        "loophole",
+        "sustantivo",
+        "vacío legal",
+        "The company exploited a loophole in the privacy law."
+       ],
+       [
+        "far-reaching",
+        "adjetivo",
+        "de gran alcance",
+        "The new regulation will have far-reaching consequences."
+       ],
+       [
+        "unwittingly",
+        "adverbio",
+        "sin darse cuenta",
+        "Millions of users unwittingly shared their contacts."
+       ],
+       [
+        "go viral",
+        "expresión",
+        "volverse viral",
+        "The video went viral overnight."
+       ],
+       [
+        "the genie is out of the bottle",
+        "modismo",
+        "ya no hay vuelta atrás",
+        "With generative AI, the genie is out of the bottle."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Quién responde por el algoritmo?",
+       "scene": "En un pódcast sobre tecnología, Daniela, abogada experta en protección de datos, conversa con Ethan, desarrollador de software.",
+       "a": "Ethan",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "Let's start with the obvious question: is AI a threat to our privacy?",
+         "Empecemos con la pregunta obvia: ¿es la IA una amenaza para nuestra privacidad?"
+        ],
+        [
+         "B",
+         "It's a double-edged sword. It can diagnose diseases, but it also feeds on enormous amounts of personal data.",
+         "Es un arma de doble filo. Puede diagnosticar enfermedades, pero también se alimenta de enormes cantidades de datos personales."
+        ],
+        [
+         "A",
+         "Most of which users hand over voluntarily, to be fair.",
+         "La mayoría de los cuales los usuarios entregan voluntariamente, para ser justos."
+        ],
+        [
+         "B",
+         "Voluntarily, but unwittingly. If people had read the terms and conditions, they wouldn't be so relaxed about it now.",
+         "Voluntariamente, pero sin darse cuenta. Si la gente hubiera leído los términos y condiciones, no estaría tan tranquila al respecto ahora."
+        ],
+        [
+         "A",
+         "Nobody reads forty pages of legal jargon, though.",
+         "Aunque nadie lee cuarenta páginas de jerga legal."
+        ],
+        [
+         "B",
+         "Exactly. That's why it isn't informed consent. And opting out is deliberately made difficult.",
+         "Exacto. Por eso no es consentimiento informado. Y darse de baja se hace deliberadamente difícil."
+        ],
+        [
+         "A",
+         "As a developer, I'd say the bigger problem is algorithmic bias. Last year a hiring tool we tested rejected almost every female applicant.",
+         "Como desarrollador, yo diría que el problema más grande es el sesgo algorítmico. El año pasado una herramienta de contratación que probamos rechazó a casi todas las candidatas."
+        ],
+        [
+         "B",
+         "Because it had been trained on biased data, I imagine.",
+         "Porque la habían entrenado con datos sesgados, me imagino."
+        ],
+        [
+         "A",
+         "Right. If the training data were balanced, the system wouldn't have learned that pattern in the first place.",
+         "Así es. Si los datos de entrenamiento fueran equilibrados, el sistema no habría aprendido ese patrón para empezar."
+        ],
+        [
+         "B",
+         "And who's accountable when that happens? The company, the programmer, the client?",
+         "¿Y quién responde cuando eso pasa? ¿La empresa, el programador, el cliente?"
+        ],
+        [
+         "A",
+         "That's the grey area. Companies often exploit legal loopholes to avoid responsibility.",
+         "Esa es la zona gris. Las empresas a menudo aprovechan vacíos legales para evadir la responsabilidad."
+        ],
+        [
+         "B",
+         "Which is why we need safeguards with far-reaching consequences, not voluntary codes of conduct.",
+         "Por eso necesitamos salvaguardas con consecuencias de gran alcance, no códigos de conducta voluntarios."
+        ],
+        [
+         "A",
+         "And what about deepfakes? They're blurring the line between what's real and what isn't.",
+         "¿Y qué hay de los deepfakes? Están desdibujando la frontera entre lo real y lo que no lo es."
+        ],
+        [
+         "B",
+         "Honestly, the genie is out of the bottle. If platforms had acted on misinformation in 2016, we might be better prepared today.",
+         "Honestamente, ya no hay vuelta atrás. Si las plataformas hubieran actuado contra la desinformación en 2016, quizá estaríamos mejor preparados hoy."
+        ],
+        [
+         "A",
+         "So is there any room for optimism?",
+         "¿Entonces hay algún espacio para el optimismo?"
+        ],
+        [
+         "B",
+         "Some. If I weren't optimistic, I wouldn't have spent ten years fighting for digital rights!",
+         "Algo. ¡Si no fuera optimista, no habría pasado diez años luchando por los derechos digitales!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "If the company had encrypted the data, millions of users ___ at risk now.",
+        "o": [
+         "wouldn't have been",
+         "wouldn't be",
+         "won't be",
+         "hadn't been"
+        ],
+        "a": 1,
+        "x": "Condición pasada + consecuencia presente (now) → would + verbo base."
+       },
+       {
+        "t": "mc",
+        "q": "If he ___ so trusting, he wouldn't have shared his password.",
+        "o": [
+         "weren't",
+         "hadn't been",
+         "wouldn't be",
+         "isn't"
+        ],
+        "a": 0,
+        "x": "Rasgo presente (es confiado) + consecuencia pasada → past simple / would have."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "If I would have known, I wouldn't be here.",
+         "If I had known, I wouldn't be here.",
+         "If I knew, I wouldn't have been here now.",
+         "If I have known, I wouldn't be here."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Users should be able to opt ___ of data collection with one click. (darse de baja)",
+        "ans": [
+         "out"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If the platform hadn't changed its algorithm to reward outrage, the debate in this country probably wouldn't be so polarized today.",
+        "q": "¿Qué relación establece el hablante?",
+        "o": [
+         "La polarización actual se debe en parte a un cambio pasado del algoritmo",
+         "El algoritmo cambiará para reducir la polarización",
+         "La plataforma premia el debate tranquilo",
+         "El país nunca ha estado polarizado"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "If we had regulated social media earlier, we wouldn't be facing this wave of misinformation now."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "If",
+         "she",
+         "weren't",
+         "so",
+         "careful,",
+         "she",
+         "would",
+         "have",
+         "fallen",
+         "for",
+         "the",
+         "scam."
+        ],
+        "es": "Si ella no fuera tan cuidadosa, habría caído en la estafa."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Had",
+         "the",
+         "data",
+         "been",
+         "encrypted,",
+         "we",
+         "wouldn't",
+         "be",
+         "in",
+         "this",
+         "mess."
+        ],
+        "es": "De haber estado cifrados los datos, no estaríamos en este lío."
+       },
+       {
+        "t": "dict",
+        "say": "Artificial intelligence is a double-edged sword."
+       },
+       {
+        "t": "dict",
+        "say": "Tech companies must be held accountable."
+       },
+       {
+        "t": "mc",
+        "q": "'Vacío legal' en inglés es:",
+        "o": [
+         "loophole",
+         "safeguard",
+         "breach",
+         "bias"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Millions of users ___ shared their contacts with the app. (sin darse cuenta)",
+        "ans": [
+         "unwittingly"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Had I known how intrusive the app was, I would never have installed it. Now it knows more about my habits than my own family does.",
+        "q": "¿Cómo se siente el hablante con la aplicación?",
+        "o": [
+         "Contento de haberla instalado",
+         "Arrepentido, porque es invasiva",
+         "Indiferente",
+         "Curioso por probar más funciones"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un texto argumentativo (mínimo 130 palabras) sobre si las empresas tecnológicas deberían responder legalmente por la desinformación en sus plataformas. Usa al menos dos condicionales mixtos (de ambos tipos si puedes) y vocabulario de la lección.",
+        "min": 130,
+        "keys": [
+         [
+          "if",
+          "had"
+         ],
+         [
+          "would be",
+          "wouldn't be",
+          "would have",
+          "wouldn't have",
+          "might be",
+          "could be"
+         ],
+         [
+          "accountable",
+          "misinformation",
+          "algorithmic bias",
+          "surveillance",
+          "data breach",
+          "echo chamber"
+         ],
+         [
+          "however",
+          "nevertheless",
+          "on the other hand",
+          "admittedly",
+          "that said"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "If governments had acted on AI regulation years ago, we ___ so worried about deepfakes today.",
+       "o": [
+        "wouldn't have been",
+        "won't be",
+        "wouldn't be",
+        "hadn't been"
+       ],
+       "a": 2
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "If I ___ so suspicious of free apps, I would have downloaded it last week.",
+       "o": [
+        "weren't",
+        "hadn't been",
+        "wouldn't be",
+        "am not"
+       ],
+       "a": 0
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u6-l3",
+      "title": "Economía y mundo laboral con pasiva impersonal",
+      "goal": "Analizar la desigualdad, la automatización y el emprendimiento citando opiniones y datos de forma objetiva con la pasiva impersonal.",
+      "theory": [
+       {
+        "p": "En textos económicos y periodísticos, la **pasiva impersonal** permite presentar opiniones o datos sin decir quién los afirma, lo que da un tono **objetivo y prudente**. Hay dos estructuras: **It + is said / thought / believed / estimated + that...** y **Sujeto + is said / thought / believed + to + infinitivo**."
+       },
+       {
+        "ex": [
+         [
+          "It is estimated that automation will replace up to 30% of routine jobs.",
+          "Se calcula que la automatización reemplazará hasta el 30 % de los empleos rutinarios."
+         ],
+         [
+          "Automation is estimated to replace up to 30% of routine jobs.",
+          "Se calcula que la automatización reemplazará hasta el 30 % de los empleos rutinarios."
+         ],
+         [
+          "It is widely believed that the minimum wage is too low.",
+          "Se cree ampliamente que el salario mínimo es demasiado bajo."
+         ]
+        ]
+       },
+       {
+        "p": "Con la segunda estructura, el infinitivo cambia según el **tiempo** de la acción: **to + verbo** (simultánea o futura), **to be + -ing** (en curso), **to have + participio** (anterior)."
+       },
+       {
+        "ex": [
+         [
+          "The gap between rich and poor is thought to be widening.",
+          "Se cree que la brecha entre ricos y pobres se está ampliando."
+         ],
+         [
+          "The company is reported to have laid off 500 workers.",
+          "Se informa que la empresa despidió a 500 trabajadores."
+         ],
+         [
+          "Informal workers are known to lack basic protections.",
+          "Se sabe que los trabajadores informales carecen de protecciones básicas."
+         ]
+        ]
+       },
+       {
+        "p": "Verbos frecuentes: **say, think, believe, expect, estimate, report, claim, consider, know, allege, acknowledge**. Para matizar se combinan con adverbios: **widely, generally, commonly, increasingly**."
+       },
+       {
+        "tip": "Error típico: traducir literalmente 'se dice que' como 'It says that' o 'Is said that'. Siempre necesitas el sujeto It: It is said that... Y no mezcles estructuras: 'It is believed to be...' solo funciona si It es un sujeto real (por ejemplo, un objeto)."
+       }
+      ],
+      "vocab": [
+       [
+        "wealth gap",
+        "colocación",
+        "brecha de riqueza",
+        "The wealth gap has widened since the pandemic."
+       ],
+       [
+        "income inequality",
+        "colocación",
+        "desigualdad de ingresos",
+        "Colombia has one of the highest levels of income inequality in the region."
+       ],
+       [
+        "lay off",
+        "phrasal verb",
+        "despedir (por recorte)",
+        "The factory laid off half its staff."
+       ],
+       [
+        "redundant",
+        "adjetivo",
+        "despedido por supresión del puesto",
+        "Hundreds of workers were made redundant."
+       ],
+       [
+        "gig economy",
+        "colocación",
+        "economía de plataformas, trabajo por encargo",
+        "Delivery riders are the face of the gig economy."
+       ],
+       [
+        "job security",
+        "colocación",
+        "estabilidad laboral",
+        "Young people value job security less than flexibility."
+       ],
+       [
+        "upskill",
+        "verbo",
+        "mejorar las habilidades (capacitar)",
+        "Employers need to upskill their workforce."
+       ],
+       [
+        "reskilling",
+        "sustantivo",
+        "recapacitación (para otro oficio)",
+        "Reskilling programmes help workers adapt to automation."
+       ],
+       [
+        "entrepreneurial",
+        "adjetivo",
+        "emprendedor",
+        "Medellín has a vibrant entrepreneurial ecosystem."
+       ],
+       [
+        "start-up capital",
+        "colocación",
+        "capital semilla, capital inicial",
+        "Raising start-up capital is the hardest part."
+       ],
+       [
+        "venture",
+        "sustantivo",
+        "emprendimiento, empresa arriesgada",
+        "Her first business venture failed within a year."
+       ],
+       [
+        "bottom line",
+        "sustantivo",
+        "resultado final (ganancias); lo esencial",
+        "Automation improves the bottom line."
+       ],
+       [
+        "disposable income",
+        "colocación",
+        "ingreso disponible",
+        "Inflation has eaten into households' disposable income."
+       ],
+       [
+        "living wage",
+        "colocación",
+        "salario digno",
+        "Campaigners are demanding a living wage for all workers."
+       ],
+       [
+        "informal sector",
+        "colocación",
+        "sector informal",
+        "Almost half the workforce is in the informal sector."
+       ],
+       [
+        "trickle down",
+        "phrasal verb",
+        "filtrarse hacia abajo (beneficios)",
+        "The benefits of growth rarely trickle down to the poor."
+       ],
+       [
+        "make ends meet",
+        "modismo",
+        "llegar a fin de mes",
+        "Many families struggle to make ends meet."
+       ],
+       [
+        "cut corners",
+        "modismo",
+        "hacer las cosas a la ligera para ahorrar",
+        "The firm was accused of cutting corners on safety."
+       ],
+       [
+        "level the playing field",
+        "modismo",
+        "nivelar las condiciones",
+        "Public education helps level the playing field."
+       ],
+       [
+        "take the plunge",
+        "modismo",
+        "lanzarse, dar el paso",
+        "She finally took the plunge and opened her own café."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Los robots nos quitarán el trabajo?",
+       "scene": "Felipe, economista de una universidad en Bogotá, es entrevistado por Rachel, periodista de un programa radial de negocios.",
+       "a": "Rachel",
+       "b": "Felipe",
+       "lines": [
+        [
+         "A",
+         "Professor, it is often said that robots will take our jobs. Is that alarmism?",
+         "Profesor, a menudo se dice que los robots nos quitarán el trabajo. ¿Es alarmismo?"
+        ],
+        [
+         "B",
+         "Partly. Automation is expected to eliminate many routine jobs, but it is also thought to create new ones.",
+         "En parte. Se espera que la automatización elimine muchos empleos rutinarios, pero también se cree que creará otros nuevos."
+        ],
+        [
+         "A",
+         "Which jobs are most at risk?",
+         "¿Qué empleos están en mayor riesgo?"
+        ],
+        [
+         "B",
+         "Clerical and manufacturing roles. A local textile firm is reported to have laid off three hundred workers after installing new machinery.",
+         "Los cargos administrativos y de manufactura. Se informa que una empresa textil local despidió a trescientos trabajadores después de instalar maquinaria nueva."
+        ],
+        [
+         "A",
+         "That must have improved their bottom line, though.",
+         "Aunque eso debió mejorar sus ganancias."
+        ],
+        [
+         "B",
+         "Without a doubt. But the benefits rarely trickle down. Those workers were made redundant overnight, many of them with no savings.",
+         "Sin duda. Pero los beneficios rara vez se filtran hacia abajo. A esos trabajadores los despidieron de la noche a la mañana, muchos sin ahorros."
+        ],
+        [
+         "A",
+         "Isn't that why income inequality keeps rising?",
+         "¿No es por eso que la desigualdad de ingresos sigue aumentando?"
+        ],
+        [
+         "B",
+         "It's one factor. It is estimated that almost half of Colombian workers are in the informal sector, with no job security at all.",
+         "Es un factor. Se calcula que casi la mitad de los trabajadores colombianos están en el sector informal, sin ninguna estabilidad laboral."
+        ],
+        [
+         "A",
+         "And the gig economy? Delivery apps are often presented as a solution.",
+         "¿Y la economía de plataformas? Las aplicaciones de domicilios a menudo se presentan como una solución."
+        ],
+        [
+         "B",
+         "They offer flexibility, but riders are known to work twelve-hour days and still struggle to make ends meet.",
+         "Ofrecen flexibilidad, pero se sabe que los repartidores trabajan jornadas de doce horas y aun así les cuesta llegar a fin de mes."
+        ],
+        [
+         "A",
+         "So what's the answer? Reskilling?",
+         "¿Entonces cuál es la respuesta? ¿La recapacitación?"
+        ],
+        [
+         "B",
+         "Reskilling and a living wage. Companies that automate should be required to help upskill the people they replace.",
+         "Recapacitación y un salario digno. Las empresas que automatizan deberían estar obligadas a ayudar a capacitar a las personas que reemplazan."
+        ],
+        [
+         "A",
+         "What about entrepreneurship? Many young people want to take the plunge and start their own ventures.",
+         "¿Y el emprendimiento? Muchos jóvenes quieren lanzarse y crear sus propios negocios."
+        ],
+        [
+         "B",
+         "That's encouraging, but access to start-up capital is still believed to depend heavily on family wealth.",
+         "Eso es alentador, pero todavía se cree que el acceso al capital semilla depende mucho de la riqueza familiar."
+        ],
+        [
+         "A",
+         "So the playing field isn't level.",
+         "Entonces las condiciones no son parejas."
+        ],
+        [
+         "B",
+         "Far from it. Until it is, it will be said that talent is everywhere but opportunity is not.",
+         "Ni de lejos. Mientras no lo sean, se seguirá diciendo que el talento está en todas partes, pero las oportunidades no."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ that the new tax will reduce inequality.",
+        "o": [
+         "It says",
+         "It is said",
+         "Is said",
+         "They are said"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "The CEO is alleged ___ millions from the pension fund.",
+        "o": [
+         "to embezzle",
+         "to have embezzled",
+         "embezzling",
+         "that he embezzled"
+        ],
+        "a": 1,
+        "x": "La acción es anterior → to have + participio."
+       },
+       {
+        "t": "mc",
+        "q": "Unemployment is thought ___ at the moment.",
+        "o": [
+         "to rise",
+         "to be rising",
+         "to have risen",
+         "rising"
+        ],
+        "a": 1,
+        "x": "Acción en curso ahora → to be + -ing."
+       },
+       {
+        "t": "fill",
+        "q": "Many families are struggling to make ends ___. (llegar a fin de mes)",
+        "ans": [
+         "meet"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The technology giant is reported to have cut more than ten thousand jobs this year, although it is believed that many of the affected employees will be offered reskilling programmes.",
+        "q": "¿Qué se cree sobre los empleados afectados?",
+        "o": [
+         "Que recibirán una indemnización doble",
+         "Que se les ofrecerán programas de recapacitación",
+         "Que demandarán a la empresa",
+         "Que serán recontratados de inmediato"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "It is widely believed that the benefits of automation rarely trickle down to ordinary workers."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "company",
+         "is",
+         "said",
+         "to",
+         "have",
+         "cut",
+         "corners",
+         "on",
+         "safety."
+        ],
+        "es": "Se dice que la empresa escatimó en seguridad."
+       },
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "is",
+         "estimated",
+         "that",
+         "half",
+         "the",
+         "workforce",
+         "is",
+         "informal."
+        ],
+        "es": "Se calcula que la mitad de la fuerza laboral es informal."
+       },
+       {
+        "t": "dict",
+        "say": "Hundreds of workers were made redundant."
+       },
+       {
+        "t": "dict",
+        "say": "Public education helps level the playing field."
+       },
+       {
+        "t": "mc",
+        "q": "'Dar el paso, lanzarse' (a emprender, por ejemplo) es:",
+        "o": [
+         "take the plunge",
+         "cut corners",
+         "lay off",
+         "trickle down"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Delivery riders are ___ to earn less than the minimum wage. (se sabe)",
+        "ans": [
+         "known"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Although the economy grew by four percent last year, disposable income actually fell for the poorest households, which suggests that growth alone does not reduce inequality.",
+        "q": "¿Qué concluye el hablante?",
+        "o": [
+         "Que el crecimiento económico por sí solo no reduce la desigualdad",
+         "Que los hogares pobres ganaron más",
+         "Que la economía decreció",
+         "Que la inflación fue cero"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un breve informe (mínimo 130 palabras) sobre el impacto de la automatización o la economía de plataformas en el empleo en tu ciudad. Usa al menos tres pasivas impersonales (It is said that..., X is thought to...) y vocabulario de la lección.",
+        "min": 130,
+        "keys": [
+         [
+          "it is said",
+          "it is believed",
+          "it is estimated",
+          "it is thought",
+          "it is expected",
+          "it is reported"
+         ],
+         [
+          "is said to",
+          "are thought to",
+          "is believed to",
+          "are expected to",
+          "is reported to",
+          "are known to"
+         ],
+         [
+          "automation",
+          "gig economy",
+          "job security",
+          "reskilling",
+          "upskill",
+          "informal sector"
+         ],
+         [
+          "income inequality",
+          "wealth gap",
+          "living wage",
+          "make ends meet",
+          "disposable income"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The factory ___ to have dumped waste illegally for years.",
+       "o": [
+        "says",
+        "is said",
+        "said",
+        "is saying"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "It ___ that automation will create more jobs than it destroys.",
+       "o": [
+        "is expected",
+        "expects",
+        "is expecting",
+        "expected to"
+       ],
+       "a": 0
+      },
+      "reading": 5,
+      "words": []
+     },
+     {
+      "id": "c1-u6-l4",
+      "title": "Salud y bienestar con relativas con preposición",
+      "goal": "Hablar con precisión de salud mental, sistemas de salud y estilos de vida usando relativas formales con preposición.",
+      "theory": [
+       {
+        "p": "En registro formal, la **preposición** de un verbo o expresión se coloca **antes** del pronombre relativo: **which** (cosas) o **whom** (personas). En registro informal va al final y se suele omitir el relativo."
+       },
+       {
+        "ex": [
+         [
+          "The clinic to which she was referred has a six-month waiting list.",
+          "La clínica a la que la remitieron tiene una lista de espera de seis meses."
+         ],
+         [
+          "(informal) The clinic she was referred to has a six-month waiting list.",
+          "La clínica a la que la remitieron tiene una lista de espera de seis meses."
+         ],
+         [
+          "The patients with whom I spoke all described feeling isolated.",
+          "Todos los pacientes con quienes hablé describieron sentirse aislados."
+         ]
+        ]
+       },
+       {
+        "p": "Estructuras muy frecuentes en textos de salud y ciencias sociales: **the extent to which** (la medida en que), **the way in which**, **the rate at which**, **the reason for which**, y cuantificadores como **most of whom, none of which, many of whom, a third of which**."
+       },
+       {
+        "ex": [
+         [
+          "Researchers measured the extent to which sleep affects mood.",
+          "Los investigadores midieron la medida en que el sueño afecta el estado de ánimo."
+         ],
+         [
+          "Over a thousand nurses took part, most of whom reported symptoms of burnout.",
+          "Participaron más de mil enfermeras, la mayoría de las cuales reportaron síntomas de agotamiento."
+         ],
+         [
+          "The government proposed several reforms, none of which addressed mental health.",
+          "El gobierno propuso varias reformas, ninguna de las cuales abordaba la salud mental."
+         ]
+        ]
+       },
+       {
+        "p": "Con **whose** y preposición: **a system in whose hospitals doctors work 80-hour weeks**. Y recuerda que después de preposición nunca va **that** ni **who**: **the doctor to whom I spoke** (no 'to that' ni 'to who')."
+       },
+       {
+        "tip": "Cuidado con los phrasal verbs: no se separa la partícula. 'The habit which I gave up' o 'the habit I gave up' (no 'the habit up which I gave'). La preposición se adelanta solo cuando es una preposición real (depend on, refer to, suffer from)."
+       }
+      ],
+      "vocab": [
+       [
+        "burnout",
+        "sustantivo",
+        "agotamiento laboral, síndrome de desgaste",
+        "Burnout among doctors has reached record levels."
+       ],
+       [
+        "wellbeing",
+        "sustantivo",
+        "bienestar",
+        "Employers are investing in staff wellbeing."
+       ],
+       [
+        "stigma",
+        "sustantivo",
+        "estigma",
+        "There is still a stigma attached to mental illness."
+       ],
+       [
+        "seek help",
+        "colocación",
+        "buscar ayuda",
+        "Men are less likely to seek help for depression."
+       ],
+       [
+        "sedentary",
+        "adjetivo",
+        "sedentario",
+        "A sedentary lifestyle increases the risk of heart disease."
+       ],
+       [
+        "preventive care",
+        "colocación",
+        "atención preventiva",
+        "Investing in preventive care saves money in the long term."
+       ],
+       [
+        "waiting list",
+        "colocación",
+        "lista de espera",
+        "The waiting list for surgery is over a year."
+       ],
+       [
+        "underfunded",
+        "adjetivo",
+        "con financiación insuficiente",
+        "Rural hospitals are chronically underfunded."
+       ],
+       [
+        "life expectancy",
+        "colocación",
+        "esperanza de vida",
+        "Life expectancy has risen steadily for decades."
+       ],
+       [
+        "chronic illness",
+        "colocación",
+        "enfermedad crónica",
+        "Diabetes is a chronic illness that requires daily management."
+       ],
+       [
+        "coping mechanism",
+        "colocación",
+        "mecanismo de afrontamiento",
+        "Exercise is a healthy coping mechanism for stress."
+       ],
+       [
+        "resilience",
+        "sustantivo",
+        "resiliencia",
+        "Therapy helped her build resilience."
+       ],
+       [
+        "overprescribe",
+        "verbo",
+        "recetar en exceso",
+        "Antibiotics are often overprescribed."
+       ],
+       [
+        "universal healthcare",
+        "colocación",
+        "cobertura sanitaria universal",
+        "Universal healthcare is a right, not a privilege."
+       ],
+       [
+        "self-care",
+        "sustantivo",
+        "autocuidado",
+        "Self-care is not a luxury but a necessity."
+       ],
+       [
+        "be on the mend",
+        "modismo",
+        "estar recuperándose",
+        "After the operation, he's finally on the mend."
+       ],
+       [
+        "run-down",
+        "adjetivo",
+        "agotado, con las defensas bajas",
+        "I've been feeling run-down for weeks."
+       ],
+       [
+        "mindfulness",
+        "sustantivo",
+        "atención plena",
+        "Mindfulness is now taught in some schools."
+       ],
+       [
+        "detrimental",
+        "adjetivo",
+        "perjudicial",
+        "Lack of sleep is detrimental to your health."
+       ],
+       [
+        "hit rock bottom",
+        "modismo",
+        "tocar fondo",
+        "She hit rock bottom before she finally sought help."
+       ]
+      ],
+      "dialogue": {
+       "title": "Salud mental en el trabajo",
+       "scene": "Natalia, psicóloga que trabaja en un hospital público de Cali, conversa con su colega británico Oliver en un congreso sobre bienestar laboral.",
+       "a": "Oliver",
+       "b": "Natalia",
+       "lines": [
+        [
+         "A",
+         "Your presentation on burnout was fascinating. How many health workers did you survey?",
+         "Tu presentación sobre el agotamiento laboral fue fascinante. ¿A cuántos trabajadores de la salud encuestaste?"
+        ],
+        [
+         "B",
+         "Around eight hundred, most of whom work in underfunded public hospitals.",
+         "Unos ochocientos, la mayoría de los cuales trabajan en hospitales públicos con financiación insuficiente."
+        ],
+        [
+         "A",
+         "And what surprised you most?",
+         "¿Y qué te sorprendió más?"
+        ],
+        [
+         "B",
+         "The extent to which they hid their symptoms. Many had hit rock bottom before seeking help.",
+         "La medida en que ocultaban sus síntomas. Muchos habían tocado fondo antes de buscar ayuda."
+        ],
+        [
+         "A",
+         "Because of the stigma, I suppose. It's the same in the NHS.",
+         "Por el estigma, supongo. Es lo mismo en el sistema de salud británico."
+        ],
+        [
+         "B",
+         "Exactly. Nurses told me they were afraid of being seen as weak by the colleagues with whom they worked.",
+         "Exacto. Las enfermeras me dijeron que temían que los colegas con quienes trabajaban las vieran como débiles."
+        ],
+        [
+         "A",
+         "That's heartbreaking. Were there any support services available?",
+         "Qué triste. ¿Había algún servicio de apoyo disponible?"
+        ],
+        [
+         "B",
+         "Some, but the psychologist to whom staff were referred had a waiting list of four months.",
+         "Algunos, pero el psicólogo al que remitían al personal tenía una lista de espera de cuatro meses."
+        ],
+        [
+         "A",
+         "Four months is an eternity when you're feeling run-down every single day.",
+         "Cuatro meses es una eternidad cuando te sientes agotado todos los días."
+        ],
+        [
+         "B",
+         "It is. Night shifts and twelve-hour days wear people down, and self-care is the first thing to go. Some had developed chronic illnesses.",
+         "Lo es. Los turnos de noche y las jornadas de doce horas desgastan a la gente, y el autocuidado es lo primero que se abandona. Algunos habían desarrollado enfermedades crónicas."
+        ],
+        [
+         "A",
+         "What coping mechanisms did they mention?",
+         "¿Qué mecanismos de afrontamiento mencionaron?"
+        ],
+        [
+         "B",
+         "Unfortunately, the most common was simply working harder, which is detrimental in the long term. Very few practised mindfulness or exercised.",
+         "Desafortunadamente, el más común era simplemente trabajar más, lo cual es perjudicial a largo plazo. Muy pocos practicaban atención plena o hacían ejercicio."
+        ],
+        [
+         "A",
+         "So what did you recommend to the ministry?",
+         "¿Y qué le recomendaste al ministerio?"
+        ],
+        [
+         "B",
+         "Three measures, none of which are expensive: shorter shifts, confidential counselling and training in resilience.",
+         "Tres medidas, ninguna de las cuales es costosa: turnos más cortos, asesoría confidencial y formación en resiliencia."
+        ],
+        [
+         "A",
+         "And has anything changed since then?",
+         "¿Y ha cambiado algo desde entonces?"
+        ],
+        [
+         "B",
+         "Slowly. One hospital in which we piloted the programme has already cut sick leave by twenty percent. I'd say it's on the mend.",
+         "Poco a poco. Un hospital en el que pusimos a prueba el programa ya redujo las incapacidades en un veinte por ciento. Diría que se está recuperando."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The specialist ___ I was referred is based in Medellín.",
+        "o": [
+         "to who",
+         "to whom",
+         "whom to",
+         "to that"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "The study examined the extent ___ diet affects mental health.",
+        "o": [
+         "which",
+         "to which",
+         "in that",
+         "of whom"
+        ],
+        "a": 1
+       },
+       {
+        "t": "mc",
+        "q": "Fifty patients took part, ___ had suffered from anxiety.",
+        "o": [
+         "most of them",
+         "most of whom",
+         "most of who",
+         "most which"
+        ],
+        "a": 1,
+        "x": "En una relativa no especificativa: most of whom (personas)."
+       },
+       {
+        "t": "fill",
+        "q": "There is still a ___ attached to depression in many communities. (estigma)",
+        "ans": [
+         "stigma"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The report identified twelve rural hospitals, none of which had a full-time psychiatrist, despite the fact that rates of depression in those areas were the highest in the country.",
+        "q": "¿Qué tenían en común los doce hospitales?",
+        "o": [
+         "Todos tenían psiquiatra de tiempo completo",
+         "Ninguno tenía psiquiatra de tiempo completo",
+         "Todos estaban en ciudades grandes",
+         "Tenían las tasas de depresión más bajas"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "The extent to which stress affects our physical health is often underestimated."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "doctor",
+         "with",
+         "whom",
+         "I",
+         "spoke",
+         "was",
+         "very",
+         "reassuring."
+        ],
+        "es": "El médico con quien hablé fue muy tranquilizador."
+       },
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "hit",
+         "rock",
+         "bottom",
+         "before",
+         "she",
+         "finally",
+         "sought",
+         "help."
+        ],
+        "es": "Ella tocó fondo antes de buscar ayuda finalmente."
+       },
+       {
+        "t": "dict",
+        "say": "A sedentary lifestyle is detrimental to your health."
+       },
+       {
+        "t": "dict",
+        "say": "Rural hospitals are chronically underfunded."
+       },
+       {
+        "t": "mc",
+        "q": "'Estar recuperándose' (informal) es:",
+        "o": [
+         "be on the mend",
+         "hit rock bottom",
+         "be run-down",
+         "seek help"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The rate ___ which antibiotics are prescribed is worrying. (preposición)",
+        "ans": [
+         "at"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "After years of long hours and very little sleep, Andrés felt completely run-down. It was only when his doctor warned him about his blood pressure that he started to take his wellbeing seriously.",
+        "q": "¿Qué hizo que Andrés empezara a cuidarse?",
+        "o": [
+         "Un consejo de su jefe",
+         "La advertencia de su médico sobre la presión arterial",
+         "Unas vacaciones largas",
+         "Un programa de atención plena en el trabajo"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe un artículo (mínimo 130 palabras) sobre los retos del sistema de salud o de la salud mental en Colombia. Usa al menos tres relativas formales con preposición (to which, with whom, the extent to which, most of whom, none of which...) y vocabulario de la lección.",
+        "min": 130,
+        "keys": [
+         [
+          "to which",
+          "in which",
+          "with whom",
+          "to whom",
+          "for which",
+          "at which",
+          "on which"
+         ],
+         [
+          "most of whom",
+          "many of whom",
+          "none of which",
+          "some of which",
+          "the extent to which"
+         ],
+         [
+          "burnout",
+          "wellbeing",
+          "stigma",
+          "waiting list",
+          "underfunded",
+          "preventive care",
+          "universal healthcare"
+         ],
+         [
+          "seek help",
+          "coping mechanism",
+          "resilience",
+          "detrimental",
+          "self-care",
+          "sedentary"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The hospital ___ she was treated has an excellent reputation.",
+       "o": [
+        "which",
+        "in which",
+        "in that",
+        "where in"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "I interviewed twenty nurses, ___ had considered leaving the profession.",
+       "o": [
+        "many of them",
+        "many of whom",
+        "many of who",
+        "many whom"
+       ],
+       "a": 1
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u6-l5",
+      "title": "Reseñas de cine, libros y exposiciones con participle clauses",
+      "goal": "Escribir y hablar de reseñas culturales con estilo conciso y sofisticado usando participle clauses.",
+      "theory": [
+       {
+        "p": "Las **participle clauses** condensan información y son típicas de las **reseñas**. Una cláusula con **-ing** (participio presente) expresa una acción **activa** o simultánea; con **participio pasado** (directed, written, set) expresa un sentido **pasivo**."
+       },
+       {
+        "ex": [
+         [
+          "Set in 1950s Bogotá, the novel explores the aftermath of the Bogotazo.",
+          "Ambientada en la Bogotá de los años cincuenta, la novela explora las secuelas del Bogotazo."
+         ],
+         [
+          "Directed by a first-time filmmaker, the documentary is remarkably assured.",
+          "Dirigido por un cineasta debutante, el documental es notablemente seguro."
+         ],
+         [
+          "Combining archive footage with interviews, the film paints a vivid portrait of the city.",
+          "Combinando material de archivo con entrevistas, la película pinta un retrato vívido de la ciudad."
+         ]
+        ]
+       },
+       {
+        "p": "**Having + participio** indica que una acción ocurrió **antes** de la principal. También se usan tras conjunciones: **When reading..., While watching..., Once completed..., Although praised by critics...**"
+       },
+       {
+        "ex": [
+         [
+          "Having read the book, I found the adaptation disappointingly shallow.",
+          "Habiendo leído el libro, la adaptación me pareció decepcionantemente superficial."
+         ],
+         [
+          "Although praised by critics, the exhibition failed to attract large crowds.",
+          "Aunque fue elogiada por la crítica, la exposición no logró atraer grandes multitudes."
+         ]
+        ]
+       },
+       {
+        "p": "Lenguaje típico de reseñas: **a tour de force, gripping, thought-provoking, overrated, it falls flat, it lacks depth, a must-see, the pacing drags**. Equilibra elogio y crítica: **While visually stunning, the film lacks emotional depth.**"
+       },
+       {
+        "tip": "Error típico: el participio colgante (dangling participle). El sujeto implícito de la cláusula debe ser el mismo de la principal. 'Walking into the gallery, the paintings impressed me' es incorrecto (los cuadros no caminan); di 'Walking into the gallery, I was impressed by the paintings.'"
+       }
+      ],
+      "vocab": [
+       [
+        "thought-provoking",
+        "adjetivo",
+        "que invita a la reflexión",
+        "It's a thought-provoking exhibition about migration."
+       ],
+       [
+        "gripping",
+        "adjetivo",
+        "absorbente, apasionante",
+        "The thriller is gripping from start to finish."
+       ],
+       [
+        "overrated",
+        "adjetivo",
+        "sobrevalorado",
+        "In my opinion, the film is wildly overrated."
+       ],
+       [
+        "tour de force",
+        "expresión",
+        "obra maestra, despliegue de virtuosismo",
+        "Her performance is an absolute tour de force."
+       ],
+       [
+        "fall flat",
+        "expresión",
+        "no funcionar, no causar efecto",
+        "Most of the jokes fall flat."
+       ],
+       [
+        "pacing",
+        "sustantivo",
+        "ritmo (narrativo)",
+        "The pacing drags in the second half."
+       ],
+       [
+        "plot twist",
+        "colocación",
+        "giro argumental",
+        "The plot twist at the end is completely predictable."
+       ],
+       [
+        "poignant",
+        "adjetivo",
+        "conmovedor, emotivo",
+        "It's a poignant story of loss and reconciliation."
+       ],
+       [
+        "lacklustre",
+        "adjetivo",
+        "deslucido, sin brillo",
+        "The sequel was a lacklustre imitation of the original."
+       ],
+       [
+        "masterfully",
+        "adverbio",
+        "magistralmente",
+        "The tension is masterfully built."
+       ],
+       [
+        "subtle",
+        "adjetivo",
+        "sutil",
+        "The film's humour is subtle and intelligent."
+       ],
+       [
+        "narrative arc",
+        "colocación",
+        "arco narrativo",
+        "The protagonist's narrative arc feels rushed."
+       ],
+       [
+        "curate",
+        "verbo",
+        "curar, organizar (una exposición)",
+        "The exhibition was curated by a young Colombian artist."
+       ],
+       [
+        "on display",
+        "expresión",
+        "en exhibición",
+        "Over two hundred works are on display."
+       ],
+       [
+        "evocative",
+        "adjetivo",
+        "evocador, sugerente",
+        "The photographs are deeply evocative of rural life."
+       ],
+       [
+        "self-indulgent",
+        "adjetivo",
+        "autocomplaciente",
+        "At three hours, the film feels self-indulgent."
+       ],
+       [
+        "strike a chord",
+        "modismo",
+        "tocar la fibra, resonar",
+        "The novel struck a chord with young readers."
+       ],
+       [
+        "live up to the hype",
+        "expresión",
+        "estar a la altura de las expectativas",
+        "The show didn't live up to the hype."
+       ],
+       [
+        "a must-see",
+        "expresión",
+        "imperdible",
+        "This exhibition is a must-see."
+       ],
+       [
+        "critically acclaimed",
+        "adjetivo",
+        "aclamado por la crítica",
+        "It's a critically acclaimed debut novel."
+       ]
+      ],
+      "dialogue": {
+       "title": "Saliendo del cine",
+       "scene": "Isabella y su amigo Liam salen de ver la adaptación de una novela colombiana y la comparan con una exposición que vieron la semana pasada.",
+       "a": "Liam",
+       "b": "Isabella",
+       "lines": [
+        [
+         "A",
+         "So? Did it live up to the hype?",
+         "¿Y? ¿Estuvo a la altura de las expectativas?"
+        ],
+        [
+         "B",
+         "Honestly, not quite. Having read the novel twice, I found the adaptation a bit lacklustre.",
+         "Sinceramente, no del todo. Habiendo leído la novela dos veces, la adaptación me pareció un poco deslucida."
+        ],
+        [
+         "A",
+         "Really? I thought the lead actress was a tour de force.",
+         "¿En serio? A mí la actriz principal me pareció una maravilla."
+        ],
+        [
+         "B",
+         "Oh, she was brilliant. Her final scene was incredibly poignant. It's the script that falls flat.",
+         "Ah, ella estuvo brillante. Su escena final fue increíblemente conmovedora. Es el guion lo que no funciona."
+        ],
+        [
+         "A",
+         "In what way?",
+         "¿En qué sentido?"
+        ],
+        [
+         "B",
+         "Trying to squeeze four generations into two hours, the director rushes the narrative arc. The pacing is all over the place.",
+         "Al intentar meter cuatro generaciones en dos horas, el director acelera el arco narrativo. El ritmo es un desastre."
+        ],
+        [
+         "A",
+         "I'll give you that. The middle section dragged. But visually it was stunning.",
+         "Eso te lo concedo. La parte del medio se hizo lenta. Pero visualmente fue impresionante."
+        ],
+        [
+         "B",
+         "Absolutely. Shot entirely on location in the Andes, every frame looks like a painting.",
+         "Totalmente. Filmada por completo en locaciones de los Andes, cada cuadro parece una pintura."
+        ],
+        [
+         "A",
+         "And the plot twist? I didn't see it coming at all.",
+         "¿Y el giro argumental? No lo vi venir para nada."
+        ],
+        [
+         "B",
+         "That's because they changed it. In the book it's far more subtle.",
+         "Eso es porque lo cambiaron. En el libro es mucho más sutil."
+        ],
+        [
+         "A",
+         "So, overall, would you recommend it?",
+         "Entonces, en general, ¿la recomendarías?"
+        ],
+        [
+         "B",
+         "With reservations. While visually gripping, it lacks the depth of the novel. It's a bit overrated, if you ask me.",
+         "Con reservas. Aunque es visualmente absorbente, carece de la profundidad de la novela. Está un poco sobrevalorada, si me preguntas."
+        ],
+        [
+         "A",
+         "Unlike that photography exhibition we saw last week. That was a must-see.",
+         "No como esa exposición de fotografía que vimos la semana pasada. Esa sí era imperdible."
+        ],
+        [
+         "B",
+         "Oh, completely. Curated by survivors of the conflict, it was the most evocative show I've seen in years.",
+         "Ah, totalmente. Curada por sobrevivientes del conflicto, fue la muestra más evocadora que he visto en años."
+        ],
+        [
+         "A",
+         "It really struck a chord with me. I'm thinking of writing a review for the university magazine.",
+         "De verdad me tocó la fibra. Estoy pensando en escribir una reseña para la revista de la universidad."
+        ],
+        [
+         "B",
+         "Do it! But please, no dangling participles this time!",
+         "¡Hazlo! ¡Pero por favor, nada de participios colgantes esta vez!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ in a small fishing village, the novel tells the story of three sisters.",
+        "o": [
+         "Setting",
+         "Set",
+         "Having set",
+         "To set"
+        ],
+        "a": 1,
+        "x": "Sentido pasivo (la novela está ambientada) → participio pasado."
+       },
+       {
+        "t": "mc",
+        "q": "___ the original series, I was disappointed by the remake.",
+        "o": [
+         "Seen",
+         "Having seen",
+         "Being seen",
+         "To have seen"
+        ],
+        "a": 1,
+        "x": "Acción anterior → Having + participio."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál NO tiene un participio colgante?",
+        "o": [
+         "Walking into the museum, the sculptures amazed me.",
+         "Walking into the museum, I was amazed by the sculptures.",
+         "Having finished the book, the ending surprised me.",
+         "Directed by Ciro Guerra, I loved the film."
+        ],
+        "a": 1
+       },
+       {
+        "t": "fill",
+        "q": "Most of the jokes fall ___, unfortunately. (no funcionan)",
+        "ans": [
+         "flat"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Although praised by critics at Cannes, the film struggled at the box office, largely because its slow pacing and ambiguous ending left mainstream audiences cold.",
+        "q": "¿Por qué le fue mal en taquilla a la película?",
+        "o": [
+         "Porque la crítica la rechazó",
+         "Por su ritmo lento y su final ambiguo",
+         "Porque era demasiado larga y violenta",
+         "Porque no se estrenó en Cannes"
+        ],
+        "a": 1
+       },
+       {
+        "t": "oral",
+        "text": "Combining archive footage with intimate interviews, the documentary is a poignant tour de force."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Curated",
+         "by",
+         "local",
+         "artists,",
+         "the",
+         "exhibition",
+         "is",
+         "a",
+         "must-see."
+        ],
+        "es": "Curada por artistas locales, la exposición es imperdible."
+       },
+       {
+        "t": "order",
+        "words": [
+         "While",
+         "visually",
+         "stunning,",
+         "the",
+         "film",
+         "lacks",
+         "emotional",
+         "depth."
+        ],
+        "es": "Aunque visualmente impresionante, la película carece de profundidad emocional."
+       },
+       {
+        "t": "dict",
+        "say": "The pacing drags in the second half."
+       },
+       {
+        "t": "dict",
+        "say": "The novel struck a chord with young readers."
+       },
+       {
+        "t": "mc",
+        "q": "'Sobrevalorado' es:",
+        "o": [
+         "overrated",
+         "lacklustre",
+         "self-indulgent",
+         "subtle"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The sequel didn't live up to the ___. (expectativas generadas)",
+        "ans": [
+         "hype"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Featuring more than two hundred works on display, many of them never exhibited before, the retrospective offers an evocative journey through the artist's sixty-year career.",
+        "q": "¿Qué tiene de especial la retrospectiva?",
+        "o": [
+         "Solo incluye obras recientes",
+         "Muchas de sus obras nunca se habían exhibido",
+         "Es una exposición virtual",
+         "Dura sesenta días"
+        ],
+        "a": 1
+       },
+       {
+        "t": "write",
+        "q": "Escribe una reseña (mínimo 140 palabras) de una película, un libro o una exposición que hayas visto recientemente. Usa al menos tres participle clauses (Set in..., Directed by..., Having read..., While...) y equilibra elogios y críticas con vocabulario de la lección.",
+        "min": 140,
+        "keys": [
+         [
+          "set in",
+          "directed by",
+          "written by",
+          "curated by",
+          "based on",
+          "having",
+          "combining",
+          "featuring"
+         ],
+         [
+          "gripping",
+          "thought-provoking",
+          "poignant",
+          "evocative",
+          "tour de force",
+          "masterfully",
+          "a must-see"
+         ],
+         [
+          "overrated",
+          "falls flat",
+          "fall flat",
+          "lacklustre",
+          "self-indulgent",
+          "pacing",
+          "drags"
+         ],
+         [
+          "while",
+          "although",
+          "overall",
+          "on the whole",
+          "nevertheless"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ by a debut author, the novel has already won three major prizes.",
+       "o": [
+        "Writing",
+        "Written",
+        "Having written",
+        "To write"
+       ],
+       "a": 1
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "___ the exhibition twice, I can safely say it's a must-see.",
+       "o": [
+        "Visited",
+        "Having visited",
+        "Being visited",
+        "To visit"
+       ],
+       "a": 1
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "Not until the factory closed ___ how polluted the river had become.",
+      "o": [
+       "we realized",
+       "did we realize",
+       "we did realize",
+       "realized we"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "If the app had been designed with privacy in mind, we ___ this scandal now.",
+      "o": [
+       "wouldn't have had",
+       "wouldn't be facing",
+       "won't face",
+       "hadn't faced"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The minister is believed ___ the report before it was published.",
+      "o": [
+       "to read",
+       "to have read",
+       "reading",
+       "that he read"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "The clinic ___ she was referred specializes in eating disorders.",
+      "o": [
+       "which",
+       "to whom",
+       "to which",
+       "that to"
+      ],
+      "a": 2
+     },
+     {
+      "t": "mc",
+      "q": "___ in the 1980s, the film captures the fear of a whole generation.",
+      "o": [
+       "Setting",
+       "Set",
+       "Having set",
+       "Sets"
+      ],
+      "a": 1
+     },
+     {
+      "t": "fill",
+      "q": "Many families are struggling to make ends ___ because of inflation. (llegar a fin de mes)",
+      "ans": [
+       "meet"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Should the government fail to curb deforestation in the Amazon, scientists warn that the forest could reach a tipping point within the next two decades.",
+      "q": "¿Qué advierten los científicos?",
+      "o": [
+       "Que la selva ya se recuperó",
+       "Que la selva podría llegar a un punto de no retorno en dos décadas",
+       "Que la deforestación ya se detuvo",
+       "Que el gobierno prohibió la tala"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Over five hundred delivery riders were surveyed, most of whom said they had no health insurance and worked more than sixty hours a week.",
+      "q": "¿Qué dijeron la mayoría de los repartidores?",
+      "o": [
+       "Que tenían seguro médico y horarios flexibles",
+       "Que no tenían seguro médico y trabajaban más de sesenta horas",
+       "Que ganaban más que el salario mínimo",
+       "Que querían dejar el trabajo"
+      ],
+      "a": 1
+     },
+     {
+      "t": "write",
+      "q": "Escribe un ensayo (mínimo 150 palabras) sobre el tema de sociedad que más te preocupa (medio ambiente, tecnología, empleo o salud). Usa al menos una inversión, un condicional mixto, una pasiva impersonal y una relativa con preposición.",
+      "min": 150,
+      "keys": [
+       [
+        "not only",
+        "rarely",
+        "never",
+        "only when",
+        "should",
+        "had",
+        "were"
+       ],
+       [
+        "if"
+       ],
+       [
+        "it is said",
+        "it is believed",
+        "it is estimated",
+        "is thought to",
+        "is said to",
+        "are expected to"
+       ],
+       [
+        "to which",
+        "in which",
+        "with whom",
+        "most of whom",
+        "none of which",
+        "the extent to which"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "Rarely has a technology blurred the line between truth and fiction as quickly as artificial intelligence."
+     },
+     {
+      "t": "oral",
+      "text": "Having read the novel, I found the film adaptation rather lacklustre."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "Under no circumstances ___ toxic waste be dumped in rivers.",
+      "o": [
+       "should",
+       "we should",
+       "it should",
+       "must not"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "If I weren't so addicted to my phone, I ___ the deadline yesterday.",
+      "o": [
+       "wouldn't miss",
+       "wouldn't have missed",
+       "hadn't missed",
+       "won't miss"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "It ___ that half of all new jobs will require digital skills.",
+      "o": [
+       "is estimated",
+       "estimates",
+       "is estimating",
+       "has estimate"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The researchers surveyed 300 teenagers, ___ felt anxious about social media.",
+      "o": [
+       "many of them",
+       "many of whom",
+       "many of who",
+       "many which"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "___ the book, I was disappointed by the series.",
+      "o": [
+       "Read",
+       "Having read",
+       "Being read",
+       "To read"
+      ],
+      "a": 1
+     },
+     {
+      "t": "mc",
+      "q": "'Arma de doble filo' es:",
+      "o": [
+       "a double-edged sword",
+       "a tipping point",
+       "a loophole",
+       "a tour de force"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "___ it not been for public pressure, the law would never have passed. (inversión condicional)",
+      "ans": [
+       "Had",
+       "had"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "The film was praised, but it didn't live up to the ___.",
+      "ans": [
+       "hype"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Had the hospital invested in preventive care, it would not be struggling with such long waiting lists today.",
+      "q": "¿Cuál es el problema actual del hospital?",
+      "o": [
+       "Falta de médicos especialistas",
+       "Listas de espera muy largas",
+       "Exceso de presupuesto",
+       "Instalaciones nuevas sin usar"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "The start-up is reported to have raised two million dollars in start-up capital, making it one of the most promising ventures in Medellín.",
+      "q": "¿Qué se informa sobre la empresa emergente?",
+      "o": [
+       "Que quebró",
+       "Que recaudó dos millones de dólares de capital semilla",
+       "Que despidió a su personal",
+       "Que se mudó de Medellín"
+      ],
+      "a": 1
+     },
+     {
+      "t": "listen",
+      "say": "Curated by a group of young indigenous artists, the exhibition explores the extent to which climate change is reshaping traditional ways of life.",
+      "q": "¿Qué explora la exposición?",
+      "o": [
+       "La historia del arte europeo",
+       "La medida en que el cambio climático transforma los modos de vida tradicionales",
+       "La vida de un artista famoso",
+       "Las nuevas tecnologías digitales"
+      ],
+      "a": 1
+     },
+     {
+      "t": "oral",
+      "text": "Not only does automation threaten jobs, but it also widens the wealth gap."
+     },
+     {
+      "t": "oral",
+      "text": "The extent to which social media affects our wellbeing is still being debated."
+     },
+     {
+      "t": "order",
+      "words": [
+       "Little",
+       "did",
+       "we",
+       "know",
+       "how",
+       "fragile",
+       "the",
+       "ecosystem",
+       "was."
+      ],
+      "es": "Poco sabíamos lo frágil que era el ecosistema."
+     },
+     {
+      "t": "order",
+      "words": [
+       "The",
+       "company",
+       "is",
+       "said",
+       "to",
+       "have",
+       "exploited",
+       "a",
+       "legal",
+       "loophole."
+      ],
+      "es": "Se dice que la empresa aprovechó un vacío legal."
+     }
+    ]
+   }
+  ],
+  "final": {
+   "listenPerUnit": 1,
+   "pass": 70,
+   "extra": [
+    {
+     "t": "listen",
+     "say": "Not only did the new policy fail to reduce emissions, but it also placed a disproportionate burden on low-income households.",
+     "q": "¿Qué critica el hablante de la nueva política?",
+     "o": [
+      "Que redujo demasiado las emisiones",
+      "Que no redujo emisiones y perjudicó a los hogares de bajos ingresos",
+      "Que benefició solo a los ricos sin otros efectos",
+      "Que fue demasiado costosa para el gobierno"
+     ],
+     "a": 1
+    },
+    {
+     "t": "listen",
+     "say": "What concerns me is not the cost of the project itself, but the lack of transparency in how the contracts were awarded.",
+     "q": "¿Qué le preocupa realmente al hablante?",
+     "o": [
+      "El costo del proyecto",
+      "La falta de transparencia en la adjudicación de contratos",
+      "La duración de las obras",
+      "La calidad de los materiales"
+     ],
+     "a": 1
+    },
+    {
+     "t": "oral",
+     "text": "Rarely have I seen such a compelling argument presented with so little evidence."
+    },
+    {
+     "t": "oral",
+     "text": "It is essential that every stakeholder be consulted before the final decision is made."
+    },
+    {
+     "t": "write",
+     "q": "Escribe un ensayo argumentativo (mínimo 150 palabras) sobre si la inteligencia artificial debería regularse estrictamente: plantea la tesis, desarrolla argumentos con matices (hedging), refuta una objeción y concluye con una recomendación.",
+     "min": 150,
+     "keys": [
+      [
+       "arguably",
+       "it could be argued",
+       "it would seem",
+       "to a certain extent"
+      ],
+      [
+       "nevertheless",
+       "nonetheless",
+       "notwithstanding",
+       "that said",
+       "admittedly"
+      ],
+      [
+       "not only",
+       "what is",
+       "it is",
+       "rarely",
+       "never have"
+      ],
+      [
+       "in conclusion",
+       "ultimately",
+       "on balance",
+       "all things considered"
+      ]
+     ]
+    }
+   ]
+  }
  }
 };
