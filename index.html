@@ -201,6 +201,52 @@ footer b{color:#fff}
 .flash .fm{font-size:22px;font-weight:700;color:var(--coral)}
 .flash .fe{font-style:italic;color:var(--mute);margin:0}
 
+/* página de nivel y lecturas */
+.enter{all:unset;cursor:pointer;display:flex;justify-content:center;align-items:center;gap:8px;background:var(--ink);color:var(--bg);font-family:var(--f-display);font-weight:800;font-size:13px;letter-spacing:.06em;text-transform:uppercase;padding:12px 16px;border-radius:6px;margin-top:4px}
+.enter:hover{background:var(--coral)}
+.enter:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.back{all:unset;cursor:pointer;font-weight:800;font-size:12px;padding:4px 12px;border-radius:999px;background:#fff;color:#1A2238}
+.back:focus-visible{outline:2px solid var(--sun);outline-offset:2px}
+.lvhero{border-radius:12px;overflow:hidden;position:relative;min-height:200px;display:flex;align-items:flex-end;color:#fff;margin-bottom:26px}
+.lvhero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.lvhero::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(14,19,38,.85),rgba(14,19,38,.1))}
+.lvhero>div{position:relative;z-index:1;padding:24px}
+.lvhero h2{color:#fff}
+.lvhero p{margin:6px 0 0;color:#E3E7F3}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.tile{all:unset;cursor:pointer;border-radius:10px;padding:22px;display:flex;flex-direction:column;gap:6px;color:#1A2238;transition:transform .2s}
+.tile:hover{transform:translateY(-3px)}
+.tile:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
+.tile b{font-family:var(--f-display);font-size:22px}
+.tile span{font-size:14px;opacity:.85}
+.tile small{font-weight:800;font-size:13px;margin-top:8px}
+.rlist{display:flex;flex-direction:column;gap:12px}
+.ritem{all:unset;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:14px;border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.ritem:hover{border-color:var(--sun)}
+.ritem:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.ritem b{font-family:var(--f-display);font-size:18px;display:block}
+.ritem span{color:var(--mute);font-size:14px}
+.rctrl{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0 20px;position:sticky;top:64px;background:var(--bg);padding-block:10px;z-index:1}
+.rtext{font-size:clamp(19px,2.4vw,23px);line-height:1.95;margin:0}
+.w{cursor:pointer;border-radius:4px;padding:1px 2px;transition:background .15s,color .15s}
+.w:hover{background:var(--soft)}
+.w.now{background:var(--sun);color:#1A2238}
+.w.ok{color:var(--ok);font-weight:700}
+.w.bad{color:var(--coral);text-decoration:underline wavy;text-underline-offset:4px}
+.w.cur{box-shadow:inset 0 -3px 0 var(--sky)}
+.w.sel{outline:2px solid var(--sky)}
+.wsheet{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));width:min(560px,calc(100% - 32px));background:var(--bg);border:1px solid var(--line);border-top:5px solid var(--sun);border-radius:10px;box-shadow:0 20px 50px -15px rgba(24,32,58,.45);padding:18px 20px;z-index:95}
+.wsheet .wt{display:flex;align-items:center;gap:12px;margin-bottom:6px}
+.wsheet .wt b{font-family:var(--f-display);font-size:24px}
+.wsheet .pos{display:inline-block;font-size:12px;font-weight:800;padding:2px 10px;border-radius:999px;background:var(--soft);color:var(--mute)}
+.wsheet .wm{font-weight:700;color:var(--coral);font-size:17px}
+.wsheet .we{font-style:italic;color:var(--mute);margin:6px 0 0}
+.wsheet .x{all:unset;cursor:pointer;margin-left:auto;font-weight:800;padding:4px 8px}
+.rscore{border-radius:10px;background:var(--soft);padding:18px 20px;margin-top:22px}
+.rscore b.big2{font-family:var(--f-display);font-size:44px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--mute);margin-top:12px}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+
 /* examen: presentación */
 .skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 @media (max-width:760px){.skills{grid-template-columns:1fr}}
@@ -348,7 +394,7 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
     <div class="head">
       <div class="eyebrow">Niveles</div>
       <h2>Elige hasta dónde quieres llegar</h2>
-      <p>Cada nivel tiene un quiz de 10 preguntas: escrito, escucha y oral. Necesitas 70 % para aprobarlo.</p>
+      <p>Entra a cada nivel para ver sus lecturas con audio, el vocabulario y el quiz de 10 preguntas (escrito, escucha y oral).</p>
     </div>
     <div class="cards" id="cards"></div>
   </div></section>
@@ -451,6 +497,8 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
 </div>
 
 <script src="vocab.js"></script>
+<script src="readings.js"></script>
+<script src="dict.js"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -542,11 +590,13 @@ const cardsEl=$("cards");
 const cards=LV.map((l,i)=>{
   const c=document.createElement("article");c.className="card";
   c.innerHTML=`<div class="pic"></div><div class="body"><h3>${l.name}</h3><p>${l.can}</p>
+    <button class="enter">Entrar al nivel →</button>
     <div class="vz"><span class="qstat vstat"></span><button class="btn-v">Vocabulario</button></div>
     <div class="qz"><span class="qstat"></span><button class="btn-q">Hacer quiz</button></div>
     <div class="foot"><span class="hrs"></span><button class="pick">Fijar meta →</button></div></div>`;
   c.querySelector(".btn-q").onclick=()=>openQuiz(i);
   c.querySelector(".btn-v").onclick=()=>openVocab(i);
+  c.querySelector(".enter").onclick=()=>openLevel(i);
   c.querySelector(".pick").onclick=()=>{S.target=i;render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})};
   cardsEl.appendChild(c);return c;
 });
@@ -780,7 +830,7 @@ const exam=$("exam"),body=$("exBody");
 function newExam(){X={step:0,name:"",email:"",idx:0,sel:null,plays:0,ans:{listen:[],written:[]},essay:"",sp:[],spSkip:false,spErr:null,result:null}}
 document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||""}
   OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender()}});
-function closeExam(){OV=null;body.style.maxWidth="";stopRec();try{speechSynthesis.cancel()}catch(e){}exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
+function closeExam(){OV=null;LVBACK=null;if(typeof stopReader==="function")stopReader();body.style.maxWidth="";stopRec();try{speechSynthesis.cancel()}catch(e){}exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
 function renderCloseBtn(confirm){$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
   if(confirm){$("exYes").onclick=closeExam;$("exNo").onclick=()=>renderCloseBtn(false)}else $("exClose").onclick=()=>needConfirm()?renderCloseBtn(true):closeExam()}
 let OV=null;
@@ -1014,12 +1064,12 @@ const QZ=[
 ];
 const PASS=70;
 let Q=null;
-function openQuiz(L){if(!unlocked(L))return;OV="quiz";Q={L,i:0,sel:null,plays:0,typed:"",said:"",err:null,noMic:false,ans:[],done:false};
+function openQuiz(L){if(!unlocked(L))return;if(LVBACK!==L)LVBACK=null;OV="quiz";Q={L,i:0,sel:null,plays:0,typed:"",said:"",err:null,noMic:false,ans:[],done:false};
   exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
   if(!curStudent()||!curStudent().email)whoView(()=>{if(unlocked(L))qRender();else closeExam()});else qRender()}
 function qRender(){
   const L=LV[Q.L];
-  $("exSteps").innerHTML=`<span class="on">Quiz ${L.k}</span>`+(Q.done?`<span class="done">Resultado</span>`:`<span>Pregunta ${Q.i+1} de 10</span>`);
+  $("exSteps").innerHTML=`<span class="on">Quiz ${L.k}</span>`+(Q.done?`<span class="done">Resultado</span>`:`<span>Pregunta ${Q.i+1} de 10</span>`);addBack();
   exam.scrollTop=0;
   if(Q.done)return qResult();
   const it=QZ[Q.L][Q.i],tts="speechSynthesis" in window;
@@ -1101,12 +1151,12 @@ function setLearned(L,w,on){const db=loadDB(),st=db.find(s=>s.id===S.student);if
   const s=new Set(st.vocab[L]||[]);on?s.add(w):s.delete(w);st.vocab[L]=[...s];saveDB(db)}
 const ICON_SPK=`<svg viewBox="0 0 24 24" fill="#1A2238"><path d="M3 9v6h4l5 5V4L7 9z"/><path d="M16 8.5a5 5 0 0 1 0 7" stroke="#1A2238" stroke-width="2" fill="none"/></svg>`;
 let V=null;
-function openVocab(L){OV="vocab";V={L,cat:"Todas",q:"",mode:"list",deck:[],k:0,show:false,known:0};
+function openVocab(L){if(LVBACK!==L)LVBACK=null;OV="vocab";V={L,cat:"Todas",q:"",mode:"list",deck:[],k:0,show:false,known:0};
   exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
   if(!curStudent())whoView(vRender);else vRender()}
 function vRender(){
   const L=LV[V.L],words=vocabOf(V.L);
-  $("exSteps").innerHTML=`<span class="on">Vocabulario ${L.k}</span><span>${L.name}</span>`;
+  $("exSteps").innerHTML=`<span class="on">Vocabulario ${L.k}</span><span>${L.name}</span>`;addBack();
   exam.scrollTop=0;
   if(V.mode==="cards")return vCards();
   const cats=["Todas",...new Set(words.map(w=>w.cat))];
@@ -1157,6 +1207,157 @@ function vCards(){
   if($("fShow"))$("fShow").onclick=()=>{V.show=true;vCards();$("fYes").focus()};
   if($("fYes"))$("fYes").onclick=()=>{setLearned(V.L,w.w,true);V.known++;V.k++;V.show=false;render();vCards()};
   if($("fNo"))$("fNo").onclick=()=>{V.k++;V.show=false;vCards()};
+}
+
+/* ================= página de nivel ================= */
+let LVBACK=null;
+function addBack(){if(LVBACK==null)return;const b=document.createElement("button");b.className="back";b.textContent="← Nivel "+LV[LVBACK].k;b.onclick=()=>{stopReader();openLevel(LVBACK)};$("exSteps").prepend(b)}
+function openLevel(L){OV="level";LVBACK=L;exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
+  if(!curStudent())whoView(()=>lvHome(L));else lvHome(L)}
+function lvHome(L){
+  const l=LV[L],st=curStudent(),q=st&&st.quiz&&st.quiz[L],rs=(window.READINGS||[])[L]||[],rd=rs.filter((r,i)=>readBest(L,i)!=null).length;
+  body.style.maxWidth="1000px";exam.scrollTop=0;
+  $("exSteps").innerHTML=`<span class="on">Nivel ${l.k}</span><span>${l.name}</span>`;
+  const img=IMG["lv"+L];
+  body.innerHTML=`<div class="lvhero">${img?`<img src="${img[0]}" alt="">`:""}<div><div class="eyebrow" style="color:var(--sun)">Nivel ${l.k} · ${hrs(l)} h acumuladas</div><h2>${l.name}</h2><p>${l.can}</p></div></div>
+    <div class="tiles">
+      <button class="tile" style="background:#C9E6FF" id="tRead"><b>Lecturas</b><span>Escucha cada texto, toca las palabras para ver su significado y practica tu pronunciación.</span><small>${rs.length} lecturas · ${rd} leídas en voz alta</small></button>
+      <button class="tile" style="background:#FFE7A3" id="tVoc"><b>Vocabulario</b><span>Palabras esenciales por categoría con significado, ejemplo y audio.</span><small>${learnedSet(L).size} de ${vocabOf(L).length} aprendidas</small></button>
+      <button class="tile" style="background:#FFD3CC" id="tQuiz"><b>Quiz</b><span>10 preguntas de escritura, escucha y habla. Se aprueba con 70 %.</span><small>${q?(q.passed?`Aprobado · ${q.best} %`:`Último intento: ${q.last} %`):"Sin presentar"}</small></button>
+    </div>`;
+  $("tRead").onclick=()=>readList(L);
+  $("tVoc").onclick=()=>{body.style.maxWidth="";openVocab(L)};
+  $("tQuiz").onclick=()=>{body.style.maxWidth="";openQuiz(L)};
+}
+
+/* ================= lecturas ================= */
+let DICT=null;
+function dictLookup(w){
+  if(!DICT){DICT={};(window.DICT_SRC||"").trim().split("\n").forEach(l=>{const p=l.split("|").map(s=>s.trim());if(p.length===5)DICT[p[0]]={base:p[1],pos:p[2],m:p[3],e:p[4]}})}
+  const k=w.toLowerCase().replace(/’/g,"'");
+  if(DICT[k])return DICT[k];
+  for(let L=0;L<6;L++){const v=vocabOf(L).find(x=>x.w.toLowerCase()===k);if(v)return{base:"-",pos:v.cat,m:v.m,e:v.e}}
+  return null;
+}
+function readBest(L,i){const st=curStudent();return st&&st.read&&st.read[L+"-"+i]!=null?st.read[L+"-"+i]:null}
+function saveRead(L,i,pct){const db=loadDB(),st=db.find(s=>s.id===S.student);if(!st)return;st.read=st.read||{};const k=L+"-"+i;st.read[k]=Math.max(pct,st.read[k]||0);saveDB(db)}
+function readList(L){
+  OV="level";stopReader();exam.scrollTop=0;body.style.maxWidth="1000px";
+  $("exSteps").innerHTML=`<span class="on">Lecturas ${LV[L].k}</span>`;addBack();
+  const rs=(window.READINGS||[])[L]||[];
+  body.innerHTML=`<h2>Lecturas ${LV[L].k}</h2><p class="lead">Dale reproducir para escuchar el texto mientras se resalta cada palabra. Toca cualquier palabra para ver su significado. Después léelo tú en voz alta y mira tu puntaje de pronunciación.</p>
+    <div class="rlist">${rs.map((r,i)=>{const b=readBest(L,i);return `<button class="ritem" data-i="${i}"><div><b lang="en">${esc(r.title)}</b><span>${esc(r.es)} · ${r.text.split(/\s+/).length} palabras</span></div><span class="pill">${b!=null?`Pronunciación ${b} %`:"Sin leer"}</span></button>`}).join("")}</div>`;
+  body.querySelectorAll(".ritem").forEach(b=>b.onclick=()=>reader(L,+b.dataset.i));
+}
+const TOK_RE=/[A-Za-zÀ-ÿ]+(?:['’][A-Za-z]+)*(?:-[A-Za-zÀ-ÿ]+)*['’]?/g;
+let R=null;
+function reader(L,i){
+  stopReader();const r=READINGS[L][i];exam.scrollTop=0;body.style.maxWidth="900px";
+  $("exSteps").innerHTML=`<span class="on">Lectura ${LV[L].k}</span>`;addBack();
+  /* tokens con su posición en el texto */
+  const toks=[];let m;TOK_RE.lastIndex=0;while((m=TOK_RE.exec(r.text)))toks.push({w:m[0],s:m.index,e:m.index+m[0].length});
+  /* oraciones, para leer por partes (Chrome corta textos largos) */
+  const sents=[];const sre=/[^.!?;:]+[.!?;:]*\s*/g;let sm;while((sm=sre.exec(r.text)))if(sm[0].trim())sents.push({t:sm[0],s:sm.index});
+  R={L,i,r,toks,sents,rate:.9,playing:false,si:0,timer:null,rec:null,recOn:false,matched:new Set(),missed:new Set(),ptr:0,finals:""};
+  let html="",last=0;toks.forEach((t,k)=>{html+=esc(r.text.slice(last,t.s))+`<span class="w" data-k="${k}" lang="en">${esc(t.w)}</span>`;last=t.e});html+=esc(r.text.slice(last));
+  const b=readBest(L,i);
+  body.innerHTML=`<h2 lang="en">${esc(r.title)}</h2><p class="lead">${esc(r.es)} · Nivel ${LV[L].k}${b!=null?` · Tu mejor pronunciación: ${b} %`:""}</p>
+    <div class="rctrl">
+      <button class="btn sun" id="rPlay">▶ Escuchar</button>
+      <div class="chips" id="rRate">${[[.7,"Lento"],[.9,"Normal"],[1.05,"Rápido"]].map(([v,n])=>`<button class="chip" data-r="${v}" aria-pressed="${v===.9}">${n}</button>`).join("")}</div>
+      <button class="rec" id="rRec" style="margin-left:auto"><span class="dot"></span><span id="rRecLbl">Leer yo en voz alta</span></button>
+    </div>
+    <p class="rtext" id="rText">${html}</p>
+    <div class="legend"><span><i style="background:var(--sun)"></i>Se está leyendo</span><span><i style="background:var(--ok)"></i>Pronunciada bien</span><span><i style="background:var(--coral)"></i>Para practicar</span><span>Toca una palabra para ver su significado</span></div>
+    <div id="rOut"></div>`;
+  $("rText").onclick=e=>{const w=e.target.closest(".w");if(w)wordSheet(+w.dataset.k)};
+  $("rPlay").onclick=()=>R.playing?pauseReading():playReading();
+  $("rRate").onclick=e=>{const c=e.target.closest(".chip");if(!c)return;R.rate=+c.dataset.r;$("rRate").querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===c));if(R.playing){pauseReading();playReading()}};
+  $("rRec").onclick=()=>R.recOn?stopReadAloud(true):startReadAloud();
+}
+function hl(k){const p=$("rText");if(!p)return;p.querySelectorAll(".w.now").forEach(x=>x.classList.remove("now"));if(k!=null){const el=p.querySelector(`.w[data-k="${k}"]`);if(el){el.classList.add("now");const rc=el.getBoundingClientRect();if(rc.top<120||rc.bottom>innerHeight-40)el.scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"})}}}
+function tokAt(ch){let k=null;for(let j=0;j<R.toks.length;j++){if(R.toks[j].s<=ch)k=j;else break}return k}
+function playReading(){
+  if(!("speechSynthesis" in window)){$("rOut").innerHTML=`<div class="warn">Este navegador no tiene voz en inglés. Usa Google Chrome.</div>`;return}
+  stopReadAloud(false);R.playing=true;$("rPlay").textContent="❚❚ Pausar";speechSynthesis.cancel();speakSent();
+}
+function speakSent(){
+  if(!R||!R.playing)return;
+  if(R.si>=R.sents.length){R.si=0;R.playing=false;hl(null);if($("rPlay"))$("rPlay").textContent="▶ Escuchar otra vez";return}
+  const se=R.sents[R.si],u=new SpeechSynthesisUtterance(se.t);u.lang="en-US";u.rate=R.rate;
+  const v=speechSynthesis.getVoices().find(v=>/^en[-_]US/i.test(v.lang));if(v)u.voice=v;
+  let gotBoundary=false;clearTimeout(R.timer);
+  /* si la voz no avisa por palabra, se estima el ritmo */
+  const inSent=R.toks.map((t,k)=>({t,k})).filter(x=>x.t.s>=se.s&&x.t.s<se.s+se.t.length);
+  const fallback=()=>{if(gotBoundary||!R.playing)return;let acc=0;inSent.forEach(({t,k})=>{const d=(220+t.w.length*55)/R.rate;R.timer=setTimeout(()=>{if(!gotBoundary&&R.playing)hl(k)},acc);acc+=d})};
+  u.onstart=()=>{clearTimeout(R.timer);R.timer=setTimeout(fallback,450)};
+  R.timer=setTimeout(fallback,900);
+  u.onboundary=e=>{if(e.name&&e.name!=="word")return;gotBoundary=true;hl(tokAt(se.s+e.charIndex))};
+  u.onend=()=>{clearTimeout(R.timer);if(!R.playing)return;R.si++;speakSent()};
+  speechSynthesis.speak(u);
+}
+function pauseReading(){if(!R)return;R.playing=false;clearTimeout(R.timer);try{speechSynthesis.cancel()}catch(e){}if($("rPlay"))$("rPlay").textContent="▶ Continuar"}
+function stopReader(){if(!R)return;pauseReading();stopReadAloud(false);const s=document.querySelector(".wsheet");if(s)s.remove();R=null}
+
+function wordSheet(k){
+  const t=R.toks[k],d=dictLookup(t.w),old=document.querySelector(".wsheet");if(old)old.remove();
+  $("rText").querySelectorAll(".w.sel").forEach(x=>x.classList.remove("sel"));$("rText").querySelector(`.w[data-k="${k}"]`).classList.add("sel");
+  const el=document.createElement("div");el.className="wsheet";el.setAttribute("role","dialog");el.setAttribute("aria-label","Significado de "+t.w);
+  el.innerHTML=`<div class="wt"><b lang="en">${esc(t.w)}</b><button class="vplay" id="wsPlay" aria-label="Escuchar">${ICON_SPK}</button>${d?`<span class="pos">${esc(d.pos)}</span>`:""}<button class="x" id="wsX" aria-label="Cerrar">✕</button></div>
+    ${d?`${d.base&&d.base!=="-"?`<div class="note">Forma base: <b lang="en">${esc(d.base)}</b></div>`:""}<div class="wm">${esc(d.m)}</div><p class="we" lang="en">${esc(d.e)}</p>`:`<div class="note">Todavía no tenemos esta palabra en el diccionario.</div>`}`;
+  document.body.appendChild(el);
+  $("wsPlay").onclick=()=>speakTTS(t.w+(d?". "+d.e:""));$("wsX").onclick=()=>{el.remove();$("rText")&&$("rText").querySelectorAll(".w.sel").forEach(x=>x.classList.remove("sel"))};
+  speakTTS(t.w);
+}
+
+/* ---- leer en voz alta y calificar ---- */
+const nrm=w=>w.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[’']/g,"").replace(/[^a-z0-9-]/g,"");
+function lev(a,b){if(Math.abs(a.length-b.length)>2)return 9;const d=Array.from({length:a.length+1},(_,i)=>[i]);for(let j=1;j<=b.length;j++)d[0][j]=j;
+  for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1));return d[a.length][b.length]}
+const same=(a,b)=>a===b||(a.length>4&&lev(a,b)<=1)||(a.replace(/-/g,"")===b.replace(/-/g,""));
+function align(spoken){
+  /* recorre lo que dijo la persona y lo va emparejando con el texto, permitiendo saltos cortos */
+  const T=R.toks.map(t=>nrm(t.w)),said=spoken.split(/\s+/).map(nrm).filter(Boolean),ok=new Set();let p=0;
+  for(const w of said){
+    const parts=T[p]&&T[p].includes("-")?[w]:[w];
+    for(let j=p;j<Math.min(T.length,p+5);j++){if(same(T[j],parts[0])||(/^\d+$/.test(w)&&j===p)){ok.add(j);p=j+1;break}}
+  }
+  return{ok,p};
+}
+function paintAlign(final){
+  const {ok,p}=align(R.finals+" "+(R.interim||""));R.ptr=p;
+  $("rText").querySelectorAll(".w").forEach(el=>{const k=+el.dataset.k;el.classList.toggle("ok",ok.has(k));el.classList.toggle("bad",k<p&&!ok.has(k));el.classList.toggle("cur",k===p&&!final)});
+  return ok;
+}
+function startReadAloud(){
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  pauseReading();$("rOut").innerHTML="";
+  if(!SR){$("rOut").innerHTML=`<div class="warn">Este navegador no reconoce voz. Usa Google Chrome o Microsoft Edge.</div>`;return}
+  R.finals="";R.interim="";R.recOn=true;$("rRec").classList.add("on");$("rRecLbl").textContent="Terminar y calificar";
+  $("rText").querySelectorAll(".w").forEach(el=>el.classList.remove("ok","bad","cur","now"));
+  const go=()=>{
+    const rec=new SR();R.rec=rec;rec.lang="en-US";rec.continuous=true;rec.interimResults=true;
+    rec.onresult=e=>{let tmp="";for(let i=e.resultIndex;i<e.results.length;i++){const x=e.results[i];if(x.isFinal)R.finals+=" "+x[0].transcript;else tmp+=" "+x[0].transcript}R.interim=tmp;paintAlign(false)};
+    rec.onerror=e=>{if(e.error==="not-allowed"||e.error==="service-not-allowed"){R.recOn=false;$("rOut").innerHTML=`<div class="warn">El micrófono está bloqueado. En Chrome, toca el candado de la barra de direcciones y permite el micrófono.</div>`}};
+    rec.onend=()=>{if(R&&R.recOn){try{go()}catch(e){}}else if(R)finishReadAloud()};
+    try{rec.start()}catch(e){R.recOn=false;finishReadAloud()}
+  };
+  go();
+}
+function stopReadAloud(score){if(!R||!R.rec){if(R)R.recOn=false;return}R.recOn=false;R.scoreOnEnd=score;try{R.rec.stop()}catch(e){}}
+function finishReadAloud(){
+  if(!R)return;const rec=R.rec;R.rec=null;if($("rRec")){$("rRec").classList.remove("on");$("rRecLbl").textContent="Leer otra vez"}
+  if(!rec||R.scoreOnEnd===false){R.scoreOnEnd=undefined;return}
+  R.interim="";const ok=paintAlign(true),total=R.toks.length,pct=Math.round(ok.size/total*100);
+  if(!R.finals.trim()){$("rOut").innerHTML=`<div class="warn">No te escuchamos. Revisa el micrófono e intenta otra vez.</div>`;return}
+  saveRead(R.L,R.i,pct);render();
+  const bad=[...new Set(R.toks.filter((t,k)=>!ok.has(k)).map(t=>t.w))];
+  const msg=pct>=90?"¡Excelente! Tu pronunciación se entiende muy bien.":pct>=75?"Muy bien. Repasa las palabras marcadas en rojo.":pct>=50?"Vas bien. Escucha el audio otra vez y practica las palabras en rojo.":"Sigue practicando: escucha primero a velocidad lenta y luego lee despacio.";
+  $("rOut").innerHTML=`<div class="rscore"><div class="shead" style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap"><span><b class="big2">${pct} %</b> de palabras reconocidas</span><span class="note">${ok.size} de ${total} palabras</span></div>
+    <p style="margin:8px 0 0">${msg}</p>
+    ${bad.length?`<p class="note" style="margin-top:14px">Palabras para practicar (toca para escuchar):</p><div class="chips" id="rBad">${bad.slice(0,30).map(w=>`<button class="chip" data-w="${esc(w)}">${esc(w)}</button>`).join("")}</div>`:""}
+    <p class="note" style="margin-top:14px">El puntaje mide qué tanto reconoció Chrome lo que dijiste. Habla claro, a ritmo normal y sin ruido de fondo.</p></div>`;
+  if($("rBad"))$("rBad").onclick=e=>{const c=e.target.closest(".chip");if(c)speakTTS(c.dataset.w)};
 }
 
 renderWho();
