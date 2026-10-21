@@ -303,11 +303,11 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
     <div class="head">
       <div class="eyebrow">Examen de nivelación</div>
       <h2>Descubre tu nivel real de inglés</h2>
-      <p>Tres partes, unos 30 minutos. Al final ves tu nivel, por ejemplo A2 · 80 %, y tu plan se ajusta solo. Usa Chrome y ten a mano audífonos y micrófono.</p>
+      <p>Tres partes, entre 20 y 35 minutos según tu nivel. Al final ves tu nivel, por ejemplo A2 · 80 %, y tu plan se ajusta solo. Usa Chrome y ten a mano audífonos y micrófono.</p>
     </div>
     <div class="skills">
-      <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1A2238" stroke-width="2" stroke-linecap="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg></span><h3>Escucha</h3><p>12 audios cortos en inglés. Puedes oír cada uno dos veces y eliges la respuesta.</p><span class="min">≈ 8 min</span></div>
-      <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1A2238" stroke-width="2" stroke-linecap="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span><h3>Escrito</h3><p>18 preguntas de gramática, vocabulario y lectura, y una redacción corta de 60 a 120 palabras.</p><span class="min">≈ 14 min</span></div>
+      <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1A2238" stroke-width="2" stroke-linecap="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg></span><h3>Escucha</h3><p>Hasta 18 audios cortos en inglés. La pregunta aparece después de oír el audio y puedes repetirlo una vez.</p><span class="min">≈ 10 min</span></div>
+      <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1A2238" stroke-width="2" stroke-linecap="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span><h3>Escrito</h3><p>Hasta 30 preguntas de gramática, vocabulario y lectura, y una redacción corta de 60 a 120 palabras.</p><span class="min">≈ 18 min</span></div>
       <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1A2238" stroke-width="2" stroke-linecap="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><path d="M12 17v4"/></svg></span><h3>Hablado</h3><p>Lees tres frases en voz alta y respondes dos preguntas hablando. Chrome transcribe lo que dices.</p><span class="min">≈ 6 min</span></div>
     </div>
     <div class="examcta">
@@ -621,38 +621,56 @@ $("fromReset").onclick=()=>{S.startPts=0;render()};
 /* ================= banco de preguntas ================= */
 const EX={
   listen:[
-    {lv:0,say:"Hi, my name is Laura. I am from Canada.",q:"Where is Laura from?",o:["Colombia","Canada","Cuba"],a:1},
-    {lv:0,say:"The bus leaves at eight fifteen.",q:"What time does the bus leave?",o:["8:15","8:50","7:15"],a:0},
-    {lv:1,say:"Can I have a large coffee with milk and no sugar, please?",q:"What does the person order?",o:["A small coffee with sugar","A large tea with milk","A large coffee with milk, no sugar"],a:2},
-    {lv:1,say:"I'm sorry, I can't come to the party on Saturday because I have to work.",q:"Why can't the speaker go to the party?",o:["They have to work","They are sick","They are travelling"],a:0},
-    {lv:2,say:"We were planning to go to the beach, but it started raining, so we stayed home and watched a movie instead.",q:"What did they finally do?",o:["They went to the beach","They watched a movie at home","They went to the cinema"],a:1},
-    {lv:2,say:"If you take the second street on the left, you'll see the pharmacy right next to the bank.",q:"Where is the pharmacy?",o:["Opposite the bank","On the first street on the right","Next to the bank"],a:2},
-    {lv:3,say:"Although the new policy was meant to reduce costs, it actually ended up making the process slower and more expensive.",q:"What happened with the new policy?",o:["It had the opposite effect","It reduced costs as planned","It was cancelled"],a:0},
-    {lv:3,say:"I'd have called you earlier, but my phone died and I didn't have my charger with me.",q:"Why didn't the speaker call earlier?",o:["They forgot","Their phone battery ran out","They didn't have the number"],a:1},
-    {lv:4,say:"Frankly, the proposal is ambitious, but unless we secure additional funding, it's hardly going to get off the ground.",q:"What does the speaker think?",o:["The proposal is ready to start","It should be cancelled immediately","It won't progress without more money"],a:2},
-    {lv:4,say:"She's been bending over backwards to accommodate everyone's schedule, yet nobody seems to appreciate it.",q:"What is she doing?",o:["Making a big effort to help others","Doing exercise every day","Refusing to change her plans"],a:0},
-    {lv:5,say:"Far from being a mere oversight, the omission seems to have been a calculated move to sidestep scrutiny.",q:"What does the speaker suggest about the omission?",o:["It was an accidental mistake","It was deliberate, to avoid being examined","Auditors asked for it"],a:1},
-    {lv:5,say:"Had the committee not been so intent on splitting hairs, the agreement might have been reached weeks ago.",q:"Why was the agreement delayed?",o:["The committee rushed the decision","The agreement was reached weeks ago","The committee focused too much on minor details"],a:2}
+    {lv:0,say:"Hi, my name is Laura. I am from Canada.",q:"Where is Laura from?",o:["Colombia","Canada","Cuba","Chile"],a:1},
+    {lv:0,say:"The bus leaves at eight fifteen.",q:"What time does the bus leave?",o:["8:15","8:50","7:15","9:15"],a:0},
+    {lv:0,say:"We have English class on Monday and Wednesday.",q:"When is the English class?",o:["Monday and Tuesday","Tuesday and Thursday","Monday and Wednesday","Every day"],a:2},
+    {lv:1,say:"Can I have a large coffee with milk and no sugar, please?",q:"What does the person order?",o:["A small coffee with sugar","A large tea with milk","A large coffee with milk, no sugar","A large coffee with sugar, no milk"],a:2},
+    {lv:1,say:"I'm sorry, I can't come to the party on Saturday because I have to work.",q:"Why can't the speaker go to the party?",o:["They have to work","They are sick","They are travelling","They have an exam"],a:0},
+    {lv:1,say:"Turn left at the bank, and the post office is on your right, next to a small café.",q:"Where is the post office?",o:["On the left, next to the bank","On the right, next to a café","Opposite the café","Behind the bank"],a:1},
+    {lv:2,say:"We were planning to go to the beach, but it started raining, so we stayed home and watched a movie instead.",q:"What did they finally do?",o:["They went to the beach","They watched a movie at home","They went to the cinema","They visited some friends"],a:1},
+    {lv:2,say:"If you take the second street on the left, you'll see the pharmacy right next to the bank.",q:"Where is the pharmacy?",o:["Opposite the bank","On the first street on the right","Next to the bank","Behind the bank"],a:2},
+    {lv:2,say:"I've been working here for three years, but I'm thinking of changing jobs because my salary hasn't gone up at all.",q:"Why does the speaker want to change jobs?",o:["They don't like their colleagues","Their salary hasn't increased","The office is too far from home","They have only worked there a short time"],a:1},
+    {lv:3,say:"Although the new policy was meant to reduce costs, it actually ended up making the process slower and more expensive.",q:"What happened with the new policy?",o:["It had the opposite effect","It reduced costs as planned","It was cancelled","It made the process faster"],a:0},
+    {lv:3,say:"I'd have called you earlier, but my phone died and I didn't have my charger with me.",q:"Why didn't the speaker call earlier?",o:["They forgot","Their phone battery ran out","They didn't have the number","They were in a meeting"],a:1},
+    {lv:3,say:"Had it not been for her quick thinking, the whole presentation would have been a disaster.",q:"What do we learn about the presentation?",o:["It was a disaster","She saved it","She missed it","Nobody noticed any problem"],a:1},
+    {lv:4,say:"Frankly, the proposal is ambitious, but unless we secure additional funding, it's hardly going to get off the ground.",q:"What does the speaker think?",o:["The proposal is ready to start","It should be cancelled immediately","It won't progress without more money","It already has enough funding"],a:2},
+    {lv:4,say:"She's been bending over backwards to accommodate everyone's schedule, yet nobody seems to appreciate it.",q:"What is she doing?",o:["Making a big effort to help others","Doing exercise every day","Refusing to change her plans","Complaining about her schedule"],a:0},
+    {lv:4,say:"The report glosses over the risks, which, frankly, are far more serious than management is willing to admit.",q:"What does the speaker criticise?",o:["The report exaggerates the risks","The report doesn't deal properly with the risks","Management has admitted all the risks","The risks are minor"],a:1},
+    {lv:5,say:"Far from being a mere oversight, the omission seems to have been a calculated move to sidestep scrutiny.",q:"What does the speaker suggest about the omission?",o:["It was an accidental mistake","It was deliberate, to avoid being examined","Auditors asked for it","It was a printing error"],a:1},
+    {lv:5,say:"Had the committee not been so intent on splitting hairs, the agreement might have been reached weeks ago.",q:"Why was the agreement delayed?",o:["The committee rushed the decision","The agreement was reached weeks ago","The committee focused too much on minor details","The committee didn't have enough members"],a:2},
+    {lv:5,say:"Her latest novel, for all its stylistic flourishes, never quite transcends the clichés of the genre.",q:"What is the speaker's view of the novel?",o:["It's original and groundbreaking","It's well written but ultimately conventional","It's badly written","It creates a new genre"],a:1}
   ],
   written:[
-    {lv:0,q:"She ___ a teacher.",o:["are","is","am"],a:1},
-    {lv:0,q:"I ___ coffee every morning.",o:["drink","drinks","drinking"],a:0},
-    {lv:0,q:"There ___ two apples on the table.",o:["is","be","are"],a:2},
-    {lv:1,q:"Yesterday we ___ to the cinema.",o:["go","went","have gone"],a:1},
-    {lv:1,q:"This book is ___ than that one.",o:["more interesting","interestinger","most interesting"],a:0},
-    {lv:1,q:"How ___ money do you have?",o:["many","lot","much"],a:2},
-    {lv:2,q:"I ___ here since 2019.",o:["have lived","live","am living"],a:0},
-    {lv:2,q:"If it rains tomorrow, we ___ at home.",o:["would stay","will stay","stayed"],a:1},
-    {lv:2,q:"Notice: “The gym will be closed for maintenance from Monday to Wednesday. Members may use the pool during this period.” What can members do on Tuesday?",o:["Use the gym","Nothing, everything is closed","Use the pool"],a:2},
-    {lv:3,q:"By the time we arrived, the film ___.",o:["had already started","already started","has already started"],a:0},
-    {lv:3,q:"I wish I ___ more time to travel.",o:["have","had","will have"],a:1},
-    {lv:3,q:"The report ___ by the manager before the meeting.",o:["reviewed","has reviewing","was reviewed"],a:2},
-    {lv:4,q:"Hardly ___ the room when the phone rang.",o:["she had entered","had she entered","did she entered"],a:1},
-    {lv:4,q:"The results were ___ inconclusive, so further research is needed.",o:["largely","large","largeness"],a:0},
-    {lv:4,q:"He was accused ___ leaking confidential information.",o:["for","about","of"],a:2},
-    {lv:5,q:"The minister's speech was so ___ that even her critics were won over.",o:["compelled","compelling","compulsive"],a:1},
-    {lv:5,q:"Not until the final chapter ___ the narrator's true identity.",o:["does the reader discover","the reader discovers","the reader does discover"],a:0},
-    {lv:5,q:"His argument, ___ persuasive, rests on a flawed premise.",o:["despite","notwithstanding that","albeit"],a:2}
+    {lv:0,q:"She ___ a teacher.",o:["are","is","am","be"],a:1},
+    {lv:0,q:"I ___ coffee every morning.",o:["drink","drinks","drinking","to drink"],a:0},
+    {lv:0,q:"There ___ two apples on the table.",o:["is","be","are","am"],a:2},
+    {lv:0,q:"___ you like chocolate?",o:["Do","Does","Are","Is"],a:0},
+    {lv:0,q:"My brother ___ a car.",o:["have","is","has","haves"],a:2},
+    {lv:1,q:"Yesterday we ___ to the cinema.",o:["go","went","have gone","goes"],a:1},
+    {lv:1,q:"This book is ___ than that one.",o:["more interesting","interestinger","most interesting","the more interesting"],a:0},
+    {lv:1,q:"How ___ money do you have?",o:["many","lot","much","lots"],a:2},
+    {lv:1,q:"Can you tell me where ___?",o:["is the bank","the bank is","the bank","is bank"],a:1},
+    {lv:1,q:"We didn't go out ___ it was raining.",o:["so","but","because","although"],a:2},
+    {lv:2,q:"I ___ here since 2019.",o:["have lived","live","am living","lived"],a:0},
+    {lv:2,q:"If it rains tomorrow, we ___ at home.",o:["would stay","will stay","stayed","stay"],a:1},
+    {lv:2,q:"Notice: “The gym will be closed for maintenance from Monday to Wednesday. Members may use the pool during this period.” What can members do on Tuesday?",o:["Use the gym","Nothing, everything is closed","Use the pool","Attend a fitness class"],a:2},
+    {lv:2,q:"You ___ wear a suit; the dress code is casual.",o:["mustn't","don't have to","can't","shouldn't to"],a:1},
+    {lv:2,q:"This is the town ___ I grew up.",o:["which","who","where","what"],a:2},
+    {lv:3,q:"By the time we arrived, the film ___.",o:["had already started","already started","has already started","was already starting"],a:0},
+    {lv:3,q:"I wish I ___ more time to travel.",o:["have","had","will have","would have"],a:1},
+    {lv:3,q:"The report ___ by the manager before the meeting.",o:["reviewed","has reviewing","was reviewed","is reviewing"],a:2},
+    {lv:3,q:"She suggested ___ a taxi.",o:["to take","taking","take","that take"],a:1},
+    {lv:3,q:"He ___ have stolen it; he was abroad at the time.",o:["can't","mustn't","shouldn't","needn't"],a:0},
+    {lv:4,q:"Hardly ___ the room when the phone rang.",o:["she had entered","had she entered","did she entered","she entered"],a:1},
+    {lv:4,q:"The results were ___ inconclusive, so further research is needed.",o:["largely","large","largeness","larger"],a:0},
+    {lv:4,q:"He was accused ___ leaking confidential information.",o:["for","about","of","with"],a:2},
+    {lv:4,q:"The new law will come into ___ next month.",o:["force out","effect","affect","place"],a:1},
+    {lv:4,q:"I'm not ___ keen on the idea.",o:["particular","particularity","particularly","particulary"],a:2},
+    {lv:5,q:"The minister's speech was so ___ that even her critics were won over.",o:["compelled","compelling","compulsive","compelled by"],a:1},
+    {lv:5,q:"Not until the final chapter ___ the narrator's true identity.",o:["does the reader discover","the reader discovers","the reader does discover","discovers the reader"],a:0},
+    {lv:5,q:"His argument, ___ persuasive, rests on a flawed premise.",o:["despite","notwithstanding that","albeit","in spite"],a:2},
+    {lv:5,q:"The CEO's resignation came as a bolt from the ___.",o:["sky","blue","dark","grey"],a:1},
+    {lv:5,q:"So ___ was the evidence that the jury reached a verdict within an hour.",o:["overwhelming","overwhelmed","overwhelmingly","overwhelm"],a:0}
   ],
   essay:"Describe your last holiday or a special day. What did you do? How did you feel? What would you do differently next time?",
   speak:[
@@ -665,17 +683,19 @@ const EX={
 };
 
 /* ================= calificación ================= */
-function mcPoints(ans){let p=0;for(let L=0;L<6;L++){const a=ans.filter(x=>x.lv===L);if(!a.length)break;const acc=a.filter(x=>x.ok).length/a.length;p+=acc*100;if(acc<.5)break}return Math.round(p)}
+/* con 4 opciones se acierta 25 % al azar: se descuenta ese azar, y solo se sigue sumando si el nivel tiene 60 % o más */
+const LEVEL_OK=.6;
+function mcPoints(ans){let p=0;for(let L=0;L<6;L++){const a=ans.filter(x=>x.lv===L);if(!a.length)break;const acc=a.filter(x=>x.ok).length/a.length;p+=Math.max(0,(acc-.25)/.75)*100;if(acc<LEVEL_OK)break}return Math.round(p)}
 /* estimación por reglas: largo, variedad, conectores y estructuras */
 function textPoints(t){
   const words=(t.toLowerCase().match(/[a-z']+/g)||[]);const n=words.length;if(n<10)return n*5;
   const uniq=new Set(words).size/n, sents=Math.max(1,(t.match(/[.!?]+/g)||[]).length), avg=n/sents;
   const has=re=>re.test(t.toLowerCase());
-  let p=Math.min(n,120)/120*70+Math.min(.85,uniq)*60;
+  let p=Math.min(n,120)/120*50+Math.min(.85,uniq)*60;
   if(has(/\b(and|but|because|so|then)\b/))p+=20;
   if(has(/\b(however|although|while|unless|instead|whereas|since|therefore)\b/))p+=60;
   if(has(/\b(nevertheless|nonetheless|furthermore|moreover|despite|albeit|notwithstanding|consequently)\b/))p+=90;
-  const st=[/\b(was|were|went|did|had|saw|made|took|felt|got|\w+ed)\b/,/\b(have|has|had)\s+(been|\w+ed|\w+en|gone|done|seen|made)\b/,/\b(would|could|might)\b/,/\b(was|were|is|are|been|be)\s+\w+ed\b/,/\b(which|who|whose|whom)\b/,/\bif\b.*\b(would|will|had)\b/];
+  const st=[/\b(was|were|went|did|had|saw|made|took|felt|got|(?!(?:need|bed|red|feed|seed|speed|indeed|hundred|shed|bleed|breed|weed)\b)\w{3,}ed)\b/,/\b(have|has|had)\s+(been|\w+ed|\w+en|gone|done|seen|made)\b/,/\b(would|could|might)\b/,/\b(was|were|is|are|been|be)\s+\w+ed\b/,/\b(which|who|whose|whom)\b/,/\bif\b.*\b(would|will|had)\b/];
   p+=st.filter(has).length*28;
   if(avg>=8&&avg<=24)p+=30;
   p+=Math.min(70,words.filter(w=>w.length>=8).length/n*400);
@@ -689,9 +709,10 @@ function wordAcc(target,said){const a=norm(target),b=norm(said);if(!b.length)ret
 function speakPoints(sp){
   const r=EX.speak.map((t,i)=>({t,v:sp[i]||""}));
   const reads=r.filter(x=>x.t.type==="read").map(x=>wordAcc(x.t.text,x.v));
-  const readPts=(reads[0]||0)*200+(reads[1]||0)*100+(reads[2]||0)*100;
+  /* leer en voz alta solo mide pronunciación: como máximo cuenta un A2; el nivel lo dan las respuestas libres */
+  const readPts=reads.reduce((s,a)=>s+a,0)/Math.max(1,reads.length)*200;
   const freePts=textPoints(r.filter(x=>x.t.type==="free").map(x=>x.v).join(". "));
-  return Math.round(Math.min(600,.4*readPts+.6*freePts));
+  return Math.round(Math.min(600,.3*readPts+.7*freePts));
 }
 
 /* ================= registro (local por ahora) ================= */
@@ -764,17 +785,18 @@ function stepMC(){
     <div class="qmeta"><span>${head}</span><span>Pregunta ${X.idx+1} de ${items.length}</span></div>
     ${kind==="listen"?`<button class="play" id="play" ${X.plays>=2?"disabled":""}><b>${ICON_PLAY}</b><span>${X.plays?"Escuchar otra vez":"Escuchar audio"}<small>${2-X.plays} reproducciones disponibles</small></span></button>
       ${tts?"":`<div class="warn">Este navegador no tiene voz en inglés. Texto: “${esc(it.say)}”</div>`}`:""}
-    <p class="qtext">${esc(it.q)}</p>
-    <div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${X.sel===i}" data-i="${i}"><i>${"ABC"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>
+    ${kind==="listen"&&tts&&!X.plays?`<div class="transcript">La pregunta y las opciones aparecen después de escuchar el audio.</div>`
+      :`<p class="qtext">${esc(it.q)}</p>
+    <div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${X.sel===i}" data-i="${i}"><i>${"ABCD"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>`}
     <div class="ex-actions"><span class="note">${kind==="listen"?"Escucha primero; después elige.":"Elige la opción correcta."}</span><button class="btn sun" id="next" ${X.sel==null?"disabled":""}>Siguiente</button></div>`;
   if(kind==="listen"&&tts)$("play").onclick=()=>{X.plays++;speakTTS(it.say);exRender()};
   body.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{X.sel=+b.dataset.i;exRender();body.querySelector(`.opt[data-i="${X.sel}"]`).focus()});
   $("next").onclick=()=>{
-    X.ans[kind].push({lv:it.lv,ok:X.sel===it.a});
+    X.ans[kind].push({lv:it.lv,ok:X.sel===it.a,it,given:it.o[X.sel]});
     X.idx++;X.sel=null;X.plays=0;try{speechSynthesis.cancel()}catch(e){}
     const end=X.idx>=items.length,levelDone=end||items[X.idx].lv!==it.lv;
     if(levelDone){const a=X.ans[kind].filter(x=>x.lv===it.lv),acc=a.filter(x=>x.ok).length/a.length;
-      if(end||acc<.5){go(X.step+1);return}}
+      if(end||acc<LEVEL_OK){go(X.step+1);return}}
     exRender();
   };
 }
@@ -840,7 +862,12 @@ function stepResult(){
     :`<div class="sbar"><div class="shead"><span>${name}</span><span>${lvOf(p).k} · ${lvOf(p).pct} %</span></div><div class="tr"><i style="width:0;background:${c}" data-w="${p/6}"></i></div><div class="ticks">${LV.map(l=>`<span>${l.k}</span>`).join("")}</div></div>`;
   body.innerHTML=`<div class="result"><div class="rwho">Resultado de ${esc(X.name)}</div><div class="lv">${L.k} <span>· ${L.pct} %</span></div><p>${msg}</p></div>
     <div class="sbars">${bar("Escucha",s.listen,"var(--sky)")}${bar("Escrito",s.written,"var(--sun)")}${bar("Redacción",s.essay,"var(--mint)")}${bar("Hablado",s.speak,"var(--coral)")}</div>
-    <p class="note" style="margin-top:18px">La redacción y la parte hablada se califican con reglas automáticas: son una estimación. Escucha y escrito cuentan 35 % cada uno, redacción 10 % y hablado 20 %.</p>
+    <p class="note" style="margin-top:18px">La redacción y la parte hablada se califican con reglas automáticas: son una estimación. Escucha y escrito cuentan 35 % cada uno, redacción 10 % y hablado 20 %. Se descuentan los aciertos que se pueden lograr adivinando.</p>
+    <details style="margin-top:20px"><summary style="cursor:pointer;font-weight:700">Ver mis respuestas (${X.ans.listen.length+X.ans.written.length} preguntas)</summary>
+    <ul class="review">${[...X.ans.listen.map(a=>({...a,k:"Escucha"})),...X.ans.written.map(a=>({...a,k:"Escrito"}))].map(a=>`<li class="${a.ok?"ok":""}">
+      <div class="rq"><span class="tagline">${a.k} · ${LV[a.lv].k}</span>${esc(a.it.q)}</div>
+      <div>Tu respuesta: <b>${esc(a.given||"—")}</b></div>${a.ok?"":`<div>Correcta: <b>${esc(a.it.o[a.it.a])}</b></div>`}
+      ${a.it.say&&!a.ok?`<div class="rx">El audio decía: “${esc(a.it.say)}”</div>`:""}</li>`).join("")}</ul></details>
     <div class="ex-actions"><button class="btn dark" id="again">Repetir examen</button><button class="btn sun" id="toPlan">Ver mi plan desde ${L.k}</button></div>`;
   requestAnimationFrame(()=>requestAnimationFrame(()=>body.querySelectorAll(".sbar i").forEach(i=>i.style.width=i.dataset.w+"%")));
   $("again").onclick=()=>{newExam();exRender()};
