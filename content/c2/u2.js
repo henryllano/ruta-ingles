@@ -107,7 +107,7 @@ lessons: [
   {t:"fill",q:"Despite his reassurances, I still ___ serious doubts about the plan. (albergo)",ans:["harbour","harbor","have"]},
   {t:"listen",say:"The board did its best to allay fears among shareholders, but the CEO's resignation made a further fall in the share price a foregone conclusion.",q:"¿Qué consideraba inevitable el hablante?",o:["La recuperación de las acciones","La renuncia de la junta","Una nueva caída del precio de las acciones","La compra de la empresa"],a:2},
   {t:"oral",text:"Corruption is so deeply entrenched that no single reform can stem the tide."},
-  {t:"mc",q:"Which collocation is NOT natural?",o:["a resounding success","an abject failure","a staunch supporter","a resounding failure of hope"],a:3}
+  {t:"mc",q:"Which collocation is NOT natural?",o:["a resounding success","an abject failure","a staunch supporter","an abject success"],a:3}
  ],
  more:[
   {t:"order",words:["She","has","always","been","a","staunch","supporter","of","public","education."],es:"Siempre ha sido una partidaria acérrima de la educación pública."},
@@ -120,7 +120,7 @@ lessons: [
   {t:"mc",q:"Choose the correct adverb: 'The fans were ___ disappointed by the referee's decision.'",o:["bitterly","heavily","strongly","sourly"],a:0}
  ],
  exam:{t:"mc",q:"Few doubt that the tech giants ___ enormous influence over the public debate.",o:["make","wield","hold up","carry"],a:1},
- exam2:{t:"mc",q:"Leaving the founder's name out of the history was a ___ omission.",o:["glaring","shining","staring","blatant-eyed"],a:0}
+ exam2:{t:"mc",q:"Leaving the founder's name out of the history was a ___ omission.",o:["glaring","shining","staring","beaming"],a:0}
 },
 { id:"c2-u2-l3", title:"Modismos avanzados y expresiones cultas", goal:"Entender y usar modismos de origen histórico, literario o clásico propios de la prensa y la conversación culta.",
  theory:[
@@ -318,7 +318,7 @@ quiz:[
 ],
 pool:[
  {t:"mc",q:"Which word has the most positive connotation?",o:["nosy","prying","inquisitive","meddlesome"],a:2},
- {t:"mc",q:"The CEO's resignation made the takeover a ___ conclusion.",o:["foregone","forgone-out","foretold","forecast"],a:0},
+ {t:"mc",q:"The CEO's resignation made the takeover a ___ conclusion.",o:["foregone","forthcoming","foreseen","forecast"],a:0},
  {t:"mc",q:"'Calling the novel readable is damning it with ___ praise.'",o:["weak","faint","pale","thin"],a:1},
  {t:"mc",q:"'I could just ___ a figure standing in the fog.' (distinguir)",o:["make out","make up","carry off","put across"],a:0},
  {t:"mc",q:"'Una biblioteca' en inglés es:",o:["a bookshop","a bookstore","a library","a librery"],a:2},
