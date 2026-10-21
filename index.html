@@ -1,0 +1,1037 @@
+<title>Ruta A1 → C2</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Nunito+Sans:wght@400;600;700&display=swap">
+<style>
+/* Layout: academia de idiomas. Portada con escena grande, franja amarilla de cifras que se monta sobre ella, tarjetas de niveles con imagen, plan y calculadora. */
+:root{
+  --bg:#FFFFFF; --soft:#F4F6FA; --ink:#1A2238; --mute:#5C6479; --line:#E3E7EF;
+  --ok:#12855F; --sun:#FFB800; --sun-ink:#1A2238; --navy:#18203A; --coral:#FF6B5A; --mint:#2DD4A0; --sky:#3BA9FF;
+  --f-display:"Sora","Trebuchet MS",Arial,sans-serif;
+  --f-body:"Nunito Sans","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121726;--soft:#1A2033;--ink:#EEF1F8;--mute:#A3AAC0;--line:#2A3149;--ok:#2DD4A0;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121726;--soft:#1A2033;--ink:#EEF1F8;--mute:#A3AAC0;--line:#2A3149;--ok:#2DD4A0;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--navy)}
+button,input,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.in{max-width:1180px;margin:0 auto}
+h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance}
+.eyebrow{font-family:var(--f-display);font-weight:700;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--coral)}
+
+/* barra superior y navegación */
+.top{background:var(--navy);color:#C9D0E4;font-size:13px}
+.top .in{display:flex;justify-content:space-between;gap:12px;padding-block:7px;flex-wrap:wrap}
+.top b{color:#fff;font-weight:600}
+nav.main{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--bg);box-shadow:0 1px 0 var(--line)}
+nav.main .in{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.logo{display:flex;align-items:center;gap:10px;font-family:var(--f-display);font-weight:800;font-size:20px;color:var(--ink);text-decoration:none}
+.logo svg{width:34px;height:34px}
+.links{display:flex;gap:26px}
+.links a{font-family:var(--f-display);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-decoration:none;position:relative;padding-block:4px}
+.links a::after{content:"";position:absolute;left:0;right:100%;bottom:-2px;height:2px;background:var(--sun);transition:right .3s}
+.links a:hover::after{right:0}
+@media (max-width:640px){.links{display:none}}
+
+/* portada */
+.hero{position:relative;overflow:hidden;background:var(--navy);min-height:560px;display:flex;align-items:center}
+.hero .scene{position:absolute;inset:0}
+.hero .scene svg,.hero .scene img{width:100%;height:100%;object-fit:cover;display:block}
+.hero .shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(14,19,38,.82) 0%,rgba(14,19,38,.45) 55%,rgba(14,19,38,.1) 100%)}
+.hero .copy{position:relative;z-index:2;padding-block:90px 140px;color:#fff;width:100%}
+.hero h1{font-weight:800;font-size:clamp(38px,6vw,68px);line-height:1.08;max-width:15ch;text-shadow:0 2px 20px rgba(0,0,0,.25)}
+.hero h1 span{color:var(--sun)}
+.hero p{max-width:46ch;font-size:18px;color:#E3E7F3;margin:18px 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;font-family:var(--f-display);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase;padding:14px 26px;border-radius:4px;text-decoration:none;cursor:pointer;border:2px solid transparent;transition:transform .2s,background .2s,color .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn.sun{background:var(--sun);color:var(--sun-ink)}
+.btn.ghost{border-color:#fff;color:#fff;background:transparent}
+.btn.ghost:hover{background:#fff;color:var(--navy)}
+.swap{position:absolute;z-index:3;right:max(16px,env(safe-area-inset-right,0px));bottom:16px;font-size:12px;background:rgba(255,255,255,.92);color:#1A2238;border:0;border-radius:999px;padding:6px 14px;cursor:pointer;font-weight:700}
+.swap:hover{background:#fff}
+
+/* franja de cifras */
+.stats{position:relative;z-index:5;margin-top:-80px}
+.stats .in{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:var(--sun);color:var(--sun-ink);box-shadow:0 20px 40px -20px rgba(24,32,58,.5)}
+.stat{display:flex;gap:18px;align-items:center;padding:30px 28px;border-right:1px solid rgba(26,34,56,.15)}
+.stat:last-child{border-right:0}
+.stat .n{font-family:var(--f-display);font-weight:800;font-size:clamp(40px,5vw,58px);line-height:1;font-variant-numeric:tabular-nums;min-width:2.2ch}
+.stat .t{font-family:var(--f-display);font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.04em;line-height:1.25}
+.stat .t small{display:block;font-family:var(--f-body);text-transform:none;letter-spacing:0;font-weight:600;font-size:13px;opacity:.75;margin-top:4px}
+@media (max-width:760px){.stats .in{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid rgba(26,34,56,.15)}}
+
+/* secciones */
+section.block{padding-block:90px 20px}
+.head{text-align:left;max-width:640px;margin-bottom:36px}
+.head h2{font-weight:800;font-size:clamp(30px,4vw,44px);line-height:1.15;margin-top:6px}
+.head p{color:var(--mute);margin:10px 0 0}
+
+/* tarjetas de niveles */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+@media (max-width:900px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.cards{grid-template-columns:1fr}}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s,border-color .3s}
+.card:hover{transform:translateY(-6px);box-shadow:0 22px 40px -22px rgba(24,32,58,.45)}
+.card.sel{border-color:var(--sun);box-shadow:0 0 0 3px var(--sun)}
+.card .pic{position:relative;aspect-ratio:16/10;overflow:hidden;background:var(--soft)}
+.card .pic svg,.card .pic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
+.card:hover .pic svg,.card:hover .pic img{transform:scale(1.06)}
+.card .badge{position:absolute;left:14px;top:14px;font-family:var(--f-display);font-weight:800;font-size:22px;background:#fff;color:#1A2238;padding:4px 12px;border-radius:4px}
+.card .swap{bottom:10px;right:10px;font-size:11px;padding:4px 10px}
+.card .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-weight:700;font-size:19px}
+.card p{margin:0;color:var(--mute);font-size:15px}
+.card .foot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:14px;border-top:1px solid var(--line);gap:10px}
+.card .hrs{font-weight:700;font-variant-numeric:tabular-nums}
+.card .hrs small{color:var(--mute);font-weight:600}
+.pick{all:unset;cursor:pointer;font-family:var(--f-display);font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--coral)}
+.pick:focus-visible{outline:2px solid var(--sky);outline-offset:3px}
+.card.sel .pick{color:var(--ink)}
+
+/* plan */
+.planbox{background:var(--soft);border-radius:8px;padding:clamp(22px,4vw,48px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px}
+@media (max-width:860px){.planbox{grid-template-columns:minmax(0,1fr)}}
+.big{font-family:var(--f-display);font-weight:800;font-size:clamp(80px,12vw,140px);line-height:.95;font-variant-numeric:tabular-nums;color:var(--ink)}
+.big small{font-size:.3em;color:var(--coral);margin-left:.1em}
+.minis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:22px}
+.mini{background:var(--bg);border-radius:6px;padding:14px 16px;border-top:4px solid var(--sun)}
+.mini:nth-child(2){border-top-color:var(--mint)}.mini:nth-child(3){border-top-color:var(--sky)}
+.mini .v{font-family:var(--f-display);font-weight:800;font-size:clamp(24px,3vw,32px);line-height:1.1;font-variant-numeric:tabular-nums}
+.mini .k{font-size:13px;color:var(--mute);font-weight:600}
+.ctl{display:flex;flex-direction:column;gap:10px;margin-bottom:24px}
+.ctl .lbl{display:flex;justify-content:space-between;gap:12px;font-weight:700}
+.ctl output{font-family:var(--f-display);color:var(--coral)}
+.levels{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.lvbtn{all:unset;cursor:pointer;text-align:center;padding:10px 0;border-radius:4px;background:var(--bg);border:1px solid var(--line);font-family:var(--f-display);font-weight:800;transition:background .2s,transform .2s}
+.lvbtn:hover{transform:translateY(-2px)}
+.lvbtn[aria-checked="true"]{background:var(--sun);color:var(--sun-ink);border-color:var(--sun)}
+.lvbtn:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:28px;background:transparent;cursor:pointer}
+input[type=range]::-webkit-slider-runnable-track{height:6px;border-radius:3px;background:linear-gradient(90deg,var(--sun) var(--p,20%),var(--line) var(--p,20%))}
+input[type=range]::-moz-range-track{height:6px;border-radius:3px;background:var(--line)}
+input[type=range]::-moz-range-progress{height:6px;border-radius:3px;background:var(--sun)}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;margin-top:-8px;border-radius:50%;background:#fff;border:4px solid var(--sun);box-shadow:0 2px 6px rgba(0,0,0,.2)}
+input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:#fff;border:4px solid var(--sun)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{all:unset;cursor:pointer;padding:8px 18px;border-radius:999px;background:var(--bg);border:1px solid var(--line);font-weight:700;font-size:14px;transition:background .2s}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.note{font-size:13px;color:var(--mute);margin:0}
+.weeks{display:grid;grid-template-columns:repeat(auto-fill,minmax(10px,1fr));gap:3px}
+.weeks i{display:block;aspect-ratio:1;border-radius:2px;background:var(--mint);opacity:.75}
+.weeks i:nth-child(4n+2){background:var(--sky)}
+.weeks i.t{background:var(--coral);opacity:1;transform:scale(1.4);border-radius:50%}
+
+/* curso */
+.course{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px}
+@media (max-width:860px){.course{grid-template-columns:minmax(0,1fr)}}
+textarea{width:100%;min-height:250px;resize:vertical;background:var(--soft);border:2px solid var(--line);border-radius:6px;padding:16px;font-family:ui-monospace,Menlo,monospace;font-size:13px;line-height:1.8}
+textarea:focus{border-color:var(--sun);outline:none}
+.tag{display:inline-block;background:var(--coral);color:#fff;font-weight:700;font-size:12px;padding:3px 12px;border-radius:999px}
+.meter{margin-top:22px}
+.meter .track{display:flex;gap:3px;height:12px;border-radius:6px;overflow:hidden}
+.meter .track span{background:var(--line);transition:background .5s}
+.meter .track span.hit{background:var(--mint)}
+.meter .ticks{display:flex;gap:3px;margin-top:6px}
+.meter .ticks span{font-size:12px;font-weight:700;color:var(--mute)}
+.verdict{font-size:20px;line-height:1.45;margin:22px 0 0;max-width:36ch}
+.verdict em{font-style:normal;font-weight:800;background:var(--sun);color:var(--sun-ink);padding:0 .25em;border-radius:3px}
+.mods{list-style:none;padding:0;margin:20px 0 0;max-height:220px;overflow:auto}
+.mods li{display:grid;grid-template-columns:1fr auto;gap:12px;font-size:14px;border-bottom:1px solid var(--line);padding:6px 0}
+.mods li span:last-child{font-weight:700;font-variant-numeric:tabular-nums;color:var(--mute)}
+
+footer{background:var(--navy);color:#AEB6CC;margin-top:90px;font-size:13px}
+footer .in{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-block:34px}
+footer b{color:#fff}
+
+/* estudiante y quizzes */
+.who{all:unset;cursor:pointer;display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;padding:6px 14px 6px 6px;border-radius:999px;background:var(--soft);white-space:nowrap}
+.who b{width:28px;height:28px;border-radius:50%;background:var(--sun);color:#1A2238;display:grid;place-items:center;font-family:var(--f-display);font-size:13px}
+.who:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.qz{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:6px;padding:10px 12px;border-radius:6px;background:var(--soft);flex-wrap:wrap}
+.qstat{font-size:13px;font-weight:700;color:var(--mute);display:flex;align-items:center;gap:6px}
+.qstat svg{width:14px;height:14px;flex:none}
+.qstat.ok{color:var(--ok)}
+.btn-q{all:unset;cursor:pointer;background:var(--sun);color:#1A2238;font-family:var(--f-display);font-weight:800;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:8px 14px;border-radius:4px}
+.btn-q[disabled]{background:var(--line);color:var(--mute);cursor:not-allowed}
+.btn-q:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.card.locked .pic img,.card.locked .pic svg{filter:grayscale(.7) brightness(.9)}
+.blank{display:inline-block;min-width:80px;border-bottom:3px solid var(--sun)}
+.fillin{width:100%;max-width:360px;padding:14px 16px;border:2px solid var(--line);border-radius:8px;background:var(--bg);font-size:18px}
+.fillin:focus{border-color:var(--sun);outline:none}
+.review{list-style:none;padding:0;margin:26px 0 0;display:flex;flex-direction:column;gap:10px}
+.review li{border:1px solid var(--line);border-left:5px solid var(--coral);border-radius:6px;padding:12px 16px;font-size:14px}
+.review li.ok{border-left-color:var(--ok)}
+.review li.half{border-left-color:var(--sun)}
+.review .rq{font-weight:700;margin-bottom:4px}
+.review .rx{color:var(--mute)}
+.tagline{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--soft);color:var(--mute);margin-right:6px}
+
+/* examen: presentación */
+.skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+@media (max-width:760px){.skills{grid-template-columns:1fr}}
+.skill{border-radius:8px;padding:26px;color:#1A2238;display:flex;flex-direction:column;gap:8px}
+.skill:nth-child(1){background:#C9E6FF}.skill:nth-child(2){background:#FFE7A3}.skill:nth-child(3){background:#FFD3CC}
+.skill .ic{width:46px;height:46px;border-radius:50%;background:#fff;display:grid;place-items:center}
+.skill .ic svg{width:24px;height:24px}
+.skill h3{font-size:20px}
+.skill p{margin:0;font-size:15px;opacity:.85}
+.skill .min{font-weight:700;font-size:13px;margin-top:auto}
+.examcta{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:28px}
+.btn.dark{background:var(--ink);color:var(--bg)}
+.fromline{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-weight:700;color:var(--mute)}
+.fromchip{all:unset;cursor:pointer;font-size:12px;padding:3px 10px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+
+/* resultados */
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table{width:100%;border-collapse:collapse;font-size:14px;min-width:640px}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-family:var(--f-display);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);background:var(--soft)}
+tr:last-child td{border-bottom:0}
+td.lvl b{font-family:var(--f-display);font-size:16px}
+.pill{display:inline-block;padding:2px 10px;border-radius:999px;background:var(--soft);font-weight:700;font-size:12px}
+.mini-btn{all:unset;cursor:pointer;font-weight:700;font-size:13px;color:var(--coral);margin-right:12px}
+.mini-btn:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.empty{padding:30px;text-align:center;color:var(--mute)}
+
+/* examen: pantalla */
+.exam{position:fixed;inset:0;z-index:90;background:var(--bg);overflow:auto}
+.ex-top{position:sticky;top:0;z-index:2;background:var(--navy);color:#fff;padding-top:env(safe-area-inset-top,0px)}
+.ex-top .in{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-block:14px;flex-wrap:wrap}
+.steps{display:flex;gap:6px;flex-wrap:wrap}
+.steps span{font-size:12px;font-weight:700;padding:4px 12px;border-radius:999px;background:rgba(255,255,255,.1);color:#AEB6CC}
+.steps span.on{background:var(--sun);color:#1A2238}
+.steps span.done{background:rgba(45,212,160,.25);color:#fff}
+.ex-close{all:unset;cursor:pointer;font-weight:700;font-size:13px;color:#fff}
+.ex-close:focus-visible{outline:2px solid var(--sun);outline-offset:3px}
+.ex-confirm{display:flex;gap:10px;align-items:center;font-size:13px}
+.ex-confirm button{all:unset;cursor:pointer;font-weight:700;padding:4px 12px;border-radius:4px;background:#fff;color:#1A2238}
+.ex-confirm button.no{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
+.ex-body{max-width:760px;margin:0 auto;padding-block:40px 80px}
+.ex-body h2{font-size:clamp(26px,4vw,38px);font-weight:800;line-height:1.15}
+.ex-body .lead{color:var(--mute);margin:10px 0 26px}
+.progress{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-bottom:26px}
+.progress i{display:block;height:100%;background:var(--sun);transition:width .4s}
+.qmeta{display:flex;justify-content:space-between;font-size:13px;font-weight:700;color:var(--mute);margin-bottom:10px}
+.qtext{font-family:var(--f-display);font-size:clamp(20px,3vw,26px);font-weight:700;line-height:1.35;margin:0 0 22px}
+.opts{display:flex;flex-direction:column;gap:10px}
+.opt{all:unset;cursor:pointer;display:flex;gap:14px;align-items:center;padding:16px 18px;border:2px solid var(--line);border-radius:8px;font-size:16px;transition:border-color .2s,background .2s}
+.opt:hover{border-color:var(--mute)}
+.opt i{flex:none;width:28px;height:28px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-style:normal;font-weight:800;font-size:13px}
+.opt[aria-checked="true"]{border-color:var(--sun);background:rgba(255,184,0,.12)}
+.opt[aria-checked="true"] i{background:var(--sun);border-color:var(--sun);color:#1A2238}
+.opt:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.ex-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:28px;flex-wrap:wrap}
+.btn[disabled]{opacity:.4;pointer-events:none}
+.play{all:unset;cursor:pointer;display:flex;align-items:center;gap:16px;padding:14px 22px 14px 14px;border-radius:999px;background:var(--soft);margin-bottom:24px;font-weight:700}
+.play b{width:52px;height:52px;border-radius:50%;background:var(--sun);display:grid;place-items:center}
+.play b svg{width:22px;height:22px}
+.play small{display:block;font-weight:600;color:var(--mute)}
+.play[disabled]{opacity:.5;pointer-events:none}
+.play:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:18px}
+.field label{font-weight:700}
+.field input{padding:14px 16px;border:2px solid var(--line);border-radius:8px;background:var(--bg);font-size:16px}
+.field input:focus{border-color:var(--sun);outline:none}
+.err{color:var(--coral);font-weight:700;font-size:14px;min-height:1.2em;margin:0}
+.wc{font-size:13px;font-weight:700;color:var(--mute);margin-top:8px}
+.say{font-family:var(--f-display);font-size:clamp(20px,3vw,26px);font-weight:700;background:var(--soft);border-left:6px solid var(--mint);padding:18px 20px;border-radius:6px;margin:0 0 20px;line-height:1.4}
+.rec{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:12px;padding:14px 24px;border-radius:999px;background:var(--coral);color:#fff;font-weight:800;font-family:var(--f-display)}
+.rec .dot{width:12px;height:12px;border-radius:50%;background:#fff}
+.rec.on .dot{animation:pulse 1s infinite}
+@keyframes pulse{50%{opacity:.2;transform:scale(1.5)}}
+.rec:focus-visible{outline:3px solid var(--sky);outline-offset:3px}
+.transcript{margin-top:18px;min-height:70px;padding:14px 16px;border:2px dashed var(--line);border-radius:8px;color:var(--mute);font-size:15px}
+.transcript.has{color:var(--ink);border-style:solid}
+.warn{background:rgba(255,107,90,.12);border-radius:8px;padding:14px 16px;font-size:14px;margin-top:16px}
+.linkbtn{all:unset;cursor:pointer;font-weight:700;color:var(--mute);text-decoration:underline;font-size:14px}
+.linkbtn:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.result{border-radius:12px;background:var(--navy);color:#fff;padding:clamp(24px,5vw,44px);position:relative;overflow:hidden}
+.result::after{content:"";position:absolute;right:-60px;top:-60px;width:240px;height:240px;border-radius:50%;background:var(--sun);opacity:.9}
+.result .rwho{font-weight:700;color:#AEB6CC;position:relative;z-index:1}
+.result .lv{font-family:var(--f-display);font-weight:800;font-size:clamp(64px,12vw,120px);line-height:1;margin:6px 0;position:relative;z-index:1}
+.result .lv span{color:var(--sun)}
+.result p{margin:0;max-width:44ch;color:#E3E7F3;position:relative;z-index:1}
+.sbars{display:grid;gap:14px;margin-top:28px}
+.sbar .shead{display:flex;justify-content:space-between;font-weight:700;margin-bottom:6px}
+.sbar .tr{height:10px;border-radius:5px;background:var(--line);position:relative;overflow:hidden}
+.sbar .tr i{position:absolute;inset:0 auto 0 0;border-radius:5px;transition:width 1s cubic-bezier(.2,.8,.2,1)}
+.sbar .ticks{display:flex;justify-content:space-between;font-size:11px;color:var(--mute);margin-top:4px;font-weight:700}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
+</style>
+
+<div class="top gut"><div class="in">
+  <span>Planificador de estudio · <b>de cero a C2</b></span>
+  <span>Horas guía del Marco Común Europeo</span>
+</div></div>
+
+<nav class="main gut"><div class="in">
+  <a class="logo" href="#inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 6 2 15l18 9 18-9z" fill="#FFB800"/><path d="M9 19v8c0 3 5 6 11 6s11-3 11-6v-8l-11 5.5z" fill="#1A2238"/><path d="M35 16v10" stroke="#FF6B5A" stroke-width="2.5" stroke-linecap="round"/></svg>RUTA A1</a>
+  <div class="links"><a href="#examen">Examen</a><a href="#niveles">Niveles</a><a href="#plan">Tu plan</a><a href="#curso">Tu curso</a><a href="#resultados">Resultados</a></div>
+  <button class="who" id="whoBtn"></button>
+</div></nav>
+
+<header class="hero" id="inicio">
+  <div class="scene" id="heroScene"></div>
+  <div class="shade"></div>
+  <div class="copy gut"><div class="in">
+    <h1>Aprende idiomas y llega a tu <span id="heroTarget">B2</span></h1>
+    <p>Calcula cuántas horas necesitas desde cero, cuándo llegarías a tu ritmo y cuánto cubre tu curso de Hotmart.</p>
+    <div class="btns">
+      <button class="btn sun" data-open-exam>Hacer examen de nivel</button>
+      <a class="btn ghost" href="#plan">Calcular mi plan</a>
+    </div>
+  </div></div>
+  <button class="swap" data-slot="hero">Cambiar foto</button>
+</header>
+
+<div class="stats gut"><div class="in">
+  <div class="stat"><div class="n">6</div><div class="t">Niveles MCER<small>Del A1 al C2</small></div></div>
+  <div class="stat"><div class="n" id="sHours">550</div><div class="t">Horas hasta <span id="sLv">B2</span><small id="sFrom">Partiendo desde cero</small></div></div>
+  <div class="stat"><div class="n" id="sMonths">21</div><div class="t">Meses a tu ritmo<small id="sRate">Con 6 h por semana</small></div></div>
+</div></div>
+
+<main>
+  <section class="block gut" id="examen"><div class="in">
+    <div class="head">
+      <div class="eyebrow">Examen de nivelación</div>
+      <h2>Descubre tu nivel real de inglés</h2>
+      <p>Tres partes, unos 30 minutos. Al final ves tu nivel, por ejemplo A2 · 80 %, y tu plan se ajusta solo. Usa Chrome y ten a mano audífonos y micrófono.</p>
+    </div>
+    <div class="skills">
+      <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1A2238" stroke-width="2" stroke-linecap="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg></span><h3>Escucha</h3><p>12 audios cortos en inglés. Puedes oír cada uno dos veces y eliges la respuesta.</p><span class="min">≈ 8 min</span></div>
+      <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1A2238" stroke-width="2" stroke-linecap="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></span><h3>Escrito</h3><p>18 preguntas de gramática, vocabulario y lectura, y una redacción corta de 60 a 120 palabras.</p><span class="min">≈ 14 min</span></div>
+      <div class="skill"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#1A2238" stroke-width="2" stroke-linecap="round"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><path d="M12 17v4"/></svg></span><h3>Hablado</h3><p>Lees tres frases en voz alta y respondes dos preguntas hablando. Chrome transcribe lo que dices.</p><span class="min">≈ 6 min</span></div>
+    </div>
+    <div class="examcta">
+      <button class="btn sun" data-open-exam>Empezar examen</button>
+      <span class="note">Las preguntas suben de dificultad y el examen se detiene antes si el nivel ya es muy alto para ti.</span>
+    </div>
+  </div></section>
+
+  <section class="block gut" id="niveles"><div class="in">
+    <div class="head">
+      <div class="eyebrow">Niveles</div>
+      <h2>Elige hasta dónde quieres llegar</h2>
+      <p>Cada nivel tiene un quiz de 10 preguntas: escrito, escucha y oral. Necesitas 70 % para aprobarlo y desbloquear el siguiente nivel.</p>
+    </div>
+    <div class="cards" id="cards"></div>
+  </div></section>
+
+  <section class="block gut" id="plan"><div class="in">
+    <div class="head">
+      <div class="eyebrow">Tu plan</div>
+      <h2>¿Cuándo llegas a tu meta?</h2>
+    </div>
+    <div class="planbox">
+      <div>
+        <div class="fromline"><span>Horas <span id="fromLbl">desde cero</span> hasta <span id="tgtLbl">B2</span></span><button class="fromchip" id="fromReset" hidden>Calcular desde cero</button></div>
+        <div class="big" id="bigHours" aria-live="polite">550<small>h</small></div>
+        <div class="minis">
+          <div class="mini"><div class="v" id="vWeeks">0</div><div class="k">semanas</div></div>
+          <div class="mini"><div class="v" id="vMonths">0</div><div class="k">meses</div></div>
+          <div class="mini"><div class="v" id="vDate">—</div><div class="k">llegada aprox.</div></div>
+        </div>
+        <div class="ctl" style="margin-top:26px;margin-bottom:0">
+          <span class="note">Cada cuadro es una semana de estudio. El punto coral es tu llegada.</span>
+          <div class="weeks" id="weeks" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div>
+        <div class="ctl">
+          <span class="lbl">Meta</span>
+          <div class="levels" id="levels" role="radiogroup" aria-label="Nivel meta"></div>
+        </div>
+        <div class="ctl">
+          <label class="lbl" for="rate"><span>Horas por semana</span><output id="rateOut" for="rate">6 h</output></label>
+          <input type="range" id="rate" min="1" max="25" step="0.5" value="6">
+        </div>
+        <div class="ctl">
+          <span class="lbl">Estimación</span>
+          <div class="chips" id="est">
+            <button class="chip" data-k="lo" aria-pressed="false">Rápida</button>
+            <button class="chip" data-k="mid" aria-pressed="true">Media</button>
+            <button class="chip" data-k="hi" aria-pressed="false">Holgada</button>
+          </div>
+          <p class="note">Rápida usa el mínimo del rango MCER y holgada el máximo. Tu lengua materna y la práctica fuera del curso cambian el ritmo real.</p>
+        </div>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="block gut" id="curso"><div class="in">
+    <div class="head">
+      <div class="eyebrow">Tu curso</div>
+      <h2>¿Cuántas horas trae tu curso?</h2>
+      <p>Pega las lecciones del Club de Hotmart con su duración, una por línea. Acepta 1:25:30, 12:40, 2h 15min o 45 min.</p>
+    </div>
+    <div class="course">
+      <div>
+        <span class="tag">Ejemplo · reemplázalo con tu curso</span>
+        <label for="mods" style="display:block;margin:14px 0 8px;font-weight:700">Lecciones</label>
+        <textarea id="mods" spellcheck="false">Bienvenida y método — 8:20
+Módulo 1 · Saludos y presentaciones — 1h 10min
+Módulo 2 · Verbo to be — 1:32:00
+Módulo 3 · Rutinas y presente simple — 2h
+Módulo 4 · Pronunciación básica — 48 min
+Módulo 5 · Pasado simple — 1:55:10
+Módulo 6 · Conversación guiada — 2h 30min</textarea>
+      </div>
+      <div>
+        <div style="font-weight:700;color:var(--mute)">Video total</div>
+        <div class="big" id="courseHours" style="font-size:clamp(70px,10vw,120px)">0<small>h</small></div>
+        <div class="meter" aria-hidden="true"><div class="track" id="mBar"></div><div class="ticks" id="mTicks"></div></div>
+        <p class="verdict" id="verdict"></p>
+        <ul class="mods" id="modList"></ul>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="block gut" id="resultados"><div class="in">
+    <div class="head">
+      <div class="eyebrow">Resultados</div>
+      <h2>Historial de exámenes</h2>
+      <p>Cada intento queda registrado con el nombre de la persona. Por ahora se guarda en este navegador; al publicar la página lo pasaremos a una base de datos.</p>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Nombre</th><th>Fecha</th><th>Nivel</th><th>Escucha</th><th>Escrito</th><th>Redacción</th><th>Hablado</th><th>Quizzes aprobados</th><th></th></tr></thead>
+      <tbody id="resBody"></tbody>
+    </table></div>
+  </div></section>
+</main>
+
+<footer class="gut"><div class="in">
+  <span><b>Horas guía acumuladas</b> (Cambridge English / MCER): A1 ≈90–100 · A2 ≈180–200 · B1 ≈350–400 · B2 ≈500–600 · C1 ≈700–800 · C2 ≈1000–1200</span>
+  <span>Cifras orientativas, no del curso</span>
+</div></footer>
+
+<input type="file" id="photoIn" accept="image/*" hidden>
+
+<div class="exam" id="exam" hidden role="dialog" aria-modal="true" aria-label="Examen de nivelación">
+  <div class="ex-top gut"><div class="in">
+    <div class="steps" id="exSteps"></div>
+    <div id="exCloseWrap"><button class="ex-close" id="exClose">Salir ✕</button></div>
+  </div></div>
+  <div class="ex-body gut" id="exBody"></div>
+</div>
+
+<script>
+const LV=[
+  {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
+  {k:"A2",name:"Básico",lo:180,hi:200,can:"Resuelves compras, rutinas y temas cotidianos.",bg:"#BFF0DF",w:["Coffee, please","Thanks!"]},
+  {k:"B1",name:"Intermedio",lo:350,hi:400,can:"Te defiendes viajando y cuentas experiencias.",bg:"#C9E6FF",w:["Last summer…","Really?"]},
+  {k:"B2",name:"Intermedio alto",lo:500,hi:600,can:"Conversas con fluidez y sigues series sin subtítulos.",bg:"#FFD3CC",w:["I'd say that…","Good point"]},
+  {k:"C1",name:"Avanzado",lo:700,hi:800,can:"Trabajas o estudias en el idioma con soltura.",bg:"#E0D9FF",w:["Let's discuss","Agreed"]},
+  {k:"C2",name:"Maestría",lo:1000,hi:1200,can:"Dominio casi nativo, matices y registro.",bg:"#D5F5B8",w:["Spot on!","Indeed"]}
+];
+const S={target:3,rate:6,est:"mid",startPts:0};
+try{Object.assign(S,JSON.parse(localStorage.getItem("ruta3")||"{}"))}catch(e){}
+const save=()=>{try{localStorage.setItem("ruta3",JSON.stringify(S))}catch(e){}};
+const hrs=(l,e=S.est)=>e==="lo"?l.lo:e==="hi"?l.hi:Math.round((l.lo+l.hi)/2);
+const $=id=>document.getElementById(id);
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+/* ilustraciones: estudiantes geométricos */
+const SKIN=["#F2C7A5","#C68B62","#8D5A3B","#F7D9C4","#A86E4C"];
+const HAIR=["#2B1D14","#5A3A22","#111","#C98B3A","#3A2A20"];
+const SHIRT=["#FF6B5A","#2DD4A0","#3BA9FF","#FFB800","#7C6CFF","#FF8DB6"];
+function person(x,y,s,i,book){
+  const sk=SKIN[i%5],h=HAIR[(i*3)%5],sh=SHIRT[i%6],long=i%2===0;
+  return `<g transform="translate(${x} ${y}) scale(${s})">
+    ${long?`<rect x="-40" y="-70" width="80" height="95" rx="38" fill="${h}"/>`:""}
+    <rect x="-62" y="38" width="124" height="150" rx="56" fill="${sh}"/>
+    <rect x="-13" y="18" width="26" height="30" rx="10" fill="${sk}"/>
+    <circle cx="0" cy="-12" r="38" fill="${sk}"/>
+    <path d="M-39 -14 a39 39 0 0 1 78 0 q-20 -14 -42 -10 q-20 4 -36 10z" fill="${h}"/>
+    <circle cx="-13" cy="-8" r="3.6" fill="#1A2238"/><circle cx="13" cy="-8" r="3.6" fill="#1A2238"/>
+    <path d="M-11 8 q11 10 22 0" stroke="#1A2238" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+    <circle cx="-22" cy="4" r="5" fill="#FF8D8D" opacity=".45"/><circle cx="22" cy="4" r="5" fill="#FF8D8D" opacity=".45"/>
+    ${book?`<rect x="-44" y="70" width="88" height="60" rx="5" fill="#fff"/><rect x="-2" y="70" width="4" height="60" fill="${SHIRT[(i+2)%6]}"/><circle cx="-48" cy="104" r="13" fill="${sk}"/><circle cx="48" cy="104" r="13" fill="${sk}"/>`:""}
+  </g>`;
+}
+function bubble(x,y,t,c,flip){
+  const w=t.length*13+34;
+  return `<g transform="translate(${x} ${y})"><rect x="${flip?-w:0}" y="-30" width="${w}" height="46" rx="23" fill="${c}"/>
+    <path d="M${flip?-18:18} 14 l${flip?6:-6} 16 l${flip?-18:18} -16z" fill="${c}"/>
+    <text x="${flip?-w/2:w/2}" y="1" text-anchor="middle" dominant-baseline="middle" font-family="Sora,Arial,sans-serif" font-weight="700" font-size="20" fill="#1A2238">${t}</text></g>`;
+}
+function classroom(bg,seed,words,wide){
+  const W=wide?1600:800,H=wide?720:500;
+  const win=wide?`<rect x="980" y="60" width="440" height="300" rx="14" fill="#BFE6FF"/><rect x="1195" y="60" width="10" height="300" fill="#fff"/><rect x="980" y="205" width="440" height="10" fill="#fff"/><circle cx="1360" cy="120" r="34" fill="#FFE27A"/>`
+    :`<rect x="520" y="40" width="220" height="160" rx="12" fill="#ffffff" opacity=".55"/><circle cx="690" cy="80" r="22" fill="#FFE27A"/>`;
+  const board=wide?`<rect x="120" y="70" width="560" height="250" rx="14" fill="#2F6F5E"/><text x="400" y="190" text-anchor="middle" font-family="Sora,Arial" font-weight="800" font-size="64" fill="#fff" opacity=".85">ABC · A1→C2</text>`
+    :`<rect x="60" y="46" width="300" height="150" rx="12" fill="#2F6F5E"/><text x="210" y="132" text-anchor="middle" font-family="Sora,Arial" font-weight="800" font-size="40" fill="#fff" opacity=".85">${words.lv}</text>`;
+  let people="",bubbles="";
+  if(wide){
+    const P=[[560,420,1.25],[860,450,1.35],[1150,430,1.25],[1400,470,1.15]];
+    P.forEach((p,i)=>people+=person(p[0],p[1],p[2],seed+i,i%2===1));
+    bubbles=bubble(600,300,"Hello!","#FFB800")+bubble(1110,320,"¡Hola!","#2DD4A0",true)+bubble(1300,250,"Bonjour","#FF8DB6")+bubble(860,250,"Ciao!","#3BA9FF");
+  }else{
+    people=person(250,330,1,seed,true)+person(530,350,1.05,seed+1,false);
+    bubbles=bubble(300,210,words.w[0],"#fff")+bubble(560,240,words.w[1],"#fff",true);
+  }
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de estudiantes conversando">
+    <rect width="${W}" height="${H}" fill="${bg}"/>${win}${board}
+    <g class="pl">${people}</g>
+    <rect x="0" y="${H-(wide?110:80)}" width="${W}" height="${wide?110:80}" fill="#8A5A3C"/><rect x="0" y="${H-(wide?110:80)}" width="${W}" height="10" fill="#A8734F"/>
+    <g class="bb">${bubbles}</g></svg>`;
+}
+
+/* fotos propias (solo en este navegador) */
+const photos={};
+try{Object.assign(photos,JSON.parse(localStorage.getItem("ruta3-photos")||"{}"))}catch(e){}
+let slot=null;
+document.addEventListener("click",e=>{const b=e.target.closest(".swap");if(b){slot=b.dataset.slot;$("photoIn").click()}});
+$("photoIn").addEventListener("change",e=>{
+  const f=e.target.files[0];if(!f||!slot)return;
+  const img=new Image();img.onload=()=>{
+    const c=document.createElement("canvas"),m=slot==="hero"?1600:800,r=Math.min(1,m/img.width);
+    c.width=img.width*r;c.height=img.height*r;c.getContext("2d").drawImage(img,0,0,c.width,c.height);
+    photos[slot]=c.toDataURL("image/jpeg",.8);
+    try{localStorage.setItem("ruta3-photos",JSON.stringify(photos))}catch(err){}
+    paintPics();URL.revokeObjectURL(img.src);e.target.value="";
+  };img.src=URL.createObjectURL(f);
+});
+/* fotos incluidas en la página; las que falten usan ilustración */
+const IMG={hero:["img/hero.webp","Grupo de jóvenes y adultos estudiando inglés en una cafetería"],lv0:["img/lv0.webp","Mujer estudiando inglés con audífonos en casa"],
+  lv1:["img/lv1.webp","Joven pidiendo un café en inglés"],
+  lv2:["img/lv2.webp","Pareja viajando con maletas en un aeropuerto"],
+  lv3:["img/lv3.webp","Amigos viendo una serie en inglés en casa"],
+  lv4:["img/lv4.webp","Hombre presentando en inglés en una reunión de oficina"],
+  lv5:["img/lv5.webp","Mujer dando una charla en inglés en un auditorio"]};
+const picHTML=(key,svg)=>photos[key]?`<img src="${photos[key]}" alt="Foto">`:IMG[key]?`<img src="${IMG[key][0]}" alt="${IMG[key][1]}"${key==="hero"?"":` loading="lazy"`}>`:svg;
+
+/* tarjetas */
+const cardsEl=$("cards");
+const cards=LV.map((l,i)=>{
+  const c=document.createElement("article");c.className="card";
+  c.innerHTML=`<div class="pic"></div><div class="body"><h3>${l.name}</h3><p>${l.can}</p>
+    <div class="qz"><span class="qstat"></span><button class="btn-q">Hacer quiz</button></div>
+    <div class="foot"><span class="hrs"></span><button class="pick">Fijar meta →</button></div></div>`;
+  c.querySelector(".btn-q").onclick=()=>openQuiz(i);
+  c.querySelector(".pick").onclick=()=>{S.target=i;render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})};
+  cardsEl.appendChild(c);return c;
+});
+function paintPics(){
+  $("heroScene").innerHTML=picHTML("hero",classroom("#FFD873",0,null,true));
+  cards.forEach((c,i)=>{const l=LV[i];
+    c.querySelector(".pic").innerHTML=picHTML("lv"+i,classroom(l.bg,i*2+1,{w:l.w,lv:l.k}))+`<span class="badge">${l.k}</span><button class="swap" data-slot="lv${i}">Cambiar foto</button>`});
+}
+paintPics();
+
+/* niveles del plan */
+const lvWrap=$("levels");
+LV.forEach((l,i)=>{const b=document.createElement("button");b.className="lvbtn";b.textContent=l.k;b.setAttribute("role","radio");
+  b.onclick=()=>{S.target=i;render()};
+  b.onkeydown=e=>{const n=e.key==="ArrowRight"?1:e.key==="ArrowLeft"?-1:0;if(n){S.target=Math.max(0,Math.min(5,S.target+n));render();lvWrap.children[S.target].focus();e.preventDefault()}};
+  lvWrap.appendChild(b)});
+
+function tween(el,to,suffix="",dec=0){
+  const from=parseFloat(el.dataset.v||0);el.dataset.v=to;
+  if(reduce){el.innerHTML=to.toFixed(dec)+suffix;return}
+  const t0=performance.now(),d=800;
+  (function f(t){const p=Math.min(1,(t-t0)/d),e=1-Math.pow(1-p,4);
+    el.innerHTML=(from+(to-from)*e).toFixed(dec)+suffix;if(p<1)requestAnimationFrame(f)})(t0);
+}
+
+function render(){
+  const k=LV[S.target].k,total=Math.max(0,Math.round(hrs(LV[S.target])-hoursAt(S.startPts)));
+  const from=S.startPts?`desde ${lvOf(S.startPts).k} · ${lvOf(S.startPts).pct} %`:"desde cero";
+  $("fromLbl").textContent=from;$("sFrom").textContent="Partiendo "+from;$("fromReset").hidden=!S.startPts;
+  cards.forEach((c,i)=>{const seg=hrs(LV[i])-(i?hrs(LV[i-1]):0);
+    c.querySelector(".hrs").innerHTML=`${hrs(LV[i])} h <small>(+${seg})</small>`;
+    const st=curStudent(),q=st&&st.quiz&&st.quiz[i],un=unlocked(i),qb=c.querySelector(".btn-q"),qs=c.querySelector(".qstat");
+    qb.disabled=!un;qb.textContent=q&&q.passed?"Repetir quiz":q?"Reintentar":"Hacer quiz";
+    qs.className="qstat"+(q&&q.passed?" ok":"");
+    qs.innerHTML=q&&q.passed?`${ICON_OK} Aprobado · ${q.best} %`:!un?`${ICON_LOCK} Aprueba ${LV[i-1].k} para abrir`:q?`Último: ${q.last} % · necesitas 70 %`:"Quiz disponible";
+    c.classList.toggle("locked",!un);
+    c.classList.toggle("sel",i===S.target);
+    c.querySelector(".pick").textContent=i===S.target?"Tu meta ✓":"Fijar meta →"});
+  [...lvWrap.children].forEach((b,i)=>{b.setAttribute("aria-checked",i===S.target);b.tabIndex=i===S.target?0:-1});
+  $("heroTarget").textContent=$("tgtLbl").textContent=$("sLv").textContent=k;
+  const weeks=Math.ceil(total/S.rate),months=weeks/4.345;
+  tween($("bigHours"),total,"<small>h</small>");tween($("sHours"),total);
+  tween($("vWeeks"),weeks);tween($("vMonths"),months,"",1);tween($("sMonths"),Math.round(months));
+  $("sRate").textContent=`Con ${S.rate} h por semana`;
+  const d=new Date();d.setDate(d.getDate()+weeks*7);
+  $("vDate").textContent=d.toLocaleDateString("es",{month:"short",year:"numeric"}).replace(".","");
+  const r=$("rate");r.value=S.rate;r.style.setProperty("--p",((S.rate-1)/24*100)+"%");$("rateOut").textContent=S.rate+" h";
+  document.querySelectorAll("#est .chip").forEach(c=>c.setAttribute("aria-pressed",c.dataset.k===S.est));
+  const w=$("weeks"),cap=Math.min(weeks,520);w.innerHTML="";
+  for(let i=0;i<cap;i++){const c=document.createElement("i");if(i===cap-1)c.className="t";w.appendChild(c)}
+  renderCourse();save();
+}
+$("rate").addEventListener("input",e=>{S.rate=+e.target.value;render()});
+$("est").addEventListener("click",e=>{const c=e.target.closest(".chip");if(c){S.est=c.dataset.k;render()}});
+
+/* curso */
+function parseDur(line){
+  let m=line.match(/(\d{1,2}):(\d{2}):(\d{2})(?!.*\d:\d)/);if(m)return +m[1]*3600+ +m[2]*60+ +m[3];
+  m=line.match(/(\d{1,3}):(\d{2})(?!.*\d:\d)/);if(m)return +m[1]*60+ +m[2];
+  let s=0,ok=false;
+  const h=line.match(/(\d+(?:[.,]\d+)?)\s*(?:h|hr|hrs|hora|horas)\b/i),mi=line.match(/(\d+)\s*(?:m|min|mins|minutos?)\b/i);
+  if(h){s+=parseFloat(h[1].replace(",","."))*3600;ok=true}if(mi){s+=+mi[1]*60;ok=true}
+  return ok?s:null;
+}
+const fmt=s=>{const h=Math.floor(s/3600),m=Math.round(s%3600/60);return h?`${h} h ${String(m).padStart(2,"0")} min`:`${m} min`};
+function renderCourse(){
+  const lines=$("mods").value.split("\n").map(l=>l.trim()).filter(Boolean);
+  let sec=0;const list=$("modList");list.innerHTML="";
+  lines.forEach(l=>{const d=parseDur(l);if(d)sec+=d;
+    const li=document.createElement("li");
+    const name=l.replace(/[—–\-·|:]?\s*(\d{1,2}:)?\d{1,3}:\d{2}\s*$/,"").replace(/\d+(?:[.,]\d+)?\s*(h|hr|hrs|horas?)\b.*$/i,"").replace(/\d+\s*(min|mins|minutos?)\b.*$/i,"").replace(/[—–\-·|]\s*$/,"").trim()||l;
+    li.innerHTML=`<span></span><span>${d?fmt(d):"sin duración"}</span>`;li.firstChild.textContent=name;list.appendChild(li)});
+  const h=sec/3600,seg=i=>hrs(LV[i])-(i?hrs(LV[i-1]):0);
+  tween($("courseHours"),h,"<small>h</small>",1);
+  $("mBar").innerHTML=LV.map((l,i)=>`<span class="${h>=hrs(l)?"hit":""}" style="flex:${seg(i)}"></span>`).join("");
+  $("mTicks").innerHTML=LV.map((l,i)=>`<span style="flex:${seg(i)}">${l.k}</span>`).join("");
+  const goal=hrs(LV[S.target]),reached=[...LV].reverse().find(l=>h>=hrs(l)),v=$("verdict");
+  if(!sec){v.textContent="Pega al menos una lección con duración para ver la comparación.";return}
+  v.innerHTML=`El video cubre <em>${Math.round(h/goal*100)}%</em> de las horas guía hasta ${LV[S.target].k}. `+
+    (reached?`Suma lo de un ${reached.k} completo. `:`Todavía no llega a las horas de un A1. `)+
+    `Faltarían unas <em>${Math.max(0,Math.round(goal-h))} h</em> de práctica.`;
+}
+$("mods").addEventListener("input",renderCourse);
+
+/* paralaje suave en la portada */
+if(!reduce){
+  let mx=0,my=0,cx=0,cy=0;const hero=document.querySelector(".hero");
+  hero.addEventListener("pointermove",e=>{const r=hero.getBoundingClientRect();mx=(e.clientX-r.left)/r.width-.5;my=(e.clientY-r.top)/r.height-.5});
+  (function loop(){cx+=(mx-cx)*.08;cy+=(my-cy)*.08;
+    const pl=hero.querySelector(".pl"),bb=hero.querySelector(".bb");
+    if(pl)pl.setAttribute("transform",`translate(${cx*-24} ${cy*-12+scrollY*.06})`);
+    if(bb)bb.setAttribute("transform",`translate(${cx*-50} ${cy*-30+scrollY*.12})`);
+    const im=hero.querySelector(".scene img");if(im)im.style.transform=`scale(1.08) translate(${cx*-14}px,${cy*-10+scrollY*.04}px)`;
+    requestAnimationFrame(loop)})();
+}
+
+/* ================= nivel ⇄ puntos =================
+   0–600 puntos: cada nivel aporta hasta 100. 180 = A2 al 80 %. */
+function lvOf(p){p=Math.max(0,Math.min(600,p));if(p>=600)return{i:5,k:"C2",pct:100};const i=Math.floor(p/100);return{i,k:LV[i].k,pct:Math.round(p-i*100)}}
+function hoursAt(p){if(!p)return 0;const {i}=lvOf(p),f=Math.min(1,(p-i*100)/100),prev=i?hrs(LV[i-1]):0;return prev+f*(hrs(LV[i])-prev)}
+$("fromReset").onclick=()=>{S.startPts=0;render()};
+
+/* ================= banco de preguntas ================= */
+const EX={
+  listen:[
+    {lv:0,say:"Hi, my name is Laura. I am from Canada.",q:"Where is Laura from?",o:["Colombia","Canada","Cuba"],a:1},
+    {lv:0,say:"The bus leaves at eight fifteen.",q:"What time does the bus leave?",o:["8:15","8:50","7:15"],a:0},
+    {lv:1,say:"Can I have a large coffee with milk and no sugar, please?",q:"What does the person order?",o:["A small coffee with sugar","A large tea with milk","A large coffee with milk, no sugar"],a:2},
+    {lv:1,say:"I'm sorry, I can't come to the party on Saturday because I have to work.",q:"Why can't the speaker go to the party?",o:["They have to work","They are sick","They are travelling"],a:0},
+    {lv:2,say:"We were planning to go to the beach, but it started raining, so we stayed home and watched a movie instead.",q:"What did they finally do?",o:["They went to the beach","They watched a movie at home","They went to the cinema"],a:1},
+    {lv:2,say:"If you take the second street on the left, you'll see the pharmacy right next to the bank.",q:"Where is the pharmacy?",o:["Opposite the bank","On the first street on the right","Next to the bank"],a:2},
+    {lv:3,say:"Although the new policy was meant to reduce costs, it actually ended up making the process slower and more expensive.",q:"What happened with the new policy?",o:["It had the opposite effect","It reduced costs as planned","It was cancelled"],a:0},
+    {lv:3,say:"I'd have called you earlier, but my phone died and I didn't have my charger with me.",q:"Why didn't the speaker call earlier?",o:["They forgot","Their phone battery ran out","They didn't have the number"],a:1},
+    {lv:4,say:"Frankly, the proposal is ambitious, but unless we secure additional funding, it's hardly going to get off the ground.",q:"What does the speaker think?",o:["The proposal is ready to start","It should be cancelled immediately","It won't progress without more money"],a:2},
+    {lv:4,say:"She's been bending over backwards to accommodate everyone's schedule, yet nobody seems to appreciate it.",q:"What is she doing?",o:["Making a big effort to help others","Doing exercise every day","Refusing to change her plans"],a:0},
+    {lv:5,say:"Far from being a mere oversight, the omission seems to have been a calculated move to sidestep scrutiny.",q:"What does the speaker suggest about the omission?",o:["It was an accidental mistake","It was deliberate, to avoid being examined","Auditors asked for it"],a:1},
+    {lv:5,say:"Had the committee not been so intent on splitting hairs, the agreement might have been reached weeks ago.",q:"Why was the agreement delayed?",o:["The committee rushed the decision","The agreement was reached weeks ago","The committee focused too much on minor details"],a:2}
+  ],
+  written:[
+    {lv:0,q:"She ___ a teacher.",o:["are","is","am"],a:1},
+    {lv:0,q:"I ___ coffee every morning.",o:["drink","drinks","drinking"],a:0},
+    {lv:0,q:"There ___ two apples on the table.",o:["is","be","are"],a:2},
+    {lv:1,q:"Yesterday we ___ to the cinema.",o:["go","went","have gone"],a:1},
+    {lv:1,q:"This book is ___ than that one.",o:["more interesting","interestinger","most interesting"],a:0},
+    {lv:1,q:"How ___ money do you have?",o:["many","lot","much"],a:2},
+    {lv:2,q:"I ___ here since 2019.",o:["have lived","live","am living"],a:0},
+    {lv:2,q:"If it rains tomorrow, we ___ at home.",o:["would stay","will stay","stayed"],a:1},
+    {lv:2,q:"Notice: “The gym will be closed for maintenance from Monday to Wednesday. Members may use the pool during this period.” What can members do on Tuesday?",o:["Use the gym","Nothing, everything is closed","Use the pool"],a:2},
+    {lv:3,q:"By the time we arrived, the film ___.",o:["had already started","already started","has already started"],a:0},
+    {lv:3,q:"I wish I ___ more time to travel.",o:["have","had","will have"],a:1},
+    {lv:3,q:"The report ___ by the manager before the meeting.",o:["reviewed","has reviewing","was reviewed"],a:2},
+    {lv:4,q:"Hardly ___ the room when the phone rang.",o:["she had entered","had she entered","did she entered"],a:1},
+    {lv:4,q:"The results were ___ inconclusive, so further research is needed.",o:["largely","large","largeness"],a:0},
+    {lv:4,q:"He was accused ___ leaking confidential information.",o:["for","about","of"],a:2},
+    {lv:5,q:"The minister's speech was so ___ that even her critics were won over.",o:["compelled","compelling","compulsive"],a:1},
+    {lv:5,q:"Not until the final chapter ___ the narrator's true identity.",o:["does the reader discover","the reader discovers","the reader does discover"],a:0},
+    {lv:5,q:"His argument, ___ persuasive, rests on a flawed premise.",o:["despite","notwithstanding that","albeit"],a:2}
+  ],
+  essay:"Describe your last holiday or a special day. What did you do? How did you feel? What would you do differently next time?",
+  speak:[
+    {type:"read",lv:1,text:"I usually get up at seven and have breakfast with my family."},
+    {type:"read",lv:2,text:"Last year I travelled to Mexico and I really enjoyed the food."},
+    {type:"read",lv:3,text:"Although learning a language takes time, it opens doors you never imagined."},
+    {type:"free",text:"Tell me about your job or your studies. What do you like about it?"},
+    {type:"free",text:"What would you change about your city, and why?"}
+  ]
+};
+
+/* ================= calificación ================= */
+function mcPoints(ans){let p=0;for(let L=0;L<6;L++){const a=ans.filter(x=>x.lv===L);if(!a.length)break;const acc=a.filter(x=>x.ok).length/a.length;p+=acc*100;if(acc<.5)break}return Math.round(p)}
+/* estimación por reglas: largo, variedad, conectores y estructuras */
+function textPoints(t){
+  const words=(t.toLowerCase().match(/[a-z']+/g)||[]);const n=words.length;if(n<10)return n*5;
+  const uniq=new Set(words).size/n, sents=Math.max(1,(t.match(/[.!?]+/g)||[]).length), avg=n/sents;
+  const has=re=>re.test(t.toLowerCase());
+  let p=Math.min(n,120)/120*70+Math.min(.85,uniq)*60;
+  if(has(/\b(and|but|because|so|then)\b/))p+=20;
+  if(has(/\b(however|although|while|unless|instead|whereas|since|therefore)\b/))p+=60;
+  if(has(/\b(nevertheless|nonetheless|furthermore|moreover|despite|albeit|notwithstanding|consequently)\b/))p+=90;
+  const st=[/\b(was|were|went|did|had|saw|made|took|felt|got|\w+ed)\b/,/\b(have|has|had)\s+(been|\w+ed|\w+en|gone|done|seen|made)\b/,/\b(would|could|might)\b/,/\b(was|were|is|are|been|be)\s+\w+ed\b/,/\b(which|who|whose|whom)\b/,/\bif\b.*\b(would|will|had)\b/];
+  p+=st.filter(has).length*28;
+  if(avg>=8&&avg<=24)p+=30;
+  p+=Math.min(70,words.filter(w=>w.length>=8).length/n*400);
+  return Math.round(Math.max(0,Math.min(600,p)));
+}
+const norm=s=>(s.toLowerCase().match(/[a-z']+/g)||[]);
+function wordAcc(target,said){const a=norm(target),b=norm(said);if(!b.length)return 0;
+  const d=Array.from({length:a.length+1},()=>new Array(b.length+1).fill(0));
+  for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++)d[i][j]=a[i-1]===b[j-1]?d[i-1][j-1]+1:Math.max(d[i-1][j],d[i][j-1]);
+  return d[a.length][b.length]/a.length}
+function speakPoints(sp){
+  const r=EX.speak.map((t,i)=>({t,v:sp[i]||""}));
+  const reads=r.filter(x=>x.t.type==="read").map(x=>wordAcc(x.t.text,x.v));
+  const readPts=(reads[0]||0)*200+(reads[1]||0)*100+(reads[2]||0)*100;
+  const freePts=textPoints(r.filter(x=>x.t.type==="free").map(x=>x.v).join(". "));
+  return Math.round(Math.min(600,.4*readPts+.6*freePts));
+}
+
+/* ================= registro (local por ahora) ================= */
+const DBK="ruta3-students";
+const loadDB=()=>{try{return JSON.parse(localStorage.getItem(DBK)||"[]")}catch(e){return[]}};
+const saveDB=d=>{try{localStorage.setItem(DBK,JSON.stringify(d))}catch(e){}};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let pendingDel=null;
+function renderResults(){
+  const rows=loadDB().flatMap(st=>st.results.map((r,ri)=>({st,r,ri}))).sort((a,b)=>b.r.date-a.r.date);
+  const tb=$("resBody");
+  if(!rows.length){tb.innerHTML=`<tr><td colspan="9" class="empty">Aún no hay exámenes. Cuando alguien termine el examen, su resultado aparece aquí.</td></tr>`;return}
+  const cell=p=>p==null?`<span class="pill">—</span>`:`<span class="pill">${lvOf(p).k} · ${lvOf(p).pct}%</span>`;
+  tb.innerHTML=rows.map(({st,r,ri})=>{const L=lvOf(r.pts),key=st.id+"|"+ri;
+    return `<tr><td><b>${esc(st.name)}</b>${st.email?`<br><small style="color:var(--mute)">${esc(st.email)}</small>`:""}</td>
+    <td>${new Date(r.date).toLocaleDateString("es",{day:"numeric",month:"short",year:"numeric"})}</td>
+    <td class="lvl"><b>${L.k}</b> · ${L.pct} %</td><td>${cell(r.s.listen)}</td><td>${cell(r.s.written)}</td><td>${cell(r.s.essay)}</td><td>${cell(r.s.speak)}</td><td>${LV.filter((l,i)=>st.quiz&&st.quiz[i]&&st.quiz[i].passed).map(l=>`<span class="pill">${l.k}</span>`).join(" ")||`<span class="pill">—</span>`}</td>
+    <td>${pendingDel===key?`¿Borrar? <button class="mini-btn" data-del="${key}">Sí, borrar</button><button class="mini-btn" data-cancel style="color:var(--mute)">No</button>`
+      :`<button class="mini-btn" data-plan="${r.pts}">Usar en el plan</button><button class="mini-btn" data-ask="${key}" style="color:var(--mute)">Borrar</button>`}</td></tr>`}).join("");
+}
+$("resBody").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
+  if(b.dataset.plan){S.startPts=+b.dataset.plan;S.target=Math.max(S.target,Math.min(5,lvOf(S.startPts).i+1));render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})}
+  if(b.dataset.ask){pendingDel=b.dataset.ask;renderResults()}
+  if("cancel" in b.dataset){pendingDel=null;renderResults()}
+  if(b.dataset.del){const [id,ri]=b.dataset.del.split("|"),db=loadDB(),st=db.find(s=>s.id===id);if(st){st.results.splice(+ri,1)}saveDB(db.filter(s=>s.results.length||Object.keys(s.quiz||{}).length));pendingDel=null;renderResults()}
+});
+
+/* ================= flujo del examen ================= */
+const STEPS=["Registro","Escucha","Escrito","Redacción","Hablado","Resultado"];
+let X;
+const exam=$("exam"),body=$("exBody");
+function newExam(){X={step:0,name:"",email:"",idx:0,sel:null,plays:0,ans:{listen:[],written:[]},essay:"",sp:[],spSkip:false,spErr:null,result:null}}
+document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||""}
+  OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender()}});
+function closeExam(){OV=null;stopRec();try{speechSynthesis.cancel()}catch(e){}exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
+function renderCloseBtn(confirm){$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
+  if(confirm){$("exYes").onclick=closeExam;$("exNo").onclick=()=>renderCloseBtn(false)}else $("exClose").onclick=()=>needConfirm()?renderCloseBtn(true):closeExam()}
+let OV=null;
+const needConfirm=()=>(OV==="exam"&&X&&X.step>0&&X.step<5)||(OV==="quiz"&&Q&&!Q.done&&Q.i>0);
+renderCloseBtn(false);
+addEventListener("keydown",e=>{if(e.key==="Escape"&&!exam.hidden)renderCloseBtn(true)});
+
+function go(step){X.step=step;X.idx=0;X.sel=null;X.plays=0;X.spErr=null;exRender();exam.scrollTop=0}
+function exRender(){
+  $("exSteps").innerHTML=STEPS.map((s,i)=>`<span class="${i===X.step?"on":i<X.step?"done":""}">${s}</span>`).join("");
+  [stepReg,stepMC,stepMC,stepEssay,stepSpeak,stepResult][X.step]();
+}
+const ICON_PLAY=`<svg viewBox="0 0 24 24" fill="#1A2238"><path d="M7 4v16l13-8z"/></svg>`;
+
+function stepReg(){
+  body.innerHTML=`<h2>Antes de empezar</h2><p class="lead">Confirma tu nombre y tu correo para guardar tu resultado.</p>
+  <form id="regF" novalidate>
+    <div class="field"><label for="rName">Nombre completo</label><input id="rName" autocomplete="name" value="${esc(X.name)}" placeholder="Ej.: María Pérez"></div>
+    <div class="field"><label for="rMail">Correo electrónico</label><input id="rMail" type="email" autocomplete="email" value="${esc(X.email)}" placeholder="tucorreo@ejemplo.com"></div>
+    <p class="err" id="rErr"></p>
+    <div class="ex-actions"><span class="note">Necesitas audífonos o parlantes y micrófono.</span><button class="btn sun" type="submit">Empezar examen</button></div>
+  </form>`;
+  $("rName").focus();
+  $("regF").onsubmit=e=>{e.preventDefault();const n=$("rName").value.trim();
+    if(n.length<2){$("rErr").textContent="Escribe tu nombre para continuar.";return}
+    const m=$("rMail").value.trim();if(!MAIL_RE.test(m)){$("rErr").textContent="Escribe un correo válido, por ejemplo nombre@gmail.com.";return}
+    X.name=n;X.email=m;go(1)};
+}
+
+function stepMC(){
+  const kind=X.step===1?"listen":"written",items=EX[kind],it=items[X.idx];
+  const head=kind==="listen"?"Escucha y responde":"Gramática, vocabulario y lectura";
+  const tts="speechSynthesis" in window;
+  body.innerHTML=`<div class="progress"><i style="width:${X.idx/items.length*100}%"></i></div>
+    <div class="qmeta"><span>${head}</span><span>Pregunta ${X.idx+1} de ${items.length}</span></div>
+    ${kind==="listen"?`<button class="play" id="play" ${X.plays>=2?"disabled":""}><b>${ICON_PLAY}</b><span>${X.plays?"Escuchar otra vez":"Escuchar audio"}<small>${2-X.plays} reproducciones disponibles</small></span></button>
+      ${tts?"":`<div class="warn">Este navegador no tiene voz en inglés. Texto: “${esc(it.say)}”</div>`}`:""}
+    <p class="qtext">${esc(it.q)}</p>
+    <div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${X.sel===i}" data-i="${i}"><i>${"ABC"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>
+    <div class="ex-actions"><span class="note">${kind==="listen"?"Escucha primero; después elige.":"Elige la opción correcta."}</span><button class="btn sun" id="next" ${X.sel==null?"disabled":""}>Siguiente</button></div>`;
+  if(kind==="listen"&&tts)$("play").onclick=()=>{X.plays++;speakTTS(it.say);exRender()};
+  body.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{X.sel=+b.dataset.i;exRender();body.querySelector(`.opt[data-i="${X.sel}"]`).focus()});
+  $("next").onclick=()=>{
+    X.ans[kind].push({lv:it.lv,ok:X.sel===it.a});
+    X.idx++;X.sel=null;X.plays=0;try{speechSynthesis.cancel()}catch(e){}
+    const end=X.idx>=items.length,levelDone=end||items[X.idx].lv!==it.lv;
+    if(levelDone){const a=X.ans[kind].filter(x=>x.lv===it.lv),acc=a.filter(x=>x.ok).length/a.length;
+      if(end||acc<.5){go(X.step+1);return}}
+    exRender();
+  };
+}
+function speakTTS(t){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=.92;
+  const v=speechSynthesis.getVoices().find(v=>/^en[-_]US/i.test(v.lang));if(v)u.voice=v;speechSynthesis.speak(u)}catch(e){}}
+
+function stepEssay(){
+  body.innerHTML=`<h2>Redacción corta</h2><p class="lead">Escribe en inglés entre 60 y 120 palabras. No uses traductor: queremos tu nivel real.</p>
+  <p class="say" style="border-left-color:var(--sun)">${esc(EX.essay)}</p>
+  <label for="essay" class="note">Tu texto</label>
+  <textarea id="essay" style="min-height:220px;font-family:var(--f-body);font-size:16px" placeholder="Last month I went to…">${esc(X.essay)}</textarea>
+  <div class="wc" id="wc"></div>
+  <div class="ex-actions"><span class="note">Mínimo 15 palabras para continuar.</span><button class="btn sun" id="next">Siguiente</button></div>`;
+  const ta=$("essay"),upd=()=>{X.essay=ta.value;const n=norm(ta.value).length;$("wc").textContent=`${n} palabras`;$("next").disabled=n<15};
+  ta.oninput=upd;upd();ta.focus();
+  $("next").onclick=()=>go(4);
+}
+
+let rec=null,recTimer=null;
+function stopRec(){clearTimeout(recTimer);if(rec){try{rec.stop()}catch(e){}}}
+function stepSpeak(){
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition,t=EX.speak[X.idx],said=X.sp[X.idx]||"";
+  const errMsg={unsupported:"Este navegador no reconoce voz. Abre la página en Google Chrome o Microsoft Edge.","not-allowed":"El micrófono está bloqueado. En Chrome, toca el candado de la barra de direcciones y permite el micrófono. Dentro de la vista previa de Claude el micrófono no funciona; usa el enlace propio de la página.","no-speech":"No te escuchamos. Acércate al micrófono e intenta otra vez.","audio-capture":"No encontramos un micrófono conectado.","network":"El reconocimiento de voz necesita internet. Revisa tu conexión."};
+  body.innerHTML=`<div class="progress"><i style="width:${X.idx/EX.speak.length*100}%"></i></div>
+    <div class="qmeta"><span>${t.type==="read"?"Lee en voz alta":"Responde hablando (hasta 45 s)"}</span><span>Tarea ${X.idx+1} de ${EX.speak.length}</span></div>
+    <p class="say">${esc(t.text)}</p>
+    <button class="rec" id="recBtn"><span class="dot"></span><span id="recLbl">${said?"Grabar otra vez":"Grabar"}</span></button>
+    <div class="transcript ${said?"has":""}" id="tr">${said?esc(said):"Lo que digas aparecerá aquí."}</div>
+    ${X.spErr?`<div class="warn">${errMsg[X.spErr]||"No se pudo grabar. Intenta otra vez."}</div>`:""}
+    <div class="ex-actions"><button class="linkbtn" id="skip">Saltar la parte hablada</button><button class="btn sun" id="next" ${said?"":"disabled"}>${X.idx===EX.speak.length-1?"Ver resultado":"Siguiente"}</button></div>`;
+  $("skip").onclick=()=>{stopRec();X.spSkip=true;finish()};
+  $("next").onclick=()=>{stopRec();if(X.idx<EX.speak.length-1){X.idx++;X.spErr=null;exRender()}else finish()};
+  $("recBtn").onclick=()=>{
+    if(rec){stopRec();return}
+    if(!SR){X.spErr="unsupported";exRender();return}
+    X.spErr=null;rec=new SR();rec.lang="en-US";rec.interimResults=true;rec.continuous=true;
+    let fin="",err=null;
+    rec.onresult=e=>{let tmp="";for(let i=e.resultIndex;i<e.results.length;i++){const r=e.results[i];if(r.isFinal)fin+=r[0].transcript+" ";else tmp+=r[0].transcript}
+      const tr=$("tr");if(tr){tr.textContent=(fin+tmp).trim()||"…";tr.classList.add("has")}};
+    rec.onerror=e=>{err=e.error};
+    rec.onend=()=>{rec=null;clearTimeout(recTimer);if(fin.trim())X.sp[X.idx]=fin.trim();else if(err)X.spErr=err;else X.spErr="no-speech";exRender()};
+    try{rec.start()}catch(e){rec=null;X.spErr="not-allowed";exRender();return}
+    $("recBtn").classList.add("on");$("recLbl").textContent="Detener";
+    recTimer=setTimeout(stopRec,t.type==="read"?15000:45000);
+  };
+}
+
+function finish(){
+  const s={listen:mcPoints(X.ans.listen),written:mcPoints(X.ans.written),essay:textPoints(X.essay),speak:X.spSkip&&!X.sp.length?null:speakPoints(X.sp)};
+  const parts=[[s.listen,.35],[s.written,.35],[s.essay,.10]];if(s.speak!=null)parts.push([s.speak,.20]);
+  const pts=Math.round(parts.reduce((a,[p,w])=>a+p*w,0)/parts.reduce((a,[,w])=>a+w,0));
+  X.result={pts,s,date:Date.now()};
+  ensureStudent(X.name,X.email);
+  const db=loadDB(),st=db.find(x=>x.id===S.student);st.results.push(X.result);saveDB(db);renderResults();
+  go(5);
+}
+function stepResult(){
+  const {pts,s}=X.result,L=lvOf(pts),next=L.i<5?LV[L.i+1].k:null;
+  const msg=L.pct>=85&&next?`Dominas el ${L.pct} % del nivel ${L.k}. Estás muy cerca de pasar a ${next}.`
+    :L.pct<30&&L.i>0?`Ya superaste ${LV[L.i-1].k} y estás empezando ${L.k}: dominas el ${L.pct} % de este nivel.`
+    :`Dominas el ${L.pct} % del nivel ${L.k}.${next?` Tu siguiente meta es ${next}.`:""}`;
+  const bar=(name,p,c)=>p==null?`<div class="sbar"><div class="shead"><span>${name}</span><span style="color:var(--mute)">No presentado</span></div></div>`
+    :`<div class="sbar"><div class="shead"><span>${name}</span><span>${lvOf(p).k} · ${lvOf(p).pct} %</span></div><div class="tr"><i style="width:0;background:${c}" data-w="${p/6}"></i></div><div class="ticks">${LV.map(l=>`<span>${l.k}</span>`).join("")}</div></div>`;
+  body.innerHTML=`<div class="result"><div class="rwho">Resultado de ${esc(X.name)}</div><div class="lv">${L.k} <span>· ${L.pct} %</span></div><p>${msg}</p></div>
+    <div class="sbars">${bar("Escucha",s.listen,"var(--sky)")}${bar("Escrito",s.written,"var(--sun)")}${bar("Redacción",s.essay,"var(--mint)")}${bar("Hablado",s.speak,"var(--coral)")}</div>
+    <p class="note" style="margin-top:18px">La redacción y la parte hablada se califican con reglas automáticas: son una estimación. Escucha y escrito cuentan 35 % cada uno, redacción 10 % y hablado 20 %.</p>
+    <div class="ex-actions"><button class="btn dark" id="again">Repetir examen</button><button class="btn sun" id="toPlan">Ver mi plan desde ${L.k}</button></div>`;
+  requestAnimationFrame(()=>requestAnimationFrame(()=>body.querySelectorAll(".sbar i").forEach(i=>i.style.width=i.dataset.w+"%")));
+  $("again").onclick=()=>{newExam();exRender()};
+  $("toPlan").onclick=()=>{S.startPts=pts;S.target=Math.max(S.target,Math.min(5,L.i+1));closeExam();render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})};
+}
+
+/* ================= estudiante actual ================= */
+const MAIL_RE=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const ICON_LOCK=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>`;
+const ICON_OK=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M5 12l5 5L20 7"/></svg>`;
+function curStudent(){return loadDB().find(s=>s.id===S.student)||null}
+function ensureStudent(name,email){const db=loadDB(),id=email?email.toLowerCase():name.toLowerCase().trim().replace(/\s+/g," ");
+  let st=db.find(x=>x.id===id)||db.find(x=>x.name.toLowerCase()===name.toLowerCase()&&!x.email);
+  if(!st){st={id,name,email,results:[],quiz:{}};db.push(st)}
+  st.name=name;if(email){st.email=email}st.quiz=st.quiz||{};saveDB(db);S.student=st.id;save();renderWho();return st}
+function unlocked(i){if(i===0)return true;const st=curStudent();return !!(st&&st.quiz&&st.quiz[i-1]&&st.quiz[i-1].passed)}
+function renderWho(){const st=curStudent(),b=$("whoBtn");
+  b.innerHTML=st?`<b>${esc(st.name.trim()[0].toUpperCase())}</b><span>${esc(st.name.split(" ")[0])} · Cambiar</span>`:`<b>+</b><span>Registrarme</span>`;
+  b.setAttribute("aria-label",st?`Estudiando como ${st.name}. Cambiar de persona`:"Registrarme")}
+$("whoBtn").onclick=()=>{OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()};
+
+function whoView(after){
+  $("exSteps").innerHTML=`<span class="on">¿Quién estudia?</span>`;
+  const db=loadDB(),cur=S.student;
+  body.innerHTML=`<h2>¿Quién va a estudiar?</h2><p class="lead">Tu avance, tus quizzes y tus exámenes se guardan con tu nombre y tu correo.</p>
+  ${db.length?`<div class="opts" role="radiogroup" style="margin-bottom:30px">${db.map(s=>`<button class="opt" role="radio" aria-checked="${s.id===cur}" data-id="${esc(s.id)}"><i>${esc(s.name.trim()[0].toUpperCase())}</i><span><b>${esc(s.name)}</b><br><small style="color:var(--mute)">${esc(s.email||"Sin correo: elige y agrégalo abajo")}</small></span></button>`).join("")}</div>
+    <h3 style="font-size:18px;margin-bottom:14px">O regístrate como persona nueva</h3>`:""}
+  <form id="whoF" novalidate>
+    <div class="field"><label for="wName">Nombre completo</label><input id="wName" autocomplete="name" placeholder="Ej.: María Pérez"></div>
+    <div class="field"><label for="wMail">Correo electrónico</label><input id="wMail" type="email" autocomplete="email" placeholder="tucorreo@ejemplo.com"></div>
+    <p class="err" id="wErr"></p>
+    <div class="ex-actions"><span class="note">Solo se usa para identificarte dentro de la página.</span><button class="btn sun" type="submit">Registrarme</button></div>
+  </form>`;
+  const done=()=>{render();renderResults();after?after():closeExam()};
+  body.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>{const st=loadDB().find(s=>s.id===b.dataset.id);
+    if(st&&!st.email){$("wName").value=st.name;$("wMail").focus();$("wErr").textContent="Agrega tu correo para continuar.";return}
+    S.student=b.dataset.id;save();renderWho();done()});
+  $("whoF").onsubmit=e=>{e.preventDefault();const n=$("wName").value.trim(),m=$("wMail").value.trim();
+    if(n.length<2){$("wErr").textContent="Escribe tu nombre para continuar.";return}
+    if(!MAIL_RE.test(m)){$("wErr").textContent="Escribe un correo válido, por ejemplo nombre@gmail.com.";return}
+    ensureStudent(n,m);done()};
+  if(!db.length)$("wName").focus();
+}
+
+/* ================= quizzes por nivel =================
+   10 preguntas: 4 opción múltiple, 1 completar, 3 escucha, 2 orales. Aprueba con 70 %. */
+const mc=(q,o,a,x)=>({t:"mc",q,o,a,x}),fl=(q,ans,x)=>({t:"fill",q,ans,x}),ls=(say,q,o,a)=>({t:"listen",say,q,o,a}),or=text=>({t:"oral",text});
+const QZ=[
+ [ls("My sister is twenty-five years old.","How old is the sister?",["25","35","52"],0),
+  mc("___ name is Pedro.",["I","My","Me"],1,"Para decir de quién es algo se usa el posesivo: my name."),
+  mc("They ___ from Brazil.",["are","is","am"],0,"Con they se usa are."),
+  ls("The supermarket is next to the school.","Where is the supermarket?",["Behind the bank","Next to the school","In the park"],1),
+  fl("He ___ pizza. (like)",["likes"],"Con he, she o it el verbo en presente lleva -s: likes."),
+  mc("What's this? It's ___ umbrella.",["a","the","an"],2,"Se usa an antes de una palabra que suena a vocal: an umbrella."),
+  or("Good morning, my name is Ana."),
+  ls("I don't like coffee. I prefer tea.","What does the speaker prefer?",["Coffee","Tea","Water"],1),
+  mc("I have breakfast ___ seven o'clock.",["in","on","at"],2,"Con horas exactas se usa at."),
+  or("I live in a small house with my family.")],
+ [ls("The train to London leaves from platform six at half past nine.","Which platform does the train leave from?",["Platform 9","Platform 6","Platform 2"],1),
+  mc("She ___ TV when I called her.",["was watching","watched","is watching"],0,"Una acción en progreso que fue interrumpida va en pasado continuo: was watching."),
+  mc("We ___ go to the beach tomorrow.",["going","are going to","goes"],1,"Para planes del futuro se usa be going to."),
+  ls("Excuse me, how much are these shoes? They're forty dollars.","How much are the shoes?",["$14","$44","$40"],2),
+  fl("There isn't ___ milk in the fridge.",["any"],"En frases negativas con sustantivos incontables se usa any."),
+  mc("You ___ smoke here. It's forbidden.",["can","don't have to","mustn't"],2,"Para prohibir algo se usa mustn't."),
+  or("Could you tell me where the train station is?"),
+  ls("I usually go to the gym on Mondays and Thursdays.","When does the speaker go to the gym?",["Mondays and Thursdays","Mondays and Tuesdays","Every day"],0),
+  mc("I've never ___ sushi.",["eat","ate","eaten"],2,"El presente perfecto usa el participio: eaten."),
+  or("Yesterday I visited my grandmother and we cooked together.")],
+ [ls("I was going to take the car, but the traffic was terrible, so I decided to cycle to work.","How did the speaker get to work?",["By car","By bike","By bus"],1),
+  mc("I'm used to ___ up early.",["get","getting","got"],1,"Después de be used to va el verbo con -ing."),
+  mc("If I ___ more money, I would buy a car.",["had","have","will have"],0,"Segundo condicional: if + pasado, would + verbo."),
+  ls("The meeting has been moved from Tuesday to Thursday afternoon.","When is the meeting now?",["Tuesday afternoon","Thursday morning","Thursday afternoon"],2),
+  fl("I've been studying English ___ three years.",["for"],"Para hablar de un periodo de tiempo se usa for."),
+  mc("The museum, ___ was built in 1900, is closed today.",["who","which","where"],1,"Para cosas se usa which; who es para personas."),
+  or("I have been learning English because I want to travel more."),
+  ls("Honestly, the film was better than I expected, although the ending was a bit disappointing.","What is the speaker's opinion of the film?",["Generally positive","Completely negative","They didn't watch it"],0),
+  mc("She asked me where I ___.",["live","do live","lived"],2,"En estilo indirecto el verbo retrocede un tiempo: live → lived."),
+  or("If I had more free time, I would join a language club.")],
+ [ls("If I'd known the restaurant was so expensive, I'd have suggested somewhere else.","What do we know about the speaker?",["They knew it was expensive","They didn't know it was expensive","The restaurant was cheap"],1),
+  mc("You ___ have told me earlier! I could have helped.",["should","must","would"],0,"Should have + participio expresa un reproche sobre el pasado."),
+  mc("It's high time we ___ a decision.",["make","made","will make"],1,"Después de it's (high) time + sujeto va el pasado."),
+  ls("The company is looking for someone with at least three years of experience who is willing to travel.","What is one requirement for the job?",["Being willing to travel","A university degree","Five years of experience"],0),
+  fl("The house ___ right now, so we can't go in. (paint)",["is being painted"],"Pasiva en presente continuo: is being + participio."),
+  mc("___ the rain, the match went ahead.",["Although","Despite","However"],1,"Despite va seguido de un sustantivo; although necesita una frase completa."),
+  or("Although it was raining heavily, we decided to go for a walk."),
+  ls("Not only did he miss the flight, but he also left his passport at the hotel.","What happened to him?",["He lost his luggage","He only missed the flight","He missed the flight and left his passport behind"],2),
+  mc("She denied ___ the money.",["to take","taking","take"],1,"Deny va seguido de un verbo con -ing."),
+  or("I wish I had started learning English when I was younger.")],
+ [ls("Given the circumstances, I think we did remarkably well, though there's certainly room for improvement.","How does the speaker feel?",["Satisfied, but sees things to improve","Completely dissatisfied","Thinks it was perfect"],0),
+  mc("Little ___ that the decision would change her life.",["she knew","did she know","she did know"],1,"Después de little al inicio de la frase se invierte el orden: did she know."),
+  mc("The project was ___ to a halt due to lack of funding.",["brought","taken","made"],0,"La expresión es bring something to a halt: detener algo."),
+  ls("The new manager is a breath of fresh air; she's brought energy the team was badly lacking.","What does the speaker say about the manager?",["She's causing problems","She's bringing positive change","She's leaving the team"],1),
+  fl("___ you have any questions, please contact us.",["should"],"Should al inicio es una forma formal de decir if: Should you have any questions…"),
+  mc("I'd rather you ___ tell anyone about this.",["don't","didn't","won't"],1,"Would rather + otra persona + pasado: I'd rather you didn't."),
+  or("Despite the setbacks, the team managed to deliver the project on time."),
+  ls("I'm not saying it's impossible, but the odds are stacked against us.","What does the speaker mean?",["Success is guaranteed","It's completely impossible","Success is unlikely"],2),
+  mc("His explanation didn't ___ water.",["hold","keep","carry"],0,"Hold water significa ser convincente o lógico."),
+  or("Had I known about the delay, I would have rescheduled the meeting.")],
+ [ls("His remarks, while ostensibly conciliatory, did little to placate the more vocal critics.","What effect did his remarks have?",["They seemed friendly but didn't calm the critics","They angered his supporters","They satisfied everyone"],0),
+  mc("Scarcely ___ the stage when the audience burst into applause.",["she had stepped onto","had she stepped onto","she stepped onto"],1,"Después de scarcely al inicio se invierte: had she stepped."),
+  mc("The new regulations are ___ to stifle innovation.",["obliged","due","bound"],2,"Be bound to significa que es casi seguro que pasará."),
+  ls("Be that as it may, we can hardly afford to rest on our laurels.","What does the speaker mean?",["We can relax now","We must keep working hard","We have already failed"],1),
+  fl("It's no ___ crying over spilt milk.",["use"],"It's no use + -ing: no sirve de nada."),
+  mc("The scandal ___ the minister's reputation beyond repair.",["tarnished","tainted out","smeared off"],0,"Tarnish a reputation: manchar una reputación."),
+  or("Notwithstanding the criticism, the author remained steadfast in her convictions."),
+  ls("The findings, though tentative, lend weight to the hypothesis that sleep affects memory.","What do the findings do?",["They disprove the hypothesis","They are final and conclusive","They cautiously support the hypothesis"],2),
+  mc("She's a stickler ___ punctuality.",["of","for","about"],1,"La expresión es a stickler for: alguien muy exigente con algo."),
+  or("It goes without saying that thorough preparation is indispensable.")]
+];
+const PASS=70;
+let Q=null;
+function openQuiz(L){if(!unlocked(L))return;OV="quiz";Q={L,i:0,sel:null,plays:0,typed:"",said:"",err:null,noMic:false,ans:[],done:false};
+  exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
+  if(!curStudent()||!curStudent().email)whoView(()=>{if(unlocked(L))qRender();else closeExam()});else qRender()}
+function qRender(){
+  const L=LV[Q.L];
+  $("exSteps").innerHTML=`<span class="on">Quiz ${L.k}</span>`+(Q.done?`<span class="done">Resultado</span>`:`<span>Pregunta ${Q.i+1} de 10</span>`);
+  exam.scrollTop=0;
+  if(Q.done)return qResult();
+  const it=QZ[Q.L][Q.i],tts="speechSynthesis" in window;
+  const label={mc:"Escrito · elige la opción",fill:"Escrito · completa la frase",listen:"Escucha y responde",oral:"Oral · lee en voz alta"}[it.t];
+  let h=`<div class="progress"><i style="width:${Q.i*10}%"></i></div><div class="qmeta"><span>${label}</span><span>${L.k} · ${L.name}</span></div>`;
+  if(it.t==="listen")h+=`<button class="play" id="play" ${Q.plays>=2?"disabled":""}><b>${ICON_PLAY}</b><span>${Q.plays?"Escuchar otra vez":"Escuchar audio"}<small>${2-Q.plays} reproducciones disponibles</small></span></button>${tts?"":`<div class="warn">Este navegador no tiene voz en inglés. Texto: “${esc(it.say)}”</div>`}`;
+  if(it.t==="mc"||it.t==="listen")h+=`<p class="qtext">${esc(it.q).replace("___",'<span class="blank"></span>')}</p><div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${Q.sel===i}" data-i="${i}"><i>${"ABC"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>`;
+  if(it.t==="fill")h+=`<p class="qtext">${esc(it.q).replace("___",'<span class="blank"></span>')}</p><label for="fillIn" class="note">Escribe la palabra que falta</label><br><input class="fillin" id="fillIn" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(Q.typed)}">`;
+  if(it.t==="oral")h+=`<p class="say">${esc(it.text)}</p><button class="rec" id="recBtn"><span class="dot"></span><span id="recLbl">${Q.said?"Grabar otra vez":"Grabar"}</span></button>
+    <div class="transcript ${Q.said?"has":""}" id="tr">${Q.said?esc(Q.said):"Lo que digas aparecerá aquí."}</div>
+    ${Q.err?`<div class="warn">${Q.err==="not-allowed"?"El micrófono está bloqueado. En Chrome, toca el candado de la barra de direcciones y permite el micrófono. En la vista previa de Claude el micrófono no funciona.":Q.err==="unsupported"?"Este navegador no reconoce voz. Usa Google Chrome o Microsoft Edge.":"No te escuchamos. Acércate al micrófono e intenta otra vez."}</div>`:""}`;
+  const ready=it.t==="fill"?Q.typed.trim():it.t==="oral"?(Q.said||Q.noMic):Q.sel!=null;
+  h+=`<div class="ex-actions">${it.t==="oral"?`<button class="linkbtn" id="noMic">No puedo usar el micrófono (cuenta 0)</button>`:`<span class="note">Necesitas ${PASS} % para aprobar.</span>`}<button class="btn sun" id="next" ${ready?"":"disabled"}>${Q.i===9?"Ver resultado":"Siguiente"}</button></div>`;
+  body.innerHTML=h;
+  if(it.t==="listen"&&tts)$("play").onclick=()=>{Q.plays++;speakTTS(it.say);qRender()};
+  body.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{Q.sel=+b.dataset.i;qRender();body.querySelector(`.opt[data-i="${Q.sel}"]`).focus()});
+  if(it.t==="fill"){const f=$("fillIn");f.focus();f.oninput=()=>{Q.typed=f.value;$("next").disabled=!f.value.trim()};f.onkeydown=e=>{if(e.key==="Enter"&&f.value.trim())$("next").click()}}
+  if(it.t==="oral"){
+    $("noMic").onclick=()=>{stopRec();Q.noMic=true;Q.said="";qNext()};
+    $("recBtn").onclick=()=>{
+      const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+      if(rec){stopRec();return}
+      if(!SR){Q.err="unsupported";qRender();return}
+      Q.err=null;rec=new SR();rec.lang="en-US";rec.interimResults=true;rec.continuous=true;let fin="",err=null;
+      rec.onresult=e=>{let tmp="";for(let i=e.resultIndex;i<e.results.length;i++){const r=e.results[i];if(r.isFinal)fin+=r[0].transcript+" ";else tmp+=r[0].transcript}
+        const tr=$("tr");if(tr){tr.textContent=(fin+tmp).trim()||"…";tr.classList.add("has")}};
+      rec.onerror=e=>{err=e.error};
+      rec.onend=()=>{rec=null;clearTimeout(recTimer);if(fin.trim())Q.said=fin.trim();else Q.err=err||"no-speech";qRender()};
+      try{rec.start()}catch(e){rec=null;Q.err="not-allowed";qRender();return}
+      $("recBtn").classList.add("on");$("recLbl").textContent="Detener";recTimer=setTimeout(stopRec,15000);
+    };
+  }
+  $("next").onclick=qNext;
+}
+function qNext(){
+  stopRec();try{speechSynthesis.cancel()}catch(e){}
+  const it=QZ[Q.L][Q.i];let pts=0,given="";
+  if(it.t==="mc"||it.t==="listen"){pts=Q.sel===it.a?1:0;given=it.o[Q.sel]}
+  if(it.t==="fill"){const v=Q.typed.trim().toLowerCase().replace(/[.!?]+$/,"").replace(/\s+/g," ");pts=it.ans.includes(v)?1:0;given=Q.typed.trim()}
+  if(it.t==="oral"){const a=Q.said?wordAcc(it.text,Q.said):0;pts=a>=.85?1:a>=.6?.5:0;given=Q.said||"(sin grabación)";it._acc=Math.round(a*100)}
+  Q.ans.push({it,pts,given,acc:it._acc});
+  Q.i++;Q.sel=null;Q.plays=0;Q.typed="";Q.said="";Q.err=null;Q.noMic=false;
+  if(Q.i>=10){
+    Q.done=true;Q.pct=Math.round(Q.ans.reduce((s,a)=>s+a.pts,0)*10);Q.passed=Q.pct>=PASS;
+    const db=loadDB(),st=db.find(s=>s.id===S.student);
+    if(st){st.quiz=st.quiz||{};const p=st.quiz[Q.L]||{};st.quiz[Q.L]={best:Math.max(Q.pct,p.best||0),last:Q.pct,passed:!!p.passed||Q.passed,tries:(p.tries||0)+1,date:Date.now()};saveDB(db)}
+    render();renderResults();
+  }
+  qRender();
+}
+function qResult(){
+  const L=LV[Q.L],next=LV[Q.L+1];
+  const msg=Q.passed?(next?`¡Aprobaste! Ya puedes presentar el quiz de ${next.k}.`:"¡Aprobaste el último nivel! Completaste la ruta hasta C2.")
+    :`Necesitas ${PASS} % para aprobar y desbloquear ${next?next.k:"el siguiente nivel"}. Repasa las correcciones y vuelve a intentarlo.`;
+  const right=a=>a.it.t==="oral"?a.it.text:a.it.t==="fill"?a.it.ans[0]:a.it.o[a.it.a];
+  const kind={mc:"Escrito",fill:"Escrito",listen:"Escucha",oral:"Oral"};
+  const sk=(types,name,c)=>{const a=Q.ans.filter(x=>types.includes(x.it.t)),p=Math.round(a.reduce((s,x)=>s+x.pts,0)/a.length*100);
+    return `<div class="sbar"><div class="shead"><span>${name} <small style="color:var(--mute);font-weight:600">(${a.length} preguntas)</small></span><span>${p} %</span></div><div class="tr"><i style="width:${p}%;background:${c}"></i></div></div>`};
+  body.innerHTML=`<div class="result"><div class="rwho">Quiz ${L.k} · ${esc(curStudent()?curStudent().name:"")}</div><div class="lv">${Q.pct} <span>%</span></div><p>${msg}</p></div>
+    <div class="sbars">${sk(["mc","fill"],"Escritura","var(--sun)")}${sk(["listen"],"Escucha","var(--sky)")}${sk(["oral"],"Habla","var(--coral)")}</div>
+    <ul class="review">${Q.ans.map(a=>`<li class="${a.pts===1?"ok":a.pts>0?"half":""}">
+      <div class="rq"><span class="tagline">${kind[a.it.t]}</span>${esc(a.it.t==="oral"?"Lectura en voz alta":a.it.q)}</div>
+      <div>Tu respuesta: <b>${esc(a.given||"—")}</b>${a.it.t==="oral"&&a.acc!=null&&a.given!=="(sin grabación)"?` · ${a.acc} % de palabras correctas`:""}</div>
+      ${a.pts<1?`<div>Correcta: <b>${esc(right(a))}</b></div>`:""}
+      ${a.it.x&&a.pts<1?`<div class="rx">${esc(a.it.x)}</div>`:""}
+      ${a.it.t==="listen"&&a.pts<1?`<div class="rx">El audio decía: “${esc(a.it.say)}”</div>`:""}</li>`).join("")}</ul>
+    <div class="ex-actions"><button class="btn dark" id="qAgain">Repetir quiz</button>${Q.passed&&next?`<button class="btn sun" id="qNextLv">Ir al quiz de ${next.k}</button>`:`<button class="btn sun" id="qBack">Volver a los niveles</button>`}</div>`;
+  $("qAgain").onclick=()=>openQuiz(Q.L);
+  if($("qNextLv"))$("qNextLv").onclick=()=>openQuiz(Q.L+1);
+  if($("qBack"))$("qBack").onclick=()=>{closeExam();$("niveles").scrollIntoView({behavior:reduce?"auto":"smooth"})};
+}
+
+renderWho();
+renderResults();
+render();
+if(!curStudent()||!curStudent().email){OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()}
+</script>
