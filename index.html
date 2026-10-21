@@ -320,6 +320,35 @@ footer b{color:#fff}
 .mspk svg{width:13px;height:13px}
 .mmic:focus-visible,.mspk:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
 .heard{font-style:italic}
+/* escena: la conversación como mini película */
+.stage{position:relative;border-radius:18px;overflow:hidden;min-height:380px;background:#18203A center/cover no-repeat;display:flex;flex-direction:column;justify-content:space-between;color:#fff;margin-bottom:12px}
+.stage .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,14,28,.1) 0%,rgba(10,14,28,.5) 45%,rgba(10,14,28,.93) 100%)}
+.stage>*:not(.shade){position:relative}
+.cast{display:flex;justify-content:space-between;padding:22px 26px 0}
+.actor{display:flex;flex-direction:column;align-items:center;gap:6px;transition:transform .25s,opacity .25s}
+.actor .av{width:74px;height:74px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:24px;color:#1A2238;border:3px solid #fff;box-shadow:0 6px 18px rgba(0,0,0,.35)}
+.actor.a .av{background:var(--sun)}.actor.b .av{background:var(--sky);color:#fff}
+.actor b{font-size:14px;background:rgba(0,0,0,.5);padding:2px 10px;border-radius:99px}
+.actor.dim{opacity:.55;transform:scale(.9)}
+.actor.talk .av{animation:talk .45s ease-in-out infinite alternate}
+.actor.b.talk .av{animation-name:talkb}
+@keyframes talk{from{box-shadow:0 0 0 0 rgba(255,184,0,.8)}to{box-shadow:0 0 0 14px rgba(255,184,0,0)}}
+@keyframes talkb{from{box-shadow:0 0 0 0 rgba(59,169,255,.8)}to{box-shadow:0 0 0 14px rgba(59,169,255,0)}}
+.actor.you .av{outline:3px dashed var(--coral);outline-offset:4px}
+.subs{padding:16px 22px 18px;text-align:center}
+.subs .swho{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--sun)}
+.subs .sen{font-size:clamp(19px,2.6vw,26px);font-weight:700;line-height:1.35;margin:6px 0 4px}
+.subs .sen span{color:rgba(255,255,255,.55);transition:color .15s}
+.subs .sen span.lit{color:#fff}
+.subs .ses{color:rgba(255,255,255,.82);font-size:15px;margin:0}
+.sturn{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;align-items:center;margin-top:12px}
+.sturn .chip{color:var(--ink)}
+.mmic.big{padding:10px 18px 10px 14px;font-size:15px}.mmic.big svg{width:20px;height:20px}
+.sprog{height:5px;background:rgba(255,255,255,.2)}.sprog i{display:block;height:100%;background:var(--sun);transition:width .3s}
+.stage .heard{display:block;width:100%;color:rgba(255,255,255,.85)}
+.stage .sc{font-style:normal;font-weight:800;font-size:16px}.stage .sc.ok{color:var(--mint)}.stage .sc.mid{color:#FFD166}.stage .sc.bad{color:#FF8E80}
+@media(max-width:600px){.stage{min-height:340px}.cast{padding:16px 16px 0}.actor .av{width:56px;height:56px;font-size:19px}}
+@media(prefers-reduced-motion:reduce){.actor.talk .av{animation:none;box-shadow:0 0 0 6px rgba(255,184,0,.5)}}
 
 /* examen: presentación */
 .skills{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
@@ -912,7 +941,7 @@ const exam=$("exam"),body=$("exBody");
 function newExam(){X={step:0,name:"",email:"",idx:0,sel:null,plays:0,ans:{listen:[],written:[]},essay:"",sp:[],spSkip:false,spErr:null,result:null}}
 document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||""}
   OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender()}});
-function closeExam(){OV=null;LVBACK=null;if(typeof stopReader==="function")stopReader();body.style.maxWidth="";stopRec();stopSpeak();exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
+function closeExam(){OV=null;if(typeof stopScene==="function")stopScene();LVBACK=null;if(typeof stopReader==="function")stopReader();body.style.maxWidth="";stopRec();stopSpeak();exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
 function renderCloseBtn(confirm){$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
   if(confirm){$("exYes").onclick=closeExam;$("exNo").onclick=()=>renderCloseBtn(false)}else $("exClose").onclick=()=>needConfirm()?renderCloseBtn(true):closeExam()}
 let OV=null;
@@ -1644,7 +1673,7 @@ function lessonView(L,u,k){
   body.querySelector(".ltoc").onclick=e=>{const a=e.target.closest("a[data-go]");if(!a)return;e.preventDefault();$(a.dataset.go).scrollIntoView({behavior:reduce?"auto":"smooth"})};
   body.querySelectorAll(".vchk input").forEach(x=>x.onchange=()=>{setLearned(L,x.dataset.w,x.checked);x.closest(".vw").classList.toggle("on",x.checked);render()});
   if($("lCards"))$("lCards").onclick=()=>{OV="vocab";V={L,cat:"Todas",q:"",order:"tema",mode:"cards",deck:shuffle(voc.map(v=>({...v,cat:POSCAT(v.pos),t:"Día "+me.day}))),k:0,show:false,known:0,back:()=>lessonView(L,u,k)};vRender()};
-  if(les.dialogue)dialogView(les.dialogue);
+  if(les.dialogue)dialogView(les.dialogue,{L,back:()=>lessonView(L,u,k)});
   if($("lRead"))$("lRead").onclick=()=>reader(L,les.reading);
   if($("lPrev"))$("lPrev").onclick=()=>openStep(L,prev);
   if($("lNext"))$("lNext").onclick=()=>openStep(L,nxt);
@@ -1660,16 +1689,16 @@ function voicePair(){const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.t
   const a=us[0]||vs[0]||null,b=us.find(v=>v!==a)||vs.find(v=>v!==a)||null;return[a,b]}
 function sayLine(text,who,done){try{const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=.92;const [va,vb]=voicePair();
   const v=who==="A"?va:(vb||va);if(v)u.voice=v;if(who!=="A"&&!vb)u.pitch=1.35;speakU(u,done)}catch(e){done&&done()}}
-function stopDialog(){if(!D)return;D.stop=true;stopSpeak();if(D.rec){try{D.rec.abort()}catch(e){}}D=null}
+function stopDialog(){stopScene();if(!D)return;D.stop=true;stopSpeak();if(D.rec){try{D.rec.abort()}catch(e){}}D=null}
 const ICON_MIC=`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></svg>`;
-function dialogView(dg){
+function dialogView(dg,ctx){
   D={dg,showEs:false,mode:"read",i:-1,role:null,scores:{},heard:{},recJ:null,stop:false,rec:null};
   const box=$("dlg"),names={A:dg.a,B:dg.b};
   const draw=()=>{if(!D)return;
     const mine=w=>D.mode==="role"&&w===D.role;
     box.innerHTML=`<p class="note" style="margin-top:0">${esc(dg.scene)}</p>
       ${D.mode==="role"?`<div class="tipbox"><b>Modo práctica: tú eres ${esc(names[D.role])}.</b> La app dice las líneas de ${esc(names[D.role==="A"?"B":"A"])}. Cuando te toque, tu línea se ilumina: toca su <b>micrófono</b>, dila en voz alta y verás tu porcentaje. Puedes repetir cualquiera de tus líneas tocando su micrófono otra vez.</div>`:""}
-      <div class="dctrl"><button class="btn sun" id="dPlay">${D.mode==="play"?"❚❚ Detener":"▶ Escuchar la conversación"}</button>
+      <div class="dctrl">${ctx?`<button class="btn dark" id="dScene">🎬 Ver como escena</button>`:""}<button class="btn sun" id="dPlay">${D.mode==="play"?"❚❚ Detener":"▶ Escuchar la conversación"}</button>
         <button class="chip" id="dEs" aria-pressed="${D.showEs}">Traducción</button>
         <button class="chip" id="dRoleA" aria-pressed="${D.mode==="role"&&D.role==="A"}">Practicar como ${esc(dg.a)}</button>
         <button class="chip" id="dRoleB" aria-pressed="${D.mode==="role"&&D.role==="B"}">Practicar como ${esc(dg.b)}</button></div>
@@ -1683,6 +1712,7 @@ function dialogView(dg){
       <div id="dTurn"></div>`;
     $("dPlay").onclick=()=>D.mode==="play"?(D.mode="read",D.i=-1,stopSpeak(),draw()):playAll();
     $("dEs").onclick=()=>{D.showEs=!D.showEs;draw()};
+    if($("dScene"))$("dScene").onclick=()=>{stopDialog();sceneView(dg,ctx)};
     $("dRoleA").onclick=()=>startRole("A");$("dRoleB").onclick=()=>startRole("B");
     box.querySelectorAll(".dline").forEach(el=>el.onclick=e=>{if(e.target.closest("button"))return;if(D.mode!=="read")return;const j=+el.dataset.j;sayLine(dg.lines[j][1],dg.lines[j][0])});
     box.querySelectorAll("[data-rec]").forEach(b=>b.onclick=()=>recordLine(+b.dataset.rec));
@@ -1712,6 +1742,80 @@ function dialogView(dg){
     try{rec.start();draw()}catch(e){D.rec=null;D.recJ=null}
   };
   draw();
+}
+/* ---- escena: la conversación como mini película (foto del nivel, dos personajes, subtítulos que se iluminan, pausa en tu turno y preguntas al final) ---- */
+let SC=null;
+function stopScene(){if(!SC)return;SC.stop=true;clearInterval(SC.tick);clearTimeout(SC.auto);stopSpeak();if(SC.rec){try{SC.rec.abort()}catch(e){}}SC=null}
+const cleanW=w=>w.replace(/^[^A-Za-z']+|[^A-Za-z']+$/g,"");
+function sceneQuiz(dg){const ls=dg.lines,pick=shuffle(ls.map((l,j)=>j).filter(j=>ls[j][1].split(/\s+/).length>=4));
+  const who=pick.slice(0,3).map(j=>({t:"listen",say:ls[j][1],q:"¿Quién dice esta frase en la escena?",o:[dg.a,dg.b,"Nadie la dice"],a:ls[j][0]==="A"?0:1}));
+  const allW=[...new Set(ls.flatMap(l=>l[1].split(/\s+/).map(cleanW)).filter(w=>w.length>=4))];
+  const gap=pick.slice(3,6).map(j=>{const ws=ls[j][1].split(/\s+/),c=ws.map((w,k)=>[cleanW(w),k]).filter(([w])=>w.length>=4),[ans,k]=c[Math.floor(Math.random()*c.length)]||[cleanW(ws[0]),0];
+    const o=[ans,...shuffle(allW.filter(w=>w.toLowerCase()!==ans.toLowerCase())).slice(0,3)];
+    return{t:"listen",say:ls[j][1],q:"Escucha y completa: "+ws.map((w,x)=>x===k?w.replace(ans,"___"):w).join(" "),o,a:0}});
+  const tr=pick.slice(6,8).map(j=>({t:"mc",q:`¿Qué significa “${ls[j][1]}”?`,o:[ls[j][2],...shuffle(ls.filter((l,x)=>x!==j&&l[2]!==ls[j][2])).slice(0,3).map(l=>l[2])],a:0}));
+  const oral=pick.slice(8,10).map(j=>({t:"oral",text:ls[j][1]}));
+  return[...who,...gap,...tr,...oral]}
+function sceneView(dg,ctx){
+  stopScene();const box=$("dlg"),names={A:dg.a,B:dg.b},n=dg.lines.length,ini=x=>x.split(/\s+/).map(y=>y[0]).join("").slice(0,2).toUpperCase();
+  SC={i:0,w:-1,playing:false,es:true,role:null,scores:{},heard:"",rec:null,stop:false,tick:null,auto:null,ended:false};
+  box.innerHTML=`<p class="note" style="margin-top:0">${esc(dg.scene)}</p>
+    <div class="stage" style="background-image:url(${(IMG["lv"+ctx.L]||IMG.hero)[0]})"><div class="shade"></div>
+      <div class="cast">${["A","B"].map(w=>`<div class="actor ${w.toLowerCase()}" id="sc${w}"><div class="av">${esc(ini(names[w]))}</div><b>${esc(names[w])}</b></div>`).join("")}</div>
+      <div><div class="subs" id="scSubs" aria-live="polite"></div><div class="sprog"><i id="scBar"></i></div></div></div>
+    <div class="dctrl"><button class="chip" id="scPrev" aria-label="Línea anterior">◀</button><button class="btn sun" id="scPlay"></button><button class="chip" id="scNext" aria-label="Línea siguiente">▶</button>
+      <button class="chip" id="scEs">Subtítulos en español</button>
+      <button class="chip" id="scRA">Actuar como ${esc(dg.a)}</button><button class="chip" id="scRB">Actuar como ${esc(dg.b)}</button>
+      <button class="chip" id="scBack">Volver al chat</button></div>
+    <div id="scEnd"></div>`;
+  const light=()=>box.querySelectorAll(".sen span").forEach((x,j)=>x.classList.toggle("lit",j<=SC.w));
+  const paint=()=>{if(!SC)return;const [w,en,es]=dg.lines[SC.i],mine=SC.role===w,sc=SC.scores[SC.i];
+    ["A","B"].forEach(x=>{const a=$("sc"+x);a.classList.toggle("talk",x===w&&SC.playing&&!mine);a.classList.toggle("dim",x!==w);a.classList.toggle("you",SC.role===x)});
+    $("scSubs").innerHTML=`<span class="swho">${esc(names[w])}${mine?" · tu turno":""}</span>
+      <p class="sen" lang="en">${en.split(/\s+/).map(t=>`<span>${esc(t)}</span>`).join(" ")}</p>${SC.es?`<p class="ses">${esc(es)}</p>`:""}
+      ${mine?`<div class="sturn"><button class="mmic big ${SC.rec?"on":""}" id="scMic">${ICON_MIC}<span>${SC.rec?"Detener":sc!=null?"Repetir":"Dilo ahora"}</span></button>
+        ${sc!=null?`<em class="sc ${sc>=80?"ok":sc>=50?"mid":"bad"}">${sc} %</em><button class="chip" id="scGo">Seguir →</button>`:""}
+        ${SC.heard?`<small class="heard">Escuché: “${esc(SC.heard)}”</small>`:""}</div>`:""}`;
+    light();$("scBar").style.width=((SC.i+1)/n*100)+"%";
+    $("scPlay").textContent=SC.playing?"❚❚ Pausa":SC.ended?"↺ Ver otra vez":SC.i>0?"▶ Continuar":"▶ Ver la escena";
+    $("scEs").setAttribute("aria-pressed",SC.es);$("scRA").setAttribute("aria-pressed",SC.role==="A");$("scRB").setAttribute("aria-pressed",SC.role==="B");
+    if($("scMic"))$("scMic").onclick=rec;if($("scGo"))$("scGo").onclick=()=>go(SC.i+1,true)};
+  /* resalta palabra por palabra: usa los eventos de la voz si existen y, si no, una estimación por tiempo */
+  const say=(text,w,done)=>{let u;try{u=new SpeechSynthesisUtterance(text)}catch(e){done();return}u.lang="en-US";u.rate=.9;const [va,vb]=voicePair(),v=w==="A"?va:(vb||va);if(v)u.voice=v;if(w!=="A"&&!vb)u.pitch=1.35;
+    const starts=[];let c=0;text.split(/\s+/).forEach(t=>{starts.push(c);c+=t.length+1});const at=ch=>{let k=0;while(k+1<starts.length&&starts[k+1]<=ch)k++;return k};
+    let real=false;u.onboundary=e=>{if(!SC||(e.name&&e.name!=="word"))return;real=true;SC.w=at(e.charIndex);light()};
+    let t0=Date.now()+200;u.onstart=()=>{t0=Date.now()};clearInterval(SC.tick);
+    SC.tick=setInterval(()=>{if(!SC||real)return;SC.w=at(Math.max(0,Date.now()-t0)/(70/u.rate));light()},120);
+    speakU(u,()=>{if(SC)clearInterval(SC.tick);done()})};
+  const run=()=>{if(!SC||SC.stop||!SC.playing)return;
+    if(SC.i>=n){SC.i=n-1;SC.playing=false;SC.ended=true;paint();finish();return}
+    const [w,en]=dg.lines[SC.i];SC.w=-1;SC.heard="";
+    if(w===SC.role){SC.playing=false;paint();return}
+    paint();say(en,w,()=>{if(!SC||!SC.playing)return;SC.w=999;light();SC.auto=setTimeout(()=>{if(SC&&SC.playing){SC.i++;run()}},500)})};
+  const go=(i,play)=>{stopSpeak();clearInterval(SC.tick);clearTimeout(SC.auto);if(SC.rec){try{SC.rec.abort()}catch(e){}SC.rec=null}
+    SC.ended=false;$("scEnd").innerHTML="";SC.i=Math.max(0,Math.min(n,i));SC.w=-1;SC.heard="";SC.playing=play;if(play)run();else{SC.i=Math.min(SC.i,n-1);paint()}};
+  const rec=()=>{const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+    if(!SR){SC.heard="(Este navegador no reconoce voz. Usa Google Chrome.)";paint();return}
+    if(SC.rec){try{SC.rec.stop()}catch(e){}return}
+    stopSpeak();const r=new SR(),j=SC.i;SC.rec=r;r.lang="en-US";r.interimResults=true;let fin="";
+    r.onresult=e=>{let t="";for(let x=0;x<e.results.length;x++)t+=e.results[x][0].transcript+" ";fin=t.trim();const h=box.querySelector(".stage .heard");if(h)h.textContent=`Escuché: “${fin}”`;else{SC.heard=fin;paint()}};
+    r.onerror=e=>{if(SC&&e.error==="not-allowed")SC.heard="(El micrófono está bloqueado: permítelo en el candado de la barra de direcciones.)"};
+    r.onend=()=>{if(!SC||SC.i!==j)return;SC.rec=null;
+      if(fin){SC.heard=fin;const sc=Math.round(wordAcc(dg.lines[j][1],fin)*100);SC.scores[j]=sc;SC.w=999;paint();
+        if(sc>=50)SC.auto=setTimeout(()=>{if(SC&&SC.i===j&&!SC.rec)go(j+1,true)},1800)}else paint()};
+    try{r.start();paint()}catch(e){SC.rec=null}};
+  const finish=()=>{const v=Object.values(SC.scores),avg=v.length?Math.round(v.reduce((a,b)=>a+b,0)/v.length):null;
+    $("scEnd").innerHTML=`<div class="rscore">${avg!=null?`<b class="big2">${avg} %</b> de tus líneas bien dichas. `:""}¿Entendiste la escena? Responde unas preguntas de lo que escuchaste.</div>
+      <div class="examcta"><button class="btn sun" id="scQuiz">Preguntas de la escena</button></div>`;
+    $("scQuiz").onclick=()=>{stopScene();const q=()=>runSet({L:ctx.L,title:"Escena · "+dg.title,items:sceneQuiz(dg),pass:PASS,save:()=>{},again:q,
+      passMsg:"¡Entendiste la escena!",next:{label:"Volver a la lección",go:ctx.back}});q()};
+    $("scEnd").scrollIntoView({block:"center",behavior:reduce?"auto":"smooth"})};
+  $("scPlay").onclick=()=>{if(SC.playing){SC.playing=false;stopSpeak();clearInterval(SC.tick);clearTimeout(SC.auto);paint()}else go(SC.ended?0:SC.i,true)};
+  $("scPrev").onclick=()=>go(SC.i-1,SC.playing);$("scNext").onclick=()=>go(SC.i+1,SC.playing);
+  $("scEs").onclick=()=>{SC.es=!SC.es;paint()};
+  const role=x=>{SC.role=SC.role===x?null:x;SC.scores={};go(0,true)};$("scRA").onclick=()=>role("A");$("scRB").onclick=()=>role("B");
+  $("scBack").onclick=()=>{stopScene();dialogView(dg,ctx)};
+  paint();
 }
 function unitQuiz(L,u){const sy=SYL(L),key=uqKey(L,u),nxt=nextStepAfter(L,key),un=sy.units[u];
   /* mismo formato en cada intento (escritura, redacción, escucha, habla) pero con preguntas distintas del banco de la unidad */
