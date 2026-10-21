@@ -43,7 +43,7 @@ lessons: [
   {t:"mc",q:"—We don't have any milk. —Oh, I ___ some at the corner shop.",o:["'m buying","'ll buy","buy","'m going to buying"],a:1,x:"Decisión tomada en el momento → will."},
   {t:"mc",q:"Look at that man on the ladder! He ___ fall.",o:["will","is going to","falls","is falling to"],a:1,x:"Predicción con evidencia → going to."},
   {t:"mc",q:"The museum ___ at 9 a.m. every day, so we can go early.",o:["is opening","will open","opens","is going to open"],a:2},
-  {t:"fill",q:"I ___ Andrés for lunch tomorrow. We agreed yesterday. (meet, plan acordado)",ans:["'m meeting","am meeting","’m meeting"]},
+  {t:"fill",q:"I ___ Andrés for lunch tomorrow. We agreed yesterday. (meet, plan acordado)",ans:["am meeting","'m meeting"]},
   {t:"listen",say:"I'm not sure what to do next year. I think I'll probably look for a new job, but I haven't made up my mind yet.",q:"¿Qué tan decidido está?",o:["Ya renunció","Todavía no se ha decidido","Ya tiene un trabajo nuevo","Va a estudiar en el exterior"],a:1},
   {t:"oral",text:"I'm flying to Medellín on Friday, and I'm going to visit my grandparents."}
  ],
@@ -101,7 +101,7 @@ lessons: [
   {t:"mc",q:"If you ___ now, you'll catch the last train.",o:["will leave","leave","left","leaving"],a:1},
   {t:"mc",q:"I'll call you as soon as I ___ the news.",o:["will hear","hear","heard","am hearing"],a:1,x:"Después de as soon as va presente simple, no will."},
   {t:"mc",q:"You won't get in ___ you have a ticket.",o:["if","in case","unless","until"],a:2},
-  {t:"fill",q:"Take a jacket ___ ___ it gets cold tonight. (por si acaso)",ans:["in case"]},
+  {t:"fill",q:"Take a jacket ___ it gets cold tonight. (por si acaso)",ans:["in case"]},
   {t:"listen",say:"If you finish the report before lunch, you can leave early today. Otherwise, you'll have to stay until six.",q:"¿Qué pasa si no termina el informe antes del almuerzo?",o:["Lo despiden","Se queda hasta las seis","Sale temprano","Lo termina mañana"],a:1},
   {t:"oral",text:"If it rains tomorrow, we'll watch a movie at home."}
  ],

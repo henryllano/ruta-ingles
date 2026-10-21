@@ -181,3 +181,137 @@ honest | - | adjetivo | honesto, sincero | The honest answer.
 simply | - | adverbio | simplemente | We simply do not know.
 worth | - | adjetivo | que vale la pena (be worth = valer la pena) | It is worth the effort.
 effort | - | sustantivo | esfuerzo | Worth the effort.
+purpose | - | sustantivo | propósito, objetivo | The purpose of this report.
+report | - | sustantivo | informe | Read the report.
+summarise | - | verbo | resumir | Summarise the main points.
+findings | finding | sustantivo (plural) | hallazgos, resultados | The main findings.
+two-year | - | adjetivo | de dos años | A two-year study.
+study | - | sustantivo | estudio | A study into remote work.
+effects | effect | sustantivo (plural) | efectos | The effects of stress.
+employee | - | sustantivo | empleado, trabajador | Employee productivity.
+productivity | - | sustantivo | productividad | Productivity increased.
+wellbeing | - | sustantivo | bienestar | Employee wellbeing.
+medium-sized | - | adjetivo | mediano | Medium-sized companies.
+financial | - | adjetivo | financiero | The financial sector.
+sectors | sector | sustantivo (plural) | sectores | Two sectors were studied.
+widely | - | adverbio | ampliamente | It is widely believed.
+leads | lead | verbo | lleva a, conduce a | Stress leads to illness.
+decline | - | sustantivo | disminución, descenso | A decline in sales.
+collaboration | - | sustantivo | colaboración | Collaboration between teams.
+complex | - | adjetivo | complejo | A complex picture.
+picture | - | sustantivo | panorama, imagen | A more complex picture.
+introduction | - | sustantivo | introducción, implantación | The introduction of new rules.
+flexible | - | adjetivo | flexible | Flexible working hours.
+arrangements | arrangement | sustantivo (plural) | acuerdos, modalidades | Working arrangements.
+associated | associate | verbo (participio) | asociado | Associated with an increase.
+measurable | - | adjetivo | medible, cuantificable | A measurable increase.
+increase | - | sustantivo | aumento | An increase in output.
+individual | - | adjetivo | individual | Individual output.
+output | - | sustantivo | producción, rendimiento | Output rose by ten per cent.
+particularly | - | adverbio | particularmente, sobre todo | Particularly in the morning.
+tasks | task | sustantivo (plural) | tareas | Tasks requiring concentration.
+requiring | require | verbo (-ing) | que requieren | Tasks requiring attention.
+concentration | - | sustantivo | concentración | It needs concentration.
+reported | report | verbo (pasado) | informaron, dijeron | Employees reported fewer problems.
+fewer | few | determinante (comparativo) | menos (contables) | Fewer interruptions.
+interruptions | interruption | sustantivo (plural) | interrupciones | Too many interruptions.
+significant | - | adjetivo | significativo | A significant reduction.
+reduction | - | sustantivo | reducción | A reduction in costs.
+spent | spend | verbo (participio) | pasado, dedicado (tiempo) | Time spent commuting.
+commuting | commute | verbo (-ing) | desplazarse al trabajo | I hate commuting.
+furthermore | - | adverbio | además | Furthermore, costs fell.
+analysis | - | sustantivo | análisis | The analysis of data.
+absence | - | sustantivo | ausencia | Absence records.
+records | record | sustantivo (plural) | registros | Medical records.
+revealed | reveal | verbo (pasado) | reveló | The study revealed a problem.
+decrease | - | sustantivo | disminución | A decrease of fifteen per cent.
+approximately | - | adverbio | aproximadamente | Approximately ten people.
+fifteen | - | número | quince | Fifteen per cent.
+per | - | preposición | por (per cent = por ciento) | Ten per cent.
+cent | - | sustantivo | ciento (per cent = por ciento) | Fifteen per cent.
+sick | - | adjetivo | enfermo (sick leave = baja por enfermedad) | She is on sick leave.
+frequency | - | sustantivo | frecuencia | The frequency of meetings.
+informal | - | adjetivo | informal | Informal communication.
+communication | - | sustantivo | comunicación | Good communication.
+departments | department | sustantivo (plural) | departamentos | Between departments.
+dropped | drop | verbo (pasado) | cayó, bajó | Sales dropped.
+considerably | - | adverbio | considerablemente | It dropped considerably.
+negative | - | adjetivo | negativo | A negative impact.
+impact | - | sustantivo | impacto | A negative impact.
+ideas | idea | sustantivo (plural) | ideas | New ideas.
+since | - | conjunción | ya que, puesto que | Since it was late, we left.
+innovation | - | sustantivo | innovación | Innovation needs time.
+depends | depend | verbo | depende | It depends on you.
+unplanned | - | adjetivo | no planeado, imprevisto | Unplanned conversations.
+addition | - | sustantivo | adición (in addition = además) | In addition, costs fell.
+newer | new | adjetivo (comparativo) | más nuevo, más reciente | Newer employees.
+expressed | express | verbo (pasado) | expresaron | They expressed concern.
+concern | - | sustantivo | preocupación | Concern about jobs.
+lack | - | sustantivo | falta, carencia | A lack of time.
+opportunities | opportunity | sustantivo (plural) | oportunidades | Opportunities for learning.
+argued | argue | verbo (participio) | argumentado, sostenido | It has been argued that...
+disadvantages | disadvantage | verbo | perjudica, pone en desventaja | It disadvantages young staff.
+younger | young | adjetivo (comparativo) | más joven | Younger staff.
+particular | - | adjetivo | particular (in particular = en particular) | Younger staff in particular.
+data | - | sustantivo | datos | Our data support this.
+partly | - | adverbio | en parte | Partly true.
+regard | - | sustantivo | with regard to = con respecto a | With regard to costs.
+results | result | sustantivo (plural) | resultados | The results were mixed.
+mixed | - | adjetivo | variados, dispares | Mixed results.
+majority | - | sustantivo | mayoría | The majority agreed.
+participants | participant | sustantivo (plural) | participantes | Most participants agreed.
+valued | value | verbo (pasado) | valoraron | They valued the freedom.
+increased | increase | adjetivo / participio | mayor, aumentado | Increased autonomy.
+autonomy | - | sustantivo | autonomía | Increased autonomy.
+considerable | - | adjetivo | considerable | A considerable minority.
+minority | - | sustantivo | minoría | A small minority.
+described | describe | verbo (pasado) | describieron | They described feelings of isolation.
+feelings | feeling | sustantivo (plural) | sentimientos, sensaciones | Feelings of isolation.
+isolation | - | sustantivo | aislamiento | Feelings of isolation.
+difficulty | - | sustantivo | dificultad | Difficulty in sleeping.
+separating | separate | verbo (-ing) | separar | Separating work from private life.
+private | - | adjetivo | privado | Private life.
+consequently | - | adverbio | en consecuencia | Consequently, we changed the rules.
+implementation | - | sustantivo | implementación, aplicación | The implementation of policies.
+policies | policy | sustantivo (plural) | políticas, normas | Clear policies.
+strongly | - | adverbio | firmemente, encarecidamente | Strongly recommended.
+recommended | recommend | verbo (participio) | recomendado | It is strongly recommended.
+light | - | sustantivo | luz (in light of = a la luz de) | In light of these findings.
+suggested | suggest | verbo (participio) | sugerido | It is suggested that...
+organisations | organisation | sustantivo (plural) | organizaciones | Many organisations agree.
+adopt | - | verbo | adoptar | Adopt a hybrid model.
+allow | - | verbo | permitir | It would allow flexibility.
+maintain | - | verbo | mantener | Maintain the benefits.
+encouraging | encourage | verbo (-ing) | fomentando, fomentar | Encouraging collaboration.
+mentoring | - | sustantivo | mentoría, tutoría | Mentoring helps new staff.
+nevertheless | - | adverbio | sin embargo, no obstante | Nevertheless, it is worth a visit.
+noted | note | verbo (participio) | señalado (it should be noted = cabe señalar) | It should be noted that...
+limitations | limitation | sustantivo (plural) | limitaciones | The study has limitations.
+sample | - | sustantivo | muestra | A small sample.
+restricted | restrict | verbo (participio) | limitado, restringido | Restricted to two sectors.
+applicable | - | adjetivo | aplicable | Not applicable to all cases.
+industries | industry | sustantivo (plural) | industrias, sectores | Other industries.
+physical | - | adjetivo | físico | Physical presence.
+presence | - | sustantivo | presencia | Physical presence is essential.
+moreover | - | adverbio | además, asimismo | Moreover, it is cheap.
+measured | measure | verbo (participio) | medido | Productivity was measured.
+mainly | - | adverbio | principalmente | Mainly through surveys.
+self-assessment | - | sustantivo | autoevaluación | Measured through self-assessment.
+degree | - | sustantivo | grado, cierto nivel | A degree of bias.
+bias | - | sustantivo | sesgo | A degree of bias.
+research | - | sustantivo | investigación | Further research is needed.
+therefore | - | adverbio | por lo tanto | It is therefore necessary.
+needed | need | verbo (participio) | necesario, necesitado | More research is needed.
+firm | - | adjetivo | firme, definitivo | Firm conclusions.
+conclusions | conclusion | sustantivo (plural) | conclusiones | Draw conclusions.
+drawn | draw | verbo (participio) | sacado (draw conclusions = sacar conclusiones) | Conclusions can be drawn.
+conclusion | - | sustantivo | conclusión (in conclusion = en conclusión) | In conclusion, it works.
+indicates | indicate | verbo | indica | The evidence indicates that...
+neither | - | conjunción | ni (neither... nor = ni... ni) | Neither good nor bad.
+complete | - | adjetivo | completo, total | A complete solution.
+solution | - | sustantivo | solución | A simple solution.
+nor | - | conjunción | ni | Neither a solution nor a threat.
+threat | - | sustantivo | amenaza | A serious threat.
+tool | - | sustantivo | herramienta | A useful tool.
+whose | - | pronombre | cuyo, cuya | A tool whose value depends on you.
+effectiveness | - | sustantivo | eficacia | Its effectiveness depends on management.
