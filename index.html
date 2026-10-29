@@ -414,6 +414,8 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
 .play:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
 .field{display:flex;flex-direction:column;gap:6px;margin-bottom:18px}
 .field label{font-weight:700}
+.pwbox{position:relative;display:flex}.pwbox input{flex:1;padding-right:84px}
+.pweye{position:absolute;right:8px;top:50%;transform:translateY(-50%);border:0;background:none;color:var(--mute);font-weight:700;cursor:pointer;padding:8px}
 .field input{padding:14px 16px;border:2px solid var(--line);border-radius:8px;background:var(--bg);font-size:16px}
 .field input:focus{border-color:var(--sun);outline:none}
 .err{color:var(--coral);font-weight:700;font-size:14px;min-height:1.2em;margin:0}
@@ -942,12 +944,12 @@ function newExam(){X={step:0,name:"",email:"",idx:0,sel:null,plays:0,ans:{listen
 document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||""}
   OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender()}});
 function closeExam(){OV=null;if(typeof stopScene==="function")stopScene();LVBACK=null;if(typeof stopReader==="function")stopReader();body.style.maxWidth="";stopRec();stopSpeak();exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
-function renderCloseBtn(confirm){$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
+function renderCloseBtn(confirm){if(OV==="who"&&!curStudent()){$("exCloseWrap").innerHTML="";return}$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
   if(confirm){$("exYes").onclick=closeExam;$("exNo").onclick=()=>renderCloseBtn(false)}else $("exClose").onclick=()=>needConfirm()?renderCloseBtn(true):closeExam()}
 let OV=null;
 const needConfirm=()=>(OV==="exam"&&X&&X.step>0&&X.step<5)||(OV==="quiz"&&Q&&!Q.done&&Q.i>0);
 renderCloseBtn(false);
-addEventListener("keydown",e=>{if(e.key==="Escape"&&!exam.hidden)renderCloseBtn(true)});
+addEventListener("keydown",e=>{if(e.key==="Escape"&&!exam.hidden&&!(OV==="who"&&!curStudent()))renderCloseBtn(true)});
 
 function go(step){X.step=step;X.idx=0;X.sel=null;X.plays=0;X.spErr=null;exRender();exam.scrollTop=0}
 function exRender(){
@@ -1098,50 +1100,90 @@ function ensureStudent(name,email){const db=loadDB(),id=email?email.toLowerCase(
 const LOCK_LEVELS=false;
 function unlocked(i){if(i===0||!LOCK_LEVELS)return true;const st=curStudent();return !!(st&&((st.quiz&&st.quiz[i-1]&&st.quiz[i-1].passed)||(st.prog&&st.prog[(i-1)+"-final"]&&st.prog[(i-1)+"-final"].passed)))}
 function renderWho(){const st=curStudent(),b=$("whoBtn");
-  b.innerHTML=st?`<b>${esc(st.name.trim()[0].toUpperCase())}</b><span>${esc(st.name.split(" ")[0])} · Cambiar</span>`:`<b>+</b><span>Registrarme</span>`;
-  b.setAttribute("aria-label",st?`Estudiando como ${st.name}. Cambiar de persona`:"Registrarme")}
-$("whoBtn").onclick=()=>{OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()};
+  b.innerHTML=st?`<b>${esc(st.name.trim()[0].toUpperCase())}</b><span>${esc(st.name.split(" ")[0])} · Mi cuenta</span>`:`<b>+</b><span>Entrar</span>`;
+  b.setAttribute("aria-label",st?`Estudiando como ${st.name}. Mi cuenta`:"Entrar")}
+$("whoBtn").onclick=()=>{OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView(null,curStudent()?"account":null)};
 
-/* entrar: si la persona ya existe se reconoce por nombre o correo y conserva su avance; si no, se registra */
+/* cuentas: usuario y contraseña. La contraseña nunca se guarda: se guarda una huella (PBKDF2 con sal) para reconocerla */
 const keyName=t=>t.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().trim().replace(/\s+/g," ");
+const USER_RE=/^[a-z0-9._-]{3,20}$/;
+const toHex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");
+async function passHash(pw,salt){
+  if(window.crypto&&crypto.subtle){const k=await crypto.subtle.importKey("raw",new TextEncoder().encode(pw),"PBKDF2",false,["deriveBits"]);
+    return toHex(await crypto.subtle.deriveBits({name:"PBKDF2",salt:new TextEncoder().encode(salt),iterations:100000,hash:"SHA-256"},k,256))}
+  let h=2166136261;for(const c of salt+pw){h^=c.charCodeAt(0);h=Math.imul(h,16777619)>>>0}return "f"+h.toString(16)}
+const newSalt=()=>window.crypto&&crypto.getRandomValues?toHex(crypto.getRandomValues(new Uint8Array(16))):String(Math.random()).slice(2);
 function findStudent(q){const db=loadDB(),k=keyName(q);if(!k)return null;
-  return db.find(s=>(s.email||"").toLowerCase()===k)||db.find(s=>keyName(s.name)===k)||
-    (()=>{const m=db.filter(s=>keyName(s.name).split(" ")[0]===k);return m.length===1?m[0]:null})()}
+  return db.find(s=>s.user===k)||db.find(s=>(s.email||"").toLowerCase()===k)||(db.find(s=>!s.pass&&keyName(s.name)===k))||null}
+async function setPassword(st,pw){const db=loadDB(),x=db.find(s=>s.id===st.id);x.salt=newSalt();x.pass=await passHash(pw,x.salt);saveDB(db);return x}
+function logout(){S.student=null;save();renderWho();render();OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()}
+const pwField=(id,label,ac)=>`<div class="field"><label for="${id}">${label}</label><div class="pwbox"><input id="${id}" type="password" autocomplete="${ac}"><button type="button" class="pweye" data-eye="${id}" aria-label="Mostrar contraseña">Ver</button></div></div>`;
+function eyes(){body.querySelectorAll("[data-eye]").forEach(b=>b.onclick=()=>{const i=$(b.dataset.eye),sh=i.type==="password";i.type=sh?"text":"password";b.textContent=sh?"Ocultar":"Ver"})}
 function whoView(after,step,pre){
-  $("exSteps").innerHTML=`<span class="on">${step==="new"?"Registro":"Entrar"}</span>`;
-  const db=loadDB(),done=()=>{render();renderResults();after?after():closeExam()};
+  $("exSteps").innerHTML=`<span class="on">${step==="new"?"Registro":step==="setpw"?"Contraseña":step==="account"?"Mi cuenta":"Entrar"}</span>`;
+  const done=()=>{render();renderResults();renderCloseBtn(false);after?after():closeExam()};
   const enter=st=>{S.student=st.id;save();renderWho();done()};
+  const err=t=>{$("wErr").textContent=t};
+  if(step==="account"){const st=curStudent();
+    body.innerHTML=`<h2>Mi cuenta</h2><p class="lead">Estás estudiando como <b>${esc(st.name)}</b>${st.user?` (usuario <b>${esc(st.user)}</b>)`:""}. Tu avance se guarda en esta cuenta.</p>
+    <div class="ex-actions"><button class="linkbtn" type="button" id="wOut">Cerrar sesión</button><button class="btn sun" type="button" id="wStay">Seguir estudiando</button></div>`;
+    $("wOut").onclick=logout;$("wStay").onclick=closeExam;return}
+  if(step==="setpw"){const st=pre;
+    body.innerHTML=`<h2>Crea tu usuario y contraseña</h2><p class="lead">Hola, ${esc(st.name.split(" ")[0])}. Ahora la página pide usuario y contraseña. Créalos una vez y tu avance se queda contigo.</p>
+    <form id="whoF" novalidate>
+      <div class="field"><label for="wUser">Usuario</label><input id="wUser" autocomplete="username" autocapitalize="none" placeholder="Ej.: ${esc(keyName(st.name).split(" ")[0].replace(/[^a-z0-9._-]/g,"")||"maria")}"></div>
+      ${pwField("wPw","Contraseña (mínimo 6 caracteres)","new-password")}${pwField("wPw2","Repite la contraseña","new-password")}
+      <p class="err" id="wErr"></p>
+      <div class="ex-actions"><button class="linkbtn" type="button" id="wBack">← Volver</button><button class="btn sun" type="submit">Guardar y entrar</button></div>
+    </form>`;
+    eyes();$("wBack").onclick=()=>whoView(after);$("wUser").focus();
+    $("whoF").onsubmit=async e=>{e.preventDefault();const u=$("wUser").value.trim().toLowerCase(),p=$("wPw").value,p2=$("wPw2").value;
+      if(!USER_RE.test(u))return err("El usuario debe tener de 3 a 20 letras o números, sin espacios (puede llevar . _ -).");
+      if(loadDB().some(s=>s.user===u&&s.id!==st.id))return err("Ese usuario ya existe. Elige otro.");
+      if(p.length<6)return err("La contraseña debe tener al menos 6 caracteres.");
+      if(p!==p2)return err("Las dos contraseñas no coinciden.");
+      const db=loadDB();db.find(s=>s.id===st.id).user=u;saveDB(db);enter(await setPassword(st,p))};
+    return}
   if(step==="new"){
-    body.innerHTML=`<h2>Crea tu perfil</h2><p class="lead">No encontramos a nadie con ese nombre. Regístrate una sola vez: después solo escribes tu nombre para entrar y seguir con tu avance.</p>
+    body.innerHTML=`<h2>Crea tu cuenta</h2><p class="lead">Regístrate una sola vez. Después entras con tu usuario y tu contraseña y sigues con tu avance.</p>
     <form id="whoF" novalidate>
       <div class="field"><label for="wName">Nombre completo</label><input id="wName" autocomplete="name" placeholder="Ej.: María Pérez" value="${esc(pre||"")}"></div>
       <div class="field"><label for="wMail">Correo electrónico</label><input id="wMail" type="email" autocomplete="email" placeholder="tucorreo@ejemplo.com"></div>
+      <div class="field"><label for="wUser">Usuario</label><input id="wUser" autocomplete="username" autocapitalize="none" placeholder="Ej.: maria"></div>
+      ${pwField("wPw","Contraseña (mínimo 6 caracteres)","new-password")}${pwField("wPw2","Repite la contraseña","new-password")}
       <p class="err" id="wErr"></p>
-      <div class="ex-actions"><button class="linkbtn" type="button" id="wBack">← Ya tengo perfil</button><button class="btn sun" type="submit">Registrarme</button></div>
+      <div class="ex-actions"><button class="linkbtn" type="button" id="wBack">← Ya tengo cuenta</button><button class="btn sun" type="submit">Registrarme</button></div>
     </form>`;
-    $("wBack").onclick=()=>whoView(after);
-    $(pre?"wMail":"wName").focus();
-    $("whoF").onsubmit=e=>{e.preventDefault();const n=$("wName").value.trim(),m=$("wMail").value.trim();
-      if(n.length<2){$("wErr").textContent="Escribe tu nombre para continuar.";return}
-      if(!MAIL_RE.test(m)){$("wErr").textContent="Escribe un correo válido, por ejemplo nombre@gmail.com.";return}
-      const ex=findStudent(m)||findStudent(n);if(ex){enter(ex);return}
-      ensureStudent(n,m);done()};
-    return;
-  }
-  body.innerHTML=`<h2>¡Hola! ¿Quién eres?</h2><p class="lead">Escribe tu nombre o tu correo. Si ya estás registrado, sigues donde ibas; si eres nuevo, te registras en un paso.</p>
-    ${db.length?`<div class="opts" style="margin-bottom:26px">${db.map(s=>`<button class="opt" data-id="${esc(s.id)}"><i>${esc(s.name.trim()[0].toUpperCase())}</i><span><b>Continuar como ${esc(s.name)}</b><br><small style="color:var(--mute)">${esc(s.email||"")}</small></span></button>`).join("")}</div>`:""}
+    eyes();$("wBack").onclick=()=>whoView(after);$("wName").focus();
+    $("whoF").onsubmit=async e=>{e.preventDefault();const n=$("wName").value.trim(),m=$("wMail").value.trim().toLowerCase(),u=$("wUser").value.trim().toLowerCase(),p=$("wPw").value,p2=$("wPw2").value;
+      if(n.length<2)return err("Escribe tu nombre completo.");
+      if(!MAIL_RE.test(m))return err("Escribe un correo válido, por ejemplo nombre@gmail.com.");
+      if(!USER_RE.test(u))return err("El usuario debe tener de 3 a 20 letras o números, sin espacios (puede llevar . _ -).");
+      const db=loadDB();
+      if(db.some(s=>s.user===u))return err("Ese usuario ya existe. Elige otro o vuelve a «Ya tengo cuenta».");
+      const old=db.find(s=>(s.email||"").toLowerCase()===m);
+      if(old&&old.pass)return err("Ya hay una cuenta con ese correo. Vuelve a «Ya tengo cuenta» y entra con tu usuario.");
+      if(p.length<6)return err("La contraseña debe tener al menos 6 caracteres.");
+      if(p!==p2)return err("Las dos contraseñas no coinciden.");
+      let st=old;if(!st){st={id:m,name:n,email:m,results:[],quiz:{}};db.push(st)}
+      st.name=n;st.user=u;st.quiz=st.quiz||{};saveDB(db);enter(await setPassword(st,p))};
+    return}
+  body.innerHTML=`<h2>Entrar</h2><p class="lead">Escribe tu usuario y tu contraseña. Si es tu primera vez, regístrate.</p>
     <form id="whoF" novalidate>
-      <div class="field"><label for="wWho">Tu nombre o tu correo</label><input id="wWho" autocomplete="name" placeholder="Ej.: Henry o henry@gmail.com"></div>
+      <div class="field"><label for="wWho">Usuario o correo</label><input id="wWho" autocomplete="username" autocapitalize="none" placeholder="Ej.: maria"></div>
+      ${pwField("wPw","Contraseña","current-password")}
       <p class="err" id="wErr"></p>
       <div class="ex-actions"><button class="linkbtn" type="button" id="wNew">Soy nuevo, quiero registrarme</button><button class="btn sun" type="submit">Entrar</button></div>
     </form>`;
-  body.querySelectorAll("[data-id]").forEach(b=>b.onclick=()=>enter(db.find(s=>s.id===b.dataset.id)));
-  $("wNew").onclick=()=>whoView(after,"new");
-  $("wWho").focus();
-  $("whoF").onsubmit=e=>{e.preventDefault();const q=$("wWho").value.trim();
-    if(q.length<2){$("wErr").textContent="Escribe tu nombre o tu correo.";return}
-    const st=findStudent(q);if(st){enter(st);return}
-    whoView(after,"new",MAIL_RE.test(q)?"":q)};
+  eyes();$("wNew").onclick=()=>whoView(after,"new");$("wWho").focus();
+  $("whoF").onsubmit=async e=>{e.preventDefault();const q=$("wWho").value.trim(),p=$("wPw").value;
+    if(q.length<2)return err("Escribe tu usuario o tu correo.");
+    const st=findStudent(q);
+    if(!st)return err("No encontramos ese usuario. Revisa cómo lo escribiste o regístrate.");
+    if(!st.pass){whoView(after,"setpw",st);return}
+    if(!p)return err("Escribe tu contraseña.");
+    if(await passHash(p,st.salt)!==st.pass){$("wPw").value="";$("wPw").focus();return err("Contraseña incorrecta. Inténtalo de nuevo.")}
+    enter(st)};
 }
 
 /* ================= quizzes por nivel =================
