@@ -1,3 +1,9 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#18203A">
 <title>Ruta A1 → C2</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -36,7 +42,15 @@ nav.main .in{display:flex;align-items:center;justify-content:space-between;gap:1
 .links a{font-family:var(--f-display);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);text-decoration:none;position:relative;padding-block:4px}
 .links a::after{content:"";position:absolute;left:0;right:100%;bottom:-2px;height:2px;background:var(--sun);transition:right .3s}
 .links a:hover::after{right:0}
-@media (max-width:640px){.links{display:none}}
+.menuBtn{display:none;border:0;background:var(--soft);color:var(--ink);width:44px;height:44px;border-radius:10px;cursor:pointer;flex:0 0 auto}
+.menuBtn svg{width:22px;height:22px}
+@media (max-width:980px){.links{display:none}.menuBtn{display:grid;place-items:center}
+  nav.main .in{gap:10px}.logo{margin-right:auto}
+  nav.main.open .links{display:flex;flex-direction:column;gap:0;position:absolute;left:0;right:0;top:100%;background:var(--bg);box-shadow:0 12px 24px -12px rgba(0,0,0,.3);padding:6px 16px 12px}
+  nav.main.open .links a{padding:14px 4px;border-bottom:1px solid var(--line);font-size:14px}}
+.logo{white-space:nowrap}
+@media (max-width:560px){.top span:nth-child(2){display:none}}
+@media (max-width:420px){.who span{max-width:92px;overflow:hidden;text-overflow:ellipsis}.logo{font-size:17px}.logo svg{width:28px;height:28px}.who{padding:4px 10px 4px 4px;font-size:13px}}
 
 /* portada */
 .hero{position:relative;overflow:hidden;background:var(--navy);min-height:560px;display:flex;align-items:center}
@@ -484,6 +498,7 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <a class="logo" href="#inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 6 2 15l18 9 18-9z" fill="#FFB800"/><path d="M9 19v8c0 3 5 6 11 6s11-3 11-6v-8l-11 5.5z" fill="#1A2238"/><path d="M35 16v10" stroke="#FF6B5A" stroke-width="2.5" stroke-linecap="round"/></svg>RUTA A1</a>
   <div class="links"><a href="#examen">Examen</a><a href="#niveles">Niveles</a><a href="#plan">Tu plan</a><a href="#curso">Tu curso</a><a href="#resultados">Resultados</a><a href="#" id="navDict">Diccionario</a></div>
   <button class="who" id="whoBtn"></button>
+  <button class="menuBtn" id="menuBtn" aria-label="Menú" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </div></nav>
 
 <header class="hero" id="inicio">
@@ -2014,6 +2029,8 @@ $("tFab").onclick=()=>$("tPanel").hidden?toolsOpen():toolsClose();$("tClose").on
 document.querySelectorAll("#tPanel .ttabs [data-tab]").forEach(b=>b.onclick=()=>toolTab(b.dataset.tab));
 addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("tPanel").hidden){e.stopImmediatePropagation();toolsClose()}},true);
 
+$("menuBtn").onclick=()=>{const n=document.querySelector("nav.main"),o=n.classList.toggle("open");$("menuBtn").setAttribute("aria-expanded",o)};
+document.querySelectorAll("nav.main .links a").forEach(a=>a.addEventListener("click",()=>{document.querySelector("nav.main").classList.remove("open");$("menuBtn").setAttribute("aria-expanded","false")}));
 $("navDict").onclick=e=>{e.preventDefault();toolsOpen("dict")};
 renderWho();
 renderResults();
