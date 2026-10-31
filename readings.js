@@ -310,62 +310,815 @@ window.READINGS = [
   {
    "title": "Why We Need Sleep",
    "es": "Por qué necesitamos dormir · Lectura extra",
-   "text": "For centuries, sleep was considered a passive state, a kind of pause in which the body and the brain simply switched off. Today, scientists know that nothing could be further from the truth. While we are asleep, our brains are extraordinarily busy, and the consequences of not getting enough sleep are far more serious than most of us realise. During the night, we go through several cycles of sleep, each lasting around ninety minutes. In the deep stages, the body repairs muscles and tissues and strengthens the immune system. In the stage known as REM, when most dreaming takes place, the brain processes emotions and transfers information from short-term to long-term memory. In other words, a good night's sleep is essential not only for feeling rested, but also for learning and remembering. Recent research has also revealed that, while we sleep, the brain cleans itself, removing waste products that build up during the day. Some scientists believe that a lack of sleep over many years may be linked to diseases such as Alzheimer's. Despite all this, millions of people are chronically sleep-deprived. Long working hours, stress and, above all, screens are keeping us awake. The blue light emitted by phones and tablets reduces the production of melatonin, the hormone that tells our bodies it is time to sleep. On top of that, the endless stream of messages and videos keeps our minds active when they should be slowing down. The effects of insufficient sleep are well documented: poor concentration, irritability, weight gain and a higher risk of accidents. Driving after being awake for eighteen hours, for instance, is comparable to driving under the influence of alcohol. So what can we do? Experts recommend going to bed and getting up at the same time every day, even at weekends. Bedrooms should be dark, quiet and cool, and screens should be switched off at least an hour before bedtime. Caffeine should be avoided after lunch, and heavy meals late at night are best avoided as well. Sleep, it turns out, is not wasted time. It may well be the most productive thing we do all day."
+   "text": "For centuries, sleep was considered a passive state, a kind of pause in which the body and the brain simply switched off. Today, scientists know that nothing could be further from the truth. While we are asleep, our brains are extraordinarily busy, and the consequences of not getting enough sleep are far more serious than most of us realise. During the night, we go through several cycles of sleep, each lasting around ninety minutes. In the deep stages, the body repairs muscles and tissues and strengthens the immune system. In the stage known as REM, when most dreaming takes place, the brain processes emotions and transfers information from short-term to long-term memory. In other words, a good night's sleep is essential not only for feeling rested, but also for learning and remembering. Recent research has also revealed that, while we sleep, the brain cleans itself, removing waste products that build up during the day. Some scientists believe that a lack of sleep over many years may be linked to diseases such as Alzheimer's. Despite all this, millions of people are chronically sleep-deprived. Long working hours, stress and, above all, screens are keeping us awake. The blue light emitted by phones and tablets reduces the production of melatonin, the hormone that tells our bodies it is time to sleep. On top of that, the endless stream of messages and videos keeps our minds active when they should be slowing down. The effects of insufficient sleep are well documented: poor concentration, irritability, weight gain and a higher risk of accidents. Driving after being awake for eighteen hours, for instance, is comparable to driving under the influence of alcohol. So what can we do? Experts recommend going to bed and getting up at the same time every day, even at weekends. Bedrooms should be dark, quiet and cool, and screens should be switched off at least an hour before bedtime. Caffeine should be avoided after lunch, and heavy meals late at night are best avoided as well. Sleep, it turns out, is not wasted time. It may well be the most productive thing we do all day.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué pasa en la fase REM?",
+     "o": [
+      "El cerebro procesa emociones y consolida la memoria",
+      "El cuerpo deja de funcionar",
+      "Se reparan solo los músculos",
+      "No se sueña"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué las pantallas afectan el sueño?",
+     "o": [
+      "La luz azul reduce la melatonina",
+      "Hacen ruido",
+      "Aumentan la temperatura",
+      "Consumen mucha energía"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Con qué se compara manejar tras 18 horas despierto?",
+     "o": [
+      "Con manejar bajo los efectos del alcohol",
+      "Con manejar de noche",
+      "Con manejar sin licencia",
+      "Con manejar muy despacio"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Bedrooms should be dark, quiet and cool, and screens should be switched off at least an hour before bedtime.",
+     "q": "¿Cuándo hay que apagar las pantallas?",
+     "o": [
+      "Al menos una hora antes de dormir",
+      "Justo antes de dormir",
+      "Después de la cena",
+      "A medianoche"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How many hours do you usually sleep, and what could you do to sleep better?",
+     "min": 25,
+     "keys": [
+      [
+       "usually"
+      ],
+      [
+       "should",
+       "could"
+      ]
+     ],
+     "model": "I usually sleep about six hours, which is not enough. I should stop using my phone in bed and go to sleep at the same time every day."
+    }
+   ]
   },
   {
    "title": "The Hidden Cost of Fast Fashion",
    "es": "El costo oculto de la moda rápida · Lectura extra",
-   "text": "A T-shirt for the price of a sandwich. A new collection in the shops every few weeks. Over the last twenty years, \"fast fashion\" has transformed the way we buy clothes. Big brands produce trendy, inexpensive garments at incredible speed, and consumers have responded enthusiastically: the average person now buys sixty percent more clothes than in the year 2000, but keeps each item for half as long. The problem is that cheap clothes come at a high price, even if it is not the consumer who pays it. The fashion industry is responsible for around ten percent of global carbon emissions, more than international flights and shipping combined. Producing a single pair of jeans can require several thousand litres of water, and the chemicals used to dye fabrics often end up in rivers, poisoning ecosystems and the communities that depend on them. Then there is the human cost. Most fast-fashion garments are made in countries where labour is cheap and regulations are weak. In 2013, the Rana Plaza building in Bangladesh, which housed several clothing factories, collapsed, killing more than eleven hundred workers. The tragedy drew the world's attention to the dangerous conditions and extremely low wages in many of these factories. Finally, there is the question of what happens to our clothes when we no longer want them. Although many people donate unwanted items, only a small fraction is actually resold. Huge quantities are shipped to countries in Africa and South America, where much of it ends up in landfills or is burned. In the Atacama Desert in Chile, mountains of discarded clothing can even be seen from space. So what can consumers do? The most sustainable garment, experts say, is the one that is already in your wardrobe. Buying fewer, better-quality clothes, repairing them when they are damaged and choosing second-hand items are all effective ways of reducing our impact. Swapping clothes with friends and renting outfits for special occasions are becoming increasingly popular, too. Fashion is a form of self-expression, and nobody is suggesting that we should stop enjoying it. But perhaps it is time we started asking a simple question before we buy: who really pays for this T-shirt?"
+   "text": "A T-shirt for the price of a sandwich. A new collection in the shops every few weeks. Over the last twenty years, \"fast fashion\" has transformed the way we buy clothes. Big brands produce trendy, inexpensive garments at incredible speed, and consumers have responded enthusiastically: the average person now buys sixty percent more clothes than in the year 2000, but keeps each item for half as long. The problem is that cheap clothes come at a high price, even if it is not the consumer who pays it. The fashion industry is responsible for around ten percent of global carbon emissions, more than international flights and shipping combined. Producing a single pair of jeans can require several thousand litres of water, and the chemicals used to dye fabrics often end up in rivers, poisoning ecosystems and the communities that depend on them. Then there is the human cost. Most fast-fashion garments are made in countries where labour is cheap and regulations are weak. In 2013, the Rana Plaza building in Bangladesh, which housed several clothing factories, collapsed, killing more than eleven hundred workers. The tragedy drew the world's attention to the dangerous conditions and extremely low wages in many of these factories. Finally, there is the question of what happens to our clothes when we no longer want them. Although many people donate unwanted items, only a small fraction is actually resold. Huge quantities are shipped to countries in Africa and South America, where much of it ends up in landfills or is burned. In the Atacama Desert in Chile, mountains of discarded clothing can even be seen from space. So what can consumers do? The most sustainable garment, experts say, is the one that is already in your wardrobe. Buying fewer, better-quality clothes, repairing them when they are damaged and choosing second-hand items are all effective ways of reducing our impact. Swapping clothes with friends and renting outfits for special occasions are becoming increasingly popular, too. Fashion is a form of self-expression, and nobody is suggesting that we should stop enjoying it. But perhaps it is time we started asking a simple question before we buy: who really pays for this T-shirt?",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuánto más ropa compra hoy una persona promedio que en el año 2000?",
+     "o": [
+      "Un 60 % más",
+      "El doble",
+      "Un 10 % más",
+      "Lo mismo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué ocurrió en Rana Plaza en 2013?",
+     "o": [
+      "Se derrumbó un edificio de fábricas y murieron más de mil trabajadores",
+      "Se inauguró una fábrica ecológica",
+      "Hubo una huelga exitosa",
+      "Se cerró por contaminación"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "Según los expertos, ¿cuál es la prenda más sostenible?",
+     "o": [
+      "La que ya tienes en tu armario",
+      "La de algodón orgánico",
+      "La más barata",
+      "La que se alquila"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "In the Atacama Desert in Chile, mountains of discarded clothing can even be seen from space.",
+     "q": "¿Qué se puede ver desde el espacio?",
+     "o": [
+      "Montañas de ropa desechada en el desierto de Atacama",
+      "Fábricas de ropa en Chile",
+      "Ríos contaminados",
+      "Tiendas de moda"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How often do you buy clothes? What could you do to reduce your impact?",
+     "min": 22,
+     "keys": [
+      [
+       "could",
+       "should"
+      ]
+     ],
+     "model": "I buy clothes maybe once a month, which is probably too often. I could buy second-hand clothes and repair the ones I already have."
+    }
+   ]
   },
   {
    "title": "Should Zoos Still Exist?",
    "es": "¿Todavía deberían existir los zoológicos? · Lectura extra",
-   "text": "Few institutions divide public opinion as sharply as zoos. For some people, they are places of education and conservation; for others, they are prisons that exist mainly for human entertainment. In this essay, I will consider both sides of the argument before giving my own view. Supporters of zoos point out that modern zoos have changed considerably. The small concrete cages of the past have largely been replaced by large enclosures designed to resemble the animals' natural habitats. Moreover, many zoos play an important role in protecting endangered species. Breeding programmes have saved several animals from extinction, including the Arabian oryx and the California condor, which have successfully been reintroduced into the wild. Zoos also fund research and support conservation projects in the animals' countries of origin. Another argument in their favour is education. For many children, especially those living in cities, a visit to the zoo is the only opportunity they will ever have to see a lion or an elephant in real life. Supporters argue that this direct contact creates an emotional connection with nature that no documentary can provide, and that it inspires future generations to care about wildlife. On the other hand, critics claim that no enclosure, however large, can replace the freedom of the wild. Elephants, for example, walk many kilometres a day in their natural environment, and in captivity they frequently suffer from stress, obesity and joint problems. Some animals develop repetitive behaviours, such as pacing up and down, which experts consider a sign of psychological distress. Critics also point out that the majority of animals kept in zoos are not endangered at all, and that only a small proportion of zoos' budgets is spent on conservation. In my opinion, the answer lies somewhere in between. I believe that zoos which genuinely focus on conservation, research and animal welfare can be justified, at least for the time being. However, keeping large, intelligent animals such as elephants, orcas and great apes in captivity is increasingly difficult to defend. Ideally, the zoos of the future should look more like sanctuaries: places that exist for the benefit of the animals, not for the entertainment of visitors."
+   "text": "Few institutions divide public opinion as sharply as zoos. For some people, they are places of education and conservation; for others, they are prisons that exist mainly for human entertainment. In this essay, I will consider both sides of the argument before giving my own view. Supporters of zoos point out that modern zoos have changed considerably. The small concrete cages of the past have largely been replaced by large enclosures designed to resemble the animals' natural habitats. Moreover, many zoos play an important role in protecting endangered species. Breeding programmes have saved several animals from extinction, including the Arabian oryx and the California condor, which have successfully been reintroduced into the wild. Zoos also fund research and support conservation projects in the animals' countries of origin. Another argument in their favour is education. For many children, especially those living in cities, a visit to the zoo is the only opportunity they will ever have to see a lion or an elephant in real life. Supporters argue that this direct contact creates an emotional connection with nature that no documentary can provide, and that it inspires future generations to care about wildlife. On the other hand, critics claim that no enclosure, however large, can replace the freedom of the wild. Elephants, for example, walk many kilometres a day in their natural environment, and in captivity they frequently suffer from stress, obesity and joint problems. Some animals develop repetitive behaviours, such as pacing up and down, which experts consider a sign of psychological distress. Critics also point out that the majority of animals kept in zoos are not endangered at all, and that only a small proportion of zoos' budgets is spent on conservation. In my opinion, the answer lies somewhere in between. I believe that zoos which genuinely focus on conservation, research and animal welfare can be justified, at least for the time being. However, keeping large, intelligent animals such as elephants, orcas and great apes in captivity is increasingly difficult to defend. Ideally, the zoos of the future should look more like sanctuaries: places that exist for the benefit of the animals, not for the entertainment of visitors.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué argumento usan los defensores de los zoológicos?",
+     "o": [
+      "Ayudan a salvar especies en peligro",
+      "Son más baratos que los parques",
+      "Los animales viven más felices",
+      "Generan mucho empleo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué problema mencionan los críticos sobre los elefantes?",
+     "o": [
+      "En cautiverio sufren estrés, obesidad y problemas articulares",
+      "Comen demasiado",
+      "Son peligrosos para los visitantes",
+      "No se reproducen nunca"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es la conclusión del autor?",
+     "o": [
+      "Los zoológicos del futuro deberían parecerse a santuarios",
+      "Hay que cerrar todos los zoológicos",
+      "Los zoológicos están perfectos así",
+      "Solo deberían tener elefantes"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Breeding programmes have saved several animals from extinction, including the Arabian oryx and the California condor.",
+     "q": "¿Qué han logrado los programas de cría?",
+     "o": [
+      "Salvar animales de la extinción",
+      "Aumentar las visitas",
+      "Bajar los precios",
+      "Crear nuevas especies"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Do you think zoos should exist? Give your opinion with at least one argument for each side.",
+     "min": 30,
+     "keys": [
+      [
+       "on the one hand",
+       "however",
+       "although"
+      ],
+      [
+       "in my opinion",
+       "i think",
+       "i believe"
+      ]
+     ],
+     "model": "In my opinion, zoos can be useful for conservation. On the one hand, they protect endangered species. However, large animals suffer in captivity, so I think zoos should only keep animals that need protection."
+    }
+   ]
   },
   {
    "title": "Will a Robot Take Your Job?",
    "es": "¿Un robot te quitará el trabajo? · Lectura extra",
-   "text": "Every major technological revolution has been accompanied by the fear that machines would leave people without work. In the early nineteenth century, English textile workers known as Luddites smashed the new weaving machines that threatened their jobs. Two hundred years later, a similar anxiety has returned, this time provoked by artificial intelligence. The difference, according to many economists, is that previous waves of automation mostly affected manual and repetitive jobs. AI, on the other hand, can perform tasks that until recently were considered uniquely human: writing reports, translating documents, analysing medical images, answering customer questions or even writing computer code. As a result, white-collar professionals who once felt secure are now wondering whether their skills will still be needed in ten years' time. However, history suggests that the picture may be more complicated than the headlines imply. When cash machines were introduced in the 1970s, many people predicted the end of bank tellers. In fact, the number of tellers in the United States actually increased for several decades, because banks could open more branches and tellers took on new responsibilities, such as advising customers. Technology tends to eliminate certain tasks rather than entire professions, and it often creates jobs that nobody could have imagined before. That does not mean the transition will be painless. Some jobs will undoubtedly disappear, and the workers affected may not have the skills required for the new ones. Experts insist that governments and companies need to invest heavily in retraining, and that education systems must adapt. Rather than memorising information, which machines can retrieve instantly, students will need to develop abilities that are harder to automate: creativity, critical thinking, emotional intelligence and the capacity to keep learning throughout their lives. For individual workers, the most sensible strategy may be to learn to work with AI rather than compete against it. A translator who uses AI tools to produce a first draft and then focuses on style, nuance and cultural accuracy can work faster and offer more value. As one technology expert put it, \"AI will not replace you. A person using AI will.\""
+   "text": "Every major technological revolution has been accompanied by the fear that machines would leave people without work. In the early nineteenth century, English textile workers known as Luddites smashed the new weaving machines that threatened their jobs. Two hundred years later, a similar anxiety has returned, this time provoked by artificial intelligence. The difference, according to many economists, is that previous waves of automation mostly affected manual and repetitive jobs. AI, on the other hand, can perform tasks that until recently were considered uniquely human: writing reports, translating documents, analysing medical images, answering customer questions or even writing computer code. As a result, white-collar professionals who once felt secure are now wondering whether their skills will still be needed in ten years' time. However, history suggests that the picture may be more complicated than the headlines imply. When cash machines were introduced in the 1970s, many people predicted the end of bank tellers. In fact, the number of tellers in the United States actually increased for several decades, because banks could open more branches and tellers took on new responsibilities, such as advising customers. Technology tends to eliminate certain tasks rather than entire professions, and it often creates jobs that nobody could have imagined before. That does not mean the transition will be painless. Some jobs will undoubtedly disappear, and the workers affected may not have the skills required for the new ones. Experts insist that governments and companies need to invest heavily in retraining, and that education systems must adapt. Rather than memorising information, which machines can retrieve instantly, students will need to develop abilities that are harder to automate: creativity, critical thinking, emotional intelligence and the capacity to keep learning throughout their lives. For individual workers, the most sensible strategy may be to learn to work with AI rather than compete against it. A translator who uses AI tools to produce a first draft and then focuses on style, nuance and cultural accuracy can work faster and offer more value. As one technology expert put it, \"AI will not replace you. A person using AI will.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Quiénes eran los luditas?",
+     "o": [
+      "Trabajadores textiles que destruían máquinas",
+      "Inventores de máquinas",
+      "Economistas modernos",
+      "Programadores de IA"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué pasó con los cajeros de banco cuando llegaron los cajeros automáticos?",
+     "o": [
+      "Su número aumentó durante décadas",
+      "Desaparecieron de inmediato",
+      "Bajaron sus salarios a la mitad",
+      "Se volvieron programadores"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué habilidades serán más importantes, según el texto?",
+     "o": [
+      "Creatividad, pensamiento crítico e inteligencia emocional",
+      "Memorizar información",
+      "Escribir rápido",
+      "Hacer cálculos mentales"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "AI will not replace you. A person using AI will.",
+     "q": "¿Qué quiere decir la frase?",
+     "o": [
+      "Quien use IA tendrá ventaja sobre quien no",
+      "La IA reemplazará a todos",
+      "Nadie usará la IA",
+      "La IA no sirve para nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How could artificial intelligence change your job or your studies? Is it a threat or an opportunity?",
+     "min": 32,
+     "keys": [
+      [
+       "could",
+       "might",
+       "will"
+      ],
+      [
+       "threat",
+       "opportunity"
+      ]
+     ],
+     "model": "AI could change my job a lot, because it can answer simple customer questions. I think it is both a threat and an opportunity: some tasks will disappear, but I could use AI to work faster."
+    }
+   ]
   },
   {
    "title": "The Inheritance",
    "es": "La herencia · Lectura extra",
-   "text": "When the lawyer finished reading the will, nobody in the room said a word. Marta looked at her two brothers, then back at the lawyer, convinced she must have misheard. Their aunt Inés had been the family eccentric: a woman who had never married, who had travelled alone through Asia in the 1970s and who had spent her last twenty years in a crumbling house on the outskirts of Popayán, surrounded by books and cats. Everyone had assumed that she had very little money. Yet according to the will, she had left a considerable fortune, and she had left all of it to the person \"who can tell me what I was looking for\". \"That's ridiculous,\" said Gustavo, the eldest brother, who had visited Inés exactly twice in a decade. \"It's obviously a joke.\" \"I'm afraid it isn't,\" replied the lawyer calmly. \"Your aunt left a sealed envelope with the answer. Each of you has one month to submit a response in writing.\" Over the following weeks, the brothers searched the house from top to bottom. Gustavo was convinced that the answer was hidden in a safe and hired a locksmith. Andrés, the middle brother, read every one of Inés's diaries, looking for clues about a lost love or a secret treasure. Marta, meanwhile, simply spent her afternoons in the house, feeding the cats, repairing the garden gate and reading the novels her aunt had left on the shelves, many of them full of notes in the margins. It was in one of those notes, in a battered copy of a Chilean poet's work, that she found a sentence underlined twice: \"I spent my life looking for a place where I didn't have to pretend.\" When the month was over, Gustavo submitted a list of possible hiding places for treasure. Andrés wrote about a mysterious man mentioned in a diary from 1974. Marta wrote only one line: \"You were looking for someone who would come back even when there was nothing to gain.\" The lawyer opened the envelope. Inside, in her aunt's elegant handwriting, were five words: \"Whoever stays to feed the cats.\""
+   "text": "When the lawyer finished reading the will, nobody in the room said a word. Marta looked at her two brothers, then back at the lawyer, convinced she must have misheard. Their aunt Inés had been the family eccentric: a woman who had never married, who had travelled alone through Asia in the 1970s and who had spent her last twenty years in a crumbling house on the outskirts of Popayán, surrounded by books and cats. Everyone had assumed that she had very little money. Yet according to the will, she had left a considerable fortune, and she had left all of it to the person \"who can tell me what I was looking for\". \"That's ridiculous,\" said Gustavo, the eldest brother, who had visited Inés exactly twice in a decade. \"It's obviously a joke.\" \"I'm afraid it isn't,\" replied the lawyer calmly. \"Your aunt left a sealed envelope with the answer. Each of you has one month to submit a response in writing.\" Over the following weeks, the brothers searched the house from top to bottom. Gustavo was convinced that the answer was hidden in a safe and hired a locksmith. Andrés, the middle brother, read every one of Inés's diaries, looking for clues about a lost love or a secret treasure. Marta, meanwhile, simply spent her afternoons in the house, feeding the cats, repairing the garden gate and reading the novels her aunt had left on the shelves, many of them full of notes in the margins. It was in one of those notes, in a battered copy of a Chilean poet's work, that she found a sentence underlined twice: \"I spent my life looking for a place where I didn't have to pretend.\" When the month was over, Gustavo submitted a list of possible hiding places for treasure. Andrés wrote about a mysterious man mentioned in a diary from 1974. Marta wrote only one line: \"You were looking for someone who would come back even when there was nothing to gain.\" The lawyer opened the envelope. Inside, in her aunt's elegant handwriting, were five words: \"Whoever stays to feed the cats.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo era la tía Inés?",
+     "o": [
+      "Excéntrica, viajera y rodeada de libros y gatos",
+      "Rica y presumida",
+      "Una abogada famosa",
+      "Muy cercana a Gustavo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hizo Marta durante el mes?",
+     "o": [
+      "Alimentó a los gatos, arregló la reja y leyó los libros de la tía",
+      "Contrató a un cerrajero",
+      "Leyó los diarios buscando un amor perdido",
+      "No volvió a la casa"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué decía el sobre?",
+     "o": [
+      "Quien se quede a alimentar a los gatos",
+      "El tesoro está en la caja fuerte",
+      "Un hombre misterioso de 1974",
+      "Nada, estaba vacío"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I spent my life looking for a place where I didn't have to pretend.",
+     "q": "¿Qué buscaba la tía?",
+     "o": [
+      "Un lugar donde no tuviera que fingir",
+      "Un tesoro escondido",
+      "Un amor perdido",
+      "Dinero"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What do you think the story is really about? Explain the message in your own words.",
+     "min": 30,
+     "keys": [
+      [
+       "about",
+       "message"
+      ],
+      [
+       "because"
+      ]
+     ],
+     "model": "I think the story is about loyalty and real love. The message is that people who care without expecting anything in return are the ones who deserve the most, because they understood the aunt."
+    }
+   ]
   },
   {
    "title": "Cities That Grow Their Own Food",
    "es": "Ciudades que cultivan su propia comida · Lectura extra",
-   "text": "On the roof of a former car park in central London, tomatoes, lettuce and herbs are growing in neat rows. In Singapore, vegetables are being cultivated in vertical towers several storeys high. And in the hills around Medellín, families are turning empty plots of land into productive gardens. Around the world, urban agriculture is booming. The idea of growing food in cities is hardly new. Before the twentieth century, most cities had vegetable gardens, orchards and even livestock within their limits. However, as cities expanded and transport became cheaper, food production moved to the countryside. Today, the average meal in a developed country travels hundreds, if not thousands, of kilometres before it reaches the plate. Supporters of urban farming argue that bringing food production back into cities has numerous benefits. Firstly, it reduces the distance food has to travel, and therefore the emissions associated with transporting it. Secondly, it can improve access to fresh, healthy food in poorer neighbourhoods, where supermarkets are often scarce and cheap processed food is the norm. Thirdly, green spaces help cool cities, absorb rainwater and provide habitats for bees and birds. There are social benefits, too. Community gardens bring together people of different ages and backgrounds who might otherwise never meet. In many cities, they have become places where elderly residents share their knowledge with children, where immigrants grow vegetables from their home countries, and where people recovering from illness or addiction find a sense of purpose. Nevertheless, urban agriculture faces significant challenges. Land in cities is expensive, and gardens are often the first to disappear when developers want to build. Soil can be contaminated by industrial pollution, which means it has to be tested carefully. High-tech solutions such as vertical farms, which grow crops indoors under artificial light, can produce impressive quantities, but they consume large amounts of energy and are expensive to set up. Few experts believe that cities will ever be able to feed themselves entirely. But urban agriculture does not need to replace traditional farming to be valuable. Even a few tomato plants on a balcony can change the way we think about where our food comes from."
+   "text": "On the roof of a former car park in central London, tomatoes, lettuce and herbs are growing in neat rows. In Singapore, vegetables are being cultivated in vertical towers several storeys high. And in the hills around Medellín, families are turning empty plots of land into productive gardens. Around the world, urban agriculture is booming. The idea of growing food in cities is hardly new. Before the twentieth century, most cities had vegetable gardens, orchards and even livestock within their limits. However, as cities expanded and transport became cheaper, food production moved to the countryside. Today, the average meal in a developed country travels hundreds, if not thousands, of kilometres before it reaches the plate. Supporters of urban farming argue that bringing food production back into cities has numerous benefits. Firstly, it reduces the distance food has to travel, and therefore the emissions associated with transporting it. Secondly, it can improve access to fresh, healthy food in poorer neighbourhoods, where supermarkets are often scarce and cheap processed food is the norm. Thirdly, green spaces help cool cities, absorb rainwater and provide habitats for bees and birds. There are social benefits, too. Community gardens bring together people of different ages and backgrounds who might otherwise never meet. In many cities, they have become places where elderly residents share their knowledge with children, where immigrants grow vegetables from their home countries, and where people recovering from illness or addiction find a sense of purpose. Nevertheless, urban agriculture faces significant challenges. Land in cities is expensive, and gardens are often the first to disappear when developers want to build. Soil can be contaminated by industrial pollution, which means it has to be tested carefully. High-tech solutions such as vertical farms, which grow crops indoors under artificial light, can produce impressive quantities, but they consume large amounts of energy and are expensive to set up. Few experts believe that cities will ever be able to feed themselves entirely. But urban agriculture does not need to replace traditional farming to be valuable. Even a few tomato plants on a balcony can change the way we think about where our food comes from.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué la producción de comida salió de las ciudades?",
+     "o": [
+      "Las ciudades crecieron y el transporte se abarató",
+      "Se prohibió por ley",
+      "La tierra urbana se contaminó",
+      "La gente dejó de comer verduras"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué beneficio social tienen los huertos comunitarios?",
+     "o": [
+      "Unen a personas de distintas edades y orígenes",
+      "Producen toda la comida de la ciudad",
+      "Eliminan el desempleo",
+      "Reducen los impuestos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué problema tienen las granjas verticales?",
+     "o": [
+      "Consumen mucha energía y son costosas",
+      "Producen muy poco",
+      "Contaminan el suelo",
+      "Solo cultivan flores"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Even a few tomato plants on a balcony can change the way we think about where our food comes from.",
+     "q": "¿Qué dice la última frase del texto?",
+     "o": [
+      "Unas pocas plantas en un balcón cambian cómo pensamos sobre la comida",
+      "Hay que tener una granja grande",
+      "Los tomates son difíciles de cultivar",
+      "Los balcones son peligrosos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Would you like to grow your own food? What would you grow and where?",
+     "min": 25,
+     "keys": [
+      [
+       "would"
+      ]
+     ],
+     "model": "I would love to grow my own food. I would grow tomatoes, herbs and lettuce on my balcony, because they are easy and I use them every day."
+    }
+   ]
   },
   {
    "title": "\"So, Tell Me About Yourself\"",
    "es": "\"Entonces, háblame de ti\" · Lectura extra",
-   "text": "It is usually the first question in a job interview, and it is the one that causes the most panic. It sounds simple, almost friendly, but many candidates either freeze or start telling their whole life story, from primary school onwards. Here is how to handle it like a professional. First of all, understand what the interviewer is really asking. They are not interested in your hobbies, your family or your star sign. What they want to know is who you are professionally, what you can offer and why you are sitting in front of them. They also want to see how well you communicate under pressure. Your answer should therefore be short, between one and two minutes, and clearly structured. A useful formula is \"present, past, future\". Begin with your current situation: what you do now and one or two of your main achievements. For example: \"I'm currently a customer service team leader at a telecommunications company, where I manage a team of twelve agents. Last year, we increased our customer satisfaction score by fifteen percent.\" Then move on to the past, mentioning the experience and skills that are relevant to this particular position: \"Before that, I worked for four years in sales, which taught me how to deal with difficult customers and work towards targets.\" Finally, explain why you are interested in this job and how it fits into your plans: \"I'm now looking for an opportunity to take on more responsibility in a larger organisation, and I was really impressed by your company's focus on training and development.\" There are also some common mistakes to avoid. Don't simply repeat your CV word for word; the interviewer has already read it. Don't criticise your current or previous employer, even if you had a terrible experience. And don't memorise your answer so rigidly that you sound like a robot. Prepare the main points, practise them out loud, ideally with a friend, and then let the words come naturally. Remember that first impressions matter. A confident, well-organised answer to this first question sets a positive tone for the rest of the interview, and it shows the interviewer that you have taken the time to think about who you are and what you want."
+   "text": "It is usually the first question in a job interview, and it is the one that causes the most panic. It sounds simple, almost friendly, but many candidates either freeze or start telling their whole life story, from primary school onwards. Here is how to handle it like a professional. First of all, understand what the interviewer is really asking. They are not interested in your hobbies, your family or your star sign. What they want to know is who you are professionally, what you can offer and why you are sitting in front of them. They also want to see how well you communicate under pressure. Your answer should therefore be short, between one and two minutes, and clearly structured. A useful formula is \"present, past, future\". Begin with your current situation: what you do now and one or two of your main achievements. For example: \"I'm currently a customer service team leader at a telecommunications company, where I manage a team of twelve agents. Last year, we increased our customer satisfaction score by fifteen percent.\" Then move on to the past, mentioning the experience and skills that are relevant to this particular position: \"Before that, I worked for four years in sales, which taught me how to deal with difficult customers and work towards targets.\" Finally, explain why you are interested in this job and how it fits into your plans: \"I'm now looking for an opportunity to take on more responsibility in a larger organisation, and I was really impressed by your company's focus on training and development.\" There are also some common mistakes to avoid. Don't simply repeat your CV word for word; the interviewer has already read it. Don't criticise your current or previous employer, even if you had a terrible experience. And don't memorise your answer so rigidly that you sound like a robot. Prepare the main points, practise them out loud, ideally with a friend, and then let the words come naturally. Remember that first impressions matter. A confident, well-organised answer to this first question sets a positive tone for the rest of the interview, and it shows the interviewer that you have taken the time to think about who you are and what you want.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuánto debería durar la respuesta?",
+     "o": [
+      "Entre uno y dos minutos",
+      "Diez minutos",
+      "Diez segundos",
+      "Lo que sea necesario"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es la fórmula recomendada?",
+     "o": [
+      "Presente, pasado, futuro",
+      "Familia, estudios, aficiones",
+      "Pasado, presente, preguntas",
+      "Salario, horario, vacaciones"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál de estos es un error a evitar?",
+     "o": [
+      "Criticar a tu empleador anterior",
+      "Mencionar logros",
+      "Explicar por qué te interesa el puesto",
+      "Practicar en voz alta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Don't simply repeat your CV word for word; the interviewer has already read it.",
+     "q": "¿Por qué no repetir la hoja de vida?",
+     "o": [
+      "Porque el entrevistador ya la leyó",
+      "Porque es muy larga",
+      "Porque es confidencial",
+      "Porque está en español"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Answer the question: 'So, tell me about yourself.' Use the present, past and future formula.",
+     "min": 35,
+     "keys": [
+      [
+       "currently",
+       "i'm",
+       "i work"
+      ],
+      [
+       "before",
+       "previously"
+      ],
+      [
+       "looking for",
+       "would like",
+       "i'd like"
+      ]
+     ],
+     "model": "I'm currently working as a team leader in a call centre, where I manage ten agents. Previously, I worked in sales for three years. Now I'm looking for a position where I can use my English and grow professionally."
+    }
+   ]
   },
   {
    "title": "The Power of the Placebo",
    "es": "El poder del placebo · Lectura extra",
-   "text": "Imagine taking a pill for a headache and feeling better twenty minutes later, only to discover that the pill contained nothing but sugar. This is the placebo effect, one of the most fascinating and puzzling phenomena in medicine. The term \"placebo\" comes from Latin and means \"I shall please\". For centuries, doctors gave patients harmless substances simply to reassure them. It was not until the twentieth century, however, that scientists began to take the effect seriously. During the Second World War, an American anaesthetist called Henry Beecher reportedly ran out of morphine while treating injured soldiers. A nurse injected a soldier with a simple salt solution, telling him it was a powerful painkiller. To Beecher's astonishment, the soldier's pain decreased significantly. Since then, countless studies have confirmed that placebos can produce real, measurable effects, particularly on symptoms such as pain, nausea, fatigue and anxiety. Brain scans have shown that when patients believe they are receiving a painkiller, their brains actually release natural pain-relieving chemicals called endorphins. In other words, the effect is not simply \"all in the mind\"; or rather, the mind turns out to have a remarkable influence on the body. Interestingly, the details matter. Studies suggest that two placebo pills work better than one, that injections are more effective than pills, and that expensive placebos are more effective than cheap ones. Even the colour of the pill can make a difference: blue pills tend to have a more calming effect, while red ones are perceived as more stimulating. Perhaps the most surprising discovery is that placebos can work even when patients know they are taking them. In a study at Harvard University, patients with irritable bowel syndrome were given pills openly labelled as placebos. Many of them still reported a significant improvement in their symptoms. The placebo effect also has a dark twin: the nocebo effect. When patients expect negative side effects from a treatment, they are more likely to experience them, even if the treatment is inactive. These findings raise important questions for doctors. If expectations and the way treatment is delivered can influence the outcome so strongly, then a doctor's words, attention and empathy are not just good manners. They may be part of the cure."
+   "text": "Imagine taking a pill for a headache and feeling better twenty minutes later, only to discover that the pill contained nothing but sugar. This is the placebo effect, one of the most fascinating and puzzling phenomena in medicine. The term \"placebo\" comes from Latin and means \"I shall please\". For centuries, doctors gave patients harmless substances simply to reassure them. It was not until the twentieth century, however, that scientists began to take the effect seriously. During the Second World War, an American anaesthetist called Henry Beecher reportedly ran out of morphine while treating injured soldiers. A nurse injected a soldier with a simple salt solution, telling him it was a powerful painkiller. To Beecher's astonishment, the soldier's pain decreased significantly. Since then, countless studies have confirmed that placebos can produce real, measurable effects, particularly on symptoms such as pain, nausea, fatigue and anxiety. Brain scans have shown that when patients believe they are receiving a painkiller, their brains actually release natural pain-relieving chemicals called endorphins. In other words, the effect is not simply \"all in the mind\"; or rather, the mind turns out to have a remarkable influence on the body. Interestingly, the details matter. Studies suggest that two placebo pills work better than one, that injections are more effective than pills, and that expensive placebos are more effective than cheap ones. Even the colour of the pill can make a difference: blue pills tend to have a more calming effect, while red ones are perceived as more stimulating. Perhaps the most surprising discovery is that placebos can work even when patients know they are taking them. In a study at Harvard University, patients with irritable bowel syndrome were given pills openly labelled as placebos. Many of them still reported a significant improvement in their symptoms. The placebo effect also has a dark twin: the nocebo effect. When patients expect negative side effects from a treatment, they are more likely to experience them, even if the treatment is inactive. These findings raise important questions for doctors. If expectations and the way treatment is delivered can influence the outcome so strongly, then a doctor's words, attention and empathy are not just good manners. They may be part of the cure.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué significa 'placebo' en latín?",
+     "o": [
+      "Complaceré",
+      "Pastilla",
+      "Engaño",
+      "Curaré"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué ocurrió con el soldado al que inyectaron agua con sal?",
+     "o": [
+      "Su dolor disminuyó mucho",
+      "Empeoró",
+      "No sintió nada",
+      "Se durmió"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué descubrió el estudio de Harvard?",
+     "o": [
+      "Los placebos funcionan aunque el paciente sepa que lo son",
+      "Los placebos no funcionan",
+      "Solo funcionan las inyecciones",
+      "El color no importa"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "When patients expect negative side effects from a treatment, they are more likely to experience them.",
+     "q": "¿Qué es el efecto nocebo?",
+     "o": [
+      "Sentir efectos negativos porque se esperan",
+      "Curarse sin medicina",
+      "Una medicina nueva",
+      "Un tipo de inyección"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Do you think the mind can really influence the body? Give an example from your life or someone you know.",
+     "min": 26,
+     "keys": [
+      [
+       "i think",
+       "i believe"
+      ],
+      [
+       "for example",
+       "for instance"
+      ]
+     ],
+     "model": "I believe the mind has a big influence on the body. For example, when I'm stressed before an exam, I get a headache, and when I relax, it disappears."
+    }
+   ]
   },
   {
    "title": "When Tourists Become a Problem",
    "es": "Cuando los turistas se vuelven un problema · Lectura extra",
-   "text": "Every morning in summer, before the shops have even opened, the narrow streets of Venice begin to fill with visitors. By midday, it can take twenty minutes to cross a single bridge. The city, which has around fifty thousand permanent residents in its historic centre, receives more than twenty million tourists a year. Venice has become the most famous example of a phenomenon known as \"overtourism\". Tourism brings enormous economic benefits. It creates jobs, supports local businesses and provides governments with valuable income. For many developing countries, it is one of the main sources of foreign currency. Yet when too many visitors arrive in too small a space, the consequences can be damaging. One of the most serious problems is housing. As property owners discover that they can earn much more by renting apartments to tourists through online platforms than to local families, rents rise and residents are gradually forced out. In cities such as Barcelona, Lisbon and Cartagena, entire neighbourhoods in the historic centre have lost much of their original population. Traditional shops are replaced by souvenir stores and fast-food chains, and the authentic atmosphere that attracted visitors in the first place slowly disappears. Mass tourism also puts pressure on the environment. Popular beaches, coral reefs and national parks can suffer serious damage when visitor numbers are not controlled. Cruise ships, which can carry several thousand passengers each, are particularly criticised for their pollution and for the crowds they release into small ports for just a few hours. Destinations are now experimenting with different solutions. Venice has introduced an entry fee for day visitors and banned large cruise ships from its lagoon. Amsterdam has limited new hotels and restricted holiday rentals. Some national parks, like Machu Picchu in Peru, now sell tickets for specific time slots to control the number of people on site at any one time. Travellers can make a difference, too. Visiting popular places in the low season, staying longer in one place rather than rushing between destinations, choosing locally owned accommodation and respecting local customs are all ways of reducing our impact. After all, the aim of travelling should be to discover a place, not to consume it."
+   "text": "Every morning in summer, before the shops have even opened, the narrow streets of Venice begin to fill with visitors. By midday, it can take twenty minutes to cross a single bridge. The city, which has around fifty thousand permanent residents in its historic centre, receives more than twenty million tourists a year. Venice has become the most famous example of a phenomenon known as \"overtourism\". Tourism brings enormous economic benefits. It creates jobs, supports local businesses and provides governments with valuable income. For many developing countries, it is one of the main sources of foreign currency. Yet when too many visitors arrive in too small a space, the consequences can be damaging. One of the most serious problems is housing. As property owners discover that they can earn much more by renting apartments to tourists through online platforms than to local families, rents rise and residents are gradually forced out. In cities such as Barcelona, Lisbon and Cartagena, entire neighbourhoods in the historic centre have lost much of their original population. Traditional shops are replaced by souvenir stores and fast-food chains, and the authentic atmosphere that attracted visitors in the first place slowly disappears. Mass tourism also puts pressure on the environment. Popular beaches, coral reefs and national parks can suffer serious damage when visitor numbers are not controlled. Cruise ships, which can carry several thousand passengers each, are particularly criticised for their pollution and for the crowds they release into small ports for just a few hours. Destinations are now experimenting with different solutions. Venice has introduced an entry fee for day visitors and banned large cruise ships from its lagoon. Amsterdam has limited new hotels and restricted holiday rentals. Some national parks, like Machu Picchu in Peru, now sell tickets for specific time slots to control the number of people on site at any one time. Travellers can make a difference, too. Visiting popular places in the low season, staying longer in one place rather than rushing between destinations, choosing locally owned accommodation and respecting local customs are all ways of reducing our impact. After all, the aim of travelling should be to discover a place, not to consume it.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuántos turistas recibe Venecia al año?",
+     "o": [
+      "Más de veinte millones",
+      "Cincuenta mil",
+      "Dos millones",
+      "Cien mil"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué suben los arriendos en ciudades turísticas?",
+     "o": [
+      "Los dueños ganan más alquilando a turistas",
+      "Hay más habitantes locales",
+      "Los gobiernos suben impuestos",
+      "Se construyen menos hoteles"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hizo Machu Picchu para controlar visitantes?",
+     "o": [
+      "Vender entradas por franjas horarias",
+      "Cerrar los domingos",
+      "Prohibir extranjeros",
+      "Subir el precio al doble"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "After all, the aim of travelling should be to discover a place, not to consume it.",
+     "q": "¿Cuál debería ser el objetivo de viajar, según el autor?",
+     "o": [
+      "Descubrir un lugar, no consumirlo",
+      "Visitar el mayor número de sitios",
+      "Gastar poco dinero",
+      "Tomar muchas fotos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Is tourism good or bad for your city or a place you know? Explain.",
+     "min": 25,
+     "keys": [
+      [
+       "on the one hand",
+       "however",
+       "although"
+      ],
+      [
+       "because"
+      ]
+     ],
+     "model": "Tourism is mostly good for Cartagena because it creates jobs. However, rents in the old city have increased so much that many local families have had to leave."
+    }
+   ]
   },
   {
    "title": "Report: Customer Satisfaction Survey",
    "es": "Informe: encuesta de satisfacción del cliente · Lectura extra",
-   "text": "Introduction The purpose of this report is to present the main findings of the customer satisfaction survey carried out in the first quarter of the year and to make recommendations for improving our service. The survey was sent by email to 4,500 customers who had contacted our call centre between January and March. A total of 1,230 customers responded, representing a response rate of 27%. Main findings Overall satisfaction Overall, 68% of respondents described themselves as \"satisfied\" or \"very satisfied\" with our service, compared to 74% in the same period last year. This decline is a cause for concern and appears to be connected mainly to the issues described below. Waiting times The most frequent complaint concerned waiting times. Almost half of the respondents (46%) stated that they had waited more than ten minutes before speaking to an agent. Customers who waited longer were significantly less satisfied, regardless of how well their problem was eventually solved. Agent performance On a positive note, our agents received high ratings for politeness (88%) and product knowledge (81%). However, a number of customers mentioned that they had been transferred between departments several times and had to repeat their information on each occasion, which they found frustrating. Digital channels Younger customers, in particular, expressed a strong preference for resolving their problems through digital channels. Only 35% of respondents aged 18 to 30 were aware that our chat service exists. Recommendations Based on these findings, the following measures are recommended: 1. Recruit additional staff for peak hours, especially on Monday mornings, when call volume is highest. 2. Introduce a call-back option, so that customers do not have to wait on the line. 3. Upgrade the customer database so that agents can see the full history of each case, avoiding the need for customers to repeat information. 4. Promote the chat service more actively through our website, app and social media. Conclusion Although the overall results remain positive, the decline in satisfaction indicates that action is needed. If the measures above are implemented, we believe that satisfaction levels could return to, and even exceed, last year's figures by the end of the year. A follow-up survey is recommended for the third quarter in order to evaluate progress."
+   "text": "Introduction The purpose of this report is to present the main findings of the customer satisfaction survey carried out in the first quarter of the year and to make recommendations for improving our service. The survey was sent by email to 4,500 customers who had contacted our call centre between January and March. A total of 1,230 customers responded, representing a response rate of 27%. Main findings Overall satisfaction Overall, 68% of respondents described themselves as \"satisfied\" or \"very satisfied\" with our service, compared to 74% in the same period last year. This decline is a cause for concern and appears to be connected mainly to the issues described below. Waiting times The most frequent complaint concerned waiting times. Almost half of the respondents (46%) stated that they had waited more than ten minutes before speaking to an agent. Customers who waited longer were significantly less satisfied, regardless of how well their problem was eventually solved. Agent performance On a positive note, our agents received high ratings for politeness (88%) and product knowledge (81%). However, a number of customers mentioned that they had been transferred between departments several times and had to repeat their information on each occasion, which they found frustrating. Digital channels Younger customers, in particular, expressed a strong preference for resolving their problems through digital channels. Only 35% of respondents aged 18 to 30 were aware that our chat service exists. Recommendations Based on these findings, the following measures are recommended: 1. Recruit additional staff for peak hours, especially on Monday mornings, when call volume is highest. 2. Introduce a call-back option, so that customers do not have to wait on the line. 3. Upgrade the customer database so that agents can see the full history of each case, avoiding the need for customers to repeat information. 4. Promote the chat service more actively through our website, app and social media. Conclusion Although the overall results remain positive, the decline in satisfaction indicates that action is needed. If the measures above are implemented, we believe that satisfaction levels could return to, and even exceed, last year's figures by the end of the year. A follow-up survey is recommended for the third quarter in order to evaluate progress.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuál fue la queja más frecuente?",
+     "o": [
+      "Los tiempos de espera",
+      "Los precios",
+      "La mala educación de los agentes",
+      "La página web"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿En qué recibieron buenas calificaciones los agentes?",
+     "o": [
+      "Cortesía y conocimiento del producto",
+      "Rapidez",
+      "Precios",
+      "Horarios"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es una de las recomendaciones?",
+     "o": [
+      "Ofrecer una opción de devolución de llamada",
+      "Cerrar el chat",
+      "Reducir el personal",
+      "Eliminar la encuesta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Only 35% of respondents aged 18 to 30 were aware that our chat service exists.",
+     "q": "¿Qué no sabían muchos jóvenes?",
+     "o": [
+      "Que existe el servicio de chat",
+      "El número de teléfono",
+      "El horario",
+      "El nombre de la empresa"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "You are the manager. Explain the main problem in the report and what you will do about it.",
+     "min": 28,
+     "keys": [
+      [
+       "the main problem",
+       "the biggest problem"
+      ],
+      [
+       "we will",
+       "we'll",
+       "we are going to"
+      ]
+     ],
+     "model": "The main problem is that customers wait too long before speaking to an agent. We will hire more staff for Monday mornings and we are going to introduce a call-back option."
+    }
+   ]
   },
   {
    "title": "The Bilingual Brain",
    "es": "El cerebro bilingüe · Lectura extra",
-   "text": "Until the middle of the twentieth century, many educators believed that growing up with two languages was harmful for children. Bilingual children, it was argued, would become confused, mix up their languages and fall behind at school. Some parents who had emigrated to new countries were even advised not to speak their native language at home. Today, research paints a very different picture. It is true that bilingual children sometimes have a slightly smaller vocabulary in each of their languages than monolingual children of the same age. They may also mix words from both languages in the same sentence, a perfectly normal phenomenon that linguists call \"code-switching\". However, when both languages are counted together, their total vocabulary is usually equal to or larger than that of monolingual children, and any differences tend to disappear as they grow older. What is more interesting is that speaking two languages seems to change the way the brain works. When a bilingual person speaks, both languages are active at the same time, and the brain must constantly choose one and suppress the other. Some researchers believe that this constant mental exercise strengthens what are known as executive functions: the ability to focus attention, ignore distractions and switch between tasks. In several experiments, bilingual participants performed better than monolinguals on tasks that required them to change rules quickly, although other studies have failed to reproduce these results, and the debate remains open. One of the most widely discussed findings concerns ageing. Several studies have suggested that people who have spoken two languages throughout their lives tend to show the symptoms of dementia several years later than monolinguals with a similar level of brain deterioration. The theory is that bilingualism helps build a kind of \"cognitive reserve\" that allows the brain to compensate for damage for longer. The good news for adults is that it is never too late. Although people who learn a language later in life may never sound exactly like native speakers, the effort of learning itself appears to benefit the brain. Learning new words, practising pronunciation and trying to express ideas in another language are excellent forms of mental exercise. So if you are studying English right now, you are not only opening doors to new opportunities. You may also be giving your brain one of the best workouts it can get."
+   "text": "Until the middle of the twentieth century, many educators believed that growing up with two languages was harmful for children. Bilingual children, it was argued, would become confused, mix up their languages and fall behind at school. Some parents who had emigrated to new countries were even advised not to speak their native language at home. Today, research paints a very different picture. It is true that bilingual children sometimes have a slightly smaller vocabulary in each of their languages than monolingual children of the same age. They may also mix words from both languages in the same sentence, a perfectly normal phenomenon that linguists call \"code-switching\". However, when both languages are counted together, their total vocabulary is usually equal to or larger than that of monolingual children, and any differences tend to disappear as they grow older. What is more interesting is that speaking two languages seems to change the way the brain works. When a bilingual person speaks, both languages are active at the same time, and the brain must constantly choose one and suppress the other. Some researchers believe that this constant mental exercise strengthens what are known as executive functions: the ability to focus attention, ignore distractions and switch between tasks. In several experiments, bilingual participants performed better than monolinguals on tasks that required them to change rules quickly, although other studies have failed to reproduce these results, and the debate remains open. One of the most widely discussed findings concerns ageing. Several studies have suggested that people who have spoken two languages throughout their lives tend to show the symptoms of dementia several years later than monolinguals with a similar level of brain deterioration. The theory is that bilingualism helps build a kind of \"cognitive reserve\" that allows the brain to compensate for damage for longer. The good news for adults is that it is never too late. Although people who learn a language later in life may never sound exactly like native speakers, the effort of learning itself appears to benefit the brain. Learning new words, practising pronunciation and trying to express ideas in another language are excellent forms of mental exercise. So if you are studying English right now, you are not only opening doors to new opportunities. You may also be giving your brain one of the best workouts it can get.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué se creía antes sobre los niños bilingües?",
+     "o": [
+      "Que se confundirían y se atrasarían",
+      "Que serían más inteligentes",
+      "Que hablarían mejor",
+      "Que aprenderían más rápido"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es el 'code-switching'?",
+     "o": [
+      "Mezclar palabras de dos idiomas en una frase",
+      "Olvidar un idioma",
+      "Hablar muy rápido",
+      "Traducir textos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué relación con la demencia sugieren algunos estudios?",
+     "o": [
+      "Los bilingües muestran síntomas varios años más tarde",
+      "Los bilingües no la sufren nunca",
+      "Los bilingües la sufren antes",
+      "No hay ninguna relación"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Although people who learn a language later in life may never sound exactly like native speakers, the effort of learning itself appears to benefit the brain.",
+     "q": "¿Qué beneficio tiene aprender un idioma de adulto?",
+     "o": [
+      "El esfuerzo beneficia al cerebro",
+      "Sonarás exactamente como un nativo",
+      "Ninguno",
+      "Olvidarás tu idioma materno"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Why are you learning English, and how do you think it is changing you?",
+     "min": 29,
+     "keys": [
+      [
+       "because"
+      ],
+      [
+       "i have",
+       "i've",
+       "has"
+      ]
+     ],
+     "model": "I'm learning English because I want a better job and I love travelling. I think it has made me more confident, and I've started to understand films and songs that I couldn't before."
+    }
+   ]
   },
   {
    "title": "The Mystery of the Mary Celeste",
    "es": "El misterio del Mary Celeste · Lectura extra",
-   "text": "On the 4th of December 1872, the crew of the British ship Dei Gratia spotted a vessel drifting in the Atlantic Ocean, between the Azores and the coast of Portugal. Its sails were partially set, but it was moving strangely, as if nobody were steering it. When the captain, David Morehouse, sent some of his men to investigate, they discovered that the ship was the Mary Celeste, an American merchant vessel that had left New York a month earlier. There was not a single person on board. What the sailors found was deeply puzzling. The ship was in reasonably good condition and still had six months' supply of food and fresh water. The cargo, more than 1,700 barrels of alcohol, was almost entirely intact. The crew's personal belongings, including clothes, boots and even pipes, had been left behind. The only lifeboat, however, was missing, and the last entry in the ship's log had been written nine days earlier. It seemed that the captain, Benjamin Briggs, his wife, their two-year-old daughter and the seven crew members had abandoned the ship in a hurry and had never been seen again. Over the following decades, the mystery inspired countless theories. Some suggested that pirates had attacked the ship, although nothing valuable had been stolen. Others blamed a mutiny, a giant sea monster or even a waterspout. The story became even more famous after a young doctor named Arthur Conan Doyle, who would later create Sherlock Holmes, published a fictional account in 1884, which included several invented details that many people mistakenly believed to be true. Modern researchers have proposed more realistic explanations. One theory focuses on the cargo: alcohol fumes might have leaked from some of the barrels, and the captain, fearing an explosion, may have ordered everyone into the lifeboat as a precaution, intending to return once the danger had passed. The rope connecting the lifeboat to the ship could then have broken in bad weather. Another theory suggests that a faulty instrument led Briggs to believe the ship was sinking, when in fact it was not. We will probably never know for certain what happened on board the Mary Celeste. More than a hundred and fifty years later, it remains one of the most famous unsolved mysteries of the sea."
+   "text": "On the 4th of December 1872, the crew of the British ship Dei Gratia spotted a vessel drifting in the Atlantic Ocean, between the Azores and the coast of Portugal. Its sails were partially set, but it was moving strangely, as if nobody were steering it. When the captain, David Morehouse, sent some of his men to investigate, they discovered that the ship was the Mary Celeste, an American merchant vessel that had left New York a month earlier. There was not a single person on board. What the sailors found was deeply puzzling. The ship was in reasonably good condition and still had six months' supply of food and fresh water. The cargo, more than 1,700 barrels of alcohol, was almost entirely intact. The crew's personal belongings, including clothes, boots and even pipes, had been left behind. The only lifeboat, however, was missing, and the last entry in the ship's log had been written nine days earlier. It seemed that the captain, Benjamin Briggs, his wife, their two-year-old daughter and the seven crew members had abandoned the ship in a hurry and had never been seen again. Over the following decades, the mystery inspired countless theories. Some suggested that pirates had attacked the ship, although nothing valuable had been stolen. Others blamed a mutiny, a giant sea monster or even a waterspout. The story became even more famous after a young doctor named Arthur Conan Doyle, who would later create Sherlock Holmes, published a fictional account in 1884, which included several invented details that many people mistakenly believed to be true. Modern researchers have proposed more realistic explanations. One theory focuses on the cargo: alcohol fumes might have leaked from some of the barrels, and the captain, fearing an explosion, may have ordered everyone into the lifeboat as a precaution, intending to return once the danger had passed. The rope connecting the lifeboat to the ship could then have broken in bad weather. Another theory suggests that a faulty instrument led Briggs to believe the ship was sinking, when in fact it was not. We will probably never know for certain what happened on board the Mary Celeste. More than a hundred and fifty years later, it remains one of the most famous unsolved mysteries of the sea.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué encontraron los marineros en el Mary Celeste?",
+     "o": [
+      "Comida, agua y carga intactas, pero ninguna persona",
+      "El barco hundido",
+      "Piratas a bordo",
+      "Al capitán dormido"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué faltaba en el barco?",
+     "o": [
+      "El único bote salvavidas",
+      "La comida",
+      "La carga de alcohol",
+      "La ropa de la tripulación"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué explicación propone una teoría moderna?",
+     "o": [
+      "Temieron una explosión por vapores de alcohol y subieron al bote",
+      "Los atacó un monstruo marino",
+      "Hubo un motín",
+      "Los raptaron piratas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Arthur Conan Doyle published a fictional account in 1884, which included several invented details that many people mistakenly believed to be true.",
+     "q": "¿Qué hizo Arthur Conan Doyle?",
+     "o": [
+      "Publicó un relato de ficción que la gente creyó real",
+      "Encontró el barco",
+      "Resolvió el misterio",
+      "Era el capitán"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What do you think happened to the crew of the Mary Celeste? Speculate using might have, must have or could have.",
+     "min": 32,
+     "keys": [
+      [
+       "might have",
+       "must have",
+       "could have",
+       "may have"
+      ]
+     ],
+     "model": "I think the captain might have panicked because of the alcohol fumes. They must have left in the lifeboat in a hurry, and the rope could have broken in a storm, so they never came back."
+    }
+   ]
   }
  ],
  [
@@ -402,62 +1155,829 @@ window.READINGS = [
   {
    "title": "The Attention Economy",
    "es": "La economía de la atención · Lectura extra",
-   "text": "In 1971, the economist Herbert Simon made an observation that now seems remarkably prophetic: \"A wealth of information creates a poverty of attention.\" Half a century later, his insight has become the foundation of an entire industry. In what has come to be called the attention economy, our time and focus are the products being bought and sold. The business model is deceptively simple. Most of the platforms we use every day are free, but they are far from charitable. Their revenue comes from advertisers, who pay according to how many people see their messages and for how long. The longer we scroll, watch and click, the more valuable we become. Consequently, these companies have every incentive to design products that are not merely useful, but compulsive. Many of the techniques they employ are borrowed from behavioural psychology and, some critics argue, from the gambling industry. Infinite scroll removes natural stopping points. Notifications, often coloured an urgent red, exploit our instinctive fear of missing out. Perhaps most powerfully, the unpredictable rewards of likes and comments operate on the same principle as a slot machine: because we never know when the next pleasant surprise will arrive, we keep checking compulsively. The consequences extend well beyond lost hours. Researchers have linked heavy smartphone use to fragmented concentration, poorer sleep and increased anxiety, particularly among adolescents. There are also wider social implications. Algorithms that prioritise engagement tend to amplify content that provokes strong emotions, and outrage, it turns out, is extraordinarily engaging. Some analysts believe this has contributed to political polarisation and the spread of misinformation. Defenders of the technology counter that users are not passive victims. Nobody, they point out, is forced to open an app, and these platforms have also enabled extraordinary forms of creativity, connection and activism. Moreover, the anxieties surrounding new media are hardly unprecedented: similar fears were once voiced about novels, radio and television. Nevertheless, a growing movement is calling for what it terms \"humane technology\". Its proposals range from regulations restricting manipulative design, particularly for children, to individual strategies such as disabling notifications and setting screens to greyscale. Ultimately, the question is not whether we use these tools, but who is in control: us, or the products competing so skilfully for our attention."
+   "text": "In 1971, the economist Herbert Simon made an observation that now seems remarkably prophetic: \"A wealth of information creates a poverty of attention.\" Half a century later, his insight has become the foundation of an entire industry. In what has come to be called the attention economy, our time and focus are the products being bought and sold. The business model is deceptively simple. Most of the platforms we use every day are free, but they are far from charitable. Their revenue comes from advertisers, who pay according to how many people see their messages and for how long. The longer we scroll, watch and click, the more valuable we become. Consequently, these companies have every incentive to design products that are not merely useful, but compulsive. Many of the techniques they employ are borrowed from behavioural psychology and, some critics argue, from the gambling industry. Infinite scroll removes natural stopping points. Notifications, often coloured an urgent red, exploit our instinctive fear of missing out. Perhaps most powerfully, the unpredictable rewards of likes and comments operate on the same principle as a slot machine: because we never know when the next pleasant surprise will arrive, we keep checking compulsively. The consequences extend well beyond lost hours. Researchers have linked heavy smartphone use to fragmented concentration, poorer sleep and increased anxiety, particularly among adolescents. There are also wider social implications. Algorithms that prioritise engagement tend to amplify content that provokes strong emotions, and outrage, it turns out, is extraordinarily engaging. Some analysts believe this has contributed to political polarisation and the spread of misinformation. Defenders of the technology counter that users are not passive victims. Nobody, they point out, is forced to open an app, and these platforms have also enabled extraordinary forms of creativity, connection and activism. Moreover, the anxieties surrounding new media are hardly unprecedented: similar fears were once voiced about novels, radio and television. Nevertheless, a growing movement is calling for what it terms \"humane technology\". Its proposals range from regulations restricting manipulative design, particularly for children, to individual strategies such as disabling notifications and setting screens to greyscale. Ultimately, the question is not whether we use these tools, but who is in control: us, or the products competing so skilfully for our attention.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿De dónde vienen los ingresos de las plataformas gratuitas?",
+     "o": [
+      "De los anunciantes",
+      "De los usuarios",
+      "Del gobierno",
+      "De donaciones"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Con qué se comparan los 'likes' impredecibles?",
+     "o": [
+      "Con una máquina tragamonedas",
+      "Con un libro",
+      "Con un reloj",
+      "Con una carta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué proponen los defensores de la 'tecnología humana'?",
+     "o": [
+      "Regular el diseño manipulador y desactivar notificaciones",
+      "Prohibir internet",
+      "Usar más redes sociales",
+      "Pagar por cada clic"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Algorithms that prioritise engagement tend to amplify content that provokes strong emotions, and outrage, it turns out, is extraordinarily engaging.",
+     "q": "¿Qué tipo de contenido amplifican los algoritmos?",
+     "o": [
+      "El que provoca emociones fuertes, como la indignación",
+      "El más educativo",
+      "El más reciente",
+      "El más corto"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How much control do you really have over the time you spend on your phone? What strategies could help you?",
+     "min": 27,
+     "keys": [
+      [
+       "notifications",
+       "screen time",
+       "phone"
+      ],
+      [
+       "could",
+       "should",
+       "might"
+      ]
+     ],
+     "model": "Honestly, I don't have much control. I check my phone without thinking. I could disable notifications and leave my phone in another room while I work, which might help me concentrate."
+    }
+   ]
   },
   {
    "title": "In Defence of Boredom",
    "es": "En defensa del aburrimiento · Lectura extra",
-   "text": "When was the last time you were genuinely bored? Not mildly impatient in a queue, reaching for your phone after thirty seconds, but properly, uncomfortably bored, with nothing to do and nothing to look at? For many of us, the honest answer is that we cannot remember. And according to a growing body of research, that may be a problem. Boredom has a poor reputation. It is associated with laziness, wasted time and, in children, with misbehaviour. Parents feel guilty if their offspring complain of having nothing to do, and the entertainment industry has made it almost effortless to ensure that no moment remains unfilled. Yet psychologists are increasingly arguing that boredom serves a valuable purpose. One line of research suggests that boredom functions as a signal, rather like hunger or pain. It tells us that our current activity is not meeting our needs, and it motivates us to seek something more meaningful. Seen in this light, boredom is not the enemy of engagement but the prompt that leads us towards it. The problem arises when we silence the signal instantly, with the nearest screen, before it has a chance to steer us anywhere useful. Even more intriguing is the apparent connection between boredom and creativity. In one frequently cited experiment, participants were first asked to perform a deliberately tedious task, copying numbers from a telephone directory, and then to think of as many uses as possible for a pair of plastic cups. Those who had endured the boring task came up with significantly more creative ideas than a control group. The explanation, researchers propose, is that when the mind is under-stimulated, it begins to wander, and mind-wandering allows the brain to make unexpected associations between ideas. This would not have surprised many artists and scientists, who have long described their best insights arriving not at their desks but in the shower, on long walks or while staring out of train windows. What is new is how rare such empty moments have become. Every gap in our day, the bus journey, the wait for a friend, the few minutes before sleep, is now instantly filled. None of this means that we should seek out tedium for its own sake. But it may be worth resisting the reflex to fill every silence. The next time you find yourself with nothing to do, try leaving your phone in your pocket. You might be surprised by where your mind decides to take you."
+   "text": "When was the last time you were genuinely bored? Not mildly impatient in a queue, reaching for your phone after thirty seconds, but properly, uncomfortably bored, with nothing to do and nothing to look at? For many of us, the honest answer is that we cannot remember. And according to a growing body of research, that may be a problem. Boredom has a poor reputation. It is associated with laziness, wasted time and, in children, with misbehaviour. Parents feel guilty if their offspring complain of having nothing to do, and the entertainment industry has made it almost effortless to ensure that no moment remains unfilled. Yet psychologists are increasingly arguing that boredom serves a valuable purpose. One line of research suggests that boredom functions as a signal, rather like hunger or pain. It tells us that our current activity is not meeting our needs, and it motivates us to seek something more meaningful. Seen in this light, boredom is not the enemy of engagement but the prompt that leads us towards it. The problem arises when we silence the signal instantly, with the nearest screen, before it has a chance to steer us anywhere useful. Even more intriguing is the apparent connection between boredom and creativity. In one frequently cited experiment, participants were first asked to perform a deliberately tedious task, copying numbers from a telephone directory, and then to think of as many uses as possible for a pair of plastic cups. Those who had endured the boring task came up with significantly more creative ideas than a control group. The explanation, researchers propose, is that when the mind is under-stimulated, it begins to wander, and mind-wandering allows the brain to make unexpected associations between ideas. This would not have surprised many artists and scientists, who have long described their best insights arriving not at their desks but in the shower, on long walks or while staring out of train windows. What is new is how rare such empty moments have become. Every gap in our day, the bus journey, the wait for a friend, the few minutes before sleep, is now instantly filled. None of this means that we should seek out tedium for its own sake. But it may be worth resisting the reflex to fill every silence. The next time you find yourself with nothing to do, try leaving your phone in your pocket. You might be surprised by where your mind decides to take you.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "Según una línea de investigación, ¿qué función cumple el aburrimiento?",
+     "o": [
+      "Una señal de que la actividad no satisface nuestras necesidades",
+      "Un síntoma de enfermedad",
+      "Una pérdida total de tiempo",
+      "Un tipo de pereza"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué pasó en el experimento de los vasos de plástico?",
+     "o": [
+      "Quienes hicieron la tarea aburrida fueron más creativos",
+      "Nadie tuvo ideas",
+      "El grupo de control ganó",
+      "Todos se durmieron"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué recomienda el autor?",
+     "o": [
+      "Resistir el impulso de llenar cada silencio",
+      "Buscar el tedio a propósito",
+      "Usar más el celular",
+      "Trabajar sin descanso"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Many artists and scientists have long described their best insights arriving not at their desks but in the shower, on long walks or while staring out of train windows.",
+     "q": "¿Dónde surgen muchas buenas ideas según el texto?",
+     "o": [
+      "En la ducha, caminando o mirando por la ventana",
+      "En el escritorio",
+      "En reuniones",
+      "Leyendo noticias"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "When was the last time you were bored? What did you do, and do you agree that boredom can be useful?",
+     "min": 34,
+     "keys": [
+      [
+       "agree",
+       "disagree"
+      ],
+      [
+       "because"
+      ]
+     ],
+     "model": "The last time I was bored was in a long queue at the bank. I took out my phone immediately. I partly agree that boredom can be useful, because my best ideas come when I'm walking without music."
+    }
+   ]
   },
   {
    "title": "Editing the Code of Life",
    "es": "Editar el código de la vida · Lectura extra",
-   "text": "In 2012, scientists Jennifer Doudna and Emmanuelle Charpentier published a paper describing a technique that would earn them the Nobel Prize in Chemistry eight years later. CRISPR-Cas9, as it is known, allows researchers to cut and modify DNA with unprecedented precision, relative ease and low cost. It has been compared to a pair of molecular scissors guided by a GPS, and its potential applications are as exhilarating as they are unsettling. The medical possibilities are perhaps the most compelling. Many serious diseases, including sickle cell anaemia and cystic fibrosis, are caused by a mutation in a single gene. In principle, correcting that error could cure the condition entirely. This is no longer theoretical: in 2023, regulators in the United Kingdom and the United States approved the first CRISPR-based therapy for sickle cell disease, offering hope to patients who had previously faced a lifetime of pain and repeated hospitalisation. Beyond medicine, gene editing could transform agriculture by producing crops that resist drought, pests and disease, potentially reducing the need for pesticides and improving food security in vulnerable regions. Some scientists have even proposed using it to combat malaria by altering the genes of mosquitoes so that they can no longer transmit the parasite. It is, however, the prospect of editing human embryos that provokes the most heated debate. Changes made to embryos are heritable, meaning they would be passed on to future generations, with consequences that cannot be predicted with any confidence. In 2018, the Chinese scientist He Jiankui shocked the scientific community by announcing the birth of twin girls whose genes he had altered in an attempt to make them resistant to HIV. The experiment was almost universally condemned as reckless and unethical, and he was subsequently imprisoned. Critics warn that once the technology is accepted for preventing disease, it will be difficult to draw the line between therapy and enhancement. If parents could select for height, intelligence or athletic ability, would gene editing become a privilege of the wealthy, deepening existing inequalities? Others point to the troubling history of eugenics and caution against any attempt to define which human traits are desirable. Most experts agree that an outright ban would be neither realistic nor desirable, given the immense therapeutic potential. What is urgently needed, they argue, is a robust international framework, developed through genuine public dialogue, rather than leaving such profound decisions to individual laboratories or market forces."
+   "text": "In 2012, scientists Jennifer Doudna and Emmanuelle Charpentier published a paper describing a technique that would earn them the Nobel Prize in Chemistry eight years later. CRISPR-Cas9, as it is known, allows researchers to cut and modify DNA with unprecedented precision, relative ease and low cost. It has been compared to a pair of molecular scissors guided by a GPS, and its potential applications are as exhilarating as they are unsettling. The medical possibilities are perhaps the most compelling. Many serious diseases, including sickle cell anaemia and cystic fibrosis, are caused by a mutation in a single gene. In principle, correcting that error could cure the condition entirely. This is no longer theoretical: in 2023, regulators in the United Kingdom and the United States approved the first CRISPR-based therapy for sickle cell disease, offering hope to patients who had previously faced a lifetime of pain and repeated hospitalisation. Beyond medicine, gene editing could transform agriculture by producing crops that resist drought, pests and disease, potentially reducing the need for pesticides and improving food security in vulnerable regions. Some scientists have even proposed using it to combat malaria by altering the genes of mosquitoes so that they can no longer transmit the parasite. It is, however, the prospect of editing human embryos that provokes the most heated debate. Changes made to embryos are heritable, meaning they would be passed on to future generations, with consequences that cannot be predicted with any confidence. In 2018, the Chinese scientist He Jiankui shocked the scientific community by announcing the birth of twin girls whose genes he had altered in an attempt to make them resistant to HIV. The experiment was almost universally condemned as reckless and unethical, and he was subsequently imprisoned. Critics warn that once the technology is accepted for preventing disease, it will be difficult to draw the line between therapy and enhancement. If parents could select for height, intelligence or athletic ability, would gene editing become a privilege of the wealthy, deepening existing inequalities? Others point to the troubling history of eugenics and caution against any attempt to define which human traits are desirable. Most experts agree that an outright ban would be neither realistic nor desirable, given the immense therapeutic potential. What is urgently needed, they argue, is a robust international framework, developed through genuine public dialogue, rather than leaving such profound decisions to individual laboratories or market forces.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Con qué se compara la técnica CRISPR?",
+     "o": [
+      "Con unas tijeras moleculares guiadas por GPS",
+      "Con un microscopio",
+      "Con una vacuna",
+      "Con un computador"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué se aprobó en 2023?",
+     "o": [
+      "La primera terapia con CRISPR para la anemia falciforme",
+      "La edición de embriones humanos",
+      "Mosquitos modificados en todo el mundo",
+      "La prohibición total de CRISPR"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué preocupa a los críticos?",
+     "o": [
+      "Que la línea entre terapia y mejora sea difícil de trazar",
+      "Que sea demasiado barato",
+      "Que no funcione nunca",
+      "Que sea muy lento"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Changes made to embryos are heritable, meaning they would be passed on to future generations.",
+     "q": "¿Por qué es delicado editar embriones?",
+     "o": [
+      "Los cambios se heredan a futuras generaciones",
+      "Es muy caro",
+      "No tiene efecto",
+      "Es ilegal en todo el mundo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Should parents be allowed to edit their children's genes? Where would you draw the line?",
+     "min": 28,
+     "keys": [
+      [
+       "draw the line",
+       "should",
+       "shouldn't"
+      ],
+      [
+       "however",
+       "although",
+       "on the other hand"
+      ]
+     ],
+     "model": "I think gene editing should be allowed to prevent serious diseases. However, I would draw the line at choosing height or intelligence, because that would increase inequality between rich and poor families."
+    }
+   ]
   },
   {
    "title": "When the Sea Comes Home",
    "es": "Cuando el mar llega a casa · Lectura extra",
-   "text": "For centuries, the people of the Pacific nation of Kiribati have lived in harmony with the ocean that surrounds them. Today, that same ocean is gradually swallowing their country. Most of Kiribati's thirty-three atolls rise no more than two or three metres above sea level, and as global temperatures increase, rising seas are contaminating freshwater supplies, destroying crops and eroding the land on which homes and graves have stood for generations. Kiribati is far from unique. From the low-lying islands of the Pacific to the densely populated deltas of Bangladesh and the coastal villages of the Colombian Caribbean, millions of people face the prospect of having to abandon their homes because of climate change. The World Bank has estimated that, without decisive action, more than two hundred million people could be internally displaced by climate impacts by 2050. Despite the scale of the problem, people forced to move by environmental factors occupy an uncertain legal position. The 1951 Refugee Convention, the cornerstone of international refugee law, protects people fleeing persecution on grounds of race, religion, nationality, political opinion or membership of a social group. It makes no mention of environmental disaster. As a result, the term \"climate refugee\", although widely used in the media, has no formal legal status. This gap was dramatically illustrated by the case of Ioane Teitiota, a man from Kiribati who applied for refugee status in New Zealand, arguing that rising seas made it impossible for him and his family to live safely at home. His application was ultimately rejected. Significantly, however, the United Nations Human Rights Committee later stated that countries may not deport individuals facing climate-related conditions that threaten their right to life, a decision that many lawyers regard as a potential turning point. Governments of vulnerable nations have not been passive. Kiribati purchased land in Fiji partly to secure its food supply, and its leaders have spoken of \"migration with dignity\", preparing citizens to move abroad as skilled workers rather than as desperate refugees. Some Pacific nations are even exploring how to preserve their statehood and maritime rights should their territory disappear entirely. For the people concerned, however, the loss is not merely territorial. To leave an island is to leave ancestral graves, traditional knowledge and a way of life inseparable from a particular place. As one islander put it, \"You can move people. You cannot move a culture.\""
+   "text": "For centuries, the people of the Pacific nation of Kiribati have lived in harmony with the ocean that surrounds them. Today, that same ocean is gradually swallowing their country. Most of Kiribati's thirty-three atolls rise no more than two or three metres above sea level, and as global temperatures increase, rising seas are contaminating freshwater supplies, destroying crops and eroding the land on which homes and graves have stood for generations. Kiribati is far from unique. From the low-lying islands of the Pacific to the densely populated deltas of Bangladesh and the coastal villages of the Colombian Caribbean, millions of people face the prospect of having to abandon their homes because of climate change. The World Bank has estimated that, without decisive action, more than two hundred million people could be internally displaced by climate impacts by 2050. Despite the scale of the problem, people forced to move by environmental factors occupy an uncertain legal position. The 1951 Refugee Convention, the cornerstone of international refugee law, protects people fleeing persecution on grounds of race, religion, nationality, political opinion or membership of a social group. It makes no mention of environmental disaster. As a result, the term \"climate refugee\", although widely used in the media, has no formal legal status. This gap was dramatically illustrated by the case of Ioane Teitiota, a man from Kiribati who applied for refugee status in New Zealand, arguing that rising seas made it impossible for him and his family to live safely at home. His application was ultimately rejected. Significantly, however, the United Nations Human Rights Committee later stated that countries may not deport individuals facing climate-related conditions that threaten their right to life, a decision that many lawyers regard as a potential turning point. Governments of vulnerable nations have not been passive. Kiribati purchased land in Fiji partly to secure its food supply, and its leaders have spoken of \"migration with dignity\", preparing citizens to move abroad as skilled workers rather than as desperate refugees. Some Pacific nations are even exploring how to preserve their statehood and maritime rights should their territory disappear entirely. For the people concerned, however, the loss is not merely territorial. To leave an island is to leave ancestral graves, traditional knowledge and a way of life inseparable from a particular place. As one islander put it, \"You can move people. You cannot move a culture.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué problema enfrenta Kiribati?",
+     "o": [
+      "El aumento del nivel del mar",
+      "Un terremoto",
+      "La sobrepoblación",
+      "Una guerra"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué los 'refugiados climáticos' no tienen estatus legal?",
+     "o": [
+      "La Convención de 1951 no menciona desastres ambientales",
+      "Nadie los reconoce como personas",
+      "Son muy pocos",
+      "Kiribati no lo pidió"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué significa 'migración con dignidad'?",
+     "o": [
+      "Preparar a los ciudadanos para emigrar como trabajadores calificados",
+      "Quedarse en la isla",
+      "Pedir asilo en masa",
+      "Construir muros"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "You can move people. You cannot move a culture.",
+     "q": "¿Qué quiere decir el isleño?",
+     "o": [
+      "Que la cultura está ligada al lugar y se pierde al emigrar",
+      "Que la gente no quiere irse",
+      "Que la cultura es fácil de trasladar",
+      "Que no hay problema"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Should rich countries accept people displaced by climate change? Explain your position.",
+     "min": 25,
+     "keys": [
+      [
+       "should"
+      ],
+      [
+       "because",
+       "since"
+      ],
+      [
+       "however",
+       "although",
+       "on the other hand"
+      ]
+     ],
+     "model": "I believe rich countries should accept climate migrants, since they have produced most of the emissions. However, this needs international cooperation, because no single country can receive everyone."
+    }
+   ]
   },
   {
    "title": "The Lighthouse Keeper",
    "es": "El guardián del faro · Lectura extra",
-   "text": "The letter informing Tomás Aguirre that his lighthouse was to be automated arrived on a Tuesday, in the same canvas sack as his monthly supply of coffee, tinned sardines and the newspapers he would read, in strict chronological order, over the following four weeks. He read it twice, standing at the kitchen window, while the wind worried at the glass. The language was courteous and entirely impersonal. In recognition of his \"exemplary service over thirty-one years\", the authority was pleased to inform him that, following the installation of an automated beacon, his post would cease to exist on the first of March. He would be entitled to a modest pension and was kindly requested to vacate the premises by that date. Tomás folded the letter carefully and put it in the drawer where he kept the things he did not wish to think about: his wife's reading glasses, a photograph of his son as a boy, and a telegram from 1987 that he had never been able to throw away. That night, as always, he climbed the hundred and twelve steps to the lantern room, polished the lens and lit the lamp. He had performed the ritual more than eleven thousand times, yet he had never ceased to feel a small, private thrill as the beam swept out across the black water, announcing to anyone who might be out there that land was near and they were not alone. In the weeks that followed, engineers arrived with cables and boxes of equipment. They were polite young people who called him \"sir\" and asked him questions about the building's history, which he answered with more enthusiasm than he had intended. One of them, a woman with ink-stained fingers, confessed that she had grown up on the mainland and used to watch his light from her bedroom window. \"I used to imagine who was up there,\" she said. \"I thought it must be someone very wise.\" \"Only someone very stubborn,\" Tomás replied, but he was smiling. On his last evening, the new beacon blinked into life at precisely the programmed moment, brighter and more reliable than his old lamp had ever been. Tomás watched it from the rocks below, his suitcase beside him. It was, he admitted, a fine light. But a light, he thought, was only half of what a lighthouse had ever been. The other half was the knowledge, for anyone lost at sea, that somebody was awake."
+   "text": "The letter informing Tomás Aguirre that his lighthouse was to be automated arrived on a Tuesday, in the same canvas sack as his monthly supply of coffee, tinned sardines and the newspapers he would read, in strict chronological order, over the following four weeks. He read it twice, standing at the kitchen window, while the wind worried at the glass. The language was courteous and entirely impersonal. In recognition of his \"exemplary service over thirty-one years\", the authority was pleased to inform him that, following the installation of an automated beacon, his post would cease to exist on the first of March. He would be entitled to a modest pension and was kindly requested to vacate the premises by that date. Tomás folded the letter carefully and put it in the drawer where he kept the things he did not wish to think about: his wife's reading glasses, a photograph of his son as a boy, and a telegram from 1987 that he had never been able to throw away. That night, as always, he climbed the hundred and twelve steps to the lantern room, polished the lens and lit the lamp. He had performed the ritual more than eleven thousand times, yet he had never ceased to feel a small, private thrill as the beam swept out across the black water, announcing to anyone who might be out there that land was near and they were not alone. In the weeks that followed, engineers arrived with cables and boxes of equipment. They were polite young people who called him \"sir\" and asked him questions about the building's history, which he answered with more enthusiasm than he had intended. One of them, a woman with ink-stained fingers, confessed that she had grown up on the mainland and used to watch his light from her bedroom window. \"I used to imagine who was up there,\" she said. \"I thought it must be someone very wise.\" \"Only someone very stubborn,\" Tomás replied, but he was smiling. On his last evening, the new beacon blinked into life at precisely the programmed moment, brighter and more reliable than his old lamp had ever been. Tomás watched it from the rocks below, his suitcase beside him. It was, he admitted, a fine light. But a light, he thought, was only half of what a lighthouse had ever been. The other half was the knowledge, for anyone lost at sea, that somebody was awake.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué decía la carta que recibió Tomás?",
+     "o": [
+      "Que el faro sería automatizado y su puesto desaparecería",
+      "Que lo ascendían",
+      "Que su hijo volvía",
+      "Que el faro se demolería"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le confesó la ingeniera?",
+     "o": [
+      "Que de niña miraba su luz e imaginaba quién estaba allí",
+      "Que no le gustaban los faros",
+      "Que era su sobrina",
+      "Que el faro nuevo fallaría"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "Según Tomás, ¿cuál era la otra mitad de lo que es un faro?",
+     "o": [
+      "Saber que alguien estaba despierto",
+      "La luz más brillante",
+      "El edificio",
+      "El sueldo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I used to imagine who was up there. I thought it must be someone very wise.",
+     "q": "¿Qué imaginaba la ingeniera de niña?",
+     "o": [
+      "Que quien estaba en el faro era alguien muy sabio",
+      "Que el faro estaba vacío",
+      "Que era un fantasma",
+      "Que era su padre"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How do you think Tomás feels at the end of the story? Use evidence from the text.",
+     "min": 30,
+     "keys": [
+      [
+       "feels",
+       "felt"
+      ],
+      [
+       "because",
+       "since"
+      ]
+     ],
+     "model": "I think he feels sad but also proud. He admits the new light is good, but he feels something is lost, because nobody is awake anymore. He has given his life to the lighthouse."
+    }
+   ]
   },
   {
    "title": "The Strategic Power of Silence",
    "es": "El poder estratégico del silencio · Lectura extra",
-   "text": "Ask most people what makes a skilled negotiator and they will describe someone articulate and persuasive: a person who always has a ready answer and never lets the conversation flag. Yet some of the most effective negotiators deliberately say very little. Their secret weapon, paradoxically, is silence. The reason lies in a deep-rooted human discomfort. In most cultures, and particularly in those of Latin America and southern Europe, pauses in conversation are perceived as awkward, even hostile. Research suggests that many people begin to feel uneasy after a silence of as little as four seconds. Faced with that discomfort, the instinctive response is to fill the gap, and in a negotiation, the person who fills it frequently ends up offering more than they intended: an additional discount, a concession on delivery dates or, crucially, information about their own priorities and constraints. Consider a typical scenario. A supplier names a price. Instead of responding immediately, the buyer looks at the proposal thoughtfully and says nothing. After an uncomfortable pause, the supplier adds, \"Of course, if you were to commit to a larger order, we could probably be a little more flexible.\" The buyer has gained a concession without making a single argument. Silence serves other purposes, too. Pausing before replying signals that you are taking the other party's point seriously, which can build respect and lower defensiveness. It also gives you time to think, reducing the risk of agreeing to something in the heat of the moment. And when the other side makes an unreasonable demand, a calm, prolonged silence can communicate disapproval far more eloquently than an angry retort. Of course, the technique has its limits and must be used with judgement. In some cultures, notably in parts of East Asia and Scandinavia, silence is a normal, respectful feature of conversation and will not create the same pressure. Overused, it can seem manipulative or cold, damaging the trust on which long-term business relationships depend. Experienced negotiators therefore combine it with active listening: asking open questions, paraphrasing what they have heard and genuinely seeking to understand the other side's interests. Perhaps the most valuable lesson is a broader one. We often assume that influence comes from talking, from making our case as forcefully as possible. But in many situations, the person who listens more, and is comfortable with the pauses in between, ends up understanding more, and achieving more, than the one who simply speaks the loudest."
+   "text": "Ask most people what makes a skilled negotiator and they will describe someone articulate and persuasive: a person who always has a ready answer and never lets the conversation flag. Yet some of the most effective negotiators deliberately say very little. Their secret weapon, paradoxically, is silence. The reason lies in a deep-rooted human discomfort. In most cultures, and particularly in those of Latin America and southern Europe, pauses in conversation are perceived as awkward, even hostile. Research suggests that many people begin to feel uneasy after a silence of as little as four seconds. Faced with that discomfort, the instinctive response is to fill the gap, and in a negotiation, the person who fills it frequently ends up offering more than they intended: an additional discount, a concession on delivery dates or, crucially, information about their own priorities and constraints. Consider a typical scenario. A supplier names a price. Instead of responding immediately, the buyer looks at the proposal thoughtfully and says nothing. After an uncomfortable pause, the supplier adds, \"Of course, if you were to commit to a larger order, we could probably be a little more flexible.\" The buyer has gained a concession without making a single argument. Silence serves other purposes, too. Pausing before replying signals that you are taking the other party's point seriously, which can build respect and lower defensiveness. It also gives you time to think, reducing the risk of agreeing to something in the heat of the moment. And when the other side makes an unreasonable demand, a calm, prolonged silence can communicate disapproval far more eloquently than an angry retort. Of course, the technique has its limits and must be used with judgement. In some cultures, notably in parts of East Asia and Scandinavia, silence is a normal, respectful feature of conversation and will not create the same pressure. Overused, it can seem manipulative or cold, damaging the trust on which long-term business relationships depend. Experienced negotiators therefore combine it with active listening: asking open questions, paraphrasing what they have heard and genuinely seeking to understand the other side's interests. Perhaps the most valuable lesson is a broader one. We often assume that influence comes from talking, from making our case as forcefully as possible. But in many situations, the person who listens more, and is comfortable with the pauses in between, ends up understanding more, and achieving more, than the one who simply speaks the loudest.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué funciona el silencio en una negociación?",
+     "o": [
+      "La gente se siente incómoda y llena el vacío ofreciendo más",
+      "Asusta a la otra parte",
+      "Es una regla legal",
+      "Hace perder tiempo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿En qué culturas el silencio no genera la misma presión?",
+     "o": [
+      "Partes de Asia oriental y Escandinavia",
+      "América Latina",
+      "El sur de Europa",
+      "Estados Unidos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Con qué recomiendan combinar el silencio?",
+     "o": [
+      "Con escucha activa",
+      "Con amenazas",
+      "Con chistes",
+      "Con regalos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "If you were to commit to a larger order, we could probably be a little more flexible.",
+     "q": "¿Qué ofrece el proveedor tras el silencio?",
+     "o": [
+      "Más flexibilidad si el pedido es más grande",
+      "Cancelar el pedido",
+      "Subir el precio",
+      "Nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe a time you negotiated something (a price, a salary, a plan with family). What worked and what didn't?",
+     "min": 36,
+     "keys": [
+      [
+       "negotiated",
+       "offered",
+       "asked"
+      ],
+      [
+       "worked",
+       "didn't work"
+      ]
+     ],
+     "model": "Last year I negotiated the price of a used car. I asked for a discount and then stayed silent. It worked: the seller offered me five hundred dollars less. What didn't work was showing that I really loved the car."
+    }
+   ]
   },
   {
    "title": "The Myth of Multitasking",
    "es": "El mito de la multitarea · Lectura extra",
-   "text": "Few skills are as widely celebrated in the modern workplace as the ability to multitask. Job advertisements request it, productivity gurus recommend it and many of us pride ourselves on answering emails during meetings, listening to podcasts while writing reports, and keeping a dozen browser tabs open at any one time. There is just one problem: according to neuroscientists, true multitasking is, for the most part, an illusion. When we believe we are doing two cognitively demanding tasks simultaneously, what our brains are actually doing is switching rapidly between them. Each switch carries a cost. The brain must disengage from one set of rules and goals, retrieve another, and reorient itself, a process that takes time and mental energy. Individually, these costs may amount to only a fraction of a second, but they accumulate. Some researchers estimate that habitual task-switching can reduce productivity by as much as forty percent. Accuracy suffers, too. In a series of experiments at Stanford University, researchers compared people who habitually consumed several streams of media at once with those who rarely did so. Contrary to expectations, the heavy multitaskers performed worse on a range of tests, including ones that measured their ability to filter out irrelevant information and to switch between tasks, the very skill they supposedly practised most. The researchers suggested that chronic multitasking might train the brain to be more easily distracted. There are, admittedly, exceptions. We can combine tasks when at least one of them is largely automatic: most people can walk and talk, or listen to music while doing the washing-up, without significant difficulty. Problems arise when both activities require conscious attention, which explains why talking on the phone, even hands-free, impairs driving performance far more than listening to the radio. The implications for how we organise our working lives are considerable. Many experts now advocate \"deep work\": dedicating extended, uninterrupted blocks of time to a single demanding task, with email and messaging applications closed. Others recommend batching similar small tasks together, such as answering all messages at set times of day rather than responding the moment each one arrives. None of this is easy in a culture that often rewards constant availability. But the evidence is increasingly difficult to ignore. If we want to do our best work, the most productive thing we can do may be remarkably old-fashioned: one thing at a time."
+   "text": "Few skills are as widely celebrated in the modern workplace as the ability to multitask. Job advertisements request it, productivity gurus recommend it and many of us pride ourselves on answering emails during meetings, listening to podcasts while writing reports, and keeping a dozen browser tabs open at any one time. There is just one problem: according to neuroscientists, true multitasking is, for the most part, an illusion. When we believe we are doing two cognitively demanding tasks simultaneously, what our brains are actually doing is switching rapidly between them. Each switch carries a cost. The brain must disengage from one set of rules and goals, retrieve another, and reorient itself, a process that takes time and mental energy. Individually, these costs may amount to only a fraction of a second, but they accumulate. Some researchers estimate that habitual task-switching can reduce productivity by as much as forty percent. Accuracy suffers, too. In a series of experiments at Stanford University, researchers compared people who habitually consumed several streams of media at once with those who rarely did so. Contrary to expectations, the heavy multitaskers performed worse on a range of tests, including ones that measured their ability to filter out irrelevant information and to switch between tasks, the very skill they supposedly practised most. The researchers suggested that chronic multitasking might train the brain to be more easily distracted. There are, admittedly, exceptions. We can combine tasks when at least one of them is largely automatic: most people can walk and talk, or listen to music while doing the washing-up, without significant difficulty. Problems arise when both activities require conscious attention, which explains why talking on the phone, even hands-free, impairs driving performance far more than listening to the radio. The implications for how we organise our working lives are considerable. Many experts now advocate \"deep work\": dedicating extended, uninterrupted blocks of time to a single demanding task, with email and messaging applications closed. Others recommend batching similar small tasks together, such as answering all messages at set times of day rather than responding the moment each one arrives. None of this is easy in a culture that often rewards constant availability. But the evidence is increasingly difficult to ignore. If we want to do our best work, the most productive thing we can do may be remarkably old-fashioned: one thing at a time.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué hace realmente el cerebro al 'hacer dos cosas a la vez'?",
+     "o": [
+      "Cambia rápidamente de una tarea a otra",
+      "Divide la atención en partes iguales",
+      "Se apaga",
+      "Trabaja el doble"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué descubrió el estudio de Stanford?",
+     "o": [
+      "Los que hacen mucha multitarea rinden peor",
+      "La multitarea mejora la memoria",
+      "No hay diferencias",
+      "Solo los jóvenes pueden hacerla"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es el 'deep work'?",
+     "o": [
+      "Bloques largos de tiempo sin interrupciones en una tarea",
+      "Trabajar de noche",
+      "Trabajar en equipo",
+      "Responder correos constantemente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Talking on the phone, even hands-free, impairs driving performance far more than listening to the radio.",
+     "q": "¿Qué afecta más la conducción?",
+     "o": [
+      "Hablar por teléfono, incluso con manos libres",
+      "Escuchar radio",
+      "Escuchar música",
+      "Manejar de día"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Do you multitask? Describe your typical work or study day and how you could organise it better.",
+     "min": 28,
+     "keys": [
+      [
+       "usually",
+       "often"
+      ],
+      [
+       "could",
+       "should",
+       "instead"
+      ]
+     ],
+     "model": "I usually answer messages while I'm working, so I lose concentration. Instead, I could check my messages only three times a day and work in blocks of one hour without my phone."
+    }
+   ]
   },
   {
    "title": "Universal Basic Income: Utopia or Necessity?",
    "es": "Renta básica universal: ¿utopía o necesidad? · Lectura extra",
-   "text": "Imagine receiving a fixed sum of money from the state every month, regardless of whether you work, how much you earn or what you choose to do with your time. Once dismissed as a utopian fantasy, universal basic income, or UBI, has moved from the fringes of political debate into the mainstream, attracting supporters as diverse as Silicon Valley entrepreneurs, left-wing activists and free-market economists. Advocates put forward several arguments. The first is simplicity. Many existing welfare systems are complex, bureaucratic and riddled with conditions that can trap recipients: a person who accepts a low-paid job may lose more in benefits than they gain in wages. A universal payment, available to everyone without means-testing, would eliminate this disincentive and drastically reduce administrative costs. Secondly, supporters argue that UBI would provide a safety net in an economy increasingly characterised by insecure work and, potentially, by large-scale job losses due to automation. Finally, some see it as a matter of dignity, freeing people to care for relatives, retrain, start businesses or pursue creative work without the constant fear of destitution. Critics, however, raise serious objections. The most obvious is cost. Paying every adult a meaningful income would require enormous public expenditure, which would have to be financed through substantially higher taxes or cuts to other services, such as healthcare and education. Others worry about the effect on the incentive to work. If everyone received money unconditionally, would a significant proportion of people simply stop working, reducing the tax base needed to fund the scheme? There are also concerns that a universal payment would be inefficient, directing resources to wealthy individuals who do not need them. Evidence from real-world experiments offers some insight, though few have been large or long enough to be conclusive. A two-year trial in Finland found that recipients reported better well-being and lower stress, while employment levels were only marginally affected, if at all. Programmes in Kenya and parts of India have shown improvements in nutrition, school attendance and small business creation. Sceptics note, however, that temporary pilots cannot reveal how people would behave if the payments were guaranteed for life. Ultimately, the debate over UBI reflects deeper questions about the purpose of work, the role of the state and what a society owes its members. Whatever one's position, these are questions that technological change is likely to make increasingly difficult to avoid."
+   "text": "Imagine receiving a fixed sum of money from the state every month, regardless of whether you work, how much you earn or what you choose to do with your time. Once dismissed as a utopian fantasy, universal basic income, or UBI, has moved from the fringes of political debate into the mainstream, attracting supporters as diverse as Silicon Valley entrepreneurs, left-wing activists and free-market economists. Advocates put forward several arguments. The first is simplicity. Many existing welfare systems are complex, bureaucratic and riddled with conditions that can trap recipients: a person who accepts a low-paid job may lose more in benefits than they gain in wages. A universal payment, available to everyone without means-testing, would eliminate this disincentive and drastically reduce administrative costs. Secondly, supporters argue that UBI would provide a safety net in an economy increasingly characterised by insecure work and, potentially, by large-scale job losses due to automation. Finally, some see it as a matter of dignity, freeing people to care for relatives, retrain, start businesses or pursue creative work without the constant fear of destitution. Critics, however, raise serious objections. The most obvious is cost. Paying every adult a meaningful income would require enormous public expenditure, which would have to be financed through substantially higher taxes or cuts to other services, such as healthcare and education. Others worry about the effect on the incentive to work. If everyone received money unconditionally, would a significant proportion of people simply stop working, reducing the tax base needed to fund the scheme? There are also concerns that a universal payment would be inefficient, directing resources to wealthy individuals who do not need them. Evidence from real-world experiments offers some insight, though few have been large or long enough to be conclusive. A two-year trial in Finland found that recipients reported better well-being and lower stress, while employment levels were only marginally affected, if at all. Programmes in Kenya and parts of India have shown improvements in nutrition, school attendance and small business creation. Sceptics note, however, that temporary pilots cannot reveal how people would behave if the payments were guaranteed for life. Ultimately, the debate over UBI reflects deeper questions about the purpose of work, the role of the state and what a society owes its members. Whatever one's position, these are questions that technological change is likely to make increasingly difficult to avoid.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué es la renta básica universal?",
+     "o": [
+      "Una suma fija mensual del Estado para todos, sin condiciones",
+      "Un salario mínimo",
+      "Un subsidio para desempleados",
+      "Un préstamo bancario"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es la principal objeción?",
+     "o": [
+      "El costo enorme",
+      "Que es demasiado simple",
+      "Que nadie la quiere",
+      "Que ya existe en todo el mundo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué encontró la prueba en Finlandia?",
+     "o": [
+      "Más bienestar y menos estrés, con poco efecto en el empleo",
+      "Que todos dejaron de trabajar",
+      "Que aumentó el desempleo",
+      "Que no hubo ningún efecto"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "A person who accepts a low-paid job may lose more in benefits than they gain in wages.",
+     "q": "¿Qué problema de los sistemas actuales describe la frase?",
+     "o": [
+      "Aceptar un trabajo mal pagado puede hacer perder más subsidios de lo que se gana",
+      "Los salarios son muy altos",
+      "No hay subsidios",
+      "Los subsidios son iguales para todos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Would a universal basic income work in your country? Give arguments for and against.",
+     "min": 35,
+     "keys": [
+      [
+       "would"
+      ],
+      [
+       "on the one hand",
+       "however",
+       "on the other hand",
+       "although"
+      ]
+     ],
+     "model": "On the one hand, a basic income would reduce poverty and help people in informal jobs. On the other hand, it would be very expensive, and I'm not sure the government could finance it without raising taxes a lot."
+    }
+   ]
   },
   {
    "title": "When a Language Dies",
    "es": "Cuando una lengua muere · Lectura extra",
-   "text": "Of the approximately seven thousand languages spoken in the world today, linguists estimate that at least forty percent are endangered. Many are spoken by only a few hundred people, most of them elderly. Every few months, somewhere in the world, the last fluent speaker of a language dies, and with them, a unique way of understanding the world disappears forever. Languages have always risen and fallen, of course. But the current rate of loss is unprecedented. The causes are complex but familiar: colonisation, urbanisation, the economic dominance of a handful of global languages and, often, deliberate policies of suppression. In many countries, including Colombia, indigenous children were once punished for speaking their mother tongue at school. Even where such policies have ended, parents frequently choose not to pass on their language, believing, understandably, that their children will have better opportunities if they speak only the national language. Why does it matter? One answer is scientific. Each language represents a distinct solution to the problem of human communication, and studying the full range of linguistic diversity is essential for understanding the capacities of the human mind. Some languages, for example, have no words for \"left\" and \"right\", describing all locations in terms of cardinal directions instead, and their speakers display a remarkable sense of orientation. Languages also encode vast stores of knowledge. Indigenous languages frequently contain detailed vocabularies for local plants, animals and ecosystems, including medicinal uses that have yet to be documented by science. When a language disappears before this knowledge has been recorded, it may be lost permanently. Perhaps most importantly, language is inseparable from identity. Songs, prayers, jokes, oral histories and ways of expressing respect or affection are all bound up with the language in which they were created. For many communities, losing their language feels like losing a part of themselves. There are, encouragingly, reasons for optimism. Hebrew, which for centuries was used mainly in religious contexts, was revived as an everyday spoken language and now has millions of native speakers. Welsh, Maori and Hawaiian have all experienced significant revivals thanks to immersion schools, media in the language and changing attitudes. In Colombia, the 2010 Law of Native Languages formally recognised the right of indigenous communities to use and develop their languages. Technology may also help, from digital dictionaries to apps that allow young people to learn their grandparents' language. Yet experts insist that no recording can substitute for a living community of speakers. A language survives, ultimately, only when people choose to speak it."
+   "text": "Of the approximately seven thousand languages spoken in the world today, linguists estimate that at least forty percent are endangered. Many are spoken by only a few hundred people, most of them elderly. Every few months, somewhere in the world, the last fluent speaker of a language dies, and with them, a unique way of understanding the world disappears forever. Languages have always risen and fallen, of course. But the current rate of loss is unprecedented. The causes are complex but familiar: colonisation, urbanisation, the economic dominance of a handful of global languages and, often, deliberate policies of suppression. In many countries, including Colombia, indigenous children were once punished for speaking their mother tongue at school. Even where such policies have ended, parents frequently choose not to pass on their language, believing, understandably, that their children will have better opportunities if they speak only the national language. Why does it matter? One answer is scientific. Each language represents a distinct solution to the problem of human communication, and studying the full range of linguistic diversity is essential for understanding the capacities of the human mind. Some languages, for example, have no words for \"left\" and \"right\", describing all locations in terms of cardinal directions instead, and their speakers display a remarkable sense of orientation. Languages also encode vast stores of knowledge. Indigenous languages frequently contain detailed vocabularies for local plants, animals and ecosystems, including medicinal uses that have yet to be documented by science. When a language disappears before this knowledge has been recorded, it may be lost permanently. Perhaps most importantly, language is inseparable from identity. Songs, prayers, jokes, oral histories and ways of expressing respect or affection are all bound up with the language in which they were created. For many communities, losing their language feels like losing a part of themselves. There are, encouragingly, reasons for optimism. Hebrew, which for centuries was used mainly in religious contexts, was revived as an everyday spoken language and now has millions of native speakers. Welsh, Maori and Hawaiian have all experienced significant revivals thanks to immersion schools, media in the language and changing attitudes. In Colombia, the 2010 Law of Native Languages formally recognised the right of indigenous communities to use and develop their languages. Technology may also help, from digital dictionaries to apps that allow young people to learn their grandparents' language. Yet experts insist that no recording can substitute for a living community of speakers. A language survives, ultimately, only when people choose to speak it.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué porcentaje de lenguas están en peligro, aproximadamente?",
+     "o": [
+      "Al menos el 40 %",
+      "El 5 %",
+      "El 90 %",
+      "Ninguno"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué muchos padres no transmiten su lengua?",
+     "o": [
+      "Creen que sus hijos tendrán mejores oportunidades con la lengua nacional",
+      "Porque está prohibida hoy",
+      "Porque no la recuerdan",
+      "Porque es muy difícil"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué lengua se revivió como lengua cotidiana?",
+     "o": [
+      "El hebreo",
+      "El latín",
+      "El sánscrito",
+      "El griego antiguo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "A language survives, ultimately, only when people choose to speak it.",
+     "q": "¿Qué hace que una lengua sobreviva?",
+     "o": [
+      "Que la gente decida hablarla",
+      "Que se grabe",
+      "Que haya diccionarios",
+      "Que haya apps"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Do you know any indigenous language or dialect in your country? Why is it important to protect it?",
+     "min": 26,
+     "keys": [
+      [
+       "important"
+      ],
+      [
+       "because"
+      ]
+     ],
+     "model": "In Colombia there are more than sixty indigenous languages, like Wayuunaiki. It's important to protect them because they contain knowledge about nature and they are part of people's identity."
+    }
+   ]
   },
   {
    "title": "Why Do People Believe Conspiracy Theories?",
    "es": "¿Por qué la gente cree en teorías conspirativas? · Lectura extra",
-   "text": "The moon landings were staged in a film studio. A secret elite controls world governments. A vaccine contains microchips designed to track the population. Despite overwhelming evidence to the contrary, millions of people around the world believe claims of this kind. Far from being a fringe phenomenon, surveys consistently suggest that around half of the population in many countries endorses at least one conspiracy theory. What makes these ideas so appealing? Psychologists have identified several needs that conspiracy theories appear to satisfy. The first is epistemic: the desire to understand the world and find certainty. Major events such as pandemics, assassinations or economic crises are often chaotic and frightening, and the official explanations may involve chance, complexity or incompetence. A conspiracy theory offers something more satisfying: a clear narrative in which nothing happens by accident and everything has a hidden cause. The second need is existential: the desire to feel safe and in control. Paradoxically, believing that powerful groups are secretly plotting against us can be less frightening than accepting that some events are random and uncontrollable. At least, if there are villains, there is the possibility of exposing and defeating them. The third need is social. People want to feel good about themselves and the groups they belong to. Conspiracy theories can provide a flattering sense of being among the few who see through the deception, while also offering a convenient explanation for a group's misfortunes by blaming powerful outsiders. Cognitive biases make us all susceptible. Our brains are wired to detect patterns and intentions, an ability that served our ancestors well but can lead us to see connections where none exist. Confirmation bias encourages us to seek out information that supports what we already believe and to dismiss evidence that contradicts it. Social media, where content that provokes strong emotions spreads fastest, has amplified these tendencies considerably. Countering conspiracy beliefs is notoriously difficult. Ridiculing believers tends to backfire, reinforcing their sense of persecution. Research suggests that more effective approaches include \"prebunking\", warning people in advance about the manipulative techniques used to spread misinformation, and engaging respectfully with the underlying anxieties that make such theories attractive. It is worth remembering, finally, that real conspiracies do sometimes occur, which is precisely why healthy scepticism is valuable. The challenge is to apply that scepticism consistently, including to the theories we would most like to believe."
+   "text": "The moon landings were staged in a film studio. A secret elite controls world governments. A vaccine contains microchips designed to track the population. Despite overwhelming evidence to the contrary, millions of people around the world believe claims of this kind. Far from being a fringe phenomenon, surveys consistently suggest that around half of the population in many countries endorses at least one conspiracy theory. What makes these ideas so appealing? Psychologists have identified several needs that conspiracy theories appear to satisfy. The first is epistemic: the desire to understand the world and find certainty. Major events such as pandemics, assassinations or economic crises are often chaotic and frightening, and the official explanations may involve chance, complexity or incompetence. A conspiracy theory offers something more satisfying: a clear narrative in which nothing happens by accident and everything has a hidden cause. The second need is existential: the desire to feel safe and in control. Paradoxically, believing that powerful groups are secretly plotting against us can be less frightening than accepting that some events are random and uncontrollable. At least, if there are villains, there is the possibility of exposing and defeating them. The third need is social. People want to feel good about themselves and the groups they belong to. Conspiracy theories can provide a flattering sense of being among the few who see through the deception, while also offering a convenient explanation for a group's misfortunes by blaming powerful outsiders. Cognitive biases make us all susceptible. Our brains are wired to detect patterns and intentions, an ability that served our ancestors well but can lead us to see connections where none exist. Confirmation bias encourages us to seek out information that supports what we already believe and to dismiss evidence that contradicts it. Social media, where content that provokes strong emotions spreads fastest, has amplified these tendencies considerably. Countering conspiracy beliefs is notoriously difficult. Ridiculing believers tends to backfire, reinforcing their sense of persecution. Research suggests that more effective approaches include \"prebunking\", warning people in advance about the manipulative techniques used to spread misinformation, and engaging respectfully with the underlying anxieties that make such theories attractive. It is worth remembering, finally, that real conspiracies do sometimes occur, which is precisely why healthy scepticism is valuable. The challenge is to apply that scepticism consistently, including to the theories we would most like to believe.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué ofrece una teoría conspirativa frente a la explicación oficial?",
+     "o": [
+      "Una narrativa clara donde nada pasa por accidente",
+      "Más datos científicos",
+      "Una explicación más compleja",
+      "Menos certeza"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es el sesgo de confirmación?",
+     "o": [
+      "Buscar información que apoya lo que ya creemos",
+      "Confirmar todo con expertos",
+      "Dudar de todo",
+      "Olvidar lo que leemos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es el 'prebunking'?",
+     "o": [
+      "Advertir de antemano sobre técnicas de desinformación",
+      "Ridiculizar a los creyentes",
+      "Borrar publicaciones",
+      "Creer en todo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Ridiculing believers tends to backfire, reinforcing their sense of persecution.",
+     "q": "¿Qué pasa si se ridiculiza a quienes creen en conspiraciones?",
+     "o": [
+      "Se refuerza su sensación de persecución",
+      "Cambian de opinión",
+      "Dejan de usar internet",
+      "Nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How would you talk to a friend who believes a conspiracy theory? What would you say and avoid?",
+     "min": 34,
+     "keys": [
+      [
+       "would"
+      ],
+      [
+       "avoid",
+       "wouldn't"
+      ]
+     ],
+     "model": "I would listen to my friend first and ask why he believes it. I would avoid laughing at him, because that would make him defensive. Then I would show him reliable sources and explain how fake news spreads."
+    }
+   ]
   },
   {
    "title": "Proposal: A Four-Day Working Week",
    "es": "Propuesta: una semana laboral de cuatro días · Lectura extra",
-   "text": "To: Board of Directors From: Human Resources Department Subject: Proposal for a six-month four-day week pilot Purpose This proposal recommends that the company conduct a six-month trial in which employees work four days a week, with no reduction in salary, on the condition that productivity targets are maintained. It outlines the rationale for the trial, the proposed implementation and the means by which its success would be evaluated. Background Over the past two years, staff turnover has risen to 22%, significantly above the industry average. Exit interviews identify burnout and poor work-life balance as the principal reasons for leaving. Replacing an employee costs, on average, the equivalent of six months' salary when recruitment, training and lost productivity are taken into account. At the same time, competition for skilled professionals has intensified, and several of our competitors now offer flexible working arrangements as standard. Evidence from other organisations A growing number of companies and governments have experimented with shorter working weeks. In the largest trial to date, conducted in the United Kingdom in 2022, sixty-one organisations reduced working hours for six months. The overwhelming majority chose to continue the arrangement after the trial ended. Participating firms reported that revenue remained broadly stable, while sick days fell substantially and staff turnover dropped considerably. Employees reported lower levels of stress and fatigue and improved mental health. It should be acknowledged that results vary by sector, and that customer-facing departments face particular challenges in maintaining service levels. Proposed implementation We recommend that the pilot be introduced in three departments: Finance, Marketing and Customer Service. In Customer Service, staff would work staggered schedules to ensure that the department remains open five days a week. Prior to the trial, each team would be asked to review its processes, identifying unnecessary meetings and inefficient procedures, so that the same output can be achieved in fewer hours. Evaluation Success would be measured against clearly defined indicators established before the trial begins, including productivity, customer satisfaction scores, absenteeism, staff turnover and employee well-being, assessed through anonymous surveys at the beginning, middle and end of the pilot. Recommendation Given the potential benefits for retention, recruitment and well-being, and the limited financial risk involved in a time-limited, carefully monitored trial, we recommend that the Board approve the pilot, with a decision on its continuation to be made upon review of the results."
+   "text": "To: Board of Directors From: Human Resources Department Subject: Proposal for a six-month four-day week pilot Purpose This proposal recommends that the company conduct a six-month trial in which employees work four days a week, with no reduction in salary, on the condition that productivity targets are maintained. It outlines the rationale for the trial, the proposed implementation and the means by which its success would be evaluated. Background Over the past two years, staff turnover has risen to 22%, significantly above the industry average. Exit interviews identify burnout and poor work-life balance as the principal reasons for leaving. Replacing an employee costs, on average, the equivalent of six months' salary when recruitment, training and lost productivity are taken into account. At the same time, competition for skilled professionals has intensified, and several of our competitors now offer flexible working arrangements as standard. Evidence from other organisations A growing number of companies and governments have experimented with shorter working weeks. In the largest trial to date, conducted in the United Kingdom in 2022, sixty-one organisations reduced working hours for six months. The overwhelming majority chose to continue the arrangement after the trial ended. Participating firms reported that revenue remained broadly stable, while sick days fell substantially and staff turnover dropped considerably. Employees reported lower levels of stress and fatigue and improved mental health. It should be acknowledged that results vary by sector, and that customer-facing departments face particular challenges in maintaining service levels. Proposed implementation We recommend that the pilot be introduced in three departments: Finance, Marketing and Customer Service. In Customer Service, staff would work staggered schedules to ensure that the department remains open five days a week. Prior to the trial, each team would be asked to review its processes, identifying unnecessary meetings and inefficient procedures, so that the same output can be achieved in fewer hours. Evaluation Success would be measured against clearly defined indicators established before the trial begins, including productivity, customer satisfaction scores, absenteeism, staff turnover and employee well-being, assessed through anonymous surveys at the beginning, middle and end of the pilot. Recommendation Given the potential benefits for retention, recruitment and well-being, and the limited financial risk involved in a time-limited, carefully monitored trial, we recommend that the Board approve the pilot, with a decision on its continuation to be made upon review of the results.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué problema motiva la propuesta?",
+     "o": [
+      "Alta rotación de personal por agotamiento",
+      "Bajas ventas",
+      "Demasiados empleados",
+      "Un cambio de ley"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué pasó en la prueba del Reino Unido?",
+     "o": [
+      "La mayoría de empresas decidió continuar",
+      "Todas las empresas quebraron",
+      "Los ingresos cayeron mucho",
+      "Nadie participó"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo funcionaría Servicio al Cliente?",
+     "o": [
+      "Con horarios escalonados para abrir cinco días",
+      "Cerraría los viernes",
+      "Trabajaría siete días",
+      "No participaría"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Replacing an employee costs, on average, the equivalent of six months' salary.",
+     "q": "¿Cuánto cuesta reemplazar a un empleado?",
+     "o": [
+      "Unos seis meses de salario",
+      "Un mes de salario",
+      "Un año de salario",
+      "Nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Would you like to work four days a week? Present the idea to your boss with at least two arguments.",
+     "min": 28,
+     "keys": [
+      [
+       "would",
+       "could"
+      ],
+      [
+       "firstly",
+       "first",
+       "secondly",
+       "moreover",
+       "also"
+      ]
+     ],
+     "model": "I'd like to propose a four-day week. Firstly, people would be less tired and more productive. Moreover, it would help the company keep good employees, because replacing them is very expensive."
+    }
+   ]
   },
   {
    "title": "Why We Are Wired for Stories",
    "es": "Por qué estamos hechos para las historias · Lectura extra",
-   "text": "Long before writing, long before cities or agriculture, human beings were telling stories. Around fires, in caves decorated with images of animals and hunters, our ancestors passed on knowledge, warnings and beliefs not through lists of facts but through narratives: sequences of events involving characters who wanted something and faced obstacles in getting it. Some anthropologists believe storytelling is as fundamental to our species as language itself. Modern neuroscience offers intriguing clues as to why stories exert such a powerful hold on us. When we read a list of facts, activity is concentrated in the language-processing regions of the brain. When we hear a story, however, many other areas become involved. Descriptions of smells activate the regions associated with smell; accounts of physical movement activate the motor cortex. In a sense, our brains simulate the experiences being described, which may explain why a well-told story can feel almost as vivid as a memory. Stories also appear to affect our body chemistry. In experiments conducted by the neuroeconomist Paul Zak, participants who watched an emotionally engaging narrative about a father and his terminally ill son showed increased levels of oxytocin, a hormone associated with empathy and trust. Remarkably, those with the greatest increase were also the most likely to donate money to a related charity afterwards. From an evolutionary perspective, this makes sense. Stories allowed our ancestors to learn from experiences they had not lived through themselves, such as which plants were poisonous or how to escape a predator, without exposing themselves to the risks. They also helped bind groups together through shared values and identities, which was essential for survival in small, cooperative communities. Unsurprisingly, the persuasive power of narrative has not been lost on those who wish to influence us. Advertisers rarely list the features of a product; instead, they tell stories in which the product transforms someone's life. Politicians who communicate through personal anecdotes are frequently more persuasive than those who rely on statistics. Teachers, too, have long known that information embedded in a narrative is remembered far better than information presented in isolation. This power, of course, is morally neutral. The same mechanisms that allow a novel to cultivate empathy for people unlike ourselves can be exploited to spread propaganda. Perhaps that is the best reason to read widely and critically: to understand the stories that shape us, and to recognise when someone is trying to tell us one."
+   "text": "Long before writing, long before cities or agriculture, human beings were telling stories. Around fires, in caves decorated with images of animals and hunters, our ancestors passed on knowledge, warnings and beliefs not through lists of facts but through narratives: sequences of events involving characters who wanted something and faced obstacles in getting it. Some anthropologists believe storytelling is as fundamental to our species as language itself. Modern neuroscience offers intriguing clues as to why stories exert such a powerful hold on us. When we read a list of facts, activity is concentrated in the language-processing regions of the brain. When we hear a story, however, many other areas become involved. Descriptions of smells activate the regions associated with smell; accounts of physical movement activate the motor cortex. In a sense, our brains simulate the experiences being described, which may explain why a well-told story can feel almost as vivid as a memory. Stories also appear to affect our body chemistry. In experiments conducted by the neuroeconomist Paul Zak, participants who watched an emotionally engaging narrative about a father and his terminally ill son showed increased levels of oxytocin, a hormone associated with empathy and trust. Remarkably, those with the greatest increase were also the most likely to donate money to a related charity afterwards. From an evolutionary perspective, this makes sense. Stories allowed our ancestors to learn from experiences they had not lived through themselves, such as which plants were poisonous or how to escape a predator, without exposing themselves to the risks. They also helped bind groups together through shared values and identities, which was essential for survival in small, cooperative communities. Unsurprisingly, the persuasive power of narrative has not been lost on those who wish to influence us. Advertisers rarely list the features of a product; instead, they tell stories in which the product transforms someone's life. Politicians who communicate through personal anecdotes are frequently more persuasive than those who rely on statistics. Teachers, too, have long known that information embedded in a narrative is remembered far better than information presented in isolation. This power, of course, is morally neutral. The same mechanisms that allow a novel to cultivate empathy for people unlike ourselves can be exploited to spread propaganda. Perhaps that is the best reason to read widely and critically: to understand the stories that shape us, and to recognise when someone is trying to tell us one.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué pasa en el cerebro cuando oímos una historia?",
+     "o": [
+      "Se activan muchas áreas, como si viviéramos la experiencia",
+      "Solo se activa el área del lenguaje",
+      "Se apaga",
+      "Se duerme"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hormona aumentó en el experimento de Paul Zak?",
+     "o": [
+      "La oxitocina",
+      "La adrenalina",
+      "La melatonina",
+      "La insulina"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué las historias ayudaron a nuestros antepasados?",
+     "o": [
+      "Aprendían de experiencias sin correr los riesgos",
+      "Los entretenían solamente",
+      "Les hacían dormir",
+      "Les daban comida"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "The same mechanisms that allow a novel to cultivate empathy for people unlike ourselves can be exploited to spread propaganda.",
+     "q": "¿Qué advierte el texto sobre las historias?",
+     "o": [
+      "Que también pueden usarse para la propaganda",
+      "Que siempre son buenas",
+      "Que no influyen",
+      "Que solo sirven para niños"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Tell a short story from your life that taught you something important. End with the lesson.",
+     "min": 34,
+     "keys": [
+      [
+       "when",
+       "once",
+       "one day"
+      ],
+      [
+       "learned",
+       "taught"
+      ]
+     ],
+     "model": "One day, when I was fifteen, I lied to my father about my grades. He found out and, instead of shouting, he told me he was disappointed. That taught me that honesty is more important than looking perfect."
+    }
+   ]
   }
  ],
  [
@@ -494,62 +2014,839 @@ window.READINGS = [
   {
    "title": "The Untranslatable",
    "es": "Lo intraducible · Lectura extra",
-   "text": "Every so often, a list circulates online of \"untranslatable words\": the Portuguese saudade, the Danish hygge, the Japanese komorebi, sunlight filtering through leaves. Such lists are invariably charming and slightly misleading. They imply that certain languages possess feelings or perceptions that are simply inaccessible to speakers of others, as though an English speaker had never experienced the light falling through a canopy of trees merely because English lacks a single word for it. Translators, for their part, tend to regard the notion of untranslatability with a mixture of fascination and weary scepticism. Almost anything can be conveyed in another language, they would argue; the question is at what cost. A single word may require a phrase, a footnote or an entire paragraph, and in the process something is inevitably lost: brevity, rhythm, connotation, the particular music of the original. Consider the translator of poetry, who must choose, line by line, between fidelity to meaning and fidelity to form. Preserve the rhyme scheme of a sonnet and you will almost certainly have to distort its sense; render its sense with scrupulous accuracy and you may produce something that no longer sounds like a poem at all. Vladimir Nabokov, who translated Pushkin's Eugene Onegin into deliberately unlovely, literal English accompanied by voluminous notes, considered rhymed translations of the work a betrayal. His critics considered his version unreadable. Both, in their way, had a point. Humour poses perhaps the sternest challenge. Puns, which depend on the accidental resemblance between words in a given language, rarely survive the crossing intact. The translators of the Asterix comics famously abandoned literal translation altogether, inventing new jokes and even new character names in each language that preserved the spirit, rather than the letter, of the original. Their work is widely regarded as a triumph precisely because it is so unfaithful. Cultural references present difficulties of a subtler kind. A novel set in Bogotá may allude to foods, institutions and social codes that a local reader decodes effortlessly but that would mystify a reader in Oslo. Should the translator explain, substitute or leave the reader to wonder? Each choice shapes the experience of the text in ways that most readers never notice. Perhaps, then, the more interesting claim is not that some words cannot be translated, but that no translation is ever neutral. Every translator is also an interpreter, making countless small decisions about what matters most. To read a work in translation is to read it through another mind, which is not a reason to avoid translations, but a reason to be grateful for them, and occasionally, to seek out a second one."
+   "text": "Every so often, a list circulates online of \"untranslatable words\": the Portuguese saudade, the Danish hygge, the Japanese komorebi, sunlight filtering through leaves. Such lists are invariably charming and slightly misleading. They imply that certain languages possess feelings or perceptions that are simply inaccessible to speakers of others, as though an English speaker had never experienced the light falling through a canopy of trees merely because English lacks a single word for it. Translators, for their part, tend to regard the notion of untranslatability with a mixture of fascination and weary scepticism. Almost anything can be conveyed in another language, they would argue; the question is at what cost. A single word may require a phrase, a footnote or an entire paragraph, and in the process something is inevitably lost: brevity, rhythm, connotation, the particular music of the original. Consider the translator of poetry, who must choose, line by line, between fidelity to meaning and fidelity to form. Preserve the rhyme scheme of a sonnet and you will almost certainly have to distort its sense; render its sense with scrupulous accuracy and you may produce something that no longer sounds like a poem at all. Vladimir Nabokov, who translated Pushkin's Eugene Onegin into deliberately unlovely, literal English accompanied by voluminous notes, considered rhymed translations of the work a betrayal. His critics considered his version unreadable. Both, in their way, had a point. Humour poses perhaps the sternest challenge. Puns, which depend on the accidental resemblance between words in a given language, rarely survive the crossing intact. The translators of the Asterix comics famously abandoned literal translation altogether, inventing new jokes and even new character names in each language that preserved the spirit, rather than the letter, of the original. Their work is widely regarded as a triumph precisely because it is so unfaithful. Cultural references present difficulties of a subtler kind. A novel set in Bogotá may allude to foods, institutions and social codes that a local reader decodes effortlessly but that would mystify a reader in Oslo. Should the translator explain, substitute or leave the reader to wonder? Each choice shapes the experience of the text in ways that most readers never notice. Perhaps, then, the more interesting claim is not that some words cannot be translated, but that no translation is ever neutral. Every translator is also an interpreter, making countless small decisions about what matters most. To read a work in translation is to read it through another mind, which is not a reason to avoid translations, but a reason to be grateful for them, and occasionally, to seek out a second one.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué opinan los traductores sobre la 'intraducibilidad'?",
+     "o": [
+      "Casi todo se puede transmitir, pero con un costo",
+      "Muchas palabras no se pueden traducir jamás",
+      "Es un problema inexistente",
+      "Solo afecta a la poesía"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué Nabokov fue criticado?",
+     "o": [
+      "Su traducción literal de Onegin resultó ilegible para muchos",
+      "Inventó chistes nuevos",
+      "No tradujo el libro completo",
+      "Rimó todo el poema"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué las traducciones de Astérix son un triunfo?",
+     "o": [
+      "Preservaron el espíritu inventando chistes nuevos",
+      "Fueron totalmente literales",
+      "No cambiaron ningún nombre",
+      "Usaron notas al pie"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "To read a work in translation is to read it through another mind.",
+     "q": "¿Qué implica leer una traducción, según el autor?",
+     "o": [
+      "Leer a través de la mente de otra persona",
+      "Leer exactamente el original",
+      "Perder todo el sentido",
+      "Leer más rápido"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Think of a word or expression in Spanish that is hard to translate into English. How would you explain it?",
+     "min": 31,
+     "keys": [
+      [
+       "means",
+       "refers to"
+      ],
+      [
+       "there isn't",
+       "there is no",
+       "closest"
+      ]
+     ],
+     "model": "In Colombia we say 'echar los perros', which means to flirt with someone. There isn't an exact equivalent, but the closest expression in English would be 'to hit on someone' or 'to make a move'."
+    }
+   ]
   },
   {
    "title": "The Tyranny of Metrics",
    "es": "La tiranía de las métricas · Lectura extra",
-   "text": "It seems an unimpeachable principle of modern management: what gets measured gets managed. Hospitals are ranked by waiting times, universities by publication counts, schools by examination results and employees by an ever-expanding array of key performance indicators. Measurement promises objectivity, transparency and accountability, all undeniable virtues. Yet a growing number of scholars contend that our faith in quantification has curdled into something closer to fixation, with consequences that are frequently perverse. The central problem was articulated by the economist Charles Goodhart, whose eponymous law holds that \"when a measure becomes a target, it ceases to be a good measure\". Once people know they are being judged by a particular number, they inevitably begin to optimise for that number, often at the expense of the very goal it was intended to reflect. Teachers under pressure to raise test scores teach to the test, narrowing the curriculum. Surgeons evaluated on mortality rates may decline to operate on the riskiest patients, who are precisely those most in need of surgery. Police forces judged on crime statistics have been known to reclassify offences to make the figures look more favourable. A related difficulty is that the most important aspects of many activities are precisely those that resist measurement. The value of a teacher who inspires a lifelong love of reading, or a nurse who calms a frightened patient, does not show up readily in a spreadsheet. When organisations reward only what can be counted, they implicitly devalue what cannot, and the people who care most about those unquantifiable qualities often become demoralised or leave. There is also the matter of cost. Gathering, verifying and reporting data consumes vast amounts of time that professionals might otherwise devote to their actual work. Doctors in several countries now report spending more time on documentation than on direct patient care. None of this amounts to an argument against measurement as such. Data can expose genuine failings, reveal hidden patterns and hold powerful institutions to account. The historian Jerry Muller, whose book The Tyranny of Metrics popularised these critiques, is careful to distinguish between measurement used as a tool for professional judgement and measurement used as a substitute for it. The distinction is crucial. Metrics are most valuable when they are developed in collaboration with the people being measured, used diagnostically rather than punitively, and interpreted with an awareness of what they leave out. They are most damaging when they are imposed from above, tied mechanically to rewards and sanctions, and mistaken for the reality they were designed to approximate. Not everything that counts can be counted, as the saying goes, and not everything that can be counted counts."
+   "text": "It seems an unimpeachable principle of modern management: what gets measured gets managed. Hospitals are ranked by waiting times, universities by publication counts, schools by examination results and employees by an ever-expanding array of key performance indicators. Measurement promises objectivity, transparency and accountability, all undeniable virtues. Yet a growing number of scholars contend that our faith in quantification has curdled into something closer to fixation, with consequences that are frequently perverse. The central problem was articulated by the economist Charles Goodhart, whose eponymous law holds that \"when a measure becomes a target, it ceases to be a good measure\". Once people know they are being judged by a particular number, they inevitably begin to optimise for that number, often at the expense of the very goal it was intended to reflect. Teachers under pressure to raise test scores teach to the test, narrowing the curriculum. Surgeons evaluated on mortality rates may decline to operate on the riskiest patients, who are precisely those most in need of surgery. Police forces judged on crime statistics have been known to reclassify offences to make the figures look more favourable. A related difficulty is that the most important aspects of many activities are precisely those that resist measurement. The value of a teacher who inspires a lifelong love of reading, or a nurse who calms a frightened patient, does not show up readily in a spreadsheet. When organisations reward only what can be counted, they implicitly devalue what cannot, and the people who care most about those unquantifiable qualities often become demoralised or leave. There is also the matter of cost. Gathering, verifying and reporting data consumes vast amounts of time that professionals might otherwise devote to their actual work. Doctors in several countries now report spending more time on documentation than on direct patient care. None of this amounts to an argument against measurement as such. Data can expose genuine failings, reveal hidden patterns and hold powerful institutions to account. The historian Jerry Muller, whose book The Tyranny of Metrics popularised these critiques, is careful to distinguish between measurement used as a tool for professional judgement and measurement used as a substitute for it. The distinction is crucial. Metrics are most valuable when they are developed in collaboration with the people being measured, used diagnostically rather than punitively, and interpreted with an awareness of what they leave out. They are most damaging when they are imposed from above, tied mechanically to rewards and sanctions, and mistaken for the reality they were designed to approximate. Not everything that counts can be counted, as the saying goes, and not everything that can be counted counts.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué dice la ley de Goodhart?",
+     "o": [
+      "Cuando una medida se vuelve meta, deja de ser una buena medida",
+      "Lo que se mide se mejora siempre",
+      "Los números nunca mienten",
+      "Hay que medir todo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hacen algunos cirujanos evaluados por mortalidad?",
+     "o": [
+      "Evitan operar a los pacientes más riesgosos",
+      "Operan más rápido",
+      "Contratan más enfermeras",
+      "Publican más"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuándo son más valiosas las métricas, según el texto?",
+     "o": [
+      "Cuando se usan para diagnosticar y se desarrollan con los evaluados",
+      "Cuando se imponen desde arriba",
+      "Cuando se ligan a castigos",
+      "Cuando reemplazan el juicio profesional"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Not everything that counts can be counted, and not everything that can be counted counts.",
+     "q": "¿Qué expresa la frase?",
+     "o": [
+      "No todo lo importante se puede medir, ni todo lo medible importa",
+      "Todo debe contarse",
+      "Contar es inútil",
+      "Solo cuentan los números grandes"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Are you measured by numbers at work or school? Do those metrics reflect what really matters?",
+     "min": 27,
+     "keys": [
+      [
+       "measured",
+       "metrics",
+       "targets",
+       "kpis"
+      ],
+      [
+       "however",
+       "but",
+       "although"
+      ]
+     ],
+     "model": "In my call centre we are measured by average handling time. It's useful, but it doesn't reflect quality: sometimes the best agents take longer because they really solve the customer's problem."
+    }
+   ]
   },
   {
    "title": "On Nostalgia",
    "es": "Sobre la nostalgia · Lectura extra",
-   "text": "The word \"nostalgia\" was coined in 1688 by a Swiss medical student, Johannes Hofer, who combined the Greek nostos, meaning homecoming, and algos, meaning pain, to describe a malady he had observed among Swiss mercenaries serving abroad. Its symptoms, he reported, included melancholy, insomnia, loss of appetite and, in severe cases, death. For the following two centuries, nostalgia was regarded as a potentially lethal disease, and soldiers were occasionally forbidden from singing the folk songs that were thought to trigger it. We no longer consider nostalgia a pathology, but our attitude towards it remains ambivalent. On the one hand, it is a staple of commerce: advertisers, film studios and politicians have all discovered the immense power of a sepia-tinted appeal to the way things used to be. On the other hand, nostalgia is routinely disparaged as sentimental, regressive and intellectually dishonest, a selective editing of the past that conveniently omits its injustices and discomforts. Both characterisations contain an element of truth. Political nostalgia, in particular, can be pernicious. Appeals to restore a vanished golden age invariably idealise a past that was considerably less golden for many of those who lived through it, and they can be used to legitimise hostility towards groups held responsible for its supposed loss. Yet recent psychological research suggests that personal nostalgia, at least, is far from the debilitating affliction Hofer described. In a series of studies, people induced to recall nostalgic memories subsequently reported a greater sense of social connectedness, higher self-esteem and a stronger conviction that their lives were meaningful. Nostalgia, it appears, tends to arise precisely when we feel lonely, anxious or adrift, and it functions as a kind of psychological resource, reminding us that we have been loved and that our lives possess a coherent narrative. Notably, the memories that people describe as nostalgic are rarely of unalloyed happiness. They typically follow a redemptive arc: a difficult situation, such as a cold, uncomfortable camping trip, which is transformed by the presence of loved ones into something cherished. In this sense, nostalgia is less a longing to return to the past than a means of extracting meaning from it. Perhaps the most useful distinction, proposed by the literary scholar Svetlana Boym, is between \"restorative\" nostalgia, which seeks to rebuild the lost home literally and regards any questioning as betrayal, and \"reflective\" nostalgia, which dwells on the longing itself, accepting that the past is irrecoverable and remaining alert to its contradictions. The former can be dangerous. The latter may be one of the ways in which we make sense of being mortal creatures moving, irreversibly, through time."
+   "text": "The word \"nostalgia\" was coined in 1688 by a Swiss medical student, Johannes Hofer, who combined the Greek nostos, meaning homecoming, and algos, meaning pain, to describe a malady he had observed among Swiss mercenaries serving abroad. Its symptoms, he reported, included melancholy, insomnia, loss of appetite and, in severe cases, death. For the following two centuries, nostalgia was regarded as a potentially lethal disease, and soldiers were occasionally forbidden from singing the folk songs that were thought to trigger it. We no longer consider nostalgia a pathology, but our attitude towards it remains ambivalent. On the one hand, it is a staple of commerce: advertisers, film studios and politicians have all discovered the immense power of a sepia-tinted appeal to the way things used to be. On the other hand, nostalgia is routinely disparaged as sentimental, regressive and intellectually dishonest, a selective editing of the past that conveniently omits its injustices and discomforts. Both characterisations contain an element of truth. Political nostalgia, in particular, can be pernicious. Appeals to restore a vanished golden age invariably idealise a past that was considerably less golden for many of those who lived through it, and they can be used to legitimise hostility towards groups held responsible for its supposed loss. Yet recent psychological research suggests that personal nostalgia, at least, is far from the debilitating affliction Hofer described. In a series of studies, people induced to recall nostalgic memories subsequently reported a greater sense of social connectedness, higher self-esteem and a stronger conviction that their lives were meaningful. Nostalgia, it appears, tends to arise precisely when we feel lonely, anxious or adrift, and it functions as a kind of psychological resource, reminding us that we have been loved and that our lives possess a coherent narrative. Notably, the memories that people describe as nostalgic are rarely of unalloyed happiness. They typically follow a redemptive arc: a difficult situation, such as a cold, uncomfortable camping trip, which is transformed by the presence of loved ones into something cherished. In this sense, nostalgia is less a longing to return to the past than a means of extracting meaning from it. Perhaps the most useful distinction, proposed by the literary scholar Svetlana Boym, is between \"restorative\" nostalgia, which seeks to rebuild the lost home literally and regards any questioning as betrayal, and \"reflective\" nostalgia, which dwells on the longing itself, accepting that the past is irrecoverable and remaining alert to its contradictions. The former can be dangerous. The latter may be one of the ways in which we make sense of being mortal creatures moving, irreversibly, through time.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo se consideraba la nostalgia en el siglo XVII?",
+     "o": [
+      "Una enfermedad potencialmente mortal",
+      "Un sentimiento positivo",
+      "Un tipo de música",
+      "Una virtud"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué efectos encontraron los estudios psicológicos recientes?",
+     "o": [
+      "Más conexión social, autoestima y sentido de la vida",
+      "Depresión y aislamiento",
+      "Pérdida de memoria",
+      "Ningún efecto"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué diferencia hay entre nostalgia restauradora y reflexiva?",
+     "o": [
+      "La restauradora quiere reconstruir el pasado; la reflexiva acepta que no vuelve",
+      "Son lo mismo",
+      "La reflexiva es más peligrosa",
+      "La restauradora es solo personal"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Nostalgia is less a longing to return to the past than a means of extracting meaning from it.",
+     "q": "¿Qué es la nostalgia, según la frase?",
+     "o": [
+      "Una forma de sacar sentido del pasado",
+      "Un deseo de volver al pasado",
+      "Una enfermedad",
+      "Un error de memoria"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe a memory you feel nostalgic about. Why is it meaningful to you now?",
+     "min": 34,
+     "keys": [
+      [
+       "remember",
+       "used to"
+      ],
+      [
+       "because",
+       "meaningful"
+      ]
+     ],
+     "model": "I remember the Sundays at my grandparents' farm, when we used to eat together for hours. It's meaningful now because it reminds me that I was loved, and I try to do the same with my own children."
+    }
+   ]
   },
   {
    "title": "The Cartographer's Daughter",
    "es": "La hija del cartógrafo · Lectura extra",
-   "text": "My father drew maps of places that did not yet exist. This is not a figure of speech. For thirty years he worked for the municipal planning office, and the city he rendered so meticulously in ink, the ring roads and reservoirs and neatly numbered housing estates, was always the city of ten years hence, the city as the authorities intended it to become. As a child I found this faintly uncanny. On Sunday afternoons he would unroll a new sheet across the dining table, and I would trace with my finger the blue thread of a canal that had not been dug, the green rectangle of a park where, in reality, there stood only a disused brickworks and a field of thistles. \"Will it really be there?\" I would ask. \"If they keep their nerve,\" he would say, which I took to be an engineering term. They seldom kept their nerve. Budgets were cut, governments fell, priorities shifted. The canal became a culvert, the park a car park. The city that actually materialised resembled my father's maps only in the way a grown man resembles a photograph of himself as a boy: one could discern the lineage, but the promise had been quietly compromised. He never complained, at least not in my hearing. When I was older, and inclined, as adolescents are, to regard my parents' lives as a catalogue of disappointments, I asked him whether it had not been demoralising to devote his career to drawing things that never came to pass. He considered the question with his usual unhurried seriousness. \"A map of what exists,\" he said eventually, \"tells you where you are. A map of what might exist tells you what you're for.\" Then he returned to his crossword, and the conversation, as far as he was concerned, was over. He died last spring. Among his papers I found a folder I had never seen, labelled simply \"Unrealised\". It contained dozens of maps, each annotated in his small, upright hand with the date on which the project had been abandoned. A bridge across the estuary, 1987. A tram line to the eastern districts, 1994. A library, 2003. The final map in the folder was different. It depicted not the city but our own street, rendered with the same exactitude, and in the garden of our house he had drawn, in green ink, a small circle labelled \"Lemon tree, for M.\" I am M. I had once, aged seven, announced that I wanted a lemon tree, and then forgotten all about it. There was no date of abandonment on that one. I planted the tree in April. It is a modest thing, barely knee-high, and the gardeners tell me it may never fruit in this climate. But I am keeping my nerve."
+   "text": "My father drew maps of places that did not yet exist. This is not a figure of speech. For thirty years he worked for the municipal planning office, and the city he rendered so meticulously in ink, the ring roads and reservoirs and neatly numbered housing estates, was always the city of ten years hence, the city as the authorities intended it to become. As a child I found this faintly uncanny. On Sunday afternoons he would unroll a new sheet across the dining table, and I would trace with my finger the blue thread of a canal that had not been dug, the green rectangle of a park where, in reality, there stood only a disused brickworks and a field of thistles. \"Will it really be there?\" I would ask. \"If they keep their nerve,\" he would say, which I took to be an engineering term. They seldom kept their nerve. Budgets were cut, governments fell, priorities shifted. The canal became a culvert, the park a car park. The city that actually materialised resembled my father's maps only in the way a grown man resembles a photograph of himself as a boy: one could discern the lineage, but the promise had been quietly compromised. He never complained, at least not in my hearing. When I was older, and inclined, as adolescents are, to regard my parents' lives as a catalogue of disappointments, I asked him whether it had not been demoralising to devote his career to drawing things that never came to pass. He considered the question with his usual unhurried seriousness. \"A map of what exists,\" he said eventually, \"tells you where you are. A map of what might exist tells you what you're for.\" Then he returned to his crossword, and the conversation, as far as he was concerned, was over. He died last spring. Among his papers I found a folder I had never seen, labelled simply \"Unrealised\". It contained dozens of maps, each annotated in his small, upright hand with the date on which the project had been abandoned. A bridge across the estuary, 1987. A tram line to the eastern districts, 1994. A library, 2003. The final map in the folder was different. It depicted not the city but our own street, rendered with the same exactitude, and in the garden of our house he had drawn, in green ink, a small circle labelled \"Lemon tree, for M.\" I am M. I had once, aged seven, announced that I wanted a lemon tree, and then forgotten all about it. There was no date of abandonment on that one. I planted the tree in April. It is a modest thing, barely knee-high, and the gardeners tell me it may never fruit in this climate. But I am keeping my nerve.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué dibujaba el padre?",
+     "o": [
+      "Mapas de la ciudad tal como planeaban que sería",
+      "Mapas antiguos",
+      "Retratos",
+      "Planos de casas privadas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué contenía la carpeta 'Unrealised'?",
+     "o": [
+      "Mapas de proyectos abandonados con sus fechas",
+      "Cartas de amor",
+      "Fotos de familia",
+      "Su testamento"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué el último mapa no tenía fecha de abandono?",
+     "o": [
+      "Era un regalo para su hija que ella podía cumplir",
+      "Lo olvidó",
+      "Era de otro cartógrafo",
+      "Era un error"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "A map of what exists tells you where you are. A map of what might exist tells you what you're for.",
+     "q": "¿Qué quiere decir el padre?",
+     "o": [
+      "Imaginar lo posible da propósito",
+      "Los mapas reales son inútiles",
+      "Hay que dejar de planear",
+      "Solo importa el presente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What does 'keeping your nerve' mean in the story, and why does the narrator say it at the end?",
+     "min": 32,
+     "keys": [
+      [
+       "means"
+      ],
+      [
+       "because",
+       "since"
+      ]
+     ],
+     "model": "Keeping your nerve means not giving up when things are uncertain. The narrator says it at the end because she plants the tree even though it may never give fruit, so she continues her father's hope."
+    }
+   ]
   },
   {
    "title": "Reading the Small Print: Confidentiality Agreements",
    "es": "Leer la letra pequeña: acuerdos de confidencialidad · Lectura extra",
-   "text": "Few documents are signed as casually, or understood as poorly, as the non-disclosure agreement. Employees sign them on their first day alongside tax forms and parking permits; entrepreneurs sign them before pitching ideas to investors; freelancers sign them before so much as glancing at a client's brief. Yet these agreements can impose obligations that persist for years and carry significant legal consequences. Understanding their principal provisions is therefore well worth the effort. At its core, a non-disclosure agreement, or NDA, is a contract by which one or both parties undertake not to disclose specified information to third parties. Agreements in which only one party discloses information are termed unilateral; those in which both parties exchange confidential information are mutual. The distinction matters, since a unilateral agreement imposes obligations on the recipient alone. The definition of \"confidential information\" is arguably the most consequential clause. Broadly drafted definitions, which encompass \"all information of whatever nature disclosed by the Disclosing Party\", may be favourable to the discloser but are potentially unenforceable if a court deems them unreasonably wide. Well-drafted agreements typically specify categories of information and expressly exclude information that is already in the public domain, that was lawfully in the recipient's possession prior to disclosure, or that the recipient developed independently. The agreement will also stipulate the purpose for which the information may be used, often referred to as the \"permitted purpose\", and any use beyond that purpose constitutes a breach, even where no disclosure to a third party occurs. Recipients are commonly required to take \"reasonable measures\" to protect the information and to restrict access to those employees or advisers who have a genuine need to know. Duration is another critical consideration. Obligations may last for a fixed term, frequently between two and five years, or, in the case of trade secrets, indefinitely. Readers should note whether obligations survive the termination of any broader commercial relationship; they very often do. Finally, the agreement will specify the remedies available in the event of a breach. In addition to damages, most NDAs entitle the disclosing party to seek an injunction, a court order compelling the recipient to cease the offending conduct, on the grounds that monetary compensation would be an inadequate remedy once secrets have been revealed. It bears emphasising that confidentiality agreements cannot lawfully be used to conceal criminal conduct, and in many jurisdictions, provisions purporting to prevent employees from reporting harassment or discrimination have been declared void. Anyone asked to sign such an agreement would be well advised to read it in full and, where the stakes are high, to seek independent legal advice before doing so."
+   "text": "Few documents are signed as casually, or understood as poorly, as the non-disclosure agreement. Employees sign them on their first day alongside tax forms and parking permits; entrepreneurs sign them before pitching ideas to investors; freelancers sign them before so much as glancing at a client's brief. Yet these agreements can impose obligations that persist for years and carry significant legal consequences. Understanding their principal provisions is therefore well worth the effort. At its core, a non-disclosure agreement, or NDA, is a contract by which one or both parties undertake not to disclose specified information to third parties. Agreements in which only one party discloses information are termed unilateral; those in which both parties exchange confidential information are mutual. The distinction matters, since a unilateral agreement imposes obligations on the recipient alone. The definition of \"confidential information\" is arguably the most consequential clause. Broadly drafted definitions, which encompass \"all information of whatever nature disclosed by the Disclosing Party\", may be favourable to the discloser but are potentially unenforceable if a court deems them unreasonably wide. Well-drafted agreements typically specify categories of information and expressly exclude information that is already in the public domain, that was lawfully in the recipient's possession prior to disclosure, or that the recipient developed independently. The agreement will also stipulate the purpose for which the information may be used, often referred to as the \"permitted purpose\", and any use beyond that purpose constitutes a breach, even where no disclosure to a third party occurs. Recipients are commonly required to take \"reasonable measures\" to protect the information and to restrict access to those employees or advisers who have a genuine need to know. Duration is another critical consideration. Obligations may last for a fixed term, frequently between two and five years, or, in the case of trade secrets, indefinitely. Readers should note whether obligations survive the termination of any broader commercial relationship; they very often do. Finally, the agreement will specify the remedies available in the event of a breach. In addition to damages, most NDAs entitle the disclosing party to seek an injunction, a court order compelling the recipient to cease the offending conduct, on the grounds that monetary compensation would be an inadequate remedy once secrets have been revealed. It bears emphasising that confidentiality agreements cannot lawfully be used to conceal criminal conduct, and in many jurisdictions, provisions purporting to prevent employees from reporting harassment or discrimination have been declared void. Anyone asked to sign such an agreement would be well advised to read it in full and, where the stakes are high, to seek independent legal advice before doing so.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué es un NDA unilateral?",
+     "o": [
+      "Solo una parte revela información y la otra se obliga",
+      "Ambas partes intercambian información",
+      "Un contrato sin firma",
+      "Un contrato laboral"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué información suele excluirse de la confidencialidad?",
+     "o": [
+      "La que ya es pública o se desarrolló de forma independiente",
+      "Toda la información técnica",
+      "Los secretos comerciales",
+      "Los nombres de los empleados"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es una 'injunction'?",
+     "o": [
+      "Una orden judicial para que cese la conducta",
+      "Una multa",
+      "Un tipo de contrato",
+      "Un abogado"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Confidentiality agreements cannot lawfully be used to conceal criminal conduct.",
+     "q": "¿Qué no puede hacer un acuerdo de confidencialidad?",
+     "o": [
+      "Ocultar conductas criminales",
+      "Proteger secretos comerciales",
+      "Durar varios años",
+      "Incluir sanciones"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Explain to a friend, in simple words, what they should check before signing a confidentiality agreement.",
+     "min": 29,
+     "keys": [
+      [
+       "should",
+       "check",
+       "make sure"
+      ],
+      [
+       "how long",
+       "duration",
+       "definition",
+       "what happens"
+      ]
+     ],
+     "model": "Before you sign, you should check how the agreement defines confidential information, how long the obligations last and what happens if you break it. If it's important, make sure you get legal advice."
+    }
+   ]
   },
   {
    "title": "The Paradox of Choice",
    "es": "La paradoja de la elección · Lectura extra",
-   "text": "Received wisdom in affluent societies holds that choice is an unqualified good. The more options we have, the reasoning goes, the more likely we are to find exactly what we want, and the freer and more satisfied we will consequently be. Supermarkets stock dozens of varieties of olive oil; streaming platforms offer thousands of films; dating applications present a seemingly inexhaustible supply of potential partners. Yet a substantial body of research suggests that beyond a certain point, the multiplication of options may leave us not liberated but paralysed, and less content with whatever we eventually choose. The most frequently cited evidence comes from a now-famous experiment in which shoppers in an upmarket grocery store encountered a tasting stand offering either six or twenty-four varieties of jam. The larger display attracted more visitors, but the smaller one generated vastly more sales: shoppers confronted with twenty-four options were roughly a tenth as likely to make a purchase. Subsequent attempts to replicate the finding have produced mixed results, and researchers now believe the effect depends heavily on context. Nonetheless, the phenomenon of \"choice overload\" has been documented in domains as diverse as pension plans and medical treatments. The psychologist Barry Schwartz, who popularised the concept, identified several mechanisms that might explain it. An abundance of options raises our expectations, making it harder for any single choice to satisfy them. It amplifies the opportunity cost of every decision, since each option chosen implies the rejection of many attractive alternatives, which linger in the imagination as a source of potential regret. And it shifts responsibility for disappointment squarely onto the chooser: when there were only two kinds of jeans available, an ill-fitting pair could be blamed on the world; when there are two hundred, the fault must surely be one's own. Schwartz drew a useful distinction between \"maximisers\", who feel compelled to examine every possibility in search of the best, and \"satisficers\", who establish criteria and settle for the first option that meets them. Counterintuitively, maximisers often achieve objectively better outcomes, a higher starting salary, for instance, yet report feeling less satisfied with them, more prone to regret and more susceptible to depression. The implications are not that choice should be curtailed, an inference that would rightly make most people uneasy, but that we might approach it more deliberately. Limiting the time devoted to trivial decisions, adopting a satisficing mindset where the stakes are low and treating decisions as final rather than perpetually revisable can, the research suggests, make us not only more decisive but considerably happier with the lives we have chosen."
+   "text": "Received wisdom in affluent societies holds that choice is an unqualified good. The more options we have, the reasoning goes, the more likely we are to find exactly what we want, and the freer and more satisfied we will consequently be. Supermarkets stock dozens of varieties of olive oil; streaming platforms offer thousands of films; dating applications present a seemingly inexhaustible supply of potential partners. Yet a substantial body of research suggests that beyond a certain point, the multiplication of options may leave us not liberated but paralysed, and less content with whatever we eventually choose. The most frequently cited evidence comes from a now-famous experiment in which shoppers in an upmarket grocery store encountered a tasting stand offering either six or twenty-four varieties of jam. The larger display attracted more visitors, but the smaller one generated vastly more sales: shoppers confronted with twenty-four options were roughly a tenth as likely to make a purchase. Subsequent attempts to replicate the finding have produced mixed results, and researchers now believe the effect depends heavily on context. Nonetheless, the phenomenon of \"choice overload\" has been documented in domains as diverse as pension plans and medical treatments. The psychologist Barry Schwartz, who popularised the concept, identified several mechanisms that might explain it. An abundance of options raises our expectations, making it harder for any single choice to satisfy them. It amplifies the opportunity cost of every decision, since each option chosen implies the rejection of many attractive alternatives, which linger in the imagination as a source of potential regret. And it shifts responsibility for disappointment squarely onto the chooser: when there were only two kinds of jeans available, an ill-fitting pair could be blamed on the world; when there are two hundred, the fault must surely be one's own. Schwartz drew a useful distinction between \"maximisers\", who feel compelled to examine every possibility in search of the best, and \"satisficers\", who establish criteria and settle for the first option that meets them. Counterintuitively, maximisers often achieve objectively better outcomes, a higher starting salary, for instance, yet report feeling less satisfied with them, more prone to regret and more susceptible to depression. The implications are not that choice should be curtailed, an inference that would rightly make most people uneasy, but that we might approach it more deliberately. Limiting the time devoted to trivial decisions, adopting a satisficing mindset where the stakes are low and treating decisions as final rather than perpetually revisable can, the research suggests, make us not only more decisive but considerably happier with the lives we have chosen.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué pasó en el experimento de las mermeladas?",
+     "o": [
+      "Con 6 opciones se vendió mucho más que con 24",
+      "Con 24 opciones se vendió más",
+      "No se vendió nada",
+      "Vendieron igual"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué son los 'satisficers'?",
+     "o": [
+      "Personas que eligen la primera opción que cumple sus criterios",
+      "Personas que buscan siempre lo mejor",
+      "Compradores compulsivos",
+      "Vendedores"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué les pasa a los 'maximisers'?",
+     "o": [
+      "Logran mejores resultados objetivos pero se sienten menos satisfechos",
+      "Son más felices",
+      "Nunca eligen",
+      "Ganan menos dinero"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "When there were only two kinds of jeans available, an ill-fitting pair could be blamed on the world; when there are two hundred, the fault must surely be one's own.",
+     "q": "¿Qué efecto tiene tener muchas opciones?",
+     "o": [
+      "La culpa de una mala elección recae en uno mismo",
+      "Siempre eliges bien",
+      "Culpas a la tienda",
+      "Compras más jeans"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Are you a maximiser or a satisficer? Give an example from your own life.",
+     "min": 28,
+     "keys": [
+      [
+       "maximiser",
+       "satisficer"
+      ],
+      [
+       "for example",
+       "for instance"
+      ]
+     ],
+     "model": "I'm definitely a maximiser. For example, when I bought my phone I compared models for three weeks, and even after buying it I kept wondering if another one would have been better."
+    }
+   ]
   },
   {
    "title": "Review: The Salt Archive",
    "es": "Reseña: El archivo de sal · Lectura extra",
-   "text": "There is a particular kind of novel, much beloved of literary prize committees, that announces its seriousness on every page: multiple timelines, an ailing archivist, a family secret disinterred from a provincial museum. Within fifty pages of The Salt Archive, I confess, I had braced myself for precisely such a book. It is a testament to Inés Carvajal's formidable gifts that, by its close, I had abandoned all such reservations and was reading with the kind of absorption I had not experienced in years. The premise is deceptively modest. Amalia Rueda, a conservator in her late fifties, is commissioned to catalogue the papers of a defunct salt-mining company in the highlands north of Bogotá. Amid the ledgers and payrolls she discovers a series of letters, written in the 1930s by a miner to a woman whose name has been deliberately excised. The bulk of the novel alternates between Amalia's increasingly obsessive attempts to identify the recipient and the letters themselves, which Carvajal renders in a voice so distinctive, by turns tender, sardonic and achingly lonely, that one forgets they are invented. What elevates the book above its many superficially similar contemporaries is its refusal of easy revelation. Readers anticipating a climactic unveiling, the lost love, the scandalous parentage, will be disappointed, and some will doubtless find the ending frustratingly oblique. I found it courageous. Carvajal is less interested in solving her mystery than in interrogating the impulse to solve it, and in particular the uneasy ethics of an archivist who appropriates the intimate lives of the dead to fill the vacancies in her own. The novel is not without flaws. A subplot concerning Amalia's estranged son is perfunctorily handled and resolved with suspicious tidiness, and Carvajal's fondness for extended metaphor occasionally tips into preciousness; the salt, which variously symbolises memory, preservation, tears and wages, is asked to bear rather more figurative weight than any mineral reasonably should. The translation, by contrast, is a marvel: supple, idiomatic and attentive to the shifting registers of the letters in a way that never draws attention to itself. These are minor reservations about a major achievement. The Salt Archive is a meditation on what we owe to the dead, and on the peculiar violence, even of a loving kind, involved in reading other people's letters. It is also, quite simply, a superbly absorbing story. It deserves every prize for which it will undoubtedly be shortlisted, and, more importantly, a great many readers."
+   "text": "There is a particular kind of novel, much beloved of literary prize committees, that announces its seriousness on every page: multiple timelines, an ailing archivist, a family secret disinterred from a provincial museum. Within fifty pages of The Salt Archive, I confess, I had braced myself for precisely such a book. It is a testament to Inés Carvajal's formidable gifts that, by its close, I had abandoned all such reservations and was reading with the kind of absorption I had not experienced in years. The premise is deceptively modest. Amalia Rueda, a conservator in her late fifties, is commissioned to catalogue the papers of a defunct salt-mining company in the highlands north of Bogotá. Amid the ledgers and payrolls she discovers a series of letters, written in the 1930s by a miner to a woman whose name has been deliberately excised. The bulk of the novel alternates between Amalia's increasingly obsessive attempts to identify the recipient and the letters themselves, which Carvajal renders in a voice so distinctive, by turns tender, sardonic and achingly lonely, that one forgets they are invented. What elevates the book above its many superficially similar contemporaries is its refusal of easy revelation. Readers anticipating a climactic unveiling, the lost love, the scandalous parentage, will be disappointed, and some will doubtless find the ending frustratingly oblique. I found it courageous. Carvajal is less interested in solving her mystery than in interrogating the impulse to solve it, and in particular the uneasy ethics of an archivist who appropriates the intimate lives of the dead to fill the vacancies in her own. The novel is not without flaws. A subplot concerning Amalia's estranged son is perfunctorily handled and resolved with suspicious tidiness, and Carvajal's fondness for extended metaphor occasionally tips into preciousness; the salt, which variously symbolises memory, preservation, tears and wages, is asked to bear rather more figurative weight than any mineral reasonably should. The translation, by contrast, is a marvel: supple, idiomatic and attentive to the shifting registers of the letters in a way that never draws attention to itself. These are minor reservations about a major achievement. The Salt Archive is a meditation on what we owe to the dead, and on the peculiar violence, even of a loving kind, involved in reading other people's letters. It is also, quite simply, a superbly absorbing story. It deserves every prize for which it will undoubtedly be shortlisted, and, more importantly, a great many readers.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué descubre Amalia en los archivos?",
+     "o": [
+      "Cartas de un minero a una mujer cuyo nombre fue borrado",
+      "Un tesoro de sal",
+      "El diario de su madre",
+      "Un mapa"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué critica el reseñista?",
+     "o": [
+      "La subtrama del hijo y el exceso de metáforas",
+      "La traducción",
+      "La trama principal",
+      "El final valiente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es la opinión general del reseñista?",
+     "o": [
+      "Es un gran logro, con defectos menores",
+      "Es un fracaso",
+      "Es aburrido",
+      "Es solo para premios"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Carvajal is less interested in solving her mystery than in interrogating the impulse to solve it.",
+     "q": "¿Qué le interesa a la autora?",
+     "o": [
+      "Cuestionar el impulso de resolver el misterio",
+      "Resolver el misterio",
+      "Escribir un thriller",
+      "Ganar premios"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Review a book, film or series you liked. Mention its strengths, one weakness and your recommendation.",
+     "min": 28,
+     "keys": [
+      [
+       "strength",
+       "best",
+       "brilliant",
+       "impressive"
+      ],
+      [
+       "however",
+       "although",
+       "weakness",
+       "flaw"
+      ],
+      [
+       "recommend"
+      ]
+     ],
+     "model": "I recently watched a Colombian series about a family business. Its greatest strength is the acting, which is brilliant. However, the last episodes felt rushed. Even so, I would definitely recommend it."
+    }
+   ]
   },
   {
    "title": "In Praise of Failure: A Graduation Address",
    "es": "Elogio del fracaso: discurso de graduación · Lectura extra",
-   "text": "Graduates, families, colleagues, I have been asked to offer you some words of wisdom, which is a little like asking someone who has crashed several cars to give a talk on road safety. Then again, perhaps that is exactly the qualification required. You have spent the past four years being evaluated with relentless regularity. Every essay, every examination, every presentation has culminated in a grade, and a great many of you, I suspect, have become extremely proficient at avoiding the low ones. That is a considerable accomplishment, and I do not wish to diminish it. But I want to suggest, gently, that the skill which has served you so well here may serve you less well out there. For in the world you are about to enter, the things most worth doing are very rarely the things at which you are guaranteed to succeed. The novel that might be extraordinary, the business that might transform a neighbourhood, the research question to which nobody knows the answer, the conversation with someone you love that might go terribly wrong: all of these carry a real, and sometimes substantial, risk of failure. If you have learned above all else to avoid that risk, you will be tempted, quite reasonably, to choose the safer path. And a life composed exclusively of safe paths is, I think, a diminished one. I speak with some authority on the subject. My first book was rejected by twenty-three publishers, one of whom, memorably, suggested that I consider \"a career that does not involve sentences\". My first company went bankrupt within eighteen months, taking with it my savings and, for a time, my self-respect. I have given lectures to empty halls and proposed marriage, once, to someone who, with admirable clarity, declined. I am not going to tell you that each of these failures was secretly a blessing. Some of them were simply painful, and the pain was not redeemed by any subsequent triumph. Glib narratives in which failure is merely a stepping stone to inevitable success do a disservice to those whose failures were not followed by success at all. What I will tell you is that every one of them taught me something I could not have learned any other way, and that the person I became by surviving them is someone I like considerably more than the person who had never been tested. So here is my advice, for what it is worth. Fail occasionally, and on purpose: attempt things whose outcome is genuinely uncertain. When you do fail, be as generous to yourself as you would be to a friend in the same position. And when you see others fail, remember that they were brave enough to try. Congratulations, all of you. Now go and get something gloriously wrong."
+   "text": "Graduates, families, colleagues, I have been asked to offer you some words of wisdom, which is a little like asking someone who has crashed several cars to give a talk on road safety. Then again, perhaps that is exactly the qualification required. You have spent the past four years being evaluated with relentless regularity. Every essay, every examination, every presentation has culminated in a grade, and a great many of you, I suspect, have become extremely proficient at avoiding the low ones. That is a considerable accomplishment, and I do not wish to diminish it. But I want to suggest, gently, that the skill which has served you so well here may serve you less well out there. For in the world you are about to enter, the things most worth doing are very rarely the things at which you are guaranteed to succeed. The novel that might be extraordinary, the business that might transform a neighbourhood, the research question to which nobody knows the answer, the conversation with someone you love that might go terribly wrong: all of these carry a real, and sometimes substantial, risk of failure. If you have learned above all else to avoid that risk, you will be tempted, quite reasonably, to choose the safer path. And a life composed exclusively of safe paths is, I think, a diminished one. I speak with some authority on the subject. My first book was rejected by twenty-three publishers, one of whom, memorably, suggested that I consider \"a career that does not involve sentences\". My first company went bankrupt within eighteen months, taking with it my savings and, for a time, my self-respect. I have given lectures to empty halls and proposed marriage, once, to someone who, with admirable clarity, declined. I am not going to tell you that each of these failures was secretly a blessing. Some of them were simply painful, and the pain was not redeemed by any subsequent triumph. Glib narratives in which failure is merely a stepping stone to inevitable success do a disservice to those whose failures were not followed by success at all. What I will tell you is that every one of them taught me something I could not have learned any other way, and that the person I became by surviving them is someone I like considerably more than the person who had never been tested. So here is my advice, for what it is worth. Fail occasionally, and on purpose: attempt things whose outcome is genuinely uncertain. When you do fail, be as generous to yourself as you would be to a friend in the same position. And when you see others fail, remember that they were brave enough to try. Congratulations, all of you. Now go and get something gloriously wrong.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué el orador se siente autorizado a hablar del fracaso?",
+     "o": [
+      "Porque ha fracasado muchas veces",
+      "Porque nunca ha fracasado",
+      "Porque es psicólogo",
+      "Porque es el rector"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué critica sobre las narrativas fáciles del fracaso?",
+     "o": [
+      "Que no todos los fracasos llevan al éxito",
+      "Que son muy tristes",
+      "Que son muy largas",
+      "Que nadie las cree"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué consejo da al final?",
+     "o": [
+      "Intentar cosas inciertas y ser generoso con uno mismo al fallar",
+      "Evitar todo riesgo",
+      "Estudiar más",
+      "Buscar trabajos seguros"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Now go and get something gloriously wrong.",
+     "q": "¿Qué tono tiene la última frase?",
+     "o": [
+      "Humorístico y motivador",
+      "Triste",
+      "Enojado",
+      "Amenazante"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about a failure that taught you something. What happened and what did you learn?",
+     "min": 33,
+     "keys": [
+      [
+       "failed",
+       "failure",
+       "went wrong"
+      ],
+      [
+       "learned",
+       "taught"
+      ]
+     ],
+     "model": "Two years ago I started a small food business and it failed after eight months. It was painful, but it taught me to plan my finances better and to ask for help early. I don't regret trying."
+    }
+   ]
   },
   {
    "title": "Science's Replication Problem",
    "es": "El problema de la replicación en la ciencia · Lectura extra",
-   "text": "In 2015, a consortium of some two hundred and seventy psychologists published the results of an unusually ambitious undertaking. They had attempted to reproduce one hundred studies previously published in three prestigious psychology journals, following the original methods as closely as possible. Whereas ninety-seven percent of the original studies had reported statistically significant results, only around a third of the replications did so, and the effects they found were, on average, roughly half as large. The findings sent shockwaves through the discipline and beyond, crystallising what has come to be known as the \"replication crisis\". Similar projects have since revealed comparable difficulties in fields ranging from economics to cancer biology. Several celebrated findings, some of which had been popularised in bestselling books and widely viewed talks, have failed to withstand repeated testing. It would be a mistake to conclude that the scientists involved were, for the most part, dishonest. Outright fraud certainly occurs, but it is comparatively rare. The deeper problems are structural, embedded in the incentives that govern academic careers. Researchers are rewarded for publishing frequently in prestigious journals, and those journals have historically favoured novel, striking and positive results over unglamorous replications or null findings. Studies that \"didn't work\" have tended to languish unpublished, a phenomenon known as the \"file drawer problem\", which systematically skews the published literature towards false positives. Compounding this are a range of practices that, while not fraudulent, considerably increase the likelihood of spurious results. Researchers with flexibility in how they collect and analyse data may, often unconsciously, make choices that nudge their findings across the conventional threshold of statistical significance: excluding certain participants, testing multiple outcomes but reporting only those that \"worked\", or deciding when to stop collecting data on the basis of interim results. Small sample sizes, common in many fields owing to limited funding, exacerbate the problem. Encouragingly, the crisis has prompted substantial reform. A growing number of journals now offer \"registered reports\", in which studies are accepted for publication on the basis of their design and methods before the results are known, removing the incentive to produce positive findings. Researchers are increasingly expected to pre-register their hypotheses and analysis plans and to share their data openly, allowing others to scrutinise their work. Paradoxically, the replication crisis may ultimately prove a vindication of the scientific method rather than an indictment of it. Science, after all, is distinguished not by the infallibility of its practitioners but by its capacity for self-correction. That flawed findings are being identified and discarded is, in the end, a sign that the system, however belatedly, is working."
+   "text": "In 2015, a consortium of some two hundred and seventy psychologists published the results of an unusually ambitious undertaking. They had attempted to reproduce one hundred studies previously published in three prestigious psychology journals, following the original methods as closely as possible. Whereas ninety-seven percent of the original studies had reported statistically significant results, only around a third of the replications did so, and the effects they found were, on average, roughly half as large. The findings sent shockwaves through the discipline and beyond, crystallising what has come to be known as the \"replication crisis\". Similar projects have since revealed comparable difficulties in fields ranging from economics to cancer biology. Several celebrated findings, some of which had been popularised in bestselling books and widely viewed talks, have failed to withstand repeated testing. It would be a mistake to conclude that the scientists involved were, for the most part, dishonest. Outright fraud certainly occurs, but it is comparatively rare. The deeper problems are structural, embedded in the incentives that govern academic careers. Researchers are rewarded for publishing frequently in prestigious journals, and those journals have historically favoured novel, striking and positive results over unglamorous replications or null findings. Studies that \"didn't work\" have tended to languish unpublished, a phenomenon known as the \"file drawer problem\", which systematically skews the published literature towards false positives. Compounding this are a range of practices that, while not fraudulent, considerably increase the likelihood of spurious results. Researchers with flexibility in how they collect and analyse data may, often unconsciously, make choices that nudge their findings across the conventional threshold of statistical significance: excluding certain participants, testing multiple outcomes but reporting only those that \"worked\", or deciding when to stop collecting data on the basis of interim results. Small sample sizes, common in many fields owing to limited funding, exacerbate the problem. Encouragingly, the crisis has prompted substantial reform. A growing number of journals now offer \"registered reports\", in which studies are accepted for publication on the basis of their design and methods before the results are known, removing the incentive to produce positive findings. Researchers are increasingly expected to pre-register their hypotheses and analysis plans and to share their data openly, allowing others to scrutinise their work. Paradoxically, the replication crisis may ultimately prove a vindication of the scientific method rather than an indictment of it. Science, after all, is distinguished not by the infallibility of its practitioners but by its capacity for self-correction. That flawed findings are being identified and discarded is, in the end, a sign that the system, however belatedly, is working.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuántos de los 100 estudios de psicología se replicaron con éxito?",
+     "o": [
+      "Alrededor de un tercio",
+      "Casi todos",
+      "Ninguno",
+      "La mitad exacta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es el 'problema del cajón'?",
+     "o": [
+      "Los estudios sin resultados quedan sin publicar",
+      "Se pierden los datos",
+      "Se roban los estudios",
+      "Hay demasiados estudios"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué son los 'registered reports'?",
+     "o": [
+      "Estudios aceptados por su diseño antes de conocer resultados",
+      "Informes de policía",
+      "Estudios ya replicados",
+      "Reportes de errores"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Science, after all, is distinguished not by the infallibility of its practitioners but by its capacity for self-correction.",
+     "q": "¿Qué distingue a la ciencia, según el texto?",
+     "o": [
+      "Su capacidad de corregirse",
+      "Que nunca se equivoca",
+      "Su prestigio",
+      "Su velocidad"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Why is it important that scientific results can be replicated? Explain with your own example.",
+     "min": 29,
+     "keys": [
+      [
+       "important",
+       "because"
+      ],
+      [
+       "for example",
+       "for instance",
+       "if"
+      ]
+     ],
+     "model": "It's important because one study can be wrong by chance. For example, if a medicine works in one small study but not in others, doctors shouldn't prescribe it until the results are confirmed."
+    }
+   ]
   },
   {
    "title": "Talking About Risk",
    "es": "Hablar de riesgos · Lectura extra",
-   "text": "A patient is told that a new medication reduces the risk of a heart attack by fifty percent. Another is told that the same medication reduces their risk from two in a hundred to one in a hundred. Both statements are accurate. Yet research consistently shows that patients presented with the first are considerably more likely to accept the treatment, and that many doctors, too, are swayed by the difference. The way risk is communicated, it turns out, can be as consequential as the risk itself. The distinction at issue is between relative and absolute risk. A relative risk reduction expresses the change as a proportion of the original risk; an absolute risk reduction expresses the actual difference in the likelihood of the outcome. When the baseline risk is low, an impressive-sounding relative reduction may correspond to a very modest absolute benefit, one that must be weighed against side effects, costs and inconvenience. Communication experts therefore recommend that clinicians present absolute figures wherever possible, ideally alongside the \"number needed to treat\": the number of patients who would have to take a medication for one of them to benefit. Framing effects are similarly powerful. Patients are more inclined to opt for surgery when told that it has a ninety percent survival rate than when told it has a ten percent mortality rate, though the two descriptions are logically identical. Neither framing is inherently deceptive, but presenting only one may subtly steer the patient's decision. Best practice is to present both. Numerical literacy poses a further challenge. A significant proportion of adults, including many highly educated ones, struggle to interpret percentages and probabilities correctly. Visual aids such as icon arrays, grids of a hundred figures in which the affected individuals are highlighted, have been shown to improve comprehension markedly, particularly among patients with lower numeracy. Underlying these technical considerations is a broader ethical principle. Contemporary medical practice increasingly emphasises shared decision-making, in which clinicians provide the evidence and patients contribute their own values and preferences. A sixty-year-old who prizes her independence above all may reasonably weigh the risks of a treatment differently from someone whose priority is longevity. Such deliberation is only meaningful, however, if the patient genuinely understands what is at stake. Communicating uncertainty honestly is perhaps the hardest task of all. Patients understandably want definitive answers, and clinicians may feel that admitting uncertainty undermines confidence. Yet false reassurance carries its own costs, both to individual patients and to public trust in medicine. The most effective communicators, studies suggest, are those who can say, clearly and compassionately, what is known, what is not, and what the patient might reasonably do in the light of both."
+   "text": "A patient is told that a new medication reduces the risk of a heart attack by fifty percent. Another is told that the same medication reduces their risk from two in a hundred to one in a hundred. Both statements are accurate. Yet research consistently shows that patients presented with the first are considerably more likely to accept the treatment, and that many doctors, too, are swayed by the difference. The way risk is communicated, it turns out, can be as consequential as the risk itself. The distinction at issue is between relative and absolute risk. A relative risk reduction expresses the change as a proportion of the original risk; an absolute risk reduction expresses the actual difference in the likelihood of the outcome. When the baseline risk is low, an impressive-sounding relative reduction may correspond to a very modest absolute benefit, one that must be weighed against side effects, costs and inconvenience. Communication experts therefore recommend that clinicians present absolute figures wherever possible, ideally alongside the \"number needed to treat\": the number of patients who would have to take a medication for one of them to benefit. Framing effects are similarly powerful. Patients are more inclined to opt for surgery when told that it has a ninety percent survival rate than when told it has a ten percent mortality rate, though the two descriptions are logically identical. Neither framing is inherently deceptive, but presenting only one may subtly steer the patient's decision. Best practice is to present both. Numerical literacy poses a further challenge. A significant proportion of adults, including many highly educated ones, struggle to interpret percentages and probabilities correctly. Visual aids such as icon arrays, grids of a hundred figures in which the affected individuals are highlighted, have been shown to improve comprehension markedly, particularly among patients with lower numeracy. Underlying these technical considerations is a broader ethical principle. Contemporary medical practice increasingly emphasises shared decision-making, in which clinicians provide the evidence and patients contribute their own values and preferences. A sixty-year-old who prizes her independence above all may reasonably weigh the risks of a treatment differently from someone whose priority is longevity. Such deliberation is only meaningful, however, if the patient genuinely understands what is at stake. Communicating uncertainty honestly is perhaps the hardest task of all. Patients understandably want definitive answers, and clinicians may feel that admitting uncertainty undermines confidence. Yet false reassurance carries its own costs, both to individual patients and to public trust in medicine. The most effective communicators, studies suggest, are those who can say, clearly and compassionately, what is known, what is not, and what the patient might reasonably do in the light of both.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué diferencia hay entre riesgo relativo y absoluto?",
+     "o": [
+      "El relativo es una proporción; el absoluto, la diferencia real",
+      "Son lo mismo",
+      "El absoluto siempre parece mayor",
+      "El relativo no existe"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué ayudas visuales mejoran la comprensión?",
+     "o": [
+      "Cuadrículas de iconos",
+      "Fórmulas matemáticas",
+      "Textos largos",
+      "Gráficos 3D"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es la toma de decisiones compartida?",
+     "o": [
+      "El médico aporta la evidencia y el paciente sus valores",
+      "El médico decide solo",
+      "El paciente decide solo",
+      "Decide la familia"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Patients are more inclined to opt for surgery when told that it has a ninety percent survival rate than when told it has a ten percent mortality rate.",
+     "q": "¿Qué muestra este ejemplo?",
+     "o": [
+      "Que la forma de presentar el riesgo influye en la decisión",
+      "Que la cirugía es peligrosa",
+      "Que los pacientes no entienden números",
+      "Que la mortalidad es alta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Explain to an elderly relative, in simple terms, the difference between 'reduces your risk by half' and 'from 2 in 100 to 1 in 100'.",
+     "min": 36,
+     "keys": [
+      [
+       "means",
+       "in other words"
+      ],
+      [
+       "out of",
+       "in 100",
+       "percent"
+      ]
+     ],
+     "model": "'Reduces your risk by half' sounds big, but in other words it means that instead of two people out of a hundred having a heart attack, only one will. So the real difference is just one person in a hundred."
+    }
+   ]
   },
   {
    "title": "How to Sound Clever in Meetings",
    "es": "Cómo parecer inteligente en las reuniones · Lectura extra",
-   "text": "It has come to my attention that a number of colleagues continue to attend meetings with the outdated intention of contributing useful ideas. While this approach is admirable in its way, it is also exhausting, risky and, frankly, unnecessary. What follows is a brief guide to achieving a reputation for brilliance without the inconvenience of actually having anything to say. First, arrive slightly late, carrying more documents than could conceivably be required. This conveys both that your time is in great demand and that you have prepared exhaustively, though for what, nobody will dare to ask. Second, never answer a question directly. When asked whether the project will be finished by Friday, observe instead that \"we need to take a step back and look at the bigger picture\". Nobody has ever been able to establish where the bigger picture is kept, or how far one must step back to see it, which is precisely what makes the phrase so valuable. Third, master the art of the strategic restatement. Wait until a junior colleague has made a genuinely insightful point, allow a respectful pause, and then repeat it in slightly different words, preceded by the phrase \"I think what we're really saying here is\". The idea will thereafter be attributed to you in the minutes, and your colleague will learn an important lesson about corporate life. Fourth, ask whether a proposal is \"scalable\". It does not matter whether the proposal concerns a global expansion strategy or the replacement of the office kettle; the question invariably provokes a thoughtful silence, during which you may nod slowly, as though privately reaching some profound conclusion. Fifth, cultivate a small number of impressive but unverifiable references. \"There's a fascinating piece of research on this from a Scandinavian university\" is ideal. Should anyone request the citation, promise to \"circle back\" with it, a commitment which, by long-established convention, need never be honoured. Finally, when the discussion threatens to produce an actual decision, suggest that it be \"taken offline\". This allows everybody to leave with the comfortable sense that progress has been made, while ensuring that nothing whatsoever will change before the next meeting, at which, of course, you will be able to deploy all of the above once again. Readers who detect a note of irony in the foregoing are, I am afraid, quite correct. Anyone who has endured a sufficient number of meetings will recognise these manoeuvres, and perhaps, uncomfortably, one or two of their own. The best antidote remains the most unfashionable: say what you mean, credit others generously, and when you have nothing to add, add nothing."
+   "text": "It has come to my attention that a number of colleagues continue to attend meetings with the outdated intention of contributing useful ideas. While this approach is admirable in its way, it is also exhausting, risky and, frankly, unnecessary. What follows is a brief guide to achieving a reputation for brilliance without the inconvenience of actually having anything to say. First, arrive slightly late, carrying more documents than could conceivably be required. This conveys both that your time is in great demand and that you have prepared exhaustively, though for what, nobody will dare to ask. Second, never answer a question directly. When asked whether the project will be finished by Friday, observe instead that \"we need to take a step back and look at the bigger picture\". Nobody has ever been able to establish where the bigger picture is kept, or how far one must step back to see it, which is precisely what makes the phrase so valuable. Third, master the art of the strategic restatement. Wait until a junior colleague has made a genuinely insightful point, allow a respectful pause, and then repeat it in slightly different words, preceded by the phrase \"I think what we're really saying here is\". The idea will thereafter be attributed to you in the minutes, and your colleague will learn an important lesson about corporate life. Fourth, ask whether a proposal is \"scalable\". It does not matter whether the proposal concerns a global expansion strategy or the replacement of the office kettle; the question invariably provokes a thoughtful silence, during which you may nod slowly, as though privately reaching some profound conclusion. Fifth, cultivate a small number of impressive but unverifiable references. \"There's a fascinating piece of research on this from a Scandinavian university\" is ideal. Should anyone request the citation, promise to \"circle back\" with it, a commitment which, by long-established convention, need never be honoured. Finally, when the discussion threatens to produce an actual decision, suggest that it be \"taken offline\". This allows everybody to leave with the comfortable sense that progress has been made, while ensuring that nothing whatsoever will change before the next meeting, at which, of course, you will be able to deploy all of the above once again. Readers who detect a note of irony in the foregoing are, I am afraid, quite correct. Anyone who has endured a sufficient number of meetings will recognise these manoeuvres, and perhaps, uncomfortably, one or two of their own. The best antidote remains the most unfashionable: say what you mean, credit others generously, and when you have nothing to add, add nothing.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué tono tiene el texto?",
+     "o": [
+      "Irónico y satírico",
+      "Serio e instructivo",
+      "Triste",
+      "Neutral"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Para qué sirve, irónicamente, decir que algo hay que 'tratarlo aparte'?",
+     "o": [
+      "Para que nada cambie antes de la próxima reunión",
+      "Para tomar decisiones rápidas",
+      "Para ahorrar dinero",
+      "Para incluir a todos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es el verdadero consejo final del autor?",
+     "o": [
+      "Di lo que piensas, reconoce a los demás y no hables si no tienes nada que aportar",
+      "Llega tarde a las reuniones",
+      "Repite las ideas de otros",
+      "Pregunta si todo es escalable"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I think what we're really saying here is...",
+     "q": "¿Para qué usa el autor esta frase en el texto?",
+     "o": [
+      "Para apropiarse de la idea de un colega",
+      "Para resumir con honestidad",
+      "Para terminar la reunión",
+      "Para pedir la palabra"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe a typical meeting at your work or school. What would you change to make it more useful?",
+     "min": 31,
+     "keys": [
+      [
+       "usually",
+       "typically"
+      ],
+      [
+       "would",
+       "should",
+       "could"
+      ]
+     ],
+     "model": "Our meetings usually last an hour and half the people don't speak. I would make them shorter, send the agenda before, and finish every meeting with clear decisions and who is responsible for each task."
+    }
+   ]
   },
   {
    "title": "The Right to Be Forgotten",
    "es": "El derecho al olvido · Lectura extra",
-   "text": "For most of human history, forgetting was the default and remembering required effort. Records decayed, archives burned, newspapers yellowed in basements that few people ever visited, and the indiscretions of youth faded quietly from public memory. The internet has inverted this arrangement. Today, remembering is effortless and permanent, while forgetting has become an arduous, often impossible, undertaking. An unflattering article, an ill-judged photograph or a long-settled debt can now pursue an individual for decades, surfacing instantly whenever their name is typed into a search engine. It was against this backdrop that, in 2014, the Court of Justice of the European Union delivered a landmark judgement. The case had been brought by a Spanish lawyer who objected that a search for his name still returned newspaper notices, published sixteen years earlier, concerning the forced sale of his property to recover social security debts. The debts had long since been paid. The court ruled that individuals may request that search engines remove links to information that is \"inadequate, irrelevant or no longer relevant\", even where the original publication was lawful and remains accessible on the publisher's own website. Proponents hailed the decision as a vital affirmation of privacy and human dignity. People change, they argue, and a just society should permit them to move beyond their past mistakes rather than being perpetually defined by them. The principle has clear antecedents in many legal systems, which already provide for criminal records to be expunged after a certain period, precisely in order to facilitate rehabilitation. Critics, particularly in the United States, where freedom of expression enjoys exceptionally robust constitutional protection, regarded the ruling with alarm. They contended that it effectively appointed private corporations as arbiters of what information the public may readily access, and that it risked being exploited by politicians, corporations and other powerful actors to sanitise their records. Journalists and historians, meanwhile, warned of a gradual and largely invisible erosion of the public record. In practice, the implementation of the right has required a delicate balancing exercise. Search engines assess each request individually, weighing the applicant's interest in privacy against the public's interest in access, with particular attention to whether the person concerned plays a role in public life. Information about a private individual's medical history is far more likely to be delisted than information about a public official's conduct in office. The debate ultimately touches on profound questions about identity and time. Are we the sum of everything we have ever done, permanently retrievable, or do we have some claim to be judged as the people we have become? In an age when machines remember everything, the capacity to forget, and to forgive, may turn out to be one of the more distinctively human things we have left to defend."
+   "text": "For most of human history, forgetting was the default and remembering required effort. Records decayed, archives burned, newspapers yellowed in basements that few people ever visited, and the indiscretions of youth faded quietly from public memory. The internet has inverted this arrangement. Today, remembering is effortless and permanent, while forgetting has become an arduous, often impossible, undertaking. An unflattering article, an ill-judged photograph or a long-settled debt can now pursue an individual for decades, surfacing instantly whenever their name is typed into a search engine. It was against this backdrop that, in 2014, the Court of Justice of the European Union delivered a landmark judgement. The case had been brought by a Spanish lawyer who objected that a search for his name still returned newspaper notices, published sixteen years earlier, concerning the forced sale of his property to recover social security debts. The debts had long since been paid. The court ruled that individuals may request that search engines remove links to information that is \"inadequate, irrelevant or no longer relevant\", even where the original publication was lawful and remains accessible on the publisher's own website. Proponents hailed the decision as a vital affirmation of privacy and human dignity. People change, they argue, and a just society should permit them to move beyond their past mistakes rather than being perpetually defined by them. The principle has clear antecedents in many legal systems, which already provide for criminal records to be expunged after a certain period, precisely in order to facilitate rehabilitation. Critics, particularly in the United States, where freedom of expression enjoys exceptionally robust constitutional protection, regarded the ruling with alarm. They contended that it effectively appointed private corporations as arbiters of what information the public may readily access, and that it risked being exploited by politicians, corporations and other powerful actors to sanitise their records. Journalists and historians, meanwhile, warned of a gradual and largely invisible erosion of the public record. In practice, the implementation of the right has required a delicate balancing exercise. Search engines assess each request individually, weighing the applicant's interest in privacy against the public's interest in access, with particular attention to whether the person concerned plays a role in public life. Information about a private individual's medical history is far more likely to be delisted than information about a public official's conduct in office. The debate ultimately touches on profound questions about identity and time. Are we the sum of everything we have ever done, permanently retrievable, or do we have some claim to be judged as the people we have become? In an age when machines remember everything, the capacity to forget, and to forgive, may turn out to be one of the more distinctively human things we have left to defend.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué decidió el tribunal europeo en 2014?",
+     "o": [
+      "Que se puede pedir a los buscadores eliminar enlaces irrelevantes u obsoletos",
+      "Que hay que borrar todos los periódicos",
+      "Que internet no tiene reglas",
+      "Que los buscadores son ilegales"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué critican en Estados Unidos?",
+     "o": [
+      "Que las empresas privadas decidan qué información es accesible",
+      "Que el fallo es muy suave",
+      "Que no se aplica a Europa",
+      "Que protege a los periodistas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué información es más probable que se retire?",
+     "o": [
+      "El historial médico de una persona privada",
+      "La conducta de un funcionario público",
+      "Noticias de política",
+      "Información de empresas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "In an age when machines remember everything, the capacity to forget, and to forgive, may turn out to be one of the more distinctively human things we have left to defend.",
+     "q": "¿Qué valora el autor al final?",
+     "o": [
+      "La capacidad humana de olvidar y perdonar",
+      "La memoria de las máquinas",
+      "Los buscadores",
+      "Los archivos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Should people have the right to delete old information about themselves from the internet? Argue your position.",
+     "min": 31,
+     "keys": [
+      [
+       "should"
+      ],
+      [
+       "because",
+       "since"
+      ],
+      [
+       "however",
+       "on the other hand",
+       "although"
+      ]
+     ],
+     "model": "I believe people should have the right to remove old information, because everyone deserves a second chance. However, this shouldn't apply to politicians or public officials, since citizens need to know how they have acted."
+    }
+   ]
   }
  ]
 ];
