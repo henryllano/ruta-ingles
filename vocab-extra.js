@@ -975,7 +975,244 @@ Easier said than done | es más fácil decirlo que hacerlo | Save money? Easier 
 `
 },
 /* C1 */ {
-
+"Sustantivos": `
+attention span | capacidad de atención | A short attention span. | Mente y tecnología
+engagement | participación, interacción | User engagement. | Mente y tecnología
+notification | notificación | Turn off notifications. | Mente y tecnología
+incentive | incentivo | A strong incentive. | Mente y tecnología
+advertiser | anunciante | Advertisers pay for clicks. | Mente y tecnología
+outrage | indignación | Outrage spreads quickly. | Mente y tecnología
+polarisation | polarización | Political polarisation. | Mente y tecnología
+propaganda | propaganda | Wartime propaganda. | Mente y tecnología
+illusion | ilusión | Multitasking is an illusion. | Mente y tecnología
+distraction | distracción | Too many distractions. | Mente y tecnología
+tedium | tedio | The tedium of routine. | Mente y tecnología
+boredom | aburrimiento | Boredom can be useful. | Mente y tecnología
+mind-wandering | divagación mental | Mind-wandering boosts creativity. | Mente y tecnología
+reflex | reflejo | A natural reflex. | Mente y tecnología
+belief | creencia | Deeply held beliefs. | Psicología
+certainty | certeza | A need for certainty. | Psicología
+misfortune | desgracia | Their misfortunes. | Psicología
+scepticism | escepticismo | Healthy scepticism. | Psicología
+perspective | perspectiva | From a historical perspective. | Psicología
+mechanism | mecanismo | A defence mechanism. | Psicología
+tendency | tendencia | A tendency to exaggerate. | Psicología
+pattern | patrón | We look for patterns. | Psicología
+narrative | narrativa, relato | A powerful narrative. | Comunicación
+retort | réplica (cortante) | An angry retort. | Comunicación
+constraint | restricción, limitación | Budget constraints. | Negociación
+priority | prioridad | Our main priority. | Negociación
+deadlock | punto muerto | The talks reached a deadlock. | Negociación
+board of directors | junta directiva | The board approved it. | Negocios
+turnover | rotación (personal); facturación | High staff turnover. | Negocios
+retention | retención | Staff retention. | Negocios
+absenteeism | ausentismo | Absenteeism has fallen. | Negocios
+pilot | prueba piloto | A six-month pilot. | Negocios
+rationale | justificación, fundamento | The rationale behind it. | Negocios
+indicator | indicador | Key indicators. | Negocios
+output | producción, rendimiento | Output increased. | Negocios
+scheme | plan, programa | A government scheme. | Economía y sociedad
+safety net | red de protección | A social safety net. | Economía y sociedad
+expenditure | gasto | Public expenditure. | Economía y sociedad
+taxpayer | contribuyente | Taxpayers' money. | Economía y sociedad
+recipient | beneficiario, receptor | Benefit recipients. | Economía y sociedad
+destitution | indigencia | Fear of destitution. | Economía y sociedad
+inequality | desigualdad | Growing inequality. | Economía y sociedad
+privilege | privilegio | A privilege of the wealthy. | Economía y sociedad
+dignity | dignidad | Migration with dignity. | Economía y sociedad
+persecution | persecución | Fleeing persecution. | Economía y sociedad
+refugee | refugiado | Refugee status. | Economía y sociedad
+cornerstone | piedra angular | The cornerstone of the law. | Economía y sociedad
+legislation | legislación | New legislation. | Economía y sociedad
+statehood | condición de Estado | Preserve their statehood. | Economía y sociedad
+sovereignty | soberanía | National sovereignty. | Economía y sociedad
+mainstream | corriente dominante | Into the mainstream. | Economía y sociedad
+fringe | margen, sector marginal | The fringes of politics. | Economía y sociedad
+activism | activismo | Climate activism. | Economía y sociedad
+elite | élite | A secret elite. | Economía y sociedad
+gene | gen | A single gene. | Ciencia
+mutation | mutación | A genetic mutation. | Ciencia
+embryo | embrión | Human embryos. | Ciencia
+therapy | terapia | Gene therapy. | Ciencia
+enhancement | mejora (genética) | Therapy or enhancement? | Ciencia
+trait | rasgo | Inherited traits. | Ciencia
+eugenics | eugenesia | The history of eugenics. | Ciencia
+pest | plaga | Pests destroy crops. | Ciencia
+pesticide | pesticida | Fewer pesticides. | Ciencia
+parasite | parásito | The malaria parasite. | Ciencia
+vaccine | vacuna | A new vaccine. | Ciencia
+pandemic | pandemia | The pandemic changed everything. | Ciencia
+precision | precisión | Unprecedented precision. | Ciencia
+atoll | atolón | Low-lying atolls. | Medio ambiente
+delta | delta | The river delta. | Medio ambiente
+erosion | erosión | Coastal erosion. | Medio ambiente
+sea level | nivel del mar | Rising sea levels. | Medio ambiente
+displacement | desplazamiento | Climate displacement. | Medio ambiente
+territory | territorio | National territory. | Medio ambiente
+ancestor | antepasado | Our ancestors. | Cultura e identidad
+heritage | patrimonio, herencia | Cultural heritage. | Cultura e identidad
+identity | identidad | National identity. | Cultura e identidad
+indigenous people | pueblos indígenas | The rights of indigenous people. | Cultura e identidad
+mother tongue | lengua materna | My mother tongue is Spanish. | Cultura e identidad
+revival | resurgimiento | A cultural revival. | Cultura e identidad
+immersion | inmersión | Immersion schools. | Cultura e identidad
+dominance | dominio, predominio | The dominance of English. | Cultura e identidad
+diversity | diversidad | Linguistic diversity. | Cultura e identidad
+orientation | orientación | A sense of orientation. | Cultura e identidad
+lighthouse | faro | An old lighthouse. | Narrativa
+beacon | baliza, faro | An automated beacon. | Narrativa
+lantern | linterna, farol | The lantern room. | Narrativa
+beam | haz de luz | The beam swept the water. | Narrativa
+pension | pensión | A modest pension. | Narrativa
+premises | instalaciones, local | Vacate the premises. | Narrativa
+ritual | ritual | A daily ritual. | Narrativa
+thrill | emoción intensa | A small thrill. | Narrativa
+mainland | tierra firme | She grew up on the mainland. | Narrativa
+predator | depredador | Escape a predator. | Narrativa
+obstacle | obstáculo | Overcome obstacles. | Narrativa
+`,
+"Verbos": `
+exploit | explotar, aprovecharse de | Apps exploit our fears. | Mente y tecnología
+amplify | amplificar | Algorithms amplify outrage. | Mente y tecnología
+scroll | desplazarse (en pantalla) | We scroll for hours. | Mente y tecnología
+disable | desactivar | Disable notifications. | Mente y tecnología
+accumulate | acumularse | Costs accumulate. | Mente y tecnología
+impair | perjudicar, deteriorar | Alcohol impairs driving. | Mente y tecnología
+advocate | abogar por, defender | They advocate deep work. | Mente y tecnología
+simulate | simular | The brain simulates experiences. | Mente y tecnología
+endure | soportar, aguantar | They endured the boring task. | Mente y tecnología
+resist | resistir | Resist the temptation. | Mente y tecnología
+wander | divagar, deambular | The mind wanders. | Mente y tecnología
+disengage | desconectarse | Disengage from work. | Mente y tecnología
+dismiss | descartar, desestimar | Don't dismiss the evidence. | Psicología
+reinforce | reforzar | It reinforces their beliefs. | Psicología
+backfire | salir el tiro por la culata | The plan backfired. | Psicología
+expose | exponer, desenmascarar | Expose the truth. | Psicología
+detect | detectar | Detect patterns. | Psicología
+counter | contrarrestar, rebatir | Counter the argument. | Psicología
+articulate | expresar con claridad | Articulate your ideas. | Comunicación
+commit | comprometerse | Commit to a larger order. | Negociación
+yield | ceder; producir | Yield to pressure. | Negociación
+conduct | llevar a cabo | Conduct a trial. | Negocios
+monitor | supervisar, monitorear | Monitor the results. | Negocios
+assess | evaluar | Assess the risks. | Negocios
+approve | aprobar | The board approved it. | Negocios
+maintain | mantener | Maintain productivity. | Negocios
+finance | financiar | Finance the project. | Economía y sociedad
+fund | financiar | Fund the scheme. | Economía y sociedad
+trap | atrapar | The system traps people. | Economía y sociedad
+deport | deportar | Deport individuals. | Economía y sociedad
+displace | desplazar | Displaced by floods. | Economía y sociedad
+preserve | preservar | Preserve the language. | Cultura e identidad
+revive | revivir, reactivar | Revive a language. | Cultura e identidad
+encode | codificar | Languages encode knowledge. | Cultura e identidad
+punish | castigar | Children were punished. | Cultura e identidad
+modify | modificar | Modify DNA. | Ciencia
+transmit | transmitir | Mosquitoes transmit malaria. | Ciencia
+condemn | condenar | Widely condemned. | Ciencia
+erode | erosionar | The sea erodes the land. | Medio ambiente
+swallow up | engullir | The sea is swallowing the island. | Medio ambiente
+vacate | desocupar | Vacate the room by noon. | Narrativa
+cease | cesar | The post will cease to exist. | Narrativa
+polish | pulir | Polish the lens. | Narrativa
+confess | confesar | She confessed it. | Narrativa
+bind | unir, atar | Stories bind groups together. | Narrativa
+entail | implicar, conllevar | What does the job entail? | Verbos de registro alto
+harness | aprovechar | Harness solar power. | Verbos de registro alto
+iron out | resolver (detalles) | Iron out the problems. | Phrasal verbs
+bring forward | adelantar | Bring the meeting forward. | Phrasal verbs
+single out | destacar, señalar | Singled out for praise. | Phrasal verbs
+`,
+"Adjetivos": `
+prophetic | profético | A prophetic warning. | Registro alto
+compulsive | compulsivo | Compulsive checking. | Registro alto
+manipulative | manipulador | Manipulative design. | Registro alto
+humane | humano, compasivo | Humane technology. | Registro alto
+fragmented | fragmentado | Fragmented attention. | Registro alto
+tedious | tedioso | A tedious task. | Registro alto
+intriguing | intrigante | An intriguing idea. | Registro alto
+deliberate | deliberado | A deliberate choice. | Registro alto
+unsettling | inquietante | An unsettling thought. | Registro alto
+exhilarating | estimulante, emocionante | An exhilarating experience. | Registro alto
+heritable | hereditario | Heritable changes. | Ciencia
+unethical | poco ético | Unethical behaviour. | Ciencia
+therapeutic | terapéutico | Therapeutic potential. | Ciencia
+molecular | molecular | Molecular biology. | Ciencia
+low-lying | de baja altitud | Low-lying islands. | Medio ambiente
+densely populated | densamente poblado | A densely populated area. | Medio ambiente
+coastal | costero | Coastal villages. | Medio ambiente
+ancestral | ancestral | Ancestral lands. | Cultura e identidad
+indigenous | indígena | Indigenous languages. | Cultura e identidad
+distinct | distinto, diferenciado | A distinct culture. | Cultura e identidad
+inseparable | inseparable | Inseparable from identity. | Cultura e identidad
+courteous | cortés | A courteous letter. | Narrativa
+impersonal | impersonal | Impersonal language. | Narrativa
+exemplary | ejemplar | Exemplary service. | Narrativa
+modest | modesto | A modest pension. | Narrativa
+persuasive | persuasivo | A persuasive argument. | Comunicación
+awkward | incómodo, torpe | An awkward silence. | Comunicación
+hostile | hostil | A hostile reaction. | Comunicación
+deep-rooted | arraigado | Deep-rooted fears. | Comunicación
+eloquent | elocuente | An eloquent speech. | Comunicación
+bureaucratic | burocrático | A bureaucratic system. | Economía y sociedad
+utopian | utópico | A utopian idea. | Economía y sociedad
+inefficient | ineficiente | An inefficient system. | Economía y sociedad
+unconditional | incondicional | Unconditional payments. | Economía y sociedad
+insecure | inseguro, precario | Insecure work. | Economía y sociedad
+vulnerable | vulnerable | Vulnerable groups. | Economía y sociedad
+staggered | escalonado | Staggered schedules. | Negocios
+anonymous | anónimo | Anonymous surveys. | Negocios
+customer-facing | de cara al cliente | Customer-facing roles. | Negocios
+susceptible | susceptible | Susceptible to influence. | Psicología
+flattering | halagador | A flattering image. | Psicología
+chaotic | caótico | A chaotic situation. | Psicología
+random | aleatorio | Random events. | Psicología
+existential | existencial | An existential threat. | Psicología
+cooperative | cooperativo | Cooperative communities. | Psicología
+neutral | neutral | Morally neutral. | Narrativa
+inherent | inherente | Inherent risks. | Registro alto
+viable | viable | A viable option. | Registro alto
+tangible | tangible | Tangible results. | Registro alto
+contentious | polémico | A contentious issue. | Registro alto
+`,
+"Adverbios": `
+remarkably | notablemente | Remarkably prophetic. | Registro alto
+deceptively | engañosamente | Deceptively simple. | Registro alto
+paradoxically | paradójicamente | Paradoxically, silence works. | Registro alto
+crucially | de manera crucial | Crucially, it's free. | Registro alto
+drastically | drásticamente | Drastically reduced. | Registro alto
+broadly | en general, a grandes rasgos | Broadly stable. | Registro alto
+consistently | sistemáticamente | Consistently high. | Registro alto
+notoriously | notoriamente | Notoriously difficult. | Registro alto
+understandably | comprensiblemente | Understandably upset. | Registro alto
+encouragingly | de forma alentadora | Encouragingly, sales rose. | Registro alto
+unsurprisingly | como era de esperar | Unsurprisingly, it failed. | Registro alto
+outright | rotundamente, por completo | An outright ban. | Registro alto
+skilfully | hábilmente | Skilfully designed. | Registro alto
+`,
+"Conectores": `
+accordingly | en consecuencia | Act accordingly. | Consecuencia
+as regards | en cuanto a | As regards the budget. | Referencia
+to a large extent | en gran medida | To a large extent, I agree. | Grado
+first and foremost | ante todo | First and foremost, safety. | Orden
+that is to say | es decir | That is to say, nobody came. | Aclarar
+to put it simply | para decirlo de forma sencilla | To put it simply, it failed. | Aclarar
+`,
+"Expresiones": `
+Draw the line | poner un límite | Where do we draw the line? | Modismos
+The jury is still out | aún no hay consenso | The jury is still out on UBI. | Modismos
+In the heat of the moment | en el calor del momento | I said it in the heat of the moment. | Modismos
+Get to the point | ir al grano | Please get to the point. | Modismos
+Have a lot on one's plate | tener mucho trabajo | I have a lot on my plate. | Modismos
+Turn a blind eye | hacerse el de la vista gorda | They turned a blind eye. | Modismos
+Set the tone | marcar la pauta | The first answer sets the tone. | Modismos
+Make one's case | defender su postura | She made her case clearly. | Modismos
+Come to terms with | aceptar, asumir | He came to terms with the loss. | Modismos
+Stand the test of time | resistir el paso del tiempo | Classics stand the test of time. | Modismos
+Fall on deaf ears | caer en saco roto | His warnings fell on deaf ears. | Modismos
+Cut both ways | tener pros y contras | That argument cuts both ways. | Modismos
+For its own sake | por sí mismo | Learning for its own sake. | Modismos
+`
 },
 /* C2 */ {
 
