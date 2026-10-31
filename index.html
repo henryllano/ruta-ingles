@@ -1151,14 +1151,13 @@ function ensureStudent(name,email){const db=loadDB(),id=email?email.toLowerCase(
 /* acceso por niveles: el examen de nivel es obligatorio al inscribirse.
    Se abren el nivel donde quedó y todos los de abajo; los de arriba se abren al aprobar el examen final del anterior,
    y dentro de esos niveles cada lección se abre al aprobar la anterior.
-   Modo revisión (para los dueños del curso): abrir la página con #revision deja todo abierto en ese navegador; #normal lo quita. */
+   La cuenta administradora tiene todo abierto. */
 const LOCK_LEVELS=true;
-function applyReviewHash(){try{const h=location.hash;if(!/revision|normal/i.test(h))return false;
-  if(/revision/i.test(h))localStorage.setItem("ruta3-review","1");else localStorage.removeItem("ruta3-review");
-  history.replaceState(null,"",location.pathname+location.search);return true}catch(e){return false}}
-applyReviewHash();
-addEventListener("hashchange",()=>{if(applyReviewHash())location.reload()});
-const reviewMode=()=>{try{return localStorage.getItem("ruta3-review")==="1"}catch(e){return false}};
+/* administrador: una sola cuenta (se reconoce por la huella de su correo, para no publicarlo en el código). Tiene todo abierto y no presenta examen. */
+const ADMIN_MAIL_HASH="98bf758e";
+const mailHash=m=>{let h=2166136261;for(const c of String(m||"").trim().toLowerCase()){h^=c.charCodeAt(0);h=Math.imul(h,16777619)>>>0}return h.toString(16)};
+const isAdmin=st=>!!st&&!!st.email&&mailHash(st.email)===ADMIN_MAIL_HASH;
+const reviewMode=()=>isAdmin(curStudent());
 function placedOf(st){if(!st)return null;if(st.placed!=null)return st.placed;const r=(st.results||[]).slice().sort((a,b)=>a.date-b.date)[0];return r?lvOf(r.pts).i:null}
 const mustPlace=()=>LOCK_LEVELS&&!reviewMode()&&!!curStudent()&&placedOf(curStudent())==null;
 function unlocked(i){if(!LOCK_LEVELS||reviewMode())return true;const st=curStudent(),pl=placedOf(st);if(pl==null)return false;if(i<=pl)return true;
@@ -1198,7 +1197,7 @@ function whoView(after,step,pre){
     const pl=placedOf(st);
     body.innerHTML=`<h2>Mi cuenta</h2><p class="lead">Estás estudiando como <b>${esc(st.name)}</b>${st.user?` (usuario <b>${esc(st.user)}</b>)`:""}. Tu avance se guarda en esta cuenta.</p>
     ${pl!=null?`<p>Tu examen de nivel te ubicó en <b>${LV[pl].k}</b>. Tienes abiertos: ${LV.filter((l,i)=>unlocked(i)).map(l=>l.k).join(", ")}.</p>`:""}
-    ${reviewMode()?`<div class="tipbox"><b>Modo revisión activo en este navegador:</b> todos los niveles y lecciones están abiertos. Para quitarlo, abre la página con <b>#normal</b> al final de la dirección.</div>`:""}
+    ${reviewMode()?`<div class="tipbox"><b>Cuenta de administrador:</b> tienes todos los niveles y lecciones abiertos y no necesitas presentar el examen de nivel.</div>`:""}
     <div class="ex-actions"><button class="linkbtn" type="button" id="wOut">Cerrar sesión</button><button class="btn sun" type="button" id="wStay">Seguir estudiando</button></div>`;
     $("wOut").onclick=logout;$("wStay").onclick=closeExam;return}
   if(step==="setpw"){const st=pre;
