@@ -4215,4 +4215,643 @@ presented | present | verbo (participio) | presentado | Presented in isolation.
 morally | - | adverbio | moralmente | Morally neutral.
 mechanisms | mechanism | sustantivo (plural) | mecanismos | The same mechanisms.
 exploited | exploit | verbo (participio) | explotado | Exploited for propaganda.
+circulates | circulate | verbo (3.ª persona) | circula | A list circulates online.
+portuguese | - | adjetivo | portugués | The Portuguese word saudade.
+saudade | - | sustantivo | saudade (nostalgia, en portugués) | Saudade is hard to translate.
+danish | - | adjetivo | danés | The Danish hygge.
+hygge | - | sustantivo | hygge (bienestar acogedor, en danés) | Danish hygge.
+japanese | - | adjetivo | japonés | A Japanese word.
+komorebi | - | sustantivo | komorebi (luz que se filtra entre las hojas, en japonés) | The Japanese komorebi.
+sunlight | - | sustantivo | luz del sol | Sunlight through leaves.
+filtering | filter | verbo (-ing) | filtrándose | Sunlight filtering through.
+possess | - | verbo | poseer | Languages possess feelings?
+perceptions | perception | sustantivo (plural) | percepciones | Feelings and perceptions.
+inaccessible | - | adjetivo | inaccesible | Inaccessible to others.
+falling | fall | verbo (-ing) | cayendo | Light falling through trees.
+canopy | - | sustantivo | dosel (de árboles); toldo | A canopy of trees.
+lacks | lack | verbo (3.ª persona) | carece de | English lacks a word.
+translators | translator | sustantivo (plural) | traductores | Translators disagree.
+notion | - | sustantivo | noción, idea | The notion of untranslatability.
+untranslatability | - | sustantivo | intraducibilidad | The idea of untranslatability.
+mixture | - | sustantivo | mezcla | A mixture of feelings.
+fascination | - | sustantivo | fascinación | With fascination.
+weary | - | adjetivo | cansado, hastiado | Weary scepticism.
+conveyed | convey | verbo (participio) | transmitido | Almost anything can be conveyed.
+poetry | - | sustantivo | poesía | The translator of poetry.
+rhyme | - | sustantivo | rima | The rhyme scheme.
+sonnet | - | sustantivo | soneto | A sonnet.
+poem | - | sustantivo | poema | It no longer sounds like a poem.
+vladimir | - | nombre propio | Vladimir | Vladimir Nabokov.
+nabokov | - | nombre propio | Nabokov (escritor ruso) | Nabokov translated Pushkin.
+pushkin's | pushkin | nombre propio (posesivo) | de Pushkin | Pushkin's Eugene Onegin.
+eugene | - | nombre propio | Eugenio | Eugene Onegin.
+onegin | - | nombre propio | Oneguin | Eugene Onegin.
+unlovely | - | adjetivo | poco agraciado | Deliberately unlovely English.
+literal | - | adjetivo | literal | A literal translation.
+rhymed | rhyme | adjetivo | rimado | Rhymed translations.
+translations | translation | sustantivo (plural) | traducciones | Many translations.
+betrayal | - | sustantivo | traición | A betrayal of the text.
+unreadable | - | adjetivo | ilegible | His version was unreadable.
+humour | - | sustantivo | humor | Humour is hard to translate.
+poses | pose | verbo (3.ª persona) | plantea | It poses a challenge.
+sternest | stern | adjetivo (superlativo) | el más severo | The sternest challenge.
+puns | pun | sustantivo (plural) | juegos de palabras | Puns rarely survive.
+accidental | - | adjetivo | accidental | An accidental resemblance.
+survive | - | verbo | sobrevivir | They rarely survive.
+asterix | - | nombre propio | Astérix (cómic) | The Asterix comics.
+comics | comic | sustantivo (plural) | cómics, historietas | French comics.
+famously | - | adverbio | como es bien sabido | They famously abandoned it.
+inventing | invent | verbo (-ing) | inventando | Inventing new jokes.
+spirit | - | sustantivo | espíritu | The spirit of the original.
+regarded | regard | verbo (participio) | considerado | Widely regarded as a triumph.
+triumph | - | sustantivo | triunfo | A triumph of translation.
+references | reference | sustantivo (plural) | referencias | Cultural references.
+difficulties | difficulty | sustantivo (plural) | dificultades | Subtler difficulties.
+codes | code | sustantivo (plural) | códigos | Social codes.
+decodes | decode | verbo (3.ª persona) | descifra | A reader decodes it.
+effortlessly | - | adverbio | sin esfuerzo | Decoded effortlessly.
+oslo | - | nombre propio | Oslo | A reader in Oslo.
+shapes | shape | verbo (3.ª persona) | moldea | Each choice shapes the text.
+text | - | sustantivo | texto | The original text.
+management | - | sustantivo | gestión, administración | Modern management.
+ranked | rank | verbo (participio) | clasificado | Ranked by waiting times.
+universities | university | sustantivo (plural) | universidades | Universities are ranked.
+publication | - | sustantivo | publicación | Publication counts.
+counts | count | sustantivo (plural) | recuentos | Publication counts.
+examination | - | sustantivo | examen | Examination results.
+ever-expanding | - | adjetivo | en constante expansión | An ever-expanding array.
+undeniable | - | adjetivo | innegable | Undeniable virtues.
+virtues | virtue | sustantivo (plural) | virtudes | Undeniable virtues.
+scholars | scholar | sustantivo (plural) | académicos | Scholars contend that...
+faith | - | sustantivo | fe | Our faith in numbers.
+curdled | curdle | verbo (participio) | agriado, degenerado | Faith has curdled.
+articulated | articulate | verbo (participio) | formulado | Articulated by Goodhart.
+charles | - | nombre propio | Charles | Charles Goodhart.
+goodhart | - | nombre propio | Goodhart (economista) | Goodhart's law.
+holds | hold | verbo (3.ª persona) | sostiene | The law holds that...
+ceases | cease | verbo (3.ª persona) | deja de | It ceases to be useful.
+judged | judge | verbo (participio) | juzgado, evaluado | Judged by a number.
+test | - | sustantivo | prueba, examen | Teach to the test.
+narrowing | narrow | verbo (-ing) | estrechando | Narrowing the curriculum.
+curriculum | - | sustantivo | plan de estudios | The school curriculum.
+surgeons | surgeon | sustantivo (plural) | cirujanos | Surgeons are evaluated.
+rates | rate | sustantivo (plural) | tasas | Mortality rates.
+riskiest | risky | adjetivo (superlativo) | el más riesgoso | The riskiest patients.
+surgery | - | sustantivo | cirugía | In need of surgery.
+offences | offence | sustantivo (plural) | delitos | Reclassify offences.
+favourable | - | adjetivo | favorable | More favourable figures.
+aspects | aspect | sustantivo (plural) | aspectos | Important aspects.
+lifelong | - | adjetivo | de toda la vida | A lifelong love of reading.
+calms | calm | verbo (3.ª persona) | calma | A nurse who calms a patient.
+frightened | - | adjetivo | asustado | A frightened patient.
+qualities | quality | sustantivo (plural) | cualidades | Unquantifiable qualities.
+demoralised | demoralise | adjetivo | desmoralizado | They become demoralised.
+gathering | gather | verbo (-ing) | recopilar | Gathering data.
+verifying | verify | verbo (-ing) | verificar | Verifying data.
+reporting | report | verbo (-ing) | informar, reportar | Reporting data.
+consumes | consume | verbo (3.ª persona) | consume | It consumes time.
+devote | - | verbo | dedicar | Devote time to work.
+actual | - | adjetivo | real, verdadero | Their actual work.
+spending | spend | verbo (-ing) | gastar, pasar (tiempo) | Spending more time.
+documentation | - | sustantivo | documentación | Time spent on documentation.
+failings | failing | sustantivo (plural) | fallas, deficiencias | Genuine failings.
+jerry | - | nombre propio | Jerry | Jerry Muller.
+muller | - | nombre propio | Muller (historiador) | Jerry Muller.
+tyranny | - | sustantivo | tiranía | The Tyranny of Metrics.
+metrics | metric | sustantivo (plural) | métricas | Performance metrics.
+popularised | popularise | verbo (pasado/participio) | popularizó | He popularised the idea.
+critiques | critique | sustantivo (plural) | críticas | These critiques.
+distinguish | - | verbo | distinguir | Distinguish between two uses.
+distinction | - | sustantivo | distinción | A crucial distinction.
+crucial | - | adjetivo | crucial | The distinction is crucial.
+punitively | - | adverbio | de forma punitiva | Used punitively.
+interpreted | interpret | verbo (participio) | interpretado | Interpreted carefully.
+imposed | impose | verbo (participio) | impuesto | Imposed from above.
+tied | tie | verbo (participio) | ligado, atado | Tied to rewards.
+sanctions | sanction | sustantivo (plural) | sanciones | Rewards and sanctions.
+nostalgia | - | sustantivo | nostalgia | On nostalgia.
+coined | coin | verbo (pasado) | acuñó | He coined the word.
+swiss | - | adjetivo | suizo | A Swiss student.
+johannes | - | nombre propio | Johannes | Johannes Hofer.
+hofer | - | nombre propio | Hofer (médico suizo) | Johannes Hofer.
+greek | - | adjetivo | griego | The Greek word nostos.
+nostos | - | sustantivo | nostos (regreso a casa, en griego) | Nostos means homecoming.
+homecoming | - | sustantivo | regreso a casa | A long-awaited homecoming.
+algos | - | sustantivo | algos (dolor, en griego) | Algos means pain.
+observed | observe | verbo (pasado) | observó | He observed the symptoms.
+mercenaries | mercenary | sustantivo (plural) | mercenarios | Swiss mercenaries.
+insomnia | - | sustantivo | insomnio | Melancholy and insomnia.
+appetite | - | sustantivo | apetito | Loss of appetite.
+severe | - | adjetivo | grave, severo | Severe cases.
+lethal | - | adjetivo | letal | A lethal disease.
+folk | - | adjetivo | popular, folclórico | Folk songs.
+pathology | - | sustantivo | patología | Not a pathology.
+staple | - | sustantivo | elemento básico | A staple of commerce.
+commerce | - | sustantivo | comercio | A staple of commerce.
+studios | studio | sustantivo (plural) | estudios | Film studios.
+sepia-tinted | - | adjetivo | en tono sepia, idealizado | A sepia-tinted appeal.
+appeal | - | sustantivo | atractivo; llamamiento | A nostalgic appeal.
+disparaged | disparage | verbo (participio) | menospreciado | Routinely disparaged.
+sentimental | - | adjetivo | sentimental | Sentimental and regressive.
+intellectually | - | adverbio | intelectualmente | Intellectually dishonest.
+selective | - | adjetivo | selectivo | A selective memory.
+conveniently | - | adverbio | convenientemente | Conveniently omitted.
+omits | omit | verbo (3.ª persona) | omite | It omits the bad parts.
+injustices | injustice | sustantivo (plural) | injusticias | Its injustices.
+discomforts | discomfort | sustantivo (plural) | incomodidades | Injustices and discomforts.
+characterisations | characterisation | sustantivo (plural) | caracterizaciones | Both characterisations.
+element | - | sustantivo | elemento | An element of truth.
+appeals | appeal | sustantivo (plural) | llamamientos | Appeals to a golden age.
+golden | - | adjetivo | dorado | A golden age.
+held | hold | verbo (participio) | considerado | Groups held responsible.
+induced | induce | verbo (participio) | inducido | People induced to remember.
+recall | - | verbo | recordar | Recall a memory.
+nostalgic | - | adjetivo | nostálgico | Nostalgic memories.
+connectedness | - | sustantivo | sentido de conexión | Social connectedness.
+adrift | - | adjetivo | a la deriva, perdido | Feeling adrift.
+resource | - | sustantivo | recurso | A psychological resource.
+reminding | remind | verbo (-ing) | recordándonos | Reminding us we're loved.
+unalloyed | - | adjetivo | puro, sin mezcla | Unalloyed happiness.
+happiness | - | sustantivo | felicidad | Pure happiness.
+typically | - | adverbio | típicamente | They typically follow an arc.
+arc | - | sustantivo | arco (narrativo) | A redemptive arc.
+camping | - | sustantivo | campamento, ir de camping | A camping trip.
+cherished | - | adjetivo | apreciado, querido | A cherished memory.
+extracting | extract | verbo (-ing) | extraer | Extracting meaning.
+svetlana | - | nombre propio | Svetlana | Svetlana Boym.
+boym | - | nombre propio | Boym (académica) | Svetlana Boym.
+restorative | - | adjetivo | restaurador | Restorative nostalgia.
+seeks | seek | verbo (3.ª persona) | busca | It seeks to rebuild.
+rebuild | - | verbo | reconstruir | Rebuild the home.
+questioning | - | sustantivo | cuestionamiento | Any questioning is betrayal.
+reflective | - | adjetivo | reflexivo | Reflective nostalgia.
+dwells | dwell | verbo (3.ª persona) | se detiene en | It dwells on longing.
+remaining | remain | verbo (-ing) | permaneciendo | Remaining alert.
+alert | - | adjetivo | alerta | Alert to contradictions.
+contradictions | contradiction | sustantivo (plural) | contradicciones | Its contradictions.
+latter | - | pronombre | este último | The latter is safer.
+mortal | - | adjetivo | mortal | Mortal creatures.
+creatures | creature | sustantivo (plural) | criaturas | Mortal creatures.
+maps | map | sustantivo (plural) | mapas | My father drew maps.
+figure | - | sustantivo | figura (figure of speech: forma de hablar) | A figure of speech.
+municipal | - | adjetivo | municipal | The municipal office.
+rendered | render | verbo (pasado) | plasmó, representó | He rendered the city in ink.
+ink | - | sustantivo | tinta | Drawn in ink.
+ring | - | sustantivo | anillo (ring road: vía de circunvalación) | Ring roads.
+roads | road | sustantivo (plural) | carreteras, vías | Ring roads.
+reservoirs | reservoir | sustantivo (plural) | embalses | Reservoirs and canals.
+neatly | - | adverbio | ordenadamente | Neatly numbered.
+numbered | number | adjetivo | numerado | Numbered housing estates.
+estates | estate | sustantivo (plural) | urbanizaciones; fincas | Housing estates.
+authorities | authority | sustantivo (plural) | autoridades | The authorities intended it.
+unroll | - | verbo | desenrollar | Unroll the map.
+sheet | - | sustantivo | hoja, lámina | A new sheet.
+dining | - | adjetivo | de comedor | The dining table.
+thread | - | sustantivo | hilo | A blue thread.
+canal | - | sustantivo | canal | A canal that was never dug.
+dug | dig | verbo (participio) | cavado | It had not been dug.
+rectangle | - | sustantivo | rectángulo | A green rectangle.
+thistles | thistle | sustantivo (plural) | cardos | A field of thistles.
+nerve | - | sustantivo | valor, temple; nervio | Keep your nerve.
+shifted | shift | verbo (pasado) | cambiaron | Priorities shifted.
+materialised | materialise | verbo (pasado) | se materializó | The city that materialised.
+resembled | resemble | verbo (pasado) | se parecía a | It resembled the maps.
+father's | father | sustantivo (posesivo) | del padre | My father's maps.
+resembles | resemble | verbo (3.ª persona) | se parece a | A man resembles his photo.
+compromised | compromise | verbo (participio) | comprometido, menoscabado | Quietly compromised.
+inclined | - | adjetivo | propenso, inclinado | Inclined to complain.
+parents' | parent | sustantivo (posesivo plural) | de los padres | My parents' lives.
+catalogue | - | sustantivo | catálogo | A catalogue of disappointments.
+disappointments | disappointment | sustantivo (plural) | decepciones | Many disappointments.
+demoralising | - | adjetivo | desmoralizador | Wasn't it demoralising?
+usual | - | adjetivo | habitual | His usual calm.
+seriousness | - | sustantivo | seriedad | Unhurried seriousness.
+folder | - | sustantivo | carpeta | A folder of maps.
+unrealised | - | adjetivo | no realizado | Unrealised projects.
+dozens | dozen | sustantivo (plural) | docenas | Dozens of maps.
+annotated | annotate | verbo (participio) | anotado | Annotated by hand.
+upright | - | adjetivo | vertical, recto | His upright handwriting.
+tram | - | sustantivo | tranvía | A tram line.
+eastern | - | adjetivo | oriental, del este | The eastern districts.
+districts | district | sustantivo (plural) | distritos, barrios | Eastern districts.
+depicted | depict | verbo (pasado) | representaba | It depicted our street.
+circle | - | sustantivo | círculo | A small circle.
+m | - | letra | M (inicial de un nombre) | Lemon tree, for M.
+abandonment | - | sustantivo | abandono | The date of abandonment.
+planted | plant | verbo (pasado) | sembré | I planted the tree.
+april | - | sustantivo | abril | In April.
+knee-high | - | adjetivo | a la altura de la rodilla | A knee-high tree.
+gardeners | gardener | sustantivo (plural) | jardineros | The gardeners say...
+signed | sign | verbo (participio) | firmado | Signed casually.
+casually | - | adverbio | a la ligera, casualmente | Signed casually.
+poorly | - | adverbio | mal, deficientemente | Poorly understood.
+non-disclosure | - | sustantivo | no divulgación | A non-disclosure agreement.
+alongside | - | preposición | junto a | Alongside tax forms.
+parking | - | sustantivo | estacionamiento | Parking permits.
+permits | permit | sustantivo (plural) | permisos | Parking permits.
+pitching | pitch | verbo (-ing) | presentar (una idea) | Pitching ideas to investors.
+freelancers | freelancer | sustantivo (plural) | trabajadores independientes | Freelancers sign NDAs.
+glancing | glance | verbo (-ing) | echar un vistazo | Before glancing at it.
+client's | client | sustantivo (posesivo) | del cliente | A client's brief.
+impose | - | verbo | imponer | Impose obligations.
+obligations | obligation | sustantivo (plural) | obligaciones | Legal obligations.
+persist | - | verbo | persistir | Obligations persist.
+provisions | provision | sustantivo (plural) | disposiciones | The main provisions.
+core | - | sustantivo | núcleo (at its core: en esencia) | At its core.
+nda | - | sigla | acuerdo de confidencialidad | Sign the NDA.
+specified | specify | adjetivo | especificado | Specified information.
+discloses | disclose | verbo (3.ª persona) | revela | One party discloses.
+termed | term | verbo (participio) | denominado | Termed unilateral.
+confidential | - | adjetivo | confidencial | Confidential information.
+imposes | impose | verbo (3.ª persona) | impone | It imposes obligations.
+drafted | draft | verbo (participio) | redactado | Broadly drafted.
+definitions | definition | sustantivo (plural) | definiciones | Broad definitions.
+disclosed | disclose | verbo (participio) | revelado | Information disclosed.
+disclosing | disclose | adjetivo | que divulga | The Disclosing Party.
+discloser | - | sustantivo | parte que divulga | Favourable to the discloser.
+court | - | sustantivo | tribunal | A court deems it.
+deems | deem | verbo (3.ª persona) | considera | If a court deems it unfair.
+unreasonably | - | adverbio | excesivamente, sin razón | Unreasonably wide.
+wide | - | adjetivo | amplio | Too wide.
+well-drafted | - | adjetivo | bien redactado | Well-drafted agreements.
+specify | - | verbo | especificar | Specify categories.
+categories | category | sustantivo (plural) | categorías | Categories of information.
+exclude | - | verbo | excluir | Exclude public information.
+domain | - | sustantivo | dominio | The public domain.
+lawfully | - | adverbio | legalmente | Lawfully obtained.
+recipient's | recipient | sustantivo (posesivo) | del receptor | The recipient's possession.
+possession | - | sustantivo | posesión | In his possession.
+disclosure | - | sustantivo | divulgación | Prior to disclosure.
+referred | refer | verbo (participio) | referido | Referred to as...
+permitted | permit | adjetivo | permitido | The permitted purpose.
+constitutes | constitute | verbo (3.ª persona) | constituye | It constitutes a breach.
+occurs | occur | verbo (3.ª persona) | ocurre | No disclosure occurs.
+commonly | - | adverbio | comúnmente | Commonly required.
+restrict | - | verbo | restringir | Restrict access.
+advisers | adviser | sustantivo (plural) | asesores | Employees or advisers.
+duration | - | sustantivo | duración | The duration of obligations.
+consideration | - | sustantivo | consideración | A critical consideration.
+trade | - | sustantivo | comercio (trade secret: secreto comercial) | Trade secrets.
+secrets | secret | sustantivo (plural) | secretos | Trade secrets.
+commercial | - | adjetivo | comercial | A commercial relationship.
+remedies | remedy | sustantivo (plural) | recursos legales | Available remedies.
+event | - | sustantivo | caso, evento (in the event of: en caso de) | In the event of a breach.
+ndas | nda | sigla (plural) | acuerdos de confidencialidad | Most NDAs.
+offending | - | adjetivo | infractor | The offending conduct.
+monetary | - | adjetivo | monetario | Monetary compensation.
+bears | bear | verbo (3.ª persona) | merece (it bears emphasising: cabe recalcar) | It bears emphasising.
+emphasising | emphasise | verbo (-ing) | recalcar | Worth emphasising.
+confidentiality | - | sustantivo | confidencialidad | Confidentiality agreements.
+criminal | - | adjetivo | criminal, penal | Criminal conduct.
+jurisdictions | jurisdiction | sustantivo (plural) | jurisdicciones | In many jurisdictions.
+purporting | purport | verbo (-ing) | que pretenden | Clauses purporting to...
+stakes | stake | sustantivo (plural) | lo que está en juego | The stakes are high.
+independent | - | adjetivo | independiente | Independent advice.
+wisdom | - | sustantivo | sabiduría | Received wisdom.
+societies | society | sustantivo (plural) | sociedades | Affluent societies.
+reasoning | - | sustantivo | razonamiento | The reasoning goes...
+freer | free | adjetivo (comparativo) | más libre | Freer and happier.
+stock | - | verbo | tener en existencia | Supermarkets stock dozens.
+olive | - | sustantivo | aceituna (olive oil: aceite de oliva) | Olive oil.
+dating | - | sustantivo | citas (románticas) | Dating applications.
+partners | partner | sustantivo (plural) | parejas | Potential partners.
+substantial | - | adjetivo | sustancial | A substantial body of research.
+liberated | liberate | verbo (participio) | liberado | Not liberated but paralysed.
+now-famous | - | adjetivo | ahora famoso | A now-famous experiment.
+shoppers | shopper | sustantivo (plural) | compradores | Shoppers in a store.
+upmarket | - | adjetivo | exclusivo, de lujo | An upmarket store.
+grocery | - | sustantivo | tienda de víveres | A grocery store.
+encountered | encounter | verbo (pasado) | se encontraron con | They encountered a stand.
+tasting | - | sustantivo | degustación | A tasting stand.
+jam | - | sustantivo | mermelada | Varieties of jam.
+generated | generate | verbo (pasado) | generó | It generated more sales.
+vastly | - | adverbio | enormemente | Vastly more sales.
+confronted | confront | verbo (participio) | enfrentado | Confronted with options.
+roughly | - | adverbio | aproximadamente | Roughly a tenth.
+purchase | - | sustantivo | compra | Make a purchase.
+attempts | attempt | sustantivo (plural) | intentos | Attempts to replicate.
+context | - | sustantivo | contexto | It depends on context.
+overload | - | sustantivo | sobrecarga | Choice overload.
+domains | domain | sustantivo (plural) | ámbitos | Diverse domains.
+treatments | treatment | sustantivo (plural) | tratamientos | Medical treatments.
+psychologist | - | sustantivo | psicólogo | The psychologist Barry Schwartz.
+barry | - | nombre propio | Barry | Barry Schwartz.
+schwartz | - | nombre propio | Schwartz (psicólogo) | Barry Schwartz.
+concept | - | sustantivo | concepto | He popularised the concept.
+raises | raise | verbo (3.ª persona) | eleva | It raises expectations.
+amplifies | amplify | verbo (3.ª persona) | amplifica | It amplifies the cost.
+chosen | choose | verbo (participio) | elegido | Each option chosen.
+implies | imply | verbo (3.ª persona) | implica | It implies rejection.
+rejection | - | sustantivo | rechazo | The rejection of others.
+imagination | - | sustantivo | imaginación | In the imagination.
+source | - | sustantivo | fuente | A source of regret.
+shifts | shift | verbo (3.ª persona) | traslada | It shifts responsibility.
+disappointment | - | sustantivo | decepción | Responsibility for disappointment.
+chooser | - | sustantivo | quien elige | Onto the chooser.
+kinds | kind | sustantivo (plural) | tipos | Two kinds of jeans.
+ill-fitting | - | adjetivo | que queda mal | An ill-fitting pair.
+fault | - | sustantivo | culpa | The fault is one's own.
+surely | - | adverbio | seguramente, sin duda | It must surely be yours.
+maximisers | maximiser | sustantivo (plural) | maximizadores | Maximisers seek the best.
+compelled | compel | adjetivo | obligado | They feel compelled.
+satisficers | satisficer | sustantivo (plural) | personas que se conforman con lo suficiente | Satisficers are happier.
+establish | - | verbo | establecer | Establish criteria.
+criteria | criterion | sustantivo (plural) | criterios | Clear criteria.
+settle | - | verbo | conformarse (settle for) | Settle for the first one.
+meets | meet | verbo (3.ª persona) | cumple | An option that meets them.
+counterintuitively | - | adverbio | contrariamente a lo esperado | Counterintuitively, they do better.
+objectively | - | adverbio | objetivamente | Objectively better.
+outcomes | outcome | sustantivo (plural) | resultados | Better outcomes.
+curtailed | curtail | verbo (participio) | restringido | Choice should be curtailed.
+rightly | - | adverbio | con razón | Rightly uneasy.
+limiting | limit | verbo (-ing) | limitar | Limiting the time.
+adopting | adopt | verbo (-ing) | adoptar | Adopting a mindset.
+satisficing | - | adjetivo | de conformarse con lo suficiente | A satisficing mindset.
+beloved | - | adjetivo | querido, predilecto | Beloved of prize committees.
+committees | committee | sustantivo (plural) | comités, jurados | Prize committees.
+announces | announce | verbo (3.ª persona) | anuncia | It announces its seriousness.
+multiple | - | adjetivo | múltiple | Multiple timelines.
+timelines | timeline | sustantivo (plural) | líneas temporales | Multiple timelines.
+ailing | - | adjetivo | enfermo, achacoso | An ailing archivist.
+archivist | - | sustantivo | archivista | An ailing archivist.
+disinterred | disinter | verbo (participio) | desenterrado | A secret disinterred.
+provincial | - | adjetivo | provincial | A provincial museum.
+braced | brace | verbo (participio) | preparado (para algo) | I had braced myself.
+carvajal's | carvajal | nombre propio (posesivo) | de Carvajal | Carvajal's gifts.
+gifts | gift | sustantivo (plural) | dones, talentos | Formidable gifts.
+amalia | - | nombre propio | Amalia (nombre de mujer) | Amalia Rueda.
+rueda | - | nombre propio | Rueda (apellido) | Amalia Rueda.
+conservator | - | sustantivo | conservador(a), restaurador(a) | A conservator.
+fifties | - | sustantivo | cincuenta (edad), los cincuenta | In her late fifties.
+commissioned | commission | verbo (participio) | encargado | She is commissioned to...
+salt-mining | - | adjetivo | de minería de sal | A salt-mining company.
+highlands | - | sustantivo | tierras altas | The highlands.
+amid | - | preposición | entre, en medio de | Amid the ledgers.
+ledgers | ledger | sustantivo (plural) | libros contables | Old ledgers.
+payrolls | payroll | sustantivo (plural) | nóminas | Ledgers and payrolls.
+discovers | discover | verbo (3.ª persona) | descubre | She discovers letters.
+miner | - | sustantivo | minero | A miner's letters.
+excised | excise | verbo (participio) | suprimido | The name was excised.
+bulk | - | sustantivo | mayor parte | The bulk of the novel.
+alternates | alternate | verbo (3.ª persona) | alterna | It alternates between...
+amalia's | amalia | nombre propio (posesivo) | de Amalia | Amalia's attempts.
+carvajal | - | nombre propio | Carvajal (apellido) | Inés Carvajal.
+renders | render | verbo (3.ª persona) | plasma | She renders a voice.
+distinctive | - | adjetivo | distintivo, característico | A distinctive voice.
+tender | - | adjetivo | tierno | Tender and sardonic.
+forgets | forget | verbo (3.ª persona) | olvida | One forgets...
+elevates | elevate | verbo (3.ª persona) | eleva | What elevates the book.
+superficially | - | adverbio | superficialmente | Superficially similar.
+contemporaries | contemporary | sustantivo (plural) | contemporáneos | Its contemporaries.
+refusal | - | sustantivo | negativa | Its refusal of easy answers.
+anticipating | anticipate | verbo (-ing) | esperando, previendo | Readers anticipating a twist.
+climactic | - | adjetivo | culminante | A climactic unveiling.
+unveiling | - | sustantivo | revelación, develación | A dramatic unveiling.
+scandalous | - | adjetivo | escandaloso | Scandalous parentage.
+parentage | - | sustantivo | linaje, paternidad | Secret parentage.
+doubtless | - | adverbio | sin duda | Some will doubtless complain.
+frustratingly | - | adverbio | frustrantemente | Frustratingly oblique.
+courageous | - | adjetivo | valiente | A courageous ending.
+solving | solve | verbo (-ing) | resolver | Solving the mystery.
+interrogating | interrogate | verbo (-ing) | cuestionar | Interrogating the impulse.
+impulse | - | sustantivo | impulso | The impulse to solve.
+solve | - | verbo | resolver | Solve the mystery.
+appropriates | appropriate | verbo (3.ª persona) | se apropia de | She appropriates their lives.
+intimate | - | adjetivo | íntimo | Intimate lives.
+dead | - | sustantivo | los muertos | What we owe to the dead.
+vacancies | vacancy | sustantivo (plural) | vacíos; vacantes | The vacancies in her life.
+flaws | flaw | sustantivo (plural) | defectos | It has flaws.
+concerning | - | preposición | sobre, relativo a | A subplot concerning her son.
+perfunctorily | - | adverbio | superficialmente | Perfunctorily handled.
+resolved | resolve | verbo (participio) | resuelto | Resolved too neatly.
+tidiness | - | sustantivo | pulcritud | Suspicious tidiness.
+fondness | - | sustantivo | afición, cariño | A fondness for metaphor.
+variously | - | adverbio | de diversas maneras | Variously symbolises...
+symbolises | symbolise | verbo (3.ª persona) | simboliza | Salt symbolises memory.
+preservation | - | sustantivo | preservación | Memory and preservation.
+mineral | - | sustantivo | mineral | Any mineral.
+marvel | - | sustantivo | maravilla | The translation is a marvel.
+attentive | - | adjetivo | atento | Attentive to registers.
+shifting | - | adjetivo | cambiante | Shifting registers.
+draws | draw | verbo (3.ª persona) | atrae (draws attention) | It never draws attention.
+minor | - | adjetivo | menor | Minor reservations.
+violence | - | sustantivo | violencia | A peculiar violence.
+loving | - | adjetivo | amoroso | A loving kind.
+shortlisted | shortlist | verbo (participio) | preseleccionado | Shortlisted for prizes.
+graduates | graduate | sustantivo (plural) | graduandos | Dear graduates.
+crashed | crash | verbo (participio) | chocado | Crashed several cars.
+road | - | sustantivo | carretera, vía | Road safety.
+regularity | - | sustantivo | regularidad | Relentless regularity.
+culminated | culminate | verbo (participio) | culminado | It culminated in a grade.
+grade | - | sustantivo | nota, calificación | A good grade.
+gently | - | adverbio | suavemente | Gently suggest.
+serve | - | verbo | servir | It may serve you less well.
+tempted | tempt | adjetivo | tentado | You will be tempted.
+safer | safe | adjetivo (comparativo) | más seguro | The safer path.
+composed | compose | verbo (participio) | compuesto | Composed of safe paths.
+paths | path | sustantivo (plural) | caminos | Safe paths.
+diminished | diminish | adjetivo | disminuido, empobrecido | A diminished life.
+publishers | publisher | sustantivo (plural) | editoriales | Twenty-three publishers.
+whom | - | pronombre | quien, a quien | One of whom said...
+memorably | - | adverbio | de forma memorable | Memorably, she said...
+sentences | sentence | sustantivo (plural) | oraciones, frases | A career without sentences.
+bankrupt | - | adjetivo | en quiebra | The company went bankrupt.
+lectures | lecture | sustantivo (plural) | conferencias | Lectures to empty halls.
+halls | hall | sustantivo (plural) | salas, auditorios | Empty halls.
+marriage | - | sustantivo | matrimonio | Proposed marriage.
+declined | decline | verbo (pasado) | rechazó | She declined.
+failures | failure | sustantivo (plural) | fracasos | My failures.
+blessing | - | sustantivo | bendición | A blessing in disguise.
+painful | - | adjetivo | doloroso | Simply painful.
+redeemed | redeem | verbo (participio) | redimido | Not redeemed by success.
+stepping | - | adjetivo | (stepping stone: trampolín) | A stepping stone.
+inevitable | - | adjetivo | inevitable | Inevitable success.
+surviving | survive | verbo (-ing) | sobrevivir | By surviving them.
+congratulations | - | interjección | felicitaciones | Congratulations, all of you.
+unusually | - | adverbio | inusualmente | Unusually ambitious.
+undertaking | - | sustantivo | empresa, tarea | An ambitious undertaking.
+attempted | attempt | verbo (participio) | intentado | They had attempted to...
+journals | journal | sustantivo (plural) | revistas académicas | Psychology journals.
+methods | method | sustantivo (plural) | métodos | The original methods.
+closely | - | adverbio | de cerca, fielmente | As closely as possible.
+ninety-seven | - | número | noventa y siete | Ninety-seven percent.
+statistically | - | adverbio | estadísticamente | Statistically significant.
+replications | replication | sustantivo (plural) | replicaciones | Only a third of replications.
+shockwaves | shockwave | sustantivo (plural) | ondas de choque | It sent shockwaves.
+crystallising | crystallise | verbo (-ing) | cristalizando | Crystallising a crisis.
+replication | - | sustantivo | replicación | The replication crisis.
+crisis | - | sustantivo | crisis | The replication crisis.
+fields | field | sustantivo (plural) | campos | Fields ranging from...
+ranging | range | verbo (-ing) | que van desde | Ranging from A to B.
+economics | - | sustantivo | economía (ciencia) | Economics and biology.
+cancer | - | sustantivo | cáncer | Cancer biology.
+biology | - | sustantivo | biología | Cancer biology.
+bestselling | - | adjetivo | superventas | Bestselling books.
+viewed | view | verbo (participio) | visto | Widely viewed talks.
+testing | - | sustantivo | pruebas | Repeated testing.
+comparatively | - | adverbio | comparativamente | Comparatively rare.
+incentives | incentive | sustantivo (plural) | incentivos | Perverse incentives.
+govern | - | verbo | regir, gobernar | Incentives that govern careers.
+rewarded | reward | verbo (participio) | recompensado | Rewarded for publishing.
+historically | - | adverbio | históricamente | Historically favoured.
+favoured | favour | verbo (participio) | favorecido | Positive results are favoured.
+striking | - | adjetivo | llamativo | Striking results.
+null | - | adjetivo | nulo | Null findings.
+tended | tend | verbo (participio) | tendido | They have tended to...
+unpublished | - | adjetivo | inédito | Studies remain unpublished.
+file | - | sustantivo | archivo | The file drawer problem.
+skews | skew | verbo (3.ª persona) | sesga | It skews the literature.
+positives | positive | sustantivo (plural) | positivos | False positives.
+compounding | compound | verbo (-ing) | agravando | Compounding this...
+practices | practice | sustantivo (plural) | prácticas | Questionable practices.
+fraudulent | - | adjetivo | fraudulento | Not fraudulent.
+choices | choice | sustantivo (plural) | decisiones, elecciones | Small choices.
+conventional | - | adjetivo | convencional | The conventional threshold.
+statistical | - | adjetivo | estadístico | Statistical significance.
+excluding | exclude | verbo (-ing) | excluir | Excluding participants.
+collecting | collect | verbo (-ing) | recopilar | Collecting data.
+basis | - | sustantivo | base | On the basis of results.
+sizes | size | sustantivo (plural) | tamaños | Small sample sizes.
+owing | - | preposición | (owing to: debido a) | Owing to funding.
+prompted | prompt | verbo (participio) | provocado | It has prompted reform.
+reform | - | sustantivo | reforma | Substantial reform.
+registered | register | adjetivo | registrado | Registered reports.
+pre-register | - | verbo | prerregistrar | Pre-register hypotheses.
+hypotheses | hypothesis | sustantivo (plural) | hipótesis | Their hypotheses.
+allowing | allow | verbo (-ing) | permitiendo | Allowing others to check.
+prove | - | verbo | demostrar, resultar | It may prove useful.
+method | - | sustantivo | método | The scientific method.
+distinguished | distinguish | verbo (participio) | distinguido | Distinguished by self-correction.
+practitioners | practitioner | sustantivo (plural) | profesionales | Its practitioners.
+self-correction | - | sustantivo | autocorrección | Capacity for self-correction.
+medication | - | sustantivo | medicamento | A new medication.
+attack | - | sustantivo | ataque (heart attack: infarto) | A heart attack.
+statements | statement | sustantivo (plural) | afirmaciones | Both statements.
+swayed | sway | verbo (participio) | influido | Doctors are swayed.
+communicated | communicate | verbo (participio) | comunicado | How risk is communicated.
+absolute | - | adjetivo | absoluto | Absolute risk.
+expresses | express | verbo (3.ª persona) | expresa | It expresses a change.
+impressive-sounding | - | adjetivo | que suena impresionante | An impressive-sounding figure.
+correspond | - | verbo | corresponder | It may correspond to little.
+weighed | weigh | verbo (participio) | sopesado | Weighed against costs.
+clinicians | clinician | sustantivo (plural) | médicos clínicos | Clinicians should explain.
+wherever | - | adverbio | dondequiera, siempre que | Wherever possible.
+treat | - | verbo | tratar | Number needed to treat.
+similarly | - | adverbio | de manera similar | Similarly powerful.
+opt | - | verbo | optar | Opt for surgery.
+logically | - | adverbio | lógicamente | Logically identical.
+identical | - | adjetivo | idéntico | Identical statements.
+inherently | - | adverbio | inherentemente | Not inherently deceptive.
+deceptive | - | adjetivo | engañoso | Deceptive framing.
+presenting | present | verbo (-ing) | presentar | Presenting only one.
+subtly | - | adverbio | sutilmente | Subtly steer.
+patient's | patient | sustantivo (posesivo) | del paciente | The patient's decision.
+numerical | - | adjetivo | numérico | Numerical literacy.
+literacy | - | sustantivo | alfabetización, competencia | Numerical literacy.
+percentages | percentage | sustantivo (plural) | porcentajes | Interpret percentages.
+probabilities | probability | sustantivo (plural) | probabilidades | Percentages and probabilities.
+visual | - | adjetivo | visual | Visual aids.
+aids | aid | sustantivo (plural) | ayudas | Visual aids.
+icon | - | sustantivo | ícono | Icon arrays.
+arrays | array | sustantivo (plural) | matrices, conjuntos | Icon arrays.
+grids | grid | sustantivo (plural) | cuadrículas | Grids of figures.
+highlighted | highlight | verbo (participio) | resaltado | Highlighted in red.
+technical | - | adjetivo | técnico | Technical considerations.
+considerations | consideration | sustantivo (plural) | consideraciones | Technical considerations.
+ethical | - | adjetivo | ético | An ethical principle.
+emphasises | emphasise | verbo (3.ª persona) | enfatiza | Practice emphasises...
+decision-making | - | sustantivo | toma de decisiones | Shared decision-making.
+preferences | preference | sustantivo (plural) | preferencias | Values and preferences.
+sixty-year-old | - | sustantivo | persona de sesenta años | A sixty-year-old woman.
+prizes | prize | verbo (3.ª persona) | valora | She prizes independence.
+understands | understand | verbo (3.ª persona) | entiende | The patient understands.
+communicating | communicate | verbo (-ing) | comunicar | Communicating uncertainty.
+answers | answer | sustantivo (plural) | respuestas | Definitive answers.
+admitting | admit | verbo (-ing) | admitir | Admitting uncertainty.
+undermines | undermine | verbo (3.ª persona) | socava | It undermines confidence.
+communicators | communicator | sustantivo (plural) | comunicadores | The best communicators.
+compassionately | - | adverbio | con compasión | Clearly and compassionately.
+outdated | - | adjetivo | obsoleto | An outdated intention.
+intention | - | sustantivo | intención | With the intention of...
+contributing | contribute | verbo (-ing) | aportar | Contributing ideas.
+exhausting | - | adjetivo | agotador | It's exhausting.
+risky | - | adjetivo | arriesgado | Risky and unnecessary.
+follows | follow | verbo (3.ª persona) | sigue | What follows is a guide.
+brilliance | - | sustantivo | genialidad, brillantez | A reputation for brilliance.
+carrying | carry | verbo (-ing) | cargando | Carrying documents.
+conveys | convey | verbo (3.ª persona) | transmite | It conveys importance.
+prepared | prepare | verbo (participio) | preparado | Prepared exhaustively.
+dare | - | verbo | atreverse | Nobody will dare to ask.
+observe | - | verbo | observar, comentar | Observe that...
+strategic | - | adjetivo | estratégico | Strategic restatement.
+restatement | - | sustantivo | reformulación | A clever restatement.
+preceded | precede | verbo (participio) | precedido | Preceded by a phrase.
+attributed | attribute | verbo (participio) | atribuido | Attributed to you.
+corporate | - | adjetivo | corporativo | Corporate life.
+fourth | - | número ordinal | cuarto | Fourth, ask questions.
+expansion | - | sustantivo | expansión | Global expansion.
+nod | - | verbo | asentir con la cabeza | Nod slowly.
+privately | - | adverbio | en privado | Privately reaching a conclusion.
+scandinavian | - | adjetivo | escandinavo | A Scandinavian university.
+ideal | - | adjetivo | ideal | It's ideal.
+citation | - | sustantivo | cita (bibliográfica) | Request the citation.
+long-established | - | adjetivo | establecido desde hace tiempo | A long-established convention.
+honoured | honour | verbo (participio) | cumplido, honrado | Never honoured.
+threatens | threaten | verbo (3.ª persona) | amenaza | It threatens to produce a decision.
+offline | - | adverbio | fuera de línea; aparte | Take it offline.
+foregoing | - | sustantivo | lo anterior | The foregoing.
+manoeuvres | manoeuvre | sustantivo (plural) | maniobras | These manoeuvres.
+credit | - | verbo | dar crédito, reconocer | Credit others generously.
+forgetting | forget | sustantivo | olvido | Forgetting was the default.
+default | - | sustantivo | opción por defecto | The default setting.
+decayed | decay | verbo (pasado) | se deterioraron | Records decayed.
+archives | archive | sustantivo (plural) | archivos | Archives burned.
+yellowed | yellow | verbo (pasado) | amarillearon | Newspapers yellowed.
+basements | basement | sustantivo (plural) | sótanos | Dusty basements.
+indiscretions | indiscretion | sustantivo (plural) | indiscreciones | Youthful indiscretions.
+youth | - | sustantivo | juventud | The indiscretions of youth.
+inverted | invert | verbo (participio) | invertido | It has inverted this.
+long-settled | - | adjetivo | saldado hace tiempo | A long-settled debt.
+surfacing | surface | verbo (-ing) | saliendo a la luz | Surfacing instantly.
+typed | type | verbo (participio) | escrito (a máquina/teclado) | Typed into a search engine.
+engine | - | sustantivo | motor (search engine: buscador) | A search engine.
+justice | - | sustantivo | justicia | The Court of Justice.
+union | - | sustantivo | unión | The European Union.
+objected | object | verbo (pasado) | objetó | He objected that...
+notices | notice | sustantivo (plural) | avisos | Newspaper notices.
+sixteen | - | número | dieciséis | Sixteen years earlier.
+ruled | rule | verbo (pasado) | dictaminó | The court ruled.
+engines | engine | sustantivo (plural) | motores (search engines: buscadores) | Search engines.
+remove | - | verbo | eliminar | Remove links.
+links | link | sustantivo (plural) | enlaces | Remove links.
+publisher's | publisher | sustantivo (posesivo) | del editor | The publisher's website.
+proponents | proponent | sustantivo (plural) | defensores | Proponents hailed it.
+hailed | hail | verbo (pasado) | aclamaron | They hailed the decision.
+vital | - | adjetivo | vital | A vital affirmation.
+permit | - | verbo | permitir | Permit them to move on.
+antecedents | antecedent | sustantivo (plural) | antecedentes | Clear antecedents.
+expunged | expunge | verbo (participio) | borrado | Records are expunged.
+enjoys | enjoy | verbo (3.ª persona) | goza de | Expression enjoys protection.
+exceptionally | - | adverbio | excepcionalmente | Exceptionally robust.
+protection | - | sustantivo | protección | Constitutional protection.
+contended | contend | verbo (pasado) | sostuvieron | They contended that...
+effectively | - | adverbio | de hecho, efectivamente | It effectively appointed...
+appointed | appoint | verbo (pasado) | nombró | It appointed corporations.
+corporations | corporation | sustantivo (plural) | corporaciones | Private corporations.
+arbiters | arbiter | sustantivo (plural) | árbitros | Arbiters of information.
+risked | risk | verbo (pasado) | se arriesgaba a | It risked being exploited.
+actors | actor | sustantivo (plural) | actores | Powerful actors.
+record | - | sustantivo | registro, historial | The public record.
+delicate | - | adjetivo | delicado | A delicate exercise.
+balancing | balance | sustantivo | equilibrio, ponderación | A balancing exercise.
+weighing | weigh | verbo (-ing) | sopesar | Weighing interests.
+applicant's | applicant | sustantivo (posesivo) | del solicitante | The applicant's interest.
+interest | - | sustantivo | interés | The public interest.
+public's | public | sustantivo (posesivo) | del público | The public's interest.
+individual's | individual | sustantivo (posesivo) | del individuo | An individual's history.
+delisted | delist | verbo (participio) | retirado de los resultados | It is delisted.
+official's | official | sustantivo (posesivo) | del funcionario | An official's conduct.
+touches | touch | verbo (3.ª persona) | toca | It touches on identity.
+retrievable | - | adjetivo | recuperable | Permanently retrievable.
+distinctively | - | adverbio | característicamente | Distinctively human.
 `;

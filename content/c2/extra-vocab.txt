@@ -1,0 +1,347 @@
+## Sustantivos
+connotation | connotación | A negative connotation. | Lengua y estilo
+brevity | brevedad | Brevity is the soul of wit. | Lengua y estilo
+fidelity | fidelidad | Fidelity to the original. | Lengua y estilo
+pun | juego de palabras | A clever pun. | Lengua y estilo
+footnote | nota al pie | See the footnote. | Lengua y estilo
+register | registro (lingüístico) | A formal register. | Lengua y estilo
+idiom | modismo | An English idiom. | Lengua y estilo
+nuance | matiz | Subtle nuances. | Lengua y estilo
+irony | ironía | A note of irony. | Lengua y estilo
+metaphor | metáfora | An extended metaphor. | Lengua y estilo
+euphemism | eufemismo | A polite euphemism. | Lengua y estilo
+understatement | atenuación, eufemismo | A British understatement. | Lengua y estilo
+hyperbole | hipérbole | Pure hyperbole. | Lengua y estilo
+cliché | cliché, lugar común | Avoid clichés. | Lengua y estilo
+rhetoric | retórica | Empty rhetoric. | Lengua y estilo
+eloquence | elocuencia | Remarkable eloquence. | Lengua y estilo
+interpreter | intérprete | A court interpreter. | Lengua y estilo
+quantification | cuantificación | Faith in quantification. | Gestión y sociedad
+accountability | rendición de cuentas | Public accountability. | Gestión y sociedad
+transparency | transparencia | Greater transparency. | Gestión y sociedad
+objectivity | objetividad | Scientific objectivity. | Gestión y sociedad
+fixation | obsesión, fijación | A fixation on numbers. | Gestión y sociedad
+array | conjunto, serie | An array of options. | Gestión y sociedad
+spreadsheet | hoja de cálculo | Update the spreadsheet. | Gestión y sociedad
+sanction | sanción | Economic sanctions. | Gestión y sociedad
+virtue | virtud | Patience is a virtue. | Gestión y sociedad
+scholar | académico, erudito | A respected scholar. | Gestión y sociedad
+critique | crítica (análisis) | A sharp critique. | Gestión y sociedad
+malady | mal, dolencia | A strange malady. | Emociones y mente
+melancholy | melancolía | A sense of melancholy. | Emociones y mente
+longing | anhelo | A deep longing. | Emociones y mente
+affliction | aflicción, padecimiento | A debilitating affliction. | Emociones y mente
+conviction | convicción | A firm conviction. | Emociones y mente
+regret | arrepentimiento | No regrets. | Emociones y mente
+mindset | mentalidad | A growth mindset. | Emociones y mente
+self-respect | amor propio | He lost his self-respect. | Emociones y mente
+absorption | absorción, concentración | Total absorption. | Emociones y mente
+reservation | reserva, duda | I have some reservations. | Emociones y mente
+injustice | injusticia | Historical injustices. | Emociones y mente
+hostility | hostilidad | Open hostility. | Emociones y mente
+lineage | linaje | A noble lineage. | Narrativa
+estuary | estuario | A bridge across the estuary. | Narrativa
+culvert | alcantarilla, desagüe | The canal became a culvert. | Narrativa
+reservoir | embalse | A new reservoir. | Narrativa
+thistle | cardo | A field of thistles. | Narrativa
+brickworks | ladrillera | A disused brickworks. | Narrativa
+cartographer | cartógrafo | The cartographer's daughter. | Narrativa
+crossword | crucigrama | He did the crossword. | Narrativa
+exactitude | exactitud | Drawn with exactitude. | Narrativa
+provision | disposición, cláusula | The main provisions. | Inglés jurídico
+clause | cláusula | A confidentiality clause. | Inglés jurídico
+party | parte (en un contrato) | Both parties agree. | Inglés jurídico
+third party | tercero | Disclosure to third parties. | Inglés jurídico
+breach | incumplimiento | A breach of contract. | Inglés jurídico
+remedy | recurso, reparación | Legal remedies. | Inglés jurídico
+damages | daños y perjuicios (indemnización) | Claim damages. | Inglés jurídico
+injunction | orden judicial (cautelar) | Seek an injunction. | Inglés jurídico
+jurisdiction | jurisdicción | In many jurisdictions. | Inglés jurídico
+termination | terminación, rescisión | Termination of the contract. | Inglés jurídico
+trade secret | secreto comercial | Protect trade secrets. | Inglés jurídico
+harassment | acoso | Workplace harassment. | Inglés jurídico
+discrimination | discriminación | Racial discrimination. | Inglés jurídico
+ruling | fallo, sentencia | A landmark ruling. | Inglés jurídico
+landmark | hito; histórico | A landmark judgement. | Inglés jurídico
+arbiter | árbitro, juez | Arbiters of truth. | Inglés jurídico
+rehabilitation | rehabilitación | Rehabilitation of offenders. | Inglés jurídico
+privacy | privacidad | The right to privacy. | Inglés jurídico
+liability | responsabilidad (legal) | Limited liability. | Inglés jurídico
+plaintiff | demandante | The plaintiff won. | Inglés jurídico
+defendant | acusado, demandado | The defendant denied it. | Inglés jurídico
+verdict | veredicto | A guilty verdict. | Inglés jurídico
+precedent | precedente | Set a precedent. | Inglés jurídico
+consortium | consorcio | A research consortium. | Inglés académico
+journal | revista académica | A prestigious journal. | Inglés académico
+hypothesis | hipótesis | Test the hypothesis. | Inglés académico
+methodology | metodología | A sound methodology. | Inglés académico
+sample size | tamaño de muestra | A small sample size. | Inglés académico
+threshold | umbral | The threshold of significance. | Inglés académico
+false positive | falso positivo | A false positive. | Inglés académico
+peer review | revisión por pares | Peer review takes months. | Inglés académico
+fraud | fraude | Scientific fraud. | Inglés académico
+vindication | reivindicación | A vindication of the method. | Inglés académico
+indictment | acusación, condena | An indictment of the system. | Inglés académico
+infallibility | infalibilidad | Nobody claims infallibility. | Inglés académico
+practitioner | profesional (que ejerce) | Medical practitioners. | Inglés académico
+discipline | disciplina, campo de estudio | Across the discipline. | Inglés académico
+likelihood | probabilidad | The likelihood of success. | Inglés médico
+baseline | línea de base | The baseline risk. | Inglés médico
+mortality | mortalidad | Mortality rates. | Inglés médico
+longevity | longevidad | Priority on longevity. | Inglés médico
+numeracy | competencia numérica | Low numeracy. | Inglés médico
+clinician | médico clínico | Clinicians must explain. | Inglés médico
+comprehension | comprensión | Reading comprehension. | Inglés médico
+deliberation | deliberación | Careful deliberation. | Inglés médico
+reassurance | tranquilidad, consuelo | False reassurance. | Inglés médico
+manoeuvre | maniobra | A political manoeuvre. | Mundo corporativo
+antidote | antídoto | The best antidote. | Mundo corporativo
+kettle | hervidor | The office kettle. | Mundo corporativo
+minutes | acta (de reunión) | Take the minutes. | Mundo corporativo
+synergy | sinergia | Corporate synergy. | Mundo corporativo
+buzzword | palabra de moda | Corporate buzzwords. | Mundo corporativo
+indiscretion | indiscreción | Youthful indiscretions. | Sociedad digital
+backdrop | telón de fondo | Against this backdrop. | Sociedad digital
+affirmation | afirmación, reafirmación | An affirmation of privacy. | Sociedad digital
+antecedent | antecedente | Historical antecedents. | Sociedad digital
+erosion | erosión, desgaste | The erosion of trust. | Sociedad digital
+abundance | abundancia | An abundance of choice. | Sociedad digital
+inference | inferencia | A reasonable inference. | Sociedad digital
+multiplication | multiplicación | The multiplication of options. | Sociedad digital
+testament | testimonio, prueba | A testament to her talent. | Crítica literaria
+premise | premisa | The novel's premise. | Crítica literaria
+subplot | trama secundaria | A weak subplot. | Crítica literaria
+meditation | meditación, reflexión | A meditation on memory. | Crítica literaria
+flaw | defecto | A fatal flaw. | Crítica literaria
+preciousness | afectación, preciosismo | It tips into preciousness. | Crítica literaria
+contemporary | contemporáneo (persona) | Her contemporaries. | Crítica literaria
+revelation | revelación | A shocking revelation. | Crítica literaria
+disservice | perjuicio, flaco favor | It does them a disservice. | Discurso
+accomplishment | logro | A great accomplishment. | Discurso
+stepping stone | trampolín, paso intermedio | A stepping stone to success. | Discurso
+
+## Verbos
+circulate | circular | Rumours circulate online. | Lengua y estilo
+render | traducir, plasmar; volver | Render the meaning faithfully. | Lengua y estilo
+distort | distorsionar | Distort the sense. | Lengua y estilo
+allude | aludir | She alluded to the scandal. | Lengua y estilo
+decode | descifrar | Decode the message. | Lengua y estilo
+mystify | desconcertar | It would mystify readers. | Lengua y estilo
+contend | sostener, afirmar | Scholars contend that... | Registro académico
+curdle | agriarse, cortarse | Faith curdled into obsession. | Registro académico
+optimise | optimizar | Optimise for the number. | Registro académico
+reclassify | reclasificar | Reclassify offences. | Registro académico
+devalue | devaluar, menospreciar | Devalue what can't be counted. | Registro académico
+demoralise | desmoralizar | Staff were demoralised. | Registro académico
+verify | verificar | Verify the data. | Registro académico
+approximate | aproximarse a | Approximate reality. | Registro académico
+coin | acuñar (un término) | He coined the word. | Registro académico
+trigger | desencadenar | Songs trigger nostalgia. | Registro académico
+disparage | menospreciar | Nostalgia is disparaged. | Registro académico
+omit | omitir | It omits the injustices. | Registro académico
+idealise | idealizar | Idealise the past. | Registro académico
+legitimise | legitimar | Legitimise hostility. | Registro académico
+induce | inducir | Induce a feeling. | Registro académico
+dwell on | darle vueltas a, detenerse en | Don't dwell on the past. | Registro académico
+discern | discernir | Discern a pattern. | Registro académico
+annotate | anotar | Annotated maps. | Registro académico
+depict | representar, retratar | The map depicts our street. | Registro académico
+disclose | revelar, divulgar | Disclose information. | Inglés jurídico
+stipulate | estipular | The contract stipulates... | Inglés jurídico
+encompass | abarcar | It encompasses everything. | Inglés jurídico
+deem | considerar, estimar | Deemed unreasonable. | Inglés jurídico
+constitute | constituir | It constitutes a breach. | Inglés jurídico
+compel | obligar | Compel the recipient to stop. | Inglés jurídico
+conceal | ocultar | Conceal the truth. | Inglés jurídico
+purport | pretender, aparentar | Clauses purporting to silence staff. | Inglés jurídico
+expunge | borrar (antecedentes) | Expunge criminal records. | Inglés jurídico
+delist | retirar de la lista | Delist a link. | Inglés jurídico
+rule | fallar, dictaminar | The court ruled that... | Inglés jurídico
+hail | aclamar | Hailed as a victory. | Inglés jurídico
+sanitise | maquillar, depurar | Sanitise their records. | Inglés jurídico
+replicate | replicar | Replicate the study. | Inglés académico
+skew | sesgar | Skew the results. | Inglés académico
+nudge | empujar suavemente | Nudge people towards... | Inglés académico
+scrutinise | escudriñar | Scrutinise the data. | Inglés académico
+withstand | resistir | Withstand testing. | Inglés académico
+crystallise | cristalizar | Crystallise the debate. | Inglés académico
+languish | languidecer | Languish unpublished. | Inglés académico
+compound | agravar | Compounding the problem. | Inglés académico
+sway | influir, convencer | Swayed by the numbers. | Inglés médico
+weigh against | sopesar frente a | Weigh benefits against risks. | Inglés médico
+prize | valorar mucho | She prizes her independence. | Inglés médico
+paralyse | paralizar | Too much choice paralyses us. | Psicología
+linger | permanecer, persistir | Doubts linger. | Psicología
+curtail | restringir, recortar | Curtail freedom. | Psicología
+settle for | conformarse con | Settle for less. | Psicología
+diminish | disminuir, menoscabar | Diminish its value. | Discurso
+culminate | culminar | It culminated in a grade. | Discurso
+redeem | redimir, compensar | Redeemed by success. | Discurso
+excise | suprimir, extirpar | The name was excised. | Crítica literaria
+disinter | desenterrar | A secret disinterred. | Crítica literaria
+interrogate | cuestionar, examinar | Interrogate the impulse. | Crítica literaria
+appropriate | apropiarse de | Appropriate others' lives. | Crítica literaria
+brace oneself | prepararse (para algo malo) | I braced myself. | Crítica literaria
+deploy | desplegar, emplear | Deploy every trick. | Mundo corporativo
+attribute | atribuir | Attributed to you. | Mundo corporativo
+circle back | retomar (más tarde) | Let's circle back to this. | Mundo corporativo
+take offline | tratar aparte | Let's take this offline. | Mundo corporativo
+facilitate | facilitar | Facilitate rehabilitation. | Sociedad digital
+invert | invertir | The internet inverted this. | Sociedad digital
+surface | salir a la luz | Old articles surface. | Sociedad digital
+pursue | perseguir | It pursues them for decades. | Sociedad digital
+belie | desmentir, ocultar | Her smile belied her fear. | Verbos C2
+eschew | evitar, rehuir | Eschew jargon. | Verbos C2
+exacerbate | exacerbar | It exacerbates tension. | Verbos C2
+obfuscate | ofuscar, oscurecer | Obfuscate the truth. | Verbos C2
+substantiate | fundamentar, probar | Substantiate your claims. | Verbos C2
+corroborate | corroborar | Witnesses corroborated it. | Verbos C2
+extrapolate | extrapolar | Don't extrapolate too far. | Verbos C2
+galvanise | galvanizar, impulsar | Galvanise support. | Verbos C2
+placate | apaciguar | Placate the critics. | Verbos C2
+relinquish | renunciar a, ceder | Relinquish control. | Verbos C2
+vindicate | reivindicar | The results vindicated her. | Verbos C2
+underpin | sustentar | The data underpin the claim. | Verbos C2
+
+## Adjetivos
+untranslatable | intraducible | An untranslatable word. | Lengua y estilo
+scrupulous | escrupuloso | Scrupulous accuracy. | Lengua y estilo
+voluminous | voluminoso, copioso | Voluminous notes. | Lengua y estilo
+unfaithful | infiel | An unfaithful translation. | Lengua y estilo
+idiomatic | idiomático | Idiomatic English. | Lengua y estilo
+supple | flexible, ágil | A supple prose. | Lengua y estilo
+sardonic | sardónico | A sardonic tone. | Lengua y estilo
+oblique | indirecto | An oblique ending. | Lengua y estilo
+figurative | figurado | Figurative language. | Lengua y estilo
+unimpeachable | irreprochable | An unimpeachable source. | Registro académico
+perverse | perverso, contraproducente | Perverse incentives. | Registro académico
+eponymous | epónimo, homónimo | His eponymous law. | Registro académico
+unquantifiable | incuantificable | Unquantifiable qualities. | Registro académico
+punitive | punitivo | Punitive measures. | Registro académico
+ambivalent | ambivalente | An ambivalent attitude. | Registro académico
+regressive | regresivo | Regressive policies. | Registro académico
+pernicious | pernicioso | A pernicious influence. | Registro académico
+debilitating | debilitante | A debilitating illness. | Registro académico
+coherent | coherente | A coherent narrative. | Registro académico
+redemptive | redentor | A redemptive arc. | Registro académico
+irrecoverable | irrecuperable | An irrecoverable past. | Registro académico
+uncanny | inquietante, extraño | An uncanny feeling. | Narrativa
+disused | en desuso | A disused factory. | Narrativa
+unhurried | pausado | An unhurried pace. | Narrativa
+meticulous | meticuloso | Meticulous work. | Narrativa
+consequential | trascendental | A consequential decision. | Inglés jurídico
+unenforceable | inaplicable (legalmente) | An unenforceable clause. | Inglés jurídico
+lawful | legal, lícito | Lawful possession. | Inglés jurídico
+void | nulo | Declared void. | Inglés jurídico
+inadequate | inadecuado, insuficiente | An inadequate remedy. | Inglés jurídico
+unilateral | unilateral | A unilateral agreement. | Inglés jurídico
+mutual | mutuo | A mutual agreement. | Inglés jurídico
+constitutional | constitucional | Constitutional rights. | Inglés jurídico
+prestigious | prestigioso | A prestigious journal. | Inglés académico
+spurious | espurio, falso | Spurious results. | Inglés académico
+unglamorous | poco glamuroso | Unglamorous work. | Inglés académico
+interim | provisional | Interim results. | Inglés académico
+structural | estructural | Structural problems. | Inglés académico
+affluent | acomodado, rico | Affluent societies. | Sociedad
+unqualified | absoluto, sin reservas | An unqualified success. | Sociedad
+inexhaustible | inagotable | An inexhaustible supply. | Sociedad
+counterintuitive | contraintuitivo | A counterintuitive result. | Sociedad
+trivial | trivial | Trivial decisions. | Sociedad
+revisable | revisable | Perpetually revisable. | Sociedad
+arduous | arduo | An arduous task. | Sociedad
+unflattering | poco favorecedor | An unflattering photo. | Sociedad
+ill-judged | imprudente, desacertado | An ill-judged comment. | Sociedad
+formidable | formidable, temible | Formidable gifts. | Crítica literaria
+defunct | desaparecido, extinto | A defunct company. | Crítica literaria
+perfunctory | superficial, por cumplir | A perfunctory reply. | Crítica literaria
+estranged | distanciado | His estranged son. | Crítica literaria
+absorbing | absorbente | An absorbing story. | Crítica literaria
+relentless | implacable | Relentless pressure. | Discurso
+proficient | competente, hábil | Proficient in English. | Discurso
+glib | simplista, fácil | A glib answer. | Discurso
+compassionate | compasivo | A compassionate doctor. | Inglés médico
+definitive | definitivo | A definitive answer. | Inglés médico
+unverifiable | inverificable | Unverifiable claims. | Mundo corporativo
+scalable | escalable | A scalable model. | Mundo corporativo
+insightful | perspicaz | An insightful comment. | Mundo corporativo
+unfashionable | pasado de moda | An unfashionable idea. | Mundo corporativo
+ephemeral | efímero | Ephemeral fame. | Adjetivos C2
+esoteric | esotérico | Esoteric knowledge. | Adjetivos C2
+fastidious | quisquilloso, meticuloso | A fastidious editor. | Adjetivos C2
+gratuitous | gratuito, injustificado | Gratuitous violence. | Adjetivos C2
+inscrutable | inescrutable | An inscrutable smile. | Adjetivos C2
+intractable | intratable, insoluble | An intractable problem. | Adjetivos C2
+laconic | lacónico | A laconic reply. | Adjetivos C2
+magnanimous | magnánimo | A magnanimous gesture. | Adjetivos C2
+obsequious | servil | An obsequious waiter. | Adjetivos C2
+pragmatic | pragmático | A pragmatic approach. | Adjetivos C2
+quintessential | por excelencia | The quintessential English pub. | Adjetivos C2
+recalcitrant | recalcitrante | A recalcitrant child. | Adjetivos C2
+sanguine | optimista | She's sanguine about it. | Adjetivos C2
+tenuous | tenue, débil | A tenuous link. | Adjetivos C2
+venerable | venerable | A venerable institution. | Adjetivos C2
+
+## Adverbios
+invariably | invariablemente | Invariably late. | Registro académico
+implicitly | implícitamente | Implicitly devalued. | Registro académico
+readily | fácilmente, de buena gana | Readily available. | Registro académico
+mechanically | mecánicamente | Tied mechanically to rewards. | Registro académico
+diagnostically | con fines de diagnóstico | Used diagnostically. | Registro académico
+routinely | rutinariamente | Routinely ignored. | Registro académico
+irreversibly | irreversiblemente | Irreversibly changed. | Registro académico
+meticulously | meticulosamente | Meticulously drawn. | Narrativa
+faintly | levemente | Faintly uncanny. | Narrativa
+expressly | expresamente | Expressly excluded. | Inglés jurídico
+indefinitely | indefinidamente | Postponed indefinitely. | Inglés jurídico
+independently | independientemente | Developed independently. | Inglés jurídico
+systematically | sistemáticamente | Systematically skewed. | Inglés académico
+unconsciously | inconscientemente | Often unconsciously. | Inglés académico
+belatedly | tardíamente | Belatedly recognised. | Inglés académico
+markedly | notablemente | Markedly improved. | Inglés médico
+squarely | de lleno, directamente | Squarely on the chooser. | Psicología
+perpetually | perpetuamente | Perpetually revisable. | Psicología
+achingly | dolorosamente | Achingly lonely. | Crítica literaria
+superbly | magníficamente | Superbly written. | Crítica literaria
+gloriously | gloriosamente | Gloriously wrong. | Discurso
+conceivably | posiblemente, concebiblemente | It could conceivably work. | Discurso
+exhaustively | exhaustivamente | Prepared exhaustively. | Discurso
+thereafter | a partir de entonces | Thereafter, he was famous. | Discurso
+whatsoever | en absoluto | Nothing whatsoever. | Discurso
+
+## Conectores
+inasmuch as | en la medida en que | Inasmuch as it helps. | Registro formal
+insofar as | en la medida en que | Insofar as I know. | Registro formal
+lest | para que no, por miedo a que | Lest we forget. | Registro formal
+whereupon | tras lo cual | Whereupon he left. | Registro formal
+be that as it may | sea como sea | Be that as it may, we must act. | Registro formal
+by the same token | del mismo modo | By the same token, we should listen. | Registro formal
+on the grounds that | basándose en que | On the grounds that it's unfair. | Registro formal
+in the event of | en caso de | In the event of a breach. | Registro formal
+pursuant to | conforme a | Pursuant to the contract. | Registro formal
+hitherto | hasta ahora | Hitherto unknown. | Registro formal
+notwithstanding | sin perjuicio de | Notwithstanding the above. | Registro formal
+then again | por otro lado | Then again, maybe not. | Registro formal
+for what it's worth | por si sirve de algo | For what it's worth, I agree. | Registro formal
+it bears emphasising that | cabe recalcar que | It bears emphasising that... | Registro formal
+
+## Expresiones
+The spirit rather than the letter | el espíritu más que la letra | Follow the spirit rather than the letter. | Modismos C2
+Keep one's nerve | mantener la calma, no flaquear | If they keep their nerve. | Modismos C2
+Come to pass | suceder, cumplirse | It never came to pass. | Modismos C2
+Hold to account | pedir cuentas | Hold leaders to account. | Modismos C2
+At the expense of | a costa de | At the expense of quality. | Modismos C2
+A figure of speech | una forma de hablar | It's just a figure of speech. | Modismos C2
+Take a step back | tomar distancia | Let's take a step back. | Modismos C2
+The bigger picture | el panorama general | Look at the bigger picture. | Modismos C2
+What is at stake | lo que está en juego | Understand what is at stake. | Modismos C2
+Well worth the effort | vale mucho la pena | It's well worth the effort. | Modismos C2
+Tip into | caer en, derivar hacia | Confidence tipped into arrogance. | Modismos C2
+Send shockwaves through | causar conmoción en | It sent shockwaves through science. | Modismos C2
+A double bind | un callejón sin salida | We're in a double bind. | Modismos C2
+Moot point | cuestión discutible, irrelevante | It's a moot point now. | Modismos C2
+Hit the nail on the head | dar en el clavo | You hit the nail on the head. | Modismos C2
+A Pyrrhic victory | una victoria pírrica | It was a Pyrrhic victory. | Modismos C2
+Pay lip service to | apoyar solo de palabra | They pay lip service to equality. | Modismos C2
+Throw the baby out with the bathwater | tirar lo bueno junto con lo malo | Don't throw the baby out with the bathwater. | Modismos C2
+Not everything that counts can be counted | no todo lo que importa se puede medir | Remember: not everything that counts can be counted. | Citas
+Lest we forget | para que no olvidemos | Lest we forget. | Citas

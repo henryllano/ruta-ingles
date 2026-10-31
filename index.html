@@ -645,11 +645,11 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="vocab-extra.js?v=202610311300"></script>
-<script src="vocab.js?v=202610211452"></script>
-<script src="readings.js?v=202610211452"></script>
-<script src="dict.js?v=202610211452"></script>
-<script src="lessons.js?v=202610211452"></script>
+<script src="vocab-extra.js?v=202610311413"></script>
+<script src="vocab.js?v=202610311413"></script>
+<script src="readings.js?v=202610311413"></script>
+<script src="dict.js?v=202610311413"></script>
+<script src="lessons.js?v=202610311413"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1547,7 +1547,8 @@ function readList(L){
   $("exSteps").innerHTML=`<span class="on">Lecturas ${LV[L].k}</span>`;addBack();
   const rs=(window.READINGS||[])[L]||[];
   body.innerHTML=`<h2>Lecturas ${LV[L].k}</h2><p class="lead">Dale reproducir para escuchar el texto mientras se resalta cada palabra. Toca cualquier palabra para ver su significado. Después léelo tú en voz alta y mira tu puntaje de pronunciación.</p>
-    <div class="rlist">${rs.map((r,i)=>{const b=readBest(L,i);return `<button class="ritem" data-i="${i}"><div><b lang="en">${esc(r.title)}</b><span>${esc(r.es)} · ${r.text.split(/\s+/).length} palabras</span></div><span class="pill">${b!=null?`Pronunciación ${b} %`:"Sin leer"}</span></button>`}).join("")}</div>`;
+    ${[["Lecturas del curso","Van con las lecciones de cada unidad.",0,6],["Lecturas extra","Más práctica de lectura y vocabulario de este nivel.",6,rs.length]].filter(g=>g[3]>g[2]).map(([h,sub,from,to])=>`<h3 style="margin:26px 0 4px">${h} <small style="color:var(--mute);font-weight:600">· ${to-from}</small></h3><p style="color:var(--mute);margin:0 0 12px">${sub}</p>
+    <div class="rlist">${rs.slice(from,to).map((r,j)=>{const i=from+j,b=readBest(L,i);return `<button class="ritem" data-i="${i}"><div><b lang="en">${esc(r.title)}</b><span>${esc(r.es.replace(/ · Lectura extra$/,""))} · ${r.text.split(/\s+/).length} palabras</span></div><span class="pill">${b!=null?`Pronunciación ${b} %`:"Sin leer"}</span></button>`}).join("")}</div>`).join("")}`;
   body.querySelectorAll(".ritem").forEach(b=>b.onclick=()=>reader(L,+b.dataset.i));
 }
 const TOK_RE=/[A-Za-zÀ-ÿ]+(?:['’][A-Za-z]+)*(?:-[A-Za-zÀ-ÿ]+)*['’]?/g;
@@ -1605,8 +1606,9 @@ function wordSheet(k){
   $("rText").querySelectorAll(".w.sel").forEach(x=>x.classList.remove("sel"));$("rText").querySelector(`.w[data-k="${k}"]`).classList.add("sel");
   const el=document.createElement("div");el.className="wsheet";el.setAttribute("role","dialog");el.setAttribute("aria-label","Significado de "+t.w);
   el.innerHTML=`<div class="wt"><b lang="en">${esc(t.w)}</b><button class="vplay" id="wsPlay" aria-label="Escuchar">${ICON_SPK}</button>${d?`<span class="pos">${esc(d.pos)}</span>`:""}<button class="x" id="wsX" aria-label="Cerrar">✕</button></div>
-    ${d?`${d.base&&d.base!=="-"?`<div class="note">Forma base: <b lang="en">${esc(d.base)}</b></div>`:""}<div class="wm">${esc(d.m)}</div><p class="we" lang="en">${esc(d.e)}</p>`:`<div class="note">Todavía no tenemos esta palabra en el diccionario.</div>`}`;
+    ${d?`${d.base&&d.base!=="-"?`<div class="note">Forma base: <b lang="en">${esc(d.base)}</b></div>`:""}<div class="wm">${esc(d.m)}</div><p class="we" lang="en">${esc(d.e)}</p>`:`<div class="note">Todavía no tenemos esta palabra en el diccionario.</div><button class="ibtn" id="wsTr" style="margin-top:8px">🌐 Traducir</button><div class="wm" id="wsTrOut"></div>`}`;
   document.body.appendChild(el);
+  if($("wsTr"))$("wsTr").onclick=async()=>{$("wsTrOut").textContent="Traduciendo…";const r=await translateText(t.w,"en","es");$("wsTrOut").textContent=r.t+(r.offline?" (sin conexión)":"")};
   $("wsPlay").onclick=()=>speakTTS(t.w+(d?". "+d.e:""));$("wsX").onclick=()=>{el.remove();$("rText")&&$("rText").querySelectorAll(".w.sel").forEach(x=>x.classList.remove("sel"))};
   speakTTS(t.w);
 }
