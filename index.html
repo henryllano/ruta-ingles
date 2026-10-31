@@ -463,6 +463,7 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
 .fab:hover{background:#26305a}.fab svg{width:20px;height:20px}
 .tpanel{position:fixed;right:16px;bottom:80px;z-index:121;width:min(420px,calc(100vw - 32px));max-height:min(640px,calc(100vh - 110px));display:flex;flex-direction:column;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:14px;box-shadow:0 24px 60px -20px rgba(0,0,0,.45);overflow:hidden}
 .tpanel[hidden]{display:none}
+.srow.locked{opacity:.55}.srow.locked .stitle b::after{content:" 🔒"}
 .srsbox{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;border:1px solid var(--line);border-left:6px solid var(--mint);border-radius:10px;padding:18px 20px;margin-bottom:34px;background:var(--soft)}
 .srsbox.due{border-left-color:var(--sun)}.srsbox b{display:block;font-size:18px;margin-bottom:4px}.srsbox span{color:var(--mute)}
 #exBody{padding-bottom:96px}footer{padding-bottom:88px}
@@ -790,7 +791,7 @@ function render(){if(typeof renderSrs==="function")renderSrs();
     const st=curStudent(),q=st&&st.quiz&&st.quiz[i],un=unlocked(i),qb=c.querySelector(".btn-q"),qs=c.querySelector(".qz .qstat");
     qb.disabled=!un;qb.textContent=q&&q.passed?"Repetir quiz":q?"Reintentar":"Hacer quiz";
     if(SYL(i)){const ls=sylSteps(i).filter(x=>x.type==="lesson"),dn=ls.filter(x=>isDone(x.key)).length,fp=getProg(finKey(i));
-      qb.textContent="Ver temario";qs.className="qstat"+(fp&&fp.passed?" ok":"");qs.innerHTML=fp&&fp.passed?`${ICON_OK} Nivel aprobado · ${fp.best} %`:`Temario: <b style="color:var(--ink)">${dn}/${ls.length}</b> lecciones`;c.classList.toggle("locked",!un);return}
+      qb.textContent="Ver temario";qs.className="qstat"+(fp&&fp.passed?" ok":"");qs.innerHTML=!un?`${ICON_LOCK} ${placedOf(st)==null?"Presenta el examen de nivel":`Aprueba ${LV[i-1].k} para abrir`}`:fp&&fp.passed?`${ICON_OK} Nivel aprobado · ${fp.best} %`:`Temario: <b style="color:var(--ink)">${dn}/${ls.length}</b> lecciones`;if(!un)qb.textContent="Bloqueado";c.classList.toggle("locked",!un);return}
     qs.className="qstat"+(q&&q.passed?" ok":"");
     qs.innerHTML=q&&q.passed?`${ICON_OK} Aprobado · ${q.best} %`:!un?`${ICON_LOCK} Aprueba ${LV[i-1].k} para abrir`:q?`Último: ${q.last} % · necesitas ${PASS} %`:"Quiz disponible";
     c.classList.toggle("locked",!un);
@@ -990,15 +991,15 @@ const STEPS=["Registro","Escucha","Escrito","Redacción","Hablado","Resultado"];
 let X;
 const exam=$("exam"),body=$("exBody");
 function newExam(){X={step:0,name:"",email:"",idx:0,sel:null,plays:0,ans:{listen:[],written:[]},essay:"",sp:[],spSkip:false,spErr:null,result:null}}
-document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||""}
+document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||"";X.step=1;X.forced=mustPlace()}
   OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender()}});
 function closeExam(){OV=null;if(typeof stopScene==="function")stopScene();LVBACK=null;if(typeof stopReader==="function")stopReader();body.style.maxWidth="";stopRec();stopSpeak();exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
-function renderCloseBtn(confirm){if(OV==="who"&&!curStudent()){$("exCloseWrap").innerHTML="";return}$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
+function renderCloseBtn(confirm){if((OV==="who"&&!curStudent())||(OV==="exam"&&X&&X.forced&&X.step<5)){$("exCloseWrap").innerHTML="";return}$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
   if(confirm){$("exYes").onclick=closeExam;$("exNo").onclick=()=>renderCloseBtn(false)}else $("exClose").onclick=()=>needConfirm()?renderCloseBtn(true):closeExam()}
 let OV=null;
 const needConfirm=()=>(OV==="exam"&&X&&X.step>0&&X.step<5)||(OV==="quiz"&&Q&&!Q.done&&Q.i>0);
 renderCloseBtn(false);
-addEventListener("keydown",e=>{if(e.key==="Escape"&&!exam.hidden&&!(OV==="who"&&!curStudent()))renderCloseBtn(true)});
+addEventListener("keydown",e=>{if(e.key==="Escape"&&!exam.hidden&&!(OV==="who"&&!curStudent())&&!(OV==="exam"&&X&&X.forced&&X.step<5))renderCloseBtn(true)});
 
 function go(step){X.step=step;X.idx=0;X.sel=null;X.plays=0;X.spErr=null;exRender();exam.scrollTop=0}
 function exRender(){
@@ -1111,8 +1112,8 @@ function finish(){
   const parts=[[s.listen,.35],[s.written,.35],[s.essay,.10]];if(s.speak!=null)parts.push([s.speak,.20]);
   const pts=Math.round(parts.reduce((a,[p,w])=>a+p*w,0)/parts.reduce((a,[,w])=>a+w,0));
   X.result={pts,s,date:Date.now()};
-  ensureStudent(X.name,X.email);
-  const db=loadDB(),st=db.find(x=>x.id===S.student);st.results.push(X.result);saveDB(db);renderResults();
+  if(!curStudent())ensureStudent(X.name,X.email);
+  const db=loadDB(),st=db.find(x=>x.id===S.student);st.results.push(X.result);if(st.placed==null)st.placed=lvOf(pts).i;saveDB(db);renderResults();render();
   go(5);
 }
 function stepResult(){
@@ -1130,9 +1131,11 @@ function stepResult(){
       <div class="rq"><span class="tagline">${a.k} · ${LV[a.lv].k}</span>${esc(a.it.q)}</div>
       <div>Tu respuesta: <b>${esc(a.given||"—")}</b></div>${a.ok?"":`<div>Correcta: <b>${esc(a.it.o[a.it.a])}</b></div>`}
       ${a.it.say&&!a.ok?`<div class="rx">El audio decía: “${esc(a.it.say)}”</div>`:""}</li>`).join("")}</ul></details>
-    <div class="ex-actions"><button class="btn dark" id="again">Repetir examen</button><button class="btn sun" id="toPlan">Ver mi plan desde ${L.k}</button></div>`;
+    ${LOCK_LEVELS?`<div class="tipbox" style="margin-top:18px"><b>Niveles habilitados:</b> ${LV.slice(0,(placedOf(curStudent())??L.i)+1).map(l=>l.k).join(", ")}. Los siguientes se abren a medida que apruebes las lecciones y el examen final de cada nivel.</div>`:""}
+    <div class="ex-actions">${X.forced?"":`<button class="btn dark" id="again">Repetir examen</button>`}<button class="btn ${X.forced?"dark":"sun"}" id="toPlan">Ver mi plan desde ${L.k}</button>${X.forced?`<button class="btn sun" id="toLevel">Empezar en ${LV[placedOf(curStudent())??L.i].k}</button>`:""}</div>`;
   requestAnimationFrame(()=>requestAnimationFrame(()=>body.querySelectorAll(".sbar i").forEach(i=>i.style.width=i.dataset.w+"%")));
-  $("again").onclick=()=>{newExam();exRender()};
+  if($("again"))$("again").onclick=()=>{newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||"";X.step=1};exRender()};
+  if($("toLevel"))$("toLevel").onclick=()=>{X.forced=false;openLevel(placedOf(curStudent())??L.i)};
   $("toPlan").onclick=()=>{S.startPts=pts;S.target=Math.max(S.target,Math.min(5,L.i+1));closeExam();render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})};
 }
 
@@ -1145,9 +1148,27 @@ function ensureStudent(name,email){const db=loadDB(),id=email?email.toLowerCase(
   let st=db.find(x=>x.id===id)||db.find(x=>x.name.toLowerCase()===name.toLowerCase()&&!x.email);
   if(!st){st={id,name,email,results:[],quiz:{}};db.push(st)}
   st.name=name;if(email){st.email=email}st.quiz=st.quiz||{};saveDB(db);S.student=st.id;save();renderWho();return st}
-/* bloqueo progresivo de niveles: apagado mientras se revisa el contenido; cambiar a true para exigir aprobar el anterior */
-const LOCK_LEVELS=false;
-function unlocked(i){if(i===0||!LOCK_LEVELS)return true;const st=curStudent();return !!(st&&((st.quiz&&st.quiz[i-1]&&st.quiz[i-1].passed)||(st.prog&&st.prog[(i-1)+"-final"]&&st.prog[(i-1)+"-final"].passed)))}
+/* acceso por niveles: el examen de nivel es obligatorio al inscribirse.
+   Se abren el nivel donde quedó y todos los de abajo; los de arriba se abren al aprobar el examen final del anterior,
+   y dentro de esos niveles cada lección se abre al aprobar la anterior.
+   Modo revisión (para los dueños del curso): abrir la página con #revision deja todo abierto en ese navegador; #normal lo quita. */
+const LOCK_LEVELS=true;
+function applyReviewHash(){try{const h=location.hash;if(!/revision|normal/i.test(h))return false;
+  if(/revision/i.test(h))localStorage.setItem("ruta3-review","1");else localStorage.removeItem("ruta3-review");
+  history.replaceState(null,"",location.pathname+location.search);return true}catch(e){return false}}
+applyReviewHash();
+addEventListener("hashchange",()=>{if(applyReviewHash())location.reload()});
+const reviewMode=()=>{try{return localStorage.getItem("ruta3-review")==="1"}catch(e){return false}};
+function placedOf(st){if(!st)return null;if(st.placed!=null)return st.placed;const r=(st.results||[]).slice().sort((a,b)=>a.date-b.date)[0];return r?lvOf(r.pts).i:null}
+const mustPlace=()=>LOCK_LEVELS&&!reviewMode()&&!!curStudent()&&placedOf(curStudent())==null;
+function unlocked(i){if(!LOCK_LEVELS||reviewMode())return true;const st=curStudent(),pl=placedOf(st);if(pl==null)return false;if(i<=pl)return true;
+  return !!(st.prog&&st.prog[(i-1)+"-final"]&&st.prog[(i-1)+"-final"].passed)}
+/* dentro de un nivel por encima del ubicado, cada paso se abre cuando se aprueba el anterior */
+function stepOpen(L,key){if(!unlocked(L))return false;if(!LOCK_LEVELS||reviewMode())return true;const pl=placedOf(curStudent());if(pl!=null&&L<=pl)return true;
+  const st=sylSteps(L),i=st.findIndex(s=>s.key===key);return i<=0||st.slice(0,i).every(s=>isDone(s.key))}
+function lockReason(L){const pl=placedOf(curStudent());return pl==null?"Primero presenta el examen de nivel.":`Este nivel se abre cuando apruebes el examen final de ${LV[L-1].k}.`}
+function requirePlacement(){if(!mustPlace())return false;newExam();const st=curStudent();X.name=st.name;X.email=st.email||"";X.step=1;X.forced=true;
+  OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender();return true}
 function renderWho(){const st=curStudent(),b=$("whoBtn");
   b.innerHTML=st?`<b>${esc(st.name.trim()[0].toUpperCase())}</b><span>${esc(st.name.split(" ")[0])} · Mi cuenta</span>`:`<b>+</b><span>Entrar</span>`;
   b.setAttribute("aria-label",st?`Estudiando como ${st.name}. Mi cuenta`:"Entrar")}
@@ -1170,11 +1191,14 @@ const pwField=(id,label,ac)=>`<div class="field"><label for="${id}">${label}</la
 function eyes(){body.querySelectorAll("[data-eye]").forEach(b=>b.onclick=()=>{const i=$(b.dataset.eye),sh=i.type==="password";i.type=sh?"text":"password";b.textContent=sh?"Ocultar":"Ver"})}
 function whoView(after,step,pre){
   $("exSteps").innerHTML=`<span class="on">${step==="new"?"Registro":step==="setpw"?"Contraseña":step==="account"?"Mi cuenta":"Entrar"}</span>`;
-  const done=()=>{render();renderResults();renderCloseBtn(false);after?after():closeExam()};
+  const done=()=>{render();renderResults();renderCloseBtn(false);if(requirePlacement())return;after?after():closeExam()};
   const enter=st=>{S.student=st.id;save();renderWho();done()};
   const err=t=>{$("wErr").textContent=t};
   if(step==="account"){const st=curStudent();
+    const pl=placedOf(st);
     body.innerHTML=`<h2>Mi cuenta</h2><p class="lead">Estás estudiando como <b>${esc(st.name)}</b>${st.user?` (usuario <b>${esc(st.user)}</b>)`:""}. Tu avance se guarda en esta cuenta.</p>
+    ${pl!=null?`<p>Tu examen de nivel te ubicó en <b>${LV[pl].k}</b>. Tienes abiertos: ${LV.filter((l,i)=>unlocked(i)).map(l=>l.k).join(", ")}.</p>`:""}
+    ${reviewMode()?`<div class="tipbox"><b>Modo revisión activo en este navegador:</b> todos los niveles y lecciones están abiertos. Para quitarlo, abre la página con <b>#normal</b> al final de la dirección.</div>`:""}
     <div class="ex-actions"><button class="linkbtn" type="button" id="wOut">Cerrar sesión</button><button class="btn sun" type="button" id="wStay">Seguir estudiando</button></div>`;
     $("wOut").onclick=logout;$("wStay").onclick=closeExam;return}
   if(step==="setpw"){const st=pre;
@@ -1569,7 +1593,12 @@ function vCards(){
 /* ================= página de nivel ================= */
 let LVBACK=null;
 function addBack(){if(LVBACK==null)return;const b=document.createElement("button");b.className="back";b.textContent="← Nivel "+LV[LVBACK].k;b.onclick=()=>{stopReader();openLevel(LVBACK)};$("exSteps").prepend(b)}
-function openLevel(L){OV="level";LVBACK=L;exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
+function openLevel(L){if(curStudent()&&requirePlacement())return;
+  if(curStudent()&&!unlocked(L)){OV="level";LVBACK=null;exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);body.style.maxWidth="";
+    $("exSteps").innerHTML=`<span class="on">Nivel ${LV[L].k}</span>`;
+    body.innerHTML=`<div class="result"><div class="lv">${ICON_LOCK.replace("<svg",'<svg style="width:48px;height:48px"')}</div><h2>Nivel ${LV[L].k} bloqueado</h2><p>${lockReason(L)}</p></div><div class="ex-actions"><span></span><button class="btn sun" id="lkBack">Ir a mi nivel</button></div>`;
+    $("lkBack").onclick=()=>{let i=L;while(i>0&&!unlocked(i))i--;openLevel(i)};return}
+  OV="level";LVBACK=L;exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);
   if(!curStudent())whoView(()=>lvHome(L));else lvHome(L)}
 function lvHome(L){
   const l=LV[L],st=curStudent(),q=st&&st.quiz&&st.quiz[L],rs=(window.READINGS||[])[L]||[],rd=rs.filter((r,i)=>readBest(L,i)!=null).length;
@@ -1763,22 +1792,22 @@ const xpOf=(L,u)=>((window.PRACTICE_EXTRA||[])[L]||[])[u]||null,xpKey=(L,u)=>`${
 function extraPractice(L,u){const it=xpOf(L,u);if(!it)return;const ord={listen:0,mc:1,fill:1,oral:2,talk:3};
   runSet({L,title:`Práctica extra · Unidad ${u+1} · ${LV[L].k}`,items:[...it].sort((a,b)=>(ord[a.t]??1)-(ord[b.t]??1)),pass:PASS,save:(p,ok)=>saveProg(xpKey(L,u),p,ok),again:()=>extraPractice(L,u),
     passMsg:"¡Excelente! Tu escucha y tu conversación van muy bien.",next:{label:"Volver al temario",go:()=>openLevel(L)}})}
-function openStep(L,s){if(s.type==="lesson")lessonView(L,s.u,s.k);else if(s.type==="uquiz")unitQuiz(L,s.u);else finalExam(L)}
+function openStep(L,s){if(!s)return;if(!stepOpen(L,s.key)){const b=body.querySelector(`[data-key="${s.key}"] small`);if(b)b.textContent="🔒 Aprueba el paso anterior para abrir este.";return}if(s.type==="lesson")lessonView(L,s.u,s.k);else if(s.type==="uquiz")unitQuiz(L,s.u);else finalExam(L)}
 function nextStepAfter(L,key){const st=sylSteps(L),i=st.findIndex(s=>s.key===key);return st[i+1]||null}
 function sylLevelHome(L){
   const sy=SYL(L),steps=sylSteps(L),lessons=steps.filter(s=>s.type==="lesson"),done=lessons.filter(s=>isDone(s.key)).length;
   const nxt=steps.find(s=>!isDone(s.key))||steps[steps.length-1];
-  const pill=k=>{const p=getProg(k);return p?(p.passed?`<span class="pill" style="background:rgba(45,212,160,.18);color:var(--ok)">✓ ${p.best} %</span>`:`<span class="pill">${p.last} % · repetir</span>`):`<span class="pill">Pendiente</span>`};
+  const pill=k=>{if(!stepOpen(L,k))return`<span class="pill">🔒</span>`;const p=getProg(k);return p?(p.passed?`<span class="pill" style="background:rgba(45,212,160,.18);color:var(--ok)">✓ ${p.best} %</span>`:`<span class="pill">${p.last} % · repetir</span>`):`<span class="pill">Pendiente</span>`};
   const rs=(window.READINGS||[])[L]||[];
   return `<div class="sbar" style="margin-bottom:18px"><div class="shead"><span>Tu avance en ${LV[L].k}</span><span>${done} de ${lessons.length} lecciones</span></div><div class="tr"><i style="width:${done/lessons.length*100}%;background:var(--ok)"></i></div></div>
     <div class="examcta" style="margin:0 0 26px"><button class="btn sun" id="goNext">${isDone(nxt.key)?"Repasar":"Continuar"}: ${nxt.day?`Día ${nxt.day} · `:""}${esc(nxt.title)}</button><span class="note">${esc(sy.intro)}</span></div>
     <h3 style="font-size:24px;margin-bottom:14px">Temario</h3>
     ${sy.units.map((u,ui)=>`<section class="unit"><div class="unit-h"><b>Unidad ${ui+1}</b><span>${esc(u.title)}</span><small>${u.lessons.filter((x,k)=>isDone(lesKey(L,ui,k))).length}/${u.lessons.length}</small></div>
-      ${steps.filter(s=>s.u===ui).map(s=>`<button class="srow ${s.type}" data-key="${s.key}">
+      ${steps.filter(s=>s.u===ui).map(s=>`<button class="srow ${s.type}${stepOpen(L,s.key)?"":" locked"}" data-key="${s.key}">
         <span class="sday">${s.type==="lesson"?`Día ${s.day}`:"Quiz"}</span>
         <span class="stitle"><b>${esc(s.title)}</b>${s.type==="lesson"?`<small>${esc(sy.units[ui].lessons[s.k].goal)}${sy.units[ui].lessons[s.k].reading!=null?" · incluye lectura":""}</small>`:`<small>Escritura (gramática y una redacción corta), escucha y habla sobre los temas de la unidad</small>`}</span>
         ${pill(s.key)}</button>`).join("")}${xpOf(L,ui)?`<button class="srow xp" data-xp="${ui}"><span class="sday">Extra</span><span class="stitle"><b>Práctica extra · escucha y conversación</b><small>${xpOf(L,ui).length} ejercicios: audios largos, responder hablando con tus propias palabras y pronunciación. Opcional, pero muy recomendada.</small></span>${pill(xpKey(L,ui))}</button>`:""}</section>`).join("")}
-    <section class="unit final"><button class="srow final" data-key="${finKey(L)}"><span class="sday">Final</span><span class="stitle"><b>Examen final ${LV[L].k}</b><small>Una pregunta de cada una de las ${sylSteps(L).filter(s=>s.type==="lesson").length} lecciones, escucha de cada unidad, habla y redacción. Con ${sy.final.pass} % apruebas el nivel.</small></span>${pill(finKey(L))}</button></section>
+    <section class="unit final"><button class="srow final${stepOpen(L,finKey(L))?"":" locked"}" data-key="${finKey(L)}"><span class="sday">Final</span><span class="stitle"><b>Examen final ${LV[L].k}</b><small>Una pregunta de cada una de las ${sylSteps(L).filter(s=>s.type==="lesson").length} lecciones, escucha de cada unidad, habla y redacción. Con ${sy.final.pass} % apruebas el nivel.</small></span>${pill(finKey(L))}</button></section>
     <h3 style="font-size:24px;margin:34px 0 14px">Recursos del nivel</h3>
     <div class="tiles">
       <button class="tile" style="background:#C9E6FF" id="tRead"><b>Lecturas</b><span>Escucha los textos, toca cada palabra para ver su significado y califica tu pronunciación.</span><small>${rs.length} lecturas</small></button>
@@ -1835,6 +1864,7 @@ function lessonView(L,u,k){
   if($("lRead"))$("lRead").onclick=()=>reader(L,les.reading);
   if($("lPrev"))$("lPrev").onclick=()=>openStep(L,prev);
   if($("lNext"))$("lNext").onclick=()=>openStep(L,nxt);
+  if($("lNext")&&nxt&&!stepOpen(L,nxt.key)){$("lNext").textContent="🔒 Aprueba la práctica de hoy para seguir";$("lNext").disabled=true}
   $("lPrac").onclick=()=>runSet({L,title:`Día ${me.day} · ${les.title}`,items:withAudio(prac,[les],4,3),pass:PASS,
     save:(pct,ok)=>{saveProg(me.key,pct,ok);if(ok)srsAdd(L,voc.map(v=>v.w))},again:()=>lessonView(L,u,k),
     passMsg:"¡Lección aprobada! Sigue con la siguiente.",
@@ -2108,5 +2138,5 @@ $("navDict").onclick=e=>{e.preventDefault();toolsOpen("dict")};
 renderWho();
 renderResults();
 render();
-if(!curStudent()){OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()}
+if(!curStudent()){OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()}else requirePlacement();
 </script>
