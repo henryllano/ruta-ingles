@@ -444,6 +444,35 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
 .sbar .ticks{display:flex;justify-content:space-between;font-size:11px;color:var(--mute);margin-top:4px;font-weight:700}
 
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}html{scroll-behavior:auto}}
+/* herramientas flotantes: diccionario, traductor y voz */
+.fab{position:fixed;right:16px;bottom:16px;z-index:120;display:flex;align-items:center;gap:8px;border:0;cursor:pointer;background:var(--navy);color:#fff;font:700 15px/1 inherit;font-family:inherit;padding:14px 18px;border-radius:999px;box-shadow:0 10px 30px -8px rgba(24,32,58,.55)}
+.fab:hover{background:#26305a}.fab svg{width:20px;height:20px}
+.tpanel{position:fixed;right:16px;bottom:80px;z-index:121;width:min(420px,calc(100vw - 32px));max-height:min(640px,calc(100vh - 110px));display:flex;flex-direction:column;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:14px;box-shadow:0 24px 60px -20px rgba(0,0,0,.45);overflow:hidden}
+.tpanel[hidden]{display:none}
+#exBody{padding-bottom:96px}footer{padding-bottom:88px}
+.ttabs{display:flex;background:var(--soft);border-bottom:1px solid var(--line)}
+.ttabs button{flex:1;border:0;background:none;padding:13px 6px;font:700 14px inherit;font-family:inherit;color:var(--mute);cursor:pointer;border-bottom:3px solid transparent}
+.ttabs button.on{color:var(--ink);border-bottom-color:var(--sun)}
+.ttabs .tx{flex:0 0 46px;font-size:18px}
+.tbody{padding:16px;overflow:auto}
+.tbody input[type=search],.tbody textarea,.tbody select{width:100%;box-sizing:border-box;padding:12px 14px;border:2px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:16px inherit;font-family:inherit}
+.tbody textarea{min-height:96px;resize:vertical}
+.tbody input:focus,.tbody textarea:focus,.tbody select:focus{outline:none;border-color:var(--sun)}
+.dres{margin-top:12px;display:flex;flex-direction:column;gap:8px}
+.dent{padding:10px 12px;border:1px solid var(--line);border-radius:8px}
+.dent b{font-size:16px}.dent .pos{color:var(--mute);font-size:12px;margin-left:6px}
+.dent .m{margin:3px 0}.dent .ex{color:var(--mute);font-size:14px;font-style:italic}
+.ibtn{border:0;background:var(--soft);color:var(--ink);border-radius:999px;padding:6px 10px;cursor:pointer;font:600 13px inherit;font-family:inherit;margin-left:4px}
+.ibtn:hover{background:var(--line)}
+.trow{display:flex;gap:8px;align-items:center;margin:10px 0;flex-wrap:wrap}
+.trow .lang{font-weight:700;flex:1;text-align:center}
+.tout{min-height:60px;padding:12px 14px;border-radius:8px;background:var(--soft);white-space:pre-wrap}
+.tnote{color:var(--mute);font-size:13px;margin:8px 0 0}
+.vlist{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.vlist label{display:flex;gap:10px;align-items:center;padding:9px 10px;border:1px solid var(--line);border-radius:8px;cursor:pointer}
+.vlist label.best{border-color:var(--sun)}
+.vlist small{color:var(--mute)}
+@media (max-width:560px){.ttabs button{white-space:nowrap;font-size:13px;padding:12px 2px}.fab span{display:none}.fab{padding:14px}.tpanel{right:8px;left:8px;width:auto;bottom:76px}}
 </style>
 
 <div class="top gut"><div class="in">
@@ -453,7 +482,7 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
 
 <nav class="main gut"><div class="in">
   <a class="logo" href="#inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 6 2 15l18 9 18-9z" fill="#FFB800"/><path d="M9 19v8c0 3 5 6 11 6s11-3 11-6v-8l-11 5.5z" fill="#1A2238"/><path d="M35 16v10" stroke="#FF6B5A" stroke-width="2.5" stroke-linecap="round"/></svg>RUTA A1</a>
-  <div class="links"><a href="#examen">Examen</a><a href="#niveles">Niveles</a><a href="#plan">Tu plan</a><a href="#curso">Tu curso</a><a href="#resultados">Resultados</a></div>
+  <div class="links"><a href="#examen">Examen</a><a href="#niveles">Niveles</a><a href="#plan">Tu plan</a><a href="#curso">Tu curso</a><a href="#resultados">Resultados</a><a href="#" id="navDict">Diccionario</a></div>
   <button class="who" id="whoBtn"></button>
 </div></nav>
 
@@ -1014,7 +1043,7 @@ function speakU(u,done){
 }
 function stopSpeak(){if(SPK){SPK.cancelled=true;clearInterval(SPK.poll);clearTimeout(SPK.guard);SPK=null}try{speechSynthesis.cancel()}catch(e){}}
 function speakTTS(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=.92;
-  const v=speechSynthesis.getVoices().find(v=>/^en[-_]US/i.test(v.lang));if(v)u.voice=v;speakU(u)}catch(e){}}
+  useVoice(u);speakU(u)}catch(e){}}
 
 function stepEssay(){
   body.innerHTML=`<h2>Redacción corta</h2><p class="lead">Escribe en inglés entre 60 y 120 palabras. No uses traductor: queremos tu nivel real.</p>
@@ -1540,7 +1569,7 @@ function speakSent(){
   if(!R||!R.playing)return;
   if(R.si>=R.sents.length){R.si=0;R.playing=false;hl(null);if($("rPlay"))$("rPlay").textContent="▶ Escuchar otra vez";return}
   const se=R.sents[R.si],u=new SpeechSynthesisUtterance(se.t);u.lang="en-US";u.rate=R.rate;
-  const v=speechSynthesis.getVoices().find(v=>/^en[-_]US/i.test(v.lang));if(v)u.voice=v;
+  useVoice(u);
   let gotBoundary=false;clearTimeout(R.timer);
   /* si la voz no avisa por palabra, se estima el ritmo */
   const inSent=R.toks.map((t,k)=>({t,k})).filter(x=>x.t.s>=se.s&&x.t.s<se.s+se.t.length);
@@ -1727,8 +1756,6 @@ function lessonView(L,u,k){
 
 /* ---- conversación: audio a dos voces, traducción y juego de rol ---- */
 let D=null;
-function voicePair(){const vs=speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang));const us=vs.filter(v=>/^en[-_]US/i.test(v.lang));
-  const a=us[0]||vs[0]||null,b=us.find(v=>v!==a)||vs.find(v=>v!==a)||null;return[a,b]}
 function sayLine(text,who,done){try{const u=new SpeechSynthesisUtterance(text);u.lang="en-US";u.rate=.92;const [va,vb]=voicePair();
   const v=who==="A"?va:(vb||va);if(v)u.voice=v;if(who!=="A"&&!vb)u.pitch=1.35;speakU(u,done)}catch(e){done&&done()}}
 function stopDialog(){stopScene();if(!D)return;D.stop=true;stopSpeak();if(D.rec){try{D.rec.abort()}catch(e){}}D=null}
@@ -1890,6 +1917,104 @@ function topicReport(){
   return `<h3 style="font-size:20px;margin:26px 0 6px">Resultado por tema</h3><p class="note" style="margin:0 0 12px">${weak?`Tienes ${weak} ${weak===1?"tema":"temas"} para repasar.`:"Respondiste bien todos los temas del nivel."}</p><div style="display:grid;gap:12px">${rows}</div>`;
 }
 
+/* ================= voces: se elige la más natural del aparato ================= */
+const VKEY="ruta3-voice";
+const NOVELTY=/albert|bad news|bahh|bells|boing|bubbles|cellos|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|fred|junior|ralph|kathy|espeak|rocko|grandpa|grandma|eddy|flo|reed|sandy|shelley/i;
+function voiceScore(v){const n=v.name;let s=0;
+  if(/natural|neural/i.test(n))s+=60;if(/online/i.test(n))s+=25;if(/premium/i.test(n))s+=50;if(/enhanced|mejorada/i.test(n))s+=40;
+  if(/siri/i.test(n))s+=35;if(/^google/i.test(n))s+=30;
+  if(/aria|jenny|guy|ava|andrew|emma|brian|michelle|christopher|eric|steffan|roger|samantha|allison|susan|tom|zoe|evan|nathan|joelle|noelle/i.test(n))s+=10;
+  if(/^en[-_]US/i.test(v.lang))s+=8;else if(/^en[-_](GB|AU|CA|IE|NZ)/i.test(v.lang))s+=4;
+  if(!v.localService)s+=5;if(NOVELTY.test(n))s-=100;if(/desktop/i.test(n))s-=5;return s}
+function enVoices(){try{return speechSynthesis.getVoices().filter(v=>/^en[-_]/i.test(v.lang)).sort((a,b)=>voiceScore(b)-voiceScore(a))}catch(e){return[]}}
+function mainVoice(){const vs=enVoices();let k=null;try{k=localStorage.getItem(VKEY)}catch(e){}
+  return (k&&vs.find(v=>v.voiceURI===k||v.name===k))||vs[0]||null}
+const isMaleVoice=v=>/guy|andrew|brian|christopher|eric|steffan|roger|tom|evan|nathan|daniel|alex|aaron|arthur|fred|david|mark|james|george|male|hombre/i.test(v.name);
+function voicePair(){const a=mainVoice();if(!a)return[null,null];const vs=enVoices().filter(v=>v!==a&&voiceScore(v)>-50);
+  const other=vs.find(v=>isMaleVoice(v)!==isMaleVoice(a)&&voiceScore(v)>=voiceScore(a)-30)||vs[0]||null;return[a,other]}
+function useVoice(u){const v=mainVoice();if(v){u.voice=v;u.lang=v.lang}return u}
+try{speechSynthesis.getVoices();speechSynthesis.addEventListener("voiceschanged",()=>{if(TP&&TP.tab==="voice")toolTab("voice")})}catch(e){}
+
+/* ================= diccionario y traductor (botón flotante en toda la página) ================= */
+let TP=null,ALLW=null;
+const fold=t=>String(t).normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().trim();
+function allWords(){if(ALLW)return ALLW;const m=new Map();dictLookup("a");
+  for(let L=0;L<6;L++)vocabOf(L).forEach(v=>{const k=v.w.toLowerCase();if(!m.has(k))m.set(k,{w:v.w,pos:v.cat,m:v.m,e:v.e,lv:LV[L].k})});
+  Object.entries(DICT).forEach(([k,d])=>{if(!m.has(k))m.set(k,{w:k,pos:d.pos,m:d.m,e:d.e,base:d.base!=="-"?d.base:""})});
+  ALLW=[...m.values()].map(x=>({...x,fw:fold(x.w),fm:fold(x.m)}));return ALLW}
+function dictSearch(q){const f=fold(q);if(!f)return[];const W=allWords(),out=[],seen=new Set(),add=x=>{if(!seen.has(x)){seen.add(x);out.push(x)}};
+  const wordRe=new RegExp("(^|[^a-zñ])"+f.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+"($|[^a-zñ])");
+  W.filter(x=>x.fw===f).forEach(add);
+  W.filter(x=>wordRe.test(x.fm)).sort((a,b)=>a.fm.length-b.fm.length).forEach(add);
+  W.filter(x=>x.fw.startsWith(f)).sort((a,b)=>a.fw.length-b.fw.length).forEach(add);
+  if(f.length>2)W.filter(x=>x.fm.includes(f)||x.fw.includes(f)).forEach(add);
+  return out.slice(0,40)}
+function sayEN(t){stopSpeak();try{const u=useVoice(new SpeechSynthesisUtterance(t));u.rate=.92;speakU(u)}catch(e){}}
+function sayES(t){stopSpeak();try{const u=new SpeechSynthesisUtterance(t);u.lang="es-ES";const v=speechSynthesis.getVoices().filter(v=>/^es/i.test(v.lang)).sort((a,b)=>voiceScore(b)-voiceScore(a))[0];if(v)u.voice=v;speakU(u)}catch(e){}}
+async function translateText(text,from,to){
+  const tries=[
+    async()=>{const r=await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=${from}&tl=${to}&dt=t&q=${encodeURIComponent(text)}`);if(!r.ok)throw 0;const j=await r.json();return j[0].map(x=>x[0]).join("")},
+    async()=>{const r=await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${from}|${to}`);if(!r.ok)throw 0;const j=await r.json();if(j.responseStatus!=200)throw 0;return j.responseData.translatedText}];
+  for(const f of tries){try{const t=await f();if(t&&t.trim())return{t}}catch(e){}}
+  /* sin internet: palabra por palabra con el diccionario del curso */
+  const words=text.split(/(\s+|[.,;:!?¿¡"()]+)/);
+  const t=words.map(w=>{if(!/\w/.test(w))return w;
+    if(from==="en"){const d=dictLookup(w)||dictLookup(w.toLowerCase());return d?d.m.split(/[,;]/)[0].replace(/\(.*?\)/g,"").trim():w}
+    const f=fold(w),hit=allWords().find(x=>x.fm.split(/[,;(]/).some(p=>p.trim()===f));return hit?hit.w:w}).join("");
+  return{t,offline:true}}
+function toolsOpen(tab){$("tPanel").hidden=false;$("tFab").setAttribute("aria-expanded","true");toolTab(tab||(TP&&TP.tab)||"dict")}
+function toolsClose(){$("tPanel").hidden=true;$("tFab").setAttribute("aria-expanded","false")}
+function toolTab(tab){TP=TP||{from:"es",q:"",src:""};TP.tab=tab;
+  document.querySelectorAll("#tPanel .ttabs [data-tab]").forEach(b=>b.classList.toggle("on",b.dataset.tab===tab));
+  const tb=$("tBody");
+  if(tab==="dict"){
+    tb.innerHTML=`<input type="search" id="dQ" placeholder="Busca en inglés o en español: house, casa…" autocomplete="off" value="${esc(TP.q)}"><div class="dres" id="dRes"></div>`;
+    const draw=()=>{const q=$("dQ").value;TP.q=q;const r=dictSearch(q),box=$("dRes");
+      if(!q.trim()){box.innerHTML=`<p class="tnote">${allWords().length.toLocaleString("es")} palabras de los 6 niveles. Toca 🔊 para oír la pronunciación.</p>`;return}
+      box.innerHTML=r.length?r.map((x,i)=>`<div class="dent"><b>${esc(x.w)}</b><span class="pos">${esc(x.pos||"")}${x.lv?" · "+x.lv:""}${x.base?" · de "+esc(x.base):""}</span><button class="ibtn" data-say="${i}" aria-label="Escuchar ${esc(x.w)}">🔊</button>
+        <div class="m">${esc(x.m)}</div>${x.e?`<div class="ex">${esc(x.e)} <button class="ibtn" data-sayx="${i}" aria-label="Escuchar ejemplo">🔊</button></div>`:""}</div>`).join("")
+        :`<p class="tnote">No está en el diccionario del curso.</p><button class="btn sun" id="dToTr" style="margin-top:8px">Traducir «${esc(q.trim())}»</button>`;
+      box.querySelectorAll("[data-say]").forEach(b=>b.onclick=()=>sayEN(r[+b.dataset.say].w));
+      box.querySelectorAll("[data-sayx]").forEach(b=>b.onclick=()=>sayEN(r[+b.dataset.sayx].e));
+      if($("dToTr"))$("dToTr").onclick=()=>{TP.src=q.trim();TP.from=/^[a-z' -]+$/i.test(q.trim())&&!/[ñáéíóú]/i.test(q)&&!dictSearch(q).length&&/\b(the|is|are|you|i|to|of)\b/i.test(q)?"en":"es";toolTab("tr");$("trGo").click()}};
+    $("dQ").oninput=draw;draw();$("dQ").focus();return}
+  if(tab==="tr"){const lab={es:"Español",en:"Inglés"},to=TP.from==="es"?"en":"es";
+    tb.innerHTML=`<div class="trow"><span class="lang">${lab[TP.from]}</span><button class="ibtn" id="trSwap" aria-label="Cambiar dirección">⇄</button><span class="lang">${lab[to]}</span></div>
+      <textarea id="trIn" placeholder="${TP.from==="es"?"Escribe en español…":"Type in English…"}">${esc(TP.src)}</textarea>
+      <div class="trow"><button class="ibtn" id="trMic">🎤 Dictar</button><button class="ibtn" id="trInSay">🔊 Escuchar</button><span style="flex:1"></span><button class="btn sun" id="trGo">Traducir</button></div>
+      <div class="tout" id="trOut" aria-live="polite"></div>
+      <div class="trow" id="trOutBtns" hidden><button class="ibtn" id="trSay">🔊 Escuchar</button><button class="ibtn" id="trCopy">Copiar</button></div>
+      <p class="tnote" id="trNote">Para traducir frases completas se necesita internet.</p>`;
+    const inp=$("trIn");inp.oninput=()=>{TP.src=inp.value};
+    $("trSwap").onclick=()=>{TP.from=to;const o=$("trOut").textContent;if(o)TP.src=o;toolTab("tr");if(o)$("trGo").click()};
+    $("trInSay").onclick=()=>TP.from==="en"?sayEN(inp.value):sayES(inp.value);
+    $("trGo").onclick=async()=>{const t=inp.value.trim();if(!t)return;$("trOut").textContent="Traduciendo…";
+      const r=await translateText(t.slice(0,4500),TP.from,to);$("trOut").textContent=r.t;$("trOutBtns").hidden=false;
+      $("trNote").textContent=r.offline?"Sin conexión: traducción aproximada palabra por palabra con el diccionario del curso.":"Traducción automática: puede tener errores en frases largas o expresiones.";
+      $("trSay").onclick=()=>to==="en"?sayEN(r.t):sayES(r.t);
+      $("trCopy").onclick=()=>{try{navigator.clipboard.writeText(r.t);$("trCopy").textContent="Copiado ✓"}catch(e){}}};
+    inp.onkeydown=e=>{if(e.key==="Enter"&&(e.ctrlKey||e.metaKey))$("trGo").click()};
+    const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+    if(!SR)$("trMic").hidden=true;else $("trMic").onclick=()=>{try{const rc=new SR();rc.lang=TP.from==="es"?"es-CO":"en-US";rc.interimResults=false;
+      $("trMic").textContent="🎤 Escuchando…";rc.onresult=e=>{inp.value=(inp.value?inp.value+" ":"")+e.results[0][0].transcript;TP.src=inp.value};
+      rc.onend=()=>{$("trMic").textContent="🎤 Dictar";if(inp.value.trim())$("trGo").click()};rc.start()}catch(e){}};
+    inp.focus();return}
+  if(tab==="voice"){const vs=enVoices().filter(v=>voiceScore(v)>-50),cur=mainVoice();
+    tb.innerHTML=`<p style="margin:0">Elige la voz que más te guste. Las primeras son las más naturales de tu aparato.</p>
+      <div class="vlist">${vs.length?vs.slice(0,14).map((v,i)=>`<label class="${i===0?"best":""}"><input type="radio" name="vv" value="${esc(v.voiceURI)}" ${cur===v?"checked":""}><span style="flex:1">${esc(v.name.replace(/^Microsoft /,"").replace(/ Online \(Natural\)/," ✨").replace(/ - English.*/,""))}<br><small>${esc(v.lang)}${voiceScore(v)>=60?" · muy natural":""}</small></span><button class="ibtn" type="button" data-try="${i}">▶ Probar</button></label>`).join("")
+        :`<p class="tnote">Tu navegador todavía no cargó voces en inglés. Espera un momento o abre la página en Chrome o Edge.</p>`}</div>
+      <p class="tnote">💡 Las voces más humanas son las «Natural» de <b>Microsoft Edge</b> (Aria, Jenny, Guy, Andrew, Emma…). En iPhone: Ajustes → Accesibilidad → Contenido leído → Voces → English, y descarga una voz «Mejorada» o «Premium». En Android: instala «Speech Services by Google».</p>`;
+    tb.querySelectorAll("[data-try]").forEach(b=>b.onclick=e=>{e.preventDefault();const v=vs[+b.dataset.try];stopSpeak();const u=new SpeechSynthesisUtterance("Hi! I'm your English voice. Let's practice together today.");u.voice=v;u.lang=v.lang;u.rate=.92;speakU(u)});
+    tb.querySelectorAll("input[name=vv]").forEach(r=>r.onchange=()=>{try{localStorage.setItem(VKEY,r.value)}catch(e){}});
+    return}
+}
+document.body.insertAdjacentHTML("beforeend",`<button class="fab" id="tFab" aria-expanded="false" aria-controls="tPanel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg><span>Diccionario</span></button>
+<div class="tpanel" id="tPanel" hidden role="dialog" aria-label="Diccionario y traductor"><div class="ttabs"><button data-tab="dict">📖 Diccionario</button><button data-tab="tr">🌐 Traductor</button><button data-tab="voice">🔊 Voz</button><button class="tx" id="tClose" aria-label="Cerrar">✕</button></div><div class="tbody" id="tBody"></div></div>`);
+$("tFab").onclick=()=>$("tPanel").hidden?toolsOpen():toolsClose();$("tClose").onclick=toolsClose;
+document.querySelectorAll("#tPanel .ttabs [data-tab]").forEach(b=>b.onclick=()=>toolTab(b.dataset.tab));
+addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("tPanel").hidden){e.stopImmediatePropagation();toolsClose()}},true);
+
+$("navDict").onclick=e=>{e.preventDefault();toolsOpen("dict")};
 renderWho();
 renderResults();
 render();
