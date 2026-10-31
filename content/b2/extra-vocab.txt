@@ -1,0 +1,347 @@
+## Sustantivos
+consequence | consecuencia | The consequences are serious. | Ciencia y salud
+cycle | ciclo | The sleep cycle. | Ciencia y salud
+stage | etapa | The early stages. | Ciencia y salud
+tissue | tejido | Muscle tissue. | Ciencia y salud
+immune system | sistema inmunológico | A strong immune system. | Ciencia y salud
+hormone | hormona | Stress hormones. | Ciencia y salud
+symptom | síntoma | Common symptoms. | Ciencia y salud
+treatment | tratamiento | A new treatment. | Ciencia y salud
+side effect | efecto secundario | Side effects of the medicine. | Ciencia y salud
+painkiller | analgésico | Take a painkiller. | Ciencia y salud
+cure | cura | There's no cure. | Ciencia y salud
+disease | enfermedad | Heart disease. | Ciencia y salud
+dementia | demencia | Dementia affects memory. | Ciencia y salud
+nausea | náuseas | Nausea and dizziness. | Ciencia y salud
+fatigue | fatiga | Chronic fatigue. | Ciencia y salud
+irritability | irritabilidad | Lack of sleep causes irritability. | Ciencia y salud
+weight gain | aumento de peso | Weight gain. | Ciencia y salud
+brain scan | escáner cerebral | A brain scan. | Ciencia y salud
+finding | hallazgo | The main findings. | Investigación
+outcome | resultado | The outcome of the study. | Investigación
+experiment | experimento | A scientific experiment. | Investigación
+participant | participante | Participants were asked... | Investigación
+theory | teoría | An interesting theory. | Investigación
+phenomenon | fenómeno | A natural phenomenon. | Investigación
+debate | debate | The debate remains open. | Investigación
+breakthrough | avance (importante) | A medical breakthrough. | Investigación
+emissions | emisiones | Carbon emissions. | Medio ambiente
+carbon footprint | huella de carbono | Reduce your carbon footprint. | Medio ambiente
+landfill | relleno sanitario | It ends up in a landfill. | Medio ambiente
+ecosystem | ecosistema | A fragile ecosystem. | Medio ambiente
+habitat | hábitat | Natural habitats. | Medio ambiente
+extinction | extinción | Saved from extinction. | Medio ambiente
+conservation | conservación | Conservation projects. | Medio ambiente
+sustainability | sostenibilidad | Sustainability matters. | Medio ambiente
+soil | suelo, tierra | Contaminated soil. | Medio ambiente
+crop | cultivo, cosecha | Crops grown indoors. | Medio ambiente
+coral reef | arrecife de coral | Coral reefs are dying. | Medio ambiente
+garment | prenda | Cheap garments. | Moda y consumo
+fabric | tela | Natural fabrics. | Moda y consumo
+outfit | atuendo | A new outfit. | Moda y consumo
+trend | tendencia | The latest trends. | Moda y consumo
+consumer | consumidor | Consumers want cheap products. | Moda y consumo
+second-hand | de segunda mano | Second-hand clothes. | Moda y consumo
+impact | impacto | A huge impact. | Moda y consumo
+labour | mano de obra, trabajo | Cheap labour. | Economía
+wage | salario (por hora/semana) | Low wages. | Economía
+regulation | regulación, norma | Strict regulations. | Economía
+industry | industria | The fashion industry. | Economía
+factory | fábrica | A clothing factory. | Economía
+income | ingreso | A good income. | Economía
+currency | moneda, divisa | Foreign currency. | Economía
+property | propiedad, inmueble | Property prices. | Economía
+housing | vivienda | Affordable housing. | Economía
+developer | promotor inmobiliario | Developers want the land. | Economía
+economist | economista | Economists predict... | Economía
+automation | automatización | Automation affects jobs. | Tecnología
+artificial intelligence | inteligencia artificial | Artificial intelligence is everywhere. | Tecnología
+algorithm | algoritmo | A complex algorithm. | Tecnología
+database | base de datos | The customer database. | Tecnología
+tool | herramienta | A useful tool. | Tecnología
+draft | borrador | A first draft. | Tecnología
+platform | plataforma | Online platforms. | Tecnología
+revolution | revolución | A technological revolution. | Tecnología
+transition | transición | A difficult transition. | Tecnología
+retraining | recapacitación | Retraining programmes. | Tecnología
+creativity | creatividad | Creativity is key. | Habilidades
+critical thinking | pensamiento crítico | Develop critical thinking. | Habilidades
+emotional intelligence | inteligencia emocional | High emotional intelligence. | Habilidades
+achievement | logro | My main achievements. | Entrevistas
+strength | fortaleza | What are your strengths? | Entrevistas
+weakness | debilidad | My biggest weakness. | Entrevistas
+candidate | candidato | The best candidate. | Entrevistas
+position | puesto, cargo | The position requires... | Entrevistas
+responsibility | responsabilidad | More responsibility. | Entrevistas
+target | meta, objetivo | Sales targets. | Entrevistas
+team leader | líder de equipo | I'm a team leader. | Entrevistas
+first impression | primera impresión | First impressions matter. | Entrevistas
+feedback | retroalimentación | Positive feedback. | Entrevistas
+satisfaction | satisfacción | Customer satisfaction. | Negocios
+survey results | resultados de la encuesta | The survey results. | Negocios
+response rate | tasa de respuesta | A low response rate. | Negocios
+respondent | encuestado | 68% of respondents. | Negocios
+complaint | queja | The most frequent complaint. | Negocios
+rating | calificación | High ratings. | Negocios
+measure | medida | New measures. | Negocios
+recommendation | recomendación | Our recommendations. | Negocios
+peak hours | horas pico | Peak hours are busy. | Negocios
+quarter | trimestre | The first quarter. | Negocios
+decline | descenso | A decline in sales. | Negocios
+growth | crecimiento | Economic growth. | Negocios
+branch | sucursal | A new branch. | Negocios
+will | testamento | She left a will. | Historias
+inheritance | herencia | A large inheritance. | Historias
+fortune | fortuna | A considerable fortune. | Historias
+clue | pista | Looking for clues. | Historias
+treasure | tesoro | A secret treasure. | Historias
+diary | diario (personal) | She kept a diary. | Historias
+envelope | sobre | A sealed envelope. | Historias
+safe | caja fuerte | Hidden in a safe. | Historias
+locksmith | cerrajero | He hired a locksmith. | Historias
+margin | margen | Notes in the margins. | Historias
+handwriting | letra (escritura a mano) | Elegant handwriting. | Historias
+outskirts | afueras | On the outskirts of the city. | Historias
+crew | tripulación | The crew disappeared. | Historias
+vessel | embarcación | A merchant vessel. | Historias
+cargo | carga | The cargo was intact. | Historias
+sailor | marinero | The sailors found nothing. | Historias
+captain | capitán | The captain's log. | Historias
+pirate | pirata | Pirates attacked the ship. | Historias
+mystery | misterio | An unsolved mystery. | Historias
+captivity | cautiverio | Animals in captivity. | Animales
+enclosure | recinto | A large enclosure. | Animales
+cage | jaula | A small cage. | Animales
+breeding | cría, reproducción | Breeding programmes. | Animales
+welfare | bienestar | Animal welfare. | Animales
+sanctuary | santuario | An animal sanctuary. | Animales
+wild | estado salvaje | Back into the wild. | Animales
+supporter | partidario, defensor | Supporters of zoos. | Debate
+critic | crítico | Critics claim... | Debate
+issue | asunto, problema | A serious issue. | Debate
+overtourism | turismo masivo excesivo | Overtourism in Venice. | Viajes
+destination | destino | A popular destination. | Viajes
+accommodation | alojamiento | Locally owned accommodation. | Viajes
+cruise ship | crucero | Cruise ships pollute. | Viajes
+entry fee | tarifa de entrada | An entry fee. | Viajes
+low season | temporada baja | Travel in the low season. | Viajes
+high season | temporada alta | Prices rise in high season. | Viajes
+resident | residente | Local residents. | Viajes
+customs (habits) | costumbres | Respect local customs. | Viajes
+bilingualism | bilingüismo | The benefits of bilingualism. | Idiomas
+native speaker | hablante nativo | Sound like a native speaker. | Idiomas
+code-switching | alternancia de idiomas | Code-switching is normal. | Idiomas
+accent | acento | A strong accent. | Idiomas
+fluency | fluidez | Fluency takes time. | Idiomas
+ageing | envejecimiento | Healthy ageing. | Sociedad
+background | origen, contexto | Different backgrounds. | Sociedad
+addiction | adicción | Recovering from addiction. | Sociedad
+purpose | propósito | A sense of purpose. | Sociedad
+
+## Verbos
+reveal | revelar | The study revealed... | Investigación
+confirm | confirmar | Studies confirm it. | Investigación
+suggest | sugerir, indicar | Research suggests that... | Investigación
+claim | afirmar | Critics claim that... | Investigación
+predict | predecir | Experts predict a rise. | Investigación
+measure | medir | Measure the results. | Investigación
+analyse | analizar | Analyse the data. | Investigación
+reproduce | reproducir | They failed to reproduce the results. | Investigación
+estimate | estimar, calcular | It's estimated that... | Investigación
+repair | reparar | Repair your clothes. | Ciencia y salud
+strengthen | fortalecer | Strengthen the immune system. | Ciencia y salud
+release | liberar, soltar | The brain releases chemicals. | Ciencia y salud
+emit | emitir | Screens emit blue light. | Ciencia y salud
+link | vincular | Linked to disease. | Ciencia y salud
+reassure | tranquilizar | The doctor reassured me. | Ciencia y salud
+inject | inyectar | The nurse injected him. | Ciencia y salud
+transform | transformar | Technology transformed work. | Cambio
+replace | reemplazar | AI will replace some jobs. | Cambio
+eliminate | eliminar | Eliminate waste. | Cambio
+adapt | adaptarse | We must adapt. | Cambio
+expand | expandirse | The city expanded. | Cambio
+introduce | introducir, implementar | They introduced a fee. | Cambio
+implement | implementar | Implement the measures. | Negocios
+recruit | reclutar | Recruit more staff. | Negocios
+upgrade | mejorar, actualizar | Upgrade the system. | Negocios
+promote | promover, ascender | Promote the service. | Negocios
+evaluate | evaluar | Evaluate progress. | Negocios
+exceed | superar | Exceed expectations. | Negocios
+invest | invertir | Invest in training. | Negocios
+compete | competir | Compete against AI. | Negocios
+handle | manejar | Handle difficult customers. | Entrevistas
+criticise | criticar | Don't criticise your boss. | Entrevistas
+memorise | memorizar | Don't memorise your answer. | Entrevistas
+impress | impresionar | I was impressed. | Entrevistas
+donate | donar | Donate unwanted clothes. | Consumo
+swap | intercambiar | Swap clothes with friends. | Consumo
+rent | alquilar | Rent an outfit. | Consumo
+dye | teñir | Dye the fabric. | Consumo
+poison | envenenar | Chemicals poison rivers. | Medio ambiente
+absorb | absorber | Plants absorb rainwater. | Medio ambiente
+contaminate | contaminar | The soil was contaminated. | Medio ambiente
+cultivate | cultivar | Vegetables are cultivated in towers. | Medio ambiente
+reintroduce | reintroducir | Reintroduced into the wild. | Animales
+justify | justificar | It can be justified. | Debate
+defend | defender | Hard to defend. | Debate
+oppose | oponerse a | They oppose the plan. | Debate
+support | apoyar | I support the idea. | Debate
+resemble | parecerse a | It resembles a forest. | Debate
+inherit | heredar | She inherited a fortune. | Historias
+submit | entregar, presentar | Submit your answer. | Historias
+seal | sellar | A sealed envelope. | Historias
+pretend | fingir | I didn't have to pretend. | Historias
+abandon | abandonar | They abandoned the ship. | Historias
+drift | ir a la deriva | The ship was drifting. | Historias
+investigate | investigar | Investigate the case. | Historias
+leak | filtrarse, gotear | Gas leaked from the pipe. | Historias
+sink | hundirse | The ship was sinking. | Historias
+suppress | suprimir | Suppress the other language. | Idiomas
+emigrate | emigrar | They emigrated to Spain. | Sociedad
+consume | consumir | Consume less energy. | Consumo
+force out | desplazar, expulsar | Residents are forced out. | Sociedad
+take on | asumir; contratar | Take on more responsibility. | Phrasal verbs
+carry out | llevar a cabo | Carry out a survey. | Phrasal verbs
+bring about | provocar, causar | Bring about change. | Phrasal verbs
+fall behind | quedarse atrás | Don't fall behind. | Phrasal verbs
+build up | acumular(se) | Waste builds up. | Phrasal verbs
+turn out | resultar | It turned out to be true. | Phrasal verbs
+put up with | aguantar, tolerar | I can't put up with the noise. | Phrasal verbs
+look into | investigar, examinar | We'll look into it. | Phrasal verbs
+come across | encontrarse con; parecer | I came across an old photo. | Phrasal verbs
+give in | ceder, rendirse | Don't give in. | Phrasal verbs
+break down | averiarse; derrumbarse | The car broke down. | Phrasal verbs
+cut back | recortar | Cut back on expenses. | Phrasal verbs
+draw attention to | llamar la atención sobre | It drew attention to the problem. | Expresiones verbales
+play a role | desempeñar un papel | Zoos play a role in conservation. | Expresiones verbales
+raise questions | plantear preguntas | It raises important questions. | Expresiones verbales
+make a difference | marcar la diferencia | You can make a difference. | Expresiones verbales
+take into account | tener en cuenta | Take the cost into account. | Expresiones verbales
+
+## Adjetivos
+passive | pasivo | A passive state. | Ciencia y salud
+chronic | crónico | Chronic pain. | Ciencia y salud
+sleep-deprived | privado de sueño | Chronically sleep-deprived. | Ciencia y salud
+measurable | medible | Measurable effects. | Ciencia y salud
+inactive | inactivo | An inactive substance. | Ciencia y salud
+harmless | inofensivo | Harmless substances. | Ciencia y salud
+cognitive | cognitivo | Cognitive reserve. | Ciencia y salud
+puzzling | desconcertante | A puzzling phenomenon. | Ciencia y salud
+fascinating | fascinante | A fascinating study. | Ciencia y salud
+remarkable | notable, extraordinario | A remarkable influence. | Ciencia y salud
+significant | significativo | A significant improvement. | Investigación
+reliable | confiable | Reliable data. | Investigación
+accurate | preciso | Accurate information. | Investigación
+inexpensive | económico | Inexpensive clothes. | Consumo
+trendy | de moda | Trendy clothes. | Consumo
+sustainable | sostenible | Sustainable fashion. | Consumo
+disposable | desechable | Disposable cups. | Consumo
+unwanted | no deseado | Unwanted items. | Consumo
+global | global | Global emissions. | Medio ambiente
+toxic | tóxico | Toxic chemicals. | Medio ambiente
+fragile | frágil | A fragile ecosystem. | Medio ambiente
+scarce | escaso | Water is scarce. | Medio ambiente
+processed | procesado | Processed food. | Comida
+organic | orgánico | Organic vegetables. | Comida
+repetitive | repetitivo | Repetitive tasks. | Trabajo
+manual | manual | Manual jobs. | Trabajo
+white-collar | de oficina (trabajo) | White-collar professionals. | Trabajo
+secure | seguro, estable | A secure job. | Trabajo
+painless | sin dolor, fácil | A painless transition. | Trabajo
+relevant | relevante | Relevant experience. | Entrevistas
+well-organised | bien organizado | A well-organised answer. | Entrevistas
+current | actual | My current job. | Entrevistas
+previous | anterior | My previous employer. | Entrevistas
+frequent | frecuente | A frequent complaint. | Negocios
+overall | general | Overall satisfaction. | Negocios
+additional | adicional | Additional staff. | Negocios
+eccentric | excéntrico | An eccentric aunt. | Personalidad
+considerable | considerable | A considerable fortune. | Historias
+crumbling | ruinoso, que se desmorona | A crumbling house. | Historias
+battered | maltratado, gastado | A battered book. | Historias
+elegant | elegante | Elegant handwriting. | Historias
+intact | intacto | The cargo was intact. | Historias
+unsolved | sin resolver | An unsolved mystery. | Historias
+fictional | ficticio | A fictional account. | Historias
+faulty | defectuoso | A faulty instrument. | Historias
+endangered | en peligro | Endangered species. | Animales
+psychological | psicológico | Psychological distress. | Animales
+authentic | auténtico | An authentic atmosphere. | Viajes
+historic | histórico | The historic centre. | Viajes
+permanent | permanente | Permanent residents. | Viajes
+native | nativo | Native language. | Idiomas
+monolingual | monolingüe | Monolingual children. | Idiomas
+bilingual | bilingüe | Bilingual children. | Idiomas
+executive | ejecutivo | Executive functions. | Idiomas
+genuine | genuino, auténtico | A genuine interest. | Básicos
+sharp | agudo, marcado | A sharp decline. | Básicos
+numerous | numeroso | Numerous benefits. | Básicos
+impressive | impresionante | Impressive results. | Básicos
+countless | incontable | Countless studies. | Básicos
+widespread | generalizado | A widespread belief. | Básicos
+
+## Adverbios
+considerably | considerablemente | It changed considerably. | Grado
+significantly | significativamente | Significantly lower. | Grado
+largely | en gran parte | Largely replaced. | Grado
+partially | parcialmente | Partially set. | Grado
+entirely | completamente | Almost entirely intact. | Grado
+increasingly | cada vez más | Increasingly popular. | Grado
+slightly | ligeramente | Slightly smaller. | Grado
+heavily | fuertemente | Invest heavily. | Grado
+gradually | gradualmente | Gradually forced out. | Tiempo
+instantly | al instante | Retrieve information instantly. | Tiempo
+previously | anteriormente | As previously mentioned. | Tiempo
+ideally | idealmente | Ideally, practise with a friend. | Discurso
+undoubtedly | sin duda | Undoubtedly, some jobs will disappear. | Discurso
+reportedly | según se informa | He reportedly ran out of morphine. | Discurso
+mistakenly | erróneamente | Mistakenly believed. | Discurso
+genuinely | genuinamente | Genuinely focused on conservation. | Discurso
+enthusiastically | con entusiasmo | They responded enthusiastically. | Modo
+rigidly | rígidamente | Don't memorise rigidly. | Modo
+openly | abiertamente | Openly labelled as placebos. | Modo
+for certain | con certeza | We will never know for certain. | Discurso
+
+## Conectores
+nevertheless | sin embargo, no obstante | Nevertheless, there are challenges. | Contraste
+nonetheless | no obstante | It was hard; nonetheless, we finished. | Contraste
+even though | aunque, a pesar de que | Even though it was late, he called. | Contraste
+while | mientras que (contraste) | While some agree, others don't. | Contraste
+regardless of | independientemente de | Regardless of the result. | Contraste
+rather than | en lugar de | Learn rather than memorise. | Contraste
+firstly | en primer lugar | Firstly, it reduces emissions. | Orden
+secondly | en segundo lugar | Secondly, it improves access. | Orden
+thirdly | en tercer lugar | Thirdly, green spaces cool cities. | Orden
+in other words | en otras palabras | In other words, sleep is essential. | Aclarar
+for instance | por ejemplo | For instance, elephants walk kilometres. | Ejemplos
+consequently | en consecuencia | Consequently, rents rise. | Consecuencia
+thus | así, por lo tanto | Thus, the brain works harder. | Consecuencia
+due to | debido a | Due to the weather. | Causa
+owing to | debido a | Owing to a lack of funds. | Causa
+on top of that | además de eso | On top of that, it's expensive. | Añadir
+not only... but also | no solo... sino también | Not only cheap but also good. | Añadir
+as well | también | Heavy meals should be avoided as well. | Añadir
+compared to | comparado con | Compared to last year. | Comparar
+in contrast | en contraste | In contrast, adults learn slowly. | Contraste
+
+## Expresiones
+Nothing could be further from the truth. | Nada más lejos de la realidad. | Lazy? Nothing could be further from the truth. | Discurso
+It turns out that... | Resulta que... | It turns out that she was right. | Discurso
+At the end of the day... | Al fin y al cabo... | At the end of the day, it's your choice. | Discurso
+The bottom line is... | Lo esencial es... | The bottom line is we need more staff. | Discurso
+On the whole... | En general... | On the whole, it was positive. | Discurso
+To some extent... | Hasta cierto punto... | To some extent, I agree. | Opinión
+I see your point, but... | Entiendo tu punto, pero... | I see your point, but it's too expensive. | Opinión
+That's a good point. | Buen punto. | That's a good point, I hadn't thought of that. | Opinión
+I couldn't agree more. | Estoy totalmente de acuerdo. | I couldn't agree more. | Opinión
+It's out of the question. | Está fuera de discusión. | Another loan? It's out of the question. | Opinión
+A blessing in disguise | no hay mal que por bien no venga | Losing that job was a blessing in disguise. | Modismos
+The tip of the iceberg | la punta del iceberg | This problem is just the tip of the iceberg. | Modismos
+Bite the bullet | hacer de tripas corazón | I had to bite the bullet and pay. | Modismos
+Cut corners | hacer algo a la ligera para ahorrar | Don't cut corners on safety. | Modismos
+On the same page | de acuerdo, en la misma línea | Let's make sure we're on the same page. | Modismos
+Think outside the box | pensar de forma creativa | We need to think outside the box. | Modismos
+Back to square one | volver a empezar | The plan failed, back to square one. | Modismos
+Easier said than done | es más fácil decirlo que hacerlo | Save money? Easier said than done. | Modismos
+A drop in the ocean | una gota en el océano | Our donation is a drop in the ocean. | Modismos
+Pros and cons | pros y contras | Let's weigh the pros and cons. | Modismos

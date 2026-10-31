@@ -1,0 +1,489 @@
+state | - | sustantivo | estado | A passive state.
+body | - | sustantivo | cuerpo | The body repairs itself.
+brain | - | sustantivo | cerebro | The brain is busy.
+asleep | - | adjetivo | dormido | While we are asleep.
+brains | brain | sustantivo (plural) | cerebros | Our brains are busy.
+extraordinarily | - | adverbio | extraordinariamente | Extraordinarily busy.
+consequences | consequence | sustantivo (plural) | consecuencias | Serious consequences.
+cycles | cycle | sustantivo (plural) | ciclos | Sleep cycles.
+lasting | last | verbo (-ing) | que dura | Each lasting ninety minutes.
+ninety | - | número | noventa | Ninety minutes.
+deep | - | adjetivo | profundo | Deep sleep.
+repairs | repair | verbo (3.ª persona) | repara | The body repairs muscles.
+muscles | muscle | sustantivo (plural) | músculos | Strong muscles.
+tissues | tissue | sustantivo (plural) | tejidos | Muscles and tissues.
+strengthens | strengthen | verbo (3.ª persona) | fortalece | It strengthens the immune system.
+immune | - | adjetivo | inmune, inmunológico | The immune system.
+rem | - | sigla | REM (fase de sueño con movimiento ocular rápido) | REM sleep.
+processes | process | verbo (3.ª persona) | procesa | The brain processes emotions.
+transfers | transfer | verbo (3.ª persona) | transfiere | It transfers information.
+short-term | - | adjetivo | a corto plazo | Short-term memory.
+long-term | - | adjetivo | a largo plazo | Long-term memory.
+night's | night | sustantivo (posesivo) | de una noche | A good night's sleep.
+rested | - | adjetivo | descansado | Feeling rested.
+remembering | remember | verbo (-ing) | recordar | Learning and remembering.
+cleans | clean | verbo (3.ª persona) | limpia | The brain cleans itself.
+products | product | sustantivo (plural) | productos | Waste products.
+linked | link | verbo (participio) | vinculado | Linked to disease.
+diseases | disease | sustantivo (plural) | enfermedades | Serious diseases.
+alzheimer's | - | nombre propio | alzhéimer | Diseases such as Alzheimer's.
+chronically | - | adverbio | crónicamente | Chronically sleep-deprived.
+emitted | emit | verbo (participio) | emitido | Light emitted by phones.
+tablets | tablet | sustantivo (plural) | tabletas | Phones and tablets.
+production | - | sustantivo | producción | The production of melatonin.
+melatonin | - | sustantivo | melatonina | Melatonin helps you sleep.
+bodies | body | sustantivo (plural) | cuerpos | Our bodies.
+top | - | sustantivo | parte superior (on top of that: además) | On top of that...
+endless | - | adjetivo | interminable | An endless stream.
+stream | - | sustantivo | flujo, corriente | A stream of messages.
+messages | message | sustantivo (plural) | mensajes | Messages and videos.
+active | - | adjetivo | activo | Our minds stay active.
+slowing | slow | verbo (-ing) | desacelerar | Slowing down.
+insufficient | - | adjetivo | insuficiente | Insufficient sleep.
+documented | document | verbo (participio) | documentado | Well documented.
+poor | - | adjetivo | pobre, deficiente | Poor concentration.
+gain | - | sustantivo | aumento | Weight gain.
+accidents | accident | sustantivo (plural) | accidentes | A higher risk of accidents.
+eighteen | - | número | dieciocho | Eighteen hours.
+comparable | - | adjetivo | comparable | Comparable to driving drunk.
+influence | - | sustantivo | influencia | Under the influence of alcohol.
+alcohol | - | sustantivo | alcohol | Driving under the influence of alcohol.
+bedtime | - | sustantivo | hora de dormir | An hour before bedtime.
+caffeine | - | sustantivo | cafeína | Avoid caffeine.
+avoided | avoid | verbo (participio) | evitado | It should be avoided.
+wasted | waste | adjetivo | desperdiciado | Wasted time.
+transformed | transform | verbo (participio) | transformado | It has transformed fashion.
+brands | brand | sustantivo (plural) | marcas | Big brands.
+produce | - | verbo | producir | They produce clothes.
+garments | garment | sustantivo (plural) | prendas | Inexpensive garments.
+speed | - | sustantivo | velocidad | At incredible speed.
+responded | respond | verbo (pasado) | respondieron | Consumers responded.
+average | - | adjetivo | promedio | The average person.
+carbon | - | sustantivo | carbono | Carbon emissions.
+combined | combine | adjetivo | combinados, juntos | Flights and shipping combined.
+producing | produce | verbo (-ing) | producir | Producing jeans.
+litres | litre | sustantivo (plural) | litros | Thousands of litres.
+chemicals | chemical | sustantivo (plural) | químicos | Toxic chemicals.
+fabrics | fabric | sustantivo (plural) | telas | Dyed fabrics.
+ecosystems | ecosystem | sustantivo (plural) | ecosistemas | Poisoning ecosystems.
+fast-fashion | - | adjetivo | de moda rápida | Fast-fashion garments.
+regulations | regulation | sustantivo (plural) | regulaciones | Weak regulations.
+rana | - | nombre propio | Rana (Rana Plaza, edificio en Bangladés) | Rana Plaza.
+plaza | - | nombre propio | Plaza (Rana Plaza) | The Rana Plaza building.
+bangladesh | - | nombre propio | Bangladés | Factories in Bangladesh.
+housed | house | verbo (pasado) | albergaba | It housed factories.
+clothing | - | sustantivo | ropa, vestimenta | Clothing factories.
+factories | factory | sustantivo (plural) | fábricas | Several factories.
+collapsed | collapse | verbo (pasado) | se derrumbó | The building collapsed.
+killing | kill | verbo (-ing) | matando | Killing workers.
+tragedy | - | sustantivo | tragedia | A terrible tragedy.
+drew | draw | verbo (pasado) | atrajo; dibujó | It drew attention.
+world's | world | sustantivo (posesivo) | del mundo | The world's attention.
+wages | wage | sustantivo (plural) | salarios | Low wages.
+fraction | - | sustantivo | fracción | A small fraction.
+resold | resell | verbo (participio) | revendido | Only a fraction is resold.
+quantities | quantity | sustantivo (plural) | cantidades | Huge quantities.
+shipped | ship | verbo (participio) | enviado por barco | Shipped to Africa.
+landfills | landfill | sustantivo (plural) | rellenos sanitarios | It ends up in landfills.
+burned | burn | verbo (participio) | quemado | It is burned.
+atacama | - | nombre propio | Atacama (desierto de Chile) | The Atacama Desert.
+chile | - | nombre propio | Chile | In Chile.
+discarded | discard | adjetivo | desechado | Discarded clothing.
+buying | buy | verbo (-ing) | comprar | Buying fewer clothes.
+better-quality | - | adjetivo | de mejor calidad | Better-quality clothes.
+ways | way | sustantivo (plural) | maneras, formas | Effective ways.
+reducing | reduce | verbo (-ing) | reducir | Reducing our impact.
+repairing | repair | verbo (-ing) | reparar | Repairing them.
+swapping | swap | verbo (-ing) | intercambiar | Swapping clothes.
+renting | rent | verbo (-ing) | alquilar | Renting outfits.
+outfits | outfit | sustantivo (plural) | atuendos | Renting outfits.
+occasions | occasion | sustantivo (plural) | ocasiones | Special occasions.
+becoming | become | verbo (-ing) | volviéndose | Becoming popular.
+self-expression | - | sustantivo | expresión personal | A form of self-expression.
+sharply | - | adverbio | marcadamente, bruscamente | Divide opinion sharply.
+zoos | zoo | sustantivo (plural) | zoológicos | Modern zoos.
+prisons | prison | sustantivo (plural) | prisiones | Zoos are prisons.
+supporters | supporter | sustantivo (plural) | partidarios | Supporters of zoos.
+concrete | - | adjetivo | de concreto, de cemento | Concrete cages.
+cages | cage | sustantivo (plural) | jaulas | Small cages.
+enclosures | enclosure | sustantivo (plural) | recintos | Large enclosures.
+animals' | animal | sustantivo (posesivo plural) | de los animales | The animals' habitats.
+habitats | habitat | sustantivo (plural) | hábitats | Natural habitats.
+animals | animal | sustantivo (plural) | animales | Wild animals.
+arabian | - | adjetivo | árabe, de Arabia | The Arabian oryx.
+oryx | - | sustantivo | órix (antílope) | The Arabian oryx.
+california | - | nombre propio | California | The California condor.
+condor | - | sustantivo | cóndor | The California condor.
+successfully | - | adverbio | con éxito | Successfully reintroduced.
+reintroduced | reintroduce | verbo (participio) | reintroducido | Reintroduced into the wild.
+origin | - | sustantivo | origen | Countries of origin.
+favour | - | sustantivo | favor | In their favour.
+zoo | - | sustantivo | zoológico | A visit to the zoo.
+creates | create | verbo (3.ª persona) | crea | It creates a connection.
+emotional | - | adjetivo | emocional | An emotional connection.
+connection | - | sustantivo | conexión | A strong connection.
+documentary | - | sustantivo | documental | A nature documentary.
+inspires | inspire | verbo (3.ª persona) | inspira | It inspires children.
+generations | generation | sustantivo (plural) | generaciones | Future generations.
+elephants | elephant | sustantivo (plural) | elefantes | Elephants walk far.
+kilometres | kilometre | sustantivo (plural) | kilómetros | Many kilometres a day.
+obesity | - | sustantivo | obesidad | Stress and obesity.
+joint | - | sustantivo | articulación | Joint problems.
+behaviours | behaviour | sustantivo (plural) | comportamientos | Repetitive behaviours.
+distress | - | sustantivo | angustia, sufrimiento | Psychological distress.
+proportion | - | sustantivo | proporción | A small proportion.
+zoos' | zoo | sustantivo (posesivo plural) | de los zoológicos | Zoos' budgets.
+budgets | budget | sustantivo (plural) | presupuestos | Their budgets.
+animal | - | sustantivo | animal | Animal welfare.
+orcas | orca | sustantivo (plural) | orcas | Orcas in captivity.
+apes | ape | sustantivo (plural) | simios | Great apes.
+sanctuaries | sanctuary | sustantivo (plural) | santuarios | Animal sanctuaries.
+major | - | adjetivo | importante, mayor | Every major revolution.
+technological | - | adjetivo | tecnológico | A technological revolution.
+accompanied | accompany | verbo (participio) | acompañado | Accompanied by fear.
+fear | - | sustantivo | miedo | The fear of machines.
+machines | machine | sustantivo (plural) | máquinas | Weaving machines.
+textile | - | adjetivo | textil | Textile workers.
+luddites | luddite | sustantivo (plural) | luditas | The Luddites smashed machines.
+smashed | smash | verbo (pasado) | destrozaron | They smashed the machines.
+weaving | weave | sustantivo | tejido (weaving machine: telar) | Weaving machines.
+provoked | provoke | verbo (participio) | provocado | Provoked by AI.
+economists | economist | sustantivo (plural) | economistas | Many economists.
+waves | wave | sustantivo (plural) | olas, oleadas | Waves of automation.
+affected | affect | verbo (pasado/participio) | afectó, afectado | It affected manual jobs.
+ai | - | sigla | IA (inteligencia artificial) | AI can write reports.
+perform | - | verbo | realizar, desempeñar | Perform tasks.
+uniquely | - | adverbio | exclusivamente | Uniquely human.
+translating | translate | verbo (-ing) | traducir | Translating documents.
+analysing | analyse | verbo (-ing) | analizar | Analysing images.
+code | - | sustantivo | código | Computer code.
+wondering | wonder | verbo (-ing) | preguntándose | They are wondering.
+years' | year | sustantivo (posesivo plural) | de años | In ten years' time.
+suggests | suggest | verbo (3.ª persona) | sugiere | History suggests...
+complicated | - | adjetivo | complicado | More complicated.
+predicted | predict | verbo (pasado) | predijeron | People predicted the end.
+tellers | teller | sustantivo (plural) | cajeros de banco | Bank tellers.
+united | - | adjetivo | unido (United States: Estados Unidos) | The United States.
+states | state | sustantivo (plural) | estados | The United States.
+branches | branch | sustantivo (plural) | sucursales | More branches.
+professions | profession | sustantivo (plural) | profesiones | Entire professions.
+imagined | imagine | verbo (participio) | imaginado | Nobody could have imagined.
+governments | government | sustantivo (plural) | gobiernos | Governments must invest.
+systems | system | sustantivo (plural) | sistemas | Education systems.
+retrieve | - | verbo | recuperar (información) | Machines retrieve data.
+abilities | ability | sustantivo (plural) | habilidades | Human abilities.
+automate | - | verbo | automatizar | Harder to automate.
+throughout | - | preposición | a lo largo de | Throughout their lives.
+strategy | - | sustantivo | estrategia | The best strategy.
+against | - | preposición | contra | Compete against AI.
+uses | use | verbo (3.ª persona) | usa | A translator who uses AI.
+focuses | focus | verbo (3.ª persona) | se enfoca | She focuses on style.
+cultural | - | adjetivo | cultural | Cultural accuracy.
+accuracy | - | sustantivo | precisión | Cultural accuracy.
+value | - | sustantivo | valor | More value.
+brothers | brother | sustantivo (plural) | hermanos | Her two brothers.
+convinced | - | adjetivo | convencido | She was convinced.
+misheard | mishear | verbo (participio) | oído mal | She must have misheard.
+inés | - | nombre propio | Inés (nombre de mujer) | Aunt Inés.
+popayán | - | nombre propio | Popayán (ciudad del Cauca) | Near Popayán.
+surrounded | surround | verbo (participio) | rodeado | Surrounded by books.
+assumed | assume | verbo (pasado) | supusieron | Everyone assumed it.
+ridiculous | - | adjetivo | ridículo | That's ridiculous.
+gustavo | - | nombre propio | Gustavo (nombre de hombre) | Gustavo, the eldest.
+eldest | old | adjetivo (superlativo) | el mayor (de hermanos) | The eldest brother.
+sealed | seal | adjetivo | sellado | A sealed envelope.
+response | - | sustantivo | respuesta | A written response.
+searched | search | verbo (pasado) | buscaron | They searched the house.
+hidden | hide | verbo (participio) | escondido | Hidden in a safe.
+hired | hire | verbo (pasado) | contrató | He hired a locksmith.
+inés's | inés | nombre propio (posesivo) | de Inés | Inés's diaries.
+feeding | feed | verbo (-ing) | alimentar | Feeding the cats.
+chilean | - | adjetivo | chileno | A Chilean poet.
+poet's | poet | sustantivo (posesivo) | del poeta | A poet's work.
+underlined | underline | verbo (participio) | subrayado | Underlined twice.
+submitted | submit | verbo (pasado) | entregó | He submitted a list.
+hiding | hide | verbo (-ing) | escondite (hiding place) | Hiding places.
+aunt's | aunt | sustantivo (posesivo) | de la tía | Her aunt's handwriting.
+whoever | - | pronombre | quienquiera que | Whoever stays.
+stays | stay | verbo (3.ª persona) | se queda | Whoever stays.
+central | - | adjetivo | central, céntrico | Central London.
+lettuce | - | sustantivo | lechuga | Tomatoes and lettuce.
+neat | - | adjetivo | ordenado, prolijo | Neat rows.
+rows | row | sustantivo (plural) | filas | In neat rows.
+singapore | - | nombre propio | Singapur | In Singapore.
+cultivated | cultivate | verbo (participio) | cultivado | Vegetables are cultivated.
+vertical | - | adjetivo | vertical | Vertical towers.
+storeys | storey | sustantivo (plural) | pisos (de un edificio) | Several storeys high.
+plots | plot | sustantivo (plural) | lotes, parcelas | Empty plots of land.
+agriculture | - | sustantivo | agricultura | Urban agriculture.
+booming | boom | verbo (-ing) | en auge | Urban farming is booming.
+vegetable | - | adjetivo | de verduras | Vegetable gardens.
+orchards | orchard | sustantivo (plural) | huertos frutales | Orchards and gardens.
+livestock | - | sustantivo | ganado | Livestock within the city.
+expanded | expand | verbo (pasado) | se expandieron | Cities expanded.
+developed | develop | adjetivo | desarrollado | A developed country.
+travels | travel | verbo (3.ª persona) | viaja | The meal travels far.
+reaches | reach | verbo (3.ª persona) | llega a | Before it reaches the plate.
+farming | - | sustantivo | agricultura, cultivo | Urban farming.
+bringing | bring | verbo (-ing) | traer | Bringing food back.
+distance | - | sustantivo | distancia | The distance food travels.
+transporting | transport | verbo (-ing) | transportar | Transporting food.
+access | - | sustantivo | acceso | Access to fresh food.
+supermarkets | supermarket | sustantivo (plural) | supermercados | Supermarkets are scarce.
+spaces | space | sustantivo (plural) | espacios | Green spaces.
+rainwater | - | sustantivo | agua lluvia | Absorb rainwater.
+bees | bee | sustantivo (plural) | abejas | Bees and birds.
+backgrounds | background | sustantivo (plural) | orígenes | Different backgrounds.
+elderly | - | adjetivo | mayor, de edad avanzada | Elderly residents.
+recovering | recover | verbo (-ing) | recuperándose | Recovering from illness.
+faces | face | verbo (3.ª persona) | enfrenta | It faces challenges.
+challenges | challenge | sustantivo (plural) | desafíos | Significant challenges.
+developers | developer | sustantivo (plural) | constructoras, promotores | Developers want to build.
+contaminated | contaminate | adjetivo | contaminado | Contaminated soil.
+industrial | - | adjetivo | industrial | Industrial pollution.
+high-tech | - | adjetivo | de alta tecnología | High-tech solutions.
+farms | farm | sustantivo (plural) | granjas | Vertical farms.
+crops | crop | sustantivo (plural) | cultivos | Grow crops indoors.
+indoors | - | adverbio | bajo techo, adentro | Grown indoors.
+amounts | amount | sustantivo (plural) | cantidades | Large amounts of energy.
+themselves | - | pronombre | ellos mismos, sí mismas | Feed themselves.
+valuable | - | adjetivo | valioso | Very valuable.
+causes | cause | verbo (3.ª persona) | causa | It causes panic.
+panic | - | sustantivo | pánico | It causes panic.
+freeze | - | verbo | congelarse, quedarse en blanco | Candidates freeze.
+onwards | - | adverbio | en adelante | From school onwards.
+interested | - | adjetivo | interesado | Not interested in hobbies.
+hobbies | hobby | sustantivo (plural) | pasatiempos | Your hobbies.
+star | - | sustantivo | estrella (star sign: signo zodiacal) | Your star sign.
+professionally | - | adverbio | profesionalmente | Who you are professionally.
+communicate | - | verbo | comunicar(se) | How well you communicate.
+structured | structure | adjetivo | estructurado | Clearly structured.
+formula | - | sustantivo | fórmula | A useful formula.
+achievements | achievement | sustantivo (plural) | logros | Your main achievements.
+currently | - | adverbio | actualmente | I'm currently a team leader.
+telecommunications | - | sustantivo | telecomunicaciones | A telecommunications company.
+agents | agent | sustantivo (plural) | agentes | Twelve agents.
+score | - | sustantivo | puntaje | Satisfaction score.
+mentioning | mention | verbo (-ing) | mencionando | Mentioning your skills.
+sales | sale | sustantivo (plural) | ventas | I worked in sales.
+targets | target | sustantivo (plural) | metas | Sales targets.
+fits | fit | verbo (3.ª persona) | encaja | How it fits your plans.
+larger | large | adjetivo (comparativo) | más grande | A larger organisation.
+company's | company | sustantivo (posesivo) | de la empresa | Your company's focus.
+naturally | - | adverbio | naturalmente | Let the words come naturally.
+impressions | impression | sustantivo (plural) | impresiones | First impressions.
+positive | - | adjetivo | positivo | A positive tone.
+placebo | - | sustantivo | placebo | The placebo effect.
+phenomena | phenomenon | sustantivo (plural) | fenómenos | Puzzling phenomena.
+patients | patient | sustantivo (plural) | pacientes | Doctors and patients.
+substances | substance | sustantivo (plural) | sustancias | Harmless substances.
+anaesthetist | - | sustantivo | anestesiólogo | An American anaesthetist.
+henry | - | nombre propio | Henry (nombre de hombre) | Henry Beecher.
+beecher | - | nombre propio | Beecher (apellido) | Henry Beecher.
+morphine | - | sustantivo | morfina | He ran out of morphine.
+treating | treat | verbo (-ing) | tratar, atender | Treating soldiers.
+injured | - | adjetivo | herido | Injured soldiers.
+soldiers | soldier | sustantivo (plural) | soldados | Injured soldiers.
+injected | inject | verbo (pasado) | inyectó | A nurse injected him.
+soldier | - | sustantivo | soldado | The soldier's pain.
+beecher's | beecher | nombre propio (posesivo) | de Beecher | To Beecher's astonishment.
+astonishment | - | sustantivo | asombro | To his astonishment.
+soldier's | soldier | sustantivo (posesivo) | del soldado | The soldier's pain.
+decreased | decrease | verbo (pasado) | disminuyó | The pain decreased.
+placebos | placebo | sustantivo (plural) | placebos | Placebos can work.
+scans | scan | sustantivo (plural) | escáneres | Brain scans.
+receiving | receive | verbo (-ing) | recibiendo | Receiving a painkiller.
+pain-relieving | - | adjetivo | que alivia el dolor | Pain-relieving chemicals.
+endorphins | endorphin | sustantivo (plural) | endorfinas | Natural endorphins.
+interestingly | - | adverbio | curiosamente | Interestingly, details matter.
+pills | pill | sustantivo (plural) | pastillas | Two pills.
+injections | injection | sustantivo (plural) | inyecciones | Injections work better.
+colour | - | sustantivo | color | The colour of the pill.
+calming | - | adjetivo | tranquilizante | A calming effect.
+perceived | perceive | verbo (participio) | percibido | Perceived as stimulating.
+stimulating | - | adjetivo | estimulante | Red is stimulating.
+surprising | - | adjetivo | sorprendente | The most surprising discovery.
+harvard | - | nombre propio | Harvard (universidad) | Harvard University.
+irritable | - | adjetivo | irritable | Irritable bowel syndrome.
+bowel | - | sustantivo | intestino | Bowel problems.
+syndrome | - | sustantivo | síndrome | A syndrome.
+labelled | label | verbo (participio) | etiquetado | Labelled as placebos.
+twin | - | sustantivo | gemelo | Its dark twin.
+nocebo | - | sustantivo | nocebo | The nocebo effect.
+expectations | expectation | sustantivo (plural) | expectativas | Patients' expectations.
+empathy | - | sustantivo | empatía | A doctor's empathy.
+manners | - | sustantivo | modales | Good manners.
+narrow | - | adjetivo | estrecho | Narrow streets.
+venice | - | nombre propio | Venecia | The streets of Venice.
+receives | receive | verbo (3.ª persona) | recibe | The city receives tourists.
+economic | - | adjetivo | económico (de la economía) | Economic benefits.
+supports | support | verbo (3.ª persona) | apoya | It supports businesses.
+provides | provide | verbo (3.ª persona) | proporciona | It provides income.
+developing | - | adjetivo | en desarrollo | Developing countries.
+damaging | - | adjetivo | perjudicial | Damaging consequences.
+owners | owner | sustantivo (plural) | dueños | Property owners.
+apartments | apartment | sustantivo (plural) | apartamentos | Renting apartments.
+platforms | platform | sustantivo (plural) | plataformas | Online platforms.
+rents | rent | sustantivo (plural) | arriendos | Rents rise.
+rise | - | verbo | subir, aumentar | Prices rise.
+forced | force | verbo (participio) | obligado | Forced out.
+lisbon | - | nombre propio | Lisboa | Barcelona and Lisbon.
+original | - | adjetivo | original | The original population.
+population | - | sustantivo | población | The local population.
+stores | store | sustantivo (plural) | tiendas | Souvenir stores.
+chains | chain | sustantivo (plural) | cadenas | Fast-food chains.
+attracted | attract | verbo (pasado) | atrajo | It attracted visitors.
+disappears | disappear | verbo (3.ª persona) | desaparece | It slowly disappears.
+mass | - | adjetivo | masivo | Mass tourism.
+puts | put | verbo (3.ª persona) | pone | It puts pressure on...
+beaches | beach | sustantivo (plural) | playas | Popular beaches.
+coral | - | sustantivo | coral | Coral reefs.
+reefs | reef | sustantivo (plural) | arrecifes | Coral reefs.
+national | - | adjetivo | nacional | National parks.
+visitor | - | sustantivo | visitante | Visitor numbers.
+numbers | number | sustantivo (plural) | números, cantidades | Visitor numbers.
+controlled | control | verbo (participio) | controlado | Not controlled.
+cruise | - | sustantivo | crucero | Cruise ships.
+ships | ship | sustantivo (plural) | barcos | Large ships.
+criticised | criticise | verbo (participio) | criticado | Particularly criticised.
+ports | port | sustantivo (plural) | puertos | Small ports.
+destinations | destination | sustantivo (plural) | destinos | Popular destinations.
+experimenting | experiment | verbo (-ing) | experimentando | Experimenting with solutions.
+entry | - | sustantivo | entrada | An entry fee.
+fee | - | sustantivo | tarifa, cuota | An entry fee.
+lagoon | - | sustantivo | laguna | The Venice lagoon.
+limited | limit | verbo (pasado) | limitó | Amsterdam limited hotels.
+hotels | hotel | sustantivo (plural) | hoteles | New hotels.
+rentals | rental | sustantivo (plural) | alquileres | Holiday rentals.
+tickets | ticket | sustantivo (plural) | entradas, tiquetes | They sell tickets.
+slots | slot | sustantivo (plural) | franjas horarias | Specific time slots.
+control | - | verbo | controlar | Control the number of people.
+travellers | traveller | sustantivo (plural) | viajeros | Travellers can help.
+visiting | visit | verbo (-ing) | visitar | Visiting in low season.
+rushing | rush | verbo (-ing) | apresurarse | Rushing between places.
+locally | - | adverbio | localmente | Locally owned.
+owned | own | verbo (participio) | de propiedad | Locally owned hotels.
+respecting | respect | verbo (-ing) | respetar | Respecting local customs.
+aim | - | sustantivo | objetivo | The aim of travelling.
+travelling | travel | sustantivo | viajar | The aim of travelling.
+recommendations | recommendation | sustantivo (plural) | recomendaciones | Make recommendations.
+improving | improve | verbo (-ing) | mejorar | Improving our service.
+representing | represent | verbo (-ing) | representando | Representing 27%.
+rate | - | sustantivo | tasa, índice | A response rate.
+respondents | respondent | sustantivo (plural) | encuestados | 68% of respondents.
+compared | compare | verbo (participio) | comparado | Compared to last year.
+period | - | sustantivo | periodo | The same period.
+cause | - | sustantivo | causa, motivo | A cause for concern.
+stated | state | verbo (pasado) | afirmaron | They stated that...
+waited | wait | verbo (pasado/participio) | esperaron | They waited ten minutes.
+regardless | - | adverbio | independientemente | Regardless of the result.
+performance | - | sustantivo | desempeño | Agent performance.
+ratings | rating | sustantivo (plural) | calificaciones | High ratings.
+politeness | - | sustantivo | cortesía | Ratings for politeness.
+occasion | - | sustantivo | ocasión | On each occasion.
+frustrating | - | adjetivo | frustrante | It was frustrating.
+preference | - | sustantivo | preferencia | A strong preference.
+resolving | resolve | verbo (-ing) | resolver | Resolving problems.
+aged | - | adjetivo | de... años de edad | Aged 18 to 30.
+exists | exist | verbo (3.ª persona) | existe | The chat service exists.
+based | base | verbo (participio) | basado | Based on these findings.
+peak | - | adjetivo | pico, máximo | Peak hours.
+mornings | morning | sustantivo (plural) | mañanas | Monday mornings.
+volume | - | sustantivo | volumen | Call volume.
+call-back | - | sustantivo | devolución de llamada | A call-back option.
+actively | - | adverbio | activamente | Promote it actively.
+implemented | implement | verbo (participio) | implementado | If the measures are implemented.
+levels | level | sustantivo (plural) | niveles | Satisfaction levels.
+year's | year | sustantivo (posesivo) | del año | Last year's figures.
+figures | figure | sustantivo (plural) | cifras | Last year's figures.
+follow-up | - | adjetivo | de seguimiento | A follow-up survey.
+emigrated | emigrate | verbo (participio) | emigrado | Parents who had emigrated.
+advised | advise | verbo (participio) | aconsejado | They were advised not to.
+paints | paint | verbo (3.ª persona) | pinta | Research paints a different picture.
+equal | - | adjetivo | igual | Equal to or larger.
+differences | difference | sustantivo (plural) | diferencias | Differences disappear.
+speaks | speak | verbo (3.ª persona) | habla | When a bilingual person speaks.
+functions | function | sustantivo (plural) | funciones | Executive functions.
+ignore | - | verbo | ignorar | Ignore distractions.
+experiments | experiment | sustantivo (plural) | experimentos | Several experiments.
+performed | perform | verbo (pasado) | se desempeñaron | They performed better.
+monolinguals | monolingual | sustantivo (plural) | monolingües | Than monolinguals.
+failed | fail | verbo (participio) | fallado | Studies have failed.
+remains | remain | verbo (3.ª persona) | sigue, permanece | The debate remains open.
+discussed | discuss | verbo (participio) | discutido | Widely discussed.
+concerns | concern | verbo (3.ª persona) | se refiere a | It concerns ageing.
+level | - | sustantivo | nivel | A similar level.
+reserve | - | sustantivo | reserva | Cognitive reserve.
+compensate | - | verbo | compensar | Compensate for damage.
+pronunciation | - | sustantivo | pronunciación | Practise pronunciation.
+express | - | verbo | expresar | Express ideas.
+forms | form | sustantivo (plural) | formas | Forms of exercise.
+opening | open | verbo (-ing) | abriendo | Opening doors.
+doors | door | sustantivo (plural) | puertas | Opening doors.
+workouts | workout | sustantivo (plural) | entrenamientos | The best workouts.
+ship | - | sustantivo | barco | A British ship.
+dei | - | nombre propio | Dei (Dei Gratia, nombre de barco) | The Dei Gratia.
+gratia | - | nombre propio | Gratia (Dei Gratia, nombre de barco) | The Dei Gratia.
+spotted | spot | verbo (pasado) | divisó, vio | They spotted a vessel.
+drifting | drift | verbo (-ing) | a la deriva | Drifting in the ocean.
+atlantic | - | nombre propio | Atlántico | The Atlantic Ocean.
+ocean | - | sustantivo | océano | The Atlantic Ocean.
+azores | - | nombre propio | Azores (islas) | Near the Azores.
+portugal | - | nombre propio | Portugal | The coast of Portugal.
+sails | sail | sustantivo (plural) | velas (de barco) | Its sails were set.
+strangely | - | adverbio | de manera extraña | Moving strangely.
+steering | steer | verbo (-ing) | conducir, timonear | Nobody was steering it.
+david | - | nombre propio | David | David Morehouse.
+morehouse | - | nombre propio | Morehouse (apellido) | Captain Morehouse.
+men | man | sustantivo (plural) | hombres | Some of his men.
+mary | - | nombre propio | Mary | The Mary Celeste.
+celeste | - | nombre propio | Celeste | The Mary Celeste.
+merchant | - | adjetivo | mercante | A merchant vessel.
+york | - | nombre propio | York (New York: Nueva York) | It left New York.
+board | - | sustantivo | a bordo (on board) | Nobody on board.
+sailors | sailor | sustantivo (plural) | marineros | The sailors found it.
+reasonably | - | adverbio | razonablemente | Reasonably good condition.
+condition | - | sustantivo | condición, estado | Good condition.
+months' | month | sustantivo (posesivo plural) | de meses | Six months' supply.
+supply | - | sustantivo | suministro, provisión | A supply of food.
+barrels | barrel | sustantivo (plural) | barriles | Barrels of alcohol.
+crew's | crew | sustantivo (posesivo) | de la tripulación | The crew's belongings.
+belongings | - | sustantivo | pertenencias | Personal belongings.
+boots | boot | sustantivo (plural) | botas | Clothes and boots.
+pipes | pipe | sustantivo (plural) | pipas; tubos | Even pipes.
+lifeboat | - | sustantivo | bote salvavidas | The lifeboat was missing.
+ship's | ship | sustantivo (posesivo) | del barco | The ship's log.
+log | - | sustantivo | bitácora | The last entry in the log.
+benjamin | - | nombre propio | Benjamin | Benjamin Briggs.
+briggs | - | nombre propio | Briggs (apellido) | Captain Briggs.
+two-year-old | - | adjetivo | de dos años | A two-year-old daughter.
+members | member | sustantivo (plural) | miembros | Crew members.
+abandoned | abandon | verbo (participio) | abandonado | They abandoned the ship.
+pirates | pirate | sustantivo (plural) | piratas | Pirates attacked.
+attacked | attack | verbo (participio) | atacado | Pirates had attacked.
+stolen | steal | verbo (participio) | robado | Nothing was stolen.
+blamed | blame | verbo (pasado) | culparon | Others blamed a mutiny.
+mutiny | - | sustantivo | motín | A mutiny on board.
+monster | - | sustantivo | monstruo | A sea monster.
+waterspout | - | sustantivo | tromba marina | A waterspout.
+arthur | - | nombre propio | Arthur | Arthur Conan Doyle.
+conan | - | nombre propio | Conan | Arthur Conan Doyle.
+doyle | - | nombre propio | Doyle (apellido) | Conan Doyle.
+sherlock | - | nombre propio | Sherlock | Sherlock Holmes.
+holmes | - | nombre propio | Holmes | Sherlock Holmes.
+invented | invent | adjetivo | inventado | Invented details.
+proposed | propose | verbo (participio) | propuesto | They have proposed theories.
+realistic | - | adjetivo | realista | Realistic explanations.
+explanations | explanation | sustantivo (plural) | explicaciones | Possible explanations.
+fumes | - | sustantivo | vapores, gases | Alcohol fumes.
+leaked | leak | verbo (participio) | filtrado | Fumes had leaked.
+explosion | - | sustantivo | explosión | Fearing an explosion.
+precaution | - | sustantivo | precaución | As a precaution.
+intending | intend | verbo (-ing) | con la intención de | Intending to return.
+danger | - | sustantivo | peligro | The danger had passed.
+rope | - | sustantivo | cuerda | The rope broke.
+connecting | connect | verbo (-ing) | que conectaba | The rope connecting the boat.
+instrument | - | sustantivo | instrumento | A faulty instrument.
+led | lead | verbo (pasado) | llevó, condujo | It led him to believe...
+sinking | sink | verbo (-ing) | hundiéndose | The ship was sinking.
+mysteries | mystery | sustantivo (plural) | misterios | Unsolved mysteries.
