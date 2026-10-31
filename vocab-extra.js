@@ -451,7 +451,259 @@ Practice makes perfect. | La práctica hace al maestro. | Keep going, practice m
 `
 },
 /* B1 */ {
-
+"Sustantivos": `
+routine | rutina | I need a new morning routine. | Hábitos y bienestar
+motivation | motivación | I've lost my motivation. | Hábitos y bienestar
+willpower | fuerza de voluntad | It takes a lot of willpower. | Hábitos y bienestar
+anxiety | ansiedad | She suffers from anxiety. | Hábitos y bienestar
+self-esteem | autoestima | Low self-esteem. | Hábitos y bienestar
+well-being | bienestar | Mental well-being. | Hábitos y bienestar
+improvement | mejora | A big improvement. | Hábitos y bienestar
+balance | equilibrio | Work-life balance. | Hábitos y bienestar
+workplace | lugar de trabajo | A safe workplace. | Trabajo
+workload | carga de trabajo | A heavy workload. | Trabajo
+employer | empleador | My employer is very fair. | Trabajo
+department | departamento | The sales department. | Trabajo
+raise | aumento (de sueldo) | I asked for a raise. | Trabajo
+contract | contrato | A one-year contract. | Trabajo
+applicant | aspirante, candidato | There were fifty applicants. | Trabajo
+CV | hoja de vida | Send us your CV. | Trabajo
+qualification | título, requisito | What qualifications do you need? | Trabajo
+training | capacitación, entrenamiento | We get training every year. | Trabajo
+interruption | interrupción | Too many interruptions. | Trabajo
+disadvantage | desventaja | The main disadvantage is the cost. | Opiniones
+risk | riesgo | There's a risk of rain. | Opiniones
+argument | argumento; discusión | A strong argument. | Opiniones
+research | investigación | Research shows that... | Opiniones
+expert | experto | Experts say... | Opiniones
+majority | mayoría | The majority of people agree. | Opiniones
+minority | minoría | A small minority. | Opiniones
+community | comunidad | A small community. | Sociedad
+organisation | organización | A charity organisation. | Sociedad
+generation | generación | The younger generation. | Sociedad
+elderly people | personas mayores | Help elderly people. | Sociedad
+citizen | ciudadano | A Colombian citizen. | Sociedad
+government | gobierno | The government announced new rules. | Sociedad
+law | ley | It's against the law. | Sociedad
+rights | derechos | Human rights. | Sociedad
+crime | crimen, delito | Crime is a problem. | Sociedad
+poverty | pobreza | They live in poverty. | Sociedad
+pollution | contaminación | Air pollution. | Medio ambiente
+climate change | cambio climático | Climate change is real. | Medio ambiente
+global warming | calentamiento global | Global warming. | Medio ambiente
+rainforest | selva tropical | The Amazon rainforest. | Medio ambiente
+wildlife | fauna silvestre | Protect the wildlife. | Medio ambiente
+species | especie | An endangered species. | Medio ambiente
+recycling | reciclaje | Recycling is important. | Medio ambiente
+waste | desperdicio, residuos | Food waste. | Medio ambiente
+plastic | plástico | Single-use plastic. | Medio ambiente
+energy | energía | Solar energy. | Medio ambiente
+electricity | electricidad | The electricity went off. | Medio ambiente
+power station | central eléctrica | A problem at the power station. | Medio ambiente
+blackout | apagón | There was a blackout last night. | Medio ambiente
+drought | sequía | The drought lasted months. | Medio ambiente
+flood | inundación | The flood destroyed houses. | Medio ambiente
+earthquake | terremoto | A strong earthquake. | Medio ambiente
+insect | insecto | Insects everywhere. | Naturaleza
+mosquito | zancudo, mosquito | Mosquito net. | Naturaleza
+frog | rana | A green frog. | Naturaleza
+dolphin | delfín | Pink river dolphins. | Naturaleza
+goat | cabra | The goats ate the berries. | Naturaleza
+berry | baya | Red berries. | Naturaleza
+hammock | hamaca | We slept in hammocks. | Naturaleza
+canoe | canoa | We travelled by canoe. | Naturaleza
+legend | leyenda | According to legend... | Historia
+colony | colonia | Spanish colonies. | Historia
+empire | imperio | The Roman Empire. | Historia
+war | guerra | The civil war. | Historia
+peace | paz | Peace and love. | Historia
+king | rey | The king of Spain. | Historia
+priest | sacerdote | A Jesuit priest. | Historia
+discovery | descubrimiento | An important discovery. | Historia
+producer | productor | Colombia is a big coffee producer. | Economía
+quality | calidad | High quality. | Economía
+price rise | aumento de precios | Another price rise. | Economía
+savings | ahorros | I spent all my savings. | Dinero
+expense | gasto | Food is our biggest expense. | Dinero
+loan | préstamo | A bank loan. | Dinero
+bank statement | extracto bancario | Check your bank statement. | Dinero
+subscription | suscripción | Cancel your subscription. | Dinero
+account | cuenta | A savings account. | Dinero
+emergency | emergencia | Savings for emergencies. | Dinero
+sink | lavaplatos, lavamanos | Dishes in the sink. | Vivienda
+rota | turno (lista de turnos) | A cleaning rota. | Vivienda
+earplugs | tapones para los oídos | I sleep with earplugs. | Vivienda
+conflict | conflicto | I hate conflict. | Relaciones
+respect | respeto | Respect is important. | Relaciones
+trust | confianza | Trust takes time. | Relaciones
+couple | pareja | A young couple. | Relaciones
+partner | pareja, socio | My partner is a nurse. | Relaciones
+divorce | divorcio | They got a divorce. | Relaciones
+argument (fight) | discusión, pelea | We had an argument. | Relaciones
+apology | disculpa | I owe you an apology. | Relaciones
+advertising | publicidad | She works in advertising. | Medios
+advert | anuncio | A job advert. | Medios
+journalist | periodista | He's a journalist. | Medios
+article | artículo | I read an interesting article. | Medios
+publisher | editorial | A publishing company. | Medios
+novel | novela | A famous novel. | Literatura
+novelist | novelista | A Colombian novelist. | Literatura
+short story | cuento | She writes short stories. | Literatura
+author | autor | My favourite author. | Literatura
+character (book) | personaje | The main character. | Literatura
+ending | final | A happy ending. | Literatura
+nickname | apodo | His nickname is Gabo. | Literatura
+flavour | sabor | Full of flavour. | Comida
+street food | comida callejera | I love street food. | Comida
+stall | puesto (de venta) | A food stall. | Comida
+queue | fila | A long queue. | Comida
+dough | masa | Corn dough. | Comida
+leftovers | sobras | I took the leftovers to work. | Comida
+vinegar | vinagre | Salt and vinegar. | Comida
+peanut | maní | Peanut butter. | Comida
+noodles | fideos | Rice noodles. | Comida
+prawn | camarón, langostino | Prawns with garlic. | Comida
+smartphone | teléfono inteligente | Everyone has a smartphone. | Tecnología
+screen time | tiempo frente a la pantalla | Limit your screen time. | Tecnología
+cyberbullying | ciberacoso | Cyberbullying is a crime. | Tecnología
+fake news | noticias falsas | Don't share fake news. | Tecnología
+update | actualización | A software update. | Tecnología
+download | descarga | The download is slow. | Tecnología
+streaming service | servicio de streaming | A streaming service. | Tecnología
+torch | linterna | Take a torch. | Objetos
+fan | ventilador; fanático | Turn on the fan. | Objetos
+air conditioner | aire acondicionado | The air conditioner is broken. | Objetos
+`,
+"Verbos": `
+succeed | tener éxito | You will succeed. | Logros
+increase | aumentar | Prices increased. | Hábitos
+develop | desarrollar | Develop new skills. | Hábitos
+compare | comparar | Don't compare yourself. | Pensamiento
+discover | descubrir | They discovered a new species. | Pensamiento
+recognise | reconocer | I didn't recognise her. | Pensamiento
+discuss | discutir, hablar de | Let's discuss it. | Comunicación
+convince | convencer | You've convinced me. | Comunicación
+argue | discutir, pelear | They argue a lot. | Comunicación
+accept | aceptar | I accept your apology. | Comunicación
+protect | proteger | Protect the forest. | Medio ambiente
+recycle | reciclar | Recycle your bottles. | Medio ambiente
+waste (verb) | desperdiciar | Don't waste water. | Medio ambiente
+plant | sembrar | We planted trees. | Medio ambiente
+destroy | destruir | The fire destroyed the house. | Medio ambiente
+damage | dañar | The storm damaged the roof. | Medio ambiente
+pollute | contaminar | Factories pollute the river. | Medio ambiente
+spread | extenderse, propagar | The news spread quickly. | Historia
+invent | inventar | Who invented the phone? | Historia
+publish | publicar | She published a novel. | Medios
+translate | traducir | Translated into forty languages. | Medios
+include | incluir | Breakfast is included. | Básicos
+contain | contener | It contains sugar. | Básicos
+depend on | depender de | It depends on the weather. | Básicos
+ban | prohibir | They banned plastic bags. | Básicos
+waste money | malgastar dinero | Don't waste money. | Dinero
+get on (with) | llevarse bien (con) | I get on well with my sister. | Phrasal verbs
+take turns | turnarse | We take turns cooking. | Vivienda
+react | reaccionar | How did she react? | Relaciones
+forgive | perdonar | Please forgive me. | Relaciones
+trust (verb) | confiar | I trust you. | Relaciones
+affect | afectar | It affects your sleep. | Salud
+suffer | sufrir | He suffers from back pain. | Salud
+concentrate | concentrarse | I can't concentrate. | Salud
+set up | montar, establecer | They set up a business. | Phrasal verbs
+carry on | continuar | Carry on working. | Phrasal verbs
+get over | superar | She got over the flu. | Phrasal verbs
+get rid of | deshacerse de | Get rid of old clothes. | Phrasal verbs
+go through | pasar por (experiencia) | She went through a difficult time. | Phrasal verbs
+let down | decepcionar | Don't let me down. | Phrasal verbs
+make up | inventar; reconciliarse | He made up an excuse. | Phrasal verbs
+show up | aparecer, llegar | He showed up late. | Phrasal verbs
+look up | buscar (información) | Look it up in the dictionary. | Phrasal verbs
+stick to | ceñirse a, mantener | Stick to your plan. | Phrasal verbs
+`,
+"Adjetivos": `
+productive | productivo | A productive day. | Trabajo
+stressful | estresante | A stressful job. | Trabajo
+demanding | exigente | A demanding boss. | Trabajo
+rewarding | gratificante | A rewarding experience. | Trabajo
+satisfying | satisfactorio | Satisfying work. | Trabajo
+hybrid | híbrido | A hybrid model. | Trabajo
+ambitious | ambicioso | She's very ambitious. | Personalidad
+mean | tacaño; malo | Don't be mean. | Personalidad
+moody | temperamental | Teenagers can be moody. | Personalidad
+easy-going | relajado, tranquilo | My dad is easy-going. | Personalidad
+grateful | agradecido | I'm grateful for your help. | Sentimientos
+amazed | asombrado | I was amazed. | Sentimientos
+annoyed | molesto, fastidiado | I'm annoyed with him. | Sentimientos
+confused | confundido | I'm confused. | Sentimientos
+relieved | aliviado | I was relieved. | Sentimientos
+isolated | aislado | They feel isolated. | Sentimientos
+anxious | ansioso, preocupado | I'm anxious about it. | Sentimientos
+environmental | ambiental | Environmental problems. | Medio ambiente
+illegal | ilegal | Illegal logging. | Medio ambiente
+endangered | en peligro de extinción | An endangered animal. | Medio ambiente
+renewable | renovable | Renewable energy. | Medio ambiente
+harmful | dañino | Harmful chemicals. | Medio ambiente
+practical | práctico | Practical advice. | Básicos
+visible | visible | Make it visible. | Básicos
+automatic | automático | An automatic door. | Básicos
+regular | regular, habitual | Regular exercise. | Básicos
+separate | separado | A separate room. | Básicos
+fixed | fijo | A fixed amount. | Básicos
+imaginary | imaginario | An imaginary town. | Literatura
+enormous | enorme | An enormous success. | Básicos
+incredible | increíble | Incredible heat. | Básicos
+physical | físico | Hard physical work. | Básicos
+mental | mental | Mental health. | Salud
+energetic | lleno de energía | The goats became energetic. | Salud
+silent | silencioso | The forest is never silent. | Básicos
+mild | suave | Mild coffee. | Comida
+thick | grueso, espeso | Thick chips. | Comida
+soft | suave, blando | Soft tortillas. | Comida
+due | pendiente de pago, previsto | The rent is due. | Dinero
+online | en línea | Online shopping. | Tecnología
+digital | digital | Digital skills. | Tecnología
+`,
+"Adverbios": `
+basically | básicamente | Basically, it's a good idea. | Discurso
+honestly | sinceramente | Honestly, I don't like it. | Discurso
+hopefully | ojalá, con suerte | Hopefully, it will be sunny. | Discurso
+surprisingly | sorprendentemente | Surprisingly, it was cheap. | Discurso
+completely | completamente | Completely wet. | Grado
+extremely | extremadamente | Extremely hot. | Grado
+fairly | bastante | Fairly easy. | Grado
+constantly | constantemente | They constantly compare. | Frecuencia
+originally | originalmente | Originally from Ethiopia. | Tiempo
+by accident | por accidente | I broke it by accident. | Modo
+strongly | firmemente, mucho | I strongly recommend it. | Modo
+`,
+"Conectores": `
+as well as | así como, además de | Fruit as well as vegetables. | Añadir
+unlike | a diferencia de | Unlike traditional bullying... | Contraste
+as a result | como resultado | As a result, he lost his job. | Consecuencia
+that's why | por eso | That's why I left. | Consecuencia
+so that | para que | Speak slowly so that I understand. | Propósito
+such as | como (por ejemplo) | Fruits such as mango. | Ejemplos
+`,
+"Expresiones": `
+It's not worth it. | No vale la pena. | Don't buy it, it's not worth it. | Opinión
+To be honest... | Para ser sincero... | To be honest, I'm tired. | Opinión
+As far as I know... | Que yo sepa... | As far as I know, it's free. | Opinión
+I'm not sure about that. | No estoy seguro de eso. | Hmm, I'm not sure about that. | Opinión
+It depends. | Depende. | Is it better? — It depends. | Opinión
+That makes sense. | Tiene sentido. | That makes sense, thanks. | Opinión
+What do you mean? | ¿A qué te refieres? | Sorry, what do you mean? | Conversación
+By the way... | Por cierto... | By the way, I saw Ana. | Conversación
+Anyway... | En fin... | Anyway, let's go. | Conversación
+It's a piece of cake. | Es pan comido. | The exam? It's a piece of cake. | Modismos
+Break a leg! | ¡Mucha suerte! (actuación) | Break a leg tonight! | Modismos
+Hit the road | ponerse en camino | It's late, let's hit the road. | Modismos
+In the same boat | en la misma situación | Don't worry, we're in the same boat. | Modismos
+Get the hang of it | cogerle el truco | You'll get the hang of it. | Modismos
+Keep an eye on | vigilar, estar pendiente | Keep an eye on my bag. | Modismos
+Take it easy | tómalo con calma | Take it easy, it's not serious. | Modismos
+Better late than never | más vale tarde que nunca | You came! Better late than never. | Refranes
+Every cloud has a silver lining | no hay mal que por bien no venga | Every cloud has a silver lining. | Refranes
+`
 },
 /* B2 */ {
 

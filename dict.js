@@ -2943,4 +2943,209 @@ programmes | programme | sustantivo (plural) | programas | TV programmes.
 phones | phone | sustantivo (plural) | teléfonos | On our phones.
 remembers | remember | verbo (3.ª persona) | recuerda | She remembers.
 talks | talk | verbo (3.ª persona) | habla | She talks to her sister.
+brushing | brush | verbo (-ing) | cepillar(se) | Like brushing our teeth.
+percent | - | sustantivo | por ciento | Forty percent.
+pages | page | sustantivo (plural) | páginas | Read two pages.
+connect | - | verbo | conectar, relacionar | Connect the new habit to an old one.
+reminds | remind | verbo (3.ª persona) | le recuerda | Your coffee reminds you.
+improvements | improvement | sustantivo (plural) | mejoras | Small improvements.
+careers | career | sustantivo (plural) | carreras profesionales | Good for their careers.
+proper | - | adjetivo | adecuado, de verdad | Proper meals.
+accountant | - | sustantivo | contador | Martín is an accountant.
+breaks | break | sustantivo (plural) | descansos, pausas | Coffee breaks.
+valeria | - | nombre propio | Valeria (nombre de mujer) | Valeria, 27.
+agent | - | sustantivo | agente | A customer service agent.
+advantages | advantage | sustantivo (plural) | ventajas | It has advantages.
+dream | - | sustantivo | sueño | A dream job.
+nightmare | - | sustantivo | pesadilla | Dream or nightmare?
+leticia | - | nombre propio | Leticia (ciudad del Amazonas) | Near Leticia.
+amazon | - | nombre propio | Amazonas | The Colombian Amazon.
+travelled | travel | verbo (pasado/participio) | viajó, viajado | I travelled with an organisation.
+humidity | - | sustantivo | humedad | The heat and humidity.
+hammocks | hammock | sustantivo (plural) | hamacas | We slept in hammocks.
+protected | protect | verbo (participio) | protegido | Protected by nets.
+nets | net | sustantivo (plural) | redes, mallas | Mosquito nets.
+insects | insect | sustantivo (plural) | insectos | Insects and frogs.
+frogs | frog | sustantivo (plural) | ranas | Frogs at night.
+monkeys | monkey | sustantivo (plural) | monos | Monkeys making noise.
+protecting | protect | verbo (-ing) | proteger | Protecting the river.
+nature | - | sustantivo | naturaleza | They know a lot about nature.
+afternoons | afternoon | sustantivo (plural) | las tardes | In the afternoons.
+logging | - | sustantivo | tala (de árboles) | Illegal logging.
+dolphins | dolphin | sustantivo (plural) | delfines | Pink river dolphins.
+protectors | protector | sustantivo (plural) | protectores | Its best protectors.
+repellent | - | sustantivo | repelente | Insect repellent.
+billion | - | número | mil millones | Two billion cups.
+cups | cup | sustantivo (plural) | tazas | Cups of coffee.
+ethiopia | - | nombre propio | Etiopía | Coffee comes from Ethiopia.
+herder | - | sustantivo | pastor (de animales) | A goat herder.
+kaldi | - | nombre propio | Kaldi (pastor de la leyenda) | Kaldi noticed his goats.
+goats | goat | sustantivo (plural) | cabras | His goats.
+berries | berry | sustantivo (plural) | bayas | Red berries.
+yemen | - | nombre propio | Yemen | People in Yemen.
+preparing | prepare | verbo (-ing) | preparando | Preparing a drink.
+roasted | roast | adjetivo | tostado | Roasted beans.
+turkey | - | nombre propio | Turquía; pavo | Coffee spread to Turkey.
+egypt | - | nombre propio | Egipto | Egypt and Persia.
+persia | - | nombre propio | Persia | Turkey, Egypt and Persia.
+houses | house | sustantivo (plural) | casas | Coffee houses.
+politics | - | sustantivo | política | Discuss politics.
+seventeenth | - | número ordinal | diecisiete (siglo XVII) | The seventeenth century.
+paris | - | nombre propio | París | London and Paris.
+vienna | - | nombre propio | Viena | Paris and Vienna.
+european | - | adjetivo | europeo | European countries.
+colonies | colony | sustantivo (plural) | colonias | Their colonies.
+americas | - | nombre propio | las Américas | Asia and the Americas.
+eighteenth | - | número ordinal | dieciocho (siglo XVIII) | The eighteenth century.
+jesuit | - | adjetivo | jesuita | Jesuit priests.
+priests | priest | sustantivo (plural) | sacerdotes | Brought by priests.
+producers | producer | sustantivo (plural) | productores | Coffee producers.
+arabica | - | sustantivo | arábica (tipo de café) | Mild arabica coffee.
+flatmates | flatmate | sustantivo (plural) | compañeros de apartamento | My flatmates were friendly.
+camilo | - | nombre propio | Camilo (nombre de hombre) | Camilo studied medicine.
+felipe | - | nombre propio | Felipe (nombre de hombre) | Felipe did engineering.
+washed | wash | verbo (pasado) | lavó | He never washed his dishes.
+plates | plate | sustantivo (plural) | platos | No clean plates.
+eleven | - | número | once | After eleven.
+cleaning | clean | sustantivo | limpieza | A cleaning rota.
+turns | turn | sustantivo (plural) | turnos | We took turns.
+sharing | share | verbo (-ing) | compartir | Sharing a space.
+october | - | sustantivo | octubre | In October.
+andrea | - | nombre propio | Andrea (nombre de mujer) | Andrea lost her job.
+adverts | advert | sustantivo (plural) | anuncios | Job adverts.
+castillo | - | nombre propio | Castillo (apellido) | Andrea Castillo.
+woman's | woman | sustantivo (posesivo) | de mujer | A woman's voice.
+ward | - | nombre propio | Ward (apellido) | Helen Ward.
+continued | continue | verbo (pasado) | continuó | Helen continued.
+cancelled | cancel | verbo (participio) | cancelado | The competition was cancelled.
+publishing | publish | sustantivo | editorial (publishing company) | A publishing company.
+latin | - | adjetivo | latino (Latin American: latinoamericano) | Latin American writers.
+writers | writer | sustantivo (plural) | escritores | Young writers.
+shown | show | verbo (participio) | mostrado | She had never shown anybody.
+andrea's | andrea | nombre propio (posesivo) | de Andrea | Andrea's story.
+published | publish | verbo (pasado/participio) | publicado | It was published.
+novels | novel | sustantivo (plural) | novelas | Two novels.
+today's | today | sustantivo (posesivo) | de hoy, actuales | Today's teenagers.
+grown | grow | verbo (participio) | crecido | They have grown up with phones.
+smartphones | smartphone | sustantivo (plural) | teléfonos inteligentes | Smartphones and social media.
+allows | allow | verbo (3.ª persona) | permite | It allows them to...
+communities | community | sustantivo (plural) | comunidades | Online communities.
+interests | interest | sustantivo (plural) | intereses | The same interests.
+videos | video | sustantivo (plural) | videos | Art, music and videos.
+risks | risk | sustantivo (plural) | riesgos | Serious risks.
+depression | - | sustantivo | depresión | Anxiety and depression.
+low | - | adjetivo | bajo | Low self-esteem.
+images | image | sustantivo (plural) | imágenes | Perfect images.
+bullying | - | sustantivo | acoso, matoneo | Traditional bullying.
+twenty-four | - | número | veinticuatro | Twenty-four hours a day.
+using | use | verbo (-ing) | usar, usando | Using phones at night.
+affects | affect | verbo (3.ª persona) | afecta | It affects sleep.
+teaching | teach | verbo (-ing) | enseñar | Teaching young people.
+critically | - | adverbio | críticamente | Think critically.
+controlling | control | verbo (-ing) | controlando | Controlling their screen time.
+theirs | - | pronombre | el suyo, los suyos (de ellos) | Never put down theirs.
+culture | - | sustantivo | cultura | History and culture.
+foods | food | sustantivo (plural) | comidas | Street foods.
+tacos | taco | sustantivo (plural) | tacos | Mexican tacos.
+america | - | nombre propio | América | Latin America.
+corn | - | sustantivo | maíz | Corn tortillas.
+tortillas | tortilla | sustantivo (plural) | tortillas (de maíz) | Soft tortillas.
+coriander | - | sustantivo | cilantro | Onion and coriander.
+types | type | sustantivo (plural) | tipos | Popular types.
+al | - | palabra en español | al (tacos al pastor) | Tacos al pastor.
+pastor | - | palabra en español | pastor (tacos al pastor) | Tacos al pastor.
+lebanese | - | adjetivo | libanés | Lebanese immigrants.
+immigrants | immigrant | sustantivo (plural) | inmigrantes | Lebanese immigrants.
+pad | - | sustantivo | pad (pad thai: plato tailandés) | Pad thai.
+thai | - | adjetivo | tailandés | Pad thai.
+thailand | - | nombre propio | Tailandia | Pad thai, Thailand.
+bangkok | - | nombre propio | Bangkok | The streets of Bangkok.
+tofu | - | sustantivo | tofu | Tofu or prawns.
+prawns | prawn | sustantivo (plural) | camarones, langostinos | Rice noodles with prawns.
+peanuts | peanut | sustantivo (plural) | maníes | Peanuts and lime.
+lime | - | sustantivo | limón (verde), lima | Peanuts and lime.
+pan | - | sustantivo | sartén, olla | A huge pan.
+chips | chip | sustantivo (plural) | papas fritas | Fish and chips.
+batter | - | sustantivo | rebozado, masa para freír | Fish in batter.
+britain | - | nombre propio | Gran Bretaña | Popular in Britain.
+nineteenth | - | número ordinal | diecinueve (siglo XIX) | The nineteenth century.
+traditionally | - | adverbio | tradicionalmente | Traditionally, it was served in newspaper.
+served | serve | verbo (participio) | servido | Served in newspaper.
+falafel | - | sustantivo | falafel | Falafel is from the Middle East.
+middle | - | adjetivo | medio (Middle East: Oriente Medio) | The Middle East.
+east | - | sustantivo | este, oriente | The Middle East.
+balls | ball | sustantivo (plural) | bolas | Small balls of chickpeas.
+chickpeas | chickpea | sustantivo (plural) | garbanzos | Fried chickpeas.
+lebanon | - | nombre propio | Líbano | From Egypt to Lebanon.
+pitta | - | sustantivo | pan pita | Pitta bread.
+sesame | - | sustantivo | ajonjolí, sésamo | A sesame sauce.
+vegetarians | vegetarian | sustantivo (plural) | vegetarianos | Perfect for vegetarians.
+arepas | arepa | sustantivo (plural) | arepas | Colombian arepas.
+baked | bake | verbo (participio) | horneado | Grilled, fried or baked.
+version | - | sustantivo | versión | Its own version.
+stalls | stall | sustantivo (plural) | puestos | Busy stalls.
+there's | be | contracción | hay | There's a long queue.
+fact | - | sustantivo | hecho (in fact: de hecho) | In fact, half the city.
+power | - | sustantivo | energía, poder | A power station.
+batteries | battery | sustantivo (plural) | pilas, baterías | Weak batteries.
+candlelight | - | sustantivo | luz de vela | We ate by candlelight.
+tvs | tv | sustantivo (plural) | televisores | The noise of TVs.
+conditioners | conditioner | sustantivo (plural) | acondicionadores (air conditioners) | Air conditioners.
+coming | come | verbo (-ing) | viniendo, saliendo | Neighbours coming out.
+onto | - | preposición | hacia, sobre | Onto their balconies.
+singing | sing | verbo (-ing) | cantando | People were singing.
+shouted | shout | verbo (pasado) | gritó | He shouted, "Look!"
+goodnight | - | interjección | buenas noches | Everybody said goodnight.
+tips | tip | sustantivo (plural) | consejos; propinas | Five practical tips.
+apps | app | sustantivo (plural) | aplicaciones | Free apps.
+ordering | order | verbo (-ing) | pedir, pedido | Ordering food delivery.
+expenses | expense | sustantivo (plural) | gastos | The biggest expenses.
+stick | - | verbo | mantener, pegar (stick to: ceñirse a) | Stick to the list.
+statement | - | sustantivo | extracto; declaración | Your bank statement.
+subscriptions | subscription | sustantivo (plural) | suscripciones | Check your subscriptions.
+streaming | - | sustantivo | streaming, transmisión en línea | Streaming services.
+services | service | sustantivo (plural) | servicios | Streaming services.
+memberships | membership | sustantivo (plural) | membresías | Gym memberships.
+enjoying | enjoy | verbo (-ing) | disfrutar | Stop enjoying life.
+emergencies | emergency | sustantivo (plural) | emergencias | Savings for emergencies.
+dreams | dream | sustantivo (plural) | sueños | Your future dreams.
+gabriel | - | nombre propio | Gabriel | Gabriel García Márquez.
+garcía | - | nombre propio | García (apellido) | García Márquez.
+márquez | - | nombre propio | Márquez (apellido) | García Márquez.
+gabo | - | nombre propio | Gabo (apodo de García Márquez) | Everyone calls him Gabo.
+aracataca | - | nombre propio | Aracataca (pueblo del Magdalena) | Born in Aracataca.
+colonel | - | sustantivo | coronel | A retired colonel.
+civil | - | adjetivo | civil | The civil wars.
+wars | war | sustantivo (plural) | guerras | Civil wars.
+ghosts | ghost | sustantivo (plural) | fantasmas | Stories full of ghosts.
+magic | - | sustantivo | magia | Ghosts and magic.
+superstitions | superstition | sustantivo (plural) | supersticiones | Old superstitions.
+base | - | sustantivo | base | The base of his work.
+newspapers | newspaper | sustantivo (plural) | periódicos | He worked for newspapers.
+correspondent | - | sustantivo | corresponsal | A foreign correspondent.
+solitude | - | sustantivo | soledad | One Hundred Years of Solitude.
+buendía | - | nombre propio | Buendía (familia de la novela) | The Buendía family.
+macondo | - | nombre propio | Macondo (pueblo imaginario) | The town of Macondo.
+copies | copy | sustantivo (plural) | ejemplares, copias | Fifty million copies.
+examples | example | sustantivo (plural) | ejemplos | The best examples.
+magical | - | adjetivo | mágico | Magical realism.
+realism | - | sustantivo | realismo | Magical realism.
+style | - | sustantivo | estilo | A literary style.
+mixes | mix | verbo (3.ª persona) | mezcla | It mixes reality and fantasy.
+reality | - | sustantivo | realidad | Everyday reality.
+normal | - | adjetivo | normal | Completely normal.
+nobel | - | nombre propio | Nobel | The Nobel Prize.
+literature | - | sustantivo | literatura | The Nobel Prize in Literature.
+including | include | preposición | incluyendo | Many books, including...
+cholera | - | sustantivo | cólera (enfermedad) | Love in the Time of Cholera.
+chronicle | - | sustantivo | crónica | Chronicle of a Death Foretold.
+foretold | foretell | verbo (participio) | anunciada, predicha | A Death Foretold.
+homes | home | sustantivo (plural) | hogares | In schools and homes.
+butterflies | butterfly | sustantivo (plural) | mariposas | Yellow butterflies.
+symbol | - | sustantivo | símbolo | A symbol from his novels.
+sandra | - | nombre propio | Sandra (nombre de mujer) | Ask Sandra.
+situation | - | sustantivo | situación | Your situation.
+tunja | - | nombre propio | Tunja (ciudad de Boyacá) | Tired in Tunja.
+calmly | - | adverbio | con calma | Explain calmly.
+luck | - | sustantivo | suerte | Good luck!
 `;
