@@ -649,12 +649,12 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=202610311437"></script>
-<script src="vocab-extra.js?v=202610311437"></script>
-<script src="vocab.js?v=202610311437"></script>
-<script src="readings.js?v=202610311437"></script>
-<script src="dict.js?v=202610311437"></script>
-<script src="lessons.js?v=202610311437"></script>
+<script src="practice-extra.js?v=202610311455"></script>
+<script src="vocab-extra.js?v=202610311455"></script>
+<script src="vocab.js?v=202610311455"></script>
+<script src="readings.js?v=202610311455"></script>
+<script src="dict.js?v=202610311455"></script>
+<script src="lessons.js?v=202610311455"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -994,7 +994,7 @@ function newExam(){X={step:0,name:"",email:"",idx:0,sel:null,plays:0,ans:{listen
 document.addEventListener("click",e=>{if(e.target.closest("[data-open-exam]")){newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||"";X.step=1;X.forced=mustPlace()}
   OV="exam";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);exRender()}});
 function closeExam(){OV=null;if(typeof stopScene==="function")stopScene();LVBACK=null;if(typeof stopReader==="function")stopReader();body.style.maxWidth="";stopRec();stopSpeak();exam.hidden=true;document.body.style.overflow="";renderCloseBtn()}
-function renderCloseBtn(confirm){if((OV==="who"&&!curStudent())||(OV==="exam"&&X&&X.forced&&X.step<5)){$("exCloseWrap").innerHTML="";return}$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
+function renderCloseBtn(confirm){if(OV==="who"&&!curStudent()){$("exCloseWrap").innerHTML="";return}if(OV==="exam"&&X&&X.forced&&X.step<5){$("exCloseWrap").innerHTML=`<button class="ex-close" id="exOut">Cerrar sesión</button>`;$("exOut").onclick=()=>{stopRec();stopSpeak();logout()};return}$("exCloseWrap").innerHTML=confirm?`<div class="ex-confirm">¿Salir? Se pierde el progreso. <button id="exYes">Salir</button><button class="no" id="exNo">Seguir</button></div>`:`<button class="ex-close" id="exClose">Salir ✕</button>`;
   if(confirm){$("exYes").onclick=closeExam;$("exNo").onclick=()=>renderCloseBtn(false)}else $("exClose").onclick=()=>needConfirm()?renderCloseBtn(true):closeExam()}
 let OV=null;
 const needConfirm=()=>(OV==="exam"&&X&&X.step>0&&X.step<5)||(OV==="quiz"&&Q&&!Q.done&&Q.i>0);

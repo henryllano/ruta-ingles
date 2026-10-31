@@ -34,62 +34,789 @@ window.READINGS = [
   {
    "title": "My Best Friend",
    "es": "Mi mejor amiga · Lectura extra",
-   "text": "My name is Paula and my best friend is Camila. We are both thirty years old. Camila is from Pereira, but she lives in Bogotá now. She is a dentist. She has long brown hair and big green eyes. She is funny and very kind. We meet every Friday after work. We usually go to a small café near her office. I always drink hot chocolate and Camila drinks black coffee. We talk about our families, our jobs and our plans. Sometimes we go to the cinema. Camila likes action films, but I like comedies. Camila has a little sister, Laura. Laura is a student at the university. She studies music and she plays the guitar very well. On Sundays, the three of us often walk in the park together. I am very lucky. Camila is my friend, and she is like a sister to me."
+   "text": "My name is Paula and my best friend is Camila. We are both thirty years old. Camila is from Pereira, but she lives in Bogotá now. She is a dentist. She has long brown hair and big green eyes. She is funny and very kind. We meet every Friday after work. We usually go to a small café near her office. I always drink hot chocolate and Camila drinks black coffee. We talk about our families, our jobs and our plans. Sometimes we go to the cinema. Camila likes action films, but I like comedies. Camila has a little sister, Laura. Laura is a student at the university. She studies music and she plays the guitar very well. On Sundays, the three of us often walk in the park together. I am very lucky. Camila is my friend, and she is like a sister to me.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué hace Camila?",
+     "o": [
+      "Es dentista",
+      "Es profesora",
+      "Es enfermera",
+      "Es estudiante"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuándo se encuentran Paula y Camila?",
+     "o": [
+      "Todos los viernes después del trabajo",
+      "Los domingos",
+      "Todos los días",
+      "Los lunes"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué estudia Laura?",
+     "o": [
+      "Música",
+      "Medicina",
+      "Inglés",
+      "Arte"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I always drink hot chocolate and Camila drinks black coffee.",
+     "q": "¿Qué toma Camila?",
+     "o": [
+      "Café negro",
+      "Chocolate caliente",
+      "Té",
+      "Jugo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe your best friend: name, age, job and what you do together.",
+     "min": 15,
+     "keys": [
+      [
+       "my best friend",
+       "he is",
+       "she is"
+      ]
+     ],
+     "model": "My best friend is Diana. She is thirty-two and she is a lawyer. We go to the cinema and we eat pizza together on Saturdays."
+    }
+   ]
   },
   {
    "title": "At the Supermarket",
    "es": "En el supermercado · Lectura extra",
-   "text": "It is Saturday morning. Mr. and Mrs. Rojas are at the supermarket. They have a long shopping list. Mrs. Rojas has the list and Mr. Rojas has the trolley. First, they go to the fruit section. They buy six bananas, a pineapple and two kilos of oranges. Mrs. Rojas loves oranges. She drinks fresh orange juice every morning. Then they go to the bakery section and buy bread and a chocolate cake. It is their son's birthday tomorrow! Next, they need milk, eggs, cheese and rice. The milk is next to the cheese, and the eggs are on the shelf behind them. Mr. Rojas wants ice cream too, but it is not on the list. \"Please, just one!\" he says. Mrs. Rojas laughs and says, \"OK, just one.\" At the checkout, the cashier says, \"That's eighty-five thousand pesos, please.\" Mr. Rojas pays with his card. They are tired, but happy."
+   "text": "It is Saturday morning. Mr. and Mrs. Rojas are at the supermarket. They have a long shopping list. Mrs. Rojas has the list and Mr. Rojas has the trolley. First, they go to the fruit section. They buy six bananas, a pineapple and two kilos of oranges. Mrs. Rojas loves oranges. She drinks fresh orange juice every morning. Then they go to the bakery section and buy bread and a chocolate cake. It is their son's birthday tomorrow! Next, they need milk, eggs, cheese and rice. The milk is next to the cheese, and the eggs are on the shelf behind them. Mr. Rojas wants ice cream too, but it is not on the list. \"Please, just one!\" he says. Mrs. Rojas laughs and says, \"OK, just one.\" At the checkout, the cashier says, \"That's eighty-five thousand pesos, please.\" Mr. Rojas pays with his card. They are tired, but happy.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Quién tiene la lista?",
+     "o": [
+      "La señora Rojas",
+      "El señor Rojas",
+      "El hijo",
+      "El cajero"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué compran una torta de chocolate?",
+     "o": [
+      "Mañana es el cumpleaños de su hijo",
+      "Es Navidad",
+      "Al señor le gusta",
+      "Estaba en descuento"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué quiere el señor Rojas que no está en la lista?",
+     "o": [
+      "Helado",
+      "Pan",
+      "Leche",
+      "Arroz"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "That's eighty-five thousand pesos, please.",
+     "q": "¿Cuánto pagan?",
+     "o": [
+      "85.000 pesos",
+      "58.000 pesos",
+      "15.000 pesos",
+      "80.000 pesos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What do you usually buy at the supermarket?",
+     "min": 15,
+     "keys": [
+      [
+       "i buy",
+       "i usually buy"
+      ]
+     ],
+     "model": "I usually buy rice, eggs, milk, bread and a lot of fruit. Sometimes I buy ice cream for my children."
+    }
+   ]
   },
   {
    "title": "Our New Apartment",
    "es": "Nuestro apartamento nuevo · Lectura extra",
-   "text": "We have a new apartment! It is on the fifth floor of a tall building in the north of the city. There is a lift, so it is easy to go up and down. The apartment has three bedrooms, two bathrooms, a kitchen and a living room. My bedroom is small, but it is very nice. It has a big window, a bed, a desk and a wardrobe. From my window I can see the mountains. The kitchen is modern and white. There is a new fridge, a cooker and a microwave. My mother loves it. The living room is big. There is a grey sofa, two armchairs, a TV and a lot of plants. My father loves plants! There is also a small balcony. In the evening, we sit on the balcony and look at the city lights. There is a supermarket and a pharmacy near the building, and the bus stop is on the corner. We are very happy in our new home."
+   "text": "We have a new apartment! It is on the fifth floor of a tall building in the north of the city. There is a lift, so it is easy to go up and down. The apartment has three bedrooms, two bathrooms, a kitchen and a living room. My bedroom is small, but it is very nice. It has a big window, a bed, a desk and a wardrobe. From my window I can see the mountains. The kitchen is modern and white. There is a new fridge, a cooker and a microwave. My mother loves it. The living room is big. There is a grey sofa, two armchairs, a TV and a lot of plants. My father loves plants! There is also a small balcony. In the evening, we sit on the balcony and look at the city lights. There is a supermarket and a pharmacy near the building, and the bus stop is on the corner. We are very happy in our new home.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿En qué piso está el apartamento?",
+     "o": [
+      "En el quinto",
+      "En el primero",
+      "En el décimo",
+      "En el tercero"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué ve desde la ventana de su cuarto?",
+     "o": [
+      "Las montañas",
+      "El mar",
+      "Un parque",
+      "Otro edificio"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hacen en el balcón por la noche?",
+     "o": [
+      "Miran las luces de la ciudad",
+      "Cocinan",
+      "Ven televisión",
+      "Duermen"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "There is a supermarket and a pharmacy near the building, and the bus stop is on the corner.",
+     "q": "¿Dónde está la parada del bus?",
+     "o": [
+      "En la esquina",
+      "Frente al edificio",
+      "Lejos",
+      "Al lado de la farmacia"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe your bedroom.",
+     "min": 15,
+     "keys": [
+      [
+       "there is",
+       "there are",
+       "my bedroom"
+      ]
+     ],
+     "model": "My bedroom is small but nice. There is a bed, a desk and a big window. There are many books on the shelf."
+    }
+   ]
   },
   {
    "title": "The Weather in My Country",
    "es": "El clima en mi país · Lectura extra",
-   "text": "Hi! I'm Julián and I'm from Colombia. People often ask me, \"What's the weather like in your country?\" The answer is: it depends on the city! Colombia is near the equator, so we don't have four seasons like winter, spring, summer and autumn. We have dry seasons and rainy seasons. In some cities it is hot all year, and in other cities it is cold all year. I live in Bogotá. Bogotá is in the mountains and it is cool. In the morning it is often cold and cloudy. In the afternoon it is sometimes sunny, but it rains a lot. I always have an umbrella and a jacket in my bag. My grandparents live in Cartagena, on the coast. Cartagena is very hot and humid. The temperature is usually thirty-two degrees. When I visit them, I wear shorts, a T-shirt and sandals, and I drink a lot of water. I love the beach, but I don't like the heat!"
+   "text": "Hi! I'm Julián and I'm from Colombia. People often ask me, \"What's the weather like in your country?\" The answer is: it depends on the city! Colombia is near the equator, so we don't have four seasons like winter, spring, summer and autumn. We have dry seasons and rainy seasons. In some cities it is hot all year, and in other cities it is cold all year. I live in Bogotá. Bogotá is in the mountains and it is cool. In the morning it is often cold and cloudy. In the afternoon it is sometimes sunny, but it rains a lot. I always have an umbrella and a jacket in my bag. My grandparents live in Cartagena, on the coast. Cartagena is very hot and humid. The temperature is usually thirty-two degrees. When I visit them, I wear shorts, a T-shirt and sandals, and I drink a lot of water. I love the beach, but I don't like the heat!",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué Colombia no tiene cuatro estaciones?",
+     "o": [
+      "Porque está cerca de la línea del ecuador",
+      "Porque es muy grande",
+      "Porque tiene mar",
+      "Porque llueve mucho"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo es Bogotá?",
+     "o": [
+      "Fresca, a veces nublada y lluviosa",
+      "Muy caliente",
+      "Seca todo el año",
+      "Con nieve"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué no le gusta a Julián de Cartagena?",
+     "o": [
+      "El calor",
+      "La playa",
+      "Sus abuelos",
+      "La comida"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "The temperature is usually thirty-two degrees.",
+     "q": "¿Qué temperatura hace en Cartagena?",
+     "o": [
+      "32 grados",
+      "22 grados",
+      "12 grados",
+      "23 grados"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What's the weather like in your city? What do you wear?",
+     "min": 15,
+     "keys": [
+      [
+       "it's",
+       "it is"
+      ],
+      [
+       "i wear"
+      ]
+     ],
+     "model": "In my city it's usually hot and sunny. I wear shorts, T-shirts and sandals. Sometimes it rains in the afternoon."
+    }
+   ]
   },
   {
    "title": "A Day at the Beach",
    "es": "Un día en la playa · Lectura extra",
-   "text": "Today is a holiday and the Martínez family is at the beach. The sky is blue and the sun is hot. Look at Mr. Martínez. He is sitting under a big umbrella. He is reading a newspaper and drinking a cold lemonade. Mrs. Martínez is not sitting. She is swimming in the sea. She loves the water! Their children, Simón and Lucía, are playing in the sand. They are building a big sandcastle. Simón is eight and Lucía is five. Lucía has a red bucket and Simón has a blue one. Their dog, Toby, is running on the beach. He is very happy too. It is one o'clock now and everybody is hungry. They are eating fish, rice and salad at a small restaurant near the beach. The food is delicious. In the afternoon, they are going to walk on the beach and take photos of the sunset. It is a perfect day."
+   "text": "Today is a holiday and the Martínez family is at the beach. The sky is blue and the sun is hot. Look at Mr. Martínez. He is sitting under a big umbrella. He is reading a newspaper and drinking a cold lemonade. Mrs. Martínez is not sitting. She is swimming in the sea. She loves the water! Their children, Simón and Lucía, are playing in the sand. They are building a big sandcastle. Simón is eight and Lucía is five. Lucía has a red bucket and Simón has a blue one. Their dog, Toby, is running on the beach. He is very happy too. It is one o'clock now and everybody is hungry. They are eating fish, rice and salad at a small restaurant near the beach. The food is delicious. In the afternoon, they are going to walk on the beach and take photos of the sunset. It is a perfect day.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué está haciendo el señor Martínez?",
+     "o": [
+      "Leyendo el periódico y tomando limonada",
+      "Nadando",
+      "Jugando en la arena",
+      "Cocinando"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué construyen los niños?",
+     "o": [
+      "Un castillo de arena",
+      "Una casa",
+      "Un barco",
+      "Nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué van a hacer en la tarde?",
+     "o": [
+      "Caminar y tomar fotos del atardecer",
+      "Volver a casa",
+      "Dormir",
+      "Ir al cine"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "They are eating fish, rice and salad at a small restaurant near the beach.",
+     "q": "¿Qué están comiendo?",
+     "o": [
+      "Pescado, arroz y ensalada",
+      "Pizza",
+      "Pollo y papas",
+      "Hamburguesas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe what people are doing at a park or a beach right now. Use the present continuous.",
+     "min": 15,
+     "keys": [
+      [
+       "is",
+       "are"
+      ]
+     ],
+     "model": "A man is running in the park. Two children are playing football and a woman is reading a book under a tree."
+    }
+   ]
   },
   {
    "title": "A Bus Driver's Day",
    "es": "El día de un conductor de bus · Lectura extra",
-   "text": "My name is Hernán and I'm a bus driver. I'm fifty years old and I live in Cali. I drive a big blue bus in the city. I get up at four thirty every morning. It's very early! I have a quick shower, I drink a cup of coffee and I eat some bread with cheese. I start work at five thirty. My bus goes from the south of the city to the centre. A lot of people take my bus: students, workers, old people and children. I say \"Good morning!\" to everybody. Some people are always friendly. Other people are tired and they don't talk. I have lunch at twelve o'clock. I usually eat rice, beans and chicken. I finish work at two in the afternoon. Then I go home and sleep for one hour. In the evening, I play with my grandchildren or watch football on TV. I like my job because I meet a lot of people every day."
+   "text": "My name is Hernán and I'm a bus driver. I'm fifty years old and I live in Cali. I drive a big blue bus in the city. I get up at four thirty every morning. It's very early! I have a quick shower, I drink a cup of coffee and I eat some bread with cheese. I start work at five thirty. My bus goes from the south of the city to the centre. A lot of people take my bus: students, workers, old people and children. I say \"Good morning!\" to everybody. Some people are always friendly. Other people are tired and they don't talk. I have lunch at twelve o'clock. I usually eat rice, beans and chicken. I finish work at two in the afternoon. Then I go home and sleep for one hour. In the evening, I play with my grandchildren or watch football on TV. I like my job because I meet a lot of people every day.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿A qué hora se levanta Hernán?",
+     "o": [
+      "A las 4:30",
+      "A las 5:30",
+      "A las 6:00",
+      "A las 2:00"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿A qué hora termina de trabajar?",
+     "o": [
+      "A las 2 de la tarde",
+      "A las 5 de la tarde",
+      "A las 12",
+      "A las 8 de la noche"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué le gusta su trabajo?",
+     "o": [
+      "Conoce a mucha gente",
+      "Gana mucho dinero",
+      "Trabaja poco",
+      "Viaja a otras ciudades"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I have lunch at twelve o'clock. I usually eat rice, beans and chicken.",
+     "q": "¿Qué almuerza normalmente?",
+     "o": [
+      "Arroz, frijoles y pollo",
+      "Sopa",
+      "Un sándwich",
+      "Pescado"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe your job or your daily routine.",
+     "min": 15,
+     "keys": [
+      [
+       "i get up",
+       "i start",
+       "i work"
+      ],
+      [
+       "at"
+      ]
+     ],
+     "model": "I'm a nurse. I get up at five and I start work at seven. I finish at three and in the evening I cook dinner."
+    }
+   ]
   },
   {
    "title": "My Cat Luna",
    "es": "Mi gata Luna · Lectura extra",
-   "text": "I have a cat. Her name is Luna. She is three years old. She is black and white and she has yellow eyes. She is small, but she is very strong. Luna sleeps a lot. She sleeps on my bed, on the sofa and sometimes in a box! In the morning, she wakes me up at six o'clock because she is hungry. She eats special cat food and she drinks water. She doesn't drink milk. Luna likes playing with a small ball. She runs in the living room and jumps on the chairs. She also likes sitting at the window and looking at the birds in the garden. She doesn't like dogs and she doesn't like water. When I come home from work, Luna is always at the door. She says \"Meow!\" and I say \"Hello, Luna!\" Then she sits on my legs and I read a book. My cat is my best friend."
+   "text": "I have a cat. Her name is Luna. She is three years old. She is black and white and she has yellow eyes. She is small, but she is very strong. Luna sleeps a lot. She sleeps on my bed, on the sofa and sometimes in a box! In the morning, she wakes me up at six o'clock because she is hungry. She eats special cat food and she drinks water. She doesn't drink milk. Luna likes playing with a small ball. She runs in the living room and jumps on the chairs. She also likes sitting at the window and looking at the birds in the garden. She doesn't like dogs and she doesn't like water. When I come home from work, Luna is always at the door. She says \"Meow!\" and I say \"Hello, Luna!\" Then she sits on my legs and I read a book. My cat is my best friend.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿De qué color es Luna?",
+     "o": [
+      "Blanca y negra",
+      "Gris",
+      "Café",
+      "Naranja"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué despierta a su dueño a las seis?",
+     "o": [
+      "Porque tiene hambre",
+      "Porque quiere jugar",
+      "Porque hay ruido",
+      "Porque es tarde"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué NO le gusta a Luna?",
+     "o": [
+      "Los perros y el agua",
+      "Los pájaros",
+      "La pelota",
+      "Dormir"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "When I come home from work, Luna is always at the door.",
+     "q": "¿Dónde está Luna cuando llega su dueño?",
+     "o": [
+      "En la puerta",
+      "En la cama",
+      "En la ventana",
+      "En el jardín"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Do you have a pet, or would you like one? Describe it.",
+     "min": 15,
+     "keys": [
+      [
+       "i have",
+       "i would like",
+       "i'd like"
+      ]
+     ],
+     "model": "I have a dog. His name is Rocky. He is brown and very big. He likes running in the park."
+    }
+   ]
   },
   {
    "title": "Sunday at My Grandparents' House",
    "es": "Domingo en casa de mis abuelos · Lectura extra",
-   "text": "Every Sunday, my family visits my grandparents. They live in a small town one hour from the city. We go by car. My grandparents' house is old and big. It has a beautiful garden with flowers, orange trees and two chickens. My grandfather, Pedro, is seventy-five. He is tall and thin and he has white hair. He likes working in the garden. My grandmother, Rosa, is seventy-two. She is short and very funny. She is a fantastic cook. On Sundays, my grandmother always cooks a big lunch: soup, chicken, rice, potatoes and salad. For dessert, there is usually a cake. My cousins come too, so there are fifteen people at the table! We eat, we talk and we laugh a lot. After lunch, the children play in the garden and the adults drink coffee. My grandfather tells old stories about the town. At six o'clock, we say goodbye and go back to the city. I love Sundays."
+   "text": "Every Sunday, my family visits my grandparents. They live in a small town one hour from the city. We go by car. My grandparents' house is old and big. It has a beautiful garden with flowers, orange trees and two chickens. My grandfather, Pedro, is seventy-five. He is tall and thin and he has white hair. He likes working in the garden. My grandmother, Rosa, is seventy-two. She is short and very funny. She is a fantastic cook. On Sundays, my grandmother always cooks a big lunch: soup, chicken, rice, potatoes and salad. For dessert, there is usually a cake. My cousins come too, so there are fifteen people at the table! We eat, we talk and we laugh a lot. After lunch, the children play in the garden and the adults drink coffee. My grandfather tells old stories about the town. At six o'clock, we say goodbye and go back to the city. I love Sundays.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo viajan a la casa de los abuelos?",
+     "o": [
+      "En carro",
+      "En bus",
+      "En avión",
+      "Caminando"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le gusta hacer al abuelo?",
+     "o": [
+      "Trabajar en el jardín",
+      "Cocinar",
+      "Ver televisión",
+      "Bailar"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuántas personas hay en la mesa?",
+     "o": [
+      "Quince",
+      "Cinco",
+      "Diez",
+      "Veinte"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "At six o'clock, we say goodbye and go back to the city.",
+     "q": "¿A qué hora se van?",
+     "o": [
+      "A las seis",
+      "A las cinco",
+      "A las ocho",
+      "A las tres"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What do you usually do on Sundays?",
+     "min": 15,
+     "keys": [
+      [
+       "on sundays",
+       "on sunday",
+       "usually"
+      ]
+     ],
+     "model": "On Sundays I usually visit my parents. We have lunch together and in the afternoon we watch a film."
+    }
+   ]
   },
   {
    "title": "At the Doctor's",
    "es": "Donde el médico · Lectura extra",
-   "text": "Ana is not well today. She has a headache and a sore throat. She is very tired too. She calls the doctor's office and makes an appointment for ten o'clock. At the doctor's office, she waits for twenty minutes. Then the doctor calls her. \"Good morning. What's the problem?\" he asks. \"I have a headache and my throat hurts,\" says Ana. \"Do you have a temperature?\" asks the doctor. \"Yes, I think so. I feel hot.\" The doctor looks at her throat and takes her temperature. \"It's thirty-eight degrees. You have a cold. It's not serious,\" he says. \"Take this medicine three times a day, after meals. Drink a lot of water and hot tea with honey. And stay at home for two days. Don't go to work.\" \"Thank you, doctor,\" says Ana. She goes to the pharmacy and buys the medicine. Then she goes home, makes a cup of tea and goes to bed."
+   "text": "Ana is not well today. She has a headache and a sore throat. She is very tired too. She calls the doctor's office and makes an appointment for ten o'clock. At the doctor's office, she waits for twenty minutes. Then the doctor calls her. \"Good morning. What's the problem?\" he asks. \"I have a headache and my throat hurts,\" says Ana. \"Do you have a temperature?\" asks the doctor. \"Yes, I think so. I feel hot.\" The doctor looks at her throat and takes her temperature. \"It's thirty-eight degrees. You have a cold. It's not serious,\" he says. \"Take this medicine three times a day, after meals. Drink a lot of water and hot tea with honey. And stay at home for two days. Don't go to work.\" \"Thank you, doctor,\" says Ana. She goes to the pharmacy and buys the medicine. Then she goes home, makes a cup of tea and goes to bed.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué síntomas tiene Ana?",
+     "o": [
+      "Dolor de cabeza, de garganta y cansancio",
+      "Dolor de estómago",
+      "Dolor de espalda",
+      "Tos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué tiene Ana, según el médico?",
+     "o": [
+      "Un resfriado",
+      "Algo grave",
+      "Una alergia",
+      "Nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuántos días debe quedarse en casa?",
+     "o": [
+      "Dos",
+      "Uno",
+      "Cinco",
+      "Una semana"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Take this medicine three times a day, after meals.",
+     "q": "¿Cuándo debe tomar el medicamento?",
+     "o": [
+      "Tres veces al día, después de comer",
+      "Una vez al día",
+      "Antes de dormir",
+      "Cuando le duela"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "You are sick. Tell the doctor how you feel.",
+     "min": 15,
+     "keys": [
+      [
+       "i have",
+       "i feel",
+       "my"
+      ]
+     ],
+     "model": "Good morning, doctor. I have a headache and a sore throat. I feel very tired and I think I have a temperature."
+    }
+   ]
   },
   {
    "title": "My Favourite Food",
    "es": "Mi comida favorita · Lectura extra",
-   "text": "Hello! My name is Diego and I love food. My favourite food is bandeja paisa. It is a typical dish from Antioquia, in Colombia. It is a very big plate! It has rice, red beans, meat, chorizo, a fried egg, avocado, a small arepa and a banana. It is delicious, but it is very heavy. I eat it only on special days. For breakfast, I usually have eggs, an arepa with cheese and a cup of hot chocolate. For lunch, I often eat soup, rice, salad and chicken or fish. For dinner, I have something light, like a sandwich or fruit. I don't like vegetables very much, but my wife says they are healthy, so I eat them. I like carrots and tomatoes, but I hate onions! My wife's favourite food is Italian. She loves pizza and pasta. On Fridays, we often go to an Italian restaurant near our house. I always order a pizza with ham and mushrooms."
+   "text": "Hello! My name is Diego and I love food. My favourite food is bandeja paisa. It is a typical dish from Antioquia, in Colombia. It is a very big plate! It has rice, red beans, meat, chorizo, a fried egg, avocado, a small arepa and a banana. It is delicious, but it is very heavy. I eat it only on special days. For breakfast, I usually have eggs, an arepa with cheese and a cup of hot chocolate. For lunch, I often eat soup, rice, salad and chicken or fish. For dinner, I have something light, like a sandwich or fruit. I don't like vegetables very much, but my wife says they are healthy, so I eat them. I like carrots and tomatoes, but I hate onions! My wife's favourite food is Italian. She loves pizza and pasta. On Fridays, we often go to an Italian restaurant near our house. I always order a pizza with ham and mushrooms.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué es la bandeja paisa?",
+     "o": [
+      "Un plato típico de Antioquia",
+      "Un postre",
+      "Una bebida",
+      "Un plato italiano"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué desayuna Diego normalmente?",
+     "o": [
+      "Huevos, arepa con queso y chocolate",
+      "Pizza",
+      "Solo café",
+      "Fruta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué verdura odia Diego?",
+     "o": [
+      "La cebolla",
+      "La zanahoria",
+      "El tomate",
+      "La papa"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "On Fridays, we often go to an Italian restaurant near our house.",
+     "q": "¿Cuándo van al restaurante italiano?",
+     "o": [
+      "Los viernes",
+      "Los domingos",
+      "Los lunes",
+      "Nunca"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What is your favourite food? Describe it.",
+     "min": 15,
+     "keys": [
+      [
+       "my favourite",
+       "i love",
+       "i like"
+      ]
+     ],
+     "model": "My favourite food is ajiaco. It's a soup with chicken, potatoes and corn. I love it with rice and avocado."
+    }
+   ]
   },
   {
    "title": "A Birthday Party",
    "es": "Una fiesta de cumpleaños · Lectura extra",
-   "text": "Today is Sara's birthday. She is ten years old. There is a party at her house this afternoon at three o'clock. Sara's mother is in the kitchen. She is making a big chocolate cake with ten candles. Sara's father is in the living room. He is putting balloons on the walls. There are pink, yellow and blue balloons. Sara's brother, Mateo, is helping him. At three o'clock, Sara's friends arrive. They have presents for her: a book, a doll, a T-shirt and a game. Sara is very happy. \"Thank you!\" she says to everybody. The children play games in the garden. They dance to music and eat sandwiches and sweets. At five o'clock, Sara's mother brings the cake. Everybody sings \"Happy Birthday to you!\" Sara closes her eyes, makes a wish and blows out the candles. In the evening, the friends go home. Sara is tired, but it is her best birthday ever."
+   "text": "Today is Sara's birthday. She is ten years old. There is a party at her house this afternoon at three o'clock. Sara's mother is in the kitchen. She is making a big chocolate cake with ten candles. Sara's father is in the living room. He is putting balloons on the walls. There are pink, yellow and blue balloons. Sara's brother, Mateo, is helping him. At three o'clock, Sara's friends arrive. They have presents for her: a book, a doll, a T-shirt and a game. Sara is very happy. \"Thank you!\" she says to everybody. The children play games in the garden. They dance to music and eat sandwiches and sweets. At five o'clock, Sara's mother brings the cake. Everybody sings \"Happy Birthday to you!\" Sara closes her eyes, makes a wish and blows out the candles. In the evening, the friends go home. Sara is tired, but it is her best birthday ever.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuántos años cumple Sara?",
+     "o": [
+      "Diez",
+      "Ocho",
+      "Doce",
+      "Cinco"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hace el papá de Sara?",
+     "o": [
+      "Pone globos en las paredes",
+      "Hace la torta",
+      "Compra regalos",
+      "Canta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿A qué hora llega la torta?",
+     "o": [
+      "A las cinco",
+      "A las tres",
+      "A las seis",
+      "A las cuatro"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Sara closes her eyes, makes a wish and blows out the candles.",
+     "q": "¿Qué hace Sara antes de soplar las velas?",
+     "o": [
+      "Cierra los ojos y pide un deseo",
+      "Abre los regalos",
+      "Canta",
+      "Baila"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How do you usually celebrate your birthday?",
+     "min": 15,
+     "keys": [
+      [
+       "usually",
+       "i celebrate",
+       "we"
+      ]
+     ],
+     "model": "I usually celebrate my birthday with my family. We eat a big cake and my friends come to my house in the evening."
+    }
+   ]
   },
   {
    "title": "My Online English Class",
    "es": "Mi clase de inglés en línea · Lectura extra",
-   "text": "My name is Gloria. I'm forty-five and I'm a lawyer. I study English online three times a week: on Mondays, Wednesdays and Fridays. My class starts at seven in the evening and finishes at eight. I study at home, in my small office. I have a computer, headphones and a notebook. My teacher is Mark. He lives in London, but he teaches students from many countries. There are six students in my class. They are from Colombia, Mexico, Brazil, Japan and Italy. In the class, we read, write, listen and speak. We learn new words and we play games. Mark always asks questions: \"What do you do on weekends?\" \"What's your favourite film?\" I'm a little nervous when I speak, but Mark is very patient. After the class, I do my homework and I listen to English songs. My children speak English very well and they help me. English is not easy, but I'm learning a lot and I'm happy."
+   "text": "My name is Gloria. I'm forty-five and I'm a lawyer. I study English online three times a week: on Mondays, Wednesdays and Fridays. My class starts at seven in the evening and finishes at eight. I study at home, in my small office. I have a computer, headphones and a notebook. My teacher is Mark. He lives in London, but he teaches students from many countries. There are six students in my class. They are from Colombia, Mexico, Brazil, Japan and Italy. In the class, we read, write, listen and speak. We learn new words and we play games. Mark always asks questions: \"What do you do on weekends?\" \"What's your favourite film?\" I'm a little nervous when I speak, but Mark is very patient. After the class, I do my homework and I listen to English songs. My children speak English very well and they help me. English is not easy, but I'm learning a lot and I'm happy.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuántas veces por semana estudia Gloria?",
+     "o": [
+      "Tres",
+      "Una",
+      "Cinco",
+      "Dos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Dónde vive el profesor Mark?",
+     "o": [
+      "En Londres",
+      "En Bogotá",
+      "En Canadá",
+      "En Japón"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Quién ayuda a Gloria con el inglés?",
+     "o": [
+      "Sus hijos",
+      "Su esposo",
+      "Su jefe",
+      "Nadie"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I'm a little nervous when I speak, but Mark is very patient.",
+     "q": "¿Cómo es Mark?",
+     "o": [
+      "Muy paciente",
+      "Muy serio",
+      "Muy estricto",
+      "Impaciente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Why are you learning English, and how do you study?",
+     "min": 15,
+     "keys": [
+      [
+       "because"
+      ],
+      [
+       "i study",
+       "i listen",
+       "i practise",
+       "i practice"
+      ]
+     ],
+     "model": "I'm learning English because I want a better job. I study every night with this course and I listen to songs in English."
+    }
+   ]
   }
  ],
  [
@@ -126,62 +853,824 @@ window.READINGS = [
   {
    "title": "My First Job",
    "es": "Mi primer trabajo · Lectura extra",
-   "text": "When I was seventeen, I got my first job. I worked in a fast-food restaurant in a shopping centre near my house. I worked on Saturdays and Sundays, from ten in the morning to six in the evening. On my first day, I was very nervous. The manager, a tall woman called Patricia, gave me a uniform: a red T-shirt, a black cap and an apron. Then she showed me the kitchen and explained my tasks. I had to clean the tables, take out the rubbish and help in the kitchen. The first weeks were difficult. The restaurant was always busy, and some customers were rude. One day I dropped a tray with six drinks on the floor! I wanted to cry, but Patricia only laughed and said, \"Don't worry. It happens to everybody.\" After a few months, I started to work at the till. I learned to be fast, polite and patient. I also made some good friends there. I didn't earn much money, but I saved enough to buy my first bicycle. Now I'm a manager in a big company, but I often remember that job. It taught me a lot about hard work and teamwork."
+   "text": "When I was seventeen, I got my first job. I worked in a fast-food restaurant in a shopping centre near my house. I worked on Saturdays and Sundays, from ten in the morning to six in the evening. On my first day, I was very nervous. The manager, a tall woman called Patricia, gave me a uniform: a red T-shirt, a black cap and an apron. Then she showed me the kitchen and explained my tasks. I had to clean the tables, take out the rubbish and help in the kitchen. The first weeks were difficult. The restaurant was always busy, and some customers were rude. One day I dropped a tray with six drinks on the floor! I wanted to cry, but Patricia only laughed and said, \"Don't worry. It happens to everybody.\" After a few months, I started to work at the till. I learned to be fast, polite and patient. I also made some good friends there. I didn't earn much money, but I saved enough to buy my first bicycle. Now I'm a manager in a big company, but I often remember that job. It taught me a lot about hard work and teamwork.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Dónde fue su primer trabajo?",
+     "o": [
+      "En un restaurante de comida rápida",
+      "En un banco",
+      "En una tienda de ropa",
+      "En un hospital"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué pasó un día con la bandeja?",
+     "o": [
+      "Se le cayó con seis bebidas",
+      "La perdió",
+      "Se la robaron",
+      "La rompió un cliente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué compró con el dinero que ahorró?",
+     "o": [
+      "Su primera bicicleta",
+      "Un celular",
+      "Ropa",
+      "Un carro"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Don't worry. It happens to everybody.",
+     "q": "¿Cómo reaccionó Patricia?",
+     "o": [
+      "Le dijo que no se preocupara",
+      "Se enojó",
+      "Lo despidió",
+      "Llamó a sus papás"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about your first job or your first day at school or work. How did you feel?",
+     "min": 18,
+     "keys": [
+      [
+       "was",
+       "felt"
+      ],
+      [
+       "first"
+      ]
+     ],
+     "model": "My first job was in a shoe shop when I was eighteen. On my first day I felt very nervous, but my boss was kind and I learned a lot."
+    }
+   ]
   },
   {
    "title": "A Trip to the Coffee Region",
    "es": "Un viaje al Eje Cafetero · Lectura extra",
-   "text": "Last December, my husband and I went on holiday to the Coffee Region in Colombia. We flew from Bogotá to Pereira and then took a bus to Salento, a small, colourful town in the mountains. We stayed in a lovely hotel on a coffee farm. Every morning we had breakfast on the terrace and watched the birds. On the first day, the farmer showed us how they grow coffee. We picked coffee beans, and then we learned how they dry and roast them. Finally, we tasted the coffee. It was the best coffee I have ever had! The next day we visited the Cocora Valley. It is famous for its wax palms, the tallest palm trees in the world. We walked for five hours. The path was muddy and we had to cross some old bridges over the river, but the views were amazing. We were exhausted when we got back to the hotel. On our last day, we went shopping in Salento. I bought some coffee for my parents and a handmade bag for my sister. In the evening, we played tejo, a traditional Colombian game. I was terrible at it, but it was really fun. It was a wonderful trip and we are going to go back next year."
+   "text": "Last December, my husband and I went on holiday to the Coffee Region in Colombia. We flew from Bogotá to Pereira and then took a bus to Salento, a small, colourful town in the mountains. We stayed in a lovely hotel on a coffee farm. Every morning we had breakfast on the terrace and watched the birds. On the first day, the farmer showed us how they grow coffee. We picked coffee beans, and then we learned how they dry and roast them. Finally, we tasted the coffee. It was the best coffee I have ever had! The next day we visited the Cocora Valley. It is famous for its wax palms, the tallest palm trees in the world. We walked for five hours. The path was muddy and we had to cross some old bridges over the river, but the views were amazing. We were exhausted when we got back to the hotel. On our last day, we went shopping in Salento. I bought some coffee for my parents and a handmade bag for my sister. In the evening, we played tejo, a traditional Colombian game. I was terrible at it, but it was really fun. It was a wonderful trip and we are going to go back next year.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo llegaron a Salento?",
+     "o": [
+      "En avión a Pereira y luego en bus",
+      "En carro desde Bogotá",
+      "En tren",
+      "En bicicleta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué es famoso el Valle del Cocora?",
+     "o": [
+      "Por las palmas de cera",
+      "Por sus playas",
+      "Por sus museos",
+      "Por su nieve"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué compró para su hermana?",
+     "o": [
+      "Un bolso hecho a mano",
+      "Café",
+      "Un sombrero",
+      "Una camiseta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I was terrible at it, but it was really fun.",
+     "q": "¿Qué dice sobre el tejo?",
+     "o": [
+      "Era muy mala jugando, pero fue divertido",
+      "Ganó todos los juegos",
+      "No le gustó",
+      "No lo jugó"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about a trip you took. Where did you go and what did you do?",
+     "min": 20,
+     "keys": [
+      [
+       "went",
+       "visited"
+      ],
+      [
+       "was",
+       "were"
+      ]
+     ],
+     "model": "Last year I went to Santa Marta with my friends. We visited Tayrona Park and swam in the sea. The beaches were beautiful."
+    }
+   ]
   },
   {
    "title": "A New Restaurant in Town",
    "es": "Un restaurante nuevo en la ciudad · Lectura extra",
-   "text": "Last Friday, I went to La Cocina de Rosa, a new restaurant in the centre of town, with three friends. I want to tell you about it. The restaurant is in an old house with a beautiful garden. It's quieter than most restaurants in the area, and the decoration is simple but nice, with wooden tables and lots of plants. The waiters were friendly and they explained the menu to us very clearly. For starters, we ordered fried plantain with guacamole and a cheese empanada. Both were delicious. For the main course, I had grilled fish with coconut rice and salad. My friend Andrés chose the steak, which was big and well cooked. The other two had chicken with mushroom sauce. They said it was a bit too salty, but they enjoyed it. For dessert, we shared a passion fruit cheesecake. It was the best part of the meal! We also had lemonade with mint, which was very refreshing. The prices are a little higher than in other restaurants nearby: we paid about eighty thousand pesos each. But the food is fresh, the portions are generous and the service is excellent. I definitely recommend it. If you go, book a table first, because it is very popular at weekends."
+   "text": "Last Friday, I went to La Cocina de Rosa, a new restaurant in the centre of town, with three friends. I want to tell you about it. The restaurant is in an old house with a beautiful garden. It's quieter than most restaurants in the area, and the decoration is simple but nice, with wooden tables and lots of plants. The waiters were friendly and they explained the menu to us very clearly. For starters, we ordered fried plantain with guacamole and a cheese empanada. Both were delicious. For the main course, I had grilled fish with coconut rice and salad. My friend Andrés chose the steak, which was big and well cooked. The other two had chicken with mushroom sauce. They said it was a bit too salty, but they enjoyed it. For dessert, we shared a passion fruit cheesecake. It was the best part of the meal! We also had lemonade with mint, which was very refreshing. The prices are a little higher than in other restaurants nearby: we paid about eighty thousand pesos each. But the food is fresh, the portions are generous and the service is excellent. I definitely recommend it. If you go, book a table first, because it is very popular at weekends.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo es el restaurante?",
+     "o": [
+      "Una casa vieja con jardín y mesas de madera",
+      "Un lugar moderno y ruidoso",
+      "Un restaurante en un centro comercial",
+      "Un puesto en la calle"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué fue lo mejor de la comida?",
+     "o": [
+      "El cheesecake de maracuyá",
+      "El pescado",
+      "El bistec",
+      "El pollo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué recomienda hacer si vas?",
+     "o": [
+      "Reservar mesa primero",
+      "Ir sin reservar",
+      "Ir solo entre semana",
+      "Pedir domicilio"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "They said it was a bit too salty, but they enjoyed it.",
+     "q": "¿Qué problema tenía el pollo?",
+     "o": [
+      "Estaba un poco salado",
+      "Estaba frío",
+      "Estaba crudo",
+      "Era muy pequeño"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe your favourite restaurant. What do you usually order?",
+     "min": 18,
+     "keys": [
+      [
+       "usually",
+       "i order",
+       "i like"
+      ],
+      [
+       "is",
+       "are"
+      ]
+     ],
+     "model": "My favourite restaurant is a small Italian place near my house. The food is delicious and the waiters are friendly. I usually order lasagne."
+    }
+   ]
   },
   {
    "title": "Moving to a New City",
    "es": "Mudarse a otra ciudad · Lectura extra",
-   "text": "Six months ago, my family moved from Barranquilla to Bogotá because my wife got a new job. It was a big change for all of us. First, there was the weather. Barranquilla is hot all year, so we only had light clothes. In Bogotá it is much colder, especially at night. In our first week we had to buy jackets, sweaters, scarves and even gloves for the children! Then there was the city. Bogotá is much bigger and busier than Barranquilla. The traffic is terrible, and at first I got lost every time I drove somewhere. Now I use an app on my phone and I usually take the TransMilenio, the city's bus system. It's faster than driving. The children were sad at first because they missed their friends and their grandparents. But they have made new friends at school, and they speak to their grandparents on video every Sunday. There are many good things about Bogotá. There are lots of museums, parks, theatres and restaurants. We have visited Monserrate, the Gold Museum and the botanical garden. On Sundays, some main streets close to cars, and we ride our bikes there. I still miss the sea and the music of the coast, but I'm starting to feel at home here."
+   "text": "Six months ago, my family moved from Barranquilla to Bogotá because my wife got a new job. It was a big change for all of us. First, there was the weather. Barranquilla is hot all year, so we only had light clothes. In Bogotá it is much colder, especially at night. In our first week we had to buy jackets, sweaters, scarves and even gloves for the children! Then there was the city. Bogotá is much bigger and busier than Barranquilla. The traffic is terrible, and at first I got lost every time I drove somewhere. Now I use an app on my phone and I usually take the TransMilenio, the city's bus system. It's faster than driving. The children were sad at first because they missed their friends and their grandparents. But they have made new friends at school, and they speak to their grandparents on video every Sunday. There are many good things about Bogotá. There are lots of museums, parks, theatres and restaurants. We have visited Monserrate, the Gold Museum and the botanical garden. On Sundays, some main streets close to cars, and we ride our bikes there. I still miss the sea and the music of the coast, but I'm starting to feel at home here.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué se mudaron a Bogotá?",
+     "o": [
+      "La esposa consiguió un trabajo nuevo",
+      "Por los colegios",
+      "Por el clima",
+      "Por los abuelos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué tuvieron que comprar la primera semana?",
+     "o": [
+      "Chaquetas, suéteres, bufandas y guantes",
+      "Muebles nuevos",
+      "Un carro",
+      "Bicicletas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué extraña todavía el narrador?",
+     "o": [
+      "El mar y la música de la costa",
+      "Su trabajo",
+      "La comida de Bogotá",
+      "El frío"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "On Sundays, some main streets close to cars, and we ride our bikes there.",
+     "q": "¿Qué hacen los domingos?",
+     "o": [
+      "Montan bicicleta en calles cerradas a carros",
+      "Van al cine",
+      "Visitan a los abuelos",
+      "Van al museo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Compare your city with another city you know.",
+     "min": 18,
+     "keys": [
+      [
+       "than"
+      ],
+      [
+       "more",
+       "bigger",
+       "smaller",
+       "colder",
+       "hotter"
+      ]
+     ],
+     "model": "Bogotá is colder and bigger than Cartagena. Cartagena is more beautiful and the food is better, but it's more expensive for tourists."
+    }
+   ]
   },
   {
    "title": "The Worst Holiday Ever",
    "es": "Las peores vacaciones · Lectura extra",
-   "text": "Last year, my friend Tomás and I planned a perfect beach holiday in San Andrés. We booked a nice hotel, bought new swimsuits and counted the days. But nothing went as we expected. First, our flight was delayed for five hours because of a storm. We sat in the airport, ate expensive sandwiches and watched the rain. When we finally arrived, it was midnight and the airline had lost Tomás's suitcase! The next morning, the hotel told us that our room wasn't ready. We had to wait in the lobby until three in the afternoon. Tomás had no clothes, so he wore the same shirt for two days. On the third day, the sun came out at last. We went to the beach, but I forgot my sun cream. After four hours in the sun, my back was as red as a tomato. I couldn't sleep that night because it hurt so much. Then, on the last day, Tomás ate some seafood at a cheap restaurant and got food poisoning. He spent the whole day in bed. When we got home, we were tired, sunburnt and broke. But now, when we remember that holiday, we laugh a lot. It's our favourite story to tell at parties!"
+   "text": "Last year, my friend Tomás and I planned a perfect beach holiday in San Andrés. We booked a nice hotel, bought new swimsuits and counted the days. But nothing went as we expected. First, our flight was delayed for five hours because of a storm. We sat in the airport, ate expensive sandwiches and watched the rain. When we finally arrived, it was midnight and the airline had lost Tomás's suitcase! The next morning, the hotel told us that our room wasn't ready. We had to wait in the lobby until three in the afternoon. Tomás had no clothes, so he wore the same shirt for two days. On the third day, the sun came out at last. We went to the beach, but I forgot my sun cream. After four hours in the sun, my back was as red as a tomato. I couldn't sleep that night because it hurt so much. Then, on the last day, Tomás ate some seafood at a cheap restaurant and got food poisoning. He spent the whole day in bed. When we got home, we were tired, sunburnt and broke. But now, when we remember that holiday, we laugh a lot. It's our favourite story to tell at parties!",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué se retrasó el vuelo?",
+     "o": [
+      "Por una tormenta",
+      "Por un problema técnico",
+      "Por una huelga",
+      "Porque llegaron tarde"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le pasó a la narradora en la playa?",
+     "o": [
+      "Se quemó la espalda por no usar bloqueador",
+      "Se perdió",
+      "Le robaron",
+      "Se cortó un pie"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le pasó a Tomás el último día?",
+     "o": [
+      "Se intoxicó con mariscos",
+      "Perdió el pasaporte",
+      "Se quemó",
+      "Perdió el vuelo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "When we got home, we were tired, sunburnt and broke.",
+     "q": "¿Cómo llegaron a casa?",
+     "o": [
+      "Cansados, quemados y sin dinero",
+      "Felices y descansados",
+      "Con regalos",
+      "Enfermos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Tell about a time when something went wrong on a trip or at a party.",
+     "min": 20,
+     "keys": [
+      [
+       "was",
+       "were",
+       "went"
+      ],
+      [
+       "then",
+       "when",
+       "but"
+      ]
+     ],
+     "model": "Once I went to a wedding and it started to rain very hard. Then the lights went out. But we danced in the dark and it was really fun."
+    }
+   ]
   },
   {
    "title": "How My Parents Met",
    "es": "Cómo se conocieron mis padres · Lectura extra",
-   "text": "My parents met forty years ago, in 1986, and their story is a bit like a film. My father, Jorge, was a young engineering student in Medellín. One rainy afternoon, he was waiting for the bus in the city centre. A young woman was standing next to him. She didn't have an umbrella, and she was getting very wet. My father offered to share his umbrella with her. That woman was my mother, Beatriz. They started talking while they were waiting. She was studying to become a teacher, and she loved music, especially old Cuban songs. When the bus arrived, they sat together. My father was so nervous that he missed his stop! They said goodbye, but my father didn't ask for her phone number. He was really angry with himself. For two weeks, he went to the same bus stop every afternoon, hoping to see her again. Finally, on a sunny Friday, she was there. This time he asked her to go dancing with him, and she said yes. They got married three years later. They have three children and five grandchildren. And they still have that old black umbrella. It's in the corner of their living room, and nobody is allowed to use it!"
+   "text": "My parents met forty years ago, in 1986, and their story is a bit like a film. My father, Jorge, was a young engineering student in Medellín. One rainy afternoon, he was waiting for the bus in the city centre. A young woman was standing next to him. She didn't have an umbrella, and she was getting very wet. My father offered to share his umbrella with her. That woman was my mother, Beatriz. They started talking while they were waiting. She was studying to become a teacher, and she loved music, especially old Cuban songs. When the bus arrived, they sat together. My father was so nervous that he missed his stop! They said goodbye, but my father didn't ask for her phone number. He was really angry with himself. For two weeks, he went to the same bus stop every afternoon, hoping to see her again. Finally, on a sunny Friday, she was there. This time he asked her to go dancing with him, and she said yes. They got married three years later. They have three children and five grandchildren. And they still have that old black umbrella. It's in the corner of their living room, and nobody is allowed to use it!",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Dónde se conocieron los padres?",
+     "o": [
+      "Esperando el bus bajo la lluvia",
+      "En la universidad",
+      "En una fiesta",
+      "En el trabajo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le pasó al papá en el bus?",
+     "o": [
+      "Estaba tan nervioso que se pasó de parada",
+      "Se quedó dormido",
+      "Perdió la sombrilla",
+      "Se bajó con ella"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué guardan todavía?",
+     "o": [
+      "La sombrilla negra",
+      "El tiquete del bus",
+      "Una carta",
+      "Una foto"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "For two weeks, he went to the same bus stop every afternoon, hoping to see her again.",
+     "q": "¿Qué hizo durante dos semanas?",
+     "o": [
+      "Fue a la misma parada esperando verla",
+      "La llamó todos los días",
+      "Le escribió cartas",
+      "La buscó en la universidad"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How did you meet your best friend or your partner?",
+     "min": 18,
+     "keys": [
+      [
+       "met",
+       "was",
+       "were"
+      ]
+     ],
+     "model": "I met my wife at a friend's birthday party ten years ago. We were sitting at the same table and we talked all night about music."
+    }
+   ]
   },
   {
    "title": "A Complaint Email",
    "es": "Un correo de queja · Lectura extra",
-   "text": "Dear Customer Service, I am writing to complain about an order I made on your website on 3 March. My order number is 45872. I ordered a pair of black running shoes, size 39, and a grey sports jacket, size medium. The website said that the delivery would take three to five days. However, the package arrived after two weeks, and there were several problems with it. First, the shoes were the wrong size. I received size 37, not 39, so I can't wear them. Second, the jacket was blue, not grey. Also, the box was damaged and the jacket was dirty. I tried to call your customer service number four times, but nobody answered. I also sent a message through the website chat, but I haven't received a reply yet. I have been a customer of your shop for three years and I have always been happy with your service until now. I would like you to send me the correct items as soon as possible, or give me a full refund. I would also like to know how to return the wrong items without paying for the shipping. I look forward to hearing from you. Yours faithfully, Mariana López"
+   "text": "Dear Customer Service, I am writing to complain about an order I made on your website on 3 March. My order number is 45872. I ordered a pair of black running shoes, size 39, and a grey sports jacket, size medium. The website said that the delivery would take three to five days. However, the package arrived after two weeks, and there were several problems with it. First, the shoes were the wrong size. I received size 37, not 39, so I can't wear them. Second, the jacket was blue, not grey. Also, the box was damaged and the jacket was dirty. I tried to call your customer service number four times, but nobody answered. I also sent a message through the website chat, but I haven't received a reply yet. I have been a customer of your shop for three years and I have always been happy with your service until now. I would like you to send me the correct items as soon as possible, or give me a full refund. I would also like to know how to return the wrong items without paying for the shipping. I look forward to hearing from you. Yours faithfully, Mariana López",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué pidió Mariana?",
+     "o": [
+      "Zapatos para correr y una chaqueta deportiva",
+      "Un celular",
+      "Un vestido",
+      "Libros"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál fue un problema con los zapatos?",
+     "o": [
+      "Eran de la talla equivocada",
+      "Estaban sucios",
+      "Eran de otro color",
+      "No llegaron"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué solución pide Mariana?",
+     "o": [
+      "Los artículos correctos o un reembolso completo",
+      "Un descuento pequeño",
+      "Hablar con el gerente",
+      "Nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I tried to call your customer service number four times, but nobody answered.",
+     "q": "¿Qué pasó cuando llamó?",
+     "o": [
+      "Nadie contestó",
+      "La atendieron mal",
+      "La colgaron",
+      "Le dieron un descuento"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Call a shop to complain: the product you bought is broken. Explain the problem and what you want.",
+     "min": 19,
+     "keys": [
+      [
+       "i bought",
+       "i ordered"
+      ],
+      [
+       "i would like",
+       "i'd like",
+       "i want"
+      ]
+     ],
+     "model": "Hello, I bought a blender last week, but it doesn't work. I would like a new one or a full refund, please."
+    }
+   ]
   },
   {
    "title": "Learning to Swim at Forty",
    "es": "Aprender a nadar a los cuarenta · Lectura extra",
-   "text": "I'm forty-two, and until two years ago, I couldn't swim. When I was a child, my family lived in a small town far from the sea and there was no swimming pool. Later, I was always too busy or too embarrassed to learn. Every time we went to the beach, I stayed in the shallow water while my children swam and played. I felt a bit sad and, honestly, a little afraid. Then, on my fortieth birthday, my daughter gave me a present: ten swimming lessons at the sports centre. I was very nervous at the first lesson. The other students were children! But my teacher, Óscar, was very patient. First, he taught me to put my face in the water and breathe correctly. Then I learned to float. After that, we practised moving my arms and legs. It wasn't easy. Sometimes I swallowed water and I wanted to stop. But I didn't give up. After three months, I swam a whole length of the pool without stopping. Everybody clapped, even the children! Now I swim twice a week before work. I feel healthier, stronger and more confident. Last summer I swam in the sea with my kids for the first time. It's never too late to learn something new."
+   "text": "I'm forty-two, and until two years ago, I couldn't swim. When I was a child, my family lived in a small town far from the sea and there was no swimming pool. Later, I was always too busy or too embarrassed to learn. Every time we went to the beach, I stayed in the shallow water while my children swam and played. I felt a bit sad and, honestly, a little afraid. Then, on my fortieth birthday, my daughter gave me a present: ten swimming lessons at the sports centre. I was very nervous at the first lesson. The other students were children! But my teacher, Óscar, was very patient. First, he taught me to put my face in the water and breathe correctly. Then I learned to float. After that, we practised moving my arms and legs. It wasn't easy. Sometimes I swallowed water and I wanted to stop. But I didn't give up. After three months, I swam a whole length of the pool without stopping. Everybody clapped, even the children! Now I swim twice a week before work. I feel healthier, stronger and more confident. Last summer I swam in the sea with my kids for the first time. It's never too late to learn something new.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué no aprendió a nadar de niño?",
+     "o": [
+      "Vivía lejos del mar y no había piscina",
+      "Le daba miedo el agua",
+      "Sus papás no querían",
+      "Estaba enfermo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Quién le regaló las clases?",
+     "o": [
+      "Su hija",
+      "Su esposo",
+      "Su jefe",
+      "Su profesor"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué pasó después de tres meses?",
+     "o": [
+      "Nadó una piscina completa sin parar",
+      "Dejó las clases",
+      "Ganó una competencia",
+      "Se hizo profesor"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "It's never too late to learn something new.",
+     "q": "¿Cuál es el mensaje?",
+     "o": [
+      "Nunca es tarde para aprender algo nuevo",
+      "Hay que aprender de niño",
+      "Nadar es difícil",
+      "Hay que tener paciencia con los niños"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Is there something you would like to learn? Why haven't you learned it yet?",
+     "min": 18,
+     "keys": [
+      [
+       "would like",
+       "i'd like",
+       "want"
+      ],
+      [
+       "because"
+      ]
+     ],
+     "model": "I would like to learn to play the guitar. I haven't learned it yet because I don't have much free time, but I want to start next year."
+    }
+   ]
   },
   {
    "title": "The Carnival of Barranquilla",
    "es": "El Carnaval de Barranquilla · Lectura extra",
-   "text": "The Carnival of Barranquilla is the most important festival in Colombia and one of the biggest carnivals in the world. It happens every year in February or March, four days before Lent. In 2003, UNESCO named it a Masterpiece of the Oral and Intangible Heritage of Humanity. During the carnival, the whole city celebrates. There are parades, concerts, dances and parties in the streets from morning until night. Thousands of tourists from Colombia and other countries come to enjoy it. The most famous parade is the Battle of Flowers, on Saturday. Beautiful floats move along the main avenue, with the Carnival Queen and hundreds of dancers in colourful costumes. People throw flowers, foam and cornflour at each other, so everybody gets very dirty, but nobody cares! The carnival has many traditional characters. The marimonda wears a mask with a long nose and big ears. The \"garabato\" dancers represent the fight between life and death. On the last day, people celebrate the \"burial of Joselito\", a funny character who \"dies\" after so many days of partying. If you visit Barranquilla during the carnival, wear comfortable clothes, drink lots of water and remember the famous saying: \"Quien lo vive es quien lo goza\" — those who live it are the ones who enjoy it!"
+   "text": "The Carnival of Barranquilla is the most important festival in Colombia and one of the biggest carnivals in the world. It happens every year in February or March, four days before Lent. In 2003, UNESCO named it a Masterpiece of the Oral and Intangible Heritage of Humanity. During the carnival, the whole city celebrates. There are parades, concerts, dances and parties in the streets from morning until night. Thousands of tourists from Colombia and other countries come to enjoy it. The most famous parade is the Battle of Flowers, on Saturday. Beautiful floats move along the main avenue, with the Carnival Queen and hundreds of dancers in colourful costumes. People throw flowers, foam and cornflour at each other, so everybody gets very dirty, but nobody cares! The carnival has many traditional characters. The marimonda wears a mask with a long nose and big ears. The \"garabato\" dancers represent the fight between life and death. On the last day, people celebrate the \"burial of Joselito\", a funny character who \"dies\" after so many days of partying. If you visit Barranquilla during the carnival, wear comfortable clothes, drink lots of water and remember the famous saying: \"Quien lo vive es quien lo goza\" — those who live it are the ones who enjoy it!",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuándo es el Carnaval de Barranquilla?",
+     "o": [
+      "En febrero o marzo",
+      "En diciembre",
+      "En julio",
+      "En octubre"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es la Batalla de Flores?",
+     "o": [
+      "El desfile más famoso, el sábado",
+      "Una pelea",
+      "Un concurso de comida",
+      "Un concierto"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué representa el entierro de Joselito?",
+     "o": [
+      "El final del carnaval",
+      "El inicio del carnaval",
+      "Una fiesta religiosa",
+      "Un partido de fútbol"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "People throw flowers, foam and cornflour at each other, so everybody gets very dirty, but nobody cares!",
+     "q": "¿Qué se lanza la gente?",
+     "o": [
+      "Flores, espuma y maicena",
+      "Agua y huevos",
+      "Dulces",
+      "Papeles"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe a festival or celebration in your city or country.",
+     "min": 20,
+     "keys": [
+      [
+       "every year",
+       "people",
+       "there is",
+       "there are"
+      ]
+     ],
+     "model": "Every year in my city there is a flower festival in August. People dance in the streets, there are parades and families eat traditional food together."
+    }
+   ]
   },
   {
    "title": "A Letter to an Old Friend",
    "es": "Una carta a un viejo amigo · Lectura extra",
-   "text": "Dear Sam, How are you? I'm sorry I haven't written for so long. Life has been really busy, but I think about you often. I've got lots of news! First, I've changed jobs. I left the bank in January and now I work for a small travel agency. I organise tours for foreign visitors, so I use my English every day. It's more interesting than my old job, although I earn a little less. Second, Carla and I have bought a house! It's in a quiet neighbourhood outside the city. It's older than our old apartment and it needs some work, but it has a garden. I've started growing tomatoes and herbs, and I've already made my first salad with them! Our son Martín has started primary school. He loves it. He's learning to read and he's very proud of himself. He reads everything: signs, cereal boxes, my emails... What about you? Are you still living in Toronto? Have you finished your master's degree? I saw on social media that you went to Peru. Did you visit Machu Picchu? Why don't you come and visit us next summer? We have a spare room now, and I'd love to show you around. Write soon! Best wishes, Andrés"
+   "text": "Dear Sam, How are you? I'm sorry I haven't written for so long. Life has been really busy, but I think about you often. I've got lots of news! First, I've changed jobs. I left the bank in January and now I work for a small travel agency. I organise tours for foreign visitors, so I use my English every day. It's more interesting than my old job, although I earn a little less. Second, Carla and I have bought a house! It's in a quiet neighbourhood outside the city. It's older than our old apartment and it needs some work, but it has a garden. I've started growing tomatoes and herbs, and I've already made my first salad with them! Our son Martín has started primary school. He loves it. He's learning to read and he's very proud of himself. He reads everything: signs, cereal boxes, my emails... What about you? Are you still living in Toronto? Have you finished your master's degree? I saw on social media that you went to Peru. Did you visit Machu Picchu? Why don't you come and visit us next summer? We have a spare room now, and I'd love to show you around. Write soon! Best wishes, Andrés",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Dónde trabaja ahora Andrés?",
+     "o": [
+      "En una pequeña agencia de viajes",
+      "En un banco",
+      "En un colegio",
+      "En un hospital"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué tiene la casa nueva?",
+     "o": [
+      "Un jardín",
+      "Una piscina",
+      "Tres pisos",
+      "Un garaje grande"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué invita Andrés a hacer a Sam?",
+     "o": [
+      "Visitarlos el próximo verano",
+      "Trabajar juntos",
+      "Viajar a Perú",
+      "Llamarlo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "He's learning to read and he's very proud of himself.",
+     "q": "¿Qué está aprendiendo Martín?",
+     "o": [
+      "A leer",
+      "A nadar",
+      "A escribir cartas",
+      "A cocinar"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Tell a friend your news: what has changed in your life recently?",
+     "min": 20,
+     "keys": [
+      [
+       "i have",
+       "i've"
+      ],
+      [
+       "recently",
+       "just",
+       "already",
+       "this year"
+      ]
+     ],
+     "model": "I have some news! I've just started a new job in a bank, and I've moved to a bigger apartment. This year I've also started learning English."
+    }
+   ]
   },
   {
    "title": "The Honest Taxi Driver",
    "es": "El taxista honesto · Lectura extra",
-   "text": "Last Tuesday, Elena had a very bad morning. She was late for an important job interview, so she took a taxi from her house to the city centre. During the journey, she was nervous and she checked her notes again and again. When the taxi arrived, she paid quickly, jumped out and ran into the building. The interview went well, but when she came out an hour later, she put her hand in her bag and felt sick. Her wallet wasn't there! It had all her money, her ID card and her bank cards in it. She looked everywhere, but she couldn't find it. Then she remembered the taxi. She thought, \"It probably fell out of my bag there. I'll never see it again.\" She went to the police station to report the loss. While she was filling in the form, her phone rang. It was a man called Rodrigo. \"Hello, are you Elena Ruiz? I'm the taxi driver from this morning. I found your wallet on the back seat. Your phone number was on a business card inside.\" An hour later, Rodrigo met her in a café and gave her the wallet. Nothing was missing. Elena wanted to give him some money as a reward, but he didn't accept it. \"I have a daughter your age,\" he said. \"I hope someone would do the same for her.\" Elena got the job, and she still sends Rodrigo a message every Christmas."
+   "text": "Last Tuesday, Elena had a very bad morning. She was late for an important job interview, so she took a taxi from her house to the city centre. During the journey, she was nervous and she checked her notes again and again. When the taxi arrived, she paid quickly, jumped out and ran into the building. The interview went well, but when she came out an hour later, she put her hand in her bag and felt sick. Her wallet wasn't there! It had all her money, her ID card and her bank cards in it. She looked everywhere, but she couldn't find it. Then she remembered the taxi. She thought, \"It probably fell out of my bag there. I'll never see it again.\" She went to the police station to report the loss. While she was filling in the form, her phone rang. It was a man called Rodrigo. \"Hello, are you Elena Ruiz? I'm the taxi driver from this morning. I found your wallet on the back seat. Your phone number was on a business card inside.\" An hour later, Rodrigo met her in a café and gave her the wallet. Nothing was missing. Elena wanted to give him some money as a reward, but he didn't accept it. \"I have a daughter your age,\" he said. \"I hope someone would do the same for her.\" Elena got the job, and she still sends Rodrigo a message every Christmas.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué tomó Elena un taxi?",
+     "o": [
+      "Iba tarde a una entrevista de trabajo",
+      "Llovía mucho",
+      "Estaba enferma",
+      "Perdió el bus"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo encontró el taxista el número de Elena?",
+     "o": [
+      "En una tarjeta de presentación dentro de la billetera",
+      "En internet",
+      "Se lo dio la policía",
+      "Lo recordaba"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué el taxista no aceptó la recompensa?",
+     "o": [
+      "Tiene una hija de su edad",
+      "Era muy rico",
+      "Estaba apurado",
+      "No le gustaba el dinero"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I hope someone would do the same for her.",
+     "q": "¿Qué espera el taxista?",
+     "o": [
+      "Que alguien haga lo mismo por su hija",
+      "Que Elena le pague",
+      "Que lo contraten",
+      "Que Elena lo llame"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Have you ever lost something important? What happened?",
+     "min": 20,
+     "keys": [
+      [
+       "lost",
+       "found",
+       "was"
+      ],
+      [
+       "i have",
+       "i've",
+       "once"
+      ]
+     ],
+     "model": "Yes, I've lost my phone once. I left it in a restaurant. When I went back, the waiter had kept it for me. I was very lucky."
+    }
+   ]
   },
   {
    "title": "Technology: Then and Now",
    "es": "La tecnología: antes y ahora · Lectura extra",
-   "text": "My grandmother is eighty years old, and she often tells me how different life was when she was young. When she was a girl, her family didn't have a phone at home. If they wanted to call someone, they had to go to the post office or use a public phone in the street. Letters took weeks to arrive. Today, I can send a message to my friend in Australia and she reads it in one second. There was no television in her town until she was fifteen. When the first TV arrived, all the neighbours came to watch it together. There were only two channels, and the programmes were in black and white. Now we can watch thousands of films and series on our phones, whenever we want. My grandmother also remembers that people listened to the radio a lot. The whole family sat together in the evenings and listened to stories and music. \"We talked more,\" she says. \"Today, families eat together, but everybody is looking at a screen.\" But she also likes some new technology. Last year, I taught her to make video calls. Now she talks to her sister in Spain every week and she can see her face. \"That,\" she says, \"is a real miracle.\" I think technology has made our lives easier, but maybe we should put our phones down more often and listen to our grandparents' stories."
+   "text": "My grandmother is eighty years old, and she often tells me how different life was when she was young. When she was a girl, her family didn't have a phone at home. If they wanted to call someone, they had to go to the post office or use a public phone in the street. Letters took weeks to arrive. Today, I can send a message to my friend in Australia and she reads it in one second. There was no television in her town until she was fifteen. When the first TV arrived, all the neighbours came to watch it together. There were only two channels, and the programmes were in black and white. Now we can watch thousands of films and series on our phones, whenever we want. My grandmother also remembers that people listened to the radio a lot. The whole family sat together in the evenings and listened to stories and music. \"We talked more,\" she says. \"Today, families eat together, but everybody is looking at a screen.\" But she also likes some new technology. Last year, I taught her to make video calls. Now she talks to her sister in Spain every week and she can see her face. \"That,\" she says, \"is a real miracle.\" I think technology has made our lives easier, but maybe we should put our phones down more often and listen to our grandparents' stories.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué tenían que hacer para llamar en el pueblo de la abuela?",
+     "o": [
+      "Ir a la oficina de correos o a un teléfono público",
+      "Usar el celular",
+      "Escribir un correo",
+      "Ir a otra ciudad"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo eran los programas de televisión?",
+     "o": [
+      "En blanco y negro, solo dos canales",
+      "A color, muchos canales",
+      "Por internet",
+      "Solo noticias"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le enseñó el nieto a la abuela?",
+     "o": [
+      "Hacer videollamadas",
+      "Usar redes sociales",
+      "Ver series",
+      "Escribir correos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "We talked more. Today, families eat together, but everybody is looking at a screen.",
+     "q": "¿Qué critica la abuela?",
+     "o": [
+      "Que hoy todos miran una pantalla en la mesa",
+      "Que la comida es mala",
+      "Que hay mucho ruido",
+      "Que la gente no come junta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How was life different for your grandparents? Compare it with your life today.",
+     "min": 20,
+     "keys": [
+      [
+       "used to",
+       "didn't have",
+       "there wasn't",
+       "there weren't"
+      ],
+      [
+       "now",
+       "today"
+      ]
+     ],
+     "model": "My grandparents didn't have a phone or a car. They used to walk to work and write letters. Today I can call anyone in seconds, but we are always busy."
+    }
+   ]
   }
  ],
  [
@@ -218,62 +1707,814 @@ window.READINGS = [
   {
    "title": "The Power of Small Habits",
    "es": "El poder de los pequeños hábitos · Lectura extra",
-   "text": "Most people who want to change their lives make big plans. They decide to go to the gym every day, stop eating sugar completely and learn a new language in three months. A few weeks later, they have usually given up, and they feel worse than before. According to many experts, the secret of real change is not motivation, but small habits. A habit is something we do automatically, without thinking, like brushing our teeth. Scientists say that around forty percent of what we do every day is habit, not decision. So how can we build good habits? First, start very small. If you want to read more, don't promise to read a book a week. Read two pages every night before you go to sleep. It sounds too easy, but that is exactly the point. When something is easy, you do it, and when you do it every day, it becomes part of who you are. Second, connect the new habit to something you already do. For example, \"After I make my morning coffee, I will write three things I'm grateful for.\" Your coffee reminds you to do the new activity. Third, make good habits visible and bad habits difficult. If you want to eat more fruit, put a bowl of fruit on the kitchen table. If you want to spend less time on your phone, leave it in another room while you work. Finally, don't worry if you miss a day. Everybody does. The important thing is not to miss two days in a row. Small improvements may not seem important at first, but if you improve just one percent every day, the results after a year can be amazing."
+   "text": "Most people who want to change their lives make big plans. They decide to go to the gym every day, stop eating sugar completely and learn a new language in three months. A few weeks later, they have usually given up, and they feel worse than before. According to many experts, the secret of real change is not motivation, but small habits. A habit is something we do automatically, without thinking, like brushing our teeth. Scientists say that around forty percent of what we do every day is habit, not decision. So how can we build good habits? First, start very small. If you want to read more, don't promise to read a book a week. Read two pages every night before you go to sleep. It sounds too easy, but that is exactly the point. When something is easy, you do it, and when you do it every day, it becomes part of who you are. Second, connect the new habit to something you already do. For example, \"After I make my morning coffee, I will write three things I'm grateful for.\" Your coffee reminds you to do the new activity. Third, make good habits visible and bad habits difficult. If you want to eat more fruit, put a bowl of fruit on the kitchen table. If you want to spend less time on your phone, leave it in another room while you work. Finally, don't worry if you miss a day. Everybody does. The important thing is not to miss two days in a row. Small improvements may not seem important at first, but if you improve just one percent every day, the results after a year can be amazing.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "Según los expertos, ¿cuál es el secreto del cambio real?",
+     "o": [
+      "Los pequeños hábitos",
+      "La motivación",
+      "Los grandes planes",
+      "El dinero"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué porcentaje de lo que hacemos es hábito, según los científicos?",
+     "o": [
+      "Alrededor del 40 %",
+      "El 10 %",
+      "El 90 %",
+      "El 100 %"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hacer si fallas un día?",
+     "o": [
+      "No preocuparte, pero no fallar dos días seguidos",
+      "Empezar de cero",
+      "Rendirte",
+      "Hacer el doble al otro día"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "If you want to eat more fruit, put a bowl of fruit on the kitchen table.",
+     "q": "¿Qué ejemplo da para comer más fruta?",
+     "o": [
+      "Poner un plato de fruta en la mesa",
+      "Comprar fruta cara",
+      "Comer fruta de noche",
+      "No comprar dulces"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe a good habit you have and a bad habit you would like to change.",
+     "min": 25,
+     "keys": [
+      [
+       "habit"
+      ],
+      [
+       "would like",
+       "i'd like",
+       "want to"
+      ]
+     ],
+     "model": "A good habit I have is walking every morning before work. A bad habit I would like to change is checking my phone in bed, because I sleep badly."
+    }
+   ]
   },
   {
    "title": "Working from Home: Dream or Nightmare?",
    "es": "Trabajar desde casa: ¿sueño o pesadilla? · Lectura extra",
-   "text": "Since 2020, millions of people around the world have started working from home, at least a few days a week. For some, it has been the best thing that has ever happened to their careers. For others, it has been a lonely and stressful experience. We asked three people about their experience. Lucía, 34, graphic designer: \"I love it. I used to spend almost three hours a day in traffic. Now I use that time to exercise, cook proper meals and see my children. I'm also more productive, because there are fewer interruptions. My only problem is that it's hard to switch off. Sometimes I'm still answering emails at ten o'clock at night.\" Martín, 52, accountant: \"To be honest, I don't like it much. I live alone, so working from home means I can go a whole day without talking to anyone. I miss the jokes, the coffee breaks and the conversations with my colleagues. Now I go to the office three days a week, and I feel much better.\" Valeria, 27, customer service agent: \"It has advantages and disadvantages. I save money on transport and lunch, and I can wear comfortable clothes. But my apartment is small and my neighbours are noisy, so it's not always easy to concentrate. My company gave us headphones and a chair, which helped a lot.\" Experts agree that the most successful option for most people is probably a hybrid model: some days at home and some days in the office. They also recommend having a separate space for work, keeping regular hours and taking real breaks. Working from home, it seems, is neither a dream nor a nightmare. It depends on the person, the job and, very often, the size of your apartment."
+   "text": "Since 2020, millions of people around the world have started working from home, at least a few days a week. For some, it has been the best thing that has ever happened to their careers. For others, it has been a lonely and stressful experience. We asked three people about their experience. Lucía, 34, graphic designer: \"I love it. I used to spend almost three hours a day in traffic. Now I use that time to exercise, cook proper meals and see my children. I'm also more productive, because there are fewer interruptions. My only problem is that it's hard to switch off. Sometimes I'm still answering emails at ten o'clock at night.\" Martín, 52, accountant: \"To be honest, I don't like it much. I live alone, so working from home means I can go a whole day without talking to anyone. I miss the jokes, the coffee breaks and the conversations with my colleagues. Now I go to the office three days a week, and I feel much better.\" Valeria, 27, customer service agent: \"It has advantages and disadvantages. I save money on transport and lunch, and I can wear comfortable clothes. But my apartment is small and my neighbours are noisy, so it's not always easy to concentrate. My company gave us headphones and a chair, which helped a lot.\" Experts agree that the most successful option for most people is probably a hybrid model: some days at home and some days in the office. They also recommend having a separate space for work, keeping regular hours and taking real breaks. Working from home, it seems, is neither a dream nor a nightmare. It depends on the person, the job and, very often, the size of your apartment.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué ventaja tiene Lucía al trabajar desde casa?",
+     "o": [
+      "Ya no pierde casi tres horas en el tráfico",
+      "Gana más dinero",
+      "Tiene más reuniones",
+      "Trabaja menos horas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué Martín prefiere la oficina?",
+     "o": [
+      "Vive solo y extraña a sus colegas",
+      "Su casa es muy pequeña",
+      "Su jefe lo obliga",
+      "No tiene internet"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué modelo recomiendan los expertos?",
+     "o": [
+      "Uno híbrido",
+      "Solo oficina",
+      "Solo casa",
+      "Trabajar de noche"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "My only problem is that it's hard to switch off. Sometimes I'm still answering emails at ten o'clock at night.",
+     "q": "¿Qué problema tiene Lucía?",
+     "o": [
+      "Le cuesta desconectarse",
+      "No tiene computador",
+      "Sus hijos hacen ruido",
+      "Se aburre"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Would you prefer to work from home or in an office? Give reasons.",
+     "min": 25,
+     "keys": [
+      [
+       "prefer",
+       "would rather"
+      ],
+      [
+       "because"
+      ]
+     ],
+     "model": "I would prefer to work from home three days a week, because I save time and money on transport. But I also need the office to see my colleagues."
+    }
+   ]
   },
   {
    "title": "Two Weeks in the Amazon",
    "es": "Dos semanas en el Amazonas · Lectura extra",
-   "text": "Last year I spent two weeks as a volunteer in a small community near Leticia, in the Colombian Amazon. I had always wanted to visit the rainforest, but I didn't want to be a typical tourist. I wanted to be useful. I travelled with an organisation that works on environmental education. When we arrived, the heat and humidity were incredible. Within ten minutes my clothes were completely wet. We slept in hammocks in a wooden house with no walls, protected only by mosquito nets. The first night, I hardly slept at all. The forest is never silent: there are insects, frogs, birds and monkeys making noise all night. Every morning we helped at the local school. We taught the children some English and organised games about recycling and protecting the river. In return, they taught us words in their language and showed us how to recognise plants that are used as medicine. I was amazed by how much they knew about nature. In the afternoons, we worked in a project to plant trees in areas that had been damaged by illegal logging. It was hard physical work, but very satisfying. One day, our guide took us in a canoe to see pink river dolphins. I will never forget the moment one of them appeared right next to our boat. The experience changed the way I think. I realised how much I waste at home: water, food, plastic. I also understood that the people who live in the forest are its best protectors. If you ever have the chance to do something similar, I strongly recommend it. Just don't forget your insect repellent!"
+   "text": "Last year I spent two weeks as a volunteer in a small community near Leticia, in the Colombian Amazon. I had always wanted to visit the rainforest, but I didn't want to be a typical tourist. I wanted to be useful. I travelled with an organisation that works on environmental education. When we arrived, the heat and humidity were incredible. Within ten minutes my clothes were completely wet. We slept in hammocks in a wooden house with no walls, protected only by mosquito nets. The first night, I hardly slept at all. The forest is never silent: there are insects, frogs, birds and monkeys making noise all night. Every morning we helped at the local school. We taught the children some English and organised games about recycling and protecting the river. In return, they taught us words in their language and showed us how to recognise plants that are used as medicine. I was amazed by how much they knew about nature. In the afternoons, we worked in a project to plant trees in areas that had been damaged by illegal logging. It was hard physical work, but very satisfying. One day, our guide took us in a canoe to see pink river dolphins. I will never forget the moment one of them appeared right next to our boat. The experience changed the way I think. I realised how much I waste at home: water, food, plastic. I also understood that the people who live in the forest are its best protectors. If you ever have the chance to do something similar, I strongly recommend it. Just don't forget your insect repellent!",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Dónde dormían?",
+     "o": [
+      "En hamacas con mosquitero",
+      "En un hotel",
+      "En carpas",
+      "En camas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué les enseñaron los niños a los voluntarios?",
+     "o": [
+      "Palabras de su idioma y plantas medicinales",
+      "A pescar",
+      "A cocinar",
+      "A nadar"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué aprendió el narrador de la experiencia?",
+     "o": [
+      "Cuánto desperdicia en casa",
+      "Que no le gusta la selva",
+      "Que el Amazonas es peligroso",
+      "Que no quiere viajar más"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Our guide took us in a canoe to see pink river dolphins.",
+     "q": "¿Qué vieron desde la canoa?",
+     "o": [
+      "Delfines rosados",
+      "Cocodrilos",
+      "Monos",
+      "Peces de colores"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Would you like to be a volunteer? Where, and what would you do?",
+     "min": 20,
+     "keys": [
+      [
+       "would like",
+       "i'd like",
+       "would"
+      ]
+     ],
+     "model": "I would like to volunteer in a school in a small village. I would teach children English and help them with their homework."
+    }
+   ]
   },
   {
    "title": "The Story of Coffee",
    "es": "La historia del café · Lectura extra",
-   "text": "Coffee is one of the most popular drinks in the world. Every day, people drink more than two billion cups of it. But where does it come from, and how did it become so important? According to a famous legend, coffee was discovered in Ethiopia more than a thousand years ago. A goat herder called Kaldi noticed that his goats became very energetic after eating the red berries of a certain plant. He tried the berries himself and felt the same effect. Nobody knows if the story is true, but we do know that coffee plants originally grew in that region. By the fifteenth century, people in Yemen were growing coffee and preparing a drink from the roasted beans. From there, coffee spread to Turkey, Egypt and Persia. Coffee houses became popular places where people met to talk, listen to music and discuss politics. In the seventeenth century, coffee arrived in Europe. At first, some people were suspicious of this strange black drink, but soon coffee houses opened in London, Paris and Vienna. Later, European countries took coffee plants to their colonies in Asia and the Americas, where the climate was perfect for growing it. Coffee arrived in Colombia in the eighteenth century, probably brought by Jesuit priests. Today, Colombia is one of the biggest coffee producers in the world, and its mild arabica coffee is famous for its quality. Around half a million families in the country depend on coffee for their living. So the next time you drink a cup of coffee, remember that it has travelled a long way, through many centuries and many countries, to reach your table."
+   "text": "Coffee is one of the most popular drinks in the world. Every day, people drink more than two billion cups of it. But where does it come from, and how did it become so important? According to a famous legend, coffee was discovered in Ethiopia more than a thousand years ago. A goat herder called Kaldi noticed that his goats became very energetic after eating the red berries of a certain plant. He tried the berries himself and felt the same effect. Nobody knows if the story is true, but we do know that coffee plants originally grew in that region. By the fifteenth century, people in Yemen were growing coffee and preparing a drink from the roasted beans. From there, coffee spread to Turkey, Egypt and Persia. Coffee houses became popular places where people met to talk, listen to music and discuss politics. In the seventeenth century, coffee arrived in Europe. At first, some people were suspicious of this strange black drink, but soon coffee houses opened in London, Paris and Vienna. Later, European countries took coffee plants to their colonies in Asia and the Americas, where the climate was perfect for growing it. Coffee arrived in Colombia in the eighteenth century, probably brought by Jesuit priests. Today, Colombia is one of the biggest coffee producers in the world, and its mild arabica coffee is famous for its quality. Around half a million families in the country depend on coffee for their living. So the next time you drink a cup of coffee, remember that it has travelled a long way, through many centuries and many countries, to reach your table.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "Según la leyenda, ¿quién descubrió el café?",
+     "o": [
+      "Un pastor de cabras en Etiopía",
+      "Un sacerdote en Colombia",
+      "Un rey de Europa",
+      "Un científico"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué eran las casas de café?",
+     "o": [
+      "Lugares para hablar, escuchar música y discutir política",
+      "Fábricas de café",
+      "Tiendas de granos",
+      "Fincas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuántas familias colombianas dependen del café?",
+     "o": [
+      "Alrededor de medio millón",
+      "Diez mil",
+      "Un millón y medio",
+      "Cien"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Coffee arrived in Colombia in the eighteenth century, probably brought by Jesuit priests.",
+     "q": "¿Quién trajo probablemente el café a Colombia?",
+     "o": [
+      "Sacerdotes jesuitas",
+      "Comerciantes ingleses",
+      "Pastores etíopes",
+      "Soldados"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Explain how coffee or another product from your country is made, step by step.",
+     "min": 25,
+     "keys": [
+      [
+       "first"
+      ],
+      [
+       "then",
+       "after that"
+      ],
+      [
+       "finally"
+      ]
+     ],
+     "model": "First, farmers pick the red coffee beans by hand. Then they wash and dry them in the sun. After that, the beans are roasted. Finally, they are ground and packed."
+    }
+   ]
   },
   {
    "title": "Living with Flatmates",
    "es": "Vivir con compañeros de apartamento · Lectura extra",
-   "text": "When I moved to Medellín to study at university, I couldn't afford to live alone, so I decided to share an apartment with three other students. I was excited, but also a bit nervous. I had never lived with strangers before. At first, everything was great. My flatmates were friendly and we got on well. Camilo was studying medicine, Daniela was an art student and Felipe was doing engineering, like me. We cooked together at weekends, watched football and talked until late at night. However, after a couple of months, some problems started. Camilo never washed his dishes. He used to leave them in the sink for days until there were no clean plates left. Daniela played loud music while she was painting, often at two in the morning. And Felipe used to eat other people's food from the fridge without asking. As for me, I'm sure I had some bad habits too, although nobody told me! One Sunday, we decided to have a house meeting. It was a bit uncomfortable at first, but we were honest with each other. We made a list of rules: everybody washes their dishes the same day, no loud music after eleven, and each person has their own shelf in the fridge. We also made a cleaning rota, so everybody took turns cleaning the bathroom and the kitchen. It wasn't perfect, but things improved a lot. I learned that living with other people is not only about sharing a space. It's about communication, respect and being willing to compromise. Those three years taught me as much as my degree did. And today, Camilo, Daniela and Felipe are still some of my best friends."
+   "text": "When I moved to Medellín to study at university, I couldn't afford to live alone, so I decided to share an apartment with three other students. I was excited, but also a bit nervous. I had never lived with strangers before. At first, everything was great. My flatmates were friendly and we got on well. Camilo was studying medicine, Daniela was an art student and Felipe was doing engineering, like me. We cooked together at weekends, watched football and talked until late at night. However, after a couple of months, some problems started. Camilo never washed his dishes. He used to leave them in the sink for days until there were no clean plates left. Daniela played loud music while she was painting, often at two in the morning. And Felipe used to eat other people's food from the fridge without asking. As for me, I'm sure I had some bad habits too, although nobody told me! One Sunday, we decided to have a house meeting. It was a bit uncomfortable at first, but we were honest with each other. We made a list of rules: everybody washes their dishes the same day, no loud music after eleven, and each person has their own shelf in the fridge. We also made a cleaning rota, so everybody took turns cleaning the bathroom and the kitchen. It wasn't perfect, but things improved a lot. I learned that living with other people is not only about sharing a space. It's about communication, respect and being willing to compromise. Those three years taught me as much as my degree did. And today, Camilo, Daniela and Felipe are still some of my best friends.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué el narrador vivió con compañeros?",
+     "o": [
+      "No podía pagar vivir solo",
+      "Le gusta la gente",
+      "Era obligatorio",
+      "Sus papás lo pidieron"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál era el problema con Camilo?",
+     "o": [
+      "Nunca lavaba sus platos",
+      "Ponía música fuerte",
+      "Comía la comida de otros",
+      "No pagaba el arriendo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo resolvieron los problemas?",
+     "o": [
+      "Con una reunión y una lista de reglas",
+      "Uno se mudó",
+      "Llamaron al dueño",
+      "No los resolvieron"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "It's about communication, respect and being willing to compromise.",
+     "q": "¿Qué aprendió el narrador sobre vivir con otros?",
+     "o": [
+      "Que se trata de comunicación, respeto y ceder",
+      "Que es mejor vivir solo",
+      "Que hay que tener reglas estrictas",
+      "Que es muy caro"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What rules would you make if you shared an apartment with friends?",
+     "min": 25,
+     "keys": [
+      [
+       "would",
+       "should",
+       "must"
+      ]
+     ],
+     "model": "I would make a cleaning rota so everybody cleans once a week. People should wash their dishes the same day, and nobody should play loud music after eleven."
+    }
+   ]
   },
   {
    "title": "The Phone Call",
    "es": "La llamada · Lectura extra",
-   "text": "It was a Tuesday evening in October, and Andrea was having a terrible week. She had just lost her job at an advertising agency, her rent was due in five days and her laptop had stopped working. She was sitting on her sofa, eating cold pizza and looking at job adverts on her phone, when it rang. It was a number she didn't recognise. \"Hello, is that Andrea Castillo?\" asked a woman's voice. \"My name is Helen Ward. I'm calling from London. Two years ago, you sent us a short story for our writing competition. Do you remember?\" Andrea did remember. She had written the story late at night, after a long day at work, and sent it without much hope. She had never received an answer, so she had forgotten about it. \"Well,\" Helen continued, \"the competition was cancelled that year, but I kept your story. I've just started working for a publishing company, and we are preparing a collection of stories by young Latin American writers. We would love to include yours. And we'd like to know if you have written anything else.\" Andrea couldn't speak for a moment. Then she said she had a notebook full of stories that she had never shown anybody. Three months later, Andrea's story was published in the collection. A year later, the company offered her a contract for her first book. Today, she has published two novels and she teaches creative writing at a university. \"I always tell my students two things,\" she says. \"First, finish what you write. Second, send it to someone. You never know who is going to read it, or when they will call.\""
+   "text": "It was a Tuesday evening in October, and Andrea was having a terrible week. She had just lost her job at an advertising agency, her rent was due in five days and her laptop had stopped working. She was sitting on her sofa, eating cold pizza and looking at job adverts on her phone, when it rang. It was a number she didn't recognise. \"Hello, is that Andrea Castillo?\" asked a woman's voice. \"My name is Helen Ward. I'm calling from London. Two years ago, you sent us a short story for our writing competition. Do you remember?\" Andrea did remember. She had written the story late at night, after a long day at work, and sent it without much hope. She had never received an answer, so she had forgotten about it. \"Well,\" Helen continued, \"the competition was cancelled that year, but I kept your story. I've just started working for a publishing company, and we are preparing a collection of stories by young Latin American writers. We would love to include yours. And we'd like to know if you have written anything else.\" Andrea couldn't speak for a moment. Then she said she had a notebook full of stories that she had never shown anybody. Three months later, Andrea's story was published in the collection. A year later, the company offered her a contract for her first book. Today, she has published two novels and she teaches creative writing at a university. \"I always tell my students two things,\" she says. \"First, finish what you write. Second, send it to someone. You never know who is going to read it, or when they will call.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo era la semana de Andrea?",
+     "o": [
+      "Terrible: perdió el trabajo y se dañó su portátil",
+      "Muy buena",
+      "Normal",
+      "Estaba de vacaciones"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué llamó Helen Ward?",
+     "o": [
+      "Quería publicar el cuento de Andrea",
+      "Para ofrecerle un trabajo en Londres",
+      "Para venderle algo",
+      "Para cobrar una deuda"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿A qué se dedica Andrea hoy?",
+     "o": [
+      "Ha publicado dos novelas y enseña escritura creativa",
+      "Trabaja en publicidad",
+      "Vive en Londres",
+      "Es periodista"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "First, finish what you write. Second, send it to someone.",
+     "q": "¿Qué les aconseja Andrea a sus estudiantes?",
+     "o": [
+      "Terminar lo que escriben y enviarlo a alguien",
+      "Escribir solo de noche",
+      "No mostrar sus textos",
+      "Estudiar en Londres"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about a moment when something unexpected changed your plans.",
+     "min": 25,
+     "keys": [
+      [
+       "was",
+       "were",
+       "had"
+      ],
+      [
+       "suddenly",
+       "then",
+       "when"
+      ]
+     ],
+     "model": "Last year I was planning to travel to the coast when my boss called me. Suddenly, I had to go to Bogotá for a training. It was a surprise, but I met great people there."
+    }
+   ]
   },
   {
    "title": "Teenagers and Social Media",
    "es": "Los adolescentes y las redes sociales · Lectura extra",
-   "text": "Today's teenagers are the first generation that has grown up with smartphones and social media. According to recent studies, most teenagers spend between three and seven hours a day online. Parents, teachers and doctors are asking the same question: is this a problem? There are some clear benefits. Social media helps young people stay in contact with friends and family, especially those who live far away. It allows them to find communities of people with the same interests, from music to science. For teenagers who feel different or isolated at school, these online communities can be very important. Social media can also be a place to be creative, to share art, music and videos, and to learn new skills. However, there are also serious risks. Many experts believe that heavy use of social media is connected to anxiety, depression and low self-esteem. Teenagers constantly compare their lives with the perfect images they see online, and they often feel that they are not good enough. Cyberbullying is another big problem: unlike traditional bullying, it can continue twenty-four hours a day. In addition, using phones late at night affects sleep, which is essential for young people's health and concentration. So what can be done? Most experts don't think that banning social media is the answer. Instead, they recommend teaching young people to use it in a healthy way. Families can agree on rules, such as no phones at dinner or in bedrooms at night. Schools can teach students to recognise false information and to think critically about what they see. And parents can set a good example by controlling their own screen time. After all, it is difficult to ask a teenager to put down their phone if their parents never put down theirs."
+   "text": "Today's teenagers are the first generation that has grown up with smartphones and social media. According to recent studies, most teenagers spend between three and seven hours a day online. Parents, teachers and doctors are asking the same question: is this a problem? There are some clear benefits. Social media helps young people stay in contact with friends and family, especially those who live far away. It allows them to find communities of people with the same interests, from music to science. For teenagers who feel different or isolated at school, these online communities can be very important. Social media can also be a place to be creative, to share art, music and videos, and to learn new skills. However, there are also serious risks. Many experts believe that heavy use of social media is connected to anxiety, depression and low self-esteem. Teenagers constantly compare their lives with the perfect images they see online, and they often feel that they are not good enough. Cyberbullying is another big problem: unlike traditional bullying, it can continue twenty-four hours a day. In addition, using phones late at night affects sleep, which is essential for young people's health and concentration. So what can be done? Most experts don't think that banning social media is the answer. Instead, they recommend teaching young people to use it in a healthy way. Families can agree on rules, such as no phones at dinner or in bedrooms at night. Schools can teach students to recognise false information and to think critically about what they see. And parents can set a good example by controlling their own screen time. After all, it is difficult to ask a teenager to put down their phone if their parents never put down theirs.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuántas horas al día pasan en línea la mayoría de adolescentes?",
+     "o": [
+      "Entre tres y siete",
+      "Una",
+      "Diez o más",
+      "Ninguna"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué el ciberacoso es peor que el acoso tradicional?",
+     "o": [
+      "Puede continuar las 24 horas",
+      "Es menos visible",
+      "Solo pasa en el colegio",
+      "No deja huella"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué recomiendan los expertos?",
+     "o": [
+      "Enseñar a usar las redes de forma sana",
+      "Prohibir las redes sociales",
+      "Quitarles el teléfono",
+      "No hacer nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "It is difficult to ask a teenager to put down their phone if their parents never put down theirs.",
+     "q": "¿Qué deben hacer los padres?",
+     "o": [
+      "Dar el ejemplo usando menos el teléfono",
+      "Prohibir el teléfono",
+      "Comprar otro teléfono",
+      "Revisar los mensajes"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Do you think social media is good or bad for young people? Give your opinion.",
+     "min": 24,
+     "keys": [
+      [
+       "i think",
+       "in my opinion",
+       "i believe"
+      ],
+      [
+       "but",
+       "however",
+       "on the other hand"
+      ]
+     ],
+     "model": "In my opinion, social media can be useful to learn and stay in contact. However, it can also cause anxiety, so teenagers should use it with limits."
+    }
+   ]
   },
   {
    "title": "Street Food Around the World",
    "es": "Comida callejera alrededor del mundo · Lectura extra",
-   "text": "If you really want to know a country, forget the expensive restaurants and try its street food. Street food is cheap, fast and full of flavour, and it tells you a lot about the history and culture of a place. Here are five of the most popular street foods in the world. Tacos, Mexico. Tacos are probably the most famous street food in Latin America. They are made with soft corn tortillas filled with meat, onion, coriander and spicy sauce. One of the most popular types is \"tacos al pastor\", which were created by Lebanese immigrants who brought their way of cooking meat to Mexico. Pad thai, Thailand. In the streets of Bangkok you can smell this dish before you see it. It's made with rice noodles, egg, tofu or prawns, peanuts and lime, and it's cooked in a huge pan in front of you in less than five minutes. Fish and chips, England. Fried fish in batter with thick chips has been popular in Britain since the nineteenth century. Traditionally, it was served in newspaper, and people often eat it with salt and vinegar by the sea. Falafel, Middle East. These small balls of fried chickpeas are popular from Egypt to Lebanon. They are usually served in pitta bread with salad and a sesame sauce. They are delicious and healthy, and they are perfect for vegetarians. Arepas, Colombia and Venezuela. Of course, we can't forget our own arepas! Made from corn dough, they can be grilled, fried or baked, and filled with cheese, eggs, meat or avocado. Every region has its own version. A word of advice: choose busy stalls where local people eat. If there's a long queue, the food is probably fresh and delicious."
+   "text": "If you really want to know a country, forget the expensive restaurants and try its street food. Street food is cheap, fast and full of flavour, and it tells you a lot about the history and culture of a place. Here are five of the most popular street foods in the world. Tacos, Mexico. Tacos are probably the most famous street food in Latin America. They are made with soft corn tortillas filled with meat, onion, coriander and spicy sauce. One of the most popular types is \"tacos al pastor\", which were created by Lebanese immigrants who brought their way of cooking meat to Mexico. Pad thai, Thailand. In the streets of Bangkok you can smell this dish before you see it. It's made with rice noodles, egg, tofu or prawns, peanuts and lime, and it's cooked in a huge pan in front of you in less than five minutes. Fish and chips, England. Fried fish in batter with thick chips has been popular in Britain since the nineteenth century. Traditionally, it was served in newspaper, and people often eat it with salt and vinegar by the sea. Falafel, Middle East. These small balls of fried chickpeas are popular from Egypt to Lebanon. They are usually served in pitta bread with salad and a sesame sauce. They are delicious and healthy, and they are perfect for vegetarians. Arepas, Colombia and Venezuela. Of course, we can't forget our own arepas! Made from corn dough, they can be grilled, fried or baked, and filled with cheese, eggs, meat or avocado. Every region has its own version. A word of advice: choose busy stalls where local people eat. If there's a long queue, the food is probably fresh and delicious.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Quiénes crearon los tacos al pastor?",
+     "o": [
+      "Inmigrantes libaneses en México",
+      "Cocineros españoles",
+      "Chefs franceses",
+      "Indígenas peruanos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cómo se servía tradicionalmente el fish and chips?",
+     "o": [
+      "En papel periódico",
+      "En platos de cerámica",
+      "En cajas de cartón",
+      "En hojas de plátano"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué consejo da el texto para elegir un puesto?",
+     "o": [
+      "Elegir puestos concurridos donde come la gente local",
+      "Buscar el más barato",
+      "Comer solo en hoteles",
+      "Evitar las filas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "These small balls of fried chickpeas are popular from Egypt to Lebanon.",
+     "q": "¿De qué está hecho el falafel?",
+     "o": [
+      "De garbanzos fritos",
+      "De carne",
+      "De maíz",
+      "De arroz"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Describe a typical street food from your country and recommend it to a tourist.",
+     "min": 21,
+     "keys": [
+      [
+       "it's made",
+       "made with",
+       "it is"
+      ],
+      [
+       "recommend",
+       "should try",
+       "you should"
+      ]
+     ],
+     "model": "In Colombia you should try empanadas. They're made with corn dough and filled with potatoes and meat. I recommend eating them with spicy sauce."
+    }
+   ]
   },
   {
    "title": "The Night of the Blackout",
    "es": "La noche del apagón · Lectura extra",
-   "text": "It happened on a hot Friday night last August. I was cooking dinner and my wife was watching the news when, suddenly, everything went dark. The lights, the TV, the fridge, the fan: everything stopped at the same time. At first, we thought it was only our building. I looked out of the window and saw that the whole neighbourhood was dark. In fact, we later found out that half of the city had lost electricity because of a problem at a power station. We looked for candles, but we only found two old birthday candles and a torch with weak batteries. Our phones had very little battery left, and the internet wasn't working. The dinner was only half cooked, so we ate bread, cheese and fruit by candlelight on the balcony. Then something strange happened. Without the noise of TVs and air conditioners, the street became very quiet. Our neighbours started coming out onto their balconies too. Someone began playing the guitar, and soon people were singing old songs together. The family upstairs, who we had never really spoken to, brought down some cold drinks. A little boy from the building opposite pointed at the sky and shouted, \"Look! Stars!\" Usually, because of the city lights, we can't see them. That night, there were hundreds. The electricity came back at about two in the morning. Suddenly, the lights went on, the fridge started making noise and the TV was talking again. Everybody said goodnight and went inside. It was only a few hours, but I still think about that night. We have such busy lives, always connected to our screens. Sometimes it takes a blackout to remind us to look up and talk to the people around us."
+   "text": "It happened on a hot Friday night last August. I was cooking dinner and my wife was watching the news when, suddenly, everything went dark. The lights, the TV, the fridge, the fan: everything stopped at the same time. At first, we thought it was only our building. I looked out of the window and saw that the whole neighbourhood was dark. In fact, we later found out that half of the city had lost electricity because of a problem at a power station. We looked for candles, but we only found two old birthday candles and a torch with weak batteries. Our phones had very little battery left, and the internet wasn't working. The dinner was only half cooked, so we ate bread, cheese and fruit by candlelight on the balcony. Then something strange happened. Without the noise of TVs and air conditioners, the street became very quiet. Our neighbours started coming out onto their balconies too. Someone began playing the guitar, and soon people were singing old songs together. The family upstairs, who we had never really spoken to, brought down some cold drinks. A little boy from the building opposite pointed at the sky and shouted, \"Look! Stars!\" Usually, because of the city lights, we can't see them. That night, there were hundreds. The electricity came back at about two in the morning. Suddenly, the lights went on, the fridge started making noise and the TV was talking again. Everybody said goodnight and went inside. It was only a few hours, but I still think about that night. We have such busy lives, always connected to our screens. Sometimes it takes a blackout to remind us to look up and talk to the people around us.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué se fue la luz?",
+     "o": [
+      "Hubo un problema en una central eléctrica",
+      "Por una tormenta",
+      "Por un terremoto",
+      "No pagaron la factura"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hicieron los vecinos?",
+     "o": [
+      "Salieron a los balcones, cantaron y compartieron bebidas",
+      "Llamaron a la policía",
+      "Se fueron a dormir",
+      "Se quejaron"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué vieron gracias al apagón?",
+     "o": [
+      "Las estrellas",
+      "Un incendio",
+      "Fuegos artificiales",
+      "La luna llena"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Sometimes it takes a blackout to remind us to look up and talk to the people around us.",
+     "q": "¿Qué reflexión hace el narrador?",
+     "o": [
+      "A veces necesitamos un apagón para conectar con los demás",
+      "Los apagones son peligrosos",
+      "Hay que comprar velas",
+      "La ciudad necesita más luz"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Imagine there is no electricity for a whole day. What would you do?",
+     "min": 25,
+     "keys": [
+      [
+       "would"
+      ]
+     ],
+     "model": "If there was no electricity for a day, I would go to the park with my family. We would play games, read books and cook on a small gas cooker."
+    }
+   ]
   },
   {
    "title": "Five Simple Ways to Save Money",
    "es": "Cinco maneras sencillas de ahorrar dinero · Lectura extra",
-   "text": "Do you often get to the end of the month with no money left and no idea where it went? You're not alone. Saving money is difficult, but with a few simple changes, almost anybody can do it. Here are five practical tips. 1. Know where your money goes. For one month, write down everything you spend, even small things like a coffee or a bus ticket. Many people are surprised to discover how much they spend on things they don't really need. There are free apps that can help you do this. 2. Pay yourself first. Most people save what is left at the end of the month, which is usually nothing. Instead, as soon as you receive your salary, transfer a fixed amount, even if it's only five or ten percent, to a separate savings account. If you don't see the money, you won't spend it. 3. Cook at home. Eating out and ordering food delivery are among the biggest expenses for many families. Plan your meals for the week, make a shopping list and stick to it. Cooking a bigger amount and taking leftovers to work for lunch can save you a lot of money. 4. Wait before you buy. Online shopping makes it very easy to buy things we don't need. Try the \"48-hour rule\": when you want to buy something that isn't essential, wait two days. Very often, you'll realise that you don't really want it. 5. Cancel what you don't use. Check your bank statement for subscriptions: streaming services, apps, gym memberships. Are you really using all of them? Cancel the ones you don't use. Remember, the goal is not to stop enjoying life. It's to spend money on the things that really matter to you, and to have some savings for emergencies and for your future dreams."
+   "text": "Do you often get to the end of the month with no money left and no idea where it went? You're not alone. Saving money is difficult, but with a few simple changes, almost anybody can do it. Here are five practical tips. 1. Know where your money goes. For one month, write down everything you spend, even small things like a coffee or a bus ticket. Many people are surprised to discover how much they spend on things they don't really need. There are free apps that can help you do this. 2. Pay yourself first. Most people save what is left at the end of the month, which is usually nothing. Instead, as soon as you receive your salary, transfer a fixed amount, even if it's only five or ten percent, to a separate savings account. If you don't see the money, you won't spend it. 3. Cook at home. Eating out and ordering food delivery are among the biggest expenses for many families. Plan your meals for the week, make a shopping list and stick to it. Cooking a bigger amount and taking leftovers to work for lunch can save you a lot of money. 4. Wait before you buy. Online shopping makes it very easy to buy things we don't need. Try the \"48-hour rule\": when you want to buy something that isn't essential, wait two days. Very often, you'll realise that you don't really want it. 5. Cancel what you don't use. Check your bank statement for subscriptions: streaming services, apps, gym memberships. Are you really using all of them? Cancel the ones you don't use. Remember, the goal is not to stop enjoying life. It's to spend money on the things that really matter to you, and to have some savings for emergencies and for your future dreams.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué significa 'págate a ti mismo primero'?",
+     "o": [
+      "Ahorrar una cantidad fija apenas recibes el salario",
+      "Gastar en ti mismo",
+      "Pagar las deudas primero",
+      "Pedir un aumento"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es la 'regla de las 48 horas'?",
+     "o": [
+      "Esperar dos días antes de comprar algo no esencial",
+      "Pagar en 48 horas",
+      "Devolver lo comprado",
+      "Ahorrar 48 pesos al día"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hay que revisar en el extracto bancario?",
+     "o": [
+      "Suscripciones que no usas",
+      "Los intereses",
+      "El saldo de otros",
+      "Las tarifas del banco"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Cooking a bigger amount and taking leftovers to work for lunch can save you a lot of money.",
+     "q": "¿Qué consejo da sobre la comida?",
+     "o": [
+      "Cocinar más y llevar las sobras al trabajo",
+      "Comer en restaurantes baratos",
+      "Pedir domicilios",
+      "Saltarse el almuerzo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Give a friend three tips to save money. Use 'should' and 'try to'.",
+     "min": 22,
+     "keys": [
+      [
+       "should"
+      ],
+      [
+       "try to"
+      ]
+     ],
+     "model": "You should write down everything you spend. Try to cook at home instead of ordering food. And you should cancel the subscriptions you don't use."
+    }
+   ]
   },
   {
    "title": "Gabriel García Márquez",
    "es": "Gabriel García Márquez · Lectura extra",
-   "text": "Gabriel García Márquez is the most famous Colombian writer of all time and one of the most important authors of the twentieth century. Millions of people around the world know him by his nickname, \"Gabo\". He was born in 1927 in Aracataca, a small town near the Caribbean coast of Colombia. His parents left him with his grandparents when he was a baby, and he lived with them until he was eight. His grandfather, a retired colonel, told him stories about the civil wars, and his grandmother told him stories full of ghosts, magic and superstitions. These childhood memories became the base of much of his later work. García Márquez studied law in Bogotá, but he never finished his degree. Instead, he became a journalist, working for newspapers in Cartagena, Barranquilla and Bogotá. He also worked as a foreign correspondent in Europe, where he often had very little money. During these years, he wrote short stories and his first novels. In 1967, he published One Hundred Years of Solitude, the story of the Buendía family in the imaginary town of Macondo. The novel was an enormous success. It has been translated into more than forty languages and has sold more than fifty million copies. It is one of the best examples of \"magical realism\", a style that mixes everyday reality with fantastic events, as if they were completely normal. In 1982, García Márquez received the Nobel Prize in Literature. He wrote many other famous books, including Love in the Time of Cholera and Chronicle of a Death Foretold. He lived for many years in Mexico City, where he died in 2014. Today, his books are still read in schools and homes all over the world, and yellow butterflies, a symbol from his novels, appear everywhere in his memory."
+   "text": "Gabriel García Márquez is the most famous Colombian writer of all time and one of the most important authors of the twentieth century. Millions of people around the world know him by his nickname, \"Gabo\". He was born in 1927 in Aracataca, a small town near the Caribbean coast of Colombia. His parents left him with his grandparents when he was a baby, and he lived with them until he was eight. His grandfather, a retired colonel, told him stories about the civil wars, and his grandmother told him stories full of ghosts, magic and superstitions. These childhood memories became the base of much of his later work. García Márquez studied law in Bogotá, but he never finished his degree. Instead, he became a journalist, working for newspapers in Cartagena, Barranquilla and Bogotá. He also worked as a foreign correspondent in Europe, where he often had very little money. During these years, he wrote short stories and his first novels. In 1967, he published One Hundred Years of Solitude, the story of the Buendía family in the imaginary town of Macondo. The novel was an enormous success. It has been translated into more than forty languages and has sold more than fifty million copies. It is one of the best examples of \"magical realism\", a style that mixes everyday reality with fantastic events, as if they were completely normal. In 1982, García Márquez received the Nobel Prize in Literature. He wrote many other famous books, including Love in the Time of Cholera and Chronicle of a Death Foretold. He lived for many years in Mexico City, where he died in 2014. Today, his books are still read in schools and homes all over the world, and yellow butterflies, a symbol from his novels, appear everywhere in his memory.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Con quién vivió Gabo de niño?",
+     "o": [
+      "Con sus abuelos",
+      "Con sus padres",
+      "En un internado",
+      "Con un tío"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué estudió y no terminó?",
+     "o": [
+      "Derecho",
+      "Medicina",
+      "Periodismo",
+      "Literatura"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué es el realismo mágico?",
+     "o": [
+      "Un estilo que mezcla la realidad con hechos fantásticos como si fueran normales",
+      "Un tipo de magia",
+      "Una novela de ciencia ficción",
+      "Un género periodístico"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "In 1982, García Márquez received the Nobel Prize in Literature.",
+     "q": "¿Qué pasó en 1982?",
+     "o": [
+      "Recibió el Premio Nobel de Literatura",
+      "Publicó Cien años de soledad",
+      "Nació",
+      "Se mudó a México"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about a writer, singer or artist you admire. What do you know about their life?",
+     "min": 23,
+     "keys": [
+      [
+       "was born",
+       "is from",
+       "born"
+      ],
+      [
+       "admire",
+       "like",
+       "love"
+      ]
+     ],
+     "model": "I admire Shakira. She was born in Barranquilla in 1977. She started singing when she was a child, and now she is famous all over the world."
+    }
+   ]
   },
   {
    "title": "Ask Sandra: My Noisy Neighbours",
    "es": "Pregúntale a Sandra: mis vecinos ruidosos · Lectura extra",
-   "text": "Dear Sandra, I need your advice. Six months ago, a young couple moved into the apartment above mine. They seem nice, but they are incredibly noisy. They play music almost every night, often until one or two in the morning, and at weekends they have parties with lots of people. I also hear them walking around in heavy shoes and moving furniture at strange hours. I have to get up at five thirty for work, so I'm exhausted all the time. I'm a shy person and I hate conflict, so I haven't said anything to them. My sister says I should complain to the building manager, but I'm worried that they will get angry and the situation will get worse. What should I do? Tired in Tunja Dear Tired, I'm sorry to hear about your situation. Lack of sleep is a serious problem, so it's important to do something about it soon. First of all, I think you should talk to your neighbours directly before you go to the building manager. Very often, people simply don't realise how much noise they make. Choose a good moment, not at midnight when you're angry, but maybe on a weekend afternoon. Be friendly and explain the situation calmly. For example: \"Hi, I live downstairs. I don't think you know this, but I can hear a lot of music at night, and I have to get up very early for work. Could you turn it down after ten?\" If you feel too nervous to speak to them, you could write them a polite note. Many people react better than we expect. If nothing changes after that, then it is reasonable to speak to the building manager. Most buildings have rules about noise at night, and the manager can remind them. Meanwhile, a good pair of earplugs might help you sleep. Good luck, and I hope you can rest soon! Sandra"
+   "text": "Dear Sandra, I need your advice. Six months ago, a young couple moved into the apartment above mine. They seem nice, but they are incredibly noisy. They play music almost every night, often until one or two in the morning, and at weekends they have parties with lots of people. I also hear them walking around in heavy shoes and moving furniture at strange hours. I have to get up at five thirty for work, so I'm exhausted all the time. I'm a shy person and I hate conflict, so I haven't said anything to them. My sister says I should complain to the building manager, but I'm worried that they will get angry and the situation will get worse. What should I do? Tired in Tunja Dear Tired, I'm sorry to hear about your situation. Lack of sleep is a serious problem, so it's important to do something about it soon. First of all, I think you should talk to your neighbours directly before you go to the building manager. Very often, people simply don't realise how much noise they make. Choose a good moment, not at midnight when you're angry, but maybe on a weekend afternoon. Be friendly and explain the situation calmly. For example: \"Hi, I live downstairs. I don't think you know this, but I can hear a lot of music at night, and I have to get up very early for work. Could you turn it down after ten?\" If you feel too nervous to speak to them, you could write them a polite note. Many people react better than we expect. If nothing changes after that, then it is reasonable to speak to the building manager. Most buildings have rules about noise at night, and the manager can remind them. Meanwhile, a good pair of earplugs might help you sleep. Good luck, and I hope you can rest soon! Sandra",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuál es el problema de la persona que escribe?",
+     "o": [
+      "Sus vecinos de arriba hacen mucho ruido",
+      "Su jefe es estricto",
+      "No tiene trabajo",
+      "Su perro ladra"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le aconseja Sandra primero?",
+     "o": [
+      "Hablar directamente con los vecinos",
+      "Llamar a la policía",
+      "Mudarse",
+      "Poner música más fuerte"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué puede hacer si está muy nervioso para hablar?",
+     "o": [
+      "Escribirles una nota educada",
+      "No decir nada",
+      "Gritar",
+      "Quejarse en redes sociales"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Choose a good moment, not at midnight when you're angry, but maybe on a weekend afternoon.",
+     "q": "¿Cuándo es buen momento para hablar?",
+     "o": [
+      "Una tarde de fin de semana",
+      "A medianoche",
+      "En la madrugada",
+      "Durante la fiesta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Give advice to a friend who has a problem with a colleague at work.",
+     "min": 23,
+     "keys": [
+      [
+       "you should",
+       "i think you should",
+       "why don't you"
+      ],
+      [
+       "if"
+      ]
+     ],
+     "model": "I think you should talk to your colleague calmly. Why don't you invite her for a coffee? If nothing changes, you should speak to your manager."
+    }
+   ]
   }
  ],
  [
