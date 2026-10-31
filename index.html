@@ -788,7 +788,7 @@ function render(){
     if(SYL(i)){const ls=sylSteps(i).filter(x=>x.type==="lesson"),dn=ls.filter(x=>isDone(x.key)).length,fp=getProg(finKey(i));
       qb.textContent="Ver temario";qs.className="qstat"+(fp&&fp.passed?" ok":"");qs.innerHTML=fp&&fp.passed?`${ICON_OK} Nivel aprobado · ${fp.best} %`:`Temario: <b style="color:var(--ink)">${dn}/${ls.length}</b> lecciones`;c.classList.toggle("locked",!un);return}
     qs.className="qstat"+(q&&q.passed?" ok":"");
-    qs.innerHTML=q&&q.passed?`${ICON_OK} Aprobado · ${q.best} %`:!un?`${ICON_LOCK} Aprueba ${LV[i-1].k} para abrir`:q?`Último: ${q.last} % · necesitas 70 %`:"Quiz disponible";
+    qs.innerHTML=q&&q.passed?`${ICON_OK} Aprobado · ${q.best} %`:!un?`${ICON_LOCK} Aprueba ${LV[i-1].k} para abrir`:q?`Último: ${q.last} % · necesitas ${PASS} %`:"Quiz disponible";
     c.classList.toggle("locked",!un);
     c.classList.toggle("sel",i===S.target);
     c.querySelector(".pick").textContent=i===S.target?"Tu meta ✓":"Fijar meta →"});
@@ -1232,7 +1232,7 @@ function whoView(after,step,pre){
 }
 
 /* ================= quizzes por nivel =================
-   10 preguntas: 4 opción múltiple, 1 completar, 3 escucha, 2 orales. Aprueba con 70 %. */
+   10 preguntas: 4 opción múltiple, 1 completar, 3 escucha, 2 orales. Aprueba con PASS (85 %). */
 const mc=(q,o,a,x)=>({t:"mc",q,o,a,x}),fl=(q,ans,x)=>({t:"fill",q,ans,x}),ls=(say,q,o,a)=>({t:"listen",say,q,o,a}),or=text=>({t:"oral",text});
 const QZ=[
  [ls("My sister is twenty-five years old.","How old is the sister?",["25","35","52"],0),
@@ -1296,7 +1296,24 @@ const QZ=[
   mc("She's a stickler ___ punctuality.",["of","for","about"],1,"La expresión es a stickler for: alguien muy exigente con algo."),
   or("It goes without saying that thorough preparation is indispensable.")]
 ];
-const PASS=70;
+const PASS=85;
+function withAudio(items,lessons,nL,nO){const g=audioItems(lessons,nL,nO),gl=g.filter(x=>x.t==="listen"),go=g.filter(x=>x.t==="oral"),out=[...items];
+  gl.forEach((x,i)=>out.splice(Math.min(out.length,2+i*3),0,x));const w=out.findIndex(x=>x.t==="write");out.splice(w<0?out.length:w,0,...go);return out}
+/* ejercicios extra de escucha y habla generados del vocabulario y la conversación de cada lección */
+function audioItems(lessons,nListen,nOral){
+  const voc=lessons.flatMap(l=>(l.vocab||[]).map(([w,pos,m,e])=>({w,m,e}))).filter(v=>v.e&&v.m),lines=lessons.flatMap(l=>l.dialogue?l.dialogue.lines:[]);
+  const longL=lines.filter(l=>l[1].split(/\s+/).length>=4&&l[2]),out=[],uniqM=(arr,ok)=>[...new Map(arr.map(x=>[x.m||x[2],x])).values()].filter(ok);
+  const kinds=shuffle(["word","mean","line","word","line","mean"]);
+  for(let i=0;out.length<nListen&&i<nListen*4;i++){const k=kinds[i%kinds.length];
+    if(k==="word"&&voc.length>=4){const v=voc[Math.floor(Math.random()*voc.length)],o=[v.w,...shuffle(voc.filter(x=>x.w.toLowerCase()!==v.w.toLowerCase()&&!v.e.toLowerCase().includes(x.w.toLowerCase()))).slice(0,3).map(x=>x.w)];
+      if(o.length===4&&v.e.toLowerCase().includes(v.w.toLowerCase().split(" ")[0]))out.push({t:"listen",say:v.e,q:"Escucha la frase. ¿Qué palabra o expresión de la lección se usa?",o,a:0})}
+    if(k==="mean"&&voc.length>=4){const v=voc[Math.floor(Math.random()*voc.length)],o=[v.m,...shuffle(uniqM(voc,x=>x.m!==v.m)).slice(0,3).map(x=>x.m)];
+      if(o.length===4)out.push({t:"listen",say:v.w,q:"¿Qué significa lo que escuchaste?",o,a:0})}
+    if(k==="line"&&longL.length>=4){const l=longL[Math.floor(Math.random()*longL.length)],o=[l[2],...shuffle(uniqM(longL,x=>x[2]!==l[2])).slice(0,3).map(x=>x[2])];
+      if(o.length===4)out.push({t:"listen",say:l[1],q:"Escucha. ¿Qué significa esta frase?",o,a:0})}
+  }
+  const said=shuffle([...longL.map(l=>l[1]),...voc.map(v=>v.e)].filter(t=>t.split(/\s+/).length>=3&&t.split(/\s+/).length<=16));
+  return[...out.map(x=>{const a=shuffle(x.o.map((o,i)=>[o,i]));return{...x,o:a.map(y=>y[0]),a:a.findIndex(y=>y[1]===0)}}),...[...new Set(said)].slice(0,nOral).map(text=>({t:"oral",text}))]}
 let Q=null;
 /* progreso genérico por clave: lecciones, quizzes de unidad, examen final */
 function getProg(key){const st=curStudent();return st&&st.prog&&st.prog[key]||null}
@@ -1524,7 +1541,7 @@ function lvHome(L){
     <div class="tiles">
       <button class="tile" style="background:#C9E6FF" id="tRead"><b>Lecturas</b><span>Escucha cada texto, toca las palabras para ver su significado y practica tu pronunciación.</span><small>${rs.length} lecturas · ${rd} leídas en voz alta</small></button>
       <button class="tile" style="background:#FFE7A3" id="tVoc"><b>Vocabulario</b><span>Palabras esenciales por categoría con significado, ejemplo y audio.</span><small>${learnedSet(L).size} de ${vocabOf(L).length} aprendidas</small></button>
-      <button class="tile" style="background:#FFD3CC" id="tQuiz"><b>Quiz</b><span>10 preguntas de escritura, escucha y habla. Se aprueba con 70 %.</span><small>${q?(q.passed?`Aprobado · ${q.best} %`:`Último intento: ${q.last} %`):"Sin presentar"}</small></button>
+      <button class="tile" style="background:#FFD3CC" id="tQuiz"><b>Quiz</b><span>10 preguntas de escritura, escucha y habla. Se aprueba con ${PASS} %.</span><small>${q?(q.passed?`Aprobado · ${q.best} %`:`Último intento: ${q.last} %`):"Sin presentar"}</small></button>
     </div>`;
     $("tQuiz").onclick=()=>openQuiz(L)}
   $("tRead").onclick=()=>readList(L);
@@ -1755,7 +1772,7 @@ function lessonView(L,u,k){
     ${les.dialogue?`<section class="lsec" id="ls-2">${sec("Conversación: "+esc(les.dialogue.title),12)}<div id="dlg"></div></section>`:""}
     ${les.reading!=null?`<section class="lsec" id="ls-${les.dialogue?3:2}">${sec("Lectura del día",8)}<button class="ritem" id="lRead"><div><b lang="en">${esc(READINGS[L][les.reading].title)}</b><span>${esc(READINGS[L][les.reading].es)} · escúchala, toca las palabras y léela en voz alta</span></div><span class="pill">${readBest(L,les.reading)!=null?`Pronunciación ${readBest(L,les.reading)} %`:"Abrir"}</span></button></section>`:""}
     <section class="lsec" id="ls-${["",les.dialogue,les.reading!=null].filter(Boolean).length+1}">${sec("Práctica calificada",Math.max(6,Math.round(prac.length*1.1)))}
-      <p>${prac.length} ejercicios de escritura, escucha y habla${prac.some(x=>x.t==="order")?", ordenar frases":""}${prac.some(x=>x.t==="dict")?" y dictado":""}. Con ${PASS} % la lección queda aprobada.</p>
+      <p>${prac.length+7} ejercicios, con mucha escucha y práctica oral (vas a tener que hablar), además de escritura${prac.some(x=>x.t==="order")?", ordenar frases":""}${prac.some(x=>x.t==="dict")?" y dictado":""}. Necesitas mínimo ${PASS} % para aprobar la lección.</p>
       <div class="examcta" style="margin-top:6px"><button class="btn sun" id="lPrac">${p?(p.passed?"Repetir práctica":"Intentar otra vez"):"Empezar práctica"}</button>${p?`<span class="pill">${p.passed?"✓ Aprobada":"Último"} · ${p.passed?p.best:p.last} %</span>`:""}</div>
     </section>
     <div class="ex-actions" style="border-top:1px solid var(--line);padding-top:18px">${prev?`<button class="linkbtn" id="lPrev">← Día ${prev.day}</button>`:"<span></span>"}${nxt?`<button class="linkbtn" id="lNext">${nxt.type==="lesson"?`Día ${nxt.day}: ${esc(nxt.title)}`:esc(nxt.title)} →</button>`:""}</div>`;
@@ -1767,7 +1784,7 @@ function lessonView(L,u,k){
   if($("lRead"))$("lRead").onclick=()=>reader(L,les.reading);
   if($("lPrev"))$("lPrev").onclick=()=>openStep(L,prev);
   if($("lNext"))$("lNext").onclick=()=>openStep(L,nxt);
-  $("lPrac").onclick=()=>runSet({L,title:`Día ${me.day} · ${les.title}`,items:prac,pass:PASS,
+  $("lPrac").onclick=()=>runSet({L,title:`Día ${me.day} · ${les.title}`,items:withAudio(prac,[les],4,3),pass:PASS,
     save:(pct,ok)=>saveProg(me.key,pct,ok),again:()=>lessonView(L,u,k),
     passMsg:"¡Lección aprobada! Sigue con la siguiente.",
     next:nxt?{label:nxt.type==="lesson"?`Ir al día ${nxt.day}`:`Ir al ${nxt.title.toLowerCase()}`,go:()=>openStep(L,nxt)}:null});
@@ -1909,7 +1926,7 @@ function unitQuiz(L,u){const sy=SYL(L),key=uqKey(L,u),nxt=nextStepAfter(L,key),u
   /* mismo formato en cada intento (escritura, redacción, escucha, habla) pero con preguntas distintas del banco de la unidad */
   const pool=[...un.quiz,...(un.pool||[])],seen=seenGet(key),by=t=>pool.filter(x=>t.includes(x.t)),want=t=>un.quiz.filter(x=>t.includes(x.t)).length;
   const items=[...pickFresh(by(["mc","fill"]),want(["mc","fill"]),seen),...pickFresh(by(["listen"]),want(["listen"]),seen),...pickFresh(by(["write"]),want(["write"]),seen),...pickFresh(by(["oral"]),want(["oral"]),seen)];
-  runSet({L,title:`Quiz unidad ${u+1} · ${LV[L].k}`,items,seenKey:key,pass:PASS,save:(p,ok)=>saveProg(key,p,ok),again:()=>unitQuiz(L,u),
+  runSet({L,title:`Quiz unidad ${u+1} · ${LV[L].k}`,items:withAudio(items,un.lessons,4,3),seenKey:key,pass:PASS,save:(p,ok)=>saveProg(key,p,ok),again:()=>unitQuiz(L,u),
     passMsg:`¡Aprobaste la unidad ${u+1}!`,next:nxt?{label:nxt.type==="lesson"?`Empezar día ${nxt.day}`:nxt.title,go:()=>openStep(L,nxt)}:null})}
 function finalExam(L){const sy=SYL(L),f=sy.final,key=finKey(L),shuf=a=>a.map(x=>[Math.random(),x]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
   /* una pregunta por cada lección (así el examen cubre todos los temas), una escucha por unidad, habla y redacción al final */
@@ -1921,10 +1938,11 @@ function finalExam(L){const sy=SYL(L),f=sy.final,key=finKey(L),shuf=a=>a.map(x=>
   const extraL=pickFresh([...f.extra.filter(x=>x.t==="listen"),...allU.filter(x=>x.t==="listen"&&!listens.some(l=>itemId(l)===itemId(x)))],2,seen).map(x=>({...x,_topic:"Escucha general"}));
   const orals=pickFresh([...f.extra,...allU].filter(x=>x.t==="oral"),nOral+1,seen).map(x=>({...x,_topic:"Habla"}));
   const write=pickFresh([...f.extra,...allU].filter(x=>x.t==="write"),1,seen).map(x=>({...x,min:Math.max(x.min||0,30),_topic:"Redacción"}));
-  const items=[...shuf([...perLesson,...listens,...extraL]),...orals,...write];
-  runSet({L,title:`Examen final ${LV[L].k}`,items,seenKey:key,pass:f.pass,topics:true,save:(p,ok)=>saveProg(key,p,ok),again:()=>finalExam(L),
+  const gen=sy.units.flatMap((u,ui)=>audioItems(u.lessons,2,1).map(x=>({...x,_topic:x.t==="oral"?"Habla":`Unidad ${ui+1} · escucha`,_unit:ui})));
+  const items=[...shuf([...perLesson,...listens,...extraL,...gen.filter(x=>x.t==="listen")]),...orals,...gen.filter(x=>x.t==="oral"),...write];
+  runSet({L,title:`Examen final ${LV[L].k}`,items,seenKey:key,pass:Math.max(f.pass||0,PASS),topics:true,save:(p,ok)=>saveProg(key,p,ok),again:()=>finalExam(L),
     passMsg:L<5?`¡Felicitaciones! Aprobaste ${LV[L].k}. Ya puedes pasar a ${LV[L+1].k}.`:"¡Felicitaciones! Completaste la ruta.",
-    failMsg:`Necesitas ${f.pass} % para aprobar ${LV[L].k}. Mira abajo los temas donde fallaste, repasa esas lecciones y vuelve a intentarlo.`,
+    failMsg:`Necesitas ${Math.max(f.pass||0,PASS)} % para aprobar ${LV[L].k}. Mira abajo los temas donde fallaste, repasa esas lecciones y vuelve a intentarlo.`,
     next:L<5?{label:`Ir al nivel ${LV[L+1].k}`,go:()=>openLevel(L+1)}:null})}
 function topicReport(){
   const sy=SYL(Q.L);if(!sy)return"";
