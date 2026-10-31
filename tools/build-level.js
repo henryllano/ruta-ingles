@@ -52,6 +52,8 @@ units.forEach((u, ui) => {
 let readings = null;
 if (fs.existsSync(path.join(dir, "readings.js"))) {
   readings = require(path.join(dir, "readings.js"));
+  /* las lecturas extra van después de las del curso */
+  if (fs.existsSync(path.join(dir, "extra-readings.js"))) readings = readings.concat(require(path.join(dir, "extra-readings.js")).map(r => ({ ...r, text: r.text.replace(/\s*\n\s*/g, " ").trim() })));
   units.forEach(u => u.lessons.forEach(l => { if (l.reading != null) need(l.reading < readings.length, `${l.id}: lectura ${l.reading} no existe`); }));
 }
 need(meta.final && meta.final.extra && meta.final.extra.some(x => x.t === "write"), "meta: el examen final necesita redacción");

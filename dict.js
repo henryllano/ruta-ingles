@@ -2689,4 +2689,258 @@ languages | language | sustantivo (plural) | idiomas, lenguajes | Five languages
 truth | - | sustantivo | verdad | Its own idea of truth.
 profession | - | sustantivo | profesión | The secret of her profession.
 worlds | world | sustantivo (plural) | mundos | Knowing worlds.
+paula | - | nombre propio | Paula (nombre de mujer) | Paula is my best friend.
+camila | - | nombre propio | Camila (nombre de mujer) | Camila is a dentist.
+pereira | - | nombre propio | Pereira (ciudad de Colombia) | She is from Pereira.
+drinks | drink | verbo (3.ª persona) | bebe, toma | She drinks black coffee.
+jobs | job | sustantivo (plural) | trabajos, empleos | We talk about our jobs.
+plans | plan | sustantivo (plural) | planes | What are your plans?
+comedies | comedy | sustantivo (plural) | comedias | I like comedies.
+plays | play | verbo (3.ª persona) | toca, juega | She plays the guitar.
+mrs | - | tratamiento | señora (Sra.) | Mrs. Rojas is at the supermarket.
+rojas | - | nombre propio | Rojas (apellido) | Mr. and Mrs. Rojas.
+shopping | - | sustantivo | compras | I go shopping on Saturdays.
+list | - | sustantivo | lista | A shopping list.
+bananas | banana | sustantivo (plural) | bananos | Six bananas, please.
+oranges | orange | sustantivo (plural) | naranjas | Two kilos of oranges.
+son's | son | sustantivo (posesivo) | del hijo | It's their son's birthday.
+laughs | laugh | verbo (3.ª persona) | se ríe | She laughs a lot.
+ok | - | interjección | está bien, de acuerdo | OK, just one.
+checkout | - | sustantivo | caja (para pagar) | Pay at the checkout.
+eighty-five | - | número | ochenta y cinco | Eighty-five thousand pesos.
+pesos | peso | sustantivo (plural) | pesos (moneda) | It costs ten thousand pesos.
+pays | pay | verbo (3.ª persona) | paga | He pays with his card.
+bathrooms | bathroom | sustantivo (plural) | baños | Two bathrooms.
+armchairs | armchair | sustantivo (plural) | sillones | Two armchairs and a sofa.
+plants | plant | sustantivo (plural) | plantas | My father loves plants.
+lights | light | sustantivo (plural) | luces | The city lights.
+julián | - | nombre propio | Julián (nombre de hombre) | Julián is from Colombia.
+equator | - | sustantivo | línea del ecuador | Colombia is near the equator.
+seasons | season | sustantivo (plural) | estaciones del año | Four seasons.
+rains | rain | verbo (3.ª persona) | llueve | It rains a lot in April.
+thirty-two | - | número | treinta y dos | Thirty-two degrees.
+shorts | - | sustantivo | pantalón corto | I wear shorts at the beach.
+heat | - | sustantivo | calor | I don't like the heat.
+martínez | - | nombre propio | Martínez (apellido) | The Martínez family.
+drinking | drink | verbo (-ing) | bebiendo, tomando | He is drinking lemonade.
+lemonade | - | sustantivo | limonada | A cold lemonade.
+simón | - | nombre propio | Simón (nombre de hombre) | Simón is eight.
+sandcastle | - | sustantivo | castillo de arena | They are building a sandcastle.
+bucket | - | sustantivo | balde | A red bucket.
+toby | - | nombre propio | Toby (nombre de perro) | Toby is running.
+photos | photo | sustantivo (plural) | fotos | Take photos.
+sunset | - | sustantivo | atardecer, puesta de sol | A beautiful sunset.
+hernán | - | nombre propio | Hernán (nombre de hombre) | Hernán is a bus driver.
+fifty | - | número | cincuenta | He is fifty years old.
+quick | - | adjetivo | rápido | A quick shower.
+south | - | sustantivo | sur | The south of the city.
+workers | worker | sustantivo (plural) | trabajadores | Students and workers.
+luna | - | nombre propio | Luna (nombre de gata) | Luna is my cat.
+sleeps | sleep | verbo (3.ª persona) | duerme | She sleeps a lot.
+wakes | wake | verbo (3.ª persona) | despierta | She wakes me up at six.
+eats | eat | verbo (3.ª persona) | come | She eats cat food.
+ball | - | sustantivo | pelota, balón | A small ball.
+jumps | jump | verbo (3.ª persona) | salta | She jumps on the chairs.
+chairs | chair | sustantivo (plural) | sillas | Four chairs.
+meow | - | interjección | miau | The cat says "Meow!"
+sits | sit | verbo (3.ª persona) | se sienta | She sits on my legs.
+legs | leg | sustantivo (plural) | piernas | Long legs.
+visits | visit | verbo (3.ª persona) | visita | My family visits my grandparents.
+grandparents' | grandparents | sustantivo (posesivo) | de los abuelos | My grandparents' house.
+seventy-five | - | número | setenta y cinco | He is seventy-five.
+seventy-two | - | número | setenta y dos | She is seventy-two.
+adults | adult | sustantivo (plural) | adultos | The adults drink coffee.
+doctor's | doctor | sustantivo (posesivo) | del médico, consultorio | At the doctor's office.
+waits | wait | verbo (3.ª persona) | espera | She waits for twenty minutes.
+hurts | hurt | verbo (3.ª persona) | duele | My throat hurts.
+yes | - | adverbio | sí | Yes, I think so.
+meals | meal | sustantivo (plural) | comidas | After meals.
+honey | - | sustantivo | miel | Tea with honey.
+buys | buy | verbo (3.ª persona) | compra | She buys the medicine.
+diego | - | nombre propio | Diego (nombre de hombre) | Diego loves food.
+bandeja | - | nombre propio | bandeja (de bandeja paisa) | Bandeja paisa is typical.
+paisa | - | adjetivo | paisa (de Antioquia) | Bandeja paisa.
+dish | - | sustantivo | plato (comida) | A typical dish.
+antioquia | - | nombre propio | Antioquia (departamento de Colombia) | Medellín is in Antioquia.
+chorizo | - | sustantivo | chorizo | Rice with chorizo.
+fried | fry | adjetivo | frito | A fried egg.
+arepa | - | sustantivo | arepa | An arepa with cheese.
+carrots | carrot | sustantivo (plural) | zanahorias | I like carrots.
+wife's | wife | sustantivo (posesivo) | de la esposa | My wife's favourite food.
+fridays | friday | sustantivo (plural) | los viernes | On Fridays we go out.
+ham | - | sustantivo | jamón | A ham sandwich.
+sara's | sara | nombre propio (posesivo) | de Sara | Sara's mother.
+candles | candle | sustantivo (plural) | velas | Ten candles.
+putting | put | verbo (-ing) | poniendo | He is putting balloons on the walls.
+balloons | balloon | sustantivo (plural) | globos | Pink balloons.
+mateo | - | nombre propio | Mateo (nombre de hombre) | Mateo is helping.
+presents | present | sustantivo (plural) | regalos | Presents for Sara.
+doll | - | sustantivo | muñeca | A doll for the girl.
+sweets | sweet | sustantivo (plural) | dulces | Sandwiches and sweets.
+sings | sing | verbo (3.ª persona) | canta | Everybody sings.
+closes | close | verbo (3.ª persona) | cierra | Sara closes her eyes.
+blows | blow | verbo (3.ª persona) | sopla | She blows out the candles.
+gloria | - | nombre propio | Gloria (nombre de mujer) | Gloria is a lawyer.
+finishes | finish | verbo (3.ª persona) | termina | The class finishes at eight.
+mark | - | nombre propio | Mark (nombre de hombre) | Mark is my teacher.
+teaches | teach | verbo (3.ª persona) | enseña | He teaches English.
+mexico | - | nombre propio | México | She is from Mexico.
+brazil | - | nombre propio | Brasil | He is from Brazil.
+japan | - | nombre propio | Japón | Tokyo is in Japan.
+italy | - | nombre propio | Italia | Rome is in Italy.
+songs | song | sustantivo (plural) | canciones | English songs.
+seventeen | - | número | diecisiete | I was seventeen.
+fast-food | - | adjetivo | de comida rápida | A fast-food restaurant.
+saturdays | saturday | sustantivo (plural) | los sábados | I worked on Saturdays.
+patricia | - | nombre propio | Patricia (nombre de mujer) | Patricia was the manager.
+showed | show | verbo (pasado) | mostró | She showed me the kitchen.
+tables | table | sustantivo (plural) | mesas | Clean the tables.
+happens | happen | verbo (3.ª persona) | pasa, ocurre | It happens to everybody.
+saved | save | verbo (pasado) | ahorró | I saved enough money.
+bicycle | - | sustantivo | bicicleta | My first bicycle.
+flew | fly | verbo (pasado) | voló, volamos | We flew to Pereira.
+salento | - | nombre propio | Salento (pueblo del Quindío) | Salento is a colourful town.
+roast | - | verbo | tostar, asar | They roast the coffee beans.
+tasted | taste | verbo (pasado) | probó, probamos | We tasted the coffee.
+cocora | - | nombre propio | Cocora (valle del Quindío) | The Cocora Valley.
+wax | - | sustantivo | cera | Wax palms.
+palms | palm | sustantivo (plural) | palmas | The wax palms are tall.
+tallest | tall | adjetivo (superlativo) | el más alto | The tallest palm trees.
+palm | - | sustantivo | palma, palmera | A palm tree.
+bridges | bridge | sustantivo (plural) | puentes | Old bridges.
+handmade | - | adjetivo | hecho a mano | A handmade bag.
+tejo | - | sustantivo | tejo (juego tradicional colombiano) | We played tejo.
+la | - | palabra en español | la (en el nombre La Cocina de Rosa) | La Cocina de Rosa.
+cocina | - | palabra en español | cocina | La Cocina de Rosa.
+de | - | palabra en español | de | La Cocina de Rosa.
+quieter | quiet | adjetivo (comparativo) | más tranquilo | It's quieter than other places.
+decoration | - | sustantivo | decoración | The decoration is simple.
+waiters | waiter | sustantivo (plural) | meseros | The waiters were friendly.
+starters | starter | sustantivo (plural) | entradas | For starters, soup.
+guacamole | - | sustantivo | guacamole | Plantain with guacamole.
+empanada | - | sustantivo | empanada | A cheese empanada.
+passion | - | sustantivo | pasión (passion fruit: maracuyá) | Passion fruit cheesecake.
+cheesecake | - | sustantivo | torta de queso, cheesecake | A passion fruit cheesecake.
+mint | - | sustantivo | menta, hierbabuena | Lemonade with mint.
+higher | high | adjetivo (comparativo) | más alto | The prices are higher.
+eighty | - | número | ochenta | Eighty thousand pesos.
+portions | portion | sustantivo (plural) | porciones | Generous portions.
+barranquilla | - | nombre propio | Barranquilla (ciudad de Colombia) | We moved from Barranquilla.
+jackets | jacket | sustantivo (plural) | chaquetas | We bought jackets.
+sweaters | sweater | sustantivo (plural) | suéteres | Jackets and sweaters.
+scarves | scarf | sustantivo (plural) | bufandas | Scarves and gloves.
+busier | busy | adjetivo (comparativo) | más concurrido, más ocupado | Bogotá is busier.
+transmilenio | - | nombre propio | TransMilenio (bus de Bogotá) | I take the TransMilenio.
+parks | park | sustantivo (plural) | parques | Lots of parks.
+theatres | theatre | sustantivo (plural) | teatros | Museums and theatres.
+monserrate | - | nombre propio | Monserrate (cerro de Bogotá) | We visited Monserrate.
+gold | - | sustantivo | oro | The Gold Museum.
+botanical | - | adjetivo | botánico | The botanical garden.
+bikes | bike | sustantivo (plural) | bicicletas | We ride our bikes.
+planned | plan | verbo (pasado) | planeó, planeamos | We planned a holiday.
+san | - | nombre propio | San (en San Andrés) | San Andrés is an island.
+swimsuits | swimsuit | sustantivo (plural) | vestidos de baño | New swimsuits.
+counted | count | verbo (pasado) | contó, contamos | We counted the days.
+sat | sit | verbo (pasado) | se sentó, nos sentamos | We sat in the airport.
+airline | - | sustantivo | aerolínea | The airline lost his suitcase.
+tomás's | tomás | nombre propio (posesivo) | de Tomás | Tomás's suitcase.
+wore | wear | verbo (pasado) | llevó puesto | He wore the same shirt.
+poisoning | - | sustantivo | intoxicación | Food poisoning.
+sunburnt | - | adjetivo | quemado por el sol | We were sunburnt.
+parties | party | sustantivo (plural) | fiestas | At parties.
+jorge | - | nombre propio | Jorge (nombre de hombre) | My father, Jorge.
+beatriz | - | nombre propio | Beatriz (nombre de mujer) | My mother, Beatriz.
+cuban | - | adjetivo | cubano | Cuban songs.
+himself | - | pronombre | él mismo, se | He was angry with himself.
+hoping | hope | verbo (-ing) | esperando (con deseo) | Hoping to see her again.
+march | - | sustantivo | marzo | On 3 March.
+pair | - | sustantivo | par | A pair of shoes.
+sports | sport | sustantivo (plural) | deportes; deportivo | A sports jacket.
+medium | - | adjetivo | mediano, talla M | Size medium.
+chat | - | sustantivo | chat, conversación | The website chat.
+haven't | have | verbo (negativo) | no he, no han | I haven't received a reply.
+paying | pay | verbo (-ing) | pagando | Without paying.
+shipping | - | sustantivo | envío | Free shipping.
+faithfully | - | adverbio | fielmente (Yours faithfully: atentamente) | Yours faithfully.
+mariana | - | nombre propio | Mariana (nombre de mujer) | Mariana López.
+lópez | - | nombre propio | López (apellido) | Mariana López.
+pool | - | sustantivo | piscina | The swimming pool.
+shallow | - | adjetivo | poco profundo | Shallow water.
+swam | swim | verbo (pasado) | nadó, nadé | I swam in the sea.
+fortieth | - | número ordinal | cuadragésimo (cumpleaños 40) | My fortieth birthday.
+lessons | lesson | sustantivo (plural) | clases, lecciones | Swimming lessons.
+óscar | - | nombre propio | Óscar (nombre de hombre) | My teacher, Óscar.
+arms | arm | sustantivo (plural) | brazos | Move your arms.
+swallowed | swallow | verbo (pasado) | tragó, tragué | I swallowed water.
+stopping | stop | verbo (-ing) | parar, detenerse | Without stopping.
+clapped | clap | verbo (pasado) | aplaudió, aplaudieron | Everybody clapped.
+healthier | healthy | adjetivo (comparativo) | más saludable | I feel healthier.
+stronger | strong | adjetivo (comparativo) | más fuerte | Stronger and healthier.
+kids | kid | sustantivo (plural) | niños, chicos | My kids.
+carnival | - | sustantivo | carnaval | The Carnival of Barranquilla.
+carnivals | carnival | sustantivo (plural) | carnavales | One of the biggest carnivals.
+february | - | sustantivo | febrero | In February.
+named | name | verbo (pasado) | nombró, llamó | UNESCO named it a masterpiece.
+masterpiece | - | sustantivo | obra maestra | A masterpiece.
+intangible | - | adjetivo | inmaterial | Intangible heritage.
+humanity | - | sustantivo | humanidad | Heritage of Humanity.
+celebrates | celebrate | verbo (3.ª persona) | celebra | The whole city celebrates.
+parades | parade | sustantivo (plural) | desfiles | Parades and concerts.
+concerts | concert | sustantivo (plural) | conciertos | Free concerts.
+dances | dance | sustantivo (plural) | bailes, danzas | Traditional dances.
+battle | - | sustantivo | batalla | The Battle of Flowers.
+floats | float | sustantivo (plural) | carrozas | Beautiful floats.
+queen | - | sustantivo | reina | The Carnival Queen.
+dancers | dancer | sustantivo (plural) | bailarines | Hundreds of dancers.
+costumes | costume | sustantivo (plural) | disfraces, trajes | Colourful costumes.
+foam | - | sustantivo | espuma | People throw foam.
+cornflour | - | sustantivo | maicena | Foam and cornflour.
+gets | get | verbo (3.ª persona) | se pone, obtiene | Everybody gets dirty.
+cares | care | verbo (3.ª persona) | le importa | Nobody cares!
+characters | character | sustantivo (plural) | personajes | Traditional characters.
+marimonda | - | sustantivo | marimonda (personaje del carnaval) | The marimonda wears a mask.
+wears | wear | verbo (3.ª persona) | lleva puesto | She wears a mask.
+ears | ear | sustantivo (plural) | orejas | Big ears.
+garabato | - | sustantivo | garabato (danza del carnaval) | The garabato dancers.
+represent | - | verbo | representar | They represent life and death.
+fight | - | sustantivo | lucha, pelea | The fight between life and death.
+burial | - | sustantivo | entierro | The burial of Joselito.
+joselito | - | nombre propio | Joselito (personaje del carnaval) | Joselito "dies".
+character | - | sustantivo | personaje; carácter | A funny character.
+dies | die | verbo (3.ª persona) | muere | He dies at the end.
+partying | party | verbo (-ing) | festejar, rumbear | Days of partying.
+quien | - | palabra en español | quien | Quien lo vive es quien lo goza.
+lo | - | palabra en español | lo | Quien lo vive...
+vive | - | palabra en español | vive | Quien lo vive...
+es | - | palabra en español | es | ...es quien lo goza.
+goza | - | palabra en español | goza, disfruta | ...quien lo goza.
+sam | - | nombre propio | Sam (nombre) | Dear Sam.
+january | - | sustantivo | enero | In January.
+tours | tour | sustantivo (plural) | tours, recorridos | I organise tours.
+carla | - | nombre propio | Carla (nombre de mujer) | Carla and I.
+herbs | herb | sustantivo (plural) | hierbas aromáticas | Tomatoes and herbs.
+martín | - | nombre propio | Martín (nombre de hombre) | Our son Martín.
+primary | - | adjetivo | primario | Primary school.
+he's | be | contracción | él es, él está | He's very proud.
+reads | read | verbo (3.ª persona) | lee | He reads everything.
+cereal | - | sustantivo | cereal | Cereal boxes.
+master's | master | sustantivo (posesivo) | maestría (master's degree) | A master's degree.
+media | - | sustantivo | medios | Social media.
+checked | check | verbo (pasado) | revisó | She checked her notes.
+notes | note | sustantivo (plural) | notas, apuntes | Her notes.
+jumped | jump | verbo (pasado) | saltó | She jumped out of the taxi.
+ran | run | verbo (pasado) | corrió | She ran into the building.
+fell | fall | verbo (pasado) | cayó | It fell out of my bag.
+filling | fill | verbo (-ing) | llenando | Filling in the form.
+rang | ring | verbo (pasado) | sonó | Her phone rang.
+rodrigo | - | nombre propio | Rodrigo (nombre de hombre) | Rodrigo is a taxi driver.
+seat | - | sustantivo | asiento, puesto | The back seat.
+christmas | - | sustantivo | Navidad | Every Christmas.
+post | - | sustantivo | correo (post office: oficina de correos) | The post office.
+australia | - | nombre propio | Australia | My friend in Australia.
+channels | channel | sustantivo (plural) | canales | Two channels.
+programmes | programme | sustantivo (plural) | programas | TV programmes.
+phones | phone | sustantivo (plural) | teléfonos | On our phones.
+remembers | remember | verbo (3.ª persona) | recuerda | She remembers.
+talks | talk | verbo (3.ª persona) | habla | She talks to her sister.
 `;

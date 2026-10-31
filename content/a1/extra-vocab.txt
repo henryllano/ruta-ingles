@@ -1,0 +1,502 @@
+## Sustantivos
+grandfather | abuelo | My grandfather is seventy-five. | Familia
+grandmother | abuela | My grandmother cooks very well. | Familia
+grandparents | abuelos | We visit our grandparents on Sundays. | Familia
+cousin | primo, prima | My cousin lives in Cali. | Familia
+uncle | tío | My uncle is a taxi driver. | Familia
+aunt | tía | My aunt has three children. | Familia
+nephew | sobrino | My nephew is five years old. | Familia
+niece | sobrina | Her niece is a student. | Familia
+wife | esposa | His wife is a doctor. | Familia
+husband | esposo | Her husband is from Peru. | Familia
+baby | bebé | The baby is sleeping. | Familia
+parents | padres (papá y mamá) | My parents live in Medellín. | Familia
+grandson | nieto | Her grandson plays football. | Familia
+granddaughter | nieta | His granddaughter is very funny. | Familia
+apartment | apartamento | We live in a small apartment. | Casa
+building | edificio | The building has ten floors. | Casa
+floor | piso (nivel o suelo) | I live on the fifth floor. | Casa
+bedroom | habitación, dormitorio | My bedroom is small. | Casa
+bathroom | baño | The bathroom is next to the kitchen. | Casa
+living room | sala | We watch TV in the living room. | Casa
+dining room | comedor | We eat in the dining room. | Casa
+garden | jardín | There are flowers in the garden. | Casa
+balcony | balcón | We sit on the balcony in the evening. | Casa
+wall | pared | The walls are white. | Casa
+roof | techo (exterior) | The roof is red. | Casa
+stairs | escaleras | Take the stairs to the second floor. | Casa
+lift | ascensor | The lift is not working. | Casa
+key | llave | Where is my key? | Casa
+sofa | sofá | The cat is on the sofa. | Muebles
+armchair | sillón | My father sits in his armchair. | Muebles
+wardrobe | armario, clóset | My clothes are in the wardrobe. | Muebles
+shelf | estante, repisa | The books are on the shelf. | Muebles
+lamp | lámpara | Turn on the lamp, please. | Muebles
+mirror | espejo | There is a mirror in the bathroom. | Muebles
+carpet | alfombra | The carpet is blue. | Muebles
+curtain | cortina | Close the curtains, please. | Muebles
+fridge | nevera | The milk is in the fridge. | Cocina
+cooker | estufa | The cooker is new. | Cocina
+microwave | microondas | Heat the soup in the microwave. | Cocina
+cup | taza | A cup of coffee, please. | Cocina
+glass | vaso | Can I have a glass of water? | Cocina
+plate | plato | Put the plates on the table. | Cocina
+fork | tenedor | I need a fork. | Cocina
+knife | cuchillo | Be careful with the knife. | Cocina
+spoon | cuchara | Soup with a spoon. | Cocina
+bowl | tazón, bol | A bowl of rice. | Cocina
+bread | pan | I eat bread for breakfast. | Comida
+cheese | queso | I like cheese. | Comida
+egg | huevo | I have two eggs for breakfast. | Comida
+rice | arroz | We eat rice every day. | Comida
+beans | frijoles | Rice and beans, please. | Comida
+chicken | pollo | Chicken and salad for lunch. | Comida
+meat | carne | I don't eat meat. | Comida
+fish | pescado, pez | Fish is healthy. | Comida
+soup | sopa | The soup is hot. | Comida
+salad | ensalada | A green salad, please. | Comida
+potato | papa | Potatoes are cheap here. | Comida
+tomato | tomate | Tomatoes are red. | Comida
+onion | cebolla | I hate onions. | Comida
+carrot | zanahoria | Rabbits eat carrots. | Comida
+apple | manzana | An apple a day. | Comida
+banana | banano | Bananas are yellow. | Comida
+orange | naranja | Orange juice is my favourite. | Comida
+pineapple | piña | This pineapple is sweet. | Comida
+strawberry | fresa | I love strawberries. | Comida
+lemon | limón | Tea with lemon. | Comida
+avocado | aguacate | Avocado with rice is delicious. | Comida
+sugar | azúcar | No sugar, thanks. | Comida
+salt | sal | Pass me the salt, please. | Comida
+butter | mantequilla | Bread and butter. | Comida
+cake | torta, pastel | A chocolate cake. | Comida
+ice cream | helado | Vanilla ice cream, please. | Comida
+sandwich | sándwich | A ham sandwich. | Comida
+breakfast | desayuno | Breakfast is at seven. | Comida
+lunch | almuerzo | Lunch is ready! | Comida
+dinner | cena | Dinner is at eight. | Comida
+dessert | postre | What's for dessert? | Comida
+juice | jugo | A glass of juice. | Bebidas
+tea | té | Do you want tea? | Bebidas
+hot chocolate | chocolate caliente | Hot chocolate and cheese. | Bebidas
+beer | cerveza | A cold beer, please. | Bebidas
+wine | vino | Red wine or white wine? | Bebidas
+shirt | camisa | He has a white shirt. | Ropa
+T-shirt | camiseta | I'm wearing a red T-shirt. | Ropa
+trousers | pantalón | These trousers are too long. | Ropa
+jeans | jeans, vaqueros | I wear jeans every day. | Ropa
+dress | vestido | She has a beautiful dress. | Ropa
+skirt | falda | A black skirt. | Ropa
+shoes | zapatos | New shoes! | Ropa
+trainers | tenis (zapatos deportivos) | I wear trainers to the gym. | Ropa
+sandals | sandalias | Sandals for the beach. | Ropa
+socks | medias, calcetines | Where are my socks? | Ropa
+jacket | chaqueta | Take a jacket, it's cold. | Ropa
+coat | abrigo | A warm coat. | Ropa
+sweater | suéter, saco | A blue sweater. | Ropa
+hat | sombrero, gorro | A hat for the sun. | Ropa
+cap | gorra | He always wears a cap. | Ropa
+bag | bolso, bolsa | My bag is heavy. | Ropa
+glasses | gafas | I need my glasses to read. | Ropa
+watch | reloj de pulsera | What a nice watch! | Ropa
+head | cabeza | My head hurts. | Cuerpo
+hair | cabello, pelo | She has long hair. | Cuerpo
+face | cara | Wash your face. | Cuerpo
+eye | ojo | He has blue eyes. | Cuerpo
+ear | oreja, oído | My ear hurts. | Cuerpo
+nose | nariz | A small nose. | Cuerpo
+mouth | boca | Open your mouth, please. | Cuerpo
+tooth | diente | Brush your teeth. | Cuerpo
+teeth | dientes | She has white teeth. | Cuerpo
+neck | cuello | A long neck. | Cuerpo
+arm | brazo | My arm hurts. | Cuerpo
+hand | mano | Raise your hand. | Cuerpo
+finger | dedo (de la mano) | Five fingers. | Cuerpo
+leg | pierna | I have long legs. | Cuerpo
+foot | pie | My foot hurts. | Cuerpo
+feet | pies | My feet are cold. | Cuerpo
+back | espalda | My back hurts. | Cuerpo
+stomach | estómago | I have a stomach ache. | Cuerpo
+headache | dolor de cabeza | I have a headache. | Salud
+sore throat | dolor de garganta | She has a sore throat. | Salud
+cold | resfriado | I have a cold. | Salud
+temperature | temperatura, fiebre | Do you have a temperature? | Salud
+medicine | medicina, remedio | Take this medicine. | Salud
+pharmacy | farmacia | The pharmacy is open. | Salud
+appointment | cita | I have an appointment at ten. | Salud
+nurse | enfermero, enfermera | The nurse is very kind. | Trabajos
+dentist | dentista | I go to the dentist twice a year. | Trabajos
+lawyer | abogado | My sister is a lawyer. | Trabajos
+engineer | ingeniero | He is an engineer. | Trabajos
+cook | cocinero | The cook is from Italy. | Trabajos
+waiter | mesero | The waiter is very fast. | Trabajos
+driver | conductor | He is a bus driver. | Trabajos
+farmer | granjero, campesino | The farmer has cows. | Trabajos
+police officer | policía | The police officer is helping a woman. | Trabajos
+shop assistant | vendedor de tienda | The shop assistant is friendly. | Trabajos
+cashier | cajero | Pay at the cashier. | Trabajos
+secretary | secretaria | The secretary answers the phone. | Trabajos
+mechanic | mecánico | The mechanic is fixing my car. | Trabajos
+hairdresser | peluquero | My hairdresser is very good. | Trabajos
+housewife | ama de casa | My mother is a housewife. | Trabajos
+retired | jubilado, pensionado | My father is retired. | Trabajos
+office | oficina | I work in an office. | Trabajo
+company | empresa | It's a big company. | Trabajo
+boss | jefe | My boss is nice. | Trabajo
+meeting | reunión | I have a meeting at nine. | Trabajo
+computer | computador | My computer is slow. | Tecnología
+laptop | portátil | I have a new laptop. | Tecnología
+mobile phone | celular | My mobile phone is in my bag. | Tecnología
+screen | pantalla | The screen is very big. | Tecnología
+email | correo electrónico | I send a lot of emails. | Tecnología
+password | contraseña | What's the password? | Tecnología
+headphones | audífonos | I listen to music with headphones. | Tecnología
+internet | internet | The internet is slow today. | Tecnología
+camera | cámara | A digital camera. | Tecnología
+bank | banco | The bank opens at eight. | Ciudad
+hospital | hospital | She works in a hospital. | Ciudad
+supermarket | supermercado | I buy food at the supermarket. | Ciudad
+bakery | panadería | The bakery is on the corner. | Ciudad
+cinema | cine | Let's go to the cinema. | Ciudad
+museum | museo | The museum is closed on Mondays. | Ciudad
+church | iglesia | An old church. | Ciudad
+park | parque | Children play in the park. | Ciudad
+square | plaza | The main square. | Ciudad
+street | calle | What street do you live on? | Ciudad
+corner | esquina | The bank is on the corner. | Ciudad
+bus stop | parada de bus | The bus stop is near my house. | Ciudad
+station | estación | The train station is big. | Ciudad
+airport | aeropuerto | The airport is far. | Ciudad
+hotel | hotel | A cheap hotel. | Ciudad
+restaurant | restaurante | A nice restaurant. | Ciudad
+library | biblioteca | I study at the library. | Ciudad
+post office | oficina de correo | Where is the post office? | Ciudad
+mall | centro comercial | Let's go to the mall. | Ciudad
+town | pueblo | A small town. | Ciudad
+city | ciudad | Bogotá is a big city. | Ciudad
+country | país | What country are you from? | Ciudad
+car | carro | A red car. | Transporte
+bus | bus | I take the bus to work. | Transporte
+taxi | taxi | Let's take a taxi. | Transporte
+bike | bicicleta | I ride my bike on Sundays. | Transporte
+motorbike | moto | He has a motorbike. | Transporte
+train | tren | The train is fast. | Transporte
+plane | avión | The plane leaves at six. | Transporte
+boat | barco, bote | A small boat. | Transporte
+ticket | tiquete, boleto | One ticket, please. | Transporte
+dog | perro | I have a dog. | Animales
+cat | gato | The cat is sleeping. | Animales
+bird | pájaro | A bird in the tree. | Animales
+horse | caballo | A white horse. | Animales
+cow | vaca | Cows give milk. | Animales
+chicken (animal) | gallina | Two chickens in the garden. | Animales
+pig | cerdo | A fat pig. | Animales
+rabbit | conejo | A small rabbit. | Animales
+mouse | ratón | A little mouse. | Animales
+monkey | mono | Monkeys like bananas. | Animales
+elephant | elefante | Elephants are big. | Animales
+lion | león | The lion is sleeping. | Animales
+snake | serpiente | I'm afraid of snakes. | Animales
+pet | mascota | Do you have a pet? | Animales
+sun | sol | The sun is hot. | Clima
+rain | lluvia | I like the rain. | Clima
+cloud | nube | There are no clouds. | Clima
+wind | viento | The wind is strong. | Clima
+snow | nieve | There is no snow in Colombia. | Clima
+umbrella | sombrilla, paraguas | Take an umbrella. | Clima
+season | estación del año | Summer is my favourite season. | Clima
+summer | verano | Summer is hot. | Clima
+winter | invierno | Winter is cold. | Clima
+spring | primavera | Flowers in spring. | Clima
+autumn | otoño | Leaves fall in autumn. | Clima
+beach | playa | We are at the beach. | Naturaleza
+sea | mar | The sea is blue. | Naturaleza
+river | río | A long river. | Naturaleza
+mountain | montaña | The mountains are beautiful. | Naturaleza
+lake | lago | A quiet lake. | Naturaleza
+tree | árbol | A big tree. | Naturaleza
+flower | flor | Red flowers. | Naturaleza
+sand | arena | The children play in the sand. | Naturaleza
+sky | cielo | The sky is blue. | Naturaleza
+football | fútbol | I play football. | Deportes y ocio
+basketball | baloncesto | He plays basketball. | Deportes y ocio
+tennis | tenis | Tennis on Saturdays. | Deportes y ocio
+swimming | natación | Swimming is good exercise. | Deportes y ocio
+gym | gimnasio | I go to the gym. | Deportes y ocio
+game | juego, partido | A football game. | Deportes y ocio
+music | música | I love music. | Deportes y ocio
+song | canción | My favourite song. | Deportes y ocio
+guitar | guitarra | She plays the guitar. | Deportes y ocio
+piano | piano | He plays the piano. | Deportes y ocio
+film | película | A good film. | Deportes y ocio
+book | libro | I'm reading a book. | Deportes y ocio
+newspaper | periódico | He reads the newspaper. | Deportes y ocio
+photo | foto | Take a photo! | Deportes y ocio
+holiday | vacaciones, día festivo | I'm on holiday. | Deportes y ocio
+party | fiesta | A birthday party. | Deportes y ocio
+present | regalo | A present for you. | Deportes y ocio
+balloon | globo | Pink balloons. | Deportes y ocio
+candle | vela | Ten candles on the cake. | Deportes y ocio
+money | dinero | I don't have money. | Compras
+price | precio | What's the price? | Compras
+card | tarjeta | Can I pay by card? | Compras
+cash | efectivo | Cash or card? | Compras
+shopping list | lista de compras | Where is the shopping list? | Compras
+trolley | carrito de compras | Push the trolley. | Compras
+size | talla | What size are you? | Compras
+classroom | salón de clase | The classroom is big. | Estudio
+notebook | cuaderno | Write it in your notebook. | Estudio
+pen | lapicero | Can I borrow your pen? | Estudio
+pencil | lápiz | A pencil and a rubber. | Estudio
+homework | tarea | Do your homework. | Estudio
+lesson | lección, clase | The lesson starts at seven. | Estudio
+question | pregunta | Any questions? | Estudio
+answer | respuesta | The answer is correct. | Estudio
+word | palabra | A new word. | Estudio
+university | universidad | She studies at the university. | Estudio
+morning | mañana (parte del día) | Good morning! | Tiempo
+afternoon | tarde | In the afternoon. | Tiempo
+evening | noche (temprano) | In the evening I watch TV. | Tiempo
+night | noche | Good night! | Tiempo
+week | semana | Once a week. | Tiempo
+weekend | fin de semana | Have a nice weekend! | Tiempo
+month | mes | Next month. | Tiempo
+year | año | Happy New Year! | Tiempo
+hour | hora | One hour. | Tiempo
+minute | minuto | Wait a minute. | Tiempo
+birthday | cumpleaños | When is your birthday? | Tiempo
+
+## Verbos
+wake up | despertarse | I wake up at six. | Rutina
+get up | levantarse | I get up at six thirty. | Rutina
+have a shower | ducharse | I have a shower every morning. | Rutina
+brush | cepillar | Brush your teeth. | Rutina
+get dressed | vestirse | I get dressed quickly. | Rutina
+have breakfast | desayunar | We have breakfast at seven. | Rutina
+go to bed | acostarse | I go to bed at ten. | Rutina
+sleep | dormir | I sleep eight hours. | Rutina
+cook | cocinar | My mother cooks very well. | Casa
+clean | limpiar | I clean my room on Saturdays. | Casa
+wash | lavar | Wash your hands. | Casa
+open | abrir | Open the door, please. | Acciones
+close | cerrar | Close the window. | Acciones
+sit | sentarse | Sit down, please. | Acciones
+stand | estar de pie | Stand up, please. | Acciones
+walk | caminar | I walk to work. | Acciones
+run | correr | She runs in the park. | Acciones
+jump | saltar | The cat jumps on the chair. | Acciones
+swim | nadar | I can swim. | Acciones
+dance | bailar | Let's dance! | Acciones
+sing | cantar | She sings very well. | Acciones
+play | jugar, tocar | I play the guitar. | Acciones
+watch | mirar, ver | I watch TV at night. | Acciones
+listen | escuchar | Listen to the teacher. | Acciones
+read | leer | I read every day. | Acciones
+write | escribir | Write your name. | Acciones
+speak | hablar | Do you speak English? | Acciones
+talk | conversar | We talk a lot. | Acciones
+ask | preguntar | Can I ask a question? | Acciones
+answer (verb) | responder | Answer the question. | Acciones
+buy | comprar | I buy bread every day. | Compras
+pay | pagar | I pay by card. | Compras
+sell | vender | They sell fruit. | Compras
+cost | costar | How much does it cost? | Compras
+wear | llevar puesto | I wear a uniform. | Ropa
+eat | comer | I eat a lot of fruit. | Comida
+drink | beber | Drink water. | Comida
+want | querer | I want a coffee. | Básicos
+need | necesitar | I need help. | Básicos
+like | gustar | I like music. | Básicos
+love | amar, encantar | I love this song. | Básicos
+hate | odiar | I hate onions. | Básicos
+know | saber, conocer | I know her. | Básicos
+think | pensar, creer | I think so. | Básicos
+understand | entender | I don't understand. | Básicos
+remember | recordar | I remember his name. | Básicos
+forget | olvidar | Don't forget your keys. | Básicos
+help | ayudar | Can you help me? | Básicos
+work | trabajar | I work in a bank. | Básicos
+study | estudiar | I study English. | Básicos
+learn | aprender | I'm learning English. | Básicos
+teach | enseñar | She teaches maths. | Básicos
+live | vivir | I live in Cali. | Básicos
+visit | visitar | We visit our grandparents. | Básicos
+meet | conocer, encontrarse | Nice to meet you. | Básicos
+call | llamar | Call me later. | Básicos
+send | enviar | Send me an email. | Básicos
+wait | esperar | Wait for me! | Básicos
+arrive | llegar | The bus arrives at eight. | Básicos
+leave | salir, irse | I leave home at seven. | Básicos
+come | venir | Come here! | Básicos
+go | ir | I go to work by bus. | Básicos
+drive | conducir | I drive to work. | Básicos
+ride | montar | I ride my bike. | Básicos
+take | tomar, llevar | Take the bus. | Básicos
+give | dar | Give me the book. | Básicos
+bring | traer | Bring your notebook. | Básicos
+put | poner | Put it on the table. | Básicos
+find | encontrar | I can't find my keys. | Básicos
+look for | buscar | I'm looking for my phone. | Básicos
+start | empezar | The class starts at seven. | Básicos
+finish | terminar | I finish work at five. | Básicos
+make | hacer, fabricar | I make a cake. | Básicos
+do | hacer | I do my homework. | Básicos
+have | tener | I have two brothers. | Básicos
+feel | sentir(se) | I feel tired. | Básicos
+smile | sonreír | Smile for the photo! | Básicos
+laugh | reírse | We laugh a lot. | Básicos
+cry | llorar | The baby is crying. | Básicos
+rain (verb) | llover | It rains a lot in April. | Clima
+
+## Adjetivos
+tall | alto | My brother is tall. | Personas
+short | bajo, corto | She is short. | Personas
+thin | delgado | He is thin. | Personas
+fat | gordo | A fat cat. | Personas
+young | joven | She is young. | Personas
+old | viejo, mayor | An old man. | Personas
+beautiful | hermoso | A beautiful city. | Personas
+pretty | bonita | A pretty girl. | Personas
+handsome | guapo | A handsome man. | Personas
+ugly | feo | An ugly building. | Personas
+kind | amable | She is very kind. | Personalidad
+friendly | amigable | The people are friendly. | Personalidad
+funny | gracioso | My uncle is funny. | Personalidad
+serious | serio | He is very serious. | Personalidad
+shy | tímido | I'm shy. | Personalidad
+lazy | perezoso | My cat is lazy. | Personalidad
+patient | paciente | The teacher is patient. | Personalidad
+happy | feliz | I'm very happy. | Sentimientos
+sad | triste | Why are you sad? | Sentimientos
+angry | enojado | My boss is angry. | Sentimientos
+tired | cansado | I'm tired. | Sentimientos
+hungry | con hambre | I'm hungry. | Sentimientos
+thirsty | con sed | I'm thirsty. | Sentimientos
+bored | aburrido | I'm bored. | Sentimientos
+nervous | nervioso | I'm nervous. | Sentimientos
+afraid | asustado | I'm afraid of dogs. | Sentimientos
+sick | enfermo | I'm sick today. | Sentimientos
+big | grande | A big house. | Cosas
+small | pequeño | A small dog. | Cosas
+long | largo | A long street. | Cosas
+new | nuevo | A new car. | Cosas
+expensive | caro | This phone is expensive. | Cosas
+cheap | barato | Bananas are cheap. | Cosas
+easy | fácil | English is easy! | Cosas
+difficult | difícil | This exercise is difficult. | Cosas
+fast | rápido | A fast car. | Cosas
+slow | lento | The internet is slow. | Cosas
+heavy | pesado | My bag is heavy. | Cosas
+light | ligero, liviano | A light dinner. | Cosas
+clean | limpio | The kitchen is clean. | Cosas
+dirty | sucio | My shoes are dirty. | Cosas
+full | lleno | The bus is full. | Cosas
+empty | vacío | The fridge is empty. | Cosas
+open | abierto | The shop is open. | Cosas
+closed | cerrado | The bank is closed. | Cosas
+modern | moderno | A modern kitchen. | Cosas
+quiet | tranquilo, silencioso | A quiet street. | Cosas
+noisy | ruidoso | A noisy city. | Cosas
+hot | caliente, caluroso | The soup is hot. | Clima
+cold | frío | It's cold today. | Clima
+warm | cálido, tibio | A warm day. | Clima
+cool | fresco | Bogotá is cool. | Clima
+sunny | soleado | It's sunny today. | Clima
+cloudy | nublado | It's cloudy. | Clima
+rainy | lluvioso | A rainy day. | Clima
+windy | con viento | It's windy. | Clima
+humid | húmedo | Cartagena is humid. | Clima
+delicious | delicioso | The cake is delicious. | Comida
+sweet | dulce | Sweet fruit. | Comida
+fresh | fresco (alimento) | Fresh bread. | Comida
+healthy | saludable | Fruit is healthy. | Comida
+favourite | favorito | My favourite colour is blue. | Comida
+red | rojo | A red dress. | Colores
+blue | azul | Blue eyes. | Colores
+green | verde | Green trees. | Colores
+yellow | amarillo | A yellow taxi. | Colores
+black | negro | Black coffee. | Colores
+white | blanco | White shoes. | Colores
+brown | café, marrón | Brown hair. | Colores
+grey | gris | A grey sofa. | Colores
+pink | rosado | Pink balloons. | Colores
+purple | morado | A purple flower. | Colores
+orange (colour) | anaranjado | An orange T-shirt. | Colores
+
+## Adverbios
+always | siempre | I always drink coffee. | Frecuencia
+usually | normalmente | I usually walk to work. | Frecuencia
+often | a menudo | We often go to the cinema. | Frecuencia
+sometimes | a veces | Sometimes I cook. | Frecuencia
+never | nunca | I never eat meat. | Frecuencia
+every day | todos los días | I study every day. | Frecuencia
+once a week | una vez por semana | I go to the gym once a week. | Frecuencia
+twice | dos veces | Twice a year. | Frecuencia
+today | hoy | Today is Monday. | Tiempo
+tomorrow | mañana | See you tomorrow! | Tiempo
+yesterday | ayer | Yesterday was Sunday. | Tiempo
+now | ahora | I'm busy now. | Tiempo
+later | más tarde | See you later. | Tiempo
+early | temprano | I get up early. | Tiempo
+late | tarde | Sorry, I'm late. | Tiempo
+here | aquí | Come here. | Lugar
+there | allí | My house is there. | Lugar
+very | muy | Very good! | Grado
+too | también, demasiado | Me too! | Grado
+a lot | mucho | I like it a lot. | Grado
+a little | un poco | I speak a little English. | Grado
+well | bien | She sings well. | Modo
+together | juntos | We eat together. | Modo
+quickly | rápidamente | He eats quickly. | Modo
+slowly | despacio | Speak slowly, please. | Modo
+again | otra vez | Say it again, please. | Modo
+
+## Preposiciones y conectores
+in | en, dentro de | The keys are in my bag. | Lugar
+on | en, sobre | The book is on the table. | Lugar
+under | debajo de | The cat is under the bed. | Lugar
+next to | al lado de | The bank is next to the park. | Lugar
+behind | detrás de | The garden is behind the house. | Lugar
+in front of | delante de | The bus stop is in front of the school. | Lugar
+between | entre | The café is between the bank and the shop. | Lugar
+near | cerca de | I live near the park. | Lugar
+far from | lejos de | The airport is far from the city. | Lugar
+opposite | enfrente de | The pharmacy is opposite the hospital. | Lugar
+at | en (lugar/hora) | at home; at seven o'clock | Lugar
+from | de, desde | I'm from Colombia. | Lugar
+to | a, hacia | I go to work by bus. | Lugar
+with | con | Coffee with milk. | Conectores
+without | sin | Coffee without sugar. | Conectores
+and | y | Bread and cheese. | Conectores
+but | pero | It's small but nice. | Conectores
+or | o | Tea or coffee? | Conectores
+because | porque | I'm happy because it's Friday. | Conectores
+so | así que, entonces | It's late, so I go home. | Conectores
+then | luego | First breakfast, then work. | Conectores
+first | primero | First, open the book. | Conectores
+after | después de | After lunch, I sleep. | Conectores
+before | antes de | Before work, I run. | Conectores
+
+## Expresiones
+How are you? | ¿Cómo estás? | How are you? — Fine, thanks. | Saludos
+Nice to meet you. | Mucho gusto. | Hi, I'm Ana. Nice to meet you. | Saludos
+See you later! | ¡Hasta luego! | Bye! See you later! | Saludos
+Have a nice day! | ¡Que tengas un buen día! | Thanks, have a nice day! | Saludos
+Excuse me. | Disculpe. | Excuse me, where is the bank? | Cortesía
+I'm sorry. | Lo siento. | I'm sorry, I'm late. | Cortesía
+You're welcome. | De nada. | Thank you! — You're welcome. | Cortesía
+No problem. | No hay problema. | Sorry! — No problem. | Cortesía
+Can you repeat, please? | ¿Puede repetir, por favor? | Sorry, can you repeat, please? | Clase
+How do you say...? | ¿Cómo se dice...? | How do you say "mesa" in English? | Clase
+What does it mean? | ¿Qué significa? | "Trolley"? What does it mean? | Clase
+How much is it? | ¿Cuánto cuesta? | How much is it? — Ten dollars. | Compras
+Can I pay by card? | ¿Puedo pagar con tarjeta? | Can I pay by card? — Yes, of course. | Compras
+I'd like... | Quisiera... | I'd like a coffee, please. | Restaurante
+The bill, please. | La cuenta, por favor. | Excuse me, the bill, please. | Restaurante
+What time is it? | ¿Qué hora es? | What time is it? — It's three o'clock. | Tiempo
+What's the weather like? | ¿Cómo está el clima? | What's the weather like? — It's sunny. | Clima
+Happy birthday! | ¡Feliz cumpleaños! | Happy birthday, Sara! | Celebraciones
+Good luck! | ¡Buena suerte! | Good luck with your exam! | Celebraciones
+Let's go! | ¡Vamos! | Let's go to the park! | Planes
+I don't know. | No sé. | Where is Ana? — I don't know. | Básicos
+Of course! | ¡Claro! | Can you help me? — Of course! | Básicos

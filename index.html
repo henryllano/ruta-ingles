@@ -645,6 +645,7 @@ Módulo 6 · Conversación guiada — 2h 30min</textarea>
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
+<script src="vocab-extra.js?v=202610311300"></script>
 <script src="vocab.js?v=202610211452"></script>
 <script src="readings.js?v=202610211452"></script>
 <script src="dict.js?v=202610211452"></script>
@@ -1429,7 +1430,8 @@ function vocabOf(L){if(VCACHE[L])return VCACHE[L];const src=(window.VOCAB||[])[L
   const base=vocabBase(L),seen=new Set(base.map(x=>x.w.toLowerCase())),sy=(window.SYLLABUS||{})[L];let d=0;
   if(sy)sy.units.forEach(u=>u.lessons.forEach(l=>{d++;(l.vocab||[]).forEach(([w,pos,m,e])=>{if(seen.has(w.toLowerCase()))return;seen.add(w.toLowerCase());base.push({cat:POSCAT(pos),w,m,e,t:`Día ${d} · ${l.title}`})})}));
   return VCACHE[L]=base}
-function vocabBase(L){const src=(window.VOCAB||[])[L]||{};
+function vocabBase(L){const src=Object.assign({},(window.VOCAB||[])[L]||{}),ex=(window.VOCAB_EXTRA||[])[L]||{};
+  Object.entries(ex).forEach(([c,t])=>{src[c]=src[c]?src[c].trimEnd()+"\n"+t.trim():t});
   return Object.entries(src).flatMap(([cat,txt])=>txt.trim().split("\n").map(l=>{const [w,m,e,t]=l.split("|").map(s=>(s||"").trim());return{cat,w,m,e,t}}))}
 function learnedSet(L){const st=curStudent();return new Set((st&&st.vocab&&st.vocab[L])||[])}
 function setLearned(L,w,on){const db=loadDB(),st=db.find(s=>s.id===S.student);if(!st)return;st.vocab=st.vocab||{};

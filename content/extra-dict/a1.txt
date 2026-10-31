@@ -1,0 +1,100 @@
+paula | - | nombre propio | Paula (nombre de mujer) | Paula is my best friend.
+camila | - | nombre propio | Camila (nombre de mujer) | Camila is a dentist.
+pereira | - | nombre propio | Pereira (ciudad de Colombia) | She is from Pereira.
+drinks | drink | verbo (3.ª persona) | bebe, toma | She drinks black coffee.
+jobs | job | sustantivo (plural) | trabajos, empleos | We talk about our jobs.
+plans | plan | sustantivo (plural) | planes | What are your plans?
+comedies | comedy | sustantivo (plural) | comedias | I like comedies.
+plays | play | verbo (3.ª persona) | toca, juega | She plays the guitar.
+mrs | - | tratamiento | señora (Sra.) | Mrs. Rojas is at the supermarket.
+rojas | - | nombre propio | Rojas (apellido) | Mr. and Mrs. Rojas.
+shopping | - | sustantivo | compras | I go shopping on Saturdays.
+list | - | sustantivo | lista | A shopping list.
+bananas | banana | sustantivo (plural) | bananos | Six bananas, please.
+oranges | orange | sustantivo (plural) | naranjas | Two kilos of oranges.
+son's | son | sustantivo (posesivo) | del hijo | It's their son's birthday.
+laughs | laugh | verbo (3.ª persona) | se ríe | She laughs a lot.
+ok | - | interjección | está bien, de acuerdo | OK, just one.
+checkout | - | sustantivo | caja (para pagar) | Pay at the checkout.
+eighty-five | - | número | ochenta y cinco | Eighty-five thousand pesos.
+pesos | peso | sustantivo (plural) | pesos (moneda) | It costs ten thousand pesos.
+pays | pay | verbo (3.ª persona) | paga | He pays with his card.
+bathrooms | bathroom | sustantivo (plural) | baños | Two bathrooms.
+armchairs | armchair | sustantivo (plural) | sillones | Two armchairs and a sofa.
+plants | plant | sustantivo (plural) | plantas | My father loves plants.
+lights | light | sustantivo (plural) | luces | The city lights.
+julián | - | nombre propio | Julián (nombre de hombre) | Julián is from Colombia.
+equator | - | sustantivo | línea del ecuador | Colombia is near the equator.
+seasons | season | sustantivo (plural) | estaciones del año | Four seasons.
+rains | rain | verbo (3.ª persona) | llueve | It rains a lot in April.
+thirty-two | - | número | treinta y dos | Thirty-two degrees.
+shorts | - | sustantivo | pantalón corto | I wear shorts at the beach.
+heat | - | sustantivo | calor | I don't like the heat.
+martínez | - | nombre propio | Martínez (apellido) | The Martínez family.
+drinking | drink | verbo (-ing) | bebiendo, tomando | He is drinking lemonade.
+lemonade | - | sustantivo | limonada | A cold lemonade.
+simón | - | nombre propio | Simón (nombre de hombre) | Simón is eight.
+sandcastle | - | sustantivo | castillo de arena | They are building a sandcastle.
+bucket | - | sustantivo | balde | A red bucket.
+toby | - | nombre propio | Toby (nombre de perro) | Toby is running.
+photos | photo | sustantivo (plural) | fotos | Take photos.
+sunset | - | sustantivo | atardecer, puesta de sol | A beautiful sunset.
+hernán | - | nombre propio | Hernán (nombre de hombre) | Hernán is a bus driver.
+fifty | - | número | cincuenta | He is fifty years old.
+quick | - | adjetivo | rápido | A quick shower.
+south | - | sustantivo | sur | The south of the city.
+workers | worker | sustantivo (plural) | trabajadores | Students and workers.
+luna | - | nombre propio | Luna (nombre de gata) | Luna is my cat.
+sleeps | sleep | verbo (3.ª persona) | duerme | She sleeps a lot.
+wakes | wake | verbo (3.ª persona) | despierta | She wakes me up at six.
+eats | eat | verbo (3.ª persona) | come | She eats cat food.
+ball | - | sustantivo | pelota, balón | A small ball.
+jumps | jump | verbo (3.ª persona) | salta | She jumps on the chairs.
+chairs | chair | sustantivo (plural) | sillas | Four chairs.
+meow | - | interjección | miau | The cat says "Meow!"
+sits | sit | verbo (3.ª persona) | se sienta | She sits on my legs.
+legs | leg | sustantivo (plural) | piernas | Long legs.
+visits | visit | verbo (3.ª persona) | visita | My family visits my grandparents.
+grandparents' | grandparents | sustantivo (posesivo) | de los abuelos | My grandparents' house.
+seventy-five | - | número | setenta y cinco | He is seventy-five.
+seventy-two | - | número | setenta y dos | She is seventy-two.
+adults | adult | sustantivo (plural) | adultos | The adults drink coffee.
+doctor's | doctor | sustantivo (posesivo) | del médico, consultorio | At the doctor's office.
+waits | wait | verbo (3.ª persona) | espera | She waits for twenty minutes.
+hurts | hurt | verbo (3.ª persona) | duele | My throat hurts.
+yes | - | adverbio | sí | Yes, I think so.
+meals | meal | sustantivo (plural) | comidas | After meals.
+honey | - | sustantivo | miel | Tea with honey.
+buys | buy | verbo (3.ª persona) | compra | She buys the medicine.
+diego | - | nombre propio | Diego (nombre de hombre) | Diego loves food.
+bandeja | - | nombre propio | bandeja (de bandeja paisa) | Bandeja paisa is typical.
+paisa | - | adjetivo | paisa (de Antioquia) | Bandeja paisa.
+dish | - | sustantivo | plato (comida) | A typical dish.
+antioquia | - | nombre propio | Antioquia (departamento de Colombia) | Medellín is in Antioquia.
+chorizo | - | sustantivo | chorizo | Rice with chorizo.
+fried | fry | adjetivo | frito | A fried egg.
+arepa | - | sustantivo | arepa | An arepa with cheese.
+carrots | carrot | sustantivo (plural) | zanahorias | I like carrots.
+wife's | wife | sustantivo (posesivo) | de la esposa | My wife's favourite food.
+fridays | friday | sustantivo (plural) | los viernes | On Fridays we go out.
+ham | - | sustantivo | jamón | A ham sandwich.
+sara's | sara | nombre propio (posesivo) | de Sara | Sara's mother.
+candles | candle | sustantivo (plural) | velas | Ten candles.
+putting | put | verbo (-ing) | poniendo | He is putting balloons on the walls.
+balloons | balloon | sustantivo (plural) | globos | Pink balloons.
+mateo | - | nombre propio | Mateo (nombre de hombre) | Mateo is helping.
+presents | present | sustantivo (plural) | regalos | Presents for Sara.
+doll | - | sustantivo | muñeca | A doll for the girl.
+sweets | sweet | sustantivo (plural) | dulces | Sandwiches and sweets.
+sings | sing | verbo (3.ª persona) | canta | Everybody sings.
+closes | close | verbo (3.ª persona) | cierra | Sara closes her eyes.
+blows | blow | verbo (3.ª persona) | sopla | She blows out the candles.
+gloria | - | nombre propio | Gloria (nombre de mujer) | Gloria is a lawyer.
+finishes | finish | verbo (3.ª persona) | termina | The class finishes at eight.
+mark | - | nombre propio | Mark (nombre de hombre) | Mark is my teacher.
+teaches | teach | verbo (3.ª persona) | enseña | He teaches English.
+mexico | - | nombre propio | México | She is from Mexico.
+brazil | - | nombre propio | Brasil | He is from Brazil.
+japan | - | nombre propio | Japón | Tokyo is in Japan.
+italy | - | nombre propio | Italia | Rome is in Italy.
+songs | song | sustantivo (plural) | canciones | English songs.

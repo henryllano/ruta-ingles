@@ -1,0 +1,445 @@
+## Sustantivos
+journey | viaje, trayecto | The journey takes two hours. | Viajes
+trip | viaje, paseo | We went on a trip to the coast. | Viajes
+flight | vuelo | Our flight was delayed. | Viajes
+passport | pasaporte | Don't forget your passport. | Viajes
+suitcase | maleta | My suitcase is very heavy. | Viajes
+luggage | equipaje | Where can I leave my luggage? | Viajes
+backpack | mochila | I travel with a backpack. | Viajes
+boarding pass | pase de abordar | Show your boarding pass, please. | Viajes
+gate | puerta de embarque | The flight leaves from gate 12. | Viajes
+departure | salida | Departures are on the second floor. | Viajes
+arrival | llegada | The arrival time is 6 p.m. | Viajes
+delay | retraso | There is a two-hour delay. | Viajes
+customs | aduana | We went through customs. | Viajes
+tourist | turista | The city is full of tourists. | Viajes
+guide | guía | Our guide spoke three languages. | Viajes
+tour | recorrido, gira | We took a tour of the old town. | Viajes
+sightseeing | turismo, visitar lugares | We went sightseeing in Rome. | Viajes
+souvenir | recuerdo (objeto) | I bought a souvenir for my mum. | Viajes
+map | mapa | Can you show me on the map? | Viajes
+reservation | reserva | I have a reservation for two nights. | Viajes
+reception | recepción | Ask at reception. | Hotel
+single room | habitación sencilla | A single room, please. | Hotel
+double room | habitación doble | We booked a double room. | Hotel
+view | vista | The room has a sea view. | Hotel
+lobby | vestíbulo | We waited in the lobby. | Hotel
+towel | toalla | Can I have an extra towel? | Hotel
+swimsuit | vestido de baño | I forgot my swimsuit. | Playa
+sun cream | bloqueador solar | Put on some sun cream. | Playa
+sunburn | quemadura de sol | I got a terrible sunburn. | Playa
+wave | ola | The waves were big. | Playa
+island | isla | San Andrés is an island. | Naturaleza
+valley | valle | The Cocora Valley is beautiful. | Naturaleza
+forest | bosque | We walked through the forest. | Naturaleza
+desert | desierto | The desert is very dry. | Naturaleza
+waterfall | cascada | We swam under a waterfall. | Naturaleza
+hill | colina, loma | The house is on a hill. | Naturaleza
+field | campo | Cows in the field. | Naturaleza
+path | sendero, camino | Follow the path. | Naturaleza
+bridge | puente | An old bridge over the river. | Naturaleza
+coast | costa | The Caribbean coast. | Naturaleza
+countryside | campo (zona rural) | I prefer the countryside. | Naturaleza
+storm | tormenta | There was a big storm. | Clima
+fog | niebla | There's a lot of fog this morning. | Clima
+thunder | trueno | I heard thunder. | Clima
+lightning | relámpago, rayo | The lightning was scary. | Clima
+degree | grado | It's thirty degrees. | Clima
+customer | cliente | The customer is always right. | Compras
+receipt | recibo | Keep the receipt. | Compras
+refund | reembolso | I want a refund. | Compras
+discount | descuento | There's a 20% discount. | Compras
+sale | rebaja, venta | Everything is on sale. | Compras
+order | pedido | My order arrived late. | Compras
+delivery | entrega, domicilio | Free delivery. | Compras
+package | paquete | A package arrived for you. | Compras
+item | artículo | Two items in my basket. | Compras
+changing room | probador | Where is the changing room? | Compras
+brand | marca | What brand is your phone? | Compras
+wallet | billetera | I lost my wallet. | Objetos
+purse | monedero, cartera | Her purse is red. | Objetos
+ID card | cédula, documento de identidad | Show your ID card. | Objetos
+umbrella stand | paragüero | Leave it in the umbrella stand. | Objetos
+scarf | bufanda | A warm scarf. | Ropa
+gloves | guantes | Wear gloves, it's cold. | Ropa
+uniform | uniforme | The waiters wear a uniform. | Ropa
+apron | delantal | Put on your apron. | Ropa
+belt | cinturón | A leather belt. | Ropa
+earrings | aretes | Beautiful earrings. | Ropa
+necklace | collar | A gold necklace. | Ropa
+pocket | bolsillo | It's in my pocket. | Ropa
+manager | gerente, administrador | I want to speak to the manager. | Trabajo
+colleague | colega, compañero de trabajo | My colleagues are friendly. | Trabajo
+salary | salario | A good salary. | Trabajo
+interview | entrevista | I have a job interview tomorrow. | Trabajo
+experience | experiencia | Do you have any experience? | Trabajo
+skill | habilidad | Communication skills. | Trabajo
+task | tarea (labor) | My tasks are simple. | Trabajo
+shift | turno | I work the night shift. | Trabajo
+teamwork | trabajo en equipo | Teamwork is important. | Trabajo
+career | carrera profesional | She has a successful career. | Trabajo
+agency | agencia | A travel agency. | Trabajo
+business card | tarjeta de presentación | Here's my business card. | Trabajo
+till | caja registradora | She works at the till. | Trabajo
+tray | bandeja | He dropped the tray. | Restaurante
+menu | menú, carta | Can I see the menu? | Restaurante
+starter | entrada | For starters, soup. | Restaurante
+main course | plato fuerte | What's the main course? | Restaurante
+tip | propina | We left a good tip. | Restaurante
+portion | porción | The portions are big. | Restaurante
+sauce | salsa | Chicken with mushroom sauce. | Comida
+steak | filete, bistec | A steak with chips. | Comida
+seafood | mariscos | I love seafood. | Comida
+plantain | plátano (para cocinar) | Fried plantain. | Comida
+coconut | coco | Coconut rice. | Comida
+mushroom | champiñón | Mushroom soup. | Comida
+pepper | pimienta, pimentón | Salt and pepper. | Comida
+flour | harina | Flour, eggs and sugar. | Comida
+oil | aceite | Olive oil. | Comida
+recipe | receta | My grandmother's recipe. | Comida
+ingredient | ingrediente | What are the ingredients? | Comida
+herb | hierba aromática | Fresh herbs. | Comida
+food poisoning | intoxicación alimentaria | He got food poisoning. | Salud
+illness | enfermedad | A serious illness. | Salud
+injury | lesión | A knee injury. | Salud
+pain | dolor | I have a pain in my back. | Salud
+cough | tos | A bad cough. | Salud
+flu | gripa | I have the flu. | Salud
+allergy | alergia | I have an allergy to nuts. | Salud
+pill | pastilla | Take one pill a day. | Salud
+prescription | fórmula médica | The doctor gave me a prescription. | Salud
+diet | dieta | A healthy diet. | Salud
+exercise | ejercicio | Exercise is good for you. | Salud
+weight | peso | I lost weight. | Salud
+habit | hábito | Bad habits. | Salud
+swimming pool | piscina | The swimming pool is open. | Deportes
+match | partido | A football match. | Deportes
+team | equipo | My favourite team. | Deportes
+player | jugador | He's a great player. | Deportes
+coach | entrenador | The coach is angry. | Deportes
+competition | competencia | She won the competition. | Deportes
+race | carrera | He won the race. | Deportes
+prize | premio | First prize. | Deportes
+festival | festival | A music festival. | Ocio
+parade | desfile | The parade starts at ten. | Ocio
+costume | disfraz, traje típico | A colourful costume. | Ocio
+mask | máscara | A carnival mask. | Ocio
+concert | concierto | A rock concert. | Ocio
+theatre | teatro | We went to the theatre. | Ocio
+exhibition | exposición | An art exhibition. | Ocio
+series | serie | My favourite series. | Ocio
+channel | canal | Change the channel. | Ocio
+programme | programa | A TV programme. | Ocio
+news | noticias | Did you watch the news? | Ocio
+hobby | pasatiempo | My hobby is painting. | Ocio
+app | aplicación | A useful app. | Tecnología
+message | mensaje | Send me a message. | Tecnología
+video call | videollamada | We had a video call. | Tecnología
+social media | redes sociales | I don't use social media. | Tecnología
+website | sitio web | Visit our website. | Tecnología
+battery | batería | My battery is low. | Tecnología
+charger | cargador | I forgot my charger. | Tecnología
+traffic | tráfico | The traffic is terrible. | Ciudad
+traffic light | semáforo | Turn left at the traffic lights. | Ciudad
+pavement | andén, acera | Walk on the pavement. | Ciudad
+neighbourhood | barrio | A quiet neighbourhood. | Ciudad
+neighbour | vecino | My neighbours are noisy. | Ciudad
+police station | estación de policía | Go to the police station. | Ciudad
+petrol station | estación de gasolina | We stopped at a petrol station. | Ciudad
+crossroads | cruce | Turn right at the crossroads. | Ciudad
+roundabout | glorieta | Take the second exit at the roundabout. | Ciudad
+journey time | tiempo de viaje | The journey time is one hour. | Ciudad
+rubbish | basura | Take out the rubbish. | Casa
+housework | oficio de la casa | I hate housework. | Casa
+washing machine | lavadora | The washing machine is broken. | Casa
+dishwasher | lavaplatos (máquina) | Put the plates in the dishwasher. | Casa
+spare room | cuarto de huéspedes | We have a spare room. | Casa
+childhood | infancia | I had a happy childhood. | Vida
+memory | recuerdo, memoria | A good memory. | Vida
+wedding | boda | Their wedding was beautiful. | Vida
+honeymoon | luna de miel | They went to Cartagena on their honeymoon. | Vida
+retirement | jubilación | He's enjoying his retirement. | Vida
+reward | recompensa | He didn't want a reward. | Vida
+loss | pérdida | Report the loss to the police. | Vida
+miracle | milagro | It's a miracle! | Vida
+advice | consejo | Can I give you some advice? | Vida
+opinion | opinión | In my opinion... | Vida
+problem | problema | No problem! | Vida
+mistake | error | I made a mistake. | Vida
+chance | oportunidad, posibilidad | Give me a chance. | Vida
+
+## Verbos
+book | reservar | I booked a table for two. | Viajes
+check in | registrarse (hotel, vuelo) | We checked in at three. | Viajes
+check out | salir del hotel | We check out at noon. | Viajes
+pack | empacar | I packed my suitcase. | Viajes
+unpack | desempacar | I unpacked my clothes. | Viajes
+fly | volar | We flew to Pereira. | Viajes
+land | aterrizar | The plane landed at six. | Viajes
+take off | despegar | The plane took off late. | Viajes
+miss | perder (bus, vuelo), extrañar | I missed the bus. I miss my family. | Viajes
+get lost | perderse | We got lost in the city. | Viajes
+explore | explorar | We explored the old town. | Viajes
+order | pedir (en restaurante, en línea) | I ordered fish. | Compras
+deliver | entregar | They deliver to your house. | Compras
+return | devolver, regresar | I want to return these shoes. | Compras
+complain | quejarse | She complained about the service. | Compras
+try on | probarse (ropa) | Can I try on this jacket? | Compras
+afford | poder pagar | I can't afford a new car. | Compras
+save | ahorrar, guardar | I'm saving money for a trip. | Dinero
+spend | gastar, pasar (tiempo) | I spent a lot of money. | Dinero
+earn | ganar (dinero) | She earns a good salary. | Dinero
+borrow | pedir prestado | Can I borrow your pen? | Dinero
+lend | prestar | Can you lend me some money? | Dinero
+owe | deber (dinero) | I owe you ten dollars. | Dinero
+apply | aplicar, postularse | I applied for the job. | Trabajo
+hire | contratar | They hired two new people. | Trabajo
+quit | renunciar, dejar | He quit his job. | Trabajo
+retire | jubilarse | My father retired last year. | Trabajo
+organise | organizar | I organise tours. | Trabajo
+explain | explicar | Can you explain it again? | Trabajo
+show | mostrar | Show me your photos. | Básicos
+drop | dejar caer | I dropped my phone. | Acciones
+break | romper | I broke a glass. | Acciones
+fix | arreglar | Can you fix my bike? | Acciones
+lose | perder | I lost my keys. | Acciones
+steal | robar | Someone stole my wallet. | Acciones
+hide | esconder | Where did you hide the present? | Acciones
+throw | lanzar, tirar | Throw the ball! | Acciones
+catch | atrapar, coger | Catch it! | Acciones
+carry | cargar, llevar | I'll carry your bag. | Acciones
+pull | halar | Pull the door. | Acciones
+push | empujar | Push the button. | Acciones
+climb | escalar, subir | We climbed the mountain. | Acciones
+cross | cruzar | Cross the street carefully. | Acciones
+fall | caer(se) | I fell off my bike. | Acciones
+hurt | herir, doler | I hurt my leg. | Salud
+breathe | respirar | Breathe slowly. | Salud
+float | flotar | I learned to float. | Salud
+swallow | tragar | I swallowed some water. | Salud
+recover | recuperarse | She recovered quickly. | Salud
+grow | crecer, cultivar | I grow tomatoes. | Casa
+pick | recoger, escoger | We picked coffee beans. | Casa
+taste | probar (sabor), saber a | Taste this soup. | Comida
+boil | hervir | Boil the water. | Comida
+fry | freír | Fry the eggs. | Comida
+bake | hornear | I baked a cake. | Comida
+mix | mezclar | Mix the flour and the eggs. | Comida
+cut | cortar | Cut the onions. | Comida
+share | compartir | We shared a dessert. | Social
+invite | invitar | I invited my friends. | Social
+celebrate | celebrar | We celebrated my birthday. | Social
+enjoy | disfrutar | Enjoy your meal! | Social
+agree | estar de acuerdo | I agree with you. | Social
+disagree | estar en desacuerdo | I disagree. | Social
+promise | prometer | I promise. | Social
+apologise | disculparse | He apologised for being late. | Social
+thank | agradecer | Thank you for coming. | Social
+recommend | recomendar | I recommend this restaurant. | Opiniones
+prefer | preferir | I prefer tea. | Opiniones
+decide | decidir | We decided to stay. | Opiniones
+choose | escoger | Choose a number. | Opiniones
+hope | esperar (desear) | I hope you're well. | Opiniones
+believe | creer | I believe you. | Opiniones
+expect | esperar (suponer) | I didn't expect that. | Opiniones
+worry | preocuparse | Don't worry. | Sentimientos
+feel like | tener ganas de | I feel like a pizza. | Sentimientos
+relax | relajarse | Relax and enjoy. | Sentimientos
+happen | pasar, ocurrir | What happened? | Básicos
+change | cambiar | Things have changed. | Básicos
+move | mudarse, mover | We moved to Bogotá. | Básicos
+become | convertirse en, llegar a ser | She became a doctor. | Básicos
+seem | parecer | He seems tired. | Básicos
+belong | pertenecer | This bag belongs to me. | Básicos
+use | usar | I use my phone a lot. | Básicos
+practise | practicar | Practise every day. | Básicos
+improve | mejorar | My English is improving. | Básicos
+give up | rendirse, dejar de | Don't give up! | Phrasal verbs
+look after | cuidar | I look after my little brother. | Phrasal verbs
+find out | averiguar, descubrir | I found out the truth. | Phrasal verbs
+turn on | encender | Turn on the light. | Phrasal verbs
+turn off | apagar | Turn off your phone. | Phrasal verbs
+turn up | subir (volumen); aparecer | Turn up the music. | Phrasal verbs
+turn down | bajar (volumen); rechazar | Turn down the TV. | Phrasal verbs
+put on | ponerse (ropa) | Put on your coat. | Phrasal verbs
+take off (clothes) | quitarse (ropa) | Take off your shoes. | Phrasal verbs
+pick up | recoger | I'll pick you up at eight. | Phrasal verbs
+grow up | crecer (hacerse adulto) | I grew up in Cali. | Phrasal verbs
+get on | subirse (bus, tren) | Get on the bus. | Phrasal verbs
+get off | bajarse | Get off at the next stop. | Phrasal verbs
+fill in | llenar (formulario) | Fill in this form. | Phrasal verbs
+go out | salir (a divertirse) | Let's go out tonight. | Phrasal verbs
+come back | volver | Come back soon! | Phrasal verbs
+sit down | sentarse | Please sit down. | Phrasal verbs
+stand up | ponerse de pie | Stand up, please. | Phrasal verbs
+wake (someone) up | despertar a alguien | Wake me up at seven. | Phrasal verbs
+look forward to | esperar con ilusión | I look forward to seeing you. | Phrasal verbs
+run out of | quedarse sin | We ran out of milk. | Phrasal verbs
+throw away | botar | Don't throw it away. | Phrasal verbs
+
+## Adjetivos
+delayed | retrasado | Our flight is delayed. | Viajes
+crowded | lleno de gente | The bus was crowded. | Viajes
+colourful | colorido | A colourful town. | Viajes
+amazing | increíble | The view was amazing. | Opiniones
+awful | horrible | The weather was awful. | Opiniones
+terrible | terrible | A terrible holiday. | Opiniones
+wonderful | maravilloso | A wonderful trip. | Opiniones
+excellent | excelente | Excellent service. | Opiniones
+fantastic | fantástico | That's fantastic! | Opiniones
+boring | aburrido (que aburre) | A boring film. | Opiniones
+interesting | interesante | An interesting book. | Opiniones
+exciting | emocionante | An exciting match. | Opiniones
+useful | útil | A useful app. | Opiniones
+useless | inútil | This phone is useless. | Opiniones
+popular | popular | A popular restaurant. | Opiniones
+famous | famoso | A famous singer. | Opiniones
+typical | típico | A typical dish. | Opiniones
+traditional | tradicional | Traditional music. | Opiniones
+generous | generoso | Generous portions. | Opiniones
+salty | salado | The soup is too salty. | Comida
+spicy | picante | I don't like spicy food. | Comida
+sour | ácido, agrio | Sour lemons. | Comida
+bitter | amargo | Bitter coffee. | Comida
+raw | crudo | Raw fish. | Comida
+grilled | a la parrilla | Grilled chicken. | Comida
+homemade | hecho en casa | Homemade bread. | Comida
+refreshing | refrescante | A refreshing drink. | Comida
+polite | educado, cortés | Be polite. | Personalidad
+rude | grosero | Some customers were rude. | Personalidad
+honest | honesto | An honest man. | Personalidad
+helpful | servicial | The staff were helpful. | Personalidad
+hard-working | trabajador | She's very hard-working. | Personalidad
+confident | seguro de sí mismo | I feel more confident. | Personalidad
+careful | cuidadoso | Be careful! | Personalidad
+careless | descuidado | A careless mistake. | Personalidad
+clever | inteligente, listo | A clever girl. | Personalidad
+brave | valiente | You're very brave. | Personalidad
+generous (person) | generoso (persona) | My uncle is generous. | Personalidad
+selfish | egoísta | Don't be selfish. | Personalidad
+proud | orgulloso | I'm proud of you. | Sentimientos
+embarrassed | avergonzado | I was so embarrassed. | Sentimientos
+excited | emocionado | I'm excited about the trip. | Sentimientos
+worried | preocupado | I'm worried about my exam. | Sentimientos
+surprised | sorprendido | I was surprised. | Sentimientos
+disappointed | decepcionado | I'm disappointed. | Sentimientos
+exhausted | agotado | We were exhausted. | Sentimientos
+relaxed | relajado | I feel relaxed. | Sentimientos
+lonely | solo (que se siente solo) | He feels lonely. | Sentimientos
+upset | molesto, disgustado | She's upset. | Sentimientos
+scared | asustado | I'm scared of spiders. | Sentimientos
+broke | sin dinero, quebrado | I'm broke this month. | Sentimientos
+busy | ocupado, concurrido | A busy street. | Cosas
+safe | seguro | Is it safe? | Cosas
+dangerous | peligroso | A dangerous road. | Cosas
+comfortable | cómodo | Comfortable shoes. | Cosas
+uncomfortable | incómodo | An uncomfortable bed. | Cosas
+broken | roto, dañado | My phone is broken. | Cosas
+damaged | dañado | The box was damaged. | Cosas
+wrong | equivocado, incorrecto | The wrong size. | Cosas
+correct | correcto | The correct answer. | Cosas
+free | gratis, libre | Free delivery. | Cosas
+available | disponible | Is this room available? | Cosas
+wet | mojado | My shoes are wet. | Cosas
+dry | seco | The weather is dry. | Cosas
+muddy | embarrado | A muddy path. | Cosas
+huge | enorme | A huge house. | Cosas
+tiny | diminuto | A tiny room. | Cosas
+wooden | de madera | Wooden tables. | Cosas
+public | público | A public phone. | Cosas
+private | privado | A private school. | Cosas
+foreign | extranjero | Foreign visitors. | Cosas
+local | local | Local food. | Cosas
+whole | entero, completo | The whole day. | Cosas
+spare | extra, de sobra | A spare room. | Cosas
+
+## Adverbios
+already | ya | I've already eaten. | Tiempo
+yet | todavía, ya (en preguntas) | Have you finished yet? | Tiempo
+just | acabar de, solo | I've just arrived. | Tiempo
+ever | alguna vez | Have you ever been to Peru? | Tiempo
+still | todavía | I still live here. | Tiempo
+soon | pronto | See you soon. | Tiempo
+finally | finalmente | Finally, we arrived. | Tiempo
+at last | por fin | The sun came out at last. | Tiempo
+recently | recientemente | I've been busy recently. | Tiempo
+ago | hace (tiempo) | Two years ago. | Tiempo
+once | una vez, alguna vez | I went there once. | Tiempo
+suddenly | de repente | Suddenly, it started to rain. | Tiempo
+nearly | casi | I nearly missed the bus. | Grado
+almost | casi | It's almost ready. | Grado
+quite | bastante | It's quite expensive. | Grado
+really | realmente, muy | It's really good. | Grado
+enough | suficiente | I don't have enough money. | Grado
+especially | especialmente | Especially at night. | Grado
+probably | probablemente | It will probably rain. | Probabilidad
+maybe | quizás | Maybe tomorrow. | Probabilidad
+definitely | definitivamente | I definitely recommend it. | Probabilidad
+clearly | claramente | They explained it clearly. | Modo
+carefully | cuidadosamente | Drive carefully. | Modo
+badly | mal | He plays badly. | Modo
+hard | duro, mucho | She works hard. | Modo
+fast (adverb) | rápido | He drives fast. | Modo
+abroad | en el extranjero | She lives abroad. | Lugar
+everywhere | en todas partes | I looked everywhere. | Lugar
+somewhere | en algún lugar | It's somewhere here. | Lugar
+nowhere | en ningún lugar | There's nowhere to sit. | Lugar
+upstairs | arriba (piso de arriba) | The bathroom is upstairs. | Lugar
+downstairs | abajo (piso de abajo) | Come downstairs. | Lugar
+outside | afuera | Let's eat outside. | Lugar
+inside | adentro | It's cold, come inside. | Lugar
+
+## Preposiciones y conectores
+however | sin embargo | However, the package arrived late. | Conectores
+although | aunque | Although it was raining, we went out. | Conectores
+while | mientras | While I was waiting, it started to rain. | Conectores
+when | cuando | When I arrived, he was sleeping. | Conectores
+until | hasta (que) | Wait until I come back. | Conectores
+since | desde | I've lived here since 2020. | Conectores
+during | durante | During the journey. | Conectores
+as soon as | tan pronto como | Call me as soon as you arrive. | Conectores
+also | también | I also bought a bag. | Conectores
+both | ambos | Both were delicious. | Conectores
+either... or | o... o | Either tea or coffee. | Conectores
+neither... nor | ni... ni | Neither big nor small. | Conectores
+instead of | en lugar de | Tea instead of coffee. | Conectores
+because of | a causa de | The flight was delayed because of a storm. | Conectores
+for example | por ejemplo | Fruit, for example apples. | Conectores
+through | a través de | We walked through the park. | Lugar
+along | a lo largo de | Along the river. | Lugar
+across | al otro lado de, a través | Across the street. | Lugar
+over | sobre, por encima de | A bridge over the river. | Lugar
+past | más allá de, por delante de | Walk past the bank. | Lugar
+towards | hacia | He walked towards me. | Lugar
+around | alrededor de | Around the world. | Lugar
+out of | fuera de | He jumped out of the taxi. | Lugar
+
+## Expresiones
+It's up to you. | Tú decides. | Pizza or pasta? It's up to you. | Conversación
+What's wrong? | ¿Qué pasa?, ¿Qué tienes? | You look sad. What's wrong? | Conversación
+Never mind. | No importa. | Never mind, it's not important. | Conversación
+It doesn't matter. | No importa. | It doesn't matter, we can go tomorrow. | Conversación
+I'm afraid... | Me temo que... | I'm afraid we're closed. | Conversación
+What a pity! | ¡Qué lástima! | You can't come? What a pity! | Conversación
+That sounds great! | ¡Suena genial! | Let's go to the beach. — That sounds great! | Conversación
+Why don't we...? | ¿Por qué no...? | Why don't we go to the cinema? | Planes
+How about...? | ¿Qué tal si...? | How about a coffee? | Planes
+Shall we...? | ¿Vamos a...? ¿Hacemos...? | Shall we dance? | Planes
+Take care! | ¡Cuídate! | Bye! Take care! | Despedidas
+Keep in touch. | Mantengámonos en contacto. | Keep in touch, OK? | Despedidas
+Best wishes | Saludos, mis mejores deseos | Best wishes, Andrés | Cartas
+I look forward to hearing from you. | Quedo atento a su respuesta. | I look forward to hearing from you. | Cartas
+Yours faithfully | Atentamente (no conoces el nombre) | Yours faithfully, Mariana López | Cartas
+Could you help me, please? | ¿Me podría ayudar, por favor? | Excuse me, could you help me, please? | Cortesía
+Is it far from here? | ¿Queda lejos de aquí? | The museum? Is it far from here? | Direcciones
+Go straight on. | Siga derecho. | Go straight on and turn left. | Direcciones
+Turn left. | Gire a la izquierda. | Turn left at the bank. | Direcciones
+Turn right. | Gire a la derecha. | Turn right at the corner. | Direcciones
+It's on your left. | Está a su izquierda. | The pharmacy is on your left. | Direcciones
+Can I have the bill? | ¿Me trae la cuenta? | Excuse me, can I have the bill? | Restaurante
+Are you ready to order? | ¿Ya van a pedir? | Are you ready to order? — Yes, please. | Restaurante
+Enjoy your meal! | ¡Buen provecho! | Here's your food. Enjoy your meal! | Restaurante
+I've got a cold. | Estoy resfriado. | I can't come, I've got a cold. | Salud
+Get well soon! | ¡Que te mejores! | You're sick? Get well soon! | Salud
+It's never too late. | Nunca es tarde. | Learn to swim at forty? It's never too late. | Frases útiles
+Practice makes perfect. | La práctica hace al maestro. | Keep going, practice makes perfect. | Frases útiles
