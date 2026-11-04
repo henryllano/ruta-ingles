@@ -1406,7 +1406,7 @@ function qNext(){
   if(it.t==="mc"||it.t==="listen"){pts=Q.sel===it.a?1:0;given=it.o[Q.sel]}
   if(it.t==="order"){given=Q.ord.picked.map(x=>x.w).join(" ");const nz=t=>t.toLowerCase().replace(/[.,!?¿¡]/g,"").replace(/\s+/g," ").trim();pts=nz(given)===nz(it.words.join(" "))?1:0;Q.ord=null}
   if(it.t==="dict"){given=Q.typed.trim();const a=wordAcc(it.say,given);pts=a>=.95?1:a>=.75?.5:0;acc=Math.round(a*100)}
-  if(it.t==="fill"){const v=Q.typed.trim().toLowerCase().replace(/[.!?]+$/,"").replace(/\s+/g," ");pts=it.ans.includes(v)?1:0;given=Q.typed.trim()}
+  if(it.t==="fill"){const v=Q.typed.trim().toLowerCase().replace(/[.!?]+$/,"").replace(/\s+/g," ");pts=it.ans.some(x=>x.trim().toLowerCase().replace(/[.!?]+$/,"").replace(/\s+/g," ")===v)?1:0;given=Q.typed.trim()}
   if(it.t==="write"){
     /* mitad por la calidad del texto (reglas) y mitad por usar lo que pide la consigna */
     const tp=Math.min(1,textPoints(Q.typed)/(100*(Q.L+1))),low=" "+Q.typed.toLowerCase().replace(/[’]/g,"'")+" ";

@@ -1,0 +1,16 @@
+{
+  "name": "ruta-ingles",
+  "private": true,
+  "description": "Ruta A1 → C2: curso de inglés",
+  "scripts": {
+    "qa": "node tools/qa/run.mjs",
+    "qa:contenido": "node tools/qa/check-content.mjs",
+    "qa:pagina": "node tools/qa/check-ui.mjs"
+  },
+  "devDependencies": {
+    "dictionary-en": "^4.0.0",
+    "dictionary-en-gb": "^3.0.0",
+    "dictionary-es": "^4.0.0",
+    "nspell": "^2.1.5"
+  }
+}

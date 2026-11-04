@@ -4854,4 +4854,7 @@ official's | official | sustantivo (posesivo) | del funcionario | An official's 
 touches | touch | verbo (3.ª persona) | toca | It touches on identity.
 retrievable | - | adjetivo | recuperable | Permanently retrievable.
 distinctively | - | adverbio | característicamente | Distinctively human.
+overcame | overcome | verbo (pasado) | superó | She overcame her fear of flying.
+teeth | tooth | sustantivo (plural) | dientes | Brush your teeth.
+undertook | undertake | verbo (pasado) | emprendió, llevó a cabo | The firm undertook a complete restructuring.
 `;
