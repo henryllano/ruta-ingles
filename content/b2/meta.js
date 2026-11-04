@@ -10,6 +10,6 @@ module.exports = {
       {t:"write",q:"Escribe un ensayo de opinión (mínimo 120 palabras) sobre si el trabajo remoto debería ser la norma: presenta tu postura, da dos argumentos con conectores, reconoce un argumento contrario y concluye.",min:120,keys:[["in my opinion","i believe","from my point of view","i would argue"],["however","although","nevertheless","on the other hand","despite"],["furthermore","moreover","in addition","what is more"],["in conclusion","to sum up","all in all","overall"]]}
     ],
     listenPerUnit: 1,
-    pass: 70
+    pass: 85
   }
 };

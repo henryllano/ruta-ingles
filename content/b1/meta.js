@@ -10,6 +10,6 @@ module.exports = {
       {t:"write",q:"Escribe un correo formal (mínimo 80 palabras) para quejarte de un servicio: cuenta qué pasó (usa varios tiempos del pasado), di qué te dijeron (estilo indirecto) y qué esperas que hagan.",min:80,keys:[["had","was","were"],["told me","said that","asked me"],["would","could","should"],["dear","regards","sincerely","yours"]]}
     ],
     listenPerUnit: 1,
-    pass: 70
+    pass: 85
   }
 };

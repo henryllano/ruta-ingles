@@ -10,6 +10,6 @@ module.exports = {
       {t:"write",q:"Escribe un ensayo argumentativo (mínimo 150 palabras) sobre si la inteligencia artificial debería regularse estrictamente: plantea la tesis, desarrolla argumentos con matices (hedging), refuta una objeción y concluye con una recomendación.",min:150,keys:[["arguably","it could be argued","it would seem","to a certain extent"],["nevertheless","nonetheless","notwithstanding","that said","admittedly"],["not only","what is","it is","rarely","never have"],["in conclusion","ultimately","on balance","all things considered"]]}
     ],
     listenPerUnit: 1,
-    pass: 70
+    pass: 85
   }
 };

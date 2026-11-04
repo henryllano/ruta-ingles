@@ -621,12 +621,12 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=202610311455"></script>
-<script src="vocab-extra.js?v=202610311455"></script>
-<script src="vocab.js?v=202610311455"></script>
-<script src="readings.js?v=202610311455"></script>
-<script src="dict.js?v=202610311455"></script>
-<script src="lessons.js?v=202610311455"></script>
+<script src="practice-extra.js?v=202611041318"></script>
+<script src="vocab-extra.js?v=202611041318"></script>
+<script src="vocab.js?v=202611041318"></script>
+<script src="readings.js?v=202611041318"></script>
+<script src="dict.js?v=202611041318"></script>
+<script src="lessons.js?v=202611041318"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -801,6 +801,11 @@ if(!reduce){
 
 /* ================= nivel ⇄ puntos =================
    0–600 puntos: cada nivel aporta hasta 100. 180 = A2 al 80 %. */
+/* ubicación estricta: el nivel lo define la habilidad más débil (donde más oportunidades de mejora mostró), no el promedio.
+   Si no presentó la parte hablada, esa habilidad cuenta como A1. */
+const SKILLS=[["listen","Escucha"],["written","Escrito"],["essay","Redacción"],["speak","Hablado"]];
+function placeOf(r){if(!r||!r.s)return r?lvOf(r.pts).i:0;return Math.min(...SKILLS.map(([k])=>r.s[k]==null?0:lvOf(r.s[k]).i))}
+function weakestOf(r){return SKILLS.map(([k,n])=>({k,n,p:r.s[k]==null?-1:r.s[k]})).sort((a,b)=>a.p-b.p)[0]}
 function lvOf(p){p=Math.max(0,Math.min(600,p));if(p>=600)return{i:5,k:"C2",pct:100};const i=Math.floor(p/100);return{i,k:LV[i].k,pct:Math.round(p-i*100)}}
 function hoursAt(p){if(!p)return 0;const {i}=lvOf(p),f=Math.min(1,(p-i*100)/100),prev=i?hrs(LV[i-1]):0;return prev+f*(hrs(LV[i])-prev)}
 $("fromReset").onclick=()=>{S.startPts=0;render()};
@@ -916,12 +921,12 @@ function renderResults(){
   const tb=$("resBody");
   if(!rows.length){tb.innerHTML=`<tr><td colspan="9" class="empty">Aún no hay exámenes. Cuando alguien termine el examen, su resultado aparece aquí.</td></tr>`;return}
   const cell=p=>p==null?`<span class="pill">—</span>`:`<span class="pill">${lvOf(p).k} · ${lvOf(p).pct}%</span>`;
-  tb.innerHTML=rows.map(({st,r,ri})=>{const L=lvOf(r.pts),key=st.id+"|"+ri;
+  tb.innerHTML=rows.map(({st,r,ri})=>{const L={k:LV[placeOf(r)].k},avg=lvOf(r.pts),key=st.id+"|"+ri;
     return `<tr><td><b>${esc(st.name)}</b>${st.email?`<br><small style="color:var(--mute)">${esc(st.email)}</small>`:""}</td>
     <td>${new Date(r.date).toLocaleDateString("es",{day:"numeric",month:"short",year:"numeric"})}</td>
-    <td class="lvl"><b>${L.k}</b> · ${L.pct} %</td><td>${cell(r.s.listen)}</td><td>${cell(r.s.written)}</td><td>${cell(r.s.essay)}</td><td>${cell(r.s.speak)}</td><td>${LV.filter((l,i)=>st.quiz&&st.quiz[i]&&st.quiz[i].passed).map(l=>`<span class="pill">${l.k}</span>`).join(" ")||`<span class="pill">—</span>`}</td>
+    <td class="lvl"><b>${L.k}</b><br><small style="color:var(--mute)">promedio ${avg.k} · ${avg.pct} %</small></td><td>${cell(r.s.listen)}</td><td>${cell(r.s.written)}</td><td>${cell(r.s.essay)}</td><td>${cell(r.s.speak)}</td><td>${LV.filter((l,i)=>st.quiz&&st.quiz[i]&&st.quiz[i].passed).map(l=>`<span class="pill">${l.k}</span>`).join(" ")||`<span class="pill">—</span>`}</td>
     <td>${pendingDel===key?`¿Borrar? <button class="mini-btn" data-del="${key}">Sí, borrar</button><button class="mini-btn" data-cancel style="color:var(--mute)">No</button>`
-      :`<button class="mini-btn" data-plan="${r.pts}">Usar en el plan</button><button class="mini-btn" data-ask="${key}" style="color:var(--mute)">Borrar</button>`}</td></tr>`}).join("");
+      :`<button class="mini-btn" data-plan="${placeOf(r)*100}">Usar en el plan</button><button class="mini-btn" data-ask="${key}" style="color:var(--mute)">Borrar</button>`}</td></tr>`}).join("");
 }
 $("resBody").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;
   if(b.dataset.plan){S.startPts=+b.dataset.plan;S.target=Math.max(S.target,Math.min(5,lvOf(S.startPts).i+1));render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})}
@@ -1057,17 +1062,15 @@ function finish(){
   const pts=Math.round(parts.reduce((a,[p,w])=>a+p*w,0)/parts.reduce((a,[,w])=>a+w,0));
   X.result={pts,s,date:Date.now()};
   if(!curStudent())ensureStudent(X.name,X.email);
-  const db=loadDB(),st=db.find(x=>x.id===S.student);st.results.push(X.result);if(st.placed==null)st.placed=lvOf(pts).i;saveDB(db);renderResults();render();
+  const db=loadDB(),st=db.find(x=>x.id===S.student);st.results.push(X.result);if(st.placed==null)st.placed=placeOf(X.result);saveDB(db);renderResults();render();
   go(5);
 }
 function stepResult(){
-  const {pts,s}=X.result,L=lvOf(pts),next=L.i<5?LV[L.i+1].k:null;
-  const msg=L.pct>=85&&next?`Dominas el ${L.pct} % del nivel ${L.k}. Estás muy cerca de pasar a ${next}.`
-    :L.pct<30&&L.i>0?`Ya superaste ${LV[L.i-1].k} y estás empezando ${L.k}: dominas el ${L.pct} % de este nivel.`
-    :`Dominas el ${L.pct} % del nivel ${L.k}.${next?` Tu siguiente meta es ${next}.`:""}`;
+  const {pts,s}=X.result,avg=lvOf(pts),pi=placeOf(X.result),L={i:pi,k:LV[pi].k},wk=weakestOf(X.result),next=pi<5?LV[pi+1].k:null;
+  const msg=`Te ubicamos en <b>${L.k}</b>. Tu nivel lo define la habilidad donde más oportunidades de mejora mostraste: <b>${wk.n}</b>${wk.p<0?" (no la presentaste, por eso cuenta como A1)":` (${lvOf(wk.p).k} · ${lvOf(wk.p).pct} %)`}. Tu promedio general fue ${avg.k} · ${avg.pct} %, pero para avanzar necesitas dominar todas las habilidades.${next?` Tu siguiente meta es ${next}.`:""}`;
   const bar=(name,p,c)=>p==null?`<div class="sbar"><div class="shead"><span>${name}</span><span style="color:var(--mute)">No presentado</span></div></div>`
     :`<div class="sbar"><div class="shead"><span>${name}</span><span>${lvOf(p).k} · ${lvOf(p).pct} %</span></div><div class="tr"><i style="width:0;background:${c}" data-w="${p/6}"></i></div><div class="ticks">${LV.map(l=>`<span>${l.k}</span>`).join("")}</div></div>`;
-  body.innerHTML=`<div class="result"><div class="rwho">Resultado de ${esc(X.name)}</div><div class="lv">${L.k} <span>· ${L.pct} %</span></div><p>${msg}</p></div>
+  body.innerHTML=`<div class="result"><div class="rwho">Resultado de ${esc(X.name)}</div><div class="lv">${L.k}</div><p>${msg}</p></div>
     <div class="sbars">${bar("Escucha",s.listen,"var(--sky)")}${bar("Escrito",s.written,"var(--sun)")}${bar("Redacción",s.essay,"var(--mint)")}${bar("Hablado",s.speak,"var(--coral)")}</div>
     <p class="note" style="margin-top:18px">La redacción y la parte hablada se califican con reglas automáticas: son una estimación. Escucha y escrito cuentan 35 % cada uno, redacción 10 % y hablado 20 %. Se descuentan los aciertos que se pueden lograr adivinando.</p>
     <details style="margin-top:20px"><summary style="cursor:pointer;font-weight:700">Ver mis respuestas (${X.ans.listen.length+X.ans.written.length} preguntas)</summary>
@@ -1080,7 +1083,7 @@ function stepResult(){
   requestAnimationFrame(()=>requestAnimationFrame(()=>body.querySelectorAll(".sbar i").forEach(i=>i.style.width=i.dataset.w+"%")));
   if($("again"))$("again").onclick=()=>{newExam();const st=curStudent();if(st){X.name=st.name;X.email=st.email||"";X.step=1};exRender()};
   if($("toLevel"))$("toLevel").onclick=()=>{X.forced=false;openLevel(placedOf(curStudent())??L.i)};
-  $("toPlan").onclick=()=>{S.startPts=pts;S.target=Math.max(S.target,Math.min(5,L.i+1));closeExam();render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})};
+  $("toPlan").onclick=()=>{S.startPts=L.i*100;S.target=Math.max(S.target,Math.min(5,L.i+1));closeExam();render();$("plan").scrollIntoView({behavior:reduce?"auto":"smooth"})};
 }
 
 /* ================= estudiante actual ================= */
@@ -1102,7 +1105,7 @@ const ADMIN_MAIL_HASH="98bf758e";
 const mailHash=m=>{let h=2166136261;for(const c of String(m||"").trim().toLowerCase()){h^=c.charCodeAt(0);h=Math.imul(h,16777619)>>>0}return h.toString(16)};
 const isAdmin=st=>!!st&&!!st.email&&mailHash(st.email)===ADMIN_MAIL_HASH;
 const reviewMode=()=>isAdmin(curStudent());
-function placedOf(st){if(!st)return null;if(st.placed!=null)return st.placed;const r=(st.results||[]).slice().sort((a,b)=>a.date-b.date)[0];return r?lvOf(r.pts).i:null}
+function placedOf(st){if(!st)return null;const r=(st.results||[]).slice().sort((a,b)=>a.date-b.date)[0];return r?placeOf(r):(st.placed!=null?st.placed:null)}
 const mustPlace=()=>LOCK_LEVELS&&!reviewMode()&&!!curStudent()&&placedOf(curStudent())==null;
 function unlocked(i){if(!LOCK_LEVELS||reviewMode())return true;const st=curStudent(),pl=placedOf(st);if(pl==null)return false;if(i<=pl)return true;
   return !!(st.prog&&st.prog[(i-1)+"-final"]&&st.prog[(i-1)+"-final"].passed)}
@@ -1750,7 +1753,7 @@ function sylLevelHome(L){
         <span class="sday">${s.type==="lesson"?`Día ${s.day}`:"Quiz"}</span>
         <span class="stitle"><b>${esc(s.title)}</b>${s.type==="lesson"?`<small>${esc(sy.units[ui].lessons[s.k].goal)}${sy.units[ui].lessons[s.k].reading!=null?" · incluye lectura":""}</small>`:`<small>Escritura (gramática y una redacción corta), escucha y habla sobre los temas de la unidad</small>`}</span>
         ${pill(s.key)}</button>`).join("")}${xpOf(L,ui)?`<button class="srow xp" data-xp="${ui}"><span class="sday">Extra</span><span class="stitle"><b>Práctica extra · escucha y conversación</b><small>${xpOf(L,ui).length} ejercicios: audios largos, responder hablando con tus propias palabras y pronunciación. Opcional, pero muy recomendada.</small></span>${pill(xpKey(L,ui))}</button>`:""}</section>`).join("")}
-    <section class="unit final"><button class="srow final${stepOpen(L,finKey(L))?"":" locked"}" data-key="${finKey(L)}"><span class="sday">Final</span><span class="stitle"><b>Examen final ${LV[L].k}</b><small>Una pregunta de cada una de las ${sylSteps(L).filter(s=>s.type==="lesson").length} lecciones, escucha de cada unidad, habla y redacción. Con ${sy.final.pass} % apruebas el nivel.</small></span>${pill(finKey(L))}</button></section>
+    <section class="unit final"><button class="srow final${stepOpen(L,finKey(L))?"":" locked"}" data-key="${finKey(L)}"><span class="sday">Final</span><span class="stitle"><b>Examen final ${LV[L].k}</b><small>Una pregunta de cada una de las ${sylSteps(L).filter(s=>s.type==="lesson").length} lecciones, escucha de cada unidad, habla y redacción. Con ${Math.max(sy.final.pass||0,PASS)} % apruebas el nivel.</small></span>${pill(finKey(L))}</button></section>
     <h3 style="font-size:24px;margin:34px 0 14px">Recursos del nivel</h3>
     <div class="tiles">
       <button class="tile" style="background:#C9E6FF" id="tRead"><b>Lecturas</b><span>Escucha los textos, toca cada palabra para ver su significado y califica tu pronunciación.</span><small>${rs.length} lecturas</small></button>

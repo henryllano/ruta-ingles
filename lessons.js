@@ -13905,7 +13905,7 @@ window.SYLLABUS = {
    ],
    "perLesson": true,
    "listenPerUnit": 1,
-   "pass": 70
+   "pass": 85
   }
  },
  "1": {
@@ -27732,7 +27732,7 @@ window.SYLLABUS = {
   ],
   "final": {
    "listenPerUnit": 1,
-   "pass": 70,
+   "pass": 85,
    "extra": [
     {
      "t": "listen",
@@ -42593,7 +42593,7 @@ window.SYLLABUS = {
   ],
   "final": {
    "listenPerUnit": 1,
-   "pass": 70,
+   "pass": 85,
    "extra": [
     {
      "t": "listen",
@@ -57822,7 +57822,7 @@ window.SYLLABUS = {
   ],
   "final": {
    "listenPerUnit": 1,
-   "pass": 70,
+   "pass": 85,
    "extra": [
     {
      "t": "listen",
@@ -73135,7 +73135,7 @@ window.SYLLABUS = {
   ],
   "final": {
    "listenPerUnit": 1,
-   "pass": 70,
+   "pass": 85,
    "extra": [
     {
      "t": "listen",
@@ -88673,7 +88673,7 @@ window.SYLLABUS = {
   ],
   "final": {
    "listenPerUnit": 1,
-   "pass": 70,
+   "pass": 85,
    "extra": [
     {
      "t": "listen",

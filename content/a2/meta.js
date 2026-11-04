@@ -10,6 +10,6 @@ module.exports = {
       {t:"write",q:"Escribe un correo a un amigo (mínimo 60 palabras): cuéntale algo que hiciste el mes pasado, una experiencia que nunca has tenido y tus planes para las próximas vacaciones.",min:60,keys:[["last","ago","yesterday"],["have never","haven't","have you ever","i've"],["going to","will"],["because","but","so"]]}
     ],
     listenPerUnit: 1,
-    pass: 70
+    pass: 85
   }
 };

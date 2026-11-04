@@ -10,6 +10,6 @@ module.exports = {
       {t:"write",q:"Escribe una reseña crítica o un ensayo (mínimo 180 palabras) sobre una obra, política o fenómeno social: contextualiza, analiza con precisión léxica, usa al menos un recurso retórico (inversión, antítesis o pregunta retórica), matiza tus juicios y concluye con una valoración personal fundamentada.",min:180,keys:[["were it not","had it not","seldom","little did","not until"],["albeit","notwithstanding","be that as it may","insofar as"],["arguably","ostensibly","purportedly","by and large"],["ultimately","in the final analysis","on balance","all told"]]}
     ],
     listenPerUnit: 1,
-    pass: 70
+    pass: 85
   }
 };
