@@ -63,5 +63,25 @@ In the evening, the friends go home. Sara is tired, but it is her best birthday 
 `My name is Gloria. I'm forty-five and I'm a lawyer. I study English online three times a week: on Mondays, Wednesdays and Fridays. My class starts at seven in the evening and finishes at eight.
 I study at home, in my small office. I have a computer, headphones and a notebook. My teacher is Mark. He lives in London, but he teaches students from many countries. There are six students in my class. They are from Colombia, Mexico, Brazil, Japan and Italy.
 In the class, we read, write, listen and speak. We learn new words and we play games. Mark always asks questions: "What do you do on weekends?" "What's your favourite film?" I'm a little nervous when I speak, but Mark is very patient.
-After the class, I do my homework and I listen to English songs. My children speak English very well and they help me. English is not easy, but I'm learning a lot and I'm happy.`}
+After the class, I do my homework and I listen to English songs. My children speak English very well and they help me. English is not easy, but I'm learning a lot and I'm happy.`},
+{title:"A Weekend in Cartagena", es:"Un fin de semana en Cartagena · Lectura extra", text:
+`Last month, Hernán and his wife Marcela went to Cartagena for a long weekend. They live in Bogotá, so they went by plane. The flight took only one hour and a half. They arrived at the airport at noon and took a taxi to their hotel in the old city.
+The hotel was small and beautiful. At reception, Hernán said, "Hello, I have a reservation for three nights." The receptionist was very friendly. Their room was on the second floor and it had a big window. Breakfast was included, and there was a small pool on the roof.
+On the first night, there was a problem. The air conditioning didn't work, and it was very hot. Hernán called reception and said, "Excuse me, the air conditioning in room 204 doesn't work." Ten minutes later, a man came and fixed it.
+During the day, they walked around the old city, visited the castle and ate fried fish and coconut rice. In the evening, they watched the sunset on the city wall. Marcela was very happy. "Let's come back next year," she said. Hernán smiled. "Good idea!"`},
+{title:"A Bad Day", es:"Un mal día · Lectura extra", text:
+`Yesterday was a bad day for Ricardo. He woke up with a terrible headache and a sore throat. He felt hot and very tired. He looked at the clock: it was eight o'clock! He was late for work.
+He called his boss. "Hello, this is Ricardo. I'm so sorry, I'm sick today. I have a fever and a sore throat." His boss was very nice. "Don't worry, Ricardo. Stay at home and rest. Can you send me the report tomorrow?" "Yes, of course," said Ricardo.
+Then he went to the pharmacy near his apartment. The pharmacist asked, "What's the matter?" Ricardo explained his problem. She gave him some tablets and a syrup. "Take one tablet every eight hours and drink a lot of water," she said. Ricardo didn't understand everything, so he said, "Sorry, can you repeat that, please?" She repeated it slowly.
+Ricardo went back home, took the medicine and slept all afternoon. In the evening his sister called him. "How do you feel?" she asked. "Much better, thanks," he said. "But I'm very hungry!"`},
+{title:"Last Saturday", es:"El sábado pasado · Lectura extra", text:
+`Last Saturday was a busy day for the Moreno family. Mrs. Moreno got up at six and made breakfast for everybody: eggs, arepas and hot chocolate. Then the family went to the market. They bought a lot of fruit, two kilos of potatoes, a chicken and some vegetables.
+In the afternoon, Mr. Moreno cleaned the car and the children played in the park with their friends. Mrs. Moreno cooked a big sancocho. At four o'clock, their grandparents came to visit. They brought a cake because it was the grandfather's birthday. He was seventy years old.
+Everybody ate the sancocho and the cake. After that, they listened to music and danced in the living room. The grandfather danced with all his grandchildren. Then they looked at old family photos. "I met your grandmother at a party like this one," he said. "We danced all night."
+The grandparents left at ten. The children were very tired and they slept very well. Mrs. Moreno looked at her husband. "It was a long day," she said, "but it was a very happy day."`},
+{title:"Plans for the Holidays", es:"Planes para las vacaciones · Lectura extra", text:
+`It's the end of November, and Daniela is very excited. Her holidays start in two weeks, and she has a lot of plans.
+First, she's going to visit her parents in Manizales. She's going to travel by bus because she loves the mountains. She's going to stay there for a week. Her mother is going to make her favourite food, and they are going to visit the coffee farms near the city.
+After that, she's going to meet her friends in Santa Marta. They're going to rent a small house near the beach. They aren't going to cook a lot. "Let's eat out every night," said her friend Juana. "Why don't we visit Tayrona Park too?" said Daniela. Everybody said, "Good idea!"
+Daniela also has a plan for next year. She's going to study English every day, because she wants a better job. "Would you like to study with me?" she asked her brother. "I'd love to," he said. "But not in the holidays!"`}
 ];

@@ -817,6 +817,286 @@ window.READINGS = [
      "model": "I'm learning English because I want a better job. I study every night with this course and I listen to songs in English."
     }
    ]
+  },
+  {
+   "title": "A Weekend in Cartagena",
+   "es": "Un fin de semana en Cartagena · Lectura extra",
+   "text": "Last month, Hernán and his wife Marcela went to Cartagena for a long weekend. They live in Bogotá, so they went by plane. The flight took only one hour and a half. They arrived at the airport at noon and took a taxi to their hotel in the old city. The hotel was small and beautiful. At reception, Hernán said, \"Hello, I have a reservation for three nights.\" The receptionist was very friendly. Their room was on the second floor and it had a big window. Breakfast was included, and there was a small pool on the roof. On the first night, there was a problem. The air conditioning didn't work, and it was very hot. Hernán called reception and said, \"Excuse me, the air conditioning in room 204 doesn't work.\" Ten minutes later, a man came and fixed it. During the day, they walked around the old city, visited the castle and ate fried fish and coconut rice. In the evening, they watched the sunset on the city wall. Marcela was very happy. \"Let's come back next year,\" she said. Hernán smiled. \"Good idea!\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo viajaron a Cartagena?",
+     "o": [
+      "En avión",
+      "En bus",
+      "En carro",
+      "En barco"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué problema tuvieron la primera noche?",
+     "o": [
+      "No funcionaba el aire acondicionado",
+      "No había agua",
+      "La habitación estaba sucia",
+      "Perdieron la llave"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué comieron?",
+     "o": [
+      "Pescado frito y arroz con coco",
+      "Ajiaco",
+      "Bandeja paisa",
+      "Pizza"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Let's come back next year, she said. Good idea!",
+     "q": "¿Qué propone Marcela?",
+     "o": [
+      "Volver el próximo año",
+      "Quedarse más días",
+      "Cambiar de hotel",
+      "Ir a la playa"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about a trip you took: where you went, how you travelled and where you stayed.",
+     "min": 15,
+     "keys": [
+      [
+       "went",
+       "travelled",
+       "traveled",
+       "stayed"
+      ],
+      [
+       "by",
+       "hotel",
+       "house"
+      ]
+     ],
+     "model": "Last year I went to Santa Marta by bus. I stayed in a small hotel near the beach and I ate a lot of fish."
+    }
+   ]
+  },
+  {
+   "title": "A Bad Day",
+   "es": "Un mal día · Lectura extra",
+   "text": "Yesterday was a bad day for Ricardo. He woke up with a terrible headache and a sore throat. He felt hot and very tired. He looked at the clock: it was eight o'clock! He was late for work. He called his boss. \"Hello, this is Ricardo. I'm so sorry, I'm sick today. I have a fever and a sore throat.\" His boss was very nice. \"Don't worry, Ricardo. Stay at home and rest. Can you send me the report tomorrow?\" \"Yes, of course,\" said Ricardo. Then he went to the pharmacy near his apartment. The pharmacist asked, \"What's the matter?\" Ricardo explained his problem. She gave him some tablets and a syrup. \"Take one tablet every eight hours and drink a lot of water,\" she said. Ricardo didn't understand everything, so he said, \"Sorry, can you repeat that, please?\" She repeated it slowly. Ricardo went back home, took the medicine and slept all afternoon. In the evening his sister called him. \"How do you feel?\" she asked. \"Much better, thanks,\" he said. \"But I'm very hungry!\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué le pasaba a Ricardo?",
+     "o": [
+      "Tenía dolor de cabeza, de garganta y fiebre",
+      "Le dolía la espalda",
+      "Tenía dolor de muela",
+      "Se cayó"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le pidió el jefe?",
+     "o": [
+      "Enviar el informe mañana",
+      "Ir a la oficina",
+      "Llamar a un cliente",
+      "Ir al médico"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cada cuánto debe tomar las pastillas?",
+     "o": [
+      "Cada ocho horas",
+      "Cada hora",
+      "Una vez al día",
+      "Cada doce horas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Sorry, can you repeat that, please? She repeated it slowly.",
+     "q": "¿Qué hizo la farmaceuta?",
+     "o": [
+      "Repitió despacio",
+      "Llamó al médico",
+      "Le dio más pastillas",
+      "Escribió una nota"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about the last time you were sick: what was the matter and what did you do?",
+     "min": 15,
+     "keys": [
+      [
+       "i had",
+       "i was"
+      ],
+      [
+       "headache",
+       "cold",
+       "fever",
+       "sore throat",
+       "stomachache",
+       "sick"
+      ]
+     ],
+     "model": "Last month I had a cold and a fever. I stayed in bed, I drank a lot of water and I took some medicine."
+    }
+   ]
+  },
+  {
+   "title": "Last Saturday",
+   "es": "El sábado pasado · Lectura extra",
+   "text": "Last Saturday was a busy day for the Moreno family. Mrs. Moreno got up at six and made breakfast for everybody: eggs, arepas and hot chocolate. Then the family went to the market. They bought a lot of fruit, two kilos of potatoes, a chicken and some vegetables. In the afternoon, Mr. Moreno cleaned the car and the children played in the park with their friends. Mrs. Moreno cooked a big sancocho. At four o'clock, their grandparents came to visit. They brought a cake because it was the grandfather's birthday. He was seventy years old. Everybody ate the sancocho and the cake. After that, they listened to music and danced in the living room. The grandfather danced with all his grandchildren. Then they looked at old family photos. \"I met your grandmother at a party like this one,\" he said. \"We danced all night.\" The grandparents left at ten. The children were very tired and they slept very well. Mrs. Moreno looked at her husband. \"It was a long day,\" she said, \"but it was a very happy day.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué hizo la señora Moreno de desayuno?",
+     "o": [
+      "Huevos, arepas y chocolate",
+      "Pancakes",
+      "Pan con mantequilla",
+      "Fruta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué trajeron una torta los abuelos?",
+     "o": [
+      "Era el cumpleaños del abuelo",
+      "Era Navidad",
+      "Era el cumpleaños de un nieto",
+      "Era un aniversario"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿A qué hora se fueron los abuelos?",
+     "o": [
+      "A las diez",
+      "A las cuatro",
+      "A las seis",
+      "A medianoche"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I met your grandmother at a party like this one. We danced all night.",
+     "q": "¿Dónde conoció el abuelo a la abuela?",
+     "o": [
+      "En una fiesta",
+      "En el trabajo",
+      "En la universidad",
+      "En el mercado"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What did you do last Saturday? Say at least four things.",
+     "min": 15,
+     "keys": [
+      [
+       "went",
+       "had",
+       "ate",
+       "saw",
+       "visited",
+       "watched",
+       "cooked",
+       "played",
+       "cleaned",
+       "got up",
+       "made",
+       "bought"
+      ]
+     ],
+     "model": "Last Saturday I got up at eight, I cleaned the house, I went to the supermarket and in the evening I watched a movie with my wife."
+    }
+   ]
+  },
+  {
+   "title": "Plans for the Holidays",
+   "es": "Planes para las vacaciones · Lectura extra",
+   "text": "It's the end of November, and Daniela is very excited. Her holidays start in two weeks, and she has a lot of plans. First, she's going to visit her parents in Manizales. She's going to travel by bus because she loves the mountains. She's going to stay there for a week. Her mother is going to make her favourite food, and they are going to visit the coffee farms near the city. After that, she's going to meet her friends in Santa Marta. They're going to rent a small house near the beach. They aren't going to cook a lot. \"Let's eat out every night,\" said her friend Juana. \"Why don't we visit Tayrona Park too?\" said Daniela. Everybody said, \"Good idea!\" Daniela also has a plan for next year. She's going to study English every day, because she wants a better job. \"Would you like to study with me?\" she asked her brother. \"I'd love to,\" he said. \"But not in the holidays!\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo va a viajar Daniela a Manizales?",
+     "o": [
+      "En bus",
+      "En avión",
+      "En carro",
+      "En moto"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué van a hacer en Santa Marta?",
+     "o": [
+      "Alquilar una casa cerca de la playa",
+      "Quedarse en un hotel",
+      "Cocinar todas las noches",
+      "Visitar a sus papás"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué va a estudiar inglés?",
+     "o": [
+      "Porque quiere un mejor trabajo",
+      "Porque va a viajar",
+      "Porque su hermano estudia",
+      "Porque es fácil"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Would you like to study with me? I'd love to, he said. But not in the holidays!",
+     "q": "¿Qué responde el hermano?",
+     "o": [
+      "Que sí, pero no en vacaciones",
+      "Que no quiere",
+      "Que ya estudia",
+      "Que mañana"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What are you going to do in your next holidays?",
+     "min": 15,
+     "keys": [
+      [
+       "going to"
+      ]
+     ],
+     "model": "In my next holidays I'm going to visit my parents. We're going to cook together and I'm going to rest a lot."
+    }
+   ]
   }
  ],
  [

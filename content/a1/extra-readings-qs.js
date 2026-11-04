@@ -84,5 +84,33 @@ module.exports = [
  M("¿Quién ayuda a Gloria con el inglés?", ["Sus hijos", "Su esposo", "Su jefe", "Nadie"], 0),
  L("I'm a little nervous when I speak, but Mark is very patient.", "¿Cómo es Mark?", ["Muy paciente", "Muy serio", "Muy estricto", "Impaciente"], 0),
  T("Why are you learning English, and how do you study?", 15, [["because"], ["i study", "i listen", "i practise", "i practice"]], "I'm learning English because I want a better job. I study every night with this course and I listen to songs in English.")
+],
+[ /* A Weekend in Cartagena */
+ M("¿Cómo viajaron a Cartagena?", ["En avión", "En bus", "En carro", "En barco"], 0),
+ M("¿Qué problema tuvieron la primera noche?", ["No funcionaba el aire acondicionado", "No había agua", "La habitación estaba sucia", "Perdieron la llave"], 0),
+ M("¿Qué comieron?", ["Pescado frito y arroz con coco", "Ajiaco", "Bandeja paisa", "Pizza"], 0),
+ L("Let's come back next year, she said. Good idea!", "¿Qué propone Marcela?", ["Volver el próximo año", "Quedarse más días", "Cambiar de hotel", "Ir a la playa"], 0),
+ T("Talk about a trip you took: where you went, how you travelled and where you stayed.", 15, [["went", "travelled", "traveled", "stayed"], ["by", "hotel", "house"]], "Last year I went to Santa Marta by bus. I stayed in a small hotel near the beach and I ate a lot of fish.")
+],
+[ /* A Bad Day */
+ M("¿Qué le pasaba a Ricardo?", ["Tenía dolor de cabeza, de garganta y fiebre", "Le dolía la espalda", "Tenía dolor de muela", "Se cayó"], 0),
+ M("¿Qué le pidió el jefe?", ["Enviar el informe mañana", "Ir a la oficina", "Llamar a un cliente", "Ir al médico"], 0),
+ M("¿Cada cuánto debe tomar las pastillas?", ["Cada ocho horas", "Cada hora", "Una vez al día", "Cada doce horas"], 0),
+ L("Sorry, can you repeat that, please? She repeated it slowly.", "¿Qué hizo la farmaceuta?", ["Repitió despacio", "Llamó al médico", "Le dio más pastillas", "Escribió una nota"], 0),
+ T("Talk about the last time you were sick: what was the matter and what did you do?", 15, [["i had", "i was"], ["headache", "cold", "fever", "sore throat", "stomachache", "sick"]], "Last month I had a cold and a fever. I stayed in bed, I drank a lot of water and I took some medicine.")
+],
+[ /* Last Saturday */
+ M("¿Qué hizo la señora Moreno de desayuno?", ["Huevos, arepas y chocolate", "Pancakes", "Pan con mantequilla", "Fruta"], 0),
+ M("¿Por qué trajeron una torta los abuelos?", ["Era el cumpleaños del abuelo", "Era Navidad", "Era el cumpleaños de un nieto", "Era un aniversario"], 0),
+ M("¿A qué hora se fueron los abuelos?", ["A las diez", "A las cuatro", "A las seis", "A medianoche"], 0),
+ L("I met your grandmother at a party like this one. We danced all night.", "¿Dónde conoció el abuelo a la abuela?", ["En una fiesta", "En el trabajo", "En la universidad", "En el mercado"], 0),
+ T("What did you do last Saturday? Say at least four things.", 15, [["went", "had", "ate", "saw", "visited", "watched", "cooked", "played", "cleaned", "got up", "made", "bought"]], "Last Saturday I got up at eight, I cleaned the house, I went to the supermarket and in the evening I watched a movie with my wife.")
+],
+[ /* Plans for the Holidays */
+ M("¿Cómo va a viajar Daniela a Manizales?", ["En bus", "En avión", "En carro", "En moto"], 0),
+ M("¿Qué van a hacer en Santa Marta?", ["Alquilar una casa cerca de la playa", "Quedarse en un hotel", "Cocinar todas las noches", "Visitar a sus papás"], 0),
+ M("¿Por qué va a estudiar inglés?", ["Porque quiere un mejor trabajo", "Porque va a viajar", "Porque su hermano estudia", "Porque es fácil"], 0),
+ L("Would you like to study with me? I'd love to, he said. But not in the holidays!", "¿Qué responde el hermano?", ["Que sí, pero no en vacaciones", "Que no quiere", "Que ya estudia", "Que mañana"], 0),
+ T("What are you going to do in your next holidays?", 15, [["going to"]], "In my next holidays I'm going to visit my parents. We're going to cook together and I'm going to rest a lot.")
 ]
 ];

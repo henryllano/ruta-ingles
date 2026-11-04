@@ -122,7 +122,7 @@
   {
    "area": "Gramática",
    "tema": "Presente simple vs. presente continuo",
-   "titulo": "simple (vs|o|y) continuo|contraste",
+   "titulo": "simple (vs|o|y) (presente )?continuo|contraste",
    "buscar": [
     "\\busually\\b.{0,60}\\b(but|now|today)\\b.{0,30}\\b(am|is|are) [a-z]+ing\\b"
    ],

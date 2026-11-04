@@ -20,9 +20,7 @@ plate | plato | Put the plates on the table. | Cocina
 fork | tenedor | I need a fork. | Cocina
 knife | cuchillo | Be careful with the knife. | Cocina
 bowl | tazón, bol | A bowl of rice. | Cocina
-potato | papa | Potatoes are cheap here. | Comida
 tomato | tomate | Tomatoes are red. | Comida
-onion | cebolla | I hate onions. | Comida
 carrot | zanahoria | Rabbits eat carrots. | Comida
 banana | banano | Bananas are yellow. | Comida
 pineapple | piña | This pineapple is sweet. | Comida
@@ -43,17 +41,11 @@ coat | abrigo | A warm coat. | Ropa
 hat | sombrero, gorro | A hat for the sun. | Ropa
 cap | gorra | He always wears a cap. | Ropa
 face | cara | Wash your face. | Cuerpo
-eye | ojo | He has blue eyes. | Cuerpo
-ear | oreja, oído | My ear hurts. | Cuerpo
-nose | nariz | A small nose. | Cuerpo
-mouth | boca | Open your mouth, please. | Cuerpo
 tooth | diente | Brush your teeth. | Cuerpo
 teeth | dientes | She has white teeth. | Cuerpo
-neck | cuello | A long neck. | Cuerpo
 finger | dedo (de la mano) | Five fingers. | Cuerpo
 foot | pie | My foot hurts. | Cuerpo
 feet | pies | My feet are cold. | Cuerpo
-sore throat | dolor de garganta | She has a sore throat. | Salud
 dentist | dentista | I go to the dentist twice a year. | Trabajos
 lawyer | abogado | My sister is a lawyer. | Trabajos
 waiter | mesero | The waiter is very fast. | Trabajos
@@ -75,12 +67,8 @@ internet | internet | The internet is slow today. | Tecnología
 camera | cámara | A digital camera. | Tecnología
 bakery | panadería | The bakery is on the corner. | Ciudad
 cinema | cine | Let's go to the cinema. | Ciudad
-airport | aeropuerto | The airport is far. | Ciudad
-hotel | hotel | A cheap hotel. | Ciudad
 post office | oficina de correo | Where is the post office? | Ciudad
 motorbike | moto | He has a motorbike. | Transporte
-train | tren | The train is fast. | Transporte
-plane | avión | The plane leaves at six. | Transporte
 boat | barco, bote | A small boat. | Transporte
 bird | pájaro | A bird in the tree. | Animales
 horse | caballo | A white horse. | Animales
@@ -107,7 +95,6 @@ football | fútbol | I play football. | Deportes y ocio
 basketball | baloncesto | He plays basketball. | Deportes y ocio
 tennis | tenis | Tennis on Saturdays. | Deportes y ocio
 gym | gimnasio | I go to the gym. | Deportes y ocio
-game | juego, partido | A football game. | Deportes y ocio
 song | canción | My favourite song. | Deportes y ocio
 guitar | guitarra | She plays the guitar. | Deportes y ocio
 piano | piano | He plays the piano. | Deportes y ocio
@@ -123,7 +110,6 @@ pencil | lápiz | A pencil and a rubber. | Estudio
 lesson | lección, clase | The lesson starts at seven. | Estudio
 question | pregunta | Any questions? | Estudio
 answer | respuesta | The answer is correct. | Estudio
-word | palabra | A new word. | Estudio
 university | universidad | She studies at the university. | Estudio
 evening | noche (temprano) | In the evening I watch TV. | Tiempo
 minute | minuto | Wait a minute. | Tiempo
@@ -149,9 +135,6 @@ rain (verb) | llover | It rains a lot in April. | Clima
 fat | gordo | A fat cat. | Personas
 ugly | feo | An ugly building. | Personas
 kind | amable | She is very kind. | Personalidad
-angry | enojado | My boss is angry. | Sentimientos
-bored | aburrido | I'm bored. | Sentimientos
-nervous | nervioso | I'm nervous. | Sentimientos
 afraid | asustado | I'm afraid of dogs. | Sentimientos
 fast | rápido | A fast car. | Cosas
 slow | lento | The internet is slow. | Cosas
@@ -187,10 +170,8 @@ without | sin | Coffee without sugar. | Conectores
 "Expresiones": `
 Nice to meet you. | Mucho gusto. | Hi, I'm Ana. Nice to meet you. | Saludos
 See you later! | ¡Hasta luego! | Bye! See you later! | Saludos
-Excuse me. | Disculpe. | Excuse me, where is the bank? | Cortesía
 I'm sorry. | Lo siento. | I'm sorry, I'm late. | Cortesía
 You're welcome. | De nada. | Thank you! — You're welcome. | Cortesía
-No problem. | No hay problema. | Sorry! — No problem. | Cortesía
 How do you say...? | ¿Cómo se dice...? | How do you say "mesa" in English? | Clase
 What does it mean? | ¿Qué significa? | "Trolley"? What does it mean? | Clase
 Can I pay by card? | ¿Puedo pagar con tarjeta? | Can I pay by card? — Yes, of course. | Compras
@@ -206,17 +187,12 @@ I don't know. | No sé. | Where is Ana? — I don't know. | Básicos
 "Sustantivos": `
 suitcase | maleta | My suitcase is very heavy. | Viajes
 backpack | mochila | I travel with a backpack. | Viajes
-gate | puerta de embarque | The flight leaves from gate 12. | Viajes
 customs | aduana | We went through customs. | Viajes
 tourist | turista | The city is full of tourists. | Viajes
 guide | guía | Our guide spoke three languages. | Viajes
 tour | recorrido, gira | We took a tour of the old town. | Viajes
 sightseeing | turismo, visitar lugares | We went sightseeing in Rome. | Viajes
-souvenir | recuerdo (objeto) | I bought a souvenir for my mum. | Viajes
-reservation | reserva | I have a reservation for two nights. | Viajes
-reception | recepción | Ask at reception. | Hotel
 lobby | vestíbulo | We waited in the lobby. | Hotel
-towel | toalla | Can I have an extra towel? | Hotel
 swimsuit | vestido de baño | I forgot my swimsuit. | Playa
 sun cream | bloqueador solar | Put on some sun cream. | Playa
 sunburn | quemadura de sol | I got a terrible sunburn. | Playa
@@ -284,7 +260,6 @@ costume | disfraz, traje típico | A colourful costume. | Ocio
 mask | máscara | A carnival mask. | Ocio
 theatre | teatro | We went to the theatre. | Ocio
 exhibition | exposición | An art exhibition. | Ocio
-series | serie | My favourite series. | Ocio
 channel | canal | Change the channel. | Ocio
 programme | programa | A TV programme. | Ocio
 app | aplicación | A useful app. | Tecnología
@@ -382,7 +357,6 @@ brave | valiente | You're very brave. | Personalidad
 generous (person) | generoso (persona) | My uncle is generous. | Personalidad
 selfish | egoísta | Don't be selfish. | Personalidad
 proud | orgulloso | I'm proud of you. | Sentimientos
-excited | emocionado | I'm excited about the trip. | Sentimientos
 surprised | sorprendido | I was surprised. | Sentimientos
 relaxed | relajado | I feel relaxed. | Sentimientos
 upset | molesto, disgustado | She's upset. | Sentimientos
@@ -628,7 +602,6 @@ rewarding | gratificante | A rewarding experience. | Trabajo
 satisfying | satisfactorio | Satisfying work. | Trabajo
 hybrid | híbrido | A hybrid model. | Trabajo
 ambitious | ambicioso | She's very ambitious. | Personalidad
-mean | tacaño; malo | Don't be mean. | Personalidad
 moody | temperamental | Teenagers can be moody. | Personalidad
 easy-going | relajado, tranquilo | My dad is easy-going. | Personalidad
 grateful | agradecido | I'm grateful for your help. | Sentimientos

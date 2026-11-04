@@ -4857,4 +4857,18 @@ distinctively | - | adverbio | característicamente | Distinctively human.
 overcame | overcome | verbo (pasado) | superó | She overcame her fear of flying.
 teeth | tooth | sustantivo (plural) | dientes | Brush your teeth.
 undertook | undertake | verbo (pasado) | emprendió, llevó a cabo | The firm undertook a complete restructuring.
+marcela | - | nombre propio | Marcela (nombre de mujer) | Marcela was very happy.
+conditioning | air conditioning | sustantivo | (air conditioning) aire acondicionado | The air conditioning doesn't work.
+castle | - | sustantivo | castillo | They visited the castle.
+let's | let us | expresión | hagamos…, vamos a… (sugerencia) | Let's come back next year.
+clock | - | sustantivo | reloj (de pared o despertador) | He looked at the clock.
+tablet | - | sustantivo | pastilla; tableta (aparato) | Take one tablet every eight hours.
+moreno | - | nombre propio | Moreno (apellido) | The Moreno family went to the market.
+sancocho | - | sustantivo | sancocho (sopa colombiana) | She cooked a big sancocho.
+grandfather's | grandfather | sustantivo (posesivo) | del abuelo | It was the grandfather's birthday.
+she's | she is | contracción | ella es, ella está; (she has) ella ha | She's going to visit her parents.
+manizales | - | nombre propio | Manizales (ciudad de Colombia) | Her parents live in Manizales.
+aren't | are not | contracción | no son, no están | They aren't going to cook a lot.
+juana | - | nombre propio | Juana (nombre de mujer) | Her friend Juana said yes.
+tayrona | - | nombre propio | Tayrona (parque nacional de Colombia) | Let's visit Tayrona Park.
 `;

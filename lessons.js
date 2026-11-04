@@ -5,7 +5,7 @@
 */
 window.SYLLABUS = {
  "0": {
-  "intro": "En 30 lecciones (6 unidades de 5 días) vas a aprender a presentarte y deletrear tus datos, describir a tu familia, contar tu rutina, pedir comida y comprar ropa, moverte por tu ciudad, hablar del clima y de tu tiempo libre. Estudia una lección por día (unos 40 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
+  "intro": "En 40 lecciones (8 unidades de 5 días) vas a aprender a presentarte y deletrear tus datos, describir a tu familia, contar tu rutina, pedir comida y comprar ropa, moverte por tu ciudad, hablar del clima y de tu tiempo libre, viajar y quedarte en un hotel, decir qué te duele, hablar por teléfono, contar lo que hiciste y explicar tus planes. Estudia una lección por día (unos 40 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
   "units": [
    {
     "title": "Hola, ¿quién eres?",
@@ -13211,7 +13211,7 @@ window.SYLLABUS = {
         "p": "Palabras de tiempo pasado: **yesterday** (ayer), **last week** (la semana pasada), **last year**, **two days ago** (hace dos días)."
        },
        {
-        "tip": "Este tema es el puente hacia A2, donde aprenderás el pasado de todos los verbos."
+        "tip": "Este tema es el puente hacia la Unidad 8, donde aprenderás el pasado de todos los verbos: worked, went, ate…"
        }
       ],
       "reading": 5,
@@ -13862,6 +13862,5140 @@ window.SYLLABUS = {
       "text": "Right now I'm reading a book."
      }
     ]
+   },
+   {
+    "title": "Viajes, salud y el día a día",
+    "lessons": [
+     {
+      "title": "Transporte y comprar un tiquete",
+      "goal": "Decir cómo te mueves, comprar un tiquete y preguntar horarios.",
+      "theory": [
+       {
+        "p": "Para decir **cómo** vas a un lugar usa **by** + transporte, sin artículo: **by bus**, **by car**, **by train**, **by plane**, **by bike**, **by taxi**. A pie es **on foot**."
+       },
+       {
+        "ex": [
+         [
+          "How do you get to work?",
+          "¿Cómo llegas al trabajo?"
+         ],
+         [
+          "I go to work by bus.",
+          "Voy al trabajo en bus."
+         ],
+         [
+          "My wife goes on foot.",
+          "Mi esposa va a pie."
+         ],
+         [
+          "It takes about forty minutes.",
+          "Se demora unos cuarenta minutos."
+         ],
+         [
+          "I take the subway at seven.",
+          "Tomo el metro a las siete."
+         ]
+        ]
+       },
+       {
+        "p": "En la terminal o en el aeropuerto: **A one-way ticket to Medellín, please** (solo ida) o **a round-trip ticket** (ida y regreso). Para los horarios: **What time does the bus leave?** — **It leaves at 9:15.** · **What time does it arrive?** — **It arrives at 6 p.m.**"
+       },
+       {
+        "ex": [
+         [
+          "A round-trip ticket to Cali, please.",
+          "Un tiquete de ida y regreso a Cali, por favor."
+         ],
+         [
+          "What time does the next bus leave?",
+          "¿A qué hora sale el próximo bus?"
+         ],
+         [
+          "Which gate is it?",
+          "¿Qué puerta es?"
+         ],
+         [
+          "The train is late.",
+          "El tren está retrasado."
+         ],
+         [
+          "The plane is on time.",
+          "El avión está a tiempo."
+         ]
+        ]
+       },
+       {
+        "tip": "Nunca digas «by the bus» ni «by foot». Lo correcto es **by bus** y **on foot**. Con **take** sí va el artículo: **I take the bus**."
+       }
+      ],
+      "words": [
+       "bus",
+       "ticket",
+       "leave",
+       "arrive",
+       "airport"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I go to work ___ bus.",
+        "o": [
+         "by",
+         "in",
+         "with",
+         "on"
+        ],
+        "a": 0,
+        "x": "Transporte: by + medio, sin artículo."
+       },
+       {
+        "t": "mc",
+        "q": "—What time does the bus ___? —At 7:30.",
+        "o": [
+         "leave",
+         "leaves",
+         "leaving",
+         "to leave"
+        ],
+        "a": 0,
+        "x": "Después de does, el verbo va sin -s."
+       },
+       {
+        "t": "mc",
+        "q": "A ___ ticket is for going and coming back.",
+        "o": [
+         "round-trip",
+         "one-way",
+         "late",
+         "next"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "How do I ___ to the airport? (llegar)",
+        "ans": [
+         "get"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The bus to Cali leaves at ten fifteen from gate number four.",
+        "q": "¿De qué puerta sale el bus?",
+        "o": [
+         "4",
+         "5",
+         "14",
+         "10"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "A round-trip ticket to Medellín, please."
+       }
+      ],
+      "id": "a1-transporte-y-tiquetes",
+      "exam": {
+       "t": "mc",
+       "q": "I go to the university ___ subway.",
+       "o": [
+        "by",
+        "in the",
+        "with",
+        "on"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "A ___ ticket to Cartagena, please. (solo ida)",
+       "ans": [
+        "one-way",
+        "one way"
+       ]
+      },
+      "vocab": [
+       [
+        "bus",
+        "sustantivo",
+        "bus",
+        "I go to work by bus."
+       ],
+       [
+        "train",
+        "sustantivo",
+        "tren",
+        "The train leaves at eight."
+       ],
+       [
+        "plane",
+        "sustantivo",
+        "avión",
+        "We go to Cartagena by plane."
+       ],
+       [
+        "subway",
+        "sustantivo",
+        "metro (en EE. UU.)",
+        "I take the subway every day."
+       ],
+       [
+        "taxi",
+        "sustantivo",
+        "taxi",
+        "Let's take a taxi."
+       ],
+       [
+        "bike",
+        "sustantivo",
+        "bicicleta",
+        "My son goes to school by bike."
+       ],
+       [
+        "motorcycle",
+        "sustantivo",
+        "moto",
+        "He has a red motorcycle."
+       ],
+       [
+        "on foot",
+        "expresión",
+        "a pie",
+        "I go to the gym on foot."
+       ],
+       [
+        "ticket",
+        "sustantivo",
+        "tiquete, boleto",
+        "How much is the ticket?"
+       ],
+       [
+        "one-way ticket",
+        "expresión",
+        "tiquete de solo ida",
+        "A one-way ticket to Cali, please."
+       ],
+       [
+        "round-trip ticket",
+        "expresión",
+        "tiquete de ida y regreso",
+        "I need a round-trip ticket."
+       ],
+       [
+        "bus station",
+        "sustantivo",
+        "terminal de buses",
+        "The bus station is very big."
+       ],
+       [
+        "bus stop",
+        "sustantivo",
+        "paradero",
+        "The bus stop is near my house."
+       ],
+       [
+        "airport",
+        "sustantivo",
+        "aeropuerto",
+        "The airport is far from the city."
+       ],
+       [
+        "gate",
+        "sustantivo",
+        "puerta (de embarque o de salida)",
+        "The bus leaves from gate four."
+       ],
+       [
+        "leave",
+        "verbo",
+        "salir, partir",
+        "The bus leaves at nine."
+       ],
+       [
+        "arrive",
+        "verbo",
+        "llegar",
+        "We arrive in Medellín at six."
+       ],
+       [
+        "take",
+        "verbo",
+        "tomar (un bus, un taxi); demorarse",
+        "It takes two hours."
+       ],
+       [
+        "get to",
+        "verbo",
+        "llegar a",
+        "How do I get to the airport?"
+       ],
+       [
+        "late",
+        "adjetivo",
+        "tarde, retrasado",
+        "The plane is late."
+       ],
+       [
+        "on time",
+        "expresión",
+        "a tiempo, puntual",
+        "The train is on time."
+       ],
+       [
+        "next",
+        "adjetivo",
+        "próximo, siguiente",
+        "The next bus is at ten."
+       ],
+       [
+        "seat",
+        "sustantivo",
+        "puesto, asiento",
+        "Window seat, please."
+       ],
+       [
+        "luggage",
+        "sustantivo",
+        "equipaje",
+        "I have a lot of luggage."
+       ]
+      ],
+      "dialogue": {
+       "title": "En la terminal de buses",
+       "scene": "Mauricio está en la terminal de Bogotá y quiere viajar a Medellín para visitar a su hermana.",
+       "a": "Mauricio",
+       "b": "Vendedora",
+       "lines": [
+        [
+         "A",
+         "Good morning. I need a ticket to Medellín, please.",
+         "Buenos días. Necesito un tiquete a Medellín, por favor."
+        ],
+        [
+         "B",
+         "One-way or round-trip?",
+         "¿Solo ida o ida y regreso?"
+        ],
+        [
+         "A",
+         "Round-trip, please. I'm coming back on Sunday.",
+         "Ida y regreso, por favor. Regreso el domingo."
+        ],
+        [
+         "B",
+         "OK. What time do you want to leave?",
+         "Bien. ¿A qué hora quiere salir?"
+        ],
+        [
+         "A",
+         "What time does the next bus leave?",
+         "¿A qué hora sale el próximo bus?"
+        ],
+        [
+         "B",
+         "The next bus leaves at ten fifteen.",
+         "El próximo bus sale a las diez y cuarto."
+        ],
+        [
+         "A",
+         "Perfect. What time does it arrive in Medellín?",
+         "Perfecto. ¿A qué hora llega a Medellín?"
+        ],
+        [
+         "B",
+         "It arrives at about six in the evening. It takes eight hours.",
+         "Llega a eso de las seis de la tarde. Se demora ocho horas."
+        ],
+        [
+         "A",
+         "How much is the ticket?",
+         "¿Cuánto cuesta el tiquete?"
+        ],
+        [
+         "B",
+         "It's one hundred and forty thousand pesos.",
+         "Son ciento cuarenta mil pesos."
+        ],
+        [
+         "A",
+         "Can I have a window seat?",
+         "¿Me puede dar un puesto en la ventana?"
+        ],
+        [
+         "B",
+         "Sure. Seat number twelve. The bus leaves from gate five.",
+         "Claro. Puesto número doce. El bus sale por la puerta cinco."
+        ],
+        [
+         "A",
+         "Thank you very much!",
+         "¡Muchas gracias!"
+        ],
+        [
+         "B",
+         "You're welcome. Have a good trip!",
+         "Con gusto. ¡Buen viaje!"
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "How",
+         "do",
+         "you",
+         "get",
+         "to",
+         "work?"
+        ],
+        "es": "¿Cómo llegas al trabajo?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "train",
+         "leaves",
+         "at",
+         "eight",
+         "o'clock."
+        ],
+        "es": "El tren sale a las ocho."
+       },
+       {
+        "t": "dict",
+        "say": "A one-way ticket to Cali, please."
+       },
+       {
+        "t": "dict",
+        "say": "Where is the bus stop?"
+       },
+       {
+        "t": "mc",
+        "q": "I don't have a car. I go to work ___.",
+        "o": [
+         "on foot",
+         "by foot",
+         "in foot",
+         "with foot"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The plane ___ in Bogotá at 6 p.m.",
+        "o": [
+         "arrives",
+         "arrive",
+         "arriving",
+         "is arrive"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Excuse me, is this the bus to the airport? No, it isn't. You need bus number twelve.",
+        "q": "¿Qué bus necesita?",
+        "o": [
+         "El 12",
+         "El 2",
+         "El 20",
+         "El 21"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Cuenta cómo vas al trabajo o a estudiar: qué transporte usas, cuánto te demoras y a qué hora sales (mínimo 25 palabras).",
+        "min": 25,
+        "keys": [
+         [
+          "by",
+          "on foot"
+         ],
+         [
+          "bus",
+          "car",
+          "bike",
+          "train",
+          "taxi",
+          "subway",
+          "metro",
+          "motorcycle",
+          "foot"
+         ],
+         [
+          "leave",
+          "go",
+          "take"
+         ],
+         [
+          "minutes",
+          "hour"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "En el hotel",
+      "goal": "Registrarte en un hotel, pedir cosas y resolver un problema sencillo.",
+      "theory": [
+       {
+        "p": "Al llegar a la recepción (**reception**) dices **I have a reservation** (tengo una reserva). Te van a pedir **your name** y **your passport**. Una habitación para una persona es **a single room**; para dos, **a double room**."
+       },
+       {
+        "ex": [
+         [
+          "Hello, I have a reservation for two nights.",
+          "Hola, tengo una reserva para dos noches."
+         ],
+         [
+          "Can I have your passport, please?",
+          "¿Me permite su pasaporte, por favor?"
+         ],
+         [
+          "Your room is on the third floor.",
+          "Su habitación está en el tercer piso."
+         ],
+         [
+          "Here is your key.",
+          "Aquí está su llave."
+         ],
+         [
+          "Breakfast is included.",
+          "El desayuno está incluido."
+         ]
+        ]
+       },
+       {
+        "p": "Para pedir algo con cortesía usa **Can I have…?** o **Could I have…?**: **Could I have an extra towel, please?** Para preguntar: **What time is breakfast?** · **What time is check-out?** · **What's the Wi-Fi password?** Si algo falla: **The air conditioning doesn't work.**"
+       },
+       {
+        "ex": [
+         [
+          "What time is breakfast?",
+          "¿A qué hora es el desayuno?"
+         ],
+         [
+          "What's the Wi-Fi password?",
+          "¿Cuál es la clave del wifi?"
+         ],
+         [
+          "Could I have an extra towel, please?",
+          "¿Me podría dar una toalla extra, por favor?"
+         ],
+         [
+          "The shower doesn't work.",
+          "La ducha no funciona."
+         ],
+         [
+          "Check-out is at noon.",
+          "La salida es a mediodía."
+         ]
+        ]
+       },
+       {
+        "tip": "**I want a towel** suena brusco en inglés. Pide siempre con **Can I have…?** o **Could I have…, please?**"
+       }
+      ],
+      "words": [
+       "hotel",
+       "reservation",
+       "room",
+       "key",
+       "breakfast"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Hello, I ___ a reservation for two nights.",
+        "o": [
+         "have",
+         "am",
+         "do",
+         "make"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A room for one person is a ___ room.",
+        "o": [
+         "single",
+         "double",
+         "one",
+         "alone"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "___ I have an extra towel, please?",
+        "o": [
+         "Could",
+         "Do",
+         "Am",
+         "Want"
+        ],
+        "a": 0,
+        "x": "Para pedir con cortesía: Could I have…?"
+       },
+       {
+        "t": "fill",
+        "q": "What's the Wi-Fi ___? (clave)",
+        "ans": [
+         "password"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Your room is 308, on the third floor. Breakfast is from seven to ten.",
+        "q": "¿En qué piso está la habitación?",
+        "o": [
+         "En el tercero",
+         "En el octavo",
+         "En el segundo",
+         "En el primero"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Hello, I have a reservation. My name is Carlos Ruiz."
+       }
+      ],
+      "id": "a1-en-el-hotel",
+      "exam": {
+       "t": "mc",
+       "q": "What time is ___? I want to leave the hotel early.",
+       "o": [
+        "check-out",
+        "check-in",
+        "reception",
+        "reservation"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "___ I have an extra pillow, please? (podría)",
+       "ans": [
+        "could",
+        "can"
+       ]
+      },
+      "vocab": [
+       [
+        "hotel",
+        "sustantivo",
+        "hotel",
+        "The hotel is near the beach."
+       ],
+       [
+        "reservation",
+        "sustantivo",
+        "reserva",
+        "I have a reservation."
+       ],
+       [
+        "reception",
+        "sustantivo",
+        "recepción",
+        "Ask at reception."
+       ],
+       [
+        "receptionist",
+        "sustantivo",
+        "recepcionista",
+        "The receptionist is very friendly."
+       ],
+       [
+        "single room",
+        "expresión",
+        "habitación sencilla",
+        "I need a single room."
+       ],
+       [
+        "double room",
+        "expresión",
+        "habitación doble",
+        "We have a double room."
+       ],
+       [
+        "night",
+        "sustantivo",
+        "noche",
+        "Two nights, please."
+       ],
+       [
+        "key",
+        "sustantivo",
+        "llave",
+        "Here is your key."
+       ],
+       [
+        "floor",
+        "sustantivo",
+        "piso (de un edificio)",
+        "My room is on the fifth floor."
+       ],
+       [
+        "elevator",
+        "sustantivo",
+        "ascensor",
+        "The elevator is on the left."
+       ],
+       [
+        "stairs",
+        "sustantivo",
+        "escaleras",
+        "Take the stairs."
+       ],
+       [
+        "towel",
+        "sustantivo",
+        "toalla",
+        "Could I have a towel?"
+       ],
+       [
+        "shower",
+        "sustantivo",
+        "ducha",
+        "The shower is very small."
+       ],
+       [
+        "air conditioning",
+        "sustantivo",
+        "aire acondicionado",
+        "The air conditioning doesn't work."
+       ],
+       [
+        "passport",
+        "sustantivo",
+        "pasaporte",
+        "Can I see your passport?"
+       ],
+       [
+        "check in",
+        "verbo",
+        "registrarse (al llegar)",
+        "We check in at three."
+       ],
+       [
+        "check out",
+        "verbo",
+        "entregar la habitación (al salir)",
+        "What time do we check out?"
+       ],
+       [
+        "included",
+        "adjetivo",
+        "incluido",
+        "Breakfast is included."
+       ],
+       [
+        "Wi-Fi password",
+        "expresión",
+        "clave del wifi",
+        "What's the Wi-Fi password?"
+       ],
+       [
+        "noon",
+        "sustantivo",
+        "mediodía",
+        "Check-out is at noon."
+       ],
+       [
+        "Could I have…?",
+        "expresión",
+        "¿Me podría dar…?",
+        "Could I have the key, please?"
+       ],
+       [
+        "work",
+        "verbo",
+        "funcionar (una máquina)",
+        "The TV doesn't work."
+       ],
+       [
+        "pool",
+        "sustantivo",
+        "piscina",
+        "Is there a pool?"
+       ]
+      ],
+      "dialogue": {
+       "title": "Llegada al hotel en Cartagena",
+       "scene": "Patricia llega con su esposo a un hotel en Cartagena. Habla con el recepcionista.",
+       "a": "Patricia",
+       "b": "Recepcionista",
+       "lines": [
+        [
+         "B",
+         "Good afternoon. Welcome to Hotel Las Palmas.",
+         "Buenas tardes. Bienvenidos al Hotel Las Palmas."
+        ],
+        [
+         "A",
+         "Good afternoon. I have a reservation. My name is Patricia Vargas.",
+         "Buenas tardes. Tengo una reserva. Me llamo Patricia Vargas."
+        ],
+        [
+         "B",
+         "Yes, Mrs. Vargas. A double room for three nights. Can I have your passport, please?",
+         "Sí, señora Vargas. Una habitación doble por tres noches. ¿Me permite su pasaporte?"
+        ],
+        [
+         "A",
+         "Here you are.",
+         "Aquí tiene."
+        ],
+        [
+         "B",
+         "Thank you. Your room is 405, on the fourth floor. Here is your key.",
+         "Gracias. Su habitación es la 405, en el cuarto piso. Aquí está su llave."
+        ],
+        [
+         "A",
+         "Thanks. Is breakfast included?",
+         "Gracias. ¿El desayuno está incluido?"
+        ],
+        [
+         "B",
+         "Yes, it is. Breakfast is from six thirty to ten in the restaurant.",
+         "Sí. El desayuno es de seis y media a diez en el restaurante."
+        ],
+        [
+         "A",
+         "Great. And what's the Wi-Fi password?",
+         "Genial. ¿Y cuál es la clave del wifi?"
+        ],
+        [
+         "B",
+         "It's 'palmas2024', all in small letters.",
+         "Es «palmas2024», todo en minúscula."
+        ],
+        [
+         "A",
+         "What time is check-out?",
+         "¿A qué hora es la salida?"
+        ],
+        [
+         "B",
+         "Check-out is at noon. The elevator is on the right.",
+         "La salida es a mediodía. El ascensor está a la derecha."
+        ],
+        [
+         "A",
+         "Thank you. Oh, could I have two extra towels for the pool?",
+         "Gracias. Ah, ¿me podría dar dos toallas extra para la piscina?"
+        ],
+        [
+         "B",
+         "Of course. Here you are. Enjoy your stay!",
+         "Claro. Aquí tiene. ¡Disfrute su estadía!"
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "time",
+         "is",
+         "breakfast?"
+        ],
+        "es": "¿A qué hora es el desayuno?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "air",
+         "conditioning",
+         "doesn't",
+         "work."
+        ],
+        "es": "El aire acondicionado no funciona."
+       },
+       {
+        "t": "dict",
+        "say": "Could I have the key, please?"
+       },
+       {
+        "t": "dict",
+        "say": "Check-out is at noon."
+       },
+       {
+        "t": "mc",
+        "q": "—Is breakfast included? —Yes, it ___.",
+        "o": [
+         "is",
+         "does",
+         "has",
+         "are"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The shower ___ work. Can you help me?",
+        "o": [
+         "doesn't",
+         "don't",
+         "isn't",
+         "not"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Excuse me, the TV in my room doesn't work. It's room two oh six.",
+        "q": "¿Cuál es el problema?",
+        "o": [
+         "El televisor no funciona",
+         "La ducha no funciona",
+         "No hay toallas",
+         "La llave no sirve"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un mensaje corto a un hotel (mínimo 25 palabras): di que quieres una habitación, para cuántas personas y noches, y pregunta por el desayuno o el wifi.",
+        "min": 25,
+        "keys": [
+         [
+          "room"
+         ],
+         [
+          "night",
+          "nights"
+         ],
+         [
+          "breakfast",
+          "wi-fi",
+          "wifi",
+          "pool"
+         ],
+         [
+          "could",
+          "can",
+          "please",
+          "would like",
+          "i'd like"
+         ]
+        ]
+       }
+      ],
+      "reading": 18
+     },
+     {
+      "title": "El cuerpo y la salud",
+      "goal": "Nombrar partes del cuerpo, decir qué te duele y pedir algo en la droguería.",
+      "theory": [
+       {
+        "p": "Partes del cuerpo: **head** (cabeza), **eyes** (ojos), **ears** (orejas), **nose** (nariz), **mouth** (boca), **teeth** (dientes), **neck** (cuello), **back** (espalda), **arm** (brazo), **hand** (mano), **leg** (pierna), **foot** (pie; plural **feet**), **stomach** (estómago)."
+       },
+       {
+        "p": "Para decir qué te duele hay dos formas: **I have a headache / a stomachache / a toothache / a sore throat / a cold / a fever** o **My back hurts / My feet hurt**. La pregunta típica es **What's the matter?** (¿Qué te pasa?)."
+       },
+       {
+        "ex": [
+         [
+          "What's the matter?",
+          "¿Qué te pasa?"
+         ],
+         [
+          "I have a headache.",
+          "Me duele la cabeza."
+         ],
+         [
+          "My back hurts.",
+          "Me duele la espalda."
+         ],
+         [
+          "I have a cold and a sore throat.",
+          "Tengo gripa y dolor de garganta."
+         ],
+         [
+          "I feel sick.",
+          "Me siento mal / tengo náuseas."
+         ]
+        ]
+       },
+       {
+        "p": "Consejos sencillos con imperativo: **Take this medicine** (tómate esta medicina), **Drink a lot of water**, **Stay in bed**, **Go to the doctor**. En la droguería: **Do you have something for a headache?**"
+       },
+       {
+        "tip": "En inglés el dolor se dice con **my**: **My head hurts** (no «the head hurts me»). Y **I have a cold** es «tengo gripa», no «tengo frío» (eso es **I'm cold**)."
+       }
+      ],
+      "words": [
+       "head",
+       "back",
+       "headache",
+       "doctor",
+       "medicine"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "—What's the ___? —I have a headache.",
+        "o": [
+         "matter",
+         "problem you",
+         "pain",
+         "sick"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "My feet ___ after the long walk.",
+        "o": [
+         "hurt",
+         "hurts",
+         "are hurt",
+         "pain"
+        ],
+        "a": 0,
+        "x": "Feet es plural: My feet hurt."
+       },
+       {
+        "t": "mc",
+        "q": "I have a ___. My throat hurts.",
+        "o": [
+         "sore throat",
+         "headache",
+         "stomachache",
+         "toothache"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I can't eat. I have a ___. (dolor de muela)",
+        "ans": [
+         "toothache"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I have a fever and my stomach hurts. I think I need a doctor.",
+        "q": "¿Qué le duele?",
+        "o": [
+         "El estómago",
+         "La cabeza",
+         "La espalda",
+         "Los pies"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I have a cold and a sore throat."
+       }
+      ],
+      "id": "a1-el-cuerpo-y-la-salud",
+      "exam": {
+       "t": "mc",
+       "q": "I can't work today. My head ___.",
+       "o": [
+        "hurts",
+        "hurt",
+        "is hurt",
+        "pains"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "I have a ___ and a fever. I need to stay in bed. (gripa)",
+       "ans": [
+        "cold"
+       ]
+      },
+      "vocab": [
+       [
+        "head",
+        "sustantivo",
+        "cabeza",
+        "My head hurts."
+       ],
+       [
+        "eye",
+        "sustantivo",
+        "ojo",
+        "She has blue eyes."
+       ],
+       [
+        "ear",
+        "sustantivo",
+        "oreja, oído",
+        "I have a pain in my ear."
+       ],
+       [
+        "nose",
+        "sustantivo",
+        "nariz",
+        "My nose is red."
+       ],
+       [
+        "mouth",
+        "sustantivo",
+        "boca",
+        "Open your mouth, please."
+       ],
+       [
+        "tooth / teeth",
+        "sustantivo",
+        "diente / dientes",
+        "Brush your teeth."
+       ],
+       [
+        "neck",
+        "sustantivo",
+        "cuello",
+        "My neck hurts."
+       ],
+       [
+        "back",
+        "sustantivo",
+        "espalda",
+        "I have a bad back."
+       ],
+       [
+        "arm",
+        "sustantivo",
+        "brazo",
+        "He broke his arm."
+       ],
+       [
+        "hand",
+        "sustantivo",
+        "mano",
+        "Wash your hands."
+       ],
+       [
+        "leg",
+        "sustantivo",
+        "pierna",
+        "My legs are tired."
+       ],
+       [
+        "foot / feet",
+        "sustantivo",
+        "pie / pies",
+        "My feet hurt."
+       ],
+       [
+        "stomach",
+        "sustantivo",
+        "estómago",
+        "My stomach hurts."
+       ],
+       [
+        "headache",
+        "sustantivo",
+        "dolor de cabeza",
+        "I have a headache."
+       ],
+       [
+        "stomachache",
+        "sustantivo",
+        "dolor de estómago",
+        "She has a stomachache."
+       ],
+       [
+        "toothache",
+        "sustantivo",
+        "dolor de muela",
+        "I have a toothache."
+       ],
+       [
+        "sore throat",
+        "expresión",
+        "dolor de garganta",
+        "I have a sore throat."
+       ],
+       [
+        "a cold",
+        "expresión",
+        "gripa, resfriado",
+        "I have a cold."
+       ],
+       [
+        "fever",
+        "sustantivo",
+        "fiebre",
+        "He has a fever."
+       ],
+       [
+        "hurt",
+        "verbo",
+        "doler",
+        "My back hurts."
+       ],
+       [
+        "What's the matter?",
+        "expresión",
+        "¿Qué te pasa?",
+        "You look tired. What's the matter?"
+       ],
+       [
+        "medicine",
+        "sustantivo",
+        "medicina, medicamento",
+        "Take this medicine twice a day."
+       ],
+       [
+        "pharmacy",
+        "sustantivo",
+        "droguería, farmacia",
+        "Is there a pharmacy near here?"
+       ],
+       [
+        "sick",
+        "adjetivo",
+        "enfermo; con náuseas",
+        "I feel sick."
+       ]
+      ],
+      "dialogue": {
+       "title": "En la droguería",
+       "scene": "Andrés está de viaje en Miami y se siente mal. Entra a una farmacia.",
+       "a": "Andrés",
+       "b": "Farmaceuta",
+       "lines": [
+        [
+         "B",
+         "Hi. Can I help you?",
+         "Hola. ¿Le puedo ayudar?"
+        ],
+        [
+         "A",
+         "Yes, please. I don't feel very well.",
+         "Sí, por favor. No me siento muy bien."
+        ],
+        [
+         "B",
+         "What's the matter?",
+         "¿Qué le pasa?"
+        ],
+        [
+         "A",
+         "I have a headache and a sore throat.",
+         "Me duele la cabeza y la garganta."
+        ],
+        [
+         "B",
+         "Do you have a fever?",
+         "¿Tiene fiebre?"
+        ],
+        [
+         "A",
+         "I don't know. I feel hot, and my back hurts too.",
+         "No sé. Me siento caliente y también me duele la espalda."
+        ],
+        [
+         "B",
+         "Maybe you have a cold. Take these tablets. Take one every eight hours.",
+         "Tal vez tiene gripa. Tómese estas pastillas. Una cada ocho horas."
+        ],
+        [
+         "A",
+         "Every eight hours. OK. Do you have something for my throat?",
+         "Cada ocho horas. Bien. ¿Tiene algo para la garganta?"
+        ],
+        [
+         "B",
+         "Yes. This syrup is very good. Take one spoon after meals.",
+         "Sí. Este jarabe es muy bueno. Una cucharada después de las comidas."
+        ],
+        [
+         "A",
+         "Thank you. How much is it?",
+         "Gracias. ¿Cuánto es?"
+        ],
+        [
+         "B",
+         "That's fourteen dollars and fifty cents.",
+         "Son catorce dólares con cincuenta centavos."
+        ],
+        [
+         "B",
+         "And drink a lot of water and stay in bed today.",
+         "Y tome mucha agua y quédese en cama hoy."
+        ],
+        [
+         "A",
+         "Thanks a lot. Have a nice day!",
+         "Muchas gracias. ¡Que tenga un buen día!"
+        ],
+        [
+         "B",
+         "You too. I hope you feel better soon.",
+         "Igualmente. Ojalá se mejore pronto."
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "My",
+         "back",
+         "hurts",
+         "a",
+         "lot."
+        ],
+        "es": "Me duele mucho la espalda."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Do",
+         "you",
+         "have",
+         "something",
+         "for",
+         "a",
+         "headache?"
+        ],
+        "es": "¿Tiene algo para el dolor de cabeza?"
+       },
+       {
+        "t": "dict",
+        "say": "Take this medicine every eight hours."
+       },
+       {
+        "t": "dict",
+        "say": "I feel sick."
+       },
+       {
+        "t": "mc",
+        "q": "One foot, two ___.",
+        "o": [
+         "feet",
+         "foots",
+         "feets",
+         "foot"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "You have a fever. ___ in bed today.",
+        "o": [
+         "Stay",
+         "Stays",
+         "Staying",
+         "You stay to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Drink a lot of water, take this medicine after breakfast and go to the doctor if you feel worse.",
+        "q": "¿Cuándo debe tomar la medicina?",
+        "o": [
+         "Después del desayuno",
+         "Antes de dormir",
+         "Cada hora",
+         "Antes del almuerzo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Imagina que estás enfermo. Escribe un mensaje a tu jefe o profesor (mínimo 25 palabras): di qué te duele, cómo te sientes y que no puedes ir hoy.",
+        "min": 25,
+        "keys": [
+         [
+          "i have",
+          "hurts",
+          "hurt"
+         ],
+         [
+          "headache",
+          "fever",
+          "cold",
+          "sore throat",
+          "stomachache",
+          "back",
+          "head",
+          "stomach"
+         ],
+         [
+          "can't",
+          "cannot"
+         ],
+         [
+          "today",
+          "tomorrow"
+         ]
+        ]
+       }
+      ],
+      "reading": 19
+     },
+     {
+      "title": "Cómo te sientes y pedir disculpas",
+      "goal": "Decir cómo te sientes, preguntar a otros y disculparte con naturalidad.",
+      "theory": [
+       {
+        "p": "Los estados y sentimientos se dicen con **be** + adjetivo: **I'm hungry** (tengo hambre), **I'm thirsty** (tengo sed), **I'm tired** (estoy cansado), **I'm sleepy** (tengo sueño), **I'm cold / hot** (tengo frío / calor), **I'm happy, sad, bored, nervous, worried, angry**."
+       },
+       {
+        "ex": [
+         [
+          "How do you feel today?",
+          "¿Cómo te sientes hoy?"
+         ],
+         [
+          "I'm a bit tired.",
+          "Estoy un poco cansado."
+         ],
+         [
+          "Are you hungry?",
+          "¿Tienes hambre?"
+         ],
+         [
+          "She's nervous because she has an exam.",
+          "Ella está nerviosa porque tiene un examen."
+         ],
+         [
+          "We're bored. Let's go out!",
+          "Estamos aburridos. ¡Salgamos!"
+         ]
+        ]
+       },
+       {
+        "p": "Disculparse: **Sorry I'm late** (perdón por llegar tarde), **I'm so sorry**, **Sorry about that**. Responder: **No problem**, **That's OK**, **Don't worry**. Para llamar la atención o pasar entre la gente se usa **Excuse me**."
+       },
+       {
+        "ex": [
+         [
+          "Sorry I'm late. The traffic was terrible.",
+          "Perdón por la demora. El tráfico estaba terrible."
+         ],
+         [
+          "Don't worry. We have time.",
+          "Tranquilo. Tenemos tiempo."
+         ],
+         [
+          "I'm so sorry! Are you OK?",
+          "¡Lo siento mucho! ¿Estás bien?"
+         ],
+         [
+          "Excuse me, is this seat free?",
+          "Disculpe, ¿este puesto está libre?"
+         ],
+         [
+          "That's OK. No problem.",
+          "Está bien. No hay problema."
+         ]
+        ]
+       },
+       {
+        "tip": "En español «tengo hambre, frío, sueño», pero en inglés es **be**: **I'm hungry, I'm cold, I'm sleepy**. Decir «I have hunger» o «I have cold» es un error típico."
+       }
+      ],
+      "words": [
+       "hungry",
+       "tired",
+       "sorry",
+       "nervous",
+       "worry"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I'm ___. Can I have a glass of water?",
+        "o": [
+         "thirsty",
+         "hungry",
+         "sleepy",
+         "bored"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "En español «tengo frío». En inglés:",
+        "o": [
+         "I'm cold.",
+         "I have cold.",
+         "I have a cold.",
+         "I'm a cold."
+        ],
+        "a": 0,
+        "x": "I have a cold es «tengo gripa»."
+       },
+       {
+        "t": "mc",
+        "q": "—Sorry I'm late. —___",
+        "o": [
+         "Don't worry.",
+         "You're welcome.",
+         "Excuse me.",
+         "Nice to meet you."
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "She's ___ because her son is sick. (preocupada)",
+        "ans": [
+         "worried"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I'm very excited because tomorrow we're going to the beach.",
+        "q": "¿Cómo se siente?",
+        "o": [
+         "Emocionada",
+         "Aburrida",
+         "Triste",
+         "Enojada"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Sorry I'm late. The traffic was terrible."
+       }
+      ],
+      "id": "a1-sentimientos-y-disculpas",
+      "exam": {
+       "t": "mc",
+       "q": "It's very late and I want to go to bed. I'm ___.",
+       "o": [
+        "sleepy",
+        "hungry",
+        "thirsty",
+        "excited"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "En inglés, «tengo hambre» es:",
+       "o": [
+        "I'm hungry.",
+        "I have hungry.",
+        "I have hunger.",
+        "I'm hunger."
+       ],
+       "a": 0
+      },
+      "vocab": [
+       [
+        "hungry",
+        "adjetivo",
+        "con hambre",
+        "I'm hungry. Let's eat."
+       ],
+       [
+        "thirsty",
+        "adjetivo",
+        "con sed",
+        "Are you thirsty?"
+       ],
+       [
+        "tired",
+        "adjetivo",
+        "cansado",
+        "I'm tired after work."
+       ],
+       [
+        "sleepy",
+        "adjetivo",
+        "con sueño",
+        "The baby is sleepy."
+       ],
+       [
+        "cold",
+        "adjetivo",
+        "con frío; frío",
+        "I'm cold. Close the window."
+       ],
+       [
+        "hot",
+        "adjetivo",
+        "con calor; caliente",
+        "I'm hot. Open the window."
+       ],
+       [
+        "happy",
+        "adjetivo",
+        "feliz, contento",
+        "She's very happy today."
+       ],
+       [
+        "sad",
+        "adjetivo",
+        "triste",
+        "Why are you sad?"
+       ],
+       [
+        "bored",
+        "adjetivo",
+        "aburrido (que siente aburrimiento)",
+        "The kids are bored."
+       ],
+       [
+        "nervous",
+        "adjetivo",
+        "nervioso",
+        "I'm nervous about the interview."
+       ],
+       [
+        "worried",
+        "adjetivo",
+        "preocupado",
+        "My mom is worried."
+       ],
+       [
+        "angry",
+        "adjetivo",
+        "enojado, bravo",
+        "My boss is angry."
+       ],
+       [
+        "excited",
+        "adjetivo",
+        "emocionado",
+        "We're excited about the trip."
+       ],
+       [
+        "a bit",
+        "expresión",
+        "un poco",
+        "I'm a bit tired."
+       ],
+       [
+        "How do you feel?",
+        "expresión",
+        "¿Cómo te sientes?",
+        "How do you feel today?"
+       ],
+       [
+        "Sorry I'm late.",
+        "expresión",
+        "Perdón por llegar tarde.",
+        "Sorry I'm late. The bus was slow."
+       ],
+       [
+        "I'm so sorry.",
+        "expresión",
+        "Lo siento mucho.",
+        "I'm so sorry about your phone."
+       ],
+       [
+        "No problem.",
+        "expresión",
+        "No hay problema.",
+        "—Sorry! —No problem."
+       ],
+       [
+        "That's OK.",
+        "expresión",
+        "Está bien, tranquilo.",
+        "That's OK, don't worry."
+       ],
+       [
+        "Don't worry.",
+        "expresión",
+        "No te preocupes.",
+        "Don't worry, it's fine."
+       ],
+       [
+        "Excuse me.",
+        "expresión",
+        "Disculpe / con permiso.",
+        "Excuse me, where is the bank?"
+       ],
+       [
+        "traffic",
+        "sustantivo",
+        "tráfico, trancón",
+        "The traffic is terrible today."
+       ],
+       [
+        "because",
+        "conector",
+        "porque",
+        "I'm happy because it's Friday."
+       ]
+      ],
+      "dialogue": {
+       "title": "Perdón por la demora",
+       "scene": "Juliana espera a su amigo Felipe en un café. Felipe llega veinte minutos tarde.",
+       "a": "Felipe",
+       "b": "Juliana",
+       "lines": [
+        [
+         "A",
+         "Hi, Juliana! Sorry I'm late. The traffic was terrible.",
+         "¡Hola, Juliana! Perdón por la demora. El tráfico estaba terrible."
+        ],
+        [
+         "B",
+         "Don't worry. That's OK. How are you?",
+         "Tranquilo. No pasa nada. ¿Cómo estás?"
+        ],
+        [
+         "A",
+         "I'm a bit tired. I have a lot of work this week.",
+         "Un poco cansado. Tengo mucho trabajo esta semana."
+        ],
+        [
+         "B",
+         "Oh, I'm sorry. Are you hungry?",
+         "Ay, lo siento. ¿Tienes hambre?"
+        ],
+        [
+         "A",
+         "Yes, very! And I'm thirsty too.",
+         "¡Sí, mucha! Y también tengo sed."
+        ],
+        [
+         "B",
+         "Let's order. The sandwiches here are very good.",
+         "Pidamos. Los sándwiches aquí son muy buenos."
+        ],
+        [
+         "A",
+         "Great. And you? How do you feel?",
+         "Genial. ¿Y tú? ¿Cómo te sientes?"
+        ],
+        [
+         "B",
+         "I'm happy, but I'm a bit nervous.",
+         "Estoy feliz, pero un poco nerviosa."
+        ],
+        [
+         "A",
+         "Nervous? Why?",
+         "¿Nerviosa? ¿Por qué?"
+        ],
+        [
+         "B",
+         "Because I have a job interview tomorrow.",
+         "Porque tengo una entrevista de trabajo mañana."
+        ],
+        [
+         "A",
+         "Don't worry. You're very good at your job.",
+         "No te preocupes. Eres muy buena en tu trabajo."
+        ],
+        [
+         "B",
+         "Thanks, Felipe. Oh! I'm so sorry, my coffee is on your phone!",
+         "Gracias, Felipe. ¡Ay! ¡Lo siento mucho, se me cayó el café en tu celular!"
+        ],
+        [
+         "A",
+         "No problem. It's OK. It's only a little coffee.",
+         "No hay problema. Está bien. Es solo un poquito de café."
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I'm",
+         "a",
+         "bit",
+         "tired",
+         "today."
+        ],
+        "es": "Hoy estoy un poco cansado."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Why",
+         "are",
+         "you",
+         "so",
+         "nervous?"
+        ],
+        "es": "¿Por qué estás tan nervioso?"
+       },
+       {
+        "t": "dict",
+        "say": "Don't worry, that's OK."
+       },
+       {
+        "t": "dict",
+        "say": "We're hungry. Let's eat."
+       },
+       {
+        "t": "mc",
+        "q": "The movie is very long. The children are ___.",
+        "o": [
+         "bored",
+         "boring",
+         "bore",
+         "boredom"
+        ],
+        "a": 0,
+        "x": "Bored = cómo te sientes; boring = cómo es algo."
+       },
+       {
+        "t": "mc",
+        "q": "___, is this seat free?",
+        "o": [
+         "Excuse me",
+         "Sorry I'm late",
+         "No problem",
+         "I'm sorry"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Excuse me, I'm so sorry. I think this is my seat. Oh, no problem.",
+        "q": "¿Qué pasa?",
+        "o": [
+         "Alguien está en el puesto de otra persona",
+         "Alguien llega tarde",
+         "Alguien tiene hambre",
+         "Alguien está enfermo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe cómo te sientes hoy y por qué (mínimo 25 palabras). Usa al menos tres adjetivos y because.",
+        "min": 25,
+        "keys": [
+         [
+          "i'm",
+          "i am"
+         ],
+         [
+          "because"
+         ],
+         [
+          "tired",
+          "happy",
+          "sad",
+          "hungry",
+          "thirsty",
+          "nervous",
+          "worried",
+          "bored",
+          "excited",
+          "angry",
+          "sleepy",
+          "cold",
+          "hot"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Hablar por teléfono y cuando no entiendes",
+      "goal": "Hacer una llamada sencilla y pedir que te repitan o te expliquen.",
+      "theory": [
+       {
+        "p": "Cuando no entiendes algo, no te quedes callado. Usa estas frases: **Sorry, I don't understand.** · **Can you repeat that, please?** · **Can you speak more slowly, please?** · **How do you spell that?** · **What does 'busy' mean?** · **How do you say 'cuchara' in English?**"
+       },
+       {
+        "ex": [
+         [
+          "Sorry, can you repeat that, please?",
+          "Perdón, ¿puede repetir, por favor?"
+         ],
+         [
+          "Can you speak more slowly, please?",
+          "¿Puede hablar más despacio, por favor?"
+         ],
+         [
+          "How do you say 'cuchara' in English?",
+          "¿Cómo se dice «cuchara» en inglés?"
+         ],
+         [
+          "What does 'appointment' mean?",
+          "¿Qué significa «appointment»?"
+         ],
+         [
+          "How do you spell your last name?",
+          "¿Cómo se escribe su apellido?"
+         ]
+        ]
+       },
+       {
+        "p": "Al teléfono: para presentarte dices **Hello, this is Laura** (no «I am Laura»). Para pedir a alguien: **Can I speak to Mr. Díaz, please?** Respuestas típicas: **Just a moment, please.** · **He isn't here right now.** · **Can I take a message?** · **Can you call me back?**"
+       },
+       {
+        "ex": [
+         [
+          "Hello, this is Laura Gómez.",
+          "Hola, habla Laura Gómez."
+         ],
+         [
+          "Can I speak to Dr. Ríos, please?",
+          "¿Puedo hablar con la doctora Ríos, por favor?"
+         ],
+         [
+          "Just a moment, please.",
+          "Un momento, por favor."
+         ],
+         [
+          "She isn't here right now. Can I take a message?",
+          "No está en este momento. ¿Quiere dejarle un mensaje?"
+         ],
+         [
+          "My number is 310 555 2468.",
+          "Mi número es 310 555 2468."
+         ]
+        ]
+       },
+       {
+        "tip": "Pedir que te repitan es normal y educado. Hasta los nativos dicen **Sorry?** o **Pardon?** cuando no escuchan bien."
+       }
+      ],
+      "words": [
+       "repeat",
+       "slowly",
+       "call",
+       "message",
+       "understand"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Al teléfono, para presentarte dices: «Hello, ___ Laura.»",
+        "o": [
+         "this is",
+         "I am",
+         "here is",
+         "my name"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Can you speak more ___, please? I don't understand.",
+        "o": [
+         "slowly",
+         "slow",
+         "slower more",
+         "slowing"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "How do you ___ 'cuchara' in English?",
+        "o": [
+         "say",
+         "tell",
+         "speak",
+         "talk"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "What does 'busy' ___? (significa)",
+        "ans": [
+         "mean"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Hello, can I speak to Mr. Torres, please? I'm sorry, he isn't here right now. Can I take a message?",
+        "q": "¿Dónde está el señor Torres?",
+        "o": [
+         "No está en este momento",
+         "Está en una reunión larga",
+         "Está de vacaciones",
+         "Está enfermo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Sorry, can you repeat that, please?"
+       }
+      ],
+      "id": "a1-telefono-y-no-entiendo",
+      "exam": {
+       "t": "mc",
+       "q": "I don't understand. Can you ___ that, please?",
+       "o": [
+        "repeat",
+        "spell me",
+        "mean",
+        "hear"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Hello, ___ is Marta Ruiz. Can I speak to the manager? (habla)",
+       "ans": [
+        "this"
+       ]
+      },
+      "vocab": [
+       [
+        "understand",
+        "verbo",
+        "entender",
+        "Sorry, I don't understand."
+       ],
+       [
+        "repeat",
+        "verbo",
+        "repetir",
+        "Can you repeat that, please?"
+       ],
+       [
+        "slowly",
+        "adverbio",
+        "despacio",
+        "Please speak slowly."
+       ],
+       [
+        "more slowly",
+        "expresión",
+        "más despacio",
+        "Can you speak more slowly?"
+       ],
+       [
+        "spell",
+        "verbo",
+        "deletrear",
+        "How do you spell that?"
+       ],
+       [
+        "mean",
+        "verbo",
+        "significar",
+        "What does 'busy' mean?"
+       ],
+       [
+        "How do you say…?",
+        "expresión",
+        "¿Cómo se dice…?",
+        "How do you say 'mesa' in English?"
+       ],
+       [
+        "Pardon?",
+        "expresión",
+        "¿Perdón? ¿Cómo dijo?",
+        "Pardon? I can't hear you."
+       ],
+       [
+        "call",
+        "verbo",
+        "llamar (por teléfono)",
+        "I call my mother every day."
+       ],
+       [
+        "call back",
+        "verbo",
+        "devolver la llamada",
+        "Can you call me back later?"
+       ],
+       [
+        "This is…",
+        "expresión",
+        "Habla… (al teléfono)",
+        "Hello, this is Carlos."
+       ],
+       [
+        "Can I speak to…?",
+        "expresión",
+        "¿Puedo hablar con…?",
+        "Can I speak to Ana, please?"
+       ],
+       [
+        "Just a moment.",
+        "expresión",
+        "Un momento.",
+        "Just a moment, please."
+       ],
+       [
+        "message",
+        "sustantivo",
+        "mensaje",
+        "Can I take a message?"
+       ],
+       [
+        "take a message",
+        "expresión",
+        "tomar un recado",
+        "She isn't here. Can I take a message?"
+       ],
+       [
+        "right now",
+        "expresión",
+        "en este momento",
+        "He isn't here right now."
+       ],
+       [
+        "busy",
+        "adjetivo",
+        "ocupado",
+        "Sorry, I'm busy right now."
+       ],
+       [
+        "appointment",
+        "sustantivo",
+        "cita (médica, de trabajo)",
+        "I have an appointment at three."
+       ],
+       [
+        "available",
+        "adjetivo",
+        "disponible",
+        "Is the doctor available on Monday?"
+       ],
+       [
+        "phone number",
+        "expresión",
+        "número de teléfono",
+        "What's your phone number?"
+       ],
+       [
+        "hear",
+        "verbo",
+        "oír",
+        "I can't hear you."
+       ],
+       [
+        "word",
+        "sustantivo",
+        "palabra",
+        "What does this word mean?"
+       ]
+      ],
+      "dialogue": {
+       "title": "Pedir una cita por teléfono",
+       "scene": "Gloria llama a un consultorio odontológico en Miami para pedir una cita. La recepcionista habla rápido.",
+       "a": "Gloria",
+       "b": "Recepcionista",
+       "lines": [
+        [
+         "B",
+         "Good morning, Smile Dental Clinic. How can I help you?",
+         "Buenos días, Clínica Dental Smile. ¿En qué le puedo ayudar?"
+        ],
+        [
+         "A",
+         "Hello, this is Gloria Pineda. Can I speak to Dr. Miller, please?",
+         "Hola, habla Gloria Pineda. ¿Puedo hablar con el doctor Miller, por favor?"
+        ],
+        [
+         "B",
+         "I'm sorry, he's busy right now. Can I take a message?",
+         "Lo siento, está ocupado en este momento. ¿Le dejo un mensaje?"
+        ],
+        [
+         "A",
+         "Sorry, I don't understand. Can you speak more slowly, please?",
+         "Perdón, no entiendo. ¿Puede hablar más despacio, por favor?"
+        ],
+        [
+         "B",
+         "Of course. The doctor is busy. Do you want an appointment?",
+         "Claro. El doctor está ocupado. ¿Quiere una cita?"
+        ],
+        [
+         "A",
+         "Yes, please. I have a toothache. What does 'appointment' mean?",
+         "Sí, por favor. Me duele una muela. ¿Qué significa «appointment»?"
+        ],
+        [
+         "B",
+         "An appointment is a time to see the doctor. Is Thursday at ten OK?",
+         "Una cita es una hora para ver al doctor. ¿El jueves a las diez le sirve?"
+        ],
+        [
+         "A",
+         "Thursday at ten is perfect.",
+         "El jueves a las diez es perfecto."
+        ],
+        [
+         "B",
+         "Great. How do you spell your last name?",
+         "Muy bien. ¿Cómo se escribe su apellido?"
+        ],
+        [
+         "A",
+         "P-I-N-E-D-A.",
+         "P-I-N-E-D-A."
+        ],
+        [
+         "B",
+         "And what's your phone number?",
+         "¿Y cuál es su número de teléfono?"
+        ],
+        [
+         "A",
+         "It's 305 555 0198.",
+         "Es 305 555 0198."
+        ],
+        [
+         "B",
+         "Sorry, can you repeat that, please?",
+         "Perdón, ¿puede repetirlo, por favor?"
+        ],
+        [
+         "A",
+         "Sure. Three oh five, five five five, oh one nine eight.",
+         "Claro. Tres cero cinco, cinco cinco cinco, cero uno nueve ocho."
+        ],
+        [
+         "B",
+         "Thank you, Ms. Pineda. See you on Thursday.",
+         "Gracias, señora Pineda. Nos vemos el jueves."
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Can",
+         "I",
+         "speak",
+         "to",
+         "Andrea,",
+         "please?"
+        ],
+        "es": "¿Puedo hablar con Andrea, por favor?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "How",
+         "do",
+         "you",
+         "spell",
+         "your",
+         "name?"
+        ],
+        "es": "¿Cómo se escribe tu nombre?"
+       },
+       {
+        "t": "dict",
+        "say": "Can you call me back later?"
+       },
+       {
+        "t": "dict",
+        "say": "Sorry, I don't understand."
+       },
+       {
+        "t": "mc",
+        "q": "She isn't here right now. Can I take a ___?",
+        "o": [
+         "message",
+         "call",
+         "phone",
+         "number"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "—Can I speak to Dr. Ríos? —Just a ___, please.",
+        "o": [
+         "moment",
+         "minute time",
+         "second time",
+         "little"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Hi, this is Mario. I'm calling about the meeting. Please call me back at three one five, two two four, seven seven zero one.",
+        "q": "¿Qué pide Mario?",
+        "o": [
+         "Que le devuelvan la llamada",
+         "Que cancelen la reunión",
+         "Que le manden un correo",
+         "Que lo esperen"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un diálogo corto de una llamada (mínimo 30 palabras): llamas a una oficina, preguntas por alguien, no entiendes algo y pides que te repitan.",
+        "min": 30,
+        "keys": [
+         [
+          "this is"
+         ],
+         [
+          "can i speak to",
+          "can i talk to"
+         ],
+         [
+          "repeat",
+          "slowly",
+          "don't understand"
+         ],
+         [
+          "message",
+          "call back",
+          "thank you",
+          "thanks"
+         ]
+        ]
+       }
+      ]
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "My husband goes to work ___ car.",
+      "o": [
+       "by",
+       "in",
+       "with",
+       "on"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "—What time does the plane ___? —At 4:45.",
+      "o": [
+       "arrive",
+       "arrives",
+       "arriving",
+       "to arrive"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "___ I have the Wi-Fi password, please?",
+      "o": [
+       "Could",
+       "Do",
+       "Am",
+       "Does"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "My feet ___. I walked a lot today.",
+      "o": [
+       "hurt",
+       "hurts",
+       "are hurt",
+       "pain"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "—Sorry I'm late. —___ We have time.",
+      "o": [
+       "Don't worry.",
+       "You're welcome.",
+       "Excuse me.",
+       "Me too."
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Hello, ___ is Daniel. Can I speak to Paula, please?",
+      "ans": [
+       "this"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "A round-trip ticket to Santa Marta, please. The bus leaves at eleven thirty from gate two.",
+      "q": "¿A qué hora sale el bus?",
+      "o": [
+       "11:30",
+       "12:30",
+       "11:00",
+       "2:00"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "I have a headache and a fever. I think I have a cold. I need to stay in bed today.",
+      "q": "¿Qué va a hacer?",
+      "o": [
+       "Quedarse en cama",
+       "Ir al trabajo",
+       "Ir a la playa",
+       "Ir a la droguería"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Imagina que estás de viaje (mínimo 40 palabras): cuenta cómo llegaste (transporte), cómo es tu hotel, cómo te sientes hoy y algo que no entendiste y cómo lo resolviste.",
+      "min": 40,
+      "keys": [
+       [
+        "by",
+        "on foot"
+       ],
+       [
+        "hotel",
+        "room"
+       ],
+       [
+        "i'm",
+        "i feel",
+        "i am"
+       ],
+       [
+        "repeat",
+        "slowly",
+        "understand",
+        "how do you say",
+        "what does"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "Could I have an extra towel, please? The shower doesn't work."
+     },
+     {
+      "t": "oral",
+      "text": "Sorry, I don't understand. Can you speak more slowly, please?"
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "I don't have a car. I go to the office ___.",
+      "o": [
+       "on foot",
+       "by foot",
+       "in foot",
+       "with my feet"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "A ticket only to go (not back) is a ___ ticket.",
+      "o": [
+       "one-way",
+       "round-trip",
+       "double",
+       "single room"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "A room for two people is a ___ room.",
+      "o": [
+       "double",
+       "single",
+       "two",
+       "twin people"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I have a ___. I need to go to the dentist.",
+      "o": [
+       "toothache",
+       "headache",
+       "sore throat",
+       "fever"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "En inglés, «tengo sueño» es:",
+      "o": [
+       "I'm sleepy.",
+       "I have sleep.",
+       "I'm sleep.",
+       "I have sleepy."
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "—Can I speak to Mr. Gómez? —Sorry, he isn't here. Can I take a ___?",
+      "o": [
+       "message",
+       "call",
+       "number",
+       "moment"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "How do you ___ your last name? (deletrear)",
+      "ans": [
+       "spell"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "The bus is ___. It's 9:30 and it leaves at 9:30. (a tiempo)",
+      "ans": [
+       "on time"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Excuse me, what time is breakfast? Breakfast is from seven to ten in the restaurant on the first floor.",
+      "q": "¿Dónde es el desayuno?",
+      "o": [
+       "En el restaurante del primer piso",
+       "En la habitación",
+       "En la piscina",
+       "En el segundo piso"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Sorry I'm late. I'm so tired. The train was forty minutes late.",
+      "q": "¿Por qué llegó tarde?",
+      "o": [
+       "El tren se retrasó",
+       "Se quedó dormido",
+       "Estaba enfermo",
+       "Había tráfico"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "How do you say 'almohada' in English? Pillow. P-I-L-L-O-W.",
+      "q": "¿Cómo se dice «almohada»?",
+      "o": [
+       "Pillow",
+       "Towel",
+       "Blanket",
+       "Sheet"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un mensaje a un amigo (mínimo 30 palabras): dile que llegas tarde, pide disculpas, explica por qué y dile cómo te sientes.",
+      "min": 30,
+      "keys": [
+       [
+        "sorry"
+       ],
+       [
+        "late"
+       ],
+       [
+        "because"
+       ],
+       [
+        "i'm",
+        "i feel",
+        "i am"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "A one-way ticket to Pereira, please. What time does the bus leave?"
+     },
+     {
+      "t": "oral",
+      "text": "I have a sore throat. Do you have something for it?"
+     },
+     {
+      "t": "oral",
+      "text": "Hello, this is Sandra. Can I speak to the manager, please?"
+     }
+    ]
+   },
+   {
+    "title": "Mi pasado y mis planes",
+    "lessons": [
+     {
+      "title": "Contables e incontables: how much y how many",
+      "goal": "Hablar de cantidades de comida y cosas con how much, how many y a lot of.",
+      "theory": [
+       {
+        "p": "Los sustantivos **contables** se pueden contar y tienen plural: **an apple, two apples, three eggs, five bananas**. Los **incontables** no tienen plural y no llevan **a/an**: **water, milk, rice, bread, sugar, coffee, cheese, money, time**."
+       },
+       {
+        "p": "Para preguntar cantidad: **How many** + contable en plural (**How many eggs do we need?**) y **How much** + incontable (**How much milk is there?**). **How much is it?** también sirve para preguntar el precio."
+       },
+       {
+        "ex": [
+         [
+          "How many eggs do we need?",
+          "¿Cuántos huevos necesitamos?"
+         ],
+         [
+          "How much rice is there?",
+          "¿Cuánto arroz hay?"
+         ],
+         [
+          "There's a lot of milk.",
+          "Hay mucha leche."
+         ],
+         [
+          "We have a lot of bananas.",
+          "Tenemos muchos bananos."
+         ],
+         [
+          "There isn't much sugar.",
+          "No hay mucha azúcar."
+         ]
+        ]
+       },
+       {
+        "p": "Para contar algo incontable usa un recipiente o una medida: **a bottle of water**, **a cup of coffee**, **a glass of juice**, **a kilo of rice**, **a piece of cake**, **a loaf of bread**. **A lot of** sirve para los dos tipos."
+       },
+       {
+        "tip": "**Money** es incontable: **How much money do you have?** (no «how many money»). Lo mismo con **information** y **advice**."
+       }
+      ],
+      "words": [
+       "water",
+       "rice",
+       "egg",
+       "bottle",
+       "kilo"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "How ___ eggs do you want?",
+        "o": [
+         "many",
+         "much",
+         "lot",
+         "any many"
+        ],
+        "a": 0,
+        "x": "Eggs es contable en plural → how many."
+       },
+       {
+        "t": "mc",
+        "q": "How ___ milk is there?",
+        "o": [
+         "much",
+         "many",
+         "lot of",
+         "a lot"
+        ],
+        "a": 0,
+        "x": "Milk es incontable → how much."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es incontable?",
+        "o": [
+         "water",
+         "apple",
+         "egg",
+         "banana"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I'd like a ___ of water, please. (botella)",
+        "ans": [
+         "bottle"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We need a kilo of rice, six eggs and a bottle of oil.",
+        "q": "¿Cuántos huevos necesitan?",
+        "o": [
+         "Seis",
+         "Uno",
+         "Dos",
+         "Diez"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "How much money do you need?"
+       }
+      ],
+      "id": "a1-contables-e-incontables",
+      "exam": {
+       "t": "mc",
+       "q": "How ___ sugar do you want in your coffee?",
+       "o": [
+        "much",
+        "many",
+        "lot",
+        "a lot"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "How ___ brothers and sisters do you have?",
+       "ans": [
+        "many"
+       ]
+      },
+      "vocab": [
+       [
+        "countable",
+        "adjetivo",
+        "contable",
+        "Apple is a countable noun."
+       ],
+       [
+        "uncountable",
+        "adjetivo",
+        "incontable",
+        "Milk is uncountable."
+       ],
+       [
+        "How many…?",
+        "expresión",
+        "¿Cuántos…? (contables)",
+        "How many apples do you want?"
+       ],
+       [
+        "How much…?",
+        "expresión",
+        "¿Cuánto…? (incontables)",
+        "How much water do you drink?"
+       ],
+       [
+        "a lot of",
+        "expresión",
+        "mucho, muchos",
+        "I drink a lot of coffee."
+       ],
+       [
+        "not much",
+        "expresión",
+        "no mucho (incontable)",
+        "There isn't much time."
+       ],
+       [
+        "not many",
+        "expresión",
+        "no muchos (contable)",
+        "There aren't many people."
+       ],
+       [
+        "egg",
+        "sustantivo",
+        "huevo",
+        "I eat two eggs for breakfast."
+       ],
+       [
+        "rice",
+        "sustantivo",
+        "arroz",
+        "We need a kilo of rice."
+       ],
+       [
+        "flour",
+        "sustantivo",
+        "harina",
+        "Arepas are made with corn flour."
+       ],
+       [
+        "sugar",
+        "sustantivo",
+        "azúcar",
+        "No sugar, please."
+       ],
+       [
+        "salt",
+        "sustantivo",
+        "sal",
+        "Can you pass the salt?"
+       ],
+       [
+        "oil",
+        "sustantivo",
+        "aceite",
+        "We need a bottle of oil."
+       ],
+       [
+        "butter",
+        "sustantivo",
+        "mantequilla",
+        "Bread and butter."
+       ],
+       [
+        "potato",
+        "sustantivo",
+        "papa",
+        "Ajiaco has three kinds of potatoes."
+       ],
+       [
+        "onion",
+        "sustantivo",
+        "cebolla",
+        "I need two onions."
+       ],
+       [
+        "bottle",
+        "sustantivo",
+        "botella",
+        "A bottle of water, please."
+       ],
+       [
+        "cup",
+        "sustantivo",
+        "taza",
+        "A cup of coffee."
+       ],
+       [
+        "glass",
+        "sustantivo",
+        "vaso",
+        "A glass of orange juice."
+       ],
+       [
+        "kilo",
+        "sustantivo",
+        "kilo",
+        "A kilo of tomatoes."
+       ],
+       [
+        "piece",
+        "sustantivo",
+        "pedazo, porción",
+        "A piece of cake."
+       ],
+       [
+        "loaf of bread",
+        "expresión",
+        "pan entero (molde)",
+        "Buy a loaf of bread."
+       ],
+       [
+        "money",
+        "sustantivo (incontable)",
+        "dinero, plata",
+        "How much money do you need?"
+       ],
+       [
+        "shopping list",
+        "expresión",
+        "lista de mercado",
+        "Let's write a shopping list."
+       ]
+      ],
+      "dialogue": {
+       "title": "La lista del mercado",
+       "scene": "Camilo y su esposa Diana preparan la lista del mercado para hacer ajiaco el domingo.",
+       "a": "Diana",
+       "b": "Camilo",
+       "lines": [
+        [
+         "A",
+         "Let's make ajiaco on Sunday. Let's write a shopping list.",
+         "Hagamos ajiaco el domingo. Escribamos la lista del mercado."
+        ],
+        [
+         "B",
+         "Good idea. How many potatoes do we need?",
+         "Buena idea. ¿Cuántas papas necesitamos?"
+        ],
+        [
+         "A",
+         "A lot! About two kilos. We need three kinds of potatoes.",
+         "¡Muchas! Unos dos kilos. Necesitamos tres clases de papa."
+        ],
+        [
+         "B",
+         "OK. And chicken? How much chicken is there in the fridge?",
+         "Bien. ¿Y pollo? ¿Cuánto pollo hay en la nevera?"
+        ],
+        [
+         "A",
+         "There isn't much. Only one piece. Let's buy a kilo.",
+         "No hay mucho. Solo una presa. Compremos un kilo."
+        ],
+        [
+         "B",
+         "How many ears of corn?",
+         "¿Cuántas mazorcas?"
+        ],
+        [
+         "A",
+         "Four, please. And two onions.",
+         "Cuatro, por favor. Y dos cebollas."
+        ],
+        [
+         "B",
+         "Do we have cream?",
+         "¿Tenemos crema de leche?"
+        ],
+        [
+         "A",
+         "No, we don't. Write 'a small bottle of cream'.",
+         "No. Escribe «una botella pequeña de crema»."
+        ],
+        [
+         "B",
+         "And rice? Is there any rice?",
+         "¿Y arroz? ¿Hay arroz?"
+        ],
+        [
+         "A",
+         "Yes, there's a lot of rice. We don't need rice.",
+         "Sí, hay mucho arroz. No necesitamos arroz."
+        ],
+        [
+         "B",
+         "What about avocados? How many?",
+         "¿Y aguacates? ¿Cuántos?"
+        ],
+        [
+         "A",
+         "Two big avocados. How much money do you have?",
+         "Dos aguacates grandes. ¿Cuánta plata tienes?"
+        ],
+        [
+         "B",
+         "Not much! Only fifty thousand pesos.",
+         "¡No mucha! Solo cincuenta mil pesos."
+        ],
+        [
+         "A",
+         "That's OK. I have a card.",
+         "No importa. Yo tengo tarjeta."
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "How",
+         "many",
+         "people",
+         "are",
+         "there?"
+        ],
+        "es": "¿Cuántas personas hay?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "There",
+         "isn't",
+         "much",
+         "sugar."
+        ],
+        "es": "No hay mucha azúcar."
+       },
+       {
+        "t": "dict",
+        "say": "A cup of coffee and a piece of cake, please."
+       },
+       {
+        "t": "dict",
+        "say": "How much water do you drink every day?"
+       },
+       {
+        "t": "mc",
+        "q": "I drink ___ coffee. Four cups a day!",
+        "o": [
+         "a lot of",
+         "many",
+         "a",
+         "how much"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "There aren't ___ students today. Only five.",
+        "o": [
+         "many",
+         "much",
+         "a lot",
+         "lot of"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "How much is the cheese? It's twelve thousand pesos. And how many oranges do you want? Ten, please.",
+        "q": "¿Cuántas naranjas quiere?",
+        "o": [
+         "Diez",
+         "Doce",
+         "Dos",
+         "Una"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe tu lista del mercado para una receta que te guste (mínimo 25 palabras). Usa a kilo of, a bottle of, how much / how many y a lot of.",
+        "min": 25,
+        "keys": [
+         [
+          "kilo",
+          "bottle",
+          "cup",
+          "piece",
+          "glass"
+         ],
+         [
+          "how much",
+          "how many"
+         ],
+         [
+          "a lot of",
+          "need"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Presente simple o presente continuo",
+      "goal": "Distinguir lo que haces normalmente de lo que estás haciendo ahora.",
+      "theory": [
+       {
+        "p": "**Presente simple** = hábitos y cosas que son siempre así: **I work in an office. I usually take the bus.** Palabras típicas: **every day, usually, always, never, on Mondays**."
+       },
+       {
+        "p": "**Presente continuo** = lo que pasa **ahora** o en estos días: **I'm working from home today. She's studying for an exam this week.** Palabras típicas: **now, right now, at the moment, today, this week**."
+       },
+       {
+        "ex": [
+         [
+          "I usually drink coffee, but today I'm drinking tea.",
+          "Normalmente tomo café, pero hoy estoy tomando té."
+         ],
+         [
+          "He works in a bank. Right now he's having lunch.",
+          "Él trabaja en un banco. En este momento está almorzando."
+         ],
+         [
+          "Do you play soccer?",
+          "¿Juegas fútbol? (en general)"
+         ],
+         [
+          "Are you playing now?",
+          "¿Estás jugando ahora?"
+         ],
+         [
+          "It rains a lot in April, but it isn't raining now.",
+          "Llueve mucho en abril, pero ahora no está lloviendo."
+         ]
+        ]
+       },
+       {
+        "p": "Algunos verbos casi nunca van en continuo porque no son acciones: **like, love, want, need, know, understand, have** (tener). Se dice **I want a coffee** (no «I'm wanting») e **I know the answer**."
+       },
+       {
+        "tip": "Pregúntate: ¿es una costumbre o está pasando ahora? Costumbre → **I work**. Ahora → **I'm working**."
+       }
+      ],
+      "words": [
+       "usually",
+       "now",
+       "today",
+       "work",
+       "right now"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I usually ___ coffee in the morning.",
+        "o": [
+         "drink",
+         "am drinking",
+         "drinking",
+         "drinks"
+        ],
+        "a": 0,
+        "x": "Costumbre (usually) → presente simple."
+       },
+       {
+        "t": "mc",
+        "q": "Look! It ___.",
+        "o": [
+         "is raining",
+         "rains",
+         "rain",
+         "raining"
+        ],
+        "a": 0,
+        "x": "Está pasando ahora → presente continuo."
+       },
+       {
+        "t": "mc",
+        "q": "She can't talk now. She ___ lunch with a client.",
+        "o": [
+         "is having",
+         "has",
+         "have",
+         "having"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I ___ the answer. It's Paris. (saber)",
+        "ans": [
+         "know"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I usually go to work by car, but this week I'm taking the bus because my car is at the mechanic.",
+        "q": "¿Cómo va al trabajo esta semana?",
+        "o": [
+         "En bus",
+         "En carro",
+         "A pie",
+         "En bicicleta"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I usually work in an office, but today I'm working from home."
+       }
+      ],
+      "id": "a1-simple-o-continuo",
+      "exam": {
+       "t": "mc",
+       "q": "Shh! The baby ___.",
+       "o": [
+        "is sleeping",
+        "sleeps",
+        "sleep",
+        "sleeping"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "We ___ to the beach every December.",
+       "o": [
+        "go",
+        "are going now",
+        "going",
+        "goes"
+       ],
+       "a": 0
+      },
+      "vocab": [
+       [
+        "now",
+        "adverbio",
+        "ahora",
+        "I'm busy now."
+       ],
+       [
+        "right now",
+        "expresión",
+        "en este momento",
+        "She's cooking right now."
+       ],
+       [
+        "at the moment",
+        "expresión",
+        "en este momento",
+        "He's in a meeting at the moment."
+       ],
+       [
+        "today",
+        "adverbio",
+        "hoy",
+        "I'm working from home today."
+       ],
+       [
+        "this week",
+        "expresión",
+        "esta semana",
+        "We're painting the house this week."
+       ],
+       [
+        "every day",
+        "expresión",
+        "todos los días",
+        "I walk my dog every day."
+       ],
+       [
+        "usually",
+        "adverbio",
+        "normalmente",
+        "I usually get up at six."
+       ],
+       [
+        "on Mondays",
+        "expresión",
+        "los lunes",
+        "I go to the gym on Mondays."
+       ],
+       [
+        "work from home",
+        "expresión",
+        "trabajar desde la casa",
+        "I work from home on Fridays."
+       ],
+       [
+        "office",
+        "sustantivo",
+        "oficina",
+        "She works in an office."
+       ],
+       [
+        "meeting",
+        "sustantivo",
+        "reunión",
+        "I'm in a meeting."
+       ],
+       [
+        "wear",
+        "verbo",
+        "llevar puesto, usar (ropa)",
+        "I'm wearing a jacket today."
+       ],
+       [
+        "rain",
+        "verbo",
+        "llover",
+        "It's raining now."
+       ],
+       [
+        "cook",
+        "verbo",
+        "cocinar",
+        "My husband is cooking dinner."
+       ],
+       [
+        "wait",
+        "verbo",
+        "esperar",
+        "I'm waiting for the bus."
+       ],
+       [
+        "want",
+        "verbo",
+        "querer",
+        "I want a coffee."
+       ],
+       [
+        "need",
+        "verbo",
+        "necesitar",
+        "I need help."
+       ],
+       [
+        "know",
+        "verbo",
+        "saber, conocer",
+        "I know the answer."
+       ],
+       [
+        "understand",
+        "verbo",
+        "entender",
+        "Do you understand?"
+       ],
+       [
+        "habit",
+        "sustantivo",
+        "hábito, costumbre",
+        "Running is a good habit."
+       ],
+       [
+        "at home",
+        "expresión",
+        "en casa",
+        "The kids are at home."
+       ],
+       [
+        "What are you doing?",
+        "expresión",
+        "¿Qué estás haciendo?",
+        "Hi! What are you doing?"
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Qué estás haciendo?",
+       "scene": "Laura llama a su amigo Sebastián un martes por la mañana.",
+       "a": "Laura",
+       "b": "Sebastián",
+       "lines": [
+        [
+         "A",
+         "Hi, Sebastián! What are you doing?",
+         "¡Hola, Sebastián! ¿Qué estás haciendo?"
+        ],
+        [
+         "B",
+         "Hi, Laura! I'm working from home today.",
+         "¡Hola, Laura! Hoy estoy trabajando desde la casa."
+        ],
+        [
+         "A",
+         "From home? You usually work in the office on Tuesdays.",
+         "¿Desde la casa? Normalmente trabajas en la oficina los martes."
+        ],
+        [
+         "B",
+         "Yes, but my son is sick, so I'm taking care of him.",
+         "Sí, pero mi hijo está enfermo, entonces lo estoy cuidando."
+        ],
+        [
+         "A",
+         "Oh no! Is he OK?",
+         "¡Ay no! ¿Está bien?"
+        ],
+        [
+         "B",
+         "He's fine. He's sleeping right now.",
+         "Está bien. En este momento está durmiendo."
+        ],
+        [
+         "A",
+         "Good. And what's that noise?",
+         "Qué bien. ¿Y qué es ese ruido?"
+        ],
+        [
+         "B",
+         "It's raining a lot here. It usually rains in the afternoon, but today it's raining in the morning!",
+         "Está lloviendo mucho aquí. Normalmente llueve por la tarde, ¡pero hoy está lloviendo por la mañana!"
+        ],
+        [
+         "A",
+         "Here too. I'm waiting for the bus and I don't have an umbrella.",
+         "Aquí también. Estoy esperando el bus y no tengo paraguas."
+        ],
+        [
+         "B",
+         "Do you usually take the bus?",
+         "¿Normalmente tomas el bus?"
+        ],
+        [
+         "A",
+         "No, I usually go by bike, but not in the rain!",
+         "No, normalmente voy en bici, ¡pero no con lluvia!"
+        ],
+        [
+         "B",
+         "Ha ha. Do you want to have lunch on Friday?",
+         "Jaja. ¿Quieres almorzar el viernes?"
+        ],
+        [
+         "A",
+         "Yes, I want to! Oh, here's my bus. Bye!",
+         "¡Sí, claro! Ay, aquí viene mi bus. ¡Chao!"
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "are",
+         "you",
+         "doing",
+         "right",
+         "now?"
+        ],
+        "es": "¿Qué estás haciendo en este momento?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "He",
+         "usually",
+         "gets",
+         "up",
+         "at",
+         "six."
+        ],
+        "es": "Él normalmente se levanta a las seis."
+       },
+       {
+        "t": "dict",
+        "say": "We're having dinner at the moment."
+       },
+       {
+        "t": "dict",
+        "say": "I don't understand this word."
+       },
+       {
+        "t": "mc",
+        "q": "My father ___ in a hospital. He's a nurse.",
+        "o": [
+         "works",
+         "is working",
+         "work",
+         "working"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I ___ a new phone. Mine is very old.",
+        "o": [
+         "want",
+         "am wanting",
+         "wanting",
+         "wants"
+        ],
+        "a": 0,
+        "x": "Want casi nunca va en continuo."
+       },
+       {
+        "t": "listen",
+        "say": "Hi, Mom. I'm in the supermarket. I'm buying milk and bread. Do you need anything?",
+        "q": "¿Dónde está?",
+        "o": [
+         "En el supermercado",
+         "En la casa",
+         "En el trabajo",
+         "En el bus"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre un día normal tuyo y sobre lo que está pasando hoy diferente (mínimo 30 palabras). Usa usually y today / now.",
+        "min": 30,
+        "keys": [
+         [
+          "usually",
+          "every day",
+          "always"
+         ],
+         [
+          "today",
+          "now",
+          "right now",
+          "at the moment"
+         ],
+         [
+          "i'm",
+          "i am"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Pasado simple: verbos regulares y did",
+      "goal": "Contar acciones terminadas con verbos regulares y hacer preguntas con did.",
+      "theory": [
+       {
+        "p": "Para el pasado de casi todos los verbos se agrega **-ed**, igual para todas las personas: **work → worked**, **play → played**, **watch → watched**, **visit → visited**. Si termina en **-e**, solo **-d** (**like → liked**). Consonante + **y** → **-ied** (**study → studied**). Algunos duplican la consonante (**stop → stopped**)."
+       },
+       {
+        "ex": [
+         [
+          "I worked until seven yesterday.",
+          "Ayer trabajé hasta las siete."
+         ],
+         [
+          "We watched a movie last night.",
+          "Anoche vimos una película."
+         ],
+         [
+          "She studied English for two hours.",
+          "Ella estudió inglés dos horas."
+         ],
+         [
+          "They visited their grandparents last weekend.",
+          "Visitaron a sus abuelos el fin de semana pasado."
+         ],
+         [
+          "The bus stopped in front of my house.",
+          "El bus paró frente a mi casa."
+         ]
+        ]
+       },
+       {
+        "p": "Negativo: **didn't** + verbo **sin -ed**: **I didn't work on Sunday.** Pregunta: **Did** + sujeto + verbo **sin -ed**: **Did you watch the game?** — **Yes, I did.** / **No, I didn't.**"
+       },
+       {
+        "ex": [
+         [
+          "I didn't call her.",
+          "No la llamé."
+         ],
+         [
+          "Did you like the food?",
+          "¿Te gustó la comida?"
+         ],
+         [
+          "Yes, I did. It was delicious.",
+          "Sí. Estaba deliciosa."
+         ],
+         [
+          "What did you watch?",
+          "¿Qué viste?"
+         ],
+         [
+          "He didn't play soccer last Saturday.",
+          "Él no jugó fútbol el sábado pasado."
+         ]
+        ]
+       },
+       {
+        "tip": "La **-ed** suena de tres formas: /t/ en **worked, watched**; /d/ en **played, called**; y /ɪd/ (sílaba extra) solo después de t o d: **visited, wanted, needed**. No digas «work-ed»."
+       }
+      ],
+      "words": [
+       "worked",
+       "played",
+       "watched",
+       "did",
+       "didn't"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "We ___ a movie last night.",
+        "o": [
+         "watched",
+         "watch",
+         "watching",
+         "watches"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I ___ work last Sunday. I stayed at home.",
+        "o": [
+         "didn't",
+         "don't",
+         "wasn't",
+         "not"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "___ you call your mother yesterday?",
+        "o": [
+         "Did",
+         "Do",
+         "Were",
+         "Are"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "She ___ English for two hours last night. (study)",
+        "ans": [
+         "studied"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Last weekend I visited my grandparents. We cooked lunch together and we walked in the park.",
+        "q": "¿A quién visitó?",
+        "o": [
+         "A sus abuelos",
+         "A sus padres",
+         "A su hermana",
+         "A sus amigos"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I worked a lot yesterday, and in the evening I watched a movie."
+       }
+      ],
+      "id": "a1-pasado-simple-regulares",
+      "exam": {
+       "t": "mc",
+       "q": "I ___ my homework yesterday.",
+       "o": [
+        "finished",
+        "finish",
+        "finishing",
+        "am finish"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "___ you visit your parents last weekend?",
+       "ans": [
+        "did"
+       ]
+      },
+      "vocab": [
+       [
+        "worked",
+        "verbo (pasado)",
+        "trabajé, trabajó",
+        "I worked a lot yesterday."
+       ],
+       [
+        "played",
+        "verbo (pasado)",
+        "jugué, jugó; toqué (música)",
+        "We played soccer on Sunday."
+       ],
+       [
+        "watched",
+        "verbo (pasado)",
+        "vi, vio (TV, película)",
+        "She watched a series."
+       ],
+       [
+        "visited",
+        "verbo (pasado)",
+        "visité, visitó",
+        "They visited Cartagena."
+       ],
+       [
+        "cooked",
+        "verbo (pasado)",
+        "cociné, cocinó",
+        "My mom cooked rice and beans."
+       ],
+       [
+        "cleaned",
+        "verbo (pasado)",
+        "limpié, limpió",
+        "I cleaned the house."
+       ],
+       [
+        "studied",
+        "verbo (pasado)",
+        "estudié, estudió",
+        "He studied for the test."
+       ],
+       [
+        "walked",
+        "verbo (pasado)",
+        "caminé, caminó",
+        "We walked in the park."
+       ],
+       [
+        "listened",
+        "verbo (pasado)",
+        "escuché, escuchó",
+        "I listened to music."
+       ],
+       [
+        "called",
+        "verbo (pasado)",
+        "llamé, llamó",
+        "I called my sister."
+       ],
+       [
+        "stayed",
+        "verbo (pasado)",
+        "me quedé, se quedó",
+        "We stayed at home."
+       ],
+       [
+        "liked",
+        "verbo (pasado)",
+        "me gustó, le gustó",
+        "I liked the movie."
+       ],
+       [
+        "wanted",
+        "verbo (pasado)",
+        "quise, quería",
+        "She wanted a new phone."
+       ],
+       [
+        "danced",
+        "verbo (pasado)",
+        "bailé, bailó",
+        "We danced all night."
+       ],
+       [
+        "stopped",
+        "verbo (pasado)",
+        "paré, paró; dejó de",
+        "It stopped raining."
+       ],
+       [
+        "did",
+        "auxiliar",
+        "(auxiliar de pasado en preguntas)",
+        "Did you work yesterday?"
+       ],
+       [
+        "didn't",
+        "contracción",
+        "no (en pasado)",
+        "I didn't watch TV."
+       ],
+       [
+        "yesterday",
+        "adverbio",
+        "ayer",
+        "I called you yesterday."
+       ],
+       [
+        "last night",
+        "expresión",
+        "anoche",
+        "Did you sleep well last night?"
+       ],
+       [
+        "last weekend",
+        "expresión",
+        "el fin de semana pasado",
+        "We stayed home last weekend."
+       ],
+       [
+        "ago",
+        "adverbio",
+        "hace (tiempo)",
+        "I started three months ago."
+       ],
+       [
+        "game",
+        "sustantivo",
+        "partido, juego",
+        "Did you watch the game?"
+       ],
+       [
+        "series",
+        "sustantivo",
+        "serie (de TV)",
+        "We watched a new series."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Viste el partido?",
+       "scene": "Es lunes en la oficina. Jorge y su compañera Milena hablan del fin de semana.",
+       "a": "Jorge",
+       "b": "Milena",
+       "lines": [
+        [
+         "A",
+         "Good morning, Milena! Did you watch the game on Saturday?",
+         "¡Buenos días, Milena! ¿Viste el partido el sábado?"
+        ],
+        [
+         "B",
+         "No, I didn't. I worked on Saturday.",
+         "No. El sábado trabajé."
+        ],
+        [
+         "A",
+         "Oh no! Colombia played very well. We watched it at my brother's house.",
+         "¡Ay no! Colombia jugó muy bien. Lo vimos en la casa de mi hermano."
+        ],
+        [
+         "B",
+         "Great! Did you cook something?",
+         "¡Qué bien! ¿Cocinaron algo?"
+        ],
+        [
+         "A",
+         "Yes, we cooked a barbecue. And what did you do on Sunday?",
+         "Sí, hicimos un asado. ¿Y qué hiciste el domingo?"
+        ],
+        [
+         "B",
+         "I stayed at home. I cleaned the apartment and I studied English.",
+         "Me quedé en la casa. Limpié el apartamento y estudié inglés."
+        ],
+        [
+         "A",
+         "Wow, very good! Did you call your mom? It was her birthday, right?",
+         "¡Uy, muy bien! ¿Llamaste a tu mamá? Era su cumpleaños, ¿cierto?"
+        ],
+        [
+         "B",
+         "Yes, I did. I called her in the morning and we talked for an hour.",
+         "Sí. La llamé por la mañana y hablamos una hora."
+        ],
+        [
+         "A",
+         "Did you visit her?",
+         "¿La visitaste?"
+        ],
+        [
+         "B",
+         "No, I didn't. She lives in Bucaramanga. I visited her two months ago.",
+         "No. Ella vive en Bucaramanga. La visité hace dos meses."
+        ],
+        [
+         "A",
+         "I see. In the evening I walked in the park with my dog.",
+         "Ya veo. Por la tarde caminé en el parque con mi perro."
+        ],
+        [
+         "B",
+         "Did it rain?",
+         "¿Llovió?"
+        ],
+        [
+         "A",
+         "Yes, but only a little. It stopped at six.",
+         "Sí, pero solo un poco. Paró a las seis."
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Did",
+         "you",
+         "like",
+         "the",
+         "food?"
+        ],
+        "es": "¿Te gustó la comida?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "didn't",
+         "play",
+         "soccer",
+         "last",
+         "Saturday."
+        ],
+        "es": "No jugamos fútbol el sábado pasado."
+       },
+       {
+        "t": "dict",
+        "say": "I called my sister last night."
+       },
+       {
+        "t": "dict",
+        "say": "Did you study for the exam?"
+       },
+       {
+        "t": "mc",
+        "q": "Did you watch the game? Yes, I ___.",
+        "o": [
+         "did",
+         "watched",
+         "do",
+         "was"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "He didn't ___ the dishes.",
+        "o": [
+         "wash",
+         "washed",
+         "washing",
+         "washes"
+        ],
+        "a": 0,
+        "x": "Después de didn't el verbo va sin -ed."
+       },
+       {
+        "t": "listen",
+        "say": "Did you clean the kitchen? No, I didn't. I cleaned the bathroom.",
+        "q": "¿Qué limpió?",
+        "o": [
+         "El baño",
+         "La cocina",
+         "La sala",
+         "El cuarto"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Cuenta qué hiciste ayer (mínimo 30 palabras) usando al menos seis verbos regulares en pasado y una frase con didn't.",
+        "min": 30,
+        "keys": [
+         [
+          "worked",
+          "played",
+          "watched",
+          "cooked",
+          "cleaned",
+          "studied",
+          "walked",
+          "called",
+          "listened",
+          "stayed",
+          "visited"
+         ],
+         [
+          "didn't"
+         ],
+         [
+          "yesterday",
+          "in the morning",
+          "in the evening",
+          "last night"
+         ]
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Pasado simple: verbos irregulares y tu fin de semana",
+      "goal": "Usar los verbos irregulares más comunes para contar qué hiciste.",
+      "theory": [
+       {
+        "p": "Muchos verbos muy usados son **irregulares**: no llevan -ed y hay que aprenderlos. Los más importantes: **go → went**, **have → had**, **eat → ate**, **drink → drank**, **see → saw**, **buy → bought**, **get → got**, **make → made**, **take → took**, **come → came**, **meet → met**, **do → did**, **sleep → slept**, **leave → left**."
+       },
+       {
+        "ex": [
+         [
+          "I went to Villa de Leyva last weekend.",
+          "Fui a Villa de Leyva el fin de semana pasado."
+         ],
+         [
+          "We had lunch in a nice restaurant.",
+          "Almorzamos en un restaurante bonito."
+         ],
+         [
+          "She bought a new jacket.",
+          "Ella compró una chaqueta nueva."
+         ],
+         [
+          "I saw my cousin at the mall.",
+          "Vi a mi primo en el centro comercial."
+         ],
+         [
+          "They got home at midnight.",
+          "Llegaron a la casa a medianoche."
+         ]
+        ]
+       },
+       {
+        "p": "En preguntas y negativas, el verbo vuelve a su forma base (la irregularidad la lleva **did**): **Where did you go?** (no «where did you went») · **What did you eat?** · **I didn't see the email.**"
+       },
+       {
+        "ex": [
+         [
+          "Where did you go on vacation?",
+          "¿A dónde fuiste de vacaciones?"
+         ],
+         [
+          "What did you do on Saturday?",
+          "¿Qué hiciste el sábado?"
+         ],
+         [
+          "Did you have a good time?",
+          "¿La pasaste bien?"
+         ],
+         [
+          "I didn't sleep well.",
+          "No dormí bien."
+         ],
+         [
+          "What time did you leave?",
+          "¿A qué hora saliste?"
+         ]
+        ]
+       },
+       {
+        "tip": "Aprende los irregulares en grupos que suenan parecido: **bought, brought, thought** · **ate, made, came, took** · **slept, left, met**. Repítelos en voz alta con la forma base: **go–went, eat–ate**."
+       }
+      ],
+      "words": [
+       "went",
+       "had",
+       "saw",
+       "ate",
+       "bought"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Last Saturday we ___ to the beach.",
+        "o": [
+         "went",
+         "goed",
+         "go",
+         "gone"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Where did you ___ last weekend?",
+        "o": [
+         "go",
+         "went",
+         "going",
+         "goes"
+        ],
+        "a": 0,
+        "x": "Después de did el verbo va en forma base."
+       },
+       {
+        "t": "mc",
+        "q": "I ___ a new phone yesterday. It was expensive.",
+        "o": [
+         "bought",
+         "buyed",
+         "buy",
+         "brought"
+        ],
+        "a": 0,
+        "x": "Bought = compré; brought = traje."
+       },
+       {
+        "t": "fill",
+        "q": "We ___ dinner at a Mexican restaurant last night. (have)",
+        "ans": [
+         "had"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "On Sunday I got up late, I made pancakes for my kids and then we saw a movie at the mall.",
+        "q": "¿Qué preparó para sus hijos?",
+        "o": [
+         "Pancakes",
+         "Arepas",
+         "Huevos",
+         "Sándwiches"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Last weekend I went to my grandmother's house and we ate ajiaco."
+       }
+      ],
+      "id": "a1-pasado-simple-irregulares",
+      "exam": {
+       "t": "mc",
+       "q": "We ___ a lot of photos in Cartagena.",
+       "o": [
+        "took",
+        "taked",
+        "take",
+        "takes"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "What did you ___ for breakfast? (comer)",
+       "ans": [
+        "eat",
+        "have"
+       ]
+      },
+      "vocab": [
+       [
+        "went",
+        "verbo (pasado de go)",
+        "fui, fue",
+        "I went to the beach."
+       ],
+       [
+        "had",
+        "verbo (pasado de have)",
+        "tuve, tuvo; comí",
+        "We had a great time."
+       ],
+       [
+        "ate",
+        "verbo (pasado de eat)",
+        "comí, comió",
+        "She ate a big pizza."
+       ],
+       [
+        "drank",
+        "verbo (pasado de drink)",
+        "tomé, tomó (bebida)",
+        "He drank a lot of water."
+       ],
+       [
+        "saw",
+        "verbo (pasado de see)",
+        "vi, vio",
+        "I saw a great movie."
+       ],
+       [
+        "bought",
+        "verbo (pasado de buy)",
+        "compré, compró",
+        "They bought a new car."
+       ],
+       [
+        "got",
+        "verbo (pasado de get)",
+        "recibí; llegué; conseguí",
+        "I got home at ten."
+       ],
+       [
+        "made",
+        "verbo (pasado de make)",
+        "hice, hizo (preparar, fabricar)",
+        "My dad made breakfast."
+       ],
+       [
+        "took",
+        "verbo (pasado de take)",
+        "tomé, tomó; llevé",
+        "We took a taxi."
+       ],
+       [
+        "came",
+        "verbo (pasado de come)",
+        "vine, vino",
+        "My friends came to my house."
+       ],
+       [
+        "met",
+        "verbo (pasado de meet)",
+        "conocí; me encontré con",
+        "I met my wife in 2010."
+       ],
+       [
+        "did",
+        "verbo (pasado de do)",
+        "hice, hizo",
+        "I did my homework."
+       ],
+       [
+        "slept",
+        "verbo (pasado de sleep)",
+        "dormí, durmió",
+        "I slept nine hours."
+       ],
+       [
+        "left",
+        "verbo (pasado de leave)",
+        "salí, salió; dejé",
+        "We left at six."
+       ],
+       [
+        "gave",
+        "verbo (pasado de give)",
+        "di, dio; regalé",
+        "She gave me a book."
+       ],
+       [
+        "wrote",
+        "verbo (pasado de write)",
+        "escribí, escribió",
+        "I wrote an email."
+       ],
+       [
+        "vacation",
+        "sustantivo",
+        "vacaciones",
+        "We went on vacation in July."
+       ],
+       [
+        "have a good time",
+        "expresión",
+        "pasarla bien",
+        "Did you have a good time?"
+       ],
+       [
+        "souvenir",
+        "sustantivo",
+        "recuerdo (de un viaje)",
+        "I bought a souvenir."
+       ],
+       [
+        "mall",
+        "sustantivo",
+        "centro comercial",
+        "We went to the mall."
+       ],
+       [
+        "midnight",
+        "sustantivo",
+        "medianoche",
+        "We got home at midnight."
+       ],
+       [
+        "then",
+        "adverbio",
+        "luego, después",
+        "Then we had dinner."
+       ],
+       [
+        "after that",
+        "expresión",
+        "después de eso",
+        "After that, we went home."
+       ]
+      ],
+      "dialogue": {
+       "title": "Un fin de semana en Villa de Leyva",
+       "scene": "Carolina le cuenta a su compañero Iván sobre su viaje del fin de semana.",
+       "a": "Iván",
+       "b": "Carolina",
+       "lines": [
+        [
+         "A",
+         "Hi, Carolina! What did you do last weekend?",
+         "¡Hola, Carolina! ¿Qué hiciste el fin de semana pasado?"
+        ],
+        [
+         "B",
+         "I went to Villa de Leyva with my husband.",
+         "Fui a Villa de Leyva con mi esposo."
+        ],
+        [
+         "A",
+         "Nice! How did you get there?",
+         "¡Qué bien! ¿Cómo llegaron?"
+        ],
+        [
+         "B",
+         "We took a bus from Bogotá. We left at seven and got there at eleven.",
+         "Tomamos un bus desde Bogotá. Salimos a las siete y llegamos a las once."
+        ],
+        [
+         "A",
+         "What did you do there?",
+         "¿Qué hicieron allá?"
+        ],
+        [
+         "B",
+         "We walked around the main square and we saw the fossil museum.",
+         "Caminamos por la plaza principal y vimos el museo del fósil."
+        ],
+        [
+         "A",
+         "Did you eat anything special?",
+         "¿Comieron algo especial?"
+        ],
+        [
+         "B",
+         "Yes! We had lunch in a small restaurant. I ate trout and my husband ate a big steak.",
+         "¡Sí! Almorzamos en un restaurante pequeño. Yo comí trucha y mi esposo un bistec grande."
+        ],
+        [
+         "A",
+         "Did you buy any souvenirs?",
+         "¿Compraron recuerdos?"
+        ],
+        [
+         "B",
+         "I bought a beautiful ruana for my mother.",
+         "Le compré una ruana hermosa a mi mamá."
+        ],
+        [
+         "A",
+         "Where did you sleep?",
+         "¿Dónde durmieron?"
+        ],
+        [
+         "B",
+         "In a little hotel. It was very quiet. I slept ten hours!",
+         "En un hotel pequeño. Era muy tranquilo. ¡Dormí diez horas!"
+        ],
+        [
+         "A",
+         "Ha ha! So you had a good time.",
+         "¡Jaja! Entonces la pasaron bien."
+        ],
+        [
+         "B",
+         "Yes, we did. We came back on Sunday night, very happy.",
+         "Sí. Regresamos el domingo por la noche, muy contentos."
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "did",
+         "you",
+         "do",
+         "on",
+         "Saturday?"
+        ],
+        "es": "¿Qué hiciste el sábado?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "didn't",
+         "sleep",
+         "well",
+         "last",
+         "night."
+        ],
+        "es": "Anoche no dormí bien."
+       },
+       {
+        "t": "dict",
+        "say": "We took a taxi to the airport."
+       },
+       {
+        "t": "dict",
+        "say": "Did you have a good time?"
+       },
+       {
+        "t": "mc",
+        "q": "She ___ her husband at the university.",
+        "o": [
+         "met",
+         "meeted",
+         "meet",
+         "meets"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I didn't ___ the email. Can you send it again?",
+        "o": [
+         "see",
+         "saw",
+         "seen",
+         "seeing"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "I went to Cali on vacation. I visited my cousins, I ate a lot of empanadas and I danced salsa every night.",
+        "q": "¿Qué hizo cada noche?",
+        "o": [
+         "Bailó salsa",
+         "Comió empanadas",
+         "Visitó a sus primos",
+         "Durmió temprano"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Cuenta qué hiciste el fin de semana pasado (mínimo 40 palabras): a dónde fuiste, con quién, qué comiste y qué compraste. Usa al menos cinco verbos irregulares y then o after that.",
+        "min": 40,
+        "keys": [
+         [
+          "went",
+          "had",
+          "ate",
+          "saw",
+          "bought",
+          "got",
+          "made",
+          "took",
+          "came",
+          "met",
+          "slept",
+          "left"
+         ],
+         [
+          "then",
+          "after that"
+         ],
+         [
+          "last weekend",
+          "on saturday",
+          "on sunday"
+         ],
+         [
+          "with"
+         ]
+        ]
+       }
+      ],
+      "reading": 20
+     },
+     {
+      "title": "Planes con going to, invitar y sugerir",
+      "goal": "Contar tus planes, invitar a alguien y aceptar o rechazar con cortesía.",
+      "theory": [
+       {
+        "p": "Para planes que ya decidiste usa **be going to** + verbo: **I'm going to visit my parents next weekend.** · **She's going to start a course.** · **We aren't going to travel this year.** Pregunta: **What are you going to do on Saturday?**"
+       },
+       {
+        "ex": [
+         [
+          "I'm going to study English every day.",
+          "Voy a estudiar inglés todos los días."
+         ],
+         [
+          "We're going to paint the house next month.",
+          "Vamos a pintar la casa el próximo mes."
+         ],
+         [
+          "He isn't going to work tomorrow.",
+          "Él no va a trabajar mañana."
+         ],
+         [
+          "Are you going to watch the game tonight?",
+          "¿Vas a ver el partido esta noche?"
+         ],
+         [
+          "What are you going to do this weekend?",
+          "¿Qué vas a hacer este fin de semana?"
+         ]
+        ]
+       },
+       {
+        "p": "Para invitar: **Would you like to come to dinner on Saturday?** Aceptar: **I'd love to! / Sure, sounds great.** Rechazar con cortesía: **Sorry, I can't. I'm going to…** Para sugerir: **Let's go to the cinema.** · **Why don't we have lunch together?** · **What about Friday?** — **Good idea!**"
+       },
+       {
+        "ex": [
+         [
+          "Would you like to have coffee tomorrow?",
+          "¿Te gustaría tomar un café mañana?"
+         ],
+         [
+          "I'd love to! What time?",
+          "¡Me encantaría! ¿A qué hora?"
+         ],
+         [
+          "Sorry, I can't. I'm going to work late.",
+          "Lo siento, no puedo. Voy a trabajar hasta tarde."
+         ],
+         [
+          "Let's meet at the mall at six.",
+          "Encontrémonos en el centro comercial a las seis."
+         ],
+         [
+          "Why don't we go on Sunday? Good idea!",
+          "¿Por qué no vamos el domingo? ¡Buena idea!"
+         ]
+        ]
+       },
+       {
+        "tip": "Después de **Would you like to** y **Let's** el verbo va en forma base: **Would you like to come?** · **Let's go!** (no «let's to go»)."
+       }
+      ],
+      "words": [
+       "going to",
+       "tomorrow",
+       "next",
+       "would like",
+       "let's"
+      ],
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I'm ___ visit my parents next weekend.",
+        "o": [
+         "going to",
+         "go to",
+         "going",
+         "go"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "What ___ you going to do tomorrow?",
+        "o": [
+         "are",
+         "do",
+         "is",
+         "will"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "—Would you like to come to my party? —___",
+        "o": [
+         "I'd love to!",
+         "Yes, I like.",
+         "I'm liking.",
+         "Let's."
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "___ go to the cinema tonight! (hagamos / vamos)",
+        "ans": [
+         "let's",
+         "lets"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Would you like to have lunch tomorrow? Sorry, I can't. I'm going to see the dentist. What about Friday?",
+        "q": "¿Qué va a hacer mañana?",
+        "o": [
+         "Ir al dentista",
+         "Almorzar con su amiga",
+         "Trabajar hasta tarde",
+         "Viajar"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Sorry, I can't. I'm going to work late tonight."
+       }
+      ],
+      "id": "a1-going-to-planes-e-invitaciones",
+      "exam": {
+       "t": "mc",
+       "q": "Look at the clouds! It's ___ rain.",
+       "o": [
+        "going to",
+        "go to",
+        "going",
+        "goes to"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "mc",
+       "q": "—Let's have a coffee. —___",
+       "o": [
+        "Good idea!",
+        "You're welcome.",
+        "Nice to meet you.",
+        "I'm sorry I'm late."
+       ],
+       "a": 0
+      },
+      "vocab": [
+       [
+        "be going to",
+        "expresión",
+        "ir a (plan)",
+        "I'm going to call her."
+       ],
+       [
+        "tomorrow",
+        "adverbio",
+        "mañana",
+        "I'm going to work tomorrow."
+       ],
+       [
+        "tonight",
+        "adverbio",
+        "esta noche",
+        "What are you doing tonight?"
+       ],
+       [
+        "this weekend",
+        "expresión",
+        "este fin de semana",
+        "We're going to rest this weekend."
+       ],
+       [
+        "next week",
+        "expresión",
+        "la próxima semana",
+        "She's going to travel next week."
+       ],
+       [
+        "next year",
+        "expresión",
+        "el próximo año",
+        "I'm going to learn to drive next year."
+       ],
+       [
+        "plan",
+        "sustantivo",
+        "plan",
+        "Do you have plans for Saturday?"
+       ],
+       [
+        "Would you like to…?",
+        "expresión",
+        "¿Te gustaría…?",
+        "Would you like to come?"
+       ],
+       [
+        "I'd love to.",
+        "expresión",
+        "Me encantaría.",
+        "—Dinner on Friday? —I'd love to!"
+       ],
+       [
+        "Sorry, I can't.",
+        "expresión",
+        "Lo siento, no puedo.",
+        "Sorry, I can't. I'm busy."
+       ],
+       [
+        "Let's…",
+        "expresión",
+        "Hagamos… / Vamos a…",
+        "Let's go to the park."
+       ],
+       [
+        "Why don't we…?",
+        "expresión",
+        "¿Por qué no…?",
+        "Why don't we eat out?"
+       ],
+       [
+        "What about…?",
+        "expresión",
+        "¿Qué tal…?",
+        "What about Sunday?"
+       ],
+       [
+        "Good idea!",
+        "expresión",
+        "¡Buena idea!",
+        "Let's take a taxi. —Good idea!"
+       ],
+       [
+        "Sounds great.",
+        "expresión",
+        "Suena genial.",
+        "A picnic? Sounds great."
+       ],
+       [
+        "invite",
+        "verbo",
+        "invitar",
+        "I want to invite you to my party."
+       ],
+       [
+        "party",
+        "sustantivo",
+        "fiesta",
+        "There's a party on Saturday."
+       ],
+       [
+        "meet",
+        "verbo",
+        "encontrarse con, verse",
+        "Let's meet at seven."
+       ],
+       [
+        "eat out",
+        "verbo",
+        "comer afuera",
+        "Let's eat out tonight."
+       ],
+       [
+        "rest",
+        "verbo",
+        "descansar",
+        "I'm going to rest on Sunday."
+       ],
+       [
+        "travel",
+        "verbo",
+        "viajar",
+        "We're going to travel in December."
+       ],
+       [
+        "learn",
+        "verbo",
+        "aprender",
+        "I'm going to learn English."
+       ],
+       [
+        "free",
+        "adjetivo",
+        "libre, desocupado",
+        "Are you free on Friday?"
+       ]
+      ],
+      "dialogue": {
+       "title": "Planes para el sábado",
+       "scene": "Valentina llama a su amiga Natalia para invitarla a su cumpleaños.",
+       "a": "Valentina",
+       "b": "Natalia",
+       "lines": [
+        [
+         "A",
+         "Hi, Natalia! Are you free on Saturday?",
+         "¡Hola, Natalia! ¿Estás libre el sábado?"
+        ],
+        [
+         "B",
+         "In the morning, no. I'm going to take my son to his swimming class. Why?",
+         "Por la mañana no. Voy a llevar a mi hijo a la clase de natación. ¿Por qué?"
+        ],
+        [
+         "A",
+         "It's my birthday. Would you like to come to dinner on Saturday night?",
+         "Es mi cumpleaños. ¿Te gustaría venir a cenar el sábado por la noche?"
+        ],
+        [
+         "B",
+         "I'd love to! Happy birthday! Where are you going to have dinner?",
+         "¡Me encantaría! ¡Feliz cumpleaños! ¿Dónde van a cenar?"
+        ],
+        [
+         "A",
+         "We're going to eat at a Peruvian restaurant in Usaquén.",
+         "Vamos a comer en un restaurante peruano en Usaquén."
+        ],
+        [
+         "B",
+         "Sounds great. What time?",
+         "Suena genial. ¿A qué hora?"
+        ],
+        [
+         "A",
+         "At eight. Why don't we meet at my house at seven thirty and take a taxi together?",
+         "A las ocho. ¿Por qué no nos vemos en mi casa a las siete y media y tomamos un taxi juntas?"
+        ],
+        [
+         "B",
+         "Good idea! Is Andrés going to come too?",
+         "¡Buena idea! ¿Andrés también va a ir?"
+        ],
+        [
+         "A",
+         "No, he isn't. He's going to travel to Cali for work.",
+         "No. Va a viajar a Cali por trabajo."
+        ],
+        [
+         "B",
+         "Oh, what a pity. And on Sunday? Let's go for a walk in the park.",
+         "Ay, qué lástima. ¿Y el domingo? Vamos a caminar al parque."
+        ],
+        [
+         "A",
+         "Sorry, I can't. I'm going to rest all day!",
+         "Lo siento, no puedo. ¡Voy a descansar todo el día!"
+        ],
+        [
+         "B",
+         "Ha ha, I understand. What about next Sunday?",
+         "Jaja, te entiendo. ¿Qué tal el otro domingo?"
+        ],
+        [
+         "A",
+         "Perfect. See you on Saturday!",
+         "Perfecto. ¡Nos vemos el sábado!"
+        ]
+       ]
+      },
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "are",
+         "you",
+         "going",
+         "to",
+         "do",
+         "this",
+         "weekend?"
+        ],
+        "es": "¿Qué vas a hacer este fin de semana?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "Would",
+         "you",
+         "like",
+         "to",
+         "come",
+         "to",
+         "dinner?"
+        ],
+        "es": "¿Te gustaría venir a cenar?"
+       },
+       {
+        "t": "dict",
+        "say": "We're going to travel in December."
+       },
+       {
+        "t": "dict",
+        "say": "Why don't we meet at seven?"
+       },
+       {
+        "t": "mc",
+        "q": "She ___ going to buy a car. She doesn't have money.",
+        "o": [
+         "isn't",
+         "doesn't",
+         "don't",
+         "aren't"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Let's ___ a pizza tonight.",
+        "o": [
+         "order",
+         "to order",
+         "ordering",
+         "ordered"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Next year I'm going to learn to drive, and my wife is going to start a cooking course.",
+        "q": "¿Qué va a hacer la esposa?",
+        "o": [
+         "Un curso de cocina",
+         "Aprender a manejar",
+         "Viajar",
+         "Cambiar de trabajo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un mensaje invitando a un amigo a un plan (mínimo 30 palabras): di qué van a hacer, cuándo y dónde. Usa would you like to, going to y let's o why don't we.",
+        "min": 30,
+        "keys": [
+         [
+          "would you like to"
+         ],
+         [
+          "going to"
+         ],
+         [
+          "let's",
+          "why don't we",
+          "what about"
+         ],
+         [
+          "saturday",
+          "sunday",
+          "friday",
+          "tomorrow",
+          "tonight",
+          "weekend",
+          "monday",
+          "tuesday",
+          "wednesday",
+          "thursday"
+         ]
+        ]
+       }
+      ],
+      "reading": 21
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "How ___ water do you drink every day?",
+      "o": [
+       "much",
+       "many",
+       "lot",
+       "a lot"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I usually walk to work, but today I ___ the bus because it's raining.",
+      "o": [
+       "am taking",
+       "take",
+       "takes",
+       "taking"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "We ___ a great movie last night.",
+      "o": [
+       "watched",
+       "watch",
+       "watching",
+       "are watching"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Where did you ___ on vacation?",
+      "o": [
+       "go",
+       "went",
+       "going",
+       "goes"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "—Would you like to have dinner with us? —___",
+      "o": [
+       "I'd love to!",
+       "Yes, I would like.",
+       "Yes, I like it.",
+       "No, I'm not."
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "I ___ a new jacket at the mall yesterday. (buy)",
+      "ans": [
+       "bought"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Last weekend I went to Medellín. I saw my old friends, we ate bandeja paisa and I bought a souvenir for my wife.",
+      "q": "¿Qué comieron?",
+      "o": [
+       "Bandeja paisa",
+       "Ajiaco",
+       "Empanadas",
+       "Arepas"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Next month I'm going to start a new job, so this weekend I'm going to buy some clothes.",
+      "q": "¿Qué va a hacer el próximo mes?",
+      "o": [
+       "Empezar un trabajo nuevo",
+       "Comprar ropa",
+       "Viajar",
+       "Mudarse"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe sobre tu semana (mínimo 50 palabras): qué hiciste el fin de semana pasado (verbos en pasado), qué estás haciendo estos días y qué vas a hacer el próximo fin de semana (going to).",
+      "min": 50,
+      "keys": [
+       [
+        "went",
+        "had",
+        "ate",
+        "saw",
+        "bought",
+        "watched",
+        "visited",
+        "played",
+        "cooked",
+        "stayed",
+        "worked",
+        "got",
+        "made",
+        "took"
+       ],
+       [
+        "i'm",
+        "i am"
+       ],
+       [
+        "going to"
+       ],
+       [
+        "last",
+        "yesterday",
+        "ago"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "Last Saturday I went to the mall and I bought a new phone."
+     },
+     {
+      "t": "oral",
+      "text": "Would you like to come to my house on Sunday? Let's make a barbecue."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "How ___ apples do we need?",
+      "o": [
+       "many",
+       "much",
+       "lot of",
+       "any much"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "There isn't ___ milk. Let's buy a bottle.",
+      "o": [
+       "much",
+       "many",
+       "a lot",
+       "lot"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Right now my husband ___ dinner.",
+      "o": [
+       "is cooking",
+       "cooks",
+       "cook",
+       "cooked"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I ___ the answer. It's number three.",
+      "o": [
+       "know",
+       "am knowing",
+       "knowing",
+       "knows"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "He didn't ___ to the party.",
+      "o": [
+       "come",
+       "came",
+       "comes",
+       "coming"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "—Did you sleep well? —No, I ___.",
+      "o": [
+       "didn't",
+       "don't",
+       "wasn't",
+       "not"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "They ___ to Cartagena by plane last year. (go)",
+      "ans": [
+       "went"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "What are you ___ to do tomorrow?",
+      "ans": [
+       "going"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "I studied for three hours yesterday, but I didn't finish the project. I'm going to finish it tomorrow.",
+      "q": "¿Cuándo va a terminar el proyecto?",
+      "o": [
+       "Mañana",
+       "Ayer",
+       "Hoy",
+       "El fin de semana"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "A kilo of rice, a bottle of oil and two loaves of bread, please. How much is it? Twenty-five thousand pesos.",
+      "q": "¿Cuánto paga?",
+      "o": [
+       "25.000 pesos",
+       "35.000 pesos",
+       "52.000 pesos",
+       "20.000 pesos"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Why don't we go to the beach on Sunday? Good idea! Let's take the bus at eight.",
+      "q": "¿A qué hora van a tomar el bus?",
+      "o": [
+       "A las 8",
+       "A las 7",
+       "A las 9",
+       "A las 6"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un correo corto a un amigo (mínimo 40 palabras): cuéntale qué hiciste en tus últimas vacaciones e invítalo a un plan para el próximo mes.",
+      "min": 40,
+      "keys": [
+       [
+        "went",
+        "had",
+        "ate",
+        "saw",
+        "bought",
+        "visited",
+        "stayed",
+        "took"
+       ],
+       [
+        "would you like to",
+        "let's",
+        "why don't we"
+       ],
+       [
+        "going to"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I didn't watch the game. What happened?"
+     },
+     {
+      "t": "oral",
+      "text": "How many people are going to come to the party?"
+     },
+     {
+      "t": "oral",
+      "text": "Yesterday I worked from home, and today I'm working in the office."
+     }
+    ]
    }
   ],
   "final": {
@@ -13899,8 +19033,52 @@ window.SYLLABUS = {
      "text": "On weekends I like cooking and watching movies."
     },
     {
+     "t": "listen",
+     "say": "Good evening. I have a reservation for two nights. My name is Laura Pérez. Here is your key. Your room is on the fifth floor.",
+     "q": "¿En qué piso está la habitación?",
+     "o": [
+      "En el quinto",
+      "En el segundo",
+      "En el primero",
+      "En el cuarto"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Last Saturday I went to the market, I bought fruit and vegetables, and in the evening I cooked dinner for my parents.",
+     "q": "¿Qué hizo por la noche?",
+     "o": [
+      "Cocinó para sus papás",
+      "Fue al mercado",
+      "Compró fruta",
+      "Fue a cine"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Next month I'm going to travel to Cartagena by plane. I'm going to stay with my cousin.",
+     "q": "¿Con quién se va a quedar?",
+     "o": [
+      "Con su primo",
+      "En un hotel",
+      "Con sus papás",
+      "Con un amigo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "oral",
+     "text": "Last weekend I visited my parents and we had lunch together."
+    },
+    {
+     "t": "oral",
+     "text": "Sorry, I don't understand. Can you repeat that, please?"
+    },
+    {
      "t": "write",
-     "q": "Escribe en inglés entre 40 y 80 palabras: preséntate (nombre, edad, de dónde eres), habla de tu familia y de tu rutina de un día normal."
+     "q": "Escribe en inglés entre 50 y 100 palabras: preséntate (nombre, edad, de dónde eres), habla de tu familia y de tu rutina, cuenta qué hiciste el fin de semana pasado y qué vas a hacer el próximo."
     }
    ],
    "perLesson": true,

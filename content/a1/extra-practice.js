@@ -91,5 +91,35 @@ module.exports = [
  T("What did you do last weekend?", 15, [["last weekend", "on saturday", "on sunday"], ["went", "visited", "watched", "played", "was"]], "Last weekend I went to the park with my family. On Sunday I visited my mother and we watched a film."),
  T("Talk about your hobbies: what you like doing and what you can do.", 15, [["i like", "i love"], ["i can"]], "I like reading and listening to music. I love dancing. I can cook very well, but I can't swim."),
  T("Listen and answer.", 8, [["i went", "i visited", "i was", "i watched", "i played"]], "Yesterday I went to work and in the evening I watched TV.", "What did you do yesterday?")
+],
+/* Unidad 7 · Viajes, salud y el día a día */
+[
+ L("Excuse me, what time does the bus to Tunja leave? It leaves at three forty-five from gate eight.", "¿A qué hora sale el bus?", ["3:45", "4:35", "3:15", "8:00"], 0),
+ L("I have a reservation for two nights. A double room. Breakfast is included.", "¿Por cuántas noches es la reserva?", ["Dos", "Una", "Tres", "Cuatro"], 0),
+ L("What's the matter? My stomach hurts and I feel sick. I ate a lot of fried food.", "¿Qué le duele?", ["El estómago", "La cabeza", "La espalda", "Una muela"], 0),
+ L("Hello, this is Pedro. Can I speak to Lucía, please? Sorry, she isn't here right now.", "¿Con quién quiere hablar Pedro?", ["Con Lucía", "Con su jefe", "Con el doctor", "Con su mamá"], 0),
+ M("I'm ___. Let's have lunch.", ["hungry", "thirsty", "sleepy", "cold"], 0, "Hungry = con hambre."),
+ M("Can you speak more ___, please?", ["slowly", "slow", "slowing", "slows"], 0, "Para pedir que hablen despacio: more slowly."),
+ F("My back ___. I can't play soccer today. (doler)", ["hurts"], "My back hurts = me duele la espalda."),
+ O("Excuse me, how do you say 'almohada' in English?"),
+ O("I'm so sorry I'm late. The bus was very slow."),
+ T("You are at a hotel. Ask for two things and say that something doesn't work.", 15, [["could i have", "can i have"], ["doesn't work"]], "Hello. Could I have an extra towel, please? And can I have the Wi-Fi password? The air conditioning in my room doesn't work."),
+ T("How do you get to work or school? Say the transport, the time and how long it takes.", 15, [["by", "on foot"], ["it takes", "minutes", "hour"]], "I go to work by bus. I leave home at six thirty and it takes about forty minutes."),
+ T("Listen and answer.", 8, [["i have", "my", "hurts", "i'm", "i feel"]], "I have a headache and I feel very tired.", "What's the matter? How do you feel?")
+],
+/* Unidad 8 · Mi pasado y mis planes */
+[
+ L("We need a kilo of rice, two bottles of water and a lot of fruit for the trip.", "¿Cuántas botellas de agua necesitan?", ["Dos", "Una", "Tres", "Diez"], 0),
+ L("I usually have lunch at home, but today I'm having lunch with my boss at a restaurant.", "¿Dónde almuerza hoy?", ["En un restaurante", "En la casa", "En la oficina", "En el parque"], 0),
+ L("Yesterday I didn't go to the gym. I stayed at home and watched a series.", "¿Qué hizo ayer?", ["Se quedó en casa viendo una serie", "Fue al gimnasio", "Fue al cine", "Trabajó hasta tarde"], 0),
+ L("Next Saturday we're going to paint the living room. Would you like to help us? Sure!", "¿Qué van a hacer el sábado?", ["Pintar la sala", "Ir de paseo", "Hacer una fiesta", "Limpiar la cocina"], 0),
+ M("How ___ people came to the party?", ["many", "much", "lot", "a lot"], 0, "People es contable → how many."),
+ M("What did you ___ last night?", ["do", "did", "doing", "does"], 0, "Después de did el verbo va en forma base."),
+ F("We ___ a lot of photos on our trip. (take)", ["took"], "Pasado de take: took."),
+ O("Last summer I went to the beach and I swam every day."),
+ O("I'm going to study English every day next year."),
+ T("What did you do last weekend? Say where you went and what you ate.", 15, [["went", "visited", "stayed"], ["ate", "had"]], "Last weekend I went to my sister's house. We had lunch together and I ate chicken with rice and salad."),
+ T("Invite a friend to do something this weekend. Say what, when and where.", 15, [["would you like to", "let's", "why don't we"]], "Would you like to go to the cinema on Saturday? Let's meet at the mall at six and then we can have dinner."),
+ T("Listen and answer.", 8, [["going to"]], "This weekend I'm going to visit my parents and rest.", "What are you going to do this weekend?")
 ]
 ];
