@@ -1,0 +1,545 @@
+{
+ "nivel": 0,
+ "fuentes": "Temario A1 común a English File Beginner, Headway Beginner, Cambridge Empower A1, Core Inventory British Council/EAQUALS y descriptores MCER A1",
+ "temas": [
+  {
+   "area": "Gramática",
+   "tema": "Verbo to be (afirmativo, negativo, preguntas)",
+   "titulo": "to be",
+   "buscar": [
+    "\\bI'm\\b",
+    "\\bare you\\b",
+    "\\bisn't\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pronombres personales y posesivos (my, your, his…)",
+   "titulo": "posesivos",
+   "buscar": [
+    "\\btheir\\b",
+    "\\bour\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Posesivo 's (Ana's brother) y Whose?",
+   "titulo": "'s|whose",
+   "buscar": [
+    "\\b[A-Z][a-z]+'s (brother|sister|mother|father|wife|husband|car|house|phone|son|daughter|friend|dog|bag)\\b",
+    "\\bwhose\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Gramática",
+   "tema": "Artículos a/an/the y plurales (incluye irregulares: children, people, men)",
+   "titulo": "artículos|plurales",
+   "buscar": [
+    "\\bchildren\\b",
+    "\\bwomen\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "This, that, these, those",
+   "titulo": "this, that",
+   "buscar": [
+    "\\bthose\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Presente simple (rutinas, 3.ª persona -s)",
+   "titulo": "presente simple",
+   "buscar": [
+    "\\bdoesn't\\b",
+    "\\bdoes (he|she)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Adverbios de frecuencia",
+   "titulo": "frecuencia",
+   "buscar": [
+    "\\b(always|usually|sometimes|never)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Palabras interrogativas (what, where, who, when, how, why, which)",
+   "titulo": "preguntas",
+   "buscar": [
+    "\\bwhich\\b",
+    "\\bwhy\\b",
+    "\\bwhen\\b"
+   ],
+   "min": 25
+  },
+  {
+   "area": "Gramática",
+   "tema": "Can / can't (habilidad y permiso)",
+   "titulo": "can",
+   "buscar": [
+    "\\bcan't\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "There is / there are + some / any",
+   "titulo": "there is",
+   "buscar": [
+    "\\bthere are\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Contables e incontables: How much / How many, a lot of",
+   "titulo": "contables|how much|how many",
+   "buscar": [
+    "\\bhow many\\b",
+    "\\bhow much (milk|water|sugar|money|rice|coffee|bread|cheese|time)\\b",
+    "\\ba lot of\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Gramática",
+   "tema": "Like / love / hate + -ing",
+   "titulo": "love, like",
+   "buscar": [
+    "\\b(like|love|hate)s? [a-z]+ing\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Presente continuo",
+   "titulo": "continuo",
+   "buscar": [
+    "\\b(am|is|are) [a-z]+ing\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Presente simple vs. presente continuo",
+   "titulo": "simple (vs|o|y) continuo|contraste",
+   "buscar": [
+    "\\busually\\b.{0,60}\\b(but|now|today)\\b.{0,30}\\b(am|is|are) [a-z]+ing\\b"
+   ],
+   "min": 4
+  },
+  {
+   "area": "Gramática",
+   "tema": "Imperativos y pronombres de objeto",
+   "titulo": "imperativ|objeto",
+   "buscar": [
+    "\\bdon't (touch|open|forget|worry)\\b",
+    "\\b(him|them|us)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pasado de be: was / were",
+   "titulo": "was y were",
+   "buscar": [
+    "\\bwasn't\\b",
+    "\\bweren't\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pasado simple: verbos regulares (-ed)",
+   "titulo": "pasado simple|regulares",
+   "buscar": [
+    "\\b(played|watched|worked|visited|cooked|cleaned|studied|walked|listened|talked|called|stayed|danced)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pasado simple: verbos irregulares comunes (went, had, saw, ate…)",
+   "titulo": "irregulares",
+   "buscar": [
+    "\\b(went|had|saw|ate|bought|got|made|took|came|met|drank|did)\\b"
+   ],
+   "min": 20
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pasado simple: preguntas y negativas con did / didn't",
+   "titulo": "\\bdid\\b|pasado simple",
+   "buscar": [
+    "\\bdid you\\b",
+    "\\bdidn't\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Futuro con be going to (planes)",
+   "titulo": "going to",
+   "buscar": [
+    "\\b(am|is|are|'m|'s|'re) going to\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Would like / I'd like (pedir y ofrecer)",
+   "titulo": "would like",
+   "buscar": [
+    "\\bI'd like\\b",
+    "\\bwould you like\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Gramática",
+   "tema": "Preposiciones de tiempo (in, on, at) y de lugar",
+   "titulo": "preposiciones|fechas",
+   "buscar": [
+    "\\bnext to\\b",
+    "\\bon (Monday|Tuesday|Friday)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Adjetivos (posición) + very / really / quite",
+   "titulo": "describir",
+   "buscar": [
+    "\\b(very|really) (tall|big|small|nice|beautiful|old)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Sugerencias: Let's… / Why don't we…? / What about…?",
+   "titulo": "sugerencia|let's",
+   "buscar": [
+    "\\blet's\\b",
+    "\\bwhy don't we\\b",
+    "\\bwhat about\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Funciones",
+   "tema": "Saludar, presentarse y despedirse",
+   "titulo": "saludos",
+   "buscar": [
+    "\\bnice to meet you\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Datos personales, deletrear y llenar un formulario",
+   "titulo": "datos personales",
+   "buscar": [
+    "\\bsurname\\b|\\blast name\\b",
+    "\\bhow do you spell\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Números, edad, precios y cantidades grandes",
+   "titulo": "números|precios",
+   "buscar": [
+    "\\bhundred\\b",
+    "\\bhow old\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Números ordinales (first, second, third…)",
+   "titulo": "ordinal",
+   "buscar": [
+    "\\b(third|fourth|fifth|twenty-first)\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Funciones",
+   "tema": "Decir la hora y hablar de horarios",
+   "titulo": "la hora",
+   "buscar": [
+    "\\bwhat time\\b",
+    "\\bo'clock\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Pedir comida y bebida en un restaurante o café",
+   "titulo": "restaurante",
+   "buscar": [
+    "\\bthe bill\\b|\\bthe check\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Comprar en una tienda (tallas, colores, precios)",
+   "titulo": "ropa|compras",
+   "buscar": [
+    "\\bcan I try\\b|\\btry (it|them) on\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Pedir y dar direcciones",
+   "titulo": "direcciones",
+   "buscar": [
+    "\\bturn (left|right)\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Estrategias en clase: no entiendo, repita, ¿cómo se dice…?",
+   "titulo": "en clase|comunicarte",
+   "buscar": [
+    "\\bcan you repeat\\b",
+    "\\bhow do you say\\b",
+    "\\bwhat does .{1,15} mean\\b",
+    "\\bmore slowly\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Funciones",
+   "tema": "Invitar, aceptar y rechazar (Would you like to…? Sorry, I can't)",
+   "titulo": "invitar|invitaciones",
+   "buscar": [
+    "\\bwould you like to\\b",
+    "\\bsorry, I can't\\b",
+    "\\bI'd love to\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Funciones",
+   "tema": "Transporte: comprar un tiquete, horarios, preguntar por el bus o el tren",
+   "titulo": "transporte|viaj",
+   "buscar": [
+    "\\b(ticket|platform|return|single)\\b",
+    "\\b(train|subway|metro|taxi)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Funciones",
+   "tema": "En el hotel: reservar, registrarse, pedir algo",
+   "titulo": "hotel",
+   "buscar": [
+    "\\b(check in|reservation|single room|double room|booking)\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Funciones",
+   "tema": "Salud básica: el cuerpo, decir qué te duele, en la farmacia/médico",
+   "titulo": "\\bsalud\\b|cuerpo|médico",
+   "buscar": [
+    "\\b(headache|stomachache|toothache|sore throat|a cold|a fever)\\b",
+    "\\bI feel (sick|ill)\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Funciones",
+   "tema": "Estados y sentimientos (hungry, thirsty, tired, happy, bored)",
+   "titulo": "sentimientos|cómo te sientes",
+   "buscar": [
+    "\\b(hungry|thirsty|bored|nervous|angry|worried)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Funciones",
+   "tema": "Hablar por teléfono (llamada simple, dejar un mensaje)",
+   "titulo": "llamada|por teléfono",
+   "buscar": [
+    "\\bcan I speak to\\b",
+    "\\bthis is .{1,12} speaking\\b",
+    "\\bleave a message\\b"
+   ],
+   "min": 4
+  },
+  {
+   "area": "Funciones",
+   "tema": "Pedir disculpas y responder (Sorry I'm late / No problem)",
+   "titulo": "disculpa",
+   "buscar": [
+    "\\bsorry I'm late\\b|\\bI'm sorry\\b",
+    "\\bno problem\\b|\\bthat's OK\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Contar qué hiciste (fin de semana, vacaciones)",
+   "titulo": "fin de semana|vacaciones",
+   "buscar": [
+    "\\blast (weekend|summer|year)\\b.{0,40}\\b(went|visited|played|had)\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Funciones",
+   "tema": "Hablar de planes futuros",
+   "titulo": "planes",
+   "buscar": [
+    "\\bnext (week|year|weekend|summer)\\b.{0,40}going to|going to.{0,40}next (week|year|weekend|summer)\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Escritura",
+   "tema": "Mensaje, correo o postal corta a un amigo",
+   "titulo": "postal|correo a|mensaje",
+   "buscar": [
+    "\\bDear\\b",
+    "\\bLove,|\\bBest wishes\\b|\\bSee you soon\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Colores",
+   "titulo": "",
+   "buscar": [
+    "\\b(purple|orange|pink|brown|grey|gray)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Familia",
+   "titulo": "familia",
+   "buscar": [
+    "\\b(grandmother|cousin|aunt|uncle)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Países y nacionalidades",
+   "titulo": "países",
+   "buscar": [
+    "\\b(Colombian|Mexican|American|Brazilian)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Profesiones y lugares de trabajo",
+   "titulo": "trabajo|profesion",
+   "buscar": [
+    "\\b(doctor|nurse|teacher|engineer|waiter|lawyer|police officer|mechanic|chef|receptionist|accountant|salesperson)\\b",
+    "\\bwhat do you do\\b"
+   ],
+   "min": 20
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Objetos cotidianos y del salón de clase",
+   "titulo": "this, that|have",
+   "buscar": [
+    "\\b(pen|pencil|notebook|keys|wallet|umbrella)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Comida y bebida",
+   "titulo": "comida",
+   "buscar": [
+    "\\b(chicken|rice|vegetables|juice)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Ropa",
+   "titulo": "ropa",
+   "buscar": [
+    "\\b(shirt|jacket|shoes|dress)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Casa, muebles y cuartos",
+   "titulo": "casa",
+   "buscar": [
+    "\\b(kitchen|bedroom|sofa|bathroom)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Lugares de la ciudad",
+   "titulo": "ciudad",
+   "buscar": [
+    "\\b(bank|pharmacy|supermarket|hospital)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Clima y estaciones",
+   "titulo": "clima",
+   "buscar": [
+    "\\b(sunny|rainy|cloudy|windy)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Días, meses y fechas",
+   "titulo": "días, meses",
+   "buscar": [
+    "\\b(January|October|Wednesday)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Partes del cuerpo",
+   "titulo": "cuerpo",
+   "buscar": [
+    "\\b(head|arm|leg|back|stomach|shoulder|knee|foot|feet)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Medios de transporte",
+   "titulo": "transporte",
+   "buscar": [
+    "\\b(bus|train|plane|bike|motorcycle|subway|taxi)\\b"
+   ],
+   "min": 15
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Deportes y tiempo libre",
+   "titulo": "hobbies",
+   "buscar": [
+    "\\b(soccer|football|swimming|tennis|basketball|cycling)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Animales comunes",
+   "titulo": "animales",
+   "buscar": [
+    "\\b(cat|dog|bird|horse|cow|fish)s?\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Tecnología básica (celular, computador, app, wifi, contraseña)",
+   "titulo": "tecnolog",
+   "buscar": [
+    "\\b(laptop|computer|app|wifi|wi-fi|password|charger|message)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Verbos cotidianos frecuentes (get up, have breakfast, go to work…)",
+   "titulo": "rutina",
+   "buscar": [
+    "\\bget up\\b",
+    "\\bhave breakfast\\b"
+   ]
+  }
+ ]
+}

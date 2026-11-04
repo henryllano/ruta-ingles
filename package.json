@@ -5,7 +5,8 @@
   "scripts": {
     "qa": "node tools/qa/run.mjs",
     "qa:contenido": "node tools/qa/check-content.mjs",
-    "qa:pagina": "node tools/qa/check-ui.mjs"
+    "qa:pagina": "node tools/qa/check-ui.mjs",
+    "qa:cobertura": "node tools/qa/cobertura.mjs"
   },
   "devDependencies": {
     "dictionary-en": "^4.0.0",
