@@ -294,7 +294,7 @@ quiz:[
 ],
 pool:[
  {t:"mc",q:"Today is ___ than yesterday. (más frío)",o:["more cold","colder","coldest","as cold"],a:1},
- {t:"mc",q:"She's the ___ person I know.",o:["kinder","kindest","most kind","more kind"],a:1},
+ {t:"mc",q:"She's the ___ person I know.",o:["kinder","kindest","most kindest","more kind"],a:1},
  {t:"mc",q:"These shoes are ___ small. I need a bigger size.",o:["enough","too","as","very enough"],a:1},
  {t:"mc",q:"My car isn't as big ___ yours.",o:["than","as","like","that"],a:1},
  {t:"mc",q:"There ___ a beautiful park near my old house.",o:["were","was","are","be"],a:1},

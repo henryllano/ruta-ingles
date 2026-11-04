@@ -98,7 +98,7 @@ lessons: [
  ]},
  practice:[
   {t:"mc",q:"If I had accepted that job in Madrid, I ___ in Spain now.",o:["would have lived","would live","had lived","will live"],a:1,x:"Condición pasada, resultado presente (now): would + verbo."},
-  {t:"mc",q:"If she ___ so shy, she would have spoken at the meeting yesterday.",o:["weren't","hadn't been","wouldn't be","isn't"],a:0,x:"Rasgo permanente (presente) con resultado pasado."},
+  {t:"mc",q:"If she ___ so shy, she would have spoken at the meeting yesterday.",o:["weren't","isn't being","wouldn't be","isn't"],a:0,x:"Rasgo permanente (presente) con resultado pasado."},
   {t:"mc",q:"If we hadn't missed the train, we ___ at the hotel by now.",o:["would have been","would be","had been","were"],a:1},
   {t:"fill",q:"If he ___ ___ out of university, he would have a degree now. (no hubiera abandonado)",ans:["hadn't dropped","had not dropped"]},
   {t:"listen",say:"If my grandparents hadn't emigrated to Colombia in the fifties, I wouldn't be here and I definitely wouldn't speak Spanish.",q:"¿Qué hicieron los abuelos en los años cincuenta?",o:["Se fueron de Colombia","Emigraron a Colombia","Aprendieron español","Abrieron un negocio"],a:1},

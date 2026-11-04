@@ -296,7 +296,7 @@ lessons: [
   {t:"dict",say:"Prices are getting higher and higher."},
   {t:"dict",say:"Our new flat is twice as big as the old one."},
   {t:"mc",q:"Elige la frase correcta:",o:["She's two times taller as me.","She's twice as tall as me.","She's twice taller as me.","She's double as tall than me."],a:1},
-  {t:"fill",q:"Today is cold, but tomorrow will be ___ colder. (aún más)",ans:["even"]},
+  {t:"fill",q:"Today is cold, but tomorrow will be ___ colder. (aún más)",ans:["even","still","much"]},
   {t:"listen",say:"Online courses can be just as effective as traditional classes, but only if students are disciplined. The less you organize your time, the less you learn.",q:"Según el texto, ¿de qué depende la eficacia de los cursos en línea?",o:["Del precio","De la disciplina del estudiante","Del profesor","De la conexión a internet"],a:1},
   {t:"write",q:"Compara dos ciudades, trabajos o estilos de vida que conozcas (mínimo 100 palabras). Usa the more... the more, al menos dos modificadores (far, much, slightly...) y una estructura con as... as (nowhere near as, twice as, just as).",min:100,keys:[["the more","the less","the better","the sooner"],["far","much","slightly","considerably","significantly","a bit"],["nowhere near as","not nearly as","twice as","just as","every bit as","half as"],["than"]]}
  ],
@@ -318,7 +318,7 @@ quiz:[
  {t:"oral",text:"The film didn't live up to my expectations; it was nowhere near as good as the book."}
 ],
 pool:[
- {t:"mc",q:"We have to ___ a decision before the end of the month.",o:["do","take","make","have"],a:2},
+ {t:"mc",q:"We have to ___ a decision before the end of the month.",o:["do","get","make","have"],a:2},
  {t:"mc",q:"Some customers try to ___ the free trial and then cancel.",o:["take advantage of","take part of","make use with","do advantage of"],a:0},
  {t:"mc",q:"Elige la palabra con el prefijo correcto: 'no estar de acuerdo con algo'",o:["misapprove","unapprove","disapprove","overapprove"],a:2},
  {t:"mc",q:"Her ___ to learn new things makes her a great employee.",o:["willingful","willingness","willingity","willingment"],a:1},

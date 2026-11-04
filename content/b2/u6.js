@@ -320,7 +320,7 @@ pool:[
  {t:"mc",q:"Which phrase is used to close a presentation?",o:["Let's kick off with...","To wrap up...","Moving on to...","I'll hand over to..."],a:1},
  {t:"mc",q:"'Le escribo en relación con su anuncio' es:",o:["I write you about your ad.","I am writing with regard to your advertisement.","I am writing for your advertisement.","I writing to your advertisement."],a:1},
  {t:"mc",q:"Which verb fits? 'I ___ a team of fifteen people across three countries.'",o:["achieved","oversaw","exceeded","boosted"],a:1},
- {t:"mc",q:"I tried ___ the door, but it was locked.",o:["opening","to open","open","opened"],a:1,x:"Try to = esforzarse por algo que no se logró."},
+ {t:"mc",q:"I tried ___ the door, but it was locked.",o:["to opening","to open","open","opened"],a:1,x:"Try to = esforzarse por algo que no se logró."},
  {t:"mc",q:"The cars ___ in Brazil and then exported to Colombia.",o:["assemble","are assembled","are assembling","assembled are"],a:1},
  {t:"fill",q:"We ___ to inform you that the position has been filled. (lamentamos)",ans:["regret"]},
  {t:"fill",q:"After ___ (log) in, select 'My account'.",ans:["logging"]},

@@ -103,7 +103,7 @@ lessons: [
  ]},
  practice:[
   {t:"mc",q:"If the company had encrypted the data, millions of users ___ at risk now.",o:["wouldn't have been","wouldn't be","won't be","hadn't been"],a:1,x:"Condición pasada + consecuencia presente (now) → would + verbo base."},
-  {t:"mc",q:"If he ___ so trusting, he wouldn't have shared his password.",o:["weren't","hadn't been","wouldn't be","isn't"],a:0,x:"Rasgo presente (es confiado) + consecuencia pasada → past simple / would have."},
+  {t:"mc",q:"If he ___ so trusting, he wouldn't have shared his password.",o:["weren't","wasn't being","wouldn't be","isn't"],a:0,x:"Rasgo presente (es confiado) + consecuencia pasada → past simple / would have."},
   {t:"mc",q:"¿Cuál es correcta?",o:["If I would have known, I wouldn't be here.","If I had known, I wouldn't be here.","If I knew, I wouldn't have been here now.","If I have known, I wouldn't be here."],a:1},
   {t:"fill",q:"Users should be able to opt ___ of data collection with one click. (darse de baja)",ans:["out"]},
   {t:"listen",say:"If the platform hadn't changed its algorithm to reward outrage, the debate in this country probably wouldn't be so polarized today.",q:"¿Qué relación establece el hablante?",o:["La polarización actual se debe en parte a un cambio pasado del algoritmo","El algoritmo cambiará para reducir la polarización","La plataforma premia el debate tranquilo","El país nunca ha estado polarizado"],a:0},
@@ -120,7 +120,7 @@ lessons: [
   {t:"write",q:"Escribe un texto argumentativo (mínimo 130 palabras) sobre si las empresas tecnológicas deberían responder legalmente por la desinformación en sus plataformas. Usa al menos dos condicionales mixtos (de ambos tipos si puedes) y vocabulario de la lección.",min:130,keys:[["if","had"],["would be","wouldn't be","would have","wouldn't have","might be","could be"],["accountable","misinformation","algorithmic bias","surveillance","data breach","echo chamber"],["however","nevertheless","on the other hand","admittedly","that said"]]}
  ],
  exam:{t:"mc",q:"If governments had acted on AI regulation years ago, we ___ so worried about deepfakes today.",o:["wouldn't have been","won't be","wouldn't be","hadn't been"],a:2},
- exam2:{t:"mc",q:"If I ___ so suspicious of free apps, I would have downloaded it last week.",o:["weren't","hadn't been","wouldn't be","am not"],a:0}
+ exam2:{t:"mc",q:"If I ___ so suspicious of free apps, I would have downloaded it last week.",o:["weren't","wasn't being","wouldn't be","am not"],a:0}
 },
 { id:"c1-u6-l3", title:"Economía y mundo laboral con pasiva impersonal", goal:"Analizar la desigualdad, la automatización y el emprendimiento citando opiniones y datos de forma objetiva con la pasiva impersonal.",
  theory:[

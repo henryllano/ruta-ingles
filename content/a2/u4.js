@@ -290,7 +290,7 @@ quiz:[
 ],
 pool:[
  {t:"mc",q:"She's ___ to the supermarket. She'll be back soon.",o:["been","gone","went","go"],a:1},
- {t:"mc",q:"I ___ my keys. I can't find them anywhere!",o:["lost","have lost","lose","am losing"],a:1},
+ {t:"mc",q:"I ___ my keys. I can't find them anywhere!",o:["losed","have lost","lose","am losing"],a:1},
  {t:"mc",q:"—Have you had lunch yet? —___",o:["Yes, I've already had it.","Yes, I already have it yet.","Yes, I'm had.","Not already."],a:0},
  {t:"mc",q:"How long ___ you known your wife?",o:["did","have","are","do"],a:1},
  {t:"mc",q:"I've been here ___ two o'clock.",o:["for","since","ago","during"],a:1},

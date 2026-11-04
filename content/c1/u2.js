@@ -295,7 +295,7 @@ lessons: [
   {t:"dict",say:"The project has been put on hold."},
   {t:"dict",say:"All our efforts came to nothing."},
   {t:"mc",q:"'Estaba al borde de la quiebra' es:",o:["It was on the verge of bankruptcy.","It was due to bankruptcy.","It was set bankruptcy.","It was about bankruptcy."],a:0},
-  {t:"fill",q:"The government decided to ___ the reform until after the elections. (engavetar, archivar)",ans:["shelve","postpone"]},
+  {t:"fill",q:"The government decided to ___ the reform until after the elections. (engavetar, archivar)",ans:["shelve","postpone","put off","delay"]},
   {t:"listen",say:"My grandfather was to have studied law in Bogotá, but his father fell ill, so he stayed on the farm. He would have liked to be a judge.",q:"¿Por qué el abuelo no estudió derecho?",o:["No lo aceptaron en la universidad","Su padre se enfermó y se quedó en la finca","Prefirió ser juez","No tenía dinero"],a:1},
   {t:"write",q:"Cuenta la historia de un plan importante que no se cumplió (tuyo o de alguien que conozcas) (mínimo 130 palabras). Explica qué iba a pasar, qué estuvo a punto de ocurrir, por qué fracasó y qué te habría gustado hacer.",min:130,keys:[["was to have","were to have","was due to","was set to"],["was about to","were about to","on the point of","on the verge of"],["would have liked to"],["fell through","called off","put on hold","scrapped","came to nothing"]]}
  ],

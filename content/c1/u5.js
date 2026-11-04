@@ -322,7 +322,7 @@ pool:[
  {t:"mc",q:"Versión más diplomática de 'You're wrong':",o:["You have no idea.","I'm not sure I'd entirely agree.","That's stupid.","No, no, no."],a:1},
  {t:"fill",q:"Could you meet us ___ on the price? (a mitad de camino)",ans:["halfway","half way"]},
  {t:"fill",q:"Thanks, that's really useful. I'll take it on ___.",ans:["board"]},
- {t:"fill",q:"We finally ___ a deal after three rounds of talks. (cerramos, pasado)",ans:["struck"]},
+ {t:"fill",q:"We finally ___ a deal after three rounds of talks. (cerramos, pasado)",ans:["struck","reached","closed","cut"]},
  {t:"listen",say:"Granted, the new software is harder to learn, yet once the team is trained, it should save us around ten hours a week.",q:"¿Qué ventaja menciona el hablante?",o:["Es más fácil de aprender","Ahorrará unas diez horas por semana","Es más barato","No requiere capacitación"],a:1},
  {t:"listen",say:"Your analysis was excellent. One thing that could make it even stronger is adding a few concrete examples. I'm sure the final version will be very well received.",q:"¿Qué le recomienda mejorar?",o:["El análisis","Agregar ejemplos concretos","La ortografía","La extensión"],a:1},
  {t:"listen",say:"I understand your frustration, and regrettably, the flight has been cancelled. We'll rebook you on the next available flight and cover your hotel tonight.",q:"¿Qué ofrece la aerolínea?",o:["Un reembolso total","Un nuevo vuelo y el hotel de esta noche","Solo un vale de comida","Nada"],a:1},

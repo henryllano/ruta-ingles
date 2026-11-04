@@ -2241,7 +2241,7 @@ window.SYLLABUS = {
       "t": "mc",
       "q": "—Are you from Chile? —No, I ___.",
       "o": [
-       "am not",
+       "no am",
        "'m not",
        "not",
        "isn't"
@@ -6043,7 +6043,7 @@ window.SYLLABUS = {
        "q": "'Ella casi nunca toma café' — la más cercana es:",
        "o": [
         "She always drinks coffee.",
-        "She never drinks coffee.",
+        "She rarely drinks coffee.",
         "She usually drinks coffee.",
         "She often drinks coffee."
        ],
@@ -9216,7 +9216,7 @@ window.SYLLABUS = {
       "o": [
        "more small",
        "smaller",
-       "small",
+       "smalls",
        "smallest"
       ],
       "a": 1
@@ -13827,7 +13827,7 @@ window.SYLLABUS = {
      },
      {
       "t": "write",
-      "q": "Escribe sobre tus hobbies y qué hiciste el fin de semana pasado (mínimo 25 palabras).",
+      "q": "Escribe sobre tus hobbies y dónde estuviste el fin de semana pasado (mínimo 25 palabras).",
       "min": 25,
       "keys": [
        [
@@ -18390,7 +18390,7 @@ window.SYLLABUS = {
       "o": [
        "kinder",
        "kindest",
-       "most kind",
+       "most kindest",
        "more kind"
       ],
       "a": 1
@@ -22952,7 +22952,7 @@ window.SYLLABUS = {
       "t": "mc",
       "q": "I ___ my keys. I can't find them anywhere!",
       "o": [
-       "lost",
+       "losed",
        "have lost",
        "lose",
        "am losing"
@@ -26028,7 +26028,7 @@ window.SYLLABUS = {
         ],
         [
          "B",
-         "Wait, my wife said someone from the building company came this morning to fix something.",
+         "Wait, my wife said someone from building management came this morning to fix something.",
          "Espera, mi esposa dijo que alguien de la administración vino esta mañana a arreglar algo."
         ],
         [
@@ -45850,7 +45850,7 @@ window.SYLLABUS = {
         "q": "If she ___ so shy, she would have spoken at the meeting yesterday.",
         "o": [
          "weren't",
-         "hadn't been",
+         "isn't being",
          "wouldn't be",
          "isn't"
         ],
@@ -54938,7 +54938,9 @@ window.SYLLABUS = {
         "t": "fill",
         "q": "Today is cold, but tomorrow will be ___ colder. (aún más)",
         "ans": [
-         "even"
+         "even",
+         "still",
+         "much"
         ]
        },
        {
@@ -55155,7 +55157,7 @@ window.SYLLABUS = {
       "q": "We have to ___ a decision before the end of the month.",
       "o": [
        "do",
-       "take",
+       "get",
        "make",
        "have"
       ],
@@ -57706,7 +57708,7 @@ window.SYLLABUS = {
       "t": "mc",
       "q": "I tried ___ the door, but it was locked.",
       "o": [
-       "opening",
+       "to opening",
        "to open",
        "open",
        "opened"
@@ -62580,7 +62582,9 @@ window.SYLLABUS = {
         "q": "The government decided to ___ the reform until after the elections. (engavetar, archivar)",
         "ans": [
          "shelve",
-         "postpone"
+         "postpone",
+         "put off",
+         "delay"
         ]
        },
        {
@@ -66680,7 +66684,7 @@ window.SYLLABUS = {
         "t": "mc",
         "q": "The 50 complaints we received are probably just ___; many victims never report anything.",
         "o": [
-         "a drop in the ocean",
+         "a red herring",
          "the tip of the iceberg",
          "a blessing in disguise",
          "the last straw"
@@ -70489,7 +70493,10 @@ window.SYLLABUS = {
       "t": "fill",
       "q": "We finally ___ a deal after three rounds of talks. (cerramos, pasado)",
       "ans": [
-       "struck"
+       "struck",
+       "reached",
+       "closed",
+       "cut"
       ]
      },
      {
@@ -71308,7 +71315,7 @@ window.SYLLABUS = {
         "q": "If he ___ so trusting, he wouldn't have shared his password.",
         "o": [
          "weren't",
-         "hadn't been",
+         "wasn't being",
          "wouldn't be",
          "isn't"
         ],
@@ -71475,7 +71482,7 @@ window.SYLLABUS = {
        "q": "If I ___ so suspicious of free apps, I would have downloaded it last week.",
        "o": [
         "weren't",
-        "hadn't been",
+        "wasn't being",
         "wouldn't be",
         "am not"
        ],

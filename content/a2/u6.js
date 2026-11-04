@@ -83,7 +83,7 @@ lessons: [
   ["A","I don't know. I looked everywhere, and everything seems OK.","No sé. Busqué por todas partes y todo parece estar bien."],
   ["B","Did you hear anything strange last night?","¿Escuchaste algo raro anoche?"],
   ["A","No, nothing. I wasn't here. I was at my sister's house.","No, nada. No estaba aquí. Estaba en la casa de mi hermana."],
-  ["B","Wait, my wife said someone from the building company came this morning to fix something.","Espera, mi esposa dijo que alguien de la administración vino esta mañana a arreglar algo."],
+  ["B","Wait, my wife said someone from building management came this morning to fix something.","Espera, mi esposa dijo que alguien de la administración vino esta mañana a arreglar algo."],
   ["A","Oh! Maybe they came to fix the water heater. Nobody told me!","¡Ah! Tal vez vinieron a arreglar el calentador. ¡Nadie me avisó!"],
   ["B","Everyone got a message, but maybe you didn't see it.","Todos recibieron un mensaje, pero tal vez no lo viste."],
   ["A","You're right. Here it is. I feel so silly!","Tiene razón. Aquí está. ¡Me siento tan tonta!"],
