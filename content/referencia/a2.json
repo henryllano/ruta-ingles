@@ -1,0 +1,496 @@
+{
+ "nivel": 1,
+ "fuentes": "Temario A2 común a English File Elementary, Headway Elementary, Cambridge Empower A2, Cambridge A2 Key, Core Inventory British Council/EAQUALS y descriptores MCER A2",
+ "temas": [
+  {
+   "area": "Gramática",
+   "tema": "Pasado simple (regulares, irregulares, preguntas y negativas)",
+   "titulo": "pasado simple",
+   "buscar": [
+    "\\bdidn't\\b",
+    "\\bwent\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pasado continuo y su contraste con el pasado simple (when / while)",
+   "titulo": "pasado continuo",
+   "buscar": [
+    "\\bwhile\\b.{0,40}\\b(was|were) [a-z]+ing\\b",
+    "\\b(was|were) [a-z]+ing\\b.{0,30}\\bwhen\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Gramática",
+   "tema": "Used to (costumbres del pasado)",
+   "titulo": "used to",
+   "buscar": [
+    "\\bused to\\b",
+    "\\bdidn't use to\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Comparativos y superlativos",
+   "titulo": "comparativos|superlativos",
+   "buscar": [
+    "\\bthe (biggest|best|worst|most)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "as…as, too y enough",
+   "titulo": "too y enough",
+   "buscar": [
+    "\\btoo (expensive|big|small|hot)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Futuro: going to, presente continuo para planes y will",
+   "titulo": "going to|will",
+   "buscar": [
+    "\\bI'll\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Presente perfecto: ever/never, just/already/yet, for/since",
+   "titulo": "presente perfecto|just, already|for y since",
+   "buscar": [
+    "\\bhave you ever\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Presente perfecto vs. pasado simple",
+   "titulo": "perfecto vs",
+   "buscar": [
+    "\\bhave (been|seen|visited)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Should, have to, must / mustn't",
+   "titulo": "should|have to|must",
+   "buscar": [
+    "\\bmustn't\\b",
+    "\\bdon't have to\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Could / couldn't (habilidad en el pasado) y peticiones (Could you…?)",
+   "titulo": "could",
+   "buscar": [
+    "\\b(I|he|she|we|they) couldn't\\b",
+    "\\bcould you\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Might / may (posibilidad)",
+   "titulo": "might|posibilidad",
+   "buscar": [
+    "\\b(might|may) (be|rain|go|come|not)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Gramática",
+   "tema": "Cuantificadores: much, many, a lot of, a few, a little",
+   "titulo": "much, many",
+   "buscar": [
+    "\\ba few\\b",
+    "\\ba little\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pronombres indefinidos (something, anyone, nobody…)",
+   "titulo": "something|anyone",
+   "buscar": [
+    "\\bnobody\\b",
+    "\\banything\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Primer condicional",
+   "titulo": "primer condicional",
+   "buscar": [
+    "\\bif .{1,30} will\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Adverbios de modo",
+   "titulo": "adverbios de modo",
+   "buscar": [
+    "\\b(quickly|slowly|carefully|well)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Phrasal verbs cotidianos",
+   "titulo": "phrasal",
+   "buscar": [
+    "\\b(turn on|turn off|look for|pick up|give up)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Verbo + -ing o + to (enjoy doing, want to do, decide to, hope to)",
+   "titulo": "-ing o to|gerundio|verbo \\+",
+   "buscar": [
+    "\\b(enjoy|enjoyed|finish|mind) [a-z]+ing\\b",
+    "\\b(decided|hope|want|plan) to\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Gramática",
+   "tema": "Infinitivo de propósito (I went to the bank to get money)",
+   "titulo": "propósito|para qué",
+   "buscar": [
+    "\\bwent to the [a-z]+ to [a-z]+\\b",
+    "\\bin order to\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Gramática",
+   "tema": "Oraciones de relativo: who, which, that, where",
+   "titulo": "relativ|who, which",
+   "buscar": [
+    "\\b(a|the) [a-z]+ who (is|was|works|lives)\\b",
+    "\\b(a|the) [a-z]+ (which|that) (is|was|has|sells)\\b",
+    "\\b(a|the) (place|city|town|restaurant|shop|house) where\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pronombres posesivos (mine, yours, his, hers, ours, theirs) y whose",
+   "titulo": "posesivos|mine",
+   "buscar": [
+    "\\b(mine|yours|hers|ours|theirs)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Gramática",
+   "tema": "Preguntas de sujeto y de objeto (Who called you? / Who did you call?)",
+   "titulo": "preguntas de sujeto|sujeto y objeto",
+   "buscar": [
+    "\\bwho (called|won|wrote|made|told|broke)\\b",
+    "\\bwhat happened\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Gramática",
+   "tema": "Adjetivos -ed / -ing (bored / boring)",
+   "titulo": "-ed|-ing|boring",
+   "buscar": [
+    "\\b(boring|interesting|exciting|tiring)\\b",
+    "\\b(bored|interested|excited|tired)\\b"
+   ],
+   "min": 15
+  },
+  {
+   "area": "Gramática",
+   "tema": "Preposiciones de movimiento (across, along, through, into, past)",
+   "titulo": "movimiento",
+   "buscar": [
+    "\\b(go|walk|run|drive|went|walked|ran) (across|along|through|past|into|over)\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pasiva sencilla (is made / was built)",
+   "titulo": "pasiva",
+   "buscar": [
+    "\\b(is|are) (made|grown|produced|sold|spoken)\\b",
+    "\\b(was|were) (built|written|made|painted|invented)\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Funciones",
+   "tema": "Contar una historia en orden (first, then, after that, finally)",
+   "titulo": "historia",
+   "buscar": [
+    "\\bafter that\\b",
+    "\\bfinally\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Describir personas (apariencia y personalidad) y lugares",
+   "titulo": "personalidad|lugares",
+   "buscar": [
+    "\\bwhat's .{1,10} like\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Invitar, aceptar, rechazar y hacer planes",
+   "titulo": "invitar",
+   "buscar": [
+    "\\bwould you like to\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Viajes: reservas, hotel, transporte",
+   "titulo": "viajes",
+   "buscar": [
+    "\\b(check-in|booking|reservation)\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Dar y pedir consejos",
+   "titulo": "consejos",
+   "buscar": [
+    "\\byou should\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "En la farmacia y en el médico",
+   "titulo": "farmacia|médico",
+   "buscar": [
+    "\\bprescription\\b|\\btablets?\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Pedir favores y hacer trámites (banco, correo, teléfono)",
+   "titulo": "favores|banco",
+   "buscar": [
+    "\\bcould you\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Dar tu opinión, estar de acuerdo o en desacuerdo",
+   "titulo": "opini|de acuerdo",
+   "buscar": [
+    "\\bin my opinion\\b",
+    "\\bI (don't )?agree\\b",
+    "\\bI think so\\b|\\bI don't think so\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Funciones",
+   "tema": "Preferencias: prefer, would rather, I'd prefer",
+   "titulo": "preferencia|prefer",
+   "buscar": [
+    "\\bprefer\\b",
+    "\\bwould rather\\b|\\bI'd rather\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Funciones",
+   "tema": "Compras: devolver algo, quejarse y pedir un reembolso",
+   "titulo": "compras|devolver|queja",
+   "buscar": [
+    "\\b(refund|receipt|exchange|return it)\\b",
+    "\\b(broken|doesn't work|too small)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Funciones",
+   "tema": "El trabajo: describir tu empleo, entrevista sencilla, hoja de vida",
+   "titulo": "trabajo|empleo|entrevista",
+   "buscar": [
+    "\\b(interview|CV|résumé|resume|salary|experience|apply)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Funciones",
+   "tema": "Conversación social: small talk, mostrar interés (Really? That's great!)",
+   "titulo": "small talk|conversaci",
+   "buscar": [
+    "\\breally\\?",
+    "\\bthat's (great|amazing|terrible|a shame)\\b",
+    "\\bhow about you\\b|\\bwhat about you\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Funciones",
+   "tema": "Pedir y dar indicaciones con más detalle (go past, cross, opposite)",
+   "titulo": "indicaciones|direcciones",
+   "buscar": [
+    "\\bgo past\\b|\\bcross the\\b",
+    "\\bopposite\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Funciones",
+   "tema": "Hablar de la vida y sus etapas (born, grew up, got married, moved, retired)",
+   "titulo": "vida|biograf",
+   "buscar": [
+    "\\bgrew up\\b",
+    "\\bgot married\\b",
+    "\\b(moved to|retired)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Escritura",
+   "tema": "Correo informal a un amigo",
+   "titulo": "correo a|correo informal",
+   "buscar": [
+    "\\bHi [A-Z][a-z]+,",
+    "\\bWrite soon\\b|\\bSee you soon\\b|\\bLove,\\b|\\bBest wishes\\b|\\bTake care\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Escritura",
+   "tema": "Mensaje o nota corta (invitación, aviso, excusa)",
+   "titulo": "nota|mensaje",
+   "buscar": [
+    "\\bsorry I can't\\b|\\bsee you at\\b",
+    "\\bnote\\b|\\bmessage\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Escritura",
+   "tema": "Reseña o descripción corta (película, restaurante, lugar)",
+   "titulo": "reseña",
+   "buscar": [
+    "\\b(recommend|review)\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Personalidad y apariencia",
+   "titulo": "personalidad",
+   "buscar": [
+    "\\b(friendly|lazy|generous|shy|funny|hard-working)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Trabajo y profesiones (tareas, lugar, horario)",
+   "titulo": "trabajo",
+   "buscar": [
+    "\\b(manager|colleague|boss|office|salary|shift)\\b"
+   ],
+   "min": 15
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Educación y estudios (subjects, exam, degree, course)",
+   "titulo": "estudi|educaci",
+   "buscar": [
+    "\\b(subject|exam|degree|course|university|grade)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Tecnología, internet y redes sociales",
+   "titulo": "tecnolog|internet|redes",
+   "buscar": [
+    "\\b(download|upload|website|social media|password|app|online|post)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Entretenimiento: películas, música, TV, series",
+   "titulo": "películas|cine|entreten",
+   "buscar": [
+    "\\b(movie|film|series|concert|actor|singer|comedy|horror)\\b"
+   ],
+   "min": 15
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Deportes y tiempo libre",
+   "titulo": "deporte",
+   "buscar": [
+    "\\b(team|match|win|won|lose|lost|score|gym|training)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Celebraciones y festividades",
+   "titulo": "celebra|fiesta",
+   "buscar": [
+    "\\b(Christmas|New Year|wedding|birthday|celebrate|festival)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Comida, cocinar y recetas (boil, fry, chop, add)",
+   "titulo": "receta|cocina",
+   "buscar": [
+    "\\b(boil|fry|chop|add|mix|bake|slice|recipe)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Tareas de la casa (do the dishes, make the bed, vacuum)",
+   "titulo": "tareas|oficios",
+   "buscar": [
+    "\\b(do the dishes|wash the dishes|make the bed|do the laundry|vacuum|iron|tidy)\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Naturaleza, geografía y clima (mountain, river, forest, storm)",
+   "titulo": "naturaleza|geograf",
+   "buscar": [
+    "\\b(mountain|river|forest|lake|island|desert|storm|valley)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Dinero y banca",
+   "titulo": "banco",
+   "buscar": [
+    "\\b(account|cash|card|withdraw|ATM|transfer)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Salud, cuerpo y síntomas",
+   "titulo": "salud|cuerpo",
+   "buscar": [
+    "\\b(headache|fever|cough|sore throat)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Ropa y moda (try on, fit, suit, size)",
+   "titulo": "ropa|moda",
+   "buscar": [
+    "\\b(try (it|them) on|fits?|suits?|size)\\b"
+   ],
+   "min": 6
+  }
+ ]
+}
