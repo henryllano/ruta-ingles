@@ -621,12 +621,12 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=1793882556"></script>
-<script src="vocab-extra.js?v=1793882556"></script>
-<script src="vocab.js?v=1793882556"></script>
-<script src="readings.js?v=1793882556"></script>
-<script src="dict.js?v=1793882556"></script>
-<script src="lessons.js?v=1793882556"></script>
+<script src="practice-extra.js?v=1793905909"></script>
+<script src="vocab-extra.js?v=1793905909"></script>
+<script src="vocab.js?v=1793905909"></script>
+<script src="readings.js?v=1793905909"></script>
+<script src="dict.js?v=1793905909"></script>
+<script src="lessons.js?v=1793905909"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -994,6 +994,25 @@ function stepMC(){
       if(end||acc<LEVEL_OK){go(X.step+1);return}}
     exRender();
   };
+}
+/* Sincronía voz–resaltado. Si la voz avisa palabra por palabra (onboundary: Edge, Safari, Android) se usa eso.
+   Si no avisa (las voces naturales de Google en Chrome), se reparte el tiempo por sílabas y pausas de puntuación,
+   y se calibra con la duración real de cada frase dicha con esa voz (se recuerda por voz para la próxima vez). */
+const SYNC_KEY="ruta3-sync";
+function syncStore(){try{return JSON.parse(localStorage.getItem(SYNC_KEY)||"{}")}catch(e){return{}}}
+function sylls(w){const s=w.toLowerCase().replace(/[^a-z]/g,"");let n=(s.match(/[aeiouy]+/g)||[]).length;if(n>1&&/[^l]e$/.test(s))n--;const d=w.replace(/\D/g,"").length;return Math.max(1,n)+d*1.3}
+function wordUnits(w){let u=sylls(w)+.35;if(/[,;:)\u2014-]["'\u201d]?$/.test(w))u+=1.4;else if(/[.!?]["'\u201d]?$/.test(w))u+=1.9;return u}
+function karaoke(u,words){
+  const cum=[];let tot=0;words.forEach(w=>{cum.push(tot);tot+=wordUnits(w)});
+  const vk=(u.voice&&u.voice.name)||"default",rate=u.rate||1;let base=syncStore()[vk]||210;
+  const K={real:false,t0:0};
+  u.addEventListener("start",()=>{K.t0=Date.now()});
+  u.addEventListener("boundary",e=>{if(!e.name||e.name==="word")K.real=true});
+  u.addEventListener("end",()=>{if(K.real||!K.t0)return;const el=Date.now()-K.t0;if(tot<3||el<400)return;
+    const nb=el*rate/tot;if(nb<90||nb>650)return;const st=syncStore();st[vk]=Math.round(st[vk]?.4*st[vk]+.6*nb:nb);try{localStorage.setItem(SYNC_KEY,JSON.stringify(st))}catch(e){}});
+  /* índice de la palabra que debería sonar ahora (‑1 si la voz aún no empieza) */
+  K.idx=()=>{if(!K.t0)return -1;const pos=(Date.now()-K.t0)*rate/base;let k=0;while(k+1<cum.length&&cum[k+1]<=pos)k++;return k};
+  return K;
 }
 /* Chrome a veces no avisa cuando termina de hablar (o descarta la frase): se guarda la referencia
    y se revisa cada medio segundo si la voz terminó, para que nada se quede esperando */
@@ -1624,17 +1643,17 @@ function speakSent(){
   if(R.si>=R.sents.length){R.si=0;R.playing=false;hl(null);if($("rPlay"))$("rPlay").textContent="▶ Escuchar otra vez";return}
   const se=R.sents[R.si],u=new SpeechSynthesisUtterance(se.t);u.lang="en-US";u.rate=R.rate;
   useVoice(u);
-  let gotBoundary=false;clearTimeout(R.timer);
-  /* si la voz no avisa por palabra, se estima el ritmo */
+  clearInterval(R.timer);
   const inSent=R.toks.map((t,k)=>({t,k})).filter(x=>x.t.s>=se.s&&x.t.s<se.s+se.t.length);
-  const fallback=()=>{if(gotBoundary||!R.playing)return;let acc=0;inSent.forEach(({t,k})=>{const d=(220+t.w.length*55)/R.rate;R.timer=setTimeout(()=>{if(!gotBoundary&&R.playing)hl(k)},acc);acc+=d})};
-  u.onstart=()=>{clearTimeout(R.timer);R.timer=setTimeout(fallback,450)};
-  R.timer=setTimeout(fallback,900);
-  u.onboundary=e=>{if(e.name&&e.name!=="word")return;gotBoundary=true;hl(tokAt(se.s+e.charIndex))};
-  const onDone=()=>{clearTimeout(R.timer);if(!R||!R.playing)return;R.si++;speakSent()};
+  /* cada palabra con su puntuación, para estimar pausas */
+  const words=inSent.map(({t},j)=>{const nx=j+1<inSent.length?inSent[j+1].t.s:se.s+se.t.length;return t.w+((R.r.text.slice(t.e,nx).match(/[,.;:!?\u2014]/)||[""])[0])});
+  const K=karaoke(u,words);let last=-1;
+  R.timer=setInterval(()=>{if(!R||!R.playing||K.real)return;const j=K.idx();if(j>=0&&j!==last&&inSent[j]){last=j;hl(inSent[j].k)}},60);
+  u.onboundary=e=>{if(e.name&&e.name!=="word")return;hl(tokAt(se.s+e.charIndex))};
+  const onDone=()=>{clearInterval(R.timer);if(!R||!R.playing)return;R.si++;speakSent()};
   speakU(u,onDone);
 }
-function pauseReading(){if(!R)return;R.playing=false;clearTimeout(R.timer);stopSpeak();if($("rPlay"))$("rPlay").textContent="▶ Continuar"}
+function pauseReading(){if(!R)return;R.playing=false;clearInterval(R.timer);stopSpeak();if($("rPlay"))$("rPlay").textContent="▶ Continuar"}
 function stopReader(){if(!R)return;pauseReading();stopReadAloud(false);const s=document.querySelector(".wsheet");if(s)s.remove();R=null}
 
 function wordSheet(k){
@@ -1916,8 +1935,8 @@ function sceneView(dg,ctx){
   const say=(text,w,done)=>{let u;try{u=new SpeechSynthesisUtterance(text)}catch(e){done();return}u.lang="en-US";u.rate=.9;const [va,vb]=voicePair(),v=w==="A"?va:(vb||va);if(v)u.voice=v;if(w!=="A"&&!vb)u.pitch=1.35;
     const starts=[];let c=0;text.split(/\s+/).forEach(t=>{starts.push(c);c+=t.length+1});const at=ch=>{let k=0;while(k+1<starts.length&&starts[k+1]<=ch)k++;return k};
     let real=false;u.onboundary=e=>{if(!SC||(e.name&&e.name!=="word"))return;real=true;SC.w=at(e.charIndex);light()};
-    let t0=Date.now()+200;u.onstart=()=>{t0=Date.now()};clearInterval(SC.tick);
-    SC.tick=setInterval(()=>{if(!SC||real)return;SC.w=at(Math.max(0,Date.now()-t0)/(70/u.rate));light()},120);
+    const K=karaoke(u,text.split(/\s+/));clearInterval(SC.tick);
+    SC.tick=setInterval(()=>{if(!SC||real||K.real)return;const k=K.idx();if(k>=0&&k!==SC.w){SC.w=k;light()}},60);
     speakU(u,()=>{if(SC)clearInterval(SC.tick);done()})};
   const run=()=>{if(!SC||SC.stop||!SC.playing)return;
     if(SC.i>=n){SC.i=n-1;SC.playing=false;SC.ended=true;paint();finish();return}
