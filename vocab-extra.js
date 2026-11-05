@@ -55,8 +55,6 @@ police officer | policía | The police officer is helping a woman. | Trabajos
 shop assistant | vendedor de tienda | The shop assistant is friendly. | Trabajos
 cashier | cajero | Pay at the cashier. | Trabajos
 secretary | secretaria | The secretary answers the phone. | Trabajos
-mechanic | mecánico | The mechanic is fixing my car. | Trabajos
-hairdresser | peluquero | My hairdresser is very good. | Trabajos
 housewife | ama de casa | My mother is a housewife. | Trabajos
 retired | jubilado, pensionado | My father is retired. | Trabajos
 mobile phone | celular | My mobile phone is in my bag. | Tecnología
@@ -219,7 +217,6 @@ belt | cinturón | A leather belt. | Ropa
 earrings | aretes | Beautiful earrings. | Ropa
 necklace | collar | A gold necklace. | Ropa
 pocket | bolsillo | It's in my pocket. | Ropa
-manager | gerente, administrador | I want to speak to the manager. | Trabajo
 interview | entrevista | I have a job interview tomorrow. | Trabajo
 task | tarea (labor) | My tasks are simple. | Trabajo
 teamwork | trabajo en equipo | Teamwork is important. | Trabajo
@@ -278,24 +275,19 @@ loss | pérdida | Report the loss to the police. | Vida
 miracle | milagro | It's a miracle! | Vida
 opinion | opinión | In my opinion... | Vida
 problem | problema | No problem! | Vida
-mistake | error | I made a mistake. | Vida
 chance | oportunidad, posibilidad | Give me a chance. | Vida
 `,
 "Verbos": `
 unpack | desempacar | I unpacked my clothes. | Viajes
 land | aterrizar | The plane landed at six. | Viajes
 explore | explorar | We explored the old town. | Viajes
-deliver | entregar | They deliver to your house. | Compras
 return | devolver, regresar | I want to return these shoes. | Compras
 earn | ganar (dinero) | She earns a good salary. | Dinero
 organise | organizar | I organise tours. | Trabajo
-steal | robar | Someone stole my wallet. | Acciones
 hide | esconder | Where did you hide the present? | Acciones
 throw | lanzar, tirar | Throw the ball! | Acciones
-catch | atrapar, coger | Catch it! | Acciones
 pull | halar | Pull the door. | Acciones
 push | empujar | Push the button. | Acciones
-climb | escalar, subir | We climbed the mountain. | Acciones
 fall | caer(se) | I fell off my bike. | Acciones
 breathe | respirar | Breathe slowly. | Salud
 float | flotar | I learned to float. | Salud
@@ -335,7 +327,6 @@ grilled | a la parrilla | Grilled chicken. | Comida
 homemade | hecho en casa | Homemade bread. | Comida
 refreshing | refrescante | A refreshing drink. | Comida
 helpful | servicial | The staff were helpful. | Personalidad
-careful | cuidadoso | Be careful! | Personalidad
 clever | inteligente, listo | A clever girl. | Personalidad
 brave | valiente | You're very brave. | Personalidad
 generous (person) | generoso (persona) | My uncle is generous. | Personalidad
@@ -346,7 +337,6 @@ relaxed | relajado | I feel relaxed. | Sentimientos
 upset | molesto, disgustado | She's upset. | Sentimientos
 scared | asustado | I'm scared of spiders. | Sentimientos
 uncomfortable | incómodo | An uncomfortable bed. | Cosas
-broken | roto, dañado | My phone is broken. | Cosas
 wrong | equivocado, incorrecto | The wrong size. | Cosas
 correct | correcto | The correct answer. | Cosas
 wet | mojado | My shoes are wet. | Cosas
@@ -370,7 +360,6 @@ outside | afuera | Let's eat outside. | Lugar
 inside | adentro | It's cold, come inside. | Lugar
 `,
 "Preposiciones y conectores": `
-both | ambos | Both were delicious. | Conectores
 either... or | o... o | Either tea or coffee. | Conectores
 neither... nor | ni... ni | Neither big nor small. | Conectores
 because of | a causa de | The flight was delayed because of a storm. | Conectores
@@ -381,7 +370,6 @@ across | al otro lado de, a través | Across the street. | Lugar
 over | sobre, por encima de | A bridge over the river. | Lugar
 past | más allá de, por delante de | Walk past the bank. | Lugar
 towards | hacia | He walked towards me. | Lugar
-out of | fuera de | He jumped out of the taxi. | Lugar
 `,
 "Expresiones": `
 What's wrong? | ¿Qué pasa?, ¿Qué tienes? | You look sad. What's wrong? | Conversación
@@ -425,9 +413,7 @@ CV | hoja de vida | Send us your CV. | Trabajo
 qualification | título, requisito | What qualifications do you need? | Trabajo
 training | capacitación, entrenamiento | We get training every year. | Trabajo
 interruption | interrupción | Too many interruptions. | Trabajo
-disadvantage | desventaja | The main disadvantage is the cost. | Opiniones
 risk | riesgo | There's a risk of rain. | Opiniones
-argument | argumento; discusión | A strong argument. | Opiniones
 research | investigación | Research shows that... | Opiniones
 expert | experto | Experts say... | Opiniones
 majority | mayoría | The majority of people agree. | Opiniones
@@ -440,23 +426,16 @@ citizen | ciudadano | A Colombian citizen. | Sociedad
 government | gobierno | The government announced new rules. | Sociedad
 law | ley | It's against the law. | Sociedad
 rights | derechos | Human rights. | Sociedad
-crime | crimen, delito | Crime is a problem. | Sociedad
 poverty | pobreza | They live in poverty. | Sociedad
-pollution | contaminación | Air pollution. | Medio ambiente
-climate change | cambio climático | Climate change is real. | Medio ambiente
-global warming | calentamiento global | Global warming. | Medio ambiente
 rainforest | selva tropical | The Amazon rainforest. | Medio ambiente
 wildlife | fauna silvestre | Protect the wildlife. | Medio ambiente
 species | especie | An endangered species. | Medio ambiente
 recycling | reciclaje | Recycling is important. | Medio ambiente
-waste | desperdicio, residuos | Food waste. | Medio ambiente
 plastic | plástico | Single-use plastic. | Medio ambiente
 energy | energía | Solar energy. | Medio ambiente
 electricity | electricidad | The electricity went off. | Medio ambiente
 power station | central eléctrica | A problem at the power station. | Medio ambiente
 blackout | apagón | There was a blackout last night. | Medio ambiente
-drought | sequía | The drought lasted months. | Medio ambiente
-flood | inundación | The flood destroyed houses. | Medio ambiente
 earthquake | terremoto | A strong earthquake. | Medio ambiente
 insect | insecto | Insects everywhere. | Naturaleza
 mosquito | zancudo, mosquito | Mosquito net. | Naturaleza
@@ -519,7 +498,6 @@ prawn | camarón, langostino | Prawns with garlic. | Comida
 smartphone | teléfono inteligente | Everyone has a smartphone. | Tecnología
 screen time | tiempo frente a la pantalla | Limit your screen time. | Tecnología
 cyberbullying | ciberacoso | Cyberbullying is a crime. | Tecnología
-fake news | noticias falsas | Don't share fake news. | Tecnología
 streaming service | servicio de streaming | A streaming service. | Tecnología
 torch | linterna | Take a torch. | Objetos
 fan | ventilador; fanático | Turn on the fan. | Objetos
@@ -529,15 +507,11 @@ air conditioner | aire acondicionado | The air conditioner is broken. | Objetos
 succeed | tener éxito | You will succeed. | Logros
 increase | aumentar | Prices increased. | Hábitos
 develop | desarrollar | Develop new skills. | Hábitos
-compare | comparar | Don't compare yourself. | Pensamiento
 discover | descubrir | They discovered a new species. | Pensamiento
 recognise | reconocer | I didn't recognise her. | Pensamiento
 discuss | discutir, hablar de | Let's discuss it. | Comunicación
 convince | convencer | You've convinced me. | Comunicación
 argue | discutir, pelear | They argue a lot. | Comunicación
-accept | aceptar | I accept your apology. | Comunicación
-protect | proteger | Protect the forest. | Medio ambiente
-recycle | reciclar | Recycle your bottles. | Medio ambiente
 waste (verb) | desperdiciar | Don't waste water. | Medio ambiente
 plant | sembrar | We planted trees. | Medio ambiente
 destroy | destruir | The fire destroyed the house. | Medio ambiente
@@ -570,7 +544,6 @@ look up | buscar (información) | Look it up in the dictionary. | Phrasal verbs
 stick to | ceñirse a, mantener | Stick to your plan. | Phrasal verbs
 `,
 "Adjetivos": `
-productive | productivo | A productive day. | Trabajo
 stressful | estresante | A stressful job. | Trabajo
 demanding | exigente | A demanding boss. | Trabajo
 rewarding | gratificante | A rewarding experience. | Trabajo
@@ -584,10 +557,8 @@ amazed | asombrado | I was amazed. | Sentimientos
 annoyed | molesto, fastidiado | I'm annoyed with him. | Sentimientos
 confused | confundido | I'm confused. | Sentimientos
 relieved | aliviado | I was relieved. | Sentimientos
-isolated | aislado | They feel isolated. | Sentimientos
 anxious | ansioso, preocupado | I'm anxious about it. | Sentimientos
 environmental | ambiental | Environmental problems. | Medio ambiente
-illegal | ilegal | Illegal logging. | Medio ambiente
 endangered | en peligro de extinción | An endangered animal. | Medio ambiente
 renewable | renovable | Renewable energy. | Medio ambiente
 harmful | dañino | Harmful chemicals. | Medio ambiente
@@ -626,9 +597,7 @@ strongly | firmemente, mucho | I strongly recommend it. | Modo
 "Conectores": `
 as well as | así como, además de | Fruit as well as vegetables. | Añadir
 unlike | a diferencia de | Unlike traditional bullying... | Contraste
-as a result | como resultado | As a result, he lost his job. | Consecuencia
 that's why | por eso | That's why I left. | Consecuencia
-so that | para que | Speak slowly so that I understand. | Propósito
 such as | como (por ejemplo) | Fruits such as mango. | Ejemplos
 `,
 "Expresiones": `
@@ -700,7 +669,6 @@ automation | automatización | Automation affects jobs. | Tecnología
 artificial intelligence | inteligencia artificial | Artificial intelligence is everywhere. | Tecnología
 algorithm | algoritmo | A complex algorithm. | Tecnología
 database | base de datos | The customer database. | Tecnología
-tool | herramienta | A useful tool. | Tecnología
 revolution | revolución | A technological revolution. | Tecnología
 transition | transición | A difficult transition. | Tecnología
 retraining | recapacitación | Retraining programmes. | Tecnología
@@ -770,7 +738,6 @@ reveal | revelar | The study revealed... | Investigación
 confirm | confirmar | Studies confirm it. | Investigación
 analyse | analizar | Analyse the data. | Investigación
 reproduce | reproducir | They failed to reproduce the results. | Investigación
-repair | reparar | Repair your clothes. | Ciencia y salud
 strengthen | fortalecer | Strengthen the immune system. | Ciencia y salud
 emit | emitir | Screens emit blue light. | Ciencia y salud
 inject | inyectar | The nurse injected him. | Ciencia y salud
@@ -847,7 +814,6 @@ relevant | relevante | Relevant experience. | Entrevistas
 well-organised | bien organizado | A well-organised answer. | Entrevistas
 current | actual | My current job. | Entrevistas
 frequent | frecuente | A frequent complaint. | Negocios
-overall | general | Overall satisfaction. | Negocios
 additional | adicional | Additional staff. | Negocios
 eccentric | excéntrico | An eccentric aunt. | Personalidad
 considerable | considerable | A considerable fortune. | Historias
@@ -887,7 +853,6 @@ openly | abiertamente | Openly labelled as placebos. | Modo
 for certain | con certeza | We will never know for certain. | Discurso
 `,
 "Conectores": `
-even though | aunque, a pesar de que | Even though it was late, he called. | Contraste
 secondly | en segundo lugar | Secondly, it improves access. | Orden
 thirdly | en tercer lugar | Thirdly, green spaces cool cities. | Orden
 in other words | en otras palabras | In other words, sleep is essential. | Aclarar
@@ -1225,7 +1190,6 @@ methodology | metodología | A sound methodology. | Inglés académico
 threshold | umbral | The threshold of significance. | Inglés académico
 false positive | falso positivo | A false positive. | Inglés académico
 peer review | revisión por pares | Peer review takes months. | Inglés académico
-fraud | fraude | Scientific fraud. | Inglés académico
 vindication | reivindicación | A vindication of the method. | Inglés académico
 indictment | acusación, condena | An indictment of the system. | Inglés académico
 infallibility | infalibilidad | Nobody claims infallibility. | Inglés académico

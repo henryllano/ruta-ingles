@@ -91,5 +91,35 @@ module.exports = [
  T("You are in a job interview. Talk about your experience and your strengths.", 35, [["i have", "i've"], ["experience"], ["good at", "strength", "skills"]], "I have three years of experience in customer service. I'm good at solving problems and I have good communication skills. I'm also organised and I like working in a team."),
  T("A customer is angry because their order arrived broken. Apologise and offer a solution.", 25, [["sorry", "apologise", "apologize"], ["we will", "we'll", "i will", "i'll"]], "I'm really sorry about that. We will send you a new one today at no extra cost, and I'll give you a discount for your next order."),
  T("Listen to the interviewer and answer.", 20, [["because", "i want", "i would like", "i'd like"]], "I want to work here because it's a big international company and I would like to use my English every day.", "Why do you want to work for our company?")
+],
+/* Unidad 7 · Lo que pudo haber sido */
+[
+ L("If we had booked the hotel in January, we would have paid much less. Now everything is more expensive.", "¿De qué se arrepienten?", ["De no reservar en enero", "De escoger ese hotel", "De viajar en enero", "De pagar con tarjeta"], 0),
+ L("You shouldn't have lent him your car. He crashed it last year too!", "¿Qué critica?", ["Que le prestó el carro", "Que compró un carro", "Que manejó mal", "Que no le prestó el carro"], 0),
+ L("The door was locked and nothing is missing. The burglar can't have come in through the door; he must have used the window.", "¿Por dónde entró el ladrón?", ["Por la ventana", "Por la puerta", "Por el techo", "No entró"], 0),
+ L("I'm having my car serviced on Friday, so I'll be able to drive to the coast on Saturday.", "¿Qué va a hacer el viernes?", ["Le van a hacer mantenimiento al carro", "Va a viajar a la costa", "Va a comprar un carro", "Va a lavar el carro"], 0),
+ M("If I had known you were sick, I ___ you some soup.", ["would have brought", "would bring", "had brought", "will bring"], 0, "Tercer condicional: would have + participio."),
+ M("Her eyes are red. She ___ crying.", ["must have been", "can't have been", "should have been", "must be been"], 0, "Deducción segura en pasado: must have been."),
+ F("I need to get my phone ___. The screen is broken. (arreglar)", ["fixed", "repaired"], "Get + objeto + participio."),
+ O("If I had left earlier, I wouldn't have missed the train."),
+ O("We managed to fix the washing machine ourselves."),
+ T("Talk about something you should have done differently last year.", 20, [["should have", "shouldn't have"], ["if i had", "would have", "could have"]], "Last year I should have saved more money. I spent too much on clothes. If I had saved, I would have travelled to Mexico in December."),
+ T("Talk about the services you pay for: what do you have done and how often?", 20, [["have my", "get my", "had my", "got my"]], "I have my hair cut every month and I get my car washed every two weeks. Last month I had my eyes tested because I needed new glasses."),
+ T("Listen and answer.", 15, [["must have", "might have", "may have", "can't have", "could have"]], "He might have missed the bus, or he must have forgotten about the meeting.", "Your colleague didn't come to the meeting. What do you think happened?")
+],
+/* Unidad 8 · Conectar ideas y el mundo de hoy */
+[
+ L("Although the new park is beautiful, there is too much rubbish. As a result, the city is putting more bins and recycling points.", "¿Qué está haciendo la ciudad?", ["Poniendo más canecas y puntos de reciclaje", "Cerrando el parque", "Cobrando la entrada", "Plantando árboles"], 0),
+ L("Neither of the laptops has a good battery, but the grey one is much lighter and slightly cheaper.", "¿Qué ventaja tiene el gris?", ["Es más liviano y un poco más barato", "Tiene mejor batería", "Es más grande", "Es más rápido"], 0),
+ L("Two teenagers were arrested for vandalism after they painted graffiti on a historic church. A witness called the police.", "¿Por qué los arrestaron?", ["Por pintar grafitis en una iglesia histórica", "Por robar en una tienda", "Por pelear", "Por manejar sin licencia"], 0),
+ L("I'm afraid there's a problem with my order. The shirt is damaged. Could I exchange it? Of course, and we apologize for the inconvenience.", "¿Qué pide el cliente?", ["Cambiar la camisa", "Un reembolso", "Hablar con el gerente", "Un descuento"], 0),
+ M("___ it was raining, we went for a walk.", ["Although", "Despite", "However", "In spite of"], 0, "Although + oración."),
+ M("The opposite of 'legal' is:", ["illegal", "unlegal", "dislegal", "inlegal"], 0, "Antes de l → il-."),
+ F("I'm leaving early so ___ I can avoid the traffic.", ["that"], "So that + sujeto + can."),
+ O("The more you recycle, the less waste goes to the landfill."),
+ O("Excuse me, I'm afraid this isn't what I ordered."),
+ T("Give your opinion: should cities ban cars from the city centre? Use although, however or despite.", 20, [["although", "however", "despite", "in spite of", "whereas"]], "I think cities should ban cars from the centre. Although some people need their cars, the air would be much cleaner. However, public transport must improve first."),
+ T("Compare two places where you have lived or worked. Use both, neither or much + comparative.", 20, [["both", "neither", "either"], ["much", "far", "slightly", "a lot"]], "Both cities are beautiful, but Medellín is much warmer than Bogotá. Neither of them is cheap, but Medellín has a far better metro."),
+ T("Listen and answer.", 15, [["sorry", "apologize", "apologise", "refund", "exchange", "fix"]], "I'm really sorry about that. Let me change it for you, or we can give you a refund.", "Your soup is cold and it's the wrong one. You are the waiter. What do you say?")
 ]
 ];

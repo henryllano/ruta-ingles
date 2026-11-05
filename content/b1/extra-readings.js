@@ -85,5 +85,32 @@ First of all, I think you should talk to your neighbours directly before you go 
 If you feel too nervous to speak to them, you could write them a polite note. Many people react better than we expect.
 If nothing changes after that, then it is reasonable to speak to the building manager. Most buildings have rules about noise at night, and the manager can remind them. Meanwhile, a good pair of earplugs might help you sleep.
 Good luck, and I hope you can rest soon!
-Sandra`}
+Sandra`},
+{title:"The Day I Missed the Plane", es:"El día que perdí el avión · Lectura extra", text:
+`Five years ago, I was supposed to fly from Bogotá to Lima for a job interview. It was the most important interview of my life: a big company wanted a new marketing manager, and I was one of the three finalists.
+The night before, I went to my cousin's birthday party. I should have gone home early, but I was having a great time and I stayed until two in the morning. I set my alarm, but I must have turned it off in my sleep, because when I woke up, it was already seven. My flight was at eight.
+I took a taxi, but there was a terrible traffic jam on the way to the airport. If I had left half an hour earlier, I would have caught the plane. When I arrived, the gate was closed. I called the company and apologized. They were polite, but they gave the job to another candidate.
+For months I thought about it every day. If I hadn't gone to that party, I would have had a completely different life. I might have been living in Peru now.
+But here is the strange part. Two weeks after I missed the flight, I met Andrea at a café near my office. We got married three years later, and now we have a beautiful daughter. If I had caught that plane, I would never have met her.
+So, do I regret it? Not at all. I learned to be more responsible, and I also learned that sometimes our mistakes take us exactly where we need to be.`},
+{title:"The Missing Necklace", es:"El collar desaparecido · Lectura extra", text:
+`Last Sunday, my grandmother Inés celebrated her eightieth birthday with a big lunch at her house in Popayán. More than twenty people came. At the end of the afternoon, she went to her bedroom to put on her favourite necklace for the family photo, but it wasn't in its box.
+Everybody started looking for it. "Someone must have taken it," said my uncle Óscar. "It can't have been one of us," my mother answered. "We're family!"
+My cousin Valeria was the first suspect, because she had been in the bedroom earlier. But she explained that she had only gone in to charge her phone. "She can't have taken it," I said. "She was with me in the kitchen all afternoon."
+Then my aunt said that the woman who had helped with the food might have seen something. We called her, but she said she hadn't gone upstairs at all.
+Finally, my little brother, who is seven, said very quietly, "Grandma, you wore the necklace to church this morning." Everybody looked at my grandmother. She touched her neck, laughed, and went to the bathroom. The necklace was next to the sink, where she must have left it when she washed her hands.
+We all felt a bit embarrassed for suspecting each other. My grandmother, of course, found it very funny. "At my age," she said, "the only thief in this house is my memory."`},
+{title:"Colombia's Disappearing Glaciers", es:"Los glaciares que desaparecen en Colombia · Lectura extra", text:
+`A hundred years ago, Colombia had at least fourteen glaciers. Today only six are left, and according to scientists from the national institute of hydrology and meteorology, all of them could disappear in the next few decades.
+Glaciers are important for many reasons. Although they look like simple blocks of ice, they are part of the high mountain ecosystems that provide water to millions of people. When the ice melts too fast, rivers change, and some communities have problems with their water supply during long droughts.
+The main cause is global warming. As temperatures rise, the ice melts faster than new snow can replace it. Deforestation and pollution also play a role, because they make local temperatures higher. In 2019 Colombia lost much more ice than in previous years, and a small glacier on the Nevado Santa Isabel has almost completely disappeared.
+Despite the bad news, there are reasons for hope. Several projects are protecting the páramos, the unique ecosystems around the glaciers, so that they can continue to store water. Some cities are investing in renewable energy in order to reduce their carbon footprint, and many schools teach children how to recycle and save water.
+Experts say that we cannot save every glacier. However, if we act now, we can protect the water sources that depend on them. As one scientist put it, "The glaciers are telling us something. The question is whether we are listening."`},
+{title:"Five Stars? Not Quite", es:"¿Cinco estrellas? No del todo · Lectura extra", text:
+`Hotel Mirador del Mar, Santa Marta. Rating: three out of five.
+My husband and I stayed at this hotel for four nights in July. We chose it because the photos on the website were beautiful and the reviews were excellent. Unfortunately, our experience was not as good as we expected.
+When we arrived, we were told that our sea-view room was not available, so we had to stay in a room facing the car park. I complained at reception, and the receptionist apologized, but she said there was nothing she could do that night. On the second day, the air conditioning stopped working, and it took the technician more than five hours to fix it.
+In spite of these problems, there were also good things. The breakfast was delicious, with fresh fruit, arepas and great coffee, and the pool area was clean and quiet. The staff were always polite, and the waiters in the restaurant were especially friendly.
+On our third day, I asked to speak to the manager. He listened carefully, apologized for the inconvenience and moved us to a sea-view room for the last two nights. He also gave us a twenty percent discount on the total price, which I thought was fair.
+Overall, I would recommend this hotel, but with some advice: confirm your room type before you arrive, and don't be afraid to complain politely if something goes wrong. The hotel has a lot of potential, but at the moment it is not a five-star experience.`}
 ];

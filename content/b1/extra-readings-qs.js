@@ -84,5 +84,33 @@ module.exports = [
  M("¿Qué puede hacer si está muy nervioso para hablar?", ["Escribirles una nota educada", "No decir nada", "Gritar", "Quejarse en redes sociales"], 0),
  L("Choose a good moment, not at midnight when you're angry, but maybe on a weekend afternoon.", "¿Cuándo es buen momento para hablar?", ["Una tarde de fin de semana", "A medianoche", "En la madrugada", "Durante la fiesta"], 0),
  T("Give advice to a friend who has a problem with a colleague at work.", 25, [["you should", "i think you should", "why don't you"], ["if"]], "I think you should talk to your colleague calmly. Why don't you invite her for a coffee? If nothing changes, you should speak to your manager.")
+],
+[ /* The Day I Missed the Plane */
+ M("¿Por qué se quedó dormido?", ["Debió apagar la alarma dormido", "No puso alarma", "Se le dañó el celular", "Se acostó temprano"], 0),
+ M("¿Qué habría pasado si hubiera salido media hora antes?", ["Habría alcanzado el avión", "Habría conseguido el trabajo seguro", "Habría conocido a Andrea", "Nada diferente"], 0),
+ M("¿Qué pasó dos semanas después?", ["Conoció a su esposa en un café", "Consiguió otro trabajo en Lima", "Volvió a perder un vuelo", "Se mudó a Perú"], 0),
+ L("If I had caught that plane, I would never have met her.", "¿A quién no habría conocido?", ["A su esposa Andrea", "A su jefe", "A su prima", "A su hija"], 0),
+ T("Talk about a mistake or a missed opportunity that changed your life. What would have happened if things had been different?", 25, [["if i had", "if i hadn't", "if i'd"], ["would have", "wouldn't have", "might have", "could have"]], "Ten years ago I didn't accept a job in Bogotá. If I had accepted it, I would have moved there, and I wouldn't have started my own business here in Cali.")
+],
+[ /* The Missing Necklace */
+ M("¿Por qué sospechaban de Valeria?", ["Había estado en el cuarto antes", "Le gustaba el collar", "No vino a la fiesta", "Se fue temprano"], 0),
+ M("¿Quién resolvió el misterio?", ["El hermanito de siete años", "El tío Óscar", "La señora que ayudó con la comida", "La mamá"], 0),
+ M("¿Dónde estaba el collar?", ["Junto al lavamanos del baño", "En el carro", "En la iglesia", "En la cocina"], 0),
+ L("At my age, the only thief in this house is my memory.", "¿Qué quiere decir la abuela?", ["Que el problema fue que se le olvidó", "Que alguien le robó", "Que no le importa el collar", "Que la casa no es segura"], 0),
+ T("Something has disappeared from your house. Make deductions about what happened.", 25, [["must have"], ["might have", "may have", "could have", "can't have"]], "My keys have disappeared. I must have left them in the car, or my son might have taken them by mistake. They can't have been stolen, because the door was locked.")
+],
+[ /* Colombia's Disappearing Glaciers */
+ M("¿Cuántos glaciares quedan en Colombia según el texto?", ["Seis", "Catorce", "Ninguno", "Veinte"], 0),
+ M("¿Por qué son importantes los glaciares?", ["Son parte de ecosistemas que dan agua a millones de personas", "Atraen turistas", "Producen electricidad", "Enfrían las ciudades"], 0),
+ M("¿Qué se está haciendo con los páramos?", ["Protegerlos para que sigan guardando agua", "Construir hoteles", "Talarlos", "Convertirlos en fincas"], 0),
+ L("Experts say that we cannot save every glacier. However, if we act now, we can protect the water sources that depend on them.", "¿Qué se puede hacer todavía?", ["Proteger las fuentes de agua", "Salvar todos los glaciares", "Crear nuevos glaciares", "Nada"], 0),
+ T("What environmental problem worries you most in your region, and what can people do about it?", 25, [["pollution", "deforestation", "waste", "drought", "flood", "climate", "plastic", "water", "traffic"], ["can", "should", "in order to", "so that"]], "The problem that worries me most is water pollution. Factories throw waste into the river. People can recycle more and the government should control the factories in order to protect the water.")
+],
+[ /* Five Stars? Not Quite */
+ M("¿Cuál fue el primer problema?", ["No les dieron la habitación con vista al mar", "La comida era mala", "El personal era grosero", "La piscina estaba sucia"], 0),
+ M("¿Qué hizo el gerente?", ["Los cambió de habitación y les dio un descuento", "No hizo nada", "Les devolvió todo el dinero", "Les regaló una noche más"], 0),
+ M("¿Qué consejo da la autora?", ["Confirmar el tipo de habitación y quejarse con cortesía", "No ir a ese hotel", "Llevar comida", "Ir en diciembre"], 0),
+ L("He listened carefully, apologized for the inconvenience and moved us to a sea-view room for the last two nights.", "¿Cuántas noches estuvieron en la habitación con vista al mar?", ["Las últimas dos", "Todas", "Una", "Ninguna"], 0),
+ T("Tell a story about a time you complained in a shop, restaurant or hotel. What happened and how did they solve it?", 25, [["complained", "problem", "wrong", "faulty"], ["apologized", "apologised", "refund", "exchange", "discount", "sorry"]], "Last year I bought a laptop that didn't work. I went back to the shop and complained politely. The manager apologized and gave me a new one, and I left a good review.")
 ]
 ];

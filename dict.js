@@ -4909,4 +4909,32 @@ metro | - | sustantivo | metro (tren urbano) | He took the metro cable.
 cable | - | sustantivo | cable; (metro cable) teleférico del metro | Take the metro cable to the mountains.
 officer | - | sustantivo | agente, oficial (police officer = policía) | He asked a police officer.
 acevedo | - | nombre propio | Acevedo (estación del metro de Medellín) | Take the train to Acevedo.
+finalists | finalist | sustantivo (plural) | finalistas | I was one of the three finalists.
+cousin's | cousin | sustantivo (posesivo) | del primo, de la prima | I went to my cousin's birthday party.
+caught | catch | verbo (pasado / participio) | alcanzó, atrapó | I would have caught the plane.
+apologized | apologize | verbo (pasado) | se disculpó, pidió perdón | The receptionist apologized.
+eightieth | - | número ordinal | octogésimo (80.º) | She celebrated her eightieth birthday.
+touched | touch | verbo (pasado) | tocó | She touched her neck.
+hands | hand | sustantivo (plural) | manos | She washed her hands.
+suspecting | suspect | verbo (-ing) | sospechar de | We felt embarrassed for suspecting each other.
+fourteen | - | número | catorce | Colombia had fourteen glaciers.
+institute | - | sustantivo | instituto | The national institute of hydrology.
+hydrology | - | sustantivo | hidrología | Scientists of hydrology study water.
+meteorology | - | sustantivo | meteorología | The institute of meteorology.
+melts | melt | verbo (3.ª persona) | se derrite | When the ice melts too fast, rivers change.
+droughts | drought | sustantivo (plural) | sequías | During long droughts there is no water.
+warming | - | sustantivo | (global warming) calentamiento (global) | The main cause is global warming.
+nevado | - | sustantivo | nevado (montaña con nieve) | A glacier on the Nevado Santa Isabel.
+isabel | - | nombre propio | Isabel; (Nevado Santa Isabel) montaña de Colombia | The Nevado Santa Isabel.
+páramos | páramo | sustantivo (plural) | páramos (ecosistema de alta montaña) | Projects are protecting the páramos.
+act | - | verbo | actuar | If we act now, we can protect them.
+mirador | - | nombre propio | (Mirador del Mar) nombre de un hotel | Hotel Mirador del Mar.
+del | - | nombre propio | (Mirador del Mar) parte de un nombre | Hotel Mirador del Mar.
+mar | - | nombre propio | (Mirador del Mar) parte de un nombre | Hotel Mirador del Mar.
+reviews | review | sustantivo (plural) | reseñas, opiniones | The reviews were excellent.
+sea-view | - | adjetivo | con vista al mar | A sea-view room.
+technician | - | sustantivo | técnico | The technician fixed it.
+spite | - | sustantivo | (in spite of) a pesar de | In spite of these problems, it was good.
+type | - | sustantivo | tipo, clase | Confirm your room type.
+five-star | - | adjetivo | de cinco estrellas | It's not a five-star experience.
 `;

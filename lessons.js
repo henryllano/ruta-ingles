@@ -38109,7 +38109,7 @@ window.SYLLABUS = {
   }
  },
  "2": {
-  "intro": "En 30 lecciones (6 unidades de 5 días) vas a narrar historias con varios tiempos del pasado, hablar de cambios y experiencias, plantear hipótesis con condicionales, usar la voz pasiva y las oraciones de relativo, reportar lo que otros dicen y desenvolverte en el trabajo. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
+  "intro": "En 40 lecciones (8 unidades de 5 días) vas a narrar historias con varios tiempos del pasado, hablar de cambios y experiencias, plantear hipótesis con condicionales, usar la voz pasiva y las oraciones de relativo, reportar lo que otros dicen, desenvolverte en el trabajo, imaginar cómo habría sido el pasado, hacer deducciones, argumentar con conectores, hablar del medio ambiente y del crimen, y resolver problemas quejándote y disculpándote con cortesía. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
   "units": [
    {
     "title": "Contar historias",
@@ -52901,6 +52901,5101 @@ window.SYLLABUS = {
       "text": "I am writing to complain about the delay in my order."
      }
     ]
+   },
+   {
+    "title": "Lo que pudo haber sido",
+    "lessons": [
+     {
+      "id": "b1-u7-l1",
+      "title": "Tercer condicional: si hubiera…, habría…",
+      "goal": "Imaginar cómo habría sido el pasado si algo hubiera pasado de otra manera.",
+      "theory": [
+       {
+        "p": "El **tercer condicional** habla de un pasado que **no ocurrió**: imaginas otra versión de los hechos. Estructura: **If + had + participio, … would have + participio.** **If I had left earlier, I would have caught the train** (si hubiera salido antes, habría alcanzado el tren; pero no salí antes y lo perdí)."
+       },
+       {
+        "ex": [
+         [
+          "If I had studied more, I would have passed the exam.",
+          "Si hubiera estudiado más, habría pasado el examen."
+         ],
+         [
+          "If she hadn't missed the bus, she wouldn't have been late.",
+          "Si no hubiera perdido el bus, no habría llegado tarde."
+         ],
+         [
+          "We would have called you if we had known.",
+          "Te habríamos llamado si hubiéramos sabido."
+         ],
+         [
+          "If it hadn't rained, we would have gone to the beach.",
+          "Si no hubiera llovido, habríamos ido a la playa."
+         ],
+         [
+          "What would you have done if you had lost your passport?",
+          "¿Qué habrías hecho si hubieras perdido el pasaporte?"
+         ]
+        ]
+       },
+       {
+        "p": "También puedes usar **could have** (habría podido) o **might have** (tal vez habría): **If you had told me, I could have helped you.** · **If we had taken a taxi, we might have arrived on time.** En la conversación se contrae mucho: **If I'd known, I'd have come** (/aɪd əv/)."
+       },
+       {
+        "ex": [
+         [
+          "If you had asked me, I could have lent you the money.",
+          "Si me hubieras pedido, te habría podido prestar la plata."
+         ],
+         [
+          "If he had trained harder, he might have won.",
+          "Si hubiera entrenado más, tal vez habría ganado."
+         ],
+         [
+          "If I'd known, I'd have come.",
+          "Si hubiera sabido, habría venido."
+         ],
+         [
+          "She wouldn't have met her husband if she hadn't moved to Cali.",
+          "No habría conocido a su esposo si no se hubiera mudado a Cali."
+         ],
+         [
+          "If they hadn't helped us, we couldn't have finished.",
+          "Si no nos hubieran ayudado, no habríamos podido terminar."
+         ]
+        ]
+       },
+       {
+        "tip": "Nunca pongas **would** en la parte del **if**: **If I had known** (no «if I would have known»). Ojo con **'d**: en **If I'd known** es **had**; en **I'd have come** es **would**."
+       }
+      ],
+      "vocab": [
+       [
+        "if I had known",
+        "expresión",
+        "si hubiera sabido",
+        "If I had known, I would have helped you."
+       ],
+       [
+        "would have",
+        "expresión",
+        "habría",
+        "I would have called you."
+       ],
+       [
+        "could have",
+        "expresión",
+        "habría podido",
+        "We could have won."
+       ],
+       [
+        "might have",
+        "expresión",
+        "tal vez habría",
+        "It might have been worse."
+       ],
+       [
+        "miss",
+        "verbo",
+        "perder (bus, vuelo); extrañar",
+        "I missed the flight."
+       ],
+       [
+        "catch",
+        "verbo",
+        "alcanzar (un bus, un vuelo)",
+        "We ran to catch the last train."
+       ],
+       [
+        "on time",
+        "expresión",
+        "a tiempo",
+        "If I had left earlier, I would have arrived on time."
+       ],
+       [
+        "by chance",
+        "expresión",
+        "por casualidad",
+        "We met by chance."
+       ],
+       [
+        "turning point",
+        "expresión",
+        "punto de quiebre, momento decisivo",
+        "That trip was a turning point in my life."
+       ],
+       [
+        "luckily",
+        "adverbio",
+        "por suerte",
+        "Luckily, nobody was hurt."
+       ],
+       [
+        "unfortunately",
+        "adverbio",
+        "desafortunadamente",
+        "Unfortunately, it was too late."
+       ],
+       [
+        "decision",
+        "sustantivo",
+        "decisión",
+        "It was the best decision of my life."
+       ],
+       [
+        "opportunity",
+        "sustantivo",
+        "oportunidad",
+        "I missed a great opportunity."
+       ],
+       [
+        "accept",
+        "verbo",
+        "aceptar",
+        "If I had accepted the job, I would have moved."
+       ],
+       [
+        "turn down",
+        "verbo",
+        "rechazar (una oferta)",
+        "I turned down the offer."
+       ],
+       [
+        "scholarship",
+        "sustantivo",
+        "beca",
+        "She got a scholarship to study in Spain."
+       ],
+       [
+        "alarm clock",
+        "expresión",
+        "despertador",
+        "My alarm clock didn't go off."
+       ],
+       [
+        "go off",
+        "verbo",
+        "sonar (alarma); estallar",
+        "The alarm didn't go off."
+       ],
+       [
+        "oversleep",
+        "verbo",
+        "quedarse dormido (overslept)",
+        "I overslept and missed the meeting."
+       ],
+       [
+        "traffic jam",
+        "expresión",
+        "trancón",
+        "We were stuck in a traffic jam."
+       ],
+       [
+        "consequence",
+        "sustantivo",
+        "consecuencia",
+        "Every decision has consequences."
+       ],
+       [
+        "regret",
+        "sustantivo / verbo",
+        "arrepentimiento; arrepentirse",
+        "I have no regrets."
+       ]
+      ],
+      "dialogue": {
+       "title": "El vuelo perdido",
+       "scene": "Juan Camilo le cuenta a su compañera Alejandra por qué no llegó a la reunión con un cliente en Panamá.",
+       "a": "Alejandra",
+       "b": "Juan Camilo",
+       "lines": [
+        [
+         "A",
+         "What happened? The client was waiting for you in Panama!",
+         "¿Qué pasó? ¡El cliente te estaba esperando en Panamá!"
+        ],
+        [
+         "B",
+         "I missed the flight. My alarm didn't go off and I overslept.",
+         "Perdí el vuelo. El despertador no sonó y me quedé dormido."
+        ],
+        [
+         "A",
+         "Oh no. If you had set two alarms, you wouldn't have overslept.",
+         "Ay no. Si hubieras puesto dos alarmas, no te habrías quedado dormido."
+        ],
+        [
+         "B",
+         "I know. And then there was a terrible traffic jam on the way to the airport.",
+         "Ya sé. Y luego había un trancón terrible camino al aeropuerto."
+        ],
+        [
+         "A",
+         "If you had taken the TransMilenio, you might have arrived on time.",
+         "Si hubieras tomado TransMilenio, tal vez habrías llegado a tiempo."
+        ],
+        [
+         "B",
+         "Maybe. But with my suitcase? Anyway, I arrived ten minutes after they closed the gate.",
+         "Tal vez. ¿Pero con la maleta? En fin, llegué diez minutos después de que cerraron la puerta."
+        ],
+        [
+         "A",
+         "Ten minutes! If you had checked in online, could you have gone straight to the gate?",
+         "¡Diez minutos! Si hubieras hecho el check-in en línea, ¿habrías podido ir directo a la puerta?"
+        ],
+        [
+         "B",
+         "Probably. If I had done that, I would have caught the flight.",
+         "Probablemente. Si lo hubiera hecho, habría alcanzado el vuelo."
+        ],
+        [
+         "A",
+         "Did you call the client?",
+         "¿Llamaste al cliente?"
+        ],
+        [
+         "B",
+         "Yes. Luckily, he was very understanding. We had a video call instead.",
+         "Sí. Por suerte fue muy comprensivo. Hicimos una videollamada en cambio."
+        ],
+        [
+         "A",
+         "That's good. If he had been angry, we could have lost the contract.",
+         "Qué bueno. Si se hubiera enojado, habríamos podido perder el contrato."
+        ],
+        [
+         "B",
+         "I know. But the meeting went well, and he signed it anyway.",
+         "Ya sé. Pero la reunión salió bien y lo firmó de todos modos."
+        ],
+        [
+         "A",
+         "So if you hadn't missed the flight, the company wouldn't have saved the money for your hotel!",
+         "¡O sea que si no hubieras perdido el vuelo, la empresa no se habría ahorrado lo de tu hotel!"
+        ],
+        [
+         "B",
+         "Exactly. Maybe I should miss more flights!",
+         "Exacto. ¡Tal vez debería perder más vuelos!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "If I ___ about the party, I would have gone.",
+        "o": [
+         "had known",
+         "would have known",
+         "knew",
+         "have known"
+        ],
+        "a": 0,
+        "x": "En la parte del if: had + participio."
+       },
+       {
+        "t": "mc",
+        "q": "If she had accepted the job in Madrid, she ___ to Spain in 2020.",
+        "o": [
+         "would have moved",
+         "will move",
+         "had moved",
+         "will have moved"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "We ___ the match if our best player hadn't been injured.",
+        "o": [
+         "might have won",
+         "might win",
+         "had won",
+         "won"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "If you had told me, I ___ have helped you. (habría podido)",
+        "ans": [
+         "could"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If I hadn't gone to that concert, I wouldn't have met my wife. It was the best decision of my life.",
+        "q": "¿Qué pasó en el concierto?",
+        "o": [
+         "Conoció a su esposa",
+         "Perdió su billetera",
+         "Se encontró con un amigo",
+         "Ganó un premio"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "If I had known about the traffic, I would have left earlier."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "If",
+         "I",
+         "had",
+         "studied",
+         "more,",
+         "I",
+         "would",
+         "have",
+         "passed."
+        ],
+        "es": "Si hubiera estudiado más, habría pasado."
+       },
+       {
+        "t": "order",
+        "words": [
+         "What",
+         "would",
+         "you",
+         "have",
+         "done",
+         "in",
+         "my",
+         "situation?"
+        ],
+        "es": "¿Qué habrías hecho en mi situación?"
+       },
+       {
+        "t": "dict",
+        "say": "If it hadn't rained, we would have gone to the beach."
+       },
+       {
+        "t": "dict",
+        "say": "If I'd known, I'd have called you."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "If I had seen him, I would have said hello.",
+         "If I would have seen him, I would have said hello.",
+         "If I saw him, I would have said hello yesterday.",
+         "If I had seen him, I would say hello yesterday."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "En «If I'd known, I'd have come», la primera 'd significa ___ y la segunda ___.",
+        "o": [
+         "had / would",
+         "would / had",
+         "had / had",
+         "would / would"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Unfortunately, I turned down a scholarship to study in Germany. If I had accepted it, I might have had a very different career.",
+        "q": "¿Qué rechazó?",
+        "o": [
+         "Una beca para estudiar en Alemania",
+         "Un trabajo en Alemania",
+         "Un viaje a Alemania",
+         "Un ascenso"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Piensa en un momento decisivo de tu vida (mínimo 70 palabras): cuenta qué pasó y cómo habría sido tu vida si hubieras tomado otra decisión. Usa el tercer condicional al menos tres veces.",
+        "min": 70,
+        "keys": [
+         [
+          "if i had",
+          "if i hadn't",
+          "if i'd"
+         ],
+         [
+          "would have",
+          "wouldn't have",
+          "would've"
+         ],
+         [
+          "could have",
+          "might have",
+          "would have"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "If we ___ a map, we wouldn't have got lost.",
+       "o": [
+        "had taken",
+        "took",
+        "would have taken",
+        "have taken"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "If she had left earlier, she wouldn't ___ missed the train.",
+       "ans": [
+        "have"
+       ]
+      },
+      "reading": 18,
+      "words": []
+     },
+     {
+      "id": "b1-u7-l2",
+      "title": "Should have y could have: arrepentimientos y críticas",
+      "goal": "Decir qué deberías haber hecho, criticar con tacto y hablar de oportunidades perdidas.",
+      "theory": [
+       {
+        "p": "**Should have + participio** = deberías / debí haber… (lo correcto era otra cosa, pero no lo hiciste): **I should have saved more money.** **Shouldn't have** = no debiste: **You shouldn't have said that.** Sirve para arrepentirte o para criticar."
+       },
+       {
+        "ex": [
+         [
+          "I should have listened to my mother.",
+          "Debí haberle hecho caso a mi mamá."
+         ],
+         [
+          "You shouldn't have shouted at him.",
+          "No debiste haberle gritado."
+         ],
+         [
+          "We should have booked the hotel earlier.",
+          "Debimos reservar el hotel antes."
+         ],
+         [
+          "He should have told the truth.",
+          "Él debió decir la verdad."
+         ],
+         [
+          "They shouldn't have spent so much.",
+          "No debieron gastar tanto."
+         ]
+        ]
+       },
+       {
+        "p": "**Could have + participio** = habría podido, tenía la posibilidad pero no lo hice: **I could have gone to university, but I started working.** También para criticar con suavidad: **You could have called me!** (¡Me hubieras podido llamar!). Y **wish + had + participio** para un arrepentimiento fuerte: **I wish I had learned English when I was young.**"
+       },
+       {
+        "ex": [
+         [
+          "You could have asked for help.",
+          "Hubieras podido pedir ayuda."
+         ],
+         [
+          "I could have been a professional dancer.",
+          "Habría podido ser bailarín profesional."
+         ],
+         [
+          "You could have told me before!",
+          "¡Me hubieras podido decir antes!"
+         ],
+         [
+          "I wish I had studied medicine.",
+          "Ojalá hubiera estudiado medicina."
+         ],
+         [
+          "I wish I hadn't sold my old car.",
+          "Ojalá no hubiera vendido mi carro viejo."
+         ]
+        ]
+       },
+       {
+        "tip": "En inglés hablado **should have** suena /ʃʊdəv/, y por eso muchos nativos escriben mal «should of». Lo correcto siempre es **should have** o **should've**."
+       }
+      ],
+      "vocab": [
+       [
+        "should have",
+        "expresión",
+        "debí / debiste haber",
+        "I should have called you."
+       ],
+       [
+        "shouldn't have",
+        "expresión",
+        "no debí / no debiste haber",
+        "You shouldn't have paid."
+       ],
+       [
+        "could have",
+        "expresión",
+        "habría podido, hubieras podido",
+        "You could have told me."
+       ],
+       [
+        "I wish I had…",
+        "expresión",
+        "ojalá hubiera…",
+        "I wish I had studied more."
+       ],
+       [
+        "regret",
+        "verbo",
+        "arrepentirse de, lamentar",
+        "I regret selling my house."
+       ],
+       [
+        "mistake",
+        "sustantivo",
+        "error",
+        "It was a big mistake."
+       ],
+       [
+        "blame",
+        "verbo",
+        "culpar",
+        "Don't blame yourself."
+       ],
+       [
+        "fault",
+        "sustantivo",
+        "culpa",
+        "It's not your fault."
+       ],
+       [
+        "advice",
+        "sustantivo (incontable)",
+        "consejo(s)",
+        "I should have followed your advice."
+       ],
+       [
+        "warn",
+        "verbo",
+        "advertir",
+        "I warned you!"
+       ],
+       [
+        "waste",
+        "verbo / sustantivo",
+        "desperdiciar; desperdicio",
+        "I wasted so much time."
+       ],
+       [
+        "save",
+        "verbo",
+        "ahorrar",
+        "I should have saved more."
+       ],
+       [
+        "spend",
+        "verbo",
+        "gastar (spent)",
+        "We spent too much money."
+       ],
+       [
+        "book",
+        "verbo",
+        "reservar",
+        "We should have booked earlier."
+       ],
+       [
+        "apologize",
+        "verbo",
+        "disculparse",
+        "You should have apologized."
+       ],
+       [
+        "rude",
+        "adjetivo",
+        "grosero",
+        "That was very rude."
+       ],
+       [
+        "careless",
+        "adjetivo",
+        "descuidado",
+        "It was a careless mistake."
+       ],
+       [
+        "learn the hard way",
+        "expresión",
+        "aprender por las malas",
+        "I learned the hard way."
+       ],
+       [
+        "too late",
+        "expresión",
+        "demasiado tarde",
+        "It's too late now."
+       ],
+       [
+        "hindsight",
+        "sustantivo",
+        "visión en retrospectiva",
+        "With hindsight, I should have stayed."
+       ],
+       [
+        "second chance",
+        "expresión",
+        "segunda oportunidad",
+        "Everybody deserves a second chance."
+       ],
+       [
+        "sold out",
+        "expresión",
+        "agotado (boletas)",
+        "The tickets were sold out."
+       ]
+      ],
+      "dialogue": {
+       "title": "Las boletas del concierto",
+       "scene": "Sergio y su novia Catalina querían ir al concierto de su banda favorita en el Movistar Arena, pero las boletas se agotaron.",
+       "a": "Catalina",
+       "b": "Sergio",
+       "lines": [
+        [
+         "A",
+         "I can't believe it. The tickets are sold out!",
+         "No lo puedo creer. ¡Las boletas se agotaron!"
+        ],
+        [
+         "B",
+         "I know. We should have bought them on the first day.",
+         "Ya sé. Debimos comprarlas el primer día."
+        ],
+        [
+         "A",
+         "I told you! You said, 'Don't worry, there's plenty of time.'",
+         "¡Te dije! Tú dijiste: «Tranquila, hay mucho tiempo»."
+        ],
+        [
+         "B",
+         "You're right. I shouldn't have waited. It's my fault.",
+         "Tienes razón. No debí esperar. Es culpa mía."
+        ],
+        [
+         "A",
+         "And you could have used your credit card. You had the money.",
+         "Y hubieras podido usar tu tarjeta de crédito. Tenías la plata."
+        ],
+        [
+         "B",
+         "I know, but I didn't want to pay interest. I should have thought about it more.",
+         "Ya sé, pero no quería pagar intereses. Debí pensarlo mejor."
+        ],
+        [
+         "A",
+         "My sister bought hers in five minutes. I wish I had asked her to buy ours too.",
+         "Mi hermana compró las suyas en cinco minutos. Ojalá le hubiera pedido que comprara las nuestras."
+        ],
+        [
+         "B",
+         "Could we buy them from someone online?",
+         "¿Podríamos comprárselas a alguien por internet?"
+        ],
+        [
+         "A",
+         "No way. My friend tried that last year and they were fake. She shouldn't have trusted that website.",
+         "Ni loca. Una amiga intentó eso el año pasado y eran falsas. No debió confiar en esa página."
+        ],
+        [
+         "B",
+         "OK, OK. Well, I've learned the hard way.",
+         "Bueno, bueno. Aprendí por las malas."
+        ],
+        [
+         "A",
+         "Don't blame yourself too much. We can watch the live stream.",
+         "No te culpes tanto. Podemos ver la transmisión en vivo."
+        ],
+        [
+         "B",
+         "Or… they're playing in Medellín in March. Let's buy those tickets right now!",
+         "O… tocan en Medellín en marzo. ¡Compremos esas boletas ya mismo!"
+        ],
+        [
+         "A",
+         "Now you're talking! This time we won't wait.",
+         "¡Así se habla! Esta vez no vamos a esperar."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I failed the exam. I ___ more.",
+        "o": [
+         "should have studied",
+         "should study",
+         "should studied",
+         "must have studied"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "You ___ that to your boss. Now he's angry.",
+        "o": [
+         "shouldn't have said",
+         "shouldn't say",
+         "couldn't have said",
+         "mustn't have said"
+        ],
+        "a": 0,
+        "x": "Crítica de algo pasado → shouldn't have."
+       },
+       {
+        "t": "mc",
+        "q": "I ___ a doctor, but I decided to study music.",
+        "o": [
+         "could have been",
+         "should be",
+         "could be",
+         "must have been"
+        ],
+        "a": 0,
+        "x": "Una posibilidad que no se realizó → could have."
+       },
+       {
+        "t": "fill",
+        "q": "I wish I ___ learned English when I was a child. (ojalá hubiera)",
+        "ans": [
+         "had"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I should have taken an umbrella. The forecast said it might rain, but I didn't listen.",
+        "q": "¿De qué se arrepiente?",
+        "o": [
+         "De no llevar paraguas",
+         "De salir tarde",
+         "De no ver el pronóstico",
+         "De no tomar un taxi"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "You could have told me before. I would have helped you."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "should",
+         "have",
+         "booked",
+         "the",
+         "hotel",
+         "earlier."
+        ],
+        "es": "Debimos reservar el hotel antes."
+       },
+       {
+        "t": "order",
+        "words": [
+         "You",
+         "shouldn't",
+         "have",
+         "spent",
+         "so",
+         "much",
+         "money."
+        ],
+        "es": "No debiste gastar tanta plata."
+       },
+       {
+        "t": "dict",
+        "say": "I wish I hadn't sold my car."
+       },
+       {
+        "t": "dict",
+        "say": "It's not your fault. Don't blame yourself."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál está bien escrita?",
+        "o": [
+         "You should have called me.",
+         "You should of called me.",
+         "You should called me.",
+         "You should had called me."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "—I lost my wallet on the bus. —You ___ it in your back pocket.",
+        "o": [
+         "shouldn't have put",
+         "couldn't have put",
+         "mustn't put",
+         "shouldn't put"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "I could have bought a house ten years ago when prices were low, but I didn't. Now I wish I had done it.",
+        "q": "¿Qué pasó hace diez años?",
+        "o": [
+         "Pudo comprar casa pero no lo hizo",
+         "Compró una casa",
+         "Vendió su casa",
+         "Se mudó a otra ciudad"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe sobre un error que cometiste y lo que aprendiste (mínimo 70 palabras). Usa should have, shouldn't have, could have y wish + had.",
+        "min": 70,
+        "keys": [
+         [
+          "should have",
+          "should've"
+         ],
+         [
+          "shouldn't have"
+         ],
+         [
+          "could have",
+          "could've"
+         ],
+         [
+          "i wish i had",
+          "i wish i hadn't"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "It's very late. You ___ me. I was worried!",
+       "o": [
+        "should have called",
+        "should call",
+        "must have called",
+        "should called"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "I ___ have eaten so much. Now I feel sick. (no debí)",
+       "ans": [
+        "shouldn't",
+        "should not"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b1-u7-l3",
+      "title": "Deducción en pasado: must have, might have, can't have",
+      "goal": "Hacer suposiciones lógicas sobre lo que pasó.",
+      "theory": [
+       {
+        "p": "Para deducir algo del **pasado** se usa **modal + have + participio**, según qué tan seguro estés: **must have** (seguro que sí: **She must have forgotten**), **might / may / could have** (es posible: **He might have missed the bus**), **can't / couldn't have** (seguro que no: **They can't have left; their car is still here**)."
+       },
+       {
+        "ex": [
+         [
+          "The ground is wet. It must have rained last night.",
+          "El suelo está mojado. Debió llover anoche."
+         ],
+         [
+          "He isn't answering. He might have gone to bed.",
+          "No contesta. Puede que se haya acostado."
+         ],
+         [
+          "She can't have taken the money. She was with me.",
+          "Ella no pudo haber cogido la plata. Estaba conmigo."
+         ],
+         [
+          "You must have been very tired after the trip.",
+          "Debiste quedar muy cansado después del viaje."
+         ],
+         [
+          "They could have got lost.",
+          "Pudieron haberse perdido."
+         ]
+        ]
+       },
+       {
+        "p": "Compara con el presente: **He must be at home** (ahora) · **He must have been at home** (antes). Para la forma continua: **She must have been sleeping when I called** (seguro estaba durmiendo)."
+       },
+       {
+        "ex": [
+         [
+          "He must be tired. / He must have been tired.",
+          "Debe estar cansado. / Debió estar cansado."
+         ],
+         [
+          "She might be at work. / She might have been at work.",
+          "Puede que esté en el trabajo. / Puede que haya estado en el trabajo."
+         ],
+         [
+          "You can't be serious! / You can't have been serious!",
+          "¡No puedes estar hablando en serio! / ¡No pudiste haberlo dicho en serio!"
+         ],
+         [
+          "She must have been sleeping.",
+          "Seguro estaba durmiendo."
+         ],
+         [
+          "The thief must have come in through the window.",
+          "El ladrón debió entrar por la ventana."
+         ]
+        ]
+       },
+       {
+        "tip": "Lo contrario de **must have** (seguro que sí) es **can't have** (seguro que no), no «mustn't have». **Mustn't** significa prohibición."
+       }
+      ],
+      "vocab": [
+       [
+        "must have",
+        "expresión",
+        "debió de, seguro que (pasado)",
+        "She must have forgotten."
+       ],
+       [
+        "might have",
+        "expresión",
+        "puede que haya",
+        "He might have missed the bus."
+       ],
+       [
+        "may have",
+        "expresión",
+        "puede que haya (formal)",
+        "They may have left already."
+       ],
+       [
+        "could have",
+        "expresión",
+        "pudo haber (posibilidad)",
+        "It could have been an accident."
+       ],
+       [
+        "can't have",
+        "expresión",
+        "no pudo haber (imposible)",
+        "She can't have seen us."
+       ],
+       [
+        "couldn't have",
+        "expresión",
+        "no pudo haber",
+        "He couldn't have done it alone."
+       ],
+       [
+        "clue",
+        "sustantivo",
+        "pista",
+        "The police found a clue."
+       ],
+       [
+        "evidence",
+        "sustantivo (incontable)",
+        "pruebas, evidencia",
+        "There's no evidence."
+       ],
+       [
+        "suspect",
+        "sustantivo / verbo",
+        "sospechoso; sospechar",
+        "The main suspect is the neighbour."
+       ],
+       [
+        "footprint",
+        "sustantivo",
+        "huella (de pie)",
+        "There were footprints in the garden."
+       ],
+       [
+        "fingerprint",
+        "sustantivo",
+        "huella digital",
+        "They found fingerprints on the glass."
+       ],
+       [
+        "break in",
+        "verbo",
+        "entrar a robar, forzar la entrada",
+        "Someone broke in last night."
+       ],
+       [
+        "disappear",
+        "verbo",
+        "desaparecer",
+        "The ring disappeared."
+       ],
+       [
+        "mystery",
+        "sustantivo",
+        "misterio",
+        "It's a real mystery."
+       ],
+       [
+        "solve",
+        "verbo",
+        "resolver",
+        "Let's solve the mystery."
+       ],
+       [
+        "explanation",
+        "sustantivo",
+        "explicación",
+        "There must be an explanation."
+       ],
+       [
+        "obviously",
+        "adverbio",
+        "obviamente",
+        "Obviously, someone opened the door."
+       ],
+       [
+        "probably",
+        "adverbio",
+        "probablemente",
+        "He probably forgot."
+       ],
+       [
+        "lock",
+        "verbo / sustantivo",
+        "cerrar con llave; cerradura",
+        "Did you lock the door?"
+       ],
+       [
+        "broken",
+        "adjetivo",
+        "roto",
+        "The window was broken."
+       ],
+       [
+        "crumbs",
+        "sustantivo",
+        "migajas, boronas",
+        "There were crumbs on the floor."
+       ],
+       [
+        "guilty",
+        "adjetivo",
+        "culpable",
+        "The dog looks guilty."
+       ]
+      ],
+      "dialogue": {
+       "title": "El misterio de la torta",
+       "scene": "Diana dejó una torta de cumpleaños en la cocina. Cuando vuelve, falta la mitad. Habla con su esposo Ricardo.",
+       "a": "Diana",
+       "b": "Ricardo",
+       "lines": [
+        [
+         "A",
+         "Ricardo! Half of the birthday cake is gone! Somebody must have eaten it.",
+         "¡Ricardo! ¡Falta la mitad de la torta de cumpleaños! Alguien debió comérsela."
+        ],
+        [
+         "B",
+         "Don't look at me. It can't have been me. I've been in the garden all morning.",
+         "No me mires a mí. No pude haber sido yo. He estado en el jardín toda la mañana."
+        ],
+        [
+         "A",
+         "Hmm. Then the kids must have taken it.",
+         "Mmm. Entonces los niños debieron cogerla."
+        ],
+        [
+         "B",
+         "They can't have done it. They left for school at seven, and you made the cake at nine.",
+         "No pudieron ser ellos. Salieron para el colegio a las siete y tú hiciste la torta a las nueve."
+        ],
+        [
+         "A",
+         "That's true. What about your brother? He came this morning, didn't he?",
+         "Es cierto. ¿Y tu hermano? Vino esta mañana, ¿no?"
+        ],
+        [
+         "B",
+         "He might have eaten a piece, but not half a cake!",
+         "Puede que se haya comido un pedazo, ¡pero no media torta!"
+        ],
+        [
+         "A",
+         "Look, there are crumbs on the floor, near the door to the patio.",
+         "Mira, hay boronas en el piso, cerca de la puerta del patio."
+        ],
+        [
+         "B",
+         "And the door is open. Someone must have come in from the garden.",
+         "Y la puerta está abierta. Alguien debió entrar por el jardín."
+        ],
+        [
+         "A",
+         "From the garden? But you were there. You must have seen something!",
+         "¿Por el jardín? Pero tú estabas ahí. ¡Algo debiste ver!"
+        ],
+        [
+         "B",
+         "I was listening to music with my headphones. I might not have heard anything.",
+         "Estaba oyendo música con audífonos. Puede que no haya oído nada."
+        ],
+        [
+         "A",
+         "Wait… why is Max hiding under the sofa? And why is there chocolate on his nose?",
+         "Espera… ¿por qué Max está escondido debajo del sofá? ¿Y por qué tiene chocolate en la nariz?"
+        ],
+        [
+         "B",
+         "Ha ha! The dog! He must have jumped on the table when nobody was looking.",
+         "¡Jaja! ¡El perro! Debió subirse a la mesa cuando nadie estaba mirando."
+        ],
+        [
+         "A",
+         "Max! He looks so guilty. Mystery solved.",
+         "¡Max! Se ve tan culpable. Misterio resuelto."
+        ],
+        [
+         "B",
+         "But chocolate is bad for dogs. We should call the vet.",
+         "Pero el chocolate es malo para los perros. Deberíamos llamar al veterinario."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The streets are wet. It ___ last night.",
+        "o": [
+         "must have rained",
+         "must rain",
+         "can't have rained",
+         "should have rained"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "She ___ the email. I sent it to the wrong address.",
+        "o": [
+         "can't have received",
+         "must have received",
+         "should have received",
+         "mustn't have received"
+        ],
+        "a": 0,
+        "x": "Imposible → can't have."
+       },
+       {
+        "t": "mc",
+        "q": "I don't know where Pedro is. He ___ stuck in traffic.",
+        "o": [
+         "might have got",
+         "must get",
+         "can't have got",
+         "should get"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "You must ___ been exhausted after the marathon. (haber)",
+        "ans": [
+         "have"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The window was broken from the inside, and there were no footprints outside. The thief must have been someone inside the house.",
+        "q": "¿Qué concluye la persona?",
+        "o": [
+         "Fue alguien que estaba dentro de la casa",
+         "Entró por el jardín",
+         "Fue un vecino",
+         "No hubo robo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "She must have forgotten about the meeting. She's never late."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "They",
+         "can't",
+         "have",
+         "gone",
+         "far",
+         "without",
+         "a",
+         "car."
+        ],
+        "es": "No pueden haber ido lejos sin carro."
+       },
+       {
+        "t": "order",
+        "words": [
+         "He",
+         "must",
+         "have",
+         "been",
+         "sleeping",
+         "when",
+         "I",
+         "called."
+        ],
+        "es": "Seguro estaba durmiendo cuando lo llamé."
+       },
+       {
+        "t": "dict",
+        "say": "Someone must have broken in through the window."
+       },
+       {
+        "t": "dict",
+        "say": "He might have missed the bus."
+       },
+       {
+        "t": "mc",
+        "q": "Lo contrario de «He must have known» (seguro que sabía) es:",
+        "o": [
+         "He can't have known.",
+         "He mustn't have known.",
+         "He shouldn't have known.",
+         "He might have known."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "—Laura didn't come to the party. —She ___ sick. She had a cold on Friday.",
+        "o": [
+         "might have been",
+         "must be",
+         "can't have been",
+         "should have been"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Ana's car isn't in the garage and her keys aren't here. She must have gone to the supermarket, or she may have taken the kids to the park.",
+        "q": "¿Qué posibilidades menciona?",
+        "o": [
+         "Que fue al supermercado o llevó a los niños al parque",
+         "Que está durmiendo",
+         "Que le robaron el carro",
+         "Que está en el trabajo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Imagina que llegas a tu casa y encuentras la puerta abierta, la sala desordenada y tu perro asustado (mínimo 70 palabras). Haz deducciones sobre lo que pasó con must have, might have, could have y can't have.",
+        "min": 70,
+        "keys": [
+         [
+          "must have"
+         ],
+         [
+          "might have",
+          "may have",
+          "could have"
+         ],
+         [
+          "can't have",
+          "couldn't have"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "He ___ the money. He was in Miami that week.",
+       "o": [
+        "can't have stolen",
+        "must have stolen",
+        "should have stolen",
+        "mustn't have stolen"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Her eyes are red. She ___ have been crying. (seguro que)",
+       "ans": [
+        "must"
+       ]
+      },
+      "reading": 19,
+      "words": []
+     },
+     {
+      "id": "b1-u7-l4",
+      "title": "Causativo: have y get something done",
+      "goal": "Decir que alguien te hace un servicio: arreglar, cortar, limpiar o revisar algo.",
+      "theory": [
+       {
+        "p": "Cuando **otra persona** hace algo por ti (normalmente porque le pagas), se usa **have + objeto + participio**: **I have my hair cut every month** (me hago cortar el pelo). Compara: **I cut my hair** = yo mismo me lo corto."
+       },
+       {
+        "ex": [
+         [
+          "I had my car repaired last week.",
+          "Me arreglaron el carro la semana pasada."
+         ],
+         [
+          "We're having the kitchen painted.",
+          "Nos están pintando la cocina."
+         ],
+         [
+          "She has her nails done every Friday.",
+          "Ella se hace las uñas todos los viernes."
+         ],
+         [
+          "You should have your eyes tested.",
+          "Deberías hacerte examinar la vista."
+         ],
+         [
+          "I'm going to have my teeth cleaned.",
+          "Me voy a hacer una limpieza de dientes."
+         ]
+        ]
+       },
+       {
+        "p": "**Get something done** significa lo mismo y es más informal: **I need to get my phone fixed.** También se usa para cosas malas que te pasan: **I had my wallet stolen on the bus** (me robaron la billetera). Y **get / have someone do something** = conseguir que alguien haga algo: **I got the mechanic to check the brakes.**"
+       },
+       {
+        "ex": [
+         [
+          "I need to get my phone fixed.",
+          "Tengo que hacer arreglar el celular."
+         ],
+         [
+          "Where did you get your hair cut?",
+          "¿Dónde te cortaste el pelo?"
+         ],
+         [
+          "He had his passport stolen in Rome.",
+          "Le robaron el pasaporte en Roma."
+         ],
+         [
+          "I'll get my brother to help us.",
+          "Voy a hacer que mi hermano nos ayude."
+         ],
+         [
+          "We had the plumber look at the shower.",
+          "Hicimos que el plomero revisara la ducha."
+         ]
+        ]
+       },
+       {
+        "tip": "El orden es clave: **have + cosa + participio**: **I had my hair cut** (me cortaron el pelo). Si dices **I had cut my hair**, es pasado perfecto: yo mismo me lo había cortado."
+       }
+      ],
+      "vocab": [
+       [
+        "have something done",
+        "expresión",
+        "mandar a hacer algo",
+        "I had the roof repaired."
+       ],
+       [
+        "get something done",
+        "expresión",
+        "hacer que te hagan algo (informal)",
+        "I got my car washed."
+       ],
+       [
+        "haircut",
+        "sustantivo",
+        "corte de pelo",
+        "I need a haircut."
+       ],
+       [
+        "hairdresser",
+        "sustantivo",
+        "peluquero, peluquería",
+        "I go to the hairdresser every month."
+       ],
+       [
+        "barber",
+        "sustantivo",
+        "barbero",
+        "My barber is from Cartagena."
+       ],
+       [
+        "mechanic",
+        "sustantivo",
+        "mecánico",
+        "The mechanic checked the brakes."
+       ],
+       [
+        "plumber",
+        "sustantivo",
+        "plomero",
+        "We called a plumber."
+       ],
+       [
+        "electrician",
+        "sustantivo",
+        "electricista",
+        "The electrician fixed the lights."
+       ],
+       [
+        "repair",
+        "verbo",
+        "reparar",
+        "I had my laptop repaired."
+       ],
+       [
+        "fix",
+        "verbo",
+        "arreglar",
+        "Can you fix it?"
+       ],
+       [
+        "service",
+        "verbo",
+        "hacer mantenimiento (carro)",
+        "I have my car serviced every year."
+       ],
+       [
+        "deliver",
+        "verbo",
+        "entregar, llevar a domicilio",
+        "We had the sofa delivered."
+       ],
+       [
+        "install",
+        "verbo",
+        "instalar",
+        "We had solar panels installed."
+       ],
+       [
+        "test",
+        "verbo",
+        "examinar, probar",
+        "Have your eyes tested."
+       ],
+       [
+        "brakes",
+        "sustantivo",
+        "frenos",
+        "The brakes need checking."
+       ],
+       [
+        "leak",
+        "sustantivo",
+        "fuga, gotera",
+        "There's a leak in the bathroom."
+       ],
+       [
+        "estimate",
+        "sustantivo",
+        "cotización, presupuesto",
+        "Can you give me an estimate?"
+       ],
+       [
+        "appointment",
+        "sustantivo",
+        "cita",
+        "I have an appointment at the hairdresser's."
+       ],
+       [
+        "under warranty",
+        "expresión",
+        "en garantía",
+        "The phone is still under warranty."
+       ],
+       [
+        "dry-clean",
+        "verbo",
+        "lavar en seco",
+        "I had my suit dry-cleaned."
+       ],
+       [
+        "tailor",
+        "sustantivo",
+        "sastre",
+        "The tailor shortened my trousers."
+       ],
+       [
+        "shorten",
+        "verbo",
+        "acortar",
+        "I had the trousers shortened."
+       ]
+      ],
+      "dialogue": {
+       "title": "Una semana de arreglos",
+       "scene": "Mónica se va a casar el sábado. Le cuenta a su amiga Isabel todo lo que tiene que mandar a hacer esta semana.",
+       "a": "Isabel",
+       "b": "Mónica",
+       "lines": [
+        [
+         "A",
+         "Only five days to the wedding! Are you ready?",
+         "¡Solo cinco días para la boda! ¿Estás lista?"
+        ],
+        [
+         "B",
+         "Almost. I'm having my dress shortened today. It's too long.",
+         "Casi. Hoy me están acortando el vestido. Está muy largo."
+        ],
+        [
+         "A",
+         "And your hair?",
+         "¿Y el pelo?"
+        ],
+        [
+         "B",
+         "I'm having it done on Saturday morning, and I'm getting my nails done on Friday.",
+         "Me lo hacen el sábado por la mañana, y el viernes me hago las uñas."
+        ],
+        [
+         "A",
+         "What about Pablo? Is he ready?",
+         "¿Y Pablo? ¿Está listo?"
+        ],
+        [
+         "B",
+         "Not really. He has to get his suit dry-cleaned and have his hair cut.",
+         "No mucho. Tiene que mandar a lavar en seco el traje y cortarse el pelo."
+        ],
+        [
+         "A",
+         "Ha ha. Men always leave everything to the last minute!",
+         "¡Jaja! ¡Los hombres siempre lo dejan todo para el último minuto!"
+        ],
+        [
+         "B",
+         "And there's another problem. We had the apartment painted last week, but now there's a leak in the bathroom.",
+         "Y hay otro problema. La semana pasada nos pintaron el apartamento, pero ahora hay una gotera en el baño."
+        ],
+        [
+         "A",
+         "Oh no! Did you call a plumber?",
+         "¡Ay no! ¿Llamaste a un plomero?"
+        ],
+        [
+         "B",
+         "Yes. I got my uncle to recommend one. He's coming tomorrow to give us an estimate.",
+         "Sí. Hice que mi tío me recomendara uno. Viene mañana a darnos una cotización."
+        ],
+        [
+         "A",
+         "And the car for the wedding?",
+         "¿Y el carro para la boda?"
+        ],
+        [
+         "B",
+         "We're having it washed and decorated with flowers on Friday afternoon.",
+         "El viernes por la tarde lo van a lavar y decorar con flores."
+        ],
+        [
+         "A",
+         "You've organized everything. You don't need my help!",
+         "Lo organizaste todo. ¡No necesitas mi ayuda!"
+        ],
+        [
+         "B",
+         "Yes, I do! Can you take Pablo to the barber? I don't trust him!",
+         "¡Claro que sí! ¿Puedes llevar a Pablo a la barbería? ¡No le tengo confianza!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I don't cut my own hair. I ___ every month.",
+        "o": [
+         "have it cut",
+         "cut it",
+         "have cut it",
+         "am cut it"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "We ___ the roof repaired after the storm.",
+        "o": [
+         "had",
+         "made",
+         "did",
+         "let"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I got the mechanic ___ the brakes.",
+        "o": [
+         "to check",
+         "check",
+         "checked",
+         "checking"
+        ],
+        "a": 0,
+        "x": "Get + persona + to + verbo."
+       },
+       {
+        "t": "fill",
+        "q": "She had her passport ___ at the airport. (robaron: steal)",
+        "ans": [
+         "stolen"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We're having the kitchen renovated, so for the next two weeks we're going to eat out or order food.",
+        "q": "¿Por qué van a comer afuera?",
+        "o": [
+         "Les están remodelando la cocina",
+         "No les gusta cocinar",
+         "Se van de viaje",
+         "Están de cumpleaños"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I need to get my phone fixed before Monday."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "had",
+         "my",
+         "car",
+         "serviced",
+         "last",
+         "month."
+        ],
+        "es": "Le hice el mantenimiento al carro el mes pasado."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Where",
+         "do",
+         "you",
+         "get",
+         "your",
+         "hair",
+         "cut?"
+        ],
+        "es": "¿Dónde te cortas el pelo?"
+       },
+       {
+        "t": "dict",
+        "say": "We had solar panels installed last year."
+       },
+       {
+        "t": "dict",
+        "say": "You should have your eyes tested."
+       },
+       {
+        "t": "mc",
+        "q": "«I had cut my hair» significa:",
+        "o": [
+         "Yo mismo me había cortado el pelo.",
+         "Me hice cortar el pelo.",
+         "Me van a cortar el pelo.",
+         "Me cortan el pelo siempre."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "My eyesight is getting worse. I need to ___.",
+        "o": [
+         "have my eyes tested",
+         "test my eyes by me",
+         "have tested my eyes",
+         "have my eyes test"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "I had my laptop repaired, but it broke again after two days. Luckily it's still under warranty, so they'll fix it for free.",
+        "q": "¿Por qué no paga el arreglo?",
+        "o": [
+         "Porque está en garantía",
+         "Porque el técnico es su amigo",
+         "Porque no funcionó",
+         "Porque lo compró ayer"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo a un amigo (mínimo 70 palabras) contándole todo lo que tienes que mandar a hacer este mes (casa, carro, salud, ropa, tecnología) y algo que te robaron o te dañaron alguna vez. Usa have / get something done al menos cinco veces.",
+        "min": 70,
+        "keys": [
+         [
+          "have my",
+          "had my",
+          "having my",
+          "having the",
+          "had the"
+         ],
+         [
+          "get my",
+          "got my",
+          "getting my"
+         ],
+         [
+          "cut",
+          "fixed",
+          "repaired",
+          "cleaned",
+          "painted",
+          "checked",
+          "serviced",
+          "done",
+          "stolen",
+          "tested",
+          "installed"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I'm going to ___ before the wedding.",
+       "o": [
+        "have my suit cleaned",
+        "have cleaned my suit",
+        "clean have my suit",
+        "have my suit clean"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "We had a new door ___ last week. (instalar)",
+       "ans": [
+        "installed",
+        "put in"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b1-u7-l5",
+      "title": "Could, was able to, managed to y myself / each other",
+      "goal": "Decir lo que lograste o no lograste hacer y si lo hiciste solo o con otros.",
+      "theory": [
+       {
+        "p": "**Could** = podía, sabía hacer algo **en general** en el pasado: **I could swim when I was five.** Para un logro **concreto** en un momento específico se usa **was / were able to** o **managed to** (logré, a pesar de una dificultad): **The road was closed, but we managed to get home.**"
+       },
+       {
+        "ex": [
+         [
+          "When I was young, I could run very fast.",
+          "De joven podía correr muy rápido."
+         ],
+         [
+          "We were able to see the whole city from the top.",
+          "Pudimos ver toda la ciudad desde arriba."
+         ],
+         [
+          "After three hours, he managed to fix the car.",
+          "Después de tres horas, logró arreglar el carro."
+         ],
+         [
+          "I couldn't sleep last night.",
+          "No pude dormir anoche."
+         ],
+         [
+          "She wasn't able to come because she was sick.",
+          "No pudo venir porque estaba enferma."
+         ]
+        ]
+       },
+       {
+        "p": "**Pronombres reflexivos**: **myself, yourself, himself, herself, itself, ourselves, yourselves, themselves**. Se usan cuando el sujeto y el objeto son la misma persona (**I cut myself**), para enfatizar que lo hiciste **tú solo** (**I painted the house myself**), y en **by myself** (solo, sin ayuda). **Each other** = el uno al otro: **They love each other.**"
+       },
+       {
+        "ex": [
+         [
+          "I fixed the sink myself.",
+          "Arreglé el lavaplatos yo mismo."
+         ],
+         [
+          "Be careful! Don't burn yourself.",
+          "¡Cuidado! No te vayas a quemar."
+         ],
+         [
+          "She lives by herself.",
+          "Ella vive sola."
+         ],
+         [
+          "Help yourselves to some cake.",
+          "Sírvanse torta."
+         ],
+         [
+          "We've known each other for twenty years.",
+          "Nos conocemos hace veinte años."
+         ]
+        ]
+       },
+       {
+        "tip": "En español «se miraron» puede ser a sí mismos o el uno al otro. En inglés se distingue: **They looked at themselves** (cada uno a sí mismo, en el espejo) / **They looked at each other** (el uno al otro)."
+       }
+      ],
+      "vocab": [
+       [
+        "could",
+        "verbo modal",
+        "podía, sabía (habilidad general en el pasado)",
+        "I could read at four."
+       ],
+       [
+        "couldn't",
+        "verbo modal",
+        "no podía, no pude",
+        "I couldn't find my keys."
+       ],
+       [
+        "be able to",
+        "expresión",
+        "poder, ser capaz de",
+        "We were able to finish on time."
+       ],
+       [
+        "manage to",
+        "expresión",
+        "lograr, alcanzar a",
+        "I managed to catch the bus."
+       ],
+       [
+        "succeed in",
+        "expresión",
+        "lograr, tener éxito en",
+        "She succeeded in passing the exam."
+       ],
+       [
+        "myself",
+        "pronombre",
+        "yo mismo, me",
+        "I made it myself."
+       ],
+       [
+        "yourself",
+        "pronombre",
+        "tú mismo, te",
+        "Look after yourself."
+       ],
+       [
+        "himself / herself",
+        "pronombre",
+        "él mismo / ella misma",
+        "He hurt himself."
+       ],
+       [
+        "ourselves",
+        "pronombre",
+        "nosotros mismos",
+        "We built it ourselves."
+       ],
+       [
+        "themselves",
+        "pronombre",
+        "ellos mismos",
+        "They enjoyed themselves."
+       ],
+       [
+        "by myself",
+        "expresión",
+        "solo, sin ayuda",
+        "I live by myself."
+       ],
+       [
+        "each other",
+        "expresión",
+        "el uno al otro",
+        "They help each other."
+       ],
+       [
+        "enjoy yourself",
+        "expresión",
+        "divertirse, pasarla bien",
+        "Enjoy yourselves!"
+       ],
+       [
+        "hurt yourself",
+        "expresión",
+        "hacerse daño",
+        "Did you hurt yourself?"
+       ],
+       [
+        "help yourself",
+        "expresión",
+        "servirse",
+        "Help yourself to coffee."
+       ],
+       [
+        "DIY",
+        "sustantivo",
+        "hágalo usted mismo, bricolaje",
+        "I love DIY projects."
+       ],
+       [
+        "tool",
+        "sustantivo",
+        "herramienta",
+        "I need the right tools."
+       ],
+       [
+        "tutorial",
+        "sustantivo",
+        "tutorial",
+        "I watched a tutorial online."
+       ],
+       [
+        "climb",
+        "verbo",
+        "escalar, subir",
+        "We managed to climb to the top."
+       ],
+       [
+        "give up",
+        "verbo",
+        "rendirse, dejar de",
+        "Don't give up!"
+       ],
+       [
+        "finally",
+        "adverbio",
+        "por fin, finalmente",
+        "Finally, it worked!"
+       ],
+       [
+        "proud of",
+        "expresión",
+        "orgulloso de",
+        "I'm proud of myself."
+       ]
+      ],
+      "dialogue": {
+       "title": "Lo hice yo mismo",
+       "scene": "Fernando le cuenta a su compañero Hugo cómo arregló solo la lavadora el fin de semana.",
+       "a": "Hugo",
+       "b": "Fernando",
+       "lines": [
+        [
+         "A",
+         "How was your weekend?",
+         "¿Qué tal tu fin de semana?"
+        ],
+        [
+         "B",
+         "Busy! The washing machine broke on Saturday, and I couldn't find a technician.",
+         "¡Ocupado! El sábado se dañó la lavadora y no pude conseguir técnico."
+        ],
+        [
+         "A",
+         "Oh no. So what did you do?",
+         "Ay no. ¿Y qué hiciste?"
+        ],
+        [
+         "B",
+         "I fixed it myself! I watched a tutorial on YouTube.",
+         "¡La arreglé yo mismo! Vi un tutorial en YouTube."
+        ],
+        [
+         "A",
+         "You? You can't even change a light bulb!",
+         "¿Tú? ¡Si no eres capaz ni de cambiar un bombillo!"
+        ],
+        [
+         "B",
+         "Ha ha, I know. At first, I couldn't open it. I didn't have the right tools.",
+         "Jaja, ya sé. Al principio no pude abrirla. No tenía las herramientas adecuadas."
+        ],
+        [
+         "A",
+         "And then?",
+         "¿Y luego?"
+        ],
+        [
+         "B",
+         "My neighbour lent me some. After two hours, I managed to take out the filter. It was full of coins and a sock!",
+         "Mi vecino me prestó unas. Después de dos horas, logré sacar el filtro. ¡Estaba lleno de monedas y una media!"
+        ],
+        [
+         "A",
+         "Ha ha! And were you able to make it work?",
+         "¡Jaja! ¿Y lograste que funcionara?"
+        ],
+        [
+         "B",
+         "Yes! I cleaned the filter, put everything back and it worked perfectly.",
+         "¡Sí! Limpié el filtro, armé todo otra vez y funcionó perfecto."
+        ],
+        [
+         "A",
+         "Did you hurt yourself?",
+         "¿Te hiciste daño?"
+        ],
+        [
+         "B",
+         "Only a little. I cut myself on the finger. But I was very proud of myself.",
+         "Solo un poquito. Me corté el dedo. Pero estaba muy orgulloso de mí mismo."
+        ],
+        [
+         "A",
+         "What did your wife say?",
+         "¿Qué dijo tu esposa?"
+        ],
+        [
+         "B",
+         "We looked at each other and laughed. She said, 'Who are you, and where's my husband?'",
+         "Nos miramos y nos reímos. Me dijo: «¿Quién eres tú y dónde está mi esposo?»."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "When I was a child, I ___ speak three languages.",
+        "o": [
+         "could",
+         "managed to",
+         "was able",
+         "can"
+        ],
+        "a": 0,
+        "x": "Habilidad general en el pasado → could."
+       },
+       {
+        "t": "mc",
+        "q": "The traffic was terrible, but we ___ arrive on time.",
+        "o": [
+         "managed to",
+         "could",
+         "can",
+         "succeeded"
+        ],
+        "a": 0,
+        "x": "Logro concreto con dificultad → managed to."
+       },
+       {
+        "t": "mc",
+        "q": "She lives by ___. She doesn't have a roommate.",
+        "o": [
+         "herself",
+         "her",
+         "she",
+         "hers"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "They have known ___ other since they were children. (el uno al otro)",
+        "ans": [
+         "each"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I couldn't open the jar, so I asked my son. He wasn't able to open it either, but my daughter managed to do it in one second.",
+        "q": "¿Quién logró abrir el frasco?",
+        "o": [
+         "La hija",
+         "El hijo",
+         "Quien habla",
+         "Nadie"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "After three hours, I finally managed to fix it myself."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "were",
+         "able",
+         "to",
+         "see",
+         "the",
+         "volcano."
+        ],
+        "es": "Pudimos ver el volcán."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Help",
+         "yourselves",
+         "to",
+         "some",
+         "coffee."
+        ],
+        "es": "Sírvanse café."
+       },
+       {
+        "t": "dict",
+        "say": "I couldn't sleep last night because of the noise."
+       },
+       {
+        "t": "dict",
+        "say": "They looked at each other and smiled."
+       },
+       {
+        "t": "mc",
+        "q": "Be careful with the knife! You'll cut ___.",
+        "o": [
+         "yourself",
+         "you",
+         "your",
+         "yourselves of"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The exam was very difficult, but I ___ pass it.",
+        "o": [
+         "managed to",
+         "could",
+         "can",
+         "might"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "We wanted to climb to the top of the mountain, but the weather was bad and we weren't able to finish. We enjoyed ourselves anyway.",
+        "q": "¿Por qué no llegaron a la cima?",
+        "o": [
+         "Por el mal tiempo",
+         "Porque se cansaron",
+         "Porque se perdieron",
+         "Porque se hicieron daño"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Cuenta algo difícil que lograste hacer tú solo o con otras personas (mínimo 70 palabras). Usa could / couldn't, was able to o managed to, y al menos dos pronombres reflexivos o each other.",
+        "min": 70,
+        "keys": [
+         [
+          "managed to",
+          "was able to",
+          "were able to"
+         ],
+         [
+          "could",
+          "couldn't"
+         ],
+         [
+          "myself",
+          "ourselves",
+          "themselves",
+          "himself",
+          "herself",
+          "yourself",
+          "each other"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The road was blocked, but the ambulance ___ reach the village.",
+       "o": [
+        "managed to",
+        "could",
+        "can",
+        "succeeded to"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "I didn't have help. I painted the whole house ___. (yo mismo)",
+       "ans": [
+        "myself",
+        "by myself"
+       ]
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "If I ___ the instructions, I wouldn't have broken it.",
+      "o": [
+       "had read",
+       "read",
+       "would have read",
+       "have read"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "You ___ me. I was waiting for two hours!",
+      "o": [
+       "should have called",
+       "should call",
+       "must have called",
+       "should called"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The lights are off. They ___ to bed.",
+      "o": [
+       "must have gone",
+       "must go",
+       "can't have gone",
+       "should have gone"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I'm going to ___ before the trip.",
+      "o": [
+       "have the car serviced",
+       "have serviced the car",
+       "service have the car",
+       "have the car service"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "It was very difficult, but she ___ finish the marathon.",
+      "o": [
+       "managed to",
+       "could",
+       "can",
+       "succeeded to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "They love each ___. (el uno al otro)",
+      "ans": [
+       "other"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "If I hadn't taken that wrong bus, I wouldn't have met my best friend. We sat next to each other and started talking.",
+      "q": "¿Cómo conoció a su mejor amigo?",
+      "o": [
+       "En un bus equivocado",
+       "En el colegio",
+       "En el trabajo",
+       "En una fiesta"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "My phone was stolen on the metro. I should have kept it in my bag. Now I have to get a new SIM card.",
+      "q": "¿De qué se arrepiente?",
+      "o": [
+       "De no guardar el celular en el bolso",
+       "De no tomar un taxi",
+       "De comprar ese celular",
+       "De no denunciar el robo"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe sobre un día en que todo salió mal (mínimo 80 palabras): qué pasó, qué deberías haber hecho (should have), cómo habría sido distinto (tercer condicional), qué supones que causó el problema (must have / might have) y qué lograste hacer al final (managed to).",
+      "min": 80,
+      "keys": [
+       [
+        "if i had",
+        "if i hadn't",
+        "if i'd"
+       ],
+       [
+        "should have",
+        "shouldn't have"
+       ],
+       [
+        "must have",
+        "might have",
+        "can't have",
+        "could have"
+       ],
+       [
+        "managed to",
+        "was able to"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "If I had known about the traffic, I would have taken the metro."
+     },
+     {
+      "t": "oral",
+      "text": "I had my hair cut, and I think the barber must have been in a hurry."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "We would have arrived on time if we ___ the wrong road.",
+      "o": [
+       "hadn't taken",
+       "didn't take",
+       "wouldn't have taken",
+       "haven't taken"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I ___ a professional footballer, but I hurt my knee.",
+      "o": [
+       "could have been",
+       "should have been",
+       "must have been",
+       "can have been"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "He ___ the answer. He's never studied chemistry.",
+      "o": [
+       "can't have known",
+       "must have known",
+       "should have known",
+       "mustn't have known"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "She had her bag ___ on the bus.",
+      "o": [
+       "stolen",
+       "steal",
+       "stole",
+       "stealing"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Don't help him. He can do it ___.",
+      "o": [
+       "himself",
+       "him",
+       "his",
+       "he"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "When I was young, I ___ dance salsa all night.",
+      "o": [
+       "could",
+       "managed to",
+       "was able",
+       "can"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "If you had asked me, I would ___ helped you.",
+      "ans": [
+       "have"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "I ___ have eaten that fish. I feel terrible. (no debí)",
+      "ans": [
+       "shouldn't",
+       "should not"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "The burglar must have come in through the kitchen window. The neighbours can't have heard anything, because they were on holiday.",
+      "q": "¿Por qué los vecinos no oyeron nada?",
+      "o": [
+       "Estaban de vacaciones",
+       "Estaban dormidos",
+       "No había ruido",
+       "Estaban en el trabajo"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "We had the house painted and the windows cleaned, but we fixed the garden ourselves.",
+      "q": "¿Qué hicieron ellos mismos?",
+      "o": [
+       "Arreglaron el jardín",
+       "Pintaron la casa",
+       "Limpiaron las ventanas",
+       "Nada"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "If it hadn't rained, we would have finished the walk. We managed to get to the waterfall, but we couldn't go further.",
+      "q": "¿Hasta dónde llegaron?",
+      "o": [
+       "Hasta la cascada",
+       "Hasta la cima",
+       "No salieron",
+       "Hasta el pueblo"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe una historia corta de misterio (mínimo 80 palabras): algo desapareció o pasó algo extraño. Usa deducciones en pasado (must have, might have, can't have) y termina con qué debió hacer alguien distinto (should have).",
+      "min": 80,
+      "keys": [
+       [
+        "must have"
+       ],
+       [
+        "might have",
+        "may have",
+        "could have"
+       ],
+       [
+        "can't have",
+        "couldn't have"
+       ],
+       [
+        "should have",
+        "shouldn't have"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "You should have told me the truth."
+     },
+     {
+      "t": "oral",
+      "text": "We managed to get the last two tickets."
+     },
+     {
+      "t": "oral",
+      "text": "They must have forgotten about the meeting."
+     }
+    ]
+   },
+   {
+    "title": "Conectar ideas y el mundo de hoy",
+    "lessons": [
+     {
+      "id": "b1-u8-l1",
+      "title": "Conectores para argumentar: although, despite, however, so that",
+      "goal": "Unir ideas que contrastan y explicar para qué se hace algo.",
+      "theory": [
+       {
+        "p": "Para el **contraste** cada conector tiene su gramática: **although / even though** + oración (**Although it was raining, we went out**). **Despite / in spite of** + sustantivo o **-ing** (**Despite the rain…** · **Despite feeling tired…**). **However** va al inicio de una nueva oración, con coma (**It was expensive. However, it was worth it.**). **Whereas** compara dos cosas opuestas (**I love coffee, whereas my wife prefers tea**)."
+       },
+       {
+        "ex": [
+         [
+          "Although he's rich, he lives in a small flat.",
+          "Aunque es rico, vive en un apartamento pequeño."
+         ],
+         [
+          "Despite the traffic, we arrived on time.",
+          "A pesar del tráfico, llegamos a tiempo."
+         ],
+         [
+          "In spite of having a cold, she went to work.",
+          "A pesar de tener gripa, fue a trabajar."
+         ],
+         [
+          "The hotel was nice. However, the food was terrible.",
+          "El hotel era bonito. Sin embargo, la comida era terrible."
+         ],
+         [
+          "Bogotá is cold, whereas Cali is hot.",
+          "Bogotá es fría, mientras que Cali es caliente."
+         ]
+        ]
+       },
+       {
+        "p": "Para el **propósito**: **to / in order to** + verbo (**I'm saving in order to buy a house**) y **so that** + sujeto + **can / could / will / would** (**I'm leaving early so that I can avoid the traffic**). Para el **resultado**: **so**, **as a result**, **therefore** (formal)."
+       },
+       {
+        "ex": [
+         [
+          "I study every night in order to pass the exam.",
+          "Estudio todas las noches para pasar el examen."
+         ],
+         [
+          "She spoke slowly so that everyone could understand.",
+          "Habló despacio para que todos entendieran."
+         ],
+         [
+          "It rained a lot. As a result, the road was closed.",
+          "Llovió mucho. Como resultado, cerraron la carretera."
+         ],
+         [
+          "Prices went up; therefore, sales fell.",
+          "Los precios subieron; por lo tanto, las ventas bajaron."
+         ],
+         [
+          "I took a taxi so I wouldn't be late.",
+          "Tomé un taxi para no llegar tarde."
+         ]
+        ]
+       },
+       {
+        "tip": "Nunca digas «despite of» ni «although of». Es **despite** (sin of) o **in spite of** (con of). Y después de despite no va una oración completa: **despite the rain**, no «despite it was raining»."
+       }
+      ],
+      "vocab": [
+       [
+        "although",
+        "conjunción",
+        "aunque",
+        "Although it was late, we stayed."
+       ],
+       [
+        "even though",
+        "conjunción",
+        "aun cuando, aunque (más fuerte)",
+        "Even though I studied, I failed."
+       ],
+       [
+        "despite",
+        "preposición",
+        "a pesar de",
+        "Despite the cold, we swam."
+       ],
+       [
+        "in spite of",
+        "expresión",
+        "a pesar de",
+        "In spite of the noise, I slept."
+       ],
+       [
+        "however",
+        "adverbio",
+        "sin embargo",
+        "However, it was too expensive."
+       ],
+       [
+        "whereas",
+        "conjunción",
+        "mientras que (contraste)",
+        "I'm tall, whereas my brother is short."
+       ],
+       [
+        "on the other hand",
+        "expresión",
+        "por otro lado",
+        "On the other hand, it's very safe."
+       ],
+       [
+        "in order to",
+        "expresión",
+        "para, con el fin de",
+        "I called in order to complain."
+       ],
+       [
+        "so that",
+        "conjunción",
+        "para que",
+        "Speak louder so that we can hear you."
+       ],
+       [
+        "as a result",
+        "expresión",
+        "como resultado",
+        "As a result, many people lost their jobs."
+       ],
+       [
+        "therefore",
+        "adverbio",
+        "por lo tanto",
+        "It's late; therefore, we should go."
+       ],
+       [
+        "advantage",
+        "sustantivo",
+        "ventaja",
+        "One advantage is the price."
+       ],
+       [
+        "disadvantage",
+        "sustantivo",
+        "desventaja",
+        "The main disadvantage is the noise."
+       ],
+       [
+        "argument",
+        "sustantivo",
+        "argumento; discusión",
+        "That's a good argument."
+       ],
+       [
+        "point of view",
+        "expresión",
+        "punto de vista",
+        "From my point of view, it's fair."
+       ],
+       [
+        "benefit",
+        "sustantivo",
+        "beneficio",
+        "There are many benefits."
+       ],
+       [
+        "drawback",
+        "sustantivo",
+        "inconveniente",
+        "The only drawback is the cost."
+       ],
+       [
+        "commute",
+        "sustantivo / verbo",
+        "trayecto al trabajo; viajar al trabajo",
+        "My commute is an hour."
+       ],
+       [
+        "work from home",
+        "expresión",
+        "trabajar desde casa",
+        "I work from home twice a week."
+       ],
+       [
+        "productive",
+        "adjetivo",
+        "productivo",
+        "I'm more productive at home."
+       ],
+       [
+        "isolated",
+        "adjetivo",
+        "aislado",
+        "Some people feel isolated."
+       ],
+       [
+        "flexible",
+        "adjetivo",
+        "flexible",
+        "My hours are flexible."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Oficina o casa?",
+       "scene": "En una reunión, Carolina y su jefe Rodrigo discuten si el equipo debe volver a la oficina todos los días.",
+       "a": "Rodrigo",
+       "b": "Carolina",
+       "lines": [
+        [
+         "A",
+         "I think everyone should come back to the office every day. We work better together.",
+         "Creo que todos deberían volver a la oficina todos los días. Trabajamos mejor juntos."
+        ],
+        [
+         "B",
+         "I see your point. However, many people are more productive at home.",
+         "Entiendo. Sin embargo, mucha gente es más productiva en casa."
+        ],
+        [
+         "A",
+         "Maybe, but although people say they're productive, some reports arrive late.",
+         "Puede ser, pero aunque la gente dice que es productiva, algunos informes llegan tarde."
+        ],
+        [
+         "B",
+         "That's true in a few cases. Despite that, our results this year were excellent.",
+         "Es cierto en algunos casos. A pesar de eso, nuestros resultados este año fueron excelentes."
+        ],
+        [
+         "A",
+         "Fair enough. But new employees feel isolated. They need to learn from others.",
+         "Es justo. Pero los empleados nuevos se sienten aislados. Necesitan aprender de los demás."
+        ],
+        [
+         "B",
+         "I agree. What if new people came three days a week so that they could learn faster?",
+         "Estoy de acuerdo. ¿Y si los nuevos vinieran tres días a la semana para que puedan aprender más rápido?"
+        ],
+        [
+         "A",
+         "Interesting. And the others?",
+         "Interesante. ¿Y los demás?"
+        ],
+        [
+         "B",
+         "Two days. Some colleagues live two hours away, whereas others live five minutes from here.",
+         "Dos días. Algunos compañeros viven a dos horas, mientras que otros viven a cinco minutos."
+        ],
+        [
+         "A",
+         "Hmm. Long commutes are tiring. As a result, people arrive stressed.",
+         "Mmm. Los trayectos largos cansan. Como resultado, la gente llega estresada."
+        ],
+        [
+         "B",
+         "Exactly. And in order to save money, we could rent a smaller office.",
+         "Exacto. Y para ahorrar plata, podríamos alquilar una oficina más pequeña."
+        ],
+        [
+         "A",
+         "That's a big advantage. On the other hand, we'd need a good booking system for desks.",
+         "Esa es una gran ventaja. Por otro lado, necesitaríamos un buen sistema para reservar puestos."
+        ],
+        [
+         "B",
+         "I can organize that. In spite of the challenges, I think it will work.",
+         "Yo puedo organizar eso. A pesar de los retos, creo que va a funcionar."
+        ],
+        [
+         "A",
+         "OK. Let's try it for three months and then decide.",
+         "Bueno. Probémoslo tres meses y luego decidimos."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ the heavy rain, the match wasn't cancelled.",
+        "o": [
+         "Despite",
+         "Although",
+         "However",
+         "Even though"
+        ],
+        "a": 0,
+        "x": "Despite + sustantivo."
+       },
+       {
+        "t": "mc",
+        "q": "___ he had a good salary, he was always short of money.",
+        "o": [
+         "Even though",
+         "Despite",
+         "In spite of",
+         "However"
+        ],
+        "a": 0,
+        "x": "Even though + oración."
+       },
+       {
+        "t": "mc",
+        "q": "The phone has a great camera. ___, the battery is terrible.",
+        "o": [
+         "However",
+         "Although",
+         "Despite",
+         "Whereas"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I'm writing everything down ___ that I don't forget it. (para que)",
+        "ans": [
+         "so"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Although the new metro line was expensive, it has reduced traffic in the south of the city. As a result, people spend less time commuting.",
+        "q": "¿Qué resultado tuvo la línea de metro?",
+        "o": [
+         "La gente se demora menos en sus trayectos",
+         "Subieron los precios",
+         "Hay más tráfico en el sur",
+         "Cerraron la línea"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Despite the traffic, we managed to arrive on time."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Although",
+         "it",
+         "was",
+         "late,",
+         "we",
+         "kept",
+         "working."
+        ],
+        "es": "Aunque era tarde, seguimos trabajando."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "study",
+         "in",
+         "order",
+         "to",
+         "get",
+         "a",
+         "better",
+         "job."
+        ],
+        "es": "Estudio para conseguir un mejor trabajo."
+       },
+       {
+        "t": "dict",
+        "say": "In spite of feeling tired, she went to the gym."
+       },
+       {
+        "t": "dict",
+        "say": "My brother loves the city, whereas I prefer the countryside."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "Despite the cold, we went swimming.",
+         "Despite of the cold, we went swimming.",
+         "Despite it was cold, we went swimming.",
+         "Although the cold, we went swimming."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Prices went up. ___, many people stopped buying.",
+        "o": [
+         "As a result",
+         "In order to",
+         "So that",
+         "Despite"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Working from home has many benefits, for example, you don't have to commute. On the other hand, some people feel isolated.",
+        "q": "¿Qué desventaja menciona?",
+        "o": [
+         "Algunas personas se sienten aisladas",
+         "Se trabaja más horas",
+         "Se gasta más plata",
+         "No hay internet"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un párrafo de opinión (mínimo 80 palabras): ¿es mejor trabajar desde casa o en la oficina? Usa although, despite / in spite of, however, whereas y so that / in order to.",
+        "min": 80,
+        "keys": [
+         [
+          "although",
+          "even though"
+         ],
+         [
+          "despite",
+          "in spite of"
+         ],
+         [
+          "however",
+          "on the other hand"
+         ],
+         [
+          "so that",
+          "in order to",
+          "as a result",
+          "whereas"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ feeling nervous, she gave an excellent presentation.",
+       "o": [
+        "In spite of",
+        "Despite of",
+        "However",
+        "Even though"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "She spoke slowly ___ that everybody could understand.",
+       "ans": [
+        "so"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b1-u8-l2",
+      "title": "Comparar y elegir: both, either, neither y comparativos avanzados",
+      "goal": "Comparar dos opciones con precisión y explicar tu elección.",
+      "theory": [
+       {
+        "p": "Para hablar de **dos** cosas o personas: **both** (los dos: **Both hotels are near the beach**), **either** (cualquiera de los dos: **Either day is fine for me**), **neither** (ninguno de los dos: **Neither option is cheap**). Con **of**: **both of them, either of the apartments, neither of my brothers**. Estructuras: **both … and…**, **either … or…**, **neither … nor…**."
+       },
+       {
+        "ex": [
+         [
+          "Both my parents are teachers.",
+          "Mis dos papás son profesores."
+         ],
+         [
+          "You can pay either in cash or by card.",
+          "Puede pagar en efectivo o con tarjeta."
+         ],
+         [
+          "Neither of the jobs was interesting.",
+          "Ninguno de los dos trabajos era interesante."
+         ],
+         [
+          "She speaks both English and French.",
+          "Habla tanto inglés como francés."
+         ],
+         [
+          "Neither Juan nor Pedro came.",
+          "Ni Juan ni Pedro vinieron."
+         ]
+        ]
+       },
+       {
+        "p": "**Comparativos avanzados**: para decir **cuánto** más usa **much / far / a lot** (mucho) o **a bit / slightly** (un poco) + comparativo: **This flat is much bigger** · **It's slightly cheaper**. **The + comparativo, the + comparativo** = cuanto más…, más…: **The more you practise, the better you speak.** Y **not as … as** = no tan… como: **It's not as expensive as I thought.**"
+       },
+       {
+        "ex": [
+         [
+          "The new phone is far better than the old one.",
+          "El celular nuevo es muchísimo mejor que el viejo."
+         ],
+         [
+          "The blue jacket is slightly cheaper.",
+          "La chaqueta azul es un poco más barata."
+         ],
+         [
+          "The sooner we leave, the better.",
+          "Cuanto antes salgamos, mejor."
+         ],
+         [
+          "The more I read, the more I learn.",
+          "Cuanto más leo, más aprendo."
+         ],
+         [
+          "The test wasn't as difficult as I expected.",
+          "El examen no fue tan difícil como esperaba."
+         ]
+        ]
+       },
+       {
+        "tip": "Con **neither** el verbo va en afirmativo, porque neither ya es negativo: **Neither of them likes coffee** (no «neither of them doesn't like»). Y nunca digas «more better»: es **much better**."
+       }
+      ],
+      "vocab": [
+       [
+        "both",
+        "determinante / pronombre",
+        "ambos, los dos",
+        "Both options are good."
+       ],
+       [
+        "either",
+        "determinante / pronombre",
+        "cualquiera de los dos; (negativo) tampoco",
+        "Either is fine."
+       ],
+       [
+        "neither",
+        "determinante / pronombre",
+        "ninguno de los dos",
+        "Neither of them called."
+       ],
+       [
+        "both … and",
+        "expresión",
+        "tanto … como",
+        "Both Ana and Luis came."
+       ],
+       [
+        "either … or",
+        "expresión",
+        "o … o",
+        "Either you come or you stay."
+       ],
+       [
+        "neither … nor",
+        "expresión",
+        "ni … ni",
+        "Neither he nor she knew."
+       ],
+       [
+        "much / far + comparativo",
+        "expresión",
+        "mucho más…",
+        "It's far cheaper."
+       ],
+       [
+        "slightly",
+        "adverbio",
+        "ligeramente, un poco",
+        "It's slightly bigger."
+       ],
+       [
+        "the more…, the more…",
+        "expresión",
+        "cuanto más…, más…",
+        "The more you train, the stronger you get."
+       ],
+       [
+        "not as … as",
+        "expresión",
+        "no tan … como",
+        "It's not as big as ours."
+       ],
+       [
+        "option",
+        "sustantivo",
+        "opción",
+        "We have two options."
+       ],
+       [
+        "choice",
+        "sustantivo",
+        "elección, opción",
+        "It's a difficult choice."
+       ],
+       [
+        "compare",
+        "verbo",
+        "comparar",
+        "Let's compare the prices."
+       ],
+       [
+        "rent",
+        "sustantivo / verbo",
+        "arriendo; arrendar",
+        "The rent is too high."
+       ],
+       [
+        "deposit",
+        "sustantivo",
+        "depósito, cuota inicial",
+        "We paid a deposit."
+       ],
+       [
+        "spacious",
+        "adjetivo",
+        "amplio, espacioso",
+        "The flat is very spacious."
+       ],
+       [
+        "noisy",
+        "adjetivo",
+        "ruidoso",
+        "The street is noisy."
+       ],
+       [
+        "convenient",
+        "adjetivo",
+        "práctico, conveniente",
+        "The location is very convenient."
+       ],
+       [
+        "neighbourhood",
+        "sustantivo",
+        "barrio",
+        "It's a safe neighbourhood."
+       ],
+       [
+        "landlord",
+        "sustantivo",
+        "arrendador, dueño",
+        "The landlord is very nice."
+       ],
+       [
+        "furnished",
+        "adjetivo",
+        "amoblado",
+        "Is it furnished?"
+       ],
+       [
+        "it's worth",
+        "expresión",
+        "vale la pena",
+        "It's worth paying a bit more."
+       ]
+      ],
+      "dialogue": {
+       "title": "Dos apartamentos",
+       "scene": "Laura y Esteban buscan apartamento en Medellín. Visitaron dos y ahora tienen que decidir.",
+       "a": "Laura",
+       "b": "Esteban",
+       "lines": [
+        [
+         "A",
+         "OK, let's compare. Both apartments have two bedrooms and a balcony.",
+         "Bueno, comparemos. Los dos apartamentos tienen dos cuartos y balcón."
+        ],
+        [
+         "B",
+         "Yes, but the one in Envigado is much bigger. The living room is huge.",
+         "Sí, pero el de Envigado es mucho más grande. La sala es enorme."
+        ],
+        [
+         "A",
+         "True. But it's also far more expensive. The rent is four hundred thousand pesos more.",
+         "Cierto. Pero también es muchísimo más caro. El arriendo es cuatrocientos mil pesos más."
+        ],
+        [
+         "B",
+         "And the one in Laureles is slightly smaller, but it's furnished.",
+         "Y el de Laureles es un poco más pequeño, pero está amoblado."
+        ],
+        [
+         "A",
+         "Neither of them has parking, right?",
+         "Ninguno de los dos tiene parqueadero, ¿cierto?"
+        ],
+        [
+         "B",
+         "Right. Neither of them. But the Laureles one is near the metro.",
+         "Cierto. Ninguno. Pero el de Laureles está cerca del metro."
+        ],
+        [
+         "A",
+         "That's very convenient. The closer we live to the metro, the less we spend on taxis.",
+         "Eso es muy práctico. Cuanto más cerca vivamos del metro, menos gastamos en taxis."
+        ],
+        [
+         "B",
+         "Good point. Was the street noisy, though?",
+         "Buen punto. ¿Pero la calle era ruidosa?"
+        ],
+        [
+         "A",
+         "Not as noisy as I expected. And the landlord was really nice.",
+         "No tan ruidosa como esperaba. Y el dueño fue muy amable."
+        ],
+        [
+         "B",
+         "I liked both landlords. Either of them would be fine.",
+         "Me cayeron bien los dos dueños. Cualquiera de los dos estaría bien."
+        ],
+        [
+         "A",
+         "So… we either pay more for space, or we choose location and furniture.",
+         "Entonces… o pagamos más por espacio, o escogemos ubicación y muebles."
+        ],
+        [
+         "B",
+         "Honestly, the more I think about it, the more I prefer Laureles.",
+         "Honestamente, cuanto más lo pienso, más prefiero Laureles."
+        ],
+        [
+         "A",
+         "Me too. Let's call the landlord before someone else rents it. The sooner, the better!",
+         "Yo también. Llamemos al dueño antes de que otro lo arriende. ¡Cuanto antes, mejor!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ my sisters live abroad. One is in Spain and the other in Chile.",
+        "o": [
+         "Both",
+         "Either",
+         "Neither",
+         "All of"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "We tried two restaurants, but ___ of them was open, so we ate at home.",
+        "o": [
+         "neither",
+         "both",
+         "either",
+         "any"
+        ],
+        "a": 0,
+        "x": "Ninguno de los dos → neither."
+       },
+       {
+        "t": "mc",
+        "q": "This laptop is ___ faster than my old one.",
+        "o": [
+         "much",
+         "very",
+         "more",
+         "too"
+        ],
+        "a": 0,
+        "x": "Very no va con comparativos; usa much / far / a lot."
+       },
+       {
+        "t": "fill",
+        "q": "The ___ you practise, the better you get. (más)",
+        "ans": [
+         "more"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Neither of the hotels has a pool, but the first one is much closer to the beach and slightly cheaper.",
+        "q": "¿Qué ventajas tiene el primer hotel?",
+        "o": [
+         "Está más cerca de la playa y es un poco más barato",
+         "Tiene piscina",
+         "Es más grande",
+         "Incluye el desayuno"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "The more I think about it, the more I like the idea."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Both",
+         "options",
+         "are",
+         "good",
+         "for",
+         "me."
+        ],
+        "es": "Las dos opciones me sirven."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "sooner",
+         "we",
+         "leave,",
+         "the",
+         "better."
+        ],
+        "es": "Cuanto antes salgamos, mejor."
+       },
+       {
+        "t": "dict",
+        "say": "Neither of my brothers likes football."
+       },
+       {
+        "t": "dict",
+        "say": "The test wasn't as difficult as I thought."
+       },
+       {
+        "t": "mc",
+        "q": "You can come ___ on Friday or on Saturday.",
+        "o": [
+         "either",
+         "both",
+         "neither",
+         "or"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "My new car is much better than my old one.",
+         "My new car is more better than my old one.",
+         "My new car is very better than my old one.",
+         "My new car is much more good than my old one."
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Both jobs pay well. The first one is in Bogotá, whereas the second one is online. The more I compare them, the more I like the online job.",
+        "q": "¿Qué trabajo prefiere?",
+        "o": [
+         "El trabajo en línea",
+         "El de Bogotá",
+         "Ninguno",
+         "Los dos"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Compara dos opciones que tuviste que elegir (dos trabajos, dos carros, dos ciudades, dos apartamentos…) (mínimo 80 palabras). Usa both, either / neither, un comparativo con much / far / slightly y la estructura the more…, the more…",
+        "min": 80,
+        "keys": [
+         [
+          "both"
+         ],
+         [
+          "either",
+          "neither"
+         ],
+         [
+          "much",
+          "far",
+          "slightly",
+          "a lot",
+          "a bit"
+         ],
+         [
+          "the more",
+          "the better",
+          "the less",
+          "the sooner"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ of my parents speaks English. They only speak Spanish.",
+       "o": [
+        "Neither",
+        "Both",
+        "Either",
+        "Any"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "The new metro is ___ faster than the bus. It takes half the time. (mucho)",
+       "ans": [
+        "much",
+        "far",
+        "a lot"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b1-u8-l3",
+      "title": "El planeta y las noticias: medio ambiente y uso de the",
+      "goal": "Entender y comentar noticias sobre el medio ambiente y usar bien los artículos.",
+      "theory": [
+       {
+        "p": "Vocabulario del **medio ambiente**: **climate change** (cambio climático), **global warming**, **pollution** (contaminación), **deforestation**, **recycle** (reciclar), **waste** (basura, desperdicio), **plastic**, **renewable energy** (energía renovable), **carbon footprint** (huella de carbono), **endangered species** (especies en peligro), **drought** (sequía), **flood** (inundación)."
+       },
+       {
+        "ex": [
+         [
+          "Deforestation in the Amazon is a serious problem.",
+          "La deforestación en la Amazonía es un problema serio."
+         ],
+         [
+          "We should recycle more plastic.",
+          "Deberíamos reciclar más plástico."
+         ],
+         [
+          "The drought affected thousands of farmers.",
+          "La sequía afectó a miles de campesinos."
+         ],
+         [
+          "Solar energy is a renewable source.",
+          "La energía solar es una fuente renovable."
+         ],
+         [
+          "Floods destroyed many houses in La Mojana.",
+          "Las inundaciones destruyeron muchas casas en La Mojana."
+         ]
+        ]
+       },
+       {
+        "p": "**Uso de los artículos**: para hablar **en general** de algo, en inglés **no** se usa artículo: **Pollution is a big problem** · **People love nature** · **Plastic takes years to disappear**. Se usa **the** con algo específico o único (**the environment, the planet, the government**), con mares, ríos, cordilleras y países plurales (**the Pacific, the Magdalena, the Andes, the United States**). Sin artículo: países, ciudades y lagos (**Colombia, Bogotá, Lake Tota**) y **go to school / work / bed / hospital**."
+       },
+       {
+        "ex": [
+         [
+          "Life is hard for many farmers.",
+          "La vida es difícil para muchos campesinos."
+         ],
+         [
+          "The Magdalena is the longest river in Colombia.",
+          "El Magdalena es el río más largo de Colombia."
+         ],
+         [
+          "Coffee is grown in the Andes.",
+          "El café se cultiva en los Andes."
+         ],
+         [
+          "The government has a new plan to protect the environment.",
+          "El gobierno tiene un nuevo plan para proteger el medio ambiente."
+         ],
+         [
+          "Children go to school at six.",
+          "Los niños van al colegio a las seis."
+         ]
+        ]
+       },
+       {
+        "tip": "En español decimos «**La** contaminación es un problema» o «Me encanta **la** naturaleza», pero en inglés, cuando hablas en general, va **sin the**: **Pollution is a problem** · **I love nature**."
+       }
+      ],
+      "vocab": [
+       [
+        "environment",
+        "sustantivo",
+        "medio ambiente",
+        "We must protect the environment."
+       ],
+       [
+        "climate change",
+        "expresión",
+        "cambio climático",
+        "Climate change affects everyone."
+       ],
+       [
+        "global warming",
+        "expresión",
+        "calentamiento global",
+        "Global warming is melting glaciers."
+       ],
+       [
+        "pollution",
+        "sustantivo",
+        "contaminación",
+        "Air pollution is bad in big cities."
+       ],
+       [
+        "deforestation",
+        "sustantivo",
+        "deforestación",
+        "Deforestation is destroying forests."
+       ],
+       [
+        "recycle",
+        "verbo",
+        "reciclar",
+        "We recycle glass and paper."
+       ],
+       [
+        "waste",
+        "sustantivo",
+        "basura, residuos; desperdicio",
+        "Too much waste goes to the ocean."
+       ],
+       [
+        "renewable energy",
+        "expresión",
+        "energía renovable",
+        "Wind is a renewable energy."
+       ],
+       [
+        "carbon footprint",
+        "expresión",
+        "huella de carbono",
+        "Flying increases your carbon footprint."
+       ],
+       [
+        "endangered species",
+        "expresión",
+        "especie en peligro de extinción",
+        "The jaguar is an endangered species."
+       ],
+       [
+        "drought",
+        "sustantivo",
+        "sequía",
+        "The drought lasted months."
+       ],
+       [
+        "flood",
+        "sustantivo / verbo",
+        "inundación; inundar",
+        "The river flooded the town."
+       ],
+       [
+        "glacier",
+        "sustantivo",
+        "glaciar",
+        "Colombia's glaciers are disappearing."
+       ],
+       [
+        "melt",
+        "verbo",
+        "derretirse",
+        "The ice is melting."
+       ],
+       [
+        "protect",
+        "verbo",
+        "proteger",
+        "We need to protect the forests."
+       ],
+       [
+        "reduce",
+        "verbo",
+        "reducir",
+        "Reduce, reuse, recycle."
+       ],
+       [
+        "single-use plastic",
+        "expresión",
+        "plástico de un solo uso",
+        "Bogotá banned single-use plastic bags."
+       ],
+       [
+        "headline",
+        "sustantivo",
+        "titular",
+        "Did you read the headline?"
+       ],
+       [
+        "report",
+        "verbo / sustantivo",
+        "informar; informe",
+        "The news reported a big fire."
+       ],
+       [
+        "according to",
+        "expresión",
+        "según",
+        "According to scientists, it's getting worse."
+       ],
+       [
+        "scientist",
+        "sustantivo",
+        "científico",
+        "Scientists are worried."
+       ],
+       [
+        "fake news",
+        "expresión",
+        "noticias falsas",
+        "Don't share fake news."
+       ]
+      ],
+      "dialogue": {
+       "title": "La noticia del glaciar",
+       "scene": "Durante el desayuno, Natalia lee las noticias en el celular y comenta con su papá, Jaime.",
+       "a": "Natalia",
+       "b": "Jaime",
+       "lines": [
+        [
+         "A",
+         "Dad, look at this headline: 'Colombia could lose its last glaciers in twenty years.'",
+         "Papá, mira este titular: «Colombia podría perder sus últimos glaciares en veinte años»."
+        ],
+        [
+         "B",
+         "Twenty years? I remember the snow on the Nevado del Ruiz when I was a boy.",
+         "¿Veinte años? Yo me acuerdo de la nieve en el Nevado del Ruiz cuando era niño."
+        ],
+        [
+         "A",
+         "According to the article, the ice is melting because of global warming.",
+         "Según el artículo, el hielo se está derritiendo por el calentamiento global."
+        ],
+        [
+         "B",
+         "It's sad. And the drought last year was terrible for the farmers in the Andes.",
+         "Es triste. Y la sequía del año pasado fue terrible para los campesinos de los Andes."
+        ],
+        [
+         "A",
+         "Yes, but at the same time there were floods on the coast. Climate change is making everything more extreme.",
+         "Sí, pero al mismo tiempo hubo inundaciones en la costa. El cambio climático está volviendo todo más extremo."
+        ],
+        [
+         "B",
+         "Is this real news, or is it fake news from social media?",
+         "¿Esa noticia es real o es una noticia falsa de redes sociales?"
+        ],
+        [
+         "A",
+         "It's real. The report was written by scientists from the national university.",
+         "Es real. El informe lo escribieron científicos de la Universidad Nacional."
+        ],
+        [
+         "B",
+         "OK. What can people like us do? We're not the government.",
+         "Bueno. ¿Qué puede hacer gente como nosotros? No somos el gobierno."
+        ],
+        [
+         "A",
+         "Lots of things. We can recycle more, use less plastic and take the bus instead of the car.",
+         "Muchas cosas. Podemos reciclar más, usar menos plástico y tomar el bus en vez del carro."
+        ],
+        [
+         "B",
+         "The car? But I need it to go to work!",
+         "¿El carro? ¡Pero lo necesito para ir a trabajar!"
+        ],
+        [
+         "A",
+         "Twice a week, then. It reduces your carbon footprint, and you'll save money.",
+         "Dos veces por semana, entonces. Reduce tu huella de carbono y vas a ahorrar plata."
+        ],
+        [
+         "B",
+         "Hmm. You sound like your mother.",
+         "Mmm. Hablas igualito a tu mamá."
+        ],
+        [
+         "A",
+         "Because Mom is right! Nature is our home, Dad.",
+         "¡Porque mi mamá tiene razón! La naturaleza es nuestra casa, papá."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ is one of the biggest problems in big cities.",
+        "o": [
+         "Pollution",
+         "The pollution of",
+         "A pollution",
+         "Pollutions"
+        ],
+        "a": 0,
+        "x": "En general → sin artículo."
+       },
+       {
+        "t": "mc",
+        "q": "Coffee is grown in ___ Andes.",
+        "o": [
+         "the",
+         "—",
+         "a",
+         "an"
+        ],
+        "a": 0,
+        "x": "Cordilleras → the."
+       },
+       {
+        "t": "mc",
+        "q": "A long period without rain is a ___.",
+        "o": [
+         "drought",
+         "flood",
+         "glacier",
+         "waste"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "We should ___ glass, paper and plastic. (reciclar)",
+        "ans": [
+         "recycle"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "According to a new report, more than half of the waste in the city could be recycled, but only ten percent is recycled at the moment.",
+        "q": "¿Cuánto se recicla hoy?",
+        "o": [
+         "El diez por ciento",
+         "Más de la mitad",
+         "Nada",
+         "El cincuenta por ciento"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Climate change is making droughts and floods more extreme."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "need",
+         "to",
+         "protect",
+         "the",
+         "environment."
+        ],
+        "es": "Tenemos que proteger el medio ambiente."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "jaguar",
+         "is",
+         "an",
+         "endangered",
+         "species."
+        ],
+        "es": "El jaguar es una especie en peligro."
+       },
+       {
+        "t": "dict",
+        "say": "Deforestation is destroying the Amazon rainforest."
+       },
+       {
+        "t": "dict",
+        "say": "According to scientists, the glaciers are melting."
+       },
+       {
+        "t": "mc",
+        "q": "I love ___. I go hiking every weekend.",
+        "o": [
+         "nature",
+         "the nature",
+         "a nature",
+         "natures"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "The Magdalena flows into the Caribbean Sea.",
+         "Magdalena flows into Caribbean Sea.",
+         "The Magdalena flows into Caribbean Sea.",
+         "A Magdalena flows into the Caribbean Sea."
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "The city has banned single-use plastic bags in supermarkets. Now customers have to bring their own bags or pay for paper ones.",
+        "q": "¿Qué tienen que hacer ahora los clientes?",
+        "o": [
+         "Llevar sus bolsas o pagar las de papel",
+         "Pagar las de plástico",
+         "Comprar solo en línea",
+         "Nada"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un artículo corto para una revista (mínimo 90 palabras) sobre un problema ambiental de tu región: qué pasa, por qué, según quién, y qué pueden hacer el gobierno y las personas. Cuida el uso de the y de las generalizaciones sin artículo.",
+        "min": 90,
+        "keys": [
+         [
+          "pollution",
+          "deforestation",
+          "waste",
+          "drought",
+          "flood",
+          "climate change",
+          "global warming",
+          "plastic",
+          "recycle"
+         ],
+         [
+          "according to",
+          "scientists",
+          "report"
+         ],
+         [
+          "the government",
+          "people",
+          "we can",
+          "we should"
+         ],
+         [
+          "because",
+          "as a result",
+          "so that",
+          "in order to"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ is getting worse in Bogotá because of the traffic.",
+       "o": [
+        "Air pollution",
+        "The air pollution of",
+        "An air pollution",
+        "Air pollutions"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "The jaguar is an ___ species. (en peligro)",
+       "ans": [
+        "endangered"
+       ]
+      },
+      "reading": 20,
+      "words": []
+     },
+     {
+      "id": "b1-u8-l4",
+      "title": "Crimen y justicia: prefijos y sufijos",
+      "goal": "Contar un delito, entender una noticia policial y formar palabras con prefijos y sufijos.",
+      "theory": [
+       {
+        "p": "Vocabulario del **crimen**: los delitos (**robbery** robo, **burglary** robo en una casa, **theft** hurto, **fraud** estafa, **vandalism**), las personas (**thief / thieves**, **burglar**, **pickpocket** carterista, **witness** testigo, **victim** víctima, **suspect** sospechoso, **judge** juez) y las acciones (**steal** robar algo, **rob** robar a alguien o un lugar, **arrest**, **report a crime**, **be sentenced to**)."
+       },
+       {
+        "ex": [
+         [
+          "Someone stole my phone on the bus.",
+          "Alguien me robó el celular en el bus."
+         ],
+         [
+          "Two men robbed a bank in the city centre.",
+          "Dos hombres robaron un banco en el centro."
+         ],
+         [
+          "The police arrested the suspect.",
+          "La policía arrestó al sospechoso."
+         ],
+         [
+          "A witness saw the burglar.",
+          "Un testigo vio al ladrón."
+         ],
+         [
+          "He was sentenced to five years in prison.",
+          "Lo condenaron a cinco años de cárcel."
+         ]
+        ]
+       },
+       {
+        "p": "**Prefijos** que dan el significado contrario: **un-** (unfair, unlucky), **dis-** (dishonest, disagree), **il-** antes de l (illegal), **im-** antes de m / p (impossible, impatient), **ir-** antes de r (irresponsible), **in-** (incorrect). **Sufijos** que cambian la clase de palabra: **-ery / -ty** (robbery, honesty), **-ment** (punishment), **-ness** (kindness), **-ful** (con: careful, helpful), **-less** (sin: careless, useless)."
+       },
+       {
+        "ex": [
+         [
+          "It's illegal to drive without a licence.",
+          "Es ilegal manejar sin licencia."
+         ],
+         [
+          "The thief was very dishonest.",
+          "El ladrón era muy deshonesto."
+         ],
+         [
+          "It was careless to leave the door open.",
+          "Fue un descuido dejar la puerta abierta."
+         ],
+         [
+          "Be careful with your bag in the metro.",
+          "Ten cuidado con tu bolso en el metro."
+         ],
+         [
+          "The punishment was too light.",
+          "El castigo fue muy leve."
+         ]
+        ]
+       },
+       {
+        "tip": "**Steal** se usa con la cosa (**They stole my wallet**) y **rob** con la persona o el lugar (**They robbed me / They robbed the bank**). Decir «they robbed my wallet» es un error muy común."
+       }
+      ],
+      "vocab": [
+       [
+        "crime",
+        "sustantivo",
+        "delito, crimen",
+        "Crime has gone down this year."
+       ],
+       [
+        "robbery",
+        "sustantivo",
+        "robo, atraco",
+        "There was a robbery at the bank."
+       ],
+       [
+        "burglary",
+        "sustantivo",
+        "robo (a una casa)",
+        "Burglaries happen at night."
+       ],
+       [
+        "theft",
+        "sustantivo",
+        "hurto",
+        "Phone theft is common."
+       ],
+       [
+        "fraud",
+        "sustantivo",
+        "fraude, estafa",
+        "It was an online fraud."
+       ],
+       [
+        "thief",
+        "sustantivo",
+        "ladrón (plural thieves)",
+        "The thief ran away."
+       ],
+       [
+        "pickpocket",
+        "sustantivo",
+        "carterista, raponero",
+        "Watch out for pickpockets."
+       ],
+       [
+        "witness",
+        "sustantivo",
+        "testigo",
+        "Were there any witnesses?"
+       ],
+       [
+        "victim",
+        "sustantivo",
+        "víctima",
+        "The victim reported the crime."
+       ],
+       [
+        "suspect",
+        "sustantivo",
+        "sospechoso",
+        "The suspect was arrested."
+       ],
+       [
+        "steal",
+        "verbo",
+        "robar (algo) (stole, stolen)",
+        "He stole a car."
+       ],
+       [
+        "rob",
+        "verbo",
+        "robar (a alguien / un lugar)",
+        "They robbed a shop."
+       ],
+       [
+        "arrest",
+        "verbo",
+        "arrestar, capturar",
+        "The police arrested him."
+       ],
+       [
+        "report",
+        "verbo",
+        "denunciar, reportar",
+        "I reported the theft."
+       ],
+       [
+        "sentence",
+        "verbo / sustantivo",
+        "condenar; condena",
+        "He was sentenced to ten years."
+       ],
+       [
+        "illegal",
+        "adjetivo",
+        "ilegal",
+        "It's illegal to sell that."
+       ],
+       [
+        "dishonest",
+        "adjetivo",
+        "deshonesto",
+        "A dishonest seller."
+       ],
+       [
+        "careless",
+        "adjetivo",
+        "descuidado",
+        "Don't be careless with your phone."
+       ],
+       [
+        "careful",
+        "adjetivo",
+        "cuidadoso",
+        "Be careful in crowded places."
+       ],
+       [
+        "punishment",
+        "sustantivo",
+        "castigo",
+        "The punishment should be fair."
+       ],
+       [
+        "unfair",
+        "adjetivo",
+        "injusto",
+        "The sentence was unfair."
+       ],
+       [
+        "scam",
+        "sustantivo",
+        "estafa, timo",
+        "That message is a scam."
+       ]
+      ],
+      "dialogue": {
+       "title": "Me robaron el celular",
+       "scene": "A Mauricio le robaron el celular en TransMilenio. Va a poner la denuncia y habla con un policía.",
+       "a": "Policía",
+       "b": "Mauricio",
+       "lines": [
+        [
+         "A",
+         "Good afternoon. How can I help you?",
+         "Buenas tardes. ¿En qué le puedo ayudar?"
+        ],
+        [
+         "B",
+         "I'd like to report a theft. Someone stole my phone on the TransMilenio.",
+         "Quiero denunciar un hurto. Alguien me robó el celular en TransMilenio."
+        ],
+        [
+         "A",
+         "I'm sorry to hear that. When did it happen?",
+         "Lamento oír eso. ¿Cuándo pasó?"
+        ],
+        [
+         "B",
+         "About an hour ago, at the Calle 72 station. It was very crowded.",
+         "Hace como una hora, en la estación de la Calle 72. Estaba muy lleno."
+        ],
+        [
+         "A",
+         "Did you see the thief?",
+         "¿Vio al ladrón?"
+        ],
+        [
+         "B",
+         "Not really. A man pushed me, and when I looked in my pocket, the phone wasn't there.",
+         "No mucho. Un hombre me empujó y cuando busqué en el bolsillo, el celular ya no estaba."
+        ],
+        [
+         "A",
+         "That's a common trick. Pickpockets usually work in pairs. One pushes you and the other steals.",
+         "Es un truco común. Los carteristas suelen trabajar en pareja. Uno lo empuja y el otro roba."
+        ],
+        [
+         "B",
+         "I feel so careless. I should have kept it in my backpack.",
+         "Me siento tan descuidado. Debí guardarlo en la maleta."
+        ],
+        [
+         "A",
+         "Don't blame yourself. Were there any witnesses?",
+         "No se culpe. ¿Hubo testigos?"
+        ],
+        [
+         "B",
+         "A woman said she saw a tall man in a red cap running away.",
+         "Una señora dijo que vio a un hombre alto con gorra roja salir corriendo."
+        ],
+        [
+         "A",
+         "That's useful. Last week we arrested a suspect who matches that description.",
+         "Eso sirve. La semana pasada arrestamos a un sospechoso que coincide con esa descripción."
+        ],
+        [
+         "B",
+         "Really? Could I get my phone back?",
+         "¿En serio? ¿Podría recuperar el celular?"
+        ],
+        [
+         "A",
+         "It's possible, but unlikely. Call your phone company to block it, and be careful with scam messages asking for your passwords.",
+         "Es posible, pero poco probable. Llame a la empresa de telefonía para bloquearlo y tenga cuidado con mensajes de estafa que le pidan sus claves."
+        ],
+        [
+         "B",
+         "Thank you, officer. You've been very helpful.",
+         "Gracias, agente. Ha sido muy amable."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Someone ___ my bike last night.",
+        "o": [
+         "stole",
+         "robbed",
+         "stolen",
+         "robbered"
+        ],
+        "a": 0,
+        "x": "Steal + la cosa."
+       },
+       {
+        "t": "mc",
+        "q": "Two men ___ the jewellery shop.",
+        "o": [
+         "robbed",
+         "stole",
+         "stealed",
+         "rob"
+        ],
+        "a": 0,
+        "x": "Rob + el lugar o la persona."
+       },
+       {
+        "t": "mc",
+        "q": "It's ___ to park here. You'll get a fine.",
+        "o": [
+         "illegal",
+         "unlegal",
+         "dislegal",
+         "inlegal"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "A person who sees a crime is a ___. (testigo)",
+        "ans": [
+         "witness"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "The police arrested two suspects after a robbery at a supermarket. A witness recorded the thieves with her phone.",
+        "q": "¿Cómo ayudó la testigo?",
+        "o": [
+         "Grabó a los ladrones con el celular",
+         "Llamó a la policía",
+         "Persiguió a los ladrones",
+         "Cerró la puerta"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I'd like to report a theft. Someone stole my wallet."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "police",
+         "arrested",
+         "the",
+         "suspect",
+         "yesterday."
+        ],
+        "es": "La policía arrestó al sospechoso ayer."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Be",
+         "careful",
+         "with",
+         "pickpockets",
+         "in",
+         "the",
+         "metro."
+        ],
+        "es": "Ten cuidado con los carteristas en el metro."
+       },
+       {
+        "t": "dict",
+        "say": "He was sentenced to five years in prison."
+       },
+       {
+        "t": "dict",
+        "say": "Don't open that message. It's a scam."
+       },
+       {
+        "t": "mc",
+        "q": "Leaving your car open was very ___.",
+        "o": [
+         "careless",
+         "careful",
+         "uncareful",
+         "carelessness"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es el contrario de «honest»?",
+        "o": [
+         "dishonest",
+         "unhonest",
+         "inhonest",
+         "imhonest"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Phone theft has gone down by fifteen percent this year, according to the police, but online fraud has increased.",
+        "q": "¿Qué delito ha aumentado?",
+        "o": [
+         "El fraude en línea",
+         "El robo de celulares",
+         "Los atracos a bancos",
+         "El vandalismo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe una noticia corta (mínimo 80 palabras) sobre un delito, real o inventado: qué pasó, dónde, quién fue la víctima, qué dijeron los testigos y qué hizo la policía. Usa al menos cuatro palabras con prefijo o sufijo (illegal, dishonest, careless, robbery, punishment…).",
+        "min": 80,
+        "keys": [
+         [
+          "stole",
+          "robbed",
+          "theft",
+          "robbery",
+          "burglary",
+          "fraud",
+          "scam"
+         ],
+         [
+          "witness",
+          "victim",
+          "suspect",
+          "police",
+          "arrested"
+         ],
+         [
+          "illegal",
+          "dishonest",
+          "careless",
+          "careful",
+          "unfair",
+          "punishment",
+          "impossible",
+          "irresponsible"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "They ___ my wallet while I was sleeping on the bus.",
+       "o": [
+        "stole",
+        "robbed",
+        "stealed",
+        "robbed of"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "It was ___ of you to leave the door open. (descuidado)",
+       "ans": [
+        "careless"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b1-u8-l5",
+      "title": "Resolver problemas: quejarse, disculparse y escribir una reseña",
+      "goal": "Quejarte en persona con cortesía, pedir una solución, disculparte y escribir una reseña.",
+      "theory": [
+       {
+        "p": "Para **quejarte** en persona sin sonar agresivo: **Excuse me, I'm afraid there's a problem with…** · **I'd like to make a complaint.** · **This isn't what I ordered.** · **It doesn't work.** Para pedir una solución: **Could I have a refund / an exchange?** · **I'd like to speak to the manager, please.** · **What can you do about it?**"
+       },
+       {
+        "ex": [
+         [
+          "Excuse me, I'm afraid there's a problem with my room.",
+          "Disculpe, me temo que hay un problema con mi habitación."
+         ],
+         [
+          "This isn't what I ordered. I asked for chicken.",
+          "Esto no es lo que pedí. Pedí pollo."
+         ],
+         [
+          "I bought these headphones yesterday, and they don't work.",
+          "Compré estos audífonos ayer y no funcionan."
+         ],
+         [
+          "Could I have a refund, please?",
+          "¿Me podrían devolver el dinero, por favor?"
+         ],
+         [
+          "I'd like to speak to the manager.",
+          "Quisiera hablar con el gerente."
+         ]
+        ]
+       },
+       {
+        "p": "Para **disculparte** y responder: **I'm really sorry about that.** · **I apologize for the inconvenience.** · **It won't happen again.** · **Let me fix that for you.** · **I didn't mean to…** Y para aceptar una disculpa: **That's OK. No harm done.** · **Don't worry about it.**"
+       },
+       {
+        "ex": [
+         [
+          "I'm really sorry. Let me change it for you.",
+          "Lo siento mucho. Déjeme cambiárselo."
+         ],
+         [
+          "We apologize for the delay.",
+          "Pedimos disculpas por la demora."
+         ],
+         [
+          "I didn't mean to be rude.",
+          "No quise ser grosero."
+         ],
+         [
+          "It won't happen again.",
+          "No volverá a pasar."
+         ],
+         [
+          "Don't worry about it. No harm done.",
+          "No te preocupes. No pasó nada."
+         ]
+        ]
+       },
+       {
+        "p": "Una **reseña** en internet: título, qué compraste o dónde fuiste, lo bueno, lo malo, cómo resolvieron el problema y una recomendación con estrellas: **I would / wouldn't recommend it.** · **Overall,…** · **4 out of 5.**"
+       },
+       {
+        "tip": "**Refund** = te devuelven el dinero. **Exchange** = te cambian el producto. Y **I'm afraid…** al empezar suaviza mucho una queja o una mala noticia."
+       }
+      ],
+      "vocab": [
+       [
+        "complaint",
+        "sustantivo",
+        "queja, reclamo",
+        "I'd like to make a complaint."
+       ],
+       [
+        "complain",
+        "verbo",
+        "quejarse",
+        "She complained about the noise."
+       ],
+       [
+        "I'm afraid…",
+        "expresión",
+        "me temo que…",
+        "I'm afraid there's a mistake."
+       ],
+       [
+        "refund",
+        "sustantivo",
+        "reembolso",
+        "Can I have a refund?"
+       ],
+       [
+        "exchange",
+        "sustantivo / verbo",
+        "cambio; cambiar",
+        "I'd like to exchange this shirt."
+       ],
+       [
+        "receipt",
+        "sustantivo",
+        "recibo, tiquete de compra",
+        "Do you have the receipt?"
+       ],
+       [
+        "faulty",
+        "adjetivo",
+        "defectuoso",
+        "The charger is faulty."
+       ],
+       [
+        "damaged",
+        "adjetivo",
+        "dañado",
+        "The box was damaged."
+       ],
+       [
+        "manager",
+        "sustantivo",
+        "gerente, encargado",
+        "Can I speak to the manager?"
+       ],
+       [
+        "apologize",
+        "verbo",
+        "disculparse",
+        "We apologize for the delay."
+       ],
+       [
+        "inconvenience",
+        "sustantivo",
+        "molestia, inconveniente",
+        "Sorry for the inconvenience."
+       ],
+       [
+        "It won't happen again.",
+        "expresión",
+        "No volverá a pasar.",
+        "I'm sorry. It won't happen again."
+       ],
+       [
+        "No harm done.",
+        "expresión",
+        "No pasó nada.",
+        "Don't worry. No harm done."
+       ],
+       [
+        "I didn't mean to…",
+        "expresión",
+        "No fue mi intención…",
+        "I didn't mean to hurt you."
+       ],
+       [
+        "discount",
+        "sustantivo",
+        "descuento",
+        "They gave us a discount."
+       ],
+       [
+        "compensation",
+        "sustantivo",
+        "compensación",
+        "We received compensation."
+       ],
+       [
+        "overall",
+        "adverbio",
+        "en general, en resumen",
+        "Overall, it was a good experience."
+       ],
+       [
+        "reliable",
+        "adjetivo",
+        "confiable",
+        "The service is reliable."
+       ],
+       [
+        "rude",
+        "adjetivo",
+        "grosero",
+        "The waiter was rude."
+       ],
+       [
+        "polite",
+        "adjetivo",
+        "educado, amable",
+        "The staff were polite."
+       ],
+       [
+        "out of",
+        "expresión",
+        "de (en una calificación)",
+        "Four out of five."
+       ],
+       [
+        "solve",
+        "verbo",
+        "resolver",
+        "They solved the problem quickly."
+       ]
+      ],
+      "dialogue": {
+       "title": "Problema en el restaurante",
+       "scene": "Alejandro celebra el cumpleaños de su esposa en un restaurante, pero le traen el plato equivocado y frío.",
+       "a": "Alejandro",
+       "b": "Mesera",
+       "lines": [
+        [
+         "A",
+         "Excuse me, I'm afraid there's a problem with our order.",
+         "Disculpe, me temo que hay un problema con nuestro pedido."
+        ],
+        [
+         "B",
+         "Oh, I'm sorry. What's wrong?",
+         "Ay, lo siento. ¿Qué pasó?"
+        ],
+        [
+         "A",
+         "This isn't what I ordered. I asked for the grilled salmon, and this is chicken.",
+         "Esto no es lo que pedí. Pedí el salmón a la parrilla y esto es pollo."
+        ],
+        [
+         "B",
+         "I'm really sorry about that. It must have been a mistake in the kitchen.",
+         "Lo siento mucho. Debió ser un error en la cocina."
+        ],
+        [
+         "A",
+         "Also, my wife's soup is cold.",
+         "Además, la sopa de mi esposa está fría."
+        ],
+        [
+         "B",
+         "I apologize. Let me take both dishes back and bring you the right ones.",
+         "Le pido disculpas. Déjeme llevarme los dos platos y traerles los correctos."
+        ],
+        [
+         "A",
+         "Thank you. How long will it take? It's her birthday, and we have tickets for a show at nine.",
+         "Gracias. ¿Cuánto se demora? Es su cumpleaños y tenemos boletas para un show a las nueve."
+        ],
+        [
+         "B",
+         "About ten minutes. I'll ask the chef to prepare it first.",
+         "Unos diez minutos. Le voy a pedir al chef que lo prepare primero."
+        ],
+        [
+         "A",
+         "OK. I didn't mean to sound rude, but we're in a bit of a hurry.",
+         "Bueno. No quise sonar grosero, pero estamos un poco de afán."
+        ],
+        [
+         "B",
+         "Don't worry about it. You weren't rude at all.",
+         "No se preocupe. No fue grosero para nada."
+        ],
+        [
+         "B",
+         "Here you are: the salmon and a hot soup. And the dessert is on the house, for the birthday.",
+         "Aquí tiene: el salmón y una sopa caliente. Y el postre va por cuenta de la casa, por el cumpleaños."
+        ],
+        [
+         "A",
+         "That's very kind of you. Thank you for solving it so quickly.",
+         "Muy amable de su parte. Gracias por resolverlo tan rápido."
+        ],
+        [
+         "B",
+         "It won't happen again. Enjoy your meal, and happy birthday!",
+         "No volverá a pasar. ¡Disfruten la comida y feliz cumpleaños!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Para empezar una queja con cortesía dices:",
+        "o": [
+         "Excuse me, I'm afraid there's a problem.",
+         "Hey, this is terrible!",
+         "You made a mistake, fix it.",
+         "I want my money now."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "These shoes are too small. Could I ___ them for a bigger size?",
+        "o": [
+         "exchange",
+         "refund",
+         "receipt",
+         "complain"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "—I'm so sorry I broke your glass. —Don't worry. ___",
+        "o": [
+         "No harm done.",
+         "It won't happen again.",
+         "I apologize.",
+         "I'm afraid so."
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "We ___ for the inconvenience. (pedimos disculpas)",
+        "ans": [
+         "apologize",
+         "apologise"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I bought this charger last week, but it's faulty. It doesn't charge my phone. Do you have the receipt? Yes, here it is. Then we can give you a refund or an exchange.",
+        "q": "¿Qué le ofrecen?",
+        "o": [
+         "Reembolso o cambio",
+         "Solo reembolso",
+         "Un descuento",
+         "Nada, porque no tiene recibo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I'd like to make a complaint. This isn't what I ordered."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Could",
+         "I",
+         "have",
+         "a",
+         "refund,",
+         "please?"
+        ],
+        "es": "¿Me podrían hacer un reembolso, por favor?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "didn't",
+         "mean",
+         "to",
+         "be",
+         "rude."
+        ],
+        "es": "No fue mi intención ser grosero."
+       },
+       {
+        "t": "dict",
+        "say": "I'm afraid the box was damaged when it arrived."
+       },
+       {
+        "t": "dict",
+        "say": "Overall, I would recommend this hotel."
+       },
+       {
+        "t": "mc",
+        "q": "Si quieres que te devuelvan el dinero, pides:",
+        "o": [
+         "a refund",
+         "an exchange",
+         "a receipt",
+         "a complaint"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I'd like to speak to the ___, please. The waiter was very rude.",
+        "o": [
+         "manager",
+         "receipt",
+         "customer",
+         "witness"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "The flight was delayed for five hours. The airline apologized and gave every passenger a meal and a discount on their next trip.",
+        "q": "¿Qué recibieron los pasajeros?",
+        "o": [
+         "Comida y un descuento",
+         "Un reembolso completo",
+         "Una noche de hotel",
+         "Nada"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe una reseña en internet (mínimo 90 palabras) de un restaurante, hotel o tienda donde tuviste un problema: qué pasó, cómo te quejaste, cómo te respondieron y si lo recomiendas (con estrellas).",
+        "min": 90,
+        "keys": [
+         [
+          "problem",
+          "complaint",
+          "complained",
+          "faulty",
+          "damaged",
+          "wrong",
+          "cold",
+          "late"
+         ],
+         [
+          "apologized",
+          "apologised",
+          "sorry",
+          "refund",
+          "exchange",
+          "discount"
+         ],
+         [
+          "recommend",
+          "overall",
+          "out of",
+          "stars"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The TV I bought is ___. It doesn't turn on.",
+       "o": [
+        "faulty",
+        "rude",
+        "reliable",
+        "overall"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "—I'm sorry I'm late again. —OK, but please make sure it won't ___ again. (vuelva a pasar)",
+       "ans": [
+        "happen"
+       ]
+      },
+      "reading": 21,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "___ the bad weather, the concert was a success.",
+      "o": [
+       "Despite",
+       "Although",
+       "However",
+       "Even though"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I have two brothers. ___ of them lives in Bogotá. They both live in Cali.",
+      "o": [
+       "Neither",
+       "Both",
+       "Either",
+       "Any"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "___ is a serious problem in many rivers of the country.",
+      "o": [
+       "Pollution",
+       "The pollution of",
+       "A pollution",
+       "Pollutions"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Someone ___ my laptop from the car.",
+      "o": [
+       "stole",
+       "robbed",
+       "stolen",
+       "robbered"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Excuse me, ___ there's a problem with my bill.",
+      "o": [
+       "I'm afraid",
+       "I'm sorry that",
+       "I'm afraid of",
+       "I apologize"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "The ___ you study, the better your English will be. (más)",
+      "ans": [
+       "more"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Although the hotel was beautiful, the room was dirty. I complained, and the manager apologized and gave us a better room. Overall, I'd give it four out of five.",
+      "q": "¿Qué hizo el gerente?",
+      "o": [
+       "Se disculpó y les dio una mejor habitación",
+       "Les hizo un reembolso",
+       "No hizo nada",
+       "Les dio un descuento"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "According to the report, deforestation has gone down by twenty percent. However, scientists say the forests are still in danger.",
+      "q": "¿Qué dicen los científicos?",
+      "o": [
+       "Que los bosques siguen en peligro",
+       "Que el problema ya se resolvió",
+       "Que la deforestación subió",
+       "Que no hay datos"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un artículo de opinión (mínimo 90 palabras) sobre si tu ciudad es un buen lugar para vivir. Compara dos barrios o dos ciudades (both, neither, much better…), usa conectores de contraste (although, despite, however) y menciona un problema del medio ambiente o de seguridad.",
+      "min": 90,
+      "keys": [
+       [
+        "although",
+        "despite",
+        "in spite of",
+        "however",
+        "whereas"
+       ],
+       [
+        "both",
+        "neither",
+        "either",
+        "much",
+        "far",
+        "slightly"
+       ],
+       [
+        "pollution",
+        "crime",
+        "theft",
+        "traffic",
+        "waste",
+        "safe",
+        "dangerous",
+        "environment"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I'd like to exchange these shoes. They're too small."
+     },
+     {
+      "t": "oral",
+      "text": "Although it was expensive, it was worth it."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "___ he's very rich, he takes the bus every day.",
+      "o": [
+       "Although",
+       "Despite",
+       "However",
+       "In spite of"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I'm saving money ___ buy a new car.",
+      "o": [
+       "in order to",
+       "so that",
+       "despite",
+       "whereas"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "You can pay ___ in cash or by card.",
+      "o": [
+       "either",
+       "both",
+       "neither",
+       "or"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "This phone is ___ better than the old one.",
+      "o": [
+       "far",
+       "very",
+       "more",
+       "too"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Two men ___ the bank and escaped in a car.",
+      "o": [
+       "robbed",
+       "stole",
+       "stealed",
+       "robbed of"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The opposite of 'fair' is:",
+      "o": [
+       "unfair",
+       "disfair",
+       "infair",
+       "imfair"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Could I have a ___, please? I don't want the product any more. (reembolso)",
+      "ans": [
+       "refund"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Coffee is grown in ___ Andes.",
+      "ans": [
+       "the"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Both apartments are near the metro, but the second one is slightly cheaper and much quieter.",
+      "q": "¿Qué ventajas tiene el segundo apartamento?",
+      "o": [
+       "Es un poco más barato y mucho más tranquilo",
+       "Está más cerca del metro",
+       "Es más grande",
+       "Tiene parqueadero"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "I didn't mean to be rude. I'm really sorry. Don't worry about it. No harm done.",
+      "q": "¿Qué responde la otra persona?",
+      "o": [
+       "Que no se preocupe, no pasó nada",
+       "Que está muy enojada",
+       "Que llame al gerente",
+       "Que no lo perdona"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "A pickpocket stole a tourist's wallet in the old city. Luckily, a witness saw him and the police arrested him ten minutes later.",
+      "q": "¿Cuándo arrestaron al carterista?",
+      "o": [
+       "Diez minutos después",
+       "Al día siguiente",
+       "Una hora después",
+       "No lo arrestaron"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un correo de queja a una tienda en línea (mínimo 90 palabras): el producto llegó dañado o defectuoso, explica el problema, pide un reembolso o un cambio y usa conectores (although, however, so that).",
+      "min": 90,
+      "keys": [
+       [
+        "damaged",
+        "faulty",
+        "broken",
+        "doesn't work",
+        "wrong"
+       ],
+       [
+        "refund",
+        "exchange",
+        "replacement"
+       ],
+       [
+        "although",
+        "however",
+        "so that",
+        "in order to",
+        "despite"
+       ]
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Although I exercise three times a week, my diet isn't very healthy. I eat too much junk food, and I don't sleep enough because of stress at work.",
+      "q": "¿Qué problema tiene?",
+      "o": [
+       "Come mucha comida chatarra y duerme poco por el estrés",
+       "No hace ejercicio",
+       "Duerme demasiado",
+       "Trabaja muy poco"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I've started going to the gym ___ reduce stress and sleep better.",
+      "o": [
+       "in order to",
+       "so that",
+       "despite",
+       "although"
+      ],
+      "a": 0
+     },
+     {
+      "t": "oral",
+      "text": "Neither of the hotels has a pool."
+     },
+     {
+      "t": "oral",
+      "text": "Pollution is getting worse because of the traffic."
+     },
+     {
+      "t": "oral",
+      "text": "I'm really sorry. It won't happen again."
+     }
+    ]
    }
   ],
   "final": {
@@ -52938,6 +58033,50 @@ window.SYLLABUS = {
     {
      "t": "oral",
      "text": "If I were you, I would apply for that job."
+    },
+    {
+     "t": "listen",
+     "say": "If I had known about the strike, I would have taken a taxi. I should have checked the news before leaving home.",
+     "q": "¿Qué debió hacer antes de salir?",
+     "o": [
+      "Revisar las noticias",
+      "Tomar un taxi",
+      "Llamar a su jefe",
+      "Salir más tarde"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Although the hotel was expensive, neither of the rooms had a sea view. I complained, and the manager gave us a discount.",
+     "q": "¿Qué consiguió al quejarse?",
+     "o": [
+      "Un descuento",
+      "Otra habitación con vista al mar",
+      "Un reembolso total",
+      "Nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "The police think the thieves must have entered through the roof. They had the alarm installed only last week.",
+     "q": "¿Por dónde creen que entraron los ladrones?",
+     "o": [
+      "Por el techo",
+      "Por la puerta",
+      "Por la ventana",
+      "Por el garaje"
+     ],
+     "a": 0
+    },
+    {
+     "t": "oral",
+     "text": "If I had studied harder, I would have got a better grade."
+    },
+    {
+     "t": "oral",
+     "text": "Despite the rain, we managed to finish the walk."
     },
     {
      "t": "write",
