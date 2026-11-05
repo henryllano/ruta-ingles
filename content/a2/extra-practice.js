@@ -91,5 +91,35 @@ module.exports = [
  T("Call a company: your phone or internet doesn't work. Explain the problem.", 20, [["i'm calling", "i am calling"], ["doesn't work", "isn't working", "problem"]], "Hello, I'm calling because my internet isn't working since yesterday. I've turned the router off and on, but it still doesn't work. Can you send a technician?"),
  T("What will you do if you have free time this weekend?", 15, [["if"], ["will", "'ll"]], "If I have free time this weekend, I'll go to the cinema with my friends. If it's sunny, we'll walk in the park."),
  T("Listen and answer the bank employee.", 12, [["i'd like", "i would like", "i want"]], "I'd like to open a savings account, please.", "Good morning. How can I help you today?")
+],
+/* Unidad 7 · Antes y ahora */
+[
+ L("My dad used to work in a factory, but now he has a small shop where he sells phones and chargers.", "¿Qué vende el papá ahora?", ["Celulares y cargadores", "Ropa", "Comida", "Libros"], 0),
+ L("The forecast says it might snow in the mountains, so the road may be closed tomorrow.", "¿Qué puede pasar mañana?", ["Que cierren la carretera", "Que haga calor", "Que abran un túnel", "Nada"], 0),
+ L("This is the hospital where I was born, and that's the doctor who helped my mother.", "¿Quién es el médico?", ["El que ayudó a su mamá", "Su papá", "Su tío", "Un amigo"], 0),
+ L("These bags are made by hand in Guatemala and they are sold in many countries.", "¿Cómo se hacen los bolsos?", ["A mano", "En una fábrica", "Con máquinas", "No se dice"], 0),
+ M("I ___ have a car, but I sold it.", ["used to", "use to", "am used to", "was use to"], 0, "Used to: algo que era así y cambió."),
+ M("I use this app ___ new words in English.", ["to learn", "for learn", "for to learn", "learning to"], 0, "Propósito: to + verbo."),
+ F("The church ___ built in 1650. (fue)", ["was"], "Pasiva en pasado: was + participio."),
+ O("I might visit my grandparents this weekend."),
+ O("The woman who lives upstairs used to be a famous singer."),
+ T("Talk about something you used to do and don't do any more.", 15, [["used to"], ["any more", "now", "these days"]], "I used to play basketball every Saturday, but I don't play any more because I work on weekends."),
+ T("What might happen in your life next year? Say three possible things.", 15, [["might", "may", "maybe"]], "Next year I might change jobs. I may move to a new apartment, and maybe I'll travel to Peru."),
+ T("Listen and answer.", 10, [["to"]], "I use my phone to talk to my family and to pay my bills.", "What do you use your phone for?")
+],
+/* Unidad 8 · Opinar y convivir */
+[
+ L("I don't think the new shopping centre is a good idea. I agree. We need more parks, not more shops.", "¿Qué creen que necesita la ciudad?", ["Más parques", "Más tiendas", "Más centros comerciales", "Más carros"], 0),
+ L("I usually prefer tea to coffee, but this morning I'd rather have a strong coffee. I'm so tired!", "¿Qué quiere tomar esta mañana?", ["Un café cargado", "Té", "Jugo", "Agua"], 0),
+ L("Who did you talk to at the party? I talked to Mateo. He told me that he's getting married!", "¿Qué le contó Mateo?", ["Que se va a casar", "Que se va de viaje", "Que cambió de trabajo", "Que tiene un bebé"], 0),
+ L("Go along the river, cross the second bridge and the restaurant is on the corner, opposite a small park.", "¿Qué hay enfrente del restaurante?", ["Un parque pequeño", "Un puente", "Un río", "Una iglesia"], 0),
+ M("—I loved the concert. —Me ___!", ["too", "neither", "either", "also"], 0, "Respuesta a una frase afirmativa: me too."),
+ M("I'd rather ___ the dishes than vacuum.", ["do", "to do", "doing", "make"], 0, "Would rather + verbo base; do the dishes."),
+ F("What ___ to your phone? The screen is broken! (pasó)", ["happened"], "Pregunta de sujeto: sin did."),
+ O("In my opinion, it's worth the money."),
+ O("Go past the bank and take the second street on the left."),
+ T("Give your opinion about social media. Is it good or bad for people?", 15, [["i think", "in my opinion", "for me"], ["but", "because"]], "In my opinion, social media is good to keep in touch with family, but I think people spend too much time on it."),
+ T("Explain a simple recipe in four steps.", 15, [["first"], ["then", "next", "after that"], ["finally"]], "First, boil some water. Then add the pasta and cook it for ten minutes. Next, fry some garlic in oil. Finally, mix everything and add cheese."),
+ T("Listen and answer.", 10, [["prefer", "i'd rather", "would rather"]], "I prefer the beach. I'd rather relax in the sun than walk in the mountains.", "Do you prefer the beach or the mountains? Why?")
 ]
 ];

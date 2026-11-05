@@ -1,5 +1,5 @@
 /* Arma el temario de un nivel desde content/<carpeta>/ y lo valida.
-   La carpeta tiene meta.js ({intro, final:{extra, listenPerUnit, pass}}), u1.js…u6.js
+   La carpeta tiene meta.js ({intro, final:{extra, listenPerUnit, pass}}), u1.js…u6.js (y u7.js, u8.js si el nivel tiene 8 unidades)
    ({title, quiz, pool, lessons:[{id,title,goal,theory,vocab,dialogue,practice,more,exam,exam2,reading}]})
    y opcionalmente readings.js (array de lecturas del nivel).
    Uso: node tools/build-level.js <nivel 0-5> <carpeta> */
@@ -10,7 +10,7 @@ global.window = {};
 require(path.join(root, "lessons.js"));
 require(path.join(root, "readings.js"));
 const meta = require(path.join(dir, "meta.js"));
-const only = process.env.UNIT ? [+process.env.UNIT] : [1, 2, 3, 4, 5, 6];
+const only = process.env.UNIT ? [+process.env.UNIT] : [1, 2, 3, 4, 5, 6, 7, 8];
 const units = only.map(n => path.join(dir, `u${n}.js`)).filter(f => fs.existsSync(f)).map(f => require(f));
 const problems = [];
 const need = (cond, msg) => { if (!cond) problems.push(msg); };

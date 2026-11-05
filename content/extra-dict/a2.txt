@@ -152,3 +152,41 @@ programmes | programme | sustantivo (plural) | programas | TV programmes.
 phones | phone | sustantivo (plural) | teléfonos | On our phones.
 remembers | remember | verbo (3.ª persona) | recuerda | She remembers.
 talks | talk | verbo (3.ª persona) | habla | She talks to her sister.
+fifty-five | - | número | cincuenta y cinco | I'm fifty-five years old.
+boyacá | - | nombre propio | Boyacá (departamento de Colombia) | I grew up in Boyacá.
+mud | - | sustantivo | barro, lodo | The road was full of mud.
+fed | feed | verbo (pasado) | alimentó, dio de comer | We fed the chickens.
+toys | toy | sustantivo (plural) | juguetes | We didn't have many toys.
+grandma | - | sustantivo | abuela (informal) | Grandma, were you bored?
+andes | - | nombre propio | los Andes (cordillera) | Coffee is grown in the Andes.
+dried | dry | verbo (pasado / participio) | secó, secado | The beans are dried in the sun.
+exported | export | verbo (pasado / participio) | exportó, exportado | Coffee is exported to many countries.
+exporters | exporter | sustantivo (plural) | exportadores | Colombia is one of the biggest exporters of flowers.
+roses | rose | sustantivo (plural) | rosas | Millions of roses are grown near Bogotá.
+carnations | carnation | sustantivo (plural) | claveles | Roses and carnations are exported.
+valentine's | valentine | expresión | (Valentine's Day) día de San Valentín | Flowers are sent before Valentine's Day.
+sombrero | - | sustantivo | sombrero (de ala ancha) | The sombrero vueltiao is made by hand.
+vueltiao | - | sustantivo | vueltiao (sombrero típico colombiano) | The sombrero vueltiao is a cultural symbol.
+artisans | artisan | sustantivo (plural) | artesanos | It's made by indigenous artisans.
+córdoba | - | nombre propio | Córdoba (departamento de Colombia) | It's made in Córdoba.
+sucre | - | nombre propio | Sucre (departamento de Colombia) | It's made in Córdoba and Sucre.
+woven | weave | verbo (participio) | tejido | It's woven with a natural fibre.
+fibre | - | sustantivo | fibra | A natural fibre called caña flecha.
+caña | - | sustantivo | caña (planta) | It's woven with caña flecha.
+flecha | - | sustantivo | (caña flecha) fibra vegetal para tejer | Caña flecha is a natural fibre.
+label | - | sustantivo | etiqueta | Look at the label.
+casa | - | nombre propio | (La Casa Verde) nombre de un restaurante | We went to La Casa Verde.
+verde | - | nombre propio | (La Casa Verde) nombre de un restaurante | La Casa Verde is in Chapinero.
+chapinero | - | nombre propio | Chapinero (barrio de Bogotá) | It's a new restaurant in Chapinero.
+risotto | - | sustantivo | risotto (arroz italiano cremoso) | I had a mushroom risotto.
+twenty-five | - | número | veinticinco | We waited twenty-five minutes.
+thinks | think | verbo (3.ª persona) | piensa, cree | He thinks it's worth the money.
+he'd | he would | contracción | él (verbo en condicional): he'd give = él daría | He'd give it five stars.
+kevin | - | nombre propio | Kevin (nombre de hombre) | Kevin visited Medellín.
+botero | - | nombre propio | Botero (pintor y escultor colombiano) | He visited the Botero Square.
+round | - | adjetivo | redondo | He loved the big, round sculptures.
+sculptures | sculpture | sustantivo (plural) | esculturas | The sculptures are very big.
+metro | - | sustantivo | metro (tren urbano) | He took the metro cable.
+cable | - | sustantivo | cable; (metro cable) teleférico del metro | Take the metro cable to the mountains.
+officer | - | sustantivo | agente, oficial (police officer = policía) | He asked a police officer.
+acevedo | - | nombre propio | Acevedo (estación del metro de Medellín) | Take the train to Acevedo.

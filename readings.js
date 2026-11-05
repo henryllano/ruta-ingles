@@ -1951,6 +1951,289 @@ window.READINGS = [
      "model": "My grandparents didn't have a phone or a car. They used to walk to work and write letters. Today I can call anyone in seconds, but we are always busy."
     }
    ]
+  },
+  {
+   "title": "When I Was a Child",
+   "es": "Cuando era niña · Lectura extra",
+   "text": "My name is Gloria and I'm fifty-five years old. I grew up in a small town in Boyacá, and my life used to be very different from the life of my grandchildren today. We didn't use to have a TV at home. In the evenings, my father used to tell us stories, and my mother used to listen to the radio while she was cooking. There was only one phone in the whole town, in the post office. If you wanted to talk to someone in Bogotá, you had to go there and wait. My brothers and I used to walk to school. It was about forty minutes, and in the rainy season the road was full of mud. After school, we used to help on the farm: we fed the chickens and picked potatoes. We didn't have many toys, but we used to play in the river and climb trees. Now I live in Tunja, and my grandchildren have tablets and phones. They don't play in rivers any more; they play video games. Sometimes they ask me, \"Grandma, were you bored?\" And I always say, \"No, never. We used to invent our own games.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Dónde estaba el único teléfono del pueblo?",
+     "o": [
+      "En la oficina de correo",
+      "En la casa de Gloria",
+      "En el colegio",
+      "En la iglesia"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hacían después del colegio?",
+     "o": [
+      "Ayudaban en la finca",
+      "Veían televisión",
+      "Iban a Bogotá",
+      "Jugaban videojuegos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué responde Gloria cuando le preguntan si se aburría?",
+     "o": [
+      "Que nunca, porque inventaban sus juegos",
+      "Que sí, mucho",
+      "Que a veces",
+      "Que no se acuerda"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "We didn't have many toys, but we used to play in the river and climb trees.",
+     "q": "¿Qué hacían para jugar?",
+     "o": [
+      "Jugaban en el río y se subían a los árboles",
+      "Jugaban con muchos juguetes",
+      "Veían televisión",
+      "Escuchaban la radio"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How was your childhood different from children's lives today?",
+     "min": 20,
+     "keys": [
+      [
+       "used to",
+       "didn't use to"
+      ],
+      [
+       "now",
+       "today",
+       "nowadays"
+      ]
+     ],
+     "model": "When I was a child, I used to play in the street with my neighbours. Children today use tablets and phones, and they don't play outside very much."
+    }
+   ]
+  },
+  {
+   "title": "Made in Colombia",
+   "es": "Hecho en Colombia · Lectura extra",
+   "text": "Many products that are used all over the world are made in Colombia. The most famous one is coffee. It is grown in the mountains of the Andes, where the climate is perfect. The beans are picked by hand, and then they are washed, dried and exported to more than eighty countries. Colombia is also one of the biggest exporters of flowers in the world. Millions of roses and carnations are grown near Bogotá and in Antioquia. Every February, before Valentine's Day, thousands of boxes of flowers are sent to the United States by plane. Some products are made by hand. The sombrero vueltiao, for example, is made by indigenous artisans in Córdoba and Sucre. It is woven with a natural fibre called caña flecha, and a good hat can take weeks to make. In 2004 it was declared a cultural symbol of the country. And of course, there is music. Many songs that are played on the radio in Spain or Mexico were written and recorded by Colombian artists. So the next time you drink a coffee, buy roses or dance to a song, look at the label. It might say \"Made in Colombia\".",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cómo se recoge el café?",
+     "o": [
+      "A mano",
+      "Con máquinas",
+      "Con avión",
+      "No se dice"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuándo se envían miles de cajas de flores a Estados Unidos?",
+     "o": [
+      "Antes de San Valentín, en febrero",
+      "En diciembre",
+      "En junio",
+      "Todo el año igual"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Con qué se teje el sombrero vueltiao?",
+     "o": [
+      "Con caña flecha",
+      "Con algodón",
+      "Con lana",
+      "Con plástico"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "In 2004 it was declared a cultural symbol of the country.",
+     "q": "¿Qué pasó en 2004?",
+     "o": [
+      "Se declaró símbolo cultural",
+      "Se inventó el sombrero",
+      "Se exportó por primera vez",
+      "Se abrió una fábrica"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about a product from your region: where it's made and how.",
+     "min": 20,
+     "keys": [
+      [
+       "is made",
+       "are made",
+       "is grown",
+       "are grown",
+       "is produced",
+       "are produced"
+      ]
+     ],
+     "model": "In my region, arequipe is made in small factories. Milk and sugar are cooked for many hours, and it's sold in supermarkets all over the country."
+    }
+   ]
+  },
+  {
+   "title": "A Review of La Casa Verde",
+   "es": "Reseña de La Casa Verde · Lectura extra",
+   "text": "Last Saturday my husband and I went to La Casa Verde, a new restaurant in Chapinero which everybody is talking about. Here is my honest opinion. First, the good things. The atmosphere is lovely: there are plants everywhere and soft music. The staff were very friendly, and our waiter, who was from Venezuela, gave us great recommendations. The food was delicious. I had a mushroom risotto and my husband had grilled fish with coconut rice. For dessert, we shared a passion fruit cheesecake, which was the best thing of the night. Now the bad things. We had a reservation for eight o'clock, but we waited twenty-five minutes for our table. Also, in my opinion, it's a bit expensive. Dinner for two, with a glass of wine each, cost almost three hundred thousand pesos. Would I recommend it? Yes, I would, but for a special occasion, not for a normal Friday. My husband doesn't agree with me. He thinks it's worth the money every time. I'd give it four stars out of five. He'd give it five!",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué fue lo mejor de la noche?",
+     "o": [
+      "El cheesecake de maracuyá",
+      "El risotto",
+      "El pescado",
+      "El vino"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál fue un problema?",
+     "o": [
+      "Esperaron veinticinco minutos aunque tenían reserva",
+      "La comida estaba fría",
+      "El mesero fue grosero",
+      "No había música"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿En qué no están de acuerdo los esposos?",
+     "o": [
+      "En si vale la pena el precio",
+      "En si la comida era buena",
+      "En el ambiente",
+      "En el mesero"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I'd give it four stars out of five. He'd give it five!",
+     "q": "¿Cuántas estrellas le da ella?",
+     "o": [
+      "Cuatro",
+      "Cinco",
+      "Tres",
+      "Dos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Give your opinion of a restaurant or café you know. Would you recommend it?",
+     "min": 20,
+     "keys": [
+      [
+       "i think",
+       "in my opinion",
+       "for me"
+      ],
+      [
+       "recommend",
+       "worth"
+      ]
+     ],
+     "model": "In my opinion, the café near my office is great. The coffee is delicious and the staff are friendly, but it's a bit small. I'd definitely recommend it."
+    }
+   ]
+  },
+  {
+   "title": "A Day Without a Map",
+   "es": "Un día sin mapa · Lectura extra",
+   "text": "Last month, Kevin, a student from Canada, visited Medellín for the first time. On his second day, his phone battery died, so he had to find his way without a map. He was in the city centre and he wanted to go to the Botero Square. He asked a woman who was selling fruit. \"Go along this street for three blocks,\" she said. \"Then cross the avenue at the traffic lights and go past the big church. The square is opposite the museum. You can't miss it.\" Kevin followed her directions and found the square in ten minutes. He loved the big, round sculptures. After that, he wanted to take the metro cable to the mountains. He asked a police officer. \"Go down these stairs, go through the station and take the train to Acevedo,\" the officer explained. \"Then change to the cable car.\" Kevin got a bit lost in the station, but a student helped him. At the end of the day, Kevin was tired but very happy. \"I didn't need a phone,\" he wrote in his diary. \"I needed people. And the people here are amazing.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué Kevin no pudo usar el mapa?",
+     "o": [
+      "Se le acabó la batería del celular",
+      "Lo perdió",
+      "No tenía internet",
+      "No entendía el mapa"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Dónde queda la plaza, según la vendedora?",
+     "o": [
+      "Enfrente del museo",
+      "Al lado de la iglesia",
+      "Detrás de la estación",
+      "En la avenida"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Quién le ayudó en la estación?",
+     "o": [
+      "Un estudiante",
+      "La vendedora",
+      "El policía",
+      "Un taxista"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Go down these stairs, go through the station and take the train to Acevedo.",
+     "q": "¿Qué tiene que atravesar?",
+     "o": [
+      "La estación",
+      "El parque",
+      "La plaza",
+      "El puente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Explain how to get from your home to a supermarket or a park near you.",
+     "min": 20,
+     "keys": [
+      [
+       "go along",
+       "go past",
+       "cross",
+       "turn",
+       "go through",
+       "go down",
+       "go up"
+      ],
+      [
+       "opposite",
+       "next to",
+       "on the corner",
+       "between",
+       "on the left",
+       "on the right"
+      ]
+     ],
+     "model": "Go along my street for two blocks and turn right at the traffic lights. Go past the bank, and the supermarket is on the corner, next to a pharmacy."
+    }
+   ]
   }
  ],
  [

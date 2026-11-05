@@ -60,8 +60,6 @@ hairdresser | peluquero | My hairdresser is very good. | Trabajos
 housewife | ama de casa | My mother is a housewife. | Trabajos
 retired | jubilado, pensionado | My father is retired. | Trabajos
 mobile phone | celular | My mobile phone is in my bag. | Tecnología
-screen | pantalla | The screen is very big. | Tecnología
-password | contraseña | What's the password? | Tecnología
 headphones | audífonos | I listen to music with headphones. | Tecnología
 internet | internet | The internet is slow today. | Tecnología
 camera | cámara | A digital camera. | Tecnología
@@ -168,7 +166,6 @@ again | otra vez | Say it again, please. | Modo
 without | sin | Coffee without sugar. | Conectores
 `,
 "Expresiones": `
-Nice to meet you. | Mucho gusto. | Hi, I'm Ana. Nice to meet you. | Saludos
 See you later! | ¡Hasta luego! | Bye! See you later! | Saludos
 I'm sorry. | Lo siento. | I'm sorry, I'm late. | Cortesía
 You're welcome. | De nada. | Thank you! — You're welcome. | Cortesía
@@ -205,7 +202,6 @@ waterfall | cascada | We swam under a waterfall. | Naturaleza
 hill | colina, loma | The house is on a hill. | Naturaleza
 field | campo | Cows in the field. | Naturaleza
 path | sendero, camino | Follow the path. | Naturaleza
-bridge | puente | An old bridge over the river. | Naturaleza
 fog | niebla | There's a lot of fog this morning. | Clima
 thunder | trueno | I heard thunder. | Clima
 lightning | relámpago, rayo | The lightning was scary. | Clima
@@ -263,15 +259,11 @@ exhibition | exposición | An art exhibition. | Ocio
 channel | canal | Change the channel. | Ocio
 programme | programa | A TV programme. | Ocio
 app | aplicación | A useful app. | Tecnología
-social media | redes sociales | I don't use social media. | Tecnología
 website | sitio web | Visit our website. | Tecnología
-battery | batería | My battery is low. | Tecnología
 pavement | andén, acera | Walk on the pavement. | Ciudad
-neighbourhood | barrio | A quiet neighbourhood. | Ciudad
 police station | estación de policía | Go to the police station. | Ciudad
 petrol station | estación de gasolina | We stopped at a petrol station. | Ciudad
 crossroads | cruce | Turn right at the crossroads. | Ciudad
-roundabout | glorieta | Take the second exit at the roundabout. | Ciudad
 journey time | tiempo de viaje | The journey time is one hour. | Ciudad
 rubbish | basura | Take out the rubbish. | Casa
 housework | oficio de la casa | I hate housework. | Casa
@@ -308,18 +300,10 @@ fall | caer(se) | I fell off my bike. | Acciones
 breathe | respirar | Breathe slowly. | Salud
 float | flotar | I learned to float. | Salud
 swallow | tragar | I swallowed some water. | Salud
-grow | crecer, cultivar | I grow tomatoes. | Casa
-pick | recoger, escoger | We picked coffee beans. | Casa
-boil | hervir | Boil the water. | Comida
-fry | freír | Fry the eggs. | Comida
-bake | hornear | I baked a cake. | Comida
-mix | mezclar | Mix the flour and the eggs. | Comida
 cut | cortar | Cut the onions. | Comida
-share | compartir | We shared a dessert. | Social
 celebrate | celebrar | We celebrated my birthday. | Social
 apologise | disculparse | He apologised for being late. | Social
 thank | agradecer | Thank you for coming. | Social
-prefer | preferir | I prefer tea. | Opiniones
 believe | creer | I believe you. | Opiniones
 worry | preocuparse | Don't worry. | Sentimientos
 belong | pertenecer | This bag belongs to me. | Básicos
@@ -366,7 +350,6 @@ broken | roto, dañado | My phone is broken. | Cosas
 wrong | equivocado, incorrecto | The wrong size. | Cosas
 correct | correcto | The correct answer. | Cosas
 wet | mojado | My shoes are wet. | Cosas
-dry | seco | The weather is dry. | Cosas
 muddy | embarrado | A muddy path. | Cosas
 huge | enorme | A huge house. | Cosas
 tiny | diminuto | A tiny room. | Cosas
@@ -398,17 +381,14 @@ across | al otro lado de, a través | Across the street. | Lugar
 over | sobre, por encima de | A bridge over the river. | Lugar
 past | más allá de, por delante de | Walk past the bank. | Lugar
 towards | hacia | He walked towards me. | Lugar
-around | alrededor de | Around the world. | Lugar
 out of | fuera de | He jumped out of the taxi. | Lugar
 `,
 "Expresiones": `
-It's up to you. | Tú decides. | Pizza or pasta? It's up to you. | Conversación
 What's wrong? | ¿Qué pasa?, ¿Qué tienes? | You look sad. What's wrong? | Conversación
 Never mind. | No importa. | Never mind, it's not important. | Conversación
 It doesn't matter. | No importa. | It doesn't matter, we can go tomorrow. | Conversación
 I'm afraid... | Me temo que... | I'm afraid we're closed. | Conversación
 Take care! | ¡Cuídate! | Bye! Take care! | Despedidas
-Keep in touch. | Mantengámonos en contacto. | Keep in touch, OK? | Despedidas
 I look forward to hearing from you. | Quedo atento a su respuesta. | I look forward to hearing from you. | Cartas
 Could you help me, please? | ¿Me podría ayudar, por favor? | Excuse me, could you help me, please? | Cortesía
 Is it far from here? | ¿Queda lejos de aquí? | The museum? Is it far from here? | Direcciones
@@ -502,7 +482,6 @@ expense | gasto | Food is our biggest expense. | Dinero
 loan | préstamo | A bank loan. | Dinero
 bank statement | extracto bancario | Check your bank statement. | Dinero
 subscription | suscripción | Cancel your subscription. | Dinero
-account | cuenta | A savings account. | Dinero
 emergency | emergencia | Savings for emergencies. | Dinero
 sink | lavaplatos, lavamanos | Dishes in the sink. | Vivienda
 rota | turno (lista de turnos) | A cleaning rota. | Vivienda
@@ -541,8 +520,6 @@ smartphone | teléfono inteligente | Everyone has a smartphone. | Tecnología
 screen time | tiempo frente a la pantalla | Limit your screen time. | Tecnología
 cyberbullying | ciberacoso | Cyberbullying is a crime. | Tecnología
 fake news | noticias falsas | Don't share fake news. | Tecnología
-update | actualización | A software update. | Tecnología
-download | descarga | The download is slow. | Tecnología
 streaming service | servicio de streaming | A streaming service. | Tecnología
 torch | linterna | Take a torch. | Objetos
 fan | ventilador; fanático | Turn on the fan. | Objetos
@@ -572,7 +549,6 @@ publish | publicar | She published a novel. | Medios
 translate | traducir | Translated into forty languages. | Medios
 include | incluir | Breakfast is included. | Básicos
 contain | contener | It contains sugar. | Básicos
-depend on | depender de | It depends on the weather. | Básicos
 ban | prohibir | They banned plastic bags. | Básicos
 waste money | malgastar dinero | Don't waste money. | Dinero
 get on (with) | llevarse bien (con) | I get on well with my sister. | Phrasal verbs
@@ -587,7 +563,6 @@ set up | montar, establecer | They set up a business. | Phrasal verbs
 carry on | continuar | Carry on working. | Phrasal verbs
 get over | superar | She got over the flu. | Phrasal verbs
 get rid of | deshacerse de | Get rid of old clothes. | Phrasal verbs
-go through | pasar por (experiencia) | She went through a difficult time. | Phrasal verbs
 let down | decepcionar | Don't let me down. | Phrasal verbs
 make up | inventar; reconciliarse | He made up an excuse. | Phrasal verbs
 show up | aparecer, llegar | He showed up late. | Phrasal verbs
@@ -633,7 +608,6 @@ mild | suave | Mild coffee. | Comida
 thick | grueso, espeso | Thick chips. | Comida
 soft | suave, blando | Soft tortillas. | Comida
 due | pendiente de pago, previsto | The rent is due. | Dinero
-online | en línea | Online shopping. | Tecnología
 digital | digital | Digital skills. | Tecnología
 `,
 "Adverbios": `
@@ -662,7 +636,6 @@ It's not worth it. | No vale la pena. | Don't buy it, it's not worth it. | Opini
 To be honest... | Para ser sincero... | To be honest, I'm tired. | Opinión
 As far as I know... | Que yo sepa... | As far as I know, it's free. | Opinión
 I'm not sure about that. | No estoy seguro de eso. | Hmm, I'm not sure about that. | Opinión
-It depends. | Depende. | Is it better? — It depends. | Opinión
 That makes sense. | Tiene sentido. | That makes sense, thanks. | Opinión
 What do you mean? | ¿A qué te refieres? | Sorry, what do you mean? | Conversación
 By the way... | Por cierto... | By the way, I saw Ana. | Conversación
@@ -800,14 +773,12 @@ reproduce | reproducir | They failed to reproduce the results. | Investigación
 repair | reparar | Repair your clothes. | Ciencia y salud
 strengthen | fortalecer | Strengthen the immune system. | Ciencia y salud
 emit | emitir | Screens emit blue light. | Ciencia y salud
-link | vincular | Linked to disease. | Ciencia y salud
 inject | inyectar | The nurse injected him. | Ciencia y salud
 transform | transformar | Technology transformed work. | Cambio
 replace | reemplazar | AI will replace some jobs. | Cambio
 eliminate | eliminar | Eliminate waste. | Cambio
 adapt | adaptarse | We must adapt. | Cambio
 expand | expandirse | The city expanded. | Cambio
-introduce | introducir, implementar | They introduced a fee. | Cambio
 recruit | reclutar | Recruit more staff. | Negocios
 promote | promover, ascender | Promote the service. | Negocios
 evaluate | evaluar | Evaluate progress. | Negocios
