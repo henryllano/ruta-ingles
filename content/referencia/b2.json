@@ -1,0 +1,437 @@
+{
+ "nivel": 3,
+ "fuentes": "Temario B2 común a English File Upper-Intermediate, Headway Upper-Intermediate, Cambridge Empower B2, Cambridge B2 First, Core Inventory British Council/EAQUALS y descriptores MCER B2",
+ "temas": [
+  {
+   "area": "Gramática",
+   "tema": "Tiempos narrativos incluido past perfect continuous",
+   "titulo": "past perfect continuous",
+   "buscar": [
+    "\\bhad been [a-z]+ing\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Future continuous y future perfect",
+   "titulo": "future continuous|future perfect",
+   "buscar": [
+    "\\bwill be [a-z]+ing\\b",
+    "\\bwill have [a-z]+(ed|en)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Futuro en el pasado: was going to, was about to, was supposed to",
+   "titulo": "futuro en el pasado|was going to",
+   "buscar": [
+    "\\b(was|were) (going to|about to|supposed to)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Gramática",
+   "tema": "Hábitos: will, would, used to, be/get used to",
+   "titulo": "hábitos",
+   "buscar": [
+    "\\bget used to\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Verbos de estado y de acción",
+   "titulo": "verbos de estado",
+   "buscar": [
+    "\\bI'm thinking\\b|\\bI think\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Condicionales (tercero, mixtos) y alternativas a if (unless, provided, as long as, in case)",
+   "titulo": "condicional",
+   "buscar": [
+    "\\bprovided( that)?\\b|\\bas long as\\b",
+    "\\bin case\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Wish / if only / I'd rather / it's time",
+   "titulo": "wish|rather",
+   "buscar": [
+    "\\bI wish\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Modales en pasado (deducción, crítica)",
+   "titulo": "deducción en pasado|should have",
+   "buscar": [
+    "\\bmust have\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Needn't have / didn't need to, be supposed to, be allowed to",
+   "titulo": "needn't|obligaci|permiso|supposed",
+   "buscar": [
+    "\\bneedn't have\\b|\\bdidn't need to\\b",
+    "\\b(is|are|was|were|be) (supposed|allowed) to\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Make / let / allow / force + objeto + verbo",
+   "titulo": "make, let|let y allow",
+   "buscar": [
+    "\\b(made|make|makes) (me|him|her|us|them) [a-z]+\\b",
+    "\\b(let|lets) (me|him|her|us|them) [a-z]+\\b",
+    "\\ballowed? (me|him|her|us|them) to\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Probabilidad y certeza: be bound to, be likely to, there's a good chance",
+   "titulo": "probabilidad|certeza",
+   "buscar": [
+    "\\b(is|are|'s|'re) bound to\\b",
+    "\\b(is|are|'s|'re) (likely|unlikely) to\\b",
+    "\\bthere's a (good )?chance\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pasiva avanzada y causativo",
+   "titulo": "pasiva|causativo",
+   "buscar": [
+    "\\bis (said|believed|thought) to\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Verbos de reporte avanzados",
+   "titulo": "verbos de reporte",
+   "buscar": [
+    "\\b(denied|admitted|accused|insisted)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Relativas explicativas y participle clauses",
+   "titulo": "relativas",
+   "buscar": [
+    "\\bhaving [a-z]+ed\\b|\\bhaving (been|seen|finished|signed)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Oraciones hendidas para enfatizar (What I need is… / It was… who…)",
+   "titulo": "hendidas|cleft|enfatizar|énfasis",
+   "buscar": [
+    "\\bwhat I (need|want|like|love|hate|mean|don't understand) is\\b",
+    "\\bit was .{1,20} (who|that) \\b",
+    "\\ball I (want|need) is\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Inversión básica (Never have I…, Not only…, Hardly…)",
+   "titulo": "inversión",
+   "buscar": [
+    "\\bnever (have|had) I\\b",
+    "\\bnot only (do|did|is|was|does|are)\\b",
+    "\\b(hardly|no sooner|rarely|seldom) (had|have|do|did)\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Gramática",
+   "tema": "Adjetivos compuestos y orden de adjetivos (a two-hour drive)",
+   "titulo": "compuestos|orden de los adjetivos",
+   "buscar": [
+    "\\ba (two|three|four|five|ten)-(hour|day|minute|week|year|page|star)\\b",
+    "\\b(well-known|good-looking|hard-working|old-fashioned|open-minded|self-confident)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Gramática",
+   "tema": "Sustantivos difíciles: incontables y plurales (advice, news, police, staff)",
+   "titulo": "incontables|sustantivos",
+   "buscar": [
+    "\\bpiece of (advice|news|information|furniture)\\b",
+    "\\bthe police (are|have)\\b|\\bnews is\\b"
+   ],
+   "min": 4
+  },
+  {
+   "area": "Gramática",
+   "tema": "Usos de get (get + adjetivo, get + participio, get someone to)",
+   "titulo": "usos de get",
+   "buscar": [
+    "\\bget(s|ting)? (better|worse|tired|bored|angry|lost|married|divorced|dressed|ready)\\b",
+    "\\bgot (fired|promoted|stuck|caught|lost|married|hurt)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Contraste, concesión, causa y propósito",
+   "titulo": "contraste|causa",
+   "buscar": [
+    "\\bdespite\\b",
+    "\\bdue to\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Gerundio e infinitivo con cambio de significado",
+   "titulo": "gerundio",
+   "buscar": [
+    "\\bremember [a-z]+ing\\b|\\bstop to\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Comparativos avanzados",
+   "titulo": "comparativos",
+   "buscar": [
+    "\\bthe more\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Marcadores del discurso hablado (actually, anyway, as I was saying, by the way)",
+   "titulo": "marcadores|discurso",
+   "buscar": [
+    "\\bactually\\b",
+    "\\banyway\\b",
+    "\\bas I was saying\\b|\\bby the way\\b|\\bto be honest\\b|\\bat the end of the day\\b"
+   ],
+   "min": 15
+  },
+  {
+   "area": "Funciones",
+   "tema": "Comparar fotos y especular (B2 First, speaking part 2)",
+   "titulo": "fotos|especular",
+   "buscar": [
+    "\\bboth (photos|pictures)\\b|\\bin the first (photo|picture)\\b",
+    "\\bwhereas in the second\\b|\\bit looks as if\\b|\\bit seems as though\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Funciones",
+   "tema": "Debatir, negociar y llegar a un acuerdo",
+   "titulo": "debatir",
+   "buscar": [
+    "\\bmeet (you|us) halfway\\b|\\bcompromise\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Matizar (hedging)",
+   "titulo": "matizar",
+   "buscar": [
+    "\\btend to\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Reuniones, presentaciones, entrevistas y procesos",
+   "titulo": "reuniones|entrevistas|instrucciones",
+   "buscar": [
+    "\\bmoving on\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Persuadir y recomendar (I'd strongly recommend, You really should, It's worth…)",
+   "titulo": "persuadir|recomendar",
+   "buscar": [
+    "\\bI'd (strongly|highly) recommend\\b|\\bI strongly recommend\\b",
+    "\\bit's (well )?worth [a-z]+ing\\b|\\byou really (should|must)\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Escritura",
+   "tema": "Ensayo de opinión y argumentativo",
+   "titulo": "ensayo",
+   "buscar": [
+    "\\bin conclusion\\b|\\bto sum up\\b"
+   ]
+  },
+  {
+   "area": "Escritura",
+   "tema": "Correo formal e informal",
+   "titulo": "correos",
+   "buscar": [
+    "\\bI am writing\\b"
+   ]
+  },
+  {
+   "area": "Escritura",
+   "tema": "Reseña (película, libro, serie, restaurante) — B2 First",
+   "titulo": "reseña",
+   "buscar": [
+    "\\b(the plot|the acting|the cast|the soundtrack|the ending)\\b",
+    "\\b(gripping|predictable|overrated|must-see|disappointing)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Escritura",
+   "tema": "Informe (report) con secciones y recomendaciones — B2 First",
+   "titulo": "informe",
+   "buscar": [
+    "\\bthe (aim|purpose) of this report\\b",
+    "\\bI (would )?recommend that\\b|\\bit is recommended that\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Escritura",
+   "tema": "Artículo para una revista o blog — B2 First",
+   "titulo": "artículo|blog",
+   "buscar": [
+    "\\bhave you ever (wondered|thought)\\b",
+    "\\bwhy not\\b|\\bso next time\\b"
+   ],
+   "min": 4
+  },
+  {
+   "area": "Escritura",
+   "tema": "Narración o historia con tensión",
+   "titulo": "narrar",
+   "buscar": [
+    "\\bsuddenly\\b|\\ball of a sudden\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Colocaciones, formación de palabras, phrasal verbs e idioms",
+   "titulo": "colocaciones|formación|phrasal|modismos",
+   "buscar": [
+    "\\bheavy (traffic|rain)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Trabajo, negocios y logros",
+   "titulo": "logros",
+   "buscar": [
+    "\\b(achievement|promotion|deadline|revenue)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Ciencia, tecnología y noticias",
+   "titulo": "noticias|ciencia",
+   "buscar": [
+    "\\b(breakthrough|research|study|scientists?)\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Salud, medicina y bienestar mental",
+   "titulo": "salud|bienestar",
+   "buscar": [
+    "\\b(mental health|anxiety|stress|burnout|well-being|wellbeing|therapy|treatment|symptoms?)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Medio ambiente y sostenibilidad",
+   "titulo": "medio ambiente|sostenib",
+   "buscar": [
+    "\\b(sustainable|sustainability|emissions|renewable|carbon|climate|recycling|waste)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Crimen, ley y justicia",
+   "titulo": "crimen|justicia|ley",
+   "buscar": [
+    "\\b(trial|court|guilty|innocent|sentence|jury|evidence|lawyer|verdict)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Arte y cultura: cine, música, literatura",
+   "titulo": "cine|cultura|arte",
+   "buscar": [
+    "\\b(director|plot|novel|exhibition|performance|audience|soundtrack|critic)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Publicidad, consumo y redes sociales",
+   "titulo": "publicidad|consumo|redes",
+   "buscar": [
+    "\\b(advert|advertising|advertisement|brand|consumer|influencer|commercial|marketing)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Viajes y turismo",
+   "titulo": "viaj|turismo",
+   "buscar": [
+    "\\b(tourist|tourism|sightseeing|itinerary|backpacking|destination|accommodation)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Dinero, economía y finanzas personales",
+   "titulo": "dinero|econom|finanzas",
+   "buscar": [
+    "\\b(inflation|loan|mortgage|debt|savings|interest rate|budget|economy)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Relaciones, personalidad y sentimientos",
+   "titulo": "relaciones|personalidad",
+   "buscar": [
+    "\\b(get on with|fall out|break up|split up|trustworthy|stubborn|sensitive|selfish|reliable)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Educación y aprendizaje",
+   "titulo": "educaci|aprendizaje",
+   "buscar": [
+    "\\b(degree|scholarship|tuition|graduate|exam|curriculum|online course)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Ciudades, vivienda y vida urbana",
+   "titulo": "ciudad|vivienda",
+   "buscar": [
+    "\\b(rent|neighbourhood|neighborhood|commute|housing|crowded|suburbs?|landlord)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Adjetivos extremos e intensificadores (absolutely exhausted)",
+   "titulo": "intensificadores",
+   "buscar": [
+    "\\babsolutely\\b"
+   ]
+  }
+ ]
+}
