@@ -58110,7 +58110,7 @@ window.SYLLABUS = {
   }
  },
  "3": {
-  "intro": "En 30 lecciones (6 unidades de 5 días) vas a dominar los tiempos avanzados, los condicionales mixtos y los arrepentimientos, la voz pasiva avanzada y los verbos de reporte, la argumentación con conectores, las colocaciones y los phrasal verbs, y el inglés profesional para reuniones, correos y entrevistas. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
+  "intro": "En 40 lecciones (8 unidades de 5 días) vas a dominar los tiempos avanzados, los condicionales mixtos y los arrepentimientos, la voz pasiva avanzada y los verbos de reporte, la argumentación con conectores, las colocaciones y los phrasal verbs, y el inglés profesional para reuniones, correos y entrevistas, además de expresar el futuro en el pasado, la probabilidad y el énfasis, y prepararte para el examen B2 First: comparar fotos, persuadir, escribir artículos, reseñas e informes, y debatir sobre sostenibilidad. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
   "units": [
    {
     "title": "Tiempos avanzados",
@@ -73271,6 +73271,5140 @@ window.SYLLABUS = {
       "text": "Once the samples have been tested, they are sent to the client for approval."
      }
     ]
+   },
+   {
+    "title": "Precisión y énfasis",
+    "lessons": [
+     {
+      "id": "b2-u7-l1",
+      "title": "Futuro en el pasado: was going to, was about to, was supposed to",
+      "goal": "Hablar de planes, expectativas y cosas que estaban a punto de pasar pero no pasaron.",
+      "theory": [
+       {
+        "p": "El **futuro en el pasado** mira hacia adelante desde un momento pasado. **Was / were going to** = tenía la intención (y muchas veces no se cumplió): **I was going to call you, but my phone died.** **Was / were about to** = estaba a punto de: **We were about to leave when it started to pour.** **Was / were supposed to** = se suponía que, lo que estaba previsto u obligado: **The report was supposed to be ready on Friday.**"
+       },
+       {
+        "ex": [
+         [
+          "I was going to study medicine, but I changed my mind.",
+          "Iba a estudiar medicina, pero cambié de opinión."
+         ],
+         [
+          "She was about to resign when they offered her a promotion.",
+          "Estaba a punto de renunciar cuando le ofrecieron un ascenso."
+         ],
+         [
+          "The flight was supposed to land at six.",
+          "Se suponía que el vuelo aterrizaba a las seis."
+         ],
+         [
+          "You were supposed to tell me first!",
+          "¡Se suponía que me ibas a decir primero!"
+         ],
+         [
+          "I knew it would be a long day.",
+          "Sabía que sería un día largo."
+         ]
+        ]
+       },
+       {
+        "p": "Otras formas: **would** para predicciones vistas desde el pasado (**I never imagined I would live abroad**), **was due to** (horario oficial: **The train was due to arrive at 8**), **was on the point of** (formal: a punto de) y **was to have + participio** (plan formal que no se cumplió: **The ceremony was to have taken place in June**)."
+       },
+       {
+        "ex": [
+         [
+          "Nobody thought the team would win the league.",
+          "Nadie pensó que el equipo ganaría la liga."
+         ],
+         [
+          "The meeting was due to start at nine.",
+          "La reunión estaba programada para las nueve."
+         ],
+         [
+          "He was on the point of giving up.",
+          "Estaba a punto de rendirse."
+         ],
+         [
+          "The bridge was to have opened in 2022.",
+          "El puente iba a inaugurarse en 2022 (y no se hizo)."
+         ],
+         [
+          "We were going to buy a house, but prices went up.",
+          "Íbamos a comprar casa, pero los precios subieron."
+         ]
+        ]
+       },
+       {
+        "tip": "Para disculparte por algo que no hiciste suena muy natural **I was going to…, but…**: **I was going to text you, but I fell asleep.** Y **be supposed to** en presente sirve para quejarse con suavidad: **This app is supposed to save me time!**"
+       }
+      ],
+      "vocab": [
+       [
+        "was going to",
+        "expresión",
+        "iba a (intención pasada)",
+        "I was going to call you."
+       ],
+       [
+        "was about to",
+        "expresión",
+        "estaba a punto de",
+        "I was about to leave."
+       ],
+       [
+        "was supposed to",
+        "expresión",
+        "se suponía que",
+        "It was supposed to be easy."
+       ],
+       [
+        "was due to",
+        "expresión",
+        "estaba programado para",
+        "The plane was due to land at noon."
+       ],
+       [
+        "on the point of",
+        "expresión",
+        "a punto de (formal)",
+        "She was on the point of crying."
+       ],
+       [
+        "was to have",
+        "expresión",
+        "iba a haber (plan no cumplido, formal)",
+        "The match was to have been played on Sunday."
+       ],
+       [
+        "change your mind",
+        "expresión",
+        "cambiar de opinión",
+        "I was going to go, but I changed my mind."
+       ],
+       [
+        "fall through",
+        "verbo",
+        "fracasar, venirse abajo (un plan)",
+        "The deal fell through."
+       ],
+       [
+        "call off",
+        "verbo",
+        "cancelar",
+        "They called off the wedding."
+       ],
+       [
+        "postpone",
+        "verbo",
+        "aplazar",
+        "The launch was postponed."
+       ],
+       [
+        "last-minute",
+        "adjetivo",
+        "de último minuto",
+        "A last-minute change."
+       ],
+       [
+        "intend",
+        "verbo",
+        "tener la intención de",
+        "I intended to finish it yesterday."
+       ],
+       [
+        "expect",
+        "verbo",
+        "esperar (que algo pase)",
+        "I didn't expect it to rain."
+       ],
+       [
+        "turn out",
+        "verbo",
+        "resultar",
+        "It turned out to be a great idea."
+       ],
+       [
+        "in the end",
+        "expresión",
+        "al final",
+        "In the end, we stayed at home."
+       ],
+       [
+        "at the last minute",
+        "expresión",
+        "a última hora",
+        "She cancelled at the last minute."
+       ],
+       [
+        "delay",
+        "sustantivo / verbo",
+        "retraso; retrasar",
+        "There was a two-hour delay."
+       ],
+       [
+        "schedule",
+        "sustantivo",
+        "horario, cronograma",
+        "We're behind schedule."
+       ],
+       [
+        "unexpected",
+        "adjetivo",
+        "inesperado",
+        "An unexpected problem."
+       ],
+       [
+        "plan B",
+        "expresión",
+        "plan alternativo",
+        "Luckily, we had a plan B."
+       ],
+       [
+        "set off",
+        "verbo",
+        "salir (de viaje), emprender",
+        "We were about to set off."
+       ],
+       [
+        "make it",
+        "expresión",
+        "llegar a tiempo; lograrlo",
+        "We didn't make it to the concert."
+       ]
+      ],
+      "dialogue": {
+       "title": "La boda que no fue en junio",
+       "scene": "Sofía le cuenta a su compañera Lina por qué su boda en una finca de Villa de Leyva se aplazó.",
+       "a": "Lina",
+       "b": "Sofía",
+       "lines": [
+        [
+         "A",
+         "Weren't you supposed to get married in June?",
+         "¿No te ibas a casar en junio?"
+        ],
+        [
+         "B",
+         "Yes, the wedding was to have taken place on the fifteenth, at a farm in Villa de Leyva.",
+         "Sí, la boda iba a ser el quince, en una finca en Villa de Leyva."
+        ],
+        [
+         "A",
+         "So what happened?",
+         "¿Y qué pasó?"
+        ],
+        [
+         "B",
+         "Two weeks before, the owner called. The farm was going to be sold, and the new owners didn't want events.",
+         "Dos semanas antes llamó el dueño. Iban a vender la finca y los nuevos dueños no querían eventos."
+        ],
+        [
+         "A",
+         "No way! At the last minute?",
+         "¡No puede ser! ¿A última hora?"
+        ],
+        [
+         "B",
+         "Exactly. I was about to send the invitations when he told me.",
+         "Exacto. Estaba a punto de mandar las invitaciones cuando me dijo."
+        ],
+        [
+         "A",
+         "Thank goodness you hadn't sent them. And the catering?",
+         "Menos mal que no las habías mandado. ¿Y la comida?"
+        ],
+        [
+         "B",
+         "The caterer was supposed to give us a refund, but at first he refused.",
+         "Se suponía que el de la comida nos devolvía la plata, pero al principio se negó."
+        ],
+        [
+         "A",
+         "Typical. Did you have a plan B?",
+         "Típico. ¿Tenían un plan B?"
+        ],
+        [
+         "B",
+         "We were going to have it in my parents' garden, but it was far too small for 150 guests.",
+         "Íbamos a hacerla en el jardín de mis papás, pero era demasiado pequeño para 150 invitados."
+        ],
+        [
+         "A",
+         "I would have panicked. So when is it now?",
+         "Yo habría entrado en pánico. ¿Y ahora cuándo es?"
+        ],
+        [
+         "B",
+         "In September, at a hotel in Paipa. In the end, it turned out to be a better place.",
+         "En septiembre, en un hotel en Paipa. Al final resultó ser un mejor lugar."
+        ],
+        [
+         "A",
+         "I never thought you'd stay so calm.",
+         "Nunca pensé que te quedarías tan tranquila."
+        ],
+        [
+         "B",
+         "Calm? I was on the point of calling off the whole thing! But Andrés kept saying it would work out.",
+         "¿Tranquila? ¡Estuve a punto de cancelar todo! Pero Andrés no paraba de decir que todo saldría bien."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I ___ call you last night, but I fell asleep on the sofa.",
+        "o": [
+         "was going to",
+         "am going to",
+         "will",
+         "was about"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "We ___ leave when the phone rang.",
+        "o": [
+         "were about to",
+         "are about to",
+         "were about",
+         "would about to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The new metro ___ open in 2020, but it's still under construction.",
+        "o": [
+         "was supposed to",
+         "is supposed",
+         "supposed to",
+         "was supposing to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I never imagined that I ___ end up living in Canada. (llegaría a)",
+        "ans": [
+         "would",
+         "'d"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We were going to drive to the coast, but the road was closed because of a landslide, so in the end we took a plane.",
+        "q": "¿Por qué cambiaron de plan?",
+        "o": [
+         "La carretera estaba cerrada por un derrumbe",
+         "Se les dañó el carro",
+         "Los tiquetes eran baratos",
+         "Cambiaron de destino"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I was about to give up when I finally found the solution."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "You",
+         "were",
+         "supposed",
+         "to",
+         "tell",
+         "me",
+         "first."
+        ],
+        "es": "Se suponía que me ibas a decir primero."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "ceremony",
+         "was",
+         "to",
+         "have",
+         "taken",
+         "place",
+         "in",
+         "June."
+        ],
+        "es": "La ceremonia iba a ser en junio."
+       },
+       {
+        "t": "dict",
+        "say": "I was going to text you, but my battery died."
+       },
+       {
+        "t": "dict",
+        "say": "The train was due to arrive at eight."
+       },
+       {
+        "t": "mc",
+        "q": "—Why didn't you come? —Sorry, I ___ come, but something came up at work.",
+        "o": [
+         "was going to",
+         "was about",
+         "am going to",
+         "would"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "She was on the point ___ resigning.",
+        "o": [
+         "of",
+         "to",
+         "for",
+         "in"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "The concert was due to start at eight, but the singer arrived two hours late. Some fans were about to leave when the lights finally went off.",
+        "q": "¿Qué estaba a punto de hacer parte del público?",
+        "o": [
+         "Irse",
+         "Entrar",
+         "Pedir un reembolso",
+         "Subirse al escenario"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Cuenta un plan importante que no salió como esperabas (mínimo 100 palabras): qué ibas a hacer, qué se suponía que pasaría, qué estuvo a punto de pasar y cómo terminó. Usa was going to, was about to, was supposed to y would.",
+        "min": 100,
+        "keys": [
+         [
+          "was going to",
+          "were going to"
+         ],
+         [
+          "was about to",
+          "were about to",
+          "on the point of"
+         ],
+         [
+          "was supposed to",
+          "were supposed to",
+          "was due to"
+         ],
+         [
+          "in the end",
+          "turned out",
+          "would"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The match ___ be played on Sunday, but it was postponed.",
+       "o": [
+        "was supposed to",
+        "is supposed",
+        "supposed",
+        "was supposing"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "I was ___ to leave when it started to rain. (a punto de)",
+       "ans": [
+        "about"
+       ]
+      },
+      "reading": 18,
+      "words": []
+     },
+     {
+      "id": "b2-u7-l2",
+      "title": "Needn't have, be supposed to, be allowed to y make / let",
+      "goal": "Expresar necesidad, permiso y obligación en el pasado con precisión.",
+      "theory": [
+       {
+        "p": "**Needn't have + participio** = lo hiciste, pero no era necesario: **I needn't have cooked; they had already eaten** (cociné sin necesidad). **Didn't need to + verbo** = no era necesario, y normalmente **no** lo hiciste: **I didn't need to cook, so I watched a film.**"
+       },
+       {
+        "ex": [
+         [
+          "We needn't have hurried. The meeting started late.",
+          "No teníamos que habernos apurado. La reunión empezó tarde."
+         ],
+         [
+          "You needn't have bought me a present!",
+          "¡No tenías que haberme comprado un regalo!"
+         ],
+         [
+          "I didn't need to take a taxi. My friend drove me.",
+          "No necesité tomar taxi. Mi amigo me llevó."
+         ],
+         [
+          "She didn't need to study; she already knew everything.",
+          "Ella no necesitaba estudiar; ya sabía todo."
+         ],
+         [
+          "They needn't have worried. Everything went well.",
+          "No tenían por qué preocuparse. Todo salió bien."
+         ]
+        ]
+       },
+       {
+        "p": "**Be allowed to** = tener permiso (**We weren't allowed to use our phones in class**). **Be supposed to** = lo que se espera o es la norma, aunque no siempre se cumpla (**You're supposed to wear a helmet**). **Make + persona + verbo** (obligar) y **let + persona + verbo** (dejar) van **sin to**: **My parents made me study** · **They let me go out**. **Allow / force + persona + to**: **They didn't allow us to take photos**."
+       },
+       {
+        "ex": [
+         [
+          "At my school we weren't allowed to wear trainers.",
+          "En mi colegio no nos dejaban usar tenis."
+         ],
+         [
+          "You're supposed to check in two hours before.",
+          "Se supone que hay que hacer el check-in dos horas antes."
+         ],
+         [
+          "My boss made me stay until nine.",
+          "Mi jefe me hizo quedar hasta las nueve."
+         ],
+         [
+          "My parents let me travel alone at sixteen.",
+          "Mis papás me dejaron viajar solo a los dieciséis."
+         ],
+         [
+          "The rain forced us to cancel the trip.",
+          "La lluvia nos obligó a cancelar el viaje."
+         ]
+        ]
+       },
+       {
+        "tip": "En pasiva **make** recupera el **to**: **My boss made me work late** → **I was made to work late**. Y **let** no tiene pasiva: se usa **be allowed to** (**I was allowed to leave early**)."
+       }
+      ],
+      "vocab": [
+       [
+        "needn't have",
+        "expresión",
+        "no tenía que haber (pero lo hice)",
+        "You needn't have waited."
+       ],
+       [
+        "didn't need to",
+        "expresión",
+        "no necesité, no hacía falta",
+        "I didn't need to pay."
+       ],
+       [
+        "be allowed to",
+        "expresión",
+        "tener permiso para",
+        "We're not allowed to smoke here."
+       ],
+       [
+        "be supposed to",
+        "expresión",
+        "se supone que (norma o expectativa)",
+        "You're supposed to knock first."
+       ],
+       [
+        "make (someone) do",
+        "expresión",
+        "obligar, hacer que alguien haga",
+        "She made me apologize."
+       ],
+       [
+        "let (someone) do",
+        "expresión",
+        "dejar, permitir",
+        "Let me help you."
+       ],
+       [
+        "force",
+        "verbo",
+        "obligar, forzar",
+        "The strike forced them to close."
+       ],
+       [
+        "permission",
+        "sustantivo",
+        "permiso",
+        "You need permission to film here."
+       ],
+       [
+        "forbidden",
+        "adjetivo",
+        "prohibido",
+        "Photos are forbidden."
+       ],
+       [
+        "compulsory",
+        "adjetivo",
+        "obligatorio",
+        "Uniforms are compulsory."
+       ],
+       [
+        "optional",
+        "adjetivo",
+        "opcional",
+        "The tour is optional."
+       ],
+       [
+        "strict",
+        "adjetivo",
+        "estricto",
+        "My father was very strict."
+       ],
+       [
+        "curfew",
+        "sustantivo",
+        "toque de queda, hora de llegada",
+        "I had a curfew at ten."
+       ],
+       [
+        "uniform",
+        "sustantivo",
+        "uniforme",
+        "We had to wear a uniform."
+       ],
+       [
+        "rule",
+        "sustantivo",
+        "regla, norma",
+        "Rules are rules."
+       ],
+       [
+        "break the rules",
+        "expresión",
+        "romper las reglas",
+        "He always broke the rules."
+       ],
+       [
+        "get away with",
+        "verbo",
+        "salirse con la suya",
+        "She got away with it."
+       ],
+       [
+        "in vain",
+        "expresión",
+        "en vano",
+        "We worried in vain."
+       ],
+       [
+        "unnecessarily",
+        "adverbio",
+        "innecesariamente",
+        "We left unnecessarily early."
+       ],
+       [
+        "telling-off",
+        "sustantivo",
+        "regaño",
+        "I got a telling-off from my mum."
+       ],
+       [
+        "ground (someone)",
+        "verbo",
+        "castigar sin salir",
+        "My parents grounded me for a week."
+       ],
+       [
+        "pocket money",
+        "expresión",
+        "mesada",
+        "I got pocket money every Friday."
+       ]
+      ],
+      "dialogue": {
+       "title": "Así eran las reglas",
+       "scene": "Óscar y su hija adolescente, Mariana, discuten sobre la hora de llegada a una fiesta. Él le cuenta cómo era cuando era joven.",
+       "a": "Mariana",
+       "b": "Óscar",
+       "lines": [
+        [
+         "A",
+         "Dad, why do I have to be home by eleven? Everybody else is allowed to stay until one.",
+         "Papá, ¿por qué tengo que estar en la casa a las once? A todos los demás los dejan quedarse hasta la una."
+        ],
+        [
+         "B",
+         "When I was sixteen, I wasn't even allowed to go to parties.",
+         "Cuando yo tenía dieciséis, ni siquiera me dejaban ir a fiestas."
+        ],
+        [
+         "A",
+         "Seriously? Grandma was that strict?",
+         "¿En serio? ¿La abuela era tan estricta?"
+        ],
+        [
+         "B",
+         "Very. She made me do my homework before dinner, and she didn't let me use the phone after nine.",
+         "Mucho. Me obligaba a hacer las tareas antes de la comida y no me dejaba usar el teléfono después de las nueve."
+        ],
+        [
+         "A",
+         "That's crazy. Did you ever break the rules?",
+         "Qué locura. ¿Alguna vez rompiste las reglas?"
+        ],
+        [
+         "B",
+         "Once. I was supposed to be at a friend's house studying, but we went to a concert.",
+         "Una vez. Se suponía que estaba donde un amigo estudiando, pero nos fuimos a un concierto."
+        ],
+        [
+         "A",
+         "Ha ha! Did you get away with it?",
+         "¡Jaja! ¿Te saliste con la tuya?"
+        ],
+        [
+         "B",
+         "No. Somebody saw me and told her. I was grounded for a month and I was made to wash the car every Sunday.",
+         "No. Alguien me vio y le contó. Me castigaron un mes sin salir y me pusieron a lavar el carro todos los domingos."
+        ],
+        [
+         "A",
+         "OK, I promise I won't lie. But please let me stay until twelve.",
+         "Bueno, prometo no mentir. Pero déjame quedarme hasta las doce, por favor."
+        ],
+        [
+         "B",
+         "Twelve, and I'll pick you up. You needn't have asked your mother first, by the way. I knew it was you who convinced her!",
+         "Doce, y yo te recojo. Por cierto, no tenías que haberle preguntado a tu mamá primero. ¡Sabía que fuiste tú quien la convenció!"
+        ],
+        [
+         "A",
+         "Ha ha. So I didn't need to make that cake for you either?",
+         "Jaja. ¿Entonces tampoco tenía que hacerte esa torta?"
+        ],
+        [
+         "B",
+         "Well… the cake definitely helped.",
+         "Bueno… la torta definitivamente ayudó."
+        ],
+        [
+         "A",
+         "You're the best, Dad!",
+         "¡Eres el mejor, papá!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "We ___ booked a table. The restaurant was empty.",
+        "o": [
+         "needn't have",
+         "didn't need",
+         "mustn't have",
+         "couldn't have"
+        ],
+        "a": 0,
+        "x": "Lo hicimos, pero no era necesario."
+       },
+       {
+        "t": "mc",
+        "q": "I ___ take a taxi because my brother picked me up.",
+        "o": [
+         "didn't need to",
+         "needn't have",
+         "mustn't",
+         "wasn't allowed"
+        ],
+        "a": 0,
+        "x": "No era necesario, y no lo hice."
+       },
+       {
+        "t": "mc",
+        "q": "My parents never let me ___ out on school nights.",
+        "o": [
+         "go",
+         "to go",
+         "going",
+         "went"
+        ],
+        "a": 0,
+        "x": "Let + persona + verbo sin to."
+       },
+       {
+        "t": "fill",
+        "q": "We weren't ___ to use our phones during the exam. (permitido)",
+        "ans": [
+         "allowed"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "At my first job I was made to work every Saturday, and we weren't allowed to take holidays in December.",
+        "q": "¿Qué no les permitían?",
+        "o": [
+         "Tomar vacaciones en diciembre",
+         "Trabajar los sábados",
+         "Usar el celular",
+         "Salir temprano"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "You needn't have bought me a present, but thank you so much."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "My",
+         "boss",
+         "made",
+         "me",
+         "stay",
+         "until",
+         "nine."
+        ],
+        "es": "Mi jefe me hizo quedar hasta las nueve."
+       },
+       {
+        "t": "order",
+        "words": [
+         "You're",
+         "supposed",
+         "to",
+         "check",
+         "in",
+         "online."
+        ],
+        "es": "Se supone que hay que hacer el check-in en línea."
+       },
+       {
+        "t": "dict",
+        "say": "We needn't have hurried. The meeting started late."
+       },
+       {
+        "t": "dict",
+        "say": "Photos are forbidden inside the museum."
+       },
+       {
+        "t": "mc",
+        "q": "In pasiva: «They made him apologize» → He was made ___ apologize.",
+        "o": [
+         "to",
+         "—",
+         "for",
+         "that"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "My father didn't let me drive his car.",
+         "My father didn't let me to drive his car.",
+         "My father didn't allow me drive his car.",
+         "My father didn't let me driving his car."
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "You're supposed to wear a helmet on a motorbike, but many people don't. In some cities the police now force drivers to pay a big fine.",
+        "q": "¿Qué hace ahora la policía?",
+        "o": [
+         "Obliga a pagar una multa grande",
+         "Regala cascos",
+         "Prohíbe las motos",
+         "Nada"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Compara las reglas que tenías de niño o adolescente con las de los jóvenes de hoy (mínimo 100 palabras). Usa was / wasn't allowed to, made me, let me, was supposed to y una frase con needn't have o didn't need to.",
+        "min": 100,
+        "keys": [
+         [
+          "allowed to"
+         ],
+         [
+          "made me",
+          "make me",
+          "was made to"
+         ],
+         [
+          "let me",
+          "let us",
+          "lets"
+         ],
+         [
+          "supposed to"
+         ],
+         [
+          "needn't have",
+          "didn't need to"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "You ___ cooked so much food. Only four people came.",
+       "o": [
+        "needn't have",
+        "didn't need",
+        "mustn't have",
+        "shouldn't"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "My parents didn't ___ me go to the concert. (dejar)",
+       "ans": [
+        "let"
+       ]
+      },
+      "reading": 19,
+      "words": []
+     },
+     {
+      "id": "b2-u7-l3",
+      "title": "Probabilidad y certeza: bound to, likely to, there's a good chance",
+      "goal": "Expresar qué tan probable es algo con estructuras variadas y precisas.",
+      "theory": [
+       {
+        "p": "Escala de certeza, de más a menos: **be bound to** / **be certain to** (seguro que: **It's bound to rain**) → **be likely to** / **will probably** (es probable) → **may well** / **there's a good chance (that)** (es bastante posible) → **might** / **could** (puede ser) → **be unlikely to** / **probably won't** (poco probable) → **there's no way** (imposible)."
+       },
+       {
+        "ex": [
+         [
+          "With this traffic, we're bound to be late.",
+          "Con este tráfico, seguro llegamos tarde."
+         ],
+         [
+          "Prices are likely to rise again next year.",
+          "Es probable que los precios vuelvan a subir el próximo año."
+         ],
+         [
+          "She may well win the election.",
+          "Es muy posible que ella gane las elecciones."
+         ],
+         [
+          "There's a good chance that it'll be sunny.",
+          "Hay buenas probabilidades de que haga sol."
+         ],
+         [
+          "He's unlikely to accept the offer.",
+          "Es poco probable que acepte la oferta."
+         ]
+        ]
+       },
+       {
+        "p": "Fíjate en el orden: con **will** el adverbio va **después** en afirmativo (**It will probably rain**) y **antes** en negativo (**It probably won't rain**). Otras expresiones útiles: **in all likelihood** (con toda probabilidad), **the odds are that…** (lo más probable es que…), **I wouldn't be surprised if…** (no me sorprendería que…) y **I doubt (that)…** (dudo que…)."
+       },
+       {
+        "ex": [
+         [
+          "It will probably take two weeks.",
+          "Probablemente tome dos semanas."
+         ],
+         [
+          "They probably won't come.",
+          "Probablemente no vengan."
+         ],
+         [
+          "The odds are that he'll be promoted.",
+          "Lo más probable es que lo asciendan."
+         ],
+         [
+          "I wouldn't be surprised if they got married.",
+          "No me sorprendería que se casaran."
+         ],
+         [
+          "I doubt she'll remember.",
+          "Dudo que se acuerde."
+         ]
+        ]
+       },
+       {
+        "tip": "**Likely** en inglés es adjetivo: se dice **He is likely to win** o **It's likely that he'll win**, no «he will likely win» en registro formal (aunque en EE. UU. se oye mucho). **Probable** existe, pero se usa menos que **likely**."
+       }
+      ],
+      "vocab": [
+       [
+        "be bound to",
+        "expresión",
+        "ser seguro que, estar destinado a",
+        "He's bound to find out."
+       ],
+       [
+        "be certain to",
+        "expresión",
+        "ser seguro que",
+        "It's certain to be a success."
+       ],
+       [
+        "be likely to",
+        "expresión",
+        "ser probable que",
+        "Prices are likely to rise."
+       ],
+       [
+        "be unlikely to",
+        "expresión",
+        "ser poco probable que",
+        "She's unlikely to agree."
+       ],
+       [
+        "may well",
+        "expresión",
+        "es muy posible que",
+        "You may well be right."
+       ],
+       [
+        "there's a good chance",
+        "expresión",
+        "hay buenas probabilidades",
+        "There's a good chance we'll win."
+       ],
+       [
+        "the odds are",
+        "expresión",
+        "lo más probable es",
+        "The odds are he'll be late."
+       ],
+       [
+        "in all likelihood",
+        "expresión",
+        "con toda probabilidad",
+        "In all likelihood, it'll be cancelled."
+       ],
+       [
+        "I doubt",
+        "expresión",
+        "dudo (que)",
+        "I doubt it'll work."
+       ],
+       [
+        "I wouldn't be surprised if",
+        "expresión",
+        "no me sorprendería que",
+        "I wouldn't be surprised if it rained."
+       ],
+       [
+        "there's no way",
+        "expresión",
+        "es imposible, ni de riesgos",
+        "There's no way he'll pay."
+       ],
+       [
+        "prediction",
+        "sustantivo",
+        "predicción",
+        "My prediction is that they'll lose."
+       ],
+       [
+        "forecast",
+        "verbo / sustantivo",
+        "pronosticar; pronóstico",
+        "Economists forecast slow growth."
+       ],
+       [
+        "chance",
+        "sustantivo",
+        "probabilidad, posibilidad",
+        "What are the chances?"
+       ],
+       [
+        "guarantee",
+        "verbo / sustantivo",
+        "garantizar; garantía",
+        "I can't guarantee it."
+       ],
+       [
+        "outcome",
+        "sustantivo",
+        "resultado",
+        "The outcome is uncertain."
+       ],
+       [
+        "favourite",
+        "sustantivo",
+        "favorito (en una competencia)",
+        "They're the favourites to win."
+       ],
+       [
+        "underdog",
+        "sustantivo",
+        "el que tiene menos opciones",
+        "Everybody loves the underdog."
+       ],
+       [
+        "bet",
+        "verbo / sustantivo",
+        "apostar; apuesta",
+        "I bet you'll love it."
+       ],
+       [
+        "predictable",
+        "adjetivo",
+        "predecible",
+        "The ending was predictable."
+       ],
+       [
+        "slim chance",
+        "expresión",
+        "posibilidad remota",
+        "There's only a slim chance."
+       ],
+       [
+        "sooner or later",
+        "expresión",
+        "tarde o temprano",
+        "Sooner or later, they'll find out."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Quién gana la final?",
+       "scene": "Antes de la final del fútbol colombiano, Camilo y su compañero Esteban hacen predicciones en la oficina.",
+       "a": "Camilo",
+       "b": "Esteban",
+       "lines": [
+        [
+         "A",
+         "So, who's going to win the final tonight?",
+         "Bueno, ¿quién gana la final esta noche?"
+        ],
+        [
+         "B",
+         "Nacional, obviously. They're bound to win. They've got the best squad in the country.",
+         "Nacional, obvio. Seguro ganan. Tienen la mejor nómina del país."
+        ],
+        [
+         "A",
+         "I'm not so sure. Junior are playing at home, and they're unlikely to lose in front of their fans.",
+         "No estoy tan seguro. Junior juega de local y es poco probable que pierda frente a su hinchada."
+        ],
+        [
+         "B",
+         "That's true, but their best striker is injured. He probably won't play.",
+         "Es cierto, pero su mejor delantero está lesionado. Probablemente no juegue."
+        ],
+        [
+         "A",
+         "Actually, there's a good chance he'll play. The coach said he trained yesterday.",
+         "De hecho, hay buenas probabilidades de que juegue. El técnico dijo que entrenó ayer."
+        ],
+        [
+         "B",
+         "Even so, the odds are that Nacional will score first.",
+         "Aun así, lo más probable es que Nacional anote primero."
+        ],
+        [
+         "A",
+         "Maybe. It may well go to penalties. Both defences are very strong.",
+         "Puede ser. Es muy posible que se vaya a penaltis. Las dos defensas son muy fuertes."
+        ],
+        [
+         "B",
+         "Penalties? I doubt it. Nacional usually win in normal time.",
+         "¿Penaltis? Lo dudo. Nacional normalmente gana en el tiempo reglamentario."
+        ],
+        [
+         "A",
+         "Want to bet? If Junior win, you buy lunch for the whole team.",
+         "¿Apostamos? Si gana Junior, tú invitas al almuerzo a todo el equipo."
+        ],
+        [
+         "B",
+         "Deal. And if Nacional win, you wear my Nacional shirt to the meeting on Monday.",
+         "Trato hecho. Y si gana Nacional, tú vas a la reunión del lunes con mi camiseta de Nacional."
+        ],
+        [
+         "A",
+         "There's no way I'm wearing that shirt!",
+         "¡Ni de riesgos me pongo esa camiseta!"
+        ],
+        [
+         "B",
+         "Then you'd better hope Junior win. I wouldn't be surprised if you were wearing green on Monday.",
+         "Entonces más te vale que gane Junior. No me sorprendería que el lunes estuvieras de verde."
+        ],
+        [
+         "A",
+         "We'll see. Sooner or later, the underdog always wins.",
+         "Ya veremos. Tarde o temprano, el que tiene menos opciones siempre gana."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Look at those clouds. It's ___ rain.",
+        "o": [
+         "bound to",
+         "bound",
+         "likely",
+         "certain"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Prices are ___ to go up again next year.",
+        "o": [
+         "likely",
+         "probable",
+         "probably",
+         "possibly"
+        ],
+        "a": 0,
+        "x": "Likely es adjetivo: be likely to."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál está bien ordenada?",
+        "o": [
+         "It probably won't rain.",
+         "It won't probably rain.",
+         "It probably will not to rain.",
+         "Probably it won't to rain."
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "She's very tired. I ___ she'll come to the party. (dudo)",
+        "ans": [
+         "doubt"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Economists say inflation is unlikely to fall this year, but there's a good chance it will start to go down next spring.",
+        "q": "¿Qué podría pasar la próxima primavera?",
+        "o": [
+         "Que la inflación empiece a bajar",
+         "Que la inflación suba",
+         "Que no cambie nada",
+         "Que caiga este año"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "There's a good chance that we'll finish the project on time."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "He's",
+         "bound",
+         "to",
+         "find",
+         "out",
+         "sooner",
+         "or",
+         "later."
+        ],
+        "es": "Tarde o temprano se va a enterar."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "wouldn't",
+         "be",
+         "surprised",
+         "if",
+         "they",
+         "got",
+         "married."
+        ],
+        "es": "No me sorprendería que se casaran."
+       },
+       {
+        "t": "dict",
+        "say": "The odds are that she'll get the job."
+       },
+       {
+        "t": "dict",
+        "say": "In all likelihood, the event will be cancelled."
+       },
+       {
+        "t": "mc",
+        "q": "Ordena de más seguro a menos seguro:",
+        "o": [
+         "bound to → likely to → might → unlikely to",
+         "might → bound to → unlikely to → likely to",
+         "likely to → unlikely to → bound to → might",
+         "unlikely to → might → likely to → bound to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "—Will they lower the price? —There's ___ way. They never give discounts.",
+        "o": [
+         "no",
+         "not",
+         "any",
+         "none"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "The company is likely to announce job cuts next week, and I wouldn't be surprised if the CEO resigned.",
+        "q": "¿Qué no le sorprendería?",
+        "o": [
+         "Que el gerente renunciara",
+         "Que contrataran gente",
+         "Que subieran los salarios",
+         "Que cerraran la empresa"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Haz predicciones sobre el futuro de tu ciudad o tu profesión en los próximos diez años (mínimo 100 palabras). Usa al menos cinco expresiones de probabilidad distintas (bound to, likely to, may well, there's a good chance, unlikely to, I doubt…).",
+        "min": 100,
+        "keys": [
+         [
+          "bound to",
+          "certain to"
+         ],
+         [
+          "likely to",
+          "unlikely to"
+         ],
+         [
+          "may well",
+          "there's a good chance",
+          "the odds are",
+          "in all likelihood"
+         ],
+         [
+          "i doubt",
+          "i wouldn't be surprised",
+          "there's no way",
+          "probably won't"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "With all this traffic, we're ___ to miss the flight.",
+       "o": [
+        "bound",
+        "likely that",
+        "probable",
+        "sure that"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "She's ___ to accept the job. The salary is too low. (poco probable)",
+       "ans": [
+        "unlikely"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u7-l4",
+      "title": "Enfatizar: oraciones hendidas e inversión básica",
+      "goal": "Destacar la información más importante de una frase al hablar y al escribir.",
+      "theory": [
+       {
+        "p": "Las **oraciones hendidas** (cleft sentences) ponen el foco en una parte de la frase. Con **What…**: **What I need is a holiday** · **What annoys me is the noise** · **What we did was call the police**. Con **It is / was… that / who…**: **It was my sister who told me** · **It's the price that worries me**. Y con **All**: **All I want is some peace** (lo único que quiero)."
+       },
+       {
+        "ex": [
+         [
+          "What I love about Medellín is the weather.",
+          "Lo que me encanta de Medellín es el clima."
+         ],
+         [
+          "What surprised me was how friendly people were.",
+          "Lo que me sorprendió fue lo amable que era la gente."
+         ],
+         [
+          "It was Carlos who broke the printer, not me.",
+          "Fue Carlos quien dañó la impresora, no yo."
+         ],
+         [
+          "It's not the money that matters; it's the time.",
+          "No es la plata lo que importa; es el tiempo."
+         ],
+         [
+          "All I asked for was a little respect.",
+          "Lo único que pedí fue un poco de respeto."
+         ]
+        ]
+       },
+       {
+        "p": "La **inversión** (auxiliar antes del sujeto) da un tono enfático o formal después de expresiones negativas: **Never have I seen such a mess** · **Not only did he lie, but he also blamed me** · **Rarely do we get such good weather** · **Hardly had we arrived when it started to rain** · **Under no circumstances should you open this door**."
+       },
+       {
+        "ex": [
+         [
+          "Never have I eaten such a delicious ajiaco.",
+          "Nunca he comido un ajiaco tan delicioso."
+         ],
+         [
+          "Not only is it cheap, but it's also very good.",
+          "No solo es barato, sino que además es muy bueno."
+         ],
+         [
+          "Rarely do you see a sunset like this.",
+          "Rara vez se ve un atardecer así."
+         ],
+         [
+          "Under no circumstances should you share your password.",
+          "Bajo ninguna circunstancia debes compartir tu clave."
+         ],
+         [
+          "Only then did I realize my mistake.",
+          "Solo entonces me di cuenta de mi error."
+         ]
+        ]
+       },
+       {
+        "tip": "En **What we did was…** el verbo que sigue va en forma base o con to: **What we did was (to) call the police.** Y la inversión solo ocurre cuando la expresión negativa va **al principio**: **I have never seen…** (normal) / **Never have I seen…** (enfático)."
+       }
+      ],
+      "vocab": [
+       [
+        "What I need is…",
+        "expresión",
+        "Lo que necesito es…",
+        "What I need is a coffee."
+       ],
+       [
+        "It was … who…",
+        "expresión",
+        "Fue … quien…",
+        "It was Ana who called."
+       ],
+       [
+        "All I want is…",
+        "expresión",
+        "Lo único que quiero es…",
+        "All I want is to sleep."
+       ],
+       [
+        "The thing is…",
+        "expresión",
+        "El asunto es que…",
+        "The thing is, I can't afford it."
+       ],
+       [
+        "The reason why… is that…",
+        "expresión",
+        "La razón por la que… es que…",
+        "The reason why I left is that I was tired."
+       ],
+       [
+        "never have I",
+        "expresión",
+        "nunca he (enfático)",
+        "Never have I been so happy."
+       ],
+       [
+        "not only… but also",
+        "expresión",
+        "no solo… sino también",
+        "Not only is she smart, but she's also kind."
+       ],
+       [
+        "rarely",
+        "adverbio",
+        "rara vez",
+        "Rarely do I eat meat."
+       ],
+       [
+        "hardly … when",
+        "expresión",
+        "apenas … cuando",
+        "Hardly had I sat down when the phone rang."
+       ],
+       [
+        "under no circumstances",
+        "expresión",
+        "bajo ninguna circunstancia",
+        "Under no circumstances should you leave."
+       ],
+       [
+        "only then",
+        "expresión",
+        "solo entonces",
+        "Only then did I understand."
+       ],
+       [
+        "emphasis",
+        "sustantivo",
+        "énfasis",
+        "Put the emphasis on the result."
+       ],
+       [
+        "highlight",
+        "verbo",
+        "destacar, resaltar",
+        "I'd like to highlight two points."
+       ],
+       [
+        "annoy",
+        "verbo",
+        "molestar, fastidiar",
+        "What annoys me is the noise."
+       ],
+       [
+        "impress",
+        "verbo",
+        "impresionar",
+        "What impressed me was the service."
+       ],
+       [
+        "mess",
+        "sustantivo",
+        "desorden, lío",
+        "Never have I seen such a mess."
+       ],
+       [
+        "breathtaking",
+        "adjetivo",
+        "impresionante, que quita el aliento",
+        "The view was breathtaking."
+       ],
+       [
+        "outstanding",
+        "adjetivo",
+        "sobresaliente, excepcional",
+        "The service was outstanding."
+       ],
+       [
+        "rude",
+        "adjetivo",
+        "grosero",
+        "What I can't stand is rude people."
+       ],
+       [
+        "stand",
+        "verbo",
+        "soportar (can't stand)",
+        "I can't stand waiting."
+       ],
+       [
+        "matter",
+        "verbo",
+        "importar",
+        "It's the effort that matters."
+       ],
+       [
+        "realize",
+        "verbo",
+        "darse cuenta",
+        "Only then did I realize."
+       ]
+      ],
+      "dialogue": {
+       "title": "La peor reunión del año",
+       "scene": "Después de una reunión desastrosa con un cliente, Valeria se desahoga con su colega Tomás en la cafetería.",
+       "a": "Tomás",
+       "b": "Valeria",
+       "lines": [
+        [
+         "A",
+         "You look exhausted. What happened in the meeting?",
+         "Te ves agotada. ¿Qué pasó en la reunión?"
+        ],
+        [
+         "B",
+         "Never have I had such a terrible meeting. Not only was the client late, but he also forgot the documents.",
+         "Nunca había tenido una reunión tan terrible. No solo llegó tarde el cliente, sino que además olvidó los documentos."
+        ],
+        [
+         "A",
+         "Oh no. And the presentation?",
+         "Ay no. ¿Y la presentación?"
+        ],
+        [
+         "B",
+         "What really annoyed me was that the projector didn't work. It was the third time this month!",
+         "Lo que más me molestó fue que el proyector no funcionó. ¡Era la tercera vez este mes!"
+        ],
+        [
+         "A",
+         "It's the IT department that should fix that, not you.",
+         "Es el departamento de sistemas el que debería arreglar eso, no tú."
+        ],
+        [
+         "B",
+         "I know. What I did was show the slides on my laptop. But the screen was tiny.",
+         "Ya sé. Lo que hice fue mostrar las diapositivas en mi portátil. Pero la pantalla era diminuta."
+        ],
+        [
+         "A",
+         "Did he like the proposal at least?",
+         "¿Al menos le gustó la propuesta?"
+        ],
+        [
+         "B",
+         "Hardly had I started when he interrupted me and asked about the price.",
+         "Apenas había empezado cuando me interrumpió y preguntó por el precio."
+        ],
+        [
+         "A",
+         "Typical. All they care about is money.",
+         "Típico. Lo único que les importa es la plata."
+        ],
+        [
+         "B",
+         "Exactly. But then something strange happened. It was his assistant who saved the meeting.",
+         "Exacto. Pero luego pasó algo raro. Fue su asistente quien salvó la reunión."
+        ],
+        [
+         "A",
+         "Really? How?",
+         "¿En serio? ¿Cómo?"
+        ],
+        [
+         "B",
+         "She said: 'What we need is exactly this.' Only then did he listen properly.",
+         "Dijo: «Lo que necesitamos es exactamente esto». Solo entonces él escuchó bien."
+        ],
+        [
+         "A",
+         "So, did you get the contract?",
+         "¿Y entonces, conseguiste el contrato?"
+        ],
+        [
+         "B",
+         "We did! What I need now is a very big coffee.",
+         "¡Sí! Lo que necesito ahora es un café bien grande."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ I need right now is a long holiday.",
+        "o": [
+         "What",
+         "That",
+         "Which",
+         "It"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "It was my brother ___ told me the news.",
+        "o": [
+         "who",
+         "what",
+         "which",
+         "whom he"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Never ___ such a beautiful place.",
+        "o": [
+         "have I seen",
+         "I have seen",
+         "I saw",
+         "did I saw"
+        ],
+        "a": 0,
+        "x": "Never al inicio → auxiliar + sujeto."
+       },
+       {
+        "t": "fill",
+        "q": "Not only ___ he late, but he also forgot the keys. (fue / llegó)",
+        "ans": [
+         "was"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "What surprised me most about the trip was not the beaches, but the food. Never have I eaten so much fresh fish.",
+        "q": "¿Qué fue lo que más le sorprendió?",
+        "o": [
+         "La comida",
+         "Las playas",
+         "El clima",
+         "La gente"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "What I love about my job is the people I work with."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "All",
+         "I",
+         "want",
+         "is",
+         "a",
+         "quiet",
+         "weekend."
+        ],
+        "es": "Lo único que quiero es un fin de semana tranquilo."
+       },
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "was",
+         "the",
+         "price",
+         "that",
+         "worried",
+         "us."
+        ],
+        "es": "Fue el precio lo que nos preocupó."
+       },
+       {
+        "t": "dict",
+        "say": "Under no circumstances should you open this door."
+       },
+       {
+        "t": "dict",
+        "say": "Rarely do we see such dedication."
+       },
+       {
+        "t": "mc",
+        "q": "Transforma: «The noise annoys me.» →",
+        "o": [
+         "What annoys me is the noise.",
+         "What annoy me is the noise.",
+         "It annoys me what the noise.",
+         "That annoys me is the noise."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Hardly had we arrived ___ it started to rain.",
+        "o": [
+         "when",
+         "than",
+         "that",
+         "then"
+        ],
+        "a": 0,
+        "x": "Hardly … when; No sooner … than."
+       },
+       {
+        "t": "listen",
+        "say": "It wasn't the long hours that made me quit. What I couldn't stand was my boss shouting at everybody.",
+        "q": "¿Por qué renunció?",
+        "o": [
+         "Porque su jefe le gritaba a todos",
+         "Por las jornadas largas",
+         "Por el salario",
+         "Por el transporte"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe una reseña enfática de un lugar, un servicio o una experiencia muy buena o muy mala (mínimo 100 palabras). Usa al menos dos oraciones con What… is / was, una con It was… who / that y dos inversiones (Never have I…, Not only…, Rarely…).",
+        "min": 100,
+        "keys": [
+         [
+          "what i",
+          "what we",
+          "what really",
+          "what surprised",
+          "what annoyed",
+          "what impressed"
+         ],
+         [
+          "it was",
+          "it's",
+          "it is"
+         ],
+         [
+          "never have i",
+          "not only",
+          "rarely do",
+          "rarely have",
+          "hardly had",
+          "only then",
+          "under no circumstances"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ annoys me most is people who talk during films.",
+       "o": [
+        "What",
+        "That",
+        "It",
+        "Which"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Not only ___ she speak four languages, but she also plays the piano. (auxiliar)",
+       "ans": [
+        "does"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u7-l5",
+      "title": "Adjetivos compuestos y usos de get",
+      "goal": "Describir con adjetivos compuestos y usar get con sus significados más frecuentes.",
+      "theory": [
+       {
+        "p": "Los **adjetivos compuestos** unen dos palabras con guion. Con números y medidas, el sustantivo va en **singular**: **a two-hour drive** (no «two-hours»), **a five-star hotel**, **a ten-year-old girl**, **a 20-minute walk**. Otros muy comunes describen personas o cosas: **well-known, good-looking, hard-working, open-minded, self-confident, last-minute, old-fashioned, short-term, world-famous, user-friendly**."
+       },
+       {
+        "ex": [
+         [
+          "It's a three-hour flight to Mexico City.",
+          "Es un vuelo de tres horas a Ciudad de México."
+         ],
+         [
+          "We stayed in a five-star hotel.",
+          "Nos quedamos en un hotel de cinco estrellas."
+         ],
+         [
+          "She's a hard-working, open-minded manager.",
+          "Es una gerente trabajadora y de mente abierta."
+         ],
+         [
+          "The app is very user-friendly.",
+          "La aplicación es muy fácil de usar."
+         ],
+         [
+          "He's a world-famous chef from Cartagena.",
+          "Es un chef de Cartagena famoso en todo el mundo."
+         ]
+        ]
+       },
+       {
+        "p": "**Get** tiene muchos usos: **get + adjetivo** = volverse, ponerse (**get tired, get angry, get better, get dark**); **get + participio** = como una pasiva informal o un cambio (**get married, get lost, get fired, get promoted, get stuck, get dressed**); **get + lugar** = llegar (**get home**); **get someone to do** = conseguir que alguien haga (**I got him to help me**); y **get** = recibir, conseguir, entender (**I get it**)."
+       },
+       {
+        "ex": [
+         [
+          "It's getting late. Let's go.",
+          "Se está haciendo tarde. Vámonos."
+         ],
+         [
+          "They got married in Cartagena.",
+          "Se casaron en Cartagena."
+         ],
+         [
+          "He got fired for being late every day.",
+          "Lo echaron por llegar tarde todos los días."
+         ],
+         [
+          "We got stuck in traffic for two hours.",
+          "Nos quedamos atascados en el tráfico dos horas."
+         ],
+         [
+          "I finally got my landlord to fix the shower.",
+          "Por fin logré que el arrendador arreglara la ducha."
+         ]
+        ]
+       },
+       {
+        "tip": "Error típico: «a two-weeks holiday». En el adjetivo compuesto el número no hace plural: **a two-week holiday**. Pero sin guion sí: **The holiday lasted two weeks.**"
+       }
+      ],
+      "vocab": [
+       [
+        "well-known",
+        "adjetivo",
+        "conocido, famoso",
+        "A well-known writer."
+       ],
+       [
+        "good-looking",
+        "adjetivo",
+        "atractivo, guapo",
+        "A good-looking actor."
+       ],
+       [
+        "hard-working",
+        "adjetivo",
+        "trabajador",
+        "She's very hard-working."
+       ],
+       [
+        "open-minded",
+        "adjetivo",
+        "de mente abierta",
+        "My grandparents are open-minded."
+       ],
+       [
+        "self-confident",
+        "adjetivo",
+        "seguro de sí mismo",
+        "He's very self-confident."
+       ],
+       [
+        "old-fashioned",
+        "adjetivo",
+        "anticuado, pasado de moda",
+        "His ideas are old-fashioned."
+       ],
+       [
+        "short-term",
+        "adjetivo",
+        "a corto plazo",
+        "A short-term solution."
+       ],
+       [
+        "long-term",
+        "adjetivo",
+        "a largo plazo",
+        "A long-term plan."
+       ],
+       [
+        "user-friendly",
+        "adjetivo",
+        "fácil de usar",
+        "The website is user-friendly."
+       ],
+       [
+        "world-famous",
+        "adjetivo",
+        "famoso en todo el mundo",
+        "A world-famous singer."
+       ],
+       [
+        "two-hour",
+        "adjetivo",
+        "de dos horas",
+        "A two-hour meeting."
+       ],
+       [
+        "five-star",
+        "adjetivo",
+        "de cinco estrellas",
+        "A five-star restaurant."
+       ],
+       [
+        "get tired",
+        "expresión",
+        "cansarse",
+        "I get tired easily."
+       ],
+       [
+        "get better",
+        "expresión",
+        "mejorar",
+        "Your English is getting better."
+       ],
+       [
+        "get married",
+        "expresión",
+        "casarse",
+        "They got married last year."
+       ],
+       [
+        "get lost",
+        "expresión",
+        "perderse",
+        "We got lost in the old city."
+       ],
+       [
+        "get fired",
+        "expresión",
+        "ser despedido",
+        "He got fired yesterday."
+       ],
+       [
+        "get promoted",
+        "expresión",
+        "ser ascendido",
+        "She got promoted to manager."
+       ],
+       [
+        "get stuck",
+        "expresión",
+        "quedarse atascado",
+        "We got stuck in the lift."
+       ],
+       [
+        "get someone to do",
+        "expresión",
+        "conseguir que alguien haga",
+        "I got my son to clean his room."
+       ],
+       [
+        "get it",
+        "expresión",
+        "entender",
+        "Now I get it!"
+       ],
+       [
+        "get on with",
+        "verbo",
+        "llevarse bien con",
+        "I get on well with my boss."
+       ]
+      ],
+      "dialogue": {
+       "title": "El nuevo jefe",
+       "scene": "Juliana y su amigo Daniel hablan del nuevo gerente que llegó a la empresa de Juliana.",
+       "a": "Daniel",
+       "b": "Juliana",
+       "lines": [
+        [
+         "A",
+         "So, what's your new boss like?",
+         "Bueno, ¿cómo es tu nuevo jefe?"
+        ],
+        [
+         "B",
+         "He's a well-known engineer from Bogotá, very hard-working and quite open-minded.",
+         "Es un ingeniero conocido de Bogotá, muy trabajador y bastante abierto de mente."
+        ],
+        [
+         "A",
+         "Sounds good. What happened to the old one?",
+         "Suena bien. ¿Qué pasó con el anterior?"
+        ],
+        [
+         "B",
+         "He got promoted to the head office in Miami. He's really self-confident, so it's perfect for him.",
+         "Lo ascendieron a la sede principal en Miami. Es muy seguro de sí mismo, así que le queda perfecto."
+        ],
+        [
+         "A",
+         "And do you get on with the new guy?",
+         "¿Y te la llevas bien con el nuevo?"
+        ],
+        [
+         "B",
+         "So far, yes. On his first day we had a five-hour meeting, and he didn't get tired at all!",
+         "Hasta ahora sí. El primer día tuvimos una reunión de cinco horas ¡y no se cansó para nada!"
+        ],
+        [
+         "A",
+         "Five hours? I would have got bored after twenty minutes.",
+         "¿Cinco horas? Yo me habría aburrido a los veinte minutos."
+        ],
+        [
+         "B",
+         "Ha ha. But he has some good ideas. He wants a long-term plan, not short-term solutions.",
+         "Jaja. Pero tiene buenas ideas. Quiere un plan a largo plazo, no soluciones a corto plazo."
+        ],
+        [
+         "A",
+         "Is he changing anything?",
+         "¿Está cambiando algo?"
+        ],
+        [
+         "B",
+         "He got the company to buy a new system. The old one was so old-fashioned that we always got stuck.",
+         "Logró que la empresa comprara un sistema nuevo. El viejo era tan anticuado que siempre nos quedábamos atascados."
+        ],
+        [
+         "A",
+         "Is the new system better?",
+         "¿Y el nuevo sistema es mejor?"
+        ],
+        [
+         "B",
+         "Much better. It's really user-friendly. Even my colleague Hernán, who always gets lost with technology, gets it.",
+         "Mucho mejor. Es muy fácil de usar. Hasta mi compañero Hernán, que siempre se pierde con la tecnología, lo entiende."
+        ],
+        [
+         "A",
+         "Sounds like things are getting better.",
+         "Parece que las cosas están mejorando."
+        ],
+        [
+         "B",
+         "Definitely. Now I just need to get him to give me a two-week holiday!",
+         "Definitivamente. ¡Ahora solo tengo que lograr que me dé dos semanas de vacaciones!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "It's a ___ drive from Bogotá to Medellín.",
+        "o": [
+         "nine-hour",
+         "nine-hours",
+         "nines-hour",
+         "nine-hour's"
+        ],
+        "a": 0,
+        "x": "En el adjetivo compuesto el sustantivo va en singular."
+       },
+       {
+        "t": "mc",
+        "q": "She's very ___. She works twelve hours a day.",
+        "o": [
+         "hard-working",
+         "hard-worked",
+         "working-hard",
+         "hardly working"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "It's getting ___. Let's turn on the lights.",
+        "o": [
+         "dark",
+         "darkness",
+         "darkly",
+         "darken"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "They got ___ in a small church in Barichara. (casarse)",
+        "ans": [
+         "married"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "We got lost on the way to the hotel and got stuck in traffic for two hours. When we finally got there, we were exhausted.",
+        "q": "¿Qué les pasó en el camino?",
+        "o": [
+         "Se perdieron y se quedaron atascados en el tráfico",
+         "Se les dañó el carro",
+         "Perdieron el vuelo",
+         "Se les olvidó la reserva"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I finally got my landlord to fix the shower."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "stayed",
+         "in",
+         "a",
+         "five-star",
+         "hotel."
+        ],
+        "es": "Nos quedamos en un hotel de cinco estrellas."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "don't",
+         "get",
+         "on",
+         "with",
+         "my",
+         "neighbour."
+        ],
+        "es": "No me la llevo bien con mi vecino."
+       },
+       {
+        "t": "dict",
+        "say": "He got promoted after only six months."
+       },
+       {
+        "t": "dict",
+        "say": "The new app is very user-friendly."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es correcta?",
+        "o": [
+         "We had a two-week holiday.",
+         "We had a two-weeks holiday.",
+         "We had a two week's holiday.",
+         "We had a holiday of two-week."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I explained it three times, and finally he ___ it.",
+        "o": [
+         "got",
+         "became",
+         "made",
+         "did"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "My grandfather is very open-minded for a ninety-year-old man. He uses social media and he isn't old-fashioned at all.",
+        "q": "¿Cómo es el abuelo?",
+        "o": [
+         "De mente abierta y nada anticuado",
+         "Muy anticuado",
+         "Muy tímido",
+         "Muy estricto"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Describe a una persona importante en tu vida y un viaje o experiencia que compartieron (mínimo 100 palabras). Usa al menos cuatro adjetivos compuestos y cuatro usos distintos de get.",
+        "min": 100,
+        "keys": [
+         [
+          "well-known",
+          "good-looking",
+          "hard-working",
+          "open-minded",
+          "self-confident",
+          "old-fashioned",
+          "short-term",
+          "long-term",
+          "user-friendly",
+          "world-famous",
+          "-hour",
+          "-day",
+          "-year-old",
+          "-star",
+          "-week",
+          "-minute"
+         ],
+         [
+          "get",
+          "got",
+          "getting",
+          "gets"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The airport is a ___ ride from the hotel.",
+       "o": [
+        "twenty-minute",
+        "twenty-minutes",
+        "twenties-minute",
+        "twenty-minute's"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "He got ___ because he was always late. (despedido)",
+       "ans": [
+        "fired",
+        "sacked"
+       ]
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "I ___ call you, but I didn't have your number.",
+      "o": [
+       "was going to",
+       "am going to",
+       "would have",
+       "was about"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "You ___ brought food. We had already ordered pizza.",
+      "o": [
+       "needn't have",
+       "didn't need",
+       "mustn't have",
+       "couldn't"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "With so many fans, the concert is ___ sell out.",
+      "o": [
+       "bound to",
+       "likely that",
+       "probable to",
+       "sure that"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "___ I can't stand is people who are always late.",
+      "o": [
+       "What",
+       "That",
+       "It",
+       "Which"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "It was a ___ journey, so we stopped twice.",
+      "o": [
+       "six-hour",
+       "six-hours",
+       "sixes-hour",
+       "six-hour's"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Never ___ I seen so many people in one place. (auxiliar)",
+      "ans": [
+       "have"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "We were supposed to land at eight, but there was a storm. In the end we landed at midnight, and I got home at two.",
+      "q": "¿A qué hora llegó a la casa?",
+      "o": [
+       "A las dos",
+       "A las ocho",
+       "A medianoche",
+       "A las diez"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "It wasn't the salary that made me accept the job. What convinced me was the chance to work from home.",
+      "q": "¿Qué lo convenció?",
+      "o": [
+       "La posibilidad de trabajar desde casa",
+       "El salario",
+       "El jefe",
+       "La oficina"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un correo a un amigo contándole un cambio importante en tu trabajo o en tu vida (mínimo 120 palabras): qué ibas a hacer y qué pasó (was going to, was supposed to), qué te obligaron o te dejaron hacer (made me, let me, allowed to), qué es probable que pase ahora (bound to, likely to, may well) y lo que más te sorprendió (What surprised me was…).",
+      "min": 120,
+      "keys": [
+       [
+        "was going to",
+        "was supposed to",
+        "was about to"
+       ],
+       [
+        "made me",
+        "let me",
+        "allowed to",
+        "needn't have",
+        "didn't need to"
+       ],
+       [
+        "bound to",
+        "likely to",
+        "may well",
+        "there's a good chance",
+        "unlikely to"
+       ],
+       [
+        "what surprised me",
+        "what i",
+        "it was",
+        "never have i",
+        "not only"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I was about to leave when my boss called me into his office."
+     },
+     {
+      "t": "oral",
+      "text": "What I need is a long weekend in a five-star hotel."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "The bridge ___ opened last year, but it still isn't finished.",
+      "o": [
+       "was to have",
+       "was about to",
+       "is supposed",
+       "would have"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "At my school we weren't ___ to wear jewellery.",
+      "o": [
+       "allowed",
+       "let",
+       "made",
+       "supposed"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "My mother made me ___ my room every Saturday.",
+      "o": [
+       "clean",
+       "to clean",
+       "cleaning",
+       "cleaned"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "He's very lazy. He's ___ to finish on time.",
+      "o": [
+       "unlikely",
+       "likely not",
+       "improbable",
+       "bound not"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "It was my colleague ___ found the mistake.",
+      "o": [
+       "who",
+       "what",
+       "which",
+       "whom he"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I explained it twice, but he still didn't ___ it.",
+      "o": [
+       "get",
+       "make",
+       "do",
+       "become"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Hardly had I sat down ___ the phone rang.",
+      "ans": [
+       "when"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "There's a good ___ that it'll rain tomorrow. (probabilidad)",
+      "ans": [
+       "chance"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "I didn't need to buy a ticket because my friend works at the theatre, so he got me in for free.",
+      "q": "¿Por qué no compró boleta?",
+      "o": [
+       "Su amigo trabaja en el teatro y lo hizo entrar gratis",
+       "Ya tenía boleta",
+       "Era gratis para todos",
+       "No fue al teatro"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Not only did they arrive late, but they also brought three uninvited friends.",
+      "q": "¿Qué hicieron, además de llegar tarde?",
+      "o": [
+       "Llevaron tres amigos sin invitación",
+       "Olvidaron el regalo",
+       "Se fueron temprano",
+       "No saludaron"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "He's a well-known, hard-working doctor who got promoted to director of the hospital last month.",
+      "q": "¿Qué pasó el mes pasado?",
+      "o": [
+       "Lo ascendieron a director del hospital",
+       "Lo despidieron",
+       "Se casó",
+       "Se pensionó"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un artículo corto (mínimo 120 palabras) sobre cómo han cambiado las reglas para los jóvenes desde tu infancia. Usa allowed to, made / let, supposed to, una oración hendida (What… is) y al menos una expresión de probabilidad sobre el futuro.",
+      "min": 120,
+      "keys": [
+       [
+        "allowed to"
+       ],
+       [
+        "made",
+        "let"
+       ],
+       [
+        "supposed to"
+       ],
+       [
+        "what"
+       ],
+       [
+        "likely to",
+        "bound to",
+        "may well",
+        "unlikely to",
+        "there's a good chance"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "You needn't have waited for me."
+     },
+     {
+      "t": "oral",
+      "text": "It's bound to rain this afternoon."
+     },
+     {
+      "t": "oral",
+      "text": "Not only is it cheap, but it's also delicious."
+     }
+    ]
+   },
+   {
+    "title": "Habilidades B2 First",
+    "lessons": [
+     {
+      "id": "b2-u8-l1",
+      "title": "Comparar fotos y especular: relaciones y personalidad",
+      "goal": "Comparar dos imágenes, especular sobre las personas y dar tu opinión durante un minuto.",
+      "theory": [
+       {
+        "p": "En el examen **B2 First (speaking, parte 2)** tienes un minuto para **comparar** dos fotos y responder una pregunta. No describas todo: compara y especula. Estructura: **Both photos show… · In the first picture… , whereas in the second… · One difference is that… · The main similarity is…**"
+       },
+       {
+        "ex": [
+         [
+          "Both photos show families spending time together.",
+          "Las dos fotos muestran familias pasando tiempo juntas."
+         ],
+         [
+          "In the first picture they're at home, whereas in the second they're outdoors.",
+          "En la primera están en casa, mientras que en la segunda están al aire libre."
+         ],
+         [
+          "One big difference is the atmosphere.",
+          "Una gran diferencia es el ambiente."
+         ],
+         [
+          "The people in the second photo seem much more relaxed.",
+          "La gente de la segunda foto parece mucho más relajada."
+         ],
+         [
+          "Personally, I'd prefer to be in the first situation.",
+          "Personalmente, preferiría estar en la primera situación."
+         ]
+        ]
+       },
+       {
+        "p": "Para **especular**: **They might be celebrating something.** · **She looks as if she's tired.** · **It seems as though they've just had an argument.** · **I'd say they're probably colleagues.** · **They can't be strangers; they look too comfortable.** Vocabulario de **relaciones**: **get on well with, fall out (with), make up, break up, rely on, trustworthy, supportive, stubborn, selfish, sensitive**."
+       },
+       {
+        "ex": [
+         [
+          "They look as if they're having a great time.",
+          "Parece que la están pasando muy bien."
+         ],
+         [
+          "It seems as though they've fallen out.",
+          "Parece que se pelearon."
+         ],
+         [
+          "She must be his grandmother.",
+          "Debe ser su abuela."
+         ],
+         [
+          "They might be planning a trip.",
+          "Puede que estén planeando un viaje."
+         ],
+         [
+          "He seems quite supportive.",
+          "Él parece bastante solidario."
+         ]
+        ]
+       },
+       {
+        "tip": "Si no sabes una palabra, no te quedes callado: **It's a kind of…** · **It's something you use to…** · **I'm not sure what it's called, but…** Los examinadores valoran que mantengas la conversación."
+       }
+      ],
+      "vocab": [
+       [
+        "both photos show",
+        "expresión",
+        "las dos fotos muestran",
+        "Both photos show people working."
+       ],
+       [
+        "whereas",
+        "conjunción",
+        "mientras que",
+        "Here it's sunny, whereas there it's raining."
+       ],
+       [
+        "look as if",
+        "expresión",
+        "parecer que",
+        "They look as if they're lost."
+       ],
+       [
+        "it seems as though",
+        "expresión",
+        "parece que",
+        "It seems as though they're arguing."
+       ],
+       [
+        "I'd say",
+        "expresión",
+        "diría que",
+        "I'd say she's about forty."
+       ],
+       [
+        "get on well with",
+        "expresión",
+        "llevarse bien con",
+        "She gets on well with her sister."
+       ],
+       [
+        "fall out",
+        "verbo",
+        "pelearse, distanciarse",
+        "They fell out over money."
+       ],
+       [
+        "make up",
+        "verbo",
+        "reconciliarse",
+        "They argued but made up later."
+       ],
+       [
+        "break up",
+        "verbo",
+        "terminar (una relación)",
+        "They broke up last year."
+       ],
+       [
+        "rely on",
+        "verbo",
+        "contar con, confiar en",
+        "You can always rely on me."
+       ],
+       [
+        "trustworthy",
+        "adjetivo",
+        "confiable, digno de confianza",
+        "He's very trustworthy."
+       ],
+       [
+        "supportive",
+        "adjetivo",
+        "solidario, que apoya",
+        "My family is very supportive."
+       ],
+       [
+        "stubborn",
+        "adjetivo",
+        "terco",
+        "She's too stubborn to apologize."
+       ],
+       [
+        "selfish",
+        "adjetivo",
+        "egoísta",
+        "That was a selfish decision."
+       ],
+       [
+        "sensitive",
+        "adjetivo",
+        "sensible",
+        "He's very sensitive to criticism."
+       ],
+       [
+        "outgoing",
+        "adjetivo",
+        "extrovertido",
+        "She's outgoing and funny."
+       ],
+       [
+        "reserved",
+        "adjetivo",
+        "reservado",
+        "He's a bit reserved at first."
+       ],
+       [
+        "generation gap",
+        "expresión",
+        "brecha generacional",
+        "There's a big generation gap."
+       ],
+       [
+        "bond",
+        "sustantivo",
+        "vínculo",
+        "They have a strong bond."
+       ],
+       [
+        "atmosphere",
+        "sustantivo",
+        "ambiente",
+        "The atmosphere seems tense."
+       ],
+       [
+        "in the background",
+        "expresión",
+        "al fondo",
+        "In the background, there's a lake."
+       ],
+       [
+        "candid",
+        "adjetivo",
+        "espontáneo, natural (foto)",
+        "It looks like a candid photo."
+       ]
+      ],
+      "dialogue": {
+       "title": "Práctica para el speaking",
+       "scene": "Laura se prepara para el examen B2 First con su profesor Mr. Evans. Él le muestra dos fotos: una abuela cocinando con su nieto y dos amigos jóvenes mirando el celular en un café.",
+       "a": "Mr. Evans",
+       "b": "Laura",
+       "lines": [
+        [
+         "A",
+         "Here are your photos. They show people spending time together. Compare them and say which relationship seems closer.",
+         "Aquí están tus fotos. Muestran personas pasando tiempo juntas. Compáralas y di qué relación parece más cercana."
+        ],
+        [
+         "B",
+         "OK. Both photos show two people spending time together, but the situations are very different.",
+         "Bien. Las dos fotos muestran a dos personas pasando tiempo juntas, pero las situaciones son muy diferentes."
+        ],
+        [
+         "B",
+         "In the first picture, an elderly woman is cooking with a boy. I'd say she's probably his grandmother.",
+         "En la primera foto, una señora mayor está cocinando con un niño. Diría que probablemente es su abuela."
+        ],
+        [
+         "B",
+         "They look as if they're having a great time. The boy seems to be learning a family recipe.",
+         "Parece que la están pasando muy bien. El niño parece estar aprendiendo una receta familiar."
+        ],
+        [
+         "B",
+         "In the second picture, two young people are sitting in a café, whereas they aren't really talking. They're both looking at their phones.",
+         "En la segunda foto, dos jóvenes están sentados en un café, aunque en realidad no están hablando. Los dos miran el celular."
+        ],
+        [
+         "B",
+         "It seems as though they're friends, but the atmosphere is much colder.",
+         "Parece que son amigos, pero el ambiente es mucho más frío."
+        ],
+        [
+         "B",
+         "One big difference is the generation gap. In the first photo, two generations are sharing an activity.",
+         "Una gran diferencia es la brecha generacional. En la primera foto, dos generaciones comparten una actividad."
+        ],
+        [
+         "B",
+         "So in my opinion, the relationship in the first picture seems closer. They must have a strong bond.",
+         "Así que, en mi opinión, la relación de la primera foto parece más cercana. Deben tener un vínculo fuerte."
+        ],
+        [
+         "A",
+         "Good. Time's up. That was clear and well organized. One small thing: you used 'whereas' when you meant 'but'.",
+         "Bien. Se acabó el tiempo. Fue claro y bien organizado. Un detalle: usaste «whereas» cuando querías decir «but»."
+        ],
+        [
+         "B",
+         "Oh, right. 'Whereas' compares two different things, doesn't it?",
+         "Ah, cierto. «Whereas» compara dos cosas diferentes, ¿no?"
+        ],
+        [
+         "A",
+         "Exactly. And try to speculate a bit more: 'they might be…', 'they can't be…'.",
+         "Exacto. Y trata de especular un poco más: «puede que sean…», «no pueden ser…»."
+        ],
+        [
+         "B",
+         "Got it. They can't be strangers; they're sitting too close.",
+         "Entendido. No pueden ser desconocidos; están sentados muy cerca."
+        ],
+        [
+         "A",
+         "Perfect. That's exactly the kind of language the examiners want to hear.",
+         "Perfecto. Ese es exactamente el tipo de lenguaje que los examinadores quieren oír."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Para empezar la comparación dices:",
+        "o": [
+         "Both photos show people at work.",
+         "In this photo I see a man. He has a shirt.",
+         "The photo one is a man and two is a woman.",
+         "I don't know what to say."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "They look ___ they've just won the lottery.",
+        "o": [
+         "as if",
+         "like as",
+         "that",
+         "so"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "She's so ___. She never changes her mind, even when she's wrong.",
+        "o": [
+         "stubborn",
+         "supportive",
+         "outgoing",
+         "trustworthy"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "They had a big argument, but they made ___ the next day. (se reconciliaron)",
+        "ans": [
+         "up"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "In the first picture the colleagues seem relaxed, whereas in the second one the atmosphere looks quite tense. They might be discussing a problem.",
+        "q": "¿Cómo es el ambiente en la segunda foto?",
+        "o": [
+         "Tenso",
+         "Relajado",
+         "Festivo",
+         "Aburrido"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "It seems as though they've known each other for a long time."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "They",
+         "might",
+         "be",
+         "celebrating",
+         "something",
+         "special."
+        ],
+        "es": "Puede que estén celebrando algo especial."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "get",
+         "on",
+         "well",
+         "with",
+         "my",
+         "colleagues."
+        ],
+        "es": "Me la llevo bien con mis compañeros."
+       },
+       {
+        "t": "dict",
+        "say": "In the first picture they're indoors, whereas in the second they're outside."
+       },
+       {
+        "t": "dict",
+        "say": "You can always rely on your real friends."
+       },
+       {
+        "t": "mc",
+        "q": "Si no sabes cómo se llama un objeto en la foto, dices:",
+        "o": [
+         "It's a kind of tool you use to cut wood.",
+         "I don't know. Next.",
+         "That thing.",
+         "Sorry, no English."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Lo contrario de selfish es:",
+        "o": [
+         "generous",
+         "stubborn",
+         "sensitive",
+         "reserved"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "They can't be a couple. They look too formal with each other. I'd say they're probably business partners meeting for the first time.",
+        "q": "¿Qué cree quien habla que son?",
+        "o": [
+         "Socios de negocios que se conocen por primera vez",
+         "Una pareja",
+         "Hermanos",
+         "Viejos amigos"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Imagina dos fotos: en una, una familia grande almuerza junta un domingo; en la otra, una persona come sola frente al computador en la oficina. Compáralas y di qué estilo de vida es más sano (mínimo 120 palabras). Usa both, whereas, look as if / seem, al menos dos especulaciones (might, must, can't) y vocabulario de relaciones.",
+        "min": 120,
+        "keys": [
+         [
+          "both"
+         ],
+         [
+          "whereas",
+          "while",
+          "on the other hand"
+         ],
+         [
+          "looks as if",
+          "look as if",
+          "seems",
+          "it seems as though",
+          "look like"
+         ],
+         [
+          "might",
+          "must",
+          "can't",
+          "could"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "In the first photo they're at home, ___ in the second they're at a restaurant.",
+       "o": [
+        "whereas",
+        "despite",
+        "however",
+        "although of"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "They look as ___ they're lost. (como si)",
+       "ans": [
+        "if",
+        "though"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u8-l2",
+      "title": "Persuadir y recomendar: el artículo para un blog",
+      "goal": "Convencer a otros de visitar un lugar o probar algo, y escribir un artículo atractivo.",
+      "theory": [
+       {
+        "p": "Para **persuadir** combina entusiasmo y razones: **I'd strongly recommend…** · **You really should…** · **It's well worth visiting** · **If you only do one thing, make it…** · **You won't regret it** · **Trust me, …** · **What makes it special is…** · **Whatever you do, don't miss…**"
+       },
+       {
+        "ex": [
+         [
+          "I'd strongly recommend taking the cable car at sunset.",
+          "Les recomiendo mucho tomar el teleférico al atardecer."
+         ],
+         [
+          "Salento is well worth a visit.",
+          "Salento vale mucho la pena."
+         ],
+         [
+          "If you only do one thing, make it the Cocora Valley.",
+          "Si solo hacen una cosa, que sea el Valle de Cocora."
+         ],
+         [
+          "Whatever you do, don't miss the local coffee.",
+          "Hagan lo que hagan, no se pierdan el café local."
+         ],
+         [
+          "Trust me, you won't regret it.",
+          "Créanme, no se van a arrepentir."
+         ]
+        ]
+       },
+       {
+        "p": "Un **artículo para un blog o revista** (B2 First, writing parte 2) necesita: un **título** llamativo, una **introducción** que hable directo al lector (**Have you ever wondered…? · Imagine…**), párrafos con un tema cada uno, un **tono** cercano (preguntas retóricas, **you**), y un **cierre** que invite a actuar (**So why not…? · So next time you…**)."
+       },
+       {
+        "ex": [
+         [
+          "Have you ever wondered what it's like to sleep in the jungle?",
+          "¿Alguna vez te has preguntado cómo es dormir en la selva?"
+         ],
+         [
+          "Imagine waking up to the sound of the sea.",
+          "Imagínate despertar con el sonido del mar."
+         ],
+         [
+          "But that's not all.",
+          "Pero eso no es todo."
+         ],
+         [
+          "So why not swap the beach for the mountains this year?",
+          "¿Entonces por qué no cambias la playa por la montaña este año?"
+         ],
+         [
+          "So next time you visit Bogotá, skip the mall and explore La Candelaria.",
+          "Así que la próxima vez que vayas a Bogotá, olvídate del centro comercial y recorre La Candelaria."
+         ]
+        ]
+       },
+       {
+        "tip": "En un artículo, **it's worth** va con **-ing** o sustantivo: **It's worth visiting** / **It's worth a visit** (no «it's worth to visit»)."
+       }
+      ],
+      "vocab": [
+       [
+        "I'd strongly recommend",
+        "expresión",
+        "recomiendo mucho",
+        "I'd strongly recommend this tour."
+       ],
+       [
+        "it's well worth",
+        "expresión",
+        "vale mucho la pena",
+        "It's well worth the trip."
+       ],
+       [
+        "you won't regret it",
+        "expresión",
+        "no te vas a arrepentir",
+        "Go! You won't regret it."
+       ],
+       [
+        "whatever you do",
+        "expresión",
+        "hagas lo que hagas",
+        "Whatever you do, don't miss the market."
+       ],
+       [
+        "must-see",
+        "sustantivo / adjetivo",
+        "imperdible",
+        "The museum is a must-see."
+       ],
+       [
+        "off the beaten track",
+        "expresión",
+        "fuera de las rutas turísticas",
+        "A village off the beaten track."
+       ],
+       [
+        "hidden gem",
+        "expresión",
+        "joya escondida",
+        "This beach is a hidden gem."
+       ],
+       [
+        "breathtaking",
+        "adjetivo",
+        "impresionante",
+        "The views are breathtaking."
+       ],
+       [
+        "unspoilt",
+        "adjetivo",
+        "virgen, sin explotar",
+        "An unspoilt beach."
+       ],
+       [
+        "crowded",
+        "adjetivo",
+        "lleno de gente",
+        "It gets crowded at weekends."
+       ],
+       [
+        "tourist trap",
+        "expresión",
+        "trampa para turistas",
+        "That restaurant is a tourist trap."
+       ],
+       [
+        "itinerary",
+        "sustantivo",
+        "itinerario",
+        "Plan your itinerary carefully."
+       ],
+       [
+        "accommodation",
+        "sustantivo (incontable)",
+        "alojamiento",
+        "The accommodation was basic."
+       ],
+       [
+        "sightseeing",
+        "sustantivo",
+        "turismo, recorrer lugares",
+        "We went sightseeing all day."
+       ],
+       [
+        "backpacking",
+        "sustantivo",
+        "viajar de mochilero",
+        "I went backpacking in Peru."
+       ],
+       [
+        "destination",
+        "sustantivo",
+        "destino",
+        "A popular destination."
+       ],
+       [
+        "local",
+        "adjetivo / sustantivo",
+        "local; persona del lugar",
+        "Ask the locals."
+       ],
+       [
+        "sustainable tourism",
+        "expresión",
+        "turismo sostenible",
+        "Sustainable tourism protects nature."
+       ],
+       [
+        "swap",
+        "verbo",
+        "cambiar, intercambiar",
+        "Swap the city for the countryside."
+       ],
+       [
+        "skip",
+        "verbo",
+        "saltarse, omitir",
+        "Skip the tourist shops."
+       ],
+       [
+        "head for",
+        "verbo",
+        "dirigirse a",
+        "Head for the old town."
+       ],
+       [
+        "catch a glimpse",
+        "expresión",
+        "alcanzar a ver",
+        "You might catch a glimpse of a toucan."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿A dónde llevo a mis amigos?",
+       "scene": "Sam, un amigo inglés, visita Colombia por primera vez con dos amigos. Le pide consejos a Ana, que es de Armenia.",
+       "a": "Sam",
+       "b": "Ana",
+       "lines": [
+        [
+         "A",
+         "We've got five days in the coffee region. Where should we go?",
+         "Tenemos cinco días en el Eje Cafetero. ¿A dónde deberíamos ir?"
+        ],
+        [
+         "B",
+         "Whatever you do, don't miss the Cocora Valley. The wax palms are breathtaking.",
+         "Hagan lo que hagan, no se pierdan el Valle de Cocora. Las palmas de cera son impresionantes."
+        ],
+        [
+         "A",
+         "I've seen photos. Is it worth staying in Salento, or is it too touristy?",
+         "He visto fotos. ¿Vale la pena quedarse en Salento o es demasiado turístico?"
+        ],
+        [
+         "B",
+         "It gets crowded at weekends, but it's well worth it. I'd strongly recommend going on a weekday.",
+         "Se llena los fines de semana, pero vale mucho la pena. Les recomiendo mucho ir entre semana."
+        ],
+        [
+         "A",
+         "Good tip. What about coffee farms? There seem to be hundreds.",
+         "Buen consejo. ¿Y las fincas cafeteras? Parece que hay cientos."
+        ],
+        [
+         "B",
+         "Skip the big commercial ones. There's a small family farm near Filandia. It's a real hidden gem.",
+         "Sáltense las grandes y comerciales. Hay una finca familiar pequeña cerca de Filandia. Es una verdadera joya escondida."
+        ],
+        [
+         "A",
+         "Off the beaten track. I love that.",
+         "Fuera de las rutas turísticas. Eso me encanta."
+        ],
+        [
+         "B",
+         "Exactly. The owner, Don Arturo, shows you the whole process, and you can stay the night. You won't regret it.",
+         "Exacto. El dueño, don Arturo, les muestra todo el proceso y pueden quedarse a dormir. No se van a arrepentir."
+        ],
+        [
+         "A",
+         "Any places we should avoid?",
+         "¿Algún lugar que debamos evitar?"
+        ],
+        [
+         "B",
+         "Some of the theme parks are a bit of a tourist trap. If you only do one, make it the Coffee Park. It's fun with friends.",
+         "Algunos parques temáticos son un poco trampa para turistas. Si solo van a uno, que sea el Parque del Café. Es divertido con amigos."
+        ],
+        [
+         "A",
+         "And the food?",
+         "¿Y la comida?"
+        ],
+        [
+         "B",
+         "Trust me: try the trout in Salento and the patacones. And drink coffee from local farms, not the supermarket stuff.",
+         "Créanme: prueben la trucha en Salento y los patacones. Y tomen café de fincas locales, no el del supermercado."
+        ],
+        [
+         "A",
+         "You should write a blog. I'm totally convinced!",
+         "Deberías escribir un blog. ¡Me convenciste por completo!"
+        ],
+        [
+         "B",
+         "Ha ha. Maybe I will: 'Five Days in the Coffee Region: A Local's Guide'.",
+         "Jaja. Tal vez lo haga: «Cinco días en el Eje Cafetero: guía de una local»."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The old town is well worth ___.",
+        "o": [
+         "visiting",
+         "to visit",
+         "visit",
+         "visited"
+        ],
+        "a": 0,
+        "x": "It's worth + -ing."
+       },
+       {
+        "t": "mc",
+        "q": "___ you do, don't miss the sunset from the city wall.",
+        "o": [
+         "Whatever",
+         "However",
+         "Whenever",
+         "Whoever"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A place that few tourists know is ___.",
+        "o": [
+         "off the beaten track",
+         "a tourist trap",
+         "crowded",
+         "a must-see"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I'd strongly ___ booking your accommodation in advance. (recomendar)",
+        "ans": [
+         "recommend"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Have you ever wondered what it's like to sleep in a treehouse? In Minca, you can do exactly that, and you might catch a glimpse of a toucan in the morning.",
+        "q": "¿Qué se podría ver por la mañana?",
+        "o": [
+         "Un tucán",
+         "Un mono",
+         "El mar",
+         "Una cascada"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Trust me, it's well worth the trip. You won't regret it."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "If",
+         "you",
+         "only",
+         "do",
+         "one",
+         "thing,",
+         "make",
+         "it",
+         "the",
+         "museum."
+        ],
+        "es": "Si solo haces una cosa, que sea el museo."
+       },
+       {
+        "t": "order",
+        "words": [
+         "So",
+         "why",
+         "not",
+         "swap",
+         "the",
+         "beach",
+         "for",
+         "the",
+         "mountains?"
+        ],
+        "es": "¿Entonces por qué no cambiar la playa por la montaña?"
+       },
+       {
+        "t": "dict",
+        "say": "Whatever you do, don't miss the local market."
+       },
+       {
+        "t": "dict",
+        "say": "This beach is a real hidden gem."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es el mejor comienzo para un artículo de blog?",
+        "o": [
+         "Imagine waking up to the sound of the sea.",
+         "In this article I will write about a beach.",
+         "The beach. It is good.",
+         "Dear Sir or Madam, I am writing about a beach."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A restaurant that is overpriced and only for tourists is a ___.",
+        "o": [
+         "tourist trap",
+         "hidden gem",
+         "must-see",
+         "destination"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "If you only have one day in Bogotá, skip the mall and head for La Candelaria. It's full of history, street art and amazing food.",
+        "q": "¿Qué recomienda saltarse?",
+        "o": [
+         "El centro comercial",
+         "La Candelaria",
+         "El arte callejero",
+         "La comida"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un artículo para un blog de viajes (mínimo 140 palabras) titulado «A hidden gem in my country». Incluye un título, una pregunta para el lector, al menos tres expresiones para persuadir y un cierre que invite a ir.",
+        "min": 140,
+        "keys": [
+         [
+          "have you ever",
+          "imagine"
+         ],
+         [
+          "i'd strongly recommend",
+          "well worth",
+          "you won't regret",
+          "whatever you do",
+          "you really should",
+          "must-see"
+         ],
+         [
+          "hidden gem",
+          "off the beaten track",
+          "breathtaking",
+          "unspoilt",
+          "locals"
+         ],
+         [
+          "so why not",
+          "so next time",
+          "trust me"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The museum is ___ a visit, even if you don't like art.",
+       "o": [
+        "well worth",
+        "well worthy",
+        "worth to",
+        "worth of"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Go to Barichara. Trust me, you won't ___ it. (arrepentirte)",
+       "ans": [
+        "regret"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "b2-u8-l3",
+      "title": "Reseñas críticas: películas, series y libros",
+      "goal": "Escribir y comentar una reseña equilibrada con vocabulario preciso de cine y literatura.",
+      "theory": [
+       {
+        "p": "Una **reseña B2** tiene cuatro partes: **1)** presentación (qué es, de qué trata, sin contar el final: **Set in Cartagena in the 1990s, the series follows…**); **2)** lo positivo; **3)** lo negativo; **4)** una recomendación clara (**I'd recommend it to anyone who…** · **Give it a miss unless…**)."
+       },
+       {
+        "ex": [
+         [
+          "Set in Medellín, the film follows a young boxer.",
+          "Ambientada en Medellín, la película sigue a un joven boxeador."
+         ],
+         [
+          "The plot is gripping from start to finish.",
+          "La trama atrapa de principio a fin."
+         ],
+         [
+          "The acting is outstanding, especially the lead actress.",
+          "La actuación es sobresaliente, en especial la protagonista."
+         ],
+         [
+          "However, the ending felt rushed and predictable.",
+          "Sin embargo, el final se sintió apresurado y predecible."
+         ],
+         [
+          "I'd recommend it to anyone who enjoys crime dramas.",
+          "Se la recomendaría a cualquiera que disfrute los dramas policiacos."
+         ]
+        ]
+       },
+       {
+        "p": "Vocabulario preciso: **the plot** (la trama), **the cast** (el reparto), **the lead / main character**, **the soundtrack**, **the script** (el guion), **the director**, **the twist** (giro), **spoiler**. Adjetivos: positivos **gripping, moving, hilarious, thought-provoking, stunning, must-see**; negativos **predictable, slow-paced, far-fetched** (poco creíble), **overrated, disappointing**."
+       },
+       {
+        "ex": [
+         [
+          "The soundtrack is absolutely stunning.",
+          "La banda sonora es absolutamente espectacular."
+         ],
+         [
+          "The twist at the end took me by surprise.",
+          "El giro del final me tomó por sorpresa."
+         ],
+         [
+          "The second season was slow-paced and a bit far-fetched.",
+          "La segunda temporada fue lenta y un poco inverosímil."
+         ],
+         [
+          "It's a moving story about friendship.",
+          "Es una historia conmovedora sobre la amistad."
+         ],
+         [
+          "Without giving away any spoilers, the ending is unforgettable.",
+          "Sin hacer spoilers, el final es inolvidable."
+         ]
+        ]
+       },
+       {
+        "tip": "En inglés se dice **The film is set in…** (está ambientada en), no «is situated in». Y para no revelar el final: **I won't give away the ending.**"
+       }
+      ],
+      "vocab": [
+       [
+        "review",
+        "sustantivo",
+        "reseña, crítica",
+        "I read a review of the film."
+       ],
+       [
+        "plot",
+        "sustantivo",
+        "trama, argumento",
+        "The plot is very original."
+       ],
+       [
+        "cast",
+        "sustantivo",
+        "reparto",
+        "The cast is excellent."
+       ],
+       [
+        "lead",
+        "sustantivo / adjetivo",
+        "protagonista; principal",
+        "The lead actor is brilliant."
+       ],
+       [
+        "script",
+        "sustantivo",
+        "guion",
+        "The script is clever."
+       ],
+       [
+        "soundtrack",
+        "sustantivo",
+        "banda sonora",
+        "I loved the soundtrack."
+       ],
+       [
+        "twist",
+        "sustantivo",
+        "giro (en la historia)",
+        "What a twist!"
+       ],
+       [
+        "spoiler",
+        "sustantivo",
+        "spoiler, revelación",
+        "No spoilers, please."
+       ],
+       [
+        "be set in",
+        "expresión",
+        "estar ambientado en",
+        "It's set in Cali."
+       ],
+       [
+        "follow",
+        "verbo",
+        "seguir (la historia de)",
+        "The series follows three sisters."
+       ],
+       [
+        "gripping",
+        "adjetivo",
+        "que atrapa, apasionante",
+        "A gripping thriller."
+       ],
+       [
+        "moving",
+        "adjetivo",
+        "conmovedor",
+        "A moving story."
+       ],
+       [
+        "hilarious",
+        "adjetivo",
+        "comiquísimo",
+        "The dialogue is hilarious."
+       ],
+       [
+        "thought-provoking",
+        "adjetivo",
+        "que hace pensar",
+        "A thought-provoking documentary."
+       ],
+       [
+        "stunning",
+        "adjetivo",
+        "espectacular",
+        "The photography is stunning."
+       ],
+       [
+        "predictable",
+        "adjetivo",
+        "predecible",
+        "The ending was predictable."
+       ],
+       [
+        "slow-paced",
+        "adjetivo",
+        "de ritmo lento",
+        "The first episode is slow-paced."
+       ],
+       [
+        "far-fetched",
+        "adjetivo",
+        "inverosímil, poco creíble",
+        "The plot is a bit far-fetched."
+       ],
+       [
+        "overrated",
+        "adjetivo",
+        "sobrevalorado",
+        "I think it's overrated."
+       ],
+       [
+        "give away",
+        "verbo",
+        "revelar",
+        "Don't give away the ending."
+       ],
+       [
+        "binge-watch",
+        "verbo",
+        "ver muchos capítulos seguidos",
+        "We binge-watched the whole series."
+       ],
+       [
+        "give it a miss",
+        "expresión",
+        "no verla, saltársela",
+        "If you hate violence, give it a miss."
+       ]
+      ],
+      "dialogue": {
+       "title": "La serie de la que todos hablan",
+       "scene": "Paula y Nicolás hablan de una serie colombiana de suspenso que acaban de ver en una plataforma.",
+       "a": "Nicolás",
+       "b": "Paula",
+       "lines": [
+        [
+         "A",
+         "Did you finish the series? I binge-watched the whole thing on Saturday.",
+         "¿Terminaste la serie? Yo la vi entera el sábado."
+        ],
+        [
+         "B",
+         "Yes! It's set in Cartagena in the nineties, right? The photography is stunning.",
+         "¡Sí! Está ambientada en Cartagena en los noventa, ¿cierto? La fotografía es espectacular."
+        ],
+        [
+         "A",
+         "Absolutely. And the plot is gripping. I couldn't stop watching.",
+         "Totalmente. Y la trama atrapa. No podía parar de verla."
+        ],
+        [
+         "B",
+         "The cast is excellent too. The lead actress is going to win awards.",
+         "El reparto también es excelente. La protagonista va a ganar premios."
+        ],
+        [
+         "A",
+         "Agreed. What did you think of the soundtrack?",
+         "De acuerdo. ¿Qué te pareció la banda sonora?"
+        ],
+        [
+         "B",
+         "Brilliant. All those old vallenatos. But I have to say the last two episodes were a bit far-fetched.",
+         "Buenísima. Todos esos vallenatos viejos. Pero tengo que decir que los dos últimos capítulos fueron un poco inverosímiles."
+        ],
+        [
+         "A",
+         "Really? I loved the twist at the end.",
+         "¿En serio? A mí me encantó el giro del final."
+        ],
+        [
+         "B",
+         "Don't give away anything! My sister hasn't seen it yet.",
+         "¡No reveles nada! Mi hermana todavía no la ha visto."
+        ],
+        [
+         "A",
+         "Ha ha, no spoilers. But was it predictable for you?",
+         "Jaja, sin spoilers. ¿Pero te pareció predecible?"
+        ],
+        [
+         "B",
+         "Not predictable, but slow-paced in the middle. Episodes four and five were too long.",
+         "Predecible no, pero lenta en la mitad. Los capítulos cuatro y cinco fueron muy largos."
+        ],
+        [
+         "A",
+         "Fair point. So, would you recommend it?",
+         "Buen punto. Entonces, ¿la recomendarías?"
+        ],
+        [
+         "B",
+         "Definitely, to anyone who enjoys crime dramas. If you hate violence, though, give it a miss.",
+         "Definitivamente, a cualquiera que disfrute los dramas policiacos. Pero si odias la violencia, mejor no la veas."
+        ],
+        [
+         "A",
+         "Four stars out of five, then?",
+         "¿Cuatro estrellas de cinco, entonces?"
+        ],
+        [
+         "B",
+         "Four and a half. It's the best Colombian series I've seen in years.",
+         "Cuatro y media. Es la mejor serie colombiana que he visto en años."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The film is ___ in Bogotá during the 1980s.",
+        "o": [
+         "set",
+         "situated",
+         "placed",
+         "located on"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I knew how it would end from the first scene. It was very ___.",
+        "o": [
+         "predictable",
+         "gripping",
+         "moving",
+         "thought-provoking"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Please don't ___ the ending. I haven't seen it yet.",
+        "o": [
+         "give away",
+         "give up",
+         "give in",
+         "give back"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The ___ is excellent: every actor is perfect for their role. (reparto)",
+        "ans": [
+         "cast"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Without giving away any spoilers, the twist in the last episode completely changes the story. It's thought-provoking and very moving.",
+        "q": "¿Qué cambia por completo la historia?",
+        "o": [
+         "El giro del último capítulo",
+         "El primer capítulo",
+         "La banda sonora",
+         "El reparto"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I'd recommend it to anyone who enjoys a gripping thriller."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "series",
+         "follows",
+         "three",
+         "sisters",
+         "in",
+         "Cali."
+        ],
+        "es": "La serie sigue a tres hermanas en Cali."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "plot",
+         "was",
+         "a",
+         "bit",
+         "far-fetched."
+        ],
+        "es": "La trama fue un poco inverosímil."
+       },
+       {
+        "t": "dict",
+        "say": "The soundtrack is absolutely stunning."
+       },
+       {
+        "t": "dict",
+        "say": "If you hate horror films, give it a miss."
+       },
+       {
+        "t": "mc",
+        "q": "A story that makes you cry is ___.",
+        "o": [
+         "moving",
+         "hilarious",
+         "far-fetched",
+         "slow-paced"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué parte NO debería tener una reseña?",
+        "o": [
+         "El final completo de la historia",
+         "Una recomendación",
+         "Lo positivo",
+         "Lo negativo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Everybody told me it was a masterpiece, but honestly I found it overrated. The acting was good, but the script was weak.",
+        "q": "¿Qué le pareció débil?",
+        "o": [
+         "El guion",
+         "La actuación",
+         "La música",
+         "La fotografía"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe una reseña para la revista de tu ciudad (mínimo 140 palabras) de una película, serie o libro. Incluye dónde está ambientada y de qué trata (sin spoilers), lo positivo, lo negativo y una recomendación clara.",
+        "min": 140,
+        "keys": [
+         [
+          "set in",
+          "follows",
+          "is about",
+          "tells the story"
+         ],
+         [
+          "plot",
+          "cast",
+          "acting",
+          "script",
+          "soundtrack",
+          "characters",
+          "ending"
+         ],
+         [
+          "however",
+          "although",
+          "on the other hand",
+          "but"
+         ],
+         [
+          "recommend",
+          "give it a miss",
+          "must-see",
+          "out of"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The ___ at the end took everyone by surprise.",
+       "o": [
+        "twist",
+        "cast",
+        "script",
+        "spoiler"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "If you don't like slow films, give it a ___. (sáltatela)",
+       "ans": [
+        "miss"
+       ]
+      },
+      "reading": 20,
+      "words": []
+     },
+     {
+      "id": "b2-u8-l4",
+      "title": "Escribir un informe: bienestar y salud mental en el trabajo",
+      "goal": "Presentar resultados de una encuesta y hacer recomendaciones en un informe formal.",
+      "theory": [
+       {
+        "p": "Un **informe** (report, B2 First writing parte 2) es formal e impersonal y se organiza con **títulos**: **Introduction · Findings · Recommendations · Conclusion**. Empieza con el propósito: **The aim of this report is to…** · **This report outlines…** Presenta datos: **According to the survey,…** · **The majority of staff (65%)…** · **Only a minority…** · **It was found that…**"
+       },
+       {
+        "ex": [
+         [
+          "The aim of this report is to assess staff well-being.",
+          "El objetivo de este informe es evaluar el bienestar del personal."
+         ],
+         [
+          "According to the survey, 60% of employees feel stressed.",
+          "Según la encuesta, el 60 % de los empleados se siente estresado."
+         ],
+         [
+          "The majority of staff would like flexible hours.",
+          "La mayoría del personal quisiera horario flexible."
+         ],
+         [
+          "Only a small minority use the gym.",
+          "Solo una pequeña minoría usa el gimnasio."
+         ],
+         [
+          "It was found that long meetings reduce productivity.",
+          "Se encontró que las reuniones largas reducen la productividad."
+         ]
+        ]
+       },
+       {
+        "p": "Para **recomendar** con formalidad: **It is recommended that the company (should) introduce…** · **I would suggest + -ing** · **It would be advisable to…** · **The company should consider…** Vocabulario de **bienestar**: **well-being, mental health, burnout** (agotamiento), **workload** (carga de trabajo), **work-life balance**, **anxiety, counselling, take a break, sick leave, flexible hours**."
+       },
+       {
+        "ex": [
+         [
+          "It is recommended that the company introduce flexible hours.",
+          "Se recomienda que la empresa implemente horario flexible."
+         ],
+         [
+          "I would suggest offering free counselling sessions.",
+          "Sugeriría ofrecer sesiones gratuitas de apoyo psicológico."
+         ],
+         [
+          "It would be advisable to reduce the workload.",
+          "Sería aconsejable reducir la carga de trabajo."
+         ],
+         [
+          "Many employees are at risk of burnout.",
+          "Muchos empleados están en riesgo de agotamiento."
+         ],
+         [
+          "A better work-life balance would improve morale.",
+          "Un mejor equilibrio entre vida y trabajo mejoraría el ánimo."
+         ]
+        ]
+       },
+       {
+        "tip": "En un informe evita **I think** y las contracciones (**don't, it's**). Usa formas impersonales: **It was found that… · It appears that… · It is clear that…**"
+       }
+      ],
+      "vocab": [
+       [
+        "report",
+        "sustantivo",
+        "informe",
+        "Write a report for your manager."
+       ],
+       [
+        "the aim of this report",
+        "expresión",
+        "el objetivo de este informe",
+        "The aim of this report is to…"
+       ],
+       [
+        "findings",
+        "sustantivo",
+        "hallazgos, resultados",
+        "The findings are worrying."
+       ],
+       [
+        "survey",
+        "sustantivo",
+        "encuesta",
+        "We carried out a survey."
+       ],
+       [
+        "the majority of",
+        "expresión",
+        "la mayoría de",
+        "The majority of staff agree."
+       ],
+       [
+        "a minority of",
+        "expresión",
+        "una minoría de",
+        "Only a minority complained."
+       ],
+       [
+        "it was found that",
+        "expresión",
+        "se encontró que",
+        "It was found that people work late."
+       ],
+       [
+        "it is recommended that",
+        "expresión",
+        "se recomienda que",
+        "It is recommended that we act now."
+       ],
+       [
+        "advisable",
+        "adjetivo",
+        "aconsejable",
+        "It would be advisable to wait."
+       ],
+       [
+        "well-being",
+        "sustantivo",
+        "bienestar",
+        "Staff well-being is important."
+       ],
+       [
+        "mental health",
+        "expresión",
+        "salud mental",
+        "Mental health matters."
+       ],
+       [
+        "burnout",
+        "sustantivo",
+        "agotamiento, desgaste laboral",
+        "Burnout is a serious problem."
+       ],
+       [
+        "workload",
+        "sustantivo",
+        "carga de trabajo",
+        "My workload is too heavy."
+       ],
+       [
+        "work-life balance",
+        "expresión",
+        "equilibrio vida-trabajo",
+        "I need a better work-life balance."
+       ],
+       [
+        "anxiety",
+        "sustantivo",
+        "ansiedad",
+        "Anxiety affects many young people."
+       ],
+       [
+        "counselling",
+        "sustantivo",
+        "apoyo psicológico, asesoría",
+        "The company offers counselling."
+       ],
+       [
+        "sick leave",
+        "expresión",
+        "incapacidad, licencia por enfermedad",
+        "She's on sick leave."
+       ],
+       [
+        "morale",
+        "sustantivo",
+        "moral, ánimo (de un grupo)",
+        "Team morale is low."
+       ],
+       [
+        "outline",
+        "verbo",
+        "describir a grandes rasgos",
+        "This report outlines the main problems."
+       ],
+       [
+        "assess",
+        "verbo",
+        "evaluar",
+        "We need to assess the situation."
+       ],
+       [
+        "measure",
+        "sustantivo",
+        "medida",
+        "We need urgent measures."
+       ],
+       [
+        "take a break",
+        "expresión",
+        "tomar un descanso",
+        "Take a break every two hours."
+       ]
+      ],
+      "dialogue": {
+       "title": "Los resultados de la encuesta",
+       "scene": "Natalia, de recursos humanos, revisa con su jefe Germán los resultados de una encuesta de bienestar antes de escribir el informe para la gerencia.",
+       "a": "Germán",
+       "b": "Natalia",
+       "lines": [
+        [
+         "A",
+         "So, what did the well-being survey show?",
+         "Bueno, ¿qué mostró la encuesta de bienestar?"
+        ],
+        [
+         "B",
+         "The findings are quite worrying. The majority of staff, about sixty-five percent, say their workload is too heavy.",
+         "Los resultados son bastante preocupantes. La mayoría del personal, como el sesenta y cinco por ciento, dice que tiene demasiada carga de trabajo."
+        ],
+        [
+         "A",
+         "That's high. Anything about mental health?",
+         "Es alto. ¿Algo sobre salud mental?"
+        ],
+        [
+         "B",
+         "Yes. Almost forty percent said they had felt anxiety or symptoms of burnout in the last six months.",
+         "Sí. Casi el cuarenta por ciento dijo que había sentido ansiedad o síntomas de agotamiento en los últimos seis meses."
+        ],
+        [
+         "A",
+         "Hmm. And how many people took sick leave?",
+         "Mmm. ¿Y cuánta gente tomó incapacidad?"
+        ],
+        [
+         "B",
+         "Fewer than you'd think, only a minority. It seems people keep working even when they're unwell.",
+         "Menos de lo que uno pensaría, solo una minoría. Parece que la gente sigue trabajando aunque se sienta mal."
+        ],
+        [
+         "A",
+         "That's not good for anyone. What do they want?",
+         "Eso no es bueno para nadie. ¿Qué quieren?"
+        ],
+        [
+         "B",
+         "Flexible hours, mostly. And fewer meetings. It was found that people spend twelve hours a week in meetings.",
+         "Sobre todo horario flexible. Y menos reuniones. Se encontró que la gente pasa doce horas a la semana en reuniones."
+        ],
+        [
+         "A",
+         "Twelve hours! OK. What will you recommend in the report?",
+         "¡Doce horas! Bueno. ¿Qué vas a recomendar en el informe?"
+        ],
+        [
+         "B",
+         "First, it is recommended that the company introduce flexible hours for everyone. Second, I would suggest limiting meetings to thirty minutes.",
+         "Primero, se recomienda que la empresa implemente horario flexible para todos. Segundo, sugeriría limitar las reuniones a treinta minutos."
+        ],
+        [
+         "A",
+         "And counselling?",
+         "¿Y apoyo psicológico?"
+        ],
+        [
+         "B",
+         "Yes, it would be advisable to offer free counselling sessions. Several companies in Medellín already do it, and morale has improved.",
+         "Sí, sería aconsejable ofrecer sesiones gratuitas. Varias empresas en Medellín ya lo hacen y la moral ha mejorado."
+        ],
+        [
+         "A",
+         "Excellent. Make sure the report is clear and short. The directors don't read long documents.",
+         "Excelente. Asegúrate de que el informe sea claro y corto. Los directores no leen documentos largos."
+        ],
+        [
+         "B",
+         "Don't worry. Four sections, clear headings and the key numbers in the first paragraph.",
+         "Tranquilo. Cuatro secciones, títulos claros y las cifras clave en el primer párrafo."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "¿Cuál es el mejor comienzo para un informe?",
+        "o": [
+         "The aim of this report is to assess staff satisfaction.",
+         "Hi! I want to tell you about the survey.",
+         "I think the staff are not very happy, you know.",
+         "Once upon a time, there was a company."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "It is recommended that the company ___ more breaks.",
+        "o": [
+         "introduce",
+         "introduces will",
+         "to introduce",
+         "introducing"
+        ],
+        "a": 0,
+        "x": "It is recommended that + verbo base (subjuntivo)."
+       },
+       {
+        "t": "mc",
+        "q": "I would suggest ___ free counselling sessions.",
+        "o": [
+         "offering",
+         "to offer",
+         "offer",
+         "that offering"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Too much work and stress can lead to ___. (agotamiento laboral)",
+        "ans": [
+         "burnout"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "According to the survey, the majority of employees would prefer to work from home two days a week, while only a minority want to stay in the office every day.",
+        "q": "¿Qué prefiere la mayoría?",
+        "o": [
+         "Trabajar desde casa dos días a la semana",
+         "Ir a la oficina todos los días",
+         "Trabajar desde casa siempre",
+         "Trabajar menos horas"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "It would be advisable to reduce the workload of the sales team."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "aim",
+         "of",
+         "this",
+         "report",
+         "is",
+         "to",
+         "outline",
+         "the",
+         "main",
+         "problems."
+        ],
+        "es": "El objetivo de este informe es describir los principales problemas."
+       },
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "was",
+         "found",
+         "that",
+         "meetings",
+         "were",
+         "too",
+         "long."
+        ],
+        "es": "Se encontró que las reuniones eran muy largas."
+       },
+       {
+        "t": "dict",
+        "say": "The majority of staff feel stressed at work."
+       },
+       {
+        "t": "dict",
+        "say": "A better work-life balance would improve morale."
+       },
+       {
+        "t": "mc",
+        "q": "En un informe formal NO debes usar:",
+        "o": [
+         "contracciones como don't y it's",
+         "títulos para cada sección",
+         "datos de la encuesta",
+         "recomendaciones"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Your ___ is the amount of work you have to do.",
+        "o": [
+         "workload",
+         "well-being",
+         "burnout",
+         "morale"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "It appears that staff who take regular breaks are more productive. Therefore, it is recommended that managers encourage short breaks every two hours.",
+        "q": "¿Qué se recomienda?",
+        "o": [
+         "Que los jefes promuevan pausas cortas cada dos horas",
+         "Eliminar los descansos",
+         "Trabajar más horas",
+         "Hacer más reuniones"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un informe para el director de tu empresa o colegio sobre el bienestar de las personas (mínimo 140 palabras). Usa títulos (Introduction, Findings, Recommendations, Conclusion), datos de una encuesta imaginaria y al menos dos recomendaciones formales.",
+        "min": 140,
+        "keys": [
+         [
+          "introduction",
+          "the aim of this report",
+          "this report"
+         ],
+         [
+          "findings",
+          "according to",
+          "the majority",
+          "minority",
+          "it was found"
+         ],
+         [
+          "recommendations",
+          "it is recommended",
+          "i would suggest",
+          "advisable",
+          "should consider"
+         ],
+         [
+          "conclusion",
+          "to conclude",
+          "in conclusion"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___ of this report is to assess the new working hours.",
+       "o": [
+        "The aim",
+        "The aims for",
+        "My idea",
+        "The finish"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "It is ___ that the company introduce flexible hours. (se recomienda)",
+       "ans": [
+        "recommended"
+       ]
+      },
+      "reading": 21,
+      "words": []
+     },
+     {
+      "id": "b2-u8-l5",
+      "title": "Sostenibilidad: debatir soluciones y proponer cambios",
+      "goal": "Discutir problemas ambientales con argumentos y matices, y proponer soluciones realistas.",
+      "theory": [
+       {
+        "p": "Vocabulario de **sostenibilidad**: **sustainable** (sostenible), **carbon emissions**, **fossil fuels** (combustibles fósiles), **renewable energy**, **carbon footprint**, **single-use plastics**, **landfill** (relleno sanitario), **biodiversity**, **deforestation**, **offset** (compensar), **greenwashing** (publicidad «verde» engañosa), **tipping point** (punto de no retorno), **circular economy**."
+       },
+       {
+        "ex": [
+         [
+          "Fossil fuels are still our main source of energy.",
+          "Los combustibles fósiles siguen siendo nuestra principal fuente de energía."
+         ],
+         [
+          "Most of our rubbish ends up in landfill.",
+          "La mayoría de nuestra basura termina en el relleno sanitario."
+         ],
+         [
+          "Deforestation threatens biodiversity in the Amazon.",
+          "La deforestación amenaza la biodiversidad en la Amazonía."
+         ],
+         [
+          "Some companies are accused of greenwashing.",
+          "A algunas empresas las acusan de publicidad verde engañosa."
+         ],
+         [
+          "We may be close to a tipping point.",
+          "Puede que estemos cerca de un punto de no retorno."
+         ]
+        ]
+       },
+       {
+        "p": "Para **debatir soluciones** como en la parte 3 del speaking: proponer (**One solution would be to… · What if we…?**), evaluar (**That would be effective, but… · The problem with that is… · It might be more realistic to…**), dar prioridad (**The most urgent thing is… · In the long term,…**) y llegar a un acuerdo (**So we agree that… · Shall we go for…?**)."
+       },
+       {
+        "ex": [
+         [
+          "One solution would be to tax single-use plastics.",
+          "Una solución sería ponerle impuestos al plástico de un solo uso."
+         ],
+         [
+          "That would be effective, but it might be unpopular.",
+          "Eso sería efectivo, pero podría ser impopular."
+         ],
+         [
+          "The problem with electric cars is the price.",
+          "El problema con los carros eléctricos es el precio."
+         ],
+         [
+          "In the long term, education is the key.",
+          "A largo plazo, la educación es la clave."
+         ],
+         [
+          "So we agree that public transport is the priority.",
+          "Entonces estamos de acuerdo en que el transporte público es la prioridad."
+         ]
+        ]
+       },
+       {
+        "tip": "No exageres: en un debate B2 suena más convincente matizar (**This could significantly reduce…**) que decir **This will solve everything**. Usa **could, might, tend to, to some extent**."
+       }
+      ],
+      "vocab": [
+       [
+        "sustainable",
+        "adjetivo",
+        "sostenible",
+        "A sustainable lifestyle."
+       ],
+       [
+        "carbon emissions",
+        "expresión",
+        "emisiones de carbono",
+        "We must cut carbon emissions."
+       ],
+       [
+        "fossil fuels",
+        "expresión",
+        "combustibles fósiles",
+        "Coal and oil are fossil fuels."
+       ],
+       [
+        "renewable energy",
+        "expresión",
+        "energía renovable",
+        "Colombia is investing in renewable energy."
+       ],
+       [
+        "carbon footprint",
+        "expresión",
+        "huella de carbono",
+        "Flying increases your carbon footprint."
+       ],
+       [
+        "landfill",
+        "sustantivo",
+        "relleno sanitario",
+        "The landfill is almost full."
+       ],
+       [
+        "biodiversity",
+        "sustantivo",
+        "biodiversidad",
+        "Colombia has amazing biodiversity."
+       ],
+       [
+        "threaten",
+        "verbo",
+        "amenazar",
+        "Mining threatens the páramos."
+       ],
+       [
+        "offset",
+        "verbo",
+        "compensar",
+        "Plant trees to offset emissions."
+       ],
+       [
+        "greenwashing",
+        "sustantivo",
+        "lavado verde, publicidad ecológica engañosa",
+        "That ad is pure greenwashing."
+       ],
+       [
+        "tipping point",
+        "expresión",
+        "punto de no retorno",
+        "We are near a tipping point."
+       ],
+       [
+        "circular economy",
+        "expresión",
+        "economía circular",
+        "A circular economy reduces waste."
+       ],
+       [
+        "single-use",
+        "adjetivo",
+        "de un solo uso",
+        "Ban single-use plastics."
+       ],
+       [
+        "phase out",
+        "verbo",
+        "eliminar gradualmente",
+        "Phase out coal by 2040."
+       ],
+       [
+        "tax",
+        "verbo / sustantivo",
+        "gravar; impuesto",
+        "Tax plastic bags."
+       ],
+       [
+        "incentive",
+        "sustantivo",
+        "incentivo",
+        "Incentives for electric cars."
+       ],
+       [
+        "effective",
+        "adjetivo",
+        "eficaz, efectivo",
+        "An effective solution."
+       ],
+       [
+        "unpopular",
+        "adjetivo",
+        "impopular",
+        "The measure was unpopular."
+       ],
+       [
+        "realistic",
+        "adjetivo",
+        "realista",
+        "A more realistic goal."
+       ],
+       [
+        "priority",
+        "sustantivo",
+        "prioridad",
+        "Water is the main priority."
+       ],
+       [
+        "in the long term",
+        "expresión",
+        "a largo plazo",
+        "In the long term, it saves money."
+       ],
+       [
+        "urgent",
+        "adjetivo",
+        "urgente",
+        "The most urgent problem is water."
+       ]
+      ],
+      "dialogue": {
+       "title": "El debate del colegio",
+       "scene": "En un concurso de debate escolar en Bucaramanga, Sara y Miguel deben decidir qué medida ambiental proponer al alcalde.",
+       "a": "Sara",
+       "b": "Miguel",
+       "lines": [
+        [
+         "A",
+         "OK, we have to choose one measure for the city. Shall we start with transport?",
+         "Bueno, tenemos que escoger una medida para la ciudad. ¿Empezamos con el transporte?"
+        ],
+        [
+         "B",
+         "Sure. One solution would be to ban cars from the city centre on weekdays.",
+         "Claro. Una solución sería prohibir los carros en el centro entre semana."
+        ],
+        [
+         "A",
+         "That would be effective, but it might be very unpopular. Many people depend on their cars.",
+         "Sería efectivo, pero podría ser muy impopular. Mucha gente depende del carro."
+        ],
+        [
+         "B",
+         "True. What if we offered incentives instead, like cheaper electric buses?",
+         "Cierto. ¿Y si ofrecemos incentivos en cambio, como buses eléctricos más baratos?"
+        ],
+        [
+         "A",
+         "I like that. It could significantly reduce carbon emissions without punishing anyone.",
+         "Me gusta. Podría reducir mucho las emisiones de carbono sin castigar a nadie."
+        ],
+        [
+         "B",
+         "The problem is that electric buses are expensive at first.",
+         "El problema es que los buses eléctricos son caros al principio."
+        ],
+        [
+         "A",
+         "Yes, but in the long term they save money on fuel. And the air would be much cleaner.",
+         "Sí, pero a largo plazo ahorran en combustible. Y el aire estaría mucho más limpio."
+        ],
+        [
+         "B",
+         "What about waste? The landfill is almost full, and most plastic isn't recycled.",
+         "¿Y la basura? El relleno sanitario está casi lleno y la mayoría del plástico no se recicla."
+        ],
+        [
+         "A",
+         "That's urgent too. We could propose taxing single-use plastics and moving towards a circular economy.",
+         "Eso también es urgente. Podríamos proponer gravar los plásticos de un solo uso y avanzar hacia una economía circular."
+        ],
+        [
+         "B",
+         "But we can only choose one. Which is the priority?",
+         "Pero solo podemos escoger una. ¿Cuál es la prioridad?"
+        ],
+        [
+         "A",
+         "To some extent, both are important. However, transport affects everyone's health every day.",
+         "Hasta cierto punto, las dos son importantes. Sin embargo, el transporte afecta la salud de todos todos los días."
+        ],
+        [
+         "B",
+         "Fair point. So we agree that cheaper electric buses are our main proposal?",
+         "Buen punto. ¿Entonces estamos de acuerdo en que los buses eléctricos más baratos son nuestra propuesta principal?"
+        ],
+        [
+         "A",
+         "Agreed. And we'll mention plastic as a second step.",
+         "De acuerdo. Y mencionamos el plástico como segundo paso."
+        ],
+        [
+         "B",
+         "Perfect. Let's go and convince the judges.",
+         "Perfecto. Vamos a convencer a los jurados."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Coal, oil and gas are ___.",
+        "o": [
+         "fossil fuels",
+         "renewable energy",
+         "landfill",
+         "biodiversity"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "When a company pretends to be eco-friendly but isn't, it's called ___.",
+        "o": [
+         "greenwashing",
+         "offsetting",
+         "recycling",
+         "phasing out"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "One solution would be ___ single-use plastics.",
+        "o": [
+         "to ban",
+         "ban",
+         "banning to",
+         "that ban"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The government plans to phase ___ coal power stations by 2040. (eliminar gradualmente)",
+        "ans": [
+         "out"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Banning cars completely would be effective, but it might be too unpopular. It might be more realistic to improve public transport first.",
+        "q": "¿Qué parece más realista?",
+        "o": [
+         "Mejorar primero el transporte público",
+         "Prohibir todos los carros",
+         "No hacer nada",
+         "Subir el precio de la gasolina"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "In the long term, renewable energy is cheaper and cleaner."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Deforestation",
+         "threatens",
+         "biodiversity",
+         "in",
+         "the",
+         "Amazon."
+        ],
+        "es": "La deforestación amenaza la biodiversidad en la Amazonía."
+       },
+       {
+        "t": "order",
+        "words": [
+         "So",
+         "we",
+         "agree",
+         "that",
+         "transport",
+         "is",
+         "the",
+         "priority."
+        ],
+        "es": "Entonces estamos de acuerdo en que el transporte es la prioridad."
+       },
+       {
+        "t": "dict",
+        "say": "Most of our rubbish ends up in landfill."
+       },
+       {
+        "t": "dict",
+        "say": "We need to reduce our carbon footprint."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál frase está mejor matizada para un debate?",
+        "o": [
+         "This measure could significantly reduce emissions.",
+         "This measure will solve all our problems.",
+         "This is the only possible solution.",
+         "Everybody agrees with this."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "—What if we taxed plastic bags? —That would be effective, ___ some people might complain.",
+        "o": [
+         "but",
+         "so",
+         "because",
+         "unless"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Colombia is one of the most biodiverse countries in the world, but mining and deforestation threaten many species. Some experts warn that we may be close to a tipping point.",
+        "q": "¿Qué advierten algunos expertos?",
+        "o": [
+         "Que podríamos estar cerca de un punto de no retorno",
+         "Que el problema está resuelto",
+         "Que la minería ayuda",
+         "Que no hay especies en peligro"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe una propuesta al alcalde de tu ciudad (mínimo 140 palabras) con dos medidas para hacerla más sostenible. Explica el problema, evalúa ventajas y desventajas de cada medida (that would be effective, but…; the problem with…) y di cuál es la prioridad.",
+        "min": 140,
+        "keys": [
+         [
+          "sustainable",
+          "emissions",
+          "renewable",
+          "recycling",
+          "waste",
+          "landfill",
+          "plastic",
+          "pollution",
+          "carbon"
+         ],
+         [
+          "one solution would be",
+          "what if",
+          "we could",
+          "it might be more realistic"
+         ],
+         [
+          "would be effective",
+          "the problem with",
+          "but",
+          "however"
+         ],
+         [
+          "priority",
+          "in the long term",
+          "the most urgent"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Many companies plant trees to ___ their carbon emissions.",
+       "o": [
+        "offset",
+        "threaten",
+        "phase",
+        "tax"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Colombia has one of the highest levels of ___ in the world. (biodiversidad)",
+       "ans": [
+        "biodiversity"
+       ]
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "In the first photo they're relaxed, ___ in the second they look stressed.",
+      "o": [
+       "whereas",
+       "despite",
+       "however",
+       "in spite"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The cathedral is well worth ___.",
+      "o": [
+       "visiting",
+       "to visit",
+       "visit",
+       "for visiting"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The film is ___ in Barranquilla during the Carnival.",
+      "o": [
+       "set",
+       "situated",
+       "placed",
+       "based on"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "It is recommended that every employee ___ a break every two hours.",
+      "o": [
+       "take",
+       "takes will",
+       "to take",
+       "taking"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Coal and oil are examples of ___.",
+      "o": [
+       "fossil fuels",
+       "renewable energy",
+       "carbon offsets",
+       "landfills"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "They look as ___ they've been arguing. (si)",
+      "ans": [
+       "if",
+       "though"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Without giving away the ending, I'd say the plot is gripping but a bit far-fetched. Still, I'd recommend it to anyone who loves thrillers.",
+      "q": "¿Qué defecto menciona?",
+      "o": [
+       "Que es un poco inverosímil",
+       "Que es lenta",
+       "Que el reparto es malo",
+       "Que es muy corta"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "According to the survey, the majority of staff feel their workload is too heavy, and almost a third have experienced symptoms of burnout.",
+      "q": "¿Cuántos han tenido síntomas de agotamiento?",
+      "o": [
+       "Casi un tercio",
+       "La mayoría",
+       "Nadie",
+       "La mitad"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un artículo para la revista de tu empresa o universidad (mínimo 140 palabras) titulado «How to look after yourself and the planet». Da consejos de bienestar y de sostenibilidad, persuade al lector (I'd strongly recommend, it's well worth…) y matiza tus afirmaciones.",
+      "min": 140,
+      "keys": [
+       [
+        "well-being",
+        "mental health",
+        "stress",
+        "burnout",
+        "work-life balance",
+        "take a break"
+       ],
+       [
+        "sustainable",
+        "recycle",
+        "plastic",
+        "carbon footprint",
+        "renewable",
+        "waste"
+       ],
+       [
+        "i'd strongly recommend",
+        "well worth",
+        "you won't regret",
+        "why not",
+        "you really should"
+       ],
+       [
+        "could",
+        "might",
+        "tend to",
+        "to some extent"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "Both photos show people spending time with their families."
+     },
+     {
+      "t": "oral",
+      "text": "It would be advisable to reduce the number of meetings."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "She never helps anyone. She's very ___.",
+      "o": [
+       "selfish",
+       "supportive",
+       "sensitive",
+       "trustworthy"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "___ you do, don't miss the street food in Cartagena.",
+      "o": [
+       "Whatever",
+       "However",
+       "Whenever",
+       "Wherever"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Please don't ___ the ending!",
+      "o": [
+       "give away",
+       "give up",
+       "give in",
+       "give out"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I would suggest ___ the meetings to thirty minutes.",
+      "o": [
+       "limiting",
+       "to limit",
+       "limit",
+       "that limiting"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "One solution would be ___ public transport cheaper.",
+      "o": [
+       "to make",
+       "make",
+       "making to",
+       "that make"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "A place few tourists know is ___.",
+      "o": [
+       "off the beaten track",
+       "a tourist trap",
+       "overrated",
+       "crowded"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "The majority ___ staff would like flexible hours. (de)",
+      "ans": [
+       "of"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "I binge-___ the whole series in one weekend. (ver seguido, pasado)",
+      "ans": [
+       "watched"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "They can't be tourists. They're speaking to the waiter like old friends. I'd say they're probably locals.",
+      "q": "¿Qué cree quien habla?",
+      "o": [
+       "Que son personas del lugar",
+       "Que son turistas",
+       "Que son meseros",
+       "Que son actores"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "If you only have one day in Medellín, make it Comuna 13. The street art is breathtaking, and the local guides tell amazing stories.",
+      "q": "¿Qué recomienda?",
+      "o": [
+       "Visitar la Comuna 13",
+       "Ir al centro comercial",
+       "Quedarse en el hotel",
+       "Ir a la playa"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Some companies say their products are green, but it's just greenwashing. Real change means cutting emissions, not just changing the packaging.",
+      "q": "¿Qué significa un cambio real, según quien habla?",
+      "o": [
+       "Reducir las emisiones",
+       "Cambiar el empaque",
+       "Hacer más publicidad",
+       "Subir los precios"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe una reseña (mínimo 140 palabras) de un lugar turístico de Colombia que conozcas, como si fuera para una página de viajes: dónde está, qué lo hace especial, lo negativo, si es sostenible y tu recomendación.",
+      "min": 140,
+      "keys": [
+       [
+        "breathtaking",
+        "stunning",
+        "hidden gem",
+        "must-see",
+        "crowded",
+        "tourist trap",
+        "unspoilt"
+       ],
+       [
+        "however",
+        "although",
+        "on the other hand",
+        "but"
+       ],
+       [
+        "recommend",
+        "well worth",
+        "give it a miss",
+        "out of"
+       ],
+       [
+        "sustainable",
+        "local",
+        "nature",
+        "plastic",
+        "environment"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "They look as if they're having a wonderful time."
+     },
+     {
+      "t": "oral",
+      "text": "The plot is gripping from start to finish."
+     },
+     {
+      "t": "oral",
+      "text": "One solution would be to tax single-use plastics."
+     }
+    ]
    }
   ],
   "final": {
@@ -73308,6 +78442,50 @@ window.SYLLABUS = {
     {
      "t": "oral",
      "text": "Although the plan seems risky, I'm convinced it will pay off in the long run."
+    },
+    {
+     "t": "listen",
+     "say": "We were supposed to launch the app in March, but there were problems with the design. It's now likely to be ready in June.",
+     "q": "¿Cuándo es probable que esté lista la aplicación?",
+     "o": [
+      "En junio",
+      "En marzo",
+      "El próximo año",
+      "Ya está lista"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Both photos show people on holiday, but in the first they look relaxed, whereas in the second they look as if they're lost.",
+     "q": "¿Cómo se ven las personas de la segunda foto?",
+     "o": [
+      "Como si estuvieran perdidas",
+      "Relajadas",
+      "Felices",
+      "Cansadas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "According to the survey, the majority of staff feel stressed. It is recommended that the company introduce flexible hours.",
+     "q": "¿Qué se recomienda?",
+     "o": [
+      "Horario flexible",
+      "Más reuniones",
+      "Más horas de trabajo",
+      "Un nuevo gerente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "oral",
+     "text": "What I enjoyed most about the series was the soundtrack."
+    },
+    {
+     "t": "oral",
+     "text": "Whatever you do, don't miss the sunset from the old city wall."
     },
     {
      "t": "write",

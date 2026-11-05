@@ -92,7 +92,7 @@ const linkedReadings = LV.map(() => new Set());
 Object.entries(W.SYLLABUS).forEach(([Ls, sy]) => {
   const L = +Ls, lv = LV[L];
   if (!str(sy.intro)) warn(lv, "el nivel no tiene introducción");
-  const UNITS = { A1: 8, A2: 8, B1: 8 }; if (!sy.units || sy.units.length !== (UNITS[lv] || 6)) err(lv, `tiene ${sy.units ? sy.units.length : 0} unidades (se esperan ${UNITS[lv] || 6})`);
+  const UNITS = { A1: 8, A2: 8, B1: 8, B2: 8 }; if (!sy.units || sy.units.length !== (UNITS[lv] || 6)) err(lv, `tiene ${sy.units ? sy.units.length : 0} unidades (se esperan ${UNITS[lv] || 6})`);
   let day = 0;
   sy.units.forEach((u, ui) => {
     const uw = `${lv} · Unidad ${ui + 1}`;

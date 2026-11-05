@@ -82,7 +82,7 @@
   {
    "area": "Gramática",
    "tema": "Make / let / allow / force + objeto + verbo",
-   "titulo": "make, let|let y allow",
+   "titulo": "make, let|let y allow|make / let",
    "buscar": [
     "\\b(made|make|makes) (me|him|her|us|them) [a-z]+\\b",
     "\\b(let|lets) (me|him|her|us|them) [a-z]+\\b",

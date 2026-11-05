@@ -487,3 +487,58 @@ instrument | - | sustantivo | instrumento | A faulty instrument.
 led | lead | verbo (pasado) | llevó, condujo | It led him to believe...
 sinking | sink | verbo (-ing) | hundiéndose | The ship was sinking.
 mysteries | mystery | sustantivo (plural) | misterios | Unsolved mysteries.
+isidro | - | nombre propio | Isidro; (San Isidro) nombre de un pueblo | The people of San Isidro were delighted.
+mayor | - | sustantivo | alcalde | The mayor promised a new bridge.
+inauguration | - | sustantivo | inauguración | The inauguration was to have taken place in 2016.
+construction | - | sustantivo | construcción | A construction company won the contract.
+insisted | insist | verbo (pasado) | insistió | The council insisted that the company finish the job.
+director | - | sustantivo | director, directora | The director claimed the budget was too low.
+claimed | claim | verbo (pasado) | afirmó, aseguró | He claimed that it wasn't his fault.
+unstable | - | adjetivo | inestable | The ground was unstable.
+half-built | - | adjetivo | a medio construir | The half-built bridge became a symbol.
+doña | - | tratamiento | doña (tratamiento de respeto) | Doña Carmen is still waiting.
+carmen | - | nombre propio | Carmen (nombre de mujer) | Doña Carmen has a restaurant.
+exception | - | sustantivo | excepción | My parents were no exception.
+grounded | ground | verbo (participio) | castigado sin salir | We were grounded for a week.
+hated | hate | verbo (pasado) | odiaba, odié | I hated the rules.
+friends' | friend | sustantivo (posesivo plural) | de los amigos | My friends' parents were more relaxed.
+parent | - | sustantivo | padre o madre | Now I'm a parent myself.
+opinions | opinion | sustantivo (plural) | opiniones | They are allowed to give their opinions.
+needn't | need not | contracción | no hace falta, no tenía que | They needn't have worried.
+mug | - | sustantivo | pocillo, taza grande | They broke my favourite mug.
+keeper | - | sustantivo | guardián, cuidador; (lighthouse keeper) farero | The Lighthouse Keeper is a series.
+ramón | - | nombre propio | Ramón (nombre de hombre) | Ramón is a quiet fisherman.
+fisherman | - | sustantivo | pescador | He's a fisherman from Santa Marta.
+small-town | - | adjetivo | de pueblo pequeño | A small-town mystery.
+thriller | - | sustantivo | thriller, película o serie de suspenso | It's a gripping thriller.
+friendship | - | sustantivo | amistad | A story about friendship.
+loyalty | - | sustantivo | lealtad | Friendship, loyalty and silence.
+strikes | strike | verbo (3.ª persona) | impacta, llama la atención | The first thing that strikes you is the photography.
+photography | - | sustantivo | fotografía | The photography is stunning.
+shots | shot | sustantivo (plural) | tomas, planos (cine) | Long, silent shots of the sea.
+contrasts | contrast | verbo (3.ª persona) | contrasta | The calm contrasts with the tension.
+vallenatos | vallenato | sustantivo (plural) | vallenatos (música colombiana) | The soundtrack is full of old vallenatos.
+cumbias | cumbia | sustantivo (plural) | cumbias (música colombiana) | Vallenatos and cumbias.
+newcomer | - | sustantivo | recién llegado, debutante | Newcomer Julián Arango plays Ramón.
+arango | - | nombre propio | Arango (apellido) | Julián Arango plays the lead.
+subtlety | - | sustantivo | sutileza | He acts with remarkable subtlety.
+scenes | scene | sustantivo (plural) | escenas | His scenes with his mother are moving.
+darkest | dark | adjetivo (superlativo) | más oscuro | Even in the darkest episodes.
+corrupt | - | adjetivo | corrupto | A corrupt politician.
+viewers | viewer | sustantivo (plural) | televidentes, espectadores | Some viewers may find it violent.
+episode | - | sustantivo | episodio, capítulo | The final episode is violent.
+spoilers | spoiler | sustantivo (plural) | spoilers, revelaciones | Without giving away any spoilers.
+dramas | drama | sustantivo (plural) | dramas | Intelligent crime dramas.
+dislike | - | verbo | no gustar, desagradar | If you dislike slow storytelling…
+richly | - | adverbio | ampliamente, generosamente | You will be richly rewarded.
+recognising | recognise | verbo (-ing) | reconociendo | Companies are recognising the problem.
+overwork | - | sustantivo | exceso de trabajo | Overwork has a hidden cost.
+organization | - | sustantivo | organización | The World Health Organization.
+cynical | - | adjetivo | cínico, desencantado | They become cynical about their jobs.
+periods | period | sustantivo (plural) | periodos | Long periods of sick leave.
+employers | employer | sustantivo (plural) | empleadores | Employers have a responsibility.
+deadlines | deadline | sustantivo (plural) | plazos, fechas límite | Set realistic deadlines.
+limit | - | verbo / sustantivo | limitar; límite | Limit the length of meetings.
+software | - | sustantivo | software | A software firm in Medellín.
+sessions | session | sustantivo (plural) | sesiones | Free counselling sessions.
+luxury | - | sustantivo | lujo | Balance is not a luxury.

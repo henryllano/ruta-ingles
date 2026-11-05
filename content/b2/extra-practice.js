@@ -91,5 +91,35 @@ module.exports = [
  T("Job interview: tell me about yourself. Present, past and future.", 45, [["currently", "i'm working", "i work"], ["before", "previously"], ["i'm looking for", "i would like", "i'd like"]], "I'm currently working as a sales assistant in a technology company, where I deal with clients every day. Previously, I worked in a call centre for two years. Now I'm looking for a position with more responsibility."),
  T("A customer calls angry because their order is late. Answer politely, apologise and offer a solution.", 35, [["sorry", "apologise", "apologize"], ["i'll", "i will", "we will", "we'll"]], "I'm really sorry about the delay. I completely understand your frustration. I'll check the status of your order right now, and if it doesn't arrive tomorrow, we will send you a new one free of charge."),
  T("Listen to your manager's question and answer it professionally.", 30, [["because", "so"]], "Yes, the project is on track. We've finished the design phase and we're now testing the app, so we should be ready to launch by the end of the month.", "Hi, can you give me a quick update on the project? Are we still on track for the launch?")
+],
+/* Unidad 7 · Precisión y énfasis */
+[
+ L("I was going to apply for the job, but the deadline was yesterday. I was supposed to send my CV last week.", "¿Por qué no aplicó?", ["Se le pasó la fecha límite", "No le interesaba", "No tenía hoja de vida", "Lo rechazaron"], 0),
+ L("We needn't have brought umbrellas. It didn't rain at all, but the forecast said it was bound to.", "¿Qué pasó con la lluvia?", ["No llovió", "Llovió mucho", "Llovió un poco", "Hubo tormenta"], 0),
+ L("What I love about this city isn't the weather. It's the people, who always make you feel at home.", "¿Qué le encanta de la ciudad?", ["La gente", "El clima", "La comida", "Los parques"], 0),
+ L("She's a hard-working, self-confident manager who got promoted after only two years.", "¿Qué le pasó a los dos años?", ["La ascendieron", "La despidieron", "Renunció", "Se mudó"], 0),
+ M("The plane ___ land at nine, but it was delayed.", ["was due to", "is due", "was due", "due to"], 0, "Was due to = estaba programado para."),
+ M("Never ___ such a delicious meal.", ["have I eaten", "I have eaten", "I ate", "did I ate"], 0, "Inversión después de never al inicio."),
+ F("It's a ten-___ walk from here. (minuto)", ["minute"], "Adjetivo compuesto: el sustantivo en singular."),
+ O("I was about to call you when you walked in."),
+ O("What I need right now is a long holiday."),
+ T("Talk about a rule you had to follow as a child that you didn't like.", 30, [["allowed to", "made me", "let me", "supposed to"]], "When I was a child, my parents made me go to bed at eight, and I wasn't allowed to watch TV during the week. I was supposed to read instead."),
+ T("Make three predictions about technology in the next ten years. Use different expressions of probability.", 30, [["bound to", "likely to", "may well", "unlikely to", "there's a good chance", "i doubt"]], "Electric cars are bound to become cheaper. There's a good chance that most people will work from home, but I doubt robots will replace teachers."),
+ T("Listen and answer.", 25, [["what i", "it was", "never have i", "not only"]], "What I enjoyed most was the food. Never have I eaten so well.", "What did you enjoy most about your last holiday?")
+],
+/* Unidad 8 · Habilidades B2 First */
+[
+ L("Both photos show people exercising, but in the first one they're in a gym, whereas in the second they're running in a park. They look as if they're enjoying it much more.", "¿Dónde parecen disfrutar más?", ["En el parque", "En el gimnasio", "En los dos igual", "En ninguno"], 0),
+ L("If you only have one weekend, head for Barichara. It's a hidden gem: quiet, beautiful and well worth the trip.", "¿Cómo describe a Barichara?", ["Como una joya escondida que vale la pena", "Como una trampa para turistas", "Como un lugar muy lleno", "Como un lugar aburrido"], 0),
+ L("The acting was outstanding, but the plot was predictable. I knew the ending after twenty minutes.", "¿Qué fue lo negativo?", ["La trama predecible", "La actuación", "La música", "La duración"], 0),
+ L("It is recommended that the company introduce a four-day week for a trial period of three months.", "¿Qué se recomienda?", ["Probar la semana de cuatro días por tres meses", "Trabajar más horas", "Cerrar la empresa", "Contratar más gente"], 0),
+ M("She's always there when I need her. She's very ___.", ["supportive", "selfish", "stubborn", "reserved"], 0, "Supportive = que apoya."),
+ M("It's well worth ___ the cable car.", ["taking", "to take", "take", "taken"], 0, "Worth + -ing."),
+ F("We need to ___ out fossil fuels. (eliminar gradualmente)", ["phase"], "Phase out = eliminar poco a poco."),
+ O("In the first picture they're indoors, whereas in the second they're outside."),
+ O("The plot is gripping, although the ending felt a bit rushed."),
+ T("Compare life in a big city and life in the countryside. Which would you choose and why?", 30, [["whereas", "while", "on the other hand", "both"], ["would", "prefer", "i'd"]], "Both have advantages. In the city there are more jobs, whereas in the countryside life is calmer and cheaper. Personally, I'd choose a small town near a city, so I could enjoy both."),
+ T("Persuade a friend to visit a place in your country.", 30, [["i'd strongly recommend", "well worth", "you won't regret", "whatever you do", "you really should", "trust me"]], "You really should visit Guatapé. Whatever you do, don't miss climbing the rock. The view is breathtaking, and trust me, you won't regret it."),
+ T("Listen and answer.", 25, [["could", "would", "should", "recommend", "solution", "what if"]], "One solution would be to improve public transport, so that fewer people use their cars.", "What could your city do to reduce pollution?")
 ]
 ];

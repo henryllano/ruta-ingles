@@ -4214,6 +4214,305 @@ window.READINGS = [
      "model": "I think the captain might have panicked because of the alcohol fumes. They must have left in the lifeboat in a hurry, and the rope could have broken in a storm, so they never came back."
     }
    ]
+  },
+  {
+   "title": "The Bridge That Was Never Finished",
+   "es": "El puente que nunca se terminó · Lectura extra",
+   "text": "When the new bridge over the river was announced in 2015, the people of San Isidro were delighted. It was supposed to connect the town with the main road to the city and cut a two-hour journey to just forty minutes. The mayor promised that it would be ready in eighteen months, and the inauguration was to have taken place in December 2016. Everything seemed to be going well. A well-known construction company won the contract, and work started on time. Local shops were going to benefit from the extra traffic, and several families were about to open small restaurants near the river. But in 2016, the company ran out of money. Hardly had the first section been completed when the workers stopped coming. The council insisted that the company finish the job, but the director claimed that the budget had been far too low from the beginning. Not only had the costs risen, but the engineers had also discovered that the ground was unstable. For years, nothing happened. What the people found most frustrating was the silence: nobody explained anything. The half-built bridge became a symbol of broken promises, and young people started calling it \"the bridge to nowhere\". In 2023, a new mayor finally got the national government to fund the project again. This time, the engineers say the bridge is bound to be finished by next year, although many residents are still sceptical. \"I'll believe it when I drive across it,\" says Doña Carmen, who was about to open her restaurant in 2016 and is still waiting. \"But if it does open, you'll all be invited to the party.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuándo iba a inaugurarse el puente?",
+     "o": [
+      "En diciembre de 2016",
+      "En 2015",
+      "En 2023",
+      "El próximo año"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué se detuvo la obra?",
+     "o": [
+      "La empresa se quedó sin dinero y el terreno era inestable",
+      "El alcalde la canceló",
+      "Los vecinos protestaron",
+      "Hubo una inundación"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué consiguió el nuevo alcalde?",
+     "o": [
+      "Que el gobierno nacional volviera a financiar el proyecto",
+      "Terminar el puente",
+      "Cambiar la empresa",
+      "Construir otra carretera"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "I'll believe it when I drive across it.",
+     "q": "¿Qué siente Doña Carmen?",
+     "o": [
+      "Es escéptica",
+      "Está segura de que lo terminan",
+      "Está enojada con el alcalde",
+      "No le importa"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Talk about a project in your city that was supposed to be finished but wasn't. What happened, and what is likely to happen now?",
+     "min": 31,
+     "keys": [
+      [
+       "was supposed to",
+       "was going to",
+       "was to have",
+       "was about to"
+      ],
+      [
+       "likely to",
+       "bound to",
+       "may well",
+       "unlikely to",
+       "there's a good chance"
+      ]
+     ],
+     "model": "The new metro line in my city was supposed to open in 2020, but there were problems with the budget. Now it's likely to open in two years, although I doubt it will be on time."
+    }
+   ]
+  },
+  {
+   "title": "Growing Up With Strict Parents",
+   "es": "Crecer con papás estrictos · Lectura extra",
+   "text": "If you ask Colombian adults over forty about their childhood, many will tell you the same thing: their parents were strict. Very strict. My parents were no exception. We weren't allowed to watch television on school nights, and my mother made us do our homework at the kitchen table, where she could see us. My father let us go out on Saturdays, but we were supposed to be home before dark. If we arrived even ten minutes late, we were grounded for a week. I remember being made to wash the car every Sunday after I had broken a window with a football. At the time, I hated the rules. Not only did they seem unfair, but my friends' parents also seemed much more relaxed. What annoyed me most was that I wasn't allowed to explain myself. \"Because I said so\" was the answer to everything. Now I'm a parent myself, and things have changed. My children are allowed to give their opinions, and we discuss the rules together. They needn't have worried about telling me when they broke my favourite mug last year: I didn't even get angry. But I sometimes wonder whether we have gone too far. My children are likely to grow up more confident than I was, but are they learning to accept a \"no\"? There's a good chance that the best approach lies somewhere in the middle: clear rules, explained with patience. What I've learned is that children don't need perfect parents. They need parents who listen.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué pasaba si llegaban diez minutos tarde?",
+     "o": [
+      "Los castigaban una semana sin salir",
+      "No pasaba nada",
+      "Les quitaban la mesada",
+      "Tenían que lavar el carro"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué le molestaba más al autor de niño?",
+     "o": [
+      "No poder explicarse",
+      "Lavar el carro",
+      "Hacer tareas",
+      "No ver televisión"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué duda tiene ahora como papá?",
+     "o": [
+      "Si sus hijos están aprendiendo a aceptar un no",
+      "Si es demasiado estricto",
+      "Si sus hijos estudian suficiente",
+      "Si debe prohibir la televisión"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "What I've learned is that children don't need perfect parents. They need parents who listen.",
+     "q": "¿Qué ha aprendido?",
+     "o": [
+      "Que los niños necesitan papás que escuchen",
+      "Que las reglas estrictas son las mejores",
+      "Que los niños necesitan papás perfectos",
+      "Que no se deben poner reglas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Compare the rules you had as a child with the rules children have today. Which approach is better?",
+     "min": 40,
+     "keys": [
+      [
+       "allowed to",
+       "made me",
+       "let me",
+       "supposed to"
+      ],
+      [
+       "whereas",
+       "however",
+       "although",
+       "on the other hand"
+      ]
+     ],
+     "model": "When I was a child, I wasn't allowed to go out alone, and my parents made me go to bed at eight. Children today are allowed to do much more, whereas we had very little freedom. I think the best approach is somewhere in the middle."
+    }
+   ]
+  },
+  {
+   "title": "A Gripping Series You Can't Miss",
+   "es": "Una serie que atrapa y no te puedes perder · Lectura extra",
+   "text": "Set in Santa Marta in the late 1980s, \"The Lighthouse Keeper\" follows Ramón, a quiet fisherman who discovers a mysterious box on the beach one morning. What begins as a small-town mystery soon becomes a gripping thriller about friendship, loyalty and the price of silence. The first thing that strikes you is the photography. The Caribbean coast has never looked so stunning on screen, and the director uses long, silent shots of the sea to create a sense of calm that contrasts with the growing tension of the plot. The soundtrack, full of old vallenatos and cumbias, is equally impressive. The cast is outstanding. Newcomer Julián Arango plays Ramón with remarkable subtlety, and his scenes with his elderly mother are some of the most moving moments of the series. The script is clever, too: the dialogue feels natural, and there is humour even in the darkest episodes. However, the series is not perfect. The middle episodes are rather slow-paced, and a subplot about a corrupt politician feels far-fetched and unnecessary. Some viewers may also find the violence in the final episode hard to watch. Without giving away any spoilers, the twist in the last ten minutes is one of the best I have seen in years, and it completely changes the way you understand the whole story. Overall, \"The Lighthouse Keeper\" is a must-see for anyone who enjoys intelligent crime dramas with a strong sense of place. If you dislike slow storytelling, you might want to give it a miss, but if you have patience, you will be richly rewarded. Four and a half stars out of five.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Dónde y cuándo está ambientada la serie?",
+     "o": [
+      "En Santa Marta a finales de los ochenta",
+      "En Bogotá en los noventa",
+      "En Cartagena hoy",
+      "En Barranquilla en los setenta"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué critica la reseña?",
+     "o": [
+      "Los capítulos del medio son lentos y una subtrama es inverosímil",
+      "La actuación",
+      "La música",
+      "La fotografía"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿A quién no se la recomienda?",
+     "o": [
+      "A quien no le gusten las historias lentas",
+      "A quien le gusten los thrillers",
+      "A los niños",
+      "A los pescadores"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Without giving away any spoilers, the twist in the last ten minutes is one of the best I have seen in years.",
+     "q": "¿Qué destaca del final?",
+     "o": [
+      "El giro de los últimos diez minutos",
+      "Que es predecible",
+      "Que es muy largo",
+      "Que no tiene final"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Review a film or series you watched recently. Talk about the plot, the acting and whether you'd recommend it.",
+     "min": 40,
+     "keys": [
+      [
+       "set in",
+       "follows",
+       "is about",
+       "plot"
+      ],
+      [
+       "acting",
+       "cast",
+       "script",
+       "soundtrack",
+       "characters"
+      ],
+      [
+       "recommend",
+       "give it a miss",
+       "must-see"
+      ]
+     ],
+     "model": "I recently watched a Spanish series set in Madrid. It follows a group of teachers in a difficult school. The acting is outstanding and the plot is gripping, although the last season is a bit far-fetched. I'd recommend it to anyone who likes drama."
+    }
+   ]
+  },
+  {
+   "title": "Burnout: The Hidden Cost of Hard Work",
+   "es": "Agotamiento laboral: el costo oculto del trabajo duro · Lectura extra",
+   "text": "For many years, working late and answering emails at midnight was seen as a sign of commitment. Today, however, more and more companies are recognising that overwork has a hidden cost: burnout. Burnout is not simply feeling tired after a long week. According to the World Health Organization, it is a condition caused by chronic workplace stress that has not been successfully managed. People who suffer from it often feel exhausted, become cynical about their jobs and are less productive. In some cases, it leads to anxiety, depression and long periods of sick leave. A recent survey of office workers in Bogotá, Medellín and Cali found that the majority felt their workload had increased in the last two years. Almost forty percent said they had experienced at least one symptom of burnout, while only a small minority said their company offered any kind of psychological support. So what can be done? Experts agree that the solution is not only individual. While it is important for workers to take regular breaks, sleep well and switch off their phones after work, companies also have a responsibility. It is recommended that employers set realistic deadlines, limit the length of meetings and train managers to recognise the early signs of stress. Some Colombian companies are already taking action. One software firm in Medellín has introduced a four-day week for part of the year, and another offers free counselling sessions. Early results suggest that morale and productivity have both improved. The message is clear: a healthy work-life balance is not a luxury. In the long term, it is good for workers, good for companies and good for society.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "Según la OMS, ¿qué causa el agotamiento laboral?",
+     "o": [
+      "El estrés laboral crónico mal manejado",
+      "Trabajar los fines de semana",
+      "Dormir poco una noche",
+      "Tener un mal jefe"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué encontró la encuesta?",
+     "o": [
+      "Casi el 40 % ha tenido al menos un síntoma",
+      "Nadie tiene estrés",
+      "La mayoría tiene apoyo psicológico",
+      "La carga de trabajo bajó"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hizo una empresa de software en Medellín?",
+     "o": [
+      "Implementó la semana de cuatro días parte del año",
+      "Prohibió el correo",
+      "Subió los salarios",
+      "Cerró los fines de semana"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "It is recommended that employers set realistic deadlines, limit the length of meetings and train managers to recognise the early signs of stress.",
+     "q": "¿Qué se recomienda a los empleadores?",
+     "o": [
+      "Plazos realistas, reuniones cortas y capacitar a los jefes",
+      "Pagar más",
+      "Contratar más gente",
+      "Trabajar desde casa siempre"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "What could companies in your country do to improve their employees' well-being? Give at least two recommendations.",
+     "min": 32,
+     "keys": [
+      [
+       "recommend",
+       "suggest",
+       "should",
+       "advisable",
+       "could"
+      ],
+      [
+       "well-being",
+       "stress",
+       "burnout",
+       "workload",
+       "work-life balance",
+       "break",
+       "flexible"
+      ]
+     ],
+     "model": "I would suggest introducing flexible hours, because commuting in big cities is exhausting. It would also be advisable to limit meetings and offer free counselling, so that employees can talk about stress before it becomes burnout."
+    }
+   ]
   }
  ],
  [

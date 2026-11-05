@@ -114,7 +114,6 @@ minute | minuto | Wait a minute. | Tiempo
 have a shower | ducharse | I have a shower every morning. | Rutina
 brush | cepillar | Brush your teeth. | Rutina
 wash | lavar | Wash your hands. | Casa
-stand | estar de pie | Stand up, please. | Acciones
 jump | saltar | The cat jumps on the chair. | Acciones
 talk | conversar | We talk a lot. | Acciones
 answer (verb) | responder | Answer the question. | Acciones
@@ -142,7 +141,6 @@ closed | cerrado | The bank is closed. | Cosas
 cool | fresco | Bogotá is cool. | Clima
 humid | húmedo | Cartagena is humid. | Clima
 fresh | fresco (alimento) | Fresh bread. | Comida
-favourite | favorito | My favourite colour is blue. | Comida
 red | rojo | A red dress. | Colores
 blue | azul | Blue eyes. | Colores
 green | verde | Green trees. | Colores
@@ -186,7 +184,6 @@ customs | aduana | We went through customs. | Viajes
 tourist | turista | The city is full of tourists. | Viajes
 guide | guía | Our guide spoke three languages. | Viajes
 tour | recorrido, gira | We took a tour of the old town. | Viajes
-sightseeing | turismo, visitar lugares | We went sightseeing in Rome. | Viajes
 lobby | vestíbulo | We waited in the lobby. | Hotel
 swimsuit | vestido de baño | I forgot my swimsuit. | Playa
 sun cream | bloqueador solar | Put on some sun cream. | Playa
@@ -275,7 +272,6 @@ loss | pérdida | Report the loss to the police. | Vida
 miracle | milagro | It's a miracle! | Vida
 opinion | opinión | In my opinion... | Vida
 problem | problema | No problem! | Vida
-chance | oportunidad, posibilidad | Give me a chance. | Vida
 `,
 "Verbos": `
 unpack | desempacar | I unpacked my clothes. | Viajes
@@ -330,7 +326,6 @@ helpful | servicial | The staff were helpful. | Personalidad
 clever | inteligente, listo | A clever girl. | Personalidad
 brave | valiente | You're very brave. | Personalidad
 generous (person) | generoso (persona) | My uncle is generous. | Personalidad
-selfish | egoísta | Don't be selfish. | Personalidad
 proud | orgulloso | I'm proud of you. | Sentimientos
 surprised | sorprendido | I was surprised. | Sentimientos
 relaxed | relajado | I feel relaxed. | Sentimientos
@@ -346,7 +341,6 @@ tiny | diminuto | A tiny room. | Cosas
 public | público | A public phone. | Cosas
 private | privado | A private school. | Cosas
 foreign | extranjero | Foreign visitors. | Cosas
-local | local | Local food. | Cosas
 whole | entero, completo | The whole day. | Cosas
 `,
 "Adverbios": `
@@ -397,13 +391,10 @@ Practice makes perfect. | La práctica hace al maestro. | Keep going, practice m
 routine | rutina | I need a new morning routine. | Hábitos y bienestar
 motivation | motivación | I've lost my motivation. | Hábitos y bienestar
 willpower | fuerza de voluntad | It takes a lot of willpower. | Hábitos y bienestar
-anxiety | ansiedad | She suffers from anxiety. | Hábitos y bienestar
 self-esteem | autoestima | Low self-esteem. | Hábitos y bienestar
-well-being | bienestar | Mental well-being. | Hábitos y bienestar
 improvement | mejora | A big improvement. | Hábitos y bienestar
 balance | equilibrio | Work-life balance. | Hábitos y bienestar
 workplace | lugar de trabajo | A safe workplace. | Trabajo
-workload | carga de trabajo | A heavy workload. | Trabajo
 employer | empleador | My employer is very fair. | Trabajo
 department | departamento | The sales department. | Trabajo
 raise | aumento (de sueldo) | I asked for a raise. | Trabajo
@@ -538,7 +529,6 @@ carry on | continuar | Carry on working. | Phrasal verbs
 get over | superar | She got over the flu. | Phrasal verbs
 get rid of | deshacerse de | Get rid of old clothes. | Phrasal verbs
 let down | decepcionar | Don't let me down. | Phrasal verbs
-make up | inventar; reconciliarse | He made up an excuse. | Phrasal verbs
 show up | aparecer, llegar | He showed up late. | Phrasal verbs
 look up | buscar (información) | Look it up in the dictionary. | Phrasal verbs
 stick to | ceñirse a, mantener | Stick to your plan. | Phrasal verbs
@@ -684,7 +674,6 @@ survey results | resultados de la encuesta | The survey results. | Negocios
 response rate | tasa de respuesta | A low response rate. | Negocios
 respondent | encuestado | 68% of respondents. | Negocios
 rating | calificación | High ratings. | Negocios
-measure | medida | New measures. | Negocios
 recommendation | recomendación | Our recommendations. | Negocios
 peak hours | horas pico | Peak hours are busy. | Negocios
 quarter | trimestre | The first quarter. | Negocios
@@ -716,8 +705,6 @@ wild | estado salvaje | Back into the wild. | Animales
 supporter | partidario, defensor | Supporters of zoos. | Debate
 critic | crítico | Critics claim... | Debate
 overtourism | turismo masivo excesivo | Overtourism in Venice. | Viajes
-destination | destino | A popular destination. | Viajes
-accommodation | alojamiento | Locally owned accommodation. | Viajes
 cruise ship | crucero | Cruise ships pollute. | Viajes
 entry fee | tarifa de entrada | An entry fee. | Viajes
 low season | temporada baja | Travel in the low season. | Viajes
@@ -754,8 +741,6 @@ invest | invertir | Invest in training. | Negocios
 compete | competir | Compete against AI. | Negocios
 criticise | criticar | Don't criticise your boss. | Entrevistas
 memorise | memorizar | Don't memorise your answer. | Entrevistas
-impress | impresionar | I was impressed. | Entrevistas
-swap | intercambiar | Swap clothes with friends. | Consumo
 poison | envenenar | Chemicals poison rivers. | Medio ambiente
 absorb | absorber | Plants absorb rainwater. | Medio ambiente
 contaminate | contaminar | The soil was contaminated. | Medio ambiente
@@ -888,7 +873,6 @@ Easier said than done | es más fácil decirlo que hacerlo | Save money? Easier 
 attention span | capacidad de atención | A short attention span. | Mente y tecnología
 engagement | participación, interacción | User engagement. | Mente y tecnología
 notification | notificación | Turn off notifications. | Mente y tecnología
-incentive | incentivo | A strong incentive. | Mente y tecnología
 advertiser | anunciante | Advertisers pay for clicks. | Mente y tecnología
 outrage | indignación | Outrage spreads quickly. | Mente y tecnología
 polarisation | polarización | Political polarisation. | Mente y tecnología
@@ -910,7 +894,6 @@ pattern | patrón | We look for patterns. | Psicología
 narrative | narrativa, relato | A powerful narrative. | Comunicación
 retort | réplica (cortante) | An angry retort. | Comunicación
 constraint | restricción, limitación | Budget constraints. | Negociación
-priority | prioridad | Our main priority. | Negociación
 deadlock | punto muerto | The talks reached a deadlock. | Negociación
 board of directors | junta directiva | The board approved it. | Negocios
 turnover | rotación (personal); facturación | High staff turnover. | Negocios
@@ -1004,7 +987,6 @@ commit | comprometerse | Commit to a larger order. | Negociación
 yield | ceder; producir | Yield to pressure. | Negociación
 conduct | llevar a cabo | Conduct a trial. | Negocios
 monitor | supervisar, monitorear | Monitor the results. | Negocios
-assess | evaluar | Assess the risks. | Negocios
 approve | aprobar | The board approved it. | Negocios
 maintain | mantener | Maintain productivity. | Negocios
 finance | financiar | Finance the project. | Economía y sociedad

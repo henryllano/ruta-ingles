@@ -84,5 +84,33 @@ module.exports = [
  M("¿Qué explicación propone una teoría moderna?", ["Temieron una explosión por vapores de alcohol y subieron al bote", "Los atacó un monstruo marino", "Hubo un motín", "Los raptaron piratas"], 0),
  L("Arthur Conan Doyle published a fictional account in 1884, which included several invented details that many people mistakenly believed to be true.", "¿Qué hizo Arthur Conan Doyle?", ["Publicó un relato de ficción que la gente creyó real", "Encontró el barco", "Resolvió el misterio", "Era el capitán"], 0),
  T("What do you think happened to the crew of the Mary Celeste? Speculate using might have, must have or could have.", 40, [["might have", "must have", "could have", "may have"]], "I think the captain might have panicked because of the alcohol fumes. They must have left in the lifeboat in a hurry, and the rope could have broken in a storm, so they never came back.")
+],
+[ /* The Bridge That Was Never Finished */
+ M("¿Cuándo iba a inaugurarse el puente?", ["En diciembre de 2016", "En 2015", "En 2023", "El próximo año"], 0),
+ M("¿Por qué se detuvo la obra?", ["La empresa se quedó sin dinero y el terreno era inestable", "El alcalde la canceló", "Los vecinos protestaron", "Hubo una inundación"], 0),
+ M("¿Qué consiguió el nuevo alcalde?", ["Que el gobierno nacional volviera a financiar el proyecto", "Terminar el puente", "Cambiar la empresa", "Construir otra carretera"], 0),
+ L("I'll believe it when I drive across it.", "¿Qué siente Doña Carmen?", ["Es escéptica", "Está segura de que lo terminan", "Está enojada con el alcalde", "No le importa"], 0),
+ T("Talk about a project in your city that was supposed to be finished but wasn't. What happened, and what is likely to happen now?", 40, [["was supposed to", "was going to", "was to have", "was about to"], ["likely to", "bound to", "may well", "unlikely to", "there's a good chance"]], "The new metro line in my city was supposed to open in 2020, but there were problems with the budget. Now it's likely to open in two years, although I doubt it will be on time.")
+],
+[ /* Growing Up With Strict Parents */
+ M("¿Qué pasaba si llegaban diez minutos tarde?", ["Los castigaban una semana sin salir", "No pasaba nada", "Les quitaban la mesada", "Tenían que lavar el carro"], 0),
+ M("¿Qué le molestaba más al autor de niño?", ["No poder explicarse", "Lavar el carro", "Hacer tareas", "No ver televisión"], 0),
+ M("¿Qué duda tiene ahora como papá?", ["Si sus hijos están aprendiendo a aceptar un no", "Si es demasiado estricto", "Si sus hijos estudian suficiente", "Si debe prohibir la televisión"], 0),
+ L("What I've learned is that children don't need perfect parents. They need parents who listen.", "¿Qué ha aprendido?", ["Que los niños necesitan papás que escuchen", "Que las reglas estrictas son las mejores", "Que los niños necesitan papás perfectos", "Que no se deben poner reglas"], 0),
+ T("Compare the rules you had as a child with the rules children have today. Which approach is better?", 40, [["allowed to", "made me", "let me", "supposed to"], ["whereas", "however", "although", "on the other hand"]], "When I was a child, I wasn't allowed to go out alone, and my parents made me go to bed at eight. Children today are allowed to do much more, whereas we had very little freedom. I think the best approach is somewhere in the middle.")
+],
+[ /* A Gripping Series You Can't Miss */
+ M("¿Dónde y cuándo está ambientada la serie?", ["En Santa Marta a finales de los ochenta", "En Bogotá en los noventa", "En Cartagena hoy", "En Barranquilla en los setenta"], 0),
+ M("¿Qué critica la reseña?", ["Los capítulos del medio son lentos y una subtrama es inverosímil", "La actuación", "La música", "La fotografía"], 0),
+ M("¿A quién no se la recomienda?", ["A quien no le gusten las historias lentas", "A quien le gusten los thrillers", "A los niños", "A los pescadores"], 0),
+ L("Without giving away any spoilers, the twist in the last ten minutes is one of the best I have seen in years.", "¿Qué destaca del final?", ["El giro de los últimos diez minutos", "Que es predecible", "Que es muy largo", "Que no tiene final"], 0),
+ T("Review a film or series you watched recently. Talk about the plot, the acting and whether you'd recommend it.", 40, [["set in", "follows", "is about", "plot"], ["acting", "cast", "script", "soundtrack", "characters"], ["recommend", "give it a miss", "must-see"]], "I recently watched a Spanish series set in Madrid. It follows a group of teachers in a difficult school. The acting is outstanding and the plot is gripping, although the last season is a bit far-fetched. I'd recommend it to anyone who likes drama.")
+],
+[ /* Burnout: The Hidden Cost of Hard Work */
+ M("Según la OMS, ¿qué causa el agotamiento laboral?", ["El estrés laboral crónico mal manejado", "Trabajar los fines de semana", "Dormir poco una noche", "Tener un mal jefe"], 0),
+ M("¿Qué encontró la encuesta?", ["Casi el 40 % ha tenido al menos un síntoma", "Nadie tiene estrés", "La mayoría tiene apoyo psicológico", "La carga de trabajo bajó"], 0),
+ M("¿Qué hizo una empresa de software en Medellín?", ["Implementó la semana de cuatro días parte del año", "Prohibió el correo", "Subió los salarios", "Cerró los fines de semana"], 0),
+ L("It is recommended that employers set realistic deadlines, limit the length of meetings and train managers to recognise the early signs of stress.", "¿Qué se recomienda a los empleadores?", ["Plazos realistas, reuniones cortas y capacitar a los jefes", "Pagar más", "Contratar más gente", "Trabajar desde casa siempre"], 0),
+ T("What could companies in your country do to improve their employees' well-being? Give at least two recommendations.", 40, [["recommend", "suggest", "should", "advisable", "could"], ["well-being", "stress", "burnout", "workload", "work-life balance", "break", "flexible"]], "I would suggest introducing flexible hours, because commuting in big cities is exhausting. It would also be advisable to limit meetings and offer free counselling, so that employees can talk about stress before it becomes burnout.")
 ]
 ];
