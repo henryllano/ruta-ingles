@@ -206,6 +206,8 @@ footer b{color:#fff}
 .vw .vm{font-weight:700;color:var(--coral)}
 .vw .vpr{display:block;margin-top:3px;font-size:14px;font-weight:700;color:var(--ink)}
 .vw .vpr i{font-style:normal;font-weight:400;color:var(--mute);font-size:13px;margin-left:6px}
+.fpr{font-size:18px;font-weight:700;color:var(--ink);margin:-4px 0 6px;text-align:center}
+.fpr i{font-style:normal;font-weight:400;color:var(--mute);font-size:15px;margin-left:8px}
 .vnote{font-size:13px;color:var(--mute);margin:4px 0 14px}
 .vw .ve{margin:0;font-size:14px;color:var(--mute);font-style:italic}
 .vchk{display:flex;gap:8px;align-items:center;font-size:13px;font-weight:700;cursor:pointer;margin-top:auto;padding-top:6px}
@@ -619,13 +621,13 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=1793976411"></script>
-<script src="vocab-extra.js?v=1793976411"></script>
-<script src="vocab.js?v=1793976411"></script>
-<script src="readings.js?v=1793976411"></script>
-<script src="pron.js?v=1793976411"></script>
-<script src="dict.js?v=1793976411"></script>
-<script src="lessons.js?v=1793976411"></script>
+<script src="practice-extra.js?v=1793976815"></script>
+<script src="vocab-extra.js?v=1793976815"></script>
+<script src="vocab.js?v=1793976815"></script>
+<script src="readings.js?v=1793976815"></script>
+<script src="pron.js?v=1793976815"></script>
+<script src="dict.js?v=1793976815"></script>
+<script src="lessons.js?v=1793976815"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1531,7 +1533,7 @@ function vCards(){
   const w=V.deck[V.k];
   body.innerHTML=`<div class="progress"><i style="width:${V.k/total*100}%"></i></div>
     <div class="qmeta"><span>${esc(w.cat)}${w.t?" · "+esc(w.t):""}</span><span>Tarjeta ${V.k+1} de ${total}</span></div>
-    <div class="flash"><div class="fw" lang="en">${esc(w.w)}</div>
+    <div class="flash"><div class="fw" lang="en">${esc(w.w)}</div>${(()=>{const p=pronOf(w.w,w.m);return p?`<div class="fpr">${esc(p[0])}<i lang="en">/${esc(p[1])}/</i></div>`:""})()}
       <button class="vplay" id="fPlay" style="width:46px;height:46px" aria-label="Escuchar">${ICON_SPK}</button>
       ${V.show?`<div class="fm">${esc(w.m)}</div><p class="fe" lang="en">${esc(w.e)}</p>`:`<p class="fe">¿Qué significa? Piénsalo y luego revisa.</p>`}
       <div class="btns">${V.show?`<button class="btn dark" id="fNo">No la sabía</button><button class="btn sun" id="fYes">La sabía</button>`:`<button class="btn sun" id="fShow">Ver significado</button>`}</div></div>
