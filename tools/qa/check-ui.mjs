@@ -15,7 +15,15 @@ import { fileURLToPath } from "node:url";
 const here = path.dirname(fileURLToPath(import.meta.url)), root = path.join(here, "..", "..");
 const require = createRequire(import.meta.url);
 let pw; try { pw = require("playwright"); } catch { pw = require(path.join(execSync("npm root -g").toString().trim(), "playwright")); }
-const URL = "file://" + path.join(root, "index.html");
+/* Si la página está en ACCESO_ABIERTO (revisión temporal), se prueba una copia con registro y bloqueos activos,
+   para que todas las revisiones sigan valiendo para cuando se vuelva a cerrar. */
+const SRC_HTML = fs.readFileSync(path.join(root, "index.html"), "utf8");
+const ABIERTO = /const ACCESO_ABIERTO=true;/.test(SRC_HTML);
+const QA_FILE = path.join(root, "index.qa.html");
+if (ABIERTO) fs.writeFileSync(QA_FILE, SRC_HTML.replace("const ACCESO_ABIERTO=true;", "const ACCESO_ABIERTO=false;"));
+process.on("exit", () => { try { if (ABIERTO) fs.unlinkSync(QA_FILE); } catch (e) {} });
+const URL = "file://" + path.join(root, ABIERTO ? "index.qa.html" : "index.html");
+const URL_REAL = "file://" + path.join(root, "index.html");
 const ADMIN = "henry.llanogiraldo@gmail.com";
 const argN = process.argv.indexOf("--nivel"), ONLY = argN > 0 ? +process.argv[argN + 1] : null;
 const findings = [], stats = { lecciones: 0, practicas: 0, quizzes: 0, finales: 0, extra: 0, lecturas: 0, comprension: 0, escenas: 0 };
@@ -272,6 +280,17 @@ const out = { stats: { ...stats, segundos: Math.round((Date.now() - t0) / 1000) 
 const ji = process.argv.indexOf("--json");
 if (ji > 0) fs.writeFileSync(process.argv[ji + 1], JSON.stringify(out, null, 1));
 log(`Página: ${stats.lecciones} lecciones · ${stats.practicas} prácticas · ${stats.quizzes} quizzes · ${stats.finales} finales · ${stats.extra} prácticas extra · ${stats.lecturas} lecturas · ${stats.comprension} comprensiones · ${out.stats.segundos} s`);
+if (ABIERTO) {
+  /* el modo abierto real: sin inscripción, todo abierto y examen voluntario */
+  const b2 = await pw.chromium.launch(); const ctx2 = await b2.newContext(); await ctx2.addInitScript(FAKES); const p2 = await ctx2.newPage();
+  await p2.goto(URL_REAL); await p2.waitForTimeout(500);
+  const r = await p2.evaluate(() => ({ modal: !exam.hidden, st: (curStudent() || {}).name, todos: [0, 1, 2, 3, 4, 5].every(i => unlocked(i)), examen: mustPlace() }));
+  if (r.modal || !r.st) err("acceso abierto", "la página pide inscribirse aunque ACCESO_ABIERTO está activo");
+  if (!r.todos) err("acceso abierto", "hay niveles bloqueados aunque ACCESO_ABIERTO está activo");
+  if (r.examen) err("acceso abierto", "el examen de nivel sigue siendo obligatorio");
+  log("Acceso abierto TEMPORAL activo: sin inscripción, 6 niveles abiertos, examen voluntario (las demás pruebas se hicieron con el acceso normal)");
+  await b2.close();
+}
 log(`→ ${out.errores.length} errores · ${out.avisos.length} avisos`);
 if (ji < 0) { out.errores.slice(0, 50).forEach(f => log(`ERROR  ${f.where}: ${f.msg}`)); out.avisos.slice(0, 30).forEach(f => log(`aviso  ${f.where}: ${f.msg}`)); }
 process.exitCode = out.errores.length ? 1 : 0;

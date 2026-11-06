@@ -624,13 +624,13 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=1793977015"></script>
-<script src="vocab-extra.js?v=1793977015"></script>
-<script src="vocab.js?v=1793977015"></script>
-<script src="readings.js?v=1793977015"></script>
-<script src="pron.js?v=1793977015"></script>
-<script src="dict.js?v=1793977015"></script>
-<script src="lessons.js?v=1793977015"></script>
+<script src="practice-extra.js?v=1793979056"></script>
+<script src="vocab-extra.js?v=1793979056"></script>
+<script src="vocab.js?v=1793979056"></script>
+<script src="readings.js?v=1793979056"></script>
+<script src="pron.js?v=1793979056"></script>
+<script src="dict.js?v=1793979056"></script>
+<script src="lessons.js?v=1793979056"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1107,7 +1107,10 @@ function ensureStudent(name,email){const db=loadDB(),id=email?email.toLowerCase(
    Se abren el nivel donde quedó y todos los de abajo; los de arriba se abren al aprobar el examen final del anterior,
    y dentro de esos niveles cada lección se abre al aprobar la anterior.
    La cuenta administradora tiene todo abierto. */
-const LOCK_LEVELS=true;
+/* TEMPORAL (revisión de un profesor): ACCESO_ABIERTO=true quita la inscripción obligatoria, abre todos los niveles
+   y vuelve voluntario el examen de nivel. Para volver al funcionamiento normal, ponerlo en false. */
+const ACCESO_ABIERTO=true;
+const LOCK_LEVELS=!ACCESO_ABIERTO;
 /* administrador: una sola cuenta (se reconoce por la huella de su correo, para no publicarlo en el código). Tiene todo abierto y no presenta examen. */
 const ADMIN_MAIL_HASH="98bf758e";
 const mailHash=m=>{let h=2166136261;for(const c of String(m||"").trim().toLowerCase()){h^=c.charCodeAt(0);h=Math.imul(h,16777619)>>>0}return h.toString(16)};
@@ -2096,5 +2099,6 @@ $("navDict").onclick=e=>{e.preventDefault();toolsOpen("dict")};
 renderWho();
 renderResults();
 render();
-if(!curStudent()){OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()}else requirePlacement();
+if(ACCESO_ABIERTO){if(!curStudent()){ensureStudent("Invitado");render()}}
+else if(!curStudent()){OV="who";exam.hidden=false;document.body.style.overflow="hidden";renderCloseBtn(false);whoView()}else requirePlacement();
 </script>
