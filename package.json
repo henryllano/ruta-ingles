@@ -6,9 +6,11 @@
     "qa": "node tools/qa/run.mjs",
     "qa:contenido": "node tools/qa/check-content.mjs",
     "qa:pagina": "node tools/qa/check-ui.mjs",
-    "qa:cobertura": "node tools/qa/cobertura.mjs"
+    "qa:cobertura": "node tools/qa/cobertura.mjs",
+    "pron": "node tools/build-pron.mjs"
   },
   "devDependencies": {
+    "cmu-pronouncing-dictionary": "^3.0.0",
     "dictionary-en": "^4.0.0",
     "dictionary-en-gb": "^3.0.0",
     "dictionary-es": "^4.0.0",

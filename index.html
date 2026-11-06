@@ -204,6 +204,9 @@ footer b{color:#fff}
 .vplay svg{width:14px;height:14px}
 .vplay:focus-visible{outline:3px solid var(--sky);outline-offset:2px}
 .vw .vm{font-weight:700;color:var(--coral)}
+.vw .vpr{display:block;margin-top:3px;font-size:14px;font-weight:700;color:var(--ink)}
+.vw .vpr i{font-style:normal;font-weight:400;color:var(--mute);font-size:13px;margin-left:6px}
+.vnote{font-size:13px;color:var(--mute);margin:4px 0 14px}
 .vw .ve{margin:0;font-size:14px;color:var(--mute);font-style:italic}
 .vchk{display:flex;gap:8px;align-items:center;font-size:13px;font-weight:700;cursor:pointer;margin-top:auto;padding-top:6px}
 .vchk input{width:18px;height:18px;accent-color:var(--ok)}
@@ -616,12 +619,13 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=1793974284"></script>
-<script src="vocab-extra.js?v=1793974284"></script>
-<script src="vocab.js?v=1793974284"></script>
-<script src="readings.js?v=1793974284"></script>
-<script src="dict.js?v=1793974284"></script>
-<script src="lessons.js?v=1793974284"></script>
+<script src="practice-extra.js?v=1793976411"></script>
+<script src="vocab-extra.js?v=1793976411"></script>
+<script src="vocab.js?v=1793976411"></script>
+<script src="readings.js?v=1793976411"></script>
+<script src="pron.js?v=1793976411"></script>
+<script src="dict.js?v=1793976411"></script>
+<script src="lessons.js?v=1793976411"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1453,6 +1457,9 @@ function qResult(){
 
 /* ================= vocabulario por nivel ================= */
 const VCACHE={};
+/* pronunciación del vocabulario (pron.js): figurada para hispanohablantes + AFI */
+function pronOf(w,m){const P=window.PRON;if(!P||!w)return null;const k=w.toLowerCase().trim();return P[k+"|"+(m||"")]||P[k]||null}
+function pronHTML(w,m){const p=pronOf(w,m);return p?`<span class="vpr" title="Pronunciación aproximada">${esc(p[0])}<i lang="en">/${esc(p[1])}/</i></span>`:""}
 function vocabOf(L){if(VCACHE[L])return VCACHE[L];const src=(window.VOCAB||[])[L]||{};
   const base=vocabBase(L),seen=new Set(base.map(x=>x.w.toLowerCase())),sy=(window.SYLLABUS||{})[L];let d=0;
   if(sy)sy.units.forEach(u=>u.lessons.forEach(l=>{d++;(l.vocab||[]).forEach(([w,pos,m,e])=>{if(seen.has(w.toLowerCase()))return;seen.add(w.toLowerCase());base.push({cat:POSCAT(pos),w,m,e,t:`Día ${d} · ${l.title}`})})}));
@@ -1480,6 +1487,7 @@ function vRender(){
     <div class="vhead"><input class="vsearch" id="vQ" type="search" placeholder="Buscar en inglés o en español…" value="${esc(V.q)}" aria-label="Buscar palabra">
       <div class="chips" id="vOrder"><button class="chip" data-o="tema" aria-pressed="${V.order!=="az"}">Por tema</button><button class="chip" data-o="az" aria-pressed="${V.order==="az"}">De la A a la Z</button></div>
       <button class="btn sun" id="vPractice">Practicar con tarjetas</button></div>
+    <p class="vnote">Debajo de cada palabra está <b>cómo se pronuncia</b>: primero a la española (la tilde marca la sílaba fuerte; <b>th</b> = lengua entre los dientes, <b>dh</b> = th suave, <b>sh</b> = ¡shh!, <b>z</b> = s que zumba) y luego en el alfabeto fonético internacional. Inglés de Estados Unidos.</p>
     <div class="vlayout"><nav class="vindex" id="vIdx" aria-label="Índice del vocabulario"></nav><div id="vList" style="min-width:0"></div></div>`;
   $("vQ").oninput=e=>{V.q=e.target.value.toLowerCase().trim();vList()};
   $("vOrder").onclick=e=>{const b=e.target.closest(".chip");if(!b)return;V.order=b.dataset.o;$("vOrder").querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x===b));vList()};
@@ -1492,7 +1500,7 @@ function vProgress(){const t=vocabOf(V.L).length,n=learnedSet(V.L).size;$("vProg
 function vList(){
   const learned=learnedSet(V.L),shown=vShown(),box=$("vList"),idx=$("vIdx");vProgress();
   if(!shown.length){box.innerHTML=`<p class="empty">No hay palabras que coincidan con “${esc(V.q)}”.</p>`;idx.innerHTML="";return}
-  const card=w=>`<article class="vw ${learned.has(w.w)?"on":""}"><div class="vt"><b lang="en">${esc(w.w)}</b><button class="vplay" data-say="${esc(w.w+". "+w.e)}" aria-label="Escuchar ${esc(w.w)}">${ICON_SPK}</button></div>
+  const card=w=>`<article class="vw ${learned.has(w.w)?"on":""}"><div class="vt"><div><b lang="en">${esc(w.w)}</b>${pronHTML(w.w,w.m)}</div><button class="vplay" data-say="${esc(w.w+". "+w.e)}" aria-label="Escuchar ${esc(w.w)}">${ICON_SPK}</button></div>
     <div class="vm">${esc(w.m)}</div><p class="ve" lang="en">${esc(w.e)}</p>
     <label class="vchk"><input type="checkbox" data-w="${esc(w.w)}" ${learned.has(w.w)?"checked":""}> La aprendí</label></article>`;
   const cnt=ws=>{const n=ws.filter(w=>learned.has(w.w)).length;return `<small>${n}/${ws.length}</small>`};
@@ -1786,8 +1794,8 @@ function lessonView(L,u,k){
     <h2 style="margin-top:6px">${esc(les.title)}</h2><p class="lead"><b>Objetivo:</b> ${esc(les.goal)}<br><span class="pill" style="margin-top:8px">Tiempo de estudio: ≈ ${total} min</span></p>
     <nav class="ltoc">${["Vocabulario","Explicación",les.dialogue?"Conversación":"",les.reading!=null?"Lectura":"","Práctica"].filter(Boolean).map((t,j)=>`<a href="#ls-${j}" data-go="ls-${j}">${j+1}. ${t}</a>`).join("")}</nav>
     <section class="lsec" id="ls-0">${sec("Vocabulario del día",voc.length?12:4)}
-      ${voc.length?`<p>${voc.length} palabras y frases nuevas. Escúchalas, lee el ejemplo y marca las que ya te sabes. Luego practícalas con tarjetas.</p>
-      ${groups.map(g=>`<h4 class="vgh">${g}</h4><div class="vgrid">${voc.filter(v=>POSCAT(v.pos)===g).map(v=>`<article class="vw ${learned.has(v.w)?"on":""}"><div class="vt"><b lang="en">${esc(v.w)}</b><button class="vplay" data-say="${esc(v.w+". "+v.e)}" aria-label="Escuchar">${ICON_SPK}</button></div><span class="pos" style="font-size:11px;font-weight:800;color:var(--mute)">${esc(v.pos)}</span><div class="vm">${esc(v.m)}</div><p class="ve" lang="en">${esc(v.e)}</p><label class="vchk"><input type="checkbox" data-w="${esc(v.w)}" ${learned.has(v.w)?"checked":""}> La aprendí</label></article>`).join("")}</div>`).join("")}
+      ${voc.length?`<p>${voc.length} palabras y frases nuevas. Escúchalas, lee el ejemplo y marca las que ya te sabes. Luego practícalas con tarjetas.</p><p class="vnote">Debajo de cada palabra está <b>cómo se pronuncia</b>: primero a la española (la tilde marca la sílaba fuerte; <b>th</b> = lengua entre los dientes, <b>dh</b> = th suave, <b>sh</b> = ¡shh!, <b>z</b> = s que zumba) y luego en el alfabeto fonético internacional. Inglés de Estados Unidos.</p>
+      ${groups.map(g=>`<h4 class="vgh">${g}</h4><div class="vgrid">${voc.filter(v=>POSCAT(v.pos)===g).map(v=>`<article class="vw ${learned.has(v.w)?"on":""}"><div class="vt"><div><b lang="en">${esc(v.w)}</b>${pronHTML(v.w,v.m)}</div><button class="vplay" data-say="${esc(v.w+". "+v.e)}" aria-label="Escuchar">${ICON_SPK}</button></div><span class="pos" style="font-size:11px;font-weight:800;color:var(--mute)">${esc(v.pos)}</span><div class="vm">${esc(v.m)}</div><p class="ve" lang="en">${esc(v.e)}</p><label class="vchk"><input type="checkbox" data-w="${esc(v.w)}" ${learned.has(v.w)?"checked":""}> La aprendí</label></article>`).join("")}</div>`).join("")}
       <div class="examcta"><button class="btn dark" id="lCards">Practicar estas ${voc.length} palabras con tarjetas</button></div>`
       :`<div class="vgrid">${les.words.map(w=>{const x=wordInfo(w);return `<article class="vw"><div class="vt"><b lang="en">${esc(x.w)}</b><button class="vplay" data-say="${esc(x.w+(x.e?". "+x.e:""))}" aria-label="Escuchar">${ICON_SPK}</button></div><div class="vm">${esc(x.m)}</div><p class="ve" lang="en">${esc(x.e)}</p></article>`}).join("")}</div>`}
     </section>
