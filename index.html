@@ -67,8 +67,6 @@ nav.main .in{display:flex;align-items:center;justify-content:space-between;gap:1
 .btn.sun{background:var(--sun);color:var(--sun-ink)}
 .btn.ghost{border-color:#fff;color:#fff;background:transparent}
 .btn.ghost:hover{background:#fff;color:var(--navy)}
-.swap{position:absolute;z-index:3;right:max(16px,env(safe-area-inset-right,0px));bottom:16px;font-size:12px;background:rgba(255,255,255,.92);color:#1A2238;border:0;border-radius:999px;padding:6px 14px;cursor:pointer;font-weight:700}
-.swap:hover{background:#fff}
 
 /* franja de cifras */
 .stats{position:relative;z-index:5;margin-top:-80px}
@@ -97,7 +95,6 @@ section.block{padding-block:90px 20px}
 .card .pic svg,.card .pic img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
 .card:hover .pic svg,.card:hover .pic img{transform:scale(1.06)}
 .card .badge{position:absolute;left:14px;top:14px;font-family:var(--f-display);font-weight:800;font-size:22px;background:#fff;color:#1A2238;padding:4px 12px;border-radius:4px}
-.card .swap{bottom:10px;right:10px;font-size:11px;padding:4px 10px}
 .card .body{padding:20px 22px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
 .card h3{font-weight:700;font-size:19px}
 .card p{margin:0;color:var(--mute);font-size:15px}
@@ -515,7 +512,6 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
       <a class="btn ghost" href="#plan">Calcular mi plan</a>
     </div>
   </div></div>
-  <button class="swap" data-slot="hero">Cambiar foto</button>
 </header>
 
 <div class="stats gut"><div class="in">
@@ -611,7 +607,6 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <span>Cifras orientativas, no del curso</span>
 </div></footer>
 
-<input type="file" id="photoIn" accept="image/*" hidden>
 
 <div class="exam" id="exam" hidden role="dialog" aria-modal="true" aria-label="Examen de nivelación">
   <div class="ex-top gut"><div class="in">
@@ -621,12 +616,12 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=1793973940"></script>
-<script src="vocab-extra.js?v=1793973940"></script>
-<script src="vocab.js?v=1793973940"></script>
-<script src="readings.js?v=1793973940"></script>
-<script src="dict.js?v=1793973940"></script>
-<script src="lessons.js?v=1793973940"></script>
+<script src="practice-extra.js?v=1793974284"></script>
+<script src="vocab-extra.js?v=1793974284"></script>
+<script src="vocab.js?v=1793974284"></script>
+<script src="readings.js?v=1793974284"></script>
+<script src="dict.js?v=1793974284"></script>
+<script src="lessons.js?v=1793974284"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -689,21 +684,6 @@ function classroom(bg,seed,words,wide){
     <g class="bb">${bubbles}</g></svg>`;
 }
 
-/* fotos propias (solo en este navegador) */
-const photos={};
-try{Object.assign(photos,JSON.parse(localStorage.getItem("ruta3-photos")||"{}"))}catch(e){}
-let slot=null;
-document.addEventListener("click",e=>{const b=e.target.closest(".swap");if(b){slot=b.dataset.slot;$("photoIn").click()}});
-$("photoIn").addEventListener("change",e=>{
-  const f=e.target.files[0];if(!f||!slot)return;
-  const img=new Image();img.onload=()=>{
-    const c=document.createElement("canvas"),m=slot==="hero"?1600:800,r=Math.min(1,m/img.width);
-    c.width=img.width*r;c.height=img.height*r;c.getContext("2d").drawImage(img,0,0,c.width,c.height);
-    photos[slot]=c.toDataURL("image/jpeg",.8);
-    try{localStorage.setItem("ruta3-photos",JSON.stringify(photos))}catch(err){}
-    paintPics();URL.revokeObjectURL(img.src);e.target.value="";
-  };img.src=URL.createObjectURL(f);
-});
 /* fotos incluidas en la página; las que falten usan ilustración */
 const IMG={hero:["img/hero.webp","Grupo de jóvenes y adultos estudiando inglés en una cafetería"],lv0:["img/lv0.webp","Mujer estudiando inglés con audífonos en casa"],
   lv1:["img/lv1.webp","Joven pidiendo un café en inglés"],
@@ -711,7 +691,7 @@ const IMG={hero:["img/hero.webp","Grupo de jóvenes y adultos estudiando inglés
   lv3:["img/lv3.webp","Amigos viendo una serie en inglés en casa"],
   lv4:["img/lv4.webp","Hombre presentando en inglés en una reunión de oficina"],
   lv5:["img/lv5.webp","Mujer dando una charla en inglés en un auditorio"]};
-const picHTML=(key,svg)=>photos[key]?`<img src="${photos[key]}" alt="Foto">`:IMG[key]?`<img src="${IMG[key][0]}" alt="${IMG[key][1]}"${key==="hero"?"":` loading="lazy"`}>`:svg;
+const picHTML=(key,svg)=>IMG[key]?`<img src="${IMG[key][0]}" alt="${IMG[key][1]}"${key==="hero"?"":` loading="lazy"`}>`:svg;
 
 /* tarjetas */
 const cardsEl=$("cards");
@@ -723,7 +703,7 @@ const cards=LV.map((l,i)=>{
     <div class="qz"><span class="qstat"></span><button class="btn-q">Hacer quiz</button></div>
     <div class="foot"><span class="hrs"></span><button class="pick">Fijar meta →</button></div></div>`;
   c.querySelector(".btn-q").onclick=()=>SYL(i)?openLevel(i):openQuiz(i);
-  c.querySelector(".pic").onclick=e=>{if(!e.target.closest(".swap"))openLevel(i)};c.querySelector(".pic").style.cursor="pointer";
+  c.querySelector(".pic").onclick=()=>openLevel(i);c.querySelector(".pic").style.cursor="pointer";
   c.querySelector("h3").onclick=()=>openLevel(i);c.querySelector("h3").style.cursor="pointer";
   c.querySelector(".btn-v").onclick=()=>openVocab(i);
   c.querySelector(".enter").onclick=()=>openLevel(i);
@@ -733,7 +713,7 @@ const cards=LV.map((l,i)=>{
 function paintPics(){
   $("heroScene").innerHTML=picHTML("hero",classroom("#FFD873",0,null,true));
   cards.forEach((c,i)=>{const l=LV[i];
-    c.querySelector(".pic").innerHTML=picHTML("lv"+i,classroom(l.bg,i*2+1,{w:l.w,lv:l.k}))+`<span class="badge">${l.k}</span><button class="swap" data-slot="lv${i}">Cambiar foto</button>`});
+    c.querySelector(".pic").innerHTML=picHTML("lv"+i,classroom(l.bg,i*2+1,{w:l.w,lv:l.k}))+`<span class="badge">${l.k}</span>`});
 }
 paintPics();
 
