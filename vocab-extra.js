@@ -267,7 +267,6 @@ spare room | cuarto de huéspedes | We have a spare room. | Casa
 memory | recuerdo, memoria | A good memory. | Vida
 honeymoon | luna de miel | They went to Cartagena on their honeymoon. | Vida
 retirement | jubilación | He's enjoying his retirement. | Vida
-reward | recompensa | He didn't want a reward. | Vida
 loss | pérdida | Report the loss to the police. | Vida
 miracle | milagro | It's a miracle! | Vida
 opinion | opinión | In my opinion... | Vida
@@ -389,9 +388,6 @@ Practice makes perfect. | La práctica hace al maestro. | Keep going, practice m
 /* B1 */ {
 "Sustantivos": `
 routine | rutina | I need a new morning routine. | Hábitos y bienestar
-motivation | motivación | I've lost my motivation. | Hábitos y bienestar
-willpower | fuerza de voluntad | It takes a lot of willpower. | Hábitos y bienestar
-self-esteem | autoestima | Low self-esteem. | Hábitos y bienestar
 improvement | mejora | A big improvement. | Hábitos y bienestar
 balance | equilibrio | Work-life balance. | Hábitos y bienestar
 workplace | lugar de trabajo | A safe workplace. | Trabajo
@@ -575,7 +571,6 @@ digital | digital | Digital skills. | Tecnología
 basically | básicamente | Basically, it's a good idea. | Discurso
 honestly | sinceramente | Honestly, I don't like it. | Discurso
 hopefully | ojalá, con suerte | Hopefully, it will be sunny. | Discurso
-surprisingly | sorprendentemente | Surprisingly, it was cheap. | Discurso
 completely | completamente | Completely wet. | Grado
 extremely | extremadamente | Extremely hot. | Grado
 fairly | bastante | Fairly easy. | Grado
@@ -663,7 +658,6 @@ revolution | revolución | A technological revolution. | Tecnología
 transition | transición | A difficult transition. | Tecnología
 retraining | recapacitación | Retraining programmes. | Tecnología
 creativity | creatividad | Creativity is key. | Habilidades
-critical thinking | pensamiento crítico | Develop critical thinking. | Habilidades
 emotional intelligence | inteligencia emocional | High emotional intelligence. | Habilidades
 responsibility | responsabilidad | More responsibility. | Entrevistas
 target | meta, objetivo | Sales targets. | Entrevistas
@@ -712,9 +706,6 @@ high season | temporada alta | Prices rise in high season. | Viajes
 resident | residente | Local residents. | Viajes
 customs (habits) | costumbres | Respect local customs. | Viajes
 bilingualism | bilingüismo | The benefits of bilingualism. | Idiomas
-native speaker | hablante nativo | Sound like a native speaker. | Idiomas
-code-switching | alternancia de idiomas | Code-switching is normal. | Idiomas
-accent | acento | A strong accent. | Idiomas
 fluency | fluidez | Fluency takes time. | Idiomas
 ageing | envejecimiento | Healthy ageing. | Sociedad
 addiction | adicción | Recovering from addiction. | Sociedad
@@ -813,7 +804,6 @@ authentic | auténtico | An authentic atmosphere. | Viajes
 permanent | permanente | Permanent residents. | Viajes
 native | nativo | Native language. | Idiomas
 monolingual | monolingüe | Monolingual children. | Idiomas
-bilingual | bilingüe | Bilingual children. | Idiomas
 executive | ejecutivo | Executive functions. | Idiomas
 genuine | genuino, auténtico | A genuine interest. | Básicos
 sharp | agudo, marcado | A sharp decline. | Básicos
@@ -840,7 +830,6 @@ for certain | con certeza | We will never know for certain. | Discurso
 "Conectores": `
 secondly | en segundo lugar | Secondly, it improves access. | Orden
 thirdly | en tercer lugar | Thirdly, green spaces cool cities. | Orden
-in other words | en otras palabras | In other words, sleep is essential. | Aclarar
 for instance | por ejemplo | For instance, elephants walk kilometres. | Ejemplos
 consequently | en consecuencia | Consequently, rents rise. | Consecuencia
 due to | debido a | Due to the weather. | Causa
@@ -875,7 +864,6 @@ engagement | participación, interacción | User engagement. | Mente y tecnolog�
 notification | notificación | Turn off notifications. | Mente y tecnología
 advertiser | anunciante | Advertisers pay for clicks. | Mente y tecnología
 outrage | indignación | Outrage spreads quickly. | Mente y tecnología
-polarisation | polarización | Political polarisation. | Mente y tecnología
 propaganda | propaganda | Wartime propaganda. | Mente y tecnología
 illusion | ilusión | Multitasking is an illusion. | Mente y tecnología
 distraction | distracción | Too many distractions. | Mente y tecnología
@@ -909,13 +897,11 @@ expenditure | gasto | Public expenditure. | Economía y sociedad
 taxpayer | contribuyente | Taxpayers' money. | Economía y sociedad
 recipient | beneficiario, receptor | Benefit recipients. | Economía y sociedad
 destitution | indigencia | Fear of destitution. | Economía y sociedad
-inequality | desigualdad | Growing inequality. | Economía y sociedad
 privilege | privilegio | A privilege of the wealthy. | Economía y sociedad
 dignity | dignidad | Migration with dignity. | Economía y sociedad
 persecution | persecución | Fleeing persecution. | Economía y sociedad
 refugee | refugiado | Refugee status. | Economía y sociedad
 cornerstone | piedra angular | The cornerstone of the law. | Economía y sociedad
-legislation | legislación | New legislation. | Economía y sociedad
 statehood | condición de Estado | Preserve their statehood. | Economía y sociedad
 sovereignty | soberanía | National sovereignty. | Economía y sociedad
 mainstream | corriente dominante | Into the mainstream. | Economía y sociedad
@@ -942,10 +928,8 @@ sea level | nivel del mar | Rising sea levels. | Medio ambiente
 displacement | desplazamiento | Climate displacement. | Medio ambiente
 territory | territorio | National territory. | Medio ambiente
 ancestor | antepasado | Our ancestors. | Cultura e identidad
-heritage | patrimonio, herencia | Cultural heritage. | Cultura e identidad
 identity | identidad | National identity. | Cultura e identidad
 indigenous people | pueblos indígenas | The rights of indigenous people. | Cultura e identidad
-mother tongue | lengua materna | My mother tongue is Spanish. | Cultura e identidad
 revival | resurgimiento | A cultural revival. | Cultura e identidad
 immersion | inmersión | Immersion schools. | Cultura e identidad
 dominance | dominio, predominio | The dominance of English. | Cultura e identidad
@@ -1033,7 +1017,6 @@ low-lying | de baja altitud | Low-lying islands. | Medio ambiente
 densely populated | densamente poblado | A densely populated area. | Medio ambiente
 coastal | costero | Coastal villages. | Medio ambiente
 ancestral | ancestral | Ancestral lands. | Cultura e identidad
-indigenous | indígena | Indigenous languages. | Cultura e identidad
 distinct | distinto, diferenciado | A distinct culture. | Cultura e identidad
 inseparable | inseparable | Inseparable from identity. | Cultura e identidad
 courteous | cortés | A courteous letter. | Narrativa
@@ -1120,8 +1103,6 @@ rhetoric | retórica | Empty rhetoric. | Lengua y estilo
 eloquence | elocuencia | Remarkable eloquence. | Lengua y estilo
 interpreter | intérprete | A court interpreter. | Lengua y estilo
 quantification | cuantificación | Faith in quantification. | Gestión y sociedad
-accountability | rendición de cuentas | Public accountability. | Gestión y sociedad
-transparency | transparencia | Greater transparency. | Gestión y sociedad
 objectivity | objetividad | Scientific objectivity. | Gestión y sociedad
 fixation | obsesión, fijación | A fixation on numbers. | Gestión y sociedad
 array | conjunto, serie | An array of options. | Gestión y sociedad
@@ -1163,7 +1144,6 @@ arbiter | árbitro, juez | Arbiters of truth. | Inglés jurídico
 rehabilitation | rehabilitación | Rehabilitation of offenders. | Inglés jurídico
 privacy | privacidad | The right to privacy. | Inglés jurídico
 liability | responsabilidad (legal) | Limited liability. | Inglés jurídico
-verdict | veredicto | A guilty verdict. | Inglés jurídico
 precedent | precedente | Set a precedent. | Inglés jurídico
 consortium | consorcio | A research consortium. | Inglés académico
 journal | revista académica | A prestigious journal. | Inglés académico
@@ -1181,7 +1161,6 @@ likelihood | probabilidad | The likelihood of success. | Inglés médico
 baseline | línea de base | The baseline risk. | Inglés médico
 mortality | mortalidad | Mortality rates. | Inglés médico
 longevity | longevidad | Priority on longevity. | Inglés médico
-numeracy | competencia numérica | Low numeracy. | Inglés médico
 clinician | médico clínico | Clinicians must explain. | Inglés médico
 comprehension | comprensión | Reading comprehension. | Inglés médico
 deliberation | deliberación | Careful deliberation. | Inglés médico
@@ -1283,7 +1262,6 @@ perverse | perverso, contraproducente | Perverse incentives. | Registro académi
 eponymous | epónimo, homónimo | His eponymous law. | Registro académico
 unquantifiable | incuantificable | Unquantifiable qualities. | Registro académico
 punitive | punitivo | Punitive measures. | Registro académico
-ambivalent | ambivalente | An ambivalent attitude. | Registro académico
 regressive | regresivo | Regressive policies. | Registro académico
 pernicious | pernicioso | A pernicious influence. | Registro académico
 debilitating | debilitante | A debilitating illness. | Registro académico

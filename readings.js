@@ -5372,6 +5372,310 @@ window.READINGS = [
      "model": "One day, when I was fifteen, I lied to my father about my grades. He found out and, instead of shouting, he told me he was disappointed. That taught me that honesty is more important than looking perfect."
     }
    ]
+  },
+  {
+   "title": "The Myth of the Morning Person",
+   "es": "El mito de la persona madrugadora · Lectura extra",
+   "text": "For decades, self-help books have told us that success belongs to those who get up at five. Wake before dawn, the argument goes, and you will be more disciplined, more productive and, presumably, richer. It's high time we questioned this idea. Research into chronotypes, the natural rhythms that determine when we feel most alert, suggests that roughly a quarter of the population are genuine \"larks\", or morning people. A similar proportion are \"owls\", who peak in the late afternoon or evening. The vast majority fall somewhere in between. Crucially, these patterns appear to be largely genetic, which means that forcing an owl to behave as if it were a lark is not only frustrating but potentially harmful. Studies of shift workers and teenagers make the point clearly. Adolescents' body clocks shift later during puberty, yet most schools begin at seven or earlier. Not surprisingly, sleep-deprived students tend to perform worse, and a significant proportion report symptoms of anxiety. When a handful of schools in the United States delayed their start times by just one hour, attendance rose and car accidents involving teenage drivers fell sharply. None of this is to say that routines are unimportant. Willpower, admittedly, plays a part, and consistent habits can help anyone. But the so-called \"five a.m. club\" confuses correlation with causation: successful people who get up early may simply be larks who happen to be successful, rather than proof that early rising produces success. The real lesson is more nuanced. Rather than copying someone else's schedule, we would do better to observe when we ourselves feel sharpest and organise our most demanding tasks accordingly. Employers, too, could benefit. A growing number of companies now offer flexible hours, having discovered that tired employees are rarely productive ones. So if you have spent years feeling guilty for hitting the snooze button, you can stop apologising. You may not be lazy at all. You may just be an owl living in a world designed for larks.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "Según el texto, ¿de qué dependen en gran parte los cronotipos?",
+     "o": [
+      "De la genética",
+      "De la disciplina",
+      "De la dieta",
+      "Del trabajo"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué pasó cuando algunos colegios retrasaron una hora la entrada?",
+     "o": [
+      "Subió la asistencia y bajaron los accidentes de tránsito de adolescentes",
+      "Bajó el rendimiento",
+      "Los estudiantes se quejaron",
+      "No cambió nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué error comete el «club de las cinco de la mañana», según el autor?",
+     "o": [
+      "Confunde correlación con causalidad",
+      "Recomienda dormir poco",
+      "Ignora la fuerza de voluntad",
+      "Es demasiado caro"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "You may not be lazy at all. You may just be an owl living in a world designed for larks.",
+     "q": "¿Cuál es la actitud del autor hacia los «búhos»?",
+     "o": [
+      "Comprensiva, los defiende",
+      "Crítica, los considera perezosos",
+      "Indiferente",
+      "Sarcástica"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Are you a morning person or an evening person? How does it affect your work or studies, and what would you change?",
+     "min": 42,
+     "keys": [
+      [
+       "morning",
+       "evening",
+       "night",
+       "lark",
+       "owl"
+      ],
+      [
+       "i'd rather",
+       "it's time",
+       "if only",
+       "wish",
+       "as if"
+      ]
+     ],
+     "model": "I'm definitely an owl. I feel sharpest in the evening, but my job starts at seven, so I spend the morning acting as if I were awake. If only my company offered flexible hours! It's high time employers accepted that productivity doesn't depend on getting up early."
+    }
+   ]
+  },
+  {
+   "title": "Learning to Think, Not to Memorise",
+   "es": "Aprender a pensar, no a memorizar · Lectura extra",
+   "text": "Ask any Colombian adult to recite the rivers of the country or the dates of independence, and many will still be able to do so decades later. Ask them what they did with that information, however, and the answer is often a shrug. For generations, our schools have relied heavily on rote learning, and few would dispute that this approach has done little to foster critical thinking. The problem is not memory itself. Some knowledge needs to be learnt by heart, and literacy and numeracy remain the foundations of any education. The problem is a system in which memorisation becomes the goal rather than a tool. When students are assessed almost entirely through standardised tests, teachers understandably teach to the test, and the curriculum shrinks to whatever is likely to be examined. Two reforms are frequently proposed. The first is to overhaul the curriculum, reducing the number of subjects and introducing project-based learning, in which students investigate real problems in their communities. The second is to change assessment, complementing national exams with continuous evaluation of skills such as teamwork, argumentation and creativity. Both have their merits, and neither is without its drawbacks. A new curriculum, however well designed, will fail if teachers have not been trained to deliver it. Continuous assessment, on the other hand, can be subjective and places a heavy burden on teachers who are already overworked and, in many cases, undervalued. On balance, changing assessment may be the more effective of the two, precisely because assessment shapes everything else. If schools were rewarded for developing thinkers rather than test-takers, the curriculum and teaching methods would almost certainly follow. Several public schools in Bogotá and Medellín that have experimented with this approach report lower dropout rates and more engaged students. Whatever path is chosen, one thing is clear: in a world where information is a click away, the ability to question, connect and evaluate ideas is worth far more than a list of rivers.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Cuál es el problema principal, según el autor?",
+     "o": [
+      "Que memorizar se vuelve el objetivo y no una herramienta",
+      "Que los estudiantes no memorizan nada",
+      "Que no hay pruebas nacionales",
+      "Que hay pocos colegios"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué inconveniente tiene la evaluación continua?",
+     "o": [
+      "Puede ser subjetiva y sobrecarga a los profesores",
+      "Es muy barata",
+      "Elimina la lectura",
+      "Solo sirve en universidades"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál reforma considera más eficaz el autor?",
+     "o": [
+      "Cambiar la evaluación",
+      "Cambiar el currículo",
+      "Aumentar las horas de clase",
+      "Eliminar las pruebas"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "If schools were rewarded for developing thinkers rather than test-takers, the curriculum and teaching methods would almost certainly follow.",
+     "q": "¿Por qué cree el autor que cambiar la evaluación es clave?",
+     "o": [
+      "Porque arrastraría los cambios en currículo y enseñanza",
+      "Porque es más barato",
+      "Porque los profesores lo piden",
+      "Porque es obligatorio por ley"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Which is more important to improve education in your country: changing the curriculum or changing assessment? Justify your choice.",
+     "min": 39,
+     "keys": [
+      [
+       "curriculum",
+       "assessment",
+       "teachers"
+      ],
+      [
+       "on balance",
+       "the more",
+       "however",
+       "few would dispute",
+       "not without"
+      ]
+     ],
+     "model": "Few would dispute that our schools need reform. On balance, I think assessment is the more important of the two, because teachers teach what is tested. However, changing the curriculum is not without its benefits, especially if it includes projects connected to real life."
+    }
+   ]
+  },
+  {
+   "title": "The Languages We Are Losing",
+   "es": "Las lenguas que estamos perdiendo · Lectura extra",
+   "text": "Colombia is often described as a Spanish-speaking country, but this description hides a remarkable linguistic diversity. Alongside Spanish, more than sixty indigenous languages are spoken, as well as two creole languages: Palenquero, in San Basilio de Palenque, and the English-based creole of San Andrés and Providencia. Romani is also recognised as one of the nation's languages. Many of these languages are endangered. Some have only a handful of speakers left, most of them elderly. When a language disappears, it takes with it far more than words: it carries knowledge of medicinal plants, stories, songs and ways of understanding the world that cannot always be translated. The reasons for this decline are complex. Granted, globalisation and migration to cities play a role, but so does a long history of discrimination. For much of the twentieth century, children were punished at school for speaking their mother tongue, and many parents chose not to pass it on, believing that Spanish, and later English, would offer their children a better future. In recent years, attitudes have begun to change. The Constitution of 1991 recognised the country's ethnic and cultural diversity, and a 2010 law protects native languages as part of the nation's heritage. Communities are revitalising their languages through radio stations, bilingual schools and social media. In La Guajira, young Wayuu create videos in Wayuunaiki that reach thousands of viewers. None of this means that learning English is a threat. While it's true that English has become a global lingua franca, it's equally true that being multilingual is an advantage, not a contradiction. Research consistently shows that children can acquire several languages without confusion, and that pride in one's mother tongue often makes learning others easier. The challenge, then, is not to choose between local identity and global opportunity, but to make room for both. A country that teaches its children English while letting its own languages die would be poorer in ways that no exam can measure.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "Además del español, ¿qué lenguas reconoce el texto en Colombia?",
+     "o": [
+      "Más de sesenta indígenas, dos criollas y el romaní",
+      "Solo lenguas indígenas",
+      "Solo inglés y español",
+      "Ocho lenguas en total"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué muchos padres no transmitieron su lengua materna?",
+     "o": [
+      "Creían que el español o el inglés darían un mejor futuro a sus hijos",
+      "Porque estaba prohibida por la Constitución",
+      "Porque no la hablaban bien",
+      "Porque no había colegios"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué hacen los jóvenes wayuu en La Guajira?",
+     "o": [
+      "Crean videos en wayuunaiki",
+      "Traducen libros al inglés",
+      "Dejan de hablar su lengua",
+      "Estudian en Bogotá"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "The challenge, then, is not to choose between local identity and global opportunity, but to make room for both.",
+     "q": "¿Cuál es la conclusión del autor?",
+     "o": [
+      "Hay que dar espacio tanto a la identidad local como a la oportunidad global",
+      "Hay que escoger el inglés",
+      "Hay que rechazar la globalización",
+      "Las lenguas indígenas no tienen futuro"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Do you think learning English threatens local languages and cultural identity? Give a balanced answer.",
+     "min": 40,
+     "keys": [
+      [
+       "while it's true",
+       "granted",
+       "it's not as simple",
+       "a fine line",
+       "the challenge is"
+      ],
+      [
+       "identity",
+       "heritage",
+       "mother tongue",
+       "indigenous",
+       "culture",
+       "lingua franca"
+      ]
+     ],
+     "model": "While it's true that English is the lingua franca of business, it's equally true that we shouldn't lose our heritage. It's not as simple as choosing one or the other. The challenge is to learn English without forgetting our indigenous languages and our cultural identity."
+    }
+   ]
+  },
+  {
+   "title": "Guilty Until Proven Innocent?",
+   "es": "¿Culpable hasta que se demuestre lo contrario? · Lectura extra",
+   "text": "In March, a well-known football coach was accused on social media of harassing a young employee. Within hours, the allegation had been shared tens of thousands of times. Sponsors withdrew their support, his club suspended him, and newspapers published his photograph alongside the word \"scandal\". Eight months later, a judge dismissed the case for lack of evidence. By then, however, his career was effectively over. Cases like this raise uncomfortable questions about the relationship between justice and the media. On the one hand, a free press is essential to democracy. Investigative journalists have exposed corruption, abuse and fraud that might otherwise have remained hidden, and social media has given a voice to victims who were previously ignored. On the other hand, the presumption of innocence is a fundamental right, and it is easily undermined when public opinion delivers its verdict long before a court does. Responsible journalists are aware of this tension. That is why they refer to \"alleged\" crimes and avoid publishing information that could prejudice a trial. Social media, though, operates under no such rules. Algorithms reward outrage, misinformation spreads faster than corrections, and users tend to live in echo chambers where their existing beliefs are constantly reinforced. Some legal experts argue that stricter regulation is the answer, including heavier penalties for defamation. Others warn that such measures could be used to silence legitimate criticism, particularly of powerful people. Admittedly, there is no simple solution. What is clear is that a single post can now destroy a reputation that took decades to build, and that being acquitted rarely receives the same attention as being accused. Perhaps the most realistic response lies not in new laws but in education. If citizens learnt to check sources, to distinguish allegations from proven facts and to resist the instant gratification of sharing shocking news, the court of public opinion might become a little fairer. Until then, many people will continue to be, in practice, guilty until proven innocent.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué pasó con el entrenador ocho meses después?",
+     "o": [
+      "Un juez desestimó el caso por falta de pruebas",
+      "Fue condenado",
+      "Volvió a su club",
+      "Demandó a la víctima"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué los periodistas responsables usan la palabra «alleged»?",
+     "o": [
+      "Para respetar la presunción de inocencia y no perjudicar el juicio",
+      "Porque es más corta",
+      "Porque lo exige el club",
+      "Para atraer más lectores"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué propone el autor como respuesta más realista?",
+     "o": [
+      "La educación para verificar fuentes y distinguir acusaciones de hechos",
+      "Prohibir las redes sociales",
+      "Multas más altas por difamación",
+      "Juicios más rápidos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Being acquitted rarely receives the same attention as being accused.",
+     "q": "¿Qué critica el autor?",
+     "o": [
+      "Que la absolución tiene menos atención que la acusación",
+      "Que los jueces sean lentos",
+      "Que los medios no informen de crímenes",
+      "Que haya demasiados abogados"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Should the media report on criminal cases before there is a verdict? Discuss both sides.",
+     "min": 41,
+     "keys": [
+      [
+       "presumption of innocence",
+       "verdict",
+       "evidence",
+       "trial",
+       "acquitted",
+       "defendant"
+      ],
+      [
+       "alleged",
+       "misinformation",
+       "echo chamber",
+       "defamation",
+       "sensationalism",
+       "press"
+      ],
+      [
+       "on the one hand",
+       "on the other hand",
+       "admittedly",
+       "however",
+       "while it's true"
+      ]
+     ],
+     "model": "On the one hand, a free press can expose crimes that would otherwise stay hidden. On the other hand, the presumption of innocence is easily undermined before a verdict. Admittedly, there is no simple solution, but journalists should always use the word alleged and avoid sensationalism."
+    }
+   ]
   }
  ],
  [

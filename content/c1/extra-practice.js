@@ -91,5 +91,35 @@ module.exports = [
  T("What is the most serious social problem in your country? Explain its causes and propose a solution.", 50, [["because", "due to", "caused by"], ["should", "could"], ["in my view", "in my opinion", "i believe"]], "In my view, the most serious problem is inequality. It is caused by unequal access to education and jobs. The government should invest in public schools and support small businesses in rural areas."),
  T("Should the minimum voting age be lowered to 16? Argue for or against.", 45, [["argue", "believe", "think"], ["however", "on the other hand", "although"]], "I believe the voting age should be lowered to sixteen, because young people are affected by political decisions. However, some argue they are not mature enough, although many adults aren't either."),
  T("Listen to the statement and respond, considering both sides.", 40, [["on the one hand", "while", "although"], ["on the other hand", "however"]], "On the one hand, technology has made information available to everyone. On the other hand, it has also increased isolation and the spread of misinformation, so the effect is mixed.", "Technology has made society more equal.")
+],
+/* Unidad 7 · Matices del significado */
+[
+ L("He always behaves as if he were the most important person in the room, and frankly, it gets on everyone's nerves.", "¿Cómo se comporta?", ["Como si fuera la persona más importante", "Como si estuviera cansado", "Como si fuera tímido", "Como si no entendiera"], 0),
+ L("The minister is reported to have resigned last night, having been criticised for weeks over the budget.", "¿Qué se informa del ministro?", ["Que renunció anoche", "Que lo ascendieron", "Que aprobó el presupuesto", "Que viajó al exterior"], 0),
+ L("Worryingly, just under a third of young people say they read for pleasure, a figure that has halved since 2010.", "¿Qué pasó desde 2010?", ["La cifra se redujo a la mitad", "La cifra se duplicó", "Se mantuvo igual", "Subió un poco"], 0),
+ L("Well, it's certainly an ambitious plan. I'm just not sure we have the money or the time to do it properly.", "¿Cuál es la actitud?", ["Escéptica", "Entusiasta", "Furiosa", "Nostálgica"], 0),
+ M("It's high time we ___ to the problem.", ["faced up", "face up", "will face up", "are facing up"], 0, "It's high time + pasado."),
+ M("She denied ___ the documents.", ["having seen", "to have seen", "to see", "being seen"], 0, "Deny + gerundio (perfecto para enfatizar el pasado)."),
+ F("«It's pointless complaining.» → There's no point ___ complaining.", ["in"], "There's no point (in) + -ing."),
+ O("I'd rather you hadn't told anyone about it."),
+ O("The vast majority of respondents were in favour of the change."),
+ T("Talk about a habit of someone close to you that annoys you. Use wish … would and it's high time.", 40, [["wish", "would"], ["it's high time", "it's about time", "i'd rather"]], "My brother always leaves the kitchen in a mess. I wish he would wash his dishes. It's high time he learnt to cook properly, and frankly, I'd rather he didn't use my things without asking."),
+ T("Describe a trend in your city or country with precise data and your attitude towards it.", 40, [["majority", "proportion", "handful", "hardly any", "roughly", "just under", "well over"], ["surprisingly", "worryingly", "interestingly", "predictably", "admittedly"]], "Worryingly, roughly half of the people in my city spend more than two hours a day commuting. The vast majority use public transport, which is overcrowded. Interestingly, the number of cyclists has doubled in the last five years."),
+ T("Listen and answer.", 30, [["sceptical", "unconvinced", "not sure", "doubt", "attitude", "seems", "sounds"]], "She sounds sceptical. She says it's interesting, but I think she means she's not convinced.", "Your boss said your proposal was 'certainly interesting'. What do you think she meant?")
+],
+/* Unidad 8 · Habilidades C1 Advanced */
+[
+ L("I'll talk about the first and the third pictures. In both, people seem to be under pressure, but whereas the surgeon is presumably used to it, the student looks completely overwhelmed.", "¿Cómo se ve el estudiante?", ["Completamente abrumado", "Acostumbrado a la presión", "Relajado", "Aburrido"], 0),
+ L("On balance, I'd argue that investing in teachers is the more effective of the two options, since even the best curriculum fails without well-trained staff.", "¿Qué opción defiende quien habla?", ["Invertir en los profesores", "Cambiar el currículo", "Hacer más pruebas", "Reducir la matrícula"], 0),
+ L("It is proposed that the council create a youth advisory board. Were this measure adopted, young people would have a direct voice in local policy.", "¿Qué se propone?", ["Crear un consejo asesor juvenil", "Bajar la edad para votar", "Cerrar el concejo", "Hacer más elecciones"], 0),
+ L("The defendant was acquitted, but the leaked messages had already been shared thousands of times. His lawyers plan to sue for defamation.", "¿Qué planean los abogados?", ["Demandar por difamación", "Apelar la absolución", "Pedir perdón", "Retirar el caso"], 0),
+ M("Motivation that comes from rewards like money is ___.", ["extrinsic", "intrinsic", "resilient", "habit-forming"], 0, "Extrinsic = viene de fuera."),
+ M("___ these measures adopted, trust would improve.", ["Were", "If", "Had", "Should be"], 0, "Inversión formal: Were + sujeto + participio."),
+ F("English has become a global lingua ___. (franca)", ["franca"], "Lingua franca = lengua común."),
+ O("What might have prompted him to change careers so suddenly?"),
+ O("While it's true that globalisation creates opportunities, it's equally true that it can threaten local cultures."),
+ T("You have three pictures: a volunteer, a CEO and an artist. Choose two and say what motivates them and how they might be feeling.", 40, [["presumably", "could well", "i get the impression", "i'd imagine", "i suspect"], ["motivated", "motivation", "driven", "pressure", "reward", "sense of achievement"]], "I'll talk about the volunteer and the CEO. The volunteer is presumably motivated by a desire to help, so she could well be feeling a real sense of achievement. The CEO, on the other hand, seems driven by extrinsic rewards, and I get the impression he's under a lot of pressure."),
+ T("Make a proposal to improve something in your neighbourhood. Use formal structures.", 40, [["it is proposed", "i would propose", "i would recommend"], ["were", "should"]], "I would propose that the council turn the empty lot into a community garden. Were this plan adopted, residents would have a place to meet, and it is proposed that local schools take part in maintaining it."),
+ T("Listen and answer.", 30, [["presumption of innocence", "alleged", "verdict", "trial", "evidence", "media"]], "I don't think they should name the suspect before the trial, because everyone has the presumption of innocence.", "Should newspapers publish the names of suspects before a trial?")
 ]
 ];

@@ -78523,7 +78523,7 @@ window.SYLLABUS = {
   }
  },
  "4": {
-  "intro": "En 30 lecciones (6 unidades de 5 días) vas a dar énfasis con inversión y oraciones hendidas, matizar con modales avanzados y el subjuntivo, estructurar discursos académicos y profesionales, manejar registro, colocaciones y modismos, persuadir y negociar con diplomacia, y debatir temas de sociedad, ciencia y cultura. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
+  "intro": "En 40 lecciones (8 unidades de 5 días) vas a dar énfasis con inversión y oraciones hendidas, matizar con modales avanzados y el subjuntivo, estructurar discursos académicos y profesionales, manejar registro, colocaciones y modismos, persuadir y negociar con diplomacia, debatir temas de sociedad, ciencia y cultura, usar pasados irreales e infinitivos perfectos, describir datos con precisión, parafrasear, inferir actitudes y prepararte para el examen C1 Advanced: comparar imágenes, escribir ensayos y propuestas, y hablar de educación, política, identidad y justicia. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
   "units": [
    {
     "title": "Énfasis y estilo",
@@ -93767,6 +93767,5136 @@ window.SYLLABUS = {
       "es": "Se dice que la empresa aprovechó un vacío legal."
      }
     ]
+   },
+   {
+    "title": "Matices del significado",
+    "lessons": [
+     {
+      "id": "c1-u7-l1",
+      "title": "Pasados irreales: as if, it's high time, I'd rather you did",
+      "goal": "Usar el pasado para hablar de situaciones irreales, deseos y críticas en el presente.",
+      "theory": [
+       {
+        "p": "En inglés, el **pasado** sirve para marcar **distancia de la realidad**, aunque hablemos del presente. Después de **as if / as though** (como si), el pasado indica que algo no es cierto: **He talks as if he owned the company** (no es el dueño). Si puede ser cierto, se usa el presente: **It looks as if it's going to rain**."
+       },
+       {
+        "ex": [
+         [
+          "She acts as though she were the boss.",
+          "Actúa como si fuera la jefa."
+         ],
+         [
+          "He spends money as if there were no tomorrow.",
+          "Gasta plata como si no hubiera mañana."
+         ],
+         [
+          "You look as if you've seen a ghost.",
+          "Parece que hubieras visto un fantasma."
+         ],
+         [
+          "It's high time we changed this system.",
+          "Ya va siendo hora de que cambiemos este sistema."
+         ],
+         [
+          "It's about time you apologised.",
+          "Ya era hora de que pidieras disculpas."
+         ]
+        ]
+       },
+       {
+        "p": "**It's (high / about) time + sujeto + pasado** = ya debería estar pasando (crítica): **It's high time the government did something.** **I'd rather + otra persona + pasado** = preferiría que: **I'd rather you didn't smoke here.** Para el pasado se usa el pasado perfecto: **I'd rather you hadn't told her.** **Wish + would** = queja sobre lo que otro hace y te molesta: **I wish you would stop interrupting me.**"
+       },
+       {
+        "ex": [
+         [
+          "I'd rather you didn't mention it to anyone.",
+          "Preferiría que no se lo mencionaras a nadie."
+         ],
+         [
+          "I'd rather you had asked me first.",
+          "Habría preferido que me preguntaras primero."
+         ],
+         [
+          "I wish my neighbours would turn the music down.",
+          "Ojalá mis vecinos bajaran la música."
+         ],
+         [
+          "Suppose you lost your job tomorrow, what would you do?",
+          "Supón que perdieras el trabajo mañana, ¿qué harías?"
+         ],
+         [
+          "If only I were a bit taller!",
+          "¡Si tan solo fuera un poco más alto!"
+         ]
+        ]
+       },
+       {
+        "tip": "En registro formal se prefiere **were** para todas las personas en estas estructuras: **as if he were**, **if only I were**. En la conversación **was** también se oye y se acepta."
+       }
+      ],
+      "vocab": [
+       [
+        "as if / as though",
+        "conjunción",
+        "como si",
+        "He behaves as if he were a celebrity."
+       ],
+       [
+        "it's high time",
+        "expresión",
+        "ya va siendo hora de que",
+        "It's high time we left."
+       ],
+       [
+        "it's about time",
+        "expresión",
+        "ya era hora de que",
+        "It's about time you called."
+       ],
+       [
+        "I'd rather you…",
+        "expresión",
+        "preferiría que tú…",
+        "I'd rather you stayed."
+       ],
+       [
+        "wish … would",
+        "expresión",
+        "ojalá … (queja sobre otro)",
+        "I wish he would listen."
+       ],
+       [
+        "suppose / supposing",
+        "conjunción",
+        "supón que, suponiendo que",
+        "Suppose it rained, what then?"
+       ],
+       [
+        "if only",
+        "expresión",
+        "si tan solo, ojalá",
+        "If only I had more time."
+       ],
+       [
+        "behave",
+        "verbo",
+        "comportarse",
+        "He behaves badly at meetings."
+       ],
+       [
+        "pretend",
+        "verbo",
+        "fingir",
+        "She pretended she hadn't heard."
+       ],
+       [
+        "show off",
+        "verbo",
+        "presumir, alardear",
+        "Stop showing off!"
+       ],
+       [
+        "bossy",
+        "adjetivo",
+        "mandón",
+        "He's so bossy."
+       ],
+       [
+        "arrogant",
+        "adjetivo",
+        "arrogante",
+        "She talks in an arrogant way."
+       ],
+       [
+        "condescending",
+        "adjetivo",
+        "condescendiente",
+        "His tone was condescending."
+       ],
+       [
+        "get on someone's nerves",
+        "expresión",
+        "sacar de quicio",
+        "His jokes get on my nerves."
+       ],
+       [
+        "take for granted",
+        "expresión",
+        "dar por sentado",
+        "He takes his team for granted."
+       ],
+       [
+        "overdue",
+        "adjetivo",
+        "atrasado, que ya debió ocurrir",
+        "This change is long overdue."
+       ],
+       [
+        "face up to",
+        "verbo",
+        "afrontar",
+        "It's time we faced up to the problem."
+       ],
+       [
+        "brush aside",
+        "verbo",
+        "hacer a un lado, desestimar",
+        "He brushed aside our concerns."
+       ],
+       [
+        "hypothetical",
+        "adjetivo",
+        "hipotético",
+        "It's a hypothetical situation."
+       ],
+       [
+        "unreal",
+        "adjetivo",
+        "irreal",
+        "We use the past for unreal situations."
+       ],
+       [
+        "frankly",
+        "adverbio",
+        "francamente",
+        "Frankly, I'd rather you didn't."
+       ],
+       [
+        "keep someone waiting",
+        "expresión",
+        "hacer esperar a alguien",
+        "I wish he wouldn't keep us waiting."
+       ]
+      ],
+      "dialogue": {
+       "title": "El compañero que se cree el jefe",
+       "scene": "Lucía y Felipe, dos analistas de una empresa en Bogotá, hablan de un colega nuevo después de una reunión.",
+       "a": "Lucía",
+       "b": "Felipe",
+       "lines": [
+        [
+         "A",
+         "Did you see Andrés in the meeting? He talks as if he owned the company.",
+         "¿Viste a Andrés en la reunión? Habla como si fuera el dueño de la empresa."
+        ],
+        [
+         "B",
+         "I know. He's been here three weeks and he behaves as though he were the director.",
+         "Ya sé. Lleva tres semanas y se comporta como si fuera el director."
+        ],
+        [
+         "A",
+         "And he brushed aside everything you said about the budget. Frankly, it was condescending.",
+         "Y desestimó todo lo que dijiste del presupuesto. Francamente, fue condescendiente."
+        ],
+        [
+         "B",
+         "It really gets on my nerves. I wish he would let other people finish their sentences.",
+         "De verdad me saca de quicio. Ojalá dejara que los demás terminen sus frases."
+        ],
+        [
+         "A",
+         "Someone should talk to him. It's high time somebody told him how things work here.",
+         "Alguien debería hablar con él. Ya va siendo hora de que alguien le explique cómo funcionan las cosas aquí."
+        ],
+        [
+         "B",
+         "Not me. I'd rather you did it. You're much more diplomatic.",
+         "Yo no. Preferiría que lo hicieras tú. Eres mucho más diplomática."
+        ],
+        [
+         "A",
+         "Ha ha, thanks. But I'd rather Marta handled it. She's his manager, after all.",
+         "Jaja, gracias. Pero preferiría que Marta se encargara. Al fin y al cabo, es su jefa."
+        ],
+        [
+         "B",
+         "True. Although Marta seems to take everyone for granted lately.",
+         "Cierto. Aunque Marta parece dar a todos por sentado últimamente."
+        ],
+        [
+         "A",
+         "Suppose we sent her an email, just explaining the problem politely?",
+         "¿Y si le mandamos un correo, solo explicando el problema con cortesía?"
+        ],
+        [
+         "B",
+         "Hmm. I'd rather we spoke to her in person. Emails can sound like complaints.",
+         "Mmm. Preferiría que habláramos con ella en persona. Los correos pueden sonar a queja."
+        ],
+        [
+         "A",
+         "Fair point. And to be honest, he's not a bad person. He just looks as if he's nervous.",
+         "Buen punto. Y para ser sincera, no es mala persona. Solo parece que está nervioso."
+        ],
+        [
+         "B",
+         "Maybe. If only he'd relax a bit and stop showing off.",
+         "Puede ser. Si tan solo se relajara un poco y dejara de presumir."
+        ],
+        [
+         "A",
+         "Let's give him a chance. But it's about time someone gave him some feedback.",
+         "Démosle una oportunidad. Pero ya era hora de que alguien le diera retroalimentación."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "He spends money as if he ___ a millionaire. (pero no lo es)",
+        "o": [
+         "were",
+         "is",
+         "will be",
+         "has been"
+        ],
+        "a": 0,
+        "x": "Situación irreal después de as if → pasado."
+       },
+       {
+        "t": "mc",
+        "q": "It's high time we ___ a decision.",
+        "o": [
+         "made",
+         "make",
+         "will make",
+         "are making"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I'd rather you ___ my phone without asking.",
+        "o": [
+         "didn't use",
+         "don't use",
+         "won't use",
+         "not use"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I wish my brother ___ stop borrowing my car without asking. (queja)",
+        "ans": [
+         "would"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I'd rather you hadn't told my parents about the accident. Now they're worried, and it wasn't serious at all.",
+        "q": "¿Qué habría preferido quien habla?",
+        "o": [
+         "Que no les hubiera contado a sus papás",
+         "Que lo hubieran llevado al hospital",
+         "Que no hubiera habido accidente",
+         "Que le hubieran contado antes"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "It's high time the city did something about the traffic."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "acts",
+         "as",
+         "though",
+         "she",
+         "were",
+         "the",
+         "boss."
+        ],
+        "es": "Actúa como si fuera la jefa."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I'd",
+         "rather",
+         "you",
+         "didn't",
+         "mention",
+         "it."
+        ],
+        "es": "Preferiría que no lo mencionaras."
+       },
+       {
+        "t": "dict",
+        "say": "It's about time you apologised to her."
+       },
+       {
+        "t": "dict",
+        "say": "I wish you would stop interrupting me."
+       },
+       {
+        "t": "mc",
+        "q": "It looks as if it ___ to rain. Take an umbrella. (es posible)",
+        "o": [
+         "is going",
+         "were going",
+         "had gone",
+         "would go"
+        ],
+        "a": 0,
+        "x": "Si puede ser cierto, se usa presente."
+       },
+       {
+        "t": "mc",
+        "q": "I'd rather you ___ me before you sold the car. (pasado)",
+        "o": [
+         "had asked",
+         "asked",
+         "would ask",
+         "have asked"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Suppose you were offered a job in another country tomorrow. Would you take it, or would you rather stay close to your family?",
+        "q": "¿Qué situación plantea?",
+        "o": [
+         "Una oferta de trabajo en otro país",
+         "Perder el trabajo",
+         "Mudarse con la familia",
+         "Cambiar de carrera"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un correo diplomático a un colega o vecino sobre un comportamiento que te molesta (mínimo 130 palabras). Usa as if / as though, it's (high) time, I'd rather you…, wish … would y suppose.",
+        "min": 130,
+        "keys": [
+         [
+          "as if",
+          "as though"
+         ],
+         [
+          "it's high time",
+          "it's about time",
+          "it is high time",
+          "it's time"
+         ],
+         [
+          "i'd rather you",
+          "i would rather you"
+         ],
+         [
+          "wish",
+          "would"
+         ],
+         [
+          "suppose",
+          "supposing",
+          "if only"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "It's about time you ___ your room. It's a mess.",
+       "o": [
+        "tidied",
+        "tidy",
+        "will tidy",
+        "are tidying"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "He talks as ___ he knew everything, but he doesn't. (como si)",
+       "ans": [
+        "if",
+        "though"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u7-l2",
+      "title": "Infinitivos y gerundios perfectos y pasivos",
+      "goal": "Expresar tiempo anterior y voz pasiva con infinitivos y gerundios.",
+      "theory": [
+       {
+        "p": "El **infinitivo perfecto** (**to have + participio**) mira hacia una acción **anterior**: **She seems to have left** (parece que ya se fue). **He claims to have met the president.** **I'm sorry to have kept you waiting.** El **infinitivo pasivo** (**to be + participio**): **I expect to be paid on Friday.** · **This form needs to be signed.** Y combinado: **The thief is believed to have been caught.**"
+       },
+       {
+        "ex": [
+         [
+          "He seems to have forgotten our meeting.",
+          "Parece que olvidó nuestra reunión."
+         ],
+         [
+          "She claims to have been a professional dancer.",
+          "Afirma haber sido bailarina profesional."
+         ],
+         [
+          "I'm glad to have met you.",
+          "Me alegra haberte conocido."
+         ],
+         [
+          "Everyone wants to be listened to.",
+          "Todos quieren ser escuchados."
+         ],
+         [
+          "The paintings are thought to have been stolen in 1990.",
+          "Se cree que los cuadros fueron robados en 1990."
+         ]
+        ]
+       },
+       {
+        "p": "El **gerundio perfecto** (**having + participio**) también marca anterioridad: **He denied having taken the money.** · **Having finished the report, she went home.** El **gerundio pasivo** (**being + participio**): **I hate being interrupted.** · **She's used to being ignored.** Y **having been + participio**: **He resented having been left out.**"
+       },
+       {
+        "ex": [
+         [
+          "She regrets having sold the house.",
+          "Se arrepiente de haber vendido la casa."
+         ],
+         [
+          "Having lived in London, he speaks with a British accent.",
+          "Habiendo vivido en Londres, habla con acento británico."
+         ],
+         [
+          "I can't stand being told what to do.",
+          "No soporto que me digan qué hacer."
+         ],
+         [
+          "He was proud of being chosen for the team.",
+          "Estaba orgulloso de haber sido escogido para el equipo."
+         ],
+         [
+          "After having been rejected twice, she finally got the job.",
+          "Después de haber sido rechazada dos veces, por fin consiguió el trabajo."
+         ]
+        ]
+       },
+       {
+        "tip": "Después de **deny, admit, regret, remember** el gerundio simple ya implica pasado (**He denied taking it**); el perfecto (**having taken**) lo enfatiza. Las dos formas son correctas."
+       }
+      ],
+      "vocab": [
+       [
+        "to have done",
+        "estructura",
+        "haber hecho (infinitivo perfecto)",
+        "He seems to have left."
+       ],
+       [
+        "to be done",
+        "estructura",
+        "ser hecho (infinitivo pasivo)",
+        "It needs to be fixed."
+       ],
+       [
+        "having done",
+        "estructura",
+        "haber hecho (gerundio perfecto)",
+        "Having eaten, we left."
+       ],
+       [
+        "being done",
+        "estructura",
+        "ser hecho (gerundio pasivo)",
+        "I hate being watched."
+       ],
+       [
+        "claim",
+        "verbo",
+        "afirmar, asegurar",
+        "He claims to have seen a UFO."
+       ],
+       [
+        "appear",
+        "verbo",
+        "parecer",
+        "She appears to have forgotten."
+       ],
+       [
+        "pretend",
+        "verbo",
+        "fingir",
+        "He pretended to have read the book."
+       ],
+       [
+        "deny",
+        "verbo",
+        "negar",
+        "She denied having lied."
+       ],
+       [
+        "admit",
+        "verbo",
+        "admitir",
+        "He admitted having made a mistake."
+       ],
+       [
+        "regret",
+        "verbo",
+        "arrepentirse de",
+        "I regret having said that."
+       ],
+       [
+        "resent",
+        "verbo",
+        "resentir, molestarse por",
+        "She resented being ignored."
+       ],
+       [
+        "be entitled to",
+        "expresión",
+        "tener derecho a",
+        "You're entitled to be paid."
+       ],
+       [
+        "be keen to",
+        "expresión",
+        "tener ganas de",
+        "He's keen to be promoted."
+       ],
+       [
+        "be reported to",
+        "expresión",
+        "según informes",
+        "He is reported to have resigned."
+       ],
+       [
+        "take part",
+        "verbo",
+        "participar",
+        "I'm proud to have taken part."
+       ],
+       [
+        "left out",
+        "expresión",
+        "excluido, dejado de lado",
+        "He felt left out."
+       ],
+       [
+        "overlook",
+        "verbo",
+        "pasar por alto",
+        "She hated being overlooked."
+       ],
+       [
+        "shortlist",
+        "verbo",
+        "preseleccionar",
+        "I was delighted to be shortlisted."
+       ],
+       [
+        "acknowledge",
+        "verbo",
+        "reconocer",
+        "He wants to be acknowledged."
+       ],
+       [
+        "undervalued",
+        "adjetivo",
+        "subvalorado",
+        "Teachers often feel undervalued."
+       ],
+       [
+        "appreciated",
+        "adjetivo",
+        "valorado, apreciado",
+        "Everyone likes being appreciated."
+       ],
+       [
+        "put on the spot",
+        "expresión",
+        "poner en aprietos",
+        "I hate being put on the spot."
+       ]
+      ],
+      "dialogue": {
+       "title": "La entrevista para el premio",
+       "scene": "Daniela, ingeniera ambiental, fue preseleccionada para un premio de innovación. Una periodista de radio la entrevista.",
+       "a": "Periodista",
+       "b": "Daniela",
+       "lines": [
+        [
+         "A",
+         "Congratulations on being shortlisted for the award. How do you feel?",
+         "Felicitaciones por ser preseleccionada para el premio. ¿Cómo se siente?"
+        ],
+        [
+         "B",
+         "Thank you. I'm delighted to have been chosen, especially because so many good projects were presented.",
+         "Gracias. Estoy encantada de haber sido escogida, sobre todo porque se presentaron muchos proyectos buenos."
+        ],
+        [
+         "A",
+         "Your water filter is said to have helped more than ten thousand families in La Guajira.",
+         "Se dice que su filtro de agua ha ayudado a más de diez mil familias en La Guajira."
+        ],
+        [
+         "B",
+         "That's right. Having worked there for five years, I saw the problem with my own eyes.",
+         "Así es. Habiendo trabajado allá cinco años, vi el problema con mis propios ojos."
+        ],
+        [
+         "A",
+         "Some critics claim to have found a similar design in Kenya. What do you say?",
+         "Algunos críticos aseguran haber encontrado un diseño parecido en Kenia. ¿Qué dice?"
+        ],
+        [
+         "B",
+         "I've never denied having been inspired by other projects. Every invention builds on previous work.",
+         "Nunca he negado haberme inspirado en otros proyectos. Todo invento se basa en trabajos anteriores."
+        ],
+        [
+         "A",
+         "Was it difficult to be taken seriously as a young woman in engineering?",
+         "¿Fue difícil que la tomaran en serio siendo una mujer joven en la ingeniería?"
+        ],
+        [
+         "B",
+         "At first, yes. I resented being overlooked in meetings, and I hated being asked if my boss had designed it.",
+         "Al principio sí. Me molestaba que me pasaran por alto en las reuniones, y odiaba que me preguntaran si mi jefe lo había diseñado."
+        ],
+        [
+         "A",
+         "That must have been frustrating.",
+         "Eso debió ser frustrante."
+        ],
+        [
+         "B",
+         "It was. But now I'm proud to have proved them wrong. And I want other girls to be encouraged to study science.",
+         "Lo fue. Pero ahora estoy orgullosa de haberles demostrado que estaban equivocados. Y quiero que se anime a otras niñas a estudiar ciencias."
+        ],
+        [
+         "A",
+         "If you win, what will you do with the prize money?",
+         "Si gana, ¿qué hará con el dinero del premio?"
+        ],
+        [
+         "B",
+         "I'd like the filter to be produced locally, so that it can be repaired by the communities themselves.",
+         "Me gustaría que el filtro se produjera localmente, para que las mismas comunidades puedan repararlo."
+        ],
+        [
+         "A",
+         "Thank you, Daniela, and good luck on Friday.",
+         "Gracias, Daniela, y buena suerte el viernes."
+        ],
+        [
+         "B",
+         "Thank you. Whatever happens, I'm glad to have taken part.",
+         "Gracias. Pase lo que pase, me alegra haber participado."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "He seems ___ the keys. He can't find them anywhere.",
+        "o": [
+         "to have lost",
+         "to lose",
+         "having lost",
+         "to be lost"
+        ],
+        "a": 0,
+        "x": "Acción anterior → infinitivo perfecto."
+       },
+       {
+        "t": "mc",
+        "q": "I can't stand ___ what to do by people I don't know.",
+        "o": [
+         "being told",
+         "to tell",
+         "telling",
+         "having told"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The suspect denied ___ the victim before.",
+        "o": [
+         "having met",
+         "to have met",
+         "to meet",
+         "being met"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "This contract needs to ___ signed by both parties. (ser)",
+        "ans": [
+         "be"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Having lived in Japan for ten years, she is said to speak the language perfectly, although she claims to have forgotten a lot.",
+        "q": "¿Qué dice ella misma?",
+        "o": [
+         "Que ha olvidado mucho",
+         "Que lo habla perfecto",
+         "Que nunca lo aprendió",
+         "Que va a volver a Japón"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I'm delighted to have been chosen for the project."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "regrets",
+         "having",
+         "sold",
+         "her",
+         "old",
+         "house."
+        ],
+        "es": "Se arrepiente de haber vendido su casa vieja."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Everyone",
+         "likes",
+         "being",
+         "appreciated",
+         "at",
+         "work."
+        ],
+        "es": "A todos les gusta ser valorados en el trabajo."
+       },
+       {
+        "t": "dict",
+        "say": "He claims to have met the president."
+       },
+       {
+        "t": "dict",
+        "say": "The painting is thought to have been stolen."
+       },
+       {
+        "t": "mc",
+        "q": "___ the report, she sent it to her manager.",
+        "o": [
+         "Having finished",
+         "To have finished",
+         "Being finished",
+         "Having been finished"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Children love ___ stories before bed.",
+        "o": [
+         "being read",
+         "reading to",
+         "to have read",
+         "having read to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "I was really upset at being left out of the meeting. I'd like to be told about decisions before they're made.",
+        "q": "¿Por qué está molesto?",
+        "o": [
+         "Lo dejaron por fuera de la reunión",
+         "Lo criticaron",
+         "No le pagaron",
+         "Lo cambiaron de oficina"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un texto de presentación para un premio o una beca (mínimo 130 palabras): tus logros, lo que te enorgullece haber hecho y lo que esperas que se reconozca. Usa al menos tres infinitivos o gerundios perfectos (to have done, having done) y dos pasivos (to be done, being done).",
+        "min": 130,
+        "keys": [
+         [
+          "to have"
+         ],
+         [
+          "having"
+         ],
+         [
+          "to be",
+          "being"
+         ],
+         [
+          "proud",
+          "delighted",
+          "glad",
+          "honoured",
+          "honored"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "She is believed ___ the country last week.",
+       "o": [
+        "to have left",
+        "to leave",
+        "having left",
+        "to be leaving"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "I hate ___ interrupted when I'm speaking. (ser)",
+       "ans": [
+        "being"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u7-l3",
+      "title": "Hablar de datos con precisión: cuantificadores avanzados",
+      "goal": "Describir cifras, proporciones y tendencias con cuantificadores precisos y adverbios de actitud.",
+      "theory": [
+       {
+        "p": "Para proporciones: **the vast majority of** (la inmensa mayoría), **a significant proportion of**, **roughly half / just under a third / well over 60%**, **a small minority**, **a handful of** (un puñado), **hardly any / next to no** (casi nada), **not a single** (ni uno solo). Con incontables: **a great deal of**, **a fraction of**, **the bulk of** (la mayor parte)."
+       },
+       {
+        "ex": [
+         [
+          "The vast majority of respondents agreed.",
+          "La inmensa mayoría de los encuestados estuvo de acuerdo."
+         ],
+         [
+          "Just under a third of students use the library.",
+          "Un poco menos de un tercio de los estudiantes usa la biblioteca."
+         ],
+         [
+          "Only a handful of companies replied.",
+          "Solo un puñado de empresas respondió."
+         ],
+         [
+          "There's hardly any evidence for that claim.",
+          "Casi no hay evidencia para esa afirmación."
+         ],
+         [
+          "The bulk of the budget goes on salaries.",
+          "La mayor parte del presupuesto se va en salarios."
+         ]
+        ]
+       },
+       {
+        "p": "Para tendencias: **rise / increase / grow sharply, steadily, slightly**; **fall / drop / decline dramatically, gradually**; **level off, peak at, fluctuate, double, halve**. Los **adverbios de actitud** muestran tu interpretación: **Surprisingly, … · Predictably, … · Interestingly, … · Worryingly, … · Not surprisingly, …**"
+       },
+       {
+        "ex": [
+         [
+          "Unemployment rose sharply in 2020 before levelling off.",
+          "El desempleo subió bruscamente en 2020 y luego se estabilizó."
+         ],
+         [
+          "The number of cyclists has doubled since 2015.",
+          "El número de ciclistas se ha duplicado desde 2015."
+         ],
+         [
+          "Interestingly, older users spend more time online.",
+          "Curiosamente, los usuarios mayores pasan más tiempo en línea."
+         ],
+         [
+          "Worryingly, reading levels have declined.",
+          "Preocupantemente, los niveles de lectura han bajado."
+         ],
+         [
+          "Prices fluctuated throughout the year.",
+          "Los precios fluctuaron durante todo el año."
+         ]
+        ]
+       },
+       {
+        "tip": "Con **majority / minority** el verbo suele ir en plural cuando hablas de personas: **The majority of people are…** Y **a number of** (varios) va con plural, mientras que **the number of** (la cantidad) va con singular: **The number of tourists has grown.**"
+       }
+      ],
+      "vocab": [
+       [
+        "the vast majority",
+        "expresión",
+        "la inmensa mayoría",
+        "The vast majority voted yes."
+       ],
+       [
+        "a significant proportion",
+        "expresión",
+        "una proporción considerable",
+        "A significant proportion are under 30."
+       ],
+       [
+        "a handful of",
+        "expresión",
+        "un puñado de",
+        "A handful of people came."
+       ],
+       [
+        "hardly any",
+        "expresión",
+        "casi nada, casi ninguno",
+        "There's hardly any milk left."
+       ],
+       [
+        "next to no",
+        "expresión",
+        "casi nada de",
+        "They received next to no help."
+       ],
+       [
+        "the bulk of",
+        "expresión",
+        "la mayor parte de",
+        "The bulk of the work is done."
+       ],
+       [
+        "a fraction of",
+        "expresión",
+        "una fracción de",
+        "It costs a fraction of the price."
+       ],
+       [
+        "roughly",
+        "adverbio",
+        "aproximadamente",
+        "Roughly half agreed."
+       ],
+       [
+        "just under / well over",
+        "expresión",
+        "un poco menos de / bastante más de",
+        "Well over 60% said no."
+       ],
+       [
+        "respondents",
+        "sustantivo",
+        "encuestados",
+        "Most respondents were women."
+       ],
+       [
+        "sharply",
+        "adverbio",
+        "bruscamente, marcadamente",
+        "Prices rose sharply."
+       ],
+       [
+        "steadily",
+        "adverbio",
+        "de manera constante",
+        "Sales grew steadily."
+       ],
+       [
+        "level off",
+        "verbo",
+        "estabilizarse",
+        "Inflation has levelled off."
+       ],
+       [
+        "peak at",
+        "verbo",
+        "alcanzar el máximo en",
+        "It peaked at 12%."
+       ],
+       [
+        "fluctuate",
+        "verbo",
+        "fluctuar",
+        "Demand fluctuates."
+       ],
+       [
+        "double / halve",
+        "verbo",
+        "duplicarse / reducirse a la mitad",
+        "The price has halved."
+       ],
+       [
+        "decline",
+        "verbo / sustantivo",
+        "disminuir; descenso",
+        "A steady decline."
+       ],
+       [
+        "surprisingly",
+        "adverbio",
+        "sorprendentemente",
+        "Surprisingly, few people complained."
+       ],
+       [
+        "predictably",
+        "adverbio",
+        "como era de esperar",
+        "Predictably, prices went up."
+       ],
+       [
+        "worryingly",
+        "adverbio",
+        "de forma preocupante",
+        "Worryingly, crime has increased."
+       ],
+       [
+        "trend",
+        "sustantivo",
+        "tendencia",
+        "It's a worrying trend."
+       ],
+       [
+        "figures",
+        "sustantivo",
+        "cifras",
+        "The latest figures are positive."
+       ]
+      ],
+      "dialogue": {
+       "title": "Los resultados de la encuesta de lectura",
+       "scene": "Andrea y Mauricio, de una fundación educativa en Medellín, preparan una presentación con los datos de una encuesta sobre hábitos de lectura.",
+       "a": "Andrea",
+       "b": "Mauricio",
+       "lines": [
+        [
+         "A",
+         "OK, let's look at the figures. We surveyed roughly two thousand teenagers.",
+         "Bueno, miremos las cifras. Encuestamos a unos dos mil adolescentes."
+        ],
+        [
+         "B",
+         "And predictably, the vast majority read on their phones rather than on paper.",
+         "Y como era de esperar, la inmensa mayoría lee en el celular y no en papel."
+        ],
+        [
+         "A",
+         "Yes, well over seventy percent. But interestingly, just under a third still prefer printed books.",
+         "Sí, bastante más del setenta por ciento. Pero curiosamente, un poco menos de un tercio todavía prefiere libros impresos."
+        ],
+        [
+         "B",
+         "That's more than I expected. What about the time they spend reading?",
+         "Es más de lo que esperaba. ¿Y el tiempo que pasan leyendo?"
+        ],
+        [
+         "A",
+         "Worryingly, it has declined steadily since 2018. It peaked at about forty minutes a day and now it's under twenty.",
+         "Preocupantemente, ha bajado de manera constante desde 2018. Llegó a un máximo de unos cuarenta minutos al día y ahora está por debajo de veinte."
+        ],
+        [
+         "B",
+         "So it's halved in six years. That's a sharp drop.",
+         "O sea que se redujo a la mitad en seis años. Es una caída fuerte."
+        ],
+        [
+         "A",
+         "Exactly. And hardly any of them read newspapers. Only a handful said they do.",
+         "Exacto. Y casi ninguno lee periódicos. Solo un puñado dijo que sí."
+        ],
+        [
+         "B",
+         "What about libraries? Did a significant proportion use them?",
+         "¿Y las bibliotecas? ¿Las usa una proporción considerable?"
+        ],
+        [
+         "A",
+         "Surprisingly, yes. The number of library visits has risen in the last two years, mostly because of the free Wi-Fi.",
+         "Sorprendentemente, sí. La cantidad de visitas a bibliotecas ha subido en los últimos dos años, sobre todo por el wifi gratis."
+        ],
+        [
+         "B",
+         "Ha ha. So they go for the Wi-Fi, not the books.",
+         "Jaja. O sea que van por el wifi, no por los libros."
+        ],
+        [
+         "A",
+         "Partly. But a number of students said they borrowed books once they were there.",
+         "En parte. Pero varios estudiantes dijeron que prestaban libros una vez estaban allá."
+        ],
+        [
+         "B",
+         "That's a good point for the presentation. The bulk of our budget should go to libraries, then.",
+         "Ese es un buen punto para la presentación. Entonces la mayor parte de nuestro presupuesto debería ir a las bibliotecas."
+        ],
+        [
+         "A",
+         "Agreed. Let's put that in the conclusion.",
+         "De acuerdo. Pongámoslo en la conclusión."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "___ of respondents agreed: 92% said yes.",
+        "o": [
+         "The vast majority",
+         "A handful",
+         "Hardly any",
+         "A fraction"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Only ___ of people came to the meeting: five or six at most.",
+        "o": [
+         "a handful",
+         "the bulk",
+         "the vast majority",
+         "a significant proportion"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The number of tourists ___ grown steadily.",
+        "o": [
+         "has",
+         "have",
+         "are",
+         "were"
+        ],
+        "a": 0,
+        "x": "The number of + verbo en singular."
+       },
+       {
+        "t": "fill",
+        "q": "Sales rose sharply and then levelled ___. (se estabilizaron)",
+        "ans": [
+         "off"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Worryingly, the number of students who drop out of university has doubled in the last ten years, although it has levelled off recently.",
+        "q": "¿Qué ha pasado recientemente?",
+        "o": [
+         "Se ha estabilizado",
+         "Ha seguido subiendo",
+         "Ha bajado mucho",
+         "Se ha duplicado otra vez"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Interestingly, just under a third of the respondents still prefer printed books."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "There",
+         "is",
+         "hardly",
+         "any",
+         "evidence",
+         "for",
+         "that",
+         "claim."
+        ],
+        "es": "Casi no hay evidencia para esa afirmación."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "price",
+         "has",
+         "halved",
+         "since",
+         "last",
+         "year."
+        ],
+        "es": "El precio se ha reducido a la mitad desde el año pasado."
+       },
+       {
+        "t": "dict",
+        "say": "The bulk of the budget goes on salaries."
+       },
+       {
+        "t": "dict",
+        "say": "Unemployment peaked at twelve percent."
+       },
+       {
+        "t": "mc",
+        "q": "Inflation went up and down all year. It ___.",
+        "o": [
+         "fluctuated",
+         "levelled off",
+         "peaked",
+         "halved"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A number of employees ___ complained about the new policy.",
+        "o": [
+         "have",
+         "has",
+         "is",
+         "was"
+        ],
+        "a": 0,
+        "x": "A number of (varios) + plural."
+       },
+       {
+        "t": "listen",
+        "say": "Predictably, the vast majority of users chose the free plan. Surprisingly, though, a significant proportion upgraded after the first month.",
+        "q": "¿Qué fue lo sorprendente?",
+        "o": [
+         "Que muchos pasaron al plan pago después del primer mes",
+         "Que todos escogieron el plan gratis",
+         "Que nadie usó la aplicación",
+         "Que el plan gratis se canceló"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Describe los resultados de una encuesta o unas estadísticas reales o imaginarias (mínimo 130 palabras), por ejemplo sobre el uso del transporte en tu ciudad. Usa al menos cuatro cuantificadores precisos, tres verbos o adverbios de tendencia y dos adverbios de actitud.",
+        "min": 130,
+        "keys": [
+         [
+          "vast majority",
+          "handful",
+          "hardly any",
+          "proportion",
+          "bulk",
+          "fraction",
+          "roughly",
+          "just under",
+          "well over",
+          "minority"
+         ],
+         [
+          "rose",
+          "risen",
+          "fell",
+          "fallen",
+          "declined",
+          "doubled",
+          "halved",
+          "levelled off",
+          "leveled off",
+          "peaked",
+          "fluctuated",
+          "increased",
+          "decreased"
+         ],
+         [
+          "surprisingly",
+          "predictably",
+          "interestingly",
+          "worryingly",
+          "not surprisingly",
+          "unsurprisingly"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "There was ___ traffic on Sunday, so we arrived in twenty minutes.",
+       "o": [
+        "hardly any",
+        "a handful of",
+        "the bulk of",
+        "a number of"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "The ___ majority of Colombians drink coffee every day. (inmensa)",
+       "ans": [
+        "vast"
+       ]
+      },
+      "reading": 18,
+      "words": []
+     },
+     {
+      "id": "c1-u7-l4",
+      "title": "Parafrasear: transformar frases sin cambiar el sentido",
+      "goal": "Decir lo mismo con otras estructuras, como en las transformaciones del examen C1 Advanced.",
+      "theory": [
+       {
+        "p": "En la parte de **Use of English** del C1 Advanced debes reescribir una frase con una **palabra clave** sin cambiar el significado. Lo que se evalúa: estructuras gramaticales equivalentes y expresiones fijas. Ejemplo: **I haven't seen him for years. (LAST)** → **It's years since I last saw him.**"
+       },
+       {
+        "ex": [
+         [
+          "It wasn't necessary for you to bring food. → You needn't have brought food.",
+          "No era necesario que trajeras comida."
+         ],
+         [
+          "People say he is very rich. → He is said to be very rich.",
+          "Se dice que es muy rico."
+         ],
+         [
+          "I regret not studying harder. → I wish I had studied harder.",
+          "Ojalá hubiera estudiado más."
+         ],
+         [
+          "She didn't arrive until ten. → It wasn't until ten that she arrived.",
+          "No llegó sino hasta las diez."
+         ],
+         [
+          "He's likely to win. → There's a good chance (that) he'll win.",
+          "Es probable que gane."
+         ]
+        ]
+       },
+       {
+        "p": "Transformaciones frecuentes: **despite + -ing ↔ although** · **too … to ↔ so … that** · **as soon as ↔ no sooner … than** · **it's not worth + -ing ↔ there's no point (in) + -ing** · **I'd prefer ↔ I'd rather** · **must have ↔ I'm sure** · **succeed in + -ing ↔ manage to** · **take into account ↔ consider** · **have difficulty + -ing ↔ find it hard to**."
+       },
+       {
+        "ex": [
+         [
+          "Although it rained, we went out. → Despite the rain, we went out.",
+          "Aunque llovió, salimos."
+         ],
+         [
+          "As soon as I arrived, it started. → No sooner had I arrived than it started.",
+          "Apenas llegué, empezó."
+         ],
+         [
+          "It's pointless arguing. → There's no point in arguing.",
+          "No tiene sentido discutir."
+         ],
+         [
+          "I'm sure he forgot. → He must have forgotten.",
+          "Seguro se le olvidó."
+         ],
+         [
+          "She found it hard to sleep. → She had difficulty sleeping.",
+          "Le costó dormir."
+         ]
+        ]
+       },
+       {
+        "tip": "Estrategia: identifica qué estructura pide la palabra clave, **nunca la cambies de forma** (si dice LAST, no escribas «lastly»), copia la información completa y revisa que el tiempo verbal coincida. En el examen se usan entre tres y seis palabras."
+       }
+      ],
+      "vocab": [
+       [
+        "paraphrase",
+        "verbo / sustantivo",
+        "parafrasear; paráfrasis",
+        "Paraphrase this sentence."
+       ],
+       [
+        "rephrase",
+        "verbo",
+        "reformular",
+        "Can you rephrase that?"
+       ],
+       [
+        "key word",
+        "expresión",
+        "palabra clave",
+        "Use the key word given."
+       ],
+       [
+        "in other words",
+        "expresión",
+        "en otras palabras",
+        "In other words, we failed."
+       ],
+       [
+        "same meaning",
+        "expresión",
+        "mismo significado",
+        "Keep the same meaning."
+       ],
+       [
+        "there's no point in",
+        "expresión",
+        "no tiene sentido",
+        "There's no point in waiting."
+       ],
+       [
+        "it's not worth",
+        "expresión",
+        "no vale la pena",
+        "It's not worth repairing."
+       ],
+       [
+        "have difficulty",
+        "expresión",
+        "tener dificultad para",
+        "I had difficulty finding it."
+       ],
+       [
+        "succeed in",
+        "expresión",
+        "lograr",
+        "She succeeded in passing."
+       ],
+       [
+        "take into account",
+        "expresión",
+        "tener en cuenta",
+        "Take the cost into account."
+       ],
+       [
+        "it's years since",
+        "expresión",
+        "hace años que no",
+        "It's years since I saw her."
+       ],
+       [
+        "not until",
+        "expresión",
+        "no sino hasta",
+        "It wasn't until midnight that he called."
+       ],
+       [
+        "on the verge of",
+        "expresión",
+        "al borde de",
+        "He was on the verge of tears."
+       ],
+       [
+        "come as no surprise",
+        "expresión",
+        "no sorprender",
+        "It came as no surprise."
+       ],
+       [
+        "make up your mind",
+        "expresión",
+        "decidirse",
+        "I can't make up my mind."
+       ],
+       [
+        "get round to",
+        "verbo",
+        "sacar tiempo para (por fin)",
+        "I never got round to it."
+       ],
+       [
+        "be on the point of",
+        "expresión",
+        "estar a punto de",
+        "I was on the point of leaving."
+       ],
+       [
+        "by no means",
+        "expresión",
+        "de ninguna manera, para nada",
+        "It's by no means easy."
+       ],
+       [
+        "in spite of",
+        "expresión",
+        "a pesar de",
+        "In spite of the cost, we went."
+       ],
+       [
+        "as long as",
+        "expresión",
+        "siempre y cuando",
+        "As long as you're careful."
+       ],
+       [
+        "equivalent",
+        "adjetivo / sustantivo",
+        "equivalente",
+        "Find an equivalent structure."
+       ],
+       [
+        "word for word",
+        "expresión",
+        "palabra por palabra",
+        "Don't translate word for word."
+       ]
+      ],
+      "dialogue": {
+       "title": "Preparando el C1 Advanced",
+       "scene": "Juliana prepara el examen C1 Advanced con su tutor, Mr. Hughes, en una clase virtual. Practican transformaciones.",
+       "a": "Mr. Hughes",
+       "b": "Juliana",
+       "lines": [
+        [
+         "A",
+         "First sentence: 'I haven't been to the cinema for months.' The key word is LAST.",
+         "Primera frase: «No voy al cine hace meses». La palabra clave es LAST."
+        ],
+        [
+         "B",
+         "'It's months since I last went to the cinema.'",
+         "«Hace meses que no voy al cine»."
+        ],
+        [
+         "A",
+         "Perfect. Next: 'It's pointless complaining to the manager.' Key word: POINT.",
+         "Perfecto. Siguiente: «Es inútil quejarse con el gerente». Palabra clave: POINT."
+        ],
+        [
+         "B",
+         "'There's no point in complaining to the manager.'",
+         "«No tiene sentido quejarse con el gerente»."
+        ],
+        [
+         "A",
+         "Good. Now a harder one: 'I'm sure she didn't receive my message.' Key word: CAN'T.",
+         "Bien. Ahora una más difícil: «Estoy seguro de que no recibió mi mensaje». Palabra clave: CAN'T."
+        ],
+        [
+         "B",
+         "Hmm… 'She can't have received my message.'",
+         "Mmm… «No puede haber recibido mi mensaje»."
+        ],
+        [
+         "A",
+         "Excellent. Next: 'As soon as we sat down, the lights went out.' Key word: SOONER.",
+         "Excelente. Siguiente: «Apenas nos sentamos, se fue la luz». Palabra clave: SOONER."
+        ],
+        [
+         "B",
+         "'No sooner did we sit down…' No, wait. 'No sooner had we sat down than the lights went out.'",
+         "«No sooner did we sit down…». No, espere. «No sooner had we sat down than the lights went out»."
+        ],
+        [
+         "A",
+         "Well corrected. Remember: no sooner goes with the past perfect. Last one: 'She found it hard to accept the criticism.' Key word: DIFFICULTY.",
+         "Bien corregido. Recuerda: no sooner va con el pasado perfecto. Última: «Le costó aceptar la crítica». Palabra clave: DIFFICULTY."
+        ],
+        [
+         "B",
+         "'She had difficulty to accept…' Is that right?",
+         "«She had difficulty to accept…». ¿Está bien?"
+        ],
+        [
+         "A",
+         "Not quite. Difficulty is followed by -ing.",
+         "No del todo. Después de difficulty va -ing."
+        ],
+        [
+         "B",
+         "Of course: 'She had difficulty accepting the criticism.'",
+         "Claro: «She had difficulty accepting the criticism»."
+        ],
+        [
+         "A",
+         "Exactly. In other words, the key is knowing which structure goes with each word.",
+         "Exacto. En otras palabras, la clave es saber qué estructura va con cada palabra."
+        ],
+        [
+         "B",
+         "I'll make a list. There's no point in memorising them without examples.",
+         "Voy a hacer una lista. No tiene sentido memorizarlas sin ejemplos."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "«I haven't seen her for ages.» (LAST) → It's ages ___ her.",
+        "o": [
+         "since I last saw",
+         "that I last see",
+         "since I have last seen",
+         "from I last saw"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«It's pointless waiting.» (POINT) → There's no ___.",
+        "o": [
+         "point in waiting",
+         "point to waiting",
+         "point waiting for",
+         "pointing waiting"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«I'm sure he forgot.» (MUST) → He ___.",
+        "o": [
+         "must have forgotten",
+         "must forget",
+         "must have forgot it",
+         "must be forgetting"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "«She found it hard to sleep.» (DIFFICULTY) → She had difficulty ___.",
+        "ans": [
+         "sleeping"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "It wasn't until she moved to London that she realised how much she missed Colombian food.",
+        "q": "¿Cuándo se dio cuenta?",
+        "o": [
+         "Cuando se mudó a Londres",
+         "Antes de mudarse",
+         "Cuando volvió a Colombia",
+         "Nunca"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "It's years since I last went on holiday."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "There's",
+         "no",
+         "point",
+         "in",
+         "arguing",
+         "about",
+         "it."
+        ],
+        "es": "No tiene sentido discutir sobre eso."
+       },
+       {
+        "t": "order",
+        "words": [
+         "No",
+         "sooner",
+         "had",
+         "we",
+         "arrived",
+         "than",
+         "it",
+         "started",
+         "raining."
+        ],
+        "es": "Apenas llegamos, empezó a llover."
+       },
+       {
+        "t": "dict",
+        "say": "It wasn't until midnight that he called."
+       },
+       {
+        "t": "dict",
+        "say": "She succeeded in passing the exam."
+       },
+       {
+        "t": "mc",
+        "q": "«Although it was expensive, we bought it.» (DESPITE) → Despite ___, we bought it.",
+        "o": [
+         "it being expensive",
+         "it was expensive",
+         "of being expensive",
+         "being it expensive"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«It wasn't necessary to book.» (NEEDN'T) → We ___.",
+        "o": [
+         "needn't have booked",
+         "needn't book",
+         "needn't to book",
+         "didn't need have booked"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "I kept meaning to call my old teacher, but I never got round to it. In other words, I left it too late.",
+        "q": "¿Qué quiere decir?",
+        "o": [
+         "Nunca sacó tiempo para llamarlo",
+         "Lo llamó muy tarde en la noche",
+         "El profesor no contestó",
+         "No tenía el número"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Reescribe estas ideas de otra forma y luego escribe un párrafo sobre un hábito que quieres cambiar (mínimo 130 palabras) usando al menos cinco de estas estructuras: it's years since, there's no point in, have difficulty + -ing, succeed in, not until, no sooner … than, must / can't have.",
+        "min": 130,
+        "keys": [
+         [
+          "it's years since",
+          "it's ages since",
+          "it's months since"
+         ],
+         [
+          "there's no point",
+          "it's not worth"
+         ],
+         [
+          "difficulty",
+          "succeeded in",
+          "succeed in"
+         ],
+         [
+          "not until",
+          "no sooner",
+          "must have",
+          "can't have"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "«As soon as I got home, the phone rang.» (SOONER) → No sooner ___ home than the phone rang.",
+       "o": [
+        "had I got",
+        "I had got",
+        "did I get",
+        "I got"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "«People think she is a genius.» (THOUGHT) → She is thought to ___ a genius.",
+       "ans": [
+        "be"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u7-l5",
+      "title": "Inferir actitud y tono: lo que se dice sin decirlo",
+      "goal": "Reconocer la actitud, la intención y el tono de quien habla o escribe.",
+      "theory": [
+       {
+        "p": "En el **listening** y el **reading** del C1 muchas preguntas no son sobre datos, sino sobre **actitud**: ¿quien habla está **sceptical** (escéptico), **enthusiastic**, **ambivalent** (con sentimientos encontrados), **dismissive** (despectivo), **reluctant** (reacio), **sarcastic**, **apologetic**, **defensive**, **nostalgic**? La respuesta casi nunca está en una sola palabra: depende del conjunto."
+       },
+       {
+        "ex": [
+         [
+          "Well, it's certainly an interesting idea… (= no me convence)",
+          "Bueno, sin duda es una idea interesante… (escéptico)"
+         ],
+         [
+          "Oh great, another meeting. Just what I needed.",
+          "Uy qué bien, otra reunión. Justo lo que necesitaba. (sarcástico)"
+         ],
+         [
+          "I suppose I could help, if nobody else can.",
+          "Supongo que podría ayudar, si nadie más puede. (reacio)"
+         ],
+         [
+          "Part of me loves the city, part of me can't stand it.",
+          "Una parte de mí ama la ciudad y otra no la soporta. (ambivalente)"
+         ],
+         [
+          "That's not really my problem, is it?",
+          "Ese no es mi problema, ¿o sí? (despectivo)"
+         ]
+        ]
+       },
+       {
+        "p": "Pistas: **adverbios** (admittedly, supposedly, apparently), **verbos de reporte** (he *claimed*, she *admitted*), **modales y hedging** (it could be argued), **comparaciones y contrastes** (*but*, *although*), **repeticiones** y la **entonación** (una subida al final puede indicar sorpresa o duda). **Supposedly** y **so-called** suelen mostrar escepticismo."
+       },
+       {
+        "ex": [
+         [
+          "The so-called experts got it wrong again.",
+          "Los supuestos expertos se equivocaron otra vez."
+         ],
+         [
+          "The app is supposedly very easy to use.",
+          "Supuestamente la aplicación es muy fácil de usar."
+         ],
+         [
+          "Admittedly, the service was slow, but the food was superb.",
+          "Hay que reconocer que el servicio fue lento, pero la comida estuvo excelente."
+         ],
+         [
+          "Apparently, nobody had told him.",
+          "Al parecer, nadie le había dicho."
+         ],
+         [
+          "I'm not saying it's wrong. I'm just saying it's risky.",
+          "No digo que esté mal. Solo digo que es arriesgado."
+         ]
+        ]
+       },
+       {
+        "tip": "En las preguntas de actitud, descarta las opciones demasiado extremas. Un hablante que dice **It's not the best plan I've ever heard** no está **furious**; es más bien **unconvinced**."
+       }
+      ],
+      "vocab": [
+       [
+        "attitude",
+        "sustantivo",
+        "actitud",
+        "What is the speaker's attitude?"
+       ],
+       [
+        "tone",
+        "sustantivo",
+        "tono",
+        "Her tone was ironic."
+       ],
+       [
+        "sceptical",
+        "adjetivo",
+        "escéptico",
+        "He's sceptical about the plan."
+       ],
+       [
+        "enthusiastic",
+        "adjetivo",
+        "entusiasta",
+        "She was enthusiastic about it."
+       ],
+       [
+        "ambivalent",
+        "adjetivo",
+        "ambivalente, con sentimientos encontrados",
+        "I'm ambivalent about moving."
+       ],
+       [
+        "dismissive",
+        "adjetivo",
+        "despectivo, que desestima",
+        "He was dismissive of my idea."
+       ],
+       [
+        "reluctant",
+        "adjetivo",
+        "reacio",
+        "She was reluctant to help."
+       ],
+       [
+        "sarcastic",
+        "adjetivo",
+        "sarcástico",
+        "Don't be sarcastic."
+       ],
+       [
+        "apologetic",
+        "adjetivo",
+        "arrepentido, que se disculpa",
+        "He sounded apologetic."
+       ],
+       [
+        "defensive",
+        "adjetivo",
+        "a la defensiva",
+        "Why are you so defensive?"
+       ],
+       [
+        "nostalgic",
+        "adjetivo",
+        "nostálgico",
+        "She felt nostalgic about her childhood."
+       ],
+       [
+        "unconvinced",
+        "adjetivo",
+        "no convencido",
+        "I remain unconvinced."
+       ],
+       [
+        "supposedly",
+        "adverbio",
+        "supuestamente",
+        "It's supposedly the best in town."
+       ],
+       [
+        "so-called",
+        "adjetivo",
+        "supuesto, llamado (con duda)",
+        "The so-called experts."
+       ],
+       [
+        "admittedly",
+        "adverbio",
+        "hay que reconocer que",
+        "Admittedly, it was expensive."
+       ],
+       [
+        "apparently",
+        "adverbio",
+        "al parecer",
+        "Apparently, he's leaving."
+       ],
+       [
+        "imply",
+        "verbo",
+        "insinuar, implicar",
+        "What are you implying?"
+       ],
+       [
+        "infer",
+        "verbo",
+        "inferir, deducir",
+        "I inferred that he was upset."
+       ],
+       [
+        "read between the lines",
+        "expresión",
+        "leer entre líneas",
+        "You have to read between the lines."
+       ],
+       [
+        "tongue-in-cheek",
+        "adjetivo",
+        "en broma, irónico",
+        "It was a tongue-in-cheek comment."
+       ],
+       [
+        "understatement",
+        "sustantivo",
+        "eufemismo, atenuación",
+        "'A bit tired' is an understatement."
+       ],
+       [
+        "mixed feelings",
+        "expresión",
+        "sentimientos encontrados",
+        "I have mixed feelings about it."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Qué quiso decir el jefe?",
+       "scene": "Después de presentar un proyecto, Camilo le pregunta a su colega Sara qué opina de la reacción del director.",
+       "a": "Camilo",
+       "b": "Sara",
+       "lines": [
+        [
+         "A",
+         "So, what did you make of the director's reaction? He said it was 'certainly an interesting idea'.",
+         "Bueno, ¿qué te pareció la reacción del director? Dijo que era «sin duda una idea interesante»."
+        ],
+        [
+         "B",
+         "Honestly? I think he was sceptical. When he says 'interesting', he usually means 'I'm not convinced'.",
+         "¿Sinceramente? Creo que estaba escéptico. Cuando dice «interesante», normalmente quiere decir «no me convence»."
+        ],
+        [
+         "A",
+         "Really? I thought he sounded quite enthusiastic.",
+         "¿En serio? Yo pensé que sonaba bastante entusiasmado."
+        ],
+        [
+         "B",
+         "Not really. Did you notice he asked three times about the cost? You have to read between the lines.",
+         "No mucho. ¿Notaste que preguntó tres veces por el costo? Hay que leer entre líneas."
+        ],
+        [
+         "A",
+         "Hmm. And when Laura said 'the so-called savings', was she being sarcastic?",
+         "Mmm. ¿Y cuando Laura dijo «los supuestos ahorros», estaba siendo sarcástica?"
+        ],
+        [
+         "B",
+         "Definitely. She's been dismissive of the project from the start.",
+         "Totalmente. Ha desestimado el proyecto desde el principio."
+        ],
+        [
+         "A",
+         "Great. Just what I needed.",
+         "Genial. Justo lo que necesitaba."
+        ],
+        [
+         "B",
+         "Ha ha, now you're the sarcastic one. But it's not all bad. Admittedly, the budget is high, but he liked the timeline.",
+         "Jaja, ahora eres tú el sarcástico. Pero no todo es malo. Hay que reconocer que el presupuesto es alto, pero le gustó el cronograma."
+        ],
+        [
+         "A",
+         "How do you know?",
+         "¿Cómo sabes?"
+        ],
+        [
+         "B",
+         "He said, 'I'm not saying no.' That usually means 'convince me'.",
+         "Dijo: «No estoy diciendo que no». Eso normalmente quiere decir «convénceme»."
+        ],
+        [
+         "A",
+         "So he's ambivalent rather than against it.",
+         "O sea que está indeciso, más que en contra."
+        ],
+        [
+         "B",
+         "Exactly. Mixed feelings. If you reduce the cost by ten percent, I think he'll agree.",
+         "Exacto. Sentimientos encontrados. Si reduces el costo un diez por ciento, creo que va a aceptar."
+        ],
+        [
+         "A",
+         "OK. I was a bit defensive in the meeting, wasn't I?",
+         "Bueno. Estuve un poco a la defensiva en la reunión, ¿cierto?"
+        ],
+        [
+         "B",
+         "A bit. But that's an understatement for how I'd have reacted!",
+         "Un poco. ¡Pero eso se queda corto frente a cómo habría reaccionado yo!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "«Oh, wonderful. Another traffic jam.» El tono es:",
+        "o": [
+         "sarcástico",
+         "entusiasta",
+         "nostálgico",
+         "arrepentido"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«I suppose I could do it, if I really have to.» La actitud es:",
+        "o": [
+         "reluctant",
+         "enthusiastic",
+         "furious",
+         "dismissive"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«The so-called experts were wrong again.» Quien habla se muestra:",
+        "o": [
+         "sceptical",
+         "grateful",
+         "apologetic",
+         "nostalgic"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "If you have mixed feelings about something, you are ___. (ambivalente)",
+        "ans": [
+         "ambivalent"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I mean, it's not the worst film I've ever seen. The photography was nice, I suppose. But I wouldn't pay to see it again.",
+        "q": "¿Cuál es la actitud de quien habla sobre la película?",
+        "o": [
+         "Poco entusiasta, más bien negativa",
+         "Muy entusiasta",
+         "Furiosa",
+         "Nostálgica"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Admittedly, the service was slow, but the food was superb."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "You",
+         "have",
+         "to",
+         "read",
+         "between",
+         "the",
+         "lines."
+        ],
+        "es": "Hay que leer entre líneas."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "have",
+         "mixed",
+         "feelings",
+         "about",
+         "moving",
+         "abroad."
+        ],
+        "es": "Tengo sentimientos encontrados sobre irme a vivir afuera."
+       },
+       {
+        "t": "dict",
+        "say": "Apparently, nobody had told him about the changes."
+       },
+       {
+        "t": "dict",
+        "say": "He was dismissive of everything I said."
+       },
+       {
+        "t": "mc",
+        "q": "«I'm so sorry, it was completely my fault, it won't happen again.» El tono es:",
+        "o": [
+         "apologetic",
+         "defensive",
+         "sarcastic",
+         "dismissive"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«Why are you blaming me? I did everything I was told!» El tono es:",
+        "o": [
+         "defensive",
+         "nostalgic",
+         "enthusiastic",
+         "apologetic"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Ah, the old neighbourhood. We used to play football in the street until it got dark. Everything seemed simpler back then.",
+        "q": "¿Cómo se siente quien habla?",
+        "o": [
+         "Nostálgico",
+         "Enojado",
+         "Sarcástico",
+         "Escéptico"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe una reseña o un correo en el que tu actitud se note sin decirla directamente (mínimo 130 palabras), por ejemplo un hotel que «supuestamente» era de lujo. Usa al menos cuatro de estas herramientas: supposedly, so-called, admittedly, apparently, I suppose, it could be argued, an understatement.",
+        "min": 130,
+        "keys": [
+         [
+          "supposedly",
+          "so-called",
+          "apparently"
+         ],
+         [
+          "admittedly",
+          "i suppose",
+          "it could be argued",
+          "to be fair"
+         ],
+         [
+          "but",
+          "however",
+          "although"
+         ],
+         [
+          "understatement",
+          "to put it mildly",
+          "not exactly",
+          "hardly"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "«Well, it's certainly an interesting proposal…» (dicho con duda). Quien habla probablemente está:",
+       "o": [
+        "unconvinced",
+        "enthusiastic",
+        "furious",
+        "grateful"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "If you understand something that isn't said directly, you read between the ___. (líneas)",
+       "ans": [
+        "lines"
+       ]
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "She talks as if she ___ everything, but she's often wrong.",
+      "o": [
+       "knew",
+       "is knowing",
+       "will know",
+       "has known"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "It's high time the government ___ something about pollution.",
+      "o": [
+       "did",
+       "does",
+       "will do",
+       "has done"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "He claims ___ the president when he was a student.",
+      "o": [
+       "to have met",
+       "to meet",
+       "having met",
+       "to be meeting"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Only ___ of people turned up: there were about six of us.",
+      "o": [
+       "a handful",
+       "the bulk",
+       "the vast majority",
+       "a significant proportion"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "«I'm sure she didn't see us.» (CAN'T) → She ___ us.",
+      "o": [
+       "can't have seen",
+       "can't see",
+       "can't have saw",
+       "couldn't see"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "I hate ___ told what to do. (ser)",
+      "ans": [
+       "being"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "I'd rather you hadn't invited him. Admittedly, he's very clever, but he spends the whole evening talking as if he were the only person in the room.",
+      "q": "¿Qué critica quien habla?",
+      "o": [
+       "Que habla como si fuera el único en la sala",
+       "Que no es inteligente",
+       "Que llegó tarde",
+       "Que no habla nada"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Surprisingly, the number of people cycling to work has doubled since the new bike lanes opened, although it has levelled off this year.",
+      "q": "¿Qué ha pasado este año?",
+      "o": [
+       "Se ha estabilizado",
+       "Ha seguido duplicándose",
+       "Ha caído",
+       "Cerraron las ciclovías"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un artículo de opinión (mínimo 150 palabras) sobre un cambio que tu ciudad o tu país necesita con urgencia. Usa it's high time / I'd rather, al menos dos infinitivos o gerundios perfectos o pasivos, cuantificadores precisos con datos y deja ver tu actitud con adverbios (admittedly, supposedly, worryingly…).",
+      "min": 150,
+      "keys": [
+       [
+        "it's high time",
+        "it's about time",
+        "i'd rather",
+        "as if",
+        "as though"
+       ],
+       [
+        "to have",
+        "having",
+        "being",
+        "to be"
+       ],
+       [
+        "majority",
+        "handful",
+        "hardly any",
+        "proportion",
+        "bulk",
+        "roughly",
+        "just under",
+        "well over"
+       ],
+       [
+        "admittedly",
+        "supposedly",
+        "worryingly",
+        "surprisingly",
+        "apparently",
+        "so-called",
+        "predictably"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "It's about time we faced up to the problem."
+     },
+     {
+      "t": "oral",
+      "text": "Having lived abroad for years, I have mixed feelings about coming back."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "I'd rather you ___ anyone about this.",
+      "o": [
+       "didn't tell",
+       "don't tell",
+       "won't tell",
+       "not tell"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I wish you ___ leaving your clothes on the floor!",
+      "o": [
+       "would stop",
+       "stop",
+       "had stopped",
+       "will stop"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The paintings are believed ___ in 1985.",
+      "o": [
+       "to have been stolen",
+       "to be stealing",
+       "having been stolen",
+       "to steal"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The number of complaints ___ fallen sharply.",
+      "o": [
+       "has",
+       "have",
+       "are",
+       "were"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "«It's pointless arguing.» (POINT) → There's no ___.",
+      "o": [
+       "point in arguing",
+       "point to argue",
+       "pointing arguing",
+       "point arguing for"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "«It's supposedly the best restaurant in town.» Quien habla se muestra:",
+      "o": [
+       "sceptical",
+       "enthusiastic",
+       "apologetic",
+       "nostalgic"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "She regrets ___ sold her apartment. (haber)",
+      "ans": [
+       "having"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "It wasn't ___ midnight that he finally called. (no sino hasta)",
+      "ans": [
+       "until"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "He looks as if he hasn't slept for days. Apparently, the baby cries all night.",
+      "q": "¿Por qué parece cansado?",
+      "o": [
+       "El bebé llora toda la noche",
+       "Trabaja de noche",
+       "Está enfermo",
+       "Viajó mucho"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Hardly any students used the old library, but since it reopened with longer hours, the vast majority study there at least once a week.",
+      "q": "¿Qué cambió?",
+      "o": [
+       "Ahora la mayoría estudia allí cada semana",
+       "Ahora casi nadie va",
+       "La cerraron",
+       "Redujeron el horario"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "I'm not saying it's a bad idea. I'm just saying we haven't thought about the risks. Part of me loves it, part of me is worried.",
+      "q": "¿Cuál es la actitud?",
+      "o": [
+       "Ambivalente",
+       "Muy entusiasta",
+       "Totalmente en contra",
+       "Sarcástica"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un correo a un colega con datos de un informe (mínimo 150 palabras): cifras con cuantificadores precisos, una tendencia, tu actitud con adverbios y una sugerencia diplomática con I'd rather we… o it's time we…",
+      "min": 150,
+      "keys": [
+       [
+        "majority",
+        "handful",
+        "proportion",
+        "hardly any",
+        "roughly",
+        "just under",
+        "well over",
+        "bulk"
+       ],
+       [
+        "rose",
+        "fell",
+        "doubled",
+        "halved",
+        "levelled off",
+        "leveled off",
+        "peaked",
+        "declined",
+        "increased"
+       ],
+       [
+        "surprisingly",
+        "worryingly",
+        "interestingly",
+        "predictably",
+        "admittedly"
+       ],
+       [
+        "i'd rather we",
+        "it's time we",
+        "it's high time",
+        "it's about time"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "He spends money as if there were no tomorrow."
+     },
+     {
+      "t": "oral",
+      "text": "The vast majority of respondents agreed with the proposal."
+     },
+     {
+      "t": "oral",
+      "text": "Admittedly, the plan is risky, but it's worth trying."
+     }
+    ]
+   },
+   {
+    "title": "Habilidades C1 Advanced",
+    "lessons": [
+     {
+      "id": "c1-u8-l1",
+      "title": "Comparar tres imágenes: motivación y comportamiento",
+      "goal": "Elegir dos de tres imágenes, especular sobre motivos y sentimientos y relacionarlos con la psicología.",
+      "theory": [
+       {
+        "p": "En el **speaking del C1 Advanced (parte 2)** te dan **tres imágenes** y dos preguntas; eliges **dos** y hablas un minuto. No describas: **especula** sobre motivos, sentimientos y consecuencias. **I'll talk about these two pictures… · What might have led these people to… · They could well be feeling… · Whereas in this one…, here… · I suspect that…**"
+       },
+       {
+        "ex": [
+         [
+          "I'm going to compare the first and the third pictures.",
+          "Voy a comparar la primera y la tercera imagen."
+         ],
+         [
+          "What might have prompted her to start running?",
+          "¿Qué pudo haberla llevado a empezar a correr?"
+         ],
+         [
+          "He could well be feeling under a lot of pressure.",
+          "Muy posiblemente se siente bajo mucha presión."
+         ],
+         [
+          "I suspect she's doing it for her own satisfaction.",
+          "Sospecho que lo hace por su propia satisfacción."
+         ],
+         [
+          "Whereas he seems driven by money, she's motivated by passion.",
+          "Mientras que a él parece moverlo el dinero, a ella la motiva la pasión."
+         ]
+        ]
+       },
+       {
+        "p": "Vocabulario de **psicología y comportamiento**: **motivation** (intrinsic / extrinsic), **willpower** (fuerza de voluntad), **resilience** (resiliencia), **self-esteem**, **peer pressure** (presión social), **procrastinate**, **cognitive bias** (sesgo cognitivo), **mindset** (growth / fixed), **reward**, **burnout**, **instant gratification**, **habit-forming**."
+       },
+       {
+        "ex": [
+         [
+          "Intrinsic motivation tends to last longer than rewards.",
+          "La motivación intrínseca suele durar más que las recompensas."
+         ],
+         [
+          "Teenagers are particularly vulnerable to peer pressure.",
+          "Los adolescentes son especialmente vulnerables a la presión social."
+         ],
+         [
+          "Building resilience takes time.",
+          "Construir resiliencia toma tiempo."
+         ],
+         [
+          "I always procrastinate when a task feels overwhelming.",
+          "Siempre aplazo cuando una tarea me abruma."
+         ],
+         [
+          "Social media is designed to be habit-forming.",
+          "Las redes sociales están diseñadas para crear hábito."
+         ]
+        ]
+       },
+       {
+        "tip": "Para sonar C1, varía la especulación: no repitas **maybe**. Alterna **could well**, **I'd imagine**, **presumably**, **it's likely that**, **there's a chance that**, **I get the impression that**."
+       }
+      ],
+      "vocab": [
+       [
+        "motivation",
+        "sustantivo",
+        "motivación",
+        "Her motivation is personal growth."
+       ],
+       [
+        "intrinsic",
+        "adjetivo",
+        "intrínseco",
+        "Intrinsic motivation comes from within."
+       ],
+       [
+        "extrinsic",
+        "adjetivo",
+        "extrínseco",
+        "Money is an extrinsic reward."
+       ],
+       [
+        "willpower",
+        "sustantivo",
+        "fuerza de voluntad",
+        "It takes willpower to quit sugar."
+       ],
+       [
+        "resilience",
+        "sustantivo",
+        "resiliencia",
+        "She showed great resilience."
+       ],
+       [
+        "self-esteem",
+        "sustantivo",
+        "autoestima",
+        "Exercise can boost self-esteem."
+       ],
+       [
+        "peer pressure",
+        "expresión",
+        "presión de grupo",
+        "He smoked because of peer pressure."
+       ],
+       [
+        "procrastinate",
+        "verbo",
+        "aplazar, procrastinar",
+        "Stop procrastinating!"
+       ],
+       [
+        "cognitive bias",
+        "expresión",
+        "sesgo cognitivo",
+        "Confirmation bias is a cognitive bias."
+       ],
+       [
+        "mindset",
+        "sustantivo",
+        "mentalidad",
+        "A growth mindset helps you learn."
+       ],
+       [
+        "reward",
+        "sustantivo / verbo",
+        "recompensa; recompensar",
+        "Rewards don't always work."
+       ],
+       [
+        "instant gratification",
+        "expresión",
+        "gratificación inmediata",
+        "We live in an age of instant gratification."
+       ],
+       [
+        "habit-forming",
+        "adjetivo",
+        "que crea hábito, adictivo",
+        "Games are habit-forming."
+       ],
+       [
+        "driven",
+        "adjetivo",
+        "ambicioso, motivado",
+        "She's very driven."
+       ],
+       [
+        "prompt",
+        "verbo",
+        "llevar a, motivar",
+        "What prompted the decision?"
+       ],
+       [
+        "under pressure",
+        "expresión",
+        "bajo presión",
+        "He works well under pressure."
+       ],
+       [
+        "presumably",
+        "adverbio",
+        "presumiblemente",
+        "Presumably they're training for a race."
+       ],
+       [
+        "could well",
+        "expresión",
+        "muy posiblemente",
+        "They could well be colleagues."
+       ],
+       [
+        "I get the impression",
+        "expresión",
+        "me da la impresión",
+        "I get the impression she's nervous."
+       ],
+       [
+        "overwhelming",
+        "adjetivo",
+        "abrumador",
+        "The workload is overwhelming."
+       ],
+       [
+        "sense of achievement",
+        "expresión",
+        "sensación de logro",
+        "Finishing gives you a sense of achievement."
+       ],
+       [
+        "setback",
+        "sustantivo",
+        "contratiempo, revés",
+        "Resilience means recovering from setbacks."
+       ]
+      ],
+      "dialogue": {
+       "title": "Simulacro del speaking",
+       "scene": "Mateo practica la parte 2 del speaking con su profesora, Ms. Clarke. Las imágenes muestran: un hombre de traje trabajando de noche, una mujer mayor terminando una maratón y un adolescente jugando videojuegos.",
+       "a": "Ms. Clarke",
+       "b": "Mateo",
+       "lines": [
+        [
+         "A",
+         "Here are your pictures. They show people doing activities that require effort. Why might they be doing them, and how might they be feeling?",
+         "Aquí están tus imágenes. Muestran personas haciendo actividades que exigen esfuerzo. ¿Por qué podrían estar haciéndolas y cómo podrían sentirse?"
+        ],
+        [
+         "B",
+         "I'll talk about the first and the second pictures. In the first one, a man is working late in an office, presumably to meet a deadline.",
+         "Voy a hablar de la primera y la segunda imagen. En la primera, un hombre trabaja hasta tarde en una oficina, presumiblemente para cumplir un plazo."
+        ],
+        [
+         "B",
+         "I get the impression he's driven by extrinsic motivation: a promotion, a bonus, or perhaps fear of losing his job.",
+         "Me da la impresión de que lo mueve una motivación extrínseca: un ascenso, una bonificación o tal vez el miedo a perder el trabajo."
+        ],
+        [
+         "B",
+         "He could well be feeling exhausted and under a lot of pressure. If he does this every night, he's at risk of burnout.",
+         "Muy posiblemente se siente agotado y bajo mucha presión. Si hace esto todas las noches, está en riesgo de agotamiento."
+        ],
+        [
+         "B",
+         "Whereas in the second picture, the elderly woman finishing the marathon seems to be motivated by something more intrinsic.",
+         "Mientras que en la segunda imagen, la señora mayor que termina la maratón parece motivada por algo más intrínseco."
+        ],
+        [
+         "B",
+         "What might have prompted her to start running? Perhaps a health scare, or simply a desire to prove that age is no barrier.",
+         "¿Qué pudo haberla llevado a empezar a correr? Quizás un susto de salud, o simplemente el deseo de demostrar que la edad no es un obstáculo."
+        ],
+        [
+         "B",
+         "She must be feeling a huge sense of achievement. That kind of resilience is really inspiring.",
+         "Debe sentir una enorme sensación de logro. Ese tipo de resiliencia es muy inspirador."
+        ],
+        [
+         "A",
+         "Thank you. That was very well organised. One suggestion: you could link the two pictures more at the end.",
+         "Gracias. Estuvo muy bien organizado. Una sugerencia: podrías relacionar más las dos imágenes al final."
+        ],
+        [
+         "B",
+         "Like: 'Both require willpower, but only one seems to bring real satisfaction'?",
+         "¿Como: «Las dos exigen fuerza de voluntad, pero solo una parece traer verdadera satisfacción»?"
+        ],
+        [
+         "A",
+         "Exactly. That's a perfect conclusion. And your speculative language was varied: 'presumably', 'could well', 'I get the impression'.",
+         "Exacto. Es una conclusión perfecta. Y tu lenguaje para especular fue variado: «presumably», «could well», «I get the impression»."
+        ],
+        [
+         "B",
+         "I used to say 'maybe' every five seconds. I've been practising!",
+         "Antes decía «maybe» cada cinco segundos. ¡He estado practicando!"
+        ],
+        [
+         "A",
+         "It shows. Now, the teenager playing video games: what do you think motivates him?",
+         "Se nota. Ahora, el adolescente que juega videojuegos: ¿qué crees que lo motiva?"
+        ],
+        [
+         "B",
+         "Instant gratification, probably. Games are designed to be habit-forming, with constant small rewards.",
+         "La gratificación inmediata, probablemente. Los juegos están diseñados para crear hábito, con pequeñas recompensas constantes."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Para empezar la parte 2 del C1 dices:",
+        "o": [
+         "I'll talk about the first and the third pictures.",
+         "In picture one there is a man. He has a suit.",
+         "All the pictures are nice.",
+         "I don't know these people."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "What might have ___ him to change careers?",
+        "o": [
+         "prompted",
+         "pushed up",
+         "made",
+         "caused to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Motivation that comes from within is ___.",
+        "o": [
+         "intrinsic",
+         "extrinsic",
+         "habit-forming",
+         "driven"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "He smoked his first cigarette because of peer ___. (presión)",
+        "ans": [
+         "pressure"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "I get the impression she's not doing it for the money. She could well be volunteering because it gives her a sense of purpose.",
+        "q": "¿Por qué cree quien habla que ella lo hace?",
+        "o": [
+         "Porque le da un sentido de propósito",
+         "Por el dinero",
+         "Porque la obligan",
+         "Por presión social"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "She must be feeling a huge sense of achievement."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Building",
+         "resilience",
+         "takes",
+         "time",
+         "and",
+         "practice."
+        ],
+        "es": "Construir resiliencia toma tiempo y práctica."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "always",
+         "procrastinate",
+         "when",
+         "I",
+         "feel",
+         "overwhelmed."
+        ],
+        "es": "Siempre aplazo cuando me siento abrumado."
+       },
+       {
+        "t": "dict",
+        "say": "Social media apps are designed to be habit-forming."
+       },
+       {
+        "t": "dict",
+        "say": "He could well be feeling under a lot of pressure."
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué expresión NO sirve para especular?",
+        "o": [
+         "It is a fact that",
+         "Presumably",
+         "I'd imagine",
+         "There's a chance that"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A ___ mindset believes that abilities can be developed.",
+        "o": [
+         "growth",
+         "fixed",
+         "driven",
+         "biased"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Whereas the man seems driven by fear of failure, the student looks as if she's genuinely enjoying the challenge. Presumably, she'll last longer.",
+        "q": "¿Qué parece mover al hombre?",
+        "o": [
+         "El miedo al fracaso",
+         "El disfrute",
+         "El dinero",
+         "La presión social"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Imagina tres imágenes: una persona estudiando de madrugada, un grupo de voluntarios limpiando una playa y un atleta entrenando bajo la lluvia. Escoge dos y escribe lo que dirías (mínimo 140 palabras): qué los motiva, cómo se sienten y qué consecuencias puede tener. Usa lenguaje variado para especular y vocabulario de psicología.",
+        "min": 140,
+        "keys": [
+         [
+          "presumably",
+          "could well",
+          "i'd imagine",
+          "i get the impression",
+          "i suspect",
+          "there's a chance"
+         ],
+         [
+          "motivation",
+          "motivated",
+          "willpower",
+          "resilience",
+          "pressure",
+          "reward",
+          "driven",
+          "self-esteem",
+          "burnout"
+         ],
+         [
+          "whereas",
+          "while",
+          "on the other hand",
+          "both"
+         ],
+         [
+          "might have",
+          "must be",
+          "must have",
+          "could be"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "He's been working twelve hours a day. He ___ be feeling exhausted.",
+       "o": [
+        "must",
+        "can't",
+        "mustn't",
+        "needn't"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "It takes a lot of will___ to give up sugar. (fuerza de voluntad)",
+       "ans": [
+        "power"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u8-l2",
+      "title": "El ensayo C1: educación y aprendizaje",
+      "goal": "Escribir un ensayo que compare dos opciones y defienda cuál es la más importante.",
+      "theory": [
+       {
+        "p": "En el **ensayo del C1 Advanced** (parte 1 del writing) recibes unas notas de un debate con **tres** aspectos y debes discutir **dos**, explicar cuál es más importante y dar razones (220–260 palabras). Estructura: **introducción** que plantea el tema · un párrafo por cada aspecto con argumentos y ejemplos · **conclusión** que decide: **On balance, … is the more effective of the two, since…**"
+       },
+       {
+        "ex": [
+         [
+          "Few would dispute that education shapes society.",
+          "Pocos discutirían que la educación moldea a la sociedad."
+         ],
+         [
+          "One way of improving outcomes would be to reform the curriculum.",
+          "Una forma de mejorar los resultados sería reformar el currículo."
+         ],
+         [
+          "A further consideration is the way students are assessed.",
+          "Otro aspecto a considerar es la forma en que se evalúa a los estudiantes."
+         ],
+         [
+          "This approach, however, is not without its drawbacks.",
+          "Este enfoque, sin embargo, no está libre de inconvenientes."
+         ],
+         [
+          "On balance, teacher training is the more effective of the two.",
+          "En general, la formación docente es la más eficaz de las dos."
+         ]
+        ]
+       },
+       {
+        "p": "Vocabulario de **educación**: **curriculum** (currículo), **assessment** (evaluación), **rote learning** (aprender de memoria), **critical thinking**, **lifelong learning** (aprendizaje a lo largo de la vida), **literacy / numeracy** (lectoescritura / matemáticas básicas), **tuition fees** (matrícula), **dropout rate** (tasa de deserción), **vocational training** (formación técnica), **standardised tests**."
+       },
+       {
+        "ex": [
+         [
+          "Rote learning does little to develop critical thinking.",
+          "Aprender de memoria hace poco por desarrollar el pensamiento crítico."
+         ],
+         [
+          "The dropout rate is higher in rural areas.",
+          "La tasa de deserción es más alta en zonas rurales."
+         ],
+         [
+          "Vocational training is often undervalued.",
+          "La formación técnica suele estar subvalorada."
+         ],
+         [
+          "Standardised tests measure only a narrow range of skills.",
+          "Las pruebas estandarizadas miden solo un rango estrecho de habilidades."
+         ],
+         [
+          "Lifelong learning has become essential.",
+          "El aprendizaje a lo largo de la vida se ha vuelto esencial."
+         ]
+        ]
+       },
+       {
+        "tip": "El error más común en este ensayo es **no decidir**. El enunciado pide explicar cuál de los dos aspectos es **más importante**: tu conclusión tiene que elegir uno y justificarlo."
+       }
+      ],
+      "vocab": [
+       [
+        "curriculum",
+        "sustantivo",
+        "currículo, plan de estudios",
+        "The curriculum needs updating."
+       ],
+       [
+        "assessment",
+        "sustantivo",
+        "evaluación",
+        "Continuous assessment reduces stress."
+       ],
+       [
+        "rote learning",
+        "expresión",
+        "aprendizaje de memoria",
+        "Rote learning is still common."
+       ],
+       [
+        "critical thinking",
+        "expresión",
+        "pensamiento crítico",
+        "Schools should teach critical thinking."
+       ],
+       [
+        "lifelong learning",
+        "expresión",
+        "aprendizaje a lo largo de la vida",
+        "Lifelong learning keeps the mind active."
+       ],
+       [
+        "literacy",
+        "sustantivo",
+        "alfabetización, lectoescritura",
+        "Literacy rates have improved."
+       ],
+       [
+        "numeracy",
+        "sustantivo",
+        "habilidad numérica básica",
+        "Numeracy is a basic skill."
+       ],
+       [
+        "tuition fees",
+        "expresión",
+        "matrícula, costo de estudios",
+        "Tuition fees are too high."
+       ],
+       [
+        "dropout rate",
+        "expresión",
+        "tasa de deserción",
+        "The dropout rate fell."
+       ],
+       [
+        "vocational training",
+        "expresión",
+        "formación técnica o profesional",
+        "The SENA offers vocational training."
+       ],
+       [
+        "standardised test",
+        "expresión",
+        "prueba estandarizada",
+        "The Saber 11 is a standardised test."
+       ],
+       [
+        "outcome",
+        "sustantivo",
+        "resultado",
+        "Learning outcomes improved."
+       ],
+       [
+        "on balance",
+        "expresión",
+        "en general, sopesándolo todo",
+        "On balance, I disagree."
+       ],
+       [
+        "few would dispute",
+        "expresión",
+        "pocos discutirían",
+        "Few would dispute its value."
+       ],
+       [
+        "a further consideration",
+        "expresión",
+        "otro aspecto a considerar",
+        "A further consideration is cost."
+       ],
+       [
+        "not without its drawbacks",
+        "expresión",
+        "no exento de inconvenientes",
+        "The plan is not without its drawbacks."
+       ],
+       [
+        "the more effective of the two",
+        "expresión",
+        "el más eficaz de los dos",
+        "This is the more effective of the two."
+       ],
+       [
+        "address",
+        "verbo",
+        "abordar",
+        "We must address inequality."
+       ],
+       [
+        "equip",
+        "verbo",
+        "preparar, dotar",
+        "Schools should equip students for life."
+       ],
+       [
+        "undervalued",
+        "adjetivo",
+        "subvalorado",
+        "Teachers are undervalued."
+       ],
+       [
+        "foster",
+        "verbo",
+        "fomentar",
+        "Debate fosters critical thinking."
+       ],
+       [
+        "access",
+        "sustantivo",
+        "acceso",
+        "Access to education is unequal."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Qué cambiarías del colegio?",
+       "scene": "En un foro universitario en Bogotá, dos estudiantes de pedagogía, Natalia y Esteban, discuten qué reforma educativa tendría más impacto.",
+       "a": "Natalia",
+       "b": "Esteban",
+       "lines": [
+        [
+         "A",
+         "If you could change just one thing about schools in Colombia, what would it be?",
+         "Si pudieras cambiar una sola cosa de los colegios en Colombia, ¿qué sería?"
+        ],
+        [
+         "B",
+         "The curriculum. It's overloaded, and it still relies far too much on rote learning.",
+         "El currículo. Está sobrecargado y todavía depende demasiado de aprender de memoria."
+        ],
+        [
+         "A",
+         "Few would dispute that. But I'd argue that assessment is the real problem. As long as everything is about the Saber 11, teachers will teach to the test.",
+         "Pocos lo discutirían. Pero yo diría que el problema real es la evaluación. Mientras todo gire alrededor del Saber 11, los profesores van a enseñar para la prueba."
+        ],
+        [
+         "B",
+         "That's a fair point. Standardised tests only measure a narrow range of skills.",
+         "Es un punto justo. Las pruebas estandarizadas solo miden un rango estrecho de habilidades."
+        ],
+        [
+         "A",
+         "Exactly. Critical thinking, creativity, teamwork… none of that appears in the results.",
+         "Exacto. El pensamiento crítico, la creatividad, el trabajo en equipo… nada de eso aparece en los resultados."
+        ],
+        [
+         "B",
+         "Then again, without some kind of national test, how would we compare schools or detect inequality?",
+         "Por otro lado, sin algún tipo de prueba nacional, ¿cómo compararíamos colegios o detectaríamos la desigualdad?"
+        ],
+        [
+         "A",
+         "I'm not saying we should abolish it. Just that it shouldn't be the only measure.",
+         "No digo que debamos eliminarla. Solo que no debería ser la única medida."
+        ],
+        [
+         "B",
+         "What about teacher training? Even the best curriculum fails if teachers are undervalued and underpaid.",
+         "¿Y la formación docente? Hasta el mejor currículo fracasa si los profesores están subvalorados y mal pagados."
+        ],
+        [
+         "A",
+         "That's the third option, and honestly, it might be the most important of all.",
+         "Esa es la tercera opción y, sinceramente, puede que sea la más importante de todas."
+        ],
+        [
+         "B",
+         "So, on balance, which would you choose between curriculum and assessment?",
+         "Entonces, sopesándolo todo, ¿cuál escogerías entre currículo y evaluación?"
+        ],
+        [
+         "A",
+         "Assessment. Change the way we assess, and the curriculum and teaching will follow.",
+         "La evaluación. Si cambias la forma de evaluar, el currículo y la enseñanza vendrán detrás."
+        ],
+        [
+         "B",
+         "Interesting. I'd still say the curriculum is the more urgent of the two, but you've made me think.",
+         "Interesante. Yo seguiría diciendo que el currículo es el más urgente de los dos, pero me hiciste pensar."
+        ],
+        [
+         "A",
+         "That's what debate is for: fostering critical thinking!",
+         "¡Para eso es el debate: para fomentar el pensamiento crítico!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "En el ensayo del C1 Advanced debes:",
+        "o": [
+         "discutir dos de los tres aspectos y decidir cuál es más importante",
+         "discutir los tres aspectos por igual",
+         "contar una historia personal",
+         "escribir una carta al rector"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Learning by repeating facts without understanding them is ___.",
+        "o": [
+         "rote learning",
+         "lifelong learning",
+         "critical thinking",
+         "vocational training"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "___, investing in teachers is the more effective of the two.",
+        "o": [
+         "On balance",
+         "On the contrary",
+         "In balance",
+         "At balance"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The ___ rate is much higher in rural schools. (deserción)",
+        "ans": [
+         "dropout"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Few would dispute that literacy is essential. However, a further consideration is whether schools are equipping students for jobs that don't exist yet.",
+        "q": "¿Cuál es el otro aspecto a considerar?",
+        "o": [
+         "Si los colegios preparan para trabajos que aún no existen",
+         "Si la lectura es importante",
+         "Cuánto cuesta la matrícula",
+         "Cuántos profesores hay"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "On balance, teacher training is the more effective of the two options."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Schools",
+         "should",
+         "foster",
+         "critical",
+         "thinking."
+        ],
+        "es": "Los colegios deberían fomentar el pensamiento crítico."
+       },
+       {
+        "t": "order",
+        "words": [
+         "This",
+         "approach",
+         "is",
+         "not",
+         "without",
+         "its",
+         "drawbacks."
+        ],
+        "es": "Este enfoque no está exento de inconvenientes."
+       },
+       {
+        "t": "dict",
+        "say": "Vocational training is often undervalued in our society."
+       },
+       {
+        "t": "dict",
+        "say": "Few would dispute the importance of lifelong learning."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál es la mejor conclusión para el ensayo C1?",
+        "o": [
+         "On balance, reforming assessment would have the greater impact, since it would change how teachers teach.",
+         "Both ideas are good and I like them.",
+         "In conclusion, education is important.",
+         "I don't know which one is better."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Training for a specific trade, such as electrician or chef, is ___.",
+        "o": [
+         "vocational training",
+         "tuition fees",
+         "numeracy",
+         "rote learning"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Rather than abolishing standardised tests, the government should complement them with continuous assessment, which gives a fuller picture of each student's progress.",
+        "q": "¿Qué propone quien habla?",
+        "o": [
+         "Complementar las pruebas con evaluación continua",
+         "Eliminar las pruebas",
+         "Hacer más pruebas",
+         "Bajar la matrícula"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un ensayo (mínimo 150 palabras) a partir de este debate: «¿Qué mejoraría más la educación en tu país: (1) reformar el currículo, (2) cambiar la evaluación o (3) invertir en los profesores?». Discute DOS de los tres, explica cuál es más importante y justifica tu decisión.",
+        "min": 150,
+        "keys": [
+         [
+          "curriculum",
+          "assessment",
+          "teachers",
+          "teacher training"
+         ],
+         [
+          "few would dispute",
+          "one way",
+          "a further consideration",
+          "however",
+          "not without"
+         ],
+         [
+          "on balance",
+          "the more effective",
+          "the more important",
+          "more urgent",
+          "in conclusion",
+          "all things considered"
+         ],
+         [
+          "since",
+          "because",
+          "as a result",
+          "therefore"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Training people throughout their lives is called ___.",
+       "o": [
+        "lifelong learning",
+        "rote learning",
+        "vocational assessment",
+        "literacy"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "On ___, I believe assessment is the more urgent issue. (sopesándolo todo)",
+       "ans": [
+        "balance"
+       ]
+      },
+      "reading": 19,
+      "words": []
+     },
+     {
+      "id": "c1-u8-l3",
+      "title": "La propuesta: participación ciudadana y sociedad",
+      "goal": "Escribir una propuesta formal a una autoridad con justificación, recomendaciones y beneficios.",
+      "theory": [
+       {
+        "p": "La **propuesta** (proposal) es uno de los textos de la parte 2 del writing del C1 Advanced. Se dirige a un superior o a una entidad (un concejo, un comité) y **propone acciones concretas**. Estructura con títulos: **Introduction** (**The purpose of this proposal is to…**) · **Current situation** · **Recommendations** (**I would propose that… · It is proposed that…**) · **Benefits / Conclusion** (**Were these measures adopted, …**)."
+       },
+       {
+        "ex": [
+         [
+          "The purpose of this proposal is to suggest ways of increasing youth participation.",
+          "El propósito de esta propuesta es sugerir formas de aumentar la participación juvenil."
+         ],
+         [
+          "At present, turnout among young voters is worryingly low.",
+          "Actualmente, la participación de los votantes jóvenes es preocupantemente baja."
+         ],
+         [
+          "I would propose that the council hold monthly open forums.",
+          "Propondría que el concejo realice foros abiertos mensuales."
+         ],
+         [
+          "It is proposed that a youth council be created.",
+          "Se propone que se cree un consejo juvenil."
+         ],
+         [
+          "Were these measures adopted, trust in local government would improve.",
+          "Si se adoptaran estas medidas, la confianza en el gobierno local mejoraría."
+         ]
+        ]
+       },
+       {
+        "p": "Vocabulario de **política y sociedad**: **policy** (política pública), **legislation**, **turnout** (participación electoral), **electorate**, **grassroots** (de base, comunitario), **inequality**, **polarisation**, **accountability** (rendición de cuentas), **transparency**, **civic engagement**, **local council**, **lobby**, **corruption**, **public consultation**."
+       },
+       {
+        "ex": [
+         [
+          "Grassroots movements can influence national policy.",
+          "Los movimientos de base pueden influir en la política nacional."
+         ],
+         [
+          "Transparency and accountability build trust.",
+          "La transparencia y la rendición de cuentas generan confianza."
+         ],
+         [
+          "Political polarisation makes dialogue difficult.",
+          "La polarización política dificulta el diálogo."
+         ],
+         [
+          "The new legislation was passed after a public consultation.",
+          "La nueva ley se aprobó después de una consulta pública."
+         ],
+         [
+          "Inequality remains the country's greatest challenge.",
+          "La desigualdad sigue siendo el mayor reto del país."
+         ]
+        ]
+       },
+       {
+        "tip": "Una propuesta es más **persuasiva** que un informe: además de datos, presenta **beneficios** concretos y usa el condicional invertido para sonar formal: **Should the council approve this plan, …** · **Were these measures adopted, …**"
+       }
+      ],
+      "vocab": [
+       [
+        "proposal",
+        "sustantivo",
+        "propuesta",
+        "Submit a proposal to the council."
+       ],
+       [
+        "the purpose of this proposal",
+        "expresión",
+        "el propósito de esta propuesta",
+        "The purpose of this proposal is to…"
+       ],
+       [
+        "it is proposed that",
+        "expresión",
+        "se propone que",
+        "It is proposed that fees be reduced."
+       ],
+       [
+        "policy",
+        "sustantivo",
+        "política (pública)",
+        "A new housing policy."
+       ],
+       [
+        "legislation",
+        "sustantivo",
+        "legislación",
+        "New legislation on plastics."
+       ],
+       [
+        "turnout",
+        "sustantivo",
+        "participación (electoral)",
+        "Turnout was only 40%."
+       ],
+       [
+        "electorate",
+        "sustantivo",
+        "electorado",
+        "The young electorate is growing."
+       ],
+       [
+        "grassroots",
+        "adjetivo / sustantivo",
+        "de base, comunitario",
+        "A grassroots campaign."
+       ],
+       [
+        "inequality",
+        "sustantivo",
+        "desigualdad",
+        "Inequality has increased."
+       ],
+       [
+        "polarisation",
+        "sustantivo",
+        "polarización",
+        "Polarisation divides families."
+       ],
+       [
+        "accountability",
+        "sustantivo",
+        "rendición de cuentas",
+        "We demand accountability."
+       ],
+       [
+        "transparency",
+        "sustantivo",
+        "transparencia",
+        "Transparency reduces corruption."
+       ],
+       [
+        "civic engagement",
+        "expresión",
+        "participación ciudadana",
+        "Civic engagement starts at school."
+       ],
+       [
+        "local council",
+        "expresión",
+        "concejo municipal",
+        "Write to the local council."
+       ],
+       [
+        "public consultation",
+        "expresión",
+        "consulta pública",
+        "There was a public consultation."
+       ],
+       [
+        "corruption",
+        "sustantivo",
+        "corrupción",
+        "Corruption undermines trust."
+       ],
+       [
+        "undermine",
+        "verbo",
+        "socavar, minar",
+        "Fake news undermines democracy."
+       ],
+       [
+        "implement",
+        "verbo",
+        "implementar",
+        "Implement the plan next year."
+       ],
+       [
+        "allocate",
+        "verbo",
+        "asignar (recursos)",
+        "Allocate funds to youth projects."
+       ],
+       [
+        "stakeholders",
+        "sustantivo",
+        "partes interesadas",
+        "Consult all stakeholders."
+       ],
+       [
+        "feasible",
+        "adjetivo",
+        "viable, factible",
+        "The plan is feasible."
+       ],
+       [
+        "in the long run",
+        "expresión",
+        "a la larga",
+        "In the long run, it will save money."
+       ]
+      ],
+      "dialogue": {
+       "title": "Preparando la propuesta al concejo",
+       "scene": "Valeria y Andrés, miembros de un colectivo juvenil en Cali, preparan una propuesta para el concejo municipal.",
+       "a": "Valeria",
+       "b": "Andrés",
+       "lines": [
+        [
+         "A",
+         "OK, let's start. The purpose of this proposal is to increase civic engagement among young people in Cali.",
+         "Bueno, empecemos. El propósito de esta propuesta es aumentar la participación ciudadana de los jóvenes en Cali."
+        ],
+        [
+         "B",
+         "Good. We need data for the current situation. Turnout among voters under twenty-five was just over thirty percent.",
+         "Bien. Necesitamos datos para la situación actual. La participación de los votantes menores de veinticinco fue apenas de un poco más del treinta por ciento."
+        ],
+        [
+         "A",
+         "And according to our survey, the vast majority don't trust local politicians. They mention corruption and a lack of transparency.",
+         "Y según nuestra encuesta, la inmensa mayoría no confía en los políticos locales. Mencionan la corrupción y la falta de transparencia."
+        ],
+        [
+         "B",
+         "So our first recommendation should address accountability. I would propose that the council publish its budget online in plain language.",
+         "Entonces nuestra primera recomendación debería abordar la rendición de cuentas. Propondría que el concejo publique su presupuesto en internet en lenguaje sencillo."
+        ],
+        [
+         "A",
+         "Great idea. Second, it is proposed that a youth council be created, with real influence on policy.",
+         "Gran idea. Segundo, se propone que se cree un consejo juvenil, con influencia real en las políticas."
+        ],
+        [
+         "B",
+         "Real influence, not just a photo opportunity. Otherwise it'll undermine trust even more.",
+         "Influencia real, no solo una oportunidad para la foto. Si no, va a minar todavía más la confianza."
+        ],
+        [
+         "A",
+         "Agreed. And third, public consultations in schools and universities before any major legislation.",
+         "De acuerdo. Y tercero, consultas públicas en colegios y universidades antes de cualquier ley importante."
+        ],
+        [
+         "B",
+         "Is that feasible? It sounds expensive.",
+         "¿Eso es viable? Suena caro."
+        ],
+        [
+         "A",
+         "Not really. They could be online. The council would only need to allocate a small budget.",
+         "No mucho. Podrían ser en línea. El concejo solo tendría que asignar un presupuesto pequeño."
+        ],
+        [
+         "B",
+         "OK. What about the benefits section?",
+         "Bueno. ¿Y la sección de beneficios?"
+        ],
+        [
+         "A",
+         "Something like: 'Were these measures adopted, young people would feel heard, polarisation would decrease, and in the long run, turnout would rise.'",
+         "Algo como: «Si se adoptaran estas medidas, los jóvenes se sentirían escuchados, la polarización disminuiría y, a la larga, la participación aumentaría»."
+        ],
+        [
+         "B",
+         "Perfect. Formal, but persuasive. Should we mention the grassroots projects that already exist?",
+         "Perfecto. Formal, pero persuasivo. ¿Mencionamos los proyectos de base que ya existen?"
+        ],
+        [
+         "A",
+         "Yes, as evidence that young people are willing to participate when they're given the chance.",
+         "Sí, como prueba de que los jóvenes están dispuestos a participar cuando se les da la oportunidad."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "¿Cuál es el mejor comienzo para una propuesta?",
+        "o": [
+         "The purpose of this proposal is to suggest ways of improving public transport.",
+         "Hello! I have some ideas.",
+         "Once upon a time, there was a city.",
+         "I think transport is bad, you know."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "It is proposed that a youth council ___ created.",
+        "o": [
+         "be",
+         "being",
+         "will be",
+         "to be"
+        ],
+        "a": 0,
+        "x": "It is proposed that + subjuntivo (verbo base)."
+       },
+       {
+        "t": "mc",
+        "q": "The percentage of people who vote in an election is the ___.",
+        "o": [
+         "turnout",
+         "electorate",
+         "legislation",
+         "grassroots"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "___ these measures adopted, trust would improve. (si se adoptaran, inversión)",
+        "ans": [
+         "were"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "At present, the council's budget is not published, which undermines trust. I would propose that it be made available online so that citizens can see how their money is spent.",
+        "q": "¿Qué se propone?",
+        "o": [
+         "Publicar el presupuesto en internet",
+         "Subir los impuestos",
+         "Cambiar al alcalde",
+         "Hacer más elecciones"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Transparency and accountability are essential to rebuild trust."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "It",
+         "is",
+         "proposed",
+         "that",
+         "fees",
+         "be",
+         "reduced."
+        ],
+        "es": "Se propone que se reduzcan las tarifas."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Grassroots",
+         "movements",
+         "can",
+         "influence",
+         "national",
+         "policy."
+        ],
+        "es": "Los movimientos de base pueden influir en la política nacional."
+       },
+       {
+        "t": "dict",
+        "say": "Corruption undermines trust in democracy."
+       },
+       {
+        "t": "dict",
+        "say": "The council should allocate funds to youth projects."
+       },
+       {
+        "t": "mc",
+        "q": "A plan that can realistically be carried out is ___.",
+        "o": [
+         "feasible",
+         "accountable",
+         "polarised",
+         "transparent"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Should the council ___ this plan, the benefits would be immediate.",
+        "o": [
+         "approve",
+         "approves",
+         "approved",
+         "to approve"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Political polarisation has made dialogue almost impossible. In the long run, only education and civic engagement can reduce it.",
+        "q": "Según quien habla, ¿qué puede reducir la polarización?",
+        "o": [
+         "La educación y la participación ciudadana",
+         "Más leyes",
+         "Las redes sociales",
+         "Elecciones más frecuentes"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe una propuesta al concejo de tu ciudad (mínimo 150 palabras) para mejorar la participación de los jóvenes o la transparencia del gobierno local. Usa títulos (Introduction, Current situation, Recommendations, Benefits), al menos dos fórmulas de propuesta y una condicional invertida.",
+        "min": 150,
+        "keys": [
+         [
+          "the purpose of this proposal",
+          "this proposal"
+         ],
+         [
+          "i would propose",
+          "it is proposed",
+          "i would recommend",
+          "i suggest"
+         ],
+         [
+          "were these",
+          "should the council",
+          "should these",
+          "were the council"
+         ],
+         [
+          "transparency",
+          "accountability",
+          "turnout",
+          "civic engagement",
+          "policy",
+          "corruption",
+          "inequality",
+          "grassroots"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "It is essential that the council ___ its decisions public.",
+       "o": [
+        "make",
+        "making",
+        "will make",
+        "to make"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "The new law was approved after a public ___. (consulta)",
+       "ans": [
+        "consultation"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c1-u8-l4",
+      "title": "Lengua, identidad y globalización",
+      "goal": "Debatir sobre el idioma, la identidad cultural y la globalización con argumentos matizados.",
+      "theory": [
+       {
+        "p": "Vocabulario de **lengua e identidad**: **mother tongue** (lengua materna), **bilingual**, **lingua franca** (lengua común), **accent** vs. **dialect**, **code-switching** (cambiar de idioma en una misma conversación), **heritage** (herencia), **indigenous languages**, **endangered language**, **linguistic diversity**, **cultural identity**, **assimilation**, **multicultural**."
+       },
+       {
+        "ex": [
+         [
+          "English has become the lingua franca of business.",
+          "El inglés se ha vuelto la lengua común de los negocios."
+         ],
+         [
+          "Many bilingual families code-switch without noticing.",
+          "Muchas familias bilingües cambian de idioma sin darse cuenta."
+         ],
+         [
+          "Colombia has over sixty indigenous languages.",
+          "Colombia tiene más de sesenta lenguas indígenas."
+         ],
+         [
+          "Several of them are endangered.",
+          "Varias de ellas están en peligro."
+         ],
+         [
+          "Language is a key part of cultural identity.",
+          "La lengua es una parte clave de la identidad cultural."
+         ]
+        ]
+       },
+       {
+        "p": "Para **debatir con matices** sobre globalización: reconocer el otro lado (**While it's true that…, it's equally true that…** · **Granted, …, but…**), señalar complejidad (**It's not as simple as…** · **There's a fine line between… and…**) y concluir con equilibrio (**The challenge is to… without…**)."
+       },
+       {
+        "ex": [
+         [
+          "While it's true that English opens doors, it's equally true that it can push other languages aside.",
+          "Si bien es cierto que el inglés abre puertas, también lo es que puede desplazar otras lenguas."
+         ],
+         [
+          "Granted, globalisation has reduced poverty, but at a cultural cost.",
+          "Es cierto que la globalización ha reducido la pobreza, pero con un costo cultural."
+         ],
+         [
+          "It's not as simple as choosing one language or the other.",
+          "No es tan simple como escoger una lengua o la otra."
+         ],
+         [
+          "There's a fine line between adapting and losing your identity.",
+          "Hay una línea muy delgada entre adaptarse y perder tu identidad."
+         ],
+         [
+          "The challenge is to learn English without forgetting where you come from.",
+          "El reto es aprender inglés sin olvidar de dónde vienes."
+         ]
+        ]
+       },
+       {
+        "tip": "**Accent** es cómo suena tu pronunciación; **dialect** incluye además vocabulario y gramática propios de una región. Tener acento colombiano en inglés no es un error: lo importante es la **inteligibilidad** (que te entiendan)."
+       }
+      ],
+      "vocab": [
+       [
+        "mother tongue",
+        "expresión",
+        "lengua materna",
+        "Spanish is my mother tongue."
+       ],
+       [
+        "bilingual",
+        "adjetivo",
+        "bilingüe",
+        "She grew up bilingual."
+       ],
+       [
+        "lingua franca",
+        "expresión",
+        "lengua franca, lengua común",
+        "English is a global lingua franca."
+       ],
+       [
+        "accent",
+        "sustantivo",
+        "acento",
+        "He has a strong accent."
+       ],
+       [
+        "dialect",
+        "sustantivo",
+        "dialecto",
+        "Each region has its own dialect."
+       ],
+       [
+        "code-switching",
+        "sustantivo",
+        "alternancia de idiomas",
+        "Code-switching is natural for bilinguals."
+       ],
+       [
+        "heritage",
+        "sustantivo",
+        "herencia, patrimonio",
+        "Our cultural heritage."
+       ],
+       [
+        "indigenous",
+        "adjetivo",
+        "indígena",
+        "Indigenous languages."
+       ],
+       [
+        "endangered language",
+        "expresión",
+        "lengua en peligro",
+        "Many endangered languages have few speakers."
+       ],
+       [
+        "linguistic diversity",
+        "expresión",
+        "diversidad lingüística",
+        "Colombia has great linguistic diversity."
+       ],
+       [
+        "cultural identity",
+        "expresión",
+        "identidad cultural",
+        "Music shapes cultural identity."
+       ],
+       [
+        "assimilation",
+        "sustantivo",
+        "asimilación",
+        "Assimilation can mean losing traditions."
+       ],
+       [
+        "globalisation",
+        "sustantivo",
+        "globalización",
+        "Globalisation affects every country."
+       ],
+       [
+        "intelligibility",
+        "sustantivo",
+        "inteligibilidad",
+        "Intelligibility matters more than accent."
+       ],
+       [
+        "Spanglish",
+        "sustantivo",
+        "spanglish",
+        "Spanglish is common in Miami."
+       ],
+       [
+        "loanword",
+        "sustantivo",
+        "préstamo lingüístico",
+        "'Email' is a loanword in Spanish."
+       ],
+       [
+        "fluent",
+        "adjetivo",
+        "fluido",
+        "She's fluent in three languages."
+       ],
+       [
+        "native speaker",
+        "expresión",
+        "hablante nativo",
+        "You don't need to sound like a native speaker."
+       ],
+       [
+        "granted",
+        "conector",
+        "es cierto que, concedido",
+        "Granted, it's useful, but…"
+       ],
+       [
+        "a fine line",
+        "expresión",
+        "una línea delgada",
+        "There's a fine line between pride and arrogance."
+       ],
+       [
+        "push aside",
+        "verbo",
+        "desplazar, hacer a un lado",
+        "English can push other languages aside."
+       ],
+       [
+        "revitalise",
+        "verbo",
+        "revitalizar",
+        "Projects to revitalise indigenous languages."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Inglés para todos?",
+       "scene": "En un pódcast sobre educación, la lingüista Catalina Ríos conversa con el presentador, Simón, sobre el bilingüismo en Colombia.",
+       "a": "Simón",
+       "b": "Catalina",
+       "lines": [
+        [
+         "A",
+         "The government wants every school to be bilingual. Is that a good idea?",
+         "El gobierno quiere que todos los colegios sean bilingües. ¿Es buena idea?"
+        ],
+        [
+         "B",
+         "While it's true that English opens doors, it's equally true that we already are a multilingual country.",
+         "Si bien es cierto que el inglés abre puertas, también lo es que ya somos un país multilingüe."
+        ],
+        [
+         "A",
+         "What do you mean?",
+         "¿A qué se refiere?"
+        ],
+        [
+         "B",
+         "Colombia has more than sixty indigenous languages, plus creoles like the one spoken in San Andrés. Several are endangered.",
+         "Colombia tiene más de sesenta lenguas indígenas, más lenguas criollas como la que se habla en San Andrés. Varias están en peligro."
+        ],
+        [
+         "A",
+         "So you think English might push them aside?",
+         "¿Entonces cree que el inglés podría desplazarlas?"
+        ],
+        [
+         "B",
+         "Not necessarily. It's not as simple as choosing one or the other. A child can learn Wayuunaiki, Spanish and English.",
+         "No necesariamente. No es tan simple como escoger una u otra. Un niño puede aprender wayuunaiki, español e inglés."
+        ],
+        [
+         "A",
+         "Granted, but schools have limited time and money.",
+         "Concedido, pero los colegios tienen tiempo y dinero limitados."
+        ],
+        [
+         "B",
+         "Exactly, and that's where policy matters. The challenge is to promote English without undervaluing our heritage.",
+         "Exacto, y ahí es donde importan las políticas. El reto es promover el inglés sin subvalorar nuestra herencia."
+        ],
+        [
+         "A",
+         "Many listeners say they feel embarrassed about their Colombian accent in English.",
+         "Muchos oyentes dicen que les da vergüenza su acento colombiano en inglés."
+        ],
+        [
+         "B",
+         "They shouldn't. What matters is intelligibility, not sounding like a native speaker. Most English speakers in the world aren't native.",
+         "No debería. Lo que importa es que te entiendan, no sonar como un nativo. La mayoría de los hablantes de inglés en el mundo no son nativos."
+        ],
+        [
+         "A",
+         "And what about code-switching, mixing Spanish and English? Some people see it as lazy.",
+         "¿Y la alternancia, mezclar español e inglés? Algunos la ven como pereza."
+        ],
+        [
+         "B",
+         "Research shows the opposite: it's a sophisticated skill. There's a fine line, though, between mixing languages naturally and forgetting your own.",
+         "La investigación muestra lo contrario: es una habilidad sofisticada. Aunque hay una línea delgada entre mezclar idiomas con naturalidad y olvidar el propio."
+        ],
+        [
+         "A",
+         "A great note to end on. Catalina, thank you.",
+         "Una gran nota para terminar. Catalina, gracias."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "A common language used by people with different mother tongues is a ___.",
+        "o": [
+         "lingua franca",
+         "dialect",
+         "loanword",
+         "heritage"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Changing from one language to another in the same conversation is ___.",
+        "o": [
+         "code-switching",
+         "assimilation",
+         "intelligibility",
+         "revitalising"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "___, English is useful, but it shouldn't replace our own languages.",
+        "o": [
+         "Granted",
+         "Granting",
+         "Grant",
+         "To grant"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "There's a fine ___ between adapting and losing your identity. (línea)",
+        "ans": [
+         "line"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Most English speakers in the world are not native speakers, so what really matters is intelligibility, not having a perfect accent.",
+        "q": "¿Qué es lo que realmente importa, según quien habla?",
+        "o": [
+         "Que te entiendan",
+         "Tener acento perfecto",
+         "Ser nativo",
+         "Hablar rápido"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "While it's true that English opens doors, it's equally true that we shouldn't forget our own languages."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Language",
+         "is",
+         "a",
+         "key",
+         "part",
+         "of",
+         "cultural",
+         "identity."
+        ],
+        "es": "La lengua es una parte clave de la identidad cultural."
+       },
+       {
+        "t": "order",
+        "words": [
+         "It's",
+         "not",
+         "as",
+         "simple",
+         "as",
+         "choosing",
+         "one",
+         "language."
+        ],
+        "es": "No es tan simple como escoger un solo idioma."
+       },
+       {
+        "t": "dict",
+        "say": "Several indigenous languages in Colombia are endangered."
+       },
+       {
+        "t": "dict",
+        "say": "She grew up bilingual in Miami."
+       },
+       {
+        "t": "mc",
+        "q": "The way your pronunciation sounds is your ___.",
+        "o": [
+         "accent",
+         "dialect",
+         "mother tongue",
+         "loanword"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A word taken from another language, like 'email' in Spanish, is a ___.",
+        "o": [
+         "loanword",
+         "lingua franca",
+         "dialect",
+         "heritage"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Granted, globalisation has made products cheaper. But many small towns have lost their traditional crafts, and with them, part of their identity.",
+        "q": "¿Qué costo menciona?",
+        "o": [
+         "La pérdida de artesanías tradicionales e identidad",
+         "Productos más caros",
+         "Menos turismo",
+         "Más desempleo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un artículo (mínimo 150 palabras) sobre si aprender inglés amenaza o enriquece la identidad cultural de los colombianos. Usa vocabulario de lengua e identidad y al menos tres expresiones para matizar (while it's true that…, granted, it's not as simple as, there's a fine line between, the challenge is to…).",
+        "min": 150,
+        "keys": [
+         [
+          "identity",
+          "heritage",
+          "mother tongue",
+          "bilingual",
+          "lingua franca",
+          "indigenous",
+          "accent",
+          "culture"
+         ],
+         [
+          "while it's true",
+          "granted",
+          "it's not as simple",
+          "a fine line",
+          "the challenge is"
+         ],
+         [
+          "however",
+          "although",
+          "on the other hand",
+          "nevertheless"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Colombia has great linguistic ___: more than sixty languages.",
+       "o": [
+        "diversity",
+        "identity",
+        "heritage",
+        "assimilation"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Spanish is my mother ___. (lengua)",
+       "ans": [
+        "tongue"
+       ]
+      },
+      "reading": 20,
+      "words": []
+     },
+     {
+      "id": "c1-u8-l5",
+      "title": "Justicia y medios: el juicio en las redes sociales",
+      "goal": "Hablar de procesos judiciales y del papel de los medios con vocabulario jurídico preciso.",
+      "theory": [
+       {
+        "p": "Vocabulario del **proceso judicial**: **the defendant** (el acusado), **the prosecution / the defence** (la fiscalía / la defensa), **the plaintiff** (el demandante, en casos civiles), **a witness** y **testimony** (testimonio), **evidence**, **the jury**, **the verdict** (veredicto), **be convicted / be acquitted** (ser condenado / absuelto), **sentence**, **appeal** (apelar), **presumption of innocence**."
+       },
+       {
+        "ex": [
+         [
+          "The defendant pleaded not guilty.",
+          "El acusado se declaró inocente."
+         ],
+         [
+          "The prosecution presented new evidence.",
+          "La fiscalía presentó nuevas pruebas."
+         ],
+         [
+          "She was acquitted due to lack of evidence.",
+          "Fue absuelta por falta de pruebas."
+         ],
+         [
+          "He was convicted of fraud and sentenced to six years.",
+          "Fue condenado por fraude y sentenciado a seis años."
+         ],
+         [
+          "His lawyers are going to appeal the verdict.",
+          "Sus abogados van a apelar el veredicto."
+         ]
+        ]
+       },
+       {
+        "p": "**Medios y justicia**: el **trial by media** (juicio mediático) ocurre cuando la opinión pública condena antes que el juez. Vocabulario: **press coverage**, **allegations** (acusaciones), **alleged** (presunto), **sensationalism**, **leak** (filtración), **misinformation**, **echo chamber**, **fact-checking**, **defamation** (difamación), **the right to privacy**."
+       },
+       {
+        "ex": [
+         [
+          "The alleged fraud was widely reported.",
+          "El presunto fraude tuvo amplia cobertura."
+         ],
+         [
+          "Social media had already found him guilty.",
+          "Las redes sociales ya lo habían declarado culpable."
+         ],
+         [
+          "The leak damaged the investigation.",
+          "La filtración perjudicó la investigación."
+         ],
+         [
+          "Sensationalism sells, but it can ruin reputations.",
+          "El sensacionalismo vende, pero puede arruinar reputaciones."
+         ],
+         [
+          "She sued the newspaper for defamation.",
+          "Demandó al periódico por difamación."
+         ]
+        ]
+       },
+       {
+        "tip": "Los periodistas usan **alleged / allegedly** (presunto, presuntamente) precisamente para respetar la **presunción de inocencia** y evitar demandas por difamación. Es una forma de distanciamiento, como la pasiva impersonal."
+       }
+      ],
+      "vocab": [
+       [
+        "defendant",
+        "sustantivo",
+        "acusado, demandado",
+        "The defendant denied everything."
+       ],
+       [
+        "prosecution",
+        "sustantivo",
+        "fiscalía, acusación",
+        "The prosecution has strong evidence."
+       ],
+       [
+        "defence",
+        "sustantivo",
+        "defensa",
+        "The defence called three witnesses."
+       ],
+       [
+        "plaintiff",
+        "sustantivo",
+        "demandante",
+        "The plaintiff asked for compensation."
+       ],
+       [
+        "testimony",
+        "sustantivo",
+        "testimonio",
+        "Her testimony was crucial."
+       ],
+       [
+        "verdict",
+        "sustantivo",
+        "veredicto",
+        "The jury reached a verdict."
+       ],
+       [
+        "convicted",
+        "adjetivo / participio",
+        "condenado",
+        "He was convicted of bribery."
+       ],
+       [
+        "acquitted",
+        "adjetivo / participio",
+        "absuelto",
+        "She was acquitted of all charges."
+       ],
+       [
+        "appeal",
+        "verbo / sustantivo",
+        "apelar; apelación",
+        "They will appeal the decision."
+       ],
+       [
+        "presumption of innocence",
+        "expresión",
+        "presunción de inocencia",
+        "Everyone has the presumption of innocence."
+       ],
+       [
+        "plead guilty",
+        "expresión",
+        "declararse culpable",
+        "He pleaded guilty."
+       ],
+       [
+        "trial by media",
+        "expresión",
+        "juicio mediático",
+        "It was a trial by media."
+       ],
+       [
+        "allegations",
+        "sustantivo",
+        "acusaciones, señalamientos",
+        "He denies the allegations."
+       ],
+       [
+        "alleged",
+        "adjetivo",
+        "presunto",
+        "The alleged thief was arrested."
+       ],
+       [
+        "sensationalism",
+        "sustantivo",
+        "sensacionalismo",
+        "Sensationalism damages journalism."
+       ],
+       [
+        "leak",
+        "sustantivo / verbo",
+        "filtración; filtrar",
+        "The documents were leaked."
+       ],
+       [
+        "defamation",
+        "sustantivo",
+        "difamación",
+        "She sued for defamation."
+       ],
+       [
+        "echo chamber",
+        "expresión",
+        "cámara de eco",
+        "Social media creates echo chambers."
+       ],
+       [
+        "fact-checking",
+        "sustantivo",
+        "verificación de datos",
+        "Fact-checking takes time."
+       ],
+       [
+        "press coverage",
+        "expresión",
+        "cobertura de prensa",
+        "The case got huge press coverage."
+       ],
+       [
+        "right to privacy",
+        "expresión",
+        "derecho a la privacidad",
+        "Celebrities also have a right to privacy."
+       ],
+       [
+        "miscarriage of justice",
+        "expresión",
+        "error judicial",
+        "It was a miscarriage of justice."
+       ]
+      ],
+      "dialogue": {
+       "title": "Culpable en Twitter, inocente en el juzgado",
+       "scene": "En un programa de radio, la periodista Marcela Duque y el abogado penalista Jorge Lozano comentan un caso que fue tendencia en redes sociales.",
+       "a": "Marcela",
+       "b": "Jorge",
+       "lines": [
+        [
+         "A",
+         "Doctor Lozano, last week a judge acquitted the businessman who had been accused of fraud. Yet on social media, he had been found guilty months ago.",
+         "Doctor Lozano, la semana pasada un juez absolvió al empresario que había sido acusado de fraude. Sin embargo, en redes sociales lo habían declarado culpable hace meses."
+        ],
+        [
+         "B",
+         "That's a classic case of trial by media. The verdict on Twitter came long before the verdict in court.",
+         "Es un caso clásico de juicio mediático. El veredicto en Twitter llegó mucho antes que el del juzgado."
+        ],
+        [
+         "A",
+         "Why was he acquitted?",
+         "¿Por qué lo absolvieron?"
+        ],
+        [
+         "B",
+         "Basically, lack of evidence. The prosecution relied on the testimony of a witness who later contradicted herself.",
+         "Básicamente, por falta de pruebas. La fiscalía se apoyó en el testimonio de una testigo que después se contradijo."
+        ],
+        [
+         "A",
+         "But some people say he's guilty and simply had good lawyers.",
+         "Pero algunos dicen que es culpable y que simplemente tuvo buenos abogados."
+        ],
+        [
+         "B",
+         "That's the problem. In a democracy, there's the presumption of innocence. If the evidence isn't there, you can't convict someone.",
+         "Ese es el problema. En una democracia existe la presunción de inocencia. Si no hay pruebas, no se puede condenar a alguien."
+        ],
+        [
+         "A",
+         "What role did the media play?",
+         "¿Qué papel jugaron los medios?"
+        ],
+        [
+         "B",
+         "A significant one. There was a leak of private messages, and some outlets published them without fact-checking. Sensationalism sells.",
+         "Uno importante. Se filtraron mensajes privados y algunos medios los publicaron sin verificarlos. El sensacionalismo vende."
+        ],
+        [
+         "A",
+         "In fairness, many journalists used the word 'alleged' throughout.",
+         "Para ser justos, muchos periodistas usaron la palabra «presunto» todo el tiempo."
+        ],
+        [
+         "B",
+         "True, and that's good practice. But social media doesn't follow those rules. People live in echo chambers where everyone already agrees.",
+         "Cierto, y es una buena práctica. Pero las redes sociales no siguen esas reglas. La gente vive en cámaras de eco donde todos ya están de acuerdo."
+        ],
+        [
+         "A",
+         "Will he take legal action?",
+         "¿Va a emprender acciones legales?"
+        ],
+        [
+         "B",
+         "His lawyers say he'll sue two websites for defamation. And the prosecution may well appeal the verdict.",
+         "Sus abogados dicen que va a demandar a dos portales por difamación. Y es muy posible que la fiscalía apele el veredicto."
+        ],
+        [
+         "A",
+         "So this story is far from over.",
+         "O sea que esta historia está lejos de terminar."
+        ],
+        [
+         "B",
+         "Far from it. And whatever the final outcome, his reputation has been damaged for good.",
+         "Muy lejos. Y sea cual sea el resultado final, su reputación quedó dañada para siempre."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The person accused of a crime in court is the ___.",
+        "o": [
+         "defendant",
+         "plaintiff",
+         "witness",
+         "jury"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "She was ___ because there wasn't enough evidence.",
+        "o": [
+         "acquitted",
+         "convicted",
+         "sentenced",
+         "appealed"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Journalists use the word ___ to respect the presumption of innocence.",
+        "o": [
+         "alleged",
+         "guilty",
+         "convicted",
+         "leaked"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "His lawyers will ___ the verdict in a higher court. (apelar)",
+        "ans": [
+         "appeal"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Months before the trial, social media had already decided he was guilty. The judge, however, acquitted him for lack of evidence.",
+        "q": "¿Qué decidió el juez?",
+        "o": [
+         "Absolverlo por falta de pruebas",
+         "Condenarlo",
+         "Aplazar el juicio",
+         "Pedir más testigos"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Everyone has the right to the presumption of innocence."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "prosecution",
+         "presented",
+         "new",
+         "evidence."
+        ],
+        "es": "La fiscalía presentó nuevas pruebas."
+       },
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "sued",
+         "the",
+         "newspaper",
+         "for",
+         "defamation."
+        ],
+        "es": "Demandó al periódico por difamación."
+       },
+       {
+        "t": "dict",
+        "say": "The defendant pleaded not guilty to all charges."
+       },
+       {
+        "t": "dict",
+        "say": "Social media can create echo chambers."
+       },
+       {
+        "t": "mc",
+        "q": "When private documents are given to journalists secretly, there is a ___.",
+        "o": [
+         "leak",
+         "verdict",
+         "plea",
+         "sentence"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "He ___ guilty to avoid a longer sentence.",
+        "o": [
+         "pleaded",
+         "appealed",
+         "acquitted",
+         "testified"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "The case received huge press coverage, but some outlets published the leaked messages without fact-checking them. Now they could face defamation lawsuits.",
+        "q": "¿Qué hicieron mal algunos medios?",
+        "o": [
+         "Publicar los mensajes filtrados sin verificarlos",
+         "No cubrir el caso",
+         "Usar la palabra presunto",
+         "Entrevistar al juez"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un artículo de opinión (mínimo 150 palabras): ¿deberían los medios y las redes sociales informar sobre casos judiciales antes del veredicto? Usa vocabulario jurídico (defendant, evidence, verdict, acquitted, presumption of innocence) y de medios (alleged, leak, sensationalism, echo chamber), y matiza tu postura.",
+        "min": 150,
+        "keys": [
+         [
+          "defendant",
+          "evidence",
+          "verdict",
+          "acquitted",
+          "convicted",
+          "presumption of innocence",
+          "trial",
+          "prosecution"
+         ],
+         [
+          "alleged",
+          "allegedly",
+          "leak",
+          "sensationalism",
+          "echo chamber",
+          "fact-checking",
+          "press coverage",
+          "defamation"
+         ],
+         [
+          "while it's true",
+          "granted",
+          "however",
+          "on the other hand",
+          "admittedly"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "The jury took three days to reach a ___.",
+       "o": [
+        "verdict",
+        "testimony",
+        "plaintiff",
+        "leak"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Newspapers called him the ___ thief because nothing had been proven. (presunto)",
+       "ans": [
+        "alleged"
+       ]
+      },
+      "reading": 21,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "What might have ___ her to quit her job?",
+      "o": [
+       "prompted",
+       "pushed up",
+       "made",
+       "caused to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "___, investing in teachers is the more effective of the two options.",
+      "o": [
+       "On balance",
+       "In balance",
+       "On the contrary",
+       "At balance"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "It is proposed that the council ___ its budget online.",
+      "o": [
+       "publish",
+       "publishing",
+       "will publish",
+       "to publish"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "A common language between speakers of different languages is a ___.",
+      "o": [
+       "lingua franca",
+       "dialect",
+       "mother tongue",
+       "loanword"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "She was ___ of all charges and left the court a free woman.",
+      "o": [
+       "acquitted",
+       "convicted",
+       "sentenced",
+       "pleaded"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "___ these measures adopted, turnout would rise. (inversión condicional)",
+      "ans": [
+       "were"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "I get the impression he's driven by fear rather than ambition. He could well be under pressure from his family.",
+      "q": "Según quien habla, ¿qué lo mueve?",
+      "o": [
+       "El miedo",
+       "La ambición",
+       "El dinero",
+       "La pasión"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "While it's true that English is the lingua franca of business, it's equally true that Colombia's indigenous languages are part of our heritage and deserve protection.",
+      "q": "¿Qué defiende quien habla?",
+      "o": [
+       "Proteger también las lenguas indígenas",
+       "Solo aprender inglés",
+       "Prohibir el inglés",
+       "Unificar todas las lenguas"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe una propuesta o un ensayo (mínimo 160 palabras) sobre cómo los colegios podrían formar ciudadanos más críticos frente a la desinformación. Discute dos medidas, decide cuál es más importante, usa vocabulario de educación, sociedad y medios, y al menos una estructura formal (it is proposed that / were… adopted / on balance).",
+      "min": 160,
+      "keys": [
+       [
+        "critical thinking",
+        "curriculum",
+        "assessment",
+        "literacy",
+        "teachers"
+       ],
+       [
+        "misinformation",
+        "fact-checking",
+        "echo chamber",
+        "alleged",
+        "sensationalism",
+        "media"
+       ],
+       [
+        "it is proposed",
+        "i would propose",
+        "were these",
+        "should the",
+        "on balance",
+        "the more effective"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "While it's true that globalisation has benefits, it's equally true that it can threaten cultural identity."
+     },
+     {
+      "t": "oral",
+      "text": "It is proposed that a youth council be created."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "Rewards like money or prizes provide ___ motivation.",
+      "o": [
+       "extrinsic",
+       "intrinsic",
+       "cognitive",
+       "habit-forming"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Learning facts by repetition without understanding is ___.",
+      "o": [
+       "rote learning",
+       "lifelong learning",
+       "critical thinking",
+       "assessment"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The percentage of people who vote is the ___.",
+      "o": [
+       "turnout",
+       "electorate",
+       "policy",
+       "legislation"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "___, English opens doors, but it shouldn't replace our heritage.",
+      "o": [
+       "Granted",
+       "Granting",
+       "To grant",
+       "Grant"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The person who brings a civil case to court is the ___.",
+      "o": [
+       "plaintiff",
+       "defendant",
+       "witness",
+       "judge"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "A plan that is realistic and possible is ___.",
+      "o": [
+       "feasible",
+       "alleged",
+       "overwhelming",
+       "endangered"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Social media can trap people in echo ___. (cámaras)",
+      "ans": [
+       "chambers"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "The ___ rate is higher in rural areas. (deserción)",
+      "ans": [
+       "dropout"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Presumably, she started running after a health scare. Whatever the reason, she must be feeling an enormous sense of achievement.",
+      "q": "¿Qué debe sentir ella?",
+      "o": [
+       "Una enorme sensación de logro",
+       "Agotamiento",
+       "Miedo",
+       "Presión"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Should the council approve this proposal, young people would have a real voice in local policy, and in the long run, trust in institutions would improve.",
+      "q": "¿Qué pasaría a la larga?",
+      "o": [
+       "Mejoraría la confianza en las instituciones",
+       "Bajaría la participación",
+       "Subirían los impuestos",
+       "Habría más elecciones"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "The documents were leaked to the press before the trial. The defence argues that this violated the defendant's right to a fair trial.",
+      "q": "¿Qué argumenta la defensa?",
+      "o": [
+       "Que se violó el derecho a un juicio justo",
+       "Que el acusado es culpable",
+       "Que no hubo filtración",
+       "Que la prensa hizo bien"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un ensayo (mínimo 160 palabras): ¿qué es más importante para conservar la identidad cultural en un mundo globalizado: (1) la educación en lenguas indígenas, (2) el apoyo a las artes locales o (3) limitar los medios extranjeros? Discute dos y decide.",
+      "min": 160,
+      "keys": [
+       [
+        "identity",
+        "heritage",
+        "indigenous",
+        "culture",
+        "globalisation",
+        "globalization",
+        "languages"
+       ],
+       [
+        "granted",
+        "while it's true",
+        "however",
+        "on the other hand",
+        "a further consideration"
+       ],
+       [
+        "on balance",
+        "the more",
+        "in conclusion",
+        "all things considered"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "She could well be feeling under a lot of pressure."
+     },
+     {
+      "t": "oral",
+      "text": "The defendant was acquitted due to lack of evidence."
+     },
+     {
+      "t": "oral",
+      "text": "Rote learning does little to develop critical thinking."
+     }
+    ]
    }
   ],
   "final": {
@@ -93804,6 +98934,50 @@ window.SYLLABUS = {
     {
      "t": "oral",
      "text": "It is essential that every stakeholder be consulted before the final decision is made."
+    },
+    {
+     "t": "listen",
+     "say": "It's high time the council did something about transport. Worryingly, just under half of commuters spend more than two hours a day travelling.",
+     "q": "¿Qué dato menciona?",
+     "o": [
+      "Casi la mitad viaja más de dos horas al día",
+      "La mayoría trabaja desde casa",
+      "Un puñado usa bicicleta",
+      "Nadie usa el bus"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Well, it's certainly an ambitious proposal. I'm just not convinced it's feasible with the current budget.",
+     "q": "¿Cuál es la actitud de quien habla?",
+     "o": [
+      "Escéptica",
+      "Entusiasta",
+      "Furiosa",
+      "Indiferente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "The defendant was acquitted due to lack of evidence, but by then the alleged scandal had already been shared thousands of times online.",
+     "q": "¿Por qué absolvieron al acusado?",
+     "o": [
+      "Por falta de pruebas",
+      "Porque confesó",
+      "Porque pagó una multa",
+      "Porque la víctima retiró la denuncia"
+     ],
+     "a": 0
+    },
+    {
+     "t": "oral",
+     "text": "On balance, changing assessment is the more effective of the two options."
+    },
+    {
+     "t": "oral",
+     "text": "While it's true that English opens doors, it's equally true that we must protect our own languages."
     },
     {
      "t": "write",

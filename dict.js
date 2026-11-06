@@ -4992,4 +4992,118 @@ limit | - | verbo / sustantivo | limitar; límite | Limit the length of meetings
 software | - | sustantivo | software | A software firm in Medellín.
 sessions | session | sustantivo (plural) | sesiones | Free counselling sessions.
 luxury | - | sustantivo | lujo | Balance is not a luxury.
+self-help | - | adjetivo | de autoayuda | Self-help books are very popular.
+disciplined | - | adjetivo | disciplinado | Early risers are said to be more disciplined.
+richer | rich | adjetivo (comparativo) | más rico | You will be richer.
+chronotypes | chronotype | sustantivo (plural) | cronotipos (ritmos de sueño naturales) | Research into chronotypes.
+rhythms | rhythm | sustantivo (plural) | ritmos | Natural body rhythms.
+determine | - | verbo | determinar | Genes determine when we feel alert.
+larks | lark | sustantivo (plural) | alondras; (fig.) personas madrugadoras | Larks are morning people.
+owls | owl | sustantivo (plural) | búhos; (fig.) personas nocturnas | Owls peak in the evening.
+genetic | - | adjetivo | genético | These patterns are largely genetic.
+owl | - | sustantivo | búho; (fig.) persona nocturna | I'm an owl.
+lark | - | sustantivo | alondra; (fig.) persona madrugadora | She's a lark.
+adolescents' | adolescent | sustantivo (posesivo plural) | de los adolescentes | Adolescents' body clocks shift later.
+clocks | clock | sustantivo (plural) | relojes; (body clocks) relojes biológicos | Body clocks change in puberty.
+puberty | - | sustantivo | pubertad | During puberty, sleep patterns change.
+rose | rise | verbo (pasado) | subió, aumentó | Attendance rose.
+teenage | - | adjetivo | adolescente | Teenage drivers.
+drivers | driver | sustantivo (plural) | conductores | Accidents involving teenage drivers.
+routines | routine | sustantivo (plural) | rutinas | Routines are important.
+confuses | confuse | verbo (3.ª persona) | confunde | It confuses correlation with causation.
+proof | - | sustantivo | prueba | It's not proof that it works.
+produces | produce | verbo (3.ª persona) | produce | Early rising produces success.
+else's | else | pronombre (posesivo) | de otra persona | Someone else's schedule.
+sharpest | sharp | adjetivo (superlativo) | más lúcido, más agudo | When we feel sharpest.
+hitting | hit | verbo (-ing) | golpear; (hit snooze) aplazar la alarma | Hitting the snooze button.
+snooze | - | sustantivo | botón para posponer la alarma | Press snooze.
+button | - | sustantivo | botón | The snooze button.
+apologising | apologise | verbo (-ing) | disculparse | You can stop apologising.
+recite | - | verbo | recitar | Recite the rivers of the country.
+shrug | - | sustantivo / verbo | encogimiento de hombros; encogerse de hombros | The answer is a shrug.
+relied | rely | verbo (pasado) | dependió | Schools relied on rote learning.
+rote | - | sustantivo | (rote learning) aprendizaje de memoria | Rote learning is common.
+learnt | learn | verbo (pasado / participio, BrE) | aprendido | Knowledge needs to be learnt.
+foundations | foundation | sustantivo (plural) | bases, cimientos | The foundations of education.
+memorisation | - | sustantivo | memorización | Memorisation is a tool.
+standardised | - | adjetivo | estandarizado | Standardised tests.
+shrinks | shrink | verbo (3.ª persona) | se reduce, se encoge | The curriculum shrinks.
+reforms | reform | sustantivo (plural) | reformas | Two reforms are proposed.
+overhaul | - | verbo / sustantivo | reformar a fondo; reforma total | Overhaul the curriculum.
+introducing | introduce | verbo (-ing) | introducir, implementar | Introducing project-based learning.
+project-based | - | adjetivo | basado en proyectos | Project-based learning.
+complementing | complement | verbo (-ing) | complementar | Complementing national exams.
+continuous | - | adjetivo | continuo | Continuous evaluation.
+argumentation | - | sustantivo | argumentación | Skills such as argumentation.
+merits | merit | sustantivo (plural) | méritos, ventajas | Both have their merits.
+trained | train | verbo (participio) | capacitado, formado | Teachers have not been trained.
+subjective | - | adjetivo | subjetivo | It can be subjective.
+burden | - | sustantivo | carga | A heavy burden on teachers.
+thinkers | thinker | sustantivo (plural) | pensadores | Developing thinkers.
+test-takers | test-taker | sustantivo (plural) | personas que presentan exámenes | Thinkers rather than test-takers.
+dropout | - | sustantivo / adjetivo | deserción; (dropout rate) tasa de deserción | Lower dropout rates.
+engaged | - | adjetivo | comprometido, involucrado | More engaged students.
+spanish-speaking | - | adjetivo | hispanohablante | A Spanish-speaking country.
+description | - | sustantivo | descripción | This description hides diversity.
+hides | hide | verbo (3.ª persona) | oculta, esconde | It hides a remarkable diversity.
+creole | - | sustantivo / adjetivo | lengua criolla; criollo | An English-based creole.
+palenquero | - | sustantivo | palenquero (lengua criolla de San Basilio de Palenque) | Palenquero is spoken in Palenque.
+basilio | - | nombre propio | (San Basilio de Palenque) pueblo de Bolívar | San Basilio de Palenque.
+palenque | - | nombre propio | Palenque (San Basilio de Palenque) | The creole of Palenque.
+english-based | - | adjetivo | basado en el inglés | An English-based creole.
+providencia | - | nombre propio | Providencia (isla del Caribe colombiano) | San Andrés and Providencia.
+romani | - | sustantivo | romaní (lengua del pueblo gitano) | Romani is recognised in Colombia.
+nation's | nation | sustantivo (posesivo) | de la nación | One of the nation's languages.
+begun | begin | verbo (participio) | comenzado | Attitudes have begun to change.
+constitution | - | sustantivo | constitución | The Constitution of 1991.
+country's | country | sustantivo (posesivo) | del país | The country's diversity.
+ethnic | - | adjetivo | étnico | Ethnic and cultural diversity.
+revitalising | revitalise | verbo (-ing) | revitalizar | Communities are revitalising their languages.
+stations | station | sustantivo (plural) | estaciones; emisoras | Radio stations.
+guajira | - | nombre propio | (La Guajira) departamento de Colombia | In La Guajira.
+wayuu | - | sustantivo / adjetivo | wayuu (pueblo indígena de La Guajira) | Young Wayuu create videos.
+wayuunaiki | - | sustantivo | wayuunaiki (lengua del pueblo wayuu) | Videos in Wayuunaiki.
+lingua | - | sustantivo | (lingua franca) lengua común | A global lingua franca.
+franca | - | sustantivo | (lingua franca) lengua común | English is a lingua franca.
+multilingual | - | adjetivo | multilingüe | Being multilingual is an advantage.
+contradiction | - | sustantivo | contradicción | It's not a contradiction.
+acquire | - | verbo | adquirir | Children acquire languages easily.
+confusion | - | sustantivo | confusión | Without confusion.
+die | - | verbo | morir | Letting its languages die.
+accused | accuse | verbo (participio) | acusado | He was accused of harassment.
+harassing | harass | verbo (-ing) | acosar | Accused of harassing an employee.
+tens | ten | sustantivo (plural) | decenas | Tens of thousands of times.
+sponsors | sponsor | sustantivo (plural) | patrocinadores | Sponsors withdrew their support.
+withdrew | withdraw | verbo (pasado) | retiró | They withdrew their support.
+suspended | suspend | verbo (pasado / participio) | suspendió, suspendido | His club suspended him.
+scandal | - | sustantivo | escándalo | A political scandal.
+judge | - | sustantivo / verbo | juez; juzgar | A judge dismissed the case.
+democracy | - | sustantivo | democracia | A free press is essential to democracy.
+investigative | - | adjetivo | investigativo, de investigación | Investigative journalists.
+exposed | expose | verbo (pasado) | expuso, destapó | They exposed corruption.
+abuse | - | sustantivo | abuso | Abuse and fraud.
+ignored | ignore | verbo (participio) | ignorado | Victims were ignored.
+presumption | - | sustantivo | presunción | The presumption of innocence.
+innocence | - | sustantivo | inocencia | The presumption of innocence.
+undermined | undermine | verbo (participio) | socavado | It is easily undermined.
+delivers | deliver | verbo (3.ª persona) | emite, entrega | Public opinion delivers its verdict.
+refer | - | verbo | referirse | They refer to alleged crimes.
+crimes | crime | sustantivo (plural) | delitos, crímenes | Alleged crimes.
+prejudice | - | verbo / sustantivo | perjudicar; prejuicio | It could prejudice a trial.
+operates | operate | verbo (3.ª persona) | funciona, opera | Social media operates under no rules.
+corrections | correction | sustantivo (plural) | correcciones, rectificaciones | Faster than corrections.
+echo | - | sustantivo | eco; (echo chamber) cámara de eco | Echo chambers.
+chambers | chamber | sustantivo (plural) | cámaras | Echo chambers.
+reinforced | reinforce | verbo (participio) | reforzado | Beliefs are reinforced.
+stricter | strict | adjetivo (comparativo) | más estricto | Stricter regulation.
+heavier | heavy | adjetivo (comparativo) | más fuerte, más pesado | Heavier penalties.
+penalties | penalty | sustantivo (plural) | sanciones, penas | Penalties for defamation.
+legitimate | - | adjetivo | legítimo | Legitimate criticism.
+laws | law | sustantivo (plural) | leyes | New laws.
+proven | prove | verbo (participio) | probado, demostrado | Proven facts.
+instant | - | adjetivo | inmediato, instantáneo | Instant gratification.
+gratification | - | sustantivo | gratificación | Instant gratification.
+shocking | - | adjetivo | impactante | Shocking news.
+fairer | fair | adjetivo (comparativo) | más justo | A fairer system.
+innocent | - | adjetivo | inocente | Guilty until proven innocent.
 `;
