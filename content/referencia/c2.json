@@ -1,0 +1,226 @@
+{
+ "nivel": 5,
+ "fuentes": "Temario C2 común a Cambridge C2 Proficiency, Proficiency Masterclass / Objective Proficiency, Core Inventory y descriptores MCER C2",
+ "temas": [
+  {
+   "area": "Gramática",
+   "tema": "Inversión avanzada y condicionales formales",
+   "titulo": "inversión",
+   "buscar": [
+    "\\bhad it not been\\b|\\bwere it not\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Cláusulas reducidas, absolutas y sintagmas nominales complejos",
+   "titulo": "cláusulas reducidas|sintagmas",
+   "buscar": [
+    "\\bhaving [a-z]+ed\\b|\\bthe meeting over\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Modalidad sutil y énfasis en la escritura",
+   "titulo": "modalidad|énfasis",
+   "buscar": [
+    "\\bneedn't have\\b|\\bwhat .{1,20} is\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Matices de tiempo y aspecto (pasado de cortesía, presente histórico, progresivo expresivo)",
+   "titulo": "tiempo y aspecto|matices de tiempo",
+   "buscar": [
+    "\\bI was wondering if\\b|\\bI was hoping\\b|\\bwe were thinking\\b",
+    "\\bI'm (loving|liking|hating|being)\\b|\\bhe's always [a-z]+ing\\b|\\bshe's forever [a-z]+ing\\b",
+    "\\bhistoric(al)? present\\b|\\bso I walk in and\\b|\\bso this guy comes up\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Subjuntivo y fórmulas fijas (be that as it may, come what may, so be it, far be it from me)",
+   "titulo": "subjuntivo|fórmulas",
+   "buscar": [
+    "\\bbe that as it may\\b|\\bcome what may\\b|\\bso be it\\b|\\bfar be it from me\\b|\\bsuffice it to say\\b|\\bbe it\\b|\\bheaven forbid\\b|\\bgod forbid\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Gramática",
+   "tema": "Concesión y contraste elaborados (albeit, notwithstanding, much as, granted that)",
+   "titulo": "concesión",
+   "buscar": [
+    "\\balbeit\\b|\\bnotwithstanding\\b",
+    "\\bmuch as\\b|\\bbe that as it may\\b|\\bgranted that\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Connotación, colocaciones de alto nivel y modismos cultos",
+   "titulo": "connotación|colocaciones|modismos",
+   "buscar": [
+    "\\bpyrrhic\\b|\\bscathing\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Phrasal verbs polisémicos y falsos amigos",
+   "titulo": "phrasal|falsos amigos",
+   "buscar": [
+    "\\bactually\\b|\\bcome round\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Binomios y expresiones fijas (by and large, odds and ends, sick and tired)",
+   "titulo": "binomios|expresiones fijas",
+   "buscar": [
+    "\\b(by and large|odds and ends|sick and tired|pros and cons|ups and downs|first and foremost|loud and clear|safe and sound|neck and neck|black and white|time and again|give and take|trial and error|wear and tear|null and void)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Refranes y alusiones culturales (proverbs, allusions)",
+   "titulo": "refranes|alusiones|proverbios",
+   "buscar": [
+    "\\b(the early bird|actions speak louder|don't count your chickens|every cloud has a silver lining|when in Rome|the pen is mightier|curiosity killed the cat|a stitch in time|Achilles' heel|Pandora's box|Catch-22|Big Brother|a Trojan horse)\\b"
+   ],
+   "min": 8
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Formación de palabras C2 (prefijos y sufijos poco frecuentes: counter-, mis-, -ness, -ity, -ism)",
+   "titulo": "formación de palabras",
+   "buscar": [
+    "\\b(counter[a-z]+|mis[a-z]+(ed|ing)|over[a-z]+ed|under[a-z]+ed|[a-z]+ity|[a-z]+ism)\\b"
+   ],
+   "min": 40
+  },
+  {
+   "area": "Funciones",
+   "tema": "Retórica, ironía, humor y discursos",
+   "titulo": "retóric|ironía|humor|discursos",
+   "buscar": [
+    "\\bchiasmus\\b|\\blitotes\\b|\\bunderstatement\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Persuasión en los medios, framing y sesgo",
+   "titulo": "persuasión|framing",
+   "buscar": [
+    "\\bloaded language\\b|\\bframing\\b|\\bweasel words\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Debate formal, implicatura y negociación intercultural",
+   "titulo": "debate|implicatura|negociación",
+   "buscar": [
+    "\\bI hear what you say\\b|\\bthe motion\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Variedades del inglés y slang",
+   "titulo": "variedades|slang",
+   "buscar": [
+    "\\bpavement\\b|\\bskint\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Conversación natural: muletillas, turnos, reformular y gestionar malentendidos",
+   "titulo": "conversación natural|muletillas|turnos",
+   "buscar": [
+    "\\byou know what I mean\\b|\\bI mean\\b|\\bkind of\\b|\\bsort of\\b",
+    "\\bsorry to (cut in|jump in)\\b|\\bwhat I meant was\\b|\\blet me put it another way\\b|\\bif I can just come in\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Funciones",
+   "tema": "Monólogo de dos minutos con tarjeta de ideas (C2 speaking part 3)",
+   "titulo": "monólogo|long turn",
+   "buscar": [
+    "\\bthe question I've been given\\b|\\bthe card asks\\b|\\bthe prompt\\b",
+    "\\bto sum up my main points\\b|\\bthat brings me back to\\b|\\bas I said at the beginning\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Escritura",
+   "tema": "Ensayo que resume y evalúa dos textos (C2 writing part 1)",
+   "titulo": "dos textos|resume y evalúa|síntesis",
+   "buscar": [
+    "\\bboth (texts|writers|authors)\\b|\\bthe first text\\b|\\bthe second text\\b|\\bthe former writer\\b",
+    "\\bwhile the first (writer|author)\\b|\\bthe second (writer|author) (argues|contends|maintains)\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Escritura",
+   "tema": "Ensayo académico, resumen, reseña, informe y edición",
+   "titulo": "ensayo académico|resumir|reseñas|informes|edición",
+   "buscar": [
+    "\\bpurports\\b|\\bverbatim\\b"
+   ]
+  },
+  {
+   "area": "Escritura",
+   "tema": "Carta o artículo de opinión para un periódico (letter to the editor)",
+   "titulo": "carta al|artículo de opinión|editor",
+   "buscar": [
+    "\\bletter to the editor\\b|\\bSir, I\\b|\\bI read with (interest|dismay|concern)\\b|\\byour (recent )?article\\b"
+   ],
+   "min": 4
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Lenguajes especializados: derecho, ciencia, finanzas, filosofía y literatura",
+   "titulo": "derecho|divulgación|finanzas|filosofía|literario",
+   "buscar": [
+    "\\bnotwithstanding\\b|\\bpercentage points\\b|\\bcategorical imperative\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Medicina y salud (diagnosis, side effects, chronic, clinical trial)",
+   "titulo": "medicina|salud",
+   "buscar": [
+    "\\b(diagnosis|diagnosed|side effects?|chronic|clinical trials?|prognosis|vaccine|symptoms?|placebo|antibiotics?)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Tecnología e inteligencia artificial (algorithm, automation, data privacy)",
+   "titulo": "inteligencia artificial|tecnolog",
+   "buscar": [
+    "\\b(artificial intelligence|algorithms?|automation|machine learning|data privacy|surveillance|deepfakes?|chatbots?)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Arte, arquitectura y patrimonio",
+   "titulo": "arquitectura|patrimonio",
+   "buscar": [
+    "\\b(architecture|architect|façade|facade|heritage|restoration|curator|exhibition|sculpture|mural|colonial)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Historia y memoria (colonial, independence, legacy, reconciliation)",
+   "titulo": "historia|memoria",
+   "buscar": [
+    "\\b(legacy|colonial|independence|reconciliation|historians?|archives?|commemorat\\w+|peace agreement|conflict)\\b"
+   ],
+   "min": 10
+  }
+ ]
+}
