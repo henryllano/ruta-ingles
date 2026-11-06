@@ -1,0 +1,300 @@
+{
+ "nivel": 4,
+ "fuentes": "Temario C1 común a English File Advanced, Headway Advanced, Cambridge Empower C1, Cambridge C1 Advanced, Core Inventory British Council/EAQUALS y descriptores MCER C1",
+ "temas": [
+  {
+   "area": "Gramática",
+   "tema": "Inversión negativa y condicional",
+   "titulo": "inversión",
+   "buscar": [
+    "\\bnever (have|had) I\\b|\\bno sooner\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Oraciones hendidas y fronting",
+   "titulo": "hendidas|fronting",
+   "buscar": [
+    "\\bwhat I need is\\b|\\bit was .{1,20} that\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Modales avanzados y hedging",
+   "titulo": "modales avanzados|hedging",
+   "buscar": [
+    "\\bneedn't have\\b",
+    "\\bwould seem\\b|\\bto some extent\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Subjuntivo y estructuras formales",
+   "titulo": "subjuntivo",
+   "buscar": [
+    "\\binsisted that .{1,15} be\\b|\\bsuggest(ed)? that .{1,15} (be|go|take)\\b|\\bit is (essential|vital|crucial) that\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Condicionales avanzados (inversión, but for, otherwise, supposing)",
+   "titulo": "condicionales avanzados",
+   "buscar": [
+    "\\bbut for\\b",
+    "\\bhad I known\\b|\\bshould you\\b|\\bwere (I|it|we) to\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Pasados irreales: as if / as though, it's (high) time, I'd rather you did, wish + would",
+   "titulo": "irreal|as if|as though",
+   "buscar": [
+    "\\bas (if|though) (he|she|they|you|I|it) (were|had|was|knew|owned)\\b",
+    "\\bit's (high |about )?time (we|you|they|he|she|I) [a-z]+ed\\b|\\bI'd rather you [a-z]+ed\\b|\\bI'd rather you (didn't|weren't|went|told|left)\\b",
+    "\\bI wish (you|he|she|they|people) would\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Gramática",
+   "tema": "Infinitivos y gerundios perfectos y pasivos (to have done, being done, having been)",
+   "titulo": "infinitivo|gerundio",
+   "buscar": [
+    "\\bto have been\\b|\\bseems? to have [a-z]+(ed|en)\\b|\\bclaims? to have\\b",
+    "\\bbeing (told|asked|treated|ignored|interrupted|criticised|criticized|invited)\\b",
+    "\\bhaving been\\b|\\bregret(s|ted)? having\\b|\\bdenied having\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Gramática",
+   "tema": "Adverbios de comentario y actitud (admittedly, frankly, surprisingly, arguably)",
+   "titulo": "adverbios",
+   "buscar": [
+    "\\b(admittedly|frankly|surprisingly|understandably|predictably|interestingly|regrettably|arguably|undoubtedly|ironically)\\b"
+   ],
+   "min": 15
+  },
+  {
+   "area": "Gramática",
+   "tema": "Determinantes y cuantificadores avanzados (the vast majority, a handful of, hardly any, whatsoever)",
+   "titulo": "cuantificadores|determinantes",
+   "buscar": [
+    "\\bthe (vast )?majority of\\b|\\ba (tiny |small )?minority of\\b",
+    "\\ba handful of\\b|\\bhardly any\\b|\\ba great deal of\\b|\\bthe bulk of\\b|\\bwhatsoever\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Gramática",
+   "tema": "Futuro en el pasado y be to / be due to",
+   "titulo": "futuro en el pasado",
+   "buscar": [
+    "\\bwas to have\\b|\\bwas due to\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Nominalización, pasiva impersonal y distanciamiento",
+   "titulo": "nominalización|pasiva impersonal",
+   "buscar": [
+    "\\bis (said|believed|thought) to\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Marcadores discursivos, elipsis y sustitución",
+   "titulo": "marcadores|elipsis",
+   "buscar": [
+    "\\bnonetheless\\b|\\bthat said\\b|\\bhaving said that\\b",
+    "\\bI hope not\\b|\\bdo so\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Relativas con preposición y participle clauses",
+   "titulo": "relativas con preposición|participle",
+   "buscar": [
+    "\\b(in|to|from|of|with) (which|whom)\\b"
+   ]
+  },
+  {
+   "area": "Gramática",
+   "tema": "Cohesión y referencia (this, such, the former / the latter, the above)",
+   "titulo": "cohesión|referencia",
+   "buscar": [
+    "\\bthe former\\b|\\bthe latter\\b",
+    "\\bsuch (an? )?(approach|measures?|policies|a policy|behaviour|behavior|claims?|arguments?)\\b|\\bthis (approach|trend|issue|development|argument)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Funciones",
+   "tema": "Argumentar, refutar y debatir",
+   "titulo": "argumentar",
+   "buscar": [
+    "\\bI take your point\\b|\\bstraw man\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Negociar, dar feedback, liderar reuniones y diplomacia",
+   "titulo": "negociar|feedback|reuniones|diplomacia",
+   "buscar": [
+    "\\bmeet (you|us) halfway\\b|\\bpark that\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Presentaciones de alto nivel",
+   "titulo": "presentaciones",
+   "buscar": [
+    "\\bthat brings me to\\b"
+   ]
+  },
+  {
+   "area": "Funciones",
+   "tema": "Inferir actitud, tono e intención del hablante (C1 listening)",
+   "titulo": "actitud|inferir|tono",
+   "buscar": [
+    "\\b(sarcastic|ironic|dismissive|sceptical|skeptical|enthusiastic|ambivalent|reluctant|tone|attitude)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Funciones",
+   "tema": "Comparar tres imágenes y especular (C1 speaking long turn)",
+   "titulo": "imágenes|fotos|especular",
+   "buscar": [
+    "\\b(these|the three|all three) (pictures|photos|images)\\b",
+    "\\bwhat (might|could) have (led|prompted|caused)\\b|\\bhow (might|would) (they|these people) be feeling\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Funciones",
+   "tema": "Parafrasear y transformar frases (key word transformations)",
+   "titulo": "parafrase|parafrasear|transformaci",
+   "buscar": [
+    "\\bparaphrase\\b|\\brephrase\\b|\\bin other words\\b",
+    "\\bkey word\\b|\\bsame meaning\\b"
+   ],
+   "min": 6
+  },
+  {
+   "area": "Escritura",
+   "tema": "Ensayo C1: discutir dos de tres aspectos y decidir cuál es más importante",
+   "titulo": "ensayo",
+   "buscar": [
+    "\\bof the (two|three) (options|methods|factors|approaches)\\b|\\bthe more (effective|important|significant) of\\b",
+    "\\bin conclusion\\b|\\bon balance\\b|\\ball things considered\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Escritura",
+   "tema": "Propuesta (proposal) con recomendaciones",
+   "titulo": "propuesta|proposal",
+   "buscar": [
+    "\\bthe purpose of this proposal\\b|\\bthis proposal (aims|sets out|outlines)\\b",
+    "\\bI (would )?propose\\b|\\bit is proposed that\\b"
+   ],
+   "min": 5
+  },
+  {
+   "area": "Escritura",
+   "tema": "Informe formal y carta formal",
+   "titulo": "informe|registro formal",
+   "buscar": [
+    "\\bthe aim of this report\\b|\\bI am writing\\b|\\bDear (Sir|Madam)\\b"
+   ]
+  },
+  {
+   "area": "Escritura",
+   "tema": "Reseña crítica",
+   "titulo": "reseña",
+   "buscar": [
+    "\\bthe plot\\b|\\bthe cast\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Colocaciones, phrasal verbs formales, modismos y formación de palabras",
+   "titulo": "colocaciones|phrasal|modismos|formación",
+   "buscar": [
+    "\\bpose a threat\\b|\\bthe tip of the iceberg\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Medio ambiente, tecnología, economía, salud y cultura",
+   "titulo": "medio ambiente|tecnología|economía|salud|reseñas",
+   "buscar": [
+    "\\bsustainab\\w+\\b|\\bloophole\\b"
+   ]
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Educación y aprendizaje (curriculum, assessment, lifelong learning)",
+   "titulo": "educaci|aprendizaje",
+   "buscar": [
+    "\\b(curriculum|assessment|lifelong learning|tuition|syllabus|literacy|rote learning|critical thinking)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Política, gobierno y sociedad (policy, legislation, inequality, polarisation)",
+   "titulo": "política|gobierno|sociedad",
+   "buscar": [
+    "\\b(legislation|inequality|polari[sz]ation|democracy|referendum|electorate|turnout|policy-makers?|corruption|grassroots)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Psicología y comportamiento (bias, motivation, habit, resilience)",
+   "titulo": "psicolog|comportamiento|mente",
+   "buscar": [
+    "\\b(bias|cognitive|motivation|resilience|procrastinat\\w+|self-esteem|mindset|willpower|anxiety)\\b"
+   ],
+   "min": 12
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Ciencia e investigación (hypothesis, findings, peer review, sample)",
+   "titulo": "ciencia|investigaci",
+   "buscar": [
+    "\\b(hypothesis|findings|peer-reviewed|sample|experiment|data|evidence|researchers?)\\b"
+   ],
+   "min": 15
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Lengua, identidad y globalización",
+   "titulo": "\\blengua\\b|identidad|globaliz",
+   "buscar": [
+    "\\b(identity|globali[sz]ation|bilingual|dialect|accent|mother tongue|lingua franca|heritage|multicultural)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Medios, periodismo y desinformación",
+   "titulo": "medios|periodismo|desinformaci",
+   "buscar": [
+    "\\b(journalis\\w+|misinformation|disinformation|fact-check\\w*|bias|clickbait|echo chamber|algorithm|press freedom)\\b"
+   ],
+   "min": 10
+  },
+  {
+   "area": "Vocabulario",
+   "tema": "Crimen, derecho y justicia",
+   "titulo": "derecho|justicia|crimen",
+   "buscar": [
+    "\\b(defendant|prosecution|verdict|acquitted|convicted|sentence|plaintiff|appeal|testimony)\\b"
+   ],
+   "min": 8
+  }
+ ]
+}
