@@ -6545,6 +6545,326 @@ window.READINGS = [
      "model": "I believe people should have the right to remove old information, because everyone deserves a second chance. However, this shouldn't apply to politicians or public officials, since citizens need to know how they have acted."
     }
    ]
+  },
+  {
+   "title": "Sorry to Interrupt, But…",
+   "es": "Perdón por interrumpir, pero… · Lectura extra",
+   "text": "Few things reveal a non-native speaker as quickly as the rhythm of a conversation. Grammar can be flawless and vocabulary impressive, yet something still feels slightly off. More often than not, the problem lies not in what is said but in how turns are taken. Linguists who study conversation have long observed that cultures differ remarkably in how they manage silence and overlap. In much of Latin America, overlapping speech is a sign of engagement: if you finish my sentence, it shows you are listening. In many English-speaking contexts, by contrast, the same behaviour may be perceived as rude, as though the speaker could not wait for their turn. Conversely, a pause of two or three seconds, which a Colombian might find uncomfortable, is often perfectly natural in a British meeting. None of this is to say that native speakers never interrupt. They do, time and again. The difference is that they tend to signal it: \"Sorry to jump in, but…\", \"If I can just come in here…\", \"Can I add something?\" These small formulas act as social lubricant. They acknowledge that the other person has the floor, even as one takes it away from them. Equally important are the sounds that show we are listening without claiming the turn. \"Mm-hm\", \"right\", \"I see\" and \"really?\" are easy to overlook in textbooks, yet their absence can make a listener seem cold or distracted, particularly on the phone or in video calls, where body language is limited. Then there are fillers. Learners are often told to avoid them, but that advice is only half right. Well-placed fillers such as \"well\", \"I mean\" or \"let me think\" buy a speaker time and soften what follows. The problem is not their presence but their overuse. A speaker who says \"like\" in every sentence sounds unsure; one who never hesitates at all can sound rehearsed. For advanced learners, then, the final challenge is not so much linguistic as cultural. It involves noticing how people around you manage the flow of talk and adapting accordingly, much as you would adjust your volume in a library. Master that, and you will sound not merely correct but genuinely fluent.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "Según el texto, ¿qué indica la superposición de voces en gran parte de Latinoamérica?",
+     "o": [
+      "Que la persona está involucrada y escuchando",
+      "Mala educación",
+      "Aburrimiento",
+      "Falta de vocabulario"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué función cumplen fórmulas como «Sorry to jump in»?",
+     "o": [
+      "Reconocen que el otro tenía la palabra mientras se la quitas",
+      "Terminan la conversación",
+      "Muestran enojo",
+      "Cambian de idioma"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué dice el texto sobre las muletillas?",
+     "o": [
+      "El problema no es usarlas, sino abusar de ellas",
+      "Hay que evitarlas siempre",
+      "Solo las usan los no nativos",
+      "Son de mala educación"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "For advanced learners, the final challenge is not so much linguistic as cultural.",
+     "q": "¿Cuál es el reto final para el estudiante avanzado?",
+     "o": [
+      "Más cultural que lingüístico",
+      "Puramente gramatical",
+      "Aprender más vocabulario",
+      "Perder el acento"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "How do people in your culture manage turns, interruptions and silence in conversation? How is it different in English?",
+     "min": 41,
+     "keys": [
+      [
+       "interrupt",
+       "silence",
+       "pause",
+       "turn",
+       "overlap"
+      ],
+      [
+       "whereas",
+       "by contrast",
+       "conversely",
+       "not so much",
+       "much as"
+      ],
+      [
+       "sorry to jump in",
+       "if i can just come in",
+       "i mean",
+       "well",
+       "let me think"
+      ]
+     ],
+     "model": "In Colombia, overlapping is a sign that you're engaged, whereas in a British meeting it may come across as rude. I've learnt to signal interruptions with phrases like 'sorry to jump in'. Well, I mean, it's not so much a question of grammar as of rhythm."
+    }
+   ]
+  },
+  {
+   "title": "The Numbers Behind the Headlines",
+   "es": "Los números detrás de los titulares · Lectura extra",
+   "text": "\"Eating bacon raises cancer risk by 18%.\" \"New pill halves the chance of a heart attack.\" Headlines like these appear almost every week, and they are, by and large, technically accurate. They are also frequently misleading. The problem lies in the difference between relative and absolute risk. Suppose that, out of every hundred people who never eat processed meat, six develop bowel cancer over their lifetime. An 18% increase in relative risk means that, among those who eat it daily, the figure rises to roughly seven. That is a genuine effect, and it is worth knowing. But \"one extra case in a hundred\" sounds rather less alarming than \"18% higher risk\", and it is the latter that tends to make the front page. The same logic works in reverse. A drug that \"halves the risk\" of a heart attack may reduce it from two in a thousand to one in a thousand. For a patient with an underlying condition, that benefit might well outweigh the side effects. For a healthy forty-year-old, it may not. There are other traps. Many headlines are based on observational studies, which can reveal a correlation but not prove causation. People who drink red wine may live longer, but they may also be wealthier, exercise more and have better access to healthcare. Only randomised controlled trials, in which participants are randomly assigned to receive either the treatment or a placebo, can begin to establish cause and effect, and even then, results need to be replicated. Sample size matters too. A study of thirty people may be interesting, but its findings are rarely conclusive. Scientists know this, which is why their papers are full of cautious phrases such as \"may be associated with\" and \"further research is needed\". Unfortunately, such nuance rarely survives the journey from journal to social media. None of this means we should distrust science. On the contrary, understanding how evidence works allows us to take it more seriously. The next time a headline claims that something doubles your risk, it is worth asking a simple question: double what?",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "Según el ejemplo del texto, un aumento del 18 % en el riesgo relativo de cáncer significa:",
+     "o": [
+      "Pasar de unos seis a unos siete casos por cada cien personas",
+      "Que 18 de cada 100 personas tendrán cáncer",
+      "Que el riesgo se duplica",
+      "Que no hay ningún efecto"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué los estudios observacionales no prueban causalidad?",
+     "o": [
+      "Porque pueden reflejar otros factores, como riqueza o hábitos",
+      "Porque son muy caros",
+      "Porque usan placebo",
+      "Porque siempre son falsos"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué pregunta recomienda hacerse el autor ante un titular?",
+     "o": [
+      "«¿El doble de qué?»",
+      "«¿Quién lo escribió?»",
+      "«¿Cuánto cuesta?»",
+      "«¿Es nuevo?»"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Only randomised controlled trials can begin to establish cause and effect, and even then, results need to be replicated.",
+     "q": "¿Qué falta incluso después de un ensayo controlado aleatorizado?",
+     "o": [
+      "Replicar los resultados",
+      "Publicarlo en redes",
+      "Hacer un estudio observacional",
+      "Nada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Explain to a friend why a headline saying 'X doubles your risk of Y' might be misleading.",
+     "min": 43,
+     "keys": [
+      [
+       "relative",
+       "absolute"
+      ],
+      [
+       "correlation",
+       "causation",
+       "study",
+       "evidence",
+       "trial",
+       "sample"
+      ],
+      [
+       "by and large",
+       "that said",
+       "then again",
+       "what i mean is",
+       "let me put it another way"
+      ]
+     ],
+     "model": "Well, by and large, those headlines are accurate but misleading. What I mean is that doubling a relative risk can mean going from one case in ten thousand to two. That said, it's worth checking whether the study shows correlation or causation, and how big the sample was."
+    }
+   ]
+  },
+  {
+   "title": "A Station Reborn",
+   "es": "Una estación que renace · Lectura extra",
+   "text": "For almost forty years, the old railway station stood empty at the edge of the city centre. Its ornate façade, once the pride of the town, was covered in graffiti; pigeons nested under its iron roof, and weeds grew between the cobbles of the courtyard. Successive mayors promised to do something about it. Successive budgets said otherwise. When the council finally announced that the building would be demolished to make way for a shopping centre, the reaction was swift. Within a week, a petition had gathered twenty thousand signatures, and letters to the local newspaper filled entire pages. Some were nostalgic, recalling journeys taken as children; others were pragmatic, arguing that the town had more than enough shopping centres already. What followed has become a textbook example of adaptive reuse. A team of local architects proposed restoring the façade, the arches and the clock tower exactly as they had been in 1928, while repurposing the interior as a public library, a workshop space for young people and a small museum of the region's railway history. Crucially, all modern additions, from the glass walkways to the lighting, were designed to be reversible, so that future generations could remove them without damaging the original structure. The project was not without its critics. Some historians felt that the new materials clashed with the original design, while some residents objected to the cost, which ultimately exceeded the initial estimate by almost a third. Be that as it may, the results speak for themselves. In its first year, the library received more visitors than the town's three previous libraries combined, and the café on the old platform has become one of the most popular meeting places in the city. Perhaps the most striking change, however, is less tangible. For decades, the dilapidated station was a reminder of a town in decline. Today, it is a symbol of what a community can achieve when it refuses to accept that the past and the future are incompatible. As one elderly resident put it at the reopening, \"They didn't just save a building. They gave us back a piece of ourselves.\"",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Qué pasó cuando la alcaldía anunció la demolición?",
+     "o": [
+      "Una petición reunió veinte mil firmas en una semana",
+      "Nadie protestó",
+      "Se construyó el centro comercial",
+      "Se vendió la estación"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué los añadidos modernos se diseñaron reversibles?",
+     "o": [
+      "Para que las futuras generaciones los puedan quitar sin dañar el original",
+      "Porque eran más baratos",
+      "Por moda",
+      "Porque lo exigía el centro comercial"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Qué críticas recibió el proyecto?",
+     "o": [
+      "Choque de materiales y un sobrecosto de casi un tercio",
+      "Que era demasiado barato",
+      "Que nadie lo usaba",
+      "Que destruyó la fachada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "They didn't just save a building. They gave us back a piece of ourselves.",
+     "q": "¿Qué significa la frase de la residente?",
+     "o": [
+      "Que el proyecto devolvió parte de la identidad de la comunidad",
+      "Que el edificio era suyo",
+      "Que el proyecto fue un error",
+      "Que se perdió el edificio"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Think of a historic building in your city. What should be done with it, and why?",
+     "min": 41,
+     "keys": [
+      [
+       "restore",
+       "restoration",
+       "repurpose",
+       "adaptive reuse",
+       "renovat",
+       "preserve"
+      ],
+      [
+       "façade",
+       "facade",
+       "courtyard",
+       "arch",
+       "colonial",
+       "dilapidated",
+       "heritage"
+      ],
+      [
+       "granted",
+       "be that as it may",
+       "much as",
+       "not so much",
+       "on balance"
+      ]
+     ],
+     "model": "There's a dilapidated colonial house near the main square. Granted, restoring it would be expensive, but I'd propose adaptive reuse: restore the façade and the courtyard and repurpose the interior as a cultural centre. Be that as it may, demolishing it would be short-sighted."
+    }
+   ]
+  },
+  {
+   "title": "Who Watches the Algorithms?",
+   "es": "¿Quién vigila a los algoritmos? · Lectura extra",
+   "text": "Every day, algorithms make decisions that shape our lives. They decide which news we see, which job applications reach a human recruiter, and, in some countries, who is stopped by the police. Most of the time, we are not even aware that a decision has been made, let alone how. The promise of these systems is efficiency and objectivity. Machines, the argument goes, do not get tired, do not play favourites and do not discriminate. The reality is more complicated. Algorithms learn from data, and data reflects the world as it is, prejudices included. A hiring system trained on twenty years of a company's decisions may learn, quite logically, that the \"ideal candidate\" looks like the people who were hired in the past. If those people were mostly men, the algorithm will quietly reproduce the pattern. This is not so much a technical failure as a social one. The bias is not invented by the machine; it is inherited and then amplified at a scale no human could match. What makes it particularly troubling is that many of these systems are black boxes. Even their designers cannot always explain why a particular decision was reached, which makes it extremely difficult to challenge. Facial recognition illustrates the dilemma vividly. Supporters point to cases in which missing children and dangerous criminals have been found within hours. Critics highlight studies showing higher error rates for women and people with darker skin, and warn that constant surveillance changes how citizens behave in public spaces. Both sides have a point. The question is not whether the technology works, but under what conditions, with what safeguards and with whose consent. Several governments have begun to respond. The European Union has passed legislation classifying certain uses of AI as \"high risk\" and banning others outright. Elsewhere, regulation lags far behind innovation. Much as companies insist that self-regulation is enough, history suggests that powerful technologies are rarely governed well by those who profit from them. Ultimately, the most important question is one of accountability. When an algorithm makes a mistake that costs someone a job, a loan or their freedom, someone must be answerable. Until that principle is firmly established, we would do well to remember that a decision is not fair simply because a computer made it.",
+   "qs": [
+    {
+     "t": "mc",
+     "q": "¿Por qué un algoritmo de contratación podría discriminar?",
+     "o": [
+      "Porque aprende de decisiones pasadas que ya tenían sesgos",
+      "Porque está mal programado a propósito",
+      "Porque no tiene datos",
+      "Porque es muy lento"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Por qué es difícil impugnar algunas decisiones algorítmicas?",
+     "o": [
+      "Porque son cajas negras que ni sus diseñadores explican del todo",
+      "Porque son secretas por ley",
+      "Porque son siempre correctas",
+      "Porque no existen tribunales"
+     ],
+     "a": 0
+    },
+    {
+     "t": "mc",
+     "q": "¿Cuál es, para el autor, la pregunta más importante?",
+     "o": [
+      "La de la rendición de cuentas",
+      "La del precio",
+      "La de la velocidad",
+      "La de la publicidad"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "A decision is not fair simply because a computer made it.",
+     "q": "¿Qué advierte el autor?",
+     "o": [
+      "Que una decisión no es justa solo por venir de una máquina",
+      "Que las máquinas son siempre justas",
+      "Que las personas deciden peor",
+      "Que hay que prohibir los computadores"
+     ],
+     "a": 0
+    },
+    {
+     "t": "talk",
+     "q": "Should governments regulate artificial intelligence, or can companies regulate themselves? Give a nuanced answer.",
+     "min": 41,
+     "keys": [
+      [
+       "regulat",
+       "safeguard",
+       "accountab",
+       "transparen",
+       "consent",
+       "bias"
+      ],
+      [
+       "not so much",
+       "much as",
+       "it is not that",
+       "rather",
+       "what concerns me",
+       "less"
+      ]
+     ],
+     "model": "Much as I appreciate innovation, I don't think self-regulation is enough. It's not that companies are evil; rather, they have a conflict of interest. What concerns me most is accountability: when an algorithm makes a mistake, someone must be answerable, so we need independent safeguards."
+    }
+   ]
   }
  ]
 ];

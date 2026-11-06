@@ -91,5 +91,35 @@ module.exports = [
  T("Explain your job (or a job you know well) using its specialised vocabulary, as if to a new colleague.", 50, [["responsible for", "in charge of"], ["we", "our"]], "I work in a call centre as a team leader. I'm responsible for monitoring the agents' performance, checking the average handling time and making sure we meet our service level targets every month."),
  T("You are a doctor. Explain to a patient, clearly and calmly, a treatment and its risks.", 45, [["risk", "side effect", "chance"], ["recommend", "suggest", "advise"]], "I recommend that you take this medication twice a day for two weeks. The most common side effect is a mild headache, and there is a small chance of nausea. If anything else happens, please call us."),
  T("Listen to the business update and summarise it in your own words for your boss.", 35, [["revenue", "sales", "profit"], ["because", "due to", "however"]], "Sales went up by ten percent, mainly because of the new online store. However, profit stayed the same due to higher delivery costs.", "Quick update: sales rose ten percent this quarter, mostly thanks to the new online store, but profit was flat because delivery costs went up.")
+],
+/* Unidad 7 · Naturalidad y matices */
+[
+ L("I was wondering if you might be able to cover my shift on Saturday. I wouldn't ask if it weren't important.", "¿Qué pide quien habla?", ["Que le cubran el turno del sábado", "Un aumento", "Vacaciones", "Un préstamo"], 0),
+ L("Sorry to jump in, but I think there's been a misunderstanding. What I meant was that we need more time, not more money.", "¿Qué quiso decir realmente?", ["Que necesitan más tiempo, no más dinero", "Que necesitan más dinero", "Que hay que cancelar", "Que todo está bien"], 0),
+ L("By and large, the trip was a success, but we had our ups and downs. Suffice it to say, we won't be camping again.", "¿Qué decidieron?", ["No volver a acampar", "Volver a acampar pronto", "Cancelar el viaje", "Comprar una carpa"], 0),
+ L("The study found a correlation, but correlation does not imply causation. It's too early to draw firm conclusions.", "¿Qué advierte?", ["Que una correlación no prueba causa", "Que el estudio es falso", "Que ya hay conclusiones firmes", "Que no hubo correlación"], 0),
+ M("She's ___ complaining about her boss. It gets on my nerves.", ["forever", "ever", "never", "sometimes"], 0, "Forever/always + -ing = queja."),
+ M("___, the benefits outweigh the risks.", ["By and large", "Large and by", "By the large", "At large"], 0, "Los binomios tienen orden fijo."),
+ F("Let me put it another ___: we can't afford to wait.", ["way"], "Para reformular."),
+ O("I was hoping we might discuss this in person."),
+ O("Far be it from me to criticise, but the evidence is inconclusive."),
+ T("Tell a short anecdote using the historic present.", 45, [["so i", "so there i am", "walks in", "comes up", "says", "and then"]], "So I'm sitting in a café, minding my own business, and this man walks in with a parrot on his shoulder. He orders two coffees, one for him and one for the parrot. And the waiter just says, 'Milk or sugar?'"),
+ T("Give a two-minute answer: is technology making us less patient?", 45, [["the question", "i'd like to approach", "take, for instance", "a case in point"], ["that said", "then again", "all in all", "to sum up"]], "The question is whether technology has made us less patient. Take, for instance, the way we watch series. That said, it would be simplistic to blame technology alone. All in all, I'd say yes, but only partly."),
+ T("Listen and answer.", 40, [["relative", "absolute", "risk", "doubles", "low"]], "It sounds alarming, but in absolute terms the risk is still very low. The relative risk doubles, from one in ten thousand to two.", "A friend is scared by a headline saying a medicine doubles the risk of a stroke. What do you tell them?")
+],
+/* Unidad 8 · Proficiency: escritura y cultura */
+[
+ L("While the first writer contends that tourism revitalises the city, the second rightly points out that it has pushed local families out of the centre.", "¿Qué señala el segundo autor?", ["Que ha sacado a las familias del centro", "Que revitaliza la ciudad", "Que no hay turistas", "Que los precios bajaron"], 0),
+ L("I read with dismay your article on the demolition of the old market. Surely a compromise could be reached.", "¿Qué propone quien escribe?", ["Llegar a un acuerdo intermedio", "Demoler el mercado", "No hacer nada", "Construir otro mercado"], 0),
+ L("The convent was repurposed as a library. The façade and the cloister were restored, while the interior was modernised with reversible additions.", "¿Cómo son los añadidos modernos?", ["Reversibles", "Permanentes", "Muy recargados", "Inexistentes"], 0),
+ L("It's not that facial recognition is evil; rather, it's unregulated. What concerns me is who controls the data.", "¿Qué le preocupa a quien habla?", ["Quién controla los datos", "Que la tecnología sea mala", "El precio de las cámaras", "Que no funcione"], 0),
+ M("The ___ focuses on benefits, while the latter highlights the costs.", ["former", "formal", "first one of", "before"], 0, "The former / the latter = el primero / el segundo."),
+ M("AI will not so much replace teachers ___ change their role.", ["as", "than", "but", "that"], 0, "Not so much A as B."),
+ F("PRECEDENT → The crisis was ___. (sin precedentes)", ["unprecedented"], "Prefijo un- + sufijo -ed."),
+ O("Must we really sacrifice our history for yet another car park?"),
+ O("Much as I welcome innovation, I remain wary of surveillance."),
+ T("Summarise and evaluate two opposing views on remote work: one says it boosts productivity, the other that it damages teamwork.", 45, [["the first", "the former", "the second", "the latter"], ["contends", "argues", "maintains", "points out", "concedes", "overlooks"], ["i am inclined", "on balance", "persuasive", "insofar as"]], "The first view contends that remote work boosts productivity, whereas the second maintains that it damages teamwork. The former is persuasive insofar as people avoid long commutes, but the latter rightly points out that new employees learn less. On balance, I'm inclined to favour a hybrid model."),
+ T("Describe a historic building you like and say what should be done with it.", 45, [["façade", "facade", "courtyard", "arch", "dome", "colonial", "whitewashed", "cobbled"], ["restore", "repurpose", "adaptive reuse", "preserve", "renovat"]], "I love the old colonial house near the cathedral. It has a whitewashed façade, wooden balconies and a beautiful courtyard. It's dilapidated now, so I'd restore the façade and repurpose the interior as a library."),
+ T("Listen and answer.", 40, [["accountab", "consent", "safeguard", "transparen", "regulat", "privacy"]], "The real issue is accountability. If an algorithm gets it wrong, someone must be responsible, so we need safeguards and transparency.", "An AI system rejected your loan application and nobody can explain why. What is the real problem here?")
 ]
 ];

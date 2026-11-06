@@ -99016,7 +99016,7 @@ window.SYLLABUS = {
   }
  },
  "5": {
-  "intro": "En 30 lecciones (6 unidades de 5 días) vas a pulir la precisión gramatical y estilística, dominar connotaciones, colocaciones y modismos de alto nivel, reconocer y usar recursos retóricos, ironía y humor, escribir ensayos, resúmenes, reseñas e informes como un nativo culto, interpretar lo implícito y las variedades del inglés, y manejar lenguajes especializados. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
+  "intro": "En 40 lecciones (8 unidades de 5 días) vas a pulir la precisión gramatical y estilística, dominar connotaciones, colocaciones y modismos de alto nivel, reconocer y usar recursos retóricos, ironía y humor, escribir ensayos, resúmenes, reseñas e informes como un nativo culto, interpretar lo implícito y las variedades del inglés, manejar lenguajes especializados, sonar natural en la conversación (matices de tiempo, muletillas, binomios y fórmulas fijas) y dominar las tareas del C2 Proficiency: el monólogo de dos minutos, el ensayo que resume y evalúa dos textos, la carta al editor y el Use of English idiomático, con temas de salud, arquitectura e inteligencia artificial. Estudia una lección por día (45 a 60 minutos). Cada unidad termina con un quiz de escritura, escucha y habla, y el nivel termina con el examen final.",
   "units": [
    {
     "title": "Precisión gramatical",
@@ -114479,6 +114479,5128 @@ window.SYLLABUS = {
       "es": "Los mercados ya están descontando otra subida de tasas."
      }
     ]
+   },
+   {
+    "title": "Naturalidad y matices",
+    "lessons": [
+     {
+      "id": "c2-u7-l1",
+      "title": "Matices de tiempo y aspecto: cortesía, presente histórico y progresivo expresivo",
+      "goal": "Usar los tiempos verbales para suavizar, dramatizar o mostrar actitud, como lo hace un nativo culto.",
+      "theory": [
+       {
+        "p": "Los tiempos no solo indican **cuándo**: también **distancia** y **actitud**. El **pasado de cortesía** suaviza peticiones: **I was wondering if you could…** · **I was hoping we might…** · **We were thinking of…** Cuanto más «atrás» va el verbo, más distancia (y más cortesía): **I wonder → I'm wondering → I was wondering**."
+       },
+       {
+        "ex": [
+         [
+          "I was wondering if you might have a moment.",
+          "Me preguntaba si tendría un momento."
+         ],
+         [
+          "We were hoping you could join us.",
+          "Esperábamos que pudiera acompañarnos."
+         ],
+         [
+          "Did you want to see the manager?",
+          "¿Quería ver al gerente? (más suave que «Do you want…?»)"
+         ],
+         [
+          "I just wanted to check one thing.",
+          "Solo quería confirmar una cosa."
+         ],
+         [
+          "I was going to ask you a favour.",
+          "Te iba a pedir un favor."
+         ]
+        ]
+       },
+       {
+        "p": "El **presente histórico** da viveza a anécdotas y chistes: **So I walk into the office, and my boss is standing there with a cake…** El **progresivo con always / forever / constantly** expresa irritación: **He's always borrowing my charger!** Y los verbos de estado en progresivo marcan algo temporal o enfático: **You're being ridiculous** (te estás comportando así ahora) · **I'm loving this weather** (coloquial)."
+       },
+       {
+        "ex": [
+         [
+          "So this guy comes up to me and says…",
+          "Entonces este tipo se me acerca y me dice…"
+         ],
+         [
+          "She's forever complaining about her neighbours.",
+          "Se la pasa quejándose de sus vecinos."
+         ],
+         [
+          "You're being very unfair.",
+          "Estás siendo muy injusto (ahora)."
+         ],
+         [
+          "I'm thinking of moving to Lisbon.",
+          "Estoy pensando en irme a vivir a Lisboa."
+         ],
+         [
+          "We're having a great time.",
+          "La estamos pasando muy bien (have = disfrutar sí admite progresivo)."
+         ]
+        ]
+       },
+       {
+        "tip": "**You are ridiculous** describe tu carácter; **You're being ridiculous** describe lo que estás haciendo en este momento. Esa diferencia, tan sutil, es exactamente lo que distingue a un hablante C2."
+       }
+      ],
+      "vocab": [
+       [
+        "I was wondering if",
+        "expresión",
+        "me preguntaba si (petición cortés)",
+        "I was wondering if you could help me."
+       ],
+       [
+        "I was hoping",
+        "expresión",
+        "esperaba (petición suave)",
+        "I was hoping to speak to you."
+       ],
+       [
+        "I just wanted to",
+        "expresión",
+        "solo quería",
+        "I just wanted to say thank you."
+       ],
+       [
+        "historic present",
+        "expresión",
+        "presente histórico",
+        "Comedians use the historic present."
+       ],
+       [
+        "forever + -ing",
+        "expresión",
+        "pasársela + gerundio (queja)",
+        "He's forever losing his keys."
+       ],
+       [
+        "constantly",
+        "adverbio",
+        "constantemente",
+        "She's constantly checking her phone."
+       ],
+       [
+        "be being + adjetivo",
+        "estructura",
+        "estar comportándose de cierta forma",
+        "You're being silly."
+       ],
+       [
+        "tentative",
+        "adjetivo",
+        "tentativo, vacilante",
+        "A tentative request."
+       ],
+       [
+        "distancing",
+        "sustantivo",
+        "distanciamiento",
+        "The past tense creates distancing."
+       ],
+       [
+        "vivid",
+        "adjetivo",
+        "vívido",
+        "The historic present makes stories vivid."
+       ],
+       [
+        "anecdote",
+        "sustantivo",
+        "anécdota",
+        "He told a funny anecdote."
+       ],
+       [
+        "punchline",
+        "sustantivo",
+        "remate (de un chiste)",
+        "He forgot the punchline."
+       ],
+       [
+        "irritation",
+        "sustantivo",
+        "irritación, fastidio",
+        "The progressive can show irritation."
+       ],
+       [
+        "resemble",
+        "verbo",
+        "parecerse a",
+        "She resembles her mother."
+       ],
+       [
+        "unfair",
+        "adjetivo",
+        "injusto",
+        "You're being unfair."
+       ],
+       [
+        "stubborn",
+        "adjetivo",
+        "terco",
+        "Stop being so stubborn."
+       ],
+       [
+        "a favour",
+        "expresión",
+        "un favor",
+        "Could I ask you a favour?"
+       ],
+       [
+        "drop in",
+        "verbo",
+        "pasar de visita",
+        "I was thinking of dropping in later."
+       ],
+       [
+        "bump into",
+        "verbo",
+        "encontrarse por casualidad",
+        "So I bump into my ex at the supermarket…"
+       ],
+       [
+        "out of the blue",
+        "expresión",
+        "de la nada, sin aviso",
+        "He called me out of the blue."
+       ],
+       [
+        "so there I am",
+        "expresión",
+        "y ahí estoy yo (al narrar)",
+        "So there I am, in my pyjamas…"
+       ],
+       [
+        "get on someone's nerves",
+        "expresión",
+        "sacar de quicio",
+        "He's always interrupting; it gets on my nerves."
+       ]
+      ],
+      "dialogue": {
+       "title": "La anécdota del ascensor",
+       "scene": "Durante una cena, Santiago le cuenta a su amiga británica Emily lo que le pasó en una entrevista de trabajo en Londres.",
+       "a": "Emily",
+       "b": "Santiago",
+       "lines": [
+        [
+         "A",
+         "So, how did the interview go? I was hoping you'd tell me everything.",
+         "Bueno, ¿cómo te fue en la entrevista? Esperaba que me contaras todo."
+        ],
+        [
+         "B",
+         "Oh, you won't believe it. So I arrive at the building twenty minutes early, feeling very proud of myself.",
+         "Ay, no me vas a creer. Entonces llego al edificio veinte minutos antes, sintiéndome muy orgulloso de mí mismo."
+        ],
+        [
+         "A",
+         "Good start.",
+         "Buen comienzo."
+        ],
+        [
+         "B",
+         "I get into the lift, and this man gets in after me. He's carrying three coffees and he's constantly checking his phone.",
+         "Me subo al ascensor y un hombre entra detrás de mí. Lleva tres cafés y está todo el tiempo mirando el celular."
+        ],
+        [
+         "A",
+         "Uh-oh. I can see where this is going.",
+         "Uy. Ya veo para dónde va esto."
+        ],
+        [
+         "B",
+         "The lift stops suddenly, he loses his balance, and one of the coffees lands all over my white shirt.",
+         "El ascensor frena de golpe, él pierde el equilibrio y uno de los cafés me cae encima de la camisa blanca."
+        ],
+        [
+         "A",
+         "No! What did you do?",
+         "¡No! ¿Y qué hiciste?"
+        ],
+        [
+         "B",
+         "I was going to say something rude, but I just smiled and said, 'Don't worry, these things happen.'",
+         "Iba a decirle algo grosero, pero solo sonreí y le dije: «Tranquilo, son cosas que pasan»."
+        ],
+        [
+         "A",
+         "Very diplomatic. And then?",
+         "Muy diplomático. ¿Y luego?"
+        ],
+        [
+         "B",
+         "So there I am, in the waiting room, with a huge brown stain. And who walks in to interview me? The coffee man.",
+         "Y ahí estoy yo, en la sala de espera, con una mancha café enorme. ¿Y quién entra a entrevistarme? El hombre del café."
+        ],
+        [
+         "A",
+         "You're joking! Seriously?",
+         "¡Me estás molestando! ¿En serio?"
+        ],
+        [
+         "B",
+         "Completely. He was so embarrassed that he spent the first five minutes apologising. And I got the job.",
+         "Totalmente. Estaba tan avergonzado que pasó los primeros cinco minutos disculpándose. Y me dieron el trabajo."
+        ],
+        [
+         "A",
+         "That's brilliant. I was wondering why you were smiling so much tonight!",
+         "¡Qué maravilla! ¡Me preguntaba por qué estabas sonriendo tanto esta noche!"
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "La petición más cortés es:",
+        "o": [
+         "I was wondering if you could send me the file.",
+         "Send me the file.",
+         "I want the file.",
+         "You will send me the file."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "He's ___ borrowing my charger without asking! (queja)",
+        "o": [
+         "always",
+         "usually",
+         "sometimes",
+         "ever"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«You're being rude» significa que la persona:",
+        "o": [
+         "se está comportando de forma grosera ahora",
+         "es grosera por naturaleza",
+         "fue grosera ayer",
+         "va a ser grosera"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "I was ___ if you might have time for a quick chat. (preguntándome)",
+        "ans": [
+         "wondering"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "So I'm sitting on the bus, minding my own business, and this woman sits next to me and starts telling me her whole life story.",
+        "q": "¿Qué tiempo verbal usa para narrar y por qué?",
+        "o": [
+         "Presente histórico, para dar viveza",
+         "Futuro, para predecir",
+         "Pasado perfecto, para el orden",
+         "Condicional, para hipótesis"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I was wondering if you could possibly help me with this report."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She's",
+         "forever",
+         "complaining",
+         "about",
+         "the",
+         "weather."
+        ],
+        "es": "Se la pasa quejándose del clima."
+       },
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "was",
+         "hoping",
+         "we",
+         "might",
+         "meet",
+         "next",
+         "week."
+        ],
+        "es": "Esperaba que pudiéramos vernos la próxima semana."
+       },
+       {
+        "t": "dict",
+        "say": "So there I am, standing in the rain without an umbrella."
+       },
+       {
+        "t": "dict",
+        "say": "You're being very stubborn about this."
+       },
+       {
+        "t": "mc",
+        "q": "¿Cuál orden va de MENOS a MÁS cortés?",
+        "o": [
+         "I want to ask → I wonder if → I was wondering if",
+         "I was wondering if → I wonder if → I want to ask",
+         "I wonder if → I want to ask → I was wondering if",
+         "I want to ask → I was wondering if → I wonder if"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I'm ___ of moving to Spain next year. (considerando)",
+        "o": [
+         "thinking",
+         "think",
+         "thought",
+         "to think"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "He's constantly interrupting people in meetings. It's not that he's rude; he's just being very impatient at the moment because of the deadline.",
+        "q": "¿Qué opina quien habla de su colega?",
+        "o": [
+         "Que su impaciencia es temporal, por el plazo",
+         "Que es grosero por naturaleza",
+         "Que no habla en las reuniones",
+         "Que es muy paciente"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Cuenta una anécdota divertida o vergonzosa usando el presente histórico (mínimo 150 palabras). Incluye al menos una queja con always / forever + -ing, un verbo de estado en progresivo (be being…) y una petición cortés en pasado (I was wondering…).",
+        "min": 150,
+        "keys": [
+         [
+          "so i",
+          "so there i am",
+          "and then he",
+          "and then she",
+          "comes up",
+          "walks in"
+         ],
+         [
+          "always",
+          "forever",
+          "constantly"
+         ],
+         [
+          "being"
+         ],
+         [
+          "i was wondering",
+          "i was hoping",
+          "i just wanted"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "«___ you could give me some advice.» (petición muy cortés)",
+       "o": [
+        "I was wondering if",
+        "I wonder that",
+        "I wondered that",
+        "I'm wondering that"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "My neighbour is ___ playing loud music at midnight! (siempre, queja)",
+       "ans": [
+        "always",
+        "forever",
+        "constantly"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c2-u7-l2",
+      "title": "Conversación natural: muletillas, turnos y reformular",
+      "goal": "Sonar natural en una conversación: ganar tiempo, tomar y ceder el turno, y aclarar malentendidos.",
+      "theory": [
+       {
+        "p": "Los nativos usan **muletillas** para ganar tiempo y suavizar: **well, I mean, you know, sort of, kind of, like, let me think, how can I put it?** Usadas con moderación, suenan naturales; en exceso, suenan inseguras. También existen las **señales de escucha** (backchannelling): **Right. · Exactly. · Mm-hm. · Really? · I see. · Fair enough.**"
+       },
+       {
+        "ex": [
+         [
+          "Well, it's sort of complicated.",
+          "Bueno, es como complicado."
+         ],
+         [
+          "I mean, it's not that I don't like him.",
+          "O sea, no es que no me caiga bien."
+         ],
+         [
+          "How can I put it? It wasn't exactly a success.",
+          "¿Cómo te lo digo? No fue precisamente un éxito."
+         ],
+         [
+          "Let me think… probably Thursday.",
+          "Déjame pensar… probablemente el jueves."
+         ],
+         [
+          "—It took us six hours. —Really? Wow.",
+          "—Nos tomó seis horas. —¿En serio? Uy."
+         ]
+        ]
+       },
+       {
+        "p": "Para **tomar el turno**: **Sorry to jump in, but… · If I can just come in here… · Can I add something?** Para **ceder** o **retomar**: **Go on. · Sorry, you were saying? · Anyway, as I was saying…** Para **reformular y aclarar**: **What I meant was… · Let me put it another way. · I didn't mean it like that. · So what you're saying is…?**"
+       },
+       {
+        "ex": [
+         [
+          "Sorry to jump in, but that's not quite right.",
+          "Perdón por interrumpir, pero eso no es del todo correcto."
+         ],
+         [
+          "Sorry, you were saying?",
+          "Perdón, ¿qué decías?"
+         ],
+         [
+          "What I meant was that we need more time.",
+          "Lo que quise decir es que necesitamos más tiempo."
+         ],
+         [
+          "Let me put it another way.",
+          "Déjame decirlo de otra forma."
+         ],
+         [
+          "So what you're saying is that we should wait?",
+          "¿O sea que lo que dices es que deberíamos esperar?"
+         ]
+        ]
+       },
+       {
+        "tip": "En español «o sea» y «pues» se usan muchísimo. En inglés, el exceso de **like** o **you know** suena juvenil o poco profesional. En una entrevista o en el examen C2, prefiere **I mean**, **well** y **let me think**."
+       }
+      ],
+      "vocab": [
+       [
+        "filler",
+        "sustantivo",
+        "muletilla",
+        "'Well' is a common filler."
+       ],
+       [
+        "backchannelling",
+        "sustantivo",
+        "señales de escucha",
+        "Backchannelling shows you're listening."
+       ],
+       [
+        "I mean",
+        "expresión",
+        "o sea, quiero decir",
+        "I mean, it's not a disaster."
+       ],
+       [
+        "sort of / kind of",
+        "expresión",
+        "como, algo así (atenuador)",
+        "It's sort of expensive."
+       ],
+       [
+        "how can I put it?",
+        "expresión",
+        "¿cómo te lo digo?",
+        "How can I put it? He's not very reliable."
+       ],
+       [
+        "let me think",
+        "expresión",
+        "déjame pensar",
+        "Let me think… yes, Friday."
+       ],
+       [
+        "sorry to jump in",
+        "expresión",
+        "perdón por interrumpir",
+        "Sorry to jump in, but I disagree."
+       ],
+       [
+        "if I can just come in here",
+        "expresión",
+        "si me permiten intervenir",
+        "If I can just come in here…"
+       ],
+       [
+        "go on",
+        "expresión",
+        "sigue, continúa",
+        "Sorry, go on."
+       ],
+       [
+        "as I was saying",
+        "expresión",
+        "como iba diciendo",
+        "Anyway, as I was saying…"
+       ],
+       [
+        "what I meant was",
+        "expresión",
+        "lo que quise decir fue",
+        "What I meant was something different."
+       ],
+       [
+        "let me put it another way",
+        "expresión",
+        "déjame decirlo de otra forma",
+        "Let me put it another way."
+       ],
+       [
+        "I didn't mean it like that",
+        "expresión",
+        "no lo dije en ese sentido",
+        "Sorry, I didn't mean it like that."
+       ],
+       [
+        "so what you're saying is",
+        "expresión",
+        "o sea que lo que dices es",
+        "So what you're saying is no?"
+       ],
+       [
+        "fair enough",
+        "expresión",
+        "es justo, vale",
+        "Fair enough, you're right."
+       ],
+       [
+        "get the wrong end of the stick",
+        "expresión",
+        "entender mal",
+        "I think you got the wrong end of the stick."
+       ],
+       [
+        "misunderstanding",
+        "sustantivo",
+        "malentendido",
+        "It was just a misunderstanding."
+       ],
+       [
+        "clarify",
+        "verbo",
+        "aclarar",
+        "Let me clarify."
+       ],
+       [
+        "turn-taking",
+        "sustantivo",
+        "toma de turnos",
+        "Turn-taking is a speaking skill."
+       ],
+       [
+        "hesitate",
+        "verbo",
+        "titubear, dudar",
+        "Don't hesitate to ask."
+       ],
+       [
+        "ramble",
+        "verbo",
+        "divagar",
+        "Sorry, I'm rambling."
+       ],
+       [
+        "lose your train of thought",
+        "expresión",
+        "perder el hilo",
+        "Sorry, I've lost my train of thought."
+       ]
+      ],
+      "dialogue": {
+       "title": "Un malentendido en la reunión",
+       "scene": "En una videollamada, Paola (Bogotá) y su colega inglés Tom discuten una fecha de entrega. Hay un malentendido.",
+       "a": "Tom",
+       "b": "Paola",
+       "lines": [
+        [
+         "A",
+         "So, the report is going to be late again?",
+         "¿Entonces el informe va a llegar tarde otra vez?"
+        ],
+        [
+         "B",
+         "Well, sort of. I mean, the data is ready, but the design team needs a few more days.",
+         "Bueno, más o menos. O sea, los datos están listos, pero el equipo de diseño necesita unos días más."
+        ],
+        [
+         "A",
+         "Right. It's just that this is the third time this month.",
+         "Ya. Es que es la tercera vez este mes."
+        ],
+        [
+         "B",
+         "Sorry to jump in, but that's not quite right. The first delay was the client's fault.",
+         "Perdón por interrumpir, pero eso no es del todo correcto. El primer retraso fue culpa del cliente."
+        ],
+        [
+         "A",
+         "Fair enough. I didn't mean it like that. I wasn't blaming you.",
+         "Es justo. No lo dije en ese sentido. No te estaba culpando."
+        ],
+        [
+         "B",
+         "OK, sorry. I think I got the wrong end of the stick.",
+         "Bueno, perdón. Creo que te entendí mal."
+        ],
+        [
+         "A",
+         "No worries. Sorry, you were saying about the design team?",
+         "Tranquila. Perdón, ¿qué decías del equipo de diseño?"
+        ],
+        [
+         "B",
+         "Yes, as I was saying, they need until Thursday. How can I put it? The charts were… not exactly professional.",
+         "Sí, como iba diciendo, necesitan hasta el jueves. ¿Cómo te lo digo? Las gráficas eran… no precisamente profesionales."
+        ],
+        [
+         "A",
+         "Ha ha, I see. So what you're saying is it's better to wait than to send something bad?",
+         "Jaja, ya veo. ¿O sea que lo que dices es que es mejor esperar que mandar algo malo?"
+        ],
+        [
+         "B",
+         "Exactly. Let me put it another way: would you rather have it on Monday and ugly, or on Thursday and perfect?",
+         "Exacto. Déjame decirlo de otra forma: ¿prefieres tenerlo el lunes y feo, o el jueves y perfecto?"
+        ],
+        [
+         "A",
+         "Thursday and perfect, obviously. I'll let the client know.",
+         "El jueves y perfecto, obvio. Le aviso al cliente."
+        ],
+        [
+         "B",
+         "Thanks, Tom. And sorry, I was rambling a bit.",
+         "Gracias, Tom. Y perdón, estaba divagando un poco."
+        ],
+        [
+         "A",
+         "Not at all. It was a useful clarification.",
+         "Para nada. Fue una aclaración útil."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "Para interrumpir con cortesía dices:",
+        "o": [
+         "Sorry to jump in, but…",
+         "Shut up, please.",
+         "Stop, I talk now.",
+         "Wait, wait, me!"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Si alguien te entendió mal, aclaras con:",
+        "o": [
+         "What I meant was…",
+         "You're stupid.",
+         "Whatever.",
+         "Next question."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«I think you got the wrong end of the ___.» (entendiste mal)",
+        "o": [
+         "stick",
+         "rope",
+         "story",
+         "line"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "Sorry, I've lost my train of ___. (perdí el hilo)",
+        "ans": [
+         "thought"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "If I can just come in here, I think we're forgetting the budget. Sorry, go on, you were saying?",
+        "q": "¿Qué hace quien habla?",
+        "o": [
+         "Interviene y luego le devuelve el turno al otro",
+         "Termina la reunión",
+         "Se niega a hablar",
+         "Cambia de tema sin permiso"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Let me put it another way: we need more time, not more people."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Sorry,",
+         "you",
+         "were",
+         "saying?"
+        ],
+        "es": "Perdón, ¿qué decías?"
+       },
+       {
+        "t": "order",
+        "words": [
+         "So",
+         "what",
+         "you're",
+         "saying",
+         "is",
+         "that",
+         "we",
+         "should",
+         "wait?"
+        ],
+        "es": "¿O sea que lo que dices es que deberíamos esperar?"
+       },
+       {
+        "t": "dict",
+        "say": "I didn't mean it like that."
+       },
+       {
+        "t": "dict",
+        "say": "Anyway, as I was saying, the results were positive."
+       },
+       {
+        "t": "mc",
+        "q": "¿Qué muletilla es más apropiada en una entrevista de trabajo?",
+        "o": [
+         "Well, let me think…",
+         "Like, you know, like…",
+         "Dude, honestly…",
+         "Whatever, I guess…"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«Mm-hm. Right. I see.» son ejemplos de:",
+        "o": [
+         "backchannelling",
+         "rambling",
+         "turn-taking errors",
+         "fillers to avoid"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Sorry, I'm rambling. What I meant was that the new system is good, but people need training before we switch.",
+        "q": "¿Qué quiso decir?",
+        "o": [
+         "Que el sistema es bueno, pero se necesita capacitación antes",
+         "Que el sistema es malo",
+         "Que no hace falta capacitación",
+         "Que hay que cambiar ya"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe el diálogo de una reunión en la que hay un malentendido y se aclara (mínimo 150 palabras). Usa muletillas naturales, al menos dos formas de tomar o ceder el turno y al menos dos de reformular.",
+        "min": 150,
+        "keys": [
+         [
+          "well",
+          "i mean",
+          "sort of",
+          "kind of",
+          "let me think",
+          "how can i put it"
+         ],
+         [
+          "sorry to jump in",
+          "if i can just come in",
+          "go on",
+          "you were saying",
+          "as i was saying"
+         ],
+         [
+          "what i meant was",
+          "let me put it another way",
+          "i didn't mean it like that",
+          "so what you're saying is"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "To politely ask someone to continue after you interrupted: «Sorry, ___»",
+       "o": [
+        "go on.",
+        "stop.",
+        "be quiet.",
+        "next."
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Let me put it another ___: we can't afford it. (de otra forma)",
+       "ans": [
+        "way"
+       ]
+      },
+      "reading": 18,
+      "words": []
+     },
+     {
+      "id": "c2-u7-l3",
+      "title": "Binomios y fórmulas fijas: by and large, sick and tired, be that as it may",
+      "goal": "Usar expresiones fijas que dan fluidez y naturalidad al nivel más alto.",
+      "theory": [
+       {
+        "p": "Los **binomios** son pares fijos de palabras unidos por **and** u **or**, con un orden que **no se puede cambiar**: **by and large** (en general), **pros and cons**, **ups and downs**, **sick and tired** (harto), **odds and ends** (cosas sueltas), **first and foremost** (ante todo), **loud and clear**, **safe and sound** (sano y salvo), **trial and error** (ensayo y error), **give and take** (tira y afloja), **wear and tear** (desgaste), **time and again** (una y otra vez), **neck and neck** (parejos), **sooner or later**, **more or less**, **null and void** (nulo)."
+       },
+       {
+        "ex": [
+         [
+          "By and large, the project was a success.",
+          "En general, el proyecto fue un éxito."
+         ],
+         [
+          "I'm sick and tired of waiting.",
+          "Estoy harto de esperar."
+         ],
+         [
+          "They arrived safe and sound.",
+          "Llegaron sanos y salvos."
+         ],
+         [
+          "We learnt it by trial and error.",
+          "Lo aprendimos por ensayo y error."
+         ],
+         [
+          "The candidates are neck and neck.",
+          "Los candidatos están parejos."
+         ]
+        ]
+       },
+       {
+        "p": "**Fórmulas fijas** formales o literarias (restos del subjuntivo): **be that as it may** (sea como sea), **come what may** (pase lo que pase), **so be it** (que así sea), **far be it from me to…** (lejos de mí…), **suffice it to say** (baste decir), **as it were** (por así decirlo), **heaven forbid** (Dios no lo quiera), **long live…** (¡viva…!)."
+       },
+       {
+        "ex": [
+         [
+          "Be that as it may, we still have to pay.",
+          "Sea como sea, igual tenemos que pagar."
+         ],
+         [
+          "Come what may, I'll be there.",
+          "Pase lo que pase, estaré ahí."
+         ],
+         [
+          "Far be it from me to criticise, but…",
+          "Lejos de mí criticar, pero…"
+         ],
+         [
+          "Suffice it to say, he wasn't invited again.",
+          "Baste decir que no lo volvieron a invitar."
+         ],
+         [
+          "If they want to leave, so be it.",
+          "Si se quieren ir, que así sea."
+         ]
+        ]
+       },
+       {
+        "tip": "El orden de los binomios es fijo: se dice **pros and cons**, nunca «cons and pros»; **safe and sound**, nunca «sound and safe». Cambiar el orden delata enseguida a un hablante no nativo."
+       }
+      ],
+      "vocab": [
+       [
+        "by and large",
+        "expresión",
+        "en general",
+        "By and large, I agree."
+       ],
+       [
+        "pros and cons",
+        "expresión",
+        "ventajas y desventajas",
+        "Weigh up the pros and cons."
+       ],
+       [
+        "ups and downs",
+        "expresión",
+        "altibajos",
+        "Every marriage has its ups and downs."
+       ],
+       [
+        "sick and tired",
+        "expresión",
+        "harto",
+        "I'm sick and tired of the traffic."
+       ],
+       [
+        "odds and ends",
+        "expresión",
+        "cosas sueltas, chécheres",
+        "A drawer full of odds and ends."
+       ],
+       [
+        "first and foremost",
+        "expresión",
+        "ante todo",
+        "First and foremost, thank you."
+       ],
+       [
+        "loud and clear",
+        "expresión",
+        "fuerte y claro",
+        "I hear you loud and clear."
+       ],
+       [
+        "safe and sound",
+        "expresión",
+        "sano y salvo",
+        "They're home safe and sound."
+       ],
+       [
+        "trial and error",
+        "expresión",
+        "ensayo y error",
+        "We learnt by trial and error."
+       ],
+       [
+        "give and take",
+        "expresión",
+        "tira y afloja, concesiones mutuas",
+        "Relationships need give and take."
+       ],
+       [
+        "wear and tear",
+        "expresión",
+        "desgaste por uso",
+        "Normal wear and tear."
+       ],
+       [
+        "time and again",
+        "expresión",
+        "una y otra vez",
+        "I've told you time and again."
+       ],
+       [
+        "neck and neck",
+        "expresión",
+        "parejos, empatados",
+        "The race was neck and neck."
+       ],
+       [
+        "null and void",
+        "expresión",
+        "nulo y sin efecto",
+        "The contract is null and void."
+       ],
+       [
+        "be that as it may",
+        "expresión",
+        "sea como sea",
+        "Be that as it may, rules are rules."
+       ],
+       [
+        "come what may",
+        "expresión",
+        "pase lo que pase",
+        "Come what may, we'll finish."
+       ],
+       [
+        "so be it",
+        "expresión",
+        "que así sea",
+        "If that's your decision, so be it."
+       ],
+       [
+        "far be it from me",
+        "expresión",
+        "lejos de mí",
+        "Far be it from me to judge."
+       ],
+       [
+        "suffice it to say",
+        "expresión",
+        "baste decir",
+        "Suffice it to say, it was a disaster."
+       ],
+       [
+        "as it were",
+        "expresión",
+        "por así decirlo",
+        "He's the king of the office, as it were."
+       ],
+       [
+        "heaven forbid",
+        "expresión",
+        "Dios no lo quiera",
+        "Heaven forbid anything should happen."
+       ],
+       [
+        "fixed expression",
+        "expresión",
+        "expresión fija",
+        "Learn fixed expressions as a whole."
+       ]
+      ],
+      "dialogue": {
+       "title": "Después de la mudanza",
+       "scene": "Clara y su hermano Julián acaban de mudar a sus papás de Bogotá a Girardot. Hacen un balance al final del día.",
+       "a": "Clara",
+       "b": "Julián",
+       "lines": [
+        [
+         "A",
+         "Well, Mum and Dad are in the new house, safe and sound. By and large, it went well, didn't it?",
+         "Bueno, mi mamá y mi papá ya están en la casa nueva, sanos y salvos. En general salió bien, ¿no?"
+        ],
+        [
+         "B",
+         "More or less. The movers broke a lamp, and the sofa has seen better days.",
+         "Más o menos. Los de la mudanza rompieron una lámpara y el sofá ha visto mejores días."
+        ],
+        [
+         "A",
+         "That's just wear and tear. It's thirty years old.",
+         "Eso es desgaste por uso. Tiene treinta años."
+        ],
+        [
+         "B",
+         "True. And I'm sick and tired of carrying boxes full of odds and ends. Why does Dad keep everything?",
+         "Cierto. Y estoy harto de cargar cajas llenas de chécheres. ¿Por qué mi papá guarda todo?"
+        ],
+        [
+         "A",
+         "I've told him time and again to throw things away. Far be it from me to criticise, but he has forty-two screwdrivers.",
+         "Le he dicho una y otra vez que bote cosas. Lejos de mí criticar, pero tiene cuarenta y dos destornilladores."
+        ],
+        [
+         "B",
+         "Ha ha! Suffice it to say, the garage is full.",
+         "¡Jaja! Baste decir que el garaje está lleno."
+        ],
+        [
+         "A",
+         "Be that as it may, they seem happy. Mum says the warm weather is good for her knees.",
+         "Sea como sea, se ven felices. Mi mamá dice que el clima caliente le hace bien a las rodillas."
+        ],
+        [
+         "B",
+         "We weighed up the pros and cons for months. I think it was the right decision.",
+         "Sopesamos las ventajas y desventajas durante meses. Creo que fue la decisión correcta."
+        ],
+        [
+         "A",
+         "First and foremost, they'll be less stressed. Bogotá's traffic was killing them.",
+         "Ante todo, van a estar menos estresados. El tráfico de Bogotá los estaba matando."
+        ],
+        [
+         "B",
+         "And if Dad wants to spend his retirement fixing things with forty-two screwdrivers, so be it.",
+         "Y si mi papá quiere pasar su jubilación arreglando cosas con cuarenta y dos destornilladores, que así sea."
+        ],
+        [
+         "A",
+         "Exactly. Every family has its ups and downs, but come what may, we'll visit every month.",
+         "Exacto. Toda familia tiene sus altibajos, pero pase lo que pase, los vamos a visitar cada mes."
+        ],
+        [
+         "B",
+         "Agreed. Message received, loud and clear.",
+         "De acuerdo. Mensaje recibido, fuerte y claro."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "I'm ___ of people who talk during films.",
+        "o": [
+         "sick and tired",
+         "tired and sick",
+         "sick and bored",
+         "safe and sound"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Before deciding, weigh up the ___.",
+        "o": [
+         "pros and cons",
+         "cons and pros",
+         "ups and downs",
+         "odds and ends"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«Sea como sea» en inglés formal es:",
+        "o": [
+         "Be that as it may",
+         "Be it as may",
+         "Whatever it may be that",
+         "As it may be"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The children arrived home safe and ___. (sanos y salvos)",
+        "ans": [
+         "sound"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Far be it from me to tell you what to do, but you've changed jobs four times this year. Suffice it to say, employers notice that.",
+        "q": "¿Qué insinúa quien habla?",
+        "o": [
+         "Que cambiar tanto de trabajo da mala impresión",
+         "Que debería cambiar otra vez",
+         "Que los empleadores no se fijan",
+         "Que está orgulloso de él"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "By and large, the meeting went well, but there were a few ups and downs."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "We",
+         "learnt",
+         "to",
+         "cook",
+         "by",
+         "trial",
+         "and",
+         "error."
+        ],
+        "es": "Aprendimos a cocinar por ensayo y error."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Come",
+         "what",
+         "may,",
+         "I'll",
+         "be",
+         "there",
+         "for",
+         "you."
+        ],
+        "es": "Pase lo que pase, estaré ahí para ti."
+       },
+       {
+        "t": "dict",
+        "say": "The two candidates are neck and neck in the polls."
+       },
+       {
+        "t": "dict",
+        "say": "If that's what you want, so be it."
+       },
+       {
+        "t": "mc",
+        "q": "A contract that is no longer valid is ___.",
+        "o": [
+         "null and void",
+         "void and null",
+         "odds and ends",
+         "wear and tear"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I've told you ___ not to leave the door open!",
+        "o": [
+         "time and again",
+         "again and time",
+         "now and then",
+         "by and large"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "First and foremost, I want to thank everyone. It's been a year of ups and downs, but by and large, we've achieved our goals.",
+        "q": "¿Cómo describe el año?",
+        "o": [
+         "Con altibajos, pero en general exitoso",
+         "Un desastre total",
+         "Perfecto, sin problemas",
+         "Aburrido"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un discurso corto de despedida o de balance de un año (mínimo 150 palabras) usando al menos seis binomios y dos fórmulas fijas (be that as it may, come what may, far be it from me, suffice it to say, so be it…).",
+        "min": 150,
+        "keys": [
+         [
+          "by and large",
+          "pros and cons",
+          "ups and downs",
+          "first and foremost",
+          "time and again",
+          "trial and error",
+          "give and take",
+          "safe and sound",
+          "sick and tired",
+          "loud and clear",
+          "more or less",
+          "sooner or later"
+         ],
+         [
+          "be that as it may",
+          "come what may",
+          "far be it from me",
+          "suffice it to say",
+          "so be it",
+          "as it were"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "___, we still need to finish the project by Friday.",
+       "o": [
+        "Be that as it may",
+        "Be it as that may",
+        "As be it may",
+        "May it be that"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Every relationship needs a bit of give and ___. (tira y afloja)",
+       "ans": [
+        "take"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c2-u7-l4",
+      "title": "El monólogo de dos minutos: ¿la tecnología nos hace menos pacientes?",
+      "goal": "Hablar dos minutos de forma organizada sobre una pregunta abstracta, como en el C2 Proficiency.",
+      "theory": [
+       {
+        "p": "En la **parte 3 del speaking del C2 Proficiency** recibes una tarjeta con una **pregunta** y tres ideas de apoyo, y hablas **dos minutos sin interrupción**. Lo que se evalúa: organización, rango de vocabulario y gramática, y desarrollo de las ideas. Estructura sugerida: **introducción (10 s) → dos o tres puntos desarrollados con ejemplos → contrapunto → conclusión que vuelve a la pregunta**."
+       },
+       {
+        "ex": [
+         [
+          "The question I've been given is whether technology has made us less patient.",
+          "La pregunta que me tocó es si la tecnología nos ha vuelto menos pacientes."
+         ],
+         [
+          "I'd like to approach this from two angles.",
+          "Quisiera abordarlo desde dos ángulos."
+         ],
+         [
+          "Take, for instance, the way we watch series.",
+          "Tomemos, por ejemplo, la forma en que vemos series."
+         ],
+         [
+          "That said, it would be simplistic to blame technology alone.",
+          "Dicho esto, sería simplista culpar solo a la tecnología."
+         ],
+         [
+          "So, to come back to the question, I'd say yes, but only partly.",
+          "Entonces, volviendo a la pregunta, diría que sí, pero solo en parte."
+         ]
+        ]
+       },
+       {
+        "p": "Recursos para **desarrollar** sin repetir: ejemplificar (**Take…, for instance · A case in point is…**), profundizar (**What's more, … · Beyond that, …**), contrastar (**That said, … · Then again, …**), especular (**One could argue that…**), y **cerrar** (**To sum up my main points… · That brings me back to the question… · All in all, …**)."
+       },
+       {
+        "ex": [
+         [
+          "A case in point is online shopping.",
+          "Un ejemplo claro son las compras en línea."
+         ],
+         [
+          "What's more, notifications constantly interrupt us.",
+          "Además, las notificaciones nos interrumpen constantemente."
+         ],
+         [
+          "Then again, technology has also made us more efficient.",
+          "Por otro lado, la tecnología también nos ha hecho más eficientes."
+         ],
+         [
+          "One could argue that patience is simply being redefined.",
+          "Se podría argumentar que la paciencia simplemente se está redefiniendo."
+         ],
+         [
+          "All in all, I think the answer depends on how we use it.",
+          "En resumen, creo que la respuesta depende de cómo la usemos."
+         ]
+        ]
+       },
+       {
+        "tip": "No memorices un discurso: memoriza **estructuras**. Si te quedas en blanco, usa una frase puente (**Let me give you an example from my own experience…**) mientras organizas la siguiente idea."
+       }
+      ],
+      "vocab": [
+       [
+        "long turn",
+        "expresión",
+        "turno largo, monólogo",
+        "The long turn lasts two minutes."
+       ],
+       [
+        "prompt card",
+        "expresión",
+        "tarjeta con la pregunta e ideas",
+        "Look at the prompt card."
+       ],
+       [
+        "the question I've been given",
+        "expresión",
+        "la pregunta que me tocó",
+        "The question I've been given is…"
+       ],
+       [
+        "approach",
+        "verbo / sustantivo",
+        "abordar; enfoque",
+        "I'd like to approach this from two angles."
+       ],
+       [
+        "a case in point",
+        "expresión",
+        "un ejemplo claro",
+        "A case in point is social media."
+       ],
+       [
+        "take, for instance,",
+        "expresión",
+        "tomemos, por ejemplo,",
+        "Take, for instance, streaming."
+       ],
+       [
+        "what's more",
+        "expresión",
+        "además",
+        "What's more, it's cheaper."
+       ],
+       [
+        "then again",
+        "expresión",
+        "por otro lado",
+        "Then again, it's not that simple."
+       ],
+       [
+        "simplistic",
+        "adjetivo",
+        "simplista",
+        "That view is simplistic."
+       ],
+       [
+        "all in all",
+        "expresión",
+        "en resumen, en general",
+        "All in all, it's positive."
+       ],
+       [
+        "attention span",
+        "expresión",
+        "capacidad de atención",
+        "Our attention span is shrinking."
+       ],
+       [
+        "instant",
+        "adjetivo",
+        "instantáneo",
+        "We expect instant answers."
+       ],
+       [
+        "notifications",
+        "sustantivo",
+        "notificaciones",
+        "Turn off notifications."
+       ],
+       [
+        "binge-watch",
+        "verbo",
+        "ver series en maratón",
+        "We binge-watch instead of waiting."
+       ],
+       [
+        "delayed gratification",
+        "expresión",
+        "gratificación diferida",
+        "Children struggle with delayed gratification."
+       ],
+       [
+        "redefine",
+        "verbo",
+        "redefinir",
+        "Technology has redefined patience."
+       ],
+       [
+        "scroll",
+        "verbo",
+        "deslizar, desplazarse (pantalla)",
+        "We scroll for hours."
+       ],
+       [
+        "on demand",
+        "expresión",
+        "a la carta, bajo demanda",
+        "Films on demand."
+       ],
+       [
+        "dwindle",
+        "verbo",
+        "menguar, disminuir",
+        "Our patience is dwindling."
+       ],
+       [
+        "coherent",
+        "adjetivo",
+        "coherente",
+        "Give a coherent answer."
+       ],
+       [
+        "go blank",
+        "expresión",
+        "quedarse en blanco",
+        "My mind went blank."
+       ],
+       [
+        "wrap up",
+        "verbo",
+        "concluir, cerrar",
+        "Let me wrap up."
+       ]
+      ],
+      "dialogue": {
+       "title": "Dos minutos frente al examinador",
+       "scene": "Andrea presenta el speaking del C2 Proficiency. Recibe una tarjeta: «¿Ha hecho la tecnología a las personas menos pacientes?». Al final, el examinador hace una pregunta de seguimiento.",
+       "a": "Examinador",
+       "b": "Andrea",
+       "lines": [
+        [
+         "A",
+         "Andrea, here is your card. Please talk for about two minutes. You may begin.",
+         "Andrea, aquí está su tarjeta. Por favor hable unos dos minutos. Puede empezar."
+        ],
+        [
+         "B",
+         "Thank you. The question I've been given is whether technology has made people less patient. I'd like to approach it from two angles.",
+         "Gracias. La pregunta que me tocó es si la tecnología ha vuelto menos pacientes a las personas. Quisiera abordarla desde dos ángulos."
+        ],
+        [
+         "B",
+         "First, our expectations. Take, for instance, the way we watch series. A generation ago, you waited a week for the next episode. Now we binge-watch an entire season in a weekend.",
+         "Primero, nuestras expectativas. Tomemos, por ejemplo, la forma en que vemos series. Hace una generación esperabas una semana por el siguiente capítulo. Ahora vemos una temporada entera en un fin de semana."
+        ],
+        [
+         "B",
+         "What's more, constant notifications have arguably shortened our attention span. A case in point is the way many of us check our phones within seconds of waking up.",
+         "Además, las notificaciones constantes posiblemente han reducido nuestra capacidad de atención. Un ejemplo claro es que muchos miramos el celular a los pocos segundos de despertar."
+        ],
+        [
+         "B",
+         "That said, it would be simplistic to blame technology alone. Then again, technology has made many processes faster, so perhaps our patience is simply being redefined rather than dwindling.",
+         "Dicho esto, sería simplista culpar solo a la tecnología. Por otro lado, la tecnología ha hecho más rápidos muchos procesos, así que quizás nuestra paciencia simplemente se está redefiniendo en lugar de menguar."
+        ],
+        [
+         "B",
+         "Secondly, there's the question of delayed gratification. Research suggests that children who grow up with everything on demand find it harder to wait for rewards.",
+         "En segundo lugar está el tema de la gratificación diferida. Las investigaciones sugieren que los niños que crecen con todo a la carta tienen más dificultad para esperar recompensas."
+        ],
+        [
+         "B",
+         "So, to come back to the question: all in all, I'd say yes, technology has made us less patient, but only partly, and the solution lies in how consciously we use it.",
+         "Entonces, volviendo a la pregunta: en resumen, diría que sí, la tecnología nos ha hecho menos pacientes, pero solo en parte, y la solución está en qué tan conscientemente la usamos."
+        ],
+        [
+         "A",
+         "Thank you. Do you think schools should teach children how to be patient?",
+         "Gracias. ¿Cree que los colegios deberían enseñarles a los niños a ser pacientes?"
+        ],
+        [
+         "B",
+         "That's an interesting point. I mean, patience isn't usually taught as a subject, but I think schools could build it into activities, like long-term projects.",
+         "Es un punto interesante. O sea, la paciencia normalmente no se enseña como materia, pero creo que los colegios podrían incluirla en actividades, como los proyectos de largo plazo."
+        ],
+        [
+         "A",
+         "And would that work for teenagers as well?",
+         "¿Y eso funcionaría también con adolescentes?"
+        ],
+        [
+         "B",
+         "Possibly, although with teenagers I suspect it's more about modelling. If adults are constantly scrolling, it's hard to expect patience from young people.",
+         "Posiblemente, aunque con los adolescentes sospecho que se trata más de dar ejemplo. Si los adultos están todo el tiempo pegados al celular, es difícil esperar paciencia de los jóvenes."
+        ],
+        [
+         "A",
+         "Thank you. That's the end of the test.",
+         "Gracias. Ese es el final de la prueba."
+        ],
+        [
+         "B",
+         "Thank you very much.",
+         "Muchas gracias."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "¿Cuál es la mejor forma de empezar el monólogo?",
+        "o": [
+         "The question I've been given is whether…",
+         "Um, I don't know, maybe yes.",
+         "Technology. It's good and bad.",
+         "I will now read the card."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Para dar un ejemplo claro dices:",
+        "o": [
+         "A case in point is…",
+         "In point of case…",
+         "A point in case is…",
+         "The case of point is…"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Para introducir un contrapunto dices:",
+        "o": [
+         "That said, …",
+         "What's more, …",
+         "Take, for instance, …",
+         "First of all, …"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "All in ___, I think the answer depends on how we use it. (en resumen)",
+        "ans": [
+         "all"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Then again, one could argue that our patience isn't disappearing; it's simply being redirected towards different things.",
+        "q": "¿Qué argumenta quien habla?",
+        "o": [
+         "Que la paciencia se redirige, no desaparece",
+         "Que la paciencia desapareció",
+         "Que la tecnología es mala",
+         "Que nadie es paciente"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "That said, it would be simplistic to blame technology alone."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I'd",
+         "like",
+         "to",
+         "approach",
+         "this",
+         "from",
+         "two",
+         "angles."
+        ],
+        "es": "Quisiera abordar esto desde dos ángulos."
+       },
+       {
+        "t": "order",
+        "words": [
+         "That",
+         "brings",
+         "me",
+         "back",
+         "to",
+         "the",
+         "question."
+        ],
+        "es": "Eso me lleva de vuelta a la pregunta."
+       },
+       {
+        "t": "dict",
+        "say": "Our attention span seems to be getting shorter."
+       },
+       {
+        "t": "dict",
+        "say": "To sum up my main points, technology is a double-edged sword."
+       },
+       {
+        "t": "mc",
+        "q": "Si te quedas en blanco, una buena frase puente es:",
+        "o": [
+         "Let me give you an example from my own experience…",
+         "Sorry, I can't continue.",
+         "That's all.",
+         "I forgot everything."
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Children who can wait for a bigger reward show good ___.",
+        "o": [
+         "delayed gratification",
+         "instant gratification",
+         "attention span",
+         "on demand"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "What's more, the way we communicate has changed. We expect instant replies, and if someone takes an hour to answer a message, we assume something is wrong.",
+        "q": "¿Qué cambio menciona?",
+        "o": [
+         "Esperamos respuestas inmediatas a los mensajes",
+         "Ya no usamos mensajes",
+         "Respondemos más despacio",
+         "Preferimos las cartas"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe el guion de un monólogo de dos minutos (mínimo 170 palabras) sobre la pregunta «¿La tecnología nos ha hecho menos pacientes?» o «¿Las redes sociales nos acercan o nos alejan?». Incluye introducción, dos puntos con ejemplos, un contrapunto y una conclusión que vuelva a la pregunta.",
+        "min": 170,
+        "keys": [
+         [
+          "the question i've been given",
+          "the question is",
+          "i'd like to approach"
+         ],
+         [
+          "take, for instance",
+          "a case in point",
+          "for example",
+          "for instance"
+         ],
+         [
+          "that said",
+          "then again",
+          "on the other hand",
+          "one could argue"
+         ],
+         [
+          "all in all",
+          "to sum up",
+          "that brings me back",
+          "to come back to the question"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "«___, one could argue that technology has made us more efficient.» (contrapunto)",
+       "o": [
+        "Then again",
+        "What's more",
+        "First and foremost",
+        "Take for instance"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Let me ___ up: technology is neither good nor bad in itself. (concluir)",
+       "ans": [
+        "wrap",
+        "sum"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c2-u7-l5",
+      "title": "Medicina y salud: comunicar riesgo e incertidumbre",
+      "goal": "Entender y explicar información médica con precisión, sin alarmar ni exagerar.",
+      "theory": [
+       {
+        "p": "Vocabulario médico de nivel alto: **diagnosis** (diagnóstico), **prognosis** (pronóstico), **symptoms**, **chronic / acute** (crónico / agudo), **side effects** (efectos secundarios), **clinical trial** (ensayo clínico), **placebo**, **dosage** (dosis), **contagious**, **immune system**, **antibiotic resistance**, **preventive medicine**, **underlying condition** (enfermedad de base), **to be referred to a specialist** (ser remitido)."
+       },
+       {
+        "ex": [
+         [
+          "He was diagnosed with a chronic condition.",
+          "Le diagnosticaron una enfermedad crónica."
+         ],
+         [
+          "The prognosis is good if it's treated early.",
+          "El pronóstico es bueno si se trata a tiempo."
+         ],
+         [
+          "Drowsiness is a common side effect.",
+          "La somnolencia es un efecto secundario común."
+         ],
+         [
+          "Patients with underlying conditions are at higher risk.",
+          "Los pacientes con enfermedades de base tienen más riesgo."
+         ],
+         [
+          "She was referred to a cardiologist.",
+          "La remitieron a un cardiólogo."
+         ]
+        ]
+       },
+       {
+        "p": "Comunicar **riesgo** con precisión: **relative vs. absolute risk** («duplica el riesgo» puede significar pasar de 1 en 10 000 a 2 en 10 000). Frases útiles: **There's a slight / significant increase in…** · **The risk is relatively low.** · **The evidence is still inconclusive.** · **It's too early to say.** · **Correlation does not imply causation.** · **The benefits outweigh the risks.**"
+       },
+       {
+        "ex": [
+         [
+          "The risk is low in absolute terms.",
+          "El riesgo es bajo en términos absolutos."
+         ],
+         [
+          "The evidence is still inconclusive.",
+          "La evidencia todavía no es concluyente."
+         ],
+         [
+          "It's too early to draw firm conclusions.",
+          "Es muy pronto para sacar conclusiones firmes."
+         ],
+         [
+          "The benefits clearly outweigh the risks.",
+          "Los beneficios claramente superan los riesgos."
+         ],
+         [
+          "The trial involved over ten thousand volunteers.",
+          "El ensayo incluyó a más de diez mil voluntarios."
+         ]
+        ]
+       },
+       {
+        "tip": "Falsos amigos médicos: **constipated** es «estreñido» (no «resfriado», que es **have a cold**); **intoxicated** suele ser «ebrio» (la intoxicación por comida es **food poisoning**); **sensible** es «sensato» (sensible es **sensitive**)."
+       }
+      ],
+      "vocab": [
+       [
+        "diagnosis",
+        "sustantivo",
+        "diagnóstico",
+        "An early diagnosis saves lives."
+       ],
+       [
+        "prognosis",
+        "sustantivo",
+        "pronóstico",
+        "The prognosis is excellent."
+       ],
+       [
+        "chronic",
+        "adjetivo",
+        "crónico",
+        "A chronic illness."
+       ],
+       [
+        "acute",
+        "adjetivo",
+        "agudo",
+        "Acute pain."
+       ],
+       [
+        "side effects",
+        "expresión",
+        "efectos secundarios",
+        "Are there any side effects?"
+       ],
+       [
+        "clinical trial",
+        "expresión",
+        "ensayo clínico",
+        "The drug is in clinical trials."
+       ],
+       [
+        "placebo",
+        "sustantivo",
+        "placebo",
+        "Half the group received a placebo."
+       ],
+       [
+        "dosage",
+        "sustantivo",
+        "dosis",
+        "Follow the recommended dosage."
+       ],
+       [
+        "contagious",
+        "adjetivo",
+        "contagioso",
+        "Is it contagious?"
+       ],
+       [
+        "immune system",
+        "expresión",
+        "sistema inmunitario",
+        "Sleep strengthens the immune system."
+       ],
+       [
+        "antibiotic resistance",
+        "expresión",
+        "resistencia a los antibióticos",
+        "Antibiotic resistance is a global threat."
+       ],
+       [
+        "underlying condition",
+        "expresión",
+        "enfermedad de base",
+        "People with underlying conditions."
+       ],
+       [
+        "be referred to",
+        "expresión",
+        "ser remitido a",
+        "I was referred to a specialist."
+       ],
+       [
+        "relative risk",
+        "expresión",
+        "riesgo relativo",
+        "The relative risk doubled."
+       ],
+       [
+        "absolute risk",
+        "expresión",
+        "riesgo absoluto",
+        "The absolute risk is tiny."
+       ],
+       [
+        "inconclusive",
+        "adjetivo",
+        "no concluyente",
+        "The results are inconclusive."
+       ],
+       [
+        "outweigh",
+        "verbo",
+        "superar, pesar más que",
+        "The benefits outweigh the risks."
+       ],
+       [
+        "food poisoning",
+        "expresión",
+        "intoxicación alimentaria",
+        "I got food poisoning."
+       ],
+       [
+        "constipated",
+        "adjetivo",
+        "estreñido",
+        "Constipated means estreñido, not resfriado."
+       ],
+       [
+        "vaccine",
+        "sustantivo",
+        "vacuna",
+        "The vaccine is safe and effective."
+       ],
+       [
+        "scare",
+        "sustantivo",
+        "alarma, susto",
+        "A health scare."
+       ],
+       [
+        "recovery",
+        "sustantivo",
+        "recuperación",
+        "She made a full recovery."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Duplica el riesgo?",
+       "scene": "Mónica leyó un titular alarmante sobre un medicamento que toma. Habla con su médico, el doctor Restrepo.",
+       "a": "Mónica",
+       "b": "Dr. Restrepo",
+       "lines": [
+        [
+         "A",
+         "Doctor, I read that this medication doubles the risk of a stroke. I'm terrified.",
+         "Doctor, leí que este medicamento duplica el riesgo de un derrame. Estoy aterrada."
+        ],
+        [
+         "B",
+         "I understand. Headlines like that cause a lot of scares. Let me explain what it actually means.",
+         "Lo entiendo. Titulares así causan muchos sustos. Déjeme explicarle qué significa en realidad."
+        ],
+        [
+         "A",
+         "Please.",
+         "Por favor."
+        ],
+        [
+         "B",
+         "In the study, the risk went from about one in ten thousand to two in ten thousand. So yes, it doubled, but in absolute terms it's still very low.",
+         "En el estudio, el riesgo pasó de más o menos uno en diez mil a dos en diez mil. Entonces sí, se duplicó, pero en términos absolutos sigue siendo muy bajo."
+        ],
+        [
+         "A",
+         "Oh. That sounds very different.",
+         "Ah. Eso suena muy distinto."
+        ],
+        [
+         "B",
+         "It is. That's the difference between relative and absolute risk. The media often report the relative one because it's more dramatic.",
+         "Lo es. Esa es la diferencia entre el riesgo relativo y el absoluto. Los medios suelen informar el relativo porque es más dramático."
+        ],
+        [
+         "A",
+         "And in my case? I have high blood pressure.",
+         "¿Y en mi caso? Tengo la presión alta."
+        ],
+        [
+         "B",
+         "That's an underlying condition, so we have to be careful. But for you, the benefits clearly outweigh the risks. Without the medication, your heart is under much more strain.",
+         "Esa es una enfermedad de base, así que hay que tener cuidado. Pero en su caso, los beneficios claramente superan los riesgos. Sin el medicamento, su corazón está mucho más exigido."
+        ],
+        [
+         "A",
+         "Are there any side effects I should watch out for?",
+         "¿Hay efectos secundarios a los que deba estar atenta?"
+        ],
+        [
+         "B",
+         "Some patients feel dizzy at first. If you notice severe headaches, call me immediately, and I'll refer you to a cardiologist.",
+         "Algunos pacientes sienten mareo al principio. Si nota dolores de cabeza fuertes, llámeme de inmediato y la remito a un cardiólogo."
+        ],
+        [
+         "A",
+         "Should I reduce the dosage?",
+         "¿Debería bajar la dosis?"
+        ],
+        [
+         "B",
+         "No, please don't change it on your own. The evidence on lower doses is still inconclusive.",
+         "No, por favor no la cambie por su cuenta. La evidencia sobre dosis más bajas todavía no es concluyente."
+        ],
+        [
+         "A",
+         "Thank you, doctor. I feel much calmer now.",
+         "Gracias, doctor. Me siento mucho más tranquila."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "A long-lasting illness, like diabetes, is ___.",
+        "o": [
+         "chronic",
+         "acute",
+         "contagious",
+         "inconclusive"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«The risk went from 1 in 10,000 to 2 in 10,000.» This is a doubling in ___ risk, but the ___ risk remains low.",
+        "o": [
+         "relative / absolute",
+         "absolute / relative",
+         "chronic / acute",
+         "acute / chronic"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«Estoy estreñido» en inglés es:",
+        "o": [
+         "I'm constipated.",
+         "I have a cold.",
+         "I'm intoxicated.",
+         "I'm sensitive."
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The benefits of the vaccine clearly ___ the risks. (superan)",
+        "ans": [
+         "outweigh"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Half of the volunteers received the new drug and half received a placebo. After a year, the results were promising, but researchers say it's too early to draw firm conclusions.",
+        "q": "¿Qué dicen los investigadores?",
+        "o": [
+         "Que es muy pronto para conclusiones firmes",
+         "Que el medicamento no sirve",
+         "Que el placebo funcionó mejor",
+         "Que ya está aprobado"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "The evidence is still inconclusive, so it's too early to say."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "She",
+         "was",
+         "referred",
+         "to",
+         "a",
+         "specialist."
+        ],
+        "es": "La remitieron a un especialista."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Are",
+         "there",
+         "any",
+         "side",
+         "effects?"
+        ],
+        "es": "¿Hay efectos secundarios?"
+       },
+       {
+        "t": "dict",
+        "say": "Patients with underlying conditions are at higher risk."
+       },
+       {
+        "t": "dict",
+        "say": "Antibiotic resistance is a growing global threat."
+       },
+       {
+        "t": "mc",
+        "q": "Food that makes you sick causes ___.",
+        "o": [
+         "food poisoning",
+         "intoxication",
+         "constipation",
+         "a placebo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The doctor's prediction about how an illness will develop is the ___.",
+        "o": [
+         "prognosis",
+         "diagnosis",
+         "dosage",
+         "trial"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Correlation does not imply causation. People who drink coffee may live longer, but that doesn't prove coffee is the reason; they may simply have healthier habits.",
+        "q": "¿Qué advierte quien habla?",
+        "o": [
+         "Que una correlación no prueba causa",
+         "Que el café alarga la vida",
+         "Que el café es peligroso",
+         "Que no hay estudios"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un artículo para una revista de salud (mínimo 150 palabras) que explique a lectores no expertos un titular alarmante sobre un medicamento o alimento. Explica la diferencia entre riesgo relativo y absoluto, menciona el tipo de estudio y da una conclusión equilibrada.",
+        "min": 150,
+        "keys": [
+         [
+          "relative risk",
+          "absolute risk",
+          "doubles",
+          "increase"
+         ],
+         [
+          "clinical trial",
+          "study",
+          "placebo",
+          "volunteers",
+          "evidence",
+          "researchers"
+         ],
+         [
+          "inconclusive",
+          "too early",
+          "correlation",
+          "outweigh",
+          "side effects"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Many illnesses are easier to treat with an early ___.",
+       "o": [
+        "diagnosis",
+        "prognosis",
+        "placebo",
+        "dosage"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "Older people and those with underlying ___ are more vulnerable. (enfermedades de base)",
+       "ans": [
+        "conditions"
+       ]
+      },
+      "reading": 19,
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "«___ you could possibly lend me your notes.» (muy cortés)",
+      "o": [
+       "I was wondering if",
+       "I wonder that",
+       "I'm wondering that",
+       "I wondered that"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Para retomar lo que decías después de una interrupción:",
+      "o": [
+       "Anyway, as I was saying…",
+       "Stop, it's my turn.",
+       "Whatever.",
+       "Shut up, please."
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I'm ___ of waiting for the bus every morning.",
+      "o": [
+       "sick and tired",
+       "tired and sick",
+       "safe and sound",
+       "odds and ends"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Para dar un ejemplo claro en un monólogo dices:",
+      "o": [
+       "A case in point is…",
+       "A point in case is…",
+       "In case of point…",
+       "The point of case is…"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The benefits of the treatment clearly ___ the risks.",
+      "o": [
+       "outweigh",
+       "overweigh",
+       "outrun",
+       "overcome by"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Be that as it ___, we still have to meet the deadline.",
+      "ans": [
+       "may"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "So I'm standing at the bus stop, and out of the blue, my old school teacher walks up and says she still has my essay from 1998.",
+      "q": "¿Cómo narra quien habla?",
+      "o": [
+       "Con presente histórico para dar viveza",
+       "Con futuro",
+       "En pasado perfecto",
+       "Con condicionales"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Doubling the risk sounds frightening, but in absolute terms we're talking about two cases in ten thousand instead of one. That said, patients with underlying conditions should consult their doctor.",
+      "q": "¿Qué deben hacer los pacientes con enfermedades de base?",
+      "o": [
+       "Consultar a su médico",
+       "Dejar el tratamiento",
+       "No preocuparse",
+       "Duplicar la dosis"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe el guion de un monólogo de dos minutos (mínimo 180 palabras) sobre «¿Confiamos demasiado en internet para informarnos sobre la salud?». Usa una estructura clara (introducción, ejemplos, contrapunto, conclusión), vocabulario médico preciso, al menos dos binomios o fórmulas fijas y lenguaje natural para reformular.",
+      "min": 180,
+      "keys": [
+       [
+        "the question",
+        "i'd like to approach",
+        "a case in point",
+        "take, for instance"
+       ],
+       [
+        "diagnosis",
+        "symptoms",
+        "side effects",
+        "evidence",
+        "risk",
+        "clinical",
+        "treatment"
+       ],
+       [
+        "by and large",
+        "pros and cons",
+        "first and foremost",
+        "be that as it may",
+        "time and again",
+        "more or less"
+       ],
+       [
+        "that said",
+        "then again",
+        "all in all",
+        "what i mean is",
+        "let me put it another way"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "Sorry to jump in, but I think there's a misunderstanding."
+     },
+     {
+      "t": "oral",
+      "text": "Far be it from me to criticise, but the evidence is still inconclusive."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "She's ___ losing her keys. It drives me crazy! (queja)",
+      "o": [
+       "forever",
+       "ever",
+       "never",
+       "sometimes"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "«You're being so unfair.» describe:",
+      "o": [
+       "un comportamiento en este momento",
+       "el carácter permanente",
+       "una acción del pasado",
+       "un plan futuro"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "«Entendiste mal» en inglés coloquial:",
+      "o": [
+       "You've got the wrong end of the stick.",
+       "You've got the wrong stick of the end.",
+       "You've got the end wrong of the stick.",
+       "You've got the bad end of the stick."
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "They came back from the trip ___.",
+      "o": [
+       "safe and sound",
+       "sound and safe",
+       "sick and tired",
+       "wear and tear"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "To close a long turn, you might say:",
+      "o": [
+       "All in all, …",
+       "Take, for instance, …",
+       "What's more, …",
+       "First and foremost, …"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "A short, intense illness is ___.",
+      "o": [
+       "acute",
+       "chronic",
+       "underlying",
+       "inconclusive"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "What I ___ was that we need more time, not more money. (quise decir)",
+      "ans": [
+       "meant"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "Pros and ___ (ventajas y desventajas)",
+      "ans": [
+       "cons"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "Sorry, I've lost my train of thought. What was I saying? Oh yes, the budget.",
+      "q": "¿Qué le pasó a quien habla?",
+      "o": [
+       "Perdió el hilo",
+       "Lo interrumpieron",
+       "Se enojó",
+       "Terminó la reunión"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Come what may, I'm finishing this marathon. I've trained by trial and error for two years.",
+      "q": "¿Cómo entrenó?",
+      "o": [
+       "Por ensayo y error",
+       "Con un entrenador profesional",
+       "Muy poco",
+       "Con una aplicación"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "The trial results were promising, but the side effects were more common than expected, so the evidence is, by and large, inconclusive.",
+      "q": "¿Cómo son los resultados en general?",
+      "o": [
+       "No concluyentes",
+       "Totalmente negativos",
+       "Perfectos",
+       "Desconocidos"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe una anécdota (mínimo 180 palabras) sobre una visita al médico o una situación de salud, contada en presente histórico, con un malentendido que se aclara, vocabulario médico preciso y al menos dos binomios.",
+      "min": 180,
+      "keys": [
+       [
+        "so i",
+        "so there i am",
+        "walks in",
+        "comes in",
+        "says"
+       ],
+       [
+        "what i meant",
+        "i didn't mean",
+        "misunderstanding",
+        "wrong end of the stick",
+        "let me put it"
+       ],
+       [
+        "diagnosis",
+        "symptoms",
+        "prescription",
+        "side effects",
+        "specialist",
+        "referred",
+        "dosage"
+       ],
+       [
+        "safe and sound",
+        "by and large",
+        "sick and tired",
+        "more or less",
+        "time and again",
+        "ups and downs"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I was hoping we might discuss this face to face."
+     },
+     {
+      "t": "oral",
+      "text": "By and large, the benefits outweigh the risks."
+     },
+     {
+      "t": "oral",
+      "text": "Let me put it another way: we can't afford to wait."
+     }
+    ]
+   },
+   {
+    "title": "Proficiency: escritura y cultura",
+    "lessons": [
+     {
+      "id": "c2-u8-l1",
+      "title": "Resumir y evaluar dos textos: el turismo y la ciudad",
+      "goal": "Escribir un ensayo que sintetice las ideas principales de dos textos y las evalúe con tu propia postura.",
+      "theory": [
+       {
+        "p": "La **parte 1 del writing del C2 Proficiency** presenta **dos textos cortos** con posturas distintas sobre un tema. Debes **resumir** y **evaluar** las ideas principales de ambos, integrándolas con tu opinión, en 240–280 palabras y **con tus propias palabras** (copiar frases del texto penaliza). Estructura: introducción del tema · síntesis y evaluación del texto 1 · del texto 2 (o comparación por ideas) · tu postura."
+       },
+       {
+        "ex": [
+         [
+          "Both texts address the impact of mass tourism on historic cities.",
+          "Ambos textos abordan el impacto del turismo masivo en las ciudades históricas."
+         ],
+         [
+          "The first writer contends that tourism revitalises local economies.",
+          "El primer autor sostiene que el turismo revitaliza las economías locales."
+         ],
+         [
+          "The second, by contrast, maintains that it displaces residents.",
+          "El segundo, en cambio, afirma que desplaza a los residentes."
+         ],
+         [
+          "While the former focuses on economic benefits, the latter highlights social costs.",
+          "Mientras el primero se centra en los beneficios económicos, el segundo resalta los costos sociales."
+         ],
+         [
+          "Neither writer, however, considers the role of local government.",
+          "Ninguno de los dos autores, sin embargo, considera el papel del gobierno local."
+         ]
+        ]
+       },
+       {
+        "p": "Verbos de reporte precisos: **contends, maintains, asserts, acknowledges, concedes, dismisses, overlooks, underestimates, rightly / convincingly points out, fails to take into account**. Para evaluar: **This argument is persuasive insofar as… · The writer's claim is somewhat undermined by… · A more convincing point is… · I am inclined to agree with…**"
+       },
+       {
+        "ex": [
+         [
+          "The writer rightly points out that rents have soared.",
+          "El autor señala con razón que los arriendos se han disparado."
+         ],
+         [
+          "This argument is persuasive insofar as it is supported by data.",
+          "Este argumento es persuasivo en la medida en que está respaldado por datos."
+         ],
+         [
+          "The claim is somewhat undermined by the lack of evidence.",
+          "La afirmación se debilita un poco por la falta de evidencia."
+         ],
+         [
+          "The author fails to take into account seasonal workers.",
+          "El autor no tiene en cuenta a los trabajadores temporales."
+         ],
+         [
+          "I am inclined to agree with the second writer.",
+          "Me inclino a estar de acuerdo con el segundo autor."
+         ]
+        ]
+       },
+       {
+        "tip": "Paráfrasis, no copia: si el texto dice **tourism brings money to the city**, escribe **tourism provides an economic boost**. Cambia vocabulario **y** estructura. El evaluador busca síntesis, no un resumen texto por texto."
+       }
+      ],
+      "vocab": [
+       [
+        "contend",
+        "verbo",
+        "sostener, argumentar",
+        "She contends that the policy has failed."
+       ],
+       [
+        "maintain",
+        "verbo",
+        "afirmar, mantener (una postura)",
+        "He maintains that rents are fair."
+       ],
+       [
+        "assert",
+        "verbo",
+        "aseverar",
+        "The author asserts that tourism is essential."
+       ],
+       [
+        "acknowledge",
+        "verbo",
+        "reconocer",
+        "She acknowledges the problem."
+       ],
+       [
+        "concede",
+        "verbo",
+        "conceder, admitir",
+        "He concedes that prices have risen."
+       ],
+       [
+        "dismiss",
+        "verbo",
+        "desestimar",
+        "The writer dismisses these concerns."
+       ],
+       [
+        "overlook",
+        "verbo",
+        "pasar por alto",
+        "Both writers overlook the environment."
+       ],
+       [
+        "insofar as",
+        "conjunción",
+        "en la medida en que",
+        "It's valid insofar as it goes."
+       ],
+       [
+        "be inclined to",
+        "expresión",
+        "inclinarse a",
+        "I'm inclined to agree."
+       ],
+       [
+        "the former / the latter",
+        "expresión",
+        "el primero / el segundo",
+        "The former is optimistic; the latter is not."
+       ],
+       [
+        "mass tourism",
+        "expresión",
+        "turismo masivo",
+        "Mass tourism affects Cartagena."
+       ],
+       [
+        "gentrification",
+        "sustantivo",
+        "gentrificación",
+        "Gentrification pushes locals out."
+       ],
+       [
+        "displace",
+        "verbo",
+        "desplazar",
+        "Residents are being displaced."
+       ],
+       [
+        "short-term rentals",
+        "expresión",
+        "alquileres de corta estancia",
+        "Short-term rentals raise prices."
+       ],
+       [
+        "soar",
+        "verbo",
+        "dispararse",
+        "Rents have soared."
+       ],
+       [
+        "revitalise",
+        "verbo",
+        "revitalizar",
+        "Tourism revitalised the old town."
+       ],
+       [
+        "overcrowding",
+        "sustantivo",
+        "hacinamiento, exceso de gente",
+        "Overcrowding in the old city."
+       ],
+       [
+        "livelihood",
+        "sustantivo",
+        "sustento, medio de vida",
+        "Tourism is their livelihood."
+       ],
+       [
+        "cap",
+        "verbo / sustantivo",
+        "limitar; tope",
+        "Cap the number of visitors."
+       ],
+       [
+        "synthesise",
+        "verbo",
+        "sintetizar",
+        "Synthesise both texts."
+       ],
+       [
+        "in your own words",
+        "expresión",
+        "con tus propias palabras",
+        "Write it in your own words."
+       ],
+       [
+        "persuasive",
+        "adjetivo",
+        "persuasivo, convincente",
+        "A persuasive argument."
+       ]
+      ],
+      "dialogue": {
+       "title": "Corrigiendo el ensayo",
+       "scene": "Felipe le muestra su ensayo de práctica del C2 a su tutora, Dr. Harris. El tema: el turismo en Cartagena.",
+       "a": "Dr. Harris",
+       "b": "Felipe",
+       "lines": [
+        [
+         "A",
+         "I've read your essay. The content is strong, but there's a problem with the structure.",
+         "Leí tu ensayo. El contenido es sólido, pero hay un problema con la estructura."
+        ],
+        [
+         "B",
+         "Oh no. What's wrong?",
+         "Ay no. ¿Qué está mal?"
+        ],
+        [
+         "A",
+         "You summarise the first text, then the second, and only then give your opinion. It reads like three separate summaries.",
+         "Resumes el primer texto, luego el segundo y solo al final das tu opinión. Se lee como tres resúmenes separados."
+        ],
+        [
+         "B",
+         "I thought that was what they wanted.",
+         "Pensé que eso era lo que querían."
+        ],
+        [
+         "A",
+         "Not quite. They want you to synthesise and evaluate. For example: 'While the first writer contends that tourism revitalises the old city, the second rightly points out that it displaces residents.'",
+         "No exactamente. Quieren que sintetices y evalúes. Por ejemplo: «Mientras el primer autor sostiene que el turismo revitaliza la ciudad antigua, el segundo señala con razón que desplaza a los residentes»."
+        ],
+        [
+         "B",
+         "I see. So I compare the ideas directly, not text by text.",
+         "Ya veo. Entonces comparo las ideas directamente, no texto por texto."
+        ],
+        [
+         "A",
+         "Exactly. And there's another issue: in the second paragraph you copied a whole sentence from the text.",
+         "Exacto. Y hay otro problema: en el segundo párrafo copiaste una frase completa del texto."
+        ],
+        [
+         "B",
+         "Which one?",
+         "¿Cuál?"
+        ],
+        [
+         "A",
+         "'Short-term rentals have pushed up prices beyond the reach of local families.' You need to put it in your own words.",
+         "«Los alquileres de corta estancia han subido los precios más allá del alcance de las familias locales». Tienes que decirlo con tus propias palabras."
+        ],
+        [
+         "B",
+         "Something like: 'The second writer attributes the soaring cost of housing to the boom in holiday lets'?",
+         "¿Algo como: «El segundo autor atribuye el alza del costo de la vivienda al auge de los alquileres vacacionales»?"
+        ],
+        [
+         "A",
+         "Much better. Now, your evaluation is a little weak. Which argument do you find more persuasive, and why?",
+         "Mucho mejor. Ahora, tu evaluación está un poco débil. ¿Qué argumento te parece más persuasivo y por qué?"
+        ],
+        [
+         "B",
+         "I'm inclined to agree with the second writer, but only partly. Both of them overlook the role of local government, which could cap the number of rentals.",
+         "Me inclino por el segundo autor, pero solo en parte. Ambos pasan por alto el papel del gobierno local, que podría limitar el número de alquileres."
+        ],
+        [
+         "A",
+         "That's a C2-level point. Put it in the conclusion, and you've got a very good essay.",
+         "Ese es un punto de nivel C2. Ponlo en la conclusión y tendrás un ensayo muy bueno."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "En la parte 1 del writing del C2 debes:",
+        "o": [
+         "resumir y evaluar ideas de dos textos con tus propias palabras",
+         "copiar las mejores frases de los textos",
+         "resumir solo un texto",
+         "contar una historia personal"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The first writer ___ that tourism benefits the local economy.",
+        "o": [
+         "contends",
+         "contents",
+         "contains",
+         "contends to"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "While the former focuses on benefits, ___ highlights the costs.",
+        "o": [
+         "the latter",
+         "the later",
+         "the last",
+         "the after"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "This argument is persuasive ___ as it is supported by data. (en la medida en que)",
+        "ans": [
+         "insofar"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Neither writer, however, takes into account the role of local government, which could regulate short-term rentals.",
+        "q": "¿Qué critica quien habla?",
+        "o": [
+         "Que ningún autor considera el papel del gobierno local",
+         "Que los dos autores están de acuerdo",
+         "Que no hay datos",
+         "Que los alquileres son baratos"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "I am inclined to agree with the second writer, but only partly."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Both",
+         "texts",
+         "address",
+         "the",
+         "impact",
+         "of",
+         "mass",
+         "tourism."
+        ],
+        "es": "Ambos textos abordan el impacto del turismo masivo."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "writer",
+         "rightly",
+         "points",
+         "out",
+         "that",
+         "rents",
+         "have",
+         "soared."
+        ],
+        "es": "El autor señala con razón que los arriendos se dispararon."
+       },
+       {
+        "t": "dict",
+        "say": "The author fails to take into account seasonal workers."
+       },
+       {
+        "t": "dict",
+        "say": "The claim is somewhat undermined by the lack of evidence."
+       },
+       {
+        "t": "mc",
+        "q": "Si un autor «pasa por alto» algo, en inglés:",
+        "o": [
+         "overlooks it",
+         "overviews it",
+         "looks over it",
+         "overtakes it"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«Rents have gone up a lot» parafraseado a nivel C2:",
+        "o": [
+         "Rents have soared.",
+         "Rents have gone up a lot.",
+         "Rents are more.",
+         "Rents have upped."
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "The first writer concedes that tourism creates jobs, but dismisses the idea that it benefits residents, arguing that most profits leave the city.",
+        "q": "¿Qué desestima el primer autor?",
+        "o": [
+         "Que el turismo beneficie a los residentes",
+         "Que el turismo cree empleo",
+         "Que haya turistas",
+         "Que los precios suban"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un ensayo (mínimo 180 palabras) que resuma y evalúe estas dos posturas: TEXTO 1: «Tourism has revitalised Cartagena's old city, creating jobs and funding the restoration of colonial buildings.» TEXTO 2: «Holiday rentals have driven local families out of the historic centre, turning it into a theme park for visitors.» Usa tus propias palabras, verbos de reporte precisos y da tu postura.",
+        "min": 180,
+        "keys": [
+         [
+          "the first writer",
+          "the first text",
+          "the former",
+          "the second writer",
+          "the latter"
+         ],
+         [
+          "contends",
+          "maintains",
+          "argues",
+          "asserts",
+          "acknowledges",
+          "concedes",
+          "points out",
+          "dismisses",
+          "overlooks"
+         ],
+         [
+          "persuasive",
+          "convincing",
+          "insofar as",
+          "undermined",
+          "fails to"
+         ],
+         [
+          "i am inclined",
+          "in my view",
+          "on balance",
+          "i would argue"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Both writers ___ the environmental impact of tourism. (pasan por alto)",
+       "o": [
+        "overlook",
+        "overview",
+        "overtake",
+        "look over"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "The ___ argues for growth, while the latter warns of its costs. (el primero)",
+       "ans": [
+        "former"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c2-u8-l2",
+      "title": "La carta al editor: defender el patrimonio de tu ciudad",
+      "goal": "Escribir una carta a un periódico con un tono firme, argumentado y cortés.",
+      "theory": [
+       {
+        "p": "La **carta al editor** (letter to the editor) responde a un artículo o a una noticia. Tiene un tono **formal pero apasionado**. Apertura: **Sir / Madam,** o **Dear Editor,** · **I read with dismay / great interest your recent article on…** · **I am writing in response to…** Cuerpo: tu postura con argumentos, concesión al otro lado y una propuesta. Cierre: **I urge the council to reconsider… · Yours faithfully,**"
+       },
+       {
+        "ex": [
+         [
+          "I read with dismay your article on the planned demolition of the old market.",
+          "Leí con consternación su artículo sobre la demolición prevista de la antigua plaza de mercado."
+         ],
+         [
+          "I am writing in response to the council's recent decision.",
+          "Escribo en respuesta a la reciente decisión del concejo."
+         ],
+         [
+          "Granted, the building is in poor condition, but…",
+          "Es cierto que el edificio está en mal estado, pero…"
+         ],
+         [
+          "It would be a tragedy if this landmark were lost.",
+          "Sería una tragedia que se perdiera este hito."
+         ],
+         [
+          "I urge the council to reconsider its decision.",
+          "Insto al concejo a reconsiderar su decisión."
+         ]
+        ]
+       },
+       {
+        "p": "Recursos para un tono **firme pero cortés**: preguntas retóricas (**Must we sacrifice our history for another car park?**), ironía moderada (**One can only assume that…**), concesión (**While I appreciate that…, I cannot accept that…**), y una propuesta concreta (**Surely a compromise could be reached, such as…**)."
+       },
+       {
+        "ex": [
+         [
+          "Must we really sacrifice our history for another car park?",
+          "¿De verdad debemos sacrificar nuestra historia por otro parqueadero?"
+         ],
+         [
+          "One can only assume that nobody consulted the residents.",
+          "Uno solo puede suponer que nadie consultó a los residentes."
+         ],
+         [
+          "While I appreciate the need for parking, I cannot accept this plan.",
+          "Aunque entiendo la necesidad de parqueaderos, no puedo aceptar este plan."
+         ],
+         [
+          "Surely a compromise could be reached.",
+          "Seguramente se podría llegar a un acuerdo."
+         ],
+         [
+          "Future generations will not forgive us.",
+          "Las generaciones futuras no nos lo perdonarán."
+         ]
+        ]
+       },
+       {
+        "tip": "Con **Sir / Madam** o **Dear Editor** se cierra con **Yours faithfully**. Muchos periódicos publican las cartas sin saludo, empezando directamente con la idea principal: **Your article on… (12 May) overlooks a crucial point.**"
+       }
+      ],
+      "vocab": [
+       [
+        "letter to the editor",
+        "expresión",
+        "carta al editor",
+        "She wrote a letter to the editor."
+       ],
+       [
+        "read with dismay",
+        "expresión",
+        "leer con consternación",
+        "I read with dismay your article."
+       ],
+       [
+        "in response to",
+        "expresión",
+        "en respuesta a",
+        "I am writing in response to…"
+       ],
+       [
+        "demolition",
+        "sustantivo",
+        "demolición",
+        "The demolition of the market."
+       ],
+       [
+        "landmark",
+        "sustantivo",
+        "hito, lugar emblemático",
+        "The cathedral is a landmark."
+       ],
+       [
+        "heritage",
+        "sustantivo",
+        "patrimonio",
+        "Our architectural heritage."
+       ],
+       [
+        "listed building",
+        "expresión",
+        "edificio protegido (patrimonio)",
+        "It's a listed building."
+       ],
+       [
+        "urge",
+        "verbo",
+        "instar, exhortar",
+        "I urge you to reconsider."
+       ],
+       [
+        "reconsider",
+        "verbo",
+        "reconsiderar",
+        "Please reconsider the decision."
+       ],
+       [
+        "one can only assume",
+        "expresión",
+        "uno solo puede suponer",
+        "One can only assume they didn't care."
+       ],
+       [
+        "surely",
+        "adverbio",
+        "seguramente, sin duda (retórico)",
+        "Surely there's another option."
+       ],
+       [
+        "compromise",
+        "sustantivo",
+        "acuerdo intermedio",
+        "A compromise could be reached."
+       ],
+       [
+        "sacrifice",
+        "verbo",
+        "sacrificar",
+        "Don't sacrifice our history."
+       ],
+       [
+        "consult",
+        "verbo",
+        "consultar",
+        "Residents were not consulted."
+       ],
+       [
+        "short-sighted",
+        "adjetivo",
+        "miope, cortoplacista",
+        "A short-sighted decision."
+       ],
+       [
+        "irreplaceable",
+        "adjetivo",
+        "irremplazable",
+        "The building is irreplaceable."
+       ],
+       [
+        "in disrepair",
+        "expresión",
+        "en mal estado, deteriorado",
+        "The market has fallen into disrepair."
+       ],
+       [
+        "restore",
+        "verbo",
+        "restaurar",
+        "Restore it instead of demolishing it."
+       ],
+       [
+        "developer",
+        "sustantivo",
+        "constructora, urbanizador",
+        "The developer wants to build flats."
+       ],
+       [
+        "council",
+        "sustantivo",
+        "concejo, alcaldía",
+        "The council approved the plan."
+       ],
+       [
+        "outcry",
+        "sustantivo",
+        "protesta, clamor",
+        "There was a public outcry."
+       ],
+       [
+        "Yours faithfully",
+        "expresión",
+        "Atentamente (sin nombre del destinatario)",
+        "Yours faithfully, Ana Gómez"
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Qué le escribimos al periódico?",
+       "scene": "La alcaldía anunció que demolerá una antigua estación de tren en Bucaramanga para hacer un parqueadero. Lucía y su vecino Germán, arquitecto, redactan una carta al periódico local.",
+       "a": "Lucía",
+       "b": "Germán",
+       "lines": [
+        [
+         "A",
+         "How should we start? 'Dear Editor, we are very angry'?",
+         "¿Cómo empezamos? «Querido editor, estamos muy bravos»?"
+        ],
+        [
+         "B",
+         "Too emotional. Let's try: 'Sir, I read with dismay your article on the planned demolition of the old railway station.'",
+         "Muy emocional. Probemos: «Señor, leí con consternación su artículo sobre la demolición prevista de la antigua estación del tren»."
+        ],
+        [
+         "A",
+         "Much better. Then we explain why it matters.",
+         "Mucho mejor. Luego explicamos por qué importa."
+        ],
+        [
+         "B",
+         "Yes. It's one of the city's few remaining examples of early twentieth-century architecture. It's irreplaceable.",
+         "Sí. Es uno de los pocos ejemplos que quedan en la ciudad de arquitectura de principios del siglo veinte. Es irremplazable."
+        ],
+        [
+         "A",
+         "But we should be fair. The building has fallen into disrepair.",
+         "Pero debemos ser justos. El edificio está muy deteriorado."
+        ],
+        [
+         "B",
+         "Agreed. 'Granted, the station is in poor condition, but that is an argument for restoring it, not demolishing it.'",
+         "De acuerdo. «Es cierto que la estación está en mal estado, pero eso es un argumento para restaurarla, no para demolerla»."
+        ],
+        [
+         "A",
+         "I love that. Can we add a rhetorical question?",
+         "Me encanta. ¿Podemos agregar una pregunta retórica?"
+        ],
+        [
+         "B",
+         "'Must we really sacrifice our history for yet another car park?'",
+         "«¿De verdad debemos sacrificar nuestra historia por otro parqueadero más?»"
+        ],
+        [
+         "A",
+         "Perfect. And the council didn't consult anyone.",
+         "Perfecto. Y la alcaldía no consultó a nadie."
+        ],
+        [
+         "B",
+         "'One can only assume that residents' views were considered irrelevant.' A little irony doesn't hurt.",
+         "«Uno solo puede suponer que la opinión de los residentes se consideró irrelevante». Un poco de ironía no sobra."
+        ],
+        [
+         "A",
+         "And we finish with a proposal.",
+         "Y terminamos con una propuesta."
+        ],
+        [
+         "B",
+         "'Surely a compromise could be reached: restore the station as a cultural centre and build the car park underground. I urge the council to reconsider. Yours faithfully.'",
+         "«Seguramente se puede llegar a un acuerdo: restaurar la estación como centro cultural y construir el parqueadero subterráneo. Insto a la alcaldía a reconsiderar. Atentamente»."
+        ],
+        [
+         "A",
+         "Firm, but polite. Let's send it today.",
+         "Firme, pero cortés. Mandémosla hoy."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "¿Cuál es la mejor apertura para una carta al editor?",
+        "o": [
+         "I read with dismay your article on the demolition of the market.",
+         "Hey editor, your article was bad.",
+         "I am very angry!!!",
+         "Hello, how are you?"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A building that cannot be replaced is ___.",
+        "o": [
+         "irreplaceable",
+         "unreplaced",
+         "disreplaceable",
+         "replaceless"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "I ___ the council to reconsider its decision.",
+        "o": [
+         "urge",
+         "urgent",
+         "urging to",
+         "am urge"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The old market has fallen into ___. (mal estado)",
+        "ans": [
+         "disrepair"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "While I appreciate the need for more parking, I cannot accept that the only solution is to destroy one of the city's last colonial houses.",
+        "q": "¿Qué concede quien escribe?",
+        "o": [
+         "Que se necesitan más parqueaderos",
+         "Que la casa no es importante",
+         "Que la demolición es necesaria",
+         "Que la alcaldía tiene razón"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "Must we really sacrifice our history for yet another car park?"
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "I",
+         "am",
+         "writing",
+         "in",
+         "response",
+         "to",
+         "your",
+         "recent",
+         "article."
+        ],
+        "es": "Escribo en respuesta a su artículo reciente."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Surely",
+         "a",
+         "compromise",
+         "could",
+         "be",
+         "reached."
+        ],
+        "es": "Seguramente se podría llegar a un acuerdo."
+       },
+       {
+        "t": "dict",
+        "say": "The decision is short-sighted and irreversible."
+       },
+       {
+        "t": "dict",
+        "say": "One can only assume that nobody consulted the residents."
+       },
+       {
+        "t": "mc",
+        "q": "Si empiezas con «Sir» o «Dear Editor», cierras con:",
+        "o": [
+         "Yours faithfully,",
+         "Yours sincerely, love,",
+         "Cheers,",
+         "See you,"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A decision that ignores long-term consequences is ___.",
+        "o": [
+         "short-sighted",
+         "far-sighted",
+         "long-sighted",
+         "sight-short"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "There was a public outcry when the developer announced plans to build a shopping centre on the site of the old theatre.",
+        "q": "¿Qué pasó cuando se anunció el plan?",
+        "o": [
+         "Hubo una protesta pública",
+         "Todos lo aplaudieron",
+         "El teatro se restauró",
+         "No pasó nada"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe una carta al editor de un periódico (mínimo 180 palabras) sobre un edificio o lugar histórico de tu ciudad que está en riesgo. Usa una apertura formal, una concesión, una pregunta retórica, un toque de ironía moderada y una propuesta concreta.",
+        "min": 180,
+        "keys": [
+         [
+          "sir",
+          "madam",
+          "dear editor",
+          "i read with",
+          "i am writing in response"
+         ],
+         [
+          "granted",
+          "while i appreciate",
+          "admittedly"
+         ],
+         [
+          "must we",
+          "surely",
+          "how can",
+          "?"
+         ],
+         [
+          "one can only assume",
+          "i urge",
+          "a compromise",
+          "reconsider",
+          "yours faithfully"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "I read with ___ your report on the closure of the library.",
+       "o": [
+        "dismay",
+        "dismiss",
+        "dismal",
+        "disarray"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "I ___ the mayor to reconsider this short-sighted decision. (insto)",
+       "ans": [
+        "urge"
+       ]
+      },
+      "words": []
+     },
+     {
+      "id": "c2-u8-l3",
+      "title": "Arte, arquitectura y patrimonio: describir y debatir",
+      "goal": "Describir edificios y obras con vocabulario preciso y debatir sobre restauración y patrimonio.",
+      "theory": [
+       {
+        "p": "Para **describir arquitectura**: **façade** (fachada), **courtyard** (patio interior), **balcony**, **arch** (arco), **column**, **dome** (cúpula), **cobbled streets** (calles empedradas), **whitewashed walls** (paredes encaladas), **colonial / Republican / brutalist / Art Deco**, **ornate** (recargado) vs. **austere** (sobrio), **dilapidated** (ruinoso), **to blend in with the surroundings** (armonizar con el entorno)."
+       },
+       {
+        "ex": [
+         [
+          "The house has a whitewashed façade and wooden balconies.",
+          "La casa tiene una fachada encalada y balcones de madera."
+         ],
+         [
+          "The cloister is built around a shaded courtyard.",
+          "El claustro está construido alrededor de un patio sombreado."
+         ],
+         [
+          "The cathedral's dome dominates the skyline.",
+          "La cúpula de la catedral domina el horizonte."
+         ],
+         [
+          "Brutalist buildings divide opinion.",
+          "Los edificios brutalistas dividen opiniones."
+         ],
+         [
+          "The new museum blends in beautifully with its surroundings.",
+          "El nuevo museo armoniza muy bien con su entorno."
+         ]
+        ]
+       },
+       {
+        "p": "Para **debatir sobre patrimonio**: **restoration vs. renovation** (restaurar respetando el original / renovar modernizando), **authenticity**, **to preserve**, **to repurpose** (dar un nuevo uso), **adaptive reuse**, **a listed / protected building**, **public art**, **mural**, **curator**, **to commission** (encargar una obra). La pregunta clásica: **¿conservar tal cual, restaurar o modernizar?**"
+       },
+       {
+        "ex": [
+         [
+          "The convent was repurposed as a hotel.",
+          "El convento se convirtió en hotel."
+         ],
+         [
+          "Adaptive reuse can save old buildings.",
+          "La reutilización adaptativa puede salvar edificios antiguos."
+         ],
+         [
+          "Critics argued that the restoration lacked authenticity.",
+          "Los críticos dijeron que a la restauración le faltó autenticidad."
+         ],
+         [
+          "The city commissioned a series of murals.",
+          "La ciudad encargó una serie de murales."
+         ],
+         [
+          "The curator chose the works for the exhibition.",
+          "El curador escogió las obras para la exposición."
+         ]
+        ]
+       },
+       {
+        "tip": "**Renovation** no es «renovación» en el sentido de cambiar todo: en arquitectura implica modernizar. **Restoration** busca devolver el aspecto original. En un debate de patrimonio, confundirlos cambia por completo tu argumento."
+       }
+      ],
+      "vocab": [
+       [
+        "façade",
+        "sustantivo",
+        "fachada",
+        "A colonial façade."
+       ],
+       [
+        "courtyard",
+        "sustantivo",
+        "patio interior",
+        "A courtyard full of plants."
+       ],
+       [
+        "arch",
+        "sustantivo",
+        "arco",
+        "Stone arches."
+       ],
+       [
+        "dome",
+        "sustantivo",
+        "cúpula",
+        "A golden dome."
+       ],
+       [
+        "cobbled streets",
+        "expresión",
+        "calles empedradas",
+        "The cobbled streets of Barichara."
+       ],
+       [
+        "whitewashed",
+        "adjetivo",
+        "encalado, blanqueado",
+        "Whitewashed walls."
+       ],
+       [
+        "ornate",
+        "adjetivo",
+        "recargado, ornamentado",
+        "An ornate altar."
+       ],
+       [
+        "austere",
+        "adjetivo",
+        "sobrio, austero",
+        "An austere design."
+       ],
+       [
+        "dilapidated",
+        "adjetivo",
+        "ruinoso, deteriorado",
+        "A dilapidated mansion."
+       ],
+       [
+        "blend in",
+        "verbo",
+        "armonizar, integrarse",
+        "It blends in with the landscape."
+       ],
+       [
+        "skyline",
+        "sustantivo",
+        "horizonte, perfil de la ciudad",
+        "Medellín's skyline."
+       ],
+       [
+        "brutalist",
+        "adjetivo",
+        "brutalista",
+        "A brutalist library."
+       ],
+       [
+        "restoration",
+        "sustantivo",
+        "restauración",
+        "The restoration took ten years."
+       ],
+       [
+        "renovation",
+        "sustantivo",
+        "renovación, remodelación",
+        "A modern renovation."
+       ],
+       [
+        "authenticity",
+        "sustantivo",
+        "autenticidad",
+        "It lost its authenticity."
+       ],
+       [
+        "repurpose",
+        "verbo",
+        "dar un nuevo uso",
+        "Repurpose old factories."
+       ],
+       [
+        "adaptive reuse",
+        "expresión",
+        "reutilización adaptativa",
+        "Adaptive reuse saves resources."
+       ],
+       [
+        "preserve",
+        "verbo",
+        "conservar, preservar",
+        "Preserve the historic centre."
+       ],
+       [
+        "mural",
+        "sustantivo",
+        "mural",
+        "Colourful murals in Comuna 13."
+       ],
+       [
+        "curator",
+        "sustantivo",
+        "curador",
+        "The curator explained the exhibition."
+       ],
+       [
+        "commission",
+        "verbo",
+        "encargar (una obra)",
+        "The city commissioned a statue."
+       ],
+       [
+        "eyesore",
+        "sustantivo",
+        "adefesio, algo feo",
+        "Some call the building an eyesore."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Restaurar o renovar el claustro?",
+       "scene": "En un foro público en Popayán, la arquitecta Mariana Velasco y el historiador Andrés Paz debaten qué hacer con un claustro colonial deteriorado.",
+       "a": "Moderador",
+       "b": "Mariana",
+       "lines": [
+        [
+         "A",
+         "The cloister has been empty for twenty years and is visibly dilapidated. Mariana, what would you do?",
+         "El claustro lleva veinte años vacío y está visiblemente deteriorado. Mariana, ¿qué haría usted?"
+        ],
+        [
+         "B",
+         "I'd propose adaptive reuse. We restore the façade, the arches and the courtyard exactly as they were, but repurpose the interior as a public library.",
+         "Propondría una reutilización adaptativa. Restauramos la fachada, los arcos y el patio tal como eran, pero le damos al interior un nuevo uso como biblioteca pública."
+        ],
+        [
+         "A",
+         "Andrés, as a historian, you've criticised similar projects for lacking authenticity.",
+         "Andrés, como historiador, usted ha criticado proyectos parecidos por falta de autenticidad."
+        ],
+        [
+         "B",
+         "If I may answer that too: authenticity doesn't mean freezing a building in time. A monument nobody uses ends up an empty shell.",
+         "Si me permite responder también a eso: autenticidad no significa congelar un edificio en el tiempo. Un monumento que nadie usa termina siendo un cascarón vacío."
+        ],
+        [
+         "A",
+         "But wouldn't modern furniture and lighting clash with a colonial building?",
+         "¿Pero no chocarían los muebles y la iluminación modernos con un edificio colonial?"
+        ],
+        [
+         "B",
+         "Not if they're designed to blend in. Austere, reversible additions that could be removed in the future without damaging the original.",
+         "No si están diseñados para armonizar. Añadidos sobrios y reversibles que se puedan retirar en el futuro sin dañar el original."
+        ],
+        [
+         "A",
+         "Some residents would rather see a five-star hotel there. It would bring money.",
+         "Algunos residentes preferirían ver un hotel cinco estrellas allí. Traería dinero."
+        ],
+        [
+         "B",
+         "Granted, but a luxury hotel would make the building inaccessible to the very community whose heritage it is.",
+         "Es cierto, pero un hotel de lujo haría el edificio inaccesible para la misma comunidad a la que pertenece ese patrimonio."
+        ],
+        [
+         "A",
+         "And the cost?",
+         "¿Y el costo?"
+        ],
+        [
+         "B",
+         "Considerable, but less than letting it collapse. Every year of delay makes the restoration more expensive.",
+         "Considerable, pero menor que dejarlo derrumbarse. Cada año de retraso hace más cara la restauración."
+        ],
+        [
+         "A",
+         "Would you include contemporary art?",
+         "¿Incluiría arte contemporáneo?"
+        ],
+        [
+         "B",
+         "Yes. I'd commission local artists for a mural in the new reading room, so the building tells the story of the city both then and now.",
+         "Sí. Encargaría a artistas locales un mural para la nueva sala de lectura, para que el edificio cuente la historia de la ciudad de antes y de ahora."
+        ],
+        [
+         "A",
+         "A compelling vision. Thank you, Mariana.",
+         "Una visión convincente. Gracias, Mariana."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "The front of a building is its ___.",
+        "o": [
+         "façade",
+         "courtyard",
+         "dome",
+         "skyline"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "Giving an old building a completely new use is called ___.",
+        "o": [
+         "repurposing",
+         "restoring",
+         "demolishing",
+         "commissioning"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A building in very bad condition is ___.",
+        "o": [
+         "dilapidated",
+         "ornate",
+         "austere",
+         "listed"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "The new museum blends ___ beautifully with the colonial houses. (armoniza)",
+        "ans": [
+         "in"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "Restoration aims to return a building to its original state, whereas renovation usually modernises it. Confusing the two can completely change your argument.",
+        "q": "¿Qué busca la restauración?",
+        "o": [
+         "Devolver el edificio a su estado original",
+         "Modernizarlo",
+         "Demolerlo",
+         "Venderlo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "The cathedral's dome dominates the city's skyline."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "convent",
+         "was",
+         "repurposed",
+         "as",
+         "a",
+         "hotel."
+        ],
+        "es": "El convento se convirtió en hotel."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "house",
+         "has",
+         "a",
+         "whitewashed",
+         "façade."
+        ],
+        "es": "La casa tiene una fachada encalada."
+       },
+       {
+        "t": "dict",
+        "say": "Barichara is famous for its cobbled streets."
+       },
+       {
+        "t": "dict",
+        "say": "The city commissioned a series of murals."
+       },
+       {
+        "t": "mc",
+        "q": "A building many people find ugly might be called an ___.",
+        "o": [
+         "eyesore",
+         "eyelid",
+         "eyewitness",
+         "eyeful"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "The person who chooses works for an exhibition is the ___.",
+        "o": [
+         "curator",
+         "commissioner",
+         "architect",
+         "developer"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "The old textile factory has been converted into a cultural centre with studios, a café and a gallery. It's a great example of adaptive reuse.",
+        "q": "¿En qué se convirtió la fábrica?",
+        "o": [
+         "En un centro cultural",
+         "En un hotel",
+         "En un parqueadero",
+         "En apartamentos"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Describe un edificio o lugar histórico que conozcas bien (mínimo 170 palabras) con vocabulario arquitectónico preciso, y argumenta qué se debería hacer con él: conservarlo, restaurarlo, renovarlo o darle un nuevo uso.",
+        "min": 170,
+        "keys": [
+         [
+          "façade",
+          "facade",
+          "courtyard",
+          "arch",
+          "dome",
+          "balcon",
+          "cobbled",
+          "whitewashed",
+          "column"
+         ],
+         [
+          "ornate",
+          "austere",
+          "dilapidated",
+          "colonial",
+          "brutalist",
+          "blend in"
+         ],
+         [
+          "restoration",
+          "restore",
+          "renovation",
+          "repurpose",
+          "adaptive reuse",
+          "preserve"
+         ],
+         [
+          "granted",
+          "while",
+          "however",
+          "on balance",
+          "i would argue",
+          "i'd propose"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "Restoring the original and changing the use inside is called ___.",
+       "o": [
+        "adaptive reuse",
+        "demolition",
+        "renovation only",
+        "commission"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "The cloister is built around a shaded ___. (patio interior)",
+       "ans": [
+        "courtyard"
+       ]
+      },
+      "reading": 20,
+      "words": []
+     },
+     {
+      "id": "c2-u8-l4",
+      "title": "Inteligencia artificial: ética, privacidad y vigilancia",
+      "goal": "Discutir con precisión los dilemas éticos de la inteligencia artificial y los datos.",
+      "theory": [
+       {
+        "p": "Vocabulario de **IA y datos**: **algorithm**, **machine learning**, **training data** (datos de entrenamiento), **algorithmic bias** (sesgo algorítmico), **facial recognition**, **surveillance** (vigilancia), **data privacy**, **consent** (consentimiento), **deepfake**, **automation**, **to be replaced by machines**, **transparency**, **accountability**, **to opt out** (darse de baja), **black box** (sistema opaco)."
+       },
+       {
+        "ex": [
+         [
+          "The algorithm was trained on biased data.",
+          "El algoritmo se entrenó con datos sesgados."
+         ],
+         [
+          "Facial recognition raises serious privacy concerns.",
+          "El reconocimiento facial genera serias preocupaciones de privacidad."
+         ],
+         [
+          "Users should be able to opt out easily.",
+          "Los usuarios deberían poder darse de baja fácilmente."
+         ],
+         [
+          "Deepfakes make it harder to trust what we see.",
+          "Los deepfakes hacen más difícil confiar en lo que vemos."
+         ],
+         [
+          "Who is accountable when an AI makes a mistake?",
+          "¿Quién responde cuando una IA comete un error?"
+         ]
+        ]
+       },
+       {
+        "p": "Para **matizar** en un tema polémico a nivel C2: evitar absolutos (**AI will not so much replace workers as transform their roles**), estructuras de contraste fino (**It is not that…; rather, …**), concesiones (**Much as I welcome…, I remain wary of…**) y énfasis (**What concerns me most is not… but…**)."
+       },
+       {
+        "ex": [
+         [
+          "AI will not so much replace teachers as change what they do.",
+          "La IA no reemplazará a los profesores sino que cambiará lo que hacen."
+         ],
+         [
+          "It is not that the technology is evil; rather, it is unregulated.",
+          "No es que la tecnología sea mala; más bien, no está regulada."
+         ],
+         [
+          "Much as I welcome innovation, I remain wary of surveillance.",
+          "Por mucho que celebre la innovación, sigo desconfiando de la vigilancia."
+         ],
+         [
+          "What concerns me most is not the technology but who controls it.",
+          "Lo que más me preocupa no es la tecnología sino quién la controla."
+         ],
+         [
+          "The real question is one of accountability.",
+          "La verdadera pregunta es de rendición de cuentas."
+         ]
+        ]
+       },
+       {
+        "tip": "**Not so much A as B** (no tanto A sino B) es una estructura muy C2 para corregir una idea simplista sin negarla del todo. También **less A than B**: **It's less a technical problem than a political one.**"
+       }
+      ],
+      "vocab": [
+       [
+        "algorithm",
+        "sustantivo",
+        "algoritmo",
+        "The algorithm decides what you see."
+       ],
+       [
+        "machine learning",
+        "expresión",
+        "aprendizaje automático",
+        "Machine learning needs data."
+       ],
+       [
+        "training data",
+        "expresión",
+        "datos de entrenamiento",
+        "The training data was incomplete."
+       ],
+       [
+        "algorithmic bias",
+        "expresión",
+        "sesgo algorítmico",
+        "Algorithmic bias can discriminate."
+       ],
+       [
+        "facial recognition",
+        "expresión",
+        "reconocimiento facial",
+        "Facial recognition in airports."
+       ],
+       [
+        "surveillance",
+        "sustantivo",
+        "vigilancia",
+        "Mass surveillance threatens freedom."
+       ],
+       [
+        "data privacy",
+        "expresión",
+        "privacidad de los datos",
+        "Protect your data privacy."
+       ],
+       [
+        "consent",
+        "sustantivo",
+        "consentimiento",
+        "They used my data without consent."
+       ],
+       [
+        "deepfake",
+        "sustantivo",
+        "deepfake, video falso hecho con IA",
+        "The video was a deepfake."
+       ],
+       [
+        "automation",
+        "sustantivo",
+        "automatización",
+        "Automation affects many jobs."
+       ],
+       [
+        "opt out",
+        "verbo",
+        "darse de baja, excluirse",
+        "You can opt out of tracking."
+       ],
+       [
+        "black box",
+        "expresión",
+        "caja negra (sistema opaco)",
+        "The model is a black box."
+       ],
+       [
+        "accountable",
+        "adjetivo",
+        "responsable, que rinde cuentas",
+        "Who is accountable?"
+       ],
+       [
+        "wary of",
+        "expresión",
+        "receloso de",
+        "I'm wary of free apps."
+       ],
+       [
+        "not so much … as",
+        "expresión",
+        "no tanto … sino",
+        "It's not so much the cost as the time."
+       ],
+       [
+        "less … than",
+        "expresión",
+        "menos … que (más bien)",
+        "It's less a problem than an opportunity."
+       ],
+       [
+        "much as",
+        "conjunción",
+        "por mucho que",
+        "Much as I like it, I can't afford it."
+       ],
+       [
+        "unregulated",
+        "adjetivo",
+        "no regulado",
+        "An unregulated market."
+       ],
+       [
+        "safeguard",
+        "sustantivo / verbo",
+        "salvaguarda; proteger",
+        "We need safeguards."
+       ],
+       [
+        "ethical",
+        "adjetivo",
+        "ético",
+        "An ethical dilemma."
+       ],
+       [
+        "dystopian",
+        "adjetivo",
+        "distópico",
+        "A dystopian future."
+       ],
+       [
+        "chatbot",
+        "sustantivo",
+        "chatbot, asistente conversacional",
+        "The chatbot answered in seconds."
+       ]
+      ],
+      "dialogue": {
+       "title": "¿Cámaras con reconocimiento facial en el metro?",
+       "scene": "En un programa de televisión, la ingeniera de datos Laura Gil y el concejal Rafael Ortiz debaten la propuesta de instalar reconocimiento facial en el metro de Medellín.",
+       "a": "Rafael",
+       "b": "Laura",
+       "lines": [
+        [
+         "A",
+         "Facial recognition would make the metro much safer. Criminals would be identified in seconds.",
+         "El reconocimiento facial haría el metro mucho más seguro. Los delincuentes serían identificados en segundos."
+        ],
+        [
+         "B",
+         "Much as I welcome efforts to reduce crime, I remain wary of this proposal.",
+         "Por mucho que celebre los esfuerzos para reducir el crimen, sigo desconfiando de esta propuesta."
+        ],
+        [
+         "A",
+         "Why? If you have nothing to hide, you have nothing to fear.",
+         "¿Por qué? Si uno no tiene nada que esconder, no tiene nada que temer."
+        ],
+        [
+         "B",
+         "That argument is not so much wrong as incomplete. Privacy isn't about hiding things; it's about consent and control over our own data.",
+         "Ese argumento no es tanto equivocado como incompleto. La privacidad no se trata de esconder cosas; se trata del consentimiento y del control sobre nuestros propios datos."
+        ],
+        [
+         "A",
+         "But the system would only look for people with arrest warrants.",
+         "Pero el sistema solo buscaría personas con orden de captura."
+        ],
+        [
+         "B",
+         "In theory. In practice, these algorithms are trained on data that is often biased. Studies have shown higher error rates for women and people with darker skin.",
+         "En teoría. En la práctica, estos algoritmos se entrenan con datos que a menudo están sesgados. Los estudios han mostrado tasas de error más altas en mujeres y en personas de piel más oscura."
+        ],
+        [
+         "A",
+         "Then we improve the technology.",
+         "Entonces mejoramos la tecnología."
+        ],
+        [
+         "B",
+         "It's not that the technology can't improve; rather, the problem is one of accountability. If someone is wrongly arrested, who is responsible: the company, the police, or the algorithm?",
+         "No es que la tecnología no pueda mejorar; más bien, el problema es de rendición de cuentas. Si alguien es arrestado por error, ¿quién responde: la empresa, la policía o el algoritmo?"
+        ],
+        [
+         "A",
+         "So you're against technology?",
+         "¿Entonces usted está en contra de la tecnología?"
+        ],
+        [
+         "B",
+         "Not at all. What concerns me is not the technology itself but the lack of safeguards. It's a black box: citizens don't know how decisions are made.",
+         "Para nada. Lo que me preocupa no es la tecnología en sí sino la falta de salvaguardas. Es una caja negra: los ciudadanos no saben cómo se toman las decisiones."
+        ],
+        [
+         "A",
+         "What would you propose, then?",
+         "¿Qué propondría entonces?"
+        ],
+        [
+         "B",
+         "An independent audit, a public consultation, and the right to opt out wherever possible. Security and privacy are not opposites; they need to be balanced.",
+         "Una auditoría independiente, una consulta pública y el derecho a excluirse donde sea posible. La seguridad y la privacidad no son opuestas; hay que equilibrarlas."
+        ],
+        [
+         "A",
+         "I can see the case for an audit. Perhaps we're less far apart than I thought.",
+         "Le veo sentido a una auditoría. Quizás estamos menos lejos de lo que pensaba."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "When an AI system discriminates because of the data it learnt from, it's called ___.",
+        "o": [
+         "algorithmic bias",
+         "facial recognition",
+         "data privacy",
+         "automation"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "A video created with AI to make someone appear to say something false is a ___.",
+        "o": [
+         "deepfake",
+         "chatbot",
+         "black box",
+         "safeguard"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "AI will not ___ replace doctors as change how they work.",
+        "o": [
+         "so much",
+         "so many",
+         "as much",
+         "much so"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "___ as I welcome innovation, I remain wary of surveillance. (por mucho que)",
+        "ans": [
+         "much"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "It's less a technical problem than a political one. The question is who controls the data and who is accountable when things go wrong.",
+        "q": "¿Qué tipo de problema es, según quien habla?",
+        "o": [
+         "Más político que técnico",
+         "Puramente técnico",
+         "Económico",
+         "No hay problema"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "What concerns me most is not the technology but who controls it."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Users",
+         "should",
+         "be",
+         "able",
+         "to",
+         "opt",
+         "out",
+         "easily."
+        ],
+        "es": "Los usuarios deberían poder excluirse fácilmente."
+       },
+       {
+        "t": "order",
+        "words": [
+         "The",
+         "algorithm",
+         "was",
+         "trained",
+         "on",
+         "biased",
+         "data."
+        ],
+        "es": "El algoritmo se entrenó con datos sesgados."
+       },
+       {
+        "t": "dict",
+        "say": "Facial recognition raises serious privacy concerns."
+       },
+       {
+        "t": "dict",
+        "say": "Who is accountable when an algorithm makes a mistake?"
+       },
+       {
+        "t": "mc",
+        "q": "A system whose decisions nobody can explain is a ___.",
+        "o": [
+         "black box",
+         "deepfake",
+         "safeguard",
+         "consent"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«It is not that the technology is bad; ___, it is unregulated.»",
+        "o": [
+         "rather",
+         "instead of",
+         "better",
+         "otherwise"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "The company used customers' photos to train its AI without asking for consent. Several users are now taking legal action.",
+        "q": "¿Por qué hay demandas?",
+        "o": [
+         "Usaron fotos sin consentimiento",
+         "La IA no funcionaba",
+         "Subieron los precios",
+         "Despidieron trabajadores"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un artículo de opinión (mínimo 180 palabras) sobre si tu ciudad debería usar reconocimiento facial en espacios públicos. Usa vocabulario de IA y datos y al menos tres estructuras de matiz C2 (not so much … as, less … than, it is not that … rather, much as, what concerns me is…).",
+        "min": 180,
+        "keys": [
+         [
+          "algorithm",
+          "facial recognition",
+          "surveillance",
+          "data",
+          "privacy",
+          "bias",
+          "consent",
+          "accountab"
+         ],
+         [
+          "not so much",
+          "less",
+          "rather",
+          "much as",
+          "what concerns me"
+         ],
+         [
+          "safeguard",
+          "audit",
+          "opt out",
+          "transparency",
+          "regulat"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "It's ___ a lack of technology than a lack of political will.",
+       "o": [
+        "less",
+        "least",
+        "fewer",
+        "lesser"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "They used my personal data without my ___. (consentimiento)",
+       "ans": [
+        "consent"
+       ]
+      },
+      "reading": 21,
+      "words": []
+     },
+     {
+      "id": "c2-u8-l5",
+      "title": "Use of English C2: transformaciones idiomáticas y formación de palabras",
+      "goal": "Dominar las transformaciones y la formación de palabras del C2 Proficiency, donde se evalúa el inglés idiomático.",
+      "theory": [
+       {
+        "p": "En el **C2 Proficiency**, las **transformaciones** suelen exigir **expresiones idiomáticas**, no solo gramática. Ejemplos: **He didn't intend to offend you. (MEAN)** → **He didn't mean to offend you.** · **I'll never forget that day. (MEMORY)** → **That day will stay in my memory forever.** · **She was very close to winning. (NARROWLY)** → **She narrowly missed winning.** · **It's not worth arguing. (POINT)** → **There's no point (in) arguing.**"
+       },
+       {
+        "ex": [
+         [
+          "Nobody expected her to win. → Her victory came as a complete surprise.",
+          "Nadie esperaba que ganara. → Su victoria fue una sorpresa total."
+         ],
+         [
+          "I don't mind what we do. → It makes no difference to me what we do.",
+          "Me da igual lo que hagamos."
+         ],
+         [
+          "He's bound to find out. → It's only a matter of time before he finds out.",
+          "Es solo cuestión de tiempo antes de que se entere."
+         ],
+         [
+          "They postponed the meeting. → The meeting was put off.",
+          "Aplazaron la reunión."
+         ],
+         [
+          "She has no intention of resigning. → Resigning is the last thing on her mind.",
+          "Renunciar es lo último que tiene en mente."
+         ]
+        ]
+       },
+       {
+        "p": "En **formación de palabras** del C2 aparecen prefijos y sufijos poco frecuentes y cambios internos: **mis-** (misconception, misleading), **counter-** (counterproductive, counterpart), **under- / over-** (underestimate, overrated), **-ness / -ity / -ism / -ment** (awareness, scarcity, scepticism, entitlement), **-ise / -en** (prioritise, broaden), y negativos raros (**inexplicable, irreversible, unprecedented, disproportionate**)."
+       },
+       {
+        "ex": [
+         [
+          "It's a common misconception that bulls hate red.",
+          "Es un concepto erróneo común que los toros odian el rojo."
+         ],
+         [
+          "The measure proved counterproductive.",
+          "La medida resultó contraproducente."
+         ],
+         [
+          "The scarcity of water is alarming.",
+          "La escasez de agua es alarmante."
+         ],
+         [
+          "The damage is irreversible.",
+          "El daño es irreversible."
+         ],
+         [
+          "The crisis was unprecedented.",
+          "La crisis no tenía precedentes."
+         ]
+        ]
+       },
+       {
+        "tip": "En las transformaciones del C2, piensa primero en **colocaciones y expresiones**: **come as a surprise, a matter of time, make no difference, the last thing on someone's mind, take something for granted, give someone the benefit of the doubt**. Un buen cuaderno de expresiones vale más que memorizar reglas."
+       }
+      ],
+      "vocab": [
+       [
+        "come as a surprise",
+        "expresión",
+        "ser una sorpresa",
+        "The news came as a surprise."
+       ],
+       [
+        "a matter of time",
+        "expresión",
+        "cuestión de tiempo",
+        "It's only a matter of time."
+       ],
+       [
+        "make no difference",
+        "expresión",
+        "dar igual, no importar",
+        "It makes no difference to me."
+       ],
+       [
+        "the last thing on someone's mind",
+        "expresión",
+        "lo último en lo que alguien piensa",
+        "Money is the last thing on her mind."
+       ],
+       [
+        "stay in someone's memory",
+        "expresión",
+        "quedarse en la memoria",
+        "That trip will stay in my memory."
+       ],
+       [
+        "narrowly",
+        "adverbio",
+        "por muy poco",
+        "She narrowly missed the bus."
+       ],
+       [
+        "give someone the benefit of the doubt",
+        "expresión",
+        "darle a alguien el beneficio de la duda",
+        "Let's give him the benefit of the doubt."
+       ],
+       [
+        "take for granted",
+        "expresión",
+        "dar por sentado",
+        "Don't take your health for granted."
+       ],
+       [
+        "misconception",
+        "sustantivo",
+        "idea errónea",
+        "A common misconception."
+       ],
+       [
+        "misleading",
+        "adjetivo",
+        "engañoso",
+        "Misleading information."
+       ],
+       [
+        "counterproductive",
+        "adjetivo",
+        "contraproducente",
+        "Shouting is counterproductive."
+       ],
+       [
+        "counterpart",
+        "sustantivo",
+        "homólogo",
+        "She met her Brazilian counterpart."
+       ],
+       [
+        "underestimate",
+        "verbo",
+        "subestimar",
+        "Never underestimate her."
+       ],
+       [
+        "overrated",
+        "adjetivo",
+        "sobrevalorado",
+        "That film is overrated."
+       ],
+       [
+        "scarcity",
+        "sustantivo",
+        "escasez",
+        "The scarcity of water."
+       ],
+       [
+        "scepticism",
+        "sustantivo",
+        "escepticismo",
+        "The plan was met with scepticism."
+       ],
+       [
+        "entitlement",
+        "sustantivo",
+        "derecho; sentido de merecimiento",
+        "A sense of entitlement."
+       ],
+       [
+        "prioritise",
+        "verbo",
+        "priorizar",
+        "Prioritise your health."
+       ],
+       [
+        "broaden",
+        "verbo",
+        "ampliar",
+        "Travel broadens the mind."
+       ],
+       [
+        "irreversible",
+        "adjetivo",
+        "irreversible",
+        "Irreversible damage."
+       ],
+       [
+        "unprecedented",
+        "adjetivo",
+        "sin precedentes",
+        "An unprecedented crisis."
+       ],
+       [
+        "disproportionate",
+        "adjetivo",
+        "desproporcionado",
+        "A disproportionate response."
+       ]
+      ],
+      "dialogue": {
+       "title": "Última clase antes del Proficiency",
+       "scene": "Camila presenta el C2 Proficiency la próxima semana. En su última clase, su profesor Mr. Bennett repasa con ella transformaciones y formación de palabras.",
+       "a": "Mr. Bennett",
+       "b": "Camila",
+       "lines": [
+        [
+         "A",
+         "Let's start with a transformation. 'Nobody expected the team to win.' Key word: SURPRISE.",
+         "Empecemos con una transformación. «Nadie esperaba que el equipo ganara». Palabra clave: SURPRISE."
+        ],
+        [
+         "B",
+         "'The team's victory came as a complete surprise.'",
+         "«La victoria del equipo fue una sorpresa total»."
+        ],
+        [
+         "A",
+         "Excellent. 'He is bound to discover the truth.' Key word: MATTER.",
+         "Excelente. «Seguro va a descubrir la verdad». Palabra clave: MATTER."
+        ],
+        [
+         "B",
+         "'It's only a matter of time before he discovers the truth.'",
+         "«Es solo cuestión de tiempo antes de que descubra la verdad»."
+        ],
+        [
+         "A",
+         "Perfect. A harder one: 'Getting married is not something she's thinking about at all.' Key word: LAST.",
+         "Perfecto. Una más difícil: «Casarse no es algo en lo que esté pensando para nada». Palabra clave: LAST."
+        ],
+        [
+         "B",
+         "Hmm… 'Getting married is the last thing on her mind.'",
+         "Mmm… «Casarse es lo último en lo que piensa»."
+        ],
+        [
+         "A",
+         "Spot on. Now word formation. The word is CONCEIVE, and the sentence is: 'It's a common ___ that Spanish is easy to master.'",
+         "Exacto. Ahora formación de palabras. La palabra es CONCEIVE y la frase es: «Es un ___ común que el español es fácil de dominar»."
+        ],
+        [
+         "B",
+         "Misconception. A common misconception.",
+         "Misconception. Una idea errónea común."
+        ],
+        [
+         "A",
+         "Good. PRECEDENT: 'The floods caused ___ damage.'",
+         "Bien. PRECEDENT: «Las inundaciones causaron daños ___»."
+        ],
+        [
+         "B",
+         "Unprecedented. Two prefixes and a suffix in one word!",
+         "Unprecedented. ¡Dos prefijos y un sufijo en una sola palabra!"
+        ],
+        [
+         "A",
+         "Only one prefix, actually, but well spotted. Last one: PRODUCE. 'Punishing staff for mistakes is often ___.'",
+         "En realidad solo un prefijo, pero bien visto. Última: PRODUCE. «Castigar al personal por sus errores suele ser ___»."
+        ],
+        [
+         "B",
+         "Counterproductive.",
+         "Contraproducente."
+        ],
+        [
+         "A",
+         "Brilliant. Honestly, Camila, don't underestimate yourself. You're ready.",
+         "Brillante. Sinceramente, Camila, no te subestimes. Estás lista."
+        ],
+        [
+         "B",
+         "Thank you. Whatever happens, this course will stay in my memory.",
+         "Gracias. Pase lo que pase, este curso se quedará en mi memoria."
+        ]
+       ]
+      },
+      "practice": [
+       {
+        "t": "mc",
+        "q": "«Nobody expected him to resign.» (SURPRISE) → His resignation came ___.",
+        "o": [
+         "as a complete surprise",
+         "to a complete surprise",
+         "in a complete surprise",
+         "for a complete surprise"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«I don't mind which restaurant we choose.» (DIFFERENCE) → It makes ___ which restaurant we choose.",
+        "o": [
+         "no difference to me",
+         "no different to me",
+         "any difference for me",
+         "no difference at me"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "PRODUCE → Punishing mistakes is often ___.",
+        "o": [
+         "counterproductive",
+         "unproductive",
+         "misproductive",
+         "overproductive"
+        ],
+        "a": 0
+       },
+       {
+        "t": "fill",
+        "q": "PRECEDENT → The storm caused ___ damage. (sin precedentes)",
+        "ans": [
+         "unprecedented"
+        ]
+       },
+       {
+        "t": "listen",
+        "say": "It's a common misconception that learning a language as an adult is impossible. In fact, adults often learn grammar faster than children.",
+        "q": "¿Qué idea corrige quien habla?",
+        "o": [
+         "Que es imposible aprender un idioma de adulto",
+         "Que los niños aprenden más rápido la gramática",
+         "Que la gramática no importa",
+         "Que todos aprenden igual"
+        ],
+        "a": 0
+       },
+       {
+        "t": "oral",
+        "text": "It's only a matter of time before they find out."
+       }
+      ],
+      "more": [
+       {
+        "t": "order",
+        "words": [
+         "Getting",
+         "married",
+         "is",
+         "the",
+         "last",
+         "thing",
+         "on",
+         "her",
+         "mind."
+        ],
+        "es": "Casarse es lo último en lo que piensa."
+       },
+       {
+        "t": "order",
+        "words": [
+         "Don't",
+         "take",
+         "your",
+         "health",
+         "for",
+         "granted."
+        ],
+        "es": "No des tu salud por sentada."
+       },
+       {
+        "t": "dict",
+        "say": "The measure proved completely counterproductive."
+       },
+       {
+        "t": "dict",
+        "say": "The scarcity of water in La Guajira is alarming."
+       },
+       {
+        "t": "mc",
+        "q": "SCEPTIC → The proposal was met with considerable ___.",
+        "o": [
+         "scepticism",
+         "sceptically",
+         "scepticality",
+         "scepticness"
+        ],
+        "a": 0
+       },
+       {
+        "t": "mc",
+        "q": "«She almost won the race.» (NARROWLY) → She ___ winning the race.",
+        "o": [
+         "narrowly missed",
+         "narrowly lost to",
+         "narrowly won",
+         "narrowly almost"
+        ],
+        "a": 0
+       },
+       {
+        "t": "listen",
+        "say": "Let's give him the benefit of the doubt. It may well be a misunderstanding rather than a deliberate lie.",
+        "q": "¿Qué propone quien habla?",
+        "o": [
+         "Darle el beneficio de la duda",
+         "Despedirlo",
+         "Denunciarlo",
+         "Ignorarlo"
+        ],
+        "a": 0
+       },
+       {
+        "t": "write",
+        "q": "Escribe un texto de reflexión sobre tu proceso de aprendizaje del inglés (mínimo 180 palabras) usando al menos cinco expresiones idiomáticas del día (a matter of time, came as a surprise, take for granted, the last thing on my mind, stay in my memory…) y cuatro palabras con prefijos o sufijos de nivel C2.",
+        "min": 180,
+        "keys": [
+         [
+          "matter of time",
+          "came as a surprise",
+          "come as a surprise",
+          "take for granted",
+          "last thing on",
+          "stay in my memory",
+          "benefit of the doubt",
+          "makes no difference"
+         ],
+         [
+          "misconception",
+          "counterproductive",
+          "underestimate",
+          "overrated",
+          "unprecedented",
+          "irreversible",
+          "scepticism",
+          "prioritise",
+          "broaden",
+          "misleading"
+         ]
+        ]
+       }
+      ],
+      "exam": {
+       "t": "mc",
+       "q": "«He's sure to find out eventually.» (TIME) → It's only a matter ___ he finds out.",
+       "o": [
+        "of time before",
+        "of time until that",
+        "in time before",
+        "for time before"
+       ],
+       "a": 0
+      },
+      "exam2": {
+       "t": "fill",
+       "q": "CONCEIVE → It's a common ___ that Spanish is easy. (idea errónea)",
+       "ans": [
+        "misconception"
+       ]
+      },
+      "words": []
+     }
+    ],
+    "quiz": [
+     {
+      "t": "mc",
+      "q": "While the former focuses on economic benefits, ___ highlights the social costs.",
+      "o": [
+       "the latter",
+       "the later",
+       "the last",
+       "the after"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "I read with ___ your article on the closure of the theatre.",
+      "o": [
+       "dismay",
+       "dismiss",
+       "dismal",
+       "disarray"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "The old factory was ___ as a cultural centre.",
+      "o": [
+       "repurposed",
+       "repurposing",
+       "purposed again",
+       "re-purposely"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "AI will not so much replace journalists ___ change the way they work.",
+      "o": [
+       "as",
+       "than",
+       "but",
+       "that"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "PRECEDENT → The pandemic caused ___ disruption.",
+      "o": [
+       "unprecedented",
+       "precedential",
+       "unprecedently",
+       "misprecedented"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "Both writers ___ the role of local government. (pasan por alto)",
+      "ans": [
+       "overlook"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "The first writer rightly points out that mass tourism creates jobs, but the second convincingly argues that it has displaced families from the historic centre.",
+      "q": "¿Qué argumenta el segundo autor?",
+      "o": [
+       "Que ha desplazado familias del centro histórico",
+       "Que crea empleo",
+       "Que los turistas no gastan",
+       "Que el centro está vacío"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Much as I welcome the new metro cameras, what concerns me is not the technology itself but the lack of safeguards and accountability.",
+      "q": "¿Qué le preocupa a quien habla?",
+      "o": [
+       "La falta de salvaguardas y rendición de cuentas",
+       "La tecnología en sí",
+       "El precio del metro",
+       "Que haya pocas cámaras"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe una carta al editor (mínimo 200 palabras) respondiendo a un artículo que propone convertir un edificio histórico de tu ciudad en un centro comercial vigilado con reconocimiento facial. Usa vocabulario de arquitectura e IA, una concesión, una pregunta retórica, al menos dos estructuras de matiz C2 y una propuesta concreta.",
+      "min": 200,
+      "keys": [
+       [
+        "sir",
+        "dear editor",
+        "i read with",
+        "i am writing in response"
+       ],
+       [
+        "façade",
+        "facade",
+        "heritage",
+        "restoration",
+        "repurpose",
+        "colonial",
+        "landmark",
+        "courtyard"
+       ],
+       [
+        "facial recognition",
+        "surveillance",
+        "privacy",
+        "consent",
+        "algorithm",
+        "data"
+       ],
+       [
+        "not so much",
+        "much as",
+        "it is not that",
+        "what concerns me",
+        "granted",
+        "one can only assume",
+        "i urge"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "Granted, the building is in poor condition, but that is an argument for restoring it."
+     },
+     {
+      "t": "oral",
+      "text": "It's not that the technology is evil; rather, it is unregulated."
+     }
+    ],
+    "pool": [
+     {
+      "t": "mc",
+      "q": "The author ___ that the policy has failed. (sostiene)",
+      "o": [
+       "contends",
+       "contents",
+       "contains",
+       "contests to"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "A decision that ignores long-term consequences is ___.",
+      "o": [
+       "short-sighted",
+       "long-sighted",
+       "far-sighted",
+       "sight-short"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "A very old building in terrible condition is ___.",
+      "o": [
+       "dilapidated",
+       "ornate",
+       "austere",
+       "listed"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "Users must be able to ___ of data collection.",
+      "o": [
+       "opt out",
+       "opt off",
+       "opt down",
+       "opt away"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "SCARCE → The ___ of water is a growing problem.",
+      "o": [
+       "scarcity",
+       "scarceness of",
+       "scarcely",
+       "scarcement"
+      ],
+      "a": 0
+     },
+     {
+      "t": "mc",
+      "q": "«I'll never forget that summer.» (MEMORY) → That summer will ___.",
+      "o": [
+       "stay in my memory forever",
+       "be my memory forever",
+       "remain my memory",
+       "keep in memory forever"
+      ],
+      "a": 0
+     },
+     {
+      "t": "fill",
+      "q": "It's less a technical problem ___ a political one.",
+      "ans": [
+       "than"
+      ]
+     },
+     {
+      "t": "fill",
+      "q": "I ___ the council to reconsider. (insto)",
+      "ans": [
+       "urge"
+      ]
+     },
+     {
+      "t": "listen",
+      "say": "The restoration was criticised for lacking authenticity: the new windows and lighting clash with the colonial façade.",
+      "q": "¿Por qué criticaron la restauración?",
+      "o": [
+       "Por falta de autenticidad",
+       "Porque fue muy barata",
+       "Porque tardó poco",
+       "Porque conservó todo"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "The algorithm was trained on data from only one city, so its predictions for rural areas are misleading.",
+      "q": "¿Por qué las predicciones rurales son engañosas?",
+      "o": [
+       "Porque los datos eran de una sola ciudad",
+       "Porque no había internet",
+       "Porque el algoritmo es nuevo",
+       "Porque los datos eran falsos"
+      ],
+      "a": 0
+     },
+     {
+      "t": "listen",
+      "say": "Getting rich is the last thing on her mind. She cares far more about leaving a legacy for her community.",
+      "q": "¿Qué le importa más?",
+      "o": [
+       "Dejar un legado para su comunidad",
+       "Hacerse rica",
+       "Viajar",
+       "Tener fama"
+      ],
+      "a": 0
+     },
+     {
+      "t": "write",
+      "q": "Escribe un ensayo (mínimo 200 palabras) que resuma y evalúe estas dos posturas: TEXTO 1: «Artificial intelligence will free workers from repetitive tasks and create new, more creative jobs.» TEXTO 2: «Automation is already destroying jobs faster than new ones appear, and the gains go to a small elite.» Usa tus propias palabras y da tu postura matizada.",
+      "min": 200,
+      "keys": [
+       [
+        "the first writer",
+        "the former",
+        "the second writer",
+        "the latter",
+        "both writers"
+       ],
+       [
+        "contends",
+        "maintains",
+        "argues",
+        "acknowledges",
+        "concedes",
+        "points out",
+        "overlooks",
+        "dismisses"
+       ],
+       [
+        "automation",
+        "artificial intelligence",
+        "jobs",
+        "workers",
+        "algorithm"
+       ],
+       [
+        "not so much",
+        "less",
+        "rather",
+        "much as",
+        "i am inclined",
+        "on balance"
+       ]
+      ]
+     },
+     {
+      "t": "oral",
+      "text": "I read with dismay your article on the demolition of the old station."
+     },
+     {
+      "t": "oral",
+      "text": "Much as I welcome innovation, I remain wary of surveillance."
+     },
+     {
+      "t": "oral",
+      "text": "It's a common misconception that adults can't learn languages."
+     }
+    ]
    }
   ],
   "final": {
@@ -114516,6 +119638,50 @@ window.SYLLABUS = {
     {
      "t": "oral",
      "text": "Be that as it may, the committee's findings can hardly be dismissed out of hand."
+    },
+    {
+     "t": "listen",
+     "say": "I was wondering if you might reconsider. Far be it from me to criticise, but the evidence is, by and large, inconclusive.",
+     "q": "¿Qué tono usa quien habla?",
+     "o": [
+      "Cortés y matizado",
+      "Agresivo",
+      "Entusiasta",
+      "Indiferente"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "While the first writer contends that automation creates jobs, the second rightly points out that the gains go to a small elite.",
+     "q": "¿Qué señala el segundo autor?",
+     "o": [
+      "Que los beneficios van a una pequeña élite",
+      "Que la automatización crea empleo",
+      "Que no hay automatización",
+      "Que todos ganan"
+     ],
+     "a": 0
+    },
+    {
+     "t": "listen",
+     "say": "Granted, the station was dilapidated, but it was repurposed as a library rather than demolished, and it has become the heart of the town.",
+     "q": "¿Qué pasó con la estación?",
+     "o": [
+      "Se convirtió en biblioteca",
+      "Se demolió",
+      "Se vendió",
+      "Sigue abandonada"
+     ],
+     "a": 0
+    },
+    {
+     "t": "oral",
+     "text": "It's not that the technology is evil; rather, it is unregulated."
+    },
+    {
+     "t": "oral",
+     "text": "Sorry to jump in, but what I meant was something slightly different."
     },
     {
      "t": "write",

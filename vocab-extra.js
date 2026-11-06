@@ -39,7 +39,6 @@ sandals | sandalias | Sandals for the beach. | Ropa
 socks | medias, calcetines | Where are my socks? | Ropa
 coat | abrigo | A warm coat. | Ropa
 hat | sombrero, gorro | A hat for the sun. | Ropa
-cap | gorra | He always wears a cap. | Ropa
 face | cara | Wash your face. | Cuerpo
 tooth | diente | Brush your teeth. | Cuerpo
 teeth | dientes | She has white teeth. | Cuerpo
@@ -230,7 +229,6 @@ mushroom | champiñón | Mushroom soup. | Comida
 pepper | pimienta, pimentón | Salt and pepper. | Comida
 ingredient | ingrediente | What are the ingredients? | Comida
 herb | hierba aromática | Fresh herbs. | Comida
-food poisoning | intoxicación alimentaria | He got food poisoning. | Salud
 illness | enfermedad | A serious illness. | Salud
 injury | lesión | A knee injury. | Salud
 flu | gripa | I have the flu. | Salud
@@ -574,7 +572,6 @@ hopefully | ojalá, con suerte | Hopefully, it will be sunny. | Discurso
 completely | completamente | Completely wet. | Grado
 extremely | extremadamente | Extremely hot. | Grado
 fairly | bastante | Fairly easy. | Grado
-constantly | constantemente | They constantly compare. | Frecuencia
 originally | originalmente | Originally from Ethiopia. | Tiempo
 by accident | por accidente | I broke it by accident. | Modo
 strongly | firmemente, mucho | I strongly recommend it. | Modo
@@ -609,7 +606,6 @@ Every cloud has a silver lining | no hay mal que por bien no venga | Every cloud
 "Sustantivos": `
 cycle | ciclo | The sleep cycle. | Ciencia y salud
 tissue | tejido | Muscle tissue. | Ciencia y salud
-immune system | sistema inmunológico | A strong immune system. | Ciencia y salud
 hormone | hormona | Stress hormones. | Ciencia y salud
 symptom | síntoma | Common symptoms. | Ciencia y salud
 treatment | tratamiento | A new treatment. | Ciencia y salud
@@ -648,11 +644,8 @@ income | ingreso | A good income. | Economía
 currency | moneda, divisa | Foreign currency. | Economía
 property | propiedad, inmueble | Property prices. | Economía
 housing | vivienda | Affordable housing. | Economía
-developer | promotor inmobiliario | Developers want the land. | Economía
 economist | economista | Economists predict... | Economía
-automation | automatización | Automation affects jobs. | Tecnología
 artificial intelligence | inteligencia artificial | Artificial intelligence is everywhere. | Tecnología
-algorithm | algoritmo | A complex algorithm. | Tecnología
 database | base de datos | The customer database. | Tecnología
 revolution | revolución | A technological revolution. | Tecnología
 transition | transición | A difficult transition. | Tecnología
@@ -762,7 +755,6 @@ make a difference | marcar la diferencia | You can make a difference. | Expresio
 `,
 "Adjetivos": `
 passive | pasivo | A passive state. | Ciencia y salud
-chronic | crónico | Chronic pain. | Ciencia y salud
 sleep-deprived | privado de sueño | Chronically sleep-deprived. | Ciencia y salud
 measurable | medible | Measurable effects. | Ciencia y salud
 inactive | inactivo | An inactive substance. | Ciencia y salud
@@ -859,7 +851,6 @@ Easier said than done | es más fácil decirlo que hacerlo | Save money? Easier 
 },
 /* C1 */ {
 "Sustantivos": `
-attention span | capacidad de atención | A short attention span. | Mente y tecnología
 engagement | participación, interacción | User engagement. | Mente y tecnología
 notification | notificación | Turn off notifications. | Mente y tecnología
 advertiser | anunciante | Advertisers pay for clicks. | Mente y tecnología
@@ -874,7 +865,6 @@ reflex | reflejo | A natural reflex. | Mente y tecnología
 belief | creencia | Deeply held beliefs. | Psicología
 certainty | certeza | A need for certainty. | Psicología
 misfortune | desgracia | Their misfortunes. | Psicología
-scepticism | escepticismo | Healthy scepticism. | Psicología
 perspective | perspectiva | From a historical perspective. | Psicología
 mechanism | mecanismo | A defence mechanism. | Psicología
 tendency | tendencia | A tendency to exaggerate. | Psicología
@@ -918,7 +908,6 @@ eugenics | eugenesia | The history of eugenics. | Ciencia
 pest | plaga | Pests destroy crops. | Ciencia
 pesticide | pesticida | Fewer pesticides. | Ciencia
 parasite | parásito | The malaria parasite. | Ciencia
-vaccine | vacuna | A new vaccine. | Ciencia
 pandemic | pandemia | The pandemic changed everything. | Ciencia
 precision | precisión | Unprecedented precision. | Ciencia
 atoll | atolón | Low-lying atolls. | Medio ambiente
@@ -950,7 +939,6 @@ obstacle | obstáculo | Overcome obstacles. | Narrativa
 "Verbos": `
 exploit | explotar, aprovecharse de | Apps exploit our fears. | Mente y tecnología
 amplify | amplificar | Algorithms amplify outrage. | Mente y tecnología
-scroll | desplazarse (en pantalla) | We scroll for hours. | Mente y tecnología
 disable | desactivar | Disable notifications. | Mente y tecnología
 accumulate | acumularse | Costs accumulate. | Mente y tecnología
 impair | perjudicar, deteriorar | Alcohol impairs driving. | Mente y tecnología
@@ -960,7 +948,6 @@ endure | soportar, aguantar | They endured the boring task. | Mente y tecnologí
 resist | resistir | Resist the temptation. | Mente y tecnología
 wander | divagar, deambular | The mind wanders. | Mente y tecnología
 disengage | desconectarse | Disengage from work. | Mente y tecnología
-dismiss | descartar, desestimar | Don't dismiss the evidence. | Psicología
 reinforce | reforzar | It reinforces their beliefs. | Psicología
 backfire | salir el tiro por la culata | The plan backfired. | Psicología
 expose | exponer, desenmascarar | Expose the truth. | Psicología
@@ -972,13 +959,10 @@ yield | ceder; producir | Yield to pressure. | Negociación
 conduct | llevar a cabo | Conduct a trial. | Negocios
 monitor | supervisar, monitorear | Monitor the results. | Negocios
 approve | aprobar | The board approved it. | Negocios
-maintain | mantener | Maintain productivity. | Negocios
 finance | financiar | Finance the project. | Economía y sociedad
 fund | financiar | Fund the scheme. | Economía y sociedad
 trap | atrapar | The system traps people. | Economía y sociedad
 deport | deportar | Deport individuals. | Economía y sociedad
-displace | desplazar | Displaced by floods. | Economía y sociedad
-preserve | preservar | Preserve the language. | Cultura e identidad
 revive | revivir, reactivar | Revive a language. | Cultura e identidad
 encode | codificar | Languages encode knowledge. | Cultura e identidad
 punish | castigar | Children were punished. | Cultura e identidad
@@ -1023,7 +1007,6 @@ courteous | cortés | A courteous letter. | Narrativa
 impersonal | impersonal | Impersonal language. | Narrativa
 exemplary | ejemplar | Exemplary service. | Narrativa
 modest | modesto | A modest pension. | Narrativa
-persuasive | persuasivo | A persuasive argument. | Comunicación
 awkward | incómodo, torpe | An awkward silence. | Comunicación
 hostile | hostil | A hostile reaction. | Comunicación
 deep-rooted | arraigado | Deep-rooted fears. | Comunicación
@@ -1068,7 +1051,6 @@ skilfully | hábilmente | Skilfully designed. | Registro alto
 accordingly | en consecuencia | Act accordingly. | Consecuencia
 as regards | en cuanto a | As regards the budget. | Referencia
 to a large extent | en gran medida | To a large extent, I agree. | Grado
-first and foremost | ante todo | First and foremost, safety. | Orden
 that is to say | es decir | That is to say, nobody came. | Aclarar
 to put it simply | para decirlo de forma sencilla | To put it simply, it failed. | Aclarar
 `,
@@ -1139,7 +1121,6 @@ termination | terminación, rescisión | Termination of the contract. | Inglés 
 trade secret | secreto comercial | Protect trade secrets. | Inglés jurídico
 harassment | acoso | Workplace harassment. | Inglés jurídico
 discrimination | discriminación | Racial discrimination. | Inglés jurídico
-landmark | hito; histórico | A landmark judgement. | Inglés jurídico
 arbiter | árbitro, juez | Arbiters of truth. | Inglés jurídico
 rehabilitation | rehabilitación | Rehabilitation of offenders. | Inglés jurídico
 privacy | privacidad | The right to privacy. | Inglés jurídico
@@ -1265,7 +1246,6 @@ punitive | punitivo | Punitive measures. | Registro académico
 regressive | regresivo | Regressive policies. | Registro académico
 pernicious | pernicioso | A pernicious influence. | Registro académico
 debilitating | debilitante | A debilitating illness. | Registro académico
-coherent | coherente | A coherent narrative. | Registro académico
 redemptive | redentor | A redemptive arc. | Registro académico
 irrecoverable | irrecuperable | An irrecoverable past. | Registro académico
 uncanny | inquietante, extraño | An uncanny feeling. | Narrativa
@@ -1346,7 +1326,6 @@ thereafter | a partir de entonces | Thereafter, he was famous. | Discurso
 whereupon | tras lo cual | Whereupon he left. | Registro formal
 on the grounds that | basándose en que | On the grounds that it's unfair. | Registro formal
 in the event of | en caso de | In the event of a breach. | Registro formal
-then again | por otro lado | Then again, maybe not. | Registro formal
 for what it's worth | por si sirve de algo | For what it's worth, I agree. | Registro formal
 it bears emphasising that | cabe recalcar que | It bears emphasising that... | Registro formal
 `,

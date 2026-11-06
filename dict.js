@@ -5106,4 +5106,110 @@ gratification | - | sustantivo | gratificación | Instant gratification.
 shocking | - | adjetivo | impactante | Shocking news.
 fairer | fair | adjetivo (comparativo) | más justo | A fairer system.
 innocent | - | adjetivo | inocente | Guilty until proven innocent.
+differ | - | verbo | diferir, ser distinto | Cultures differ in many ways.
+overlap | - | sustantivo / verbo | superposición; superponerse | Overlap in conversation.
+overlapping | overlap | verbo (-ing) / adjetivo | superpuesto, que se superpone | Overlapping speech.
+english-speaking | - | adjetivo | angloparlante | English-speaking countries.
+behaviour | - | sustantivo | comportamiento | Rude behaviour.
+formulas | formula | sustantivo (plural) | fórmulas | Polite formulas.
+lubricant | - | sustantivo | lubricante | A social lubricant.
+claiming | claim | verbo (-ing) | reclamar, tomar | Without claiming the turn.
+mm-hm | - | interjección | ajá, mmm (señal de que escuchas) | Mm-hm, I see.
+listener | - | sustantivo | oyente | A good listener.
+fillers | filler | sustantivo (plural) | muletillas | Avoid too many fillers.
+well-placed | - | adjetivo | bien colocado, oportuno | Well-placed fillers.
+overuse | - | sustantivo / verbo | uso excesivo; abusar de | The overuse of 'like'.
+unsure | - | adjetivo | inseguro, no seguro | He sounds unsure.
+hesitates | hesitate | verbo (3.ª persona) | titubea, vacila | One who never hesitates.
+rehearsed | rehearse | adjetivo / participio | ensayado, aprendido de memoria | It sounds rehearsed.
+advanced | - | adjetivo | avanzado | Advanced learners.
+involves | involve | verbo (3.ª persona) | implica | It involves noticing.
+noticing | notice | verbo (-ing) | notar, fijarse | Noticing how people speak.
+flow | - | sustantivo | flujo, fluidez | The flow of talk.
+adapting | adapt | verbo (-ing) | adaptarse | Adapting accordingly.
+adjust | - | verbo | ajustar | Adjust your volume.
+bacon | - | sustantivo | tocineta | Eating bacon.
+halves | halve | verbo (3.ª persona) | reduce a la mitad | The pill halves the risk.
+daily | - | adverbio / adjetivo | a diario; diario | People who eat it daily.
+rises | rise | verbo (3.ª persona) | sube, aumenta | The figure rises to seven.
+logic | - | sustantivo | lógica | The same logic.
+reverse | - | sustantivo | (in reverse) a la inversa | It works in reverse.
+drug | - | sustantivo | medicamento; droga | A new drug.
+forty-year-old | - | adjetivo | de cuarenta años | A healthy forty-year-old.
+traps | trap | sustantivo (plural) | trampas | There are other traps.
+observational | - | adjetivo | observacional | Observational studies.
+randomised | - | adjetivo | aleatorizado | Randomised controlled trials.
+trials | trial | sustantivo (plural) | ensayos; juicios | Clinical trials.
+randomly | - | adverbio | al azar | Randomly assigned.
+assigned | assign | verbo (participio) | asignado | Randomly assigned to a group.
+replicated | replicate | verbo (participio) | replicado | Results need to be replicated.
+distrust | - | verbo / sustantivo | desconfiar; desconfianza | Don't distrust science.
+doubles | double | verbo (3.ª persona) | duplica | It doubles your risk.
+railway | - | sustantivo | ferrocarril | The old railway station.
+edge | - | sustantivo | borde, orilla | At the edge of the city.
+graffiti | - | sustantivo | grafitis | Covered in graffiti.
+pigeons | pigeon | sustantivo (plural) | palomas | Pigeons nested under the roof.
+nested | nest | verbo (pasado) | anidaron | Pigeons nested there.
+iron | - | sustantivo / adjetivo | hierro; de hierro | An iron roof.
+weeds | weed | sustantivo (plural) | maleza | Weeds grew everywhere.
+cobbles | cobble | sustantivo (plural) | adoquines, piedras del empedrado | Between the cobbles.
+successive | - | adjetivo | sucesivo | Successive mayors.
+mayors | mayor | sustantivo (plural) | alcaldes | Successive mayors promised.
+demolished | demolish | verbo (participio) | demolido | It would be demolished.
+reaction | - | sustantivo | reacción | The reaction was swift.
+swift | - | adjetivo | rápido, inmediato | A swift response.
+petition | - | sustantivo | petición (firmada) | A petition with 20,000 signatures.
+gathered | gather | verbo (pasado / participio) | reunió | It gathered signatures.
+recalling | recall | verbo (-ing) | recordando | Recalling journeys.
+journeys | journey | sustantivo (plural) | viajes, trayectos | Childhood journeys.
+centres | centre | sustantivo (plural) | centros | Shopping centres.
+textbook | - | adjetivo / sustantivo | de manual, típico; libro de texto | A textbook example.
+adaptive | - | adjetivo | adaptativo | Adaptive reuse.
+reuse | - | sustantivo / verbo | reutilización; reutilizar | Adaptive reuse.
+architects | architect | sustantivo (plural) | arquitectos | Local architects.
+restoring | restore | verbo (-ing) | restaurar | Restoring the façade.
+arches | arch | sustantivo (plural) | arcos | Stone arches.
+tower | - | sustantivo | torre | The clock tower.
+repurposing | repurpose | verbo (-ing) | dar un nuevo uso | Repurposing the interior.
+interior | - | sustantivo | interior | The interior was modernised.
+workshop | - | sustantivo | taller | A workshop space.
+region's | region | sustantivo (posesivo) | de la región | The region's history.
+additions | addition | sustantivo (plural) | añadidos | Modern additions.
+walkways | walkway | sustantivo (plural) | pasarelas | Glass walkways.
+lighting | - | sustantivo | iluminación | Modern lighting.
+reversible | - | adjetivo | reversible | Reversible changes.
+materials | material | sustantivo (plural) | materiales | New materials.
+clashed | clash | verbo (pasado) | chocaron, desentonaron | The materials clashed.
+exceeded | exceed | verbo (pasado) | superó, excedió | The cost exceeded the estimate.
+town's | town | sustantivo (posesivo) | del pueblo | The town's libraries.
+libraries | library | sustantivo (plural) | bibliotecas | Three libraries.
+refuses | refuse | verbo (3.ª persona) | se niega | A community that refuses to give up.
+incompatible | - | adjetivo | incompatible | The past and the future are not incompatible.
+reopening | - | sustantivo | reapertura | At the reopening.
+recruiter | - | sustantivo | reclutador | A human recruiter.
+efficiency | - | sustantivo | eficiencia | The promise of efficiency.
+favourites | favourite | sustantivo (plural) | favoritos | Machines don't play favourites.
+discriminate | - | verbo | discriminar | They don't discriminate.
+prejudices | prejudice | sustantivo (plural) | prejuicios | Data reflects prejudices.
+hiring | hire | sustantivo / verbo (-ing) | contratación | A hiring system.
+designers | designer | sustantivo (plural) | diseñadores | Even their designers.
+reached | reach | verbo (participio) | alcanzado, tomado (una decisión) | How the decision was reached.
+facial | - | adjetivo | facial | Facial recognition.
+illustrates | illustrate | verbo (3.ª persona) | ilustra | It illustrates the dilemma.
+vividly | - | adverbio | vívidamente | It illustrates it vividly.
+criminals | criminal | sustantivo (plural) | delincuentes | Dangerous criminals.
+showing | show | verbo (-ing) | que muestran | Studies showing errors.
+darker | dark | adjetivo (comparativo) | más oscuro | Darker skin.
+skin | - | sustantivo | piel | People with darker skin.
+safeguards | safeguard | sustantivo (plural) | salvaguardas | With what safeguards?
+respond | - | verbo | responder | Governments have begun to respond.
+classifying | classify | verbo (-ing) | clasificar | Classifying uses as high risk.
+elsewhere | - | adverbio | en otros lugares | Elsewhere, regulation lags.
+lags | lag | verbo (3.ª persona) | va rezagado | Regulation lags behind.
+self-regulation | - | sustantivo | autorregulación | Self-regulation is not enough.
+technologies | technology | sustantivo (plural) | tecnologías | Powerful technologies.
+governed | govern | verbo (participio) | gobernado, regulado | Rarely governed well.
+profit | - | verbo / sustantivo | lucrarse; ganancia | Those who profit from them.
+answerable | - | adjetivo | responsable, que debe rendir cuentas | Someone must be answerable.
+firmly | - | adverbio | firmemente | Firmly established.
 `;
