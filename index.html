@@ -292,6 +292,19 @@ footer b{color:#fff}
 .exrow span:nth-child(2){font-weight:700}
 .exrow span:nth-child(3){color:var(--mute)}
 @media (max-width:560px){.exrow{grid-template-columns:32px minmax(0,1fr)}.exrow span:nth-child(3){grid-column:2}}
+.why{margin-top:26px;padding-top:6px;border-top:2px solid var(--line)}
+.why .whyh{font-family:var(--f-display);font-size:22px;margin:18px 0 4px}
+.why h4{font-family:var(--f-display);font-size:17px;margin:20px 0 6px}
+.why ul{margin:8px 0 12px;padding-left:22px}
+.why li{margin:6px 0}
+.why i{font-style:normal;font-weight:700;color:var(--ink)}
+.errs{border:1px solid var(--line);border-radius:8px;overflow:hidden;margin:10px 0}
+.errrow{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.2fr);gap:12px;padding:10px 14px;border-top:1px solid var(--line);align-items:start}
+.errrow:first-child{border-top:0}
+.errrow .bad{color:var(--coral);text-decoration:line-through;text-decoration-thickness:1px}
+.errrow .good{color:#0f8f6a;font-weight:700}
+.errrow .whyc{color:var(--mute);font-size:14px}
+@media(max-width:700px){.errrow{grid-template-columns:1fr;gap:4px}}
 .tipbox{background:rgba(255,184,0,.14);border-left:5px solid var(--sun);border-radius:6px;padding:12px 16px;margin:12px 0}
 
 .vlayout{display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px;align-items:start}
@@ -624,13 +637,14 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=1794585107"></script>
-<script src="vocab-extra.js?v=1794585107"></script>
-<script src="vocab.js?v=1794585107"></script>
-<script src="readings.js?v=1794585107"></script>
-<script src="pron.js?v=1794585107"></script>
-<script src="dict.js?v=1794585107"></script>
-<script src="lessons.js?v=1794585107"></script>
+<script src="practice-extra.js?v=1794585732"></script>
+<script src="vocab-extra.js?v=1794585732"></script>
+<script src="vocab.js?v=1794585732"></script>
+<script src="readings.js?v=1794585732"></script>
+<script src="explain.js?v=1794585732"></script>
+<script src="pron.js?v=1794585732"></script>
+<script src="dict.js?v=1794585732"></script>
+<script src="lessons.js?v=1794585732"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1789,6 +1803,13 @@ function bindSylHome(L){
   body.querySelectorAll(".srow[data-xp]").forEach(b=>b.onclick=()=>extraPractice(L,+b.dataset.xp));
 }
 const md=t=>esc(t).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>");
+/* sección "Entiende el porqué" (explain.js): razón de la regla, pasos, errores típicos y truco */
+const mdx=t=>md(t).replace(/\*(.+?)\*/g,'<i lang="en">$1</i>');
+function explainHTML(id){const b=(window.EXPLAIN||{})[id];if(!b)return"";
+  return `<div class="why"><h3 class="whyh">Entiende el porqué</h3>`+b.map(x=>x.h?`<h4>${mdx(x.h)}</h4>`:x.p?`<p>${mdx(x.p)}</p>`:x.li?`<ul>${x.li.map(l=>`<li>${mdx(l)}</li>`).join("")}</ul>`
+    :x.ex?`<div class="extable">${x.ex.map(([en,es])=>`<div class="exrow"><button class="vplay" data-say="${esc(en)}" aria-label="Escuchar">${ICON_SPK}</button><span lang="en">${esc(en)}</span><span>${esc(es)}</span></div>`).join("")}</div>`
+    :x.err?`<h4>Errores típicos (y por qué)</h4><div class="errs">${x.err.map(([m,g,w])=>`<div class="errrow"><span class="bad" lang="en">✘ ${esc(m)}</span><span class="good" lang="en">✔ ${esc(g)}</span><span class="whyc">${mdx(w)}</span></div>`).join("")}</div>`
+    :x.tip?`<div class="tipbox"><b>Para recordar:</b> ${mdx(x.tip)}</div>`:"").join("")+`</div>`}
 function wordInfo(w){const k=w.toLowerCase();for(let L=0;L<6;L++){const v=vocabOf(L).find(x=>x.w.toLowerCase()===k);if(v)return{w:v.w,pos:v.cat.replace(/s$/,"").replace(/e$/,"e"),m:v.m,e:v.e}}const d=dictLookup(w);return d?{w,pos:d.pos,m:d.m,e:d.e}:{w,pos:"",m:"",e:""}}
 /* ================= lección completa (45–60 min) ================= */
 const POSCAT=p=>{p=(p||"").toLowerCase();return p.startsWith("verbo")?"Verbos":p.startsWith("sustantivo")?"Sustantivos":p.startsWith("adjetivo")?"Adjetivos":p.startsWith("adverbio")?"Adverbios":
@@ -1814,6 +1835,7 @@ function lessonView(L,u,k){
     </section>
     <section class="lsec" id="ls-1">${sec("Explicación",8)}
       ${les.theory.map(b=>b.p?`<p>${md(b.p)}</p>`:b.tip?`<div class="tipbox"><b>Ojo:</b> ${md(b.tip)}</div>`:b.ex?`<div class="extable">${b.ex.map(([en,es])=>`<div class="exrow"><button class="vplay" data-say="${esc(en)}" aria-label="Escuchar">${ICON_SPK}</button><span lang="en">${esc(en)}</span><span>${esc(es)}</span></div>`).join("")}</div>`:"").join("")}
+      ${explainHTML(les.id)}
     </section>
     ${les.dialogue?`<section class="lsec" id="ls-2">${sec("Conversación: "+esc(les.dialogue.title),12)}<div id="dlg"></div></section>`:""}
     ${les.reading!=null?`<section class="lsec" id="ls-${les.dialogue?3:2}">${sec("Lectura del día",8)}<button class="ritem" id="lRead"><div><b lang="en">${esc(READINGS[L][les.reading].title)}</b><span>${esc(READINGS[L][les.reading].es)} · escúchala, toca las palabras y léela en voz alta</span></div><span class="pill">${readBest(L,les.reading)!=null?`Pronunciación ${readBest(L,les.reading)} %`:"Abrir"}</span></button></section>`:""}
