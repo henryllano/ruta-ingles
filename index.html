@@ -624,13 +624,13 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=1793979056"></script>
-<script src="vocab-extra.js?v=1793979056"></script>
-<script src="vocab.js?v=1793979056"></script>
-<script src="readings.js?v=1793979056"></script>
-<script src="pron.js?v=1793979056"></script>
-<script src="dict.js?v=1793979056"></script>
-<script src="lessons.js?v=1793979056"></script>
+<script src="practice-extra.js?v=1794585107"></script>
+<script src="vocab-extra.js?v=1794585107"></script>
+<script src="vocab.js?v=1794585107"></script>
+<script src="readings.js?v=1794585107"></script>
+<script src="pron.js?v=1794585107"></script>
+<script src="dict.js?v=1794585107"></script>
+<script src="lessons.js?v=1794585107"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -969,10 +969,9 @@ function stepMC(){
     <div class="qmeta"><span>${head}</span><span>Pregunta ${X.idx+1} de ${items.length}</span></div>
     ${kind==="listen"?`<button class="play" id="play" ${X.plays>=2?"disabled":""}><b>${ICON_PLAY}</b><span>${X.plays?"Escuchar otra vez":"Escuchar audio"}<small>${2-X.plays} reproducciones disponibles</small></span></button>
       ${tts?"":`<div class="warn">Este navegador no tiene voz en inglés. Texto: “${esc(it.say)}”</div>`}`:""}
-    ${kind==="listen"&&tts&&!X.plays?`<div class="transcript">La pregunta y las opciones aparecen después de escuchar el audio.</div>`
-      :`<p class="qtext">${esc(it.q)}</p>
-    <div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${X.sel===i}" data-i="${i}"><i>${"ABCD"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>`}
-    <div class="ex-actions"><span class="note">${kind==="listen"?"Escucha primero; después elige.":"Elige la opción correcta."}</span><button class="btn sun" id="next" ${X.sel==null?"disabled":""}>Siguiente</button></div>`;
+    <p class="qtext">${esc(it.q)}</p>
+    <div class="opts" role="radiogroup">${it.o.map((o,i)=>`<button class="opt" role="radio" aria-checked="${X.sel===i}" data-i="${i}"><i>${"ABCD"[i]}</i><span>${esc(o)}</span></button>`).join("")}</div>
+    <div class="ex-actions"><span class="note">${kind==="listen"?"Lee la pregunta, escucha el audio y elige.":"Elige la opción correcta."}</span><button class="btn sun" id="next" ${X.sel==null?"disabled":""}>Siguiente</button></div>`;
   if(kind==="listen"&&tts)$("play").onclick=()=>{X.plays++;speakTTS(it.say);exRender()};
   body.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{X.sel=+b.dataset.i;exRender();body.querySelector(`.opt[data-i="${X.sel}"]`).focus()});
   $("next").onclick=()=>{
@@ -1690,11 +1689,17 @@ function pieces(w){
 function align(spoken){
   const T=[],owner=[];R.toks.forEach((t,k)=>pieces(t.w).forEach(p=>{T.push(p);owner.push(k)}));
   const S=[];(spoken.match(/[A-Za-zÀ-ÿ0-9']+(?:-[A-Za-zÀ-ÿ0-9']+)*/g)||[]).forEach(w=>pieces(w).forEach(p=>S.push(p)));
-  /* LCS sobre sufijos y recorrido hacia adelante: ante empates prefiere la coincidencia más temprana en el texto */
-  const n=T.length,m=S.length,dp=Array.from({length:n+1},()=>new Uint16Array(m+1));
-  for(let i=n-1;i>=0;i--)for(let j=m-1;j>=0;j--)dp[i][j]=same(T[i],S[j])?dp[i+1][j+1]+1:Math.max(dp[i+1][j],dp[i][j+1]);
-  const hit=new Set();let i=0,j=0;
-  while(i<n&&j<m){if(same(T[i],S[j])&&dp[i][j]===dp[i+1][j+1]+1){hit.add(i);i++;j++}else if(dp[i][j+1]>=dp[i+1][j])j++;else i++}
+  /* Se sigue la lectura EN ORDEN con un cursor: cada palabra dicha solo puede coincidir con la palabra que toca
+     o con una muy cercana (por si el reconocedor se comió una o dos). Así una palabra dicha no se "pega" a otra igual
+     que aparece más abajo. Solo se salta lejos si tres palabras seguidas coinciden (el lector se saltó un pedazo). */
+  const n=T.length,m=S.length,hit=new Set();let i=0;const NEAR=2,WIN=5,FAR=80;
+  for(let j=0;j<m&&i<n;j++){
+    if(same(T[i],S[j])){hit.add(i);i++;continue}
+    let k=-1;
+    for(let d=1;d<=WIN&&i+d<n;d++)if(same(T[i+d],S[j])){if(d<=NEAR||(j+1<m&&i+d+1<n&&same(T[i+d+1],S[j+1]))){k=i+d}break}
+    if(k<0&&j+2<m)for(let d=WIN+1;d<=FAR&&i+d+2<n;d++)if(same(T[i+d],S[j])&&same(T[i+d+1],S[j+1])&&same(T[i+d+2],S[j+2])){k=i+d;break}
+    if(k>=0){hit.add(k);i=k+1}
+  }
   /* una palabra del texto cuenta como bien dicha si se reconoció al menos la mitad de sus piezas */
   const tot={},got={};owner.forEach((k,p)=>{tot[k]=(tot[k]||0)+1;if(hit.has(p))got[k]=(got[k]||0)+1});
   const ok=new Set(Object.keys(got).map(Number).filter(k=>got[k]*2>=tot[k]));
@@ -2041,7 +2046,7 @@ async function translateText(text,from,to){
     if(from==="en"){const d=dictLookup(w)||dictLookup(w.toLowerCase());return d?d.m.split(/[,;]/)[0].replace(/\(.*?\)/g,"").trim():w}
     const f=fold(w),hit=allWords().find(x=>x.fm.split(/[,;(]/).some(p=>p.trim()===f));return hit?hit.w:w}).join("");
   return{t,offline:true}}
-function toolsOpen(tab){$("tPanel").hidden=false;$("tFab").setAttribute("aria-expanded","true");toolTab(tab||(TP&&TP.tab)||"dict")}
+function toolsOpen(tab){if($("tPanel").hidden&&TP){TP.q="";TP.src=""}$("tPanel").hidden=false;$("tFab").setAttribute("aria-expanded","true");toolTab(tab||(TP&&TP.tab)||"dict")}
 function toolsClose(){$("tPanel").hidden=true;$("tFab").setAttribute("aria-expanded","false")}
 function toolTab(tab){TP=TP||{from:"es",q:"",src:""};TP.tab=tab;
   document.querySelectorAll("#tPanel .ttabs [data-tab]").forEach(b=>b.classList.toggle("on",b.dataset.tab===tab));
