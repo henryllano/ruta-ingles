@@ -507,7 +507,24 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
 .vlist label{display:flex;gap:10px;align-items:center;padding:9px 10px;border:1px solid var(--line);border-radius:8px;cursor:pointer}
 .vlist label.best{border-color:var(--sun)}
 .vlist small{color:var(--mute)}
-@media (max-width:560px){.ttabs button{white-space:nowrap;font-size:13px;padding:12px 2px}.fab span{display:none}.fab{padding:14px}.tpanel{right:8px;left:8px;width:auto;bottom:76px}}
+.tpanel.wide{width:min(560px,calc(100vw - 32px))}
+.gsent{display:flex;flex-wrap:wrap;gap:4px;margin:14px 0 4px;font-size:19px;line-height:1.5}
+.gsent button{border:0;background:none;color:var(--ink);font:inherit;padding:2px 4px;border-radius:6px;cursor:pointer;border-bottom:2px dotted var(--line)}
+.gsent button:hover{background:var(--soft)}.gsent button.hl{background:#FFE7A3;color:#1A2238;border-bottom-color:var(--sun)}.gsent button.sel{outline:2px solid var(--sun)}
+.gsent span{padding:2px 0}
+.gtr{color:var(--mute);font-size:14px;margin:2px 0 10px;min-height:1em}
+.gcard{border:1px solid var(--line);border-left:5px solid var(--sun);border-radius:10px;padding:12px 14px;margin:10px 0;background:var(--bg);cursor:pointer}
+.gcard.warn{border-left-color:var(--coral,#FF6B5A);background:color-mix(in srgb,#FF6B5A 7%,var(--bg))}
+.gcard.on{box-shadow:0 0 0 2px var(--sun) inset}
+.gcard h4{margin:0 0 6px;font-size:16px;display:flex;gap:8px;align-items:baseline}.gcard h4 small{margin-left:auto;font-size:11px;color:var(--mute);font-weight:700;border:1px solid var(--line);border-radius:999px;padding:1px 7px;white-space:nowrap}
+.gcard p{margin:0;line-height:1.55}.gcard b[lang=en]{color:var(--ink);background:color-mix(in srgb,#FFB800 22%,transparent);padding:0 3px;border-radius:4px}
+.gform{margin-top:8px;font-size:13px;font-weight:700;color:var(--mute)}.gform code{font:inherit;color:var(--ink);background:var(--soft);padding:2px 6px;border-radius:5px}
+.glink{margin-top:8px;border:0;background:none;color:var(--ink);text-decoration:underline;text-decoration-color:var(--sun);text-underline-offset:3px;font:700 13px inherit;font-family:inherit;padding:0;cursor:pointer}
+.gword{border:1px dashed var(--sun);border-radius:10px;padding:12px 14px;margin:10px 0;line-height:1.55}.gword .gmean{display:block;margin-top:6px}.gword .gmean small{color:var(--mute)}
+.gguide li{margin:6px 0}.gguide li i{color:var(--mute)}
+.gex{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}.gex button{border:1px solid var(--line);background:var(--soft);color:var(--ink);border-radius:999px;padding:6px 11px;font:13px inherit;font-family:inherit;cursor:pointer}
+.gai{margin-top:16px;padding:12px 14px;border-radius:10px;background:var(--soft);font-size:14px}.gai .trow{margin:8px 0 0}
+@media (max-width:560px){.tpanel.wide{width:auto}.gsent{font-size:17px}.ttabs button{white-space:nowrap;font-size:12px;padding:12px 2px}.fab span{display:none}.fab{padding:14px}.tpanel{right:8px;left:8px;width:auto;bottom:76px}}
 </style>
 
 <div class="top gut"><div class="in">
@@ -517,7 +534,7 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
 
 <nav class="main gut"><div class="in">
   <a class="logo" href="#inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 6 2 15l18 9 18-9z" fill="#FFB800"/><path d="M9 19v8c0 3 5 6 11 6s11-3 11-6v-8l-11 5.5z" fill="#1A2238"/><path d="M35 16v10" stroke="#FF6B5A" stroke-width="2.5" stroke-linecap="round"/></svg>RUTA A1</a>
-  <div class="links"><a href="#examen">Examen</a><a href="#niveles">Niveles</a><a href="#plan">Tu plan</a><a href="#resultados">Resultados</a><a href="#" id="navDict">Diccionario</a></div>
+  <div class="links"><a href="#examen">Examen</a><a href="#niveles">Niveles</a><a href="#plan">Tu plan</a><a href="#resultados">Resultados</a><a href="#" id="navDict">Diccionario</a><a href="#" id="navGram">Gramática</a></div>
   <button class="who" id="whoBtn"></button>
   <button class="menuBtn" id="menuBtn" aria-label="Menú" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
 </div></nav>
@@ -637,14 +654,15 @@ td.lvl b{font-family:var(--f-display);font-size:16px}
   <div class="ex-body gut" id="exBody"></div>
 </div>
 
-<script src="practice-extra.js?v=1794589325"></script>
-<script src="vocab-extra.js?v=1794589325"></script>
-<script src="vocab.js?v=1794589325"></script>
-<script src="readings.js?v=1794589325"></script>
-<script src="explain.js?v=1794589325"></script>
-<script src="pron.js?v=1794589325"></script>
-<script src="dict.js?v=1794589325"></script>
-<script src="lessons.js?v=1794589325"></script>
+<script src="practice-extra.js?v=1795235025"></script>
+<script src="vocab-extra.js?v=1795235025"></script>
+<script src="vocab.js?v=1795235025"></script>
+<script src="readings.js?v=1795235025"></script>
+<script src="explain.js?v=1795235025"></script>
+<script src="pron.js?v=1795235025"></script>
+<script src="dict.js?v=1795235025"></script>
+<script src="lessons.js?v=1795235025"></script>
+<script src="grammar.js?v=1795235025"></script>
 <script>
 const LV=[
   {k:"A1",name:"Principiante",lo:90,hi:100,can:"Te presentas y entiendes frases muy básicas.",bg:"#FFE7A3",w:["Hello!","Hi :)"]},
@@ -1670,9 +1688,11 @@ function wordSheet(k){
   $("rText").querySelectorAll(".w.sel").forEach(x=>x.classList.remove("sel"));$("rText").querySelector(`.w[data-k="${k}"]`).classList.add("sel");
   const el=document.createElement("div");el.className="wsheet";el.setAttribute("role","dialog");el.setAttribute("aria-label","Significado de "+t.w);
   el.innerHTML=`<div class="wt"><b lang="en">${esc(t.w)}</b><button class="vplay" id="wsPlay" aria-label="Escuchar">${ICON_SPK}</button>${d?`<span class="pos">${esc(d.pos)}</span>`:""}<button class="x" id="wsX" aria-label="Cerrar">✕</button></div>
-    ${d?`${d.base&&d.base!=="-"?`<div class="note">Forma base: <b lang="en">${esc(d.base)}</b></div>`:""}<div class="wm">${esc(d.m)}</div><p class="we" lang="en">${esc(d.e)}</p>`:`<div class="note">Todavía no tenemos esta palabra en el diccionario.</div><button class="ibtn" id="wsTr" style="margin-top:8px">🌐 Traducir</button><div class="wm" id="wsTrOut"></div>`}`;
+    ${d?`${d.base&&d.base!=="-"?`<div class="note">Forma base: <b lang="en">${esc(d.base)}</b></div>`:""}<div class="wm">${esc(d.m)}</div><p class="we" lang="en">${esc(d.e)}</p>`:`<div class="note">Todavía no tenemos esta palabra en el diccionario.</div><button class="ibtn" id="wsTr" style="margin-top:8px">🌐 Traducir</button><div class="wm" id="wsTrOut"></div>`}
+    <button class="ibtn" id="wsWhy" style="margin:8px 0 0">🧠 ¿Por qué la frase está así?</button>`;
   document.body.appendChild(el);
   if($("wsTr"))$("wsTr").onclick=async()=>{$("wsTrOut").textContent="Traduciendo…";const r=await translateText(t.w,"en","es");$("wsTrOut").textContent=r.t+(r.offline?" (sin conexión)":"")};
+  $("wsWhy").onclick=()=>{const se=R.sents.find((x,i)=>t.s>=x.s&&(i===R.sents.length-1||t.s<R.sents[i+1].s));el.remove();gramAsk((se?se.t:t.w).trim(),t.w)};
   $("wsPlay").onclick=()=>speakTTS(t.w+(d?". "+d.e:""));$("wsX").onclick=()=>{el.remove();$("rText")&&$("rText").querySelectorAll(".w.sel").forEach(x=>x.classList.remove("sel"))};
   speakTTS(t.w);
 }
@@ -2068,9 +2088,9 @@ async function translateText(text,from,to){
     if(from==="en"){const d=dictLookup(w)||dictLookup(w.toLowerCase());return d?d.m.split(/[,;]/)[0].replace(/\(.*?\)/g,"").trim():w}
     const f=fold(w),hit=allWords().find(x=>x.fm.split(/[,;(]/).some(p=>p.trim()===f));return hit?hit.w:w}).join("");
   return{t,offline:true}}
-function toolsOpen(tab){if($("tPanel").hidden&&TP){TP.q="";TP.src=""}$("tPanel").hidden=false;$("tFab").setAttribute("aria-expanded","true");toolTab(tab||(TP&&TP.tab)||"dict")}
+function toolsOpen(tab){if($("tPanel").hidden&&TP){TP.q="";TP.src="";TP.g=""}$("tPanel").hidden=false;$("tFab").setAttribute("aria-expanded","true");toolTab(tab||(TP&&TP.tab)||"dict")}
 function toolsClose(){$("tPanel").hidden=true;$("tFab").setAttribute("aria-expanded","false")}
-function toolTab(tab){TP=TP||{from:"es",q:"",src:""};TP.tab=tab;
+function toolTab(tab){TP=TP||{from:"es",q:"",src:"",g:""};TP.tab=tab;$("tPanel").classList.toggle("wide",tab==="gram");
   document.querySelectorAll("#tPanel .ttabs [data-tab]").forEach(b=>b.classList.toggle("on",b.dataset.tab===tab));
   const tb=$("tBody");
   if(tab==="dict"){
@@ -2105,6 +2125,7 @@ function toolTab(tab){TP=TP||{from:"es",q:"",src:""};TP.tab=tab;
       $("trMic").textContent="🎤 Escuchando…";rc.onresult=e=>{inp.value=(inp.value?inp.value+" ":"")+e.results[0][0].transcript;TP.src=inp.value};
       rc.onend=()=>{$("trMic").textContent="🎤 Dictar";if(inp.value.trim())$("trGo").click()};rc.start()}catch(e){}};
     inp.focus();return}
+  if(tab==="gram"){gramTab(tb);return}
   if(tab==="voice"){const vs=enVoices().filter(v=>voiceScore(v)>-50),cur=mainVoice();
     tb.innerHTML=`<p style="margin:0">Elige la voz que más te guste. Las primeras son las más naturales de tu aparato.</p>
       <div class="vlist">${vs.length?vs.slice(0,14).map((v,i)=>`<label class="${i===0?"best":""}"><input type="radio" name="vv" value="${esc(v.voiceURI)}" ${cur===v?"checked":""}><span style="flex:1">${esc(v.name.replace(/^Microsoft /,"").replace(/ Online \(Natural\)/," ✨").replace(/ - English.*/,""))}<br><small>${esc(v.lang)}${voiceScore(v)>=60?" · muy natural":""}</small></span><button class="ibtn" type="button" data-try="${i}">▶ Probar</button></label>`).join("")
@@ -2114,8 +2135,103 @@ function toolTab(tab){TP=TP||{from:"es",q:"",src:""};TP.tab=tab;
     tb.querySelectorAll("input[name=vv]").forEach(r=>r.onchange=()=>{try{localStorage.setItem(VKEY,r.value)}catch(e){}});
     return}
 }
+/* ================= buscador de gramática ================= */
+const GRAM_EX=["I want to buy a new car.","I went to the store to buy milk.","She doesn't like coffee.","I have lived here for five years.","If I had money, I would travel.","I'm used to working late.","He told me to wait."];
+function lessonById(id){const S=window.SYLLABUS||{};for(let L=0;L<6;L++){const sy=S[L];if(!sy)continue;for(let u=0;u<sy.units.length;u++){const k=sy.units[u].lessons.findIndex(l=>l.id===id);if(k>=0)return{L,u,k,les:sy.units[u].lessons[k]}}}return null}
+function goLesson(id){const h=lessonById(id);if(!h)return;
+  if(OV==="exam"){alert("Termina primero el examen que tienes abierto.");return}
+  const key=lesKey(h.L,h.u,h.k);
+  if(!stepOpen(h.L,key)){alert(`Esta lección es del nivel ${LV[h.L].k} y todavía no está abierta para ti. Se abre cuando llegues a ella en tu ruta.`);return}
+  toolsClose();openLevel(h.L);if(OV==="level")lessonView(h.L,h.u,h.k)}
+function gramLesLink(id){const h=id&&lessonById(id);return h?`<button class="glink" data-les="${esc(id)}">📘 Estúdialo en la lección «${esc(h.les.title)}» · ${LV[h.L].k}</button>`:""}
+function gramCleanInput(t){t=String(t||"").trim();const q=t.match(/[«"“']([^«»"“”']{3,})[»"”']/);if(q&&/[a-z]/i.test(q[1])&&!/[ñáéíóú¿¡]/i.test(q[1]))return q[1].trim();
+  return t.replace(/^\s*(¿|por\s*qu[eé]|porque|qu[eé]\s+significa|c[oó]mo\s+se\s+dice|expl[ií]came|se\s+dice|en\s+la\s+frase|la\s+frase|est[aá]\s+bien|es\s+correcto)[\s:,¿]*/gi,"").replace(/^\s*(por\s*qu[eé]|se\s+dice|la\s+frase|est[aá]\s+bien)[\s:,]*/gi,"").replace(/\?+$/,t.trim().startsWith("¿")?"":"?").trim()}
+const GRAM_ES=new Set("que qué el la los las de del con para por una un unos unas es son como cómo cuando cuándo se usa usan usar uso dice dicen decir significa significan en esta este esa ese estas frase frases oración palabra palabras porque porqué y o u lleva llevan va van aquí ahí mi tu su sus lo le les al hay entre diferencia hace hacer pongo pone ponen escribe escribir explica explícame explicame mejor regla reglas tiene tienen sirve sirven cual cuál cuáles después antes delante ejemplo ahi aqui yo sé se sabe entiendo entender".split(" "));
+function gramExtract(text){
+  const q=text.match(/[«"“']([^«»"“”']{2,})[»"”']/g)||[];
+  const toks=text.replace(/[¿?¡!«»"“”]/g," ").split(/\s+/).filter(Boolean);
+  const isEs=w=>{const f=w.toLowerCase().replace(/[.,;:]+$/,"");return GRAM_ES.has(f)||/[ñáéíóú]/i.test(f)};
+  const runs=[];let cur=[];toks.forEach(w=>{if(isEs(w)){if(cur.length)runs.push(cur);cur=[]}else cur.push(w)});if(cur.length)runs.push(cur);
+  const quoted=q.map(x=>x.slice(1,-1).trim());
+  let sent=quoted.find(x=>x.split(/\s+/).length>=3)||"",focus="";
+  if(!sent){const best=runs.slice().sort((a,b)=>b.length-a.length)[0];if(best&&best.length>=3)sent=best.join(" ").replace(/[,;:]+$/,"")}
+  const smalls=quoted.filter(x=>x.split(/\s+/).length<3).concat(runs.filter(r=>r.length<3&&r.join(" ")!==sent).map(r=>r.join(" ")));
+  if(sent)focus=(smalls.find(x=>new RegExp("\\b"+x.replace(/[^a-z' ]/gi,"")+"\\b","i").test(sent))||"").trim();
+  return{sent,focus,anyEs:toks.some(isEs)}}
+function gramAIprompt(sent,focus){const L=(()=>{try{const st=curStudent(),p=placedOf(st);return p!=null?LV[p].k:"principiante"}catch(e){return"principiante"}})();
+  return `Eres una profesora de inglés paciente que le explica a un hispanohablante de nivel ${L}. Explícame de forma natural, clara y con ejemplos por qué esta frase en inglés está construida así${focus?`, sobre todo la palabra «${focus}»`:""}: "${sent}". Dime qué regla se aplica, por qué en inglés es así aunque en español se diga distinto, y dame 3 ejemplos parecidos con su traducción. Si la frase tiene un error, corrígela y explica el porqué.`}
+function gramTab(tb){
+  tb.innerHTML=`<label for="gQ" style="font-weight:700;display:block;margin-bottom:6px">Escribe o pega una frase en inglés y te explico por qué está construida así</label>
+    <textarea id="gQ" placeholder="Ejemplo: I want to buy a new car." style="min-height:70px">${esc(TP.g||"")}</textarea>
+    <div class="trow"><button class="ibtn" id="gMic">🎤 Dictar</button><span style="flex:1"></span><button class="btn sun" id="gGo">Explicar</button></div>
+    <div id="gOut" aria-live="polite"></div>`;
+  const inp=$("gQ"),SR=window.SpeechRecognition||window.webkitSpeechRecognition;
+  inp.oninput=()=>{TP.g=inp.value};
+  inp.onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();$("gGo").click()}};
+  $("gGo").onclick=()=>gramRun(inp.value);
+  if(!SR)$("gMic").hidden=true;else $("gMic").onclick=()=>{try{const rc=new SR();rc.lang="en-US";rc.interimResults=false;$("gMic").textContent="🎤 Escuchando…";
+    rc.onresult=e=>{inp.value=e.results[0][0].transcript;TP.g=inp.value};rc.onend=()=>{$("gMic").textContent="🎤 Dictar";if(inp.value.trim())gramRun(inp.value)};rc.start()}catch(e){}};
+  if((TP.g||"").trim())gramRun(TP.g,TP.gf);else gramEmpty();
+  inp.focus()}
+function gramEmpty(){const o=$("gOut");if(!o)return;
+  o.innerHTML=`<p class="tnote">También puedes escribir una sola palabra que te confunda (<b lang="en">to</b>, <b lang="en">for</b>, <b lang="en">get</b>, <b lang="en">would</b>…) o un tema (<i>presente perfecto</i>, <i>condicionales</i>). Prueba con uno de estos:</p>
+    <div class="gex">${GRAM_EX.map((x,i)=>`<button data-gx="${i}" lang="en">${esc(x)}</button>`).join("")}</div>`;
+  o.querySelectorAll("[data-gx]").forEach(b=>b.onclick=()=>{$("gQ").value=GRAM_EX[+b.dataset.gx];TP.g=$("gQ").value;gramRun(TP.g)})}
+function gramGuideHTML(g){return `<div class="gcard on gguide"><h4>${esc(g.t)}</h4><p>${g.h}</p><ul>${g.li.map(([a,b,c])=>`<li><b>${esc(a)}</b>${b?`: ${esc(b)}`:""}<br><i lang="en">${esc(c)}</i></li>`).join("")}</ul>${g.tip?`<p>💡 ${g.tip}</p>`:""}${gramLesLink(g.les)}</div>`}
+function gramRun(raw,focusTi){
+  const o=$("gOut");if(!o)return;TP.g=raw;TP.gf=focusTi;
+  let text=gramCleanInput(raw);if(!text){gramEmpty();return}
+  const ex=gramExtract(raw);let fWord="";if(ex.anyEs&&ex.sent){text=ex.sent;fWord=ex.focus}
+  const words=text.match(/[A-Za-z']+/g)||[],es=/[ñáéíóú¿¡]/i.test(text)||/\b(que|el|la|los|las|de|con|para|por|una|es|del|como|cuando|presente|pasado|futuro|condicional|verbo|verbos|gramatica|gramática|diferencia|entre)\b/i.test(text);
+  /* una sola palabra o un tema */
+  if(words.length<=2||(es&&!ex.sent)){const g=words.length===1&&GRAM.wordGuide(words[0]),ts=GRAM.topics(text);
+    if(g||ts.length||es){
+      const d=words.length===1&&!g?dictLookup(words[0]):null;
+      o.innerHTML=(g?gramGuideHTML(g):"")+(d?`<div class="gword"><b lang="en">${esc(words[0])}</b> <small>${esc(d.pos||"")}</small><span class="gmean">${esc(d.m)}</span>${d.e?`<i lang="en">${esc(d.e)}</i>`:""}</div>`:"")+
+        (ts.length?`<p class="tnote" style="margin-top:12px">Lecciones del curso sobre «${esc(text)}»:</p>`+ts.map(id=>`<div>${gramLesLink(id)}</div>`).join(""):"")+
+        (!g&&!ts.length?`<p class="tnote">No encontré un tema con ese nombre. Escribe la frase en inglés que te genera la duda, por ejemplo <i lang="en">I want to go</i>.</p>`:"")+
+        `<p class="tnote" style="margin-top:12px">💡 Para que te explique una frase concreta, escríbela completa en inglés.</p>`;
+      gramBind(o);return}}
+  const r=GRAM.analyze(text,{lookup:dictLookup});
+  const sentHTML=`<div class="gsent" lang="en">${r.toks.map((t,i)=>t.word?`<button data-ti="${i}">${esc(t.t)}</button>`:`<span>${esc(t.t)}</span>`).join("")}<button class="ibtn" id="gSay" aria-label="Escuchar la frase" style="border:0">🔊</button></div><div class="gtr" id="gTr"></div>`;
+  const cards=r.cards;
+  o.innerHTML=sentHTML+`<p class="tnote" style="margin:0 0 6px">Toca una palabra para ver qué papel cumple, o toca una explicación para ver a qué parte de la frase se refiere.</p><div id="gWord"></div>`+
+    (cards.length?cards.map((c,i)=>`<div class="gcard${c.warn?" warn":""}" data-c="${i}"><h4>${c.warn?"⚠️ ":""}${esc(c.t)}<small>${esc(c.lv||"")}</small></h4><p>${c.h}</p>${c.f?`<div class="gform">Fórmula: <code lang="en">${esc(c.f)}</code></div>`:""}${gramLesLink(c.les)}</div>`).join("")
+      :`<div class="gcard"><h4>No encontré una estructura especial</h4><p>Esta frase parece seguir el orden básico del inglés: <b>sujeto + verbo + complemento</b>. Toca cada palabra para ver su significado y su papel, o usa el botón de abajo para preguntarle a una IA.</p></div>`)+
+    `<div class="gai"><b>¿Te queda alguna duda?</b> Copia esta pregunta y pégala en ChatGPT o Gemini (gratis): ya va armada para que te expliquen esta frase como una profe.
+      <div class="trow"><button class="ibtn" id="gAIcopy">📋 Copiar pregunta</button><a class="ibtn" href="https://chatgpt.com/" target="_blank" rel="noopener">Abrir ChatGPT</a><a class="ibtn" href="https://gemini.google.com/" target="_blank" rel="noopener">Abrir Gemini</a></div></div>`;
+  $("gSay").onclick=()=>sayEN(text);
+  translateText(text,"en","es").then(t=>{const el=$("gTr");if(el&&TP.g===raw)el.textContent="Significa: «"+t.t+"»"+(t.offline?" (aproximado, sin conexión)":"")}).catch(()=>{});
+  const hl=(a,b)=>o.querySelectorAll(".gsent [data-ti]").forEach(x=>{const k=+x.dataset.ti;x.classList.toggle("hl",a!=null&&k>=a&&k<=b)});
+  o.querySelectorAll(".gcard[data-c]").forEach(el=>el.onclick=e=>{if(e.target.closest(".glink"))return;const c=cards[+el.dataset.c];o.querySelectorAll(".gcard").forEach(x=>x.classList.toggle("on",x===el));c.ti?hl(c.ti[0],c.ti[1]):hl(null)});
+  let focusWord="";
+  const pickWord=(ti,all)=>{const role=GRAM.wordRole(r.X,r.toks,ti);focusWord=r.toks[ti].t;const lw=focusWord.toLowerCase();
+    const tis=all?r.toks.map((t,k)=>t.t.toLowerCase()===lw?k:-1).filter(k=>k>=0):[ti];
+    o.querySelectorAll(".gsent [data-ti]").forEach(x=>x.classList.toggle("sel",tis.includes(+x.dataset.ti)));
+    const rel=cards.map((c,i)=>c.ti&&tis.some(t=>t>=c.ti[0]&&t<=c.ti[1])?i:-1).filter(i=>i>=0);
+    const g=GRAM.wordGuide(r.toks[ti].t);
+    $("gWord").innerHTML=`<div class="gword"><b lang="en" style="font-size:17px">${esc(r.toks[ti].t)}</b> <button class="ibtn" id="gWsay" aria-label="Escuchar">🔊</button><br>${role&&role.html?role.html:""}
+      ${rel.length?`<div style="margin-top:6px">👇 Esta palabra hace parte de: ${rel.map(i=>`<button class="glink" data-goc="${i}">${esc(cards[i].t)}</button>`).join(" · ")}</div>`:""}
+      ${g?`<div style="margin-top:6px"><button class="glink" id="gWguide">Ver todos los usos de «${esc(r.toks[ti].t.toLowerCase())}»</button></div>`:""}</div>`;
+    $("gWsay").onclick=()=>sayEN(r.toks[ti].t);
+    if($("gWguide"))$("gWguide").onclick=()=>{$("gWord").insertAdjacentHTML("beforeend",gramGuideHTML(g));$("gWguide").remove();gramBind($("gWord"))};
+    $("gWord").querySelectorAll("[data-goc]").forEach(b=>b.onclick=()=>{const el=o.querySelector(`.gcard[data-c="${b.dataset.goc}"]`);el.click();el.scrollIntoView({behavior:"smooth",block:"nearest"})});
+    rel.forEach(i=>{const el=o.querySelector(`.gcard[data-c="${i}"]`);if(el)el.classList.add("on")});o.querySelectorAll(".gcard[data-c]").forEach(el=>{if(!rel.includes(+el.dataset.c))el.classList.remove("on")});
+    if(rel.length){const c=cards[rel[0]];hl(c.ti[0],c.ti[1])}else hl(null)};
+  o.querySelectorAll(".gsent [data-ti]").forEach(b=>b.onclick=()=>pickWord(+b.dataset.ti));
+  $("gAIcopy").onclick=()=>{const t=gramAIprompt(text,focusWord);try{navigator.clipboard.writeText(t).then(()=>{$("gAIcopy").textContent="Copiada ✓ pégala en el chat"},()=>prompt("Copia esta pregunta:",t))}catch(e){prompt("Copia esta pregunta:",t)}};
+  gramBind(o);
+  if(focusTi==null&&fWord){const fw=fWord.toLowerCase().split(/\s+/)[0];const k=r.toks.findIndex(t=>t.t.toLowerCase()===fw);if(k>=0)focusTi=k}
+  if(focusTi!=null&&r.toks[focusTi])pickWord(focusTi,!!fWord);
+  const tb=$("tBody");if(tb&&tb.scrollTop<o.offsetTop-80&&innerWidth<700)tb.scrollTo({top:o.offsetTop-12,behavior:"smooth"});
+}
+function gramBind(root){root.querySelectorAll("[data-les]").forEach(b=>b.onclick=e=>{e.stopPropagation();goLesson(b.dataset.les)})}
+/* abrir el buscador con una frase (desde las lecturas) */
+function gramAsk(sentence,word){TP=TP||{from:"es",q:"",src:"",g:""};TP.g=sentence;
+  const r=GRAM.analyze(sentence,{lookup:dictLookup});const lw=String(word||"").toLowerCase();TP.gf=r.toks.findIndex(t=>t.t.toLowerCase()===lw);if(TP.gf<0)TP.gf=null;
+  $("tPanel").hidden=false;$("tFab").setAttribute("aria-expanded","true");toolTab("gram")}
 document.body.insertAdjacentHTML("beforeend",`<button class="fab" id="tFab" aria-expanded="false" aria-controls="tPanel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></svg><span>Diccionario</span></button>
-<div class="tpanel" id="tPanel" hidden role="dialog" aria-label="Diccionario y traductor"><div class="ttabs"><button data-tab="dict">📖 Diccionario</button><button data-tab="tr">🌐 Traductor</button><button data-tab="voice">🔊 Voz</button><button class="tx" id="tClose" aria-label="Cerrar">✕</button></div><div class="tbody" id="tBody"></div></div>`);
+<div class="tpanel" id="tPanel" hidden role="dialog" aria-label="Diccionario, traductor y gramática"><div class="ttabs"><button data-tab="dict">📖 Diccionario</button><button data-tab="tr">🌐 Traductor</button><button data-tab="gram">🧠 Gramática</button><button data-tab="voice">🔊 Voz</button><button class="tx" id="tClose" aria-label="Cerrar">✕</button></div><div class="tbody" id="tBody"></div></div>`);
 $("tFab").onclick=()=>$("tPanel").hidden?toolsOpen():toolsClose();$("tClose").onclick=toolsClose;
 document.querySelectorAll("#tPanel .ttabs [data-tab]").forEach(b=>b.onclick=()=>toolTab(b.dataset.tab));
 addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("tPanel").hidden){e.stopImmediatePropagation();toolsClose()}},true);
@@ -2123,6 +2239,7 @@ addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("tPanel").hidden){e.stopI
 $("menuBtn").onclick=()=>{const n=document.querySelector("nav.main"),o=n.classList.toggle("open");$("menuBtn").setAttribute("aria-expanded",o)};
 document.querySelectorAll("nav.main .links a").forEach(a=>a.addEventListener("click",()=>{document.querySelector("nav.main").classList.remove("open");$("menuBtn").setAttribute("aria-expanded","false")}));
 $("navDict").onclick=e=>{e.preventDefault();toolsOpen("dict")};
+$("navGram").onclick=e=>{e.preventDefault();toolsOpen("gram")};
 renderWho();
 renderResults();
 render();
